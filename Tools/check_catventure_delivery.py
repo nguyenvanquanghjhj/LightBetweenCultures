@@ -51,7 +51,9 @@ def main():
     assert 'OpenCatRescueOnNextCity { get; set; }' in b
     assert 'OpenCatRescueOnNextCity=false' in city and 'OpenCatRescue();' in city
     assert 'catMapMarker.gameObject.SetActive(p?.rescued!=true)' in cat
-    assert 'catWeather.weather=AtmospherePreset()' in cat and 'catWeather.gameObject.SetActive(!dialogue&&!game.Scenes.Busy)' in cat
+    assert 'catWeather.weather=AtmospherePreset()' in cat and 'catScreenWeather.screenSpace=true' in cat
+    assert 'catWeather.gameObject.SetActive(showWeather&&' in cat and 'catScreenWeather.gameObject.SetActive(showWeather)' in cat
+    assert 'StartCoroutine(ShowStormCue());' in cat
     assert 'rewardGrantIds.Contains(key)' in source('Assets/_Game/Scripts/Content/CatRescue.cs')
     assert 'Mắt Đèn' in source('Assets/_Game/Scripts/UI/GameplayPanels.PlayerGuide.cs')
     print('PASS: 6 chapters, 24 trials, 18 supplies, maze paths, story-first menu, reset reload and secondary Catventure route.')

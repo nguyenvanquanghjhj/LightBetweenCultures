@@ -11,7 +11,10 @@ namespace LightBetweenCultures
         Text catStatus;
         Button catButton;
         RectTransform catMapMarker, catMiniPlayer, catMiniTarget;
-        CatWeatherGraphic catWeather;
+        CatWeatherGraphic catWeather, catScreenWeather;
+        RectTransform stormBanner;
+        string lastWeatherPreset;
+        bool stormCuePending;
         int catTravelTarget=-1;
         readonly List<Image> catLanternLights=new List<Image>();
         public int CatLitLanterns {get;private set;}
@@ -59,7 +62,22 @@ namespace LightBetweenCultures
             var portrait=ui.Picture(catMapMarker,"WaitingCat",CatRescueArt.Cat(game.Cats.Current.spriteIndex),Vector2.zero,Vector2.one);
             portrait.raycastTarget=false;portrait.gameObject.AddComponent<CatRescueMotion>();
             var weatherObject=new GameObject("CatCityWeather",typeof(RectTransform),typeof(CatWeatherGraphic));weatherObject.transform.SetParent(map,false);UIController.SetRect((RectTransform)weatherObject.transform,Vector2.zero,Vector2.one);weatherObject.transform.SetSiblingIndex(1);
+            // Ground-water stays on the artwork; rain/fog/wind use the fixed viewport
+            // so zooming and panning do not stretch or enlarge individual rain drops.
             catWeather=weatherObject.GetComponent<CatWeatherGraphic>();catWeather.weather=AtmospherePreset();catWeather.raycastTarget=false;
+            var screenWeatherObject=new GameObject("CatScreenWeather",typeof(RectTransform),typeof(CatWeatherGraphic));
+            screenWeatherObject.transform.SetParent(View.Viewport,false);
+            UIController.SetRect((RectTransform)screenWeatherObject.transform,Vector2.zero,Vector2.one);
+            screenWeatherObject.transform.SetAsLastSibling();
+            catScreenWeather=screenWeatherObject.GetComponent<CatWeatherGraphic>();
+            catScreenWeather.screenSpace=true;catScreenWeather.weather=AtmospherePreset();catScreenWeather.raycastTarget=false;
+            // A non-interactive, short notification when Seoul's storm actually begins.
+            stormBanner=ui.Panel(ui.Root,"SeoulStormBanner",new Vector2(.16f,.66f),new Vector2(.84f,.735f),new Color(.07f,.15f,.24f,.95f));
+            stormBanner.GetComponent<Image>().raycastTarget=false;
+            var stormWords=ui.Label(stormBanner,"StormWarning","BÃO BẤT NGỜ! Gió mạnh đang ập tới Seoul. Hãy tìm nơi trú an toàn.",new Vector2(.025f,.08f),new Vector2(.975f,.92f),19,false);
+            stormWords.color=Color.white;stormWords.alignment=TextAnchor.MiddleCenter;stormWords.raycastTarget=false;
+            stormBanner.gameObject.SetActive(false);
+            lastWeatherPreset=AtmospherePreset();
             if(game.Data.cityId=="hoi_an")
             {
                 var relic=game.Relics.Definition("relic_hoi_an_lantern");
@@ -117,6 +135,13 @@ namespace LightBetweenCultures
                 default: return "clear";        // Slide: ruins / festival, no storm
             }
         }
+        IEnumerator ShowStormCue()
+        {
+            if(stormBanner==null)yield break;
+            stormBanner.gameObject.SetActive(true);
+            yield return new WaitForSecondsRealtime(3.5f);
+            if(stormBanner!=null)stormBanner.gameObject.SetActive(false);
+        }
         void RefreshCatRescue()
         {
             if(catStatus==null)return;
@@ -128,8 +153,19 @@ namespace LightBetweenCultures
             // The waiting cat must be visible before accepting the rescue quest.
             catMapMarker.gameObject.SetActive(p?.rescued!=true);catMapMarker.localScale=Vector3.one/View.Zoom;
             catMapMarker.anchoredPosition=new Vector2(60,0)/View.Zoom;
-            catWeather.weather=AtmospherePreset();
-            catWeather.gameObject.SetActive(!dialogue&&!game.Scenes.Busy);
+            var preset=AtmospherePreset();
+            if(lastWeatherPreset!="storm"&&preset=="storm")stormCuePending=true;
+            lastWeatherPreset=preset;
+            catWeather.weather=preset;
+            catScreenWeather.weather=preset;
+            var showWeather=!dialogue&&!game.Scenes.Busy;
+            catWeather.gameObject.SetActive(showWeather&&(preset=="flood"||preset=="downpour"||catWeather.HasResidualWeather));
+            catScreenWeather.gameObject.SetActive(showWeather);
+            if(stormCuePending&&showWeather)
+            {
+                stormCuePending=false;
+                StartCoroutine(ShowStormCue());
+            }
             CatLitLanterns=p?.started==true?Mathf.CeilToInt(catLanternLights.Count*p.completed.Count/(float)c.challenges.Length):0;
             for(var i=0;i<catLanternLights.Count;i++)catLanternLights[i].gameObject.SetActive(i<CatLitLanterns);
         }

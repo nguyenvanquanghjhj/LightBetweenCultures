@@ -5,8 +5,10 @@ namespace LightBetweenCultures
 {
     /// <summary>
     /// Visual atmosphere only. No quest, save, pathing, flood collision or reward logic.
-    /// Single masked UI mesh, no textures, allocations of particles, coroutines or physics.
-    /// The CityMap places this BELOW path markers, actors and screen HUD.
+    /// Two lightweight masked UI meshes: world water and camera-space atmosphere.
+    /// No textures, allocations of particle GameObjects, physics or gameplay changes.
+    /// World water sits BELOW markers; camera weather is transparent and raycast-free,
+    /// clipped to the viewport BELOW the main HUD, with icons left readable.
     /// Slide 19: Hoi An = flooded streets; Hue = heavy rain/flood;
     /// Da Lat = fog; Seoul = sudden storm; Jeonju/Gyeongju = no rain.
     /// </summary>
@@ -15,7 +17,14 @@ namespace LightBetweenCultures
         string requested = "clear";
         string displayed = "clear";
         bool isCelebrating;
+        bool screenSpaceLayer;
+        public bool screenSpace
+        {
+            get => screenSpaceLayer;
+            set { if (screenSpaceLayer == value) return; screenSpaceLayer = value; SetVerticesDirty(); }
+        }
         float visibility;
+        public bool HasResidualWeather => visibility > .002f;
         float nextRefresh;
 
         // Kept for the existing CatRescue celebration panel.
@@ -89,28 +98,37 @@ namespace LightBetweenCultures
             switch (displayed)
             {
                 case "flood":
-                    // Hoi An: shallow flooded old town; storm itself has passed.
-                    Wash(vh, r, new Color(.13f, .30f, .40f, .028f * fade));
-                    FloodWater(vh, r, time, .70f * fade);
-                    Rain(vh, r, time, 15, .18f, .72f * fade);
+                    // Hoi An: flood-water follows the terrain, lingering drizzle follows the camera.
+                    if (screenSpaceLayer)
+                    {
+                        Wash(vh, r, new Color(.13f, .30f, .40f, .065f * fade));
+                        Rain(vh, r, time, 24, .22f, .62f * fade);
+                    }
+                    else FloodWater(vh, r, time, .85f * fade);
                     break;
                 case "downpour":
-                    // Hue: persistent rain and rising water, with calmer intervals.
-                    Wash(vh, r, new Color(.12f, .24f, .37f, .07f * fade));
-                    FloodWater(vh, r, time, 1f * fade);
-                    float pulse = .42f + .58f * (.5f + .5f * Mathf.Sin(time * .22f));
-                    Rain(vh, r, time, 62, .34f, pulse * fade);
+                    // Hue: strong but soft rain in screen-space, flood ripples attached to map.
+                    if (screenSpaceLayer)
+                    {
+                        Wash(vh, r, new Color(.12f, .24f, .37f, .12f * fade));
+                        float pulse = .75f + .25f * (.5f + .5f * Mathf.Sin(time * .22f));
+                        Rain(vh, r, time, 78, .36f, pulse * fade);
+                    }
+                    else FloodWater(vh, r, time, 1f * fade);
                     break;
                 case "mist":
-                    // Da Lat: layered low cloud, never distracting rain strips.
-                    Fog(vh, r, time, fade);
+                    // Da Lat: drifting fog travels with camera and is not zoomed by the map.
+                    if (screenSpaceLayer) Fog(vh, r, time, fade);
                     break;
                 case "storm":
-                    // Seoul: fast slanted rain, gust arcs and VERY soft lightning.
-                    Wash(vh, r, new Color(.08f, .16f, .28f, .10f * fade));
-                    Rain(vh, r, time, 76, .88f, fade);
-                    WindArcs(vh, r, time, fade);
-                    Lightning(vh, r, time, fade);
+                    // Seoul: strong diagonal squall, wind arcs and a brief localized bolt.
+                    if (screenSpaceLayer)
+                    {
+                        Wash(vh, r, new Color(.08f, .16f, .28f, .17f * fade));
+                        Rain(vh, r, time, 90, .90f, fade);
+                        WindArcs(vh, r, time, fade);
+                        Lightning(vh, r, time, fade);
+                    }
                     break;
                 // Legacy content values: neither is interpreted as a storm.
                 // The slide shows festival preparation / ruins, NOT rainfall.
@@ -179,14 +197,14 @@ namespace LightBetweenCultures
             {
                 int band = i % 3;
                 float depth = band == 0 ? .70f : band == 1 ? .88f : 1f;
-                float speed = h * (.08f + depth * .19f);
+                float speed = h * (.15f + depth * .32f) * (1f + wind * .35f);
                 float x = Mathf.Repeat(Noise(i * 5 + 2) + t * speed / w * wind * .28f, 1f);
                 float y = Mathf.Repeat(Noise(i * 7 + 11) - t * speed / h, 1f);
-                float len = h * (.009f + depth * .009f);
-                float thickness = Mathf.Max(.75f, w * (.0007f + depth * .00045f));
+                float len = h * (.007f + depth * .011f);
+                float thickness = Mathf.Max(.85f, w * (.0008f + depth * .0005f));
                 var p = new Vector2(r.xMin + x * w, r.yMin + y * h);
                 var tail = p + new Vector2(-wind * len * 1.35f, len);
-                var tint = new Color(.81f, .91f, 1f, (.04f + depth * .065f) * strength);
+                var tint = new Color(.86f, .94f, 1f, (.14f + depth * .14f) * strength);
                 SoftStroke(vh, tail, p, thickness, tint);
             }
         }
@@ -195,7 +213,7 @@ namespace LightBetweenCultures
         {
             // Decorative flood-water hint only. No fictitious player collision.
             if (visibility < .02f) return;
-            var water = new Color(.23f, .60f, .70f, .058f * visibility);
+            var water = new Color(.23f, .60f, .70f, .105f * visibility);
             Quad(vh, new Vector2(r.xMin, r.yMin),
                 new Vector2(r.xMax, r.yMin + .16f * r.height), water,
                 Alpha(water, .03f));
@@ -213,7 +231,7 @@ namespace LightBetweenCultures
                     var p1 = new Vector2(cx + rx * Mathf.Cos(ang1), cy + ry * Mathf.Sin(ang1));
                     var p2 = new Vector2(cx + rx * Mathf.Cos(ang2), cy + ry * Mathf.Sin(ang2));
                     SoftStroke(vh, p1, p2, Mathf.Max(1f, r.width * .0009f),
-                        new Color(.80f, .96f, 1f, .11f * pulse * visibility));
+                        new Color(.80f, .96f, 1f, .18f * pulse * visibility));
                 }
             }
         }
@@ -225,7 +243,7 @@ namespace LightBetweenCultures
                 float shift = Mathf.Sin(t * (.075f + .02f * k) + k * 2.1f) * .04f;
                 float baseY = .11f + k * .19f;
                 var bottom = new Color(.78f, .88f, .90f, 0f);
-                var top = new Color(.78f, .88f, .90f, (.035f + .017f * k) * fade);
+                var top = new Color(.78f, .88f, .90f, (.075f + .025f * k) * fade);
                 var a = new Vector2(r.xMin + (shift - .06f) * r.width, r.yMin + baseY * r.height);
                 var b = new Vector2(r.xMax + shift * r.width, r.yMin + (baseY + .20f) * r.height);
                 Quad(vh, a, b, bottom, top);
@@ -248,7 +266,7 @@ namespace LightBetweenCultures
                     var p = center + new Vector2(Mathf.Cos(a) * rx, Mathf.Sin(a) * ry);
                     var q = center + new Vector2(Mathf.Cos(b) * rx, Mathf.Sin(b) * ry);
                     SoftStroke(vh, p, q, Mathf.Max(1.3f, r.width * .001f),
-                        new Color(.80f, .92f, 1f, .065f * fade));
+                        new Color(.80f, .92f, 1f, .16f * fade));
                 }
             }
         }
@@ -264,7 +282,7 @@ namespace LightBetweenCultures
             var b = a + new Vector2(-.012f * r.width, -.035f * r.height);
             var c = b + new Vector2(.019f * r.width, -.023f * r.height);
             var d = c + new Vector2(-.011f * r.width, -.042f * r.height);
-            var tint = new Color(.82f, .91f, 1f, .14f * fade);
+            var tint = new Color(.82f, .91f, 1f, .26f * fade);
             SoftStroke(vh, a, b, Mathf.Max(1.4f, r.width * .0012f), tint);
             SoftStroke(vh, b, c, Mathf.Max(1.4f, r.width * .0012f), tint);
             SoftStroke(vh, c, d, Mathf.Max(1.2f, r.width * .001f), tint);

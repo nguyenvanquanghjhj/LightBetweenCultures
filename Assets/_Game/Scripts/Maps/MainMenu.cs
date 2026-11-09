@@ -15,7 +15,7 @@ namespace LightBetweenCultures
             var city=game.Content.City(game.Data.cityId);
             var node=game.Save.node>=0&&game.Save.node<game.Data.nodes.Length?game.Data.nodes[game.Save.node].name:"điểm dừng đã lưu";
             ui.Say(continuing?"Tiếp tục tại "+city.name+" · "+node+".":
-                "Bạn là Lumi. Cùng các bot phục dựng những bảo vật ánh sáng, bắt đầu bằng việc tìm Cô Mai ở Hội An.");
+                "Bạn là Lumi. Hãy vượt qua các bot cản đường để phục dựng những bảo vật ánh sáng; trước tiên hãy tìm Cô Mai ở Hội An.");
             var hero = ui.Panel(ui.Root,"LumiCard",new Vector2(.12f,.51f),new Vector2(.88f,.78f),DesignKitArt.Hex("17384E"));
             hero.GetComponent<UnityEngine.UI.Image>().raycastTarget=false;
             UIController.Border(hero,DesignKitArt.Teal);
@@ -24,9 +24,10 @@ namespace LightBetweenCultures
             ui.Button(ui.Root,"Start",continuing?"TIẾP TỤC HÀNH TRÌNH":"BẮT ĐẦU PHIÊU LƯU",new Vector2(.15f,.20f),new Vector2(.85f,.30f), () =>
             {
                 if(continuing) { game.Scenes.OpenWorld(); return; }
-                if(firstVisit) { new GameplayPanels(ui,game,DesignKitArt.Load(),null,null).ShowFirstAdventureIntro(0,true); return; }
-                // Replay after an intro skip/completion, with no save state yet.
-                game.OpenCatRescueOnNextCity=true;
+                if(firstVisit) { game.OpenCatRescueOnNextCity=false; new GameplayPanels(ui,game,DesignKitArt.Load(),null,null).ShowFirstAdventureIntro(0,true); return; }
+                // A returning first-time player without quest progress resumes the
+                // MAIN bot/relic story, never auto-opens the optional cat quest.
+                game.OpenCatRescueOnNextCity=false;
                 game.Scenes.Go("CityMap");
             });
             ui.Button(ui.Root,"CatventureStart","CATVENTURE · GIẢI CỨU MÈO "+game.Cats.RescuedCount+"/6",

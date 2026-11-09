@@ -30,7 +30,7 @@ namespace LightBetweenCultures
             page=Mathf.Clamp(page,0,2);
             var headings=new[]{"Mình là Lumi", "Chúng ta đang ở Hội An", "Nhiệm vụ đầu tiên"};
             var descriptions=new[]{
-                "Mình là Lumi, chú gà nhỏ mang chiếc đèn ánh sáng. Cùng các bot, mình kết nối những câu chuyện văn hóa Việt Nam - Hàn Quốc và phục dựng sáu bảo vật.",
+                "Mình là Lumi, chú gà mang chiếc đèn ánh sáng. Các bot đang cản trở hành trình kết nối Việt Nam - Hàn Quốc. Mình cần đối đầu hoặc hóa giải chúng, rồi phục dựng sáu bảo vật văn hóa.",
                 "Đêm hội ở Hội An vừa gặp mưa. Những ngọn đèn dẫn đường cần được khôi phục; nhiệm vụ đầu tiên là tìm Cô Mai để nghe cô kể về bảo vật đang thất lạc.",
                 "Hãy gặp Cô Mai ở Hội An, nhận việc tìm Mắt Đèn và tiếp tục tuyến truyện chính. Cứu mèo là hoạt động phụ, có thể khám phá riêng sau đó."
             };
