@@ -32,9 +32,17 @@ namespace LightBetweenCultures
                 var ar=(RectTransform)audio.transform;ar.anchorMin=ar.anchorMax=Vector2.zero;ar.offsetMin=new Vector2(242,91);ar.offsetMax=new Vector2(294,143);
                 var label=audio.GetComponentInChildren<Text>();label.text="Âm\nthanh";label.fontSize=13;mapControls.Add(audio);
             }
-            var mini=MobileUI.Button(ui,View.Viewport,"CatMiniMap","",Vector2.one,Vector2.one,()=>{if(!dialogue&&!Moving)FocusLocation(game.Cats.TargetIndex()>=0?game.Cats.TargetIndex():game.Save.node);},illustrated:true);
-            var mr=(RectTransform)mini.transform;mr.offsetMin=new Vector2(-116,-94);mr.offsetMax=new Vector2(-12,-12);mini.transform.Find("Label").gameObject.SetActive(false);
-            var preview=ui.Panel(mini.transform,"MiniMapImage",new Vector2(.04f,.06f),new Vector2(.96f,.94f),DesignKitArt.Cream);preview.GetComponent<Image>().raycastTarget=false;
+            var mini=MobileUI.Button(ui,View.Viewport,"CatMiniMap","",Vector2.one,Vector2.one,()=>
+            {
+                if(dialogue||Moving)return;
+                var target=game.Cats.TargetIndex();
+                if(target>=0)StartCoroutine(CatTravel(target));
+                else OpenCatRescue();
+            },illustrated:true);
+            var mr=(RectTransform)mini.transform;mr.offsetMin=new Vector2(-142,-126);mr.offsetMax=new Vector2(-12,-12);mini.transform.Find("Label").gameObject.SetActive(false);
+            var preview=ui.Panel(mini.transform,"MiniMapImage",new Vector2(.06f,.25f),new Vector2(.94f,.95f),DesignKitArt.Cream);preview.GetComponent<Image>().raycastTarget=false;
+            var routeLabel=ui.Label(mini.transform,"MiniMapRouteHint","ĐI ĐẾN MỤC TIÊU",new Vector2(.02f,.02f),new Vector2(.98f,.24f),12,false);
+            routeLabel.color=DesignKitArt.Ink;routeLabel.raycastTarget=false;
             var graph=new GameObject("MiniMapRoads",typeof(RectTransform),typeof(CatMiniMapGraphic)).GetComponent<CatMiniMapGraphic>();graph.transform.SetParent(preview,false);UIController.SetRect(graph.rectTransform,Vector2.zero,Vector2.one);graph.game=game;graph.raycastTarget=false;
             catMiniTarget=ui.Picture(preview.transform,"MiniMapTarget",PresentationShapes.WarmGlow,Vector2.zero,Vector2.zero).rectTransform;catMiniTarget.sizeDelta=new Vector2(16,16);catMiniTarget.GetComponent<Image>().color=DesignKitArt.Gold;
             catMiniPlayer=ui.Picture(preview.transform,"MiniMapLumi",PresentationShapes.WarmGlow,Vector2.zero,Vector2.zero).rectTransform;catMiniPlayer.sizeDelta=new Vector2(11,11);catMiniPlayer.GetComponent<Image>().color=DesignKitArt.Teal;

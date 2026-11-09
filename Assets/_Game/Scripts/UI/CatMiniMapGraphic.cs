@@ -17,14 +17,25 @@ namespace LightBetweenCultures
             {
                 if(!game.Data.navigation.EdgeOpen(edge,game.Save))continue;
                 var points=edge.points;if(points==null)continue;
-                for(var i=1;i<points.Length;i++)Line(vh,points[i-1],points[i],1.2f,new Color(.23f,.48f,.45f,.85f));
+                for(var i=1;i<points.Length;i++)Line(vh,points[i-1],points[i],2f,new Color(.23f,.48f,.45f,.70f));
+            }
+            var destination=game.Cats?.TargetIndex()??-1;
+            if(destination>=0&&game.Save.node>=0)
+            {
+                var route=game.Data.FindRoute(game.Save.node,destination,game.Save);
+                if(route!=null)foreach(var leg in route.legs)
+                {
+                    var segment=leg.Points;
+                    for(var k=1;k<segment.Count;k++)
+                        Line(vh,segment[k-1],segment[k],3.5f,new Color(.94f,.58f,.19f,.95f));
+                }
             }
             for(var i=0;i<game.Data.nodes.Length;i++)
             {
                 if(!game.Discovery.IsVisible(i))continue;
-                var p=game.Data.nodes[i].position;var r=rectTransform.rect;var center=r.min+Vector2.Scale(p,r.size);
+                var p=CityRouteGeometry.Arrival(game.Data.nodes[i]);var r=rectTransform.rect;var center=r.min+Vector2.Scale(p,r.size);
                 var start=vh.currentVertCount;vh.AddVert(center,DesignKitArt.Teal,Vector2.zero);
-                for(var j=0;j<10;j++){var a=j*Mathf.PI*2/10;vh.AddVert(center+new Vector2(Mathf.Cos(a),Mathf.Sin(a))*1.8f,DesignKitArt.Teal,Vector2.zero);}
+                for(var j=0;j<10;j++){var a=j*Mathf.PI*2/10;vh.AddVert(center+new Vector2(Mathf.Cos(a),Mathf.Sin(a))*2.4f,DesignKitArt.Teal,Vector2.zero);}
                 for(var j=0;j<10;j++)vh.AddTriangle(start,start+j+1,start+(j+1)%10+1);
             }
         }

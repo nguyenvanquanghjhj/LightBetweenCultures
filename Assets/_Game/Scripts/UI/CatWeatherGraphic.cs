@@ -3,39 +3,55 @@ using UnityEngine.UI;
 
 namespace LightBetweenCultures
 {
-    // Light, non-interactive local weather. No full-screen opaque fog or input layer.
+    // Static low-opacity local atmosphere. No full-screen rain needles, floating
+    // points, vertical strips or per-frame UI mesh regeneration over readable maps.
     public sealed class CatWeatherGraphic : MaskableGraphic
     {
-        public string weather;
-        public bool celebration;
-        float nextFrame;
-        void Update()
+        string currentWeather;
+        bool isCelebrating;
+        public string weather
         {
-            if(Time.unscaledTime<nextFrame)return;
-            nextFrame=Time.unscaledTime+.05f;SetVerticesDirty();
+            get => currentWeather;
+            set { if(currentWeather!=value) { currentWeather=value; SetVerticesDirty(); } }
+        }
+        public bool celebration
+        {
+            get => isCelebrating;
+            set { if(isCelebrating!=value) { isCelebrating=value; SetVerticesDirty(); } }
         }
         protected override void OnPopulateMesh(VertexHelper vh)
         {
-            vh.Clear();var r=rectTransform.rect;
-            var active=NodeMarkerView.MotionMode==MarkerMotionMode.Full;
-            var t=active?Time.unscaledTime:0;
-            if(!active&&!celebration)return;
-            var count=celebration?28:weather=="mist"?8:20;
-            for(var i=0;i<count;i++)
+            vh.Clear();
+            var r=rectTransform.rect;
+            // Gentle broad bands are a background tint, not moving obstacles.
+            if(isCelebrating)
             {
-                var x=Mathf.Repeat(i*.618034f+t*(weather=="wind"?.06f:.007f),1);
-                var y=Mathf.Repeat(i*.381966f-t*(celebration?.13f:weather=="rain"?.27f:.025f),1);
-                var p=r.min+Vector2.Scale(new Vector2(x,y),r.size);
-                var tint=celebration?Color.HSVToRGB((i*.12f)%1,.4f,1):weather=="rain"?new Color(.7f,.89f,1,.24f):weather=="mist"?new Color(.88f,.95f,1,.035f):new Color(1,.85f,.53f,.40f);
-                var size=weather=="mist"&&!celebration?new Vector2(r.width*.7f,22):weather=="rain"&&!celebration?new Vector2(1.2f,15):weather=="wind"&&!celebration?new Vector2(18,1.2f):new Vector2(4,4);
-                Quad(vh,p,size,tint);
+                Band(vh,r,0,.08f,new Color(1f,.77f,.32f,.07f));
+                Band(vh,r,.92f,1,new Color(1f,.77f,.32f,.07f));
+            }
+            else if(currentWeather=="rain")
+            {
+                Band(vh,r,0,.11f,new Color(.39f,.63f,.84f,.055f));
+                Band(vh,r,.88f,1,new Color(.48f,.70f,.87f,.023f));
+            }
+            else if(currentWeather=="mist")
+            {
+                Band(vh,r,0,.16f,new Color(.77f,.88f,.91f,.065f));
+            }
+            else if(currentWeather=="wind")
+            {
+                Band(vh,r,.90f,1,new Color(.96f,.87f,.72f,.025f));
             }
         }
-        static void Quad(VertexHelper vh,Vector2 p,Vector2 size,Color tint)
+        static void Band(VertexHelper vh,Rect r,float low,float high,Color tint)
         {
+            var a=new Vector2(r.xMin,r.yMin+r.height*low);
+            var b=new Vector2(r.xMax,r.yMin+r.height*high);
             var i=vh.currentVertCount;
-            vh.AddVert(p,tint,Vector2.zero);vh.AddVert(p+Vector2.right*size.x,tint,Vector2.zero);
-            vh.AddVert(p+size,tint,Vector2.zero);vh.AddVert(p+Vector2.up*size.y,tint,Vector2.zero);
+            vh.AddVert(new Vector3(a.x,a.y,0f),tint,Vector2.zero);
+            vh.AddVert(new Vector3(b.x,a.y,0f),tint,Vector2.zero);
+            vh.AddVert(new Vector3(b.x,b.y,0f),tint,Vector2.zero);
+            vh.AddVert(new Vector3(a.x,b.y,0f),tint,Vector2.zero);
             vh.AddTriangle(i,i+1,i+2);vh.AddTriangle(i,i+2,i+3);
         }
     }

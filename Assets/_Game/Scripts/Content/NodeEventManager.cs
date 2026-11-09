@@ -110,8 +110,17 @@ namespace LightBetweenCultures
                         if(definition.alternateSteps>0)
                         {
                             var step=PreparationCount(definition);
-                            view.text+="\nBẫy sáng: "+step+" / "+definition.alternateSteps+" tấm phản quang.";
-                            view.options.Add(new EventOption("prepare",definition.alternateText,available));
+                            view.text+="\nBẫy phản quang: "+step+" / "+definition.alternateSteps+" gương đã căn.";
+                            if(definition.id=="enemy_glass_thief" && definition.alternateSteps==2)
+                            {
+                                view.text+=step==0
+                                    ? "\nĐÈN → GƯƠNG 1 → [GƯƠNG 2 Ở PHÍA TRÊN]. Chọn hướng phản xạ để tia đến gương 2."
+                                    : "\nGƯƠNG 2 → [BOT Ở PHÍA DƯỚI]. Chọn hướng tia để khóa đường thoát. Chọn sai không được tính tiến độ.";
+                                view.options.Add(new EventOption("reflect:up","Chiếu chéo lên",available));
+                                view.options.Add(new EventOption("reflect:straight","Chiếu thẳng",available));
+                                view.options.Add(new EventOption("reflect:down","Chiếu chéo xuống",available));
+                            }
+                            else view.options.Add(new EventOption("prepare",definition.alternateText,available));
                         }
                         if (!string.IsNullOrEmpty(definition.alternateFlag) || !string.IsNullOrEmpty(definition.alternateItemId))
                             view.options.Add(new EventOption("alternate", definition.alternateText,
@@ -220,6 +229,36 @@ namespace LightBetweenCultures
                 return result;
             }
             var before=game.Content.items.ToDictionary(i=>i.id,i=>game.Inventory.Count(i.id));
+            // Validate reflection at gameplay layer, not only in UI. A
+            // repeated click or an incorrect angle must not grant the bot loot.
+            if(optionId.StartsWith("reflect:",StringComparison.Ordinal))
+            {
+                if(definition.type!="encounter" || definition.id!="enemy_glass_thief" ||
+                    definition.alternateSteps!=2 || Resolved(definition))
+                    return result;
+                var stage=PreparationCount(definition);
+                var required=stage==0?"reflect:up":"reflect:down";
+                if(stage>=definition.alternateSteps || optionId!=required)
+                {
+                    result.message="Tia chưa chạm mục tiêu. Quan sát hướng của gương tiếp theo và thử lại; tiến độ vẫn được giữ.";
+                    return result;
+                }
+                var completedStep=stage+1;
+                game.Save.choices.Add(EncounterManager.Key(definition)+":prepare:"+completedStep);
+                result.changed=true;
+                if(completedStep==definition.alternateSteps)
+                {
+                    result.changed=encounters.Resolve(definition,definition.alternateChoice);
+                    result.receivedItems=ReceivedSince(before);
+                    result.message="Hai gương đã dẫn tia sáng tới bot. Bot rút lui và trả lại kính; không cần đánh nhau.";
+                }
+                else
+                {
+                    game.Persist();
+                    result.message="Đã căn gương 1, tia sáng tới gương 2. Chọn hướng cuối để chặn bot.";
+                }
+                return result;
+            }
             if(optionId.StartsWith("buy:"))
             {
                 var offer=Array.Find(definition.shopItems??Array.Empty<ShopOffer>(),o=>o.itemId==optionId.Substring(4));

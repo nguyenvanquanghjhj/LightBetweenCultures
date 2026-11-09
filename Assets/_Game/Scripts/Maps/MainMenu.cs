@@ -17,7 +17,7 @@ namespace LightBetweenCultures
             hero.GetComponent<UnityEngine.UI.Image>().raycastTarget=false;
             UIController.Border(hero,DesignKitArt.Teal);
             ui.Picture(hero,"CanonicalLumiPortrait",DesignKitArt.Load().lumiPortrait, new Vector2(.06f,.03f),new Vector2(.94f,.98f));
-            ui.Label(ui.Root,"CatventureBuildMark","CATVENTURE · 6 MÈO · 24 THỬ THÁCH",new Vector2(.11f,.785f),new Vector2(.89f,.835f),17,false).color=DesignKitArt.Teal;
+            ui.Label(ui.Root,"CatventureBuildMark","CATVENTURE · BẢN 1.1.3",new Vector2(.15f,.52f),new Vector2(.85f,.56f),15,false).color=DesignKitArt.Cream;
             ui.Button(ui.Root,"Start",continuing?"Tiếp tục hành trình":"Bắt đầu hành trình",new Vector2(.15f,.20f),new Vector2(.85f,.30f), () => game.Scenes.OpenWorld());
             ui.Button(ui.Root,"CatventureStart","CATVENTURE · GIẢI CỨU MÈO "+game.Cats.RescuedCount+"/6",
                 new Vector2(.15f,.315f),new Vector2(.85f,.405f), () =>
@@ -29,8 +29,11 @@ namespace LightBetweenCultures
             ui.Button(ui.Root,"MainGuide","Tôi là Lumi · Xem cách chơi",new Vector2(.15f,.415f),new Vector2(.85f,.485f),()=>new GameplayPanels(ui,game,DesignKitArt.Load(),null,null).ShowPlayerGuide());
             if(SaveSystem.RecoveryBlocked)
             {
-                ui.Root.Find("Start").GetComponent<UnityEngine.UI.Button>().interactable=false;ui.Say(SaveSystem.RecoveryMessage);
-                ui.Button(ui.Root,"RetrySave","Thử đọc lại bản lưu",new Vector2(.16f,.34f),new Vector2(.84f,.43f),()=>{game.Reload();game.Scenes.Go("Prototype");});
+                ui.Root.Find("Start").GetComponent<UnityEngine.UI.Button>().interactable=false;
+                ui.Root.Find("CatventureStart").GetComponent<UnityEngine.UI.Button>().interactable=false;
+                ui.Say(SaveSystem.RecoveryMessage);
+                ui.Root.Find("CatventureStart").gameObject.SetActive(false);
+                ui.Button(ui.Root,"RetrySave","Thử đọc lại bản lưu",new Vector2(.15f,.315f),new Vector2(.85f,.405f),()=>{game.Reload();game.Scenes.Go("Prototype");});
             }
             ui.Button(ui.Root,"Reset","Đặt lại tiến độ",new Vector2(.15f,.07f),new Vector2(.85f,.15f), () => {
                 if(ui.Root.Find("ResetConfirmation")!=null)return;

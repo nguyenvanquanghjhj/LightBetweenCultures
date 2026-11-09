@@ -59,11 +59,16 @@ namespace LightBetweenCultures
             if(Environment.GetCommandLineArgs().Contains("--dalat-battle-thief"))yield return ChapterBattle("D7",true);
             else
             {
-                yield return ChapterGo("D7");yield return ChapterChoice("prepare");
+                yield return ChapterGo("D7");
+                yield return ChapterChoice("reflect:straight");
+                Check(!game.Events.Resolved(game.Events.Definition("enemy_glass_thief"))&&!game.Inventory.Has("lan_glasses"),"Wrong mirror direction never grants loot");
+                yield return ChapterChoice("reflect:up");
                 Check(!game.Inventory.Has("lan_glasses")&&!game.Events.Resolved(game.Events.Definition("enemy_glass_thief")),"First reflector is real saved preparation, not a free completed encounter");
                 KeepSave("dalat-trap-step1");yield return Snapshot("DL-02-light-trap-first-step");
                 yield return CloseEvent();game.Reload();game.Scenes.Go("CityMap");yield return Scene("CityMap");yield return Click("Interact");
-                yield return ChapterChoice("prepare");
+                yield return ChapterChoice("reflect:up");
+                Check(!game.Events.Resolved(game.Events.Definition("enemy_glass_thief")),"Repeating first mirror direction after reload cannot bypass puzzle");
+                yield return ChapterChoice("reflect:down");
                 Check(game.Inventory.Count("lan_glasses")==1&&!game.Save.defeatedEnemies.Contains("enemy_glass_thief"),"Second actual reflector interaction recovers glasses without a battle, after save/reload");
             }
             yield return ChapterGo("D2");yield return ChapterChoice("collect:dalat_return_glasses");

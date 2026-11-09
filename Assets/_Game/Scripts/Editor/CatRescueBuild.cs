@@ -10,7 +10,7 @@ namespace LightBetweenCultures.Editor
 {
     public static class CatRescueBuild
     {
-        const string Version="1.1.2-catventure-20261109";
+        const string Version="1.1.3-catventure-20261109";
         static void Prepare()
         {
             foreach(var name in new[]{"RescueCats","DaLatStation"})
@@ -30,7 +30,7 @@ namespace LightBetweenCultures.Editor
             var args=Environment.GetCommandLineArgs();
             var opt=args.FirstOrDefault(a=>a.StartsWith("--cat-build-output="));
             var release=args.Contains("--cat-release");
-            var output=opt==null?(release?"Builds/Windows-Catventure-Visible-Release-20261109/Catventure.exe":"Builds/Windows-Catventure-Visible-20261109/Catventure.exe"):opt.Substring("--cat-build-output=".Length);
+            var output=opt==null?(release?"Builds/Windows-Catventure-Gameplay-Release-20261109/Catventure.exe":"Builds/Windows-Catventure-Gameplay-20261109/Catventure.exe"):opt.Substring("--cat-build-output=".Length);
             var oldVersion=PlayerSettings.bundleVersion;
             try
             {
@@ -51,11 +51,11 @@ namespace LightBetweenCultures.Editor
             try
             {
                 if(EditorUserBuildSettings.activeBuildTarget!=BuildTarget.Android)throw new InvalidOperationException("Android target required");
-                PlayerSettings.bundleVersion=Version;PlayerSettings.Android.bundleVersionCode=22;
+                PlayerSettings.bundleVersion=Version;PlayerSettings.Android.bundleVersionCode=23;
                 EditorUserBuildSettings.buildAppBundle=false;
                 var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{
                     scenes=EditorBuildSettings.scenes.Where(s=>s.enabled).Select(s=>s.path).ToArray(),
-                    locationPathName="Builds/Android/Catventure-Visible-20261109.apk",target=BuildTarget.Android,options=BuildOptions.None});
+                    locationPathName="Builds/Android/Catventure-Gameplay-20261109.apk",target=BuildTarget.Android,options=BuildOptions.None});
                 Record("android",report);
                 if(report.summary.result!=BuildResult.Succeeded)throw new InvalidOperationException("Catventure Android build failed");
             }
@@ -63,8 +63,8 @@ namespace LightBetweenCultures.Editor
         }
         static void Record(string platform,BuildReport report)
         {
-            Directory.CreateDirectory("Validation/Catventure-Visible-20261109");
-            File.WriteAllText("Validation/Catventure-Visible-20261109/"+platform+"-build.txt",report.summary.result+" | version="+Version+" | errors="+report.summary.totalErrors+" | bytes="+report.summary.totalSize+" | seconds="+report.summary.totalTime.TotalSeconds);
+            Directory.CreateDirectory("Validation/Catventure-Gameplay-20261109");
+            File.WriteAllText("Validation/Catventure-Gameplay-20261109/"+platform+"-build.txt",report.summary.result+" | version="+Version+" | errors="+report.summary.totalErrors+" | bytes="+report.summary.totalSize+" | seconds="+report.summary.totalTime.TotalSeconds);
         }
     }
 }
