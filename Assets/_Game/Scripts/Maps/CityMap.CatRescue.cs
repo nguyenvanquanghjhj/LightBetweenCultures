@@ -58,8 +58,8 @@ namespace LightBetweenCultures
             catMapMarker.GetComponent<Image>().raycastTarget=false;
             var portrait=ui.Picture(catMapMarker,"WaitingCat",CatRescueArt.Cat(game.Cats.Current.spriteIndex),Vector2.zero,Vector2.one);
             portrait.raycastTarget=false;portrait.gameObject.AddComponent<CatRescueMotion>();
-            var weatherObject=new GameObject("CatCityWeather",typeof(RectTransform),typeof(CatWeatherGraphic));weatherObject.transform.SetParent(View.Viewport,false);UIController.SetRect((RectTransform)weatherObject.transform,Vector2.zero,Vector2.one);
-            catWeather=weatherObject.GetComponent<CatWeatherGraphic>();catWeather.weather=game.Cats.Current.weather;catWeather.raycastTarget=false;
+            var weatherObject=new GameObject("CatCityWeather",typeof(RectTransform),typeof(CatWeatherGraphic));weatherObject.transform.SetParent(map,false);UIController.SetRect((RectTransform)weatherObject.transform,Vector2.zero,Vector2.one);weatherObject.transform.SetSiblingIndex(1);
+            catWeather=weatherObject.GetComponent<CatWeatherGraphic>();catWeather.weather=AtmospherePreset();catWeather.raycastTarget=false;
             if(game.Data.cityId=="hoi_an")
             {
                 var relic=game.Relics.Definition("relic_hoi_an_lantern");
@@ -99,6 +99,24 @@ namespace LightBetweenCultures
                 else panels.ShowCatRescue("Đường đi chưa mở hoặc có sự kiện cần giải quyết. Hãy hoàn thành nhiệm vụ tại vị trí hiện tại rồi thử lại.");
             }
         }
+        // Visual presets derived from slide 19, not from the cat rescue reward state.
+        // Main bot/relic storyline alone determines when a city's bad weather clears.
+        string AtmospherePreset()
+        {
+            var cityId=game.Data.cityId;
+            var city=game.Content.City(cityId);
+            if(city!=null&&!string.IsNullOrEmpty(city.completionFlag)&&game.World.Has(city.completionFlag))return "clear";
+            switch(cityId)
+            {
+                case "hoi_an": return "flood";    // Slide: flooded old town, rain subsiding
+                case "hue": return "downpour";   // Slide: heavy rain and flooding
+                case "da_lat": return "mist";    // Slide: fog and lost paths
+                case "seoul": return game.Discovery.Stage(cityId)>=1?"storm":"clear"; // Surprise mid-chapter
+                case "gyeongju":
+                case "jeonju":
+                default: return "clear";        // Slide: ruins / festival, no storm
+            }
+        }
         void RefreshCatRescue()
         {
             if(catStatus==null)return;
@@ -110,7 +128,8 @@ namespace LightBetweenCultures
             // The waiting cat must be visible before accepting the rescue quest.
             catMapMarker.gameObject.SetActive(p?.rescued!=true);catMapMarker.localScale=Vector3.one/View.Zoom;
             catMapMarker.anchoredPosition=new Vector2(60,0)/View.Zoom;
-            catWeather.gameObject.SetActive(p?.rescued!=true&&!dialogue);
+            catWeather.weather=AtmospherePreset();
+            catWeather.gameObject.SetActive(!dialogue&&!game.Scenes.Busy);
             CatLitLanterns=p?.started==true?Mathf.CeilToInt(catLanternLights.Count*p.completed.Count/(float)c.challenges.Length):0;
             for(var i=0;i<catLanternLights.Count;i++)catLanternLights[i].gameObject.SetActive(i<CatLitLanterns);
         }
