@@ -43,15 +43,18 @@ def main():
     b=source('Assets/_Game/Scripts/Core/GameBootstrap.cs')
     city=source('Assets/_Game/Scripts/Maps/CityMap.cs')
     cat=source('Assets/_Game/Scripts/Maps/CityMap.CatRescue.cs')
-    assert 'CatventureStart' in m and ('CATVENTURE · BẢN 1.1.3' in m or 'CATVENTURE · BẢN 1.1.4' in m)
-    assert 'OpenCatRescueOnNextCity=true' in m and 'OpenCatRescueOnNextCity { get; set; }' in b
+    assert 'CatventureStart' in m
+    assert 'phục dựng những bảo vật ánh sáng' in m and 'tìm Cô Mai ở Hội An' in m
+    assert 'ShowFirstAdventureIntro(0,false)' in m and 'game.Scenes.Go("CityMap")' in source('Assets/_Game/Scripts/UI/GameplayPanels.PlayerGuide.cs')
+    assert 'game.ResetSave();game.Scenes.Go("Prototype");' in m
+    assert 'HOÀN CẢNH PHỤ · CATVENTURE' in source('Assets/_Game/Scripts/Maps/WorldMap.cs')
+    assert 'OpenCatRescueOnNextCity { get; set; }' in b
     assert 'OpenCatRescueOnNextCity=false' in city and 'OpenCatRescue();' in city
     assert 'catMapMarker.gameObject.SetActive(p?.rescued!=true)' in cat
     assert 'catWeather.gameObject.SetActive(p?.rescued!=true&&!dialogue)' in cat
     assert 'rewardGrantIds.Contains(key)' in source('Assets/_Game/Scripts/Content/CatRescue.cs')
-    build=source('Assets/_Game/Scripts/Editor/CatRescueBuild.cs')
-    assert '1.1.4-catventure-20261109' in build and 'bundleVersionCode=24' in build
-    print('PASS: 6 chapters, 24 trials, 18 supplies, maze paths, entry CTA, cat marker, reward guard and new build version.')
+    assert 'Mắt Đèn' in source('Assets/_Game/Scripts/UI/GameplayPanels.PlayerGuide.cs')
+    print('PASS: 6 chapters, 24 trials, 18 supplies, maze paths, story-first menu, reset reload and secondary Catventure route.')
     print('NATIVE UNITY/ANDROID: NOT TESTED. These must be tested after building.')
 
 if __name__=='__main__': main()

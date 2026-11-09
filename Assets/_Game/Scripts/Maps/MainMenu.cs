@@ -15,7 +15,7 @@ namespace LightBetweenCultures
             var city=game.Content.City(game.Data.cityId);
             var node=game.Save.node>=0&&game.Save.node<game.Data.nodes.Length?game.Data.nodes[game.Save.node].name:"điểm dừng đã lưu";
             ui.Say(continuing?"Tiếp tục tại "+city.name+" · "+node+".":
-                "Bạn là Lumi. Bắt đầu ở Hội An, tìm hiểu văn hóa và giúp chú mèo đầu tiên.");
+                "Bạn là Lumi. Cùng các bot phục dựng những bảo vật ánh sáng, bắt đầu bằng việc tìm Cô Mai ở Hội An.");
             var hero = ui.Panel(ui.Root,"LumiCard",new Vector2(.12f,.51f),new Vector2(.88f,.78f),DesignKitArt.Hex("17384E"));
             hero.GetComponent<UnityEngine.UI.Image>().raycastTarget=false;
             UIController.Border(hero,DesignKitArt.Teal);
@@ -24,7 +24,7 @@ namespace LightBetweenCultures
             ui.Button(ui.Root,"Start",continuing?"TIẾP TỤC HÀNH TRÌNH":"BẮT ĐẦU PHIÊU LƯU",new Vector2(.15f,.20f),new Vector2(.85f,.30f), () =>
             {
                 if(continuing) { game.Scenes.OpenWorld(); return; }
-                if(firstVisit) { new GameplayPanels(ui,game,DesignKitArt.Load(),null,null).ShowFirstAdventureIntro(); return; }
+                if(firstVisit) { new GameplayPanels(ui,game,DesignKitArt.Load(),null,null).ShowFirstAdventureIntro(0,true); return; }
                 // Replay after an intro skip/completion, with no save state yet.
                 game.OpenCatRescueOnNextCity=true;
                 game.Scenes.Go("CityMap");
@@ -39,10 +39,10 @@ namespace LightBetweenCultures
             ui.Button(ui.Root,"MainGuide",firstVisit?"XEM TRƯỚC CÂU CHUYỆN":"Câu chuyện & cách chơi",new Vector2(.15f,.415f),new Vector2(.85f,.485f),()=>
             {
                 var guide=new GameplayPanels(ui,game,DesignKitArt.Load(),null,null);
-                if(firstVisit)guide.ShowFirstAdventureIntro();else guide.ShowPlayerGuide();
+                if(firstVisit)guide.ShowFirstAdventureIntro(0,false);else guide.ShowPlayerGuide();
             });
             // Returning players retain the direct Catventure entry. New players
-            // only see one main start button and are led to the rescue in context.
+            // only see one main start button and begin with the main story.
             if(firstVisit)ui.Root.Find("CatventureStart").gameObject.SetActive(false);
             if(SaveSystem.RecoveryBlocked)
             {
@@ -64,7 +64,7 @@ namespace LightBetweenCultures
                 if(ui.Root.Find("ResetConfirmation")!=null)return;
                 var confirm = ui.Panel(ui.Root,"ResetConfirmation",new Vector2(.06f,.22f),new Vector2(.94f,.76f),new Color(.06f,.12f,.14f));
                 ui.Label(confirm,"Prompt","Xóa TOÀN BỘ hành trình ở 6 thành phố?\n\nNhiệm vụ, vật phẩm, 6 di vật, bưu thiếp và 12 trải nghiệm sẽ bị xóa. Thao tác này không thể hoàn tác.",new Vector2(.06f,.48f),new Vector2(.94f,.94f),20);
-                ui.Button(confirm,"ConfirmReset","Xóa toàn bộ và chơi lại",new Vector2(.08f,.10f),new Vector2(.92f,.25f), () => { game.ResetSave();var start=ui.Root.Find("Start").GetComponent<UnityEngine.UI.Button>();start.interactable=true;start.GetComponentInChildren<UnityEngine.UI.Text>().text="Bắt đầu hành trình";ui.Say("Đã đặt lại toàn bộ hành trình. Lumi bắt đầu tại bến thuyền Hội An."); Destroy(confirm.gameObject); });
+                ui.Button(confirm,"ConfirmReset","Xóa toàn bộ và chơi lại",new Vector2(.08f,.10f),new Vector2(.92f,.25f), () => { game.ResetSave();game.Scenes.Go("Prototype"); });
                 ui.Button(confirm,"CancelReset","Hủy — Giữ tiến độ",new Vector2(.08f,.28f),new Vector2(.92f,.43f), () => Destroy(confirm.gameObject));
             });
         }

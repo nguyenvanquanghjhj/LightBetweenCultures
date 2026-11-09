@@ -23,21 +23,20 @@ namespace LightBetweenCultures
         }
         void EndGuide(){PlayerPrefs.SetInt(PlayerCopy.GuideKey,1);PlayerPrefs.Save();Close();}
 
-        // First-time experience: one short story, then one actionable rescue task.
+        // First-time experience: one short story, then one actionable relic task.
         // Uses only canonical sprites already shipped with the game.
-        public void ShowFirstAdventureIntro(int page=0)
+        public void ShowFirstAdventureIntro(int page=0, bool launchAdventure=true)
         {
             page=Mathf.Clamp(page,0,2);
             var headings=new[]{"Mình là Lumi", "Chúng ta đang ở Hội An", "Nhiệm vụ đầu tiên"};
             var descriptions=new[]{
-                "Mình là Lumi, chú gà nhỏ mang chiếc đèn ánh sáng. Mình muốn khám phá và kết nối những câu chuyện văn hóa Việt Nam - Hàn Quốc.",
-                "Đêm hội ở Hội An vừa gặp mưa. Những ngọn đèn dẫn đường cần được thắp lại, và có một chú mèo đang chờ được giúp đỡ.",
-                "Hãy nhận nhiệm vụ cứu mèo. Sau đó chọn mục tiêu, đi tới đúng địa điểm và hoàn thành thử thách văn hóa. Thu đủ vật dụng, vượt bốn thử thách rồi đưa mèo vào chỗ trú an toàn."
+                "Mình là Lumi, chú gà nhỏ mang chiếc đèn ánh sáng. Cùng các bot, mình kết nối những câu chuyện văn hóa Việt Nam - Hàn Quốc và phục dựng sáu bảo vật.",
+                "Đêm hội ở Hội An vừa gặp mưa. Những ngọn đèn dẫn đường cần được khôi phục; nhiệm vụ đầu tiên là tìm Cô Mai để nghe cô kể về bảo vật đang thất lạc.",
+                "Hãy gặp Cô Mai ở Hội An, nhận việc tìm Mắt Đèn và tiếp tục tuyến truyện chính. Cứu mèo là hoạt động phụ, có thể khám phá riêng sau đó."
             };
             var sheet=ActivitySheet("FirstAdventureIntro",headings[page],"LIGHT BETWEEN CULTURES · "+(page+1)+" / 3");
             Sprite picture=page==0?art.lumiPortrait:
-                page==1?AdventureUIArt.Load().City("hoi_an")?.sprite:
-                CatRescueArt.Cat(game.Cats.Current?.spriteIndex??0);
+                AdventureUIArt.Load().City("hoi_an")?.sprite;
             if(picture!=null)
             {
                 var portrait=ui.Picture(sheet,"FirstAdventureArt",picture,new Vector2(.14f,.38f),new Vector2(.86f,.79f));
@@ -52,19 +51,21 @@ namespace LightBetweenCultures
             skip.GetComponentInChildren<Text>().text="Bỏ qua";
             UIController.SetRect((RectTransform)skip.transform,new Vector2(.07f,.025f),new Vector2(.43f,.105f));
             skip.onClick.RemoveAllListeners();
-            skip.onClick.AddListener(BeginFirstAdventure);
-            var next=MobileUI.Button(ui,sheet,"FirstAdventureNext",page==2?"BẮT ĐẦU GIẢI CỨU":"TIẾP",new Vector2(.47f,.025f),new Vector2(.93f,.105f),
-                ()=>{if(page<2)ShowFirstAdventureIntro(page+1);else BeginFirstAdventure();},true,true);
+            skip.onClick.AddListener(()=>EndFirstAdventure(launchAdventure));
+            var next=MobileUI.Button(ui,sheet,"FirstAdventureNext",page==2?"BẮT ĐẦU HÀNH TRÌNH":"TIẾP",new Vector2(.47f,.025f),new Vector2(.93f,.105f),
+                ()=>{if(page<2)ShowFirstAdventureIntro(page+1,launchAdventure);else EndFirstAdventure(launchAdventure);},true,true);
             MobileUI.Cue(next,AdventureSymbol.Arrow);
         }
-        void BeginFirstAdventure()
+        void EndFirstAdventure(bool launchAdventure)
         {
             // Local UI preference only, never reset or replace player progress.
-            PlayerPrefs.SetInt(PlayerCopy.GuideKey,1);
-            PlayerPrefs.Save();
+            if(launchAdventure)
+            {
+                PlayerPrefs.SetInt(PlayerCopy.GuideKey,1);
+                PlayerPrefs.Save();
+            }
             Close();
-            if(SaveSystem.RecoveryBlocked)return; // Do not bypass recovery protection.
-            game.OpenCatRescueOnNextCity=true;
+            if(!launchAdventure || SaveSystem.RecoveryBlocked)return;
             game.Scenes.Go("CityMap");
         }
 
