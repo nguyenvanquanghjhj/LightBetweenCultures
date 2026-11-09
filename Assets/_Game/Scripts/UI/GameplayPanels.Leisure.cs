@@ -14,14 +14,19 @@ namespace LightBetweenCultures
             var bg=AdventureUIArt.Load().LeisureBackground(id);if(bg==null||entry.Sprite==null)return;
             var sheet=ActivitySheet("LeisureActivityPanel",entry.title,"Một khoảng nghỉ cùng Lumi · Bắt đầu để trải nghiệm, có thể trở về bản đồ bất cứ lúc nào.");
             UIController.SetRect(sheet.Find("ActivityInstructions").GetComponent<RectTransform>(),new Vector2(.07f,.79f),new Vector2(.93f,.89f));
-            var scene=ui.Panel(sheet,"LeisureScene",new Vector2(.5f,.54f),new Vector2(.5f,.54f),Color.clear);
-            Canvas.ForceUpdateCanvases();var width=sheet.rect.width*.89f;scene.sizeDelta=new Vector2(width,width*.75f);
+            var scene=ui.Panel(sheet,"LeisureScene",new Vector2(.5f,.53f),new Vector2(.5f,.53f),Color.clear);
+            Canvas.ForceUpdateCanvases();var width=Mathf.Min(sheet.rect.width*.89f,sheet.rect.height*.46f/.75f);scene.sizeDelta=new Vector2(width,width*.75f);
             scene.gameObject.AddComponent<RectMask2D>();scene.GetComponent<Image>().raycastTarget=false;ui.Picture(scene,"LeisureBackground",bg,Vector2.zero,Vector2.one);
-            var status=ui.Label(sheet,"LeisureStatus","Sẵn sàng · Hoạt động thư giãn, không có phần thưởng.",new Vector2(.07f,.205f),new Vector2(.93f,.29f),17);status.color=DesignKitArt.Teal;
+            var status=ui.Label(sheet,"LeisureStatus","Sẵn sàng · Hoạt động thư giãn, không có phần thưởng.",new Vector2(.07f,.205f),new Vector2(.93f,.29f),17);status.color=new Color(.08f,.20f,.22f,1f);
             var play=MobileUI.Button(ui,sheet,"LeisureAction","Bắt đầu",new Vector2(.07f,.105f),new Vector2(.47f,.18f),()=>{},true,true);
             var back=sheet.Find("ActivityClose").GetComponent<RectTransform>();UIController.SetRect(back,new Vector2(.53f,.105f),new Vector2(.93f,.18f));back.GetComponentInChildren<Text>().text="Trở về bản đồ";
             sheet.gameObject.AddComponent<LeisureActivityView>().Build(ui,scene,entry,art.lumiExploration,play,status);
             LeisureHelpAndProgress(sheet,entry);
+            var help=sheet.Find("ContextHelp")?.GetComponent<RectTransform>();
+            if(help!=null)UIController.SetRect(help,new Vector2(.70f,.905f),new Vector2(.86f,.975f));
+            // Always-on close control, above the picture even at 16:9/ultrawide.
+            var quit=MobileUI.CloseButton(ui,sheet,"LeisureExitX",()=>{game.Puzzles.Cancel();Close();});
+            quit.transform.SetAsLastSibling();
         }
     }
     // Existing transient optional-panel driver. No save/quest/item/reward authority.

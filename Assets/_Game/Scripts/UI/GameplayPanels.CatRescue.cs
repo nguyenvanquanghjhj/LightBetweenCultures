@@ -14,11 +14,17 @@ namespace LightBetweenCultures
         {
             var sheet=PhotoSheet("CatRescuePanel",title,subtitle,out w,out h);
             sheet.Find("PhotoExit").name="CatClose";
+            // Shared header always has the visible close X (no progress is lost).
+            sheet.Find("PhotoHeading").GetComponent<Text>().color=new Color(.08f,.14f,.18f,1f);
+            sheet.Find("PhotoCity").GetComponent<Text>().color=new Color(.10f,.24f,.28f,1f);
             return sheet;
         }
         Text CatText(Transform parent,string name,string text,Vector2 min,Vector2 max,int size=18)
         {
-            var t=ui.Label(parent,name,text,min,max,size);t.color=DesignKitArt.Ink;return t;
+            var t=ui.Label(parent,name,text,min,max,size);
+            t.color=new Color(.08f,.14f,.18f,1f); // Opaque dark text on parchment
+            t.resizeTextMinSize=14;
+            return t;
         }
         Image CatPortrait(Transform parent,CatRescueChapter c,Vector2 min,Vector2 max,bool happy=false,string name="RescueCat")
         {
@@ -27,13 +33,33 @@ namespace LightBetweenCultures
         }
         void CatGo(int index)
         {
-            if(index<0)return;
+            if(index<0){ShowCatRescue("Không có mục tiêu khả dụng. Hãy xem nhiệm vụ hiện tại.");return;}
+            // Do not send players back to the same panel when they are already
+            // standing at the target node. Open the actual required interaction.
+            if(game.Save.node==index){ShowCatArrival();return;}
             Close();CatDestination?.Invoke(index);
+        }
+        public void ShowCatArrival()
+        {
+            var cats=game.Cats;var chapter=cats.Current;
+            if(chapter==null){ShowCatRescue("Chưa có nhiệm vụ cứu mèo ở khu vực này.");return;}
+            var progress=cats.Progress(chapter.cityId);
+            if(progress?.started!=true){ShowCatRescue("Chọn NHẬN NHIỆM VỤ trước khi đi giải cứu mèo.");return;}
+            var challenge=cats.Next(chapter);
+            if(challenge!=null && cats.At(challenge.nodeId)){ShowCatChallenge(challenge);return;}
+            if(cats.CanRescue){ShowCatRescueFinal();return;}
+            var supply=chapter.supplies.FirstOrDefault(s=>!progress.supplies.Contains(s.id) && cats.At(s.nodeId));
+            if(supply!=null)
+            {
+                ShowCatRescue("Đã tới nơi! Chạm LẤY "+supply.name+" trong phần Túi cứu hộ.");
+                return;
+            }
+            ShowCatRescue("Đã tới nơi. Xem BƯỚC TIẾP THEO và chọn hành động tương ứng.");
         }
         RectTransform CatScroll(RectTransform sheet,float w,float h,out RectTransform content)
         {
             var viewport=ui.Panel(sheet,"CatScrollViewport",Vector2.zero,Vector2.zero,Color.clear);
-            Place(viewport,18,110,w-36,h-282);viewport.gameObject.AddComponent<RectMask2D>();
+            Place(viewport,18,110,w-36,h-352);viewport.gameObject.AddComponent<RectMask2D>();
             content=ui.Panel(viewport,"CatScrollContent",new Vector2(0,1),Vector2.one,Color.clear);
             content.pivot=new Vector2(.5f,1);content.sizeDelta=new Vector2(0,1000);
             var scroll=viewport.gameObject.AddComponent<ScrollRect>();scroll.viewport=viewport;scroll.content=content;scroll.horizontal=false;scroll.movementType=ScrollRect.MovementType.Clamped;scroll.scrollSensitivity=30;
@@ -46,13 +72,24 @@ namespace LightBetweenCultures
             var sheet=CatSheet(c.title,game.Content.City(c.cityId).name+" · Giải cứu mèo "+cats.RescuedCount+" / 6",out var w,out var h);
             CatScroll(sheet,w,h,out var content);var cw=w-36;float y=0;
             var image=ui.Picture(content,"RescueCity",CatRescueArt.Image("city:"+c.cityId),Vector2.zero,Vector2.zero);
-            Place(image.rectTransform,8,y,cw-16,170);image.color=new Color(1,1,1,.8f);
+            Place(image.rectTransform,8,y,cw-16,170);image.color=Color.white;
             var cat=CatPortrait(content,c,Vector2.zero,Vector2.zero,p?.rescued==true);Place(cat.rectTransform,cw-148,y+10,140,158);
             var weather=content.gameObject.AddComponent<CanvasGroup>();weather.blocksRaycasts=true;
             y+=180;
             var opening=p?.rescued==true?c.catName+": “"+c.catLine+"”\n"+c.postcard:c.opening;
             var th=Mathf.Max(88,TextHeight(opening,cw-32,18)+18);
-            var story=CatText(content,"CatOpening",opening,Vector2.zero,Vector2.zero,18);story.alignment=TextAnchor.UpperLeft;Place(story.rectTransform,16,y,cw-32,th);y+=th+12;
+            var story=CatText(content,"CatOpening",opening,Vector2.zero,Vector2.zero,19);story.alignment=TextAnchor.UpperLeft;Place(story.rectTransform,16,y,cw-32,th);y+=th+12;
+            var missingSupply=p==null?null:c.supplies.FirstOrDefault(s=>!p.supplies.Contains(s.id));
+            var nextAction=p?.started!=true ? "BƯỚC 1: Nhận nhiệm vụ cứu mèo bên dưới." :
+                next!=null ? "TIẾP THEO ("+(p.completed.Count+1)+"/4): "+next.title+". Đến "+cats.Place(next.nodeId)+" và chơi thử thách." :
+                missingSupply!=null ? "TIẾP THEO: Nhặt "+missingSupply.name+" tại "+cats.Place(missingSupply.nodeId)+"." :
+                p.rescued ? "ĐÃ CỨU MÈO: Mở sổ mèo để xem bưu thiếp." :
+                "BƯỚC CUỐI: Đến "+cats.Place(c.rescueNode)+", kéo mèo vào giỏ cứu hộ.";
+            var stepPanel=ui.Panel(content,"CatCurrentStep",Vector2.zero,Vector2.zero,DesignKitArt.Hex("F2E2BE"));
+            Place(stepPanel,10,y,cw-20,88);MobileUI.Round(stepPanel);stepPanel.GetComponent<Image>().raycastTarget=false;
+            var stepText=CatText(stepPanel,"CatCurrentStepText",nextAction,new Vector2(.04f,.07f),new Vector2(.96f,.93f),19);
+            stepText.alignment=TextAnchor.MiddleLeft;
+            y+=100;
             if(p?.started!=true)
             {
                 var start=MobileUI.Button(ui,content,"CatStart","Nhận nhiệm vụ · Tìm "+c.catName,Vector2.zero,Vector2.zero,()=>{cats.Start();changed?.Invoke();ShowCatRescue(cats.Message);},true,true);
@@ -62,15 +99,20 @@ namespace LightBetweenCultures
             {
                 var header=CatText(content,"CatSupplyHeading","TÚI CỨU HỘ · "+p.supplies.Count+" / "+c.supplies.Length,Vector2.zero,Vector2.zero,17);
                 header.alignment=TextAnchor.MiddleLeft;Place(header.rectTransform,16,y,cw-32,30);y+=34;
-                foreach(var supply in c.supplies)
+                if(p.supplies.Count==c.supplies.Length)
                 {
-                    var s=supply;var owned=p.supplies.Contains(s.id);var here=cats.At(s.nodeId);
-                    var label=(owned?"Đã có · ":here?"Lấy · ":"Tìm · ")+s.name+"\n"+cats.Place(s.nodeId);
+                    var allReady=CatText(content,"CatSuppliesReady","ĐÃ ĐỦ "+c.supplies.Length+" VẬT DỤNG — tập trung vào thử thách tiếp theo.",Vector2.zero,Vector2.zero,18);
+                    Place(allReady.rectTransform,16,y,cw-32,44);y+=50;
+                }
+                else foreach(var supply in c.supplies)
+                {
+                    var s=supply;var owned=p.supplies.Contains(s.id);var atSupply=cats.At(s.nodeId);
+                    var label=(owned?"Đã có · ":atSupply?"Lấy · ":"Tìm · ")+s.name+"\n"+cats.Place(s.nodeId);
                     var b=MobileUI.Button(ui,content,"CatSupply_"+s.id,label,Vector2.zero,Vector2.zero,()=>
                     {
-                        if(!here){CatGo(Array.FindIndex(game.Data.nodes,n=>n.id==s.nodeId));return;}
+                        if(!atSupply){CatGo(Array.FindIndex(game.Data.nodes,n=>n.id==s.nodeId));return;}
                         cats.Collect(s.id);changed?.Invoke();ShowCatRescue(cats.Message);
-                    },here&&!owned,true);
+                    },atSupply&&!owned,true);
                     Place((RectTransform)b.transform,12,y,cw-24,62);b.interactable=!owned&&!p.rescued;
                     var icon=CatRescueArt.Image(s.artId);
                     if(icon!=null)
@@ -91,7 +133,9 @@ namespace LightBetweenCultures
                         if(done){ShowCatFact(c,a);return;}
                         if(cats.At(a.nodeId))ShowCatChallenge(a);else CatGo(Array.FindIndex(game.Data.nodes,n=>n.id==a.nodeId));
                     },current,true);
-                    Place((RectTransform)b.transform,12,y,cw-24,64);b.interactable=done||current;y+=72;
+                    Place((RectTransform)b.transform,12,y,cw-24,done?44:68);b.interactable=done||current;
+                    if(done) b.GetComponentInChildren<Text>().color=new Color(.12f,.23f,.26f,1f);
+                    y+=done?50:76;
                 }
                 y+=12;
                 var rescue=MobileUI.Button(ui,content,"CatRescueAction",p.rescued?c.catName+" đã an toàn":"Đón "+c.catName+" · "+cats.Place(c.rescueNode),Vector2.zero,Vector2.zero,()=>
@@ -107,11 +151,24 @@ namespace LightBetweenCultures
                 }
             }
             content.sizeDelta=new Vector2(0,y+12);
-            catFeedback=CatText(sheet,"CatNotice",notice??cats.Guidance(),Vector2.zero,Vector2.zero,17);catFeedback.color=DesignKitArt.Teal;Place(catFeedback.rectTransform,24,h-163,w-48,68);
-            var focus=MobileUI.Button(ui,sheet,"CatFocus","Đi tới mục tiêu",Vector2.zero,Vector2.zero,()=>CatGo(cats.TargetIndex()),true,true);
-            Place((RectTransform)focus.transform,24,h-83,(w-56)*.52f,54);focus.interactable=cats.TargetIndex()>=0;
+            catFeedback=CatText(sheet,"CatNotice",notice??cats.Guidance(),Vector2.zero,Vector2.zero,17);
+            catFeedback.color=new Color(.08f,.20f,.23f,1f);catFeedback.alignment=TextAnchor.MiddleLeft;
+            Place(catFeedback.rectTransform,24,h-229,w-48,64);
+            var back=MobileUI.Button(ui,sheet,"CatReturnMap","← VỀ BẢN ĐỒ (có thể quay lại sau)",Vector2.zero,Vector2.zero,Close,illustrated:true);
+            Place((RectTransform)back.transform,24,h-155,w-48,46);
+            var here=game.Save.node==cats.TargetIndex();
+            var mainAction=p?.started!=true?"NHẬN NHIỆM VỤ":p?.rescued==true?"XEM SỔ MÈO":
+                cats.CanRescue?"CỨU MÈO NGAY":here?"CHƠI / NHẬN TẠI ĐÂY":"ĐI ĐẾN MỤC TIÊU";
+            var focus=MobileUI.Button(ui,sheet,"CatFocus",mainAction,Vector2.zero,Vector2.zero,()=>
+            {
+                if(p?.started!=true){cats.Start();changed?.Invoke();ShowCatRescue(cats.Message);}
+                else if(p.rescued)ShowCatCollection(Array.IndexOf(cats.Catalog.chapters,c));
+                else CatGo(cats.TargetIndex());
+            },true,true);
+            Place((RectTransform)focus.transform,24,h-89,(w-56)*.57f,54);
+            focus.GetComponentInChildren<Text>().color=Color.white;
             var album=MobileUI.Button(ui,sheet,"CatCollection","Sổ mèo · "+cats.RescuedCount+"/6",Vector2.zero,Vector2.zero,()=>ShowCatCollection(0),illustrated:true);
-            Place((RectTransform)album.transform,32+(w-56)*.52f,h-83,(w-56)*.48f,54);
+            Place((RectTransform)album.transform,32+(w-56)*.57f,h-89,(w-56)*.43f,54);
         }
         public void ShowCatCollection(int index)
         {

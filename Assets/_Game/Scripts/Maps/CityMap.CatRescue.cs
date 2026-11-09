@@ -24,8 +24,12 @@ namespace LightBetweenCultures
             var rt=(RectTransform)catButton.transform;rt.anchorMin=Vector2.up;rt.anchorMax=Vector2.up;rt.offsetMin=new Vector2(14,-145);rt.offsetMax=new Vector2(180,-96);
             var icon=ui.Picture(catButton.transform,"CatHUDPortrait",CatRescueArt.Cat(game.Cats.Current.spriteIndex),new Vector2(.02f,.05f),new Vector2(.25f,.95f));
             UIController.SetRect(catButton.transform.Find("Label").GetComponent<RectTransform>(),new Vector2(.27f,.05f),new Vector2(.98f,.95f));
-            catStatus=ui.Label(ui.Root,"CatRescueObjective","",Vector2.up,Vector2.one,15);catStatus.alignment=TextAnchor.MiddleLeft;catStatus.color=DesignKitArt.Teal;
-            catStatus.rectTransform.offsetMin=new Vector2(190,-146);catStatus.rectTransform.offsetMax=new Vector2(-14,-96);
+            var statusBackdrop=ui.Panel(ui.Root,"CatRescueObjectiveBackdrop",Vector2.up,Vector2.one,new Color(.97f,.93f,.81f,.96f));
+            statusBackdrop.offsetMin=new Vector2(184,-146);statusBackdrop.offsetMax=new Vector2(-12,-96);
+            statusBackdrop.GetComponent<Image>().raycastTarget=false;MobileUI.Round(statusBackdrop);
+            catStatus=ui.Label(ui.Root,"CatRescueObjective","",Vector2.up,Vector2.one,16);
+            catStatus.alignment=TextAnchor.MiddleLeft;catStatus.color=new Color(.08f,.18f,.20f,1f);
+            catStatus.rectTransform.offsetMin=new Vector2(194,-146);catStatus.rectTransform.offsetMax=new Vector2(-20,-96);
             var audio=ui.Root.Find("AudioSettings")?.GetComponent<Button>();
             if(audio!=null)
             {
@@ -88,7 +92,12 @@ namespace LightBetweenCultures
                 while(Moving)yield return null;
                 catTravelTarget=-1;
             }
-            if(game.Save.node==target&&!dialogue)OpenCatRescue();
+            if(!dialogue&&!Moving)
+            {
+                Deselect();dialogue=true;Refresh();
+                if(game.Save.node==target)panels.ShowCatArrival();
+                else panels.ShowCatRescue("Đường đi chưa mở hoặc có sự kiện cần giải quyết. Hãy hoàn thành nhiệm vụ tại vị trí hiện tại rồi thử lại.");
+            }
         }
         void RefreshCatRescue()
         {

@@ -41,7 +41,8 @@ namespace LightBetweenCultures
                 if(!unlocked)ui.Picture(clip,"CityLock",DesignKitArt.Load().locked,new Vector2(.79f,.44f),new Vector2(.95f,.80f));
                 if(city.id==game.Save.cityId)ui.Picture(clip,"CurrentLumi",DesignKitArt.Load().lumiMapTraveler,new Vector2(.78f,.36f),new Vector2(.98f,.92f));
             }
-            var back=MobileUI.Button(ui,ui.Root,"Back",game.Scenes.WorldReturnScene=="CityMap"?"Về "+game.Content.City(game.Save.cityId).name:"Về màn hình đầu",new Vector2(.055f,.025f),new Vector2(.945f,.079f),()=>game.Scenes.Go(game.Scenes.WorldReturnScene),illustrated:true);
+            var back=MobileUI.Button(ui,ui.Root,"Back",game.Scenes.WorldReturnScene=="CityMap"?"Về thành phố":"Về màn hình đầu",new Vector2(.055f,.025f),new Vector2(.48f,.079f),()=>game.Scenes.Go(game.Scenes.WorldReturnScene),illustrated:true);
+            MobileUI.Button(ui,ui.Root,"BackToMainMenu","MÀN HÌNH ĐẦU",new Vector2(.52f,.025f),new Vector2(.945f,.079f),()=>game.Scenes.Go("Prototype"),illustrated:true);
             MobileUI.Cue(back,AdventureSymbol.Close);
             Select(game.Content.City(game.Scenes.WorldSelection??game.Save.cityId)??game.Content.City("hoi_an"));
         }

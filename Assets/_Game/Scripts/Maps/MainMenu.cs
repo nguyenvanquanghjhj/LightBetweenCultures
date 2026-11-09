@@ -35,6 +35,14 @@ namespace LightBetweenCultures
                 ui.Root.Find("CatventureStart").gameObject.SetActive(false);
                 ui.Button(ui.Root,"RetrySave","Thử đọc lại bản lưu",new Vector2(.15f,.315f),new Vector2(.85f,.405f),()=>{game.Reload();game.Scenes.Go("Prototype");});
             }
+            ui.Button(ui.Root,"QuitApplication","THOÁT GAME",new Vector2(.15f,.009f),new Vector2(.85f,.061f),() =>
+            {
+#if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying=false;
+#else
+                Application.Quit();
+#endif
+            });
             ui.Button(ui.Root,"Reset","Đặt lại tiến độ",new Vector2(.15f,.07f),new Vector2(.85f,.15f), () => {
                 if(ui.Root.Find("ResetConfirmation")!=null)return;
                 var confirm = ui.Panel(ui.Root,"ResetConfirmation",new Vector2(.06f,.22f),new Vector2(.94f,.76f),new Color(.06f,.12f,.14f));

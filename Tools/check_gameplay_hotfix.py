@@ -87,7 +87,7 @@ def main():
     assert 'CityRouteGeometry.Arrival(game.Data.nodes[i])' in minimap
     assert 'var route=game.Data.FindRoute' in minimap
     assert 'ĐI ĐẾN MỤC TIÊU' in catmap and 'StartCoroutine(CatTravel(target))' in catmap
-    assert '1.1.3-catventure-20261109' in build and 'bundleVersionCode=23' in build
+    assert '1.1.4-catventure-20261109' in build and 'bundleVersionCode=24' in build
     print('PASS: 9 interaction modes; only D7 uses preparation; guarded alternate encounters')
     print('PASS: mirror wrong-angle protection, save corruption guard, HUD routing, no falling weather needles, new version')
     print('IMPORTANT: Unity Player, Android and real user gameplay NOT TESTED by this static tool.')

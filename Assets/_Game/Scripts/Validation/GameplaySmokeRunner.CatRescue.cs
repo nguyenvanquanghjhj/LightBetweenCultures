@@ -100,6 +100,7 @@ namespace LightBetweenCultures
             File.WriteAllText(savePath,JsonUtility.ToJson(new SaveData()));game.Reload();
             game.Scenes.Go("CityMap");yield return Scene("CityMap");
             yield return Click("CatRescueHUD",true);
+            Check(FindButton("CatReturnMap")!=null && GameObject.Find("CatCurrentStep")!=null,"Catventure shows a clear next step and map exit");
             Check(game.Cats.Progress("hoi_an")==null,"Reading rescue introduction grants no progress");
             yield return Snapshot("CAT-HoiAn-introduction");yield return CatClick("CatStart");
             Check(game.Cats.Progress("hoi_an").started,"Real touch accepts Hoi An rescue");
@@ -139,13 +140,13 @@ namespace LightBetweenCultures
                 }
                 foreach(var challenge in c.challenges)
                 {
-                    if(!cats.At(challenge.nodeId))yield return CatTravelButton("CatTask_"+challenge.id,challenge.nodeId);
+                    if(!cats.At(challenge.nodeId)){yield return CatTravelButton("CatTask_"+challenge.id,challenge.nodeId);Check(FindButton("CatSubmit")!=null,"Target arrival opens actual challenge: "+challenge.id);}
                     if(c.cityId=="hue"&&challenge.mode=="maze")
                     {
                         yield return Click("CatClose",true);Map.View.Focus(CityRouteGeometry.Arrival(game.Data.nodes[game.Save.node]));yield return null;
                         CatCheckMapControls();yield return Snapshot("CAT-Hue-map-controls");yield return CatHub();
                     }
-                    yield return CatClick("CatTask_"+challenge.id);
+                    if(FindButton("CatSubmit")==null)yield return CatClick("CatTask_"+challenge.id);
                     Check(!FindButton("CatSubmit").interactable,"Empty trial cannot submit: "+challenge.id);
                     if(modes.Add(challenge.mode))yield return Snapshot("CAT-mode-"+challenge.mode);
                     if(challenge.mode=="choice"||challenge.mode=="scenario")
@@ -189,8 +190,8 @@ namespace LightBetweenCultures
                     Check(cats.Progress(c.cityId).completed.Contains(challenge.id),"Explicit completion persists: "+challenge.id);
                     yield return Click("CatFactContinue",true);
                 }
-                if(!cats.At(c.rescueNode))yield return CatTravelButton("CatRescueAction",c.rescueNode);
-                yield return CatClick("CatRescueAction");var coins=game.Save.coins;
+                if(!cats.At(c.rescueNode)){yield return CatTravelButton("CatRescueAction",c.rescueNode);Check(FindButton("CatFinalContinue")!=null,"Rescue location opens final rescue panel: "+c.cityId);}
+                if(FindButton("CatFinalContinue")==null)yield return CatClick("CatRescueAction");var coins=game.Save.coins;
                 yield return CatDrag("RescueCat","CatShelter",true);
                 Check(cats.Rescued(c.cityId)&&game.Save.coins==coins+c.rewardCoins,"Actual rescue gesture awards exactly once: "+c.cityId);
                 Check(!cats.Rescue(Vector2.zero)&&game.Save.coins==coins+c.rewardCoins,"Repeated rescue rejected: "+c.cityId);
