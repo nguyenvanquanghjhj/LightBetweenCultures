@@ -19,7 +19,7 @@ namespace LightBetweenCultures
             var title=ui.Root.Find("Title").GetComponent<Text>();
             UIController.SetRect(title.rectTransform,new Vector2(.14f,.928f),new Vector2(.95f,.98f)); title.alignment=TextAnchor.MiddleLeft;title.resizeTextForBestFit=false;title.fontSize=24;title.color=DesignKitArt.Ink;
             ui.Picture(ui.Root,"WorldEmblem",art.globe,new Vector2(.04f,.926f),new Vector2(.125f,.985f));
-            var intro=ui.Label(ui.Root,"WorldIntroduction","Sáu thành phố · Một hành trình kết nối\nChọn điểm đến để xem tuyến đường và tiến độ.",new Vector2(.055f,.845f),new Vector2(.945f,.919f),17,false);
+            var intro=ui.Label(ui.Root,"WorldIntroduction","CATVENTURE · 6 mèo cần giúp đỡ\nChọn một thành phố, rồi bấm CỨU MÈO trên bản đồ.",new Vector2(.055f,.845f),new Vector2(.945f,.919f),17,false);
             intro.alignment=TextAnchor.MiddleLeft;intro.color=DesignKitArt.Ink;
             var order=new[]{"hoi_an","hue","da_lat","jeonju","gyeongju","seoul"};
             for(var i=0;i<order.Length;i++)
@@ -63,7 +63,7 @@ namespace LightBetweenCultures
             var statusText=ui.Label(details,"DestinationStatus",status,new Vector2(.39f,.61f),new Vector2(.93f,.76f),16,false);statusText.alignment=TextAnchor.MiddleLeft;statusText.color=DesignKitArt.Teal;
             var progress=game.Save.cityProgress.Find(p=>p.cityId==city.id);
             var visited=city.id==game.Save.cityId?game.Save.visited.Count:progress?.visited.Count??0;
-            var progressText=ui.Label(details,"DestinationProgress","Khám phá "+visited+" / "+city.nodes.Length+" địa điểm",new Vector2(.39f,.46f),new Vector2(.93f,.61f),16,false);progressText.alignment=TextAnchor.MiddleLeft;progressText.color=DesignKitArt.Ink;
+            var progressText=ui.Label(details,"DestinationProgress","Khám phá "+visited+"/"+city.nodes.Length+" · "+(game.Cats.Rescued(city.id)?"Đã cứu mèo":"Mèo cần cứu"),new Vector2(.39f,.46f),new Vector2(.93f,.61f),16,false);progressText.alignment=TextAnchor.MiddleLeft;progressText.color=DesignKitArt.Ink;
             var caption=art.City(city.id)?.description??city.opening;
             var note=game.Quests.CityTravelHint(city.id);
             var rescueRoute=game.Cats.Catalog.chapters.FirstOrDefault(c=>c.nextCity==city.id);

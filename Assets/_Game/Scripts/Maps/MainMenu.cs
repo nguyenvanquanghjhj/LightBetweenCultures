@@ -12,13 +12,21 @@ namespace LightBetweenCultures
             var continuing=HasJourney(game);
             var city=game.Content.City(game.Data.cityId);
             var node=game.Save.node>=0&&game.Save.node<game.Data.nodes.Length?game.Data.nodes[game.Save.node].name:"điểm dừng đã lưu";
-            ui.Say(continuing?"Tiếp tục tại "+city.name+" · "+node+". Xem Việc cần làm trên bản đồ để nối lại hành trình.":"Bắt đầu cùng Lumi ở Hội An. Gặp Cô Mai để nhận việc tìm Mắt Đèn.");
-            var hero = ui.Panel(ui.Root,"LumiCard",new Vector2(.12f,.43f),new Vector2(.88f,.78f),DesignKitArt.Hex("17384E"));
+            ui.Say(continuing?"Tiếp tục tại "+city.name+" · "+node+".":"Bắt đầu cùng Lumi tại Hội An. Chọn CATVENTURE để gặp mèo và nhận nhiệm vụ cứu hộ.");
+            var hero = ui.Panel(ui.Root,"LumiCard",new Vector2(.12f,.51f),new Vector2(.88f,.78f),DesignKitArt.Hex("17384E"));
             hero.GetComponent<UnityEngine.UI.Image>().raycastTarget=false;
             UIController.Border(hero,DesignKitArt.Teal);
             ui.Picture(hero,"CanonicalLumiPortrait",DesignKitArt.Load().lumiPortrait, new Vector2(.06f,.03f),new Vector2(.94f,.98f));
+            ui.Label(ui.Root,"CatventureBuildMark","CATVENTURE · 6 MÈO · 24 THỬ THÁCH",new Vector2(.11f,.785f),new Vector2(.89f,.835f),17,false).color=DesignKitArt.Teal;
             ui.Button(ui.Root,"Start",continuing?"Tiếp tục hành trình":"Bắt đầu hành trình",new Vector2(.15f,.20f),new Vector2(.85f,.30f), () => game.Scenes.OpenWorld());
-            ui.Button(ui.Root,"MainGuide","Tôi là Lumi · Xem cách chơi",new Vector2(.15f,.33f),new Vector2(.85f,.41f),()=>new GameplayPanels(ui,game,DesignKitArt.Load(),null,null).ShowPlayerGuide());
+            ui.Button(ui.Root,"CatventureStart","CATVENTURE · GIẢI CỨU MÈO "+game.Cats.RescuedCount+"/6",
+                new Vector2(.15f,.315f),new Vector2(.85f,.405f), () =>
+                {
+                    // Keep existing game progress; open the current city's rescue quest.
+                    game.OpenCatRescueOnNextCity=true;
+                    game.Scenes.Go("CityMap");
+                });
+            ui.Button(ui.Root,"MainGuide","Tôi là Lumi · Xem cách chơi",new Vector2(.15f,.415f),new Vector2(.85f,.485f),()=>new GameplayPanels(ui,game,DesignKitArt.Load(),null,null).ShowPlayerGuide());
             if(SaveSystem.RecoveryBlocked)
             {
                 ui.Root.Find("Start").GetComponent<UnityEngine.UI.Button>().interactable=false;ui.Say(SaveSystem.RecoveryMessage);

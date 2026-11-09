@@ -156,7 +156,12 @@ namespace LightBetweenCultures
             View.ZoomBy(Mathf.Clamp(viewport.rect.height/map.rect.height,1,MapPanZoom.MaxZoom));
             View.Focus(Marker.anchorMin);
             Refresh();
-            if(PlayerCopy.AutoGuide(game)){dialogue=true;Refresh();panels.ShowPlayerGuide();}
+            if(game.OpenCatRescueOnNextCity && game.Cats?.Current!=null)
+            {
+                game.OpenCatRescueOnNextCity=false;
+                OpenCatRescue();
+            }
+            else if(PlayerCopy.AutoGuide(game)){dialogue=true;Refresh();panels.ShowPlayerGuide();}
         }
 
         private void CompactHeader()

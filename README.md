@@ -1,3 +1,11 @@
+## CATVENTURE — Source nâng cấp 09/11/2026 (chưa nghiệm thu native)
+
+**Không nhầm bản build:** Source phải được build lại bằng Unity 6000.6.5f1. Bản EXE/APK cũ trong thư mục Builds sẽ KHÔNG tự cập nhật khi push code. Bản mới hiển thị `CATVENTURE · 6 MÈO · 24 THỬ THÁCH` ở màn hình đầu và có nút `CATVENTURE · GIẢI CỨU MÈO` để vào thẳng nhiệm vụ. Nếu không thấy hai dòng này thì đang chạy build hoặc scene cũ.
+
+Xem [hướng dẫn nghiệm thu bản cập nhật](Docs/Catventure/ACCEPTANCE_20261109.md). Các số PASS ngày 07/11 là kết quả lịch sử, không phải chứng nhận cho source vừa sửa.
+
+---
+
 # Light Between Cultures
 
 ## Catventure — 07/11/2026

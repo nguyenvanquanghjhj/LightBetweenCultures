@@ -586,17 +586,21 @@
         {
           "id": "gyeongju_buddhist",
           "nodeId": "G0",
-          "mode": "choice",
+          "mode": "match",
           "title": "Kho báu Phật giáo",
-          "instructions": "Cặp di sản nào gắn với Gyeongju và nghệ thuật Phật giáo?",
-          "hint": "Bulguksa là chùa và Seokguram là hang động có tượng Phật. Cả hai ở khu vực Gyeongju.",
-          "fact": "Bulguksa và Seokguram được ghi danh chung là Di sản Thế giới, riêng với Khu di tích lịch sử Gyeongju.",
-          "options": [
-            "Bulguksa và Seokguram",
-            "Chùa Cầu và Ngọ Môn",
-            "Hồ Xuân Hương và Ga Đà Lạt"
+          "instructions": "Kéo ba thẻ di sản vào đúng mô tả để khám phá Bulguksa, tháp đá và tượng Phật.",
+          "hint": "Bulguksa là ngôi chùa; Dabotap là tháp đá trong khuôn viên chùa; Seokguram là hang động có tượng Phật.",
+          "fact": "Bulguksa và Seokguram là hai di sản Phật giáo nổi bật gần Gyeongju. Dabotap là ngọn tháp đá nổi tiếng tại Bulguksa.",
+          "tokens": [
+            "Chùa Bulguksa",
+            "Tháp Dabotap",
+            "Seokguram"
           ],
-          "answer": 0
+          "targets": [
+            "Ngôi chùa Phật giáo",
+            "Tháp đá trong khuôn viên chùa",
+            "Hang động có tượng Phật"
+          ]
         },
         {
           "id": "gyeongju_map",

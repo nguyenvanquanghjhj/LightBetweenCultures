@@ -129,10 +129,11 @@ trial(c,'silla','G2','match','Bí mật vương quốc Silla','Nối mỗi dấu
       'Cheomseongdae gắn với quan sát trời; Daereungwon là khu lăng mộ; Silla là một vương quốc cổ.',
       'Gyeongju từng là kinh đô Silla. Khu vực lưu giữ di tích, lăng mộ và nghệ thuật của nhiều giai đoạn lịch sử.',
       tokens=['Cheomseongdae','Daereungwon','Silla'],targets=['Đài thiên văn','Khu lăng mộ','Vương quốc cổ'])
-trial(c,'buddhist','G0','choice','Kho báu Phật giáo','Cặp di sản nào gắn với Gyeongju và nghệ thuật Phật giáo?',
-      'Bulguksa là chùa và Seokguram là hang động có tượng Phật. Cả hai ở khu vực Gyeongju.',
-      'Bulguksa và Seokguram được ghi danh chung là Di sản Thế giới, riêng với Khu di tích lịch sử Gyeongju.',
-      options=['Bulguksa và Seokguram','Chùa Cầu và Ngọ Môn','Hồ Xuân Hương và Ga Đà Lạt'],answer=0)
+trial(c,'buddhist','G0','match','Kho báu Phật giáo','Kéo ba thẻ di sản vào đúng mô tả để khám phá Bulguksa, tháp đá và tượng Phật.',
+      'Bulguksa là ngôi chùa; Dabotap là tháp đá trong khuôn viên chùa; Seokguram là hang động có tượng Phật.',
+      'Bulguksa và Seokguram là hai di sản Phật giáo nổi bật gần Gyeongju. Dabotap là ngọn tháp đá nổi tiếng tại Bulguksa.',
+      tokens=['Chùa Bulguksa','Tháp Dabotap','Seokguram'],
+      targets=['Ngôi chùa Phật giáo','Tháp đá trong khuôn viên chùa','Hang động có tượng Phật'])
 maze(c,'map','G11','Bản đồ cổ đại','Đi trên lối tham quan để tìm mèo. Các vùng tối là bồn cây và khu vực bảo tồn.',
      'Tôn trọng lối tham quan giúp bảo vệ di sản. Không đào tìm đồ cổ hay lấy mảnh đá khỏi di tích.',
      ['.....','####.','.....','.####','.....'])

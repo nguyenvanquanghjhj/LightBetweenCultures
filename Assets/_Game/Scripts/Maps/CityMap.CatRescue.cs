@@ -86,13 +86,14 @@ namespace LightBetweenCultures
         {
             if(catStatus==null)return;
             var cats=game.Cats;var c=cats.Current;var p=cats.Progress(c.cityId);
-            catStatus.text=cats.Guidance();catButton.GetComponentInChildren<Text>().text="Mèo "+cats.RescuedCount+" / 6";catButton.interactable=!dialogue&&!Moving;
+            catStatus.text=cats.Guidance();catButton.GetComponentInChildren<Text>().text="CỨU MÈO "+cats.RescuedCount+"/6";catButton.interactable=!dialogue&&!Moving;
             var target=cats.TargetIndex();catMiniTarget.gameObject.SetActive(target>=0);
             if(target>=0)catMiniTarget.anchorMin=catMiniTarget.anchorMax=CityRouteGeometry.Arrival(game.Data.nodes[target]);
             catMiniPlayer.anchorMin=catMiniPlayer.anchorMax=Marker.anchorMin;
-            catMapMarker.gameObject.SetActive(p?.started==true&&!p.rescued);catMapMarker.localScale=Vector3.one/View.Zoom;
+            // The waiting cat must be visible before accepting the rescue quest.
+            catMapMarker.gameObject.SetActive(p?.rescued!=true);catMapMarker.localScale=Vector3.one/View.Zoom;
             catMapMarker.anchoredPosition=new Vector2(60,0)/View.Zoom;
-            catWeather.gameObject.SetActive(p?.started==true&&!p.rescued&&!dialogue);
+            catWeather.gameObject.SetActive(p?.rescued!=true&&!dialogue);
             CatLitLanterns=p?.started==true?Mathf.CeilToInt(catLanternLights.Count*p.completed.Count/(float)c.challenges.Length):0;
             for(var i=0;i<catLanternLights.Count;i++)catLanternLights[i].gameObject.SetActive(i<CatLitLanterns);
         }

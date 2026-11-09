@@ -18,6 +18,8 @@ namespace LightBetweenCultures
         public RelicCollection Relics { get; private set; }
         public JourneyShop Shop { get; private set; }
         public CatRescueManager Cats { get; private set; }
+        // Transient UI request, never serialized in player saves.
+        public bool OpenCatRescueOnNextCity { get; set; }
         public SceneTransition Scenes { get; private set; }
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
         private static void ClearStatic() { Instance = null; SaveSystem.OverridePath = null; }
