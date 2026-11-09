@@ -10,15 +10,25 @@ namespace LightBetweenCultures
             var game = GameBootstrap.Ensure();
             var ui = UIController.Create("LIGHT BETWEEN CULTURES\nNhịp Cầu Ánh Sáng", true);
             var continuing=HasJourney(game);
+            // First launch is only a presentation decision. Save data is untouched.
+            var firstVisit=!continuing && PlayerPrefs.GetInt(PlayerCopy.GuideKey,0)==0;
             var city=game.Content.City(game.Data.cityId);
             var node=game.Save.node>=0&&game.Save.node<game.Data.nodes.Length?game.Data.nodes[game.Save.node].name:"điểm dừng đã lưu";
-            ui.Say(continuing?"Tiếp tục tại "+city.name+" · "+node+".":"Bắt đầu cùng Lumi tại Hội An. Chọn CATVENTURE để gặp mèo và nhận nhiệm vụ cứu hộ.");
+            ui.Say(continuing?"Tiếp tục tại "+city.name+" · "+node+".":
+                "Bạn là Lumi. Bắt đầu ở Hội An, tìm hiểu văn hóa và giúp chú mèo đầu tiên.");
             var hero = ui.Panel(ui.Root,"LumiCard",new Vector2(.12f,.51f),new Vector2(.88f,.78f),DesignKitArt.Hex("17384E"));
             hero.GetComponent<UnityEngine.UI.Image>().raycastTarget=false;
             UIController.Border(hero,DesignKitArt.Teal);
             ui.Picture(hero,"CanonicalLumiPortrait",DesignKitArt.Load().lumiPortrait, new Vector2(.06f,.03f),new Vector2(.94f,.98f));
-            ui.Label(ui.Root,"CatventureBuildMark","CATVENTURE · BẢN 1.1.3",new Vector2(.15f,.52f),new Vector2(.85f,.56f),15,false).color=DesignKitArt.Cream;
-            ui.Button(ui.Root,"Start",continuing?"Tiếp tục hành trình":"Bắt đầu hành trình",new Vector2(.15f,.20f),new Vector2(.85f,.30f), () => game.Scenes.OpenWorld());
+            ui.Label(ui.Root,"CatventureBuildMark","MỘT HÀNH TRÌNH · HAI NỀN VĂN HÓA",new Vector2(.15f,.52f),new Vector2(.85f,.56f),16,false).color=DesignKitArt.Cream;
+            ui.Button(ui.Root,"Start",continuing?"TIẾP TỤC HÀNH TRÌNH":"BẮT ĐẦU PHIÊU LƯU",new Vector2(.15f,.20f),new Vector2(.85f,.30f), () =>
+            {
+                if(continuing) { game.Scenes.OpenWorld(); return; }
+                if(firstVisit) { new GameplayPanels(ui,game,DesignKitArt.Load(),null,null).ShowFirstAdventureIntro(); return; }
+                // Replay after an intro skip/completion, with no save state yet.
+                game.OpenCatRescueOnNextCity=true;
+                game.Scenes.Go("CityMap");
+            });
             ui.Button(ui.Root,"CatventureStart","CATVENTURE · GIẢI CỨU MÈO "+game.Cats.RescuedCount+"/6",
                 new Vector2(.15f,.315f),new Vector2(.85f,.405f), () =>
                 {
@@ -26,7 +36,14 @@ namespace LightBetweenCultures
                     game.OpenCatRescueOnNextCity=true;
                     game.Scenes.Go("CityMap");
                 });
-            ui.Button(ui.Root,"MainGuide","Tôi là Lumi · Xem cách chơi",new Vector2(.15f,.415f),new Vector2(.85f,.485f),()=>new GameplayPanels(ui,game,DesignKitArt.Load(),null,null).ShowPlayerGuide());
+            ui.Button(ui.Root,"MainGuide",firstVisit?"XEM TRƯỚC CÂU CHUYỆN":"Câu chuyện & cách chơi",new Vector2(.15f,.415f),new Vector2(.85f,.485f),()=>
+            {
+                var guide=new GameplayPanels(ui,game,DesignKitArt.Load(),null,null);
+                if(firstVisit)guide.ShowFirstAdventureIntro();else guide.ShowPlayerGuide();
+            });
+            // Returning players retain the direct Catventure entry. New players
+            // only see one main start button and are led to the rescue in context.
+            if(firstVisit)ui.Root.Find("CatventureStart").gameObject.SetActive(false);
             if(SaveSystem.RecoveryBlocked)
             {
                 ui.Root.Find("Start").GetComponent<UnityEngine.UI.Button>().interactable=false;
@@ -52,6 +69,7 @@ namespace LightBetweenCultures
             });
         }
         static bool HasJourney(GameBootstrap game)=>game.Save.accepted.Count>0||game.Save.visited.Count>1||game.Data.cityId!="hoi_an"||
+            game.Save.catRescues.Any(p=>p.started||p.rescued||p.supplies.Count>0||p.completed.Count>0)||
             game.Relics.Catalog.fragments.Any(f=>game.Relics.Owned(f.id));
     }
 }

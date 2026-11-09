@@ -92,7 +92,7 @@ namespace LightBetweenCultures
             y+=100;
             if(p?.started!=true)
             {
-                var start=MobileUI.Button(ui,content,"CatStart","Nhận nhiệm vụ · Tìm "+c.catName,Vector2.zero,Vector2.zero,()=>{cats.Start();changed?.Invoke();ShowCatRescue(cats.Message);},true,true);
+                var start=MobileUI.Button(ui,content,"CatStart","BƯỚC 1/3 · NHẬN NHIỆM VỤ",Vector2.zero,Vector2.zero,()=>{cats.Start();changed?.Invoke();ShowCatRescue(cats.Message);},true,true);
                 Place((RectTransform)start.transform,12,y,cw-24,58);y+=78;
             }
             else

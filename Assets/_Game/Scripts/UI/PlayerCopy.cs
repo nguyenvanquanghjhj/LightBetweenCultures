@@ -101,7 +101,8 @@ namespace LightBetweenCultures
         {
             var args=Environment.GetCommandLineArgs();
             if(args.Contains("--gameplay-smoke")&&!args.Contains("--player-experience-after"))return false;
-            return game.Data.cityId=="hoi_an"&&game.Save.accepted.Count==0&&game.Save.visited.Count<=1&&PlayerPrefs.GetInt(GuideKey,0)==0;
+            return game.Data.cityId=="hoi_an"&&game.Save.accepted.Count==0&&game.Save.visited.Count<=1&&
+                !game.Save.catRescues.Any(p=>p.started||p.rescued)&&PlayerPrefs.GetInt(GuideKey,0)==0;
         }
         public static string GuideKey=>Environment.GetCommandLineArgs().Contains("--gameplay-smoke")?"LBC.PlayerGuide.QA":"LBC.PlayerGuide.Seen.v1";
         public static string Requirement(string flag)
