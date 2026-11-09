@@ -1,0 +1,17 @@
+UTC run: 2026-10-25T06:22:20.3709396Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Shop width is reduced 27.5%, with a 100-unit touch target
+PASS: Shop keeps ObjectiveHint's height and 52-unit finger target
+PASS: Only shop moves: compact 8-unit gap after ObjectiveHint
+PASS: Shop caption stays centered and unchanged
+PASS: Existing coin icon is centered without blocking touch
+PASS: Existing rounded glossy button graphic is retained
+PASS: Mouse opens the existing shop callback
+PASS: Simulated touch opens the existing shop callback
+PASS: Open/close leaves gameplay and save untouched
+PASS: Fresh runtime capture written: SHOP-toolbar-compact
+ALL CHECKS PASSED

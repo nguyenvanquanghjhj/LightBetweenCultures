@@ -1,0 +1,7 @@
+{
+  "source": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\AndroidTouch-20261020\\priority-device\\owner-partial-save.json",
+  "sourceSHA256": "2c18bae159fc871285dab5e59449177e3f1537441f8c429f62998514b97a8f54",
+  "kind": "EXPLICIT_QA_BOUNDARY_FIXTURE_FROM_OWNER_SAVE",
+  "change": "Remove one shallot ONLY IN QA COPY to exercise two missing reserve-aware ingredients",
+  "phoneSaveModified": false
+}

@@ -1,0 +1,252 @@
+{
+  "result": "PASS_TARGETED_WINDOWS_FUNCTIONAL_VISUAL_REVIEW_PENDING",
+  "date": "2026-10-18",
+  "productionGuarded": 182,
+  "authorizedChangedProduction": [
+    "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+    "Assets/_Game/Scripts/Core/GameBootstrap.cs",
+    "Assets/_Game/Scripts/Editor/ArtLibrarySetup.cs",
+    "Assets/_Game/Scripts/Maps/CityMap.cs",
+    "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Resources/Content/AdventurePresentation.json",
+    "Assets/_Game/Resources/Content/GameplayContent.json"
+  ],
+  "unexpectedChangedProduction": [],
+  "sourcePngsUnchanged": 10,
+  "oldNpcIdentityRecordsUnchanged": 23,
+  "newNpcPendingApproval": 4,
+  "nativeSprites": {
+    "newNpc": 4,
+    "completeRelics": 6,
+    "matchedFragments": 21,
+    "seoulIconsArtPending": 3
+  },
+  "counts": {
+    "cities": 6,
+    "nodes": 133,
+    "quests": 29,
+    "canonicalPuzzles": 22,
+    "catalogRelics": 6,
+    "catalogFragments": 24,
+    "enabledFragmentSources": 4
+  },
+  "unchangedDataArrays": [
+    "cities",
+    "events",
+    "items",
+    "enemies",
+    "quests",
+    "puzzles",
+    "resonances"
+  ],
+  "checkInChangedOnly": "hoi_an.h2 requiredFlags; backend completed mai-lantern guard",
+  "markerChangedOnly": "H2 quest priority + local light camera",
+  "actorScale": 0.72,
+  "touchSize": 52,
+  "saveSystemCodeUnchanged": true,
+  "saveVersion": 2,
+  "legacyEndingExecutionBlockUnchanged": true,
+  "projectSettingsRestoredExactBaseline": true,
+  "runtimeQA": {
+    "Fresh04": {
+      "assertions": 140,
+      "result": "ALL CHECKS PASSED",
+      "path": "Validation/RelicPilot-20261018/Fresh04/smoke-results.txt"
+    },
+    "Restart01": {
+      "assertions": 10,
+      "result": "ALL CHECKS PASSED",
+      "path": "Validation/RelicPilot-20261018/Restart01/restart-results.txt"
+    },
+    "Retro01": {
+      "assertions": 59,
+      "result": "ALL CHECKS PASSED",
+      "path": "Validation/RelicPilot-20261018/Retro01/smoke-results.txt"
+    },
+    "NPC01": {
+      "assertions": 57,
+      "result": "ALL CHECKS PASSED",
+      "path": "Validation/RelicPilot-20261018/NPC01/smoke-results.txt"
+    }
+  },
+  "captures": [
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/05-H3-exploration.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "31bdcd1ca14189952ed29bde5d1aa8271623cf1516d222379d3c9b80a69d337d"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/06-H3-part-picked-up.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "8bfad1ef910cf089f2b564bceab55d6b4f04109fbf7ea1ad8dbcf0229ee2eb5f"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-after-full-city-same-view.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "0c74d0d39d8ffa8aad4a83147f25088e55e5a13ac07ccad93f4324f5128d0159"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-beam-valid-restoration.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "def0f004c02b235a5b0eb53c8937fdfa6809bc9682799b2cfa5f2f0409f7c200"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-before-full-city-H7-done.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "7f76330d3b60d3b771f1fd1966f4688ee696d38d779d770bbceadcdacd8eacba"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-collection-six-icons.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "3c1980fafc2538c43ec8088bde0b96fe3c180a004a8384cbae5897ff78a563ff"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-four-pieces-assembly.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "6f80e859de128570c528bf8bacad764953edf4f97f36816cc92df6f264b2a47b"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-H10-hook-collected.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "4cce0377cb9231db4891470d4ad21de2a85734c7b49dc887266ef8f21ec55980"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-H6-postcard-aligned.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "cf24b720cfeed88e7794cbd5f48678445e0423f92e2c89d17c9cd895daa74fb8"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-photo-album-revisit.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "408bb74e0504a0aa9a5dcb4d5f1301b27e1a652eaaa9a5ded288d836bf9868ea"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Restart01/Relic-restart-landscape.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "77c3979e8683ee5614f403422b3c3048c05879f4980a1636381685e4c5c6c51c"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Retro01/Relic-H10-hook-collected.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "c3630cfc08afa5519d8ab91add90ce7130e73f6c0636326724b0ac1e7ab9c829"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Retro01/Relic-H6-postcard-aligned.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "9f18b6179d947b16b346594e589dbbfecf7f2c2a8cd03540fb9bb526e0b45ad4"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/NPC-G14-npc_inscription.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "233a4fd3a58170014680518a3700bc0e6fb64c8c130cdce213433de4cf1eeb6d"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/NPC-G9-npc_keeper.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "241b055dba02726104c8ebe1db7e2207802f7c7c4d4de66f8b4a34effbb6f003"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/NPC-S11-npc_engineer.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "f607c2571afbea93e4a2fc6b7d3d5bbf8067cc250e29a486b8ac4b1b05862432"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/NPC-S2-npc_curator.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "6392f46c60896227ded2126e968a584a396a7e1e2e8f0214cc03fef80ebaaf8a"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/X-WorldMap-select-gyeongju.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "1e7e86f0cd3d77c8f52e29bac35527fb935db4f33243bf7cc307f3f442f1db43"
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/X-WorldMap-select-seoul.png",
+      "dimensions": [
+        540,
+        960
+      ],
+      "sha256": "af6bb6b2e156b504c5a8f72dc842faeb1454f7a19adcab519c99f38b93ffad86"
+    }
+  ],
+  "comparison": {
+    "run": "Fresh04",
+    "resolution": [
+      540,
+      960
+    ],
+    "zoom": 1.25,
+    "focus": [
+      0.48,
+      0.55
+    ],
+    "node": "H2",
+    "both": "HQ01 completed,4 fragments, assembled; only trial/restored transition differs"
+  },
+  "android": "NOT_TESTED",
+  "fpsVramMeasured": "NOT_TESTED",
+  "physicalTouchDevice": "NOT_TESTED_WINDOWS_INPUTSYSTEM_TOUCH_EVENTS_PASS",
+  "standaloneV1Runtime": "NOT_TESTED_SAVE_SYSTEM_CODE_UNCHANGED",
+  "phase4to7": "NOT_STARTED",
+  "historicalEarnedSaveUnchangedSHA256": "83a82674c50d8e2b3ab48981913af24dc9cd33d788b8ab5c0e2cc3d4f146555f",
+  "finalWindowsExeSHA256": "b70442f90f50cd91f7af7bf2272602645fc5d02c4d3156fb221fc27c328d2436",
+  "rawNewTexturesRGBA32EstimatedBytes": 62900832,
+  "note": "RGBA32 raw estimate approx60MiB shared by27 relic sprites+4 NPC; no device VRAM claim. NPC01 evidence build03, references and DrawDialogue unchanged in final04."
+}

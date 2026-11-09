@@ -1,0 +1,1209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ca61958a004c247b5326a45e5d80e2, type: 3}
+  m_Name: AdventureUIArt
+  m_EditorClassIdentifier: Assembly-CSharp::LightBetweenCultures.AdventureUIArt
+  cities:
+  - id: hoi_an
+    description: "Ph\u1ED1 m\xE1i ng\xF3i, \u0111\xE8n l\u1ED3ng v\xE0 nh\u1EEFng m\u1EA3nh k\u1EBFt n\u1ED1i th\u1EA5t l\u1EA1c."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 21300000, guid: add0499b1e25b674f97625fcc443e3e6, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: hue
+    description: "Theo d\xF2ng s\xF4ng H\u01B0\u01A1ng, t\xECm d\u1EA5u \u1EA5n c\u1EE7a kinh th\xE0nh."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 21300000, guid: 481d167093be364419d9ebb11b8e4e27, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: da_lat
+    description: "H\u1ED3 xanh, r\u1EEBng th\xF4ng v\xE0 nh\u1EEFng l\u1ED1i m\xF2n trong s\u01B0\u01A1ng."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 21300000, guid: 44c553d406b840740a51a62491818111, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: jeonju
+    description: "L\xE0ng hanok v\xE0 \xE1nh \u0111\xE8n hanji t\u1EEB b\xE0n tay ngh\u1EC7 nh\xE2n."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 21300000, guid: a81827839b4593840a4f9ed1ebc59f9d, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: gyeongju
+    description: "Di t\xEDch Silla c\u1EA5t gi\u1EEF c\xE1c k\xFD hi\u1EC7u c\u1EE7a b\u1EA7u tr\u1EDDi."
+    aliasOf: 
+    source: LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Gyeongju/Map_Overview_A.png
+    status: EXACT_APPROVED_MAP_A_PIXELS; original full resolution
+    sprite: {fileID: 21300000, guid: 8303af4dae6df924f9d9779aa1272596, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: seoul
+    description: "Di s\u1EA3n v\xE0 th\xE0nh ph\u1ED1 hi\u1EC7n \u0111\u1EA1i c\xF9ng ng\xE2n nh\u1ECBp \xE1nh s\xE1ng."
+    aliasOf: 
+    source: LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Seoul/Map_Overview_A.png
+    status: EXACT_APPROVED_MAP_A_PIXELS; original full resolution
+    sprite: {fileID: 21300000, guid: c863c93d8325d8f46a10cfa990f0229e, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  items:
+  - id: lamp_eye
+    description: "M\u1EAFt \u0110\xE8n t\xECm th\u1EA5y trong h\u1EBBm m\xE1i ng\xF3i. Linh ki\u1EC7n c\u1EA7n \u0111\u1EC3 kh\xF4i ph\u1EE5c Tr\u1EA1m \xC1nh S\xE1ng H\u1ED9i An."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 715755030, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: lantern-part
+    description: "Linh ki\u1EC7n m\u1EDF \u0111\u1EA7u t\xECm trong h\u1EBBm. Mang v\u1EC1 ti\u1EC7m c\xF4 Mai \u0111\u1EC3 s\u1EEDa chi\u1EBFc \u0111\xE8n \u0111\u1EA7u ti\xEAn."
+    aliasOf: lamp_eye
+    source: 
+    status: 
+    sprite: {fileID: 715755030, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: hanji_core
+    description: "L\xF5i gi\u1EA5y s\xE1ng nh\u1EADn sau th\u1EED th\xE1ch x\u01B0\u1EDFng gi\u1EA5y. Gi\u1EEF l\u1EA1i \u0111\u1EC3 l\u1EAFp v\xE0o Tr\u1EA1m \xC1nh S\xE1ng."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 21300000, guid: 9c6ac872d96c048409e5f98912531ebf, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: link_key
+    description: "Ch\xECa kh\xF3a k\u1EBFt n\u1ED1i c\u1EE7a Bot M\u1EDD-01. C\xF3 th\u1EC3 l\u1EA5y b\u1EB1ng chi\u1EBFn \u0111\u1EA5u ho\u1EB7c v\xF4 hi\u1EC7u h\xF3a bot b\u1EB1ng m\u1EADt m\xE3."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 913107514, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: copper_wire
+    description: "Cu\u1ED9n d\xE2y \u0111\u1ED3ng b\u1ECB cua l\u1EA5y m\u1EA5t. B\xE0 T\u01B0 \u0111ang ch\u1EDD b\u1EA1n mang tr\u1EA3 \u1EDF khu ch\u1EE3."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 21300000, guid: 6292bac9748f22042aff4a6e8a1bcfbf, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: healing_tea
+    description: "Tr\xE0 \u1EA5m gi\xFAp Lumi h\u1ED3i HP. D\xF9ng b\u1EB1ng h\xE0nh \u0111\u1ED9ng h\u1ED3i ph\u1EE5c trong tr\u1EADn chi\u1EBFn; m\u1ED7i l\u1EA7n d\xF9ng ti\xEAu hao m\u1ED9t ch\xE9n."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 21300000, guid: 589849a96242ac74fb324aa67d104496, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: coin
+    description: "Xu nh\u1EADn t\u1EEB kh\xE1m ph\xE1 v\xE0 gi\xFAp \u0111\u1EE1 c\u01B0 d\xE2n. S\u1ED1 xu thu\u1ED9c v\u1EC1 to\xE0n b\u1ED9 h\xE0nh tr\xECnh."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -898090852, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: lan_glasses
+    description: "C\u1EB7p k\xEDnh th\u1EA5t l\u1EA1c c\u1EE7a Lan t\u1EA1i \u0110\xE0 L\u1EA1t. V\u1EADt ph\u1EA9m giao tr\u1EA3 nhi\u1EC7m v\u1EE5."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 1539910725, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: meat_portion
+    description: "Ph\u1EA7n th\u1EE9c \u0103n d\xF9ng l\xE0m m\u1ED3i. C\xF3 th\u1EC3 gi\xFAp gi\u1EA3i quy\u1EBFt m\u1ED9t s\u1ED1 cu\u1ED9c ch\u1EA1m tr\xE1n v\u1EDBi \u0111\u1ED9ng v\u1EADt m\xE0 kh\xF4ng giao chi\u1EBFn."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -1000206218, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: night_flower
+    description: "B\xF4ng hoa \u0111\xEAm \u0111\u01B0\u1EE3c c\u01B0 d\xE2n nh\u1EDD t\xECm. Gi\u1EEF l\u1EA1i cho nhi\u1EC7m v\u1EE5 t\u1EA1i \u0110\xE0 L\u1EA1t."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -1644844890, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: silla_prism
+    description: "L\u0103ng k\xEDnh g\u1EAFn v\u1EDBi b\xED m\u1EADt c\xE1c di t\xEDch Silla t\u1EA1i Gyeongju."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 1144791752, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: stargazer_lens
+    description: "\u1ED0ng k\xEDnh thi\xEAn v\u0103n. M\u1ED9t th\xE0nh ph\u1EA7n c\u1EA7n cho h\xE0nh tr\xECnh quan s\xE1t b\u1EA7u tr\u1EDDi t\u1EA1i Gyeongju."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 1539910725, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: lantern_stamp
+    description: "D\u1EA5u \u1EA5n \xE1nh s\xE1ng H\u1ED9i An. K\u1EF7 v\u1EADt c\u1EE7a m\u1ED9t k\u1EBFt n\u1ED1i \u0111\xE3 \u0111\u01B0\u1EE3c kh\xF4i ph\u1EE5c."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 715755030, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: river_pass
+    description: "Th\u1EBB cho ph\xE9p s\u1EED d\u1EE5ng tuy\u1EBFn qua s\xF4ng trong h\xE0nh tr\xECnh t\u1EA1i Hu\u1EBF."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -227745245, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: royal_herb
+    description: "Th\u1EA3o d\u01B0\u1EE3c \u1EDF b\u1EDD b\u1EAFc s\xF4ng H\u01B0\u01A1ng. V\u1EADt ph\u1EA9m c\u1EA7n giao cho ng\u01B0\u1EDDi nh\u1EDD t\xECm."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -1644844890, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: lost_letter
+    description: "Ki\u1EC7n th\u01B0 ni\xEAm phong trong chu\u1ED7i nhi\u1EC7m v\u1EE5 Hu\u1EBF. C\u1EA7n mang t\u1EDBi \u0111\xFAng ng\u01B0\u1EDDi nh\u1EADn."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 681317501, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: ancient_seal
+    description: "\u1EA4n t\xEDn c\u1ED5 g\u1EAFn v\u1EDBi \u0111i\u1EC1u ki\u1EC7n m\u1EDF \u0111\u01B0\u1EDDng t\u1EA1i Hu\u1EBF."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 913107514, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: astral_script
+    description: "C\xE1c d\xF2ng ch\u1EEF sao c\u1ED5. Manh m\u1ED1i \u0111\u1EC3 \u0111\u1ECDc nh\u1EEFng k\u1EBFt n\u1ED1i v\u0103n h\xF3a."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -227745245, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: fog_battery
+    description: "Ngu\u1ED3n n\u0103ng l\u01B0\u1EE3ng g\u1EAFn v\u1EDBi tuy\u1EBFn kh\xE1m ph\xE1 s\u01B0\u01A1ng m\xF9 t\u1EA1i \u0110\xE0 L\u1EA1t."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 1144791752, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: blue_water_signal
+    description: "T\xEDn hi\u1EC7u n\u01B0\u1EDBc xanh, l\u01B0u d\u1EA5u ti\u1EBFn \u0111\u1ED9 k\u1EBFt n\u1ED1i t\u1EEB \u0110\xE0 L\u1EA1t."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 1965628486, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: hanji_pattern_1
+    description: "M\u1EA3nh hoa v\u0103n hanji th\u1EE9 nh\u1EA5t trong chu\u1ED7i ch\u1EBF t\xE1c Jeonju."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -227745245, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: hanji_pattern_2
+    description: "M\u1EA3nh hoa v\u0103n hanji th\u1EE9 hai trong chu\u1ED7i ch\u1EBF t\xE1c Jeonju."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -227745245, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: hanji_pattern_3
+    description: "M\u1EA3nh hoa v\u0103n hanji th\u1EE9 ba trong chu\u1ED7i ch\u1EBF t\xE1c Jeonju."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -227745245, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: missing_parcel
+    description: "Ki\u1EC7n h\xE0ng th\u1EA5t l\u1EA1c c\u1EE7a th\u01B0\u01A1ng nh\xE2n. Mang v\u1EC1 \u0111\xFAng n\u01A1i \u0111\u1EC3 ho\xE0n th\xE0nh nhi\u1EC7m v\u1EE5."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 1738488984, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: hanji_circuit
+    description: "M\u1EA1ch \u0111\xE8n hanji li\xEAn k\u1EBFt ngh\u1EC1 th\u1EE7 c\xF4ng Jeonju v\u1EDBi \xE1nh s\xE1ng H\u1ED9i An."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 715755030, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: reply_letter
+    description: "L\xE1 th\u01B0 h\u1ED3i \xE2m \u0111\u01B0\u1EE3c g\u1EEDi theo h\xE0nh tr\xECnh k\u1EBFt n\u1ED1i gi\u1EEFa c\xE1c th\xE0nh ph\u1ED1."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 681317501, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: star_symbol_1
+    description: "D\u1EA5u sao t\xECm \u1EDF khu l\u0103ng m\u1ED9 Gyeongju. M\u1ED9t ph\u1EA7n c\u1EE7a b\u1ED9 k\xFD hi\u1EC7u c\u1ED5."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 1144791752, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: star_symbol_2
+    description: "D\u1EA5u sao t\xECm tr\xEAn \u0111\u01B0\u1EDDng g\xF2 t\u1EA1i Gyeongju. M\u1ED9t ph\u1EA7n c\u1EE7a b\u1ED9 k\xFD hi\u1EC7u c\u1ED5."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 1144791752, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: star_symbol_3
+    description: "D\u1EA5u sao t\xECm tr\xEAn \u0111\u1ED3i cao Gyeongju. M\u1ED9t ph\u1EA7n c\u1EE7a b\u1ED9 k\xFD hi\u1EC7u c\u1ED5."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: 1144791752, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: relay_a
+    description: "M\xE3 x\xE1c nh\u1EADn tr\u1EA1m n\u0103ng l\u01B0\u1EE3ng A t\u1EA1i Seoul."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -227745245, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: relay_b
+    description: "M\xE3 x\xE1c nh\u1EADn tr\u1EA1m n\u0103ng l\u01B0\u1EE3ng B t\u1EA1i Seoul."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -227745245, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: relay_c
+    description: "M\xE3 x\xE1c nh\u1EADn tr\u1EA1m n\u0103ng l\u01B0\u1EE3ng C t\u1EA1i Seoul."
+    aliasOf: 
+    source: 
+    status: 
+    sprite: {fileID: -227745245, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: hoi_an_fresh_chili
+    description: "\u1EDAt t\u01B0\u01A1i t\u1EEB qu\u1EA7y B\xE0 T\u01B0. Mang sang J15 Jeonju cho m\u1ED9t gian h\xE0ng giao l\u01B0u \u1EA9m th\u1EF1c. \u0110\xE2y l\xE0 m\xF3n trao \u0111\u1ED5i t\xF9y ch\u1ECDn."
+    aliasOf: 
+    source: Assets/_Game/Art/Item/Item_HoiAn_Chili.jpg
+    status: transparent_derivative_flat_style_temporary
+    sprite: {fileID: 21300000, guid: 9ca8b1632a045ca419f9b8e28bbd201f, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: hoi_an_purple_shallot
+    description: "M\u1ED9t c\u1EE7 h\xE0nh t\xEDm t\u1EEB s\u1EA1p H\u1ED9i An, d\xF9ng cho gian h\xE0ng giao l\u01B0u t\u1EA1i U1 Hu\u1EBF."
+    aliasOf: 
+    source: Assets/_Game/Art/Item/Item_HoiAn_Shallot.jpg
+    status: transparent_derivative_flat_style_temporary
+    sprite: {fileID: 21300000, guid: 265c03f325521254a8dff9674cc2b3f7, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: festival_friendship_postcard
+    description: "Ph\u1EA7n th\u01B0\u1EDFng t\u1EEB B\xE0 T\u01B0 sau khi mang qu\xE0 t\u1EEB H\u1ED9i An \u0111\u1EBFn c\u1EA3 Hu\u1EBF v\xE0 Jeonju."
+    aliasOf: 
+    source: Assets/_Game/Art/Items/Shared/Interactables_Atlas.png
+    status: NEEDS_ART_TEMPORARY_CATEGORY_ICON_CLEAN_PACK_SCROLL
+    sprite: {fileID: -227745245, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: hoi_an_bridge_postcard
+    description: "B\u01B0u thi\u1EBFp check-in, kh\xF4ng kh\xF3a ti\u1EBFn tr\xECnh ch\xEDnh."
+    aliasOf: 
+    source: Assets/_Game/Art/Items/Shared/Interactables_Atlas.png
+    status: NEEDS_ART_TEMPORARY_CATEGORY_ICON_CLEAN_PACK_SCROLL
+    sprite: {fileID: -227745245, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: jeonju_recipe_card
+    description: "Th\u1EBB minh h\u1ECDa m\xF3n c\u01A1m giao l\u01B0u \u1EDF Jeonju; l\xE0 k\u1EF7 ni\u1EC7m vi\u1EC7c chia s\u1EBB \u1EDBt H\u1ED9i An."
+    aliasOf: 
+    source: Assets/_Game/Art/Item/existing scroll sprite
+    status: shared_category_icon_pending_destination
+    sprite: {fileID: 681317501, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: hue_market_note
+    description: "L\u1EDDi c\u1EA3m \u01A1n t\u1EEB gian h\xE0ng Hu\u1EBF sau khi nh\u1EADn h\xE0nh t\xEDm."
+    aliasOf: 
+    source: Assets/_Game/Art/Item/existing scroll sprite
+    status: shared_category_icon_pending_destination
+    sprite: {fileID: 681317501, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 1
+    portraitUseSpriteMesh: 0
+  - id: da_lat_strawberry
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/_SourceSheets/ItemSheet_VNKR_FoodCulture_v1.png
+    status: EXISTING_NATIVE_ALPHA_SLICE_REUSED; PROPOSED_ITEM_NOT_CANONICAL
+    sprite: {fileID: -6487280965372053903, guid: 2cedb033602689a4d820165ed4b034c7, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  npcs:
+  - id: npc_guest
+    description: 
+    aliasOf: 
+    source: 
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: -404209332, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_boatman
+    description: 
+    aliasOf: 
+    source: 
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: 21300000, guid: 3835aa72bd8c88b41af32d4aabd40b98, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_mai
+    description: 
+    aliasOf: 
+    source: Characters/NPC_Roster_Concept.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: -1732270161, guid: a6cc838dd76ae7f40902d846693f4a5e, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_market_merchant
+    description: 
+    aliasOf: 
+    source: Characters/NPC_Roster_Concept.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: 21300000, guid: 0a91b2dbca846994bbade4807ff62596, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_huong
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: -1343187348, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
+    portrait: {fileID: -1343187348, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_soyeon
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: 464872565, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
+    portrait: {fileID: 464872565, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_scholar
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: -156234960, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
+    portrait: {fileID: -156234960, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_hana
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: -730319472, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
+    portrait: {fileID: -730319472, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_nguyet
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-7e190989-bfd9-4c83-942e-22f38ecab7f1.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: -1004916199, guid: 48a2e6c60f7ec0349befacea7c60e927, type: 3}
+    portrait: {fileID: -1004916199, guid: 48a2e6c60f7ec0349befacea7c60e927, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_tam
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-f12979ec-7b12-4269-903d-cd88c0edd1de.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: -1705763202, guid: 7eb9ff722f5f81748945b06d9e1d05bd, type: 3}
+    portrait: {fileID: -1705763202, guid: 7eb9ff722f5f81748945b06d9e1d05bd, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_yoon
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-62274880-f810-4340-9317-60a9e24076d1.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: -321799653, guid: 9e80ff4e3ffd49044b5dabf92b3d6b27, type: 3}
+    portrait: {fileID: -321799653, guid: 9e80ff4e3ffd49044b5dabf92b3d6b27, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_park
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-e66f287a-2b5e-4f66-987a-71069b8fd083.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: -606975524, guid: 36a0c8ea46b133e40bf8731d313402d7, type: 3}
+    portrait: {fileID: -606975524, guid: 36a0c8ea46b133e40bf8731d313402d7, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_elder
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-33d3b4b8-0005-46d6-af23-f7edb2cf564d.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: 245854044, guid: 9e2ba05a32d628045ae4dce1b7b1cb19, type: 3}
+    portrait: {fileID: 245854044, guid: 9e2ba05a32d628045ae4dce1b7b1cb19, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_lan
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-e6e8509b-ddb7-4234-bd4d-3830786383bc.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: 1886636321, guid: fb6c63798ffdb6841a4fd318adf72a74, type: 3}
+    portrait: {fileID: 1886636321, guid: fb6c63798ffdb6841a4fd318adf72a74, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_thuy
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-c2a55252-5f3c-4e4c-8fda-bc436bd89b83.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: -857154714, guid: 33ce1e750bcd0124d9feb5cfcbf3fa66, type: 3}
+    portrait: {fileID: -857154714, guid: 33ce1e750bcd0124d9feb5cfcbf3fa66, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_gardener
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-592f122b-a363-41ad-9bd3-ebc0dfa9379e.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: 1390191892, guid: cac9b7f04788a1743af1858d523019df, type: 3}
+    portrait: {fileID: 1390191892, guid: cac9b7f04788a1743af1858d523019df, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_hungry_dog
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-f9d9225b-fa66-4403-ab6c-d3cfed897378.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: 37410012, guid: 3df301f30edc9d243899518bb89fb538, type: 3}
+    portrait: {fileID: 37410012, guid: 3df301f30edc9d243899518bb89fb538, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: npc_ba_tu
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: 8637574531497076435, guid: ab62ba1e558f7274984500bb1cac18f6, type: 3}
+    portrait: {fileID: 8637574531497076435, guid: ab62ba1e558f7274984500bb1cac18f6, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 1
+  - id: npc_phuc
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: 1019635214, guid: ab62ba1e558f7274984500bb1cac18f6, type: 3}
+    portrait: {fileID: 1019635214, guid: ab62ba1e558f7274984500bb1cac18f6, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 1
+  - id: npc_min
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png
+    status: CANONICAL_USER_CONFIRMED_20261017
+    sprite: {fileID: 830274255, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  enemies:
+  - id: enemy_crab
+    description: 
+    aliasOf: 
+    source: LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png
+    status: derived_static_cutout_map_verified; combat_redesign_pending
+    sprite: {fileID: -1834426197, guid: 0aa7f368b0015354e9303a88022a2b51, type: 3}
+    portrait: {fileID: -1834426197, guid: 0aa7f368b0015354e9303a88022a2b51, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_ghost
+    description: 
+    aliasOf: 
+    source: LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png
+    status: derived_static_cutout_map_verified; combat_redesign_pending
+    sprite: {fileID: -449156768, guid: 0aa7f368b0015354e9303a88022a2b51, type: 3}
+    portrait: {fileID: -449156768, guid: 0aa7f368b0015354e9303a88022a2b51, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_mo01
+    description: 
+    aliasOf: 
+    source: LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png
+    status: derived_static_cutout_map_verified; combat_redesign_pending
+    sprite: {fileID: 430370353, guid: 0aa7f368b0015354e9303a88022a2b51, type: 3}
+    portrait: {fileID: 430370353, guid: 0aa7f368b0015354e9303a88022a2b51, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_river_wisp
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-bb202b2f-387d-4c51-8002-094809d75d35.png
+    status: AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation
+    sprite: {fileID: 1477077370, guid: e6d7429b54bd9344582006412f6b095d, type: 3}
+    portrait: {fileID: 1477077370, guid: e6d7429b54bd9344582006412f6b095d, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_courier
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-98abb5c2-b275-4452-92c4-7114301ff079.png
+    status: AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation
+    sprite: {fileID: 1510768234, guid: 19833cb28726e514e94c269bc5be0f65, type: 3}
+    portrait: {fileID: 1510768234, guid: 19833cb28726e514e94c269bc5be0f65, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_archive_guard
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-dad87aa5-9c2b-425b-bdb7-c21a97f0c6da.png
+    status: AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation
+    sprite: {fileID: -1276264681, guid: 6e45e2d614a36a14cb99af2ff09bb551, type: 3}
+    portrait: {fileID: -1276264681, guid: 6e45e2d614a36a14cb99af2ff09bb551, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_gate_guard
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-8c48f445-6944-4a62-acb2-b423a740a3fe.png
+    status: AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation
+    sprite: {fileID: 1729547971, guid: ab1b66b2c62e1ef479ccdb953644d767, type: 3}
+    portrait: {fileID: 1729547971, guid: ab1b66b2c62e1ef479ccdb953644d767, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_parcel_bot
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-900a295e-9987-4da1-9552-9ec09f7e647e.png
+    status: AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation
+    sprite: {fileID: -1203999766, guid: 24efe2bdb706ca641bdb839342c631ce, type: 3}
+    portrait: {fileID: -1203999766, guid: 24efe2bdb706ca641bdb839342c631ce, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_paper_crane
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-949687a9-c17c-47de-9c10-32b43524b783.png
+    status: AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation
+    sprite: {fileID: -117765698, guid: 6bada230f9ce7964d80e3e565afd80fc, type: 3}
+    portrait: {fileID: -117765698, guid: 6bada230f9ce7964d80e3e565afd80fc, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_pattern_bot
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-3cfdd4c3-6642-45ac-a7b9-f56bf07a5899.png
+    status: AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation
+    sprite: {fileID: 1031187422, guid: 2162ef03eff775741acd49e8d094d377, type: 3}
+    portrait: {fileID: 1031187422, guid: 2162ef03eff775741acd49e8d094d377, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_crane_boss
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-e00c2cd9-a997-4b97-8630-d89dfa7a9ad3.png
+    status: AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation
+    sprite: {fileID: 1534989893, guid: 9a0778a8c427a2243857a0d6bf9aaf14, type: 3}
+    portrait: {fileID: 1534989893, guid: 9a0778a8c427a2243857a0d6bf9aaf14, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_glass_thief
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-bfb6c9a0-3863-49c1-9ba8-73625801619d.png
+    status: AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE
+    sprite: {fileID: -1478108775, guid: b38571563586e3541b1be7cac75c2a0f, type: 3}
+    portrait: {fileID: -1478108775, guid: b38571563586e3541b1be7cac75c2a0f, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_fog_boss
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-cf9ba6a7-5278-49e3-afaa-16408fd512ca.png
+    status: AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE
+    sprite: {fileID: -556586083, guid: 02f4eb7b51161784eaf10c79ca3bac67, type: 3}
+    portrait: {fileID: -556586083, guid: 02f4eb7b51161784eaf10c79ca3bac67, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_mist_wolf
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-2cb24a14-e25d-4181-bd12-8e8739b26989.png
+    status: AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE
+    sprite: {fileID: 409949217, guid: 34574e7c8d1443043a96fb1bf85be2be, type: 3}
+    portrait: {fileID: 409949217, guid: 34574e7c8d1443043a96fb1bf85be2be, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_stone_guard
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png
+    status: TEMPORARY_USER_CONCEPT_NATIVE_MESH; NOT_CANONICAL; needs visual art acceptance
+    sprite: {fileID: -251548368, guid: f68243708771f8746a5f7a7cc75cc0f3, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_star_core
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png
+    status: TEMPORARY_USER_CONCEPT_NATIVE_MESH; NOT_CANONICAL; needs visual art acceptance
+    sprite: {fileID: -1994963365, guid: f68243708771f8746a5f7a7cc75cc0f3, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_final_core
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png
+    status: TEMPORARY_USER_CONCEPT_NATIVE_MESH; NOT_CANONICAL; needs visual art acceptance
+    sprite: {fileID: -1994963365, guid: f68243708771f8746a5f7a7cc75cc0f3, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_shadow_courier
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png
+    status: TEMPORARY_USER_CONCEPT_NATIVE_MESH; NOT_CANONICAL; needs visual art acceptance
+    sprite: {fileID: 983690858, guid: f68243708771f8746a5f7a7cc75cc0f3, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_fox
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png
+    status: TEMPORARY_USER_CONCEPT_NATIVE_MESH; NOT_CANONICAL; cat concept pending actual fox sprite
+    sprite: {fileID: 1941295669, guid: f68243708771f8746a5f7a7cc75cc0f3, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_night_guard
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-8c48f445-6944-4a62-acb2-b423a740a3fe.png
+    status: TEMPORARY_SHARED_BOT_ART; NOT_CANONICAL_FOR_NEW_ROLE; alias enemy_gate_guard
+    sprite: {fileID: 1729547971, guid: ab1b66b2c62e1ef479ccdb953644d767, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_bridge
+    description: 
+    aliasOf: 
+    source: LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png
+    status: TEMPORARY_SHARED_BOT_ART; NOT_CANONICAL_FOR_NEW_ROLE; alias enemy_mo01
+    sprite: {fileID: 430370353, guid: 0aa7f368b0015354e9303a88022a2b51, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_drone
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-bfb6c9a0-3863-49c1-9ba8-73625801619d.png
+    status: TEMPORARY_SHARED_BOT_ART; NOT_CANONICAL_FOR_NEW_ROLE; alias enemy_glass_thief
+    sprite: {fileID: -1478108775, guid: b38571563586e3541b1be7cac75c2a0f, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: enemy_signal_bot
+    description: 
+    aliasOf: 
+    source: C:\Users\admin\.codex\generated_images\01a13f2d-8dae-7a02-99b2-182d4401a411\exec-3cfdd4c3-6642-45ac-a7b9-f56bf07a5899.png
+    status: TEMPORARY_SHARED_BOT_ART; NOT_CANONICAL_FOR_NEW_ROLE; alias enemy_pattern_bot
+    sprite: {fileID: 1031187422, guid: 2162ef03eff775741acd49e8d094d377, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  mapActors:
+  - cityId: hoi_an
+    nodeId: H2
+    artId: npc_mai
+    size: {x: 52, y: 62}
+    offset: {x: -22, y: 10}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: hoi_an
+    nodeId: H4
+    artId: npc_market_merchant
+    size: {x: 48, y: 58}
+    offset: {x: 28, y: 6}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: hoi_an
+    nodeId: H5
+    artId: enemy_mo01
+    size: {x: 58, y: 66}
+    offset: {x: 20, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: hoi_an
+    nodeId: H12
+    artId: enemy_crab
+    size: {x: 48, y: 40}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: hoi_an
+    nodeId: H15
+    artId: enemy_ghost
+    size: {x: 43, y: 52}
+    offset: {x: -20, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: hoi_an
+    nodeId: H17
+    artId: npc_boatman
+    size: {x: 50, y: 60}
+    offset: {x: 20, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: hoi_an
+    nodeId: H18
+    artId: npc_guest
+    size: {x: 40, y: 52}
+    offset: {x: 12, y: 4}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: hue
+    nodeId: U1
+    artId: npc_huong
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: jeonju
+    nodeId: J15
+    artId: npc_soyeon
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: hue
+    nodeId: U2
+    artId: npc_nguyet
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: hue
+    nodeId: U3
+    artId: npc_tam
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: hue
+    nodeId: U7
+    artId: npc_scholar
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: jeonju
+    nodeId: J2
+    artId: npc_hana
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: jeonju
+    nodeId: J4
+    artId: npc_yoon
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: jeonju
+    nodeId: J5
+    artId: npc_park
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: jeonju
+    nodeId: J16
+    artId: npc_elder
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: hue
+    nodeId: U5
+    artId: enemy_gate_guard
+    size: {x: 55, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: hue
+    nodeId: U12
+    artId: enemy_river_wisp
+    size: {x: 55, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: hue
+    nodeId: U15
+    artId: enemy_courier
+    size: {x: 55, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: hue
+    nodeId: U18
+    artId: enemy_archive_guard
+    size: {x: 55, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: jeonju
+    nodeId: J6
+    artId: enemy_parcel_bot
+    size: {x: 55, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: jeonju
+    nodeId: J9
+    artId: enemy_paper_crane
+    size: {x: 55, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: jeonju
+    nodeId: J14
+    artId: enemy_pattern_bot
+    size: {x: 55, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: jeonju
+    nodeId: J18
+    artId: enemy_crane_boss
+    size: {x: 55, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: da_lat
+    nodeId: D2
+    artId: npc_lan
+    size: {x: 52, y: 60}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: da_lat
+    nodeId: D3
+    artId: npc_thuy
+    size: {x: 52, y: 60}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: da_lat
+    nodeId: D4
+    artId: npc_market_merchant
+    size: {x: 52, y: 60}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: da_lat
+    nodeId: D6
+    artId: enemy_mist_wolf
+    size: {x: 58, y: 48}
+    offset: {x: -28, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: da_lat
+    nodeId: D7
+    artId: enemy_glass_thief
+    size: {x: 52, y: 60}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: da_lat
+    nodeId: D10
+    artId: npc_hungry_dog
+    size: {x: 58, y: 48}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: da_lat
+    nodeId: D13
+    artId: npc_gardener
+    size: {x: 52, y: 60}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: da_lat
+    nodeId: D15
+    artId: enemy_fog_boss
+    size: {x: 58, y: 48}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: gyeongju
+    nodeId: G3
+    artId: npc_min
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: gyeongju
+    nodeId: G6
+    artId: enemy_fox
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: gyeongju
+    nodeId: G7
+    artId: enemy_stone_guard
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 0
+    scaleOverride: 0
+  - cityId: gyeongju
+    nodeId: G13
+    artId: enemy_night_guard
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: gyeongju
+    nodeId: G18
+    artId: enemy_star_core
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: seoul
+    nodeId: S5
+    artId: enemy_drone
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: seoul
+    nodeId: S8
+    artId: enemy_signal_bot
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: seoul
+    nodeId: S15
+    artId: enemy_bridge
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: seoul
+    nodeId: S19
+    artId: enemy_shadow_courier
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  - cityId: seoul
+    nodeId: S20
+    artId: enemy_final_core
+    size: {x: 52, y: 62}
+    offset: {x: 22, y: 8}
+    hideWhenResolved: 1
+    scaleOverride: 0
+  mapActorScale: 0.72
+  mapActorStyles: []
+  mapActorTouchSize: 52
+  backpack: {fileID: -146881192, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+  coin: {fileID: -898090852, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+  globe: {fileID: 21300000, guid: a56225f02ce31104daf479ecd89eaea8, type: 3}
+  journal: {fileID: -227745245, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+  backdrop: {fileID: -748434038, guid: bf36cd9e4ac7cfd409810a756c4dfb99, type: 3}
+  window: {fileID: -1425265484, guid: bf36cd9e4ac7cfd409810a756c4dfb99, type: 3}
+  buttonTeal: {fileID: -232422408, guid: bf36cd9e4ac7cfd409810a756c4dfb99, type: 3}
+  buttonPaper: {fileID: -1919009385, guid: bf36cd9e4ac7cfd409810a756c4dfb99, type: 3}
+  slot: {fileID: -1018102616, guid: bf36cd9e4ac7cfd409810a756c4dfb99, type: 3}
+  postcard: {fileID: -459301918, guid: bf36cd9e4ac7cfd409810a756c4dfb99, type: 3}
+  markers:
+  - id: Ground
+    description: 
+    aliasOf: 
+    source: References/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png
+    status: independent_generated_derivative_transparent
+    sprite: {fileID: 21300000, guid: eddf12bed32f6ac47ad4a5ab8ad7f0df, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: Current
+    description: 
+    aliasOf: 
+    source: References/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png
+    status: independent_generated_derivative_transparent
+    sprite: {fileID: 21300000, guid: 39d25111b5b7f4e48b132c979ba458d8, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: NpcTalk
+    description: 
+    aliasOf: 
+    source: References/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png
+    status: independent_generated_derivative_transparent
+    sprite: {fileID: 21300000, guid: 7d6c6ca2f3bb88444969f4378d8f38b6, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: NpcNeedItem
+    description: 
+    aliasOf: 
+    source: References/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png
+    status: independent_generated_derivative_transparent
+    sprite: {fileID: 21300000, guid: fc55f8d3f64666c40b089a773f4f4a05, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: BossAlert
+    description: 
+    aliasOf: 
+    source: References/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png
+    status: independent_generated_derivative_transparent
+    sprite: {fileID: 21300000, guid: 93c43af33a033414dbbcc8c6a2674d14, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: Camera
+    description: 
+    aliasOf: 
+    source: References/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png
+    status: independent_generated_derivative_transparent
+    sprite: {fileID: 21300000, guid: e6ff7bf47d518024b9b5617581a369ef, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: Quest
+    description: 
+    aliasOf: 
+    source: References/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png
+    status: independent_generated_derivative_transparent
+    sprite: {fileID: 21300000, guid: a594009578f391d4eb1ae20fa8d423c4, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: Puzzle
+    description: 
+    aliasOf: 
+    source: References/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png
+    status: independent_generated_derivative_transparent
+    sprite: {fileID: 21300000, guid: a18d72cffa21b024d840d7bef6462af9, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: Reward
+    description: 
+    aliasOf: 
+    source: References/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png
+    status: independent_generated_derivative_transparent
+    sprite: {fileID: 21300000, guid: cc35585804661c949a22a136240db6d5, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: Completed
+    description: 
+    aliasOf: 
+    source: References/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png
+    status: independent_generated_derivative_transparent
+    sprite: {fileID: 21300000, guid: e58a9cea55b466a419729d26936f1b8c, type: 3}
+    portrait: {fileID: 0}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0

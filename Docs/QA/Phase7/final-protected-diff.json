@@ -1,0 +1,26 @@
+{
+  "changed": [
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+      "before": "fe1472aa72638e056b42633958d019410a0220388aa84ff62700c7cd66da8b40",
+      "after": "0dfaea82f12477892b0c6d465dc4ea0c96f4402e97d8d70e70932e59a0a5373a"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "before": "b91518ad6f85ae139ceacdca585804aa6ef8a21ab1767678877abaa7e7fcc50c",
+      "after": "597778ed3af6b09b7bf1b3fe5c8a6e971ff452dd7c2688fc3512f70f1a2f6335"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "before": "a3cc1f7a8ed956ecc10e69bab0367d35e4fdd80ed73528ac3303fdae3839eddd",
+      "after": "1e83f0660ffc7d58a95bc4ea7d4aa8518124d70727dc355d1b8a31b637955d35"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "before": "22b21b8cefee6234d497bb5ae71493f8f99065b0771a21299f554f85879e447f",
+      "after": "7567e3a600db49ea9a9bccc6f1af81f65f48ab8f54c931171086fdde49960fe3"
+    }
+  ],
+  "missing": [],
+  "checked": 456
+}

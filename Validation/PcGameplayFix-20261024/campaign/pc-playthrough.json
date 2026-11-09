@@ -1,0 +1,72 @@
+{
+  "status": "PC_FULL_PLAYTHROUGH_PASS",
+  "newGame": true,
+  "cities": [
+    "hoi_an",
+    "hue",
+    "da_lat",
+    "jeonju",
+    "gyeongju",
+    "seoul"
+  ],
+  "boss": true,
+  "ending": true,
+  "saveLoad": "PASS",
+  "input": "Unity InputSystem pointer/touch events through runtime UI",
+  "completedQuests": [
+    "mai-lantern",
+    "HQ01",
+    "HQ04",
+    "UQ03",
+    "UQ04",
+    "UQ01",
+    "DQ01",
+    "JQ02",
+    "JQ01",
+    "JQ03",
+    "GQ01",
+    "DQ02",
+    "DQ03",
+    "GQ03",
+    "SQ01",
+    "SQ02",
+    "SQ03"
+  ],
+  "cityCompletionFlags": {
+    "da_lat": {
+      "flag": "da_lat.beacon_lit",
+      "completed": true
+    },
+    "gyeongju": {
+      "flag": "gyeongju.beacon_lit",
+      "completed": true
+    },
+    "hoi_an": {
+      "flag": "hoi_an.lamp_restored",
+      "completed": true
+    },
+    "hue": {
+      "flag": "hue.beacon_lit",
+      "completed": true
+    },
+    "jeonju": {
+      "flag": "jeonju.beacon_lit",
+      "completed": true
+    },
+    "seoul": {
+      "flag": "seoul.final_cleared",
+      "completed": true
+    }
+  },
+  "relicsRestored": [
+    "relic.restored.relic_hoi_an_lantern",
+    "relic.restored.relic_hue_dragon_seal",
+    "relic.restored.relic_dalat_mist_compass",
+    "relic.restored.relic_jeonju_hanji_stamp",
+    "relic.restored.relic_gyeongju_star_lens",
+    "relic.restored.relic_seoul_trirelay_prism"
+  ],
+  "bossBranch": "repair",
+  "continuation": "Original blank-save New Game; continued earned saves after runner input fixes. No completed fixture, grants, save edits or gate bypass.",
+  "ownerSaveUnchanged": true
+}

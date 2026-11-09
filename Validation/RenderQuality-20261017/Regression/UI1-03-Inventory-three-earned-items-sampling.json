@@ -1,0 +1,1134 @@
+{
+    "view": "UI1-03-Inventory-three-earned-items",
+    "pipeline": "UniversalRP",
+    "width": 540,
+    "height": 960,
+    "mipmapLimit": 0,
+    "images": [
+        {
+            "name": "MarkerArtwork",
+            "sprite": "Marker_NpcTalk",
+            "texture": "Marker_NpcTalk",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 256.0
+            },
+            "screenPixels": {
+                "x": 30.239990234375,
+                "y": 30.239990234375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MarkerArtwork",
+            "sprite": "Marker_Reward",
+            "texture": "Marker_Reward",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 256.0
+            },
+            "screenPixels": {
+                "x": 30.239990234375,
+                "y": 30.239990234375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MapViewport",
+            "sprite": "backdrop",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 435.0,
+                "y": 420.0
+            },
+            "screenPixels": {
+                "x": 540.0,
+                "y": 826.800048828125
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 46.79998779296875,
+                "y": 46.800048828125
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MarkerArtwork",
+            "sprite": "Marker_BossAlert",
+            "texture": "Marker_BossAlert",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 256.0
+            },
+            "screenPixels": {
+                "x": 30.239990234375,
+                "y": 30.239990234375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "ActorShadow",
+            "sprite": "",
+            "texture": "ProceduralFootShadow",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 64.0,
+                "y": 32.0
+            },
+            "screenPixels": {
+                "x": 11.6639404296875,
+                "y": 5.83197021484375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "EmptySlot3",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 109.79998779296875,
+                "y": 104.4000244140625
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "ActorShadow",
+            "sprite": "",
+            "texture": "ProceduralFootShadow",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 64.0,
+                "y": 32.0
+            },
+            "screenPixels": {
+                "x": 11.6639404296875,
+                "y": 5.83197021484375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "buttonTeal",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 440.0,
+                "y": 420.0
+            },
+            "screenPixels": {
+                "x": 448.199951171875,
+                "y": 43.19999694824219
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "ItemDetails",
+            "sprite": "buttonPaper",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 441.0,
+                "y": 414.0
+            },
+            "screenPixels": {
+                "x": 468.0,
+                "y": 149.4000244140625
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "HoiAnMapBackground",
+            "sprite": "Map_HoiAn_Overview_A",
+            "texture": "Map_HoiAn_Overview_A",
+            "format": "RGB24",
+            "sourcePixels": {
+                "x": 1448.0,
+                "y": 1086.0
+            },
+            "screenPixels": {
+                "x": 945.0,
+                "y": 708.75
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "EmptySlot5",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 109.79998779296875,
+                "y": 104.39999389648438
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "LumiFootShadow",
+            "sprite": "",
+            "texture": "ProceduralFootShadow",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 64.0,
+                "y": 32.0
+            },
+            "screenPixels": {
+                "x": 21.5999755859375,
+                "y": 10.79998779296875
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.399999618530273,
+                "y": 15.630468368530273
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "BagPortrait",
+            "sprite": "backpack",
+            "texture": "Interactables_Atlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 293.0,
+                "y": 242.0
+            },
+            "screenPixels": {
+                "x": 53.10000228881836,
+                "y": 43.85734176635742
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 46.79998779296875,
+                "y": 46.79999542236328
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.4000244140625,
+                "y": 15.630484580993652
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.4000244140625,
+                "y": 15.630484580993652
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.399993896484375,
+                "y": 15.630464553833008
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MarkerArtwork",
+            "sprite": "Marker_NpcTalk",
+            "texture": "Marker_NpcTalk",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 256.0
+            },
+            "screenPixels": {
+                "x": 30.239990234375,
+                "y": 30.239990234375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "buttonTeal",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 440.0,
+                "y": 420.0
+            },
+            "screenPixels": {
+                "x": 468.0,
+                "y": 46.80000305175781
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MapActor_H5",
+            "sprite": "enemy_mo01",
+            "texture": "HoiAn_Enemies_Atlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 680.0,
+                "y": 700.0
+            },
+            "screenPixels": {
+                "x": 37.583984375,
+                "y": 38.689395904541016
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "ActorShadow",
+            "sprite": "",
+            "texture": "ProceduralFootShadow",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 64.0,
+                "y": 32.0
+            },
+            "screenPixels": {
+                "x": 11.6639404296875,
+                "y": 5.83197021484375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "Icon",
+            "sprite": "scroll",
+            "texture": "Interactables_Atlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 313.0,
+                "y": 249.0
+            },
+            "screenPixels": {
+                "x": 37.401649475097656,
+                "y": 29.7540283203125
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "EmptySlot6",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 109.79998779296875,
+                "y": 104.39999389648438
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 46.79998779296875,
+                "y": 46.79999542236328
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MapActor_H12",
+            "sprite": "enemy_crab",
+            "texture": "HoiAn_Enemies_Atlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 692.0,
+                "y": 554.0
+            },
+            "screenPixels": {
+                "x": 31.10400390625,
+                "y": 24.901182174682617
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.4000244140625,
+                "y": 15.630484580993652
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Current",
+            "texture": "Marker_Current",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 255.99998474121094,
+                "y": 127.99999237060547
+            },
+            "screenPixels": {
+                "x": 23.4000244140625,
+                "y": 11.70001220703125
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.4000244140625,
+                "y": 15.630484580993652
+            },
+            "opacity": 0.2199999988079071
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.399993896484375,
+                "y": 15.630464553833008
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MapActor_H4",
+            "sprite": "NPC_HoiAn_MarketMerchant",
+            "texture": "NPC_HoiAn_MarketMerchant",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 1261.0,
+                "y": 1247.0
+            },
+            "screenPixels": {
+                "x": 31.104001998901367,
+                "y": 30.758678436279297
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.399993896484375,
+                "y": 15.630464553833008
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "ItemIcon",
+            "sprite": "Item_Hanji_Core",
+            "texture": "Item_Hanji_Core",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 1254.0,
+                "y": 1254.0
+            },
+            "screenPixels": {
+                "x": 60.552001953125,
+                "y": 60.552001953125
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.4000244140625,
+                "y": 15.630484580993652
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 109.79939270019531,
+                "y": 104.3994140625
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.4000244140625,
+                "y": 15.630484580993652
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "InventoryPanel",
+            "sprite": "window",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 420.0
+            },
+            "screenPixels": {
+                "x": 511.1999816894531,
+                "y": 567.0
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "SelectedItemIcon",
+            "sprite": "Item_Hanji_Core",
+            "texture": "Item_Hanji_Core",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 1254.0,
+                "y": 1254.0
+            },
+            "screenPixels": {
+                "x": 83.70000457763672,
+                "y": 83.70000457763672
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MapActor_H2",
+            "sprite": "Mai_DialoguePortrait",
+            "texture": "NPC_HoiAn_CoMai_Portrait",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 1211.0,
+                "y": 1299.0
+            },
+            "screenPixels": {
+                "x": 33.696014404296875,
+                "y": 36.14461135864258
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.4000244140625,
+                "y": 15.630484580993652
+            },
+            "opacity": 0.2199999988079071
+        },
+        {
+            "name": "QuestItemBadge",
+            "sprite": "node_quest",
+            "texture": "node_quest",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 192.0,
+                "y": 192.0
+            },
+            "screenPixels": {
+                "x": 20.86199951171875,
+                "y": 20.86199951171875
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MapActor_H18",
+            "sprite": "npc_guest",
+            "texture": "NPC_TransparentAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 280.0,
+                "y": 419.0
+            },
+            "screenPixels": {
+                "x": 22.517602920532227,
+                "y": 33.69598388671875
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 46.79998779296875,
+                "y": 46.79999542236328
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "ActorShadow",
+            "sprite": "",
+            "texture": "ProceduralFootShadow",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 64.0,
+                "y": 32.0
+            },
+            "screenPixels": {
+                "x": 11.6640625,
+                "y": 5.83203125
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "ActorShadow",
+            "sprite": "",
+            "texture": "ProceduralFootShadow",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 64.0,
+                "y": 32.0
+            },
+            "screenPixels": {
+                "x": 11.6640625,
+                "y": 5.83203125
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "Lumi",
+            "sprite": "Lumi_MapTraveler",
+            "texture": "Lumi_MapTraveler",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 867.0,
+                "y": 1073.0
+            },
+            "screenPixels": {
+                "x": 31.997371673583984,
+                "y": 39.5999755859375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 52.199951171875,
+                "y": 52.199951171875
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "ItemIcon",
+            "sprite": "lantern",
+            "texture": "Interactables_Atlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 241.0,
+                "y": 279.0
+            },
+            "screenPixels": {
+                "x": 52.30477523803711,
+                "y": 60.552001953125
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MarkerArtwork",
+            "sprite": "Marker_NpcTalk",
+            "texture": "Marker_NpcTalk",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 256.0
+            },
+            "screenPixels": {
+                "x": 30.239990234375,
+                "y": 30.239990234375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 46.79998779296875,
+                "y": 46.79999542236328
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MarkerArtwork",
+            "sprite": "Marker_Reward",
+            "texture": "Marker_Reward",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 256.0
+            },
+            "screenPixels": {
+                "x": 30.239990234375,
+                "y": 30.239990234375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MarkerArtwork",
+            "sprite": "Marker_Camera",
+            "texture": "Marker_Camera",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 256.0
+            },
+            "screenPixels": {
+                "x": 30.239990234375,
+                "y": 30.239990234375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.399993896484375,
+                "y": 15.630464553833008
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "CoinIcon",
+            "sprite": "coin",
+            "texture": "Interactables_Atlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 207.0,
+                "y": 205.0
+            },
+            "screenPixels": {
+                "x": 21.5999755859375,
+                "y": 21.391281127929688
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.399993896484375,
+                "y": 15.630464553833008
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MarkerArtwork",
+            "sprite": "Marker_Camera",
+            "texture": "Marker_Camera",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 256.0
+            },
+            "screenPixels": {
+                "x": 30.239990234375,
+                "y": 30.239990234375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "EmptySlot4",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 109.79998779296875,
+                "y": 104.39999389648438
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "Icon",
+            "sprite": "backpack",
+            "texture": "Interactables_Atlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 293.0,
+                "y": 242.0
+            },
+            "screenPixels": {
+                "x": 36.024505615234375,
+                "y": 29.7540283203125
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "Icon",
+            "sprite": "Lumi_MapTraveler",
+            "texture": "Lumi_MapTraveler",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 867.0,
+                "y": 1073.0
+            },
+            "screenPixels": {
+                "x": 25.714271545410156,
+                "y": 31.824005126953125
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MarkerArtwork",
+            "sprite": "Marker_BossAlert",
+            "texture": "Marker_BossAlert",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 256.0
+            },
+            "screenPixels": {
+                "x": 30.239990234375,
+                "y": 30.239990234375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "EmptySlot7",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 109.79998779296875,
+                "y": 104.39999389648438
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 46.79998779296875,
+                "y": 46.79999542236328
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "QuestItemBadge",
+            "sprite": "node_quest",
+            "texture": "node_quest",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 192.0,
+                "y": 192.0
+            },
+            "screenPixels": {
+                "x": 20.86199951171875,
+                "y": 20.86199951171875
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 109.79998779296875,
+                "y": 104.4000244140625
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MarkerArtwork",
+            "sprite": "Marker_Puzzle",
+            "texture": "Marker_Puzzle",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 256.0
+            },
+            "screenPixels": {
+                "x": 30.239990234375,
+                "y": 30.239990234375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 109.79998779296875,
+                "y": 104.4000244140625
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "ItemIcon",
+            "sprite": "Item_Healing_Tea",
+            "texture": "Item_Healing_Tea",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 1254.0,
+                "y": 1254.0
+            },
+            "screenPixels": {
+                "x": 60.552001953125,
+                "y": 60.552001953125
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "Icon",
+            "sprite": "UI_World_Globe",
+            "texture": "UI_World_Globe",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 1254.0,
+                "y": 1254.0
+            },
+            "screenPixels": {
+                "x": 31.806001663208008,
+                "y": 31.806001663208008
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 55.80000305175781,
+                "y": 55.80000305175781
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "RoundedBackground",
+            "sprite": "slot",
+            "texture": "LBC_UI_SkinAtlas",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 439.0,
+                "y": 416.0
+            },
+            "screenPixels": {
+                "x": 52.20001220703125,
+                "y": 52.199951171875
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.4000244140625,
+                "y": 15.630484580993652
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "MarkerArtwork",
+            "sprite": "Marker_Completed",
+            "texture": "Marker_Completed",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 256.0
+            },
+            "screenPixels": {
+                "x": 30.239990234375,
+                "y": 30.239990234375
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.399999618530273,
+                "y": 15.630468368530273
+            },
+            "opacity": 1.0
+        },
+        {
+            "name": "NodeState",
+            "sprite": "Marker_Ground",
+            "texture": "Marker_Ground",
+            "format": "RGBA32",
+            "sourcePixels": {
+                "x": 256.0,
+                "y": 171.0
+            },
+            "screenPixels": {
+                "x": 23.4000244140625,
+                "y": 15.630484580993652
+            },
+            "opacity": 1.0
+        }
+    ]
+}

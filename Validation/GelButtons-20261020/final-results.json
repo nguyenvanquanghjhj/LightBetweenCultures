@@ -1,0 +1,13 @@
+{
+  "windowsBuild": "PASS",
+  "visualAndInput540x960": "PASS",
+  "callbacks720x1080": "PASS",
+  "pairedRuntimeScreens": 6,
+  "galleryLinks": "PASS",
+  "androidDevice": "NOT_TESTED",
+  "androidBuilds": 0,
+  "newTexturesMaterialsShaders": 0,
+  "gameplayOrCallbackChanges": false,
+  "baselineCollector": "PARTIAL - valid frames before H4 test expectation failure; not a gameplay regression",
+  "dialogueEvidence": "Existing before checkpoint and new callback journey, not premature Gel-Dialogue capture"
+}

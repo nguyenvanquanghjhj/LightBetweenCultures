@@ -1,0 +1,23 @@
+﻿City,Node,PuzzleID,UX_Mode_New,RequiredFlags,RequiredItems,CompletionFlags,RewardItems,RewardCoins
+hoi_an,H4,puzzle_market,LIGHT_STORY_RESOLUTION,[],[],"[""hoi_an.market_puzzle_solved""]",[],0
+hoi_an,H13,puzzle_paper,STORY_MINIGAME,"[""hoi_an.market_puzzle_solved""]",[],"[""hoi_an.hanji_core_obtained""]","[{""itemId"": ""hanji_core"", ""amount"": 1}]",0
+hoi_an,H19,puzzle_pottery,LIGHT_STORY_RESOLUTION,[],[],"[""hoi_an.mo01_hack_code""]",[],0
+da_lat,D8,puzzle_mist,STORY_MINIGAME,"[""da_lat.glasses_returned""]",[],"[""da_lat.fog_path_solved"", ""da_lat.fog_cleared""]",[],0
+da_lat,D12,puzzle_windmill,LIGHT_STORY_RESOLUTION,[],[],"[""da_lat.windmill_supplies_found""]","[{""itemId"": ""meat_portion"", ""amount"": 1}]",0
+gyeongju,G2,puzzle_pond,LIGHT_STORY_RESOLUTION,[],[],"[""gyeongju.pond_hint""]",[],0
+gyeongju,G4,puzzle_observatory,STORY_MINIGAME,"[""quest:GQ01""]","[{""itemId"": ""star_symbol_1"", ""amount"": 1}, {""itemId"": ""star_symbol_2"", ""amount"": 1}, {""itemId"": ""star_symbol_3"", ""amount"": 1}]","[""gyeongju.three_stars_placed""]","[{""itemId"": ""stargazer_lens"", ""amount"": 1}]",0
+gyeongju,G12,puzzle_cracked_seal,STORY_MINIGAME,"[""hue.star_script_known"", ""puzzle:puzzle_archive""]","[{""itemId"": ""ancient_seal"", ""amount"": 1}]","[""gyeongju.seal_decoded""]",[],0
+gyeongju,G15,puzzle_temple,LIGHT_STORY_RESOLUTION,[],[],"[""gyeongju.temple_shadows_solved""]",[],0
+gyeongju,G17,puzzle_lantern_west,LIGHT_STORY_RESOLUTION,"[""jeonju.beacon_lit"", ""quest:GQ04""]",[],"[""gyeongju.west_lantern_solved""]",[],0
+hue,U8,puzzle_court,LIGHT_STORY_RESOLUTION,"[""hue.archive_decoded""]",[],"[""hue.court_solved""]",[],0
+hue,U16,puzzle_market_code,STORY_MINIGAME,[],[],"[""hue.market_code_known"", ""hue.courier_code_known""]","[{""itemId"": ""river_pass"", ""amount"": 1}]",0
+hue,U17,puzzle_archive,STORY_MINIGAME,[],"[{""itemId"": ""lost_letter"", ""amount"": 1}]","[""hue.archive_decoded"", ""hue.secret_wall_found"", ""hue.scholar_code_known""]",[],0
+jeonju,J3,puzzle_dye,LIGHT_STORY_RESOLUTION,[],[],"[""jeonju.dye_restored""]","[{""itemId"": ""healing_tea"", ""amount"": 1}]",0
+jeonju,J7,puzzle_hanji,STORY_MINIGAME,[],[],[],"[{""itemId"": ""hanji_pattern_1"", ""amount"": 1}]",0
+jeonju,J12,puzzle_embroidery,STORY_MINIGAME,"[""jeonju.yoon_clue_known"", ""hoi_an.lamp_restored""]","[{""itemId"": ""hanji_pattern_1"", ""amount"": 1}, {""itemId"": ""hanji_pattern_2"", ""amount"": 1}, {""itemId"": ""hanji_pattern_3"", ""amount"": 1}]","[""jeonju.three_patterns_joined""]","[{""itemId"": ""hanji_circuit"", ""amount"": 1}]",0
+jeonju,J17,puzzle_lantern,LIGHT_STORY_RESOLUTION,"[""hoi_an.lamp_restored"", ""jeonju.three_patterns_joined""]","[{""itemId"": ""hanji_circuit"", ""amount"": 1}]","[""jeonju.lantern_puzzle_solved""]",[],0
+seoul,S3,puzzle_palace,LIGHT_STORY_RESOLUTION,"[""seoul.archive_read"", ""quest:SQ02""]",[],"[""seoul.palace_message_decoded""]",[],0
+seoul,S10,puzzle_tower,STORY_MINIGAME,[],"[{""itemId"": ""stargazer_lens"", ""amount"": 1}]","[""seoul.tower_calibrated""]",[],0
+seoul,S16,puzzle_station,LIGHT_STORY_RESOLUTION,"[""quest:SQ01"", ""da_lat.beacon_lit""]","[{""itemId"": ""blue_water_signal"", ""amount"": 1}]","[""seoul.relay_a_on""]","[{""itemId"": ""relay_a"", ""amount"": 1}]",0
+seoul,S17,puzzle_relay_hue,LIGHT_STORY_RESOLUTION,"[""quest:SQ01"", ""hue.beacon_lit""]","[{""itemId"": ""ancient_seal"", ""amount"": 1}]","[""seoul.relay_b_on""]","[{""itemId"": ""relay_b"", ""amount"": 1}]",0
+seoul,S18,puzzle_relay_jeonju,STORY_MINIGAME,"[""quest:SQ01"", ""jeonju.beacon_lit""]","[{""itemId"": ""hanji_circuit"", ""amount"": 1}]","[""seoul.relay_c_on""]","[{""itemId"": ""relay_c"", ""amount"": 1}]",0

@@ -1,0 +1,52 @@
+{
+  "inheritedVerifiedPass": {
+    "sixCityGuidance": [
+      {
+        "path": "Validation/FinalUX-20261023/final01/restart-results.txt",
+        "sha256": "daf4b233f85a58da673dac883b878a0bca20e256b5d4feff9a3d0429dc0485f8"
+      }
+    ],
+    "SeoulPrism": [
+      {
+        "path": "Validation/FinalUX-20261023/final01/restart-results.txt",
+        "sha256": "daf4b233f85a58da673dac883b878a0bca20e256b5d4feff9a3d0429dc0485f8"
+      }
+    ],
+    "HueStamps": [
+      {
+        "path": "Validation/FinalUX-20261023/hue-regression/restart-results.txt",
+        "sha256": "920a5ea6005f7815450b1b2237f751ae7c97725deda5d99ade67b00fc659c9aa"
+      }
+    ],
+    "NpcArtLumi": [
+      {
+        "path": "Validation/NpcAppearance-20261021/final01/restart-results.txt",
+        "sha256": "c44ecead490320fea29118d4a8df99cd8200f46e8d88a0f80ddcfa6df14f73fd"
+      }
+    ],
+    "NpcCallbacks": [
+      {
+        "path": "Validation/FinalUX-20261023/buttons01/smoke-results.txt",
+        "sha256": "2631a4277c47493f8c14bd51d6a45594d72e0e061327d1b5d81e545b1f6bb3b8"
+      }
+    ]
+  },
+  "G14": {
+    "mandatory": false,
+    "blockingFlagDependencies": {
+      "cities": [],
+      "quests": [],
+      "puzzles": [],
+      "enemies": [],
+      "events": []
+    },
+    "requiredRelicFragment": false,
+    "decision": "Retain safe block; optional lore unavailable, no path/actor change"
+  },
+  "cleanup": {
+    "netBytesRecovered": 4201546293,
+    "afterBytes": 12196620538,
+    "backupEntriesVerified": 2915
+  },
+  "AndroidConnection": "NO_DEVICE"
+}

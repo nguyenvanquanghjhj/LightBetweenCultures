@@ -1,0 +1,309 @@
+UTC run: 2026-10-20T07:37:05.1984033Z | Unity 6000.6.5f1 | 432x960
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Settings overlay owns both touches; map cannot pinch underneath
+PASS: Fresh runtime capture written: TOUCH-after-settings
+PASS: Remaining finger stays consumed after a pinch, even beyond the old 150ms timeout
+PASS: Repeated pinch stays within map bounds
+PASS: Fresh runtime capture written: TOUCH-after-map
+PASS: Pure camera/settings gestures preserve complete gameplay save
+PASS: Native pilot framebuffer 540x960
+PASS: Repeated pinch clamps at both viewport limits
+PASS: Repeated pinch clamps at both viewport limits
+PASS: Repeated pinch clamps at both viewport limits
+PASS: Repeated pinch clamps at both viewport limits
+PASS: Node has visual feedback while touch is still down, before movement
+PASS: Drag starting on node ends outside without node selection/reward
+PASS: Long press on a node does not become an accidental travel tap
+PASS: Canceled touch cannot select node or mutate save
+PASS: 30/60 frame preference responds through real UI
+PASS: Fresh runtime capture written: TOUCH-settings-540
+PASS: Native pilot framebuffer 432x960
+PASS: Repeated pinch clamps at both viewport limits
+PASS: Repeated pinch clamps at both viewport limits
+PASS: Repeated pinch clamps at both viewport limits
+PASS: Repeated pinch clamps at both viewport limits
+PASS: Node has visual feedback while touch is still down, before movement
+PASS: Drag starting on node ends outside without node selection/reward
+PASS: Long press on a node does not become an accidental travel tap
+PASS: Canceled touch cannot select node or mutate save
+PASS: 30/60 frame preference responds through real UI
+PASS: Fresh runtime capture written: TOUCH-settings-432
+PASS: Touch starts a live route for pan/retarget acceptance
+PASS: Lumi autofollow cannot override active one-finger pan
+PASS: Second finger on HUD during map drag is consumed, not an accidental button click
+PASS: Closing an event or battle returns map input to the player
+PASS: Repeated live destination changes reach the last canonical target through existing junction planning
+PASS: Fresh runtime capture written: TOUCH-pan-retarget-arrival
+PASS: Measured sampler preserves existing polyline at 1001 progress values
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D0 is discovered
+PASS: Lumi reaches D0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D1 is discovered
+PASS: Lumi reaches D1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D2 is discovered
+PASS: Lumi reaches D2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D3 is discovered
+PASS: Lumi reaches D3 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G0 is discovered
+PASS: Lumi reaches G0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G1 is discovered
+PASS: Lumi reaches G1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G2 is discovered
+PASS: Lumi reaches G2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G3 is discovered
+PASS: Lumi reaches G3 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H0 is discovered
+PASS: Lumi reaches H0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H1 is discovered
+PASS: Lumi reaches H1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H3 is discovered
+PASS: Lumi reaches H3 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U0 is discovered
+PASS: Lumi reaches U0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U1 is discovered
+PASS: Lumi reaches U1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U2 is discovered
+PASS: Lumi reaches U2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U3 is discovered
+PASS: Lumi reaches U3 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J0 is discovered
+PASS: Lumi reaches J0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J1 is discovered
+PASS: Lumi reaches J1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J2 is discovered
+PASS: Lumi reaches J2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J3 is discovered
+PASS: Lumi reaches J3 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S0 is discovered
+PASS: Lumi reaches S0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S1 is discovered
+PASS: Lumi reaches S1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S2 is discovered
+PASS: Lumi reaches S2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S3 is discovered
+PASS: Lumi reaches S3 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: At least 20 distinct canonical nodes accepted real touch travel/interact without changing graph
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H9 is discovered
+PASS: Lumi reaches H9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure H9
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H16 is discovered
+PASS: Lumi reaches H16 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure H16
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U0 is discovered
+PASS: Lumi reaches U0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure U0
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U8 is discovered
+PASS: Lumi reaches U8 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure U8
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D13 is discovered
+PASS: Lumi reaches D13 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure D13
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D9 is discovered
+PASS: Lumi reaches D9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure D9
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J13 is discovered
+PASS: Lumi reaches J13 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure J13
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J15 is discovered
+PASS: Lumi reaches J15 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure J15
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G10 is discovered
+PASS: Lumi reaches G10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure G10
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G11 is discovered
+PASS: Lumi reaches G11 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure G11
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S1 is discovered
+PASS: Lumi reaches S1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure S1
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S7 is discovered
+PASS: Lumi reaches S7 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Touch open/start/close preserves save for leisure S7
+PASS: Persist checkpoint Touch-accepted-earned
+ALL CHECKS PASSED

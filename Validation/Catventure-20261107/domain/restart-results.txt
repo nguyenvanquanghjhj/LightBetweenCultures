@@ -1,0 +1,3 @@
+PASS: Fresh process restores six cats and exact receipts
+PASS: Fresh process cannot replay reward
+ALL 2 DOMAIN CHECKS PASSED (adapter host; Unity Player NOT TESTED)

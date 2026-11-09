@@ -1,0 +1,63 @@
+{
+  "type": "INCREMENTAL_REQUIRES_BASE",
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointRelicHoiAnStorySync-20261018",
+  "baseManifestSHA256": "267049be28f6afb92710f64a75a408a9484ff6ab1375faa533a3424d4cf8a53e",
+  "entries": [
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMapPaths.cs",
+      "sha256": "55b6a08be0e6eae0f2aec51201e2bb07f8980045cdbb5f5cbee1a2f8e7ce8f7f",
+      "bytes": 5730
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+      "sha256": "903d260a5949fd9c0673387d07c41b54a77597a9cff43e438305fa11165294af",
+      "bytes": 30472
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs",
+      "sha256": "ee9f0de95eeb8a6b804759c3fea3210f250280d19c3679134fa1eff0315a8fda",
+      "bytes": 2594
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameData.cs",
+      "sha256": "1ddbda78ba0949e93821053f4e26fdf0fc6c9ef21aad7f285f62397d1da60b03",
+      "bytes": 6531
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/ContentDefinitions.cs",
+      "sha256": "4ba55851889214e9de1b11e99bb6adeb8b7806b8851dbccde54b4263e3321edb",
+      "bytes": 9120
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "sha256": "4356f734d6778c3545ab32910a6ee22d9849a71e325cdadf41fec73203fc458c",
+      "bytes": 110194
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Terrain.cs",
+      "sha256": "6a85f300fdae52ecba64e23a6a22a211ae0c3d1aeabb0d2dd8c0105a1e3dcff7",
+      "bytes": 4966
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "sha256": "041a166cf0b1f4e6e2eb7e1e700227ba156a556857aaa7ac9460ce3d8060eab9",
+      "bytes": 516441
+    },
+    {
+      "path": "Assets/_Game/Resources/HoiAnData.json",
+      "sha256": "e2961e1b1807325a071e4a52c26ca5708fc9b56fd2b39790f81c21b0fab49011",
+      "bytes": 26880
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "35085c672985cf3f4723e67f729741d82e2cd361b283266016e4eb9d6544ed70",
+      "bytes": 20837
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.UIPolish.cs",
+      "sha256": "6fbc8d3164eed67570e2c7e218d76a12ae603f93ca1d23bd1ef7f33ab27ec11e",
+      "bytes": 14191
+    }
+  ],
+  "deletedPaths": []
+}

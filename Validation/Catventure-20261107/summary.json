@@ -1,0 +1,81 @@
+{
+  "createdUTC": "2026-11-07T15:59:45.683076+00:00",
+  "status": "FOCUSED_CATVENTURE_WINDOWS_PASS_ANDROID_BUILD_PASS_DEVICE_NOT_TESTED",
+  "chapters": 6,
+  "challenges": 24,
+  "cats": 6,
+  "domainChecks": 514,
+  "nativeRuns": [
+    {
+      "folder": "verified-portrait",
+      "checks": 256,
+      "firstLine": "UTC run: 2026-11-07T15:47:54.4411919Z | Unity 6000.6.5f1 | 540x960",
+      "sha256": "0ab440b4f6f4cb0ac8a766a2f06d0e8bbc30cf28e3ecc1f7a9c35db67b4ec064"
+    },
+    {
+      "folder": "verified-desktop",
+      "checks": 256,
+      "firstLine": "UTC run: 2026-11-07T15:48:35.9893519Z | Unity 6000.6.5f1 | 1280x720",
+      "sha256": "c40681d0156929aaf82f0448dd4c08e29c86ef688e404ab83b7d3c78e1d602c7"
+    },
+    {
+      "folder": "verified-portrait",
+      "checks": 3,
+      "firstLine": "UTC run: 2026-11-07T15:51:28.3084693Z | Unity 6000.6.5f1 | 540x960",
+      "sha256": "bde37d19dcb08de901a2ab6e706ba16da396f35249e663a074f7e086fd65cefa"
+    },
+    {
+      "folder": "legacy-regression",
+      "checks": 118,
+      "firstLine": "UTC run: 2026-11-07T15:51:36.7772972Z | Unity 6000.6.5f1 | 540x960",
+      "sha256": "ca7b716594acbe1e10e006fb7f5529ec3c8181a88921bf03bc9e3a8014d6d9c5"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "Builds/Windows-Catventure-20261107/Catventure.exe",
+      "bytes": 667136,
+      "sha256": "ea5e643cc09def0d56d303c1afe9472b04b81566a5178e6ac3731ff354187ef4"
+    },
+    {
+      "path": "Builds/Windows-Catventure-20261107/Catventure_Data/Managed/Assembly-CSharp.dll",
+      "bytes": 1357824,
+      "sha256": "15237e6dccf974c8b84c54e802055e5eda8770773959db41a5d5d20dc430320c"
+    },
+    {
+      "path": "Builds/Windows-Catventure-Release-20261107/Catventure.exe",
+      "bytes": 667136,
+      "sha256": "dd9798ab0c753afcc7b136619b254bb92287886f8871a81d33ab9db418c67735"
+    },
+    {
+      "path": "Builds/Windows-Catventure-Release-20261107/Catventure_Data/Managed/Assembly-CSharp.dll",
+      "bytes": 473088,
+      "sha256": "d34a8f2d8415bdea21d672ce3d41900f0e2c7209109bdc84b617cbc6d9757a0b"
+    },
+    {
+      "path": "Builds/Android/Catventure-20261107.apk",
+      "bytes": 293840696,
+      "sha256": "bdb241552266cb8913490a8ce2d5a9bdebbcd5161b96ce47577c5d2f48c097b0"
+    }
+  ],
+  "protectedOriginalsUnchanged": 1840,
+  "modifiedOriginals": [
+    "Assets/_Game/Scripts/Core/GameBootstrap.cs",
+    "Assets/_Game/Scripts/Core/SaveSystem.cs",
+    "Assets/_Game/Scripts/Maps/CityMap.cs",
+    "Assets/_Game/Scripts/Maps/WorldMap.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Docs/QA/CURRENT_QA_STATUS.md",
+    "README.md",
+    "RELEASE_FREEZE.md"
+  ],
+  "deletedOriginals": [],
+  "device": "ADB: no devices connected; no install. All QA used isolated save paths.",
+  "limitations": [
+    "Android touch/FPS/RAM on a real phone NOT_TESTED",
+    "Independent child/human playtest NOT_TESTED",
+    "Full original legacy story campaign NOT_RERUN; focused legacy save/world/shop regression recorded"
+  ],
+  "recoveryBase": "D:\\GAMEKKK\\Backups\\CheckpointPreCatventure-20261107",
+  "checkpoint": "D:\\GAMEKKK\\Backups\\CheckpointCatventure-20261107"
+}

@@ -1,0 +1,18 @@
+﻿{
+    "deletedLogicalBytes":  21352463717,
+    "freeAfterApply":  {
+                           "D:\\":  253924880384,
+                           "C:\\":  72811687936
+                       },
+    "finishedUTC":  "2026-10-20T06:38:10.8733515Z",
+    "skipped":  [
+
+                ],
+    "startedUTC":  "2026-10-20T06:37:59.3174138Z",
+    "freeBeforeApply":  {
+                            "D:\\":  232504967168,
+                            "C:\\":  72815833088
+                        },
+    "scope":  "ApprovedCheckpoints",
+    "deletedEntries":  100
+}

@@ -1,0 +1,320 @@
+[
+  {
+    "route": "VN_FIRST",
+    "chapterMilestone": "hoi_an",
+    "beacons": [
+      "hoi_an.lamp_restored"
+    ],
+    "unlockedCities": [
+      "hoi_an",
+      "hue",
+      "jeonju"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 5,
+    "restorableMaxByProposedA": 1,
+    "missingFoundCities": [
+      "da_lat",
+      "gyeongju",
+      "hue",
+      "jeonju",
+      "seoul"
+    ],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": false,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS"
+  },
+  {
+    "route": "VN_FIRST",
+    "chapterMilestone": "hue",
+    "beacons": [
+      "hoi_an.lamp_restored",
+      "hue.beacon_lit"
+    ],
+    "unlockedCities": [
+      "da_lat",
+      "hoi_an",
+      "hue",
+      "jeonju"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 9,
+    "restorableMaxByProposedA": 2,
+    "missingFoundCities": [
+      "da_lat",
+      "gyeongju",
+      "jeonju",
+      "seoul"
+    ],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": false,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS"
+  },
+  {
+    "route": "VN_FIRST",
+    "chapterMilestone": "da_lat",
+    "beacons": [
+      "da_lat.beacon_lit",
+      "hoi_an.lamp_restored",
+      "hue.beacon_lit"
+    ],
+    "unlockedCities": [
+      "da_lat",
+      "hoi_an",
+      "hue",
+      "jeonju"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 13,
+    "restorableMaxByProposedA": 3,
+    "missingFoundCities": [
+      "gyeongju",
+      "jeonju",
+      "seoul"
+    ],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": false,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS"
+  },
+  {
+    "route": "VN_FIRST",
+    "chapterMilestone": "jeonju",
+    "beacons": [
+      "da_lat.beacon_lit",
+      "hoi_an.lamp_restored",
+      "hue.beacon_lit",
+      "jeonju.beacon_lit"
+    ],
+    "unlockedCities": [
+      "da_lat",
+      "gyeongju",
+      "hoi_an",
+      "hue",
+      "jeonju"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 16,
+    "restorableMaxByProposedA": 4,
+    "missingFoundCities": [
+      "gyeongju",
+      "seoul"
+    ],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": false,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS"
+  },
+  {
+    "route": "VN_FIRST",
+    "chapterMilestone": "gyeongju",
+    "beacons": [
+      "da_lat.beacon_lit",
+      "gyeongju.beacon_lit",
+      "hoi_an.lamp_restored",
+      "hue.beacon_lit",
+      "jeonju.beacon_lit"
+    ],
+    "unlockedCities": [
+      "da_lat",
+      "gyeongju",
+      "hoi_an",
+      "hue",
+      "jeonju",
+      "seoul"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 20,
+    "restorableMaxByProposedA": 5,
+    "missingFoundCities": [
+      "seoul"
+    ],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": false,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS"
+  },
+  {
+    "route": "VN_FIRST",
+    "chapterMilestone": "seoul_relays_and_tower_before_boss",
+    "beacons": [
+      "da_lat.beacon_lit",
+      "gyeongju.beacon_lit",
+      "hoi_an.lamp_restored",
+      "hue.beacon_lit",
+      "jeonju.beacon_lit"
+    ],
+    "unlockedCities": [
+      "da_lat",
+      "gyeongju",
+      "hoi_an",
+      "hue",
+      "jeonju",
+      "seoul"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 24,
+    "restorableMaxByProposedA": 6,
+    "missingFoundCities": [],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": true,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS",
+    "bossDefeated": false
+  },
+  {
+    "route": "KOREA_FIRST",
+    "chapterMilestone": "hoi_an",
+    "beacons": [
+      "hoi_an.lamp_restored"
+    ],
+    "unlockedCities": [
+      "hoi_an",
+      "hue",
+      "jeonju"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 5,
+    "restorableMaxByProposedA": 1,
+    "missingFoundCities": [
+      "da_lat",
+      "gyeongju",
+      "hue",
+      "jeonju",
+      "seoul"
+    ],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": false,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS"
+  },
+  {
+    "route": "KOREA_FIRST",
+    "chapterMilestone": "jeonju",
+    "beacons": [
+      "hoi_an.lamp_restored",
+      "jeonju.beacon_lit"
+    ],
+    "unlockedCities": [
+      "gyeongju",
+      "hoi_an",
+      "hue",
+      "jeonju"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 8,
+    "restorableMaxByProposedA": 2,
+    "missingFoundCities": [
+      "da_lat",
+      "gyeongju",
+      "hue",
+      "seoul"
+    ],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": false,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS"
+  },
+  {
+    "route": "KOREA_FIRST",
+    "chapterMilestone": "gyeongju",
+    "beacons": [
+      "gyeongju.beacon_lit",
+      "hoi_an.lamp_restored",
+      "jeonju.beacon_lit"
+    ],
+    "unlockedCities": [
+      "gyeongju",
+      "hoi_an",
+      "hue",
+      "jeonju"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 12,
+    "restorableMaxByProposedA": 3,
+    "missingFoundCities": [
+      "da_lat",
+      "hue",
+      "seoul"
+    ],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": false,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS"
+  },
+  {
+    "route": "KOREA_FIRST",
+    "chapterMilestone": "hue",
+    "beacons": [
+      "gyeongju.beacon_lit",
+      "hoi_an.lamp_restored",
+      "hue.beacon_lit",
+      "jeonju.beacon_lit"
+    ],
+    "unlockedCities": [
+      "da_lat",
+      "gyeongju",
+      "hoi_an",
+      "hue",
+      "jeonju"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 16,
+    "restorableMaxByProposedA": 4,
+    "missingFoundCities": [
+      "da_lat",
+      "seoul"
+    ],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": false,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS"
+  },
+  {
+    "route": "KOREA_FIRST",
+    "chapterMilestone": "da_lat",
+    "beacons": [
+      "da_lat.beacon_lit",
+      "gyeongju.beacon_lit",
+      "hoi_an.lamp_restored",
+      "hue.beacon_lit",
+      "jeonju.beacon_lit"
+    ],
+    "unlockedCities": [
+      "da_lat",
+      "gyeongju",
+      "hoi_an",
+      "hue",
+      "jeonju",
+      "seoul"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 20,
+    "restorableMaxByProposedA": 5,
+    "missingFoundCities": [
+      "seoul"
+    ],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": false,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS"
+  },
+  {
+    "route": "KOREA_FIRST",
+    "chapterMilestone": "seoul_relays_and_tower_before_boss",
+    "beacons": [
+      "da_lat.beacon_lit",
+      "gyeongju.beacon_lit",
+      "hoi_an.lamp_restored",
+      "hue.beacon_lit",
+      "jeonju.beacon_lit"
+    ],
+    "unlockedCities": [
+      "da_lat",
+      "gyeongju",
+      "hoi_an",
+      "hue",
+      "jeonju",
+      "seoul"
+    ],
+    "fragmentSourcesPotentiallyAvailable": 24,
+    "restorableMaxByProposedA": 6,
+    "missingFoundCities": [],
+    "backtrackAllowed": true,
+    "bossAccessibleByWorldMap": true,
+    "ending": "Only after boss+actual six restoration trials+explicit ceremony (not implemented)",
+    "method": "ABSTRACT_DESIGN_SIMULATION_AFTER_EACH_CHAPTER; not player acquisition/runtime PASS",
+    "bossDefeated": false
+  }
+]

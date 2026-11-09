@@ -1,0 +1,120 @@
+UTC run: 2026-11-07T15:51:36.7772972Z | Unity 6000.6.5f1 | 540x960
+PASS: Old save without optional history retains exact puzzle/items, zero blanket grants
+PASS: Corrupt main recovers valid backup
+PASS: Recovered write preserves valid backup and quarantines corrupt primary
+PASS: Interrupted-write recovery preserves only valid temporary save
+PASS: All corrupt blocks writes without overwriting recoverable evidence
+PASS: v1 optional initialization preserves old inventory/proofs
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Repeated overwrite with existing backup persists: da_lat #0
+PASS: Repeated overwrite with existing backup persists: da_lat #1
+PASS: Repeated overwrite with existing backup persists: da_lat #2
+PASS: Exact coins/items/quest/relic/ledger roundtrip: da_lat
+PASS: Reload and city-state roundtrip: da_lat
+PASS: Representative city retains objectives and canonical nodes: da_lat
+PASS: One approved white Lumi design: da_lat
+PASS: No numbered fake choice labels: D2
+PASS: No numbered fake choice labels: D3
+PASS: No numbered fake choice labels: D4
+PASS: No numbered fake choice labels: D10
+PASS: No numbered fake choice labels: D13
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Repeated overwrite with existing backup persists: gyeongju #0
+PASS: Repeated overwrite with existing backup persists: gyeongju #1
+PASS: Repeated overwrite with existing backup persists: gyeongju #2
+PASS: Exact coins/items/quest/relic/ledger roundtrip: gyeongju
+PASS: Reload and city-state roundtrip: gyeongju
+PASS: Representative city retains objectives and canonical nodes: gyeongju
+PASS: One approved white Lumi design: gyeongju
+PASS: No numbered fake choice labels: G3
+PASS: No numbered fake choice labels: G9
+PASS: No numbered fake choice labels: G14
+PASS: No numbered fake choice labels: G16
+PASS: No numbered fake choice labels: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Repeated overwrite with existing backup persists: hoi_an #0
+PASS: Repeated overwrite with existing backup persists: hoi_an #1
+PASS: Repeated overwrite with existing backup persists: hoi_an #2
+PASS: Exact coins/items/quest/relic/ledger roundtrip: hoi_an
+PASS: Reload and city-state roundtrip: hoi_an
+PASS: Representative city retains objectives and canonical nodes: hoi_an
+PASS: One approved white Lumi design: hoi_an
+PASS: No numbered fake choice labels: H2
+PASS: No numbered fake choice labels: H10
+PASS: No numbered fake choice labels: H17
+PASS: No numbered fake choice labels: H18
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Repeated overwrite with existing backup persists: hue #0
+PASS: Repeated overwrite with existing backup persists: hue #1
+PASS: Repeated overwrite with existing backup persists: hue #2
+PASS: Exact coins/items/quest/relic/ledger roundtrip: hue
+PASS: Reload and city-state roundtrip: hue
+PASS: Representative city retains objectives and canonical nodes: hue
+PASS: One approved white Lumi design: hue
+PASS: No numbered fake choice labels: U1
+PASS: No numbered fake choice labels: U2
+PASS: No numbered fake choice labels: U3
+PASS: No numbered fake choice labels: U7
+PASS: Applied Hue background loads at runtime
+PASS: Fresh runtime capture written: RC-Hue-approved-map
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Repeated overwrite with existing backup persists: jeonju #0
+PASS: Repeated overwrite with existing backup persists: jeonju #1
+PASS: Repeated overwrite with existing backup persists: jeonju #2
+PASS: Exact coins/items/quest/relic/ledger roundtrip: jeonju
+PASS: Reload and city-state roundtrip: jeonju
+PASS: Representative city retains objectives and canonical nodes: jeonju
+PASS: One approved white Lumi design: jeonju
+PASS: No numbered fake choice labels: J2
+PASS: No numbered fake choice labels: J4
+PASS: No numbered fake choice labels: J5
+PASS: No numbered fake choice labels: J15
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Repeated overwrite with existing backup persists: seoul #0
+PASS: Repeated overwrite with existing backup persists: seoul #1
+PASS: Repeated overwrite with existing backup persists: seoul #2
+PASS: Exact coins/items/quest/relic/ledger roundtrip: seoul
+PASS: Reload and city-state roundtrip: seoul
+PASS: Representative city retains objectives and canonical nodes: seoul
+PASS: One approved white Lumi design: seoul
+PASS: No numbered fake choice labels: S2
+PASS: No numbered fake choice labels: S7
+PASS: No numbered fake choice labels: S11
+PASS: No numbered fake choice labels: S12
+PASS: No numbered fake choice labels: S14
+PASS: Existing shop transaction saves successfully
+PASS: One coin buys exactly one item at unchanged price
+PASS: Repeated request cannot duplicate debit or item
+PASS: Shop transaction survives exact save/reload
+PASS: G14 remains optional lore; no quest was bypassed or route altered
+PASS: Persist checkpoint RC-earned
+ALL CHECKS PASSED

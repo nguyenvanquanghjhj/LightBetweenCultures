@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: c6176fa957f7eb549b9b40703e5038ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4214420144164640590
+    second: NPC_TransparentAtlas_0
+  - first:
+      213: 7342792775797078617
+    second: NPC_TransparentAtlas_1
+  - first:
+      213: -7559599989405248235
+    second: NPC_TransparentAtlas_2
+  - first:
+      213: -8722963912415237096
+    second: NPC_TransparentAtlas_3
+  - first:
+      213: 7779482755702863982
+    second: NPC_TransparentAtlas_4
+  - first:
+      213: -1729382645462194204
+    second: NPC_TransparentAtlas_5
+  - first:
+      213: -958838277590001227
+    second: NPC_TransparentAtlas_6
+  - first:
+      213: 7916086651805461923
+    second: NPC_TransparentAtlas_7
+  - first:
+      213: 7690168369347198093
+    second: NPC_TransparentAtlas_8
+  - first:
+      213: 8747476281869767377
+    second: NPC_TransparentAtlas_9
+  - first:
+      213: 7666495576737565989
+    second: NPC_TransparentAtlas_10
+  - first:
+      213: -5613471604541094651
+    second: NPC_TransparentAtlas_11
+  - first:
+      213: 3604345227945393139
+    second: NPC_TransparentAtlas_12
+  - first:
+      213: -5243393787370608955
+    second: NPC_TransparentAtlas_13
+  - first:
+      213: 8535721329658969881
+    second: NPC_TransparentAtlas_14
+  - first:
+      213: -1236143114458093314
+    second: NPC_TransparentAtlas_15
+  - first:
+      213: 6040835513986947759
+    second: NPC_TransparentAtlas_16
+  - first:
+      213: -1906459942597985631
+    second: NPC_TransparentAtlas_17
+  - first:
+      213: -5645709821521834804
+    second: NPC_TransparentAtlas_18
+  - first:
+      213: -597110036609639789
+    second: NPC_TransparentAtlas_19
+  - first:
+      213: 2904928069494043571
+    second: NPC_TransparentAtlas_20
+  - first:
+      213: -7750990658596259958
+    second: NPC_TransparentAtlas_21
+  - first:
+      213: 1358851688937123407
+    second: NPC_TransparentAtlas_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_guest
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 81
+        width: 280
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2d5d652ed1e9e4bb762f70cb238a93
+      internalID: -404209332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_huong
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 517
+        width: 298
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -147.6, y: 57.6}
+        - {x: -143.6, y: 88.6}
+        - {x: -141.6, y: 97.6}
+        - {x: -109.6, y: 163.6}
+        - {x: -105.6, y: 167.6}
+        - {x: -62.6, y: 202.6}
+        - {x: -53.6, y: 203.6}
+        - {x: -27.6, y: 204.6}
+        - {x: -23.4, y: 204.6}
+        - {x: 0.6, y: 203.6}
+        - {x: 28.6, y: 200.6}
+        - {x: 46.6, y: 198.6}
+        - {x: 50.6, y: 197.6}
+        - {x: 79.6, y: 189.6}
+        - {x: 95.6, y: 184.6}
+        - {x: 98.6, y: 178.6}
+        - {x: 121.6, y: 116.6}
+        - {x: 143.6, y: 6.6}
+        - {x: 146.6, y: -13.4}
+        - {x: 146.6, y: -24.6}
+        - {x: 137.6, y: -42.6}
+        - {x: 65.6, y: -154.6}
+        - {x: 62.6, y: -157.6}
+        - {x: 19.6, y: -199.6}
+        - {x: 15.6, y: -201.6}
+        - {x: 5.6, y: -203.6}
+        - {x: -23.6, y: -203.6}
+        - {x: -37.6, y: -201.6}
+        - {x: -41.6, y: -199.6}
+        - {x: -59.6, y: -188.6}
+        - {x: -61.6, y: -186.6}
+        - {x: -93.6, y: -153.6}
+        - {x: -111.6, y: -121.6}
+        - {x: -147.6, y: 55.4}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd53703f2a68c744eb8325bc480fa860
+      internalID: -1343187348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_soyeon
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 89
+        width: 248
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -122.6, y: 81.6}
+        - {x: -110.6, y: 112.6}
+        - {x: -94.6, y: 143.6}
+        - {x: -92.6, y: 146.6}
+        - {x: -29.6, y: 194.6}
+        - {x: -13.6, y: 198.6}
+        - {x: 0.4, y: 200.6}
+        - {x: 18.6, y: 200.6}
+        - {x: 47.6, y: 194.6}
+        - {x: 95.6, y: 137.6}
+        - {x: 99.6, y: 127.6}
+        - {x: 103.6, y: 114.6}
+        - {x: 121.6, y: 2.6}
+        - {x: 121.6, y: -7.6}
+        - {x: 113.6, y: -74.6}
+        - {x: 112.6, y: -76.6}
+        - {x: 51.6, y: -191.6}
+        - {x: 50.6, y: -192.6}
+        - {x: 46.6, y: -195.6}
+        - {x: 42.6, y: -197.6}
+        - {x: 35.6, y: -199.6}
+        - {x: 34.4, y: -199.6}
+        - {x: -54.6, y: -195.6}
+        - {x: -62.6, y: -191.6}
+        - {x: -64.6, y: -189.6}
+        - {x: -96.6, y: -61.6}
+        - {x: -108.6, y: -3.6}
+        - {x: -122.6, y: 72.4}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00d209dbdf32eb45ae9b73f9cf4fc7a
+      internalID: 464872565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_scholar
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 528
+        width: 219
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -108.1, y: -52.4}
+        - {x: -102.1, y: 81.6}
+        - {x: -90.1, y: 148.6}
+        - {x: -86.1, y: 154.6}
+        - {x: -77.1, y: 163.6}
+        - {x: -63.1, y: 173.6}
+        - {x: -60.1, y: 175.6}
+        - {x: -37.1, y: 187.6}
+        - {x: -19.1, y: 194.6}
+        - {x: -11.1, y: 197.6}
+        - {x: -8.9, y: 197.6}
+        - {x: 13.1, y: 195.6}
+        - {x: 22.1, y: 194.6}
+        - {x: 37.1, y: 191.6}
+        - {x: 42.1, y: 189.6}
+        - {x: 68.1, y: 178.6}
+        - {x: 85.1, y: 163.6}
+        - {x: 87.1, y: 161.6}
+        - {x: 103.1, y: 139.6}
+        - {x: 105.1, y: 133.6}
+        - {x: 107.1, y: 117.6}
+        - {x: 107.1, y: 110.4}
+        - {x: 95.1, y: -36.6}
+        - {x: 91.1, y: -80.6}
+        - {x: 81.1, y: -155.6}
+        - {x: 61.1, y: -188.6}
+        - {x: 51.1, y: -195.6}
+        - {x: 48.1, y: -196.6}
+        - {x: -55.1, y: -196.6}
+        - {x: -61.1, y: -195.6}
+        - {x: -67.1, y: -193.6}
+        - {x: -70.1, y: -188.6}
+        - {x: -102.1, y: -105.6}
+        - {x: -104.1, y: -96.6}
+        - {x: -108.1, y: -70.6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762cbd5bd93f6ff4ab7af01647aeb38f
+      internalID: -156234960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_hana
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 531
+        width: 300
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -148.6, y: -130.4}
+        - {x: -92.6, y: 110.6}
+        - {x: -74.6, y: 141.6}
+        - {x: -62.6, y: 159.6}
+        - {x: -60.6, y: 161.6}
+        - {x: -44.6, y: 170.6}
+        - {x: -28.6, y: 176.6}
+        - {x: -10.6, y: 181.6}
+        - {x: -4.6, y: 182.6}
+        - {x: 4.4, y: 183.6}
+        - {x: 13.6, y: 183.6}
+        - {x: 20.6, y: 182.6}
+        - {x: 59.6, y: 175.6}
+        - {x: 64.6, y: 174.6}
+        - {x: 91.6, y: 150.6}
+        - {x: 111.6, y: 125.6}
+        - {x: 113.6, y: 121.6}
+        - {x: 115.6, y: 111.6}
+        - {x: 147.6, y: -51.4}
+        - {x: 147.6, y: -130.6}
+        - {x: 142.6, y: -145.6}
+        - {x: 131.6, y: -160.6}
+        - {x: 127.6, y: -162.6}
+        - {x: 83.6, y: -180.6}
+        - {x: 48.6, y: -182.6}
+        - {x: -58.6, y: -182.6}
+        - {x: -75.6, y: -180.6}
+        - {x: -124.6, y: -164.6}
+        - {x: -126.6, y: -162.6}
+        - {x: -141.6, y: -146.6}
+        - {x: -147.6, y: -136.6}
+        - {x: -148.6, y: -133.6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdebe71e81b6c914a8761ff56c7d5679
+      internalID: -730319472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_min
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 86
+        width: 280
+        height: 414
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd05cb0fa936ae74a9f905d9ca17a4e1
+      internalID: 830274255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 43090c2aa7a83ef4fb99a4d541408dc3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      npc_guest: -404209332
+      npc_hana: -730319472
+      npc_huong: -1343187348
+      npc_min: 830274255
+      npc_scholar: -156234960
+      npc_soyeon: 464872565
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,311 @@
+{
+  "comparedTo": "D:\\GAMEKKK\\Backups\\BeforeDaLatChapter-20261017",
+  "entries": [
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_fog_boss-draft.png",
+      "status": "added",
+      "sha256": "58ee58277bd6dbed804b4f40896792a95024afc72958b1231a73a40374e47f88"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_fog_boss-draft.png.meta",
+      "status": "added",
+      "sha256": "e2442da90a9ef334839028062e8c97c58837507e07cb2497679bd3862ac93c77"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_glass_thief-draft.png",
+      "status": "added",
+      "sha256": "e6ff250e7fbc999150ceb275133ee5aaffff55c84458725b9476c618cfcf3851"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_glass_thief-draft.png.meta",
+      "status": "added",
+      "sha256": "a8c4b9c9b6c631326bda9e9cf4363951d7e5afc4f48dce73e34d9308ccfaa236"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_mist_wolf-draft.png",
+      "status": "added",
+      "sha256": "89a77322cb06fd3b1b23cf8170d27805ccb6923a686f808c822f27fc722d945c"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_mist_wolf-draft.png.meta",
+      "status": "added",
+      "sha256": "63fc5c4034e86744d971b63c4e7b9850bb329f971d973e5a4a413955c0eb00ce"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_gardener-draft.png",
+      "status": "added",
+      "sha256": "d2288715799d7c0fea7d5cd089f0e9d3027c7f3a7908d54bf049e75709be78ac"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_gardener-draft.png.meta",
+      "status": "added",
+      "sha256": "b4392a3b09a1cb688ab81a18cf69c43949f8eba644394279323680e4cbc3fab4"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_hungry_dog-draft.png",
+      "status": "added",
+      "sha256": "6d5b4ac1f8401eabc503ac3663e07981d05b2255d6a308d97cddeebd104744f0"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_hungry_dog-draft.png.meta",
+      "status": "added",
+      "sha256": "dce760f54c0ec140c189584a60ace3ada4ad535afd03f13a4feccdc461ac1788"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_lan-draft.png",
+      "status": "added",
+      "sha256": "4a3d17cf807d2beabfc46307c63abf5804ef2e807df4e4a83f62be1ed6ada61d"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_lan-draft.png.meta",
+      "status": "added",
+      "sha256": "4f465f89329571c96e95c5a41424715c2ce595d187d5053cd8d63a089e749e2f"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_thuy-draft.png",
+      "status": "added",
+      "sha256": "80fd3412332ed28ceb6745e33fc393ca0cf07f28a25a57b0824faacc53cf9897"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_thuy-draft.png.meta",
+      "status": "added",
+      "sha256": "960be1726a54afea37d3ad270e68cca8da5594bc2df130866d359c32d83ca868"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts.meta",
+      "status": "added",
+      "sha256": "98af50b7a3caeb1ccda64385a80f5559153c2b27cebeb23b087a6be20210a550"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_fog_boss.png",
+      "status": "added",
+      "sha256": "9a073d7dd4a067625425e53325c71ed13a98313f291250f610599e02e22320be"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_fog_boss.png.meta",
+      "status": "added",
+      "sha256": "7556e849caa8f60c004841e52997c84ed417d50a1e54be769e976b5f7e4ec101"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png",
+      "status": "added",
+      "sha256": "75015e347126152cb17b8acba3ac6c0049c6d55a9ff8f5317f6d3c302dbec5dc"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png.meta",
+      "status": "added",
+      "sha256": "83bbe05446e6831e2d30049886d33c74ba710ab319a9716b3583e80a6513d574"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_mist_wolf.png",
+      "status": "added",
+      "sha256": "f23dc92676e9ed30fa7e83df4c5e0bd95a7ff37ca28035ea78ff53336adb6fb8"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_mist_wolf.png.meta",
+      "status": "added",
+      "sha256": "b5b4d157e8dd99bc5efee8fe26d35ced99c786727a18ce75c196efe8c172de90"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat.meta",
+      "status": "added",
+      "sha256": "9dcb902c671ac2dad8622d340a86b1e89ede00f10865911546d38f1c5f50525f"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+      "status": "added",
+      "sha256": "40f33f91189d0829ac66973b83eaf9c431ab5eb64836a98de5f68864acb6f404"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png.meta",
+      "status": "added",
+      "sha256": "9c95a06b7ec826b0a636f19dcbf72a002b9cb192869014e56b6bcc4af6812847"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+      "status": "added",
+      "sha256": "f7996bdea43934e25f70625e60b8125f347f0fbae7bfaf68779384cf595ab78b"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png.meta",
+      "status": "added",
+      "sha256": "2ebe9f5a4fd87bdac5e209e4055f54fa84898e2bbebc4887fde4da25538f77c7"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+      "status": "added",
+      "sha256": "9d86a77b26635549a1044b1629be0e286416033e19286f8f2154e5e2132fad99"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png.meta",
+      "status": "added",
+      "sha256": "b08ed46fec2ba1f45ac6a67fa5a2c725390236ad52025c9bf7b94938cfef2d81"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+      "status": "added",
+      "sha256": "148d12ec8ff2b07d7fbbf42c25afefadcc9e9d69da3853593c093154b1cbf6cd"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png.meta",
+      "status": "added",
+      "sha256": "bd116dc30d0819113c566f535f1fa98ebc1e537bc5504aca9fdbe683583def87"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png.meta",
+      "status": "changed",
+      "sha256": "8cc656026e45559bee47c6ac2e2b4466755886a19db08f0c2af353ed5a48cdb9"
+    },
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+      "status": "changed",
+      "sha256": "e871e411b7edc138afceea62526682e8737635ded5d8c3a1e86949e8989077c2"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/AdventurePresentation.json",
+      "status": "changed",
+      "sha256": "019484b870f6e8d6e9086d0ae68a0e9027f5bdad8702dd0d380c930cd0eea07b"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "status": "changed",
+      "sha256": "a5eafb703ef1b1768947571d53d6229a4a4b2abe32432da7f46f108977a40859"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/BattleManager.cs",
+      "status": "changed",
+      "sha256": "76b9e521fe5132e5a1d6676172d9f96df46239243f1069182af5198a678365f9"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/ContentDefinitions.cs",
+      "status": "changed",
+      "sha256": "f3e6fabc2c43f69fa24107d95d7da94a7ad88d93a66031572604109a73ad0bfc"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "status": "changed",
+      "sha256": "35923009217741d30060f3c13f22a2458766049044168f1ebb9afa427b2fab36"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/PuzzleManager.cs",
+      "status": "changed",
+      "sha256": "7f167ac46968c9ccbcb8ac94c7adcc0719504b76bcde16adac3e4588cba01697"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/WorldState.cs",
+      "status": "changed",
+      "sha256": "d7327dd6cbbffac7db2294e14a8b14bf84ed978eb04a5deb182204c97748aa95"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/AdventureUISetup.cs",
+      "status": "changed",
+      "sha256": "329b6981e4469600d2e6de1106d3df0fa81a2ed7dd65178576b2a758007d391d"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "status": "changed",
+      "sha256": "5c0c672fa8d656f782de0ecd835acc507a97fab2b2afb3b540e97060df87f196"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Chapters.cs",
+      "status": "changed",
+      "sha256": "4e859b7090256a52d0849a7afb181af5cda5b8906b489a8190e626b9209eee37"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CrossCity.cs",
+      "status": "changed",
+      "sha256": "0e4200723827d433b358b23c13824aed0f86095c6fdf581ded742a54611da4af"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "status": "changed",
+      "sha256": "0021586d28769e95df1bdda0ee08a319c77aac1527d6f301f8f8b488ff232a61"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.DaLat.cs",
+      "status": "added",
+      "sha256": "c1888f199fdafdaa43970aec94c74919d768e921683278d5cdab763cac956b85"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.DaLat.cs.meta",
+      "status": "added",
+      "sha256": "a7aea81b38b3b9ea9b6391f41c4b241351b8e84622c62ae6975e7b6aa3268b37"
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.csv",
+      "status": "changed",
+      "sha256": "dea76ff6621e0137244c4aca9cf08249f2984c7b7af4e7b7173fdcf5ba5fd15b"
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.json",
+      "status": "changed",
+      "sha256": "091efbc4b70f10612b1a5d434dfa0bdb31f989300d32f2c581dbf06c1cd77589"
+    },
+    {
+      "path": "Docs/Art/ART_ASSET_CATALOG.md",
+      "status": "changed",
+      "sha256": "9b34aa3fdd61004da6659d17b5b8cb8b46265f78ab0f2dcc262eadfff30e0db6"
+    },
+    {
+      "path": "Docs/Art/city-art-preflight.json",
+      "status": "changed",
+      "sha256": "a81336f57c0607af0f39cb50af505f0dfaaff78a6232a8e15c33b48c7da87e8c"
+    },
+    {
+      "path": "Docs/Art/DaLatArtDerivatives.json",
+      "status": "added",
+      "sha256": "7280776c813aacdc3625005ae71f13ed57cb9f5cf0ce026a05e018dd978d7bcf"
+    },
+    {
+      "path": "Docs/Art/DaLatImagePrompts.json",
+      "status": "added",
+      "sha256": "01b6a8a12dd0aaf3a89fd9d79b8f3917c61ce460aedfc79e559953d8b2e95665"
+    },
+    {
+      "path": "Docs/Art/MISSING_ASSETS.md",
+      "status": "changed",
+      "sha256": "0fb853e810aee964f5a321cd15246453050ea78d400dbf29d23998bf0cac320a"
+    },
+    {
+      "path": "Docs/Art/native-art-bindings.json",
+      "status": "changed",
+      "sha256": "58eef3a01593de43166eaaec3c5af84a2cc4e7da60580473d5763d05de1f4f11"
+    },
+    {
+      "path": "Docs/Chapters/dalat-node-coverage.md",
+      "status": "added",
+      "sha256": "cfc8d34e3aebb31fd680c9c7eeb7c3336da0ffcc0d867afd521e53700a823833"
+    },
+    {
+      "path": "Docs/Chapters/DaLatDesignReview.md",
+      "status": "added",
+      "sha256": "b0775d58ca36b1dfae6666e405b5ad51a965fa6eaacc03ba1e7d31e79d05cbd4"
+    },
+    {
+      "path": "Docs/Chapters/RemainingCitiesPreflight.md",
+      "status": "added",
+      "sha256": "db5d8de8d01a4445b4ed8313f9ace6e134c99b6b609ef2dcab277504fd7d34b8"
+    },
+    {
+      "path": "Docs/Maps/DaLatChapterRoutes.json",
+      "status": "added",
+      "sha256": "25bdfd0e93d0fc09037ab0331573aec9b4403391ce5fe5f9e0d9b1b6efa724a6"
+    },
+    {
+      "path": "Tools/author_dalat_chapter.py",
+      "status": "added",
+      "sha256": "e6e73f57a301a5eeda421261cd219c0606f76a2fbec17d2b36748288306dca8c"
+    },
+    {
+      "path": "Tools/dalat_evidence.py",
+      "status": "added",
+      "sha256": "1ab1149b477e5f9544ce3a8e52f0d853ace96ee3130aadc2ce771c0f317e7733"
+    },
+    {
+      "path": "DaLatChapterReport.md",
+      "status": "added",
+      "sha256": "a649bdfe4d041fe5d3d13ae0a73afc79af78ec683da99add53e50a55c8c838aa"
+    }
+  ],
+  "note": "Manifest excludes its own self-hash; checkpoint manifest covers the complete snapshot."
+}

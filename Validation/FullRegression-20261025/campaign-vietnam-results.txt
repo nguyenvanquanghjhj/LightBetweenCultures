@@ -1,0 +1,53 @@
+UTC run: 2026-10-25T08:03:10.5741790Z | Unity 6000.6.5f1 | 1280x960
+PASS: PC New Game starts with a blank isolated save, no seed or fixture
+PASS: PC milestone capture: PC-NewGame
+PASS: Six cities/133 nodes/29 quests/22 story puzzles unchanged
+PASS: Single collection retains6 canonical relic IDs and24 fragment IDs
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Actual saved quest/relic state selects lighting A
+PASS: Map-space mask draws immediately above canonical painting, beneath actors/routes/markers
+PASS: Lighting cannot intercept mouse/touch/UI
+PASS: Lighting mask follows complete map bounds, not screen
+PASS: Soft circular district restores about20 percent of the painting including its gradient
+PASS: A dims both near/far background before actual tutorial hand-in
+PASS: Lighting does not expose hidden event H3
+PASS: Lighting does not expose hidden event H4
+PASS: Lighting does not expose hidden event H5
+PASS: Lighting does not expose hidden event H6
+PASS: Lighting does not expose hidden event H7
+PASS: Lighting does not expose hidden event H8
+PASS: Lighting does not expose hidden event H9
+PASS: Lighting does not expose hidden event H10
+PASS: Lighting does not expose hidden event H12
+PASS: Lighting does not expose hidden event H13
+PASS: Lighting does not expose hidden event H14
+PASS: Lighting does not expose hidden event H15
+PASS: Lighting does not expose hidden event H16
+PASS: Lighting does not expose hidden event H17
+PASS: Lighting does not expose hidden event H18
+PASS: Lighting does not expose hidden event H19
+PASS: Lighting does not expose hidden event H20
+PASS: Lighting does not expose hidden event H21
+PASS: Persist checkpoint state-A
+PASS: Dim background never unlocks hidden H19 movement
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H0 is discovered
+PASS: Lumi reaches H0 through the real map input
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_bamboo_frame
+PASS: Confirm without placement cannot claim: fragment_hoi_an_bamboo_frame
+PASS: Wrong drop rejected: fragment_hoi_an_bamboo_frame
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_bamboo_frame
+PASS: Wrong orientation rejected: fragment_hoi_an_bamboo_frame
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_bamboo_frame
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_bamboo_frame
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_bamboo_frame
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+System.Exception: FAIL: Lumi reaches H2 through the real map input
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<Travel>d__322.MoveNext () [0x001d0] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:240 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

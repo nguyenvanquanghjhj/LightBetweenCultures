@@ -1,0 +1,186 @@
+[
+  {
+    "path": "AGENTS.md",
+    "sha256": "07224953de237e10d27e46769e514439ef14ac62e51c15184314b5de059773b5"
+  },
+  {
+    "path": "Docs/Art/NPC_CANONICAL_REGISTRY.json",
+    "sha256": "a4a41e1d9949cc1da5550a31e22a6d2720ac096c940fc1e7589cae96ca9a1369"
+  },
+  {
+    "path": "Docs/Art/NPC_CANONICAL_REGISTRY.md",
+    "sha256": "6e761cbf83ec6093eda1b1bc02ffafdc8ebc906ddecd90cd0fc52c08e5a79614"
+  },
+  {
+    "path": "Docs/Art/native-art-bindings.json",
+    "sha256": "c14933494ee4d5eae491e73c0608f203abe63268f82ac13994e8c530def333d7"
+  },
+  {
+    "path": "Docs/Art/art-asset-manifest.json",
+    "sha256": "b9721d95134db95b66ac0dc5a38d459d42bd22eea5f2b7dca6152ae81cd8f62e"
+  },
+  {
+    "path": "Docs/Art/art-asset-manifest.csv",
+    "sha256": "f0439eedcd4f7405d0586020485e0fcac98808757a5a36e4971dcebcb49573b6"
+  },
+  {
+    "path": "Docs/Art/ART_ASSET_CATALOG.md",
+    "sha256": "cbd3c68c6d1088a2ad40b2ebccb07f0a3e549f0b5a52b4f6802a6e39f5d13d5a"
+  },
+  {
+    "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+    "sha256": "d5a1a906282240bd0cf09c1af7b49b181ba9a3ca7e48532ab840c951fe84a55f"
+  },
+  {
+    "path": "Assets/_Game/Resources/DesignKitArt.asset",
+    "sha256": "3b1bc0c94732e76854f80a69255c5d4db032a52324518e6e6adb3d4d927c9ae1"
+  },
+  {
+    "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+    "sha256": "435a9255afedc5884f5031f770230c46f4f071ac3246f62ab766691960c3b4b9"
+  },
+  {
+    "path": "Assets/_Game/Resources/Content/AdventurePresentation.json",
+    "sha256": "b1e256e02085b4b5259537335242d35f05f847762e4e3db982f6c88ed4a21cce"
+  },
+  {
+    "path": "Assets/_Game/Scenes/HoiAnDemo.unity",
+    "sha256": "447289dcf5765496e04cc8fea316687e3428f592b5f2eef69083e6373106e37e"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/PortraitRepairSetup.cs",
+    "sha256": "446e166fa54c68a8da01b5c32781b105965d0cb8b77ce66d660871e85281a5da"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "sha256": "4e82ef6389066e367e2d21e397a139e249568d02c3ae6ee8c32a38f221a5285d"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Portraits.cs",
+    "sha256": "a81879de83cd516a06e8604aae8e1819835b95df12eee2952e2fc0aadefeae08"
+  },
+  {
+    "path": "Tools/art_asset_catalog.py",
+    "sha256": "2b389778369955b41bcf72b0d259ac51f40e7b0af7fe232a97338b8b45a3db19"
+  },
+  {
+    "path": "Packages/manifest.json",
+    "sha256": "4c75e4a53722457feb43b894eb17112ba265d454dbbf330b4de48a30412a49f3"
+  },
+  {
+    "path": "Packages/packages-lock.json",
+    "sha256": "ec72142cacba6a503988cd812fd2a59cdba2194e50d3fad99cb2c77ef0e5bbd3"
+  },
+  {
+    "path": "ProjectSettings/AudioManager.asset",
+    "sha256": "aeedeb3243f07b61dbbe854aa08b5ef6f0b5274dd9852ad9f6129dde3e105a31"
+  },
+  {
+    "path": "ProjectSettings/ClusterInputManager.asset",
+    "sha256": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623"
+  },
+  {
+    "path": "ProjectSettings/DynamicsManager.asset",
+    "sha256": "b7c9a9dc08b98990109d4346f68745e15e238de400f96c583e53e1c83c743a78"
+  },
+  {
+    "path": "ProjectSettings/EditorBuildSettings.asset",
+    "sha256": "832c5b7c54522197fba26968fefc7fe8d44702b3f2fe6c2957be9c53da991c83"
+  },
+  {
+    "path": "ProjectSettings/EditorSettings.asset",
+    "sha256": "f8f13b4ead8154753e42ba1c82cd701d14d4c7eb70e6a9cc615a353b7b041a51"
+  },
+  {
+    "path": "ProjectSettings/GraphicsSettings.asset",
+    "sha256": "9ee4c5644b163546faf4396e2861257e1ec0063a3dd8ed30af69895d1213ce18"
+  },
+  {
+    "path": "ProjectSettings/InputManager.asset",
+    "sha256": "7a1bb836a1008d26d0860d143e9d9df7ca41731d30a72901b518063819c62df2"
+  },
+  {
+    "path": "ProjectSettings/MemorySettings.asset",
+    "sha256": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd"
+  },
+  {
+    "path": "ProjectSettings/MultiplayerManager.asset",
+    "sha256": "aba89fd1a1ddad182727ad82727e536d27372e90328a8196da2a4560398983dd"
+  },
+  {
+    "path": "ProjectSettings/NavMeshAreas.asset",
+    "sha256": "80106cfa7e6181a1928b142c075f3e510d527441e3d79bc83590e4ac91e7cd66"
+  },
+  {
+    "path": "ProjectSettings/NetworkManager.asset",
+    "sha256": "46395def99a6b5ae38ebb19b3e18f75215a9d4172c219361521a5a51e051f386"
+  },
+  {
+    "path": "ProjectSettings/PackageManagerSettings.asset",
+    "sha256": "be815f7e993301ffa59a59c06160e969a6b5ec52833dfed83929759660f69dd1"
+  },
+  {
+    "path": "ProjectSettings/Physics2DSettings.asset",
+    "sha256": "50e61d70bc38c632cb0e6efe364a9c5bcfd9a8dbcf4e7b5ecfb06a2030c4518f"
+  },
+  {
+    "path": "ProjectSettings/PhysicsCoreProjectSettings2D.asset",
+    "sha256": "bedc5339a832c60dc3f11b84abc4f4384dbfa20b0cd9ad6c444b907e751fc35e"
+  },
+  {
+    "path": "ProjectSettings/PresetManager.asset",
+    "sha256": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c"
+  },
+  {
+    "path": "ProjectSettings/ProjectAuditorSettings.asset",
+    "sha256": "9e68444b9bda981e2927a98df9edf69ea88362f0c6b7f3c81b39b9d515d2a416"
+  },
+  {
+    "path": "ProjectSettings/ProjectSettings.asset",
+    "sha256": "35085c672985cf3f4723e67f729741d82e2cd361b283266016e4eb9d6544ed70"
+  },
+  {
+    "path": "ProjectSettings/ProjectVersion.txt",
+    "sha256": "b3402f9d37aab37e8ad7676fff8d2f3b1333d857d2fade3fae888482e59d42ad"
+  },
+  {
+    "path": "ProjectSettings/QualitySettings.asset",
+    "sha256": "c1ed060f85623d3595b1e9eea133d957cd92191639a6edc51c638e3edcba240c"
+  },
+  {
+    "path": "ProjectSettings/SceneTemplateSettings.json",
+    "sha256": "bb9098b3bfcde78d93e264b96f7b77b5430e64e8c57a7aad7f5a5d9c3945e16a"
+  },
+  {
+    "path": "ProjectSettings/ShaderGraphSettings.asset",
+    "sha256": "5c432c9c73fdf73fee91c8823ea02ab98e3b7a8edf341b5ae6901d699cce52a7"
+  },
+  {
+    "path": "ProjectSettings/TagManager.asset",
+    "sha256": "8e18b1c820e9c09e16bbd1f1b7842e9fb3b0158a0921b0964e0b8fa12c6e2c01"
+  },
+  {
+    "path": "ProjectSettings/TimeManager.asset",
+    "sha256": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd"
+  },
+  {
+    "path": "ProjectSettings/UnityConnectSettings.asset",
+    "sha256": "7f2112b8c6ea0885dcc72b312c9726ffcd909f2e89d1eead61889274a4e5d1c0"
+  },
+  {
+    "path": "ProjectSettings/URPProjectSettings.asset",
+    "sha256": "c317fe22b9488785c0611f0642429922e5d324430d929bffb41648130f30c218"
+  },
+  {
+    "path": "ProjectSettings/VersionControlSettings.asset",
+    "sha256": "e199cdfa6a8f2bf33cfd47e549198f13e3eb2a5099e908fdb4e0f14d939ccc6b"
+  },
+  {
+    "path": "ProjectSettings/VFXManager.asset",
+    "sha256": "f066c6483919961332415ee64204f74fe52f38c02e82892eb02b7a5b2e381f0e"
+  },
+  {
+    "path": "ProjectSettings/XRSettings.asset",
+    "sha256": "edd2beb4a2e388312b4b7da241aa51070434005d82c59363f1237dd2e567585f"
+  }
+]

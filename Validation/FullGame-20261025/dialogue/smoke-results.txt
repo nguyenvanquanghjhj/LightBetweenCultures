@@ -1,0 +1,83 @@
+UTC run: 2026-10-25T06:18:11.5528723Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Representative dialogue renders with close control: da_lat
+PASS: Read/close preserves quest/items/rewards: da_lat
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Representative dialogue renders with close control: gyeongju
+PASS: Read/close preserves quest/items/rewards: gyeongju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Representative dialogue renders with close control: hoi_an
+PASS: Read/close preserves quest/items/rewards: hoi_an
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Representative dialogue renders with close control: hue
+PASS: Read/close preserves quest/items/rewards: hue
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Representative dialogue renders with close control: jeonju
+PASS: Read/close preserves quest/items/rewards: jeonju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Representative dialogue renders with close control: seoul
+PASS: Read/close preserves quest/items/rewards: seoul
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: H7 shorter display preserves destinations, components and separate relic story
+PASS: NodePanelCompact retained: station has no large category badge
+PASS: Long dialogue visibly indicates more text
+PASS: Simulated finger swipe scrolls text without triggering actions
+PASS: Reading hint changes direction at end of text
+PASS: Closing an event or battle returns map input to the player
+PASS: Short information has neither unnecessary hint nor large badge
+PASS: Closing an event or battle returns map input to the player
+PASS: H3 replay label describes actual exploration action
+PASS: Unchanged H3 callback opens existing exploration scene
+PASS: Save writes after focused interaction
+PASS: Exact quest/items/coins/reward state survives reload
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: X declines the offered quest without acceptance, proof or reward
+PASS: Explicit quest acceptance has no duplicate promise/Next dialogue
+PASS: The canonical acceptance-item receipt never grants twice on Continue
+PASS: After the actual acceptance receipt, play resumes without another NPC menu to close
+PASS: Accept never hands out the quest item
+System.InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <f1b392d8fe224ca2b1f9fab1000b77eb>:0 
+  at LightBetweenCultures.GameplaySmokeRunner+<NpcButtonsJourney>d__154.MoveNext () [0x002f4] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.NpcStanding.cs:82 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

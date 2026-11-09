@@ -1,0 +1,15 @@
+{
+  "baseline": "Validation/FullGame-20261025/source-before.json",
+  "paths": [
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.PcGameplay.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.StoryLeisure.cs"
+  ],
+  "knownQaAdapterChanges": 3,
+  "otherChangedPaths": [
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs"
+  ]
+}

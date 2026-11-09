@@ -1,0 +1,14 @@
+{
+    "output": "Builds/Android/LightBetweenCultures-RC1-20261024.apk",
+    "identifier": "com.DefaultCompany.LightBetweenCultures",
+    "result": "Succeeded",
+    "error": "",
+    "startedUTC": "2026-10-23T17:57:00.9929860Z",
+    "finishedUTC": "2026-10-23T17:59:49.9682279Z",
+    "version": "1.0-rc1-20261024",
+    "bytes": 1511877467,
+    "customKeystore": false,
+    "errors": 0,
+    "warnings": 1069,
+    "versionCode": 6
+}

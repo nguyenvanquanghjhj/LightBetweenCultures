@@ -1,0 +1,12 @@
+panel,name,widthPixels,heightPixels,x,y
+map-540,Inventory,52.20001,52.19995,447.3,931.2
+map-540,Interact,448.2,43.2,303.3,36.89996
+map-540,FocusLumi,46.79999,46.8,500.4,105.3
+map-540,AudioSettings,50.4,50.40002,34.20001,871.8
+map-540,ZoomOut,46.79999,46.8,343.8,105.3
+map-540,QuestJournal,52.20001,52.19995,504.9,931.2
+map-540,MarkerMotion,46.79999,46.8,291.6,105.3
+map-540,Back,55.8,55.8,40.5,36.89996
+map-540,MapOverview,46.79999,46.8,448.2,105.3
+map-540,ObjectiveHint,100.8,46.8,63,105.3
+map-540,ZoomIn,46.79999,46.8,396,105.3

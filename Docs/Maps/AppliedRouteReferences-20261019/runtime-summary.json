@@ -1,0 +1,99 @@
+{
+  "requiredRuns": [
+    "before01",
+    "after01",
+    "fresh02",
+    "refine01",
+    "restart-hoi_an-02",
+    "restart-hue-01",
+    "restart-da_lat-01",
+    "restart-jeonju-01",
+    "restart-gyeongju-01",
+    "restart-seoul-01"
+  ],
+  "runsIncludingHistoricalHarnessFailure": [
+    {
+      "run": "after-overview01",
+      "result": "PASS",
+      "passed": 55,
+      "path": "Validation/AppliedRouteReferences-20261019/after-overview01/smoke-results.txt"
+    },
+    {
+      "run": "after01",
+      "result": "PASS",
+      "passed": 1433,
+      "path": "Validation/AppliedRouteReferences-20261019/after01/smoke-results.txt"
+    },
+    {
+      "run": "before01",
+      "result": "PASS",
+      "passed": 55,
+      "path": "Validation/AppliedRouteReferences-20261019/before01/smoke-results.txt"
+    },
+    {
+      "run": "fresh01",
+      "result": "FAIL",
+      "passed": 20,
+      "path": "Validation/AppliedRouteReferences-20261019/fresh01/smoke-results.txt"
+    },
+    {
+      "run": "fresh02",
+      "result": "PASS",
+      "passed": 31,
+      "path": "Validation/AppliedRouteReferences-20261019/fresh02/smoke-results.txt"
+    },
+    {
+      "run": "refine01",
+      "result": "PASS",
+      "passed": 235,
+      "path": "Validation/AppliedRouteReferences-20261019/refine01/smoke-results.txt"
+    },
+    {
+      "run": "restart-da_lat-01",
+      "result": "PASS",
+      "passed": 15,
+      "path": "Validation/AppliedRouteReferences-20261019/restart-da_lat-01/smoke-results.txt"
+    },
+    {
+      "run": "restart-gyeongju-01",
+      "result": "PASS",
+      "passed": 15,
+      "path": "Validation/AppliedRouteReferences-20261019/restart-gyeongju-01/smoke-results.txt"
+    },
+    {
+      "run": "restart-hoi_an-01",
+      "result": "FAIL",
+      "passed": 1,
+      "path": "Validation/AppliedRouteReferences-20261019/restart-hoi_an-01/smoke-results.txt"
+    },
+    {
+      "run": "restart-hoi_an-02",
+      "result": "PASS",
+      "passed": 15,
+      "path": "Validation/AppliedRouteReferences-20261019/restart-hoi_an-02/smoke-results.txt"
+    },
+    {
+      "run": "restart-hue-01",
+      "result": "PASS",
+      "passed": 15,
+      "path": "Validation/AppliedRouteReferences-20261019/restart-hue-01/smoke-results.txt"
+    },
+    {
+      "run": "restart-jeonju-01",
+      "result": "PASS",
+      "passed": 15,
+      "path": "Validation/AppliedRouteReferences-20261019/restart-jeonju-01/smoke-results.txt"
+    },
+    {
+      "run": "restart-seoul-01",
+      "result": "PASS",
+      "passed": 15,
+      "path": "Validation/AppliedRouteReferences-20261019/restart-seoul-01/smoke-results.txt"
+    }
+  ],
+  "totalExecutedTraversals": 186,
+  "finalSourceMatchingTraversals": 175,
+  "uniqueEdges": 155,
+  "maxMapPixelError": 0.00013647876039613038,
+  "terrain": "BEST_EFFORT_NOT_PERFECT_TERRAIN_PASS"
+}

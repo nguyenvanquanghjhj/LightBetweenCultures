@@ -1,0 +1,35 @@
+[
+  {
+    "id": "X1",
+    "city": "hoi_an",
+    "vertex": "J96",
+    "degree": 3,
+    "distanceToReviewPixel": 2.2360600684430554,
+    "inputPixel": [
+      187.99996779451476,
+      255.9999750542639
+    ]
+  },
+  {
+    "id": "X3",
+    "city": "jeonju",
+    "vertex": "J430",
+    "degree": 3,
+    "distanceToReviewPixel": 12.165525860485191,
+    "inputPixel": [
+      542.0000027100804,
+      421.999988605017
+    ]
+  },
+  {
+    "id": "X4",
+    "city": "gyeongju",
+    "vertex": "J146",
+    "degree": 3,
+    "distanceToReviewPixel": 2.236073071735284,
+    "inputPixel": [
+      341.9999762941886,
+      515.9999824517769
+    ]
+  }
+]

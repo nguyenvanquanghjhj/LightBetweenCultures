@@ -1,0 +1,29 @@
+UTC run: 2026-10-25T07:16:33.3895170Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S21 is discovered
+PASS: Lumi reaches S21 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: S21 explicitly completes SQ03 independently before ceremony
+PASS: Fresh runtime capture written: P5-S21-ready
+PASS: Fresh runtime capture written: P5-confirmation
+PASS: Confirmation popup alone has no ceremony/completion
+PASS: Only accepted explicit confirmation starts a transient ceremony
+PASS: Portrait controls remain in screen: 540x960 FinalSkip
+PASS: Portrait controls remain in screen: 540x960 RelicExit
+PASS: Immediate backend finish cannot skip the actual ceremony clock
+PASS: A valid ceremony or deliberate Skip commits the one canonical ending
+PASS: Repeated Finish/Skip cannot commit twice
+PASS: Exactly one global completion marker
+PASS: Fresh runtime capture written: P5-ending-dialogue
+PASS: Credits only follow the committed six-relic ceremony
+PASS: Fresh runtime capture written: P5-credits
+PASS: Ceremony/credits never grant or replay item/coin/quest rewards
+PASS: Acknowledged credits preserve compatible historical ending evidence
+PASS: Persist checkpoint P5-ending-completed
+PASS: Fresh runtime capture written: P5-post-credits
+ALL CHECKS PASSED

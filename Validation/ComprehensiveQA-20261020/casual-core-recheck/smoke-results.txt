@@ -1,0 +1,93 @@
+UTC run: 2026-10-21T00:36:38.3333835Z | Unity 6000.6.5f1 | 540x960
+PASS: H3 pickup UX starts fresh, without injected quest or items
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H3 is discovered
+PASS: Lumi reaches H3 through the real map input
+PASS: H3 opens the existing physical exploration scene and unique item
+PASS: Exploration keeps its collider and dedicated standing Lumi sprite
+PASS: Fresh runtime capture written: 05-H3-exploration
+PASS: Original house collider rejects an obstructed destination
+PASS: WASD movement still stops at the house collider
+PASS: Physical pathfinding still finds a route around the house
+PASS: Player physically traverses the path around the obstacle
+PASS: H3 touchscreen ground movement works after new services
+PASS: Manual ground path can still reach the area where Mắt Đèn is visible
+PASS: Pickup button is hidden while outside generous interaction range
+PASS: Actual item is on screen before the pointer test
+PASS: Mắt Đèn has a forgiving screen-space touch target
+PASS: No valid arrival path leaves Lumi stationary; no wall traversal
+PASS: Blocked approach explains how to go around instead of silently failing
+PASS: Blocked item tap cannot grant or alter quest state
+PASS: Fresh runtime capture written: H3-tap-no-path
+PASS: Tapping the actual item starts the existing collider-aware movement
+PASS: Fresh runtime capture written: H3-tap-approaching
+PASS: Auto approach arrives at a valid interaction position near the item
+PASS: Lumi stands nearby instead of requiring the item's exact centre
+PASS: Arriving only offers pickup; no automatic item/reward grant
+PASS: Arrival reveals the explicit pickup action
+PASS: Pickup button has a mobile-friendly actual screen hit area
+PASS: Fresh runtime capture written: H3-tap-ready-to-pick
+PASS: Repeated Interact after pickup does not duplicate item or reward
+PASS: H3 pickup through E or the existing touch Collect button awards the tutorial part once
+PASS: Second physical quest pickup is rejected
+PASS: Fresh runtime capture written: 06-H3-part-picked-up
+PASS: Returning from exploration restores H3 exactly
+PASS: Tap approach and pickup do not complete tutorial/main quest or world unlock
+PASS: Persist checkpoint H3-tap-earned
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Journal resumes from real city, quest, photo and relic state with player-facing names
+PASS: Fresh runtime capture written: Casual-resume-journal
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H4 is discovered
+PASS: Lumi reaches H4 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H13 is discovered
+PASS: Lumi reaches H13 through the real map input
+PASS: Existing paper activity starts without an automatic solution
+PASS: Context help describes the actual current interaction: Chạm mảnh
+PASS: Fresh runtime capture written: Casual-help-hoi_an-H13
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Context help keeps the same live minigame instance
+PASS: Premature minigame confirmation remains a safe retry
+PASS: Closing an event or battle returns map input to the player
+PASS: Missing required proof rejects both UI/backend: puzzle_paper hoi_an.market_puzzle_solved
+PASS: Negative guard checks restore exact earned state: puzzle_paper
+PASS: Real activity opens without granting proof: puzzle_paper
+PASS: Closing an event or battle returns map input to the player
+PASS: Cancel before success preserves items/proofs: puzzle_paper
+PASS: Empty confirmation cannot pay or consume: puzzle_paper
+PASS: Wrong drop rejected: puzzle_paper
+PASS: Touch drag / tap-select places actual piece: puzzle_paper 0
+PASS: Prepared tactile state alone never auto-commits: puzzle_paper
+PASS: Fresh runtime capture written: SL-puzzle_paper-ready
+PASS: Explicit interaction success records original PuzzleID: puzzle_paper
+PASS: Original coin reward exact: puzzle_paper
+PASS: Original item and one-time ledger exact: puzzle_paper hanji_core
+PASS: Original flags retained: puzzle_paper
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_paper
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H5 is discovered
+PASS: Lumi reaches H5 through the real map input
+PASS: Context help describes the actual current interaction: Phòng thủ
+PASS: Fresh runtime capture written: Casual-help-hoi_an-H5
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Retreat offers an explicit retry without resolving the enemy
+PASS: Retry starts the same unresolved encounter through BattleManager
+PASS: Fresh runtime capture written: Casual-combat-actions
+PASS: Victory uses the existing result and does not offer an invalid reward replay
+PASS: Persist checkpoint Casual-core-earned
+ALL CHECKS PASSED

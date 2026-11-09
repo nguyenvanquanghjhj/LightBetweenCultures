@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "design_only": true,
+  "items": [
+    {
+      "id": "hoi_an_fresh_chili",
+      "name": "Ớt Hội An",
+      "kind": "trade",
+      "stack_limit": 20,
+      "home_node": "H10",
+      "icon_key": "food_chili",
+      "description": "Ớt tươi từ quầy Bà Tư. Mang sang J15 Jeonju cho một gian hàng giao lưu ẩm thực. Đây là món trao đổi tùy chọn.",
+      "quest_uses": [
+        "HQ05"
+      ],
+      "replenishment": "If HQ05 active and not delivered and inventory==0, H10 gives one recovery, no quest XP or money exploit."
+    },
+    {
+      "id": "hoi_an_purple_shallot",
+      "name": "Hành tím Hội An",
+      "kind": "trade",
+      "stack_limit": 20,
+      "home_node": "H10",
+      "icon_key": "food_shallot",
+      "description": "Một củ hành tím từ sạp Hội An, dùng cho gian hàng giao lưu tại U1 Huế.",
+      "quest_uses": [
+        "HQ06"
+      ],
+      "replenishment": "If HQ06 active and not delivered and inventory==0, H10 gives one recovery."
+    },
+    {
+      "id": "crab_bait",
+      "name": "Mồi cua ven sông",
+      "kind": "tool",
+      "stack_limit": 5,
+      "home_node": "H4",
+      "icon_key": "food_crab_bait",
+      "description": "Mồi an toàn để dụ cua nhả cuộn dây mà không cần đánh.",
+      "quest_uses": [
+        "HQ02"
+      ]
+    },
+    {
+      "id": "jeonju_recipe_card",
+      "name": "Thẻ món ăn Jeonju",
+      "kind": "quest",
+      "stack_limit": 1,
+      "home_node": "J15",
+      "icon_key": "recipe_card",
+      "description": "Thẻ minh họa món cơm giao lưu ở Jeonju; là kỷ niệm việc chia sẻ ớt Hội An.",
+      "quest_uses": [
+        "HQ07"
+      ]
+    },
+    {
+      "id": "hue_market_note",
+      "name": "Giấy nhắn chợ Huế",
+      "kind": "quest",
+      "stack_limit": 1,
+      "home_node": "U1",
+      "icon_key": "market_note",
+      "description": "Lời cảm ơn từ gian hàng Huế sau khi nhận hành tím.",
+      "quest_uses": [
+        "HQ07"
+      ]
+    },
+    {
+      "id": "festival_friendship_postcard",
+      "name": "Bưu thiếp chợ giao lưu",
+      "kind": "collectible",
+      "stack_limit": 1,
+      "home_node": "H10",
+      "icon_key": "postcard_food",
+      "description": "Phần thưởng từ Bà Tư sau khi mang quà từ Hội An đến cả Huế và Jeonju.",
+      "quest_uses": [
+        "HQ07"
+      ]
+    },
+    {
+      "id": "hoi_an_bridge_postcard",
+      "name": "Bưu thiếp cầu cổ Hội An",
+      "kind": "collectible",
+      "stack_limit": 1,
+      "home_node": "H6",
+      "icon_key": "postcard_bridge",
+      "description": "Bưu thiếp check-in, không khóa tiến trình chính."
+    }
+  ]
+}

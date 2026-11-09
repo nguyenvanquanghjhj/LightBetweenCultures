@@ -1,0 +1,149 @@
+[
+  {
+    "name": "three-npc",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 34.62,
+    "assertions": 157,
+    "arguments": [
+      "--three-npc-qa"
+    ],
+    "seed": null,
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\three-npc\\three-npc-results.txt",
+    "failureTail": null
+  },
+  {
+    "name": "three-npc-restart",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 15.78,
+    "assertions": 102,
+    "arguments": [
+      "--three-npc-qa",
+      "--three-npc-restart"
+    ],
+    "seed": null,
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\three-npc\\three-npc-restart-results.txt",
+    "failureTail": null
+  },
+  {
+    "name": "campaign-vietnam",
+    "status": "FAIL",
+    "exit": 1,
+    "seconds": 145.49,
+    "assertions": 628,
+    "arguments": [
+      "--pc-full-gameplay",
+      "--phase4-e2e=VN_FIRST"
+    ],
+    "seed": null,
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\campaign-vietnam\\campaign-vietnam-results.txt",
+    "failureTail": "t to the player\nPASS: Cancel before success preserves items/proofs: puzzle_hanji\nPASS: Empty confirmation cannot pay or consume: puzzle_hanji\nPASS: Wrong drop rejected: puzzle_hanji\nPASS: Touch drag / tap-select places actual piece: puzzle_hanji 0\nPASS: Prepared tactile state alone never auto-commits: puzzle_hanji\nPASS: Explicit interaction success records original PuzzleID: puzzle_hanji\nPASS: Original coin reward exact: puzzle_hanji\nPASS: Original item and one-time ledger exact: puzzle_hanji hanji_pattern_1\nPASS: Original flags retained: puzzle_hanji\nPASS: Closing an event or battle returns map input to the player\nPASS: Solved ID cannot replay reward: puzzle_hanji\nPASS: Dialogue choice relic:fragment_jeonju_old_hanji_core has a real receipt/next/interact control\nPASS: Source opens a real gesture without auto-grant: fragment_jeonju_old_hanji_core\nPASS: Confirm without placement cannot claim: fragment_jeonju_old_hanji_core\nPASS: Wrong drop rejected: fragment_jeonju_old_hanji_core\nPASS: Actual mouse/touch drop reaches target: fragment_jeonju_old_hanji_core\nPASS: Wrong orientation rejected: fragment_jeonju_old_hanji_core\nPASS: Gesture commits distinct proof and ownership: fragment_jeonju_old_hanji_core\nPASS: Claim ledger idempotent after repeated confirmation: fragment_jeonju_old_hanji_core\nPASS: Collection never replaces story items or source rewards: fragment_jeonju_old_hanji_core\nPASS: Four gestures give four unique collection claims, not story rewards\nPASS: Closing an event or battle returns map input to the player\nPASS: Travel target J2 is discovered\nPASS: Lumi reaches J2 through the real map input\nPASS: Closing an event or battle returns map input to the player\nPASS: Dialogue choice relic_restore:relic_jeonju_hanji_stamp has a real receipt/next/interact control\nPASS: Empty slots do not assemble relic_jeonju_hanji_stamp\nSystem.Exception: FAIL: Assembly is distinct from restored state\n  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:68 \n  at LightBetweenCultures.GameplaySmokeRunner+<Phase4Assembly>d__189.MoveNext () [0x00194] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.Phase4.cs:66 \n  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:76 \nFAILED\n"
+  },
+  {
+    "name": "campaign-korea",
+    "status": "FAIL",
+    "exit": 1,
+    "seconds": 148.4,
+    "assertions": 621,
+    "arguments": [
+      "--pc-full-gameplay",
+      "--phase4-e2e=KOREA_FIRST"
+    ],
+    "seed": null,
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\campaign-korea\\campaign-korea-results.txt",
+    "failureTail": "ofs: puzzle_market_code\nPASS: Empty confirmation cannot pay or consume: puzzle_market_code\nPASS: Wrong drop rejected: puzzle_market_code\nPASS: Touch drag / tap-select places actual piece: puzzle_market_code 0\nPASS: Touch drag / tap-select places actual piece: puzzle_market_code 1\nPASS: Prepared tactile state alone never auto-commits: puzzle_market_code\nPASS: Explicit interaction success records original PuzzleID: puzzle_market_code\nPASS: Original coin reward exact: puzzle_market_code\nPASS: Original item and one-time ledger exact: puzzle_market_code river_pass\nPASS: Original flags retained: puzzle_market_code\nPASS: Closing an event or battle returns map input to the player\nPASS: Solved ID cannot replay reward: puzzle_market_code\nPASS: Dialogue choice relic:fragment_hue_ritual_cord has a real receipt/next/interact control\nPASS: Source opens a real gesture without auto-grant: fragment_hue_ritual_cord\nPASS: Confirm without placement cannot claim: fragment_hue_ritual_cord\nPASS: Wrong drop rejected: fragment_hue_ritual_cord\nPASS: Actual mouse/touch drop reaches target: fragment_hue_ritual_cord\nPASS: Wrong orientation rejected: fragment_hue_ritual_cord\nPASS: Gesture commits distinct proof and ownership: fragment_hue_ritual_cord\nPASS: Claim ledger idempotent after repeated confirmation: fragment_hue_ritual_cord\nPASS: Collection never replaces story items or source rewards: fragment_hue_ritual_cord\nPASS: Closing an event or battle returns map input to the player\nPASS: PC purchase uses earned currency\nPASS: PC redundant ferry permission is not sold\nPASS: Shop control exists: ShopBuy_tea\nPASS: PC real shop transaction debits exact price and grants one tea\nPASS: Closing an event or battle returns map input to the player\nPASS: Travel target U15 is discovered\nPASS: Lumi reaches U15 through the real map input\nPASS: PC real bot fight is active\nSystem.Exception: FAIL: PC full HP cannot consume tea\n  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:68 \n  at LightBetweenCultures.GameplaySmokeRunner+<PcBattleWithTea>d__176.MoveNext () [0x000c1] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.PcGameplay.cs:80 \n  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:76 \nFAILED\n"
+  },
+  {
+    "name": "node-panels",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 34.68,
+    "assertions": 151,
+    "arguments": [
+      "--node-panel-qa"
+    ],
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\node-panels\\node-panels-results.txt",
+    "failureTail": null
+  },
+  {
+    "name": "dialogue",
+    "status": "FAIL",
+    "exit": 1,
+    "seconds": 20.01,
+    "assertions": 77,
+    "arguments": [
+      "--dialogue-release-qa",
+      "--node-panel-qa"
+    ],
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\dialogue\\dialogue-results.txt",
+    "failureTail": "eturns map input to the player\nPASS: City changes go through the actual World Map\nPASS: Selecting hoi_an only previews its destination until Enter is confirmed\nPASS: Earned world flags enable the hoi_an opening\nPASS: World Map enters the configured hoi_an data in the existing CityMap scene\nPASS: Closing an event or battle returns map input to the player\nPASS: H7 shorter display preserves destinations, components and separate relic story\nPASS: NodePanelCompact retained: station has no large category badge\nPASS: Long dialogue visibly indicates more text\nPASS: Simulated finger swipe scrolls text without triggering actions\nPASS: Reading hint changes direction at end of text\nPASS: Closing an event or battle returns map input to the player\nPASS: Short information has neither unnecessary hint nor large badge\nPASS: Closing an event or battle returns map input to the player\nPASS: H3 replay label describes actual exploration action\nPASS: Unchanged H3 callback opens existing exploration scene\nPASS: Save writes after focused interaction\nPASS: Exact quest/items/coins/reward state survives reload\nPASS: City changes go through the actual World Map\nPASS: Selecting hoi_an only previews its destination until Enter is confirmed\nPASS: Earned world flags enable the hoi_an opening\nPASS: World Map enters the configured hoi_an data in the existing CityMap scene\nPASS: Closing an event or battle returns map input to the player\nPASS: Travel target H2 is discovered\nPASS: Lumi reaches H2 through the real map input\nPASS: X declines the offered quest without acceptance, proof or reward\nPASS: Explicit quest acceptance has no duplicate promise/Next dialogue\nPASS: The canonical acceptance-item receipt never grants twice on Continue\nPASS: After the actual acceptance receipt, play resumes without another NPC menu to close\nPASS: Accept never hands out the quest item\nSystem.InvalidOperationException: Sequence contains no matching element\n  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <f1b392d8fe224ca2b1f9fab1000b77eb>:0 \n  at LightBetweenCultures.GameplaySmokeRunner+<NpcButtonsJourney>d__154.MoveNext () [0x002f4] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.NpcStanding.cs:82 \n  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:76 \nFAILED\n"
+  },
+  {
+    "name": "final-ux",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 55.38,
+    "assertions": 373,
+    "arguments": [
+      "--final-ux-qa"
+    ],
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\final-ux\\final-ux-results.txt",
+    "failureTail": null
+  },
+  {
+    "name": "hue-stamps",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 14.59,
+    "assertions": 28,
+    "arguments": [
+      "--hue-snap-qa"
+    ],
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\hue-stamps\\hue-stamps-results.txt",
+    "failureTail": null
+  },
+  {
+    "name": "save-recovery",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 10.89,
+    "assertions": 118,
+    "arguments": [
+      "--release-candidate-qa"
+    ],
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\save-recovery\\save-recovery-results.txt",
+    "failureTail": null
+  },
+  {
+    "name": "leisure",
+    "status": "FAIL",
+    "exit": 1,
+    "seconds": 8.53,
+    "assertions": 34,
+    "arguments": [
+      "--leisure-visuals"
+    ],
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\leisure\\leisure-results.txt",
+    "failureTail": " the player\nPASS: Only real enabled activity nodes receive a leisure badge: H0\nPASS: Only real enabled activity nodes receive a leisure badge: H1\nPASS: Only real enabled activity nodes receive a leisure badge: H2\nPASS: Only real enabled activity nodes receive a leisure badge: H3\nPASS: Only real enabled activity nodes receive a leisure badge: H4\nPASS: Only real enabled activity nodes receive a leisure badge: H5\nPASS: Only real enabled activity nodes receive a leisure badge: H6\nPASS: Only real enabled activity nodes receive a leisure badge: H7\nPASS: Only real enabled activity nodes receive a leisure badge: H8\nPASS: Only real enabled activity nodes receive a leisure badge: H9\nPASS: Existing star art reused without a touch blocker: H9\nPASS: Leisure badge obeys real discovery: H9\nPASS: Leisure badge stays readable through zoom: H9\nPASS: Only real enabled activity nodes receive a leisure badge: H10\nPASS: Only real enabled activity nodes receive a leisure badge: H11\nPASS: Only real enabled activity nodes receive a leisure badge: H12\nPASS: Only real enabled activity nodes receive a leisure badge: H13\nPASS: Only real enabled activity nodes receive a leisure badge: H14\nPASS: Only real enabled activity nodes receive a leisure badge: H15\nPASS: Only real enabled activity nodes receive a leisure badge: H16\nPASS: Existing star art reused without a touch blocker: H16\nPASS: Leisure badge obeys real discovery: H16\nPASS: Leisure badge stays readable through zoom: H16\nPASS: Only real enabled activity nodes receive a leisure badge: H17\nPASS: Only real enabled activity nodes receive a leisure badge: H18\nPASS: Only real enabled activity nodes receive a leisure badge: H19\nPASS: Only real enabled activity nodes receive a leisure badge: H20\nPASS: Only real enabled activity nodes receive a leisure badge: H21\nPASS: Closing an event or battle returns map input to the player\nSystem.Exception: FAIL: Travel target H9 is discovered\n  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:68 \n  at LightBetweenCultures.GameplaySmokeRunner+<Travel>d__322.MoveNext () [0x000ad] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:234 \n  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:76 \nFAILED\n"
+  },
+  {
+    "name": "credits",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 11.38,
+    "assertions": 26,
+    "arguments": [
+      "--credits-preview"
+    ],
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\credits\\credits-results.txt",
+    "failureTail": null
+  }
+]

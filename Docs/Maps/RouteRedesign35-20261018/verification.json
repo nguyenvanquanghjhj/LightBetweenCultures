@@ -1,0 +1,1112 @@
+{
+  "status": "TECHNICAL_PASS_TERRAIN_PARTIAL_NEEDS_USER_DECISIONS",
+  "verifiedUTC": "2026-10-18T04:35:56.874464+00:00",
+  "nodeCount": 133,
+  "edgeCount": 155,
+  "topologyChanged": false,
+  "geometryChangedEdges": 30,
+  "arrivalChanges": [
+    {
+      "cityId": "da_lat",
+      "nodeId": "D7",
+      "old": {
+        "x": 0.363950276,
+        "y": 0.685082873
+      },
+      "new": {
+        "x": 0.386049724,
+        "y": 0.652854512
+      }
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D8",
+      "old": {
+        "x": 0.238259669,
+        "y": 0.630755064
+      },
+      "new": {
+        "x": 0.270027624,
+        "y": 0.622467772
+      }
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G12",
+      "old": {
+        "x": 0.604281768,
+        "y": 0.398710866
+      },
+      "new": {
+        "x": 0.61878453,
+        "y": 0.364640884
+      }
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U12",
+      "old": {
+        "x": 0.287292818,
+        "y": 0.709023941
+      },
+      "new": {
+        "x": 0.290055249,
+        "y": 0.67771639
+      }
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J3",
+      "old": {
+        "x": 0.303867403,
+        "y": 0.635359116
+      },
+      "new": {
+        "x": 0.324585635,
+        "y": 0.593001842
+      }
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J7",
+      "old": {
+        "x": 0.333563536,
+        "y": 0.770718232
+      },
+      "new": {
+        "x": 0.335635359,
+        "y": 0.745856354
+      }
+    }
+  ],
+  "protectedChuaCauEdges": [
+    "H18__H5",
+    "H5__H6",
+    "H6__H15"
+  ],
+  "checkInsPreserved": 18,
+  "userConfirmedAdditions": [
+    "gyeongju_g4_checkin",
+    "gyeongju_g14_checkin",
+    "gyeongju_g17_checkin",
+    "seoul_s2_checkin",
+    "seoul_s10_checkin",
+    "seoul_s18_checkin"
+  ],
+  "checkInImportFolderUntouched": true,
+  "finalBuildContainsAll18CheckInIds": true,
+  "protectedGuards": [
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+      "sha256": "903d260a5949fd9c0673387d07c41b54a77597a9cff43e438305fa11165294af",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs",
+      "sha256": "ee9f0de95eeb8a6b804759c3fea3210f250280d19c3679134fa1eff0315a8fda",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "Assets/_Game/Resources/HoiAnData.json",
+      "sha256": "e2961e1b1807325a071e4a52c26ca5708fc9b56fd2b39790f81c21b0fab49011",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "35085c672985cf3f4723e67f729741d82e2cd361b283266016e4eb9d6544ed70",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicCollection.cs",
+      "sha256": "d829ce6b9092d0ffa225911782567448c80a3f4c912d95022ce5b7a982460b21",
+      "status": "BYTE_IDENTICAL_TO_PREVIOUS_CHECKPOINT"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "sha256": "2069a7790de8fe376aacda27f19621539aed33d460877d09a7c1a666bece8981",
+      "status": "BYTE_IDENTICAL_TO_PREVIOUS_CHECKPOINT"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "sha256": "0035517eb5a89a139e2355e846518fa966f7d5a23116e184a7885cecee82f980",
+      "status": "BYTE_IDENTICAL_TO_PREVIOUS_CHECKPOINT"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+      "sha256": "9b15e08b099a72fe586645481389a5d4b0d946bc79b5115a918aa0dd0be39069",
+      "status": "BYTE_IDENTICAL_TO_PREVIOUS_CHECKPOINT"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CulturalRelics.json",
+      "sha256": "da90df17fb0c9611480e98d6247d664f857d2b4e0ae9e82e2827e9af74b26958",
+      "status": "BYTE_IDENTICAL_TO_PREVIOUS_CHECKPOINT"
+    },
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+      "sha256": "8b8b67a0b80f555a92bb4b7b1a033d41ed58f61d7dfddbc38fd104fc9c1254a2",
+      "status": "BYTE_IDENTICAL_TO_PREVIOUS_CHECKPOINT"
+    },
+    {
+      "path": "Docs/Art/NPC_CANONICAL_REGISTRY.md",
+      "sha256": "9e4ff502959f962dad1905bb205501465d173abb8ab8560720779bb4ce9bee19",
+      "status": "BYTE_IDENTICAL_TO_PREVIOUS_CHECKPOINT"
+    },
+    {
+      "path": "Validation\\FullStory-20261017\\Fresh04\\full-story-final.json",
+      "sha256": "83a82674c50d8e2b3ab48981913af24dc9cd33d788b8ab5c0e2cc3d4f146555f",
+      "status": "HISTORICAL_SAVE_UNCHANGED"
+    }
+  ],
+  "cityStatistics": [
+    {
+      "cityId": "da_lat",
+      "nodes": 22,
+      "edges": 26,
+      "maxNeighbors": 4,
+      "over3": [
+        {
+          "nodeId": "D5",
+          "count": 4,
+          "neighbors": [
+            "D0",
+            "D11",
+            "D18",
+            "D6"
+          ]
+        },
+        {
+          "nodeId": "D20",
+          "count": 4,
+          "neighbors": [
+            "D0",
+            "D1",
+            "D13",
+            "D15"
+          ]
+        }
+      ],
+      "geometryChanges": 9,
+      "crossingCandidatePairs": 4,
+      "nearPairCandidates": 21
+    },
+    {
+      "cityId": "gyeongju",
+      "nodes": 22,
+      "edges": 25,
+      "maxNeighbors": 3,
+      "over3": [],
+      "geometryChanges": 4,
+      "crossingCandidatePairs": 1,
+      "nearPairCandidates": 8
+    },
+    {
+      "cityId": "hoi_an",
+      "nodes": 22,
+      "edges": 22,
+      "maxNeighbors": 3,
+      "over3": [],
+      "geometryChanges": 2,
+      "crossingCandidatePairs": 2,
+      "nearPairCandidates": 29
+    },
+    {
+      "cityId": "hue",
+      "nodes": 22,
+      "edges": 28,
+      "maxNeighbors": 4,
+      "over3": [
+        {
+          "nodeId": "U1",
+          "count": 4,
+          "neighbors": [
+            "U0",
+            "U15",
+            "U16",
+            "U2"
+          ]
+        },
+        {
+          "nodeId": "U4",
+          "count": 4,
+          "neighbors": [
+            "U12",
+            "U14",
+            "U3",
+            "U5"
+          ]
+        },
+        {
+          "nodeId": "U6",
+          "count": 4,
+          "neighbors": [
+            "U11",
+            "U18",
+            "U5",
+            "U7"
+          ]
+        },
+        {
+          "nodeId": "U7",
+          "count": 4,
+          "neighbors": [
+            "U11",
+            "U20",
+            "U6",
+            "U8"
+          ]
+        },
+        {
+          "nodeId": "U8",
+          "count": 4,
+          "neighbors": [
+            "U17",
+            "U18",
+            "U7",
+            "U9"
+          ]
+        },
+        {
+          "nodeId": "U11",
+          "count": 4,
+          "neighbors": [
+            "U10",
+            "U12",
+            "U6",
+            "U7"
+          ]
+        },
+        {
+          "nodeId": "U14",
+          "count": 4,
+          "neighbors": [
+            "U13",
+            "U2",
+            "U3",
+            "U4"
+          ]
+        }
+      ],
+      "geometryChanges": 6,
+      "crossingCandidatePairs": 2,
+      "nearPairCandidates": 15
+    },
+    {
+      "cityId": "jeonju",
+      "nodes": 22,
+      "edges": 30,
+      "maxNeighbors": 4,
+      "over3": [
+        {
+          "nodeId": "J0",
+          "count": 4,
+          "neighbors": [
+            "J10",
+            "J15",
+            "J16",
+            "J18"
+          ]
+        },
+        {
+          "nodeId": "J1",
+          "count": 4,
+          "neighbors": [
+            "J16",
+            "J17",
+            "J2",
+            "J3"
+          ]
+        },
+        {
+          "nodeId": "J3",
+          "count": 4,
+          "neighbors": [
+            "J1",
+            "J16",
+            "J4",
+            "J8"
+          ]
+        },
+        {
+          "nodeId": "J12",
+          "count": 4,
+          "neighbors": [
+            "J13",
+            "J14",
+            "J17",
+            "J2"
+          ]
+        },
+        {
+          "nodeId": "J13",
+          "count": 4,
+          "neighbors": [
+            "J11",
+            "J12",
+            "J19",
+            "J4"
+          ]
+        }
+      ],
+      "geometryChanges": 6,
+      "crossingCandidatePairs": 1,
+      "nearPairCandidates": 7
+    },
+    {
+      "cityId": "seoul",
+      "nodes": 23,
+      "edges": 24,
+      "maxNeighbors": 3,
+      "over3": [],
+      "geometryChanges": 3,
+      "crossingCandidatePairs": 0,
+      "nearPairCandidates": 7
+    }
+  ],
+  "runs": [
+    {
+      "run": "Before01",
+      "passAssertions": 55,
+      "result": "PASS",
+      "resultPath": "Validation\\RouteRedesign35-20261018\\Before01\\smoke-results.txt"
+    },
+    {
+      "run": "After01",
+      "passAssertions": 503,
+      "result": "PASS",
+      "resultPath": "Validation\\RouteRedesign35-20261018\\After01\\smoke-results.txt"
+    },
+    {
+      "run": "Fresh01",
+      "passAssertions": 200,
+      "result": "PASS",
+      "resultPath": "Validation\\RouteRedesign35-20261018\\Fresh01\\smoke-results.txt"
+    },
+    {
+      "run": "Restart01",
+      "passAssertions": 13,
+      "result": "PASS",
+      "resultPath": "Validation\\RouteRedesign35-20261018\\Restart01\\restart-results.txt"
+    },
+    {
+      "run": "WorldRestart01",
+      "passAssertions": 75,
+      "result": "PASS",
+      "resultPath": "Validation\\RouteRedesign35-20261018\\WorldRestart01\\smoke-results.txt"
+    },
+    {
+      "run": "After02",
+      "passAssertions": 151,
+      "result": "PASS",
+      "resultPath": "Validation\\RouteRedesign35-20261018\\After02\\smoke-results.txt"
+    }
+  ],
+  "buildLogs": [
+    {
+      "path": "Logs\\route35-baseline-build.log",
+      "sha256": "ab6c969da7e806c4379f583e02d2d9115d547c1bd5bc4e66d003a2cd5df1de03",
+      "result": "SUCCEEDED"
+    },
+    {
+      "path": "Logs\\route35-final-build01.log",
+      "sha256": "51eb616069fed5bec6a41a47591b26e49e7fa5466e362c1251608e70179b1274",
+      "result": "SUCCEEDED"
+    },
+    {
+      "path": "Logs\\route35-final-build02.log",
+      "sha256": "00ee5b4c0ac9734e27c11c3eff0fc242acf3f5c5cf47a62f0fd9ebaa7c514f32",
+      "result": "SUCCEEDED"
+    }
+  ],
+  "verifiedRuntimeCaptures": 71,
+  "movementExecutions": 74,
+  "uniqueDirectedTraversals": 68,
+  "movementCoverage": [
+    {
+      "cityId": "da_lat",
+      "fromNode": 3,
+      "toNode": 2,
+      "run": "After01",
+      "samples": 31,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 2,
+      "toNode": 3,
+      "run": "After01",
+      "samples": 31,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 1,
+      "toNode": 20,
+      "run": "After01",
+      "samples": 101,
+      "maxDistanceUI": 8.63167442730628e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 20,
+      "toNode": 1,
+      "run": "After01",
+      "samples": 101,
+      "maxDistanceUI": 8.63167442730628e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 6,
+      "toNode": 7,
+      "run": "After02",
+      "samples": 65,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 7,
+      "toNode": 6,
+      "run": "After02",
+      "samples": 68,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 7,
+      "toNode": 8,
+      "run": "After01",
+      "samples": 36,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 8,
+      "toNode": 7,
+      "run": "After01",
+      "samples": 36,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 8,
+      "toNode": 9,
+      "run": "After01",
+      "samples": 56,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 9,
+      "toNode": 8,
+      "run": "After01",
+      "samples": 56,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 8,
+      "toNode": 19,
+      "run": "After01",
+      "samples": 76,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 19,
+      "toNode": 8,
+      "run": "After01",
+      "samples": 76,
+      "maxDistanceUI": 7.62939453125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 10,
+      "toNode": 15,
+      "run": "After01",
+      "samples": 68,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 15,
+      "toNode": 10,
+      "run": "After01",
+      "samples": 68,
+      "maxDistanceUI": 1.52587890625e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 20,
+      "toNode": 13,
+      "run": "After02",
+      "samples": 58,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 13,
+      "toNode": 20,
+      "run": "After02",
+      "samples": 57,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromNode": 0,
+      "toNode": 1,
+      "run": "After01",
+      "samples": 38,
+      "maxDistanceUI": 3.4119690099032596e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromNode": 1,
+      "toNode": 0,
+      "run": "After01",
+      "samples": 38,
+      "maxDistanceUI": 3.4119690099032596e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromNode": 10,
+      "toNode": 18,
+      "run": "After01",
+      "samples": 31,
+      "maxDistanceUI": 6.103515625e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromNode": 18,
+      "toNode": 10,
+      "run": "After01",
+      "samples": 31,
+      "maxDistanceUI": 6.103515625e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromNode": 12,
+      "toNode": 13,
+      "run": "After01",
+      "samples": 45,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromNode": 13,
+      "toNode": 12,
+      "run": "After01",
+      "samples": 45,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromNode": 16,
+      "toNode": 12,
+      "run": "After01",
+      "samples": 109,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromNode": 12,
+      "toNode": 16,
+      "run": "After01",
+      "samples": 109,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromNode": 0,
+      "toNode": 1,
+      "run": "After01",
+      "samples": 164,
+      "maxDistanceUI": 4.31583721365314e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromNode": 1,
+      "toNode": 0,
+      "run": "After01",
+      "samples": 165,
+      "maxDistanceUI": 4.31583721365314e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromNode": 1,
+      "toNode": 4,
+      "run": "After01",
+      "samples": 162,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromNode": 4,
+      "toNode": 1,
+      "run": "After01",
+      "samples": 162,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromNode": 18,
+      "toNode": 5,
+      "run": "After01",
+      "samples": 564,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromNode": 5,
+      "toNode": 18,
+      "run": "After01",
+      "samples": 572,
+      "maxDistanceUI": 8.63167442730628e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromNode": 5,
+      "toNode": 6,
+      "run": "After01",
+      "samples": 66,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromNode": 6,
+      "toNode": 5,
+      "run": "After01",
+      "samples": 66,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromNode": 6,
+      "toNode": 15,
+      "run": "After01",
+      "samples": 111,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromNode": 15,
+      "toNode": 6,
+      "run": "After01",
+      "samples": 111,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 3,
+      "toNode": 4,
+      "run": "After01",
+      "samples": 70,
+      "maxDistanceUI": 6.103515625e-05,
+      "travel": "ferry",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 4,
+      "toNode": 3,
+      "run": "After01",
+      "samples": 70,
+      "maxDistanceUI": 4.31583721365314e-05,
+      "travel": "ferry",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 5,
+      "toNode": 6,
+      "run": "After01",
+      "samples": 31,
+      "maxDistanceUI": 6.103515625e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 6,
+      "toNode": 5,
+      "run": "After01",
+      "samples": 31,
+      "maxDistanceUI": 6.103515625e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 6,
+      "toNode": 7,
+      "run": "After01",
+      "samples": 47,
+      "maxDistanceUI": 8.63167442730628e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 7,
+      "toNode": 6,
+      "run": "After01",
+      "samples": 47,
+      "maxDistanceUI": 8.63167442730628e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 6,
+      "toNode": 18,
+      "run": "After02",
+      "samples": 30,
+      "maxDistanceUI": 6.103515625e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 18,
+      "toNode": 6,
+      "run": "After02",
+      "samples": 31,
+      "maxDistanceUI": 8.63167442730628e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 9,
+      "toNode": 12,
+      "run": "After01",
+      "samples": 63,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 12,
+      "toNode": 9,
+      "run": "After01",
+      "samples": 63,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 12,
+      "toNode": 11,
+      "run": "After01",
+      "samples": 68,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 11,
+      "toNode": 12,
+      "run": "After01",
+      "samples": 68,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 4,
+      "toNode": 12,
+      "run": "After01",
+      "samples": 93,
+      "maxDistanceUI": 6.103515625e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "hue",
+      "fromNode": 12,
+      "toNode": 4,
+      "run": "After01",
+      "samples": 93,
+      "maxDistanceUI": 6.103515625e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 1,
+      "toNode": 3,
+      "run": "After01",
+      "samples": 41,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 3,
+      "toNode": 1,
+      "run": "After01",
+      "samples": 41,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 3,
+      "toNode": 8,
+      "run": "After01",
+      "samples": 31,
+      "maxDistanceUI": 4.31583721365314e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 8,
+      "toNode": 3,
+      "run": "After01",
+      "samples": 31,
+      "maxDistanceUI": 4.31583721365314e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 3,
+      "toNode": 4,
+      "run": "After01",
+      "samples": 50,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 4,
+      "toNode": 3,
+      "run": "After01",
+      "samples": 50,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 4,
+      "toNode": 7,
+      "run": "After01",
+      "samples": 31,
+      "maxDistanceUI": 6.103515625e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 7,
+      "toNode": 4,
+      "run": "After01",
+      "samples": 31,
+      "maxDistanceUI": 6.103515625e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 7,
+      "toNode": 21,
+      "run": "After01",
+      "samples": 56,
+      "maxDistanceUI": 6.291359750321135e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 21,
+      "toNode": 7,
+      "run": "After01",
+      "samples": 56,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 16,
+      "toNode": 3,
+      "run": "After01",
+      "samples": 53,
+      "maxDistanceUI": 4.31583721365314e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromNode": 3,
+      "toNode": 16,
+      "run": "After01",
+      "samples": 53,
+      "maxDistanceUI": 4.31583721365314e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "seoul",
+      "fromNode": 2,
+      "toNode": 3,
+      "run": "After01",
+      "samples": 32,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "seoul",
+      "fromNode": 3,
+      "toNode": 2,
+      "run": "After01",
+      "samples": 28,
+      "maxDistanceUI": 6.103515625e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "seoul",
+      "fromNode": 3,
+      "toNode": 17,
+      "run": "After01",
+      "samples": 74,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "seoul",
+      "fromNode": 17,
+      "toNode": 3,
+      "run": "After01",
+      "samples": 63,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "seoul",
+      "fromNode": 1,
+      "toNode": 6,
+      "run": "After01",
+      "samples": 41,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "seoul",
+      "fromNode": 6,
+      "toNode": 1,
+      "run": "After01",
+      "samples": 44,
+      "maxDistanceUI": 3.0517578125e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 20,
+      "toNode": 15,
+      "run": "After02",
+      "samples": 149,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromNode": 15,
+      "toNode": 20,
+      "run": "After02",
+      "samples": 150,
+      "maxDistanceUI": 6.823938019806519e-05,
+      "travel": "walk",
+      "arrived": true
+    }
+  ],
+  "limitations": [
+    "No blanket terrain PASS",
+    "14 nodes still exceed 3 neighbors",
+    "Edge-only diagnostics are not end-to-end progression proof",
+    "Android hardware/FPS/VRAM not tested",
+    "No full 133-node regression; original fresh HoiAn relic/story flow tested separately"
+  ]
+}

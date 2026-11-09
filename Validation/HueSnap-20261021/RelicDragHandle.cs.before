@@ -1,0 +1,34 @@
+using System;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+namespace LightBetweenCultures
+{
+    // A control on the existing HUD; works through the existing mouse/touch UI module.
+    public sealed class RelicDragHandle : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDragHandler
+    {
+        public RectTransform target;
+        public Func<Vector2,bool> submit;
+        public Action<bool> feedback;
+        Vector3 home;int pointer;uint epoch;bool dragging;
+        bool Owns(PointerEventData e)=>dragging&&pointer==e.pointerId&&epoch==TouchInputPolicy.GestureEpoch&&!TouchInputPolicy.Canceled(e);
+        public void OnBeginDrag(PointerEventData e){TouchInputPolicy.Sample();if(dragging||e.button!=PointerEventData.InputButton.Left||TouchInputPolicy.ActiveTouches>1)return;home=transform.position;pointer=e.pointerId;epoch=TouchInputPolicy.GestureEpoch;dragging=true;}
+        public void OnDrag(PointerEventData e)
+        {TouchInputPolicy.Sample();if(Owns(e)&&RectTransformUtility.ScreenPointToWorldPointInRectangle((RectTransform)transform.parent,e.position,e.pressEventCamera,out var p))transform.position=p;}
+        public void OnEndDrag(PointerEventData e)
+        {
+            TouchInputPolicy.Sample();if(!dragging||pointer!=e.pointerId)return;
+            if(!Owns(e)||target==null){dragging=false;transform.position=home;return;}
+            OnDrag(e);dragging=false;
+            var parent=(RectTransform)transform.parent;
+            var error=(Vector2)parent.InverseTransformPoint(transform.position)-(Vector2)parent.InverseTransformPoint(target.position);
+            error=new Vector2(error.x/parent.rect.width,error.y/parent.rect.height);
+            var accepted=submit!=null&&submit(error);
+            SoftAudio.Cue(accepted?SoftCue.Relic_Place:SoftCue.UI_Invalid);
+            transform.position=accepted?target.position:home;
+            GetComponent<Image>().color=accepted?new Color(1,.93f,.65f):Color.white;
+            feedback?.Invoke(accepted);
+        }
+        void OnDisable(){if(dragging)transform.position=home;dragging=false;}
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "version": 2,
+    "cityId": "hue",
+    "node": 7,
+    "previousNode": 8,
+    "visited": [
+        0,
+        3,
+        16,
+        15,
+        7,
+        17,
+        8
+    ],
+    "accepted": [
+        "mai-lantern",
+        "HQ01",
+        "HQ04",
+        "UQ03",
+        "UQ01"
+    ],
+    "completed": [
+        "mai-lantern",
+        "HQ01",
+        "HQ04",
+        "UQ03"
+    ],
+    "items": [
+        "healing_tea",
+        "copper_wire",
+        "river_pass",
+        "healing_tea",
+        "lost_letter"
+    ],
+    "collected": [
+        "lantern-part"
+    ],
+    "flags": [
+        "relic.proof.fragment_hoi_an_bamboo_frame",
+        "relic.fragment.fragment_hoi_an_bamboo_frame",
+        "quest:HQ01",
+        "hoi_an.lamp_eye_found",
+        "lantern-lit",
+        "relic.proof.fragment_hoi_an_eye_reflection",
+        "relic.fragment.fragment_hoi_an_eye_reflection",
+        "hoi_an.market_puzzle_solved",
+        "relic.proof.fragment_hoi_an_old_flower_paper",
+        "relic.fragment.fragment_hoi_an_old_flower_paper",
+        "relic.proof.fragment_hoi_an_roof_hook",
+        "relic.fragment.fragment_hoi_an_roof_hook",
+        "relic.assembled.relic_hoi_an_lantern",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.mo01_hack_code",
+        "hoi_an.mo01_disabled",
+        "hoi_an.lamp_restored",
+        "city.hue.unlocked",
+        "city.jeonju.unlocked",
+        "hoi_an.crab_resolved",
+        "quest:HQ04",
+        "hoi_an.ferry_available",
+        "relic.trial.relic_hoi_an_lantern",
+        "relic.restored.relic_hoi_an_lantern",
+        "quest:UQ03",
+        "hue.market_code_known",
+        "hue.courier_code_known",
+        "relic.proof.fragment_hue_ritual_cord",
+        "relic.fragment.fragment_hue_ritual_cord",
+        "hue.enemy_courier_defeated",
+        "hue.courier_resolved",
+        "hue.crossing_permit",
+        "relic.proof.fragment_hue_river_jade",
+        "relic.fragment.fragment_hue_river_jade",
+        "quest:UQ01",
+        "hue.archive_decoded",
+        "hue.secret_wall_found",
+        "hue.scholar_code_known",
+        "relic.proof.fragment_hue_rhythm_inscription",
+        "relic.fragment.fragment_hue_rhythm_inscription",
+        "hue.court_solved",
+        "relic.proof.fragment_hue_dragon_face",
+        "relic.fragment.fragment_hue_dragon_face",
+        "relic.assembled.relic_hue_dragon_seal",
+        "relic.trial.relic_hue_dragon_seal",
+        "relic.restored.relic_hue_dragon_seal"
+    ],
+    "resolvedEvents": [
+        "hoi_an:enemy_mo01",
+        "hoi_an:enemy_crab",
+        "hoi_an:npc_boatman",
+        "hue:enemy_courier",
+        "hue:npc_ferryman"
+    ],
+    "defeatedEnemies": [
+        "enemy_courier"
+    ],
+    "solvedPuzzles": [
+        "puzzle_market",
+        "puzzle_paper",
+        "puzzle_pottery",
+        "puzzle_market_code",
+        "puzzle_archive",
+        "puzzle_court"
+    ],
+    "choices": [
+        "hoi_an:enemy_mo01:hack",
+        "hoi_an:enemy_crab:bait",
+        "hue:enemy_courier:battle"
+    ],
+    "rewardGrantIds": [
+        "relic:v1:claim:fragment_hoi_an_bamboo_frame",
+        "quest-accept:HQ01:healing_tea",
+        "h3-lamp-eye",
+        "relic:v1:claim:fragment_hoi_an_eye_reflection",
+        "relic:v1:claim:fragment_hoi_an_old_flower_paper",
+        "relic:v1:claim:fragment_hoi_an_roof_hook",
+        "puzzle:puzzle_paper:hanji_core",
+        "encounter:hoi_an:enemy_mo01:link_key",
+        "shop:v1:purchase:d73d514f86de4d31839878ba31ccfd5e",
+        "encounter:hoi_an:enemy_crab:copper_wire",
+        "puzzle:puzzle_market_code:river_pass",
+        "relic:v1:claim:fragment_hue_ritual_cord",
+        "shop:v1:purchase:74eacb05fb944cae82b7aefc1a176fa4",
+        "encounter:hue:enemy_courier:lost_letter",
+        "relic:v1:claim:fragment_hue_river_jade",
+        "relic:v1:claim:fragment_hue_rhythm_inscription",
+        "relic:v1:claim:fragment_hue_dragon_face"
+    ],
+    "leisureCompleted": [],
+    "catRescues": [],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 2,
+            "stage": 4,
+            "visited": [
+                0,
+                2,
+                3,
+                4,
+                10,
+                13,
+                19,
+                5,
+                7,
+                12,
+                17
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 7,
+            "stage": 2,
+            "visited": [
+                0,
+                3,
+                16,
+                15,
+                7,
+                17,
+                8
+            ]
+        },
+        {
+            "cityId": "jeonju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 88,
+    "lightEnergy": 1,
+    "coins": 142
+}

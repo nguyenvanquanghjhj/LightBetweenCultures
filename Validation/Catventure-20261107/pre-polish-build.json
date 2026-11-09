@@ -1,0 +1,5 @@
+{
+  "assembly": "Builds\\Windows-Catventure-20261107\\Catventure_Data\\Managed\\Assembly-CSharp.dll",
+  "sha256": "3a8f3604e8f6fd7f6a5efdcaec4d7104c56978421eae0160ff3e9603589b7adf",
+  "note": "Runtime pilot/six-city/desktop folders validated this pre-presentation-polish assembly. Final checks use final-* folders."
+}

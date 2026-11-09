@@ -1,0 +1,12 @@
+{
+    "output": "Builds/Android/LightBetweenCultures-OwnerRoutesB-20261019.apk",
+    "identifier": "com.DefaultCompany.LightBetweenCultures",
+    "result": "Succeeded",
+    "error": "",
+    "startedUTC": "2026-10-19T16:42:40.8521896Z",
+    "finishedUTC": "2026-10-19T16:49:44.2675110Z",
+    "bytes": 1527779403,
+    "customKeystore": false,
+    "errors": 0,
+    "warnings": 1005
+}

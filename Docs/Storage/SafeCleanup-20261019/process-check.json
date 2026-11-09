@@ -1,0 +1,42 @@
+﻿[
+    {
+        "ProcessId":  33080,
+        "Name":  "Unity Hub.exe",
+        "ExecutablePath":  "C:\\Program Files\\Unity Hub\\Unity Hub.exe"
+    },
+    {
+        "ProcessId":  12396,
+        "Name":  "Unity Hub.exe",
+        "ExecutablePath":  "C:\\Program Files\\Unity Hub\\Unity Hub.exe"
+    },
+    {
+        "ProcessId":  26860,
+        "Name":  "Unity Hub.exe",
+        "ExecutablePath":  "C:\\Program Files\\Unity Hub\\Unity Hub.exe"
+    },
+    {
+        "ProcessId":  29096,
+        "Name":  "Unity Hub.exe",
+        "ExecutablePath":  "C:\\Program Files\\Unity Hub\\Unity Hub.exe"
+    },
+    {
+        "ProcessId":  33240,
+        "Name":  "Unity Hub.exe",
+        "ExecutablePath":  "C:\\Program Files\\Unity Hub\\Unity Hub.exe"
+    },
+    {
+        "ProcessId":  8584,
+        "Name":  "Unity.Licensing.Client.exe",
+        "ExecutablePath":  "C:\\Program Files\\Unity Hub\\UnityLicensingClient_V1\\Unity.Licensing.Client.exe"
+    },
+    {
+        "ProcessId":  26752,
+        "Name":  "unity.exe",
+        "ExecutablePath":  "C:\\Program Files\\Unity Hub\\resources\\unity.exe"
+    },
+    {
+        "ProcessId":  31840,
+        "Name":  "Unity Hub.exe",
+        "ExecutablePath":  null
+    }
+]

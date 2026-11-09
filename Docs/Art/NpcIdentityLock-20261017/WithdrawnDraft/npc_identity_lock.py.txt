@@ -1,0 +1,65 @@
+"""Canonical identity approval, bounded audit and evidence; no image editing/migration."""
+from pathlib import Path
+import json,hashlib,csv,html,re,zipfile,datetime,shutil
+R=Path(__file__).resolve().parents[1];D=R/'Docs/Art/NpcIdentityLock-20261017'
+def load(rel):return json.loads((R/rel).read_text(encoding='utf-8-sig'))
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def write(p,x):p.write_text(json.dumps(x,indent=2,ensure_ascii=False),encoding='utf8')
+TRAITS={
+'npc_elder':'Người phụ nữ lớn tuổi, tóc bạc búi, mắt nâu lớn, nét mặt dịu; hanbok tím và đèn giấy là tạo hình chính.',
+'npc_gardener':'Người đàn ông trung niên, tóc muối tiêu bồng, lông mày đậm, ria mép đen bạc, mũi tròn; tạp dề xanh.',
+'npc_hana':'Cô gái trẻ, tóc đen tết, băng tóc hồng, mắt cười cong và khuôn mặt tròn; hanbok hồng, tấm vải hoa.',
+'npc_hungry_dog':'Chó lông vàng, tai cụp, mắt nâu tròn lớn, mõm/ngực trắng kem. Không dùng như enemy hoặc NPC người.',
+'npc_lan':'Phụ nữ trẻ trưởng thành, tóc bob nâu đậm, mắt nâu và mặt hơi góc cạnh; áo đi rừng xanh, khăn trắng, ba lô.',
+'npc_min':'Cậu bé hướng dẫn khảo cổ, tóc nâu đen ngắn, mắt nâu lớn, mũ vành bản đồ và ba lô; giữ đúng tuổi thiếu niên.',
+'npc_nguyet':'Phụ nữ lớn tuổi, tóc bạc búi cao, má tròn và mắt nâu; áo tím, giỏ thảo dược. Khác Bà Tư và người giữ chuyện.',
+'npc_park':'Người đàn ông trung niên, búi tóc đen, ria đen và râu cằm nhọn; khăn đầu sáng, áo gile và bưu kiện.',
+'npc_scholar':'Nho sinh trẻ, mặt nhẵn tròn, mắt nâu lớn, tóc đen; khăn xếp xanh đậm, bút và sách.',
+'npc_tam':'Người đàn ông trung niên, tóc đen pha bạc, râu cằm ngắn, nếp má nhẹ; áo xanh đậm, nón sau lưng và mái chèo.',
+'npc_thuy':'Phụ nữ trẻ, mặt thuôn, mắt nâu, tóc nâu dài tết lệch và cài hoa trắng; váy/tạp dề và giỏ hoa.',
+'npc_yoon':'Người đàn ông lớn tuổi, tóc bạc gợn sóng, râu trắng ngắn đầy, trán rộng; áo xanh lá và sách hanji.'}
+def approve():
+    data=load('Docs/Art/NPC_CANONICAL_REGISTRY.json');content=load('Assets/_Game/Resources/Content/GameplayContent.json')
+    native=load('Docs/Art/native-art-bindings.json');bindings={e['id']:e for e in native['entries'] if e['role']=='npc'}
+    assert len(bindings)==20 and len(data['identities'])==27
+    data['policy']['legacyRuntimeStatus']='Current runtime NPC status is CANONICAL_USER_CONFIRMED_20261017. Historical annotations are preserved in each registered variant; identity approval is authoritative here.'
+    data['policy']['approvalSource']='Docs/Requests/20261017/npc-canonical-identity-lock.txt'
+    data['policy']['buildGuard']='PortraitRepairSetup.CanonicalIdentityBuildGuard reads this exact registry; rejects unapproved references or changed source PNG bytes. Never infers identity from file name/city.'
+    for n in data['identities']:
+        id=n['npcId'];events=[e for e in content['events'] if e.get('npcId')==id]
+        n['runtimeEvents']=[{k:e.get(k) for k in ['id','cityId','nodeId','type','actor','questId']} for e in events]
+        n['storyRoles']=sorted(set(e['type'] for e in events))
+        n['runtimeCodeReferences']=['Assets/_Game/Scripts/UI/GameplayPanels.cs','Assets/_Game/Scripts/UI/AdventureUIArt.cs','Assets/_Game/Resources/AdventureUIArt.asset']
+        if id in bindings:
+            n['status']='CANONICAL';n['canonicalIdentity']['approval']='User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17.'
+            if id in TRAITS:n['canonicalIdentity']['coreTraits']=TRAITS[id]
+            primary=next(v for v in n['variants'] if v['runtimeBound']);n['primaryVariantId']=primary['variantId']
+            primary['status']='CANONICAL';primary['sourceSHA256']=sha(R/primary['path'])
+            primary['legacyRuntimeStatusAnnotation']=bindings[id].get('runtimeStatusAnnotation',bindings[id].get('status',''))
+            primary['visualReview']='Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.'
+        else:n['status']='MISSING'
+        for v in n['variants']:
+            v['sourceSHA256']=sha(R/v['path'])
+            v['allowedInRuntime']=v['runtimeBound'] or (v['status']=='APPROVED_VARIANT' and 'NEEDS' not in v['qualityStatus'])
+        if id in ['npc_huong','npc_soyeon']:
+            n['canonicalIdentity']['castingProvenance']='Original roster role differs; current face permanently assigned by the user. Original city label is not a reason to recast.'
+    write(R/'Docs/Art/NPC_CANONICAL_REGISTRY.json',data)
+    markdown(data)
+def markdown(data):
+    lines=['# NPC canonical identities and approved visual variants','',
+    'Authoritative identity approval: **20 CANONICAL, 7 MISSING**. Updated 2026-10-17 by the user’s permanent approval. One identity may have approved costume/expression/pose variants; face, age and distinctive traits stay fixed. This file is generated from the adjacent JSON, not a second runtime registry.','',
+    'Current approval source: [full request](../Requests/20261017/npc-canonical-identity-lock.txt). Hương/So-yeon retain their current faces regardless of original roster city. Ji-won never borrows So-yeon. Source PNG bytes and exact GUID/localID are locked at build time; new variants require explicit approval. Crop quality is tracked separately.','',
+    '| npcId | Character | Status | City / node | Primary sprite / GUID / localID |','|---|---|---|---|---|']
+    for n in data['identities']:
+        v=next((v for v in n['variants'] if v['runtimeBound']),None)
+        placement=', '.join(p['cityId']+':'+p['nodeId'] for p in n['placements'])
+        ref=(v['path']+'#'+v['spriteName']+' · '+v['guid']+'/'+v['localId']) if v else 'MISSING — do not substitute another registered NPC'
+        lines.append('| '+n['npcId']+' | '+n['canonicalIdentity']['name']+' | '+n['status']+' | '+placement+' | '+ref+' |')
+    for n in data['identities']:
+        lines+=['','## '+n['npcId']+' — '+n['canonicalIdentity']['name'],'',n['canonicalIdentity']['coreTraits'],'', 'Story roles: '+', '.join(n['storyRoles'])+'.', 'Events: '+', '.join(e['id'] for e in n['runtimeEvents'])+'.','Scenes: CityMap / dialogue; bindings: Resources/AdventureUIArt, GameplayPanels.']
+        for v in n['variants']:lines+=['','- `'+v['variantId']+'` — '+v['status']+'; '+v['path']+'#'+v['spriteName']+'; GUID/localID '+v['guid']+'/'+v['localId']+'; runtime allowed='+str(v['allowedInRuntime'])+'; quality='+v['qualityStatus']+'.']
+        for v in n['visualReferences']:lines+=['- Concept reference '+v['referenceId']+': '+v['status']+'; NOT a runtime sprite. '+v['reason']]
+    lines+=['','## Excluded conflicting concepts','', 'These are unbound source concepts, not identity conflicts in current runtime.']
+    for c in data['identityConflicts']:lines.append('- '+c['npcId']+': '+c['path']+'; '+c['reason'])
+    (R/'Docs/Art/NPC_CANONICAL_REGISTRY.md').write_text('\n'.join(lines)+'\n',encoding='utf8')
+if __name__=='__main__':approve()

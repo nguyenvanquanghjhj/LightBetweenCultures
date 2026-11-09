@@ -1,0 +1,9 @@
+{
+  "status": "WINDOWS_BUILD_PASS",
+  "log": "Logs/quality-addendum-postcard-build-02.log",
+  "logSHA256": "878afbdf8e6fd08059303877257288e16702d28973b896ac7318582ba5061110",
+  "assembly": "Builds/Windows/LightBetweenCultures_Data/Managed/Assembly-CSharp.dll",
+  "assemblySHA256": "07003ecabc852a46842638520f6589332b45014ee7c00ff07c8460e1bf2a98e6",
+  "changedScope": "Two postcard art references, Editor safety, opt-in QA; gameplay unchanged",
+  "freshStoryRerun": false
+}

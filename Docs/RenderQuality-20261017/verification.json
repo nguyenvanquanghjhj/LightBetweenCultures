@@ -1,0 +1,1406 @@
+{
+  "createdUTC": "2026-10-17T12:07:33.437539+00:00",
+  "changedOriginalFiles": [
+    "Assets/_Game/Art/_SourceSheets/ItemSheet_VNKR_FoodCulture_v1.png.meta",
+    "Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png.meta",
+    "Assets/_Game/Art/Characters/Lumi/Lumi_ExplorationIdle.png.meta",
+    "Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png.meta",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png.meta",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png.meta",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png.meta",
+    "Assets/_Game/Art/Items/Consumables/Item_Healing_Tea.png.meta",
+    "Assets/_Game/Art/Items/Food/Item_HoiAn_Chili.png.meta",
+    "Assets/_Game/Art/Items/Food/Item_HoiAn_Shallot.png.meta",
+    "Assets/_Game/Art/Items/Materials/Item_Copper_Wire.png.meta",
+    "Assets/_Game/Art/Items/Quest/Item_Hanji_Core.png.meta",
+    "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png.meta",
+    "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png.meta",
+    "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.H3.cs"
+  ],
+  "unchangedOriginalFiles": 506,
+  "textureChanges": 14,
+  "allOriginalPNGsUnchanged": true,
+  "allScenesPackagesProjectSettingsGameplayDataUnchanged": true,
+  "GUIDsAndSpriteSlicesUnchanged": true,
+  "runs": {
+    "Before": {
+      "pass": 56,
+      "passed": true,
+      "path": "Validation/RenderQuality-20261017/Before/smoke-results.txt"
+    },
+    "After": {
+      "pass": 56,
+      "passed": true,
+      "path": "Validation/RenderQuality-20261017/After/smoke-results.txt"
+    },
+    "Regression": {
+      "pass": 2685,
+      "passed": true,
+      "path": "Validation/RenderQuality-20261017/Regression/smoke-results.txt"
+    },
+    "Restart": {
+      "pass": 24,
+      "passed": true,
+      "path": "Validation/RenderQuality-20261017/Restart/smoke-results.txt"
+    }
+  },
+  "maiPortraitSampling": {
+    "Before": {
+      "name": "EventPortrait",
+      "sprite": "Mai_DialoguePortrait",
+      "texture": "NPC_HoiAn_CoMai_Portrait",
+      "format": "RGBA32",
+      "sourcePixels": {
+        "x": 1211.0,
+        "y": 1299.0
+      },
+      "screenPixels": {
+        "x": 140.95703125,
+        "y": 151.19998168945312
+      },
+      "opacity": 1.0
+    },
+    "After": {
+      "name": "EventPortrait",
+      "sprite": "Mai_DialoguePortrait",
+      "texture": "NPC_HoiAn_CoMai_Portrait",
+      "format": "RGBA32",
+      "sourcePixels": {
+        "x": 1211.0,
+        "y": 1299.0
+      },
+      "screenPixels": {
+        "x": 181.23046875,
+        "y": 194.39999389648438
+      },
+      "opacity": 1.0
+    }
+  },
+  "captures": [
+    {
+      "path": "Validation/RenderQuality-20261017/After/05-H3-exploration.png",
+      "bytes": 857940,
+      "sha256": "38cce7698c88793e92c42a064ce504ceed433dbf7a546229034964d2911023b2"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/After/06-H3-part-picked-up.png",
+      "bytes": 866876,
+      "sha256": "d2991c46527e2f12eb4d7f56571c60b8c143023c8aa43ca2ae417785c55de8ea"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/After/H3-desktop-1280x720.png",
+      "bytes": 1605936,
+      "sha256": "b488a2465c58cd990cb1a460dc19116b5ae2d84a8475d02371a1e0fa44a0a2a4"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/After/H3-near-eye-before-pickup.png",
+      "bytes": 872518,
+      "sha256": "bc3c355401b5866a9dafdbfcc036536a1fd3c864a162c00247a752085a6ec18a"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/After/H3-reentry-no-duplicate.png",
+      "bytes": 862964,
+      "sha256": "424d10573ba867e05d340a860d372b6a720031537547acecc9ced21152f11319"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/After/H3-return-map-progress.png",
+      "bytes": 1537300,
+      "sha256": "6fc614993d3fcc23f576a141dd7a9d80f48cb38200d6354239ffba49c5720b6a"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/After/Quality-CityMap-Mai.png",
+      "bytes": 1095987,
+      "sha256": "51134b56123faddb9f7c0896f2fb522812b658ac07e3121ade71d47dc5bc644b"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/After/Quality-Inventory.png",
+      "bytes": 691948,
+      "sha256": "efaa9418c52f05f1d2ec10e57d3056964bb087c6c8254dcb942267e071146514"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/After/Quality-Lumi-dialogue.png",
+      "bytes": 1016581,
+      "sha256": "5fe2ac7ccf423ed19837f07f634c747d10d28ca6aed7e7088d28126ca82eec23"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/After/Quality-Mai-dialogue.png",
+      "bytes": 958432,
+      "sha256": "f76d89f0e40cd80cbd21dfdfb551ed5d031c0839a0e102cf83a395b41fe8df7f"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/After/Quality-WorldMap.png",
+      "bytes": 804445,
+      "sha256": "b6b4054e6fcba60af679fd36c14a2c14d45426921212d207ac004ccef2602220"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Before/05-H3-exploration.png",
+      "bytes": 856864,
+      "sha256": "e3431a6981180f863f59092292eaca86c33f698e41e1ca9468bd37336cf4f282"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Before/06-H3-part-picked-up.png",
+      "bytes": 865828,
+      "sha256": "04f4b4f546891219dcc499790901ed20bbe4c76e51363b7060c3bc53f9d9e76e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Before/H3-desktop-1280x720.png",
+      "bytes": 1606169,
+      "sha256": "0aece981292e5e9ae2be553ac6813590c25c739be465eb76ac3f9d22e31a9ffb"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Before/H3-near-eye-before-pickup.png",
+      "bytes": 871630,
+      "sha256": "69eeecfd4a0fb486066b576eed73b621443e64961e8acaf812c41090885526f0"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Before/H3-reentry-no-duplicate.png",
+      "bytes": 860934,
+      "sha256": "03ceafa8fdf71c14296a89598b1e0d4d37cd7a37b74354359532ef8dc2ef8ee4"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Before/H3-return-map-progress.png",
+      "bytes": 1537004,
+      "sha256": "92bed415fb094cfbfff1cece972c8c85687b5b36e325b5187bd1aeb59e2dfe7b"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Before/Quality-CityMap-Mai.png",
+      "bytes": 1096193,
+      "sha256": "e7e067fb5ade582a148b049cef35791b13f96eb8a814cf419abe5cda2f57f60f"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Before/Quality-Inventory.png",
+      "bytes": 692183,
+      "sha256": "04ac04a7874a8cf33815b6e08e26dc8cbd301523ff837d0425f6164d1c586ae8"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Before/Quality-Lumi-dialogue.png",
+      "bytes": 1021345,
+      "sha256": "ac214169972a858df7c141c3259dd667dccbdb9cd1b22050139580a977f775ee"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Before/Quality-Mai-dialogue.png",
+      "bytes": 963293,
+      "sha256": "db6201e225fbf3b3f2475d6ab27ac6377f1dc88ac54dade195ae1392ce22734f"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Before/Quality-WorldMap.png",
+      "bytes": 804459,
+      "sha256": "ddc0b5fb4151c1e0120927b1eb5e3b96039e996929171eb235f9c2373a0b3901"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/BeforeH3/05-H3-exploration.png",
+      "bytes": 856864,
+      "sha256": "e3431a6981180f863f59092292eaca86c33f698e41e1ca9468bd37336cf4f282"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/BeforeH3/06-H3-part-picked-up.png",
+      "bytes": 865828,
+      "sha256": "04f4b4f546891219dcc499790901ed20bbe4c76e51363b7060c3bc53f9d9e76e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/BeforeH3/H3-desktop-1280x720.png",
+      "bytes": 1605723,
+      "sha256": "3317ba2ebd525865e5ca0a6141f68de277866846ff2319a395cf3c0642195cbd"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/BeforeH3/H3-near-eye-before-pickup.png",
+      "bytes": 871625,
+      "sha256": "2ef94f845959ebfe385ad92935f63a5bb6301d0f117812c83258a3ed6a58361e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/BeforeH3/H3-reentry-no-duplicate.png",
+      "bytes": 864458,
+      "sha256": "6a673f684d0d7105e6e41457451bed8a67b69b80ab76166a278c3dc16b13103d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/BeforeH3/H3-return-map-progress.png",
+      "bytes": 1535987,
+      "sha256": "bff9805c1e5a8b0e912c2fbbdf98b19cf6e4ae21f1f375c354cff86346e8c9de"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/01-HoiAn-stage0-hidden-regions.png",
+      "bytes": 1063282,
+      "sha256": "e40b8d2ce674eeefe7bdf5f18ea50157231e96a6027d7567b9d4ecf7c64c478d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/02-Mai-offer.png",
+      "bytes": 945847,
+      "sha256": "e7a62054a202eedffd3fdbcb2868188f435340c521881cf1cbb7aebc5c89743c"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/03-HoiAn-stage1-reveal.png",
+      "bytes": 1064151,
+      "sha256": "d45a02a61f00dd9596950e6cd37d6590344db86de77fb2c65cc6e1b783b7207e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/04-quest-journal.png",
+      "bytes": 369790,
+      "sha256": "a6a2b71db0c1eb2b7a7b8d4d66e820daa66056e41fedae8e917835141c6858e6"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/05-H3-exploration.png",
+      "bytes": 857940,
+      "sha256": "38cce7698c88793e92c42a064ce504ceed433dbf7a546229034964d2911023b2"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/06-H3-part-picked-up.png",
+      "bytes": 866876,
+      "sha256": "d2991c46527e2f12eb4d7f56571c60b8c143023c8aa43ca2ae417785c55de8ea"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/07-HoiAn-stage2-before-bot.png",
+      "bytes": 1065279,
+      "sha256": "255276d8211958ab59a86957159c9a652f2e1718f8960218134d02f3c0fc6dad"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/08-battle-before-loss.png",
+      "bytes": 252752,
+      "sha256": "88004ab0a01c1b59c8419b317a6ea96c45bae7d0500835d72f7caf5a4d6c2127"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/09-battle-loss-retry.png",
+      "bytes": 266773,
+      "sha256": "bbd8d805dd040d5f53ee26d485757ff89dbedf09824c2fe0900d6edc34cb03ae"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/10-battle-actions.png",
+      "bytes": 257655,
+      "sha256": "ccb2cdc405ef87dc1da834b831a7b40aecc860be8129bdd5b30170fcf4c5e403"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/11-battle-win.png",
+      "bytes": 254706,
+      "sha256": "8667147cb0fd50d3d1897f88e5b0da5a4370639d9ca505931236602a1403ae69"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/12-Phuc-clue.png",
+      "bytes": 909450,
+      "sha256": "01fa955b47cbfb287bf4954bdbf35333d2c0231c3c683911b5ae2dc76fe4d7ce"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/13-bot-disabled-by-puzzle.png",
+      "bytes": 900053,
+      "sha256": "950c23c47d2318ff701443f895f098e3b3382f49d2e7e0b564a281b3647b232a"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/14-crab-bait-resolution.png",
+      "bytes": 697792,
+      "sha256": "6c4f59c0b18a3abc55842a0078f95f05db6b68260fceab8007fc0f114c386ed6"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/15-BaTu-turn-in.png",
+      "bytes": 650210,
+      "sha256": "a2a9032a00b596688130009f0d35ad52a403d421161d12bbd803ea00912404bc"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/16-station-ready.png",
+      "bytes": 786534,
+      "sha256": "f4212d4c5e0ab391f72a15ba5a79212928564d9fab949d4670edc3fa2bc388b7"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/17-station-light-restored.png",
+      "bytes": 649536,
+      "sha256": "5f2109b1406dccfe65f84107a385ffeb9e173b0d92313c1f1c605eb759cc95fb"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/18-HoiAn-final-discovery.png",
+      "bytes": 811946,
+      "sha256": "c12e66506474b4cb9fb501058d7bfbeb193c27e95ea29c1a837cb059d0e01440"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/19-HoiAn-tablet-final.png",
+      "bytes": 1365212,
+      "sha256": "bbc68722719b3bfb2168629ea66b05569e090146c636ef35b255dd0b1c7ab7e2"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/20-inventory-final.png",
+      "bytes": 577989,
+      "sha256": "2469451cd0c5b78efe4bd39c74d7c6259fa858f59a968be761468efe3e249b4d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/EXP-01-Fresh-revealed-preview-hidden.png",
+      "bytes": 1063164,
+      "sha256": "153a09fd9411de6eb04ffb982e59abd21a0ac5fc6153520a9fbef90109f57c83"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/EXP-02-After-first-gate-new-boundary-previews.png",
+      "bytes": 1006844,
+      "sha256": "68d222c2f1be051bd52f9e095cc54461a8e25a54005f950de354564f00eb2460"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/EXP-03-Boss-sprite-red-floating-alert.png",
+      "bytes": 1047937,
+      "sha256": "fb443cdbe7859a9160b403f8a1d43fe4c5c8b3bed7cba2153e57566c15dd3102"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/EXP-04-Camera-white-marker.png",
+      "bytes": 1049838,
+      "sha256": "7c656e30f3265eb45ca0540d94367688c15b9b1e33114e846cf80592732ed2c3"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/EXP-04-White-camera-checkin-offer.png",
+      "bytes": 880268,
+      "sha256": "dc8911841d7c231586b48fdb3e4767491ad0506df80e211c35ecc5360cd447c9"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/EXP-05-Checkin-recorded.png",
+      "bytes": 842087,
+      "sha256": "9a7e739f26b06ab1879bc0bd010f085559fb3d315e2844fe57ca46405a8d7672"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/EXP-Motion-off.png",
+      "bytes": 1063227,
+      "sha256": "9c2286a88f02cccab38717357e328e878855f7b5dcc0f44dd5e63f3b0fd5230b"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/FOOD-01-NPC-request-missing-reserved-spice.png",
+      "bytes": 884133,
+      "sha256": "dcf01cf6dadfafc17b9598bb40aa75689d0e8397375429a6b5028d98707daf28"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/FOOD-02-Spice-pickup-at-map-node.png",
+      "bytes": 945468,
+      "sha256": "624997400ffe317ca10dbe3420b636633d2eff39dff3e69942da66b6f8004b43"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/FOOD-03-Pickup-icons-and-quantities.png",
+      "bytes": 875343,
+      "sha256": "bdaafb345c0b97c465d50637f64393c1bb9154e89d973bc70b7d688df1660ba7"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/FOOD-04-Inventory-chili-shallot.png",
+      "bytes": 698703,
+      "sha256": "d5a498f9c71904f8ab5ab93165f6a8d637ff5aa826830011f867184f5de228f0"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/FOOD-05-Inventory-shallot.png",
+      "bytes": 696794,
+      "sha256": "a7bce97195fde4cf8fee138c1cec585e78f86decc8b93e1f64e1838e0b7acb50"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/FOOD-06-Actual-turn-in-reward.png",
+      "bytes": 867016,
+      "sha256": "56ac113bc337dca7b82dcd52ced41c2673d71b7e252266d67f9cd348ca50c380"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/FOOD-07-Pending-cross-city-journal.png",
+      "bytes": 464912,
+      "sha256": "47f5e7743d0df56baef782fb1501a2e192cdb85e1073a04c40073751ba3de9ba"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/FOOD-Recovery-fixture.png",
+      "bytes": 886345,
+      "sha256": "cceccca27a29e6a8a88bd0813c4dc07197eed74ec1372a639137547616a3b772"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/intermediate-H5-stop.png",
+      "bytes": 957305,
+      "sha256": "fe0651c83a715c925ca7621e954f0ce7f038313cc6dc9a8bbdaefb0a35c59942"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/MKR-01-Fresh-NPC-talk-and-hidden-boss.png",
+      "bytes": 1088467,
+      "sha256": "de2e450e088fe95a6ed2f858cf26daedb142ce42c030cb36c2bd8d7726c27926"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/MKR-02-Mai-needs-item-and-alley-reward.png",
+      "bytes": 1064149,
+      "sha256": "cd2225e25e17a50cdce7f2e62e4fb4b30f229759c99d71d8b3aaaeb62ff6a5fa"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/MKR-03-Mai-ready-to-receive-item.png",
+      "bytes": 1064400,
+      "sha256": "777d6d728d0d0201dee1cdb558543925b0d5346a998467e3b5e68ce6e44bfbec"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/MKR-04-Visible-boss-red-alert.png",
+      "bytes": 1063181,
+      "sha256": "1c184947dfff5e55a72a304b2fa0b9a2c6f749b8f95369ecfdc29f35bf54eff7"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/MKR-05-BaTu-return-with-item.png",
+      "bytes": 812300,
+      "sha256": "36f243008be3212d7d31e73c462c0301086b26cdd3d3fc5c1bc61f531e6c32c4"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/MKR-06-Completed-locations-become-checkin-markers.png",
+      "bytes": 810942,
+      "sha256": "45a542a8b44b83fcba34af5fe4e59c9fa4cb886171cfc1478471762e782fd4ab"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/MKR-H22-extension-fixture-not-delivered-content.png",
+      "bytes": 1051830,
+      "sha256": "b1b7944f6f7d646affed078c6337ab9ea65d0fe9eeb8592cd6a700f8d010a8dc"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/puzzle-puzzle_market-retry.png",
+      "bytes": 197916,
+      "sha256": "8fb5eb86adcb121f7c0791c3df84bad014d661e5236963cb5de1e1286b9b7ab8"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/puzzle-puzzle_market-solved.png",
+      "bytes": 201055,
+      "sha256": "89bbe0aa306beef0c811628271e3cac4dda66d0574d5c673acd046731a986b31"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/puzzle-puzzle_paper-retry.png",
+      "bytes": 199459,
+      "sha256": "046d44fd5e685b0de6302efcb24aa3b2a3e19b93099e92789f5894e40d1d0612"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/puzzle-puzzle_paper-solved.png",
+      "bytes": 202652,
+      "sha256": "d4fccefddce2281dba90aa28ba3311b868b6b8e5061cc4847199d9e695bdb702"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/puzzle-puzzle_pottery-retry.png",
+      "bytes": 197181,
+      "sha256": "69442df853949a6e58dc30aa65dff1b0dd2c28030ed7abdf4dbe9f14829bb2b5"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/puzzle-puzzle_pottery-solved.png",
+      "bytes": 199890,
+      "sha256": "341f2a557a6d4e06a702a3ba220cc4a438642242f4fe2a09178b27209c67b700"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/S1-01-Fresh-map-Mai-only-starting-region.png",
+      "bytes": 811832,
+      "sha256": "ac445d109c9854c37a97f0a4c447a52a343e88a2a27ae6c8bb8bfae1dd391e85"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/S1-02-Gate1-only-next-region-merchant-crab.png",
+      "bytes": 811879,
+      "sha256": "59509d68a34d9870cf490273ed0d965494da49c33c5896c2cbe7f7cb4993e764"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/S1-03-NPC-and-bridge-bot-on-map.png",
+      "bytes": 813103,
+      "sha256": "f314320c3f78e29cd13b9f5ec83d725740c6e5ef91b89605c7e0d37c3e298280"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/S1-03b-NPC-and-bot-map-detail.png",
+      "bytes": 1063138,
+      "sha256": "1e789edde9cdb11f6c5c983b82fe1cd475987b73d83c5d355588e136ceeb6f33"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/S1-04-Battle-opens-station-region-only.png",
+      "bytes": 811904,
+      "sha256": "df9cf0420ac7925e02c0663545110254dbd399fe79f07c11c81adbc9341c9912"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/S1-05-Code-opens-same-region-only.png",
+      "bytes": 812328,
+      "sha256": "b4f646e8348bf6482aa8bb2de8654738bce0cd2674e3933a7333ba9d69b2cb09"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI-01-CityMap-globe-backpack.png",
+      "bytes": 811765,
+      "sha256": "fed9915c223a67b3e28382a51fe1b70179375937de559e5b454d6be8cc149f02"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI-02-WorldMap-from-globe.png",
+      "bytes": 803860,
+      "sha256": "0402ea81c2064a9e015c04bf6235ea13766b8dde9054db77341c9e12fc8585ab"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI-03-Inventory-from-backpack.png",
+      "bytes": 693451,
+      "sha256": "0d5e9aef9cd8a5795da1e60506b6657b5aa3f3f9a8e7faeb8dbf1314c630aae6"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI-04-Lumi-dialogue.png",
+      "bytes": 1002905,
+      "sha256": "115e5e6957a676f37ea2ff00f0501799612fa929ba320ffc79894e9539bf66c6"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI-05-NPC-Mai-dialogue.png",
+      "bytes": 942339,
+      "sha256": "5ac159eaf628bc9a1cde3b633ec77f2dfa7c4ddefffb7f789951c7a9d6f4c3f9"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI-NPC-boatman.png",
+      "bytes": 955890,
+      "sha256": "ff7aef7a509a65acfe788a1d5e1f008134927d70f11af6e6f184af28e84d2116"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI-NPC-Korean-visitor.png",
+      "bytes": 967950,
+      "sha256": "5139cbccb4a271dd92948883d049c586aa78498c1a0345428a17a3b8d3a49423"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI-WorldMap-locked-Hue.png",
+      "bytes": 803677,
+      "sha256": "3a46f8ddef5cd96d1444b2645c7a4aa33d2bf21439249335c4cdf605060d0175"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI-WorldMap-story-routes-open.png",
+      "bytes": 813072,
+      "sha256": "1cf9ab5c5184f25940abf80f4633916782304b04c8ea11e63cbf49305ee2937d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI1-01b-CityMap-overview-paper.png",
+      "bytes": 811815,
+      "sha256": "8c35ce31d747455c956dcff219d882288a5c44bd836a888515849c72d29d59f3"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI1-03-Inventory-three-earned-items.png",
+      "bytes": 700813,
+      "sha256": "d7d21936845d88a49dc2fda7ed32d8b3df6bd0a013aa9adc40095f1f20836e29"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI1-Inventory-landscape.png",
+      "bytes": 779193,
+      "sha256": "7bb2c0f016cbb003b94e9fc2c0b7ed9a4b5a3254987fcf1e24217facdb67b16a"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI1-Inventory-safe-area-simulation.png",
+      "bytes": 686005,
+      "sha256": "abbb35c09c007e4db18eda68ec322560ff9b1483b1134aa7cc1a14291a661757"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI1-Inventory-scroll-fixture.png",
+      "bytes": 667330,
+      "sha256": "05bced4ca8f9880d03c206a72671d36698a9effebb156fd6e58060b09c6fa684"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/UI1-Phone-20x9-safe-area-simulation.png",
+      "bytes": 1022492,
+      "sha256": "5f3bc5582478525e1fbc9402b7ed806e3c504ecfdb06fabdee6d6f5978f7148e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Restart/H3-desktop-1280x720.png",
+      "bytes": 1608462,
+      "sha256": "2b8013fddfd9eb1b1bbbaf52eca0c86c7a00cd028323f6c5b092b81a211b69f9"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Restart/H3-restart-item-stays-collected.png",
+      "bytes": 867218,
+      "sha256": "8f625347fcb58b537d0798110115e74f9ebe8367b16c7c1d78ea7107e64b92b0"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Restart/H3-return-map-progress.png",
+      "bytes": 1537652,
+      "sha256": "7ae3587b6c3e5e6775fb52a920f632abe2f9ea4dd4da630cfd311cd4afcae7e0"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Restart/Quality-CityMap-Mai.png",
+      "bytes": 1097336,
+      "sha256": "b33a5937477c9e395b904a2f98733ac564eec97a501d50ff9c887689b1922b89"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Restart/Quality-WorldMap.png",
+      "bytes": 804515,
+      "sha256": "75e0c0bfe157ee63c3a733e0b6467fc89074949be537c6fd4e23de36b9f99758"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0000.png",
+      "bytes": 1047976,
+      "sha256": "0c4febed3f1382a5a88b46c3506a0b7d5a6026ed6f03f02e1e27bda4029f6179"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0001.png",
+      "bytes": 1047945,
+      "sha256": "3218c5784b6f56114a995271269a489f6e01303f196959d2f88508c9f1c981f5"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0002.png",
+      "bytes": 1047948,
+      "sha256": "1980afe241b5e2260d6ac7cf3e1c85e4f78816834dc8ea68e9fca2ab5ada3f4d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0003.png",
+      "bytes": 1047948,
+      "sha256": "5062a39c8f327d8a1af36eb5290a99cb892d713d43510f64ad42b56c0686a03a"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0004.png",
+      "bytes": 1047924,
+      "sha256": "ff07595c0af5241cdadfd9921b723b6ee6852a2992f38289c31309e9c50cd6a2"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0005.png",
+      "bytes": 1047925,
+      "sha256": "3e8d5bf17e9158119950592bb846bc9ecafc12cb7356e6f38238c81511ddc669"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0006.png",
+      "bytes": 1047956,
+      "sha256": "20871ccc4ec904bf4a436198763d733ef5e89003cb21e389dcdaf528f88b6e85"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0007.png",
+      "bytes": 1047921,
+      "sha256": "0a37d19cae6bc3895b06c1c5e6bc9051bba0ca99539e57bf62a288549be72b45"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0008.png",
+      "bytes": 1047849,
+      "sha256": "a20b75a61536e738f6cfb1abecbf425b97cb6778d8b2b6120e1b25dd7d60b47e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0009.png",
+      "bytes": 1047825,
+      "sha256": "6fc4ec8fcfab13f49828bf3d9946c9831d11043a1ab9a7b6d21dda87bfcd92ac"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0010.png",
+      "bytes": 1047911,
+      "sha256": "00a3ee6c3eca21b19cc7661681473fcde76fe50d4ea136d61bbb15c32c4396a1"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0011.png",
+      "bytes": 1047912,
+      "sha256": "5948c7730295cd12d377008c8e97cae8441953f93c68af4d057afeaae4249b3b"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0012.png",
+      "bytes": 1047892,
+      "sha256": "0ba09223cb9a11d08aa8fcd6e34749344b8aad03f2298ba1a098db78db27fb38"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0013.png",
+      "bytes": 1047886,
+      "sha256": "9655ee2724e1551ecf023e20e3c9181940eb7f0e22310c065efa1c19ffd3c29d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0014.png",
+      "bytes": 1047907,
+      "sha256": "f71bcc4fa145c633b4c0370ef5f6d2030f80fb6cfb00ecbae1d5ccda6edd9b8b"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0015.png",
+      "bytes": 1047931,
+      "sha256": "85226a3e473eacb2616e3c6d34983132ca834693e5d58df8cf88a8a3a048521d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0016.png",
+      "bytes": 1047938,
+      "sha256": "f6a02d4b0ee6d103c6fd98621e29b61498dc1c2b7fb686179dcd2cde63c0c471"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0017.png",
+      "bytes": 1047932,
+      "sha256": "a49a3ed4da7edcab5144899ed111d4cf46283069a4c9c070ee3b1a95d0ee42a6"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0018.png",
+      "bytes": 1047961,
+      "sha256": "69bb49620dc0d7234a42ebb7ea13a43f20c7fb6c968b8041eb21d5ee6144efd5"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0019.png",
+      "bytes": 1047893,
+      "sha256": "536adc29694846f48e1902121412fdbe1962ebf12e6e931cf6063a0b28a89511"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0020.png",
+      "bytes": 1047934,
+      "sha256": "0b68d2a3b2f6b6a5649910c4515e4d99c05329cff0863251ae638305748eaa88"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0021.png",
+      "bytes": 1047941,
+      "sha256": "096c108a4995cc9c7582d4d470d91226d25b25209c00fc5143a171e0f25f948e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0022.png",
+      "bytes": 1048007,
+      "sha256": "4b91fbe6d7e74a1f3c6d3d9dbacbff7cc70daeec8d59bde684ad71f03b97613e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0023.png",
+      "bytes": 1047913,
+      "sha256": "eda596a04529add699ee34256176dc84632478892dc516ecdcd8eb585abec55f"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0024.png",
+      "bytes": 1047996,
+      "sha256": "cbf7687e14f0e72dee64c81e6d3993e4feb50fbce027077cb422cc2bf5539a6c"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0025.png",
+      "bytes": 1047916,
+      "sha256": "b9a06bc2d84eae6193b3b2fc4e6596adf1cfd6849f3253e81eccb0951fd226f6"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0026.png",
+      "bytes": 1047952,
+      "sha256": "1d1441f3208d10ef83d5e45fd60a9808ba96d6e2376d502c89d61390ccf3c506"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0027.png",
+      "bytes": 1047957,
+      "sha256": "9c390282bf5406a0327a96694658934733efe0054e6ceca605fbbbbe3111115c"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0028.png",
+      "bytes": 1047965,
+      "sha256": "e1b3b460944579781a0d18d06994cb1d1fbe01e949edc59d25edba1f7c050457"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0029.png",
+      "bytes": 1047990,
+      "sha256": "40d8bbd0323ba9bfec7a5e4434f773e07088e5f413832998cd9bcb88be95c8e0"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0030.png",
+      "bytes": 1048011,
+      "sha256": "9346def3e9db0230dfd805bd4e0a492727e8c4663dad23280b90ad079305e2a5"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0031.png",
+      "bytes": 1047996,
+      "sha256": "6a799e77d542a0dd0444c80f6f8c809dff864eab1f3b4e93b3bd2e0e020b6605"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0032.png",
+      "bytes": 1047938,
+      "sha256": "8f217fe4cc4cf0ea083cf166466e149cf357b404c14a0bd5cdaf18da957db48e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0033.png",
+      "bytes": 1048002,
+      "sha256": "41fd3801f5752637f2e23a8ef3c09c13a0d79fdce2ac1e38af11424bb9ccc123"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0034.png",
+      "bytes": 1047958,
+      "sha256": "e704d048a258553128e40eacb0cfde4934c9b1e4e2b6471bf7e30d989d2115e5"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0035.png",
+      "bytes": 1047970,
+      "sha256": "4397f7da497925841fbe5bc50b7ada7633186759d07a71d140c7a9370bb25ba5"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0036.png",
+      "bytes": 1047965,
+      "sha256": "b0bbd3892c49728cb4cd24859296a6c3fe8b14d2d405f242847107313834b82d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0037.png",
+      "bytes": 1047974,
+      "sha256": "6a03b5c26218562ebef6209207758bcb2fd1202520db770fc20b896d0574704f"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0038.png",
+      "bytes": 1047924,
+      "sha256": "f4fa373e554c7845172de3fe69905d3cd372c03a3e2f4ed2a189bfe02ae52aaf"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0039.png",
+      "bytes": 1047898,
+      "sha256": "d7c3f90df71681a62449a68b8a0438fc4e08962deb40d455a3d72ed6f2d83960"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0040.png",
+      "bytes": 1047920,
+      "sha256": "68bc2727715f1f0ff1d3ee6363f87d996a7f17587f3ef3cd3b21a73e5456c99b"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0041.png",
+      "bytes": 1047948,
+      "sha256": "f8181e4da1c11f5ef30f60891edbbdc4049a5c32142cd84db350b50bb82741b8"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0042.png",
+      "bytes": 1047920,
+      "sha256": "a592354b9c1fc01e5b33868ed70d2bea664de4201850708331c8b840a7dbb424"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0043.png",
+      "bytes": 1047859,
+      "sha256": "aab1524d4df9ac94e42323599fe25a7496057f46308cbed07c435acccd30c47a"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0044.png",
+      "bytes": 1047869,
+      "sha256": "5eaaf24670a19d1510f24bc431e52d5bc8d8a86a8fdc1c5f5e6649e328f5e54e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0045.png",
+      "bytes": 1047910,
+      "sha256": "234348b2b837a89155baec51876eff7f35d41cc945c18d834b3effe993f038c9"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0046.png",
+      "bytes": 1047950,
+      "sha256": "68f601d26e9c79daa5aeb9472efcd3b01c2a22bc88c0a18ccc38e1a804f86271"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0047.png",
+      "bytes": 1047921,
+      "sha256": "507a8cbc77a39a51eb93753f6886cd0e0ca94347113c71caa365362ecb11b1ac"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0048.png",
+      "bytes": 1047930,
+      "sha256": "1e4b84dca7b0429226bedb54700f626d268743d6f9488bb990528e1ec5b67fd9"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0049.png",
+      "bytes": 1047883,
+      "sha256": "6aaa0564d491c87b74d96e21cc17e7a62ec79b00705ab439051e537c184913cf"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0050.png",
+      "bytes": 1047961,
+      "sha256": "9b6f0b62f822f39592c8e542f14ee14f99b198807ea907b66213f896e3ac71b3"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0051.png",
+      "bytes": 1047947,
+      "sha256": "65516497ce77dc93f960ed3db140d43929d6c9f5128a6652f43ef5850f73eb09"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0052.png",
+      "bytes": 1047914,
+      "sha256": "be3d626b0fd9cfb595319af893a5015c5477748bc29757630d406dc77af7ec99"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0053.png",
+      "bytes": 1047982,
+      "sha256": "e39d94f9ad03daeeb59f496bae17ca7bd59f46d336d17632a72febffcccb2580"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0054.png",
+      "bytes": 1047967,
+      "sha256": "fb40acd2382f78c8a999513efdc58434773621088a9e79bea5e34900319519a8"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0055.png",
+      "bytes": 1047934,
+      "sha256": "1357090d20ee0c627a6ea7c851502001da271b8115f5f09a20a2181cec35ada9"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0056.png",
+      "bytes": 1047929,
+      "sha256": "22ca5e53a38f8bf9b3d1e1e4dea164fcd2582067b3c5e8698c39c84d61554964"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0057.png",
+      "bytes": 1047940,
+      "sha256": "b6b2378ad3e01a3f8245a3a10a9a4bd3d8085733b90b61ae4e2f29e91f36ce9d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0058.png",
+      "bytes": 1047913,
+      "sha256": "d46b67856b9ff5cd6428a16eee49b244fc4207bd3d5f172e3034b206b5168145"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0059.png",
+      "bytes": 1047948,
+      "sha256": "2732e58d555ded1217e6bae0a9f2ba0b82898ac28ef4c12c7383215c77c23008"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0060.png",
+      "bytes": 1047917,
+      "sha256": "e5ef5f86d7eeca72e9da617f1f759f3e2aaa88d4c461fb3199217fdabaa6c494"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0061.png",
+      "bytes": 1047973,
+      "sha256": "11f5bf7bdddf92dc775b81ab41a0ecdff78e5ae16b8e22d738c4c269ff644c28"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0062.png",
+      "bytes": 1047955,
+      "sha256": "40d54d01d0bac29fd028d0684c4fc870fee3552fe410731d2cf81f3bb603e623"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0063.png",
+      "bytes": 1047971,
+      "sha256": "d7e15d8329b4fb7cebf3736599565c7a8189742e70dfc9785adb13861e6478c7"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0064.png",
+      "bytes": 1047989,
+      "sha256": "c21c0f633c3c1dceb0f350b2e8f6b5421e7dbd83bef6318ce5e96caedc00840e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0065.png",
+      "bytes": 1048029,
+      "sha256": "d9b213e6c917b0e977df25148dec9cac06a035803e6f9ed070ae4b6f52139ef5"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0066.png",
+      "bytes": 1047993,
+      "sha256": "3ec66dab8835012db8e7d85e5b69093b365124b3c576e0c9d4cff790c645f693"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0067.png",
+      "bytes": 1047919,
+      "sha256": "c6cc680b6ca0b0ec077c96dff11bafc78ab971ff2ab917bc3070bd61a86c833e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0068.png",
+      "bytes": 1047959,
+      "sha256": "17e9b5c316fa74443175d597540dfa664ba982c1f88e10c50bd5f1f780e14d9d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0069.png",
+      "bytes": 1047956,
+      "sha256": "c0401fbc5778c129e445d1fbc1169570d2750a692750d16e32d690e3aa36ed5a"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0070.png",
+      "bytes": 1047949,
+      "sha256": "e7bfd24bbec0905ba62849cc1ac4a95e7cd157d96b66b6f2d4464942bcaf9eb0"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0071.png",
+      "bytes": 1047980,
+      "sha256": "d76cd569820da6743e3e5f3d43f036d9bceff5c412aebd11f777ff2dab93b3c6"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0072.png",
+      "bytes": 1047916,
+      "sha256": "97c7c5c2c894b4d5615a53471551c0893ad6deceabd0abe0a4d0fc009ec1e777"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0073.png",
+      "bytes": 1047896,
+      "sha256": "85ca8c7a9d62c12b3ae0020c73ed01f9ee39ff23a8a37b1c42dfdb68e5e8a4a4"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0074.png",
+      "bytes": 1047911,
+      "sha256": "6d197fce0b8839e80fe21796b8b51e1dbd410467d1d171ce5e7fba93004d275c"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0075.png",
+      "bytes": 1047907,
+      "sha256": "043b74411dbb670f5222a973a8607252ca6d30d155c8fafd4a3107e99daf3aa2"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0076.png",
+      "bytes": 1047889,
+      "sha256": "23d803187a9f6a28f721db707293df469466d5c74ac587d92f7c78aef98f48b8"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0077.png",
+      "bytes": 1047913,
+      "sha256": "5a23f5e3d27b918b1661628c81b71262f8b105493afb07a3e83906cec93e2287"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0078.png",
+      "bytes": 1047890,
+      "sha256": "7fb9de7a912dd5d94ed214d94871e69f9319fa4a842d4e3daf35e9844450998a"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/boss-floating/frame-0079.png",
+      "bytes": 1047884,
+      "sha256": "d3c154682a161c5d4f3d7df316458afd5c055d6de09945f8a574440cef4ffdc1"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0000.png",
+      "bytes": 1063415,
+      "sha256": "efb9d6e48b041ac312848b2f8d482a60fb139d3c4f24064e7add9752116fd8ff"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0001.png",
+      "bytes": 1063405,
+      "sha256": "6ee249d55b82965da52a89878b64fdd0a266ec7436f5312ea0f3c59d55d5536b"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0002.png",
+      "bytes": 1063367,
+      "sha256": "b876aed3b5d874ed61db45205d25dbb8f33c11237b81cf466e2979c52837153a"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0003.png",
+      "bytes": 1063371,
+      "sha256": "9e32fe247b66fbfa64271e0b778547bc268d8406c4b694da42a8624db3fd1166"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0004.png",
+      "bytes": 1063361,
+      "sha256": "1ecebce5318fa353b52bbb6de9a1bc25c839c9200867914ec1ec826e7445a210"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0005.png",
+      "bytes": 1063346,
+      "sha256": "b3d919a1b410a2fa6c32d7eed442453b2ab7cffff229445bd70bdce49e00740a"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0006.png",
+      "bytes": 1063352,
+      "sha256": "09d2e03e41b34e61fee7deb6d79117258806608196036cef78f1c29476bbc0a1"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0007.png",
+      "bytes": 1063306,
+      "sha256": "09467a6eb3cd5a49583fd6883b5457b9ba4fb2f250188d258f5ca0d294308635"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0008.png",
+      "bytes": 1063320,
+      "sha256": "bbd359c810d82fcaef0ad969430a294a5e8b7bac8c4b909f7b234ea1a1a9c1e6"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0009.png",
+      "bytes": 1063321,
+      "sha256": "2041a9d80e57df5ce26165079663e7d1504374a5e7f3cb48ff68773b2cf45b30"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0010.png",
+      "bytes": 1063280,
+      "sha256": "454098afe63f509b8e1fc834f70ab035011f77576d9a9d1388738e6243d02567"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0011.png",
+      "bytes": 1063273,
+      "sha256": "ae80de69ba3e82b75990a460266d298eea6b3024eac47baf40941545cf8d82b4"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0012.png",
+      "bytes": 1063261,
+      "sha256": "451ed8c6ab5ab3f3f7bf9389db31e3dbb200046786e07264d9f2fca1380a7698"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0013.png",
+      "bytes": 1063271,
+      "sha256": "06d13d72459af4794b58991e17e9be0b570dc4744e3e65423024ea4da06ed8e8"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0014.png",
+      "bytes": 1063259,
+      "sha256": "cd9ca782f58609de5be6ab1976493d48ae3c6a66e15e8af9fb2fca2ec25c3e6f"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0015.png",
+      "bytes": 1063277,
+      "sha256": "8b8d8fdaf5afcec5451d4e91435c234205682e8b6742cb09b1644c52cc2aaca5"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0016.png",
+      "bytes": 1063278,
+      "sha256": "e2abd1dae6d7b06e4c3a84b24edd36a9ed08eee9c2820fba64c3c7f4d80ab25b"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0017.png",
+      "bytes": 1063315,
+      "sha256": "9cf912c8b3488165feaa5ddace2b654d2c93fe7dc8f93dad9cb627156231ccbb"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0018.png",
+      "bytes": 1063273,
+      "sha256": "de2dbf5982bbd56b056d9a485ca4ff7d0fab4c7c9672c119041ce99ca09d952c"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0019.png",
+      "bytes": 1063295,
+      "sha256": "9e7ca310442395fa90326f8cf672e0699fde41a4211e1989351ff23462a79fbd"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0020.png",
+      "bytes": 1063287,
+      "sha256": "8697e3ab4540aae3cb7fea5c7d0866ca449dee745a3f31fd734d2b9c11fb3971"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0021.png",
+      "bytes": 1063311,
+      "sha256": "9b002d6c0686c38fde2f2a1c2d2b7ad7e5fe67b318a227c2a506c28e2d19c4ea"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0022.png",
+      "bytes": 1063346,
+      "sha256": "4e78dc4163c6dfed831112d7944f5a30827afbe60a33b2fd509493d9e335fa64"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0023.png",
+      "bytes": 1063323,
+      "sha256": "8aa00c7028dad5daad7f66a6e7f8d894a5e81a11d13123c71ee3a34a59386f72"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0024.png",
+      "bytes": 1063311,
+      "sha256": "52a4ea84e044b61f3d53ebf026abc17042e5dd87bd5003b4ca8d3b8abc4b09ca"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0025.png",
+      "bytes": 1063352,
+      "sha256": "902a8378b5a17dd8f2c537d1be8bc330e2c4bb87cb1bffc7196665610edaa7f2"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0026.png",
+      "bytes": 1063355,
+      "sha256": "d72acebe788d8f18173c237a05340fd3cd7d63674354a1264115e818270a9bf7"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0027.png",
+      "bytes": 1063349,
+      "sha256": "c140dd0db564ce2a3a87784cab617bd80859d5fecbeb76a852616ce8d82c267b"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0028.png",
+      "bytes": 1063385,
+      "sha256": "9fc9b99420e0422abaa7c2a2edcaa0a349678b022ea265328632c8bb48fcd79c"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0029.png",
+      "bytes": 1063383,
+      "sha256": "8bd8839952f66f950c688107d11d908b154a3955109e46e76eda06266efb4b7e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0030.png",
+      "bytes": 1063425,
+      "sha256": "0bc037b84afe65c55833bdea95ac3d95f87ed6f0ec1e0d9aec58d9934f7ecd9d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0031.png",
+      "bytes": 1063427,
+      "sha256": "736d1a4ba6787f6f822617be4839dfdb34644de05a885e8aecfdf22308c77d61"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0032.png",
+      "bytes": 1063430,
+      "sha256": "76cab49e5e8825e147ef1a0d0e9758d5cc7d59474c32f4cbcd21a8bcdb926afa"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0033.png",
+      "bytes": 1063424,
+      "sha256": "18042d80e6c22d248109d4f406e8b634285badced0accbd501ebedb727182532"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0034.png",
+      "bytes": 1063408,
+      "sha256": "773f9032e6cfd277b384fb9d42015b299744ea27a8c665e1cac85ad21947fbe5"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0035.png",
+      "bytes": 1063409,
+      "sha256": "87c69af08901569a90e9ef04b73137c329629643518fcb80924443ea2e048071"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0036.png",
+      "bytes": 1063371,
+      "sha256": "6bff3ab14c7a8828e90d0098a513b7b23b82702ab344ed0a14087beae806051b"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0037.png",
+      "bytes": 1063324,
+      "sha256": "fafcefdcd4cc5f994f0025987efb48cbe687fff9fbed6b4040a9378a9f128201"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0038.png",
+      "bytes": 1063332,
+      "sha256": "c873382bed8681c5e25c20dd2c7a82ea878fd82ad29273a71c02d91f2497c300"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0039.png",
+      "bytes": 1063395,
+      "sha256": "abbfbc9764d4744f134689045528f1300dc5f6c2b218133b4cae58d4be640b11"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0040.png",
+      "bytes": 1063331,
+      "sha256": "bb948b1ee765c00204d541eb8f29f9ca45b5ec5edfae90228cadd1b8fe875d70"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0041.png",
+      "bytes": 1063360,
+      "sha256": "44885494b815c24b390b75e10d530628b93a795574c2175ec0f60e89875a03d5"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0042.png",
+      "bytes": 1063329,
+      "sha256": "0a2a9f5b0318ef133dfa7124c41f84507104695c975d669aa9a18465a6357f01"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0043.png",
+      "bytes": 1063284,
+      "sha256": "e1fc06e23774640b6ae7a4ba827983c9f0f14606816459b0b2227117132b8a24"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0044.png",
+      "bytes": 1063276,
+      "sha256": "a3a222e02e5dd10952275f9efda3da029781c948a7aab7c45b015baea7d07699"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0045.png",
+      "bytes": 1063261,
+      "sha256": "bdcfdd8b07c57bc0117f8489f049ccacefb1a18dd99142ed9987815346254dbe"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0046.png",
+      "bytes": 1063271,
+      "sha256": "c1047caa85f96b33cf36b4d56df019ce89e1e3eccde31df2d14da8c97e7c7daf"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0047.png",
+      "bytes": 1063272,
+      "sha256": "afe73cecdedc83a19dea7593cb8ea05ad425ef22dc4a54690ce40a7c0b3468e6"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0048.png",
+      "bytes": 1063277,
+      "sha256": "2c9c746ea8ffcc7ffda838dcae8707b5a4a53dccdc47303fed23c0e3f970f3dd"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0049.png",
+      "bytes": 1063271,
+      "sha256": "abedafc9bea4b3d18b053360a21c300b049ea80265c02745e6bea8ed8b2b5c07"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0050.png",
+      "bytes": 1063276,
+      "sha256": "729e25294f50d2a41ca814279e2e566f2bb8f6d3555b9cc6608a401d9c31bab9"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0051.png",
+      "bytes": 1063279,
+      "sha256": "bf58771730beeed70c14b04aa83ff975b6cf5b30f55233249f6481469f106c4e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0052.png",
+      "bytes": 1063283,
+      "sha256": "38d64cd3f9e57fcd6b5914eb4aa31cc9c765f37592fa3a37d199c1ee39bb82ea"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0053.png",
+      "bytes": 1063270,
+      "sha256": "4881c9b7e45182231a0ef17195f9a6643b573fdb5db802896e012faa43d77c2d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0054.png",
+      "bytes": 1063291,
+      "sha256": "321ed2384d80beab480bb8cd13d768841488dfcf7b0f8c47b921a84e3c3bb769"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0055.png",
+      "bytes": 1063293,
+      "sha256": "2c5e2f3b3c02b4c9494b0e682d4221c3a9840f4ab47101a84ed9028638f0ec54"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0056.png",
+      "bytes": 1063340,
+      "sha256": "5814d7367401d008870243d042789be08337ba8bd0e3d3509fe338010666a2fc"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0057.png",
+      "bytes": 1063311,
+      "sha256": "8d546e19ecc66047ed28ebd48cf5a79faf1cd7979d07f7abacbe9486dfb4280e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0058.png",
+      "bytes": 1063343,
+      "sha256": "3ac4acaa80e6746640a88bf41b6116f5bf73230e4338ff2072f6542d73f7811b"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0059.png",
+      "bytes": 1063345,
+      "sha256": "5dc8446c7398ad00eafca58d38b417d5da60b032932504482b159f6934581477"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0060.png",
+      "bytes": 1063336,
+      "sha256": "f07a96bc9a4599c418e230767189aa7560184d27cbf0ebd52cda122b30bcaf76"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0061.png",
+      "bytes": 1063387,
+      "sha256": "4d53d6b73e5cd0e665e8620fdfdc1800fa26a3b7b5eb1191ffcf2cc99cca1639"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0062.png",
+      "bytes": 1063416,
+      "sha256": "4739b512f932e3f6600f1479a4b7520eb0a342a71a6c2f6c04b6e438015ff1ae"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0063.png",
+      "bytes": 1063423,
+      "sha256": "72bd54c111e15816863cb13ed969b56783512a4ab0dcd88dbd29f0d27539312f"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0064.png",
+      "bytes": 1063384,
+      "sha256": "3593c37ac193c9d0fa1f6290a27d03ba94c1f07fb68898787d633b39487c72bf"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0065.png",
+      "bytes": 1063389,
+      "sha256": "823b5747bf7845be02c266101732858e036bee14131e76c80ef6e758c816aa18"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0066.png",
+      "bytes": 1063414,
+      "sha256": "8e9adadd705a2777e98b2cb0050effe47c73b47b0179799abfb524b75aaac8d2"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0067.png",
+      "bytes": 1063429,
+      "sha256": "518d85148b0a43f6c7536ac029732df9a33d19eb55539405fe80518461dac769"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0068.png",
+      "bytes": 1063413,
+      "sha256": "566f10788fa33d70cc7011fc0992f31fc81f50138c909871417c9c191061bb8d"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0069.png",
+      "bytes": 1063423,
+      "sha256": "628b6f792b749d0e0ca32d8646bcaf2da17cb1af036ebc8adc7af233cc51a9bb"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0070.png",
+      "bytes": 1063393,
+      "sha256": "02b97578c7f30c7ab9a48af7ff817e98aaf6ed30bd39778cbdad7733018484cb"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0071.png",
+      "bytes": 1063371,
+      "sha256": "18d5aa723b3e0c57e48a769b8e891c18ff923659082d2189f29ef23b164fe5aa"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0072.png",
+      "bytes": 1063341,
+      "sha256": "c55d90da1d4e84db6261c955a357a919e445646470cf7a8ad61f38fc588ed607"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0073.png",
+      "bytes": 1063362,
+      "sha256": "d127fb14643140c3b3cfe3d951d690f9f53b2177c88030593d7d96ff669b443e"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0074.png",
+      "bytes": 1063334,
+      "sha256": "900710096124a3b3b0666aebdd0ec52348ed0b0e7bc66d80604dc299f3a3f6d8"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0075.png",
+      "bytes": 1063379,
+      "sha256": "cbad833bf0b5c19180e9129b09d94c6145cbca37ba1f1237165db92615ac7424"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0076.png",
+      "bytes": 1063368,
+      "sha256": "470c4454badb3929bdde589e539e1037849c548d6400e74ffb5fa8d7bcc13211"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0077.png",
+      "bytes": 1063315,
+      "sha256": "533b394377c6f27f40cf59301a89406d70224a9bf9152fe0a1331a2922cc0118"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0078.png",
+      "bytes": 1063288,
+      "sha256": "f51c1b5d5ea0a88689846c624397fca3d272f7f6229b1eaf1d846c7e0a4ad4d8"
+    },
+    {
+      "path": "Validation/RenderQuality-20261017/Regression/npc-floating/frame-0079.png",
+      "bytes": 1063281,
+      "sha256": "c77db3cbd7cc90f1ad40bfd2ac45fccafbf9b3dc0321e9cec479a5b046675205"
+    }
+  ],
+  "androidDevice": "NOT VERIFIED",
+  "visualAcceptance": "PENDING USER REVIEW",
+  "sourceLimits": [
+    "H3 floor 1254px across 20 world units; 2667 display pixels at 540x960: 2.13x magnification. No import setting restores absent detail.",
+    "H3 houses ~340px source crops, about 520px displayed.",
+    "Packed UI/item atlases stay Bilinear/no mipmaps to avoid neighbour bleeding.",
+    "Windows before runtime samples already RGBA32: compressed importer defaults are a platform-risk fix, not proven Windows blur cause."
+  ]
+}

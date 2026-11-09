@@ -1,0 +1,31 @@
+UTC run: 2026-11-07T17:01:11.6058441Z | Unity 6000.6.5f1 | 540x960
+PASS: P0 starts a fresh isolated save
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H3 is discovered
+PASS: Lumi reaches H3 through the real map input
+PASS: P0 physical lamp eye is present
+PASS: P0 real pickup grants the lamp eye exactly once
+PASS: P0 returned map is not scene-busy or input-locked
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: P0 NPC/node responds after returning from H3
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H3 is discovered
+PASS: Lumi reaches H3 through the real map input
+PASS: P0 reentry hides the owned eye and pickup control
+PASS: P0 reentry/return neither loses nor duplicates the eye/rewards
+PASS: P0 exactly three requested map loads, no scene transition loop
+PASS: Fresh runtime capture written: P0-return-map
+PASS: Persist checkpoint P0-earned-eye
+ALL CHECKS PASSED

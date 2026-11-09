@@ -1,0 +1,70 @@
+{
+  "auditStartedClientDate": "2026-10-23",
+  "completedClientDate": "2026-10-24",
+  "beforeBytes": 16398166831,
+  "afterMeasuredBytes": 12196620538,
+  "plannedDeletedBytes": 4218912787,
+  "manuallyDeletedFileCount": 1627,
+  "additionalUnityAutomaticCacheRemovals": [
+    {
+      "path": "Library/DataStore/UDSData_301.bin",
+      "bytes": 50568,
+      "mtimeNs": 1792749621423946200
+    },
+    {
+      "path": "Library/UndoData.bin",
+      "bytes": 0,
+      "mtimeNs": 1792749628483226300
+    },
+    {
+      "path": "Library/UndoStack.bin",
+      "bytes": 0,
+      "mtimeNs": 1792749628484225800
+    }
+  ],
+  "unexpectedDeletions": [],
+  "beforeFileCount": 80327,
+  "afterFileCount": 78718,
+  "protectedFilesUnchanged": 900,
+  "restorationChainVerifiedEntries": 2915,
+  "backupDeletion": "NONE",
+  "editorOpenCompile": "PASS_EXIT_0",
+  "focusedWindowsSmoke": "PASS",
+  "focusedChecks": 16,
+  "newBuilds": 0,
+  "gameplayChanges": 0,
+  "afterTop": {
+    "Library": 9583652762,
+    "Builds": 1648803435,
+    "Validation": 415895499,
+    "Assets": 243020774,
+    "Docs": 82748131,
+    "LBC_AnhMoi_BanGiaoCodex_20261015": 59139900,
+    "ReviewPacks": 37937350,
+    "Logs": 29497813,
+    "Tools": 27154760,
+    "LightBetweenCultures_DesignKit_v1": 23786064,
+    "Submission": 13538135,
+    "LBC_Gameplay_6Cities_Detailed_v1": 11381586,
+    "_CheckIn_Import_20261018": 10148243,
+    "References": 7024877,
+    ".utmp": 2328775,
+    "(root files)": 318984,
+    "LBC_HoiAn_StoryExpansion_v1": 93990,
+    "ProjectSettings": 65072,
+    "UserSettings": 62379,
+    "Packages": 19875,
+    ".vscode": 2095,
+    "build": 39
+  },
+  "afterScanErrors": [],
+  "measurementNote": "After size includes cleanup audit/recovery files, focused smoke evidence and normal Editor regenerated caches/logs; final report adds a few KB.",
+  "netReductionBytes": 4201546293,
+  "documentationLinks": "PASS",
+  "documentationChanges": [
+    "README.md",
+    "Docs/PROJECT_INDEX.md",
+    "Docs/Storage/SafeCleanup-20261023/"
+  ],
+  "gameplaySourceFilesChanged": []
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PREVIEW_ONLY_OWNER_COMPOSITION_REVIEW_PENDING",
+  "runtimeChanged": false,
+  "productionFilesComparedToLatestCheckpoint": 871,
+  "productionChanged": [],
+  "artEdits": "local built-in image_gen patches plus deterministic bounded-mask compositing",
+  "images": [
+    {
+      "file": "Hue-before.png",
+      "sha256": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c",
+      "bytes": 4021351
+    },
+    {
+      "file": "Hue-after-preview.png",
+      "sha256": "827b458414346fde068b762f9a23abae0f8f9e40ede7a674083f4b8458505dd4",
+      "bytes": 5199589
+    },
+    {
+      "file": "A-Vincom-preview.png",
+      "sha256": "407efc8c72dacd3cf426ffbb56dc7e64ff62ae78f3999898eae59bc1276b17d2",
+      "bytes": 281061
+    },
+    {
+      "file": "B-cleared-preview.png",
+      "sha256": "d5a36427408bba5c5c3d9525acc3045205fc7308ac3806503f7a6474ebab37f8",
+      "bytes": 146461
+    },
+    {
+      "file": "allowed-mask-A.png",
+      "sha256": "f316bf70035466aa6305958c1918057af7480892c87534004227f11c170a9244",
+      "bytes": 8598
+    },
+    {
+      "file": "allowed-mask-B.png",
+      "sha256": "94e0f9bc59c2c25347f33506241d09585dbf69b489b3356f823d01ad2c7526db",
+      "bytes": 8056
+    },
+    {
+      "file": "pixel-difference.png",
+      "sha256": "1ea529002998909687bc57ad8e0e7dfb954caaef842de99559220e396059a313",
+      "bytes": 8557
+    }
+  ]
+}

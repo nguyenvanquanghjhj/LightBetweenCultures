@@ -1,0 +1,12 @@
+{
+    "output": "Builds/Android/LightBetweenCultures-AndroidTouch-20261020.apk",
+    "identifier": "com.DefaultCompany.LightBetweenCultures",
+    "result": "Succeeded",
+    "error": "",
+    "startedUTC": "2026-10-20T07:36:41.1706961Z",
+    "finishedUTC": "2026-10-20T07:44:53.6072560Z",
+    "bytes": 1529219543,
+    "customKeystore": false,
+    "errors": 0,
+    "warnings": 1013
+}

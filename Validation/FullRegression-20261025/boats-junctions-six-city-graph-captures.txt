@@ -1,0 +1,56 @@
+2026-10-25T08:07:17.7207499Z | 540x960 | X-WorldMap-select-hoi_an.png | SHA256 7B242A470FABD3134E8959EBE4C52FE9937B6B74930D9BF85D016A12D9D06E41
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R1-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R1-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R1-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R1-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R1-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R1-reverse-arrival.png
+2026-10-25T08:07:27.5649602Z | 540x960 | X-WorldMap-select-da_lat.png | SHA256 FBF551B7201254A7AC57E1D8A4293D239253539D037C5E67F27987293928807C
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R2-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R2-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R2-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R2-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R2-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R2-reverse-arrival.png
+2026-10-25T08:07:39.3315954Z | 540x960 | X-WorldMap-select-gyeongju.png | SHA256 B9E7317D3CBC4B6CD42467C95FE565F18A26D98A21D6558C200E20EC19001CCD
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R4-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R4-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R4-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R4-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R4-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R4-reverse-arrival.png
+2026-10-25T08:07:49.2975652Z | 540x960 | X-WorldMap-select-gyeongju.png | SHA256 30EAAFA265ED8DE5453BF9CF3D082D29A962BD2EB3F6515BD3C05182028424C8
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R3-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R3-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R3-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R3-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R3-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R3-reverse-arrival.png
+2026-10-25T08:07:57.7212646Z | 540x960 | X-WorldMap-select-seoul.png | SHA256 D38FCEE7F202D0D0D58672907DCD9C261DADB2A8D8F241EE8BFC3011C658DDD9
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R5-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R5-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R5-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R5-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R5-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\R5-reverse-arrival.png
+2026-10-25T08:08:08.6194810Z | 540x960 | X-WorldMap-select-hoi_an.png | SHA256 9C72A2DC0163B9DF6238C823CC7BEC82353D2AACC10709B0DCA863FBFDB0F940
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\X1-approaching.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\X1-branch-arrival.png
+2026-10-25T08:08:16.5546893Z | 540x960 | X-WorldMap-select-jeonju.png | SHA256 1015FA0D29985FF8DDEACAE57E3A27FAABAE984EE87B04396A14EC1890CB6341
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\X3-approaching.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\X3-branch-arrival.png
+2026-10-25T08:08:22.4321257Z | 540x960 | X-WorldMap-select-gyeongju.png | SHA256 6A15C46937E159403551C8AA990A28EBDD2CBCC5D1DE731AC1B0EBED858C6A56
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\X4-approaching.png
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\X4-branch-arrival.png
+2026-10-25T08:08:27.6481165Z | 540x960 | X-WorldMap-select-da_lat.png | SHA256 1A5E47A82C1643855EE353A99C29A87C4FC1F925B49EC0647EE45AF59CDC0CDE
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\City-da_lat.png
+2026-10-25T08:08:29.0743366Z | 540x960 | X-WorldMap-select-gyeongju.png | SHA256 DA9AB69B76562088BA76BB7D310FE0617A96A00CFE31ED1F160FA49DD422D02E
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\City-gyeongju.png
+2026-10-25T08:08:30.4236085Z | 540x960 | X-WorldMap-select-hoi_an.png | SHA256 F81EF812AEFA65F0C39FDCCF222A91C8B44A1FB6DE898C17B45826A9798810F3
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\City-hoi_an.png
+2026-10-25T08:08:32.1693102Z | 540x960 | X-WorldMap-select-hue.png | SHA256 5829BB012E8346C35D6779B72B63A2D62B04DEDB01DDD5BC0D656DD41DD195E3
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\City-hue.png
+2026-10-25T08:08:33.5665334Z | 540x960 | X-WorldMap-select-jeonju.png | SHA256 1E3A773B6E87465C9F3A704134096F3330A4FD6FE76D9A46143B95B0C3411A48
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\City-jeonju.png
+2026-10-25T08:08:34.9507868Z | 540x960 | X-WorldMap-select-seoul.png | SHA256 C7E0AB86BBA47B52DE94736900EB78C26FC4B7DD5E79F85EA8042D19BDB7787F
+D:\GAMEKKK\LightBetweenCultures\Validation\FullRegression-20261025\boats-junctions-six-city-graph\City-seoul.png

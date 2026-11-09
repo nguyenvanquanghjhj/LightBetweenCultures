@@ -1,0 +1,16 @@
+{
+  "status": "PC_FULL_PLAYTHROUGH_PASS",
+  "player": "D:\\GAMEKKK\\LightBetweenCultures\\Builds\\Windows-PcGameplayQA-20261024\\LightBetweenCultures.exe",
+  "campaign": 191.0446527,
+  "isolatedSave": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\gameplay-save.json",
+  "restart": 8.0621198,
+  "playthrough": "campaign/pc-playthrough.json",
+  "h3": "campaign/pc-h3-return.json",
+  "tea": "campaign/pc-consumable-result.json",
+  "bait": "campaign/pc-bait-result.json",
+  "ownerSaveUnchanged": true,
+  "protectedSourceUnchanged": true,
+  "runtimeGameFixForH3": false,
+  "h3Status": "NOT_REPRODUCED",
+  "scope": "Windows only after owner explicitly stopped Android"
+}

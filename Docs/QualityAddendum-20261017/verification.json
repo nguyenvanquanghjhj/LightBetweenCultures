@@ -1,0 +1,103 @@
+{
+  "createdUTC": "2026-10-17T12:38:20.651993+00:00",
+  "status": "TARGETED_GUARD_AND_POSTCARD_RUNTIME_PASS",
+  "changedFiles": [
+    "Assets/_Game/Scripts/Editor/HoiAnDemoSetup.cs",
+    "Assets/_Game/Scripts/Editor/H3ArtSetup.cs",
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Scripts/Editor/AdventureUISetup.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.RenderQuality.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CrossCity.cs"
+  ],
+  "nodes": 133,
+  "quests": 29,
+  "runtimeCities": 6,
+  "unplayableImportedEvents": 0,
+  "canonicalSourceChecks": [
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/enemies.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/items.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/quests.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/world_progression.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/da_lat.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/gyeongju.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/hoi_an.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/hue.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/jeonju.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/seoul.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_HoiAn_StoryExpansion_v1/Data/cross_city_food_hooks.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_HoiAn_StoryExpansion_v1/Data/hoi_an_chapter.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json",
+      "unchanged": true
+    },
+    {
+      "path": "LBC_HoiAn_StoryExpansion_v1/Data/marker_rules.json",
+      "unchanged": true
+    },
+    {
+      "path": "Docs/Story/FULL_STORY_PLAYTEST.md",
+      "unchanged": true
+    }
+  ],
+  "storyDocument": "Docs/Story/FULL_STORY_PLAYTEST.md",
+  "oldAlternateStoryPathExists": false,
+  "hoiAnMaxDegree": 3,
+  "phucRuntimeNodes": [
+    "H14"
+  ],
+  "DQ05": "D4 -> confirmed J15; one strawberry; optional, not a Seoul gate",
+  "newRuntimePlaytest": {
+    "run": "Validation/QualityAddendum-20261017/Postcard02/smoke-results.txt",
+    "assertions": 18,
+    "receipt": "PRESENTATION FIXTURE ONLY, no item granted",
+    "inventory": "Real UI selecting an actually earned HQ07 postcard",
+    "assemblySHA256": "07003ecabc852a46842638520f6589332b45014ee7c00ff07c8460e1bf2a98e6"
+  },
+  "androidPhysical": "NOT VERIFIED",
+  "terrain": "R1/R2/R3 NEEDS_REVIEW",
+  "preservation": "Scene, gameplay content, all NPC/enemy/Lumi/marker bindings, and 30 package/project configuration files unchanged; only two postcard item art bindings changed",
+  "guard": {
+    "status": "PASS",
+    "actualLegacySetupInvoked": true,
+    "sceneBytesUnchanged": true,
+    "activeSceneUnchanged": true,
+    "playerBuildRequired": false
+  }
+}

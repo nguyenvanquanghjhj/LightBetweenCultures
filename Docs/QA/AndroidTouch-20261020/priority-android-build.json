@@ -1,0 +1,12 @@
+{
+    "output": "Builds/Android/LightBetweenCultures-OwnerPriority-20261020.apk",
+    "identifier": "com.DefaultCompany.LightBetweenCultures",
+    "result": "Succeeded",
+    "error": "",
+    "startedUTC": "2026-10-20T08:33:31.5567963Z",
+    "finishedUTC": "2026-10-20T08:36:06.7814073Z",
+    "bytes": 1529211798,
+    "customKeystore": false,
+    "errors": 0,
+    "warnings": 1012
+}

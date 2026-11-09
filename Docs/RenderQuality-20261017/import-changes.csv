@@ -1,0 +1,15 @@
+﻿asset,old compression,new compression,old filter,new filter,old mip,new mip,source WxH,import WxH
+Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png,Compressed,Uncompressed,Bilinear,Bilinear,False,False,1448x1086,1448x1086
+Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png,Compressed,Uncompressed,Bilinear,Bilinear,False,False,1448x1086,1448x1086
+Assets/_Game/Art/_SourceSheets/ItemSheet_VNKR_FoodCulture_v1.png,Compressed,Uncompressed,Bilinear,Bilinear,False,False,1448x1086,1448x1086
+Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png,Uncompressed,Uncompressed,Bilinear,Trilinear,False,True,790x1060,790x1060
+Assets/_Game/Art/Characters/Lumi/Lumi_ExplorationIdle.png,Uncompressed,Uncompressed,Bilinear,Trilinear,False,True,1292x1217,1292x1217
+Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png,Uncompressed,Uncompressed,Bilinear,Trilinear,False,True,1300x1209,1300x1209
+Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png,Uncompressed,Uncompressed,Bilinear,Trilinear,False,True,1254x1254,1254x1254
+Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png,Uncompressed,Uncompressed,Bilinear,Trilinear,False,True,1211x1299,1211x1299
+Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png,Uncompressed,Uncompressed,Bilinear,Trilinear,False,True,1261x1247,1261x1247
+Assets/_Game/Art/Items/Consumables/Item_Healing_Tea.png,Uncompressed,Uncompressed,Bilinear,Trilinear,False,True,1254x1254,1254x1254
+Assets/_Game/Art/Items/Food/Item_HoiAn_Chili.png,Uncompressed,Uncompressed,Bilinear,Trilinear,False,True,1254x1254,1254x1254
+Assets/_Game/Art/Items/Food/Item_HoiAn_Shallot.png,Uncompressed,Uncompressed,Bilinear,Trilinear,False,True,1254x1254,1254x1254
+Assets/_Game/Art/Items/Materials/Item_Copper_Wire.png,Uncompressed,Uncompressed,Bilinear,Trilinear,False,True,1254x1254,1254x1254
+Assets/_Game/Art/Items/Quest/Item_Hanji_Core.png,Uncompressed,Uncompressed,Bilinear,Trilinear,False,True,1254x1254,1254x1254

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "dialogue-complete-fixtures",
+    "status": "PASS",
+    "exit": 0,
+    "assertions": 116,
+    "seconds": 29.94,
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "arguments": [
+      "--dialogue-release-qa",
+      "--node-panel-qa",
+      "--buttons-partial-save=D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ReleaseCandidate-20261024\\shop-partial-hoian.json",
+      "--buttons-world-save=D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ReleaseCandidate-20261024\\focused\\RC-earned.json"
+    ],
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\dialogue-complete-fixtures\\smoke-results.txt",
+    "failureTail": null
+  },
+  {
+    "name": "campaign-vietnam-earned-continuation",
+    "status": "FAIL",
+    "exit": 1,
+    "assertions": 492,
+    "seconds": 182.62,
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\jeonju-isolated\\gameplay-save.json",
+    "arguments": [
+      "--pc-full-gameplay",
+      "--pc-resume-opening",
+      "--phase4-e2e=VN_FIRST"
+    ],
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\campaign-vietnam-earned-continuation\\smoke-results.txt",
+    "failureTail": "nt or battle returns map input to the player\nPASS: Closing an event or battle returns map input to the player\nPASS: Travel target S20 is discovered\nPASS: Lumi reaches S20 through the real map input\nPASS: Repair cannot skip the first phase or grant a premature ending\nPASS: Entering phase 1 grants no premature boss completion\nPASS: Entering phase 2 grants no premature boss completion\nPASS: Real truth quest and relays enable repair\nPASS: Real truth quest and relays enable repair\nPASS: Real truth quest and relays enable repair\nPASS: Actual turn combat resolves S20\nPASS: Final core needs both phases; boss victory does not skip the epilogue\nPASS: Repair saves the system and is distinct from defeating it\nPASS: Closing an event or battle returns map input to the player\nPASS: Resolved boss cannot replay for duplicate rewards: S20\nPASS: Real two-phase boss battle/repair preserves independent S21/SQ03 and no auto credits\nPASS: Persist checkpoint P4-E2E-VN_FIRST-after-boss\nPASS: Closing an event or battle returns map input to the player\nPASS: City changes go through the actual World Map\nPASS: Selecting hoi_an only previews its destination until Enter is confirmed\nPASS: Earned world flags enable the hoi_an opening\nPASS: World Map enters the configured hoi_an data in the existing CityMap scene\nPASS: Post-boss re-entry preserves6/6 without repeat celebration: hoi_an\nPASS: New runtime HoiAn still has full light after all other relics\nPASS: Closing an event or battle returns map input to the player\nSystem.Exception: Timed out: scene WorldMap\nModal=False moving=False stage=4\nButtons: H1:True:True,H17:True:True,H15:True:True,H0:True:True,AudioSettings:True:True,H18:True:True,MarkerMotion:True:True,Inventory:True:True,H10:True:True,QuestJournal:True:True,ObjectiveHint:True:True,H11:True:True,ZoomIn:True:True,H12:True:True,H7:True:True,H19:True:True,H5:True:True,H14:True:True,H21:True:True,H13:True:True,H4:True:True,ZoomOut:True:True,H9:False:False,H16:True:True,H20:True:True,FocusLumi:True:True,MapOverview:True:True,H8:True:True,Back:True:True,H2:True:True,H3:True:True,JourneyShop:True:True,Interact:True:True,H6:True:True\n  at LightBetweenCultures.GameplaySmokeRunner+<Until>d__311.MoveNext () [0x001b4] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:107 \n  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:76 \nFAILED\n"
+  }
+]

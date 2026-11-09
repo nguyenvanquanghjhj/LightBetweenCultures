@@ -1,0 +1,4357 @@
+{
+  "finishedUTC": "2026-10-20T06:43:52.930592+00:00",
+  "drives": {
+    "C": {
+      "beforeFreeBytes": 72648142848,
+      "afterFreeBytes": 72802226176,
+      "measuredFreeIncreaseBytes": 154083328
+    },
+    "D": {
+      "beforeFreeBytes": 206179192832,
+      "afterFreeBytes": 261140328448,
+      "measuredFreeIncreaseBytes": 54961135616
+    }
+  },
+  "rootsAfter": [
+    {
+      "path": "D:\\GAMEKKK\\LightBetweenCultures",
+      "exists": true,
+      "bytes": 5281145025,
+      "files": 63107,
+      "groups": [
+        {
+          "path": "Library",
+          "bytes": 3692692305,
+          "files": 60049
+        },
+        {
+          "path": "Library\\DataStore",
+          "bytes": 1627489447,
+          "files": 25
+        },
+        {
+          "path": "Library\\PackageCache",
+          "bytes": 1303869940,
+          "files": 45664
+        },
+        {
+          "path": "Builds",
+          "bytes": 1071241984,
+          "files": 377
+        },
+        {
+          "path": "Builds\\Windows-LeisureVisuals-20261020",
+          "bytes": 781645160,
+          "files": 376
+        },
+        {
+          "path": "Builds\\Windows-LeisureVisuals-20261020\\LightBetweenCultures_Data",
+          "bytes": 650314867,
+          "files": 345
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.ai.assistant@1b11b9bfd84a",
+          "bytes": 535938100,
+          "files": 6463
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.shadergraph@58bcb150677d",
+          "bytes": 310618499,
+          "files": 4941
+        },
+        {
+          "path": "Builds\\Android",
+          "bytes": 289596824,
+          "files": 1
+        },
+        {
+          "path": "Assets",
+          "bytes": 238038613,
+          "files": 817
+        },
+        {
+          "path": "Assets\\_Game",
+          "bytes": 233141140,
+          "files": 780
+        },
+        {
+          "path": "Assets\\_Game\\Art",
+          "bytes": 207153788,
+          "files": 368
+        },
+        {
+          "path": "Library\\Search",
+          "bytes": 189617540,
+          "files": 9
+        },
+        {
+          "path": "Library\\ShaderCache",
+          "bytes": 106542148,
+          "files": 13938
+        },
+        {
+          "path": "Docs",
+          "bytes": 65254518,
+          "files": 732
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.dt.app-ui@8606a9847e5b",
+          "bytes": 65001980,
+          "files": 5773
+        },
+        {
+          "path": "Library\\ShaderCache\\shader",
+          "bytes": 60222092,
+          "files": 9575
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.render-pipelines.core@285af6b8c83f",
+          "bytes": 60094430,
+          "files": 3107
+        },
+        {
+          "path": "LBC_AnhMoi_BanGiaoCodex_20261015",
+          "bytes": 59139900,
+          "files": 21
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.render-pipelines.universal@2309ae255609",
+          "bytes": 57822725,
+          "files": 3002
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.2d.animation@899988b542b9",
+          "bytes": 51772300,
+          "files": 2062
+        },
+        {
+          "path": "Library\\ScriptAssemblies",
+          "bytes": 50027580,
+          "files": 318
+        },
+        {
+          "path": "LBC_AnhMoi_BanGiaoCodex_20261015\\Maps",
+          "bytes": 47467479,
+          "files": 12
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.timeline@4891807c6bd8",
+          "bytes": 38679140,
+          "files": 1643
+        },
+        {
+          "path": "Library\\ShaderCache\\compute",
+          "bytes": 38586020,
+          "files": 2998
+        },
+        {
+          "path": "ReviewPacks",
+          "bytes": 37937350,
+          "files": 22
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.collab-proxy@4628d2ba6ea4",
+          "bytes": 37334914,
+          "files": 2910
+        },
+        {
+          "path": "ReviewPacks\\QualityAddendum-20261017",
+          "bytes": 28915582,
+          "files": 6
+        },
+        {
+          "path": "Tools",
+          "bytes": 27129046,
+          "files": 138
+        },
+        {
+          "path": "Tools\\SixCityRouteEditor",
+          "bytes": 26013678,
+          "files": 23
+        },
+        {
+          "path": "Docs\\Maps",
+          "bytes": 25287010,
+          "files": 81
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.ugui@42f0bd825000",
+          "bytes": 25096233,
+          "files": 1405
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.visualscripting@4edfcc09512f",
+          "bytes": 24753449,
+          "files": 3862
+        },
+        {
+          "path": "Tools\\SixCityRouteEditor\\assets",
+          "bytes": 24291963,
+          "files": 6
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.inputsystem@7a4e1a2a8194",
+          "bytes": 24010113,
+          "files": 2071
+        },
+        {
+          "path": "LightBetweenCultures_DesignKit_v1",
+          "bytes": 23786064,
+          "files": 59
+        },
+        {
+          "path": "Validation",
+          "bytes": 23268414,
+          "files": 772
+        },
+        {
+          "path": "Docs\\Storage",
+          "bytes": 22823280,
+          "files": 41
+        },
+        {
+          "path": "LightBetweenCultures_DesignKit_v1\\References",
+          "bytes": 19926894,
+          "files": 27
+        },
+        {
+          "path": "Docs\\Maps\\TerrainRoutes-20261017",
+          "bytes": 19225147,
+          "files": 17
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.ai.inference@9a123aee5df7",
+          "bytes": 15037701,
+          "files": 2638
+        },
+        {
+          "path": "Submission",
+          "bytes": 13538135,
+          "files": 7
+        },
+        {
+          "path": "Submission\\KGW2026",
+          "bytes": 13538135,
+          "files": 7
+        },
+        {
+          "path": "Assets\\_Game\\Audio",
+          "bytes": 13266652,
+          "files": 24
+        },
+        {
+          "path": "Docs\\Storage\\20261017",
+          "bytes": 12518358,
+          "files": 15
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.2d.spriteshape@42798c9d35d3",
+          "bytes": 12151566,
+          "files": 345
+        },
+        {
+          "path": "Validation\\SixCityRouteEditor-20261019",
+          "bytes": 11634801,
+          "files": 6
+        },
+        {
+          "path": "LBC_Gameplay_6Cities_Detailed_v1",
+          "bytes": 11381586,
+          "files": 28
+        },
+        {
+          "path": "LBC_Gameplay_6Cities_Detailed_v1\\Maps",
+          "bytes": 11114634,
+          "files": 12
+        },
+        {
+          "path": "Assets\\_Game\\Resources",
+          "bytes": 11019044,
+          "files": 65
+        },
+        {
+          "path": "_CheckIn_Import_20261018",
+          "bytes": 10148243,
+          "files": 20
+        },
+        {
+          "path": "_CheckIn_Import_20261018\\images",
+          "bytes": 10145338,
+          "files": 18
+        },
+        {
+          "path": "Builds\\Windows-LeisureVisuals-20261020\\D3D12",
+          "bytes": 9655408,
+          "files": 2
+        },
+        {
+          "path": "LBC_AnhMoi_BanGiaoCodex_20261015\\Characters",
+          "bytes": 9483706,
+          "files": 4
+        },
+        {
+          "path": "Builds\\Windows-LeisureVisuals-20261020\\MonoBleedingEdge",
+          "bytes": 9127766,
+          "files": 20
+        },
+        {
+          "path": "ReviewPacks\\10Story12Leisure-20261019",
+          "bytes": 9021768,
+          "files": 16
+        },
+        {
+          "path": "ReviewPacks\\10Story12Leisure-20261019\\Sprites_12",
+          "bytes": 8979845,
+          "files": 12
+        },
+        {
+          "path": "Library\\SplashScreenCache",
+          "bytes": 8439564,
+          "files": 3
+        },
+        {
+          "path": "LBC_AnhMoi_BanGiaoCodex_20261015\\Maps\\Jeonju",
+          "bytes": 8313775,
+          "files": 2
+        },
+        {
+          "path": "LBC_AnhMoi_BanGiaoCodex_20261015\\Maps\\Gyeongju",
+          "bytes": 8099146,
+          "files": 2
+        },
+        {
+          "path": "LBC_AnhMoi_BanGiaoCodex_20261015\\Maps\\Hue",
+          "bytes": 7967838,
+          "files": 2
+        },
+        {
+          "path": "LBC_AnhMoi_BanGiaoCodex_20261015\\Maps\\DaLat",
+          "bytes": 7878636,
+          "files": 2
+        },
+        {
+          "path": "LBC_AnhMoi_BanGiaoCodex_20261015\\Maps\\Seoul",
+          "bytes": 7756561,
+          "files": 2
+        },
+        {
+          "path": "Library\\ShaderCache\\builtin",
+          "bytes": 7722772,
+          "files": 1364
+        },
+        {
+          "path": "LBC_AnhMoi_BanGiaoCodex_20261015\\Maps\\HoiAn",
+          "bytes": 7451523,
+          "files": 2
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.nuget.newtonsoft-json@4dfd81071c64",
+          "bytes": 7171867,
+          "files": 27
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.2d.tilemap.extras@9446f3c60919",
+          "bytes": 7026524,
+          "files": 257
+        },
+        {
+          "path": "References",
+          "bytes": 7024877,
+          "files": 3
+        },
+        {
+          "path": "LBC_Gameplay_6Cities_Detailed_v1\\Maps\\CoordinateGrids",
+          "bytes": 5895316,
+          "files": 6
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.learn.iet-framework@96330db47073",
+          "bytes": 5731165,
+          "files": 684
+        },
+        {
+          "path": "Docs\\Storage\\SafeCleanup-20261019",
+          "bytes": 5654127,
+          "files": 17
+        },
+        {
+          "path": "Docs\\Art",
+          "bytes": 5649417,
+          "files": 124
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.collections@10fff0607388",
+          "bytes": 5610057,
+          "files": 477
+        },
+        {
+          "path": "References\\MarkerDesign",
+          "bytes": 5330713,
+          "files": 2
+        },
+        {
+          "path": "LBC_Gameplay_6Cities_Detailed_v1\\Maps\\NodeOverlays",
+          "bytes": 5219318,
+          "files": 6
+        },
+        {
+          "path": "Docs\\Storage\\DeepCleanup-20261020",
+          "bytes": 4650795,
+          "files": 9
+        },
+        {
+          "path": "Assets\\Settings",
+          "bytes": 4051259,
+          "files": 15
+        },
+        {
+          "path": "Docs\\Gameplay",
+          "bytes": 3817874,
+          "files": 98
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.2d.psdimporter@e02a9153d8d9",
+          "bytes": 3781303,
+          "files": 341
+        },
+        {
+          "path": "LightBetweenCultures_DesignKit_v1\\References\\IndividualConcepts",
+          "bytes": 3432316,
+          "files": 20
+        },
+        {
+          "path": "Docs\\Maps\\AppliedRouteReferences-20261019",
+          "bytes": 3303057,
+          "files": 12
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.2d.common@b779c433ed47",
+          "bytes": 2848456,
+          "files": 367
+        },
+        {
+          "path": "Library\\SplashScreenCache\\e9",
+          "bytes": 2813188,
+          "files": 1
+        },
+        {
+          "path": "Library\\SplashScreenCache\\a1",
+          "bytes": 2813188,
+          "files": 1
+        },
+        {
+          "path": "Library\\SplashScreenCache\\4e",
+          "bytes": 2813188,
+          "files": 1
+        },
+        {
+          "path": "Docs\\Art\\NpcIdentityLock-20261017",
+          "bytes": 2519838,
+          "files": 61
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.2d.aseprite@ab909e3e9b5f",
+          "bytes": 2457006,
+          "files": 176
+        },
+        {
+          "path": "Docs\\Story",
+          "bytes": 2277802,
+          "files": 21
+        },
+        {
+          "path": "LBC_AnhMoi_BanGiaoCodex_20261015\\Props",
+          "bytes": 2167806,
+          "files": 1
+        },
+        {
+          "path": "Library\\APIUpdater",
+          "bytes": 2164957,
+          "files": 3
+        },
+        {
+          "path": "Library\\APIUpdater\\ConfigurationCache",
+          "bytes": 2145432,
+          "files": 2
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.searcher@a463122f2c00",
+          "bytes": 2064496,
+          "files": 123
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019",
+          "bytes": 1993638,
+          "files": 26
+        },
+        {
+          "path": "Docs\\RenderQuality-20261017",
+          "bytes": 1938832,
+          "files": 233
+        },
+        {
+          "path": "Docs\\QualityAddendum-20261017",
+          "bytes": 1806322,
+          "files": 53
+        },
+        {
+          "path": "Docs\\QualityAddendum-20261017\\BeforeFiles",
+          "bytes": 1784042,
+          "files": 45
+        },
+        {
+          "path": "References\\NeedsReview",
+          "bytes": 1694164,
+          "files": 1
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.ide.visualstudio@a99d56dec63f",
+          "bytes": 1678465,
+          "files": 132
+        },
+        {
+          "path": "Validation\\RouteMarkupExport-20261018",
+          "bytes": 1470478,
+          "files": 6
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.2d.tilemap@f4c7bd71ac8a",
+          "bytes": 1349656,
+          "files": 502
+        },
+        {
+          "path": "Assets\\_Game\\Scripts",
+          "bytes": 1290322,
+          "files": 300
+        },
+        {
+          "path": "Docs\\Gameplay\\HoiAnLighting-20261018",
+          "bytes": 1245387,
+          "files": 10
+        },
+        {
+          "path": "LightBetweenCultures_DesignKit_v1\\Assets",
+          "bytes": 1221693,
+          "files": 14
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.test-framework@80f691d4262b",
+          "bytes": 1200537,
+          "files": 1176
+        },
+        {
+          "path": "Tools\\SixCityRouteEditor\\data",
+          "bytes": 1199253,
+          "files": 4
+        },
+        {
+          "path": "LightBetweenCultures_DesignKit_v1\\Assets\\Lumi",
+          "bytes": 1175972,
+          "files": 3
+        },
+        {
+          "path": "Docs\\Story\\PortraitStory-20261017",
+          "bytes": 1174700,
+          "files": 7
+        },
+        {
+          "path": "Docs\\Maps\\RouteRedesign35-20261018",
+          "bytes": 1153965,
+          "files": 16
+        },
+        {
+          "path": "Docs\\RenderQuality-20261017\\BeforeFiles",
+          "bytes": 1140356,
+          "files": 226
+        },
+        {
+          "path": "Validation\\OwnerRouteRedesign-20261019",
+          "bytes": 1104312,
+          "files": 14
+        },
+        {
+          "path": "Validation\\FullStory-20261017",
+          "bytes": 1090062,
+          "files": 38
+        },
+        {
+          "path": "Docs\\Story\\FullStory-20261017",
+          "bytes": 1024597,
+          "files": 11
+        },
+        {
+          "path": "Docs\\Art\\PortraitStory-20261017",
+          "bytes": 988299,
+          "files": 3
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.2d.sprite@752945c75a6f",
+          "bytes": 897380,
+          "files": 253
+        },
+        {
+          "path": "Docs\\Art\\NpcReuse-20261017",
+          "bytes": 883599,
+          "files": 18
+        },
+        {
+          "path": "Docs\\Maps\\OwnerRoutePhaseB-20261019",
+          "bytes": 830009,
+          "files": 16
+        },
+        {
+          "path": "Assets\\Welcome",
+          "bytes": 824920,
+          "files": 12
+        },
+        {
+          "path": "Docs\\Gameplay\\Phase0-20261018",
+          "bytes": 821498,
+          "files": 16
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.settings-manager@0b8638c5ce86",
+          "bytes": 812096,
+          "files": 68
+        },
+        {
+          "path": "Validation\\Phase7-20261019",
+          "bytes": 708163,
+          "files": 15
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.test-framework.performance@54c5bd86aedb",
+          "bytes": 700505,
+          "files": 146
+        },
+        {
+          "path": "Builds\\Windows-LeisureVisuals-20261020\\LightBetweenCultures_BackUpThisFolder_ButDontShipItWithYourGame",
+          "bytes": 687935,
+          "files": 1
+        },
+        {
+          "path": "Docs\\H3Upgrade-20261017",
+          "bytes": 631041,
+          "files": 10
+        },
+        {
+          "path": "LightBetweenCultures_DesignKit_v1\\Maps",
+          "bytes": 555289,
+          "files": 3
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.profiling.core@8a49f7027d06",
+          "bytes": 551528,
+          "files": 41
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.nuget.mono-cecil@ecb9724e46ff",
+          "bytes": 530604,
+          "files": 26
+        },
+        {
+          "path": "Validation\\Phase7-20261019\\bot-derived-preview",
+          "bytes": 517853,
+          "files": 4
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017",
+          "bytes": 504101,
+          "files": 44
+        },
+        {
+          "path": "Validation\\Phase5-20261018",
+          "bytes": 481923,
+          "files": 25
+        },
+        {
+          "path": "Docs\\Maps\\SixRouteReferences-20261018",
+          "bytes": 455137,
+          "files": 6
+        },
+        {
+          "path": "Docs\\H3Upgrade-20261017\\BeforeFiles",
+          "bytes": 446746,
+          "files": 4
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017",
+          "bytes": 436108,
+          "files": 59
+        },
+        {
+          "path": "Assets\\_Game\\Scenes",
+          "bytes": 399111,
+          "files": 8
+        },
+        {
+          "path": "Validation\\Phase4-20261018",
+          "bytes": 342189,
+          "files": 37
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.ext.nunit@0198eae3b53e",
+          "bytes": 333976,
+          "files": 15
+        },
+        {
+          "path": "Docs\\QA",
+          "bytes": 326689,
+          "files": 20
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.2d.tooling@4e93af4036ee",
+          "bytes": 312024,
+          "files": 246
+        },
+        {
+          "path": "Docs\\Puzzles",
+          "bytes": 292842,
+          "files": 18
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
+          "bytes": 283494,
+          "files": 112
+        },
+        {
+          "path": "Library\\PackageManager",
+          "bytes": 250649,
+          "files": 45
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019",
+          "bytes": 244418,
+          "files": 15
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020",
+          "bytes": 241913,
+          "files": 21
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018",
+          "bytes": 229667,
+          "files": 15
+        },
+        {
+          "path": "Docs\\Gameplay\\CheckInArt-20261018",
+          "bytes": 218484,
+          "files": 11
+        },
+        {
+          "path": "LBC_Gameplay_6Cities_Detailed_v1\\Data",
+          "bytes": 213412,
+          "files": 12
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019",
+          "bytes": 202491,
+          "files": 13
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017",
+          "bytes": 174136,
+          "files": 27
+        },
+        {
+          "path": "Validation\\10Story12Leisure-20261019",
+          "bytes": 172144,
+          "files": 15
+        },
+        {
+          "path": "LBC_Gameplay_6Cities_Detailed_v1\\Data\\Cities",
+          "bytes": 164326,
+          "files": 6
+        },
+        {
+          "path": "Validation\\GenuinelyFun-20261020",
+          "bytes": 154854,
+          "files": 18
+        },
+        {
+          "path": "Docs\\Contest",
+          "bytes": 144223,
+          "files": 9
+        },
+        {
+          "path": "Docs\\Contest\\KGW2026",
+          "bytes": 144223,
+          "files": 9
+        },
+        {
+          "path": "Validation\\ReleaseReadiness-20261017",
+          "bytes": 137918,
+          "files": 11
+        },
+        {
+          "path": "Docs\\Gameplay\\RelicPilot-20261018",
+          "bytes": 133681,
+          "files": 9
+        },
+        {
+          "path": "Validation\\Phase6-20261019",
+          "bytes": 131733,
+          "files": 11
+        },
+        {
+          "path": "Docs\\Art\\NpcInventory-20261017",
+          "bytes": 130926,
+          "files": 8
+        },
+        {
+          "path": "Docs\\Puzzles\\LBC_CultureMoments_REWORK30_20261017",
+          "bytes": 128123,
+          "files": 8
+        },
+        {
+          "path": "Docs\\Puzzles\\LBC_Puzzle_Bank_20261017",
+          "bytes": 127518,
+          "files": 5
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.graph-authoring@cfd2588851ee",
+          "bytes": 126993,
+          "files": 51
+        },
+        {
+          "path": "Validation\\FourTrackMusic-20261018",
+          "bytes": 115355,
+          "files": 5
+        },
+        {
+          "path": "Docs\\Maps\\CityMapUIPolish-20261017",
+          "bytes": 113433,
+          "files": 4
+        },
+        {
+          "path": "Assembly-CSharp.csproj",
+          "bytes": 112996,
+          "files": 1
+        },
+        {
+          "path": "Assembly-CSharp-Editor.csproj",
+          "bytes": 112284,
+          "files": 1
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017",
+          "bytes": 102264,
+          "files": 16
+        },
+        {
+          "path": "Validation\\HueJeonjuChapters-20261017",
+          "bytes": 95727,
+          "files": 19
+        },
+        {
+          "path": "LBC_HoiAn_StoryExpansion_v1",
+          "bytes": 93990,
+          "files": 8
+        },
+        {
+          "path": "Docs\\QA\\AndroidApk-20261019",
+          "bytes": 92549,
+          "files": 2
+        },
+        {
+          "path": "Validation\\LeisureActivitiesFullReview-20261019",
+          "bytes": 91102,
+          "files": 5
+        },
+        {
+          "path": "Docs\\Chapters",
+          "bytes": 90425,
+          "files": 9
+        },
+        {
+          "path": "Validation\\FinalPolish-20261019",
+          "bytes": 89174,
+          "files": 5
+        },
+        {
+          "path": "Validation\\LeisureAnimationPilot-20261019",
+          "bytes": 89126,
+          "files": 5
+        },
+        {
+          "path": "Validation\\OwnerConfusion-20261020",
+          "bytes": 88127,
+          "files": 14
+        },
+        {
+          "path": "Validation\\MapNpcMarkers-20261018",
+          "bytes": 86891,
+          "files": 9
+        },
+        {
+          "path": "Unity.2D.Welcome.csproj",
+          "bytes": 85427,
+          "files": 1
+        },
+        {
+          "path": "Docs\\QA\\FinalPolish-20261019",
+          "bytes": 82439,
+          "files": 2
+        },
+        {
+          "path": "Validation\\MapClarity-20261019",
+          "bytes": 82267,
+          "files": 5
+        },
+        {
+          "path": "Docs\\Prompts",
+          "bytes": 81384,
+          "files": 2
+        },
+        {
+          "path": "Validation\\RouteRedesign35-20261018",
+          "bytes": 79688,
+          "files": 6
+        },
+        {
+          "path": "Docs\\Art\\IdentityPolicy-20261017",
+          "bytes": 77025,
+          "files": 4
+        },
+        {
+          "path": "LBC_HoiAn_StoryExpansion_v1\\Data",
+          "bytes": 74864,
+          "files": 4
+        },
+        {
+          "path": "Docs\\Gameplay\\Phase5-20261018",
+          "bytes": 71962,
+          "files": 6
+        },
+        {
+          "path": "Validation\\CasualRuntime-20261020",
+          "bytes": 67590,
+          "files": 9
+        },
+        {
+          "path": "ProjectSettings",
+          "bytes": 65072,
+          "files": 30
+        },
+        {
+          "path": "Validation\\ContestReadiness-20261020",
+          "bytes": 64160,
+          "files": 8
+        },
+        {
+          "path": "UserSettings",
+          "bytes": 62379,
+          "files": 12
+        },
+        {
+          "path": "Docs\\QA\\Phase7",
+          "bytes": 60818,
+          "files": 5
+        },
+        {
+          "path": "Validation\\RenderQuality-20261017",
+          "bytes": 58532,
+          "files": 13
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017",
+          "bytes": 57436,
+          "files": 34
+        },
+        {
+          "path": "Docs\\Requests",
+          "bytes": 54777,
+          "files": 7
+        },
+        {
+          "path": "Docs\\Requests\\20261017",
+          "bytes": 54777,
+          "files": 7
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Fresh04",
+          "bytes": 54310,
+          "files": 3
+        },
+        {
+          "path": "UserSettings\\Layouts",
+          "bytes": 53926,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicPilot-20261018",
+          "bytes": 53148,
+          "files": 8
+        },
+        {
+          "path": "LBC_Gameplay_6Cities_Detailed_v1\\Docs",
+          "bytes": 51556,
+          "files": 3
+        },
+        {
+          "path": "Validation\\PlayerExperience-20261019",
+          "bytes": 50664,
+          "files": 13
+        },
+        {
+          "path": "Validation\\CityMapNatural-20261016",
+          "bytes": 46999,
+          "files": 15
+        },
+        {
+          "path": "Validation\\RenderQuality-20261017\\Regression",
+          "bytes": 46996,
+          "files": 6
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\story-korea-seoul02",
+          "bytes": 46182,
+          "files": 3
+        },
+        {
+          "path": "LightBetweenCultures_DesignKit_v1\\Assets\\Markers",
+          "bytes": 45721,
+          "files": 11
+        },
+        {
+          "path": "Docs\\Gameplay\\Phase4-20261018",
+          "bytes": 45493,
+          "files": 14
+        },
+        {
+          "path": "ReviewPacks\\10Story12Leisure-20261019\\Docs",
+          "bytes": 41923,
+          "files": 4
+        },
+        {
+          "path": "Validation\\UI1ArtDirection-20261016",
+          "bytes": 38908,
+          "files": 16
+        },
+        {
+          "path": "Validation\\MapActorsStage1-20261016",
+          "bytes": 38908,
+          "files": 16
+        },
+        {
+          "path": "Validation\\GameplayAB-20261016",
+          "bytes": 38613,
+          "files": 19
+        },
+        {
+          "path": "Validation\\QualityAddendum-20261017",
+          "bytes": 38296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\AdventureUI-20261016",
+          "bytes": 38272,
+          "files": 16
+        },
+        {
+          "path": "Validation\\10Story12Leisure-20261019\\all12-01",
+          "bytes": 37393,
+          "files": 2
+        },
+        {
+          "path": "Docs\\Puzzles\\ExistingQuizAudit-20261017",
+          "bytes": 37201,
+          "files": 5
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\legacy-claim01",
+          "bytes": 37016,
+          "files": 2
+        },
+        {
+          "path": "Docs\\Art\\FullStory-20261017",
+          "bytes": 36986,
+          "files": 3
+        },
+        {
+          "path": "Docs\\Gameplay\\HoiAnLightingB20-20261018",
+          "bytes": 36415,
+          "files": 5
+        },
+        {
+          "path": "Validation\\SwingStanding-20261019",
+          "bytes": 36366,
+          "files": 2
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Reverse03",
+          "bytes": 36239,
+          "files": 2
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Tail01",
+          "bytes": 36065,
+          "files": 2
+        },
+        {
+          "path": "Validation\\GenuinelyFun-20261020\\boss-two-phase01",
+          "bytes": 34976,
+          "files": 2
+        },
+        {
+          "path": "Validation\\Phase7-20261019\\vn01",
+          "bytes": 32910,
+          "files": 2
+        },
+        {
+          "path": "Validation\\10Story12Leisure-20261019\\e2e-korea01",
+          "bytes": 32714,
+          "files": 2
+        },
+        {
+          "path": "Validation\\10Story12Leisure-20261019\\e2e-vn01",
+          "bytes": 32690,
+          "files": 2
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\leisure12",
+          "bytes": 32488,
+          "files": 2
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\story-vietnam",
+          "bytes": 32366,
+          "files": 3
+        },
+        {
+          "path": "Validation\\GenuinelyFun-20261020\\cultural-actions01",
+          "bytes": 32350,
+          "files": 2
+        },
+        {
+          "path": "LightBetweenCultures_DesignKit_v1\\Docs",
+          "bytes": 32046,
+          "files": 8
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\retention-journal",
+          "bytes": 31616,
+          "files": 2
+        },
+        {
+          "path": "Validation\\SpecialtyItems-20261016",
+          "bytes": 31196,
+          "files": 10
+        },
+        {
+          "path": "Docs\\QA\\CasualAdventure-20261020",
+          "bytes": 30596,
+          "files": 1
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.editorcoroutines@8cd72baa102a",
+          "bytes": 29798,
+          "files": 22
+        },
+        {
+          "path": "Library\\InputSystem",
+          "bytes": 29484,
+          "files": 2
+        },
+        {
+          "path": "Validation\\CrossCityFood-20261016",
+          "bytes": 29095,
+          "files": 8
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\UI04",
+          "bytes": 25603,
+          "files": 2
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\UI03",
+          "bytes": 25603,
+          "files": 2
+        },
+        {
+          "path": "Docs\\QA\\Phase6-VisualAndroid",
+          "bytes": 25294,
+          "files": 2
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\AfterJourney02",
+          "bytes": 24359,
+          "files": 5
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017\\Journey01",
+          "bytes": 24295,
+          "files": 5
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Journey04",
+          "bytes": 24295,
+          "files": 5
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Journey02",
+          "bytes": 24295,
+          "files": 5
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\FinalJourney",
+          "bytes": 24295,
+          "files": 5
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey",
+          "bytes": 24295,
+          "files": 5
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017\\AcceptanceIntegrated",
+          "bytes": 24229,
+          "files": 5
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017\\FinalIntegratedHueFirst",
+          "bytes": 24153,
+          "files": 5
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017\\FinalIntegrated",
+          "bytes": 24153,
+          "files": 5
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Fresh02",
+          "bytes": 23693,
+          "files": 5
+        },
+        {
+          "path": "Docs\\Gameplay\\RelicStory-20261018",
+          "bytes": 23562,
+          "files": 8
+        },
+        {
+          "path": "Validation\\GenuinelyFun-20261020\\star-shield02",
+          "bytes": 23424,
+          "files": 2
+        },
+        {
+          "path": "Validation\\ExplorationMarkers-20261016",
+          "bytes": 23167,
+          "files": 10
+        },
+        {
+          "path": "Validation\\FourTrackMusic-20261018\\fresh04",
+          "bytes": 23160,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase7-20261019\\ending01",
+          "bytes": 23128,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase6-20261019\\ending01",
+          "bytes": 23100,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-ready02",
+          "bytes": 23100,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-ready01",
+          "bytes": 23100,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-interrupted02",
+          "bytes": 23100,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-interrupted01",
+          "bytes": 23100,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-completed01",
+          "bytes": 23100,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\matrix04",
+          "bytes": 23100,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\matrix03",
+          "bytes": 23100,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\matrix02",
+          "bytes": 23100,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FourTrackMusic-20261018\\fresh03",
+          "bytes": 23094,
+          "files": 1
+        },
+        {
+          "path": "Docs\\Maps\\OwnerRouteRedesign-20261019",
+          "bytes": 23063,
+          "files": 2
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\retro-korea01",
+          "bytes": 23052,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-legacy-six01",
+          "bytes": 23051,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FourTrackMusic-20261018\\fresh01",
+          "bytes": 23051,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FourTrackMusic-20261018\\fresh02",
+          "bytes": 23046,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapNpcMarkers-20261018\\six-cities02",
+          "bytes": 23042,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapNpcMarkers-20261018\\six-cities01",
+          "bytes": 23042,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapNpcMarkers-20261018\\seoul03",
+          "bytes": 23042,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\matrix01",
+          "bytes": 23010,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FourTrackMusic-20261018\\restart01",
+          "bytes": 23004,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\retro-vn01",
+          "bytes": 22986,
+          "files": 1
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.mathematics@8306a64d0cd6",
+          "bytes": 22907,
+          "files": 18
+        },
+        {
+          "path": "Validation\\HueJeonjuChapters-20261017\\HueFirst",
+          "bytes": 21458,
+          "files": 5
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\hue-culture02",
+          "bytes": 21448,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Before",
+          "bytes": 21422,
+          "files": 5
+        },
+        {
+          "path": "Validation\\HueJeonjuChapters-20261017\\ValidatedBuild04HueFirst",
+          "bytes": 21412,
+          "files": 5
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017\\FinalHueFirst",
+          "bytes": 20818,
+          "files": 5
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Fresh01",
+          "bytes": 20807,
+          "files": 5
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017\\Diagnostics01",
+          "bytes": 19926,
+          "files": 2
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\FinalDiagnostics",
+          "bytes": 19925,
+          "files": 2
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics",
+          "bytes": 19925,
+          "files": 2
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\AfterDiagnostics02",
+          "bytes": 19925,
+          "files": 2
+        },
+        {
+          "path": "Packages",
+          "bytes": 19875,
+          "files": 2
+        },
+        {
+          "path": "Validation\\NodeMarkers-20261016",
+          "bytes": 19454,
+          "files": 8
+        },
+        {
+          "path": "Validation\\ReleaseReadiness-20261017\\Restart02-seoul",
+          "bytes": 19159,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Coverage03",
+          "bytes": 19159,
+          "files": 1
+        },
+        {
+          "path": "Validation\\NpcReuse-20261017",
+          "bytes": 19158,
+          "files": 1
+        },
+        {
+          "path": "Validation\\NpcReuse-20261017\\S7-S14",
+          "bytes": 19158,
+          "files": 1
+        },
+        {
+          "path": "Validation\\QualityAddendum-20261017\\Postcard02",
+          "bytes": 19148,
+          "files": 1
+        },
+        {
+          "path": "Validation\\QualityAddendum-20261017\\Postcard",
+          "bytes": 19148,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ReleaseReadiness-20261017\\Restart02-gyeongju",
+          "bytes": 19028,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\photo-album18",
+          "bytes": 18985,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\RestartFinal-seoul",
+          "bytes": 18957,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\Restart-seoul",
+          "bytes": 18957,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\CrossAlbum01",
+          "bytes": 18957,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\Journey02",
+          "bytes": 18956,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ReleaseReadiness-20261017\\Restart02-jeonju",
+          "bytes": 18909,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicPilot-20261018\\Retro01",
+          "bytes": 18879,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ReleaseReadiness-20261017\\Restart02-da_lat",
+          "bytes": 18802,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\Restart-gyeongju",
+          "bytes": 18715,
+          "files": 1
+        },
+        {
+          "path": "Validation\\10Story12Leisure-20261019\\restart-all12-01",
+          "bytes": 18714,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ReleaseReadiness-20261017\\Restart02-hue",
+          "bytes": 18659,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ReleaseReadiness-20261017\\Restart02-hoi_an",
+          "bytes": 18605,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ReleaseReadiness-20261017\\Restart-hoi_an",
+          "bytes": 18605,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\Restart-da_lat",
+          "bytes": 18487,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\Restart-hue",
+          "bytes": 18481,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\Restart-jeonju",
+          "bytes": 18475,
+          "files": 1
+        },
+        {
+          "path": "Validation\\10Story12Leisure-20261019\\recheck01",
+          "bytes": 18455,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\RestartFinal-hoi_an",
+          "bytes": 18450,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\Restart-hoi_an",
+          "bytes": 18450,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\Journey01",
+          "bytes": 18449,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Reverse02",
+          "bytes": 18425,
+          "files": 5
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Restart-Ending",
+          "bytes": 18269,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase7-20261019\\leisure01",
+          "bytes": 18252,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureActivitiesFullReview-20261019\\player01",
+          "bytes": 18252,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalPolish-20261019\\leisure-polish01",
+          "bytes": 18233,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalPolish-20261019\\leisure-before01",
+          "bytes": 18233,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalPolish-20261019\\recovery-tea-snack01",
+          "bytes": 18232,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-Restart-seoul-01",
+          "bytes": 18231,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-H8Frames01",
+          "bytes": 18231,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-After02",
+          "bytes": 18231,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalPolish-20261019\\recovery-restart01",
+          "bytes": 18231,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-Restart-da_lat-01",
+          "bytes": 18220,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureActivitiesFullReview-20261019\\player04",
+          "bytes": 18218,
+          "files": 1
+        },
+        {
+          "path": "Validation\\10Story12Leisure-20261019\\swing01",
+          "bytes": 18218,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-Restart-hue-01",
+          "bytes": 18217,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureAnimationPilot-20261019\\restart01",
+          "bytes": 18216,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureAnimationPilot-20261019\\player04",
+          "bytes": 18216,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureAnimationPilot-20261019\\player03",
+          "bytes": 18216,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-Restart-gyeongju-01",
+          "bytes": 18212,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureActivitiesFullReview-20261019\\player02",
+          "bytes": 18212,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-Restart-jeonju-01",
+          "bytes": 18210,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureActivitiesFullReview-20261019\\restart01",
+          "bytes": 18210,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureActivitiesFullReview-20261019\\player03",
+          "bytes": 18210,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteRedesign35-20261018\\WorldRestart01",
+          "bytes": 18203,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteRedesign35-20261018\\Before01",
+          "bytes": 18203,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteRedesign35-20261018\\After02",
+          "bytes": 18203,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteRedesign35-20261018\\After01",
+          "bytes": 18203,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-legacy-zero01",
+          "bytes": 18203,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\restart-seoul-01",
+          "bytes": 18203,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\refine01",
+          "bytes": 18203,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\before01",
+          "bytes": 18203,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\after01",
+          "bytes": 18203,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\after-overview01",
+          "bytes": 18203,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\restart-da_lat-01",
+          "bytes": 18192,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\restart-hue-01",
+          "bytes": 18189,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-Restart-hoi_an-01",
+          "bytes": 18186,
+          "files": 1
+        },
+        {
+          "path": "LightBetweenCultures_DesignKit_v1\\Data",
+          "bytes": 18186,
+          "files": 5
+        },
+        {
+          "path": "Validation\\RelicPilot-20261018\\NPC01",
+          "bytes": 18185,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\restart-gyeongju-01",
+          "bytes": 18184,
+          "files": 1
+        },
+        {
+          "path": "Validation\\SwingStanding-20261019\\player02",
+          "bytes": 18183,
+          "files": 1
+        },
+        {
+          "path": "Validation\\SwingStanding-20261019\\player01",
+          "bytes": 18183,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureAnimationPilot-20261019\\player02",
+          "bytes": 18183,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\restart-jeonju-01",
+          "bytes": 18182,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Coverage02",
+          "bytes": 18166,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HueJeonjuChapters-20261017\\Attempt03Fresh",
+          "bytes": 18164,
+          "files": 5
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\restart-hoi_an-02",
+          "bytes": 18158,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\restart-hoi_an-01",
+          "bytes": 18157,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Restart-Epilogue",
+          "bytes": 17971,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Restart-BeforeBoss",
+          "bytes": 17567,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase7-20261019\\ending-denial01",
+          "bytes": 17536,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\boss-zero-relics",
+          "bytes": 17536,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-repair01",
+          "bytes": 17508,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\no-relics02",
+          "bytes": 17508,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureVisualFix-20261020",
+          "bytes": 17453,
+          "files": 2
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\no-relics01",
+          "bytes": 17390,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-mid-boss01",
+          "bytes": 17344,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Negative-S17",
+          "bytes": 16781,
+          "files": 1
+        },
+        {
+          "path": "LBC_HoiAn_StoryExpansion_v1\\Docs",
+          "bytes": 16724,
+          "files": 3
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-relay01",
+          "bytes": 16570,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\windows720",
+          "bytes": 16568,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLightingB20-20261018",
+          "bytes": 16550,
+          "files": 8
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\junctions720",
+          "bytes": 16541,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\runtime02",
+          "bytes": 16518,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PlayerExperience-20261019\\lantern-editor02",
+          "bytes": 16504,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PlayerExperience-20261019\\lantern-editor01",
+          "bytes": 16504,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapClarity-20261019\\before",
+          "bytes": 16500,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapClarity-20261019\\after",
+          "bytes": 16500,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase7-20261019\\korea01",
+          "bytes": 16467,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase7-20261019\\restart01",
+          "bytes": 16456,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase7-20261019\\portraits01",
+          "bytes": 16455,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase7-20261019\\bots-before01",
+          "bytes": 16455,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\runtime",
+          "bytes": 16455,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapClarity-20261019\\windows-player",
+          "bytes": 16455,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase7-20261019\\visual01",
+          "bytes": 16406,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapClarity-20261019\\windows-player-windowed",
+          "bytes": 16406,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapClarity-20261019\\checks720",
+          "bytes": 16406,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\mid-boat-restart",
+          "bytes": 16405,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\mid-boat-close",
+          "bytes": 16405,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\leisure12-native",
+          "bytes": 16346,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-Ending-Current",
+          "bytes": 16315,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureAnimationPilot-20261019\\player01",
+          "bytes": 16295,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\npc-actors",
+          "bytes": 16294,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Negative-S16",
+          "bytes": 16291,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\Relay01",
+          "bytes": 16250,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-Ending-Restart01",
+          "bytes": 16245,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-Ending-Current02",
+          "bytes": 16245,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase7-20261019\\maps01",
+          "bytes": 16245,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalPolish-20261019\\maps-before01",
+          "bytes": 16245,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-Before01",
+          "bytes": 16244,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-AfterOverview01",
+          "bytes": 16244,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Negative-S18",
+          "bytes": 16229,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureVisualFix-20261020\\player01",
+          "bytes": 16218,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase6-20261019\\restart01",
+          "bytes": 16217,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase6-20261019\\before02",
+          "bytes": 16217,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-completed02",
+          "bytes": 16217,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase6-20261019\\main02",
+          "bytes": 16216,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase6-20261019\\main01",
+          "bytes": 16216,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\tail-vn01",
+          "bytes": 16216,
+          "files": 1
+        },
+        {
+          "path": "Validation\\GenuinelyFun-20261020\\fallback-four01",
+          "bytes": 16195,
+          "files": 1
+        },
+        {
+          "path": "Validation\\GenuinelyFun-20261020\\activity-restart01",
+          "bytes": 16175,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-After01",
+          "bytes": 16152,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\presentation01",
+          "bytes": 16149,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase6-20261019\\battle01",
+          "bytes": 16148,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\e2e-vn01",
+          "bytes": 16122,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\e2e-vn01",
+          "bytes": 16095,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CrossCityFood-20261016\\HueFirst",
+          "bytes": 16092,
+          "files": 5
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\tail-korea01",
+          "bytes": 16086,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase6-20261019\\before01",
+          "bytes": 16045,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\e2e-korea01",
+          "bytes": 15992,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-battle01",
+          "bytes": 15965,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\e2e-korea03",
+          "bytes": 15965,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\routes-boats-junctions",
+          "bytes": 15886,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\story-vietnam-seoul02",
+          "bytes": 15703,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\retention-menu-restart",
+          "bytes": 15703,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\owner-seal",
+          "bytes": 15630,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\fresh-vietnam",
+          "bytes": 15629,
+          "files": 1
+        },
+        {
+          "path": "Validation\\SpecialtyItems-20261016\\ReceiptBefore",
+          "bytes": 15598,
+          "files": 5
+        },
+        {
+          "path": "Validation\\SpecialtyItems-20261016\\Final",
+          "bytes": 15598,
+          "files": 5
+        },
+        {
+          "path": "Validation\\CityMapNatural-20261016\\Final",
+          "bytes": 15598,
+          "files": 5
+        },
+        {
+          "path": "Validation\\CityMapNatural-20261016\\Attempt01Final",
+          "bytes": 15598,
+          "files": 5
+        },
+        {
+          "path": "Validation\\ArtLibrary-20261016",
+          "bytes": 15598,
+          "files": 5
+        },
+        {
+          "path": "Validation\\ArtLibrary-20261016\\Final",
+          "bytes": 15598,
+          "files": 5
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\seoul01",
+          "bytes": 15593,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\ending-restart",
+          "bytes": 15593,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerConfusion-20261020\\before-clarity",
+          "bytes": 15593,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\ending-restart",
+          "bytes": 15593,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ContestReadiness-20261020\\resume01",
+          "bytes": 15593,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\seoul02",
+          "bytes": 15592,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\seoul-restart-final-C",
+          "bytes": 15592,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\seoul-restart-C",
+          "bytes": 15592,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CasualRuntime-20261020\\leisure12",
+          "bytes": 15558,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerConfusion-20261020\\seal03",
+          "bytes": 15520,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerConfusion-20261020\\seal02",
+          "bytes": 15520,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerConfusion-20261020\\after-clarity",
+          "bytes": 15519,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\fresh-korea",
+          "bytes": 15519,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\BeforeJourney",
+          "bytes": 15496,
+          "files": 5
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\BeforeClean",
+          "bytes": 15496,
+          "files": 5
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\seoul-restart-A",
+          "bytes": 15489,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ContestReadiness-20261020\\signature-seoul",
+          "bytes": 15098,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CasualRuntime-20261020\\signature-seoul",
+          "bytes": 14996,
+          "files": 1
+        },
+        {
+          "path": "Validation\\GenuinelyFun-20261020\\star-shield01",
+          "bytes": 14872,
+          "files": 2
+        },
+        {
+          "path": "Validation\\HoiAnLighting-20261018",
+          "bytes": 14262,
+          "files": 6
+        },
+        {
+          "path": "Validation\\Art",
+          "bytes": 14205,
+          "files": 7
+        },
+        {
+          "path": "Validation\\CasualAdventure-20261020",
+          "bytes": 13827,
+          "files": 4
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\story-vietnam-seoul",
+          "bytes": 13008,
+          "files": 1
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017\\AcceptanceBattleThief",
+          "bytes": 12928,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase5-20261018\\restart-pre-seoul01",
+          "bytes": 12925,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\story-korea-seoul",
+          "bytes": 12894,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerRoutePhaseB-20261019\\story-korea",
+          "bytes": 12893,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart04-Ferry",
+          "bytes": 12802,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart03-Ferry",
+          "bytes": 12802,
+          "files": 1
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017\\Restart01-DaLat",
+          "bytes": 12718,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart04-DaLat",
+          "bytes": 12718,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart03-DaLat",
+          "bytes": 12718,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Diagnostics04",
+          "bytes": 12684,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Diagnostics03",
+          "bytes": 12684,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Diagnostics02",
+          "bytes": 12684,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\AfterBaTu04-IncompleteInput",
+          "bytes": 12684,
+          "files": 1
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017\\Attempt05",
+          "bytes": 12676,
+          "files": 1
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017\\FinalBattleThief",
+          "bytes": 12620,
+          "files": 1
+        },
+        {
+          "path": "Library\\PackageManager\\Cache",
+          "bytes": 12604,
+          "files": 42
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart04-DaLat",
+          "bytes": 12578,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart-DaLat",
+          "bytes": 12578,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Restart-Jeonju",
+          "bytes": 12116,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Fresh03",
+          "bytes": 12085,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\gyeongju-restart-C",
+          "bytes": 11869,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\gyeongju-repair01",
+          "bytes": 11869,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicStory-20261018",
+          "bytes": 11816,
+          "files": 4
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\gyeongju01",
+          "bytes": 11783,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\gyeongju-restart-A",
+          "bytes": 11684,
+          "files": 1
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017\\Attempt02",
+          "bytes": 11566,
+          "files": 1
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017\\Attempt01",
+          "bytes": 11531,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ContestReadiness-20261020\\signature-gyeongju",
+          "bytes": 11492,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CasualRuntime-20261020\\signature-gyeongju",
+          "bytes": 11393,
+          "files": 1
+        },
+        {
+          "path": "Docs\\QA\\FinalGameplayAndroid-20261020",
+          "bytes": 11268,
+          "files": 1
+        },
+        {
+          "path": "Assets\\_Game\\Prefabs",
+          "bytes": 11191,
+          "files": 9
+        },
+        {
+          "path": "Assets\\_Recovery",
+          "bytes": 10160,
+          "files": 2
+        },
+        {
+          "path": "Assets\\Scenes",
+          "bytes": 10102,
+          "files": 2
+        },
+        {
+          "path": "Validation\\HueJeonjuChapters-20261017\\JeonjuFirst",
+          "bytes": 10077,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Reverse04",
+          "bytes": 10043,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Reverse03",
+          "bytes": 10043,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\FinalReverse",
+          "bytes": 10043,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse",
+          "bytes": 10043,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\AfterReverse02",
+          "bytes": 10043,
+          "files": 1
+        },
+        {
+          "path": "Assets\\Settings\\Scenes",
+          "bytes": 10036,
+          "files": 2
+        },
+        {
+          "path": "Validation\\HueJeonjuChapters-20261017\\ValidatedBuild04JeonjuFirst",
+          "bytes": 10031,
+          "files": 1
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017\\Restart01-Ferry",
+          "bytes": 9963,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Ferry",
+          "bytes": 9963,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart-Ferry",
+          "bytes": 9963,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\AfterDiagnostics01",
+          "bytes": 9941,
+          "files": 1
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017\\Before",
+          "bytes": 9845,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart04-Stage4",
+          "bytes": 9845,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart03-Stage4",
+          "bytes": 9845,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart-Stage4",
+          "bytes": 9845,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\BeforeRetry",
+          "bytes": 9845,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\BeforeChapters",
+          "bytes": 9845,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Before",
+          "bytes": 9845,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MarkerSprites-20261016",
+          "bytes": 9843,
+          "files": 4
+        },
+        {
+          "path": "Validation\\MarkerSprites-20261016\\Final",
+          "bytes": 9843,
+          "files": 4
+        },
+        {
+          "path": "Validation\\ExplorationMarkers-20261016\\Final",
+          "bytes": 9843,
+          "files": 4
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017\\Attempt04",
+          "bytes": 9731,
+          "files": 1
+        },
+        {
+          "path": "Validation\\DaLatChapter-20261017\\Attempt03",
+          "bytes": 9731,
+          "files": 1
+        },
+        {
+          "path": "Validation\\UI1ArtDirection-20261016\\Run02",
+          "bytes": 9727,
+          "files": 4
+        },
+        {
+          "path": "Validation\\UI1ArtDirection-20261016\\Run01",
+          "bytes": 9727,
+          "files": 4
+        },
+        {
+          "path": "Validation\\UI1ArtDirection-20261016\\Final",
+          "bytes": 9727,
+          "files": 4
+        },
+        {
+          "path": "Validation\\UI1ArtDirection-20261016\\Before",
+          "bytes": 9727,
+          "files": 4
+        },
+        {
+          "path": "Validation\\NodeMarkers-20261016\\Run01",
+          "bytes": 9727,
+          "files": 4
+        },
+        {
+          "path": "Validation\\NodeMarkers-20261016\\Final",
+          "bytes": 9727,
+          "files": 4
+        },
+        {
+          "path": "Validation\\MapActorsStage1-20261016\\Run03",
+          "bytes": 9727,
+          "files": 4
+        },
+        {
+          "path": "Validation\\MapActorsStage1-20261016\\Run02",
+          "bytes": 9727,
+          "files": 4
+        },
+        {
+          "path": "Validation\\MapActorsStage1-20261016\\Run01",
+          "bytes": 9727,
+          "files": 4
+        },
+        {
+          "path": "Validation\\MapActorsStage1-20261016\\Final",
+          "bytes": 9727,
+          "files": 4
+        },
+        {
+          "path": "Validation\\AdventureUI-20261016\\Final",
+          "bytes": 9727,
+          "files": 4
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Hue",
+          "bytes": 9619,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\e2e-korea01",
+          "bytes": 9575,
+          "files": 1
+        },
+        {
+          "path": "Validation\\H3TapPickup-20261020",
+          "bytes": 9548,
+          "files": 6
+        },
+        {
+          "path": "Validation\\AdventureUI-20261016\\Run03",
+          "bytes": 9535,
+          "files": 4
+        },
+        {
+          "path": "Validation\\AdventureUI-20261016\\Run02",
+          "bytes": 9535,
+          "files": 4
+        },
+        {
+          "path": "Validation\\GameplayAB-20261016\\Run06",
+          "bytes": 9475,
+          "files": 4
+        },
+        {
+          "path": "Validation\\GameplayAB-20261016\\Final",
+          "bytes": 9475,
+          "files": 4
+        },
+        {
+          "path": "Validation\\AdventureUI-20261016\\Run01",
+          "bytes": 9475,
+          "files": 4
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Restart-DaLat",
+          "bytes": 9442,
+          "files": 1
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017\\Restart01-Jeonju",
+          "bytes": 9426,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart04-Jeonju",
+          "bytes": 9426,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart03-Jeonju",
+          "bytes": 9426,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart-Jeonju",
+          "bytes": 9426,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CasualAdventure-20261020\\delivery01",
+          "bytes": 9366,
+          "files": 1
+        },
+        {
+          "path": "Validation\\SoftSfx-20261018",
+          "bytes": 9342,
+          "files": 6
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Handoff05",
+          "bytes": 9338,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase6-20261019\\restore01",
+          "bytes": 9040,
+          "files": 2
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Restart-Gyeongju",
+          "bytes": 8687,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CrossCityFood-20261016\\JeonjuFirst",
+          "bytes": 8490,
+          "files": 2
+        },
+        {
+          "path": "Validation\\GenuinelyFun-20261020\\hoi-an02",
+          "bytes": 8431,
+          "files": 4
+        },
+        {
+          "path": "Validation\\GenuinelyFun-20261020\\hoi-an01",
+          "bytes": 8431,
+          "files": 4
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\dalat01",
+          "bytes": 8427,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\dalat-restart-C",
+          "bytes": 8427,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HueJeonjuChapters-20261017\\Attempt02",
+          "bytes": 8372,
+          "files": 1
+        },
+        {
+          "path": "Docs\\QA\\PlayerExperience-20261019",
+          "bytes": 8343,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\dalat-restart-A",
+          "bytes": 8328,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ContestReadiness-20261020\\signature-jeonju-final",
+          "bytes": 8065,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ContestReadiness-20261020\\signature-jeonju",
+          "bytes": 8065,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CasualRuntime-20261020\\signature-jeonju",
+          "bytes": 7966,
+          "files": 1
+        },
+        {
+          "path": "Validation\\WorldReactionsV2-20261017",
+          "bytes": 7940,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.render-pipelines.universal-config@561422b74439",
+          "bytes": 7463,
+          "files": 23
+        },
+        {
+          "path": "Library\\BuildProfiles",
+          "bytes": 7326,
+          "files": 4
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\UnityAutoSettingsBeforeRestore",
+          "bytes": 7158,
+          "files": 1
+        },
+        {
+          "path": "Validation\\10Story12Leisure-20261019\\pilot02",
+          "bytes": 6980,
+          "files": 3
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Jeonju",
+          "bytes": 6968,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\AfterJourney01",
+          "bytes": 6885,
+          "files": 3
+        },
+        {
+          "path": "Validation\\CasualRuntime-20261020\\signature-da_lat",
+          "bytes": 6690,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ExplorationMarkers-20261016\\Attempt2",
+          "bytes": 6633,
+          "files": 3
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017\\Restart01-Hue",
+          "bytes": 6629,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart04-Hue",
+          "bytes": 6629,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart03-Hue",
+          "bytes": 6629,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Restart-Hue",
+          "bytes": 6629,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart-Hue",
+          "bytes": 6629,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapNpcMarkers-20261018\\fresh02",
+          "bytes": 6624,
+          "files": 2
+        },
+        {
+          "path": "Validation\\OwnerConfusion-20261020\\fresh02",
+          "bytes": 6438,
+          "files": 3
+        },
+        {
+          "path": "Validation\\OwnerConfusion-20261020\\fresh01",
+          "bytes": 6438,
+          "files": 3
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\owner-fresh",
+          "bytes": 6438,
+          "files": 3
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Before",
+          "bytes": 6374,
+          "files": 3
+        },
+        {
+          "path": "Tools\\__pycache__",
+          "bytes": 6309,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\hue01",
+          "bytes": 6221,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\hue-restart-C",
+          "bytes": 6221,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HueJeonjuChapters-20261017\\Attempt01",
+          "bytes": 6213,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\hue-restart-A",
+          "bytes": 6128,
+          "files": 1
+        },
+        {
+          "path": "Validation\\GameplayAB-20261016\\Run02",
+          "bytes": 5866,
+          "files": 3
+        },
+        {
+          "path": "Validation\\GameplayAB-20261016\\Run01",
+          "bytes": 5866,
+          "files": 3
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\retention-fresh-core",
+          "bytes": 5847,
+          "files": 3
+        },
+        {
+          "path": "Validation\\ContestReadiness-20261020\\core01",
+          "bytes": 5847,
+          "files": 3
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\e2e-korea02",
+          "bytes": 5432,
+          "files": 1
+        },
+        {
+          "path": "Docs\\QA\\CasualRuntime-20261020",
+          "bytes": 5431,
+          "files": 1
+        },
+        {
+          "path": "Validation\\10Story12Leisure-20261019\\pilot01",
+          "bytes": 4672,
+          "files": 2
+        },
+        {
+          "path": "Validation\\CasualRuntime-20261020\\signature-hue",
+          "bytes": 4621,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerConfusion-20261020\\seal01",
+          "bytes": 4528,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\jeonju03",
+          "bytes": 4520,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\jeonju02",
+          "bytes": 4520,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\jeonju-restart-C",
+          "bytes": 4520,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CrossCityFood-20261016\\Attempt01HueFirst",
+          "bytes": 4513,
+          "files": 1
+        },
+        {
+          "path": "README.md",
+          "bytes": 4488,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\jeonju-restart-A",
+          "bytes": 4421,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapNatural-20261016\\Before",
+          "bytes": 4019,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapNatural-20261016\\Attempt01After",
+          "bytes": 4019,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapNatural-20261016\\After",
+          "bytes": 4019,
+          "files": 1
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017\\Restart01-Stage4",
+          "bytes": 3985,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FullStory-20261017\\Restart-HA",
+          "bytes": 3985,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage4",
+          "bytes": 3985,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\BeforeCrossRetry",
+          "bytes": 3949,
+          "files": 1
+        },
+        {
+          "path": "AGENTS.md",
+          "bytes": 3679,
+          "files": 1
+        },
+        {
+          "path": "Docs\\QA\\MapClarity-20261019",
+          "bytes": 3573,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ExplorationMarkers-20261016\\Attempt1",
+          "bytes": 3539,
+          "files": 2
+        },
+        {
+          "path": "Validation\\PlayerExperience-20261019\\after-720-main02",
+          "bytes": 3451,
+          "files": 2
+        },
+        {
+          "path": "Validation\\PlayerExperience-20261019\\after-720-main01",
+          "bytes": 3449,
+          "files": 2
+        },
+        {
+          "path": "Validation\\RouteRedesign35-20261018\\Restart01",
+          "bytes": 3438,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteRedesign35-20261018\\Fresh01",
+          "bytes": 3438,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicStory-20261018\\PilotSaveRestart01",
+          "bytes": 3438,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicStory-20261018\\Fresh01",
+          "bytes": 3438,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicPilot-20261018\\Restart01",
+          "bytes": 3438,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicPilot-20261018\\Fresh04",
+          "bytes": 3438,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicPilot-20261018\\Fresh03",
+          "bytes": 3438,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\RelicRestart01",
+          "bytes": 3438,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\RelicFresh01",
+          "bytes": 3438,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PlayerExperience-20261019\\after-editor-logical04",
+          "bytes": 3352,
+          "files": 2
+        },
+        {
+          "path": "Validation\\PlayerExperience-20261019\\after-editor-logical03",
+          "bytes": 3352,
+          "files": 2
+        },
+        {
+          "path": "Validation\\GameplayAB-20261016\\Run05",
+          "bytes": 3332,
+          "files": 2
+        },
+        {
+          "path": "Validation\\GameplayAB-20261016\\Run03",
+          "bytes": 3332,
+          "files": 2
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.burst@626e66ab421b",
+          "bytes": 3314,
+          "files": 7
+        },
+        {
+          "path": "Validation\\MapNpcMarkers-20261018\\fresh01",
+          "bytes": 3312,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapNpcMarkers-20261018\\restart02",
+          "bytes": 3311,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapNpcMarkers-20261018\\restart01",
+          "bytes": 3311,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CasualRuntime-20261020\\core01",
+          "bytes": 3298,
+          "files": 2
+        },
+        {
+          "path": "Validation\\RenderQuality-20261017\\BeforeH3",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\RenderQuality-20261017\\Before",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\RenderQuality-20261017\\After",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\ReleaseReadiness-20261017\\H3-Verified",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Touch07",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Touch06",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Touch05",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Touch04",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Touch03",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Touch02",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Desktop06",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Desktop05",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Desktop04",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Desktop03",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Desktop02",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Desktop01",
+          "bytes": 3296,
+          "files": 2
+        },
+        {
+          "path": "Validation\\CasualAdventure-20261020\\after-ui01",
+          "bytes": 3226,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3TapPickup-20261020\\touch",
+          "bytes": 3174,
+          "files": 2
+        },
+        {
+          "path": "Validation\\H3TapPickup-20261020\\mouse",
+          "bytes": 3174,
+          "files": 2
+        },
+        {
+          "path": "Validation\\HoiAnLightingB20-20261018\\check-C",
+          "bytes": 3165,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLighting-20261018\\run01",
+          "bytes": 3165,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLighting-20261018\\restart-C",
+          "bytes": 3165,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\jeonju01",
+          "bytes": 3164,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ExplorationMarkers-20261016\\FocusedCheckIn",
+          "bytes": 3152,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicPilot-20261018\\Fresh02",
+          "bytes": 3132,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicStory-20261018\\H7Restart01",
+          "bytes": 3131,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerConfusion-20261020\\main01",
+          "bytes": 3100,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLightingB20-20261018\\after-H7",
+          "bytes": 3073,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLighting-20261018\\restart-B-H7",
+          "bytes": 3073,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerConfusion-20261020\\restoration01",
+          "bytes": 3068,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CasualRuntime-20261020\\signature-hoi_an",
+          "bytes": 3068,
+          "files": 1
+        },
+        {
+          "path": "Docs\\QA\\H3TapPickup-20261020",
+          "bytes": 3035,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicPilot-20261018\\Fresh01",
+          "bytes": 2638,
+          "files": 2
+        },
+        {
+          "path": "Validation\\AndroidApk-20261019",
+          "bytes": 2618,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AndroidApk-20261019\\android-home",
+          "bytes": 2618,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\key-retained-fixture",
+          "bytes": 2514,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\key-restart-battle-after-H7",
+          "bytes": 2494,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\key-battle01",
+          "bytes": 2494,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\key-restart-battle-after-H5",
+          "bytes": 2448,
+          "files": 1
+        },
+        {
+          "path": "Library\\PlayModeViewStates",
+          "bytes": 2438,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\key-restart-hack-after-H7",
+          "bytes": 2435,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\key-hack01",
+          "bytes": 2435,
+          "files": 1
+        },
+        {
+          "path": "Validation\\OwnerConfusion-20261020\\resume01",
+          "bytes": 2403,
+          "files": 1
+        },
+        {
+          "path": "Validation\\FinalGameplayAndroid-20261020\\owner-four-restart",
+          "bytes": 2403,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\key-restart-hack-after-H5",
+          "bytes": 2389,
+          "files": 1
+        },
+        {
+          "path": "Validation\\WorldReactionsV2-20261017\\RestartHQ0101",
+          "bytes": 2336,
+          "files": 1
+        },
+        {
+          "path": "Validation\\WorldReactionsV2-20261017\\Fresh01",
+          "bytes": 2336,
+          "files": 1
+        },
+        {
+          "path": "Validation\\10Story12Leisure-20261019\\restart-partial01",
+          "bytes": 2308,
+          "files": 1
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017\\Restart01-Stage3",
+          "bytes": 2172,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart04-Stage3",
+          "bytes": 2172,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart03-Stage3",
+          "bytes": 2172,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage3",
+          "bytes": 2172,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart-Stage3",
+          "bytes": 2172,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\key-restart-hack-before-H5",
+          "bytes": 2159,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase4-20261018\\key-restart-battle-before-H5",
+          "bytes": 2159,
+          "files": 1
+        },
+        {
+          "path": ".vscode",
+          "bytes": 2095,
+          "files": 3
+        },
+        {
+          "path": "Validation\\SoftSfx-20261018\\restart04",
+          "bytes": 1907,
+          "files": 1
+        },
+        {
+          "path": "Validation\\SoftSfx-20261018\\fresh04",
+          "bytes": 1907,
+          "files": 1
+        },
+        {
+          "path": "Validation\\SoftSfx-20261018\\fresh03",
+          "bytes": 1907,
+          "files": 1
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017\\Restart01-Stage2",
+          "bytes": 1874,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart04-Stage2",
+          "bytes": 1874,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart03-Stage2",
+          "bytes": 1874,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage2",
+          "bytes": 1874,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart-Stage2",
+          "bytes": 1874,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapNatural-20261016\\BeforeBoss",
+          "bytes": 1873,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapNatural-20261016\\AfterBoss",
+          "bytes": 1873,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RelicStory-20261018\\LocalRestart01",
+          "bytes": 1809,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLightingB20-20261018\\restart-B",
+          "bytes": 1809,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLightingB20-20261018\\before",
+          "bytes": 1809,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLightingB20-20261018\\after03",
+          "bytes": 1809,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLightingB20-20261018\\after02",
+          "bytes": 1809,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLightingB20-20261018\\after",
+          "bytes": 1809,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLighting-20261018\\restart-B",
+          "bytes": 1809,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLighting-20261018\\restart-A-picked",
+          "bytes": 1783,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RenderQuality-20261017\\Restart",
+          "bytes": 1648,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ReleaseReadiness-20261017\\H3-Restart",
+          "bytes": 1648,
+          "files": 1
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\RestartTouch03",
+          "bytes": 1648,
+          "files": 1
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\RestartTouch02",
+          "bytes": 1648,
+          "files": 1
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\RestartTouch01",
+          "bytes": 1648,
+          "files": 1
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\RestartDesktop03",
+          "bytes": 1648,
+          "files": 1
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\RestartDesktop02",
+          "bytes": 1648,
+          "files": 1
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\RestartDesktop01",
+          "bytes": 1648,
+          "files": 1
+        },
+        {
+          "path": "Validation\\WorldReactionsV2-20261017\\RestartLocal01",
+          "bytes": 1647,
+          "files": 1
+        },
+        {
+          "path": "Library\\UIElements",
+          "bytes": 1626,
+          "files": 1
+        },
+        {
+          "path": "Library\\UIElements\\EditorWindows",
+          "bytes": 1626,
+          "files": 1
+        },
+        {
+          "path": "Validation\\H3Upgrade-20261017\\Touch01",
+          "bytes": 1622,
+          "files": 1
+        },
+        {
+          "path": "Validation\\WorldReactionsV2-20261017\\RestartPickup01",
+          "bytes": 1621,
+          "files": 1
+        },
+        {
+          "path": "Validation\\H3TapPickup-20261020\\restart02",
+          "bytes": 1613,
+          "files": 1
+        },
+        {
+          "path": "Validation\\H3TapPickup-20261020\\restart",
+          "bytes": 1587,
+          "files": 1
+        },
+        {
+          "path": "README_AUDIO_MAPPING.txt",
+          "bytes": 1534,
+          "files": 1
+        },
+        {
+          "path": "Library\\com.unity.services.core",
+          "bytes": 1532,
+          "files": 2
+        },
+        {
+          "path": "Validation\\PlayerExperience-20261019\\final-72001",
+          "bytes": 1522,
+          "files": 1
+        },
+        {
+          "path": "Validation\\TerrainRoutes-20261017\\Restart01-Stage1",
+          "bytes": 1431,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart04-Stage1",
+          "bytes": 1431,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PortraitStory-20261017\\Restart03-Stage1",
+          "bytes": 1431,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage1",
+          "bytes": 1431,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CityMapUIPolish-20261017\\Restart-Stage1",
+          "bytes": 1431,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PlayerExperience-20261019\\after-editor-logical02",
+          "bytes": 1295,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase6-20261019\\fresh02",
+          "bytes": 1267,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Phase6-20261019\\fresh01",
+          "bytes": 1267,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLightingB20-20261018\\check-A",
+          "bytes": 1267,
+          "files": 1
+        },
+        {
+          "path": "Validation\\HoiAnLighting-20261018\\restart-A",
+          "bytes": 1267,
+          "files": 1
+        },
+        {
+          "path": "Validation\\GameplayAB-20261016\\Run04",
+          "bytes": 1267,
+          "files": 1
+        },
+        {
+          "path": "Validation\\RouteShorteningProposal-20261019\\Runtime-Fresh01",
+          "bytes": 1235,
+          "files": 1
+        },
+        {
+          "path": "Validation\\PlayerExperience-20261019\\after-editor-logical01",
+          "bytes": 1235,
+          "files": 1
+        },
+        {
+          "path": "Validation\\LeisureVisualFix-20261020\\fresh01",
+          "bytes": 1235,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CasualAdventure-20261020\\before",
+          "bytes": 1235,
+          "files": 1
+        },
+        {
+          "path": "Validation\\SoftSfx-20261018\\input05",
+          "bytes": 1207,
+          "files": 1
+        },
+        {
+          "path": "Validation\\SoftSfx-20261018\\fresh02",
+          "bytes": 1207,
+          "files": 1
+        },
+        {
+          "path": "Validation\\SoftSfx-20261018\\fresh01",
+          "bytes": 1207,
+          "files": 1
+        },
+        {
+          "path": "Validation\\ReleaseReadiness-20261017\\H3",
+          "bytes": 1207,
+          "files": 1
+        },
+        {
+          "path": "Validation\\MapNpcMarkers-20261018\\hidden01",
+          "bytes": 1207,
+          "files": 1
+        },
+        {
+          "path": "Validation\\CheckInArt-20261018\\Fresh01",
+          "bytes": 1207,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\fresh02",
+          "bytes": 1207,
+          "files": 1
+        },
+        {
+          "path": "Validation\\AppliedRouteReferences-20261019\\fresh01",
+          "bytes": 1207,
+          "files": 1
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
+          "bytes": 1021,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.uielements",
+          "bytes": 930,
+          "files": 4
+        },
+        {
+          "path": "ProjectSettings\\Packages",
+          "bytes": 908,
+          "files": 2
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
+          "bytes": 873,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
+          "bytes": 851,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
+          "bytes": 837,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.terrainphysics",
+          "bytes": 802,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.xr",
+          "bytes": 780,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.adaptiveperformance",
+          "bytes": 772,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.video",
+          "bytes": 769,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.screencapture",
+          "bytes": 750,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.subsystems",
+          "bytes": 737,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.director",
+          "bytes": 728,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.imageconversion",
+          "bytes": 723,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.vehicles",
+          "bytes": 721,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.accessibility",
+          "bytes": 717,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.jsonserialize",
+          "bytes": 706,
+          "files": 4
+        },
+        {
+          "path": "Library\\StateCache",
+          "bytes": 703,
+          "files": 3
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.cloth",
+          "bytes": 699,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.assetbundle",
+          "bytes": 695,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.physics2d",
+          "bytes": 689,
+          "files": 4
+        },
+        {
+          "path": "UserSettings\\AI.Pbr",
+          "bytes": 687,
+          "files": 1
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.imgui",
+          "bytes": 687,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.androidjni",
+          "bytes": 687,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.terrain",
+          "bytes": 686,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.tetgen",
+          "bytes": 681,
+          "files": 4
+        },
+        {
+          "path": "Validation\\MapPhase1",
+          "bytes": 680,
+          "files": 2
+        },
+        {
+          "path": "Validation\\MapPhase1\\RunCapture",
+          "bytes": 680,
+          "files": 2
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.wind",
+          "bytes": 679,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.tilemap",
+          "bytes": 674,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.unitywebrequest",
+          "bytes": 671,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.particlesystem",
+          "bytes": 666,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.physicscore2d",
+          "bytes": 665,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.hierarchycore",
+          "bytes": 657,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.vectorgraphics",
+          "bytes": 647,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.animation",
+          "bytes": 646,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.ui",
+          "bytes": 640,
+          "files": 4
+        },
+        {
+          "path": "UserSettings\\AI.Animate",
+          "bytes": 639,
+          "files": 1
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.umbra",
+          "bytes": 638,
+          "files": 4
+        },
+        {
+          "path": "UserSettings\\AI.Image",
+          "bytes": 635,
+          "files": 1
+        },
+        {
+          "path": "UserSettings\\AI.Mesh",
+          "bytes": 630,
+          "files": 1
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.physics",
+          "bytes": 628,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.audio",
+          "bytes": 626,
+          "files": 4
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.ai",
+          "bytes": 623,
+          "files": 4
+        },
+        {
+          "path": "UserSettings\\AI.Sound",
+          "bytes": 615,
+          "files": 1
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.unityanalytics",
+          "bytes": 609,
+          "files": 4
+        },
+        {
+          "path": "ProjectSettings\\Packages\\com.unity.learn.iet-framework",
+          "bytes": 566,
+          "files": 1
+        },
+        {
+          "path": "Library\\PackageCache\\com.unity.modules.timelinefoundation",
+          "bytes": 566,
+          "files": 4
+        },
+        {
+          "path": "Library\\StateCache\\SceneView",
+          "bytes": 495,
+          "files": 1
+        },
+        {
+          "path": "UserSettings\\AI.Generators",
+          "bytes": 490,
+          "files": 1
+        },
+        {
+          "path": "ProjectSettings\\Packages\\com.unity.ai.assistant",
+          "bytes": 342,
+          "files": 1
+        },
+        {
+          "path": "Validation\\Art\\RunCapture",
+          "bytes": 340,
+          "files": 1
+        },
+        {
+          "path": "Docs\\QA\\MapNpcMarkers-20261018",
+          "bytes": 328,
+          "files": 1
+        },
+        {
+          "path": "Docs\\QA\\FourTrackMusic-20261018",
+          "bytes": 205,
+          "files": 1
+        },
+        {
+          "path": "LightBetweenCultures.slnx",
+          "bytes": 171,
+          "files": 1
+        },
+        {
+          "path": "Library\\StateCache\\MainStageHierarchy",
+          "bytes": 158,
+          "files": 1
+        },
+        {
+          "path": "Library\\StateCache\\LayerSettings",
+          "bytes": 50,
+          "files": 1
+        }
+      ],
+      "largeFiles": [
+        {
+          "path": "D:\\GAMEKKK\\LightBetweenCultures\\Builds\\Windows-LeisureVisuals-20261020\\LightBetweenCultures_Data\\resources.assets.resS",
+          "bytes": 547784736,
+          "mtime": 1792476008.3006248
+        },
+        {
+          "path": "D:\\GAMEKKK\\LightBetweenCultures\\Library\\DataStore\\UDSData_233.bin",
+          "bytes": 395947240,
+          "mtime": 1792421025.2351587
+        },
+        {
+          "path": "D:\\GAMEKKK\\LightBetweenCultures\\Library\\DataStore\\UDSData_10.bin",
+          "bytes": 354255540,
+          "mtime": 1792066804.7994063
+        },
+        {
+          "path": "D:\\GAMEKKK\\LightBetweenCultures\\Library\\DataStore\\UDSData_230.bin",
+          "bytes": 293718824,
+          "mtime": 1792420972.3960762
+        },
+        {
+          "path": "D:\\GAMEKKK\\LightBetweenCultures\\Builds\\Android\\LightBetweenCultures-GameFeel-20261020.apk",
+          "bytes": 289596824,
+          "mtime": 1792473667.8616679
+        },
+        {
+          "path": "D:\\GAMEKKK\\LightBetweenCultures\\Library\\ArtifactDB",
+          "bytes": 268435456,
+          "mtime": 1792476020.2988057
+        },
+        {
+          "path": "D:\\GAMEKKK\\LightBetweenCultures\\Library\\DataStore\\UDSData_232.bin",
+          "bytes": 260366662,
+          "mtime": 1792421023.1750233
+        },
+        {
+          "path": "D:\\GAMEKKK\\LightBetweenCultures\\Library\\Search\\98957a664bd18c47a3e41b2a0189ef53.SearchIndexArtifactImporter.262146.b.index",
+          "bytes": 186941440,
+          "mtime": 1792426382.946649
+        },
+        {
+          "path": "D:\\GAMEKKK\\LightBetweenCultures\\Library\\SourceAssetDB",
+          "bytes": 134217728,
+          "mtime": 1792476020.2888937
+        },
+        {
+          "path": "D:\\GAMEKKK\\LightBetweenCultures\\Library\\DataStore\\UDSData_2.bin",
+          "bytes": 112035488,
+          "mtime": 1792058727.1586764
+        }
+      ]
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups",
+      "exists": true,
+      "bytes": 497609347,
+      "files": 2708,
+      "groups": [
+        {
+          "path": "LBC_SourceVerified-20261020",
+          "bytes": 496057370,
+          "files": 2681
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project",
+          "bytes": 494203331,
+          "files": 2644
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\Assets",
+          "bytes": 238038613,
+          "files": 817
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\LBC_AnhMoi_BanGiaoCodex_20261015",
+          "bytes": 59139900,
+          "files": 21
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\Docs",
+          "bytes": 42428428,
+          "files": 690
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\ReviewPacks",
+          "bytes": 37937350,
+          "files": 22
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\Tools",
+          "bytes": 27098405,
+          "files": 132
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\LightBetweenCultures_DesignKit_v1",
+          "bytes": 23786064,
+          "files": 59
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\Validation",
+          "bytes": 23268414,
+          "files": 772
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\Submission",
+          "bytes": 13538135,
+          "files": 7
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\LBC_Gameplay_6Cities_Detailed_v1",
+          "bytes": 11381586,
+          "files": 28
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\_CheckIn_Import_20261018",
+          "bytes": 10148243,
+          "files": 20
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\References",
+          "bytes": 7024877,
+          "files": 3
+        },
+        {
+          "path": "CheckpointAndroidApkBuild-20261019",
+          "bytes": 1551977,
+          "files": 27
+        },
+        {
+          "path": "CheckpointAndroidApkBuild-20261019\\Logs",
+          "bytes": 1326121,
+          "files": 2
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique",
+          "bytes": 1281864,
+          "files": 35
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\6754096d56440079",
+          "bytes": 1108620,
+          "files": 1
+        },
+        {
+          "path": "CheckpointAndroidApkBuild-20261019\\Docs",
+          "bytes": 195515,
+          "files": 18
+        },
+        {
+          "path": "CheckpointAndroidApkBuild-20261019\\Docs\\QA",
+          "bytes": 195515,
+          "files": 18
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\LBC_HoiAn_StoryExpansion_v1",
+          "bytes": 93990,
+          "files": 8
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\ProjectSettings",
+          "bytes": 65072,
+          "files": 30
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\UserSettings",
+          "bytes": 62379,
+          "files": 12
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\95061774ab060329",
+          "bytes": 51591,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\Packages",
+          "bytes": 19875,
+          "files": 2
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\a150c83125508853",
+          "bytes": 15761,
+          "files": 1
+        },
+        {
+          "path": "CheckpointAndroidApkBuild-20261019\\Tools",
+          "bytes": 13074,
+          "files": 3
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\694ae85241e294f6",
+          "bytes": 8864,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\75e2ac2ef640210c",
+          "bytes": 5548,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\36c8905b0d1f210f",
+          "bytes": 5189,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\43187d191eee5a0c",
+          "bytes": 5125,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\87804335c1d770da",
+          "bytes": 4587,
+          "files": 1
+        },
+        {
+          "path": "CheckpointAndroidApkBuild-20261019\\Assets",
+          "bytes": 4035,
+          "files": 2
+        },
+        {
+          "path": "CheckpointAndroidApkBuild-20261019\\Assets\\_Game",
+          "bytes": 4035,
+          "files": 2
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\9ec424e6539f1f43",
+          "bytes": 3763,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\9facc3b86bcf2a51",
+          "bytes": 3732,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\2f135d3ef9727082",
+          "bytes": 3732,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\b5d209134339990b",
+          "bytes": 3718,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\4c1636dad4d92917",
+          "bytes": 3712,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\d8dc672bda2c8d84",
+          "bytes": 3709,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\5586add6d0151931",
+          "bytes": 3709,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\a1567a6b39328c46",
+          "bytes": 3706,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\49f3350e6171ce11",
+          "bytes": 3706,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\2e83b1300cd6e91f",
+          "bytes": 3706,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\24e02715ca8001f3",
+          "bytes": 3706,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\ebdfc2b056cc7c19",
+          "bytes": 3704,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\efaeac1dd320edf0",
+          "bytes": 3703,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\899be8acf32e2438",
+          "bytes": 3702,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\7e591567a5f94345",
+          "bytes": 3700,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\28a8d4c26869d8df",
+          "bytes": 3700,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\e817bfe5736df505",
+          "bytes": 3058,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\c896014ea01279e7",
+          "bytes": 2826,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\c158ac8b6173efcd",
+          "bytes": 2678,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\f8989c43a9f5ab02",
+          "bytes": 2667,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\fbf9b899d66942db",
+          "bytes": 2656,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\43324db67f19e507",
+          "bytes": 2523,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\Project\\.vscode",
+          "bytes": 2095,
+          "files": 3
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\e4abc7246a29e113",
+          "bytes": 172,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\bf5d6526d41a0876",
+          "bytes": 172,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\74f22590d858c904",
+          "bytes": 172,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\5ab3ce6b3144ebbd",
+          "bytes": 172,
+          "files": 1
+        },
+        {
+          "path": "LBC_SourceVerified-20261020\\HistoricalUnique\\e737dac8d0f4f856",
+          "bytes": 75,
+          "files": 1
+        }
+      ],
+      "largeFiles": []
+    }
+  ],
+  "backup": {
+    "path": "D:\\GAMEKKK\\Backups\\LBC_SourceVerified-20261020",
+    "manifestSHA256": "53305d534a5d5c5860003f6526d730cd412a0294a1f8c7b52831b74a54ace7a6",
+    "files": 2679,
+    "bytes": 495485195,
+    "standalone": true,
+    "verified": true
+  },
+  "backupPayloadVerifiedFiles": 2679,
+  "liveCoreVerifiedFiles": 849,
+  "retainedBuildHashesVerified": true,
+  "windowsBuild": "PRESERVED_PASS; not rebuilt or rerun during cleanup",
+  "android": "LAST_GOOD_APK_PRESERVED; latest leisure visual patch not included; DEVICE_NOT_TESTED",
+  "sharedCaches": "NOT_DELETED; Gradle daemon active",
+  "legacyToolCheckpoint": "Provenance only, not a current restorable chain",
+  "failures": "Initial Bee long-path failure resolved; no remaining deletion errors"
+}

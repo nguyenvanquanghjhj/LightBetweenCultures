@@ -1,0 +1,320 @@
+{
+  "created": "2026-10-19T18:34:32.336892+07:00",
+  "stage": "A_DIGITIZATION_DRAFT",
+  "status": "NEEDS_OWNER_CLARIFICATION_BEFORE_PRODUCTION",
+  "counts": {
+    "nodes": 133,
+    "oldEdges": 155,
+    "quests": 29,
+    "legacyPuzzleDefinitions": 22,
+    "storyInteractions": 22,
+    "leisure": 12,
+    "relics": 6,
+    "fragments": 24
+  },
+  "cities": [
+    {
+      "cityId": "hoi_an",
+      "name": "Hội An",
+      "nodeCount": 22,
+      "oldEdgeCount": 22,
+      "transform": {
+        "xScale": 0.8423128198776124,
+        "xOffset": 2.039618455264685,
+        "yScale": 0.6297755626622805,
+        "yOffset": 7.4058332145499435,
+        "controlPoints": [
+          {
+            "node": "H0",
+            "inputPixel": [
+              270,
+              511
+            ]
+          },
+          {
+            "node": "H8",
+            "inputPixel": [
+              146,
+              68
+            ]
+          },
+          {
+            "node": "H15",
+            "inputPixel": [
+              796,
+              269
+            ]
+          }
+        ],
+        "maxControlResidualPixels": 0.5222010479670303,
+        "method": "Affine scale/offset fitted to visually identified canonical node centres. Approximate raster precision, not new node coordinates."
+      },
+      "observedWalkPixels": 8873,
+      "observedFerryPixels": 167,
+      "tracedChains": 32,
+      "pointCount": 830,
+      "detachedNodes": [],
+      "needsArrivalConnector": [
+        "H10"
+      ],
+      "nearArrivalOnly": [
+        "H3",
+        "H8",
+        "H20"
+      ],
+      "approvedNewEdges": null,
+      "productionApplied": false
+    },
+    {
+      "cityId": "hue",
+      "name": "Huế",
+      "nodeCount": 22,
+      "oldEdgeCount": 28,
+      "transform": {
+        "xScale": 1.4174118795455206,
+        "xOffset": 8.371068209045694,
+        "yScale": 1.062752767270741,
+        "yOffset": 6.335127727141512,
+        "controlPoints": [
+          {
+            "node": "U0",
+            "inputPixel": [
+              502,
+              603
+            ]
+          },
+          {
+            "node": "U17",
+            "inputPixel": [
+              1184,
+              164
+            ]
+          },
+          {
+            "node": "U13",
+            "inputPixel": [
+              1032,
+              898
+            ]
+          }
+        ],
+        "maxControlResidualPixels": 1.2538286932472147,
+        "method": "Affine scale/offset fitted to visually identified canonical node centres. Approximate raster precision, not new node coordinates."
+      },
+      "observedWalkPixels": 11666,
+      "observedFerryPixels": 0,
+      "tracedChains": 35,
+      "pointCount": 1138,
+      "detachedNodes": [],
+      "needsArrivalConnector": [],
+      "nearArrivalOnly": [
+        "U12"
+      ],
+      "approvedNewEdges": null,
+      "productionApplied": false
+    },
+    {
+      "cityId": "da_lat",
+      "name": "Đà Lạt",
+      "nodeCount": 22,
+      "oldEdgeCount": 26,
+      "transform": {
+        "xScale": 0.8129108577434394,
+        "xOffset": 2.135295703042172,
+        "yScale": 0.6101184125328982,
+        "yOffset": 4.5098628812767565,
+        "controlPoints": [
+          {
+            "node": "D0",
+            "inputPixel": [
+              441,
+              397
+            ]
+          },
+          {
+            "node": "D14",
+            "inputPixel": [
+              156,
+              87
+            ]
+          },
+          {
+            "node": "D17",
+            "inputPixel": [
+              768,
+              511
+            ]
+          }
+        ],
+        "maxControlResidualPixels": 0.9707340868100118,
+        "method": "Affine scale/offset fitted to visually identified canonical node centres. Approximate raster precision, not new node coordinates."
+      },
+      "observedWalkPixels": 8740,
+      "observedFerryPixels": 125,
+      "tracedChains": 35,
+      "pointCount": 858,
+      "detachedNodes": [],
+      "needsArrivalConnector": [],
+      "nearArrivalOnly": [
+        "D7"
+      ],
+      "approvedNewEdges": null,
+      "productionApplied": false
+    },
+    {
+      "cityId": "jeonju",
+      "name": "Jeonju",
+      "nodeCount": 22,
+      "oldEdgeCount": 30,
+      "transform": {
+        "xScale": 0.8103452533558286,
+        "xOffset": 8.726458725695261,
+        "yScale": 0.6092470826621488,
+        "yOffset": 10.32881046420632,
+        "controlPoints": [
+          {
+            "node": "J0",
+            "inputPixel": [
+              412,
+              563
+            ]
+          },
+          {
+            "node": "J21",
+            "inputPixel": [
+              131,
+              148
+            ]
+          },
+          {
+            "node": "J20",
+            "inputPixel": [
+              736,
+              134
+            ]
+          }
+        ],
+        "maxControlResidualPixels": 2.018058725825938,
+        "method": "Affine scale/offset fitted to visually identified canonical node centres. Approximate raster precision, not new node coordinates."
+      },
+      "observedWalkPixels": 10341,
+      "observedFerryPixels": 0,
+      "tracedChains": 28,
+      "pointCount": 1037,
+      "detachedNodes": [],
+      "needsArrivalConnector": [
+        "J7"
+      ],
+      "nearArrivalOnly": [],
+      "approvedNewEdges": null,
+      "productionApplied": false
+    },
+    {
+      "cityId": "gyeongju",
+      "name": "Gyeongju",
+      "nodeCount": 22,
+      "oldEdgeCount": 25,
+      "transform": {
+        "xScale": 0.8170414234589701,
+        "xOffset": -0.19053473805743784,
+        "yScale": 0.6065881832752998,
+        "yOffset": 15.661360747250292,
+        "controlPoints": [
+          {
+            "node": "G0",
+            "inputPixel": [
+              232,
+              520
+            ]
+          },
+          {
+            "node": "G10",
+            "inputPixel": [
+              650,
+              98
+            ]
+          },
+          {
+            "node": "G20",
+            "inputPixel": [
+              727,
+              388
+            ]
+          }
+        ],
+        "maxControlResidualPixels": 0.9914797587417752,
+        "method": "Affine scale/offset fitted to visually identified canonical node centres. Approximate raster precision, not new node coordinates."
+      },
+      "observedWalkPixels": 8632,
+      "observedFerryPixels": 442,
+      "tracedChains": 44,
+      "pointCount": 824,
+      "detachedNodes": [],
+      "needsArrivalConnector": [
+        "G6",
+        "G7"
+      ],
+      "nearArrivalOnly": [
+        "G15",
+        "G16",
+        "G17"
+      ],
+      "approvedNewEdges": null,
+      "productionApplied": false
+    },
+    {
+      "cityId": "seoul",
+      "name": "Seoul",
+      "nodeCount": 23,
+      "oldEdgeCount": 24,
+      "transform": {
+        "xScale": 0.8150601402110137,
+        "xOffset": 3.260296310749959,
+        "yScale": 0.6125349184694336,
+        "yOffset": 4.766712141882692,
+        "controlPoints": [
+          {
+            "node": "S0",
+            "inputPixel": [
+              402,
+              428
+            ]
+          },
+          {
+            "node": "S3",
+            "inputPixel": [
+              227,
+              130
+            ]
+          },
+          {
+            "node": "S20",
+            "inputPixel": [
+              724,
+              331
+            ]
+          }
+        ],
+        "maxControlResidualPixels": 0.8603586045602469,
+        "method": "Affine scale/offset fitted to visually identified canonical node centres. Approximate raster precision, not new node coordinates."
+      },
+      "observedWalkPixels": 11941,
+      "observedFerryPixels": 202,
+      "tracedChains": 45,
+      "pointCount": 891,
+      "detachedNodes": [],
+      "needsArrivalConnector": [
+        "S0",
+        "S5",
+        "S8"
+      ],
+      "nearArrivalOnly": [
+        "S2",
+        "S18"
+      ],
+      "approvedNewEdges": null,
+      "productionApplied": false
+    }
+  ],
+  "productionApplied": false
+}

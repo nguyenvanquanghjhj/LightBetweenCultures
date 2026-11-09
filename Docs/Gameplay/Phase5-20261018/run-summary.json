@@ -1,0 +1,215 @@
+{
+  "acceptedRuns": [
+    "matrix04",
+    "legacy-claim01",
+    "tail-vn01",
+    "tail-korea01",
+    "restart-ready02",
+    "restart-interrupted02",
+    "restart-completed02",
+    "e2e-vn01",
+    "e2e-korea01",
+    "no-relics02",
+    "restart-legacy-zero01",
+    "restart-legacy-six01",
+    "restart-pre-seoul01",
+    "restart-relay01",
+    "restart-mid-boss01",
+    "restart-battle01",
+    "restart-repair01"
+  ],
+  "allRetainedRunsIncludingFailures": [
+    {
+      "run": "e2e-korea01",
+      "result": "PASS",
+      "assertionsPassed": 1014,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/e2e-korea01/smoke-results.txt"
+    },
+    {
+      "run": "e2e-vn01",
+      "result": "PASS",
+      "assertionsPassed": 1020,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/e2e-vn01/smoke-results.txt"
+    },
+    {
+      "run": "legacy-claim01",
+      "result": "PASS",
+      "assertionsPassed": 45,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/legacy-claim01/smoke-results.txt"
+    },
+    {
+      "run": "matrix01",
+      "result": "FAIL",
+      "assertionsPassed": 82,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/matrix01/smoke-results.txt"
+    },
+    {
+      "run": "matrix02",
+      "result": "PASS",
+      "assertionsPassed": 137,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/matrix02/smoke-results.txt"
+    },
+    {
+      "run": "matrix03",
+      "result": "PASS",
+      "assertionsPassed": 137,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/matrix03/smoke-results.txt"
+    },
+    {
+      "run": "matrix04",
+      "result": "PASS",
+      "assertionsPassed": 142,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/matrix04/smoke-results.txt"
+    },
+    {
+      "run": "no-relics01",
+      "result": "FAIL",
+      "assertionsPassed": 7,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/no-relics01/smoke-results.txt"
+    },
+    {
+      "run": "no-relics02",
+      "result": "PASS",
+      "assertionsPassed": 60,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/no-relics02/smoke-results.txt"
+    },
+    {
+      "run": "restart-battle01",
+      "result": "PASS",
+      "assertionsPassed": 9,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-battle01/smoke-results.txt"
+    },
+    {
+      "run": "restart-completed01",
+      "result": "PASS",
+      "assertionsPassed": 10,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-completed01/smoke-results.txt"
+    },
+    {
+      "run": "restart-completed02",
+      "result": "PASS",
+      "assertionsPassed": 10,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-completed02/smoke-results.txt"
+    },
+    {
+      "run": "restart-interrupted01",
+      "result": "PASS",
+      "assertionsPassed": 29,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-interrupted01/smoke-results.txt"
+    },
+    {
+      "run": "restart-interrupted02",
+      "result": "PASS",
+      "assertionsPassed": 29,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-interrupted02/smoke-results.txt"
+    },
+    {
+      "run": "restart-legacy-six01",
+      "result": "PASS",
+      "assertionsPassed": 10,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-legacy-six01/smoke-results.txt"
+    },
+    {
+      "run": "restart-legacy-zero01",
+      "result": "PASS",
+      "assertionsPassed": 10,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-legacy-zero01/smoke-results.txt"
+    },
+    {
+      "run": "restart-mid-boss01",
+      "result": "PASS",
+      "assertionsPassed": 9,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-mid-boss01/smoke-results.txt"
+    },
+    {
+      "run": "restart-pre-seoul01",
+      "result": "PASS",
+      "assertionsPassed": 5,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-pre-seoul01/smoke-results.txt"
+    },
+    {
+      "run": "restart-ready01",
+      "result": "PASS",
+      "assertionsPassed": 29,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-ready01/smoke-results.txt"
+    },
+    {
+      "run": "restart-ready02",
+      "result": "PASS",
+      "assertionsPassed": 29,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-ready02/smoke-results.txt"
+    },
+    {
+      "run": "restart-relay01",
+      "result": "PASS",
+      "assertionsPassed": 9,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-relay01/smoke-results.txt"
+    },
+    {
+      "run": "restart-repair01",
+      "result": "PASS",
+      "assertionsPassed": 10,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/restart-repair01/smoke-results.txt"
+    },
+    {
+      "run": "tail-korea01",
+      "result": "PASS",
+      "assertionsPassed": 27,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/tail-korea01/smoke-results.txt"
+    },
+    {
+      "run": "tail-vn01",
+      "result": "PASS",
+      "assertionsPassed": 27,
+      "runtimeExceptions": 0,
+      "shutdownComputeBufferDiagnostic": true,
+      "evidence": "Validation/Phase5-20261018/tail-vn01/smoke-results.txt"
+    }
+  ]
+}

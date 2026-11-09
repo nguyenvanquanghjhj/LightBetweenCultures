@@ -1,0 +1,35 @@
+﻿[
+    {
+        "run":  "seoul-assembly-isolated",
+        "status":  "PASS",
+        "started":  "2026-10-25T10:53:39.9593926Z",
+        "finished":  "2026-10-25T10:54:04.3801020Z",
+        "elapsedSeconds":  24,
+        "peakWorkingSetBytes":  662126592,
+        "assertions":  44,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\after-adapter\\campaign-vietnam\\gameplay-save.json",
+        "arguments":  [
+                          "--phase4-city=seoul",
+                          "--phase4-restore-only"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\vietnam-isolation\\seoul-assembly-isolated",
+        "exitCode":  0
+    },
+    {
+        "run":  "vietnam-earned-continuation",
+        "status":  "FAIL",
+        "started":  "2026-10-25T10:54:04.4375111Z",
+        "finished":  "2026-10-25T10:55:02.8672880Z",
+        "elapsedSeconds":  58,
+        "peakWorkingSetBytes":  614887424,
+        "assertions":  11,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\vietnam-isolation\\seoul-assembly-isolated\\gameplay-save.json",
+        "arguments":  [
+                          "--pc-full-gameplay",
+                          "--pc-resume-opening",
+                          "--phase4-e2e=VN_FIRST"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\vietnam-isolation\\vietnam-earned-continuation",
+        "exitCode":  1
+    }
+]

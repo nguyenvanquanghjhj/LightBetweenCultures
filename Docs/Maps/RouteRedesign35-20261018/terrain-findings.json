@@ -1,0 +1,352 @@
+[
+  {
+    "id": "HA-F01",
+    "cityId": "hoi_an",
+    "edgeIds": [
+      "H0__H1",
+      "H1__H4"
+    ],
+    "pixelBox": [
+      345,
+      500,
+      645,
+      590
+    ],
+    "status": "CORRECTED_MOVEMENT_PASS_VISUAL_ACCEPTANCE_PENDING",
+    "reason": "West open bridge was traced below rail/deck at some bend points; corrected common bridge deck. Eastern ChuaCau not changed."
+  },
+  {
+    "id": "HA-R01",
+    "cityId": "hoi_an",
+    "edgeIds": [
+      "H7__H8"
+    ],
+    "pixelBox": [
+      190,
+      120,
+      470,
+      340
+    ],
+    "status": "NEEDS_USER_REVIEW",
+    "reason": "Long shared street detour; direct temple-side passage not sufficiently visible. Do not invent passage through houses to shorten it."
+  },
+  {
+    "id": "HA-R02",
+    "cityId": "hoi_an",
+    "edgeIds": [
+      "H17__H5"
+    ],
+    "pixelBox": [
+      1150,
+      620,
+      1340,
+      785
+    ],
+    "status": "NEEDS_USER_REVIEW",
+    "reason": "Ferry/ground endpoint transition near piers needs per-segment geographical review; retain existing quest, edge and travel mode."
+  },
+  {
+    "id": "U-F01",
+    "cityId": "hue",
+    "edgeIds": [
+      "U4__U12",
+      "U5__U6",
+      "U6__U7",
+      "U6__U18"
+    ],
+    "pixelBox": [
+      410,
+      240,
+      1120,
+      460
+    ],
+    "status": "CORRECTED_MOVEMENT_PASS_VISUAL_ACCEPTANCE_PENDING",
+    "reason": "River promenade below wall, real main-gate passage and pavilion front stairs/forecourt authored separately."
+  },
+  {
+    "id": "U-R01",
+    "cityId": "hue",
+    "edgeIds": [
+      "U9__U12",
+      "U12__U11"
+    ],
+    "pixelBox": [
+      390,
+      235,
+      780,
+      400
+    ],
+    "status": "KNOWN_WALL_CROSSING_NEEDS_USER_DECISION",
+    "reason": "Stage1 garden bypass connects outside promenade to inside garden across closed outer wall. Main gate is occupied by later U5 progression; cannot silently route through it or delete these edges."
+  },
+  {
+    "id": "U-R02",
+    "cityId": "hue",
+    "edgeIds": [
+      "U11__U7",
+      "U6__U11",
+      "U11__U10"
+    ],
+    "pixelBox": [
+      550,
+      230,
+      1120,
+      330
+    ],
+    "status": "NEEDS_USER_REVIEW",
+    "reason": "Inner garden/pond/pavilion corridors need full native waypoint authoring; keep topology rather than promise passage through wall/lotus pond."
+  },
+  {
+    "id": "U-R03",
+    "cityId": "hue",
+    "edgeIds": [
+      "U1__U2",
+      "U2__U14",
+      "U14__U3"
+    ],
+    "pixelBox": [
+      370,
+      640,
+      1240,
+      850
+    ],
+    "status": "NEEDS_USER_REVIEW",
+    "reason": "Town block/roof frontage and lower bridge approaches; no blanket terrain acceptance from successful movement."
+  },
+  {
+    "id": "U-R04",
+    "cityId": "hue",
+    "edgeIds": [
+      "U3__U4"
+    ],
+    "pixelBox": [
+      520,
+      425,
+      890,
+      610
+    ],
+    "status": "KNOWN_FERRY_GEOMETRY_FAILURE_NEEDS_USER_DECISION",
+    "reason": "Existing ferry polyline reaches/uses stone bridge ground while edge-wide travel=ferry stays active. Needs confirmed south/north landing and mixed walk/boat segments or approved ferry-only ground anchors. Never mark this terrain PASS merely because boat visual appears."
+  },
+  {
+    "id": "D-F01",
+    "cityId": "da_lat",
+    "edgeIds": [
+      "D3__D2",
+      "D1__D20",
+      "D20__D13",
+      "D10__D15",
+      "D7__D8",
+      "D8__D9",
+      "D8__D19"
+    ],
+    "pixelBox": [
+      210,
+      170,
+      1200,
+      830
+    ],
+    "status": "CORRECTED_MOVEMENT_PASS_VISUAL_ACCEPTANCE_PENDING",
+    "reason": "Bank promenade above retaining wall, stone bridge deck, church forecourt and west cliff path. Six-region plot/focused revisions separate wall face from actual paving."
+  },
+  {
+    "id": "D-R01",
+    "cityId": "da_lat",
+    "edgeIds": [
+      "D13__D14",
+      "D4__D14",
+      "D6__D7"
+    ],
+    "pixelBox": [
+      260,
+      120,
+      1200,
+      530
+    ],
+    "status": "NEEDS_USER_REVIEW",
+    "reason": "Long northern route still crosses/skirts dense gardens and roofs; needs path-by-path authoring, not generic smoothing."
+  },
+  {
+    "id": "D-R02",
+    "cityId": "da_lat",
+    "edgeIds": [
+      "D15__D16",
+      "D16__D17"
+    ],
+    "pixelBox": [
+      950,
+      780,
+      1380,
+      960
+    ],
+    "status": "NEEDS_USER_REVIEW",
+    "reason": "Cliff/stream/terrace connection is partly hidden by pine canopy; no inferred stairs or water walking."
+  },
+  {
+    "id": "J-F01",
+    "cityId": "jeonju",
+    "edgeIds": [
+      "J1__J3",
+      "J16__J3",
+      "J3__J8",
+      "J3__J4",
+      "J4__J7"
+    ],
+    "pixelBox": [
+      340,
+      240,
+      670,
+      595
+    ],
+    "status": "CORRECTED_MOVEMENT_PASS_VISUAL_ACCEPTANCE_PENDING",
+    "reason": "Market frontage, outer ring of plaza and north street; canonical markers kept on original art anchors, Lumi arrival moved to real ground at J3/J7."
+  },
+  {
+    "id": "J-R01",
+    "cityId": "jeonju",
+    "edgeIds": [
+      "J17__J12",
+      "J17__J19",
+      "J13__J12"
+    ],
+    "pixelBox": [
+      740,
+      180,
+      1110,
+      505
+    ],
+    "status": "KNOWN_ROOF_OR_WALL_CROSSING_NEEDS_USER_REVIEW",
+    "reason": "Hanok compound roof/wall connections require actual gate approaches. Do not hide sprite on every roof as a fix."
+  },
+  {
+    "id": "J-R02",
+    "cityId": "jeonju",
+    "edgeIds": [
+      "J0__J15",
+      "J18__J0"
+    ],
+    "pixelBox": [
+      700,
+      770,
+      1180,
+      1060
+    ],
+    "status": "NEEDS_USER_REVIEW",
+    "reason": "Canal/courtyard and southern block boundaries need confirmed walking access; preserve delivery route until safe alternative approved."
+  },
+  {
+    "id": "J-R03",
+    "cityId": "jeonju",
+    "edgeIds": [
+      "J7__J21",
+      "J8__J21"
+    ],
+    "pixelBox": [
+      205,
+      215,
+      500,
+      400
+    ],
+    "status": "NEEDS_USER_REVIEW",
+    "reason": "Upper hanok/river frontage; partial eave occlusion cannot prove a traversable corridor."
+  },
+  {
+    "id": "G-F01",
+    "cityId": "gyeongju",
+    "edgeIds": [
+      "G0__G1",
+      "G16__G12",
+      "G12__G13",
+      "G10__G18"
+    ],
+    "pixelBox": [
+      575,
+      625,
+      1160,
+      945
+    ],
+    "status": "CORRECTED_MOVEMENT_PASS_VISUAL_ACCEPTANCE_PENDING",
+    "reason": "Central gate/causeway, south pond bank and red arch bridge; G12 water arrival replaced with nearby paving."
+  },
+  {
+    "id": "G-R01",
+    "cityId": "gyeongju",
+    "edgeIds": [
+      "G2__G17"
+    ],
+    "pixelBox": [
+      205,
+      390,
+      315,
+      548
+    ],
+    "status": "KNOWN_WATER_CROSSING_NEEDS_USER_DECISION",
+    "reason": "Old path cuts open pond between island and northern bridge. No clearly connected short bridge in painted scene; need approved long island-bridge route or topology alternative."
+  },
+  {
+    "id": "G-R02",
+    "cityId": "gyeongju",
+    "edgeIds": [
+      "G4__G9",
+      "G19__G9",
+      "G8__G13"
+    ],
+    "pixelBox": [
+      680,
+      270,
+      1140,
+      700
+    ],
+    "status": "NEEDS_USER_REVIEW",
+    "reason": "Garden-wall/temple-gate approaches. A gate may be valid but exact passage and cover need confirming; not automatically forbidden building."
+  },
+  {
+    "id": "S-F01",
+    "cityId": "seoul",
+    "edgeIds": [
+      "S2__S3",
+      "S3__S17",
+      "S1__S6"
+    ],
+    "pixelBox": [
+      350,
+      230,
+      1150,
+      760
+    ],
+    "status": "CORRECTED_MOVEMENT_PASS_VISUAL_ACCEPTANCE_PENDING",
+    "reason": "Palace gateway axis/public forecourt and north-bank roadside promenade; no arbitrary roof hiding."
+  },
+  {
+    "id": "S-R01",
+    "cityId": "seoul",
+    "edgeIds": [
+      "S0__S14",
+      "S12__S13"
+    ],
+    "pixelBox": [
+      250,
+      610,
+      750,
+      855
+    ],
+    "status": "KNOWN_WATER_CROSSING_NEEDS_USER_DECISION",
+    "reason": "Existing diagonals cross river. Pedestrian bridge is visible, but west pier-to-bank connection at(268,635)..(260,680) is not clear. Two unsafe proposed paths were held and not applied."
+  },
+  {
+    "id": "S-R02",
+    "cityId": "seoul",
+    "edgeIds": [
+      "S6__S14",
+      "S9__S11"
+    ],
+    "pixelBox": [
+      370,
+      280,
+      1250,
+      1030
+    ],
+    "status": "NEEDS_USER_REVIEW",
+    "reason": "Highway interchange/forest-road levels and pedestrian access are partly hidden; geometry must not assume all road pixels are pedestrian ramps."
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "asset": "Assets\\_Game\\Art\\Maps\\Hue\\Map_Hue_DestinationPreview_A.png",
+  "guid": "481d167093be364419d9ebb11b8e4e27",
+  "unityBinding": "Assets/_Game/Resources/AdventureUIArt.asset cities[hue].sprite fileID 21300000",
+  "sha256": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c",
+  "approval": "PREVIEW_ONLY_NOT_RUNTIME_APPROVED",
+  "A": "lower-left Vincom-inspired no-logo mall",
+  "B": "upper-right Duyet Thi Duong",
+  "runtimeModified": false,
+  "currentOwnerDecision": {
+    "A": "approved Vincom design, lower-left",
+    "B": "remove theater AND old pagoda; keep selected garden/courtyard background",
+    "runtimeApproval": "composition preview pending"
+  },
+  "originalRuntimeAssetUnchanged": true
+}

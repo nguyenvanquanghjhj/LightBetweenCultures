@@ -1,0 +1,450 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 12712)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 22252)
+VBCSCompiler prewarm took 117.31 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Channel LicenseClient-admin doesn't exist
+Built from '6000.6/staging' branch; Version is '6000.6.5f1 (3ff58d469c8a) revision 4191629'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 15556 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-23T16:44:02Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 28756)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+D:\GAMEKKK\LightBetweenCultures
+-logFile
+D:\GAMEKKK\LightBetweenCultures\Docs\Storage\SafeCleanup-20261023\editor-open-compile.log
+Successfully changed project path to: D:\GAMEKKK\LightBetweenCultures
+D:/GAMEKKK/LightBetweenCultures
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [32484]  Target information:
+
+Player connection [32484]  * "[IP] 192.168.27.1 [Port] 55504 [Flags] 2 [Guid] 984391007 [EditorId] 984391007 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CKADF214) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32484]  * "[IP] 192.168.17.1 [Port] 55504 [Flags] 2 [Guid] 984391007 [EditorId] 984391007 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CKADF214) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32484]  * "[IP] 192.168.1.208 [Port] 55504 [Flags] 2 [Guid] 984391007 [EditorId] 984391007 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CKADF214) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32484] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32484] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-10516" after 0.0 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-admin" at "2026-10-23T16:44:12.0392904Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 28756, path: "C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              e592d1598fac4b679c7e319925056e43
+  Correlation Id:          531db05d44061006e19f71f2ac073cdb
+  External correlation Id: 4810746340496660135
+  Machine Id:              QZ5ArAUOVWfBBVr9WzRr5CQ5z28=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-admin" (connect: 9.85s, validation: 0.60s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-admin-notifications" at "2026-10-23T16:44:12.7156385Z"
+[Licensing::Module] Connected to LicensingClient (PId: 28756, launch time: 0.08, total connection time: 10.53s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968522363907-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 10.66s
+[Licensing::Module] Licensing is initialized (took 6.63s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = D:/GAMEKKK/LightBetweenCulturesUnity Data Store running and initialised
+[Licensing::Client] Successfully resolved entitlement details
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.5f1 (3ff58d469c8a)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GAMEKKK/LightBetweenCultures/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:          NVIDIA
+    VRAM:            6002 MB
+    App VRAM Budget: 5234 MB
+    Driver:          32.0.15.8205
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.012489 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.460 seconds
+Domain Reload Profiling: 2221ms
+	BeginReloadAssembly (183ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (168ms)
+		TypeCache.Refresh (299ms)
+			TypeCache.ScanAssembly (279ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1462ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (857ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 75 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@16.0.1 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.2d.animation@899988b542b9)
+    com.unity.2d.aseprite@6.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.2d.aseprite@ab909e3e9b5f)
+    com.unity.2d.psdimporter@15.0.1 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.2d.psdimporter@e02a9153d8d9)
+    com.unity.2d.spriteshape@16.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.2d.spriteshape@42798c9d35d3)
+    com.unity.2d.tilemap.extras@9.0.1 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.2d.tilemap.extras@9446f3c60919)
+    com.unity.2d.tooling@4.0.1 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.2d.tooling@4e93af4036ee)
+    com.unity.ai.assistant@2.20.0-pre.2 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a)
+    com.unity.ai.inference@2.6.1 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.ai.inference@9a123aee5df7)
+    com.unity.collab-proxy@2.13.6 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.learn.iet-framework@6.0.7 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.learn.iet-framework@96330db47073)
+    com.unity.visualscripting@1.9.12 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.settings-manager@2.1.1 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+    com.unity.dt.app-ui@2.2.4 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.dt.app-ui@8606a9847e5b)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.nuget.mono-cecil@1.11.6 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.2d.common@15.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.2d.common@b779c433ed47)
+    com.unity.searcher@4.9.5 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.2d.sprite@752945c75a6f)
+    com.unity.2d.tilemap@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.2d.tilemap@f4c7bd71ac8a)
+    com.unity.render-pipelines.universal@17.6.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.render-pipelines.universal@2309ae255609)
+    com.unity.test-framework@1.8.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.timeline@6.6.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.timeline@4891807c6bd8)
+    com.unity.ugui@2.6.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.ugui@42f0bd825000)
+    com.unity.modules.accessibility@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.render-pipelines.core@285af6b8c83f)
+    com.unity.shadergraph@17.6.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.shadergraph@58bcb150677d)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.editorcoroutines@6.6.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.editorcoroutines@8cd72baa102a)
+    com.unity.burst@2.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.mathematics@1.4.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.graph-authoring@1.0.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.test-framework.performance@6.6.0 (location: D:\GAMEKKK\LightBetweenCultures\Library\PackageCache\com.unity.test-framework.performance@54c5bd86aedb)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.05 seconds
+Refreshing native plugins compatible for Editor in 19.93 ms, found 7 plugins.
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/GAMEKKK/LightBetweenCultures
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s795ms
+[ 370/1905  0s] WriteResponseFile Library/Bee/artifacts/rsp/4747638433968585886.rsp
+[1436/1905  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.64 seconds), 2 items updated, 1905 evaluated
+AssetDatabase: script compilation time: 1.746913s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/_Game/Scripts/UI/GameplayPanels.LeisureInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 6.42 ms, found 7 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.70 ms, found 7 plugins.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.840 seconds
+Domain Reload Profiling: 5788ms
+	BeginReloadAssembly (434ms)
+		DisableScriptedObjects (29ms)
+		CreateAndSetChildDomain (161ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (1365ms)
+		LoadAssemblies (657ms)
+		TypeCache.Refresh (478ms)
+			TypeCache.ScanAssembly (452ms)
+		AnalyzeDomain (142ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3841ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (221ms)
+			ProcessInitializeOnLoadAttributes (2592ms)
+			ProcessInitializeOnLoadMethodAttributes (645ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Starting new worker id: 0 with log in D:/GAMEKKK/LightBetweenCultures/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=54d660826bbe7cd45be17a2ab895ef4c): Total: 9.202 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=5115 ms
+		Asset DB Callback time: managed=93 ms, native=57 ms
+		Scripting: domain reloads=1, domain reload time=2055 ms, compile time=1751 ms, other=129 ms
+		Project Asset Count: scripts=2538, non-scripts=6487
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 59.674ms
+	ApplyChangesToAssetFolders: 0.854ms
+	Scan: 228.327ms
+	Collect global state as custom dependencies: 23.132ms
+	CategorizeScriptCompilationAssets: 143.101ms
+	ProcessAssetsWithTransientArtifactChanges: 175.449ms
+	CategorizeAssets: 155.772ms
+	CompileScripts: 1751.178ms
+	ImportOutOfDateAssets: 3892.638ms (3869.063ms without children)
+		ReloadNativeAssets: 0.325ms
+		UnloadImportedAssets: 2.002ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.451ms
+		ImportSchedulerStart: 18.791ms
+	PostProcessAllAssets: 93.865ms
+		MonoPostProcessAllAssets: 93.569ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 35.165ms
+			SyncVS.PostprocessSyncProject 15.430ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.948ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 3.172ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.429ms
+			AssetChangeDetector.OnPostprocessAllAssets 1.546ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.513ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.497ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.817ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.588ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.582ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.521ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.476ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.389ms
+	UnloadStreamsBegin: 2.542ms
+	PersistCurrentRevisions: 0.339ms
+	GenerateScriptTypeHashes: 3.394ms
+	GenerateScriptTypeSerializationHashes: 6.106ms
+	Untracked: 2670.050ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Scanning for USB devices : 2.040ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Curl error 60: Cert verify failed. Certificate has expired. UnityTls error code: 7
+[MODES] Loading mode Default (0) for mode-current-id-LightBetweenCultures
+Curl error 60: Cert verify failed. Certificate has expired. UnityTls error code: 7
+Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11401 unused Assets / (26.2 MB). Loaded Objects now: 12421.
+Memory consumption went from 0.58 GB to 0.55 GB.
+Total: 34.590900 ms (FindLiveObjects: 1.248800 ms CreateObjectMapping: 1.767900 ms MarkObjects: 22.411300 ms  DeleteObjects: 8.539800 ms)
+
+Batchmode quit successfully invoked - shutting down!
+Worker ready: AssetImportWorkerHW0 0
+Killing ADB server in 2.1458819 seconds.
+Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: 'e87073d352dd10858a87ff88c94997f9') in 0.018 seconds [static dependencies only]. Details - ImportResultOutputID=0a89a5c5f492143e0fa186859e17ba6f DependenciesID=ed767c89b5883c348f87ec6f0bb116b8 StaticDependenciesID=d5a0aed551347c4e604e9607da4777b6 
+Refreshing native plugins compatible for Editor in 7.97 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 2.60 ms.
+
+Asset Pipeline Refresh (id=a81306c4ad6d78a40a9c874b53822a6c): Total: 0.788 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=9 ms, native=184 ms
+		Asset DB Callback time: managed=564 ms, native=30 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2538, non-scripts=6487
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	ApplyChangesToAssetFolders: 0.220ms
+	Scan: 21.034ms
+	Collect global state as custom dependencies: 0.433ms
+	ProcessAssetsWithTransientArtifactChanges: 0.330ms
+	CategorizeAssets: 133.543ms
+	ImportOutOfDateAssets: 25.548ms (0.754ms without children)
+		ImportManagerImport: 21.226ms (1.984ms without children)
+			UpdateCategorizedAssets: 0.068ms
+		ReloadNativeAssets: 0.063ms
+		UnloadImportedAssets: 0.219ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.228ms
+		ImportSchedulerStart: 1.052ms
+	PostProcessAllAssets: 583.084ms
+		XRBuildSystem.XRAssetImported 15.464ms
+		WindowTitlePostprocess 0.209ms
+		VCAutoAddAssetPostprocess 0.208ms
+		MonoPostProcessAllAssets: 564.976ms
+			AssetPostprocessor.OnPostprocessAllAssets 180.635ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 36.095ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 35.997ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 9.121ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 5.151ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.798ms
+			AssetChangedListener.OnPostprocessAllAssets 2.253ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.474ms
+			SyncVS.PostprocessSyncProject 1.412ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.362ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 1.187ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.737ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.722ms
+			AssetProcessor.OnPostprocessAllAssets 0.590ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.578ms
+			AssetEvents.OnPostprocessAllAssets 0.540ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.536ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.498ms
+			PostProcessor.OnPostprocessAllAssets 0.433ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.394ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.386ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.385ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.363ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.317ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.277ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.230ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.227ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.223ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.220ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.207ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.195ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.178ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.161ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.145ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 0.115ms
+			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.092ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.092ms
+	PostAssetChangesProfiler: 12.184ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.607ms
+	UnloadStreamsBegin: 0.103ms
+	PersistCurrentRevisions: 0.248ms
+	Untracked: 10.937ms
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-admin-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-admin channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Exiting batchmode successfully now!
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

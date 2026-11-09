@@ -1,0 +1,9 @@
+UTC run: 2026-10-20T07:38:21.7819626Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Separate process reload restores node/save without panel or gesture locks
+PASS: Fresh runtime capture written: TOUCH-restart
+ALL CHECKS PASSED

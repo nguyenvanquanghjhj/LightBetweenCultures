@@ -1,0 +1,33 @@
+{
+  "destination": "D:\\GAMEKKK\\Backups\\CheckpointNpcApproachButtons-20261020",
+  "type": "INCREMENTAL_REQUIRES_BASE_CHAIN",
+  "base": "D:\\GAMEKKK\\Backups\\CheckpointTouchNpcDialogue-20261020",
+  "baseManifestSHA256": "b2f63c5eb392cfc4ac9d1793546611557d4520aa4ef132e0291c6f68d3064456",
+  "fullBase": "D:\\GAMEKKK\\Backups\\LBC_SourceVerified-20261020",
+  "fullBaseManifestSHA256": "53305d534a5d5c5860003f6526d730cd412a0294a1f8c7b52831b74a54ace7a6",
+  "files": [
+    "Assets/_Game/Scripts/Maps/CityMap.NpcApproach.cs",
+    "Assets/_Game/Scripts/Maps/CityMap.NpcApproach.cs.meta",
+    "Assets/_Game/Scripts/Maps/CityMap.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.NpcStanding.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.NpcStanding.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Docs/QA/ANDROID_TOUCH_AND_NPC_DIALOGUE_FIXES.md",
+    "Docs/QA/CURRENT_QA_STATUS.md",
+    "Docs/QA/NPC_APPROACH_AND_BUTTON_FUNCTIONS.md",
+    "Validation/NpcStandingButtons-20261020/button-callback-inventory.txt",
+    "Validation/NpcStandingButtons-20261020/buttons-accepted/smoke-results.txt",
+    "Validation/NpcStandingButtons-20261020/final-results.json",
+    "Validation/NpcStandingButtons-20261020/gallery.html",
+    "Validation/NpcStandingButtons-20261020/npc-audit.csv",
+    "Validation/NpcStandingButtons-20261020/npc-final06/npc-standing-all.csv",
+    "Validation/NpcStandingButtons-20261020/npc-final06/restart-results.txt",
+    "Validation/NpcStandingButtons-20261020/npc-final06/standing-summary.json",
+    "Validation/NpcStandingButtons-20261020/npc-final06/start.json",
+    "Validation/NpcStandingButtons-20261020/source-diff.json",
+    "Validation/NpcStandingButtons-20261020/timing.json"
+  ],
+  "payloadBytes": 293832,
+  "deletedPaths": []
+}

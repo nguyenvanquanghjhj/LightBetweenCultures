@@ -1,0 +1,244 @@
+[
+  {
+    "node": "H0",
+    "markerPixels": [
+      460.001,
+      868.0
+    ],
+    "arrivalPixels": [
+      365,
+      842
+    ]
+  },
+  {
+    "node": "H1",
+    "markerPixels": [
+      405.0,
+      550.999
+    ],
+    "arrivalPixels": [
+      347,
+      479
+    ]
+  },
+  {
+    "node": "H2",
+    "markerPixels": [
+      555.0,
+      442.0
+    ],
+    "arrivalPixels": [
+      570,
+      500
+    ]
+  },
+  {
+    "node": "H3",
+    "markerPixels": [
+      744.0,
+      358.0
+    ],
+    "arrivalPixels": [
+      751,
+      415
+    ]
+  },
+  {
+    "node": "H4",
+    "markerPixels": [
+      215.0,
+      660.0
+    ],
+    "arrivalPixels": [
+      316,
+      702
+    ]
+  },
+  {
+    "node": "H5",
+    "markerPixels": [
+      1188.0,
+      716.0
+    ],
+    "arrivalPixels": [
+      1185,
+      650
+    ]
+  },
+  {
+    "node": "H6",
+    "markerPixels": [
+      1020.0,
+      561.0
+    ],
+    "arrivalPixels": [
+      884,
+      589
+    ]
+  },
+  {
+    "node": "H7",
+    "markerPixels": [
+      643.999,
+      167.0
+    ],
+    "arrivalPixels": [
+      640,
+      213
+    ]
+  },
+  {
+    "node": "H8",
+    "markerPixels": [
+      248.0,
+      104.0
+    ],
+    "arrivalPixels": [
+      249,
+      132
+    ]
+  },
+  {
+    "node": "H9",
+    "markerPixels": [
+      248.0,
+      255.0
+    ],
+    "arrivalPixels": [
+      202,
+      269
+    ]
+  },
+  {
+    "node": "H10",
+    "markerPixels": [
+      150.0,
+      574.0
+    ],
+    "arrivalPixels": [
+      146,
+      610
+    ]
+  },
+  {
+    "node": "H11",
+    "markerPixels": [
+      387.0,
+      756.0
+    ],
+    "arrivalPixels": [
+      419,
+      750
+    ]
+  },
+  {
+    "node": "H12",
+    "markerPixels": [
+      730.001,
+      738.0
+    ],
+    "arrivalPixels": [
+      737,
+      769
+    ]
+  },
+  {
+    "node": "H13",
+    "markerPixels": [
+      628.0,
+      520.0
+    ],
+    "arrivalPixels": [
+      628,
+      521
+    ]
+  },
+  {
+    "node": "H14",
+    "markerPixels": [
+      945.0,
+      350.0
+    ],
+    "arrivalPixels": [
+      968,
+      354
+    ]
+  },
+  {
+    "node": "H15",
+    "markerPixels": [
+      1365.001,
+      452.0
+    ],
+    "arrivalPixels": [
+      1340,
+      505
+    ]
+  },
+  {
+    "node": "H16",
+    "markerPixels": [
+      985.001,
+      815.0
+    ],
+    "arrivalPixels": [
+      978,
+      794
+    ]
+  },
+  {
+    "node": "H17",
+    "markerPixels": [
+      1320.0,
+      620.0
+    ],
+    "arrivalPixels": [
+      1305,
+      715
+    ]
+  },
+  {
+    "node": "H18",
+    "markerPixels": [
+      823.0,
+      410.0
+    ],
+    "arrivalPixels": [
+      823,
+      417
+    ]
+  },
+  {
+    "node": "H19",
+    "markerPixels": [
+      1037.0,
+      236.0
+    ],
+    "arrivalPixels": [
+      1085,
+      280
+    ]
+  },
+  {
+    "node": "H20",
+    "markerPixels": [
+      790.0,
+      187.001
+    ],
+    "arrivalPixels": [
+      780,
+      233
+    ]
+  },
+  {
+    "node": "H21",
+    "markerPixels": [
+      439.0,
+      235.0
+    ],
+    "arrivalPixels": [
+      425,
+      240
+    ]
+  }
+]

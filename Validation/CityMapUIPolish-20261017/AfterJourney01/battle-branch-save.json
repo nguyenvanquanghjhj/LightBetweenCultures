@@ -1,0 +1,114 @@
+{
+    "version": 2,
+    "cityId": "hoi_an",
+    "node": 5,
+    "previousNode": 18,
+    "visited": [
+        0,
+        11,
+        1,
+        2,
+        13,
+        3,
+        4,
+        14,
+        18,
+        5
+    ],
+    "accepted": [
+        "mai-lantern",
+        "HQ01"
+    ],
+    "completed": [
+        "mai-lantern"
+    ],
+    "items": [
+        "healing_tea",
+        "lamp_eye",
+        "hanji_core",
+        "link_key"
+    ],
+    "collected": [
+        "lantern-part"
+    ],
+    "flags": [
+        "quest:HQ01",
+        "hoi_an.lamp_eye_found",
+        "lantern-lit",
+        "hoi_an.market_puzzle_solved",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.mo01_defeated",
+        "hoi_an.mo01_disabled"
+    ],
+    "resolvedEvents": [
+        "hoi_an:enemy_mo01"
+    ],
+    "defeatedEnemies": [
+        "enemy_mo01"
+    ],
+    "solvedPuzzles": [
+        "puzzle_market",
+        "puzzle_paper"
+    ],
+    "choices": [
+        "hoi_an:enemy_mo01:battle"
+    ],
+    "rewardGrantIds": [
+        "quest-accept:HQ01:healing_tea",
+        "h3-lamp-eye",
+        "puzzle:puzzle_paper:hanji_core",
+        "encounter:hoi_an:enemy_mo01:link_key"
+    ],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 5,
+            "stage": 3,
+            "visited": [
+                0,
+                11,
+                1,
+                2,
+                13,
+                3,
+                4,
+                14,
+                18,
+                5
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "jeonju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 27,
+    "lightEnergy": 2,
+    "coins": 0
+}

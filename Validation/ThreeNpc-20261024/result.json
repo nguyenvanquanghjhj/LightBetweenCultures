@@ -1,0 +1,27 @@
+{
+  "source": "IMPLEMENTED",
+  "runtime": "BLOCKED_UNITY_LICENSE_EXIT_198",
+  "staticChecks": 194,
+  "runtimeCSharpCompile": "PASS",
+  "editorCSharpCompile": "PASS",
+  "actualSaveRestartAndDuplicateRuntime": "NOT_RUN",
+  "screenshots": [],
+  "modified": [
+    "Assets/_Game/Resources/Content/GameplayContent.json",
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta",
+    "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FullStory.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase4.cs",
+    "Docs/Art/NPC_CANONICAL_REGISTRY.json",
+    "Docs/Art/NPC_CANONICAL_REGISTRY.md"
+  ],
+  "added": [
+    "Assets/_Game/Scripts/Editor/ThreeNpcSetup.cs",
+    "Assets/_Game/Scripts/Editor/ThreeNpcSetup.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.ThreeNpc.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.ThreeNpc.cs.meta",
+    "Docs/QA/THREE_NPC_20261024.md"
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "city_id": "hoi_an",
+  "design_only": true,
+  "coordinate_system": {
+    "origin": "top_left",
+    "unit": "normalized_0_to_1",
+    "target_content_aspect_ratio": "9:16",
+    "min_node_margin": 0.08
+  },
+  "node_travel_rule": "Any visible node reachable by unlocked edges. BFS shortest path; animate along edge polyline before event fires.",
+  "scene_policy": "H3 is FreeExploration. All other events are node encounters/overlays initially; H7 may expand later.",
+  "nodes": [
+    {
+      "id": "H0",
+      "display_name": "Bến thuyền",
+      "kind": "start",
+      "normalized_x": 0.26,
+      "normalized_y": 0.89,
+      "event_id": "start",
+      "description": "Nơi Lumi đến Hội An. Hướng dẫn chọn điểm di chuyển.",
+      "visible_if_flag": "true",
+      "repeatable": true
+    },
+    {
+      "id": "H1",
+      "display_name": "Phố đèn",
+      "kind": "junction",
+      "normalized_x": 0.43,
+      "normalized_y": 0.75,
+      "event_id": "junction",
+      "description": "Ngã rẽ giữa ba tuyến khám phá.",
+      "visible_if_flag": "true",
+      "repeatable": true
+    },
+    {
+      "id": "H2",
+      "display_name": "Tiệm đèn",
+      "kind": "npc",
+      "normalized_x": 0.18,
+      "normalized_y": 0.61,
+      "event_id": "npc_co_mai",
+      "description": "Cô Mai giao nhiệm vụ chính.",
+      "visible_if_flag": "true",
+      "repeatable": true
+    },
+    {
+      "id": "H3",
+      "display_name": "Hẻm mái ngói",
+      "kind": "exploration",
+      "normalized_x": 0.61,
+      "normalized_y": 0.62,
+      "event_id": "enter_roof_alley",
+      "description": "Cảnh tự do: tránh vật cản và tìm linh kiện.",
+      "visible_if_flag": "true",
+      "repeatable": false
+    },
+    {
+      "id": "H4",
+      "display_name": "Chợ ven sông",
+      "kind": "puzzle",
+      "normalized_x": 0.69,
+      "normalized_y": 0.81,
+      "event_id": "puzzle_stall",
+      "description": "Câu đố ghép hoa văn; nhận lõi đèn ở phase sau.",
+      "visible_if_flag": "true",
+      "repeatable": false
+    },
+    {
+      "id": "H5",
+      "display_name": "Bến gỗ",
+      "kind": "bot",
+      "normalized_x": 0.84,
+      "normalized_y": 0.48,
+      "event_id": "encounter_mo01",
+      "description": "Bot Mờ-01 canh chìa khóa năng lượng (phase sau).",
+      "visible_if_flag": "true",
+      "repeatable": false
+    },
+    {
+      "id": "H6",
+      "display_name": "Cầu cổ",
+      "kind": "junction",
+      "normalized_x": 0.68,
+      "normalized_y": 0.37,
+      "event_id": "bridge",
+      "description": "Cầu / đường hội tụ; thưởng cảnh thay đổi khi đèn sáng.",
+      "visible_if_flag": "true",
+      "repeatable": true
+    },
+    {
+      "id": "H7",
+      "display_name": "Trạm ánh sáng",
+      "kind": "quest",
+      "normalized_x": 0.46,
+      "normalized_y": 0.22,
+      "event_id": "restore_lights",
+      "description": "Kích hoạt sau khi đủ điều kiện nhiệm vụ.",
+      "visible_if_flag": "true",
+      "repeatable": false
+    },
+    {
+      "id": "H8",
+      "display_name": "Cổng Jeonju",
+      "kind": "portal",
+      "normalized_x": 0.46,
+      "normalized_y": 0.095,
+      "event_id": "portal_jeonju",
+      "description": "Mở sau khi hoàn thành trạm ánh sáng.",
+      "visible_if_flag": "hoi_an.light_restored",
+      "repeatable": false
+    },
+    {
+      "id": "H9",
+      "display_name": "Ngõ bí mật",
+      "kind": "secret",
+      "normalized_x": 0.12,
+      "normalized_y": 0.42,
+      "event_id": "secret_chest",
+      "description": "Điểm ẩn, chỉ xuất hiện sau nhiệm vụ phụ.",
+      "visible_if_flag": "hoi_an.secret_lane_discovered",
+      "repeatable": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "H0",
+      "to": "H1",
+      "bidirectional": true,
+      "requires_flag": "true"
+    },
+    {
+      "from": "H1",
+      "to": "H2",
+      "bidirectional": true,
+      "requires_flag": "true"
+    },
+    {
+      "from": "H1",
+      "to": "H3",
+      "bidirectional": true,
+      "requires_flag": "true"
+    },
+    {
+      "from": "H1",
+      "to": "H4",
+      "bidirectional": true,
+      "requires_flag": "true"
+    },
+    {
+      "from": "H2",
+      "to": "H9",
+      "bidirectional": true,
+      "requires_flag": "hoi_an.secret_lane_discovered"
+    },
+    {
+      "from": "H3",
+      "to": "H5",
+      "bidirectional": true,
+      "requires_flag": "true"
+    },
+    {
+      "from": "H9",
+      "to": "H5",
+      "bidirectional": true,
+      "requires_flag": "hoi_an.secret_lane_discovered"
+    },
+    {
+      "from": "H4",
+      "to": "H6",
+      "bidirectional": true,
+      "requires_flag": "true"
+    },
+    {
+      "from": "H5",
+      "to": "H6",
+      "bidirectional": true,
+      "requires_flag": "true"
+    },
+    {
+      "from": "H6",
+      "to": "H7",
+      "bidirectional": true,
+      "requires_flag": "true"
+    },
+    {
+      "from": "H7",
+      "to": "H8",
+      "bidirectional": true,
+      "requires_flag": "hoi_an.light_restored"
+    }
+  ],
+  "phase_1_feature_subset": {
+    "playable": [
+      "H0",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H6"
+    ],
+    "locked_for_demo": [
+      "H5",
+      "H7",
+      "H8",
+      "H9"
+    ],
+    "need": [
+      "H2 dialog",
+      "H3 item pickup",
+      "quest hand-in",
+      "simple light reward"
+    ],
+    "do_not_fake": [
+      "defeated boss",
+      "Jeonju open without condition",
+      "finished six cities"
+    ]
+  },
+  "notes": [
+    "Nodes not separate puzzle zones: obstacles/puzzles distributed in exploration and natural city events.",
+    "No direct teleport: character must follow valid graph path.",
+    "If moving through H3 en route to H5, H3 event should not auto-fire as a blocking full-screen scene until target arrival unless explicitly designed."
+  ]
+}

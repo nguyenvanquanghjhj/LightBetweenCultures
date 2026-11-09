@@ -1,0 +1,89 @@
+{
+    "version": 2,
+    "cityId": "hoi_an",
+    "node": 0,
+    "previousNode": 0,
+    "visited": [
+        0,
+        1,
+        2,
+        13,
+        3
+    ],
+    "accepted": [
+        "mai-lantern",
+        "HQ01"
+    ],
+    "completed": [],
+    "items": [
+        "healing_tea",
+        "healing_tea",
+        "lantern-part",
+        "lamp_eye"
+    ],
+    "collected": [
+        "lantern-part"
+    ],
+    "flags": [
+        "relic.proof.fragment_hoi_an_bamboo_frame",
+        "relic.fragment.fragment_hoi_an_bamboo_frame",
+        "quest:HQ01",
+        "hoi_an.lamp_eye_found"
+    ],
+    "resolvedEvents": [],
+    "defeatedEnemies": [],
+    "solvedPuzzles": [],
+    "choices": [],
+    "rewardGrantIds": [
+        "relic:v1:claim:fragment_hoi_an_bamboo_frame",
+        "quest-accept:HQ01:healing_tea",
+        "h3-lamp-eye"
+    ],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 0,
+            "stage": 1,
+            "visited": [
+                0,
+                1,
+                2,
+                13,
+                3
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "jeonju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 3,
+    "coins": 0
+}

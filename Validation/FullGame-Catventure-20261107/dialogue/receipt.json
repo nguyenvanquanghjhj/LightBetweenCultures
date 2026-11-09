@@ -1,0 +1,17 @@
+{
+  "name": "dialogue",
+  "status": "PASS",
+  "exit": 0,
+  "seconds": 35.07,
+  "assertions": 116,
+  "arguments": [
+    "--dialogue-release-qa",
+    "--node-panel-qa",
+    "--buttons-partial-save=D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ReleaseCandidate-20261024\\shop-partial-hoian.json",
+    "--buttons-world-save=D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ReleaseCandidate-20261024\\focused\\RC-earned.json"
+  ],
+  "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+  "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-Catventure-20261107\\dialogue\\smoke-results.txt",
+  "assemblySHA256": "6349b90ffa565f933e7e670d44d65d5f146251901ded1fa8506f5e4d44a12dc0",
+  "failureTail": null
+}

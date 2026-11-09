@@ -1,0 +1,14 @@
+{
+    "output": "Builds/Android/LightBetweenCultures-JourneyShop-20261021.apk",
+    "identifier": "com.DefaultCompany.LightBetweenCultures",
+    "result": "Succeeded",
+    "error": "",
+    "startedUTC": "2026-10-21T00:49:12.7632990Z",
+    "finishedUTC": "2026-10-21T00:51:55.0081941Z",
+    "version": "1.0-shop20261021",
+    "bytes": 1530080067,
+    "customKeystore": false,
+    "errors": 0,
+    "warnings": 1015,
+    "versionCode": 3
+}

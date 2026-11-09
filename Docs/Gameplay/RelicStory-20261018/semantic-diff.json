@@ -1,0 +1,13 @@
+{
+  "gameplayContentChangedFields": [
+    "/events/51/completedText",
+    "/quests/0/thanks"
+  ],
+  "quests": 29,
+  "puzzles": 22,
+  "nodes": 133,
+  "relicDefinitionsUnchanged": true,
+  "storyLines": 51,
+  "channels": 19,
+  "saveSchemaChanged": false
+}

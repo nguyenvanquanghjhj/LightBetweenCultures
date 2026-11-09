@@ -1,0 +1,11 @@
+{
+  "path": "D:\\GAMEKKK\\Backups\\CheckpointOwnerRoutesPhaseB-20261019",
+  "manifestSHA256": "ca3c46355483f0d4c4cd5a997fb592fe7ce26c7463886d151290d3d67d3b5bc5",
+  "bytes": 96769168,
+  "files": 256,
+  "baseVerified": true,
+  "payloadVerified": true,
+  "standalone": false,
+  "requiresBase": "D:\\GAMEKKK\\Backups\\BeforeOwnerRoutesPhaseB-20261019",
+  "createdUTC": "2026-10-19T17:01:55.221355+00:00"
+}

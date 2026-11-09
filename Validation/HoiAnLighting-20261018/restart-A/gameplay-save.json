@@ -1,0 +1,66 @@
+{
+    "version": 2,
+    "cityId": "hoi_an",
+    "node": 2,
+    "previousNode": 2,
+    "visited": [
+        0,
+        1,
+        2
+    ],
+    "accepted": [],
+    "completed": [],
+    "items": [],
+    "collected": [],
+    "flags": [],
+    "resolvedEvents": [],
+    "defeatedEnemies": [],
+    "solvedPuzzles": [],
+    "choices": [],
+    "rewardGrantIds": [],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 2,
+            "stage": 0,
+            "visited": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "jeonju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 3,
+    "coins": 0
+}

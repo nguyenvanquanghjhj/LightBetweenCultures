@@ -1,0 +1,46 @@
+UTC run: 2026-10-25T10:54:03.4940341Z | Unity 6000.6.5f1 | 1280x960
+PASS: City relic enabled in shared registry: seoul
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: Fresh runtime capture written: X-WorldMap-select-seoul
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Four gestures give four unique collection claims, not story rewards
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S7 is discovered
+PASS: Lumi reaches S7 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Dialogue choice relic_restore:relic_seoul_trirelay_prism has a real receipt/next/interact control
+PASS: Empty slots do not assemble relic_seoul_trirelay_prism
+PASS: Fresh runtime capture written: P4-seoul-assembly
+PASS: Assembly is distinct from restored state
+PASS: Persist checkpoint phase4-seoul-assembled
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: P4-seoul-A-before-restored
+PASS: Persist checkpoint phase4-seoul-before-trial
+PASS: Dialogue choice relic_restore:relic_seoul_trirelay_prism has a real receipt/next/interact control
+PASS: Actual city restoration uses its distinct tactile rule: prism
+PASS: Wrong trial submission cannot restore relic_seoul_trirelay_prism
+PASS: Fresh runtime capture written: P4-seoul-trial-wrong
+PASS: Hint/retry preserve earned assembly and four fragments without solving
+PASS: Real mouse/touch controls satisfy prism trial
+PASS: Fresh runtime capture written: P4-seoul-trial-correct-before-confirm
+PASS: Correct arrangement alone cannot auto-confirm restoration
+PASS: Explicit trial confirmation commits restored state once: relic_seoul_trirelay_prism
+PASS: Fresh runtime capture written: P4-seoul-celebration
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: P4-seoul-C-restored
+PASS: World restoration preserves main quests, inventory, coins and reward ledger
+PASS: Actual map restoration layer is present and cannot block touch
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S7 is discovered
+PASS: Lumi reaches S7 through the real map input
+PASS: NPC/runtime side dialogue recognizes actual restoration
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: P4-seoul-collection
+PASS: Existing collection opens all four fragment details without travel or grants
+PASS: Fresh runtime capture written: P4-seoul-four-fragments
+PASS: No schema upgrade, boss/ending/world progress change from relic restoration
+PASS: Earned chain now has24/24 fragments and6/6 restored without automatic credits
+PASS: Persist checkpoint phase4-seoul-final
+ALL CHECKS PASSED

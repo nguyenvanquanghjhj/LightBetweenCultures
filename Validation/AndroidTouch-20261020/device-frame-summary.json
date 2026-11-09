@@ -1,0 +1,18 @@
+{
+  "device-before": {
+    "validFrames": 87,
+    "intervals": 86,
+    "medianMs": 33.337365,
+    "p95Ms": 66.436577,
+    "meanMs": 35.27054738372093,
+    "fpsFromMean": 28.35226766175873
+  },
+  "device-after": {
+    "validFrames": 127,
+    "intervals": 126,
+    "medianMs": 16.666308,
+    "p95Ms": 16.888923,
+    "meanMs": 16.665583317460317,
+    "fpsFromMean": 60.003900310666765
+  }
+}

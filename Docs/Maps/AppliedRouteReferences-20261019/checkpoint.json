@@ -1,0 +1,11 @@
+{
+  "checkpoint": "D:\\GAMEKKK\\Backups\\CheckpointAppliedSixRouteReferences-20261019",
+  "manifestSHA256": "daa4acf478fc51184cc84efbfc0dc2ef44f7a1dd0c57b4f8f9096b0b6d282b48",
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointPhase5Final-20261019",
+  "baseManifestSHA256": "cbd6a83da7f22b2c7c2e0091341330025daa83b2f6188b30b34048596b736d67",
+  "standalone": false,
+  "files": 180,
+  "bytes": 149184404,
+  "status": "WINDOWS_TARGETED_PASS / BEST_EFFORT_VISUAL_REVIEW / STOP",
+  "android": "NOT_TESTED"
+}

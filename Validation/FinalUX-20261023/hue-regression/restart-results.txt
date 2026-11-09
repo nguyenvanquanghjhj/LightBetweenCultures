@@ -1,0 +1,30 @@
+UTC run: 2026-10-23T09:59:05.4532103Z | Unity 6000.6.5f1 | 600x1000
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U16 is discovered
+PASS: Lumi reaches U16 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Exactly Hue U16 two-stamp challenge uses forgiving placement
+PASS: Other story activities do not opt into this change
+PASS: Wrong matching slot returns only that stamp immediately; no reset or penalty
+PASS: Incorrect drop changes no quest, item, coin or proof
+PASS: Off-center mouse grip snaps near the target corner before release, even before inspection
+PASS: Accepted stamp is centered and attached to its target
+PASS: Drop counts immediately once without bypassing inspection/printing/reward conditions
+PASS: Placed stamp cannot be dragged out or undone
+PASS: Second stamp accepts a forgiving touch placement once; first remains locked
+PASS: Native pilot framebuffer 600x1000
+PASS: Both stamps remain snapped after portrait canvas resize
+PASS: Both placements alone never bypass the original completion gates
+PASS: Original two inspections still required; printing remains a real action
+PASS: Fresh runtime capture written: HUE-SNAP-locked-stamps
+PASS: Existing hold-to-print completes the original gesture without automatic reward
+PASS: Original confirm records the same canonical proof and flags
+PASS: Original river pass awarded exactly once
+PASS: Closing an event or battle returns map input to the player
+PASS: Completed challenge cannot duplicate its reward
+PASS: Save/load preserves the completed puzzle and exact reward state
+ALL CHECKS PASSED

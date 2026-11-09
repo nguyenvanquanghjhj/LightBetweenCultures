@@ -1,0 +1,138 @@
+{
+  "runs": [
+    {
+      "run": "battle01",
+      "result": "PASS",
+      "assertions": 76
+    },
+    {
+      "run": "before01",
+      "result": "FAIL",
+      "assertions": 34
+    },
+    {
+      "run": "before02",
+      "result": "PASS",
+      "assertions": 52
+    },
+    {
+      "run": "ending01",
+      "result": "PASS",
+      "assertions": 30
+    },
+    {
+      "run": "fresh01",
+      "result": "FAIL",
+      "assertions": 34
+    },
+    {
+      "run": "fresh02",
+      "result": "PASS",
+      "assertions": 36
+    },
+    {
+      "run": "main01",
+      "result": "PASS",
+      "assertions": 245
+    },
+    {
+      "run": "main02",
+      "result": "PASS",
+      "assertions": 267
+    },
+    {
+      "run": "restart01",
+      "result": "PASS",
+      "assertions": 11
+    },
+    {
+      "run": "restore01",
+      "result": "PASS",
+      "assertions": 22
+    }
+  ],
+  "required": [
+    "before02",
+    "main02",
+    "battle01",
+    "restore01",
+    "ending01",
+    "restart01",
+    "fresh02"
+  ],
+  "nativePortraitRenders": [
+    {
+      "path": "Validation/Phase6-20261019/main02/540x960-map.png",
+      "width": 540,
+      "height": 960,
+      "sha256": "e34a461f2d3d9f4e2016679764ef1c58c7ecd9127c8fc20b43bb2cfb52abc761"
+    },
+    {
+      "path": "Validation/Phase6-20261019/main02/540x960-dialogue.png",
+      "width": 540,
+      "height": 960,
+      "sha256": "91552071f9f5771b81bb23410f3644b230742029c5264b2b933fbdf44303f60e"
+    },
+    {
+      "path": "Validation/Phase6-20261019/main02/540x960-inventory.png",
+      "width": 540,
+      "height": 960,
+      "sha256": "5c361a01817b9ac26bc4a080861c04c176b4cc44284cc0cc726eee6926e892ea"
+    },
+    {
+      "path": "Validation/Phase6-20261019/main02/720x1280-map.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "a657337c8cc2012bc535115eaac4087840019756aeb071e6ef9c46063ec13363"
+    },
+    {
+      "path": "Validation/Phase6-20261019/main02/720x1280-dialogue.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "ffe4c1cd9226445b667dd1f77f2c038d60534cfd19ddda1456a579fd415ae90c"
+    },
+    {
+      "path": "Validation/Phase6-20261019/main02/720x1280-inventory.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "754caf7585f943beae7435ac72dd3a1e30da96a2bbdc891ae2a120bb839c686d"
+    },
+    {
+      "path": "Validation/Phase6-20261019/main02/1080x1920-map.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "39f5fe5aef6c632abdde6b908b08df86d082eaf522ba025fa1458ca61284b680"
+    },
+    {
+      "path": "Validation/Phase6-20261019/main02/1080x1920-dialogue.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "92b91356ae0a24ffe5e0bcf94abaff4a3daadf04a95503eae97e7abf9d2014d7"
+    },
+    {
+      "path": "Validation/Phase6-20261019/main02/1080x1920-inventory.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "825234732d611eb4c0d12ed0414ce20049e9e0d59a03945b6296a57d9d535318"
+    },
+    {
+      "path": "Validation/Phase6-20261019/main02/1080x2400-map.png",
+      "width": 1080,
+      "height": 2400,
+      "sha256": "ec6f9da7f11d42a023499016c1cadcd4455658832b07bb068e67c8c7b1c0ff04"
+    },
+    {
+      "path": "Validation/Phase6-20261019/main02/1080x2400-dialogue.png",
+      "width": 1080,
+      "height": 2400,
+      "sha256": "5b38c44afef2d89459c2a7895f1f9541e6737a1408b53a5eca832a7e3c639667"
+    },
+    {
+      "path": "Validation/Phase6-20261019/main02/1080x2400-inventory.png",
+      "width": 1080,
+      "height": 2400,
+      "sha256": "d364a6818b52cf265b7da6c455e6c0e2b4b379b26ff2324b182ac405f4f73c5d"
+    }
+  ],
+  "android": "ANDROID_NOT_TESTED"
+}

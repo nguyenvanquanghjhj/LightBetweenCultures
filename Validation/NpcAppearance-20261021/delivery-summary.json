@@ -1,0 +1,170 @@
+{
+  "windows": "FOCUSED_RUNTIME_PASS",
+  "assertions": 297,
+  "leisureActivities": 12,
+  "renderResolution": "540x960",
+  "beforeComparison": "Old bindings in an explicit same-Player QA fixture, not an old executable",
+  "android": "NOT_BUILT_NOT_TESTED_THIS_ART_REVISION",
+  "npcIds": [
+    "npc_elder",
+    "npc_hana",
+    "npc_nguyet"
+  ],
+  "lumiCanonical": "Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png",
+  "limitations": [
+    "Hana source hem cropped; derived rounded hem awaits owner visual approval",
+    "NPC cutouts are imagegen-derived, not pixel-identical matting",
+    "Quest completion end-to-end and canonical ending/ceremony not replayed; original logic/data remain byte-identical"
+  ],
+  "captures": [
+    {
+      "path": "Validation/NpcAppearance-20261021/before01/ART-Lumi-menu-before.png",
+      "sha256": "76ed2d38da82685c746f3d86aa44aa6738b318a693db1d78cd67181b958f0143",
+      "bytes": 150155
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/before01/ART-npc_elder-dialogue-before.png",
+      "sha256": "7e25a13f4af42f034286a8453713a8bfa024d4654bdbccf1394f53347921a478",
+      "bytes": 892685
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/before01/ART-npc_elder-map-before.png",
+      "sha256": "1ce2e23adca28a41c2dfefbb5f3f244730a00cc7a97f26b2166e13ecfd1f0d3c",
+      "bytes": 1025883
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/before01/ART-npc_hana-dialogue-before.png",
+      "sha256": "7078c6f408b45a867b5355dae51e0fcb7a71d086c301d52005c50efa41cb6bc4",
+      "bytes": 919660
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/before01/ART-npc_hana-map-before.png",
+      "sha256": "813313eb9ff85100d5d912b077ce579f6a86f5533a1ee197e3931a494ff8b256",
+      "bytes": 1019383
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/before01/ART-npc_nguyet-dialogue-before.png",
+      "sha256": "4c43de4a62c9c8e39f46dd2bded77c886d7796e263536b1ce20921312ac447ad",
+      "bytes": 904793
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/before01/ART-npc_nguyet-map-before.png",
+      "sha256": "0388df7c3e78402168316aa8f40a382b19201da3bc298917afd2db732fbf25f5",
+      "bytes": 995210
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-Lumi-combat-after.png",
+      "sha256": "4c716eab0275c1db038018ec0d6bc3b12bcbeefd8ba04c40ca988e7885187336",
+      "bytes": 233604
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-Lumi-guide-after.png",
+      "sha256": "a9bcc6b2951d95ed43f3ef62563dd7935bd004d681b612394ba179c92b05fc09",
+      "bytes": 554766
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-Lumi-H3-after.png",
+      "sha256": "1c3f7724f725b5ef2aecebc2cfb0b47fd8ce70811ab80ad5be7b09f0efdc1297",
+      "bytes": 843255
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-Lumi-leisure-dance.png",
+      "sha256": "f53e1da2cbd0f1414e41ccee661364b0d41a6fc26b5049f6cef6ff1cb8993518",
+      "bytes": 731434
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-Lumi-leisure-swing.png",
+      "sha256": "22f777a17aea7a13222b0ad625507fe1bcac0cde2773c08dd6ab8e1e15a963b2",
+      "bytes": 736650
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-Lumi-leisure-tea.png",
+      "sha256": "89047b9eb124f21af5ac7af578895d1b0cdf292520205ccf030170034b6b02a8",
+      "bytes": 733536
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-Lumi-map-da_lat.png",
+      "sha256": "83008ce202b2708f724925822c1f7dd400584ff871d6b02bd0aa483eedb75350",
+      "bytes": 1049607
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-Lumi-map-gyeongju.png",
+      "sha256": "da36b1033d8732fb74c2981fe4b13820dc4d2701fb6ebced762691e77f2c889d",
+      "bytes": 1045362
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-Lumi-map-hoi_an.png",
+      "sha256": "a2be810c79cc0883df492968a80d72c882c40944c5dd89d4025c1c451f3ac68d",
+      "bytes": 1042421
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-Lumi-map-seoul.png",
+      "sha256": "69b19995c04ecb29aaca431161522c54f093bf09b87406d48cb8d2490f230e94",
+      "bytes": 1044409
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-Lumi-menu-after.png",
+      "sha256": "adab0c96a506c581ae240023b2bb50aca3bb114623ee0ca5b9f675610887998c",
+      "bytes": 162728
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-npc_elder-dialogue-after.png",
+      "sha256": "b056e52f1951a347486be9910eaf30ea35ea6f18faaa0c06fe91209fcf134479",
+      "bytes": 886270
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-npc_elder-map-after.png",
+      "sha256": "1a771127f5b9d27a23989d5dec0710df7802bf96292dbfc058aacf7c572257fc",
+      "bytes": 1025706
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-npc_hana-dialogue-after.png",
+      "sha256": "1ec7d27c5f9f01841d6f81407190ac1f943d5c05975120601ed86c3615477850",
+      "bytes": 913139
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-npc_hana-map-after.png",
+      "sha256": "b21d59d0ee1ba5e1b6aa7554eb9982d86a4ad7acb16e19bb6d6d67987ba60859",
+      "bytes": 1019025
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-npc_nguyet-dialogue-after.png",
+      "sha256": "fb6f7f95bcf3f5ab6b3cd21b36839f906f36f3f8acd28f4cc5a77724bb9f49cd",
+      "bytes": 903128
+    },
+    {
+      "path": "Validation/NpcAppearance-20261021/final01/ART-npc_nguyet-map-after.png",
+      "sha256": "ec1ec41223fa153ac524dbb13fd3f5422a2a1cd4dac336b4a66ee02418ad4b4e",
+      "bytes": 995158
+    }
+  ],
+  "initialQaFailure": "after01 includes a false test failure because a held watering-can layer was counted as Lumi. Predicate corrected. after-tail01 and final01 PASS. Failed evidence retained.",
+  "windowsPlayer": "Builds/Windows-AndroidTouch-20261020/LightBetweenCultures.exe",
+  "sourceChanges": [
+    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021.meta",
+    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_elder.png",
+    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_elder.png.meta",
+    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_hana.png",
+    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_hana.png.meta",
+    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_nguyet.png",
+    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_nguyet.png.meta",
+    "Assets/_Game/Prefabs/DesignKit/LumiExplorationSprite.prefab",
+    "Assets/_Game/Prefabs/DesignKit/LumiMapToken.prefab",
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Resources/DesignKitArt.asset",
+    "Assets/_Game/Scenes/HoiAnDemo.unity",
+    "Assets/_Game/Scripts/Editor/AppearanceRevisionSetup.cs",
+    "Assets/_Game/Scripts/Editor/AppearanceRevisionSetup.cs.meta",
+    "Assets/_Game/Scripts/Editor/LumiRoleSetup.cs",
+    "Assets/_Game/Scripts/UI/DesignKitArt.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.LeisurePilots.cs",
+    "Assets/_Game/Scripts/Validation/AppearanceReviewData.cs",
+    "Assets/_Game/Scripts/Validation/AppearanceReviewData.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Appearance.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Appearance.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.LeisurePilot.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Scripts/Validation/SliceSmokeRunner.cs"
+  ]
+}

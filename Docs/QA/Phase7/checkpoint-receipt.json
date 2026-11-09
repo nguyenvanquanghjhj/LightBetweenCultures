@@ -1,0 +1,16 @@
+{
+  "checkpoint": "D:\\GAMEKKK\\Backups\\CheckpointPhase7Final-20261019",
+  "manifestSHA256": "626e9de9dec8b7ef258dba926ffa01cc55dce46f6223f41edbbd49645eadcc9b",
+  "standalone": false,
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointFinalPolishRecovery-20261019",
+  "baseManifestSHA256": "aaa765d21d091d0d900f47cd167c84161d63e5db9ef019098a588ba4796d6a1a",
+  "files": 371,
+  "bytes": 196075722,
+  "MiB": 186.99,
+  "copiedFilesVerified": true,
+  "baseContentVerified": true,
+  "baseChainManifestVerified": true,
+  "deletedPaths": [],
+  "status": "AUDIT_INCOMPLETE",
+  "stop": "STOP_WAITING_FOR_OWNER_REVIEW"
+}

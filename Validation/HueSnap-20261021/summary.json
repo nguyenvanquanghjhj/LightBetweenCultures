@@ -1,0 +1,31 @@
+{
+  "scope": "Hue U16 / puzzle_market_code / In dau qua song / two stamps",
+  "rootCauses": [
+    "Correct placements were rejected before both inspection buttons had been pressed",
+    "Shared normalized circular tolerance rejected some visible slot edges/corners",
+    "Drag recentered the stamp on the pointer, ignoring grab offset",
+    "Accepted stamps were not locked or anchored to the target"
+  ],
+  "fix": [
+    "Only this activity opts in to target rectangle plus 18 UI-unit padding",
+    "Snap immediately during drag; attach to target and lock; release cannot resubmit",
+    "Retain pointer grab offset; wrong drop resets only that stamp",
+    "Inspection remains a completion gate, not a placement gate",
+    "Keep original inspection, hold-to-print, final confirm and one-time river-pass grant; remove redundant rotate controls for initially correct zero-turn stamps"
+  ],
+  "windows": "FOCUSED_PASS",
+  "input": "MOUSE_AND_SIMULATED_TOUCH_PASS",
+  "windowsChecks": 28,
+  "android": "NOT_BUILT_NOT_TESTED",
+  "canonicalDataAndOtherSourceUnchanged": true,
+  "changedFiles": [
+    "Assets/_Game/Scripts/Content/StoryActivity.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.StoryActivities.cs",
+    "Assets/_Game/Scripts/UI/RelicDragHandle.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.HueSnap.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.HueSnap.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs"
+  ],
+  "capture": "runtime01/HUE-SNAP-locked-stamps.png",
+  "qaFixture": "Only this puzzle reset in a private QA copy of an earned save; never owner save"
+}

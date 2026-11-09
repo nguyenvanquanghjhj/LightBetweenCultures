@@ -1,0 +1,52 @@
+{
+  "status": "COMPLETED_PENDING_FRAME_REVIEW",
+  "error": "",
+  "seconds": 37.593,
+  "operations": [
+    {
+      "step": "install-r",
+      "seconds": 21.744,
+      "exit": 0
+    },
+    {
+      "step": "wake",
+      "seconds": 0.225,
+      "exit": 0
+    },
+    {
+      "step": "launch",
+      "seconds": 1.036,
+      "exit": 0
+    },
+    {
+      "step": "focus",
+      "seconds": 1.063,
+      "exit": 0
+    },
+    {
+      "step": "continue",
+      "seconds": 0.355,
+      "exit": 0
+    },
+    {
+      "step": "enter-hoian",
+      "seconds": 0.159,
+      "exit": 0
+    },
+    {
+      "step": "interact",
+      "seconds": 0.215,
+      "exit": 0
+    },
+    {
+      "step": "one-final-screencap",
+      "seconds": 1.959,
+      "exit": 0
+    },
+    {
+      "step": "logcat",
+      "seconds": 0.733,
+      "exit": 0
+    }
+  ]
+}

@@ -1,0 +1,4627 @@
+{
+  "createdUTC": "2026-10-17T07:43:05.557122+00:00",
+  "status": "SIX_CHAPTER_STORY_E2E_PASS_WITH_EARNED_SAVE_RESUMES_ART_TERRAIN_PENDING",
+  "finalBuild": "06",
+  "assemblySHA256": "12ee28e9a77b3eb584d93b36f1eb5b1c5cc4a8ede47ba4d7c096df5e51573bcb",
+  "changedBaselineFiles": [
+    "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta",
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Resources/Content/AdventurePresentation.json",
+    "Assets/_Game/Resources/Content/GameplayContent.json",
+    "Assets/_Game/Scripts/Content/BattleManager.cs",
+    "Assets/_Game/Scripts/Content/ContentDefinitions.cs",
+    "Assets/_Game/Scripts/Content/EncounterManager.cs",
+    "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+    "Assets/_Game/Scripts/Core/GameBootstrap.cs",
+    "Assets/_Game/Scripts/Core/WorldState.cs",
+    "Assets/_Game/Scripts/Maps/CityMap.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Chapters.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CrossCity.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.DaLat.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Docs/Art/ART_ASSET_CATALOG.md",
+    "Docs/Art/art-asset-manifest.csv",
+    "Docs/Art/art-asset-manifest.json",
+    "Docs/Art/native-art-bindings.json"
+  ],
+  "audit": {
+    "nodes": 133,
+    "nodeStatuses": {
+      "IMPLEMENTED": 126,
+      "PARTIAL": 7
+    },
+    "quests": 29,
+    "questStatuses": {
+      "IMPLEMENTED": 29
+    },
+    "proofs": [
+      "Validation/FullStory-20261017/Fresh04/full-story-final.json",
+      "Validation/FullStory-20261017/Reverse03/full-story-final.json",
+      "Validation/FullStory-20261017/Coverage03/full-coverage-final.json"
+    ],
+    "freshE2E": true,
+    "reverseE2E": true,
+    "lineage": "Fresh02 H0 -> Fresh03 earned jeonju-before (before negative fixture) -> Fresh04; Reverse02 H0 -> exact earned Reverse03. No synthetic progress fields."
+  },
+  "runs": [
+    {
+      "run": "Fresh04",
+      "type": "EARNED_FRESH_ORIGIN_CONTINUATION",
+      "assertions": 1247,
+      "resultsSHA256": "8b20eba2ecdd63b5165309635ecbe65df00151d1d1e59c63108d2792daf70cf4"
+    },
+    {
+      "run": "Reverse03",
+      "type": "EARNED_FRESH_ORIGIN_CONTINUATION",
+      "assertions": 3976,
+      "resultsSHA256": "ff9a136a411f45cbda4ded739b9bdc7d25b0c09819c51a008b98ff1f4f4631a7"
+    },
+    {
+      "run": "Coverage03",
+      "type": "EARNED_POSTGAME_INTERACTIONS",
+      "assertions": 627,
+      "resultsSHA256": "4f8c25574a8c7d86c5b66158089f611f48eefaa0605a5d08d139db2c0586761e"
+    },
+    {
+      "run": "Negative-S16",
+      "type": "NEGATIVE_FIXTURE_RESTORED_NOT_STORY_PROOF",
+      "assertions": 17,
+      "resultsSHA256": "f13351e3a4171ce36010a062a68e1ac9dbfcc28f0026e75fef651732a2e9db6a"
+    },
+    {
+      "run": "Negative-S17",
+      "type": "NEGATIVE_FIXTURE_RESTORED_NOT_STORY_PROOF",
+      "assertions": 17,
+      "resultsSHA256": "e707e743793a642f2605657dee2c9bfefca96d762390a4a7dc78c152db291a80"
+    },
+    {
+      "run": "Negative-S18",
+      "type": "NEGATIVE_FIXTURE_RESTORED_NOT_STORY_PROOF",
+      "assertions": 17,
+      "resultsSHA256": "4cc55bd851a85dfd3881d1d3753e8e386946ba0b7bffb81558163bdcca5816e8"
+    },
+    {
+      "run": "Restart-HA",
+      "type": "EARNED_SAVE_PROCESS_RESTART",
+      "assertions": 20,
+      "resultsSHA256": "2b59409ce1bee596530f6e443f1fac2ce830cfff1b73a00f10e3f993d231d07c"
+    },
+    {
+      "run": "Restart-Hue",
+      "type": "EARNED_SAVE_PROCESS_RESTART",
+      "assertions": 98,
+      "resultsSHA256": "7ad706932f6cec50008badd546f93db4973ee14bcfb4073f3cbdefefe3054f87"
+    },
+    {
+      "run": "Restart-DaLat",
+      "type": "EARNED_SAVE_PROCESS_RESTART",
+      "assertions": 98,
+      "resultsSHA256": "0b85f8504b145d4c024b4cd5ecf44af40794a0c9114d2157fee9cb667db3d464"
+    },
+    {
+      "run": "Restart-Jeonju",
+      "type": "EARNED_SAVE_PROCESS_RESTART",
+      "assertions": 106,
+      "resultsSHA256": "471c7cd32e5f21132ab5db5c9627ad3d04e0f83e0f197974eef154fb06f45254"
+    },
+    {
+      "run": "Restart-Gyeongju",
+      "type": "EARNED_SAVE_PROCESS_RESTART",
+      "assertions": 74,
+      "resultsSHA256": "7054180bd51f35d17e1702b7183f21bb0c96d9ee9c0408462961e862e65a5307"
+    },
+    {
+      "run": "Restart-BeforeBoss",
+      "type": "EARNED_SAVE_PROCESS_RESTART",
+      "assertions": 76,
+      "resultsSHA256": "efbe97089359993d61ff5075cd24184ad9cc90d94729f419e5ac723685d61c51"
+    },
+    {
+      "run": "Restart-Epilogue",
+      "type": "EARNED_SAVE_PROCESS_RESTART",
+      "assertions": 88,
+      "resultsSHA256": "df4445d2074e07f209bcaad8c50e366d282b2710fce19c16ffdd2e8ff4a55b6c"
+    },
+    {
+      "run": "Restart-Ending",
+      "type": "EARNED_SAVE_PROCESS_RESTART",
+      "assertions": 75,
+      "resultsSHA256": "0a4e9d6726d382f61b47f6fa3ed339c9af40c31db59f153e0bf59cf041161d97"
+    }
+  ],
+  "assertions": 6536,
+  "screenshots": [
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Chapter-G13-win.png",
+      "build": "06",
+      "sha256": "cb985c3d763dd13887dfbe2a8fbe9ad97fc69e113b49ebe39d1336a52839a161"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Chapter-HQ03-lantern-rescued.png",
+      "build": "06",
+      "sha256": "12626edeb3575bc4891cbaabbea2c47342c42ac4a4704f37b68b4839d7b67828"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Chapter-Jieun-letter-return.png",
+      "build": "06",
+      "sha256": "2e5d46a0ace814e550346395fb362147510cb8d9f98f67b8c270a5d071b2d691"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Portrait-gyeongju-G3-stage0.png",
+      "build": "06",
+      "sha256": "2c0675417b7ee521357e125b8bca7c11f98674ce90afd9009345b74f1aeec449"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Portrait-hoi_an-H10-stage4.png",
+      "build": "06",
+      "sha256": "6431882d5acc9466b5b2dc1f27ebe7f85197fc780d0a48f84ee9d153359cf723"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Portrait-hoi_an-H17-stage4.png",
+      "build": "06",
+      "sha256": "83d4ee39fe23d516464cd301aa66cefded52925ac542935fba723c32aff8dc98"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Portrait-hoi_an-H18-stage4.png",
+      "build": "06",
+      "sha256": "85dec0512bbad9cf755326d0a64d7da94e00aba3a91819b28394c4a0e8eb0288"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Portrait-hue-U1-stage4.png",
+      "build": "06",
+      "sha256": "0dc5538b5eb9b3ff69302e620766fbf464c2e76e2462184d267f52ce2624fa2b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Portrait-jeonju-J15-stage4.png",
+      "build": "06",
+      "sha256": "c154d320ca48ddbf6a1ee11a106e38898ace90f27eca9243a9422870abb2f060"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_cracked_seal-retry.png",
+      "build": "06",
+      "sha256": "6719b28d7841d4d6e27342264a93005139808fee9420ccba5bdaad2bcb53cad2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_cracked_seal-solved.png",
+      "build": "06",
+      "sha256": "c3b3befdfcb9f49b7678b6afd3f62768f8344b255b04d4e6694864297dd2ac92"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_lantern_west-retry.png",
+      "build": "06",
+      "sha256": "414937ca282086031eb6cd44a5192a76a310d4168c564a94c813ca736c707c1e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_lantern_west-solved.png",
+      "build": "06",
+      "sha256": "fa6f0f5c447b898db79202be10592154f59c8a82e209f08d4eb08077f77bb271"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_observatory-retry.png",
+      "build": "06",
+      "sha256": "6411cfbe831d55d1bb7c558093583d2f06a4bc11046b079ed7371396cfa4d076"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_observatory-solved.png",
+      "build": "06",
+      "sha256": "aec6b591b1d406dfa1d14e698c59779ba7592c57227a6523a5bab56890f7721b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_palace-retry.png",
+      "build": "06",
+      "sha256": "3d4314ca59d31d69e4f3f6973ba8ab79a75daf20afb5626a70bef90a1dbf8885"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_palace-solved.png",
+      "build": "06",
+      "sha256": "706a69a0f35aaa5505006d46cb6fb9c0b2d9fa734b98e0a6471467be8feea0a0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_pond-retry.png",
+      "build": "06",
+      "sha256": "c324e7ee068e266de9f0fa49b35f9857f0ffa33d03b1303013a04a250eaf433e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_pond-solved.png",
+      "build": "06",
+      "sha256": "094fa769bfde82b8d500f96dbbd0df26b331a9675d3539f0d221e044e3aec078"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_relay_hue-retry.png",
+      "build": "06",
+      "sha256": "be2af8cf6b674f57edd8bb82cbfbe399b1bd78c4f45357da7ae139bb4df253af"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_relay_hue-solved.png",
+      "build": "06",
+      "sha256": "0659128e44ca6ded1d8745a388871014dd9aad826dd413729502f8c051f15de8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_relay_jeonju-retry.png",
+      "build": "06",
+      "sha256": "f69af1bc15171eab395d622d5a5a55eb75bebe3fb39e6a439dcc8dd23989ebc1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_relay_jeonju-solved.png",
+      "build": "06",
+      "sha256": "0075f929b14128e58eb902beecf3f2ba5a942764a6645b8da1bf50616ba36a37"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_station-retry.png",
+      "build": "06",
+      "sha256": "bc070c1ed1009a87cbb7f7d96ef510fb8f5af78ac9b3c262d2efe72ecae20912"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_station-solved.png",
+      "build": "06",
+      "sha256": "7de9ee6b02cfbf889faf6d525f11d4ec7940c2ab33863f978efc47f90c4c0c55"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_temple-retry.png",
+      "build": "06",
+      "sha256": "edcaab146e09a3c481b6b50ec33971750eeca5b9d0977566789fb3ea145e06bd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_temple-solved.png",
+      "build": "06",
+      "sha256": "90a9b88d9ae73bf3c732ef4321a2f0ded8018728c34e062d30145aaaefef1b90"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_tower-retry.png",
+      "build": "06",
+      "sha256": "946770a5a5225fd7f24568da75e001d24e65cc3df90402ceb1aba54724fdcc43"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/puzzle-puzzle_tower-solved.png",
+      "build": "06",
+      "sha256": "a7a7bec4a86e33446f611cc9285774eaf0b656bbc946a99f5b5bf18f012acdf1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-return-00.png",
+      "build": "06",
+      "sha256": "cf2133fb552923b373a167bbe564113511806704b4669057b52dac5842a1e8fc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-return-01.png",
+      "build": "06",
+      "sha256": "4654581e9d2c2e9b6a8fef9d5910e09898cbbf0d0cab4cf7362673bdc041b628"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-return-02.png",
+      "build": "06",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-return-03.png",
+      "build": "06",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-return-04.png",
+      "build": "06",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-return-05.png",
+      "build": "06",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-return-06.png",
+      "build": "06",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-return-07.png",
+      "build": "06",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-return-08.png",
+      "build": "06",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-to-Lumi-00.png",
+      "build": "06",
+      "sha256": "5e4db0b93cb75cbf77790042292263f1d01025f1c88b412965dcb5fda9ec9ebf"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-to-Lumi-01.png",
+      "build": "06",
+      "sha256": "b739731d65ebe162aa2cb900a975660a5cc1e76c8806d2ee11ceda0ac33ea962"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-to-Lumi-02.png",
+      "build": "06",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-to-Lumi-03.png",
+      "build": "06",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-to-Lumi-04.png",
+      "build": "06",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-to-Lumi-05.png",
+      "build": "06",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-to-Lumi-06.png",
+      "build": "06",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-to-Lumi-07.png",
+      "build": "06",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H10-to-Lumi-08.png",
+      "build": "06",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H18-to-Lumi-00.png",
+      "build": "06",
+      "sha256": "b398dcc36f9fcabe363f1941a58f9db29b8675eb3d01794509832122d20e94f1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H18-to-Lumi-01.png",
+      "build": "06",
+      "sha256": "b398dcc36f9fcabe363f1941a58f9db29b8675eb3d01794509832122d20e94f1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H18-to-Lumi-02.png",
+      "build": "06",
+      "sha256": "b398dcc36f9fcabe363f1941a58f9db29b8675eb3d01794509832122d20e94f1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H18-to-Lumi-03.png",
+      "build": "06",
+      "sha256": "b398dcc36f9fcabe363f1941a58f9db29b8675eb3d01794509832122d20e94f1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H18-to-Lumi-04.png",
+      "build": "06",
+      "sha256": "b398dcc36f9fcabe363f1941a58f9db29b8675eb3d01794509832122d20e94f1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H18-to-Lumi-05.png",
+      "build": "06",
+      "sha256": "b398dcc36f9fcabe363f1941a58f9db29b8675eb3d01794509832122d20e94f1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H18-to-Lumi-06.png",
+      "build": "06",
+      "sha256": "b398dcc36f9fcabe363f1941a58f9db29b8675eb3d01794509832122d20e94f1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H18-to-Lumi-07.png",
+      "build": "06",
+      "sha256": "b398dcc36f9fcabe363f1941a58f9db29b8675eb3d01794509832122d20e94f1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-hoi_an-H18-to-Lumi-08.png",
+      "build": "06",
+      "sha256": "b398dcc36f9fcabe363f1941a58f9db29b8675eb3d01794509832122d20e94f1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-return-00.png",
+      "build": "06",
+      "sha256": "faf08750fddb8e06ea06df3e352805c1887b58c8e73f05f7d48f5caf32dfc509"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-return-01.png",
+      "build": "06",
+      "sha256": "2d2b2fe01a382b01ac7b6303b9abb733703b4465ad26c52bcc2cea9e9a2c321e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-return-02.png",
+      "build": "06",
+      "sha256": "1ff3310667406d33cc8c5e2b642ed988ea8128e0b5cedaec74bdcbceaf13e464"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-return-03.png",
+      "build": "06",
+      "sha256": "1ff3310667406d33cc8c5e2b642ed988ea8128e0b5cedaec74bdcbceaf13e464"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-return-04.png",
+      "build": "06",
+      "sha256": "1ff3310667406d33cc8c5e2b642ed988ea8128e0b5cedaec74bdcbceaf13e464"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-return-05.png",
+      "build": "06",
+      "sha256": "1ff3310667406d33cc8c5e2b642ed988ea8128e0b5cedaec74bdcbceaf13e464"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-return-06.png",
+      "build": "06",
+      "sha256": "1ff3310667406d33cc8c5e2b642ed988ea8128e0b5cedaec74bdcbceaf13e464"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-return-07.png",
+      "build": "06",
+      "sha256": "1ff3310667406d33cc8c5e2b642ed988ea8128e0b5cedaec74bdcbceaf13e464"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-return-08.png",
+      "build": "06",
+      "sha256": "1ff3310667406d33cc8c5e2b642ed988ea8128e0b5cedaec74bdcbceaf13e464"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-to-Lumi-00.png",
+      "build": "06",
+      "sha256": "cf36648c221120a0cf735d040cd562118cb7488525cb73ad3034f00a9be6cead"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-to-Lumi-01.png",
+      "build": "06",
+      "sha256": "56567547de32a8ed20ccf3d7de16b3c16256dd7ca9a9a643d2cb929096898d13"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-to-Lumi-02.png",
+      "build": "06",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-to-Lumi-03.png",
+      "build": "06",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-to-Lumi-04.png",
+      "build": "06",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-to-Lumi-05.png",
+      "build": "06",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-to-Lumi-06.png",
+      "build": "06",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-to-Lumi-07.png",
+      "build": "06",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Speaker-jeonju-J15-to-Lumi-08.png",
+      "build": "06",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-G18-phase1.png",
+      "build": "06",
+      "sha256": "d8e760bebe186ca789633be71c0e27168e26611655da7f6d920f9655cbff0c12"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-G18-resolved.png",
+      "build": "06",
+      "sha256": "14656ec730fb23b09603761269f4411ae8c8e29715127ce98bb991a4a3cd9294"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-G19-beacon.png",
+      "build": "06",
+      "sha256": "ba95a2fb308056f09b8c191c0677e9c712bab5abc80b26d54690da9c81312816"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-G7-after-choice.png",
+      "build": "06",
+      "sha256": "92795dfeee3f11716005c03e73d6b7389cad98700dceb579e0cad110ce36b023"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-Gyeongju-opening.png",
+      "build": "06",
+      "sha256": "2f2e84fc6c434448f95350b77c0025c2ceb7d31108fa23d174ddb30bbe2e9002"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-postgame-da_lat.png",
+      "build": "06",
+      "sha256": "016da5a2310d59f9897e602ddd8b0edbdaf41d557503d474e2877f773aacf292"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-postgame-gyeongju.png",
+      "build": "06",
+      "sha256": "0942b41ee3615d0cfe51f55b9d6c34885072aa513fc436eabcde3ee98ab1e311"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-postgame-hoi_an.png",
+      "build": "06",
+      "sha256": "a4c82883bf1b6e91ff52ee4854e46e2a93bfa5bea805215ecd34a12a81db744e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-postgame-hue.png",
+      "build": "06",
+      "sha256": "c5cf107919ee92463949059ef51968b3d61030d3da095007446a44050db5577d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-postgame-jeonju.png",
+      "build": "06",
+      "sha256": "1ce8ee5e90ac732ce907403a76d8df0d9ea5bffa193e5c252716b654cb5bf817"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-postgame-seoul.png",
+      "build": "06",
+      "sha256": "fc09efe0b6dc8ff456f224c3748ef14df0fb2bb3badbc542ff331c98a8814b91"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S11-truth.png",
+      "build": "06",
+      "sha256": "db9e6c04ed23c8f7b31ba507d678557167cf6453c0195bf81971a7ed15764173"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S16-relay-A.png",
+      "build": "06",
+      "sha256": "f082c6da05cd53da03e4b07019ad8fb10feb8b126898f65e074820d7cdba9b02"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S17-relay-B.png",
+      "build": "06",
+      "sha256": "5e8f9bbc4de81748b5c356898eaa6afa148e969bec6021e9c35f6a74eca6fb90"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S18-relay-C.png",
+      "build": "06",
+      "sha256": "d34db457ed158f8d2474a53967e5294190b216210d0cfbf79f5d8a427b37f1d2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S20-loss.png",
+      "build": "06",
+      "sha256": "9e8fe399d1a7cca0a6923975d84300e0f388fde25646138b9ae433cffbadc601"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S20-phase1.png",
+      "build": "06",
+      "sha256": "be726672c6d01e1df5cf09045d50b0ee864e1b9aef9eea8d52da794771bbe4c9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S20-phase2.png",
+      "build": "06",
+      "sha256": "0762721add615a3843746487c0f24474952be02dbd82a5c741dbc95efb384603"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S20-resolved.png",
+      "build": "06",
+      "sha256": "a4f9fa91f77e18721fca1873f4fa2c28c4ef9547c372d076cf5a134cf897bb52"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S21-ending-0.png",
+      "build": "06",
+      "sha256": "81586613bb6fa5dde38f6ca9c8ee1be73f0e4a8f76cf90e6b800db89f3c53a33"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S21-ending-1.png",
+      "build": "06",
+      "sha256": "e2981e348d9769596f16940c3f7bbed774f5fdab85833ecd6c51d701f76a882a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S21-ending-2.png",
+      "build": "06",
+      "sha256": "a8d45a5c112ffb4cba25829d176a480fcc7bdeb1f1b816053aafa62b3a817c92"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S21-ending-3.png",
+      "build": "06",
+      "sha256": "7784daa0a7e672bb310b57b8a4b93580c5cfb0c59bba9ee7740fc0e60385065e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S21-ending-4.png",
+      "build": "06",
+      "sha256": "dafbec1e7a4df04925c7702336fd26a7444cecbf7258ea73a15f2e717081ed7b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S21-ending-5.png",
+      "build": "06",
+      "sha256": "c5d8b76526493b67715d1fc6d01009ca909b014276ed8e7bacbfe10079a7cf44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S21-ending-6.png",
+      "build": "06",
+      "sha256": "b28bfcb293b8992682540846fd3091ae0512809f858bb5b764aff077e6f7d4d6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-S22-secret.png",
+      "build": "06",
+      "sha256": "5cae5c319bf32544cfe4ee3f5a1f5e7b0feec38ba8d1cd2ee23a06402f2ac0a5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/Story-Seoul-opening.png",
+      "build": "06",
+      "sha256": "97c160399ea019b7e0614862ea7c6b401c7bb7a1c30bd02c662e516d09b7e2ea"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-HoiAn-final-inventory.png",
+      "build": "06",
+      "sha256": "8be23938aad8492ba26e883e7f9992c30b48c05033eb2ed115d18e4d49152a4b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-HoiAn-final-quest-journal.png",
+      "build": "06",
+      "sha256": "148080c2f996ad04a87c0cb6311b1fec5827517c6906b370c124289a919836c6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-HoiAn-HQ07-offer.png",
+      "build": "06",
+      "sha256": "6431882d5acc9466b5b2dc1f27ebe7f85197fc780d0a48f84ee9d153359cf723"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-HoiAn-HQ07-reward.png",
+      "build": "06",
+      "sha256": "0bb4631d59418a3d002b742849756060ef6efc0383b40e6298b33e922b0c64c5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-hue-revisit-after-HQ07.png",
+      "build": "06",
+      "sha256": "0dc5538b5eb9b3ff69302e620766fbf464c2e76e2462184d267f52ce2624fa2b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-jeonju-inventory-after.png",
+      "build": "06",
+      "sha256": "e38990907ccea3c04746712104263ce096436ea99db7a1236fdeb0d505fca23c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-jeonju-inventory-before.png",
+      "build": "06",
+      "sha256": "e8797cc431de05e98da9ede96b07d49756fb45eda6282801330f2ea2f2f5f878"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-jeonju-Lumi-confirm.png",
+      "build": "06",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-jeonju-NPC-before.png",
+      "build": "06",
+      "sha256": "c154d320ca48ddbf6a1ee11a106e38898ace90f27eca9243a9422870abb2f060"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-jeonju-NPC-delivered.png",
+      "build": "06",
+      "sha256": "083c5777ec2a96fb248d7a09b8a131485ee4c7195fab88677bce707a7161449d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-jeonju-NPC-missing-fixture.png",
+      "build": "06",
+      "sha256": "f6b359865dec31bef861fd255d6a65703b5fb1e562689f86b7153458a6b1d698"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-jeonju-quest-journal.png",
+      "build": "06",
+      "sha256": "0b3f93ed1b003dca5b380b8289a047cd482ab16cbff1d1b51c52ecb0cd08d0e6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-jeonju-revisit-after-HQ07.png",
+      "build": "06",
+      "sha256": "1d31ab846ea287a6ce1162f6d6f1b3effeb669e49051bbda0dbc411944d514d5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-WorldMap-select-da_lat.png",
+      "build": "06",
+      "sha256": "c16fc30bc939bce4a9e24c05f1dd5618e2a02cd597dd28b4e3e62e9af0765217"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-WorldMap-select-gyeongju.png",
+      "build": "06",
+      "sha256": "46b22d8bd808d87d6d9f0c1e852bf4075b78c961581fe9f41ab758d6bca367c2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-WorldMap-select-hoi_an.png",
+      "build": "06",
+      "sha256": "9ee5b1f33068d324dcba344e0bdd9c02cb21987790d04cef51b41a16cd68330b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-WorldMap-select-hue.png",
+      "build": "06",
+      "sha256": "22be4134fa3df2818bf853b9d778351f950044ad12637ea6f8a957918da44715"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-WorldMap-select-jeonju.png",
+      "build": "06",
+      "sha256": "bef5563f7898cf44cfc6e4bb27388a21c0711c76670d21c11e216509cd31e20a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh04/X-WorldMap-select-seoul.png",
+      "build": "06",
+      "sha256": "234a5729bf650402aa13a68cd9c20d00c8d5e15fea8c6470a7e31972a09bf27f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-D0-checkin.png",
+      "build": "05",
+      "sha256": "c51679a81ae84c1e0e6a46bc8708e4511ce91c8a523cb933ba1ca89fe971cf44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-D12-three-lantern-rings.png",
+      "build": "05",
+      "sha256": "bcf516f12f17f1ba68e0b999fdfe3947c7148af55195ff9fed69e2b1d26bd38d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-D14-checkin.png",
+      "build": "05",
+      "sha256": "c659dd9c2f48d0ce9e672f528ff1146fa91187501433897024c8d5d574e6fc8d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-D15-loss.png",
+      "build": "05",
+      "sha256": "ac5a0004acb4a0c5c70f5a88bab820a7903911694d4f7f7185d2d0d10d6dcec6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-D15-win.png",
+      "build": "05",
+      "sha256": "6b5f006814a623014b0193bf0a2e30e50cfc605f32e8e89ec7e2d6bd1d8c58a3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-Dalat-destination-readiness.png",
+      "build": "05",
+      "sha256": "bcc362dec4f8255b20b82e7e236a898ce7c1d4a2eb6e1bba61b9d125ac1cd188"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-da_lat-landscape-zoom1.png",
+      "build": "05",
+      "sha256": "48ccfd5f2843b8bdf4a04e0ee0fde8e58bb59cdf012707322bddeb665ce79b8e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-da_lat-landscape-zoom2.png",
+      "build": "05",
+      "sha256": "600cdc31e85a312b6385c45c167d23162f213451bb5677eea2bcae35ac9134ab"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-da_lat-landscape-zoom4.png",
+      "build": "05",
+      "sha256": "88103e6c5f93908375fdf7b346cd73521019bc3ec110c6065ec0e8e1abc6b629"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-da_lat-portrait-zoom1.png",
+      "build": "05",
+      "sha256": "1415b477529574cda7edfe7c099cb1057f61173a049bfa904025ca53af281811"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-da_lat-portrait-zoom2.png",
+      "build": "05",
+      "sha256": "0c2cb44f6187c14cb43f159ce0f7dd84425f0cc30a1c8efc7f41229d345140c2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-da_lat-portrait-zoom4.png",
+      "build": "05",
+      "sha256": "3a09093fa5dbd2f7f14c3d9656bdb28870eba05a0dbab53246fe9ef0e98671a8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-G13-win.png",
+      "build": "05",
+      "sha256": "71a886a4f37a43cdd36eadd19e44b020485378b44fd169f06dc974b951d45167"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-G6-win.png",
+      "build": "05",
+      "sha256": "002648f0e18036cd771b4ee8d560f0fa588ae809b450e82d59f57245788cdeca"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-G7-loss.png",
+      "build": "05",
+      "sha256": "0b0ff5e9d7228bfd22db2ac0819c4048731cc855cf5889c8f8d1471623a275a3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-G7-win.png",
+      "build": "05",
+      "sha256": "f8ca8483f450b820d5d84dd63a06191975bd4cb1dcd32ba6bd528903c94677bc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-HQ03-lantern-rescued.png",
+      "build": "05",
+      "sha256": "14fe2a0df8731c7434a58ac5a139fc632a2dd246210eb9537b8176536448b06e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-hue-all-nodes.png",
+      "build": "05",
+      "sha256": "147143a4826a909e4cc6f5fd8a397dbc8f02c567e2887c189c05d4a210bec6d2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-Hue-gate1-reveal.png",
+      "build": "05",
+      "sha256": "d7f181ae81d96a17534ab0aa3cf50a4f86d14751445cf9a6de64d4e2f907554e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-hue-journal.png",
+      "build": "05",
+      "sha256": "683b28f519d070dad3c4a29bd525d1dd2ec4451ac7b09ee873d403599a1cbf15"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-hue-landscape-zoom1.png",
+      "build": "05",
+      "sha256": "012805f7b2fbdaca0c2de57458fc5f1b7cae902bedf6cdba7bb6d606abd1372f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-hue-landscape-zoom2.png",
+      "build": "05",
+      "sha256": "a6f9ce5b8cc36e62694f624e54fd03d723e9793a2ec6614d646ffda1e6c3df34"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-hue-landscape-zoom4.png",
+      "build": "05",
+      "sha256": "db693f21c7e17f8bd63eab236182f17941da4cd71dd6a86e939d4ab20457e171"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-hue-portrait-zoom1.png",
+      "build": "05",
+      "sha256": "e1e1104894a98178d9f39eb1071e397bfa7908b0199bc4d919d3a346fca78dd4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-hue-portrait-zoom2.png",
+      "build": "05",
+      "sha256": "ced929621029e668f0329a42c6efed4a794dd36d3bd8db7fd2535c1c7c511beb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-hue-portrait-zoom4.png",
+      "build": "05",
+      "sha256": "35b346d8f2be9891b6700e7ba2b5e3b48aeb68279f3c3f8b03a317cb8f869cda"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-Hue-restored.png",
+      "build": "05",
+      "sha256": "d433bd57c3177e89d979b47f7689ecc8be7a3ba41cc58743757e6c9079ec2b9e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-hue-stage0.png",
+      "build": "05",
+      "sha256": "1cc1e0ecc3e80465b8a57825b73973ca7089cb421bf2ee0c6113dad377f5fdc9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-Jieun-letter-return.png",
+      "build": "05",
+      "sha256": "8e445df393e0ceaa752d97e93a826bb2ed8458f35be11cc23e9ac17d2785a467"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-LeAn-seal.png",
+      "build": "05",
+      "sha256": "3466435e552dd590bcdf5f2828ca8be3d2caa71d94e4644132f3697557d788d8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-Nguyet-quest.png",
+      "build": "05",
+      "sha256": "15019c78b756a1ba8cec4c0e708983ec6e5400eaba40478c796253e9be23251f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-U12-win.png",
+      "build": "05",
+      "sha256": "5b07045cd7996abeabd3a5fb8e91b41915c17a09d9e9d7cf3d5c1f54d50802e3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-U15-win.png",
+      "build": "05",
+      "sha256": "64b9df2427d5eecddba237c541eb5b7a5d5255df1c1fb8a29f563861293d3f3e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-U18-win.png",
+      "build": "05",
+      "sha256": "1a3bcca740bdd46d6b91d736460057bc06a73f2bc95cae4cd188fa746919e3df"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-U4-checkin.png",
+      "build": "05",
+      "sha256": "40302b17246fa191415842e9e86d705a203ffc09e7288b58eebf575ff0ee2ba5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-U5-loss.png",
+      "build": "05",
+      "sha256": "4c4f49b11f0250b8bf6df0261c2e2253868ec83a89423f9aa0e2408d2f765383"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-U5-seal-code.png",
+      "build": "05",
+      "sha256": "9f3f7dc46c3e7786910d4244f15ebffa278cdf8b64410b7d309105ae8cc0fe80"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-U5-win.png",
+      "build": "05",
+      "sha256": "3b6dfca6d00cec68bf211f1f5c552da4796d2d5e8f775aabea3a5175e9846eb1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Chapter-U6-checkin.png",
+      "build": "05",
+      "sha256": "f742baf90899acc9f944d256d4923a49b8ab2b64ab4bf3ea5343054b749d933f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-00-fresh-map-preview.png",
+      "build": "05",
+      "sha256": "6b092f789349a9b3ddd0e3e12142f9e44008b46f6c2111a42b3adeab4eedaf4d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-00a-preview-before-touch.png",
+      "build": "05",
+      "sha256": "ddbae629a72ac2d112d068f0fbccb347c298cdd6f3759593852a21aad2e9d042"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-01-Lan-quest.png",
+      "build": "05",
+      "sha256": "a889957bf65564f2d19f359cfe727462aa4276e959779b76def0cc51ab996f70"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-01b-20x9-safe-area-simulation.png",
+      "build": "05",
+      "sha256": "f57fc8fd9191279afedcfad4ff9cfd70d1cfdb1f53d4a43af81efddc9405e1fe"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-02-light-trap-first-step.png",
+      "build": "05",
+      "sha256": "f5ceb662f15a42d5fcfd2e269b8e49c3fab960ca1fd9c6a1ce538d0c38bd067c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-03-Lan-gate-reveal.png",
+      "build": "05",
+      "sha256": "deaa9ea146e4da6012133d81f14d1abc1d02b88e366c5dd6eabbc18e0131593f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-04-mist-gate-reveal.png",
+      "build": "05",
+      "sha256": "93454213431c4bc35e8197781b3929e017028cbfb2e998e2167359e001444b8f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-05-dog-missing-food.png",
+      "build": "05",
+      "sha256": "1a0b51a7c763dee4126477ae50281ed9b6d4bf52a71af4cffc124ae17acd368a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-06-food-inventory.png",
+      "build": "05",
+      "sha256": "28560acce029c773d8aae4020254da84587edfd5a5e066ff8d33c3c7059d591a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-07-dog-gate-reveal.png",
+      "build": "05",
+      "sha256": "eefb87c065bcbdd78823d1186f0d1c67401688a0c3e6c4d96e7dee1999f2705b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-07b-mandatory-intermediate-boss-stop.png",
+      "build": "05",
+      "sha256": "bc1973d74d4cda471f9c6f390485f33b333c0877ca739cb215a1999e16fc969d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-08-water-signal-inventory.png",
+      "build": "05",
+      "sha256": "e7c374d218bc3e10f1539bf6c9a52758825d14d46e5ab511f348e3206bc281e0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-09-station-restored.png",
+      "build": "05",
+      "sha256": "85cc6ae66c93c2f55e699277f731b8a5803c06d84f3cfce5d124f05a493de06f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-10-Seoul-other-branch-condition.png",
+      "build": "05",
+      "sha256": "65751ae82e921f73a9364e9ed48498c630187255f5fc5746077f8ad29f4268db"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-11-complete-journal.png",
+      "build": "05",
+      "sha256": "90ab1061820dca15f8c5f5dd3a3877ce6ee9d05bb637a39c2ddc0eda35584738"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-12-return-to-completed-city.png",
+      "build": "05",
+      "sha256": "46f56159bf4a857eeace9217cabd4c10314681a5bfd39bf908818763ef070ea7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-13-SoYeon-strawberry-delivery.png",
+      "build": "05",
+      "sha256": "52d0bd09904ff768e99f6fec3ab76fac52c41b085e32acaf284a7123b522e88b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-14-complete-map-landscape.png",
+      "build": "05",
+      "sha256": "748036fb73f00f44196cae88f8608c2c85779abd2fe6130b46d0a9c9ba526fb2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-15-DIAGNOSTIC-pixel-coordinate-grid.png",
+      "build": "05",
+      "sha256": "1f473427b91c91ef269def5842a30b828f6bfd8a6405c8372ca40f5ea31d452c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-food-recovery-isolated-fixture.png",
+      "build": "05",
+      "sha256": "56f814f43c5509a3d08547ff6174395057e0fbdb9308a698c436c7041eeabb05"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-inn-rested.png",
+      "build": "05",
+      "sha256": "086e6e63cccbec8c079378b95a0d7100c8bcb0aa9bd6136e6905a7243c480b0c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/DL-strawberry-gift-inventory.png",
+      "build": "05",
+      "sha256": "d73141ef9eff4c63d1562458f982618796bb5140c9d1fe714c89ac1db2ce5f48"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-da_lat-D10-stage2.png",
+      "build": "05",
+      "sha256": "27b14ffb800378e3d10e8ec9c61c6f8e53674d949b8aa8375ffe12ee05c0b34a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-da_lat-D10-stage4.png",
+      "build": "05",
+      "sha256": "f926c6ecc367c9c722b5b86ce8ee1314cedbd2b95736c5949bcd2a518cf0e224"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-da_lat-D13-stage2.png",
+      "build": "05",
+      "sha256": "bdbc019070219d4f2a229af0ded21a1073d55035f4a69a272fd3712e4e543a9d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-da_lat-D13-stage3.png",
+      "build": "05",
+      "sha256": "14b48e2c68a5e5e65ab898cb56eb9ea88fc803c5b9131b6a3a01107e58813c75"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-da_lat-D13-stage4.png",
+      "build": "05",
+      "sha256": "5a97d2c84f19578431d22652b47dd919111a159e2f6eb6315b2723c31ca2a533"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-da_lat-D2-stage0.png",
+      "build": "05",
+      "sha256": "861101f591b4f1e479c116a5a9e2f06ead7ab6587891ac40ec1d74a288d0b17e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-da_lat-D2-stage4.png",
+      "build": "05",
+      "sha256": "688bda35a90bccd0fe2412b4c3fbff5752c6c7a2532eb67e3ab321a5175f9fae"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-da_lat-D3-stage2.png",
+      "build": "05",
+      "sha256": "d340c98a3cf37a9a0da9e6e32741820c24f84c15c9c13f69949bb8a312b193b0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-da_lat-D3-stage4.png",
+      "build": "05",
+      "sha256": "eebed82c66f5c283b274c6a0e69bae2acd3c3c497e64aba30792ffd4497d96a4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-da_lat-D4-stage3.png",
+      "build": "05",
+      "sha256": "cc9c0ed45d6265552555ae622356a111cf5b3d10eef8f590e195f5adc844c494"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-da_lat-D4-stage4.png",
+      "build": "05",
+      "sha256": "8c36178d8396d44b2b74e79bc51623c66cb9fe88ee3d39aa7d91276833bf3f0a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-gyeongju-G3-stage0.png",
+      "build": "05",
+      "sha256": "56423d75b5d915fb3b846fb8672d8643a5adb70988986be8d8709525973ce787"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-hoi_an-H10-stage4.png",
+      "build": "05",
+      "sha256": "47fcd3db650479f665da460b5f650e39b270defd7265a670305a37dd7effdfdc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-hoi_an-H17-stage4.png",
+      "build": "05",
+      "sha256": "83d4ee39fe23d516464cd301aa66cefded52925ac542935fba723c32aff8dc98"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-hoi_an-H18-stage4.png",
+      "build": "05",
+      "sha256": "2d4e84b7f3facc4cc896f957e152f3d131dc3d1250596a6be95184e789cee91d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-hue-U1-stage4.png",
+      "build": "05",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-hue-U2-stage0.png",
+      "build": "05",
+      "sha256": "ca9c1f228e2cc371081b787295664f543da9b950cd9edfcb4964b0fe540ab29d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-hue-U2-stage1.png",
+      "build": "05",
+      "sha256": "71af9d15b141cb0684809fa7852144fa3c8dc2c7652c56c21077e9daafc96110"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-hue-U2-stage4.png",
+      "build": "05",
+      "sha256": "47f1be615ba32988e7f348b43370803fff11ee0e52e2ec4cd7b2d765da6b3b44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-hue-U3-stage0.png",
+      "build": "05",
+      "sha256": "d395778b7775f0003e863bfcf956d70583abc0eea1f303b2692312e80e7ee5c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-hue-U3-stage4.png",
+      "build": "05",
+      "sha256": "72c54a7db41addc22662e98ae6835ff3f5d465ef7d2e54fe972ffd2bcafde6b6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-hue-U7-stage1.png",
+      "build": "05",
+      "sha256": "1438430798272f9d7983e9f4d1fc5f71a96ca1915bf5d6c51f7054c0e51635be"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-hue-U7-stage4.png",
+      "build": "05",
+      "sha256": "3fc1c15770685b00f5332e40125c2af68fcb07daa16884eb0dea45b7fed11cf7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Portrait-jeonju-J15-stage4.png",
+      "build": "05",
+      "sha256": "b9df29bf5f76dd5ea43d1af11484a69a9c01b3cc6b75175c33ab3fe61a9414db"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_archive-retry.png",
+      "build": "05",
+      "sha256": "3cb5fd0e45f3149edb5a47d10806f785802d1e9afa0f1fa5aecad70b1586fd93"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_archive-solved.png",
+      "build": "05",
+      "sha256": "156bfdfc2b3b5ee1c3c74a264ccb5703271a26e76dac02aab69803dc05fc8688"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_court-retry.png",
+      "build": "05",
+      "sha256": "2e1a40a5007c1f77713d5326e0d0b349de91c0f650719dd8de198a35da329e96"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_court-solved.png",
+      "build": "05",
+      "sha256": "9480864ce73d3223181b6bea47f61f38a3ed4fbf221cadfeec3f985d513807f0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_cracked_seal-retry.png",
+      "build": "05",
+      "sha256": "f93767aabe0e1a940ed1f7938c83aaf96bed0e57aec3c5aa27d0968ada4fbc35"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_cracked_seal-solved.png",
+      "build": "05",
+      "sha256": "cdca4e4a4dc846244819cb03daed9dec2dfd54a09922b1e437fba20e66b1771b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_lantern_west-retry.png",
+      "build": "05",
+      "sha256": "3df52934ca29220da1abe4c74f2364dae47517a557ff15e97622d9fe92a0e25c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_lantern_west-solved.png",
+      "build": "05",
+      "sha256": "98ebe5a808e419d66fdb81357fe317c9f25f3e09073417f02dc332aea6d109b9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_market_code-retry.png",
+      "build": "05",
+      "sha256": "2d7617cd016010e7d0a9fb239ae2313e72995e5bfe240078795b0451e129a944"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_market_code-solved.png",
+      "build": "05",
+      "sha256": "35ac04b9dee72b4dfd831ce41802e846dd7d5a1b9233ea7713a15f5bd479cf94"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_mist-retry.png",
+      "build": "05",
+      "sha256": "703630b53fdaf05f6239325ee00b70b917e3d07835741998cbea48d29ce23f8c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_mist-solved.png",
+      "build": "05",
+      "sha256": "13bd92a05f6f2fbeac71ed1c214dbb5652e5759e067c08cc83184c7797107d43"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_observatory-retry.png",
+      "build": "05",
+      "sha256": "16c9bb053b12251983479bf5ee399a3b1f028a769aa04c9874bd22b66d2106a7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_observatory-solved.png",
+      "build": "05",
+      "sha256": "05c6b3ba08cd02b1ab4897dcc36fa6f64b4033e88d4aa5d8e9a8d726727b1f88"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_palace-retry.png",
+      "build": "05",
+      "sha256": "3d4314ca59d31d69e4f3f6973ba8ab79a75daf20afb5626a70bef90a1dbf8885"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_palace-solved.png",
+      "build": "05",
+      "sha256": "706a69a0f35aaa5505006d46cb6fb9c0b2d9fa734b98e0a6471467be8feea0a0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_pond-retry.png",
+      "build": "05",
+      "sha256": "d4f45aeb942ada657fceedbd3028300a2808ade42fd0e4857c92b4a51425accf"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_pond-solved.png",
+      "build": "05",
+      "sha256": "2861580d399db44a7dfcd1dd9ffee46d857575395183e8768f4e106606a0ea71"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_relay_hue-retry.png",
+      "build": "05",
+      "sha256": "be2af8cf6b674f57edd8bb82cbfbe399b1bd78c4f45357da7ae139bb4df253af"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_relay_hue-solved.png",
+      "build": "05",
+      "sha256": "0659128e44ca6ded1d8745a388871014dd9aad826dd413729502f8c051f15de8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_relay_jeonju-retry.png",
+      "build": "05",
+      "sha256": "f69af1bc15171eab395d622d5a5a55eb75bebe3fb39e6a439dcc8dd23989ebc1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_relay_jeonju-solved.png",
+      "build": "05",
+      "sha256": "0075f929b14128e58eb902beecf3f2ba5a942764a6645b8da1bf50616ba36a37"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_station-retry.png",
+      "build": "05",
+      "sha256": "bc070c1ed1009a87cbb7f7d96ef510fb8f5af78ac9b3c262d2efe72ecae20912"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_station-solved.png",
+      "build": "05",
+      "sha256": "7de9ee6b02cfbf889faf6d525f11d4ec7940c2ab33863f978efc47f90c4c0c55"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_temple-retry.png",
+      "build": "05",
+      "sha256": "e3c06d29793430b003ba59e3a939c2aa1da4c8be72894106a054d4236b2a1c6f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_temple-solved.png",
+      "build": "05",
+      "sha256": "833d98bf3897242a81470bb1063f006f403a09a4a6078c76a98c55d276457115"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_tower-retry.png",
+      "build": "05",
+      "sha256": "946770a5a5225fd7f24568da75e001d24e65cc3df90402ceb1aba54724fdcc43"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/puzzle-puzzle_tower-solved.png",
+      "build": "05",
+      "sha256": "a7a7bec4a86e33446f611cc9285774eaf0b656bbc946a99f5b5bf18f012acdf1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D10-to-Lumi-00.png",
+      "build": "05",
+      "sha256": "107ac6aaefad02144c3898bdf1e689a538a444488b1d7426a76d4d83900a47c0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D10-to-Lumi-01.png",
+      "build": "05",
+      "sha256": "564524570d645addb594532328a11bc76b42caf25aab31673888500c654fdc3d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D10-to-Lumi-02.png",
+      "build": "05",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D10-to-Lumi-03.png",
+      "build": "05",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D10-to-Lumi-04.png",
+      "build": "05",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D10-to-Lumi-05.png",
+      "build": "05",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D10-to-Lumi-06.png",
+      "build": "05",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D10-to-Lumi-07.png",
+      "build": "05",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D10-to-Lumi-08.png",
+      "build": "05",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D13-to-Lumi-00.png",
+      "build": "05",
+      "sha256": "34d4cc2371cc3234586cd4687f1ce340699ef27829dd810755927d125d4455ff"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D13-to-Lumi-01.png",
+      "build": "05",
+      "sha256": "60c00de425fc7ae2652834a528775d3f3104ee601d02903e2458323a56d83901"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D13-to-Lumi-02.png",
+      "build": "05",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D13-to-Lumi-03.png",
+      "build": "05",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D13-to-Lumi-04.png",
+      "build": "05",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D13-to-Lumi-05.png",
+      "build": "05",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D13-to-Lumi-06.png",
+      "build": "05",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D13-to-Lumi-07.png",
+      "build": "05",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D13-to-Lumi-08.png",
+      "build": "05",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-return-00.png",
+      "build": "05",
+      "sha256": "3c00f4d428be1e8631727e464a0180b1506cff4040245d4f120d6cfe3a003744"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-return-01.png",
+      "build": "05",
+      "sha256": "41063d3131785623a042f7361bf2f733db294f061e5225272874beef0d1c26a6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-return-02.png",
+      "build": "05",
+      "sha256": "ae7b2e63bc598daf82dc037b53ce706842cca68584caddc11115c614f1d7191b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-return-03.png",
+      "build": "05",
+      "sha256": "ae7b2e63bc598daf82dc037b53ce706842cca68584caddc11115c614f1d7191b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-return-04.png",
+      "build": "05",
+      "sha256": "ae7b2e63bc598daf82dc037b53ce706842cca68584caddc11115c614f1d7191b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-return-05.png",
+      "build": "05",
+      "sha256": "ae7b2e63bc598daf82dc037b53ce706842cca68584caddc11115c614f1d7191b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-return-06.png",
+      "build": "05",
+      "sha256": "ae7b2e63bc598daf82dc037b53ce706842cca68584caddc11115c614f1d7191b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-return-07.png",
+      "build": "05",
+      "sha256": "ae7b2e63bc598daf82dc037b53ce706842cca68584caddc11115c614f1d7191b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-return-08.png",
+      "build": "05",
+      "sha256": "ae7b2e63bc598daf82dc037b53ce706842cca68584caddc11115c614f1d7191b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-to-Lumi-00.png",
+      "build": "05",
+      "sha256": "138b07130511a4e435634bb13d8cc3645206ef3666d784ad6d7f2464185ac7c9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-to-Lumi-01.png",
+      "build": "05",
+      "sha256": "1f3a0f84ed0263960f947cd385e3991e92504e9fa43857b7dc10253f7571bd8e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-to-Lumi-02.png",
+      "build": "05",
+      "sha256": "f50dad78235b63d5f600da1683dccf24ac74ebb577428e5675e963c68ea09b03"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-to-Lumi-03.png",
+      "build": "05",
+      "sha256": "f50dad78235b63d5f600da1683dccf24ac74ebb577428e5675e963c68ea09b03"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-to-Lumi-04.png",
+      "build": "05",
+      "sha256": "f50dad78235b63d5f600da1683dccf24ac74ebb577428e5675e963c68ea09b03"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-to-Lumi-05.png",
+      "build": "05",
+      "sha256": "f50dad78235b63d5f600da1683dccf24ac74ebb577428e5675e963c68ea09b03"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-to-Lumi-06.png",
+      "build": "05",
+      "sha256": "f50dad78235b63d5f600da1683dccf24ac74ebb577428e5675e963c68ea09b03"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-to-Lumi-07.png",
+      "build": "05",
+      "sha256": "f50dad78235b63d5f600da1683dccf24ac74ebb577428e5675e963c68ea09b03"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-da_lat-D2-to-Lumi-08.png",
+      "build": "05",
+      "sha256": "f50dad78235b63d5f600da1683dccf24ac74ebb577428e5675e963c68ea09b03"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-return-00.png",
+      "build": "05",
+      "sha256": "87cb36d79461c24df9b887e1d4536b41f7e0765920d5df80c7927e238d2f8d5b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-return-01.png",
+      "build": "05",
+      "sha256": "e00557d6c1eec2b1cf825519cb31a8f0cc893112df89386de923e64ce6bca28b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-return-02.png",
+      "build": "05",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-return-03.png",
+      "build": "05",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-return-04.png",
+      "build": "05",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-return-05.png",
+      "build": "05",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-return-06.png",
+      "build": "05",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-return-07.png",
+      "build": "05",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-return-08.png",
+      "build": "05",
+      "sha256": "82c994feae04fc742adac41f30720b6a15dc42b39d792256032772e14828366a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-to-Lumi-00.png",
+      "build": "05",
+      "sha256": "4d4ad61854718686de77692d39468ffd879680e1530ed1353965de081a3defca"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-to-Lumi-01.png",
+      "build": "05",
+      "sha256": "8b77cbeac762b967dc17fe4c0579fb46d33dd0b09577a3873b5f90aefc06a7b6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-to-Lumi-02.png",
+      "build": "05",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-to-Lumi-03.png",
+      "build": "05",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-to-Lumi-04.png",
+      "build": "05",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-to-Lumi-05.png",
+      "build": "05",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-to-Lumi-06.png",
+      "build": "05",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-to-Lumi-07.png",
+      "build": "05",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H10-to-Lumi-08.png",
+      "build": "05",
+      "sha256": "2d2c3d74852a55ed2309381348aee2ec785feaaf62aa6e0d835b49ba574217ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H18-to-Lumi-00.png",
+      "build": "05",
+      "sha256": "6b46d1734e9f1ba129494e7c1c681a757ecb473b423187ea6a4ba03bed31b867"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H18-to-Lumi-01.png",
+      "build": "05",
+      "sha256": "6b46d1734e9f1ba129494e7c1c681a757ecb473b423187ea6a4ba03bed31b867"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H18-to-Lumi-02.png",
+      "build": "05",
+      "sha256": "6b46d1734e9f1ba129494e7c1c681a757ecb473b423187ea6a4ba03bed31b867"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H18-to-Lumi-03.png",
+      "build": "05",
+      "sha256": "6b46d1734e9f1ba129494e7c1c681a757ecb473b423187ea6a4ba03bed31b867"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H18-to-Lumi-04.png",
+      "build": "05",
+      "sha256": "6b46d1734e9f1ba129494e7c1c681a757ecb473b423187ea6a4ba03bed31b867"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H18-to-Lumi-05.png",
+      "build": "05",
+      "sha256": "6b46d1734e9f1ba129494e7c1c681a757ecb473b423187ea6a4ba03bed31b867"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H18-to-Lumi-06.png",
+      "build": "05",
+      "sha256": "6b46d1734e9f1ba129494e7c1c681a757ecb473b423187ea6a4ba03bed31b867"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H18-to-Lumi-07.png",
+      "build": "05",
+      "sha256": "6b46d1734e9f1ba129494e7c1c681a757ecb473b423187ea6a4ba03bed31b867"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hoi_an-H18-to-Lumi-08.png",
+      "build": "05",
+      "sha256": "6b46d1734e9f1ba129494e7c1c681a757ecb473b423187ea6a4ba03bed31b867"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-return-00.png",
+      "build": "05",
+      "sha256": "973ecf3e51f0942278806b502c2284b33e8421b5127a72b4e792b03590941cc3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-return-01.png",
+      "build": "05",
+      "sha256": "084322a246d599be32b3651e1c2eac7bc8a50b87925d30df85f03010aff1e2f7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-return-02.png",
+      "build": "05",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-return-03.png",
+      "build": "05",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-return-04.png",
+      "build": "05",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-return-05.png",
+      "build": "05",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-return-06.png",
+      "build": "05",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-return-07.png",
+      "build": "05",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-return-08.png",
+      "build": "05",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-to-Lumi-00.png",
+      "build": "05",
+      "sha256": "3450b8c44f50a49ea1e51a1495a2347560e64d621f21fd24f2a0fc6f592a3d13"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-to-Lumi-01.png",
+      "build": "05",
+      "sha256": "693b37021c50052201e42a5e4312aea33fff7a9e4481ea9568a0b3ccf033f321"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-to-Lumi-02.png",
+      "build": "05",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-to-Lumi-03.png",
+      "build": "05",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-to-Lumi-04.png",
+      "build": "05",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-to-Lumi-05.png",
+      "build": "05",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-to-Lumi-06.png",
+      "build": "05",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-to-Lumi-07.png",
+      "build": "05",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U1-to-Lumi-08.png",
+      "build": "05",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U2-to-Lumi-00.png",
+      "build": "05",
+      "sha256": "13e0549a7e954ce05cba834f0889b966cd9d8cf1050d6c1e39e7cb11bb83a613"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U2-to-Lumi-01.png",
+      "build": "05",
+      "sha256": "76c68b98bef684f922ff94b7e1af425609014cb136cacdc89849b411482b13e9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U2-to-Lumi-02.png",
+      "build": "05",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U2-to-Lumi-03.png",
+      "build": "05",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U2-to-Lumi-04.png",
+      "build": "05",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U2-to-Lumi-05.png",
+      "build": "05",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U2-to-Lumi-06.png",
+      "build": "05",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U2-to-Lumi-07.png",
+      "build": "05",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U2-to-Lumi-08.png",
+      "build": "05",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U3-to-Lumi-00.png",
+      "build": "05",
+      "sha256": "c4873bdb43d310e2a8222c320fd57e8295f9f1e1f5d0467e353ad176341d59b5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U3-to-Lumi-01.png",
+      "build": "05",
+      "sha256": "c4873bdb43d310e2a8222c320fd57e8295f9f1e1f5d0467e353ad176341d59b5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U3-to-Lumi-02.png",
+      "build": "05",
+      "sha256": "c4873bdb43d310e2a8222c320fd57e8295f9f1e1f5d0467e353ad176341d59b5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U3-to-Lumi-03.png",
+      "build": "05",
+      "sha256": "c4873bdb43d310e2a8222c320fd57e8295f9f1e1f5d0467e353ad176341d59b5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U3-to-Lumi-04.png",
+      "build": "05",
+      "sha256": "c4873bdb43d310e2a8222c320fd57e8295f9f1e1f5d0467e353ad176341d59b5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U3-to-Lumi-05.png",
+      "build": "05",
+      "sha256": "c4873bdb43d310e2a8222c320fd57e8295f9f1e1f5d0467e353ad176341d59b5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U3-to-Lumi-06.png",
+      "build": "05",
+      "sha256": "c4873bdb43d310e2a8222c320fd57e8295f9f1e1f5d0467e353ad176341d59b5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U3-to-Lumi-07.png",
+      "build": "05",
+      "sha256": "c4873bdb43d310e2a8222c320fd57e8295f9f1e1f5d0467e353ad176341d59b5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-hue-U3-to-Lumi-08.png",
+      "build": "05",
+      "sha256": "c4873bdb43d310e2a8222c320fd57e8295f9f1e1f5d0467e353ad176341d59b5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-return-00.png",
+      "build": "05",
+      "sha256": "2c43ced5e2333604aada92371c36d809da796b9fb61bed70fb459161ef1d6a40"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-return-01.png",
+      "build": "05",
+      "sha256": "595d592ef59000572fc5d445149dfbb006aee1b26ae4c9f718acf22929cf5532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-return-02.png",
+      "build": "05",
+      "sha256": "984caaa35ad24b21ce4f126f4aeb596ee4474f0a23c0b28eb90cc0f1c235dc44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-return-03.png",
+      "build": "05",
+      "sha256": "984caaa35ad24b21ce4f126f4aeb596ee4474f0a23c0b28eb90cc0f1c235dc44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-return-04.png",
+      "build": "05",
+      "sha256": "984caaa35ad24b21ce4f126f4aeb596ee4474f0a23c0b28eb90cc0f1c235dc44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-return-05.png",
+      "build": "05",
+      "sha256": "984caaa35ad24b21ce4f126f4aeb596ee4474f0a23c0b28eb90cc0f1c235dc44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-return-06.png",
+      "build": "05",
+      "sha256": "984caaa35ad24b21ce4f126f4aeb596ee4474f0a23c0b28eb90cc0f1c235dc44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-return-07.png",
+      "build": "05",
+      "sha256": "984caaa35ad24b21ce4f126f4aeb596ee4474f0a23c0b28eb90cc0f1c235dc44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-return-08.png",
+      "build": "05",
+      "sha256": "984caaa35ad24b21ce4f126f4aeb596ee4474f0a23c0b28eb90cc0f1c235dc44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-to-Lumi-00.png",
+      "build": "05",
+      "sha256": "6856a99ba447824f34a126275938d7b51e0b89647e435e1e0df675e27a2b8ed1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-to-Lumi-01.png",
+      "build": "05",
+      "sha256": "573684a5cdbf01c2f2657c4c20a99c1f78a7dd3350e7fd305c7c0fd5803e4a36"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-to-Lumi-02.png",
+      "build": "05",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-to-Lumi-03.png",
+      "build": "05",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-to-Lumi-04.png",
+      "build": "05",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-to-Lumi-05.png",
+      "build": "05",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-to-Lumi-06.png",
+      "build": "05",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-to-Lumi-07.png",
+      "build": "05",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Speaker-jeonju-J15-to-Lumi-08.png",
+      "build": "05",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-G18-phase1.png",
+      "build": "05",
+      "sha256": "17e204786670f22753920e212b3f5e729f28e2b4dacf74952a90feae4b71b88c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-G18-resolved.png",
+      "build": "05",
+      "sha256": "5c5429c8379e2b1ebf9bf4c5182244b0c0a9ae491012c2be97cc0680cf8313ad"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-G19-beacon.png",
+      "build": "05",
+      "sha256": "a2a7dc93cd2e3e0d22f17dd79a52b14e55d03de82e476c4a213af77348178d59"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-G7-after-choice.png",
+      "build": "05",
+      "sha256": "da3396a0b0e23f7b417bb6ae5aed69416b3d7e43b991d2e4c0f9a518e1b4e7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-Gyeongju-opening.png",
+      "build": "05",
+      "sha256": "511b6bca6817d99de4df54ef7c46692334a6d9cec1a4d5a14b32b10a4be3e66e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-postgame-da_lat.png",
+      "build": "05",
+      "sha256": "016da5a2310d59f9897e602ddd8b0edbdaf41d557503d474e2877f773aacf292"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-postgame-gyeongju.png",
+      "build": "05",
+      "sha256": "0942b41ee3615d0cfe51f55b9d6c34885072aa513fc436eabcde3ee98ab1e311"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-postgame-hoi_an.png",
+      "build": "05",
+      "sha256": "a4c82883bf1b6e91ff52ee4854e46e2a93bfa5bea805215ecd34a12a81db744e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-postgame-hue.png",
+      "build": "05",
+      "sha256": "c5cf107919ee92463949059ef51968b3d61030d3da095007446a44050db5577d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-postgame-jeonju.png",
+      "build": "05",
+      "sha256": "1ce8ee5e90ac732ce907403a76d8df0d9ea5bffa193e5c252716b654cb5bf817"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-postgame-seoul.png",
+      "build": "05",
+      "sha256": "fc09efe0b6dc8ff456f224c3748ef14df0fb2bb3badbc542ff331c98a8814b91"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S11-truth.png",
+      "build": "05",
+      "sha256": "32225b35bfcea87710e0e3303f1764e18ab375e3b52100a7d3527cb41dc45f14"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S16-relay-A.png",
+      "build": "05",
+      "sha256": "f082c6da05cd53da03e4b07019ad8fb10feb8b126898f65e074820d7cdba9b02"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S17-relay-B.png",
+      "build": "05",
+      "sha256": "5e8f9bbc4de81748b5c356898eaa6afa148e969bec6021e9c35f6a74eca6fb90"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S18-relay-C.png",
+      "build": "05",
+      "sha256": "d34db457ed158f8d2474a53967e5294190b216210d0cfbf79f5d8a427b37f1d2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S20-loss.png",
+      "build": "05",
+      "sha256": "9e8fe399d1a7cca0a6923975d84300e0f388fde25646138b9ae433cffbadc601"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S20-phase1.png",
+      "build": "05",
+      "sha256": "aaa189dda590d4632ab2708f158d118daed21c1033c9ab3525ddec974fd579e2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S20-phase2.png",
+      "build": "05",
+      "sha256": "9479497c1d577ff2aca3f2626903e9a197ed99bc5b02d71ca8c23196e15342cd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S20-resolved.png",
+      "build": "05",
+      "sha256": "0c949ffc85936d631e02b0c8617a825963572ebdc7a9df6937ffa13834a5f64f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S21-ending-0.png",
+      "build": "05",
+      "sha256": "81586613bb6fa5dde38f6ca9c8ee1be73f0e4a8f76cf90e6b800db89f3c53a33"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S21-ending-1.png",
+      "build": "05",
+      "sha256": "e2981e348d9769596f16940c3f7bbed774f5fdab85833ecd6c51d701f76a882a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S21-ending-2.png",
+      "build": "05",
+      "sha256": "a8d45a5c112ffb4cba25829d176a480fcc7bdeb1f1b816053aafa62b3a817c92"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S21-ending-3.png",
+      "build": "05",
+      "sha256": "7784daa0a7e672bb310b57b8a4b93580c5cfb0c59bba9ee7740fc0e60385065e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S21-ending-4.png",
+      "build": "05",
+      "sha256": "50debf4a1ac216fe339f62e79f9c375f1b8dafee4f1dd05c3eec9c277daff07a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S21-ending-5.png",
+      "build": "05",
+      "sha256": "26bfdb826e6cba7defc5d192fc0bdb4a13cb4a7c191fef068bf46d90edcade3a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S21-ending-6.png",
+      "build": "05",
+      "sha256": "b28bfcb293b8992682540846fd3091ae0512809f858bb5b764aff077e6f7d4d6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-S22-secret.png",
+      "build": "05",
+      "sha256": "5cae5c319bf32544cfe4ee3f5a1f5e7b0feec38ba8d1cd2ee23a06402f2ac0a5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/Story-Seoul-opening.png",
+      "build": "05",
+      "sha256": "97c160399ea019b7e0614862ea7c6b401c7bb7a1c30bd02c662e516d09b7e2ea"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-HoiAn-final-inventory.png",
+      "build": "05",
+      "sha256": "06e77e688132cc4a6af34b43a5d831b5cee183f3997d511d6f1252d4f741ead7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-HoiAn-final-quest-journal.png",
+      "build": "05",
+      "sha256": "e9018e2133bd645f39fbe2d69c8692c434cfbf9d841575f1cc2683b03fd51519"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-HoiAn-HQ07-offer.png",
+      "build": "05",
+      "sha256": "6431882d5acc9466b5b2dc1f27ebe7f85197fc780d0a48f84ee9d153359cf723"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-HoiAn-HQ07-reward.png",
+      "build": "05",
+      "sha256": "0bb4631d59418a3d002b742849756060ef6efc0383b40e6298b33e922b0c64c5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-HoiAn-only-one-delivery-HQ07-blocked.png",
+      "build": "05",
+      "sha256": "47fcd3db650479f665da460b5f650e39b270defd7265a670305a37dd7effdfdc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-hue-arrival.png",
+      "build": "05",
+      "sha256": "95b741da07a356212b3271826a9ab31409c681256d72c9e47966e978f048e2f3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-hue-inventory-after.png",
+      "build": "05",
+      "sha256": "6ed90d13119b05d1aa41558c18638bc7860f1ac9dcde659100abb75d25e14846"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-hue-inventory-before.png",
+      "build": "05",
+      "sha256": "5cce22358e91b9c96c1340cfd38d4f817d1f4b8473cd774b918d3d4c4339412a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-hue-Lumi-confirm.png",
+      "build": "05",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-hue-Lumi-intro.png",
+      "build": "05",
+      "sha256": "6e307b752f1963b4fcfffb61a14316f720df6eaed659944b6db9ba5e32fb1f67"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-hue-NPC-before.png",
+      "build": "05",
+      "sha256": "ab91f71a2ac87d7530b2804232826aa90fa827326333b6e73f82d19baecc32af"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-hue-NPC-delivered.png",
+      "build": "05",
+      "sha256": "a6f287b862902e1e537003b364d59dfbc206279f4a241877024566b836044348"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-hue-NPC-missing-fixture.png",
+      "build": "05",
+      "sha256": "ff57f814cfd36b12365c335530cbbbdf47399728619c296d377a4a265fea2e1f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-hue-quest-journal.png",
+      "build": "05",
+      "sha256": "0a39e845d5b7842ee3f70a490611b85fe55d5d71e849eb162367afee6ef8c6ab"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-hue-revisit-after-HQ07.png",
+      "build": "05",
+      "sha256": "0dc5538b5eb9b3ff69302e620766fbf464c2e76e2462184d267f52ce2624fa2b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-jeonju-inventory-after.png",
+      "build": "05",
+      "sha256": "d40b535f81b64f7d426ee7b4870d7dae77eace44353fbfb15bc28d4a1310dde5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-jeonju-inventory-before.png",
+      "build": "05",
+      "sha256": "aa62f0d203728c95973ad35955afe45e6c46bc256cd28e8a8ee70b295cba0efc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-jeonju-Lumi-confirm.png",
+      "build": "05",
+      "sha256": "67fe86325cf7d9ec6c997fb61a604153bac727669eb531e0dd56ee88e691a7e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-jeonju-NPC-before.png",
+      "build": "05",
+      "sha256": "b9df29bf5f76dd5ea43d1af11484a69a9c01b3cc6b75175c33ab3fe61a9414db"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-jeonju-NPC-delivered.png",
+      "build": "05",
+      "sha256": "aa11ffa894abd7bb7256a5d424394266ae087114a0ab59053943ba2520e8e497"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-jeonju-NPC-missing-fixture.png",
+      "build": "05",
+      "sha256": "5bf6c593ccc4842ff20d0bdcf1c96f00bf6225ddbf25909ca9afe648fbf35bdd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-jeonju-quest-journal.png",
+      "build": "05",
+      "sha256": "d13791f6dab78388629aa195070cb5f2f4a24f77c0b628c70cbe7afe182468d4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-jeonju-revisit-after-HQ07.png",
+      "build": "05",
+      "sha256": "1d31ab846ea287a6ce1162f6d6f1b3effeb669e49051bbda0dbc411944d514d5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-WorldMap-select-da_lat.png",
+      "build": "05",
+      "sha256": "c16fc30bc939bce4a9e24c05f1dd5618e2a02cd597dd28b4e3e62e9af0765217"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-WorldMap-select-gyeongju.png",
+      "build": "05",
+      "sha256": "46b22d8bd808d87d6d9f0c1e852bf4075b78c961581fe9f41ab758d6bca367c2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-WorldMap-select-hoi_an.png",
+      "build": "05",
+      "sha256": "9ee5b1f33068d324dcba344e0bdd9c02cb21987790d04cef51b41a16cd68330b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-WorldMap-select-hue.png",
+      "build": "05",
+      "sha256": "22be4134fa3df2818bf853b9d778351f950044ad12637ea6f8a957918da44715"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-WorldMap-select-jeonju.png",
+      "build": "05",
+      "sha256": "bef5563f7898cf44cfc6e4bb27388a21c0711c76670d21c11e216509cd31e20a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse03/X-WorldMap-select-seoul.png",
+      "build": "05",
+      "sha256": "234a5729bf650402aa13a68cd9c20d00c8d5e15fea8c6470a7e31972a09bf27f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Chapter-H15-win.png",
+      "build": "06",
+      "sha256": "74c6dd7ee36f4bccdb99c7b9fd1d9195d5a37e8b47b414eb8b5cc4c9bf3cf17b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-da_lat-D10-stage4.png",
+      "build": "06",
+      "sha256": "1601db27791f8d6406c55f94ed54e003708530797875af52aacb32f3a2eb4248"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-da_lat-D13-stage4.png",
+      "build": "06",
+      "sha256": "37c20b8c1dcc0313e54cb6f839e33100cfe196c7a5bb12cdbdf38d16677c4c33"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-da_lat-D2-stage4.png",
+      "build": "06",
+      "sha256": "f8ea622aab3f3634d9a0a23df83b41c248400275a836f54bf0648e6d90526f52"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-da_lat-D3-stage4.png",
+      "build": "06",
+      "sha256": "4a46c3cf82e98e9b6fb3b2998ce4e52702cd63757f0f1ca8713edd9eae37f064"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-da_lat-D4-stage4.png",
+      "build": "06",
+      "sha256": "78d30516be4564410bb80817e25f2d0f4f7d72ef87fcd4420e914389fc4a87f8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-gyeongju-G3-stage4.png",
+      "build": "06",
+      "sha256": "634c575642f9154255b6b2fda13b655b3f788f9b1469eb0b30a931e011d525c7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-hoi_an-H10-stage4.png",
+      "build": "06",
+      "sha256": "e7d71f6896d67dda545b27c4910d34e50b14768f217ade8d050dca9c510d05b5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-hoi_an-H14-stage4.png",
+      "build": "06",
+      "sha256": "2a0432b53623edd7c8343b4e92427b916a0633ff372f252a3d8755af3c723ab9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-hoi_an-H17-stage4.png",
+      "build": "06",
+      "sha256": "f78c92f673037366063d8064d08509eb301971bb4aee11f7f06face85a517592"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-hoi_an-H18-stage4.png",
+      "build": "06",
+      "sha256": "dfd15a1cd7c484ca6684aa9ccc2868064554fc58b228b3bec6dcb2110d136d36"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-hoi_an-H2-stage4.png",
+      "build": "06",
+      "sha256": "0b6425f0e18e36678ea047b2a4ae694f1bdce6b99c7a7a4a34263807de7cefcf"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-hue-U1-stage4.png",
+      "build": "06",
+      "sha256": "e55a248dc684ef2d057d3c939e3ed53fedd8743bb3428e531bc513358b1b3727"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-hue-U2-stage4.png",
+      "build": "06",
+      "sha256": "fc3d8fa50087dc9eb7f9b0c64c15c44d3df07e465787fab93481bc13474ee9e3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-hue-U3-stage4.png",
+      "build": "06",
+      "sha256": "683a695094a7d9746aff4342ae758a02c90e4e76416eec605a24b204ecd26aeb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-hue-U7-stage4.png",
+      "build": "06",
+      "sha256": "f637fe292095b6999116e4a09825f2f255d6103acd41c9b1516e4e156f5ff3f2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-jeonju-J15-stage4.png",
+      "build": "06",
+      "sha256": "fdf2ecdd86c4d6f38713ae8da25a67aea22717a1733a593a7853a19c8f46a052"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-jeonju-J16-stage4.png",
+      "build": "06",
+      "sha256": "21cad3407d42491fa54dc80d942583ea31b644013e78a6a0e92a28062c0e7b36"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-jeonju-J2-stage4.png",
+      "build": "06",
+      "sha256": "eebdc8f89163034194f0144b9c74c21447693bd85e6c0e02808270ab9302b843"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-jeonju-J4-stage4.png",
+      "build": "06",
+      "sha256": "462927a6de1924ec3672b4fa75b787203ab1ab0e75fe4793373072e220b063da"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Portrait-jeonju-J5-stage4.png",
+      "build": "06",
+      "sha256": "68493f914e98a883a03ea3f58a62917022dd7d18c5ca78cb23c9232116785687"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Story-HQ03-companion-visible.png",
+      "build": "06",
+      "sha256": "dbcdca073611b525d3477ebeaf391d29d34e0f32f24f2c621040215d75fdcd4a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Story-portal-D21.png",
+      "build": "06",
+      "sha256": "e5c31a23ecef37d3773ff44aee0adc3b9525bd83e9c33ef1b02f26b95f4380c4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Story-portal-G20.png",
+      "build": "06",
+      "sha256": "1b1dae5247a8ea94aabcc0b2822175543677e3fe7c19b0d3bce9a87b82fdcd93"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Story-portal-H20.png",
+      "build": "06",
+      "sha256": "d1074452898f567af3556e4379f1908e63602f828ae7059854a92704bd0660f3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Story-portal-H8.png",
+      "build": "06",
+      "sha256": "c60e5cb2cc011a53a0147ab0d85baaaaa55c4ac7461c4bdefcc2ff88083a62bf"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Story-portal-J20.png",
+      "build": "06",
+      "sha256": "ef362c8d3933dbb170dfbbdf40125b8e517ec0f49aaf2ee372a0350e46105ea9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Story-portal-U20.png",
+      "build": "06",
+      "sha256": "73a427c015e302c9afb7a7cc1b33b6e83386173864fd361e8d2ef0094b824bc7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Story-postgame-checkin-H6.png",
+      "build": "06",
+      "sha256": "9b0c9ce952c7f5e663deb3110cc3b858c8ddd62daef93e37435f49a48b72d482"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Story-postgame-checkin-J8.png",
+      "build": "06",
+      "sha256": "ed603f95db626347496bab6267cc742436dfb5b2ee02622be4e86b3f34612c2c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Story-postgame-checkin-U4.png",
+      "build": "06",
+      "sha256": "68ed7693ac9e032bea7a03fec305d172a698fb364791d6e8552fa664aad8756f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/Story-postgame-checkin-U6.png",
+      "build": "06",
+      "sha256": "8f08cdda7813a5c2e407a2b6b43ed668446feea65110dd7280788c9586d3cba2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/X-WorldMap-select-da_lat.png",
+      "build": "06",
+      "sha256": "cce46376312145f539fbc99b6829fb99bb4573b0d811f2fa0e75da13e9bda77a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/X-WorldMap-select-gyeongju.png",
+      "build": "06",
+      "sha256": "eb81c2f66d8deb5d59638c723bd1324f529c4333302712c3a469aa9b680cd80c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/X-WorldMap-select-hoi_an.png",
+      "build": "06",
+      "sha256": "6b62012612d17f5456372a6bc34cb2a2111adc025233c710f82fc4c9fcee6397"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/X-WorldMap-select-hue.png",
+      "build": "06",
+      "sha256": "85aaf47fcb75b55e10a88eeeeada90e71b5f1989dfc9bd1bc393ec065a6f1c59"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/X-WorldMap-select-jeonju.png",
+      "build": "06",
+      "sha256": "ce35621773ce509d24c7dbda11bde327f40a6bc39090f1849ece1d27cea7c42f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Coverage03/X-WorldMap-select-seoul.png",
+      "build": "06",
+      "sha256": "bb2ae796ba0629ed4f9793d8a201ea4f22107abb228e8cce36ffb88a503b290d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Negative-S16/Story-missing-item-restored-S16.png",
+      "build": "06",
+      "sha256": "4e9a3de68f88cb5ff73fbb6fa0cbadcd91c8df03225716ceb88a40499d181231"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Negative-S16/X-WorldMap-select-seoul.png",
+      "build": "06",
+      "sha256": "35a28ef36c82248008a4f8ce9735a1c03455338b0cedcee032c3785f56cd7c8c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Negative-S17/Story-missing-item-restored-S17.png",
+      "build": "06",
+      "sha256": "36733967c93c36d44cfccb496e190fcbcc8e844a580be7c54ac5340fbc65a8cd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Negative-S17/X-WorldMap-select-seoul.png",
+      "build": "06",
+      "sha256": "398f406f5b858032dc2f7c6e3d000fbd389df83dd3a1e16ac85f98bab1c25190"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Negative-S18/Story-missing-item-restored-S18.png",
+      "build": "06",
+      "sha256": "af632a1f5b36d4313cc9c9bc7fec16b80feadcbc3bb5055de89df99310a64cb0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Negative-S18/X-WorldMap-select-seoul.png",
+      "build": "06",
+      "sha256": "81e9206f57f5f9b5b0db3d4a8c09707e68cd0e67e173c7cb3dd918e5afa536d0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-HA/X-Restart-beacon-journal.png",
+      "build": "06",
+      "sha256": "3e4bde88ee78e51b575a1212f0c3c984c67b665e0368d1c3bc7788185d9e9934"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-HA/X-Restart-beacon-map.png",
+      "build": "06",
+      "sha256": "89a8a3a958cae1e31f5e5857de00c5c9501506a4b081906604144cab59a53be1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-HA/X-Restart-beacon-NPC.png",
+      "build": "06",
+      "sha256": "9785d3588be57d2ecd8d1d747a433db530a580864b56ef691cb45444dab8c1a9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-HA/X-WorldMap-select-hoi_an.png",
+      "build": "06",
+      "sha256": "32f58bc9b01016acfda1993f068191a1be0adf2887136fd889a495876d4c198a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Hue/Story-restart-hue-stage4.png",
+      "build": "06",
+      "sha256": "1f009d0d7ce5a46b6515e85551f2f119f4c616f01e7fcb116d4c2c59fdbe0404"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Hue/Story-restart-journal.png",
+      "build": "06",
+      "sha256": "725c185530cd7a7ad25b0bbb008f560809cbfc599222ea8f10a51928b05b1867"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Hue/X-WorldMap-select-hue.png",
+      "build": "06",
+      "sha256": "e0c982bbf38303eeaa5b8c2c833718c2421cfc525a4cdfa917415b159d63e633"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-DaLat/Story-restart-da_lat-stage4.png",
+      "build": "06",
+      "sha256": "a832e203df5b59366eeb4627c35153fd8dec15b5a017e218f679144a5c03f8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-DaLat/Story-restart-journal.png",
+      "build": "06",
+      "sha256": "1ed7846ae2cfed50339c2e8c3f1e3e505d3f55b08c18dda632934f3cd119c1ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-DaLat/X-WorldMap-select-da_lat.png",
+      "build": "06",
+      "sha256": "72e5fc93a9a47ae68903ac167aa63a24e5ac25e1af1480311d1d506381ff90ca"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Jeonju/Story-restart-jeonju-stage4.png",
+      "build": "06",
+      "sha256": "6799e566480c2de201281fb433168f8149410fcad993c7efdd2a1d0fe0a4ff39"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Jeonju/Story-restart-journal.png",
+      "build": "06",
+      "sha256": "c333ce43ea5e8d455d1d048920c41b52b8683eed58f55031813461033d81e5aa"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Jeonju/X-WorldMap-select-jeonju.png",
+      "build": "06",
+      "sha256": "1134c46139f9715807bf239011293355b172a4a33c1c27757a2f64b5c1c9bf3a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Gyeongju/Story-restart-gyeongju-stage4.png",
+      "build": "06",
+      "sha256": "120830930fd487021e3e547201e56806b7b57cda5e4c2e362f9ba0e5b7a04cd3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Gyeongju/Story-restart-journal.png",
+      "build": "06",
+      "sha256": "20698779927bdb8d21638dc9d9869728385e3a0c4b1c168b77f8a929ad8378e8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Gyeongju/X-WorldMap-select-gyeongju.png",
+      "build": "06",
+      "sha256": "518e7f3f8f7308c292a01c8467800c0afb7e8106d8d32275d74c369fd270ccdd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-BeforeBoss/Story-restart-journal.png",
+      "build": "06",
+      "sha256": "d58458ba77f177c3787e31f3f6afae449cb41479d38bd41d6ec8d787c406cfd2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-BeforeBoss/Story-restart-seoul-stage3.png",
+      "build": "06",
+      "sha256": "12f9c60f5a05fe42a0938def11badd313f77ad39bd635b6ffc322c809898d9bd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-BeforeBoss/X-WorldMap-select-seoul.png",
+      "build": "06",
+      "sha256": "8ce2c0af67a5970f92758c2adc53e4069589f43ecbad681b5e2fcadca41f66b2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Epilogue/Story-restart-journal.png",
+      "build": "06",
+      "sha256": "f256a8529e9bdc3ceaa6748e18c17c93c0a09e2e80a294fd1cbb94927ce98aba"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Epilogue/Story-restart-seoul-stage4.png",
+      "build": "06",
+      "sha256": "ce8d1aad5ec99194dbe32f7a899a3eb3b9c3a31ec5927e2ffd51e690abc4abc7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Epilogue/Story-resumed-ending-3.png",
+      "build": "06",
+      "sha256": "5d8a2d6475a4dd1ce1121423d3d9655b3fa1c8c2e97c1c77e537d335bc553538"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Epilogue/Story-resumed-ending-4.png",
+      "build": "06",
+      "sha256": "4b400b5adf966c9f7e0137eea0a6abd125eb67d91dcf68f9f0e57f39b0cb850b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Epilogue/Story-resumed-ending-5.png",
+      "build": "06",
+      "sha256": "6c053a82a1196c868c9812a6e7dd46534335ae2ea8108c01804219b975a0de50"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Epilogue/Story-resumed-ending-6.png",
+      "build": "06",
+      "sha256": "18a7630d4b3bc0d343e53a8670408e167c00afac98b06dde54d596d0a2ed4605"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Epilogue/X-WorldMap-select-seoul.png",
+      "build": "06",
+      "sha256": "a0a59a6476493e3ac1c627b1efdf93445c0519069b2628708cfe4a4a11a37ed4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Ending/Story-restart-journal.png",
+      "build": "06",
+      "sha256": "369a7ca12bb48c56b091b4a301680ed42cc6f03d76bf62922aafc9c78f77bb41"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Ending/Story-restart-seoul-stage4.png",
+      "build": "06",
+      "sha256": "6d79917a5e3407b9ca82c2994020f532520385885b5051836a1b551316281f52"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Restart-Ending/X-WorldMap-select-seoul.png",
+      "build": "06",
+      "sha256": "f8ca6bff570afb7e9a0e08410b09f00455e96b2387ed958ad8a8f566419de2a1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/01-HoiAn-stage0-hidden-regions.png",
+      "build": "04",
+      "sha256": "54606017cf805ddb9eb2c29c0ee0232ca631871e471c56314796f45263f4eebe"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/02-Mai-offer.png",
+      "build": "04",
+      "sha256": "1cff653b4bdc43fd26ce0f3a7bffca1a2a528868a20e16b1055e9326cc7c34aa"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/03-HoiAn-stage1-reveal.png",
+      "build": "04",
+      "sha256": "dfa490c0fbe46e172a53e346a0f5112247729c84c2e868d4343c075ade9b5448"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/04-quest-journal.png",
+      "build": "04",
+      "sha256": "80e577f708818a5b1660e9448cc030853a45f7cf9c8bc3ab919e8b6cd787db89"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/05-H3-exploration.png",
+      "build": "04",
+      "sha256": "8a275f90e0b65f64aff8756d63cb0afd2cdf7a49b14cecc56acf7f06195c8659"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/06-H3-part-picked-up.png",
+      "build": "04",
+      "sha256": "1cdf1c22b516c55b8477a10767a3d004c25a95c6e6b7251ac289d33fd87127e4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/07-HoiAn-stage2-before-bot.png",
+      "build": "04",
+      "sha256": "4e2791db47ac02bdac5e14d5ec6a1ae884f24aae4b31e6a5230f56e267ff18d8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/08-battle-before-loss.png",
+      "build": "04",
+      "sha256": "13a41fdb08ba5c3c0161a8b9ef2d074d3ff39ed24b233a121ade5c8dd50383de"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/09-battle-loss-retry.png",
+      "build": "04",
+      "sha256": "cc2d009efe100fdf6340aeaf0c957a8c4a61e0491f9e7b62962dd5bd097dfbd7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/10-battle-actions.png",
+      "build": "04",
+      "sha256": "f33d112feede6a29a43c8ba6b4c65addbd80a00ba172022557e28060cda04d74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/11-battle-win.png",
+      "build": "04",
+      "sha256": "21a875d82adcb77d75f27b6c08729292c70c51354c537c400457f00793bbca58"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/12-Phuc-clue.png",
+      "build": "04",
+      "sha256": "31191585c28e9abcc4e921a817892bc06de786ea43ca8b519e31b4af061120d2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/13-bot-disabled-by-puzzle.png",
+      "build": "04",
+      "sha256": "1008e514ec68e1acfe7a8c126683442b03ab84df1ac50d6ac22c57cd828a4054"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/14-crab-bait-resolution.png",
+      "build": "04",
+      "sha256": "8b6478d9c16214d8165906be39f6550ffd7bc9a4ef6515ccb40e363b93cfdddb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/15-BaTu-turn-in.png",
+      "build": "04",
+      "sha256": "8f1824642275fdc8e6efce3a16e7bb2392a07f89ec48db928493ef8e218c79d7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/16-station-ready.png",
+      "build": "04",
+      "sha256": "346b7034243428a137b23cf4cda694c06cf3e3e3823991e7a3df99ee6e68c3f7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/17-station-light-restored.png",
+      "build": "04",
+      "sha256": "cd577fb4296af626ad7ab8868ad61193728b9a65d9a8dd336cd9dc296b5883d1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/18-HoiAn-final-discovery.png",
+      "build": "04",
+      "sha256": "5dffa4b0c582c1bbddf28bd905ffced98d4d5cbe7a2fb49deb6c9bd656beb7d5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/19-HoiAn-tablet-final.png",
+      "build": "04",
+      "sha256": "4cde0896a71ccca7f8d1d533bc2870cf352d372e49c3d0e8cf5ff22f5369a125"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/20-inventory-final.png",
+      "build": "04",
+      "sha256": "71b57a9665dab7f5c67e55e323fe3913990643245f4a8d1d448d9ab878993baf"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-D0-checkin.png",
+      "build": "04",
+      "sha256": "c51679a81ae84c1e0e6a46bc8708e4511ce91c8a523cb933ba1ca89fe971cf44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-D12-three-lantern-rings.png",
+      "build": "04",
+      "sha256": "bcf516f12f17f1ba68e0b999fdfe3947c7148af55195ff9fed69e2b1d26bd38d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-D14-checkin.png",
+      "build": "04",
+      "sha256": "c659dd9c2f48d0ce9e672f528ff1146fa91187501433897024c8d5d574e6fc8d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-D15-loss.png",
+      "build": "04",
+      "sha256": "ac5a0004acb4a0c5c70f5a88bab820a7903911694d4f7f7185d2d0d10d6dcec6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-D15-win.png",
+      "build": "04",
+      "sha256": "6b5f006814a623014b0193bf0a2e30e50cfc605f32e8e89ec7e2d6bd1d8c58a3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-Dalat-destination-readiness.png",
+      "build": "04",
+      "sha256": "1d95c15a8de20b9371159d1f8ec05538270c8c4b743c7109fd5954605e1494b1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-da_lat-landscape-zoom1.png",
+      "build": "04",
+      "sha256": "48ccfd5f2843b8bdf4a04e0ee0fde8e58bb59cdf012707322bddeb665ce79b8e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-da_lat-landscape-zoom2.png",
+      "build": "04",
+      "sha256": "600cdc31e85a312b6385c45c167d23162f213451bb5677eea2bcae35ac9134ab"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-da_lat-landscape-zoom4.png",
+      "build": "04",
+      "sha256": "88103e6c5f93908375fdf7b346cd73521019bc3ec110c6065ec0e8e1abc6b629"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-da_lat-portrait-zoom1.png",
+      "build": "04",
+      "sha256": "1415b477529574cda7edfe7c099cb1057f61173a049bfa904025ca53af281811"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-da_lat-portrait-zoom2.png",
+      "build": "04",
+      "sha256": "0c2cb44f6187c14cb43f159ce0f7dd84425f0cc30a1c8efc7f41229d345140c2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-da_lat-portrait-zoom4.png",
+      "build": "04",
+      "sha256": "3a09093fa5dbd2f7f14c3d9656bdb28870eba05a0dbab53246fe9ef0e98671a8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-hue-all-nodes.png",
+      "build": "04",
+      "sha256": "147143a4826a909e4cc6f5fd8a397dbc8f02c567e2887c189c05d4a210bec6d2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-Hue-gate1-reveal.png",
+      "build": "04",
+      "sha256": "d7f181ae81d96a17534ab0aa3cf50a4f86d14751445cf9a6de64d4e2f907554e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-hue-journal.png",
+      "build": "04",
+      "sha256": "213b69b6b55e168644c3749894d453ec6aa9cedaa7946c74e445a76b2c845fd8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-hue-landscape-zoom1.png",
+      "build": "04",
+      "sha256": "012805f7b2fbdaca0c2de57458fc5f1b7cae902bedf6cdba7bb6d606abd1372f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-hue-landscape-zoom2.png",
+      "build": "04",
+      "sha256": "a6f9ce5b8cc36e62694f624e54fd03d723e9793a2ec6614d646ffda1e6c3df34"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-hue-landscape-zoom4.png",
+      "build": "04",
+      "sha256": "db693f21c7e17f8bd63eab236182f17941da4cd71dd6a86e939d4ab20457e171"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-hue-portrait-zoom1.png",
+      "build": "04",
+      "sha256": "e1e1104894a98178d9f39eb1071e397bfa7908b0199bc4d919d3a346fca78dd4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-hue-portrait-zoom2.png",
+      "build": "04",
+      "sha256": "ced929621029e668f0329a42c6efed4a794dd36d3bd8db7fd2535c1c7c511beb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-hue-portrait-zoom4.png",
+      "build": "04",
+      "sha256": "35b346d8f2be9891b6700e7ba2b5e3b48aeb68279f3c3f8b03a317cb8f869cda"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-Hue-restored.png",
+      "build": "04",
+      "sha256": "4ed8360b38fe98663827e3e9331356cd5222b00c488dd5b4d6570a48157ad9f8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-hue-stage0.png",
+      "build": "04",
+      "sha256": "1cc1e0ecc3e80465b8a57825b73973ca7089cb421bf2ee0c6113dad377f5fdc9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-J11-checkin.png",
+      "build": "04",
+      "sha256": "358351a562b4d436861378697aaa7353f1042f6ee9a4edd5ff0d2c91e6731ded"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-J15-inventory-after-shop.png",
+      "build": "04",
+      "sha256": "cc5d19b6780fbe44551be8ca1eaa12c21a914390356f9d33ebaf0701075de2ff"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-J15-inventory-before-shop.png",
+      "build": "04",
+      "sha256": "7b098faf02ad632be92f63835dacf149ce08e472f6476b22c443c6e98cae00cc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-J15-shop-insufficient-fixture.png",
+      "build": "04",
+      "sha256": "81c2c9a344269bd75d8158523880e2138a4110f29b70b34317b07df27aac426c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-J15-shop-receipt.png",
+      "build": "04",
+      "sha256": "505e2b9838e49551d67e63e12be1a38e7f4feeab592ea407335bf3b7e7dfd11d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-J17-three-lantern-rings.png",
+      "build": "04",
+      "sha256": "b1d67f78dc4f29a0c1be6dec1701177830b8379133c29b931af0fa3e8d07baf7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-J18-win.png",
+      "build": "04",
+      "sha256": "3d026957fc4287c043e3da8fd6daf0dc0215ffe633d2e405904d72c9a2397be9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-J7-folded-paper.png",
+      "build": "04",
+      "sha256": "929db1cfa5d95b792f9066a5f7abbc8febb3ac24a1eff19b90619d85d011d23b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-J8-checkin.png",
+      "build": "04",
+      "sha256": "890f273c2edbaa2b798ce9ec8014b255d66423a1e8963fdd78f5333d2a857571"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-J9-win.png",
+      "build": "04",
+      "sha256": "fbb753d0d31a9b4b7fc3f7137fb095c65813faf6b8af9d65886e37eb955abede"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-Jeonju-gate1-reveal.png",
+      "build": "04",
+      "sha256": "f91fc40ec446e3444a4828f2eebeb8681539c9596d5db5da0037986603a38abf"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-jeonju-landscape-zoom1.png",
+      "build": "04",
+      "sha256": "c6983187cfaeafadfefbc9e8f01e40829ea8d15a5442288f77a31ee9366bf8d7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-jeonju-landscape-zoom2.png",
+      "build": "04",
+      "sha256": "c488a2320e05dca8592f214979637457622af95eba7f4f25f43985e9472256b8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-jeonju-landscape-zoom4.png",
+      "build": "04",
+      "sha256": "dd0d5bf65cbd82874f122a17bef7e29d2adfc99e175dc57a1f4f861314fd1e63"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-jeonju-portrait-zoom1.png",
+      "build": "04",
+      "sha256": "01beb6c0ca680cebedd8036500d6980490c13305c1f114d5987e2c1c0808f733"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-jeonju-portrait-zoom2.png",
+      "build": "04",
+      "sha256": "9d366dad4371491b6f1a6ac36350289c01b64631ff5498cac6cd5c878749af17"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-jeonju-portrait-zoom4.png",
+      "build": "04",
+      "sha256": "465faaf53a1cd7aa99c9a83cb26d363e975a565d8aa496bbc366659a748d38bc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-Jeonju-restored.png",
+      "build": "04",
+      "sha256": "5e9a52be33ecab95b1153c97978326488d12b966e2b4f889117ebf08219eb04f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-jeonju-stage0.png",
+      "build": "04",
+      "sha256": "835d7d59f984e701d0c18b07e35787c1cd9cd2d31ec0e5ef752ddc0b5e552982"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-LeAn-seal.png",
+      "build": "04",
+      "sha256": "3466435e552dd590bcdf5f2828ca8be3d2caa71d94e4644132f3697557d788d8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-Nguyet-quest.png",
+      "build": "04",
+      "sha256": "15019c78b756a1ba8cec4c0e708983ec6e5400eaba40478c796253e9be23251f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-U12-win.png",
+      "build": "04",
+      "sha256": "eae73a1656da1b7afd7610267d52153473e9564615cd0e8b867bfc9b84eb711c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-U18-win.png",
+      "build": "04",
+      "sha256": "7be48492f1ef209c5afed286b2725d0a377e525c5eb6ec226173a054756dcd3a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-U4-checkin.png",
+      "build": "04",
+      "sha256": "40302b17246fa191415842e9e86d705a203ffc09e7288b58eebf575ff0ee2ba5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-U5-loss.png",
+      "build": "04",
+      "sha256": "94e92546377f2f33b12d3a0a7cf77587e2f19aff39b4da458c57302bfba63de3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-U5-seal-code.png",
+      "build": "04",
+      "sha256": "21d023fb811049a25d205c57f9b03d61b43b900b04893dee38b3826794eb17e5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-U5-win.png",
+      "build": "04",
+      "sha256": "1931e66854269cba89a648fd4e7fe1f01e1fd7534e3c7d0b9b5d0dce974e3ce4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Chapter-U6-checkin.png",
+      "build": "04",
+      "sha256": "f742baf90899acc9f944d256d4923a49b8ab2b64ab4bf3ea5343054b749d933f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-00-fresh-map-preview.png",
+      "build": "04",
+      "sha256": "6b092f789349a9b3ddd0e3e12142f9e44008b46f6c2111a42b3adeab4eedaf4d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-00a-preview-before-touch.png",
+      "build": "04",
+      "sha256": "ddbae629a72ac2d112d068f0fbccb347c298cdd6f3759593852a21aad2e9d042"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-01-Lan-quest.png",
+      "build": "04",
+      "sha256": "a889957bf65564f2d19f359cfe727462aa4276e959779b76def0cc51ab996f70"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-01b-20x9-safe-area-simulation.png",
+      "build": "04",
+      "sha256": "f57fc8fd9191279afedcfad4ff9cfd70d1cfdb1f53d4a43af81efddc9405e1fe"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-02-light-trap-first-step.png",
+      "build": "04",
+      "sha256": "f5ceb662f15a42d5fcfd2e269b8e49c3fab960ca1fd9c6a1ce538d0c38bd067c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-03-Lan-gate-reveal.png",
+      "build": "04",
+      "sha256": "af854beb4ef38275b367e29359643fd177155d6d57b3bebc46636fb3697a2e74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-04-mist-gate-reveal.png",
+      "build": "04",
+      "sha256": "93454213431c4bc35e8197781b3929e017028cbfb2e998e2167359e001444b8f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-05-dog-missing-food.png",
+      "build": "04",
+      "sha256": "87798586da1e249459ee3484dcc54ac1c05b664875459947c5a1e9cff0af7d23"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-06-food-inventory.png",
+      "build": "04",
+      "sha256": "e06a8d74e0750f9b9242a04be3373f7799e8765d3231c980b1dad1740aea5dde"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-07-dog-gate-reveal.png",
+      "build": "04",
+      "sha256": "eefb87c065bcbdd78823d1186f0d1c67401688a0c3e6c4d96e7dee1999f2705b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-07b-mandatory-intermediate-boss-stop.png",
+      "build": "04",
+      "sha256": "d38409ecb7477f9b1e28e6c06f3b2896126d7e76bb27515c71eae0b242b9bd32"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-08-water-signal-inventory.png",
+      "build": "04",
+      "sha256": "5d366f5957d7d21012bcea3b5816cd59cce6d67477d23e03dd2e7cbf99144c35"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-09-station-restored.png",
+      "build": "04",
+      "sha256": "85cc6ae66c93c2f55e699277f731b8a5803c06d84f3cfce5d124f05a493de06f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-10-Seoul-other-branch-condition.png",
+      "build": "04",
+      "sha256": "14f3c834741070da0428752982f03c5a064f31588f283d675fcc34a52e2d315e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-11-complete-journal.png",
+      "build": "04",
+      "sha256": "3201409ac0c4b322cb3266a26ca90ba0edf19d75245dfe820ef48e76c8bd6bdd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-14-complete-map-landscape.png",
+      "build": "04",
+      "sha256": "748036fb73f00f44196cae88f8608c2c85779abd2fe6130b46d0a9c9ba526fb2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-15-DIAGNOSTIC-pixel-coordinate-grid.png",
+      "build": "04",
+      "sha256": "1f473427b91c91ef269def5842a30b828f6bfd8a6405c8372ca40f5ea31d452c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-food-recovery-isolated-fixture.png",
+      "build": "04",
+      "sha256": "15f67d66c5dd42678cb8757a48f2921a1ae623702e3f8a650fa962dd38e2c3dc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-inn-rested.png",
+      "build": "04",
+      "sha256": "b14a9249a3b9f85cbfc197eb0e8ddb3a3fb727a3b7a530b7ced60645d208bf97"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/DL-strawberry-gift-inventory.png",
+      "build": "04",
+      "sha256": "c5d3733a5102d331c9bd06fef9aa4d122e61cc65f4e2021d1fb98f181865bd59"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/EXP-01-Fresh-revealed-preview-hidden.png",
+      "build": "04",
+      "sha256": "6bf89c478ed1c5d0a7b065209a3241b9be59768c89b2bbce450f4a8b85ae2e8e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/EXP-02-After-first-gate-new-boundary-previews.png",
+      "build": "04",
+      "sha256": "646d870ec8bb1ca2f7b1a6ad908b55cc6d1eb223de003178ccfe1929e4bff77b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/EXP-03-Boss-sprite-red-floating-alert.png",
+      "build": "04",
+      "sha256": "437009631bafa2cc52004cc1dea37273c903ab6cf225f80e21fb4ef507b0c169"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/EXP-04-Camera-white-marker.png",
+      "build": "04",
+      "sha256": "329d50b1f0f32ae7404823ac0d42cbc3c5835a483de7f1a8d5a518188968b87d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/EXP-04-White-camera-checkin-offer.png",
+      "build": "04",
+      "sha256": "e53149b41ac8b719e77927497fd5fc39e6ba385420f03a96f8d32de7c1847128"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/EXP-05-Checkin-recorded.png",
+      "build": "04",
+      "sha256": "024cc8a99d02002f8d7866d9c5973a8b761236ada3a5a4f0a2d7a4ba5b859872"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/EXP-Motion-off.png",
+      "build": "04",
+      "sha256": "76f9fdc460f9f88bfec370576f6f1a83860ea50e00532f0d25c7758cf0147f9e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/failure-runtime.png",
+      "build": "04",
+      "sha256": "301a514117644e86a73d98bc2ffa8557494261bc4c242847ba916b00c07611db"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/FOOD-01-NPC-request-missing-reserved-spice.png",
+      "build": "04",
+      "sha256": "3dbbe140de3b57831e217999ee0cdc8c39a1dac4720d1d2e19410e22cd25cd03"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/FOOD-02-Spice-pickup-at-map-node.png",
+      "build": "04",
+      "sha256": "0173bfe2256f54a606be2a52c69a785c172429389b5b82b4c5a60b8d007971c6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/FOOD-03-Pickup-icons-and-quantities.png",
+      "build": "04",
+      "sha256": "8750cbb1034d929b021ae665791357cb8cb2e6fa5910c10cb5e904a8f6129fd7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/FOOD-04-Inventory-chili-shallot.png",
+      "build": "04",
+      "sha256": "4eac85e795c8edee7e86267035e59ceea0edae6416c3616cb6227688b3d54e06"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/FOOD-05-Inventory-shallot.png",
+      "build": "04",
+      "sha256": "484cb348e2f5cede4f9a25809191e61dea99d50b53c8bde5d22d148da425eea6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/FOOD-06-Actual-turn-in-reward.png",
+      "build": "04",
+      "sha256": "fd64cb0ef6986bd2e6606729102a177d7a4d581eab23e0644fe24d107400d927"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/FOOD-07-Pending-cross-city-journal.png",
+      "build": "04",
+      "sha256": "736163c6313292c636cd36ce013da439d8b06d4965836b5a2e643af5eeb5ed98"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/FOOD-Recovery-fixture.png",
+      "build": "04",
+      "sha256": "8bc7dda8eeb711f60f1ce6fde6c56f46b902b4d045f390e6dcae97bad5456adc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/intermediate-H5-stop.png",
+      "build": "04",
+      "sha256": "15a60532d8cff7337469cfbd9463e99b951e5cdb2b7ea4c263dfdbeae87a02d2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/MKR-01-Fresh-NPC-talk-and-hidden-boss.png",
+      "build": "04",
+      "sha256": "c98925c146ef041ff9358b1ae704dbf2fe956d9b8783b3b4cb7cfaabbb124e3a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/MKR-02-Mai-needs-item-and-alley-reward.png",
+      "build": "04",
+      "sha256": "479dd7fb50e23e379513618a6ad48fa1acefb7da059f1b3225130d3ee622ece5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/MKR-03-Mai-ready-to-receive-item.png",
+      "build": "04",
+      "sha256": "0dd80878f6f19ea74255b2b68e5fe6770eb0eb6244b4cd0c9b30fd09a9fb04fc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/MKR-04-Visible-boss-red-alert.png",
+      "build": "04",
+      "sha256": "398aeb5b81786d3ed55b368df2d04afdcb3acb4d9e719ba27e7196a154b880ef"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/MKR-05-BaTu-return-with-item.png",
+      "build": "04",
+      "sha256": "beceb7d4b57c9281015a89d9ce0e8611b7464f89791bd2a3e2d0ac1d9a4484b4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/MKR-06-Completed-locations-become-checkin-markers.png",
+      "build": "04",
+      "sha256": "5dffa4b0c582c1bbddf28bd905ffced98d4d5cbe7a2fb49deb6c9bd656beb7d5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/MKR-H22-extension-fixture-not-delivered-content.png",
+      "build": "04",
+      "sha256": "848bdd35a969e485a723f9ce848e46713d7bd14243bf7ff56fbb2ce798f9d8d7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-da_lat-D10-stage2.png",
+      "build": "04",
+      "sha256": "c58318130cd1405677873eba0e70133424557b2c65ae3ed6e4fdf8d1860f6f38"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-da_lat-D10-stage4.png",
+      "build": "04",
+      "sha256": "f926c6ecc367c9c722b5b86ce8ee1314cedbd2b95736c5949bcd2a518cf0e224"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-da_lat-D13-stage2.png",
+      "build": "04",
+      "sha256": "bdbc019070219d4f2a229af0ded21a1073d55035f4a69a272fd3712e4e543a9d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-da_lat-D13-stage3.png",
+      "build": "04",
+      "sha256": "14b48e2c68a5e5e65ab898cb56eb9ea88fc803c5b9131b6a3a01107e58813c75"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-da_lat-D13-stage4.png",
+      "build": "04",
+      "sha256": "5a97d2c84f19578431d22652b47dd919111a159e2f6eb6315b2723c31ca2a533"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-da_lat-D2-stage0.png",
+      "build": "04",
+      "sha256": "861101f591b4f1e479c116a5a9e2f06ead7ab6587891ac40ec1d74a288d0b17e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-da_lat-D2-stage4.png",
+      "build": "04",
+      "sha256": "688bda35a90bccd0fe2412b4c3fbff5752c6c7a2532eb67e3ab321a5175f9fae"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-da_lat-D3-stage2.png",
+      "build": "04",
+      "sha256": "d340c98a3cf37a9a0da9e6e32741820c24f84c15c9c13f69949bb8a312b193b0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-da_lat-D3-stage4.png",
+      "build": "04",
+      "sha256": "eebed82c66f5c283b274c6a0e69bae2acd3c3c497e64aba30792ffd4497d96a4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-da_lat-D4-stage3.png",
+      "build": "04",
+      "sha256": "3c81f4ad38dfd1bb2fa91edeae8b0e424436810c0190bc4444a6d2440c74d157"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-da_lat-D4-stage4.png",
+      "build": "04",
+      "sha256": "1c0b9868dec53a66c5d19c45b436961b6e03a9f5c055719b59b0b5d081cccdca"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hoi_an-H10-stage3.png",
+      "build": "04",
+      "sha256": "b76f7df35a80741c96ba70b6b8fa9763c0c6715dc1b0e919b85a3a7ff39ef9a6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hoi_an-H10-stage4.png",
+      "build": "04",
+      "sha256": "24c7acf0924295cbc589d9652f0233cc5d9016c8630a467b3fcb182245442b85"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hoi_an-H14-stage2.png",
+      "build": "04",
+      "sha256": "5682ab5b9be0c95a3d24a52ba24273097f87131b178678d52197ad65f130057a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hoi_an-H17-stage4.png",
+      "build": "04",
+      "sha256": "48ea5a69a6804b0adf23e25fffb16bb3d42eb3af53c1b56a45957cbfe009988c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hoi_an-H18-stage2.png",
+      "build": "04",
+      "sha256": "8613ff20b4df99cd8c29cf667e4613cf646d1a73aba46bfa7c17c99134e8f0ad"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hoi_an-H18-stage4.png",
+      "build": "04",
+      "sha256": "89e3b6b066f02db3dcd1f72904bec05fc68746dab161f95fcdc3b45393aa5883"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hoi_an-H2-stage1.png",
+      "build": "04",
+      "sha256": "afdfbce28d6a7980f23c452b6bff623e237cb4cb88172a56d8d24f5cf43cac91"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hue-U1-stage4.png",
+      "build": "04",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hue-U2-stage0.png",
+      "build": "04",
+      "sha256": "ca9c1f228e2cc371081b787295664f543da9b950cd9edfcb4964b0fe540ab29d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hue-U2-stage1.png",
+      "build": "04",
+      "sha256": "71af9d15b141cb0684809fa7852144fa3c8dc2c7652c56c21077e9daafc96110"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hue-U2-stage4.png",
+      "build": "04",
+      "sha256": "47f1be615ba32988e7f348b43370803fff11ee0e52e2ec4cd7b2d765da6b3b44"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hue-U3-stage0.png",
+      "build": "04",
+      "sha256": "d395778b7775f0003e863bfcf956d70583abc0eea1f303b2692312e80e7ee5c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hue-U3-stage4.png",
+      "build": "04",
+      "sha256": "a8f87880ea3127dee4f5b798f6ebfc99b6269c52a57f82ebaa3d78e9df693509"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hue-U7-stage1.png",
+      "build": "04",
+      "sha256": "1438430798272f9d7983e9f4d1fc5f71a96ca1915bf5d6c51f7054c0e51635be"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-hue-U7-stage4.png",
+      "build": "04",
+      "sha256": "3fc1c15770685b00f5332e40125c2af68fcb07daa16884eb0dea45b7fed11cf7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-jeonju-J15-stage4.png",
+      "build": "04",
+      "sha256": "a0619b43d0a8f2bf1ffb1bcc7a9c68d07e1b601efe84ee319cc43a6a48cf39e0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-jeonju-J16-stage0.png",
+      "build": "04",
+      "sha256": "8b98217b1af895273e9f41d76ec1c3a4fca46648639d0920c636254b7220ec99"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-jeonju-J2-stage0.png",
+      "build": "04",
+      "sha256": "d74d5e3a090b211350446052dc9351d28da85ff71c180e7f90e5c7b8d5611689"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-jeonju-J4-stage1.png",
+      "build": "04",
+      "sha256": "692e9ae407cb1a2f6ec20008a7743a65f09db774bd11f93b473e4a4a92f795f4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Portrait-jeonju-J5-stage1.png",
+      "build": "04",
+      "sha256": "c4cca91bc24c44414e9dfdd0837bf31cb4b8db92cc9ff0489254ddac343d50ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_archive-retry.png",
+      "build": "04",
+      "sha256": "3cb5fd0e45f3149edb5a47d10806f785802d1e9afa0f1fa5aecad70b1586fd93"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_archive-solved.png",
+      "build": "04",
+      "sha256": "156bfdfc2b3b5ee1c3c74a264ccb5703271a26e76dac02aab69803dc05fc8688"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_court-retry.png",
+      "build": "04",
+      "sha256": "2e1a40a5007c1f77713d5326e0d0b349de91c0f650719dd8de198a35da329e96"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_court-solved.png",
+      "build": "04",
+      "sha256": "9480864ce73d3223181b6bea47f61f38a3ed4fbf221cadfeec3f985d513807f0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_dye-retry.png",
+      "build": "04",
+      "sha256": "822ad2b3157d268ad221d5399882557db5ebec904e211c5802beea5fc18ee1ca"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_dye-solved.png",
+      "build": "04",
+      "sha256": "f5c1336f7fce565cc7665243500b457029b92456bb463a577f512751fab3a643"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_embroidery-retry.png",
+      "build": "04",
+      "sha256": "cb68826e898ecacecd3ff422a35da7bf189d22819f83001af87fe09f3c81a8cc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_embroidery-solved.png",
+      "build": "04",
+      "sha256": "d97b83aed8ff48c6d610e70abbbce652bab0bb69efd0ff7ecdfb2ece515f8939"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_market-retry.png",
+      "build": "04",
+      "sha256": "772795f6704602cd09a0fa812cf2e2259f90fc55d174282f55e43321e2aeb9e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_market-solved.png",
+      "build": "04",
+      "sha256": "dea5decee5c3f6c00ca9187184108409ad6f3d463531220440665235b953d9af"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_market_code-retry.png",
+      "build": "04",
+      "sha256": "2d7617cd016010e7d0a9fb239ae2313e72995e5bfe240078795b0451e129a944"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_market_code-solved.png",
+      "build": "04",
+      "sha256": "35ac04b9dee72b4dfd831ce41802e846dd7d5a1b9233ea7713a15f5bd479cf94"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_mist-retry.png",
+      "build": "04",
+      "sha256": "703630b53fdaf05f6239325ee00b70b917e3d07835741998cbea48d29ce23f8c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_mist-solved.png",
+      "build": "04",
+      "sha256": "13bd92a05f6f2fbeac71ed1c214dbb5652e5759e067c08cc83184c7797107d43"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_paper-retry.png",
+      "build": "04",
+      "sha256": "c0c61fb3be459cb70bebe21b843fc8a7bafaf5211f9263a00e601d84e2c141e1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_paper-solved.png",
+      "build": "04",
+      "sha256": "f043f99237aedd75e3b6281e416bd3c6fd1044db7465b445f3c956c8e81054c5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_pottery-retry.png",
+      "build": "04",
+      "sha256": "5b22cf787c7846c2ddcd67af3dc7364a95c3c98faecad56790f62c2f4aebe4f0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/puzzle-puzzle_pottery-solved.png",
+      "build": "04",
+      "sha256": "afb4f8cd60eca529d643d1c6271f897c2cd5946c3427fb7f0e68e3e1c4e78046"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Reward-150-entrance-early.png",
+      "build": "04",
+      "sha256": "af6c04ddf1442375ef31ebc0bd29be24e9e1d32417fbdaba5fe216d0e2532789"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Reward-150-entrance-middle.png",
+      "build": "04",
+      "sha256": "71ece3c823aa3d06f453ab4da95c7dd1bb5184ff15ab44c709f283063ab3a0c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Reward-150-entrance-settled.png",
+      "build": "04",
+      "sha256": "d5c0d7dc91e6d36e7bdd47334c7f250ccbb90df9b931ff91fdbb2d08d79df887"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/S1-01-Fresh-map-Mai-only-starting-region.png",
+      "build": "04",
+      "sha256": "134e4953c7daa7b6762720bc11c7ad6c271932f2619efa82224a5b1a03c69312"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/S1-02-Gate1-only-next-region-merchant-crab.png",
+      "build": "04",
+      "sha256": "2f384ad55de801a666f564302afd0ceb18e3935a0605c1db9d04aea24e1c455e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/S1-03-NPC-and-bridge-bot-on-map.png",
+      "build": "04",
+      "sha256": "0bf64ccd684673d225692f9ed597804defe05d86c5ca96b61b6413a6fc8d2f8c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/S1-03b-NPC-and-bot-map-detail.png",
+      "build": "04",
+      "sha256": "d3bcbb7b9fcd2fd451499eccee85f52181366672ce58c2f3ae74e4c4f44d96fa"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/S1-04-Battle-opens-station-region-only.png",
+      "build": "04",
+      "sha256": "d20b09b9bd890411e37f98b7caf1a51cb5f490676146057a2d29805151ef2b9c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/S1-05-Code-opens-same-region-only.png",
+      "build": "04",
+      "sha256": "82635382bce8ec19f9fe9726c576fede2dd06dedc5161f9b63f50ad38b5007f5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D10-to-Lumi-00.png",
+      "build": "04",
+      "sha256": "83ec0ae7b3724370f7abf6ae231ab33ee374e5bc4d140242c1d39702b2010330"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D10-to-Lumi-01.png",
+      "build": "04",
+      "sha256": "ebb2832ece5580feb29a7558c19e09d7bbb9d70b5b70e270b75e1d894108664c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D10-to-Lumi-02.png",
+      "build": "04",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D10-to-Lumi-03.png",
+      "build": "04",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D10-to-Lumi-04.png",
+      "build": "04",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D10-to-Lumi-05.png",
+      "build": "04",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D10-to-Lumi-06.png",
+      "build": "04",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D10-to-Lumi-07.png",
+      "build": "04",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D10-to-Lumi-08.png",
+      "build": "04",
+      "sha256": "8e17163438eb1691b9d41beaee9b37b76be2e916186ca2a45b59a4bfb9d7aa81"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D13-to-Lumi-00.png",
+      "build": "04",
+      "sha256": "05255e5db2cb62e86e18d6df7b50228d6acaa898fdb76cc5e8735d06600fdb8b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D13-to-Lumi-01.png",
+      "build": "04",
+      "sha256": "541f4d68e6461e1e622fd375dfd0a681dc1b8e81f65b6dd03c42f77e8b5a4e09"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D13-to-Lumi-02.png",
+      "build": "04",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D13-to-Lumi-03.png",
+      "build": "04",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D13-to-Lumi-04.png",
+      "build": "04",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D13-to-Lumi-05.png",
+      "build": "04",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D13-to-Lumi-06.png",
+      "build": "04",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D13-to-Lumi-07.png",
+      "build": "04",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D13-to-Lumi-08.png",
+      "build": "04",
+      "sha256": "adcce5053d5ee4a3b44093e66f74abbce30f63a4510e8465e9126378c1ad220e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-return-00.png",
+      "build": "04",
+      "sha256": "a4a7eef3d6c346f110b51b835f0c8b3d0624a2591622febbdd867a9a9960f3a9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-return-01.png",
+      "build": "04",
+      "sha256": "817163a5ec7029c4c1b59dbf02cd235f8bd7db04f7231373b5e44ab92754416a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-return-02.png",
+      "build": "04",
+      "sha256": "edc72eef18e583ea90bc5ac914c71af4ff4cc6dc550acbb0cb3a26a918ec05a2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-return-03.png",
+      "build": "04",
+      "sha256": "edc72eef18e583ea90bc5ac914c71af4ff4cc6dc550acbb0cb3a26a918ec05a2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-return-04.png",
+      "build": "04",
+      "sha256": "edc72eef18e583ea90bc5ac914c71af4ff4cc6dc550acbb0cb3a26a918ec05a2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-return-05.png",
+      "build": "04",
+      "sha256": "edc72eef18e583ea90bc5ac914c71af4ff4cc6dc550acbb0cb3a26a918ec05a2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-return-06.png",
+      "build": "04",
+      "sha256": "edc72eef18e583ea90bc5ac914c71af4ff4cc6dc550acbb0cb3a26a918ec05a2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-return-07.png",
+      "build": "04",
+      "sha256": "edc72eef18e583ea90bc5ac914c71af4ff4cc6dc550acbb0cb3a26a918ec05a2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-return-08.png",
+      "build": "04",
+      "sha256": "edc72eef18e583ea90bc5ac914c71af4ff4cc6dc550acbb0cb3a26a918ec05a2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-to-Lumi-00.png",
+      "build": "04",
+      "sha256": "33067d1806bd0e993d1cbccfc60a9532079366879372742bdf2f62f61b0931b9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-to-Lumi-01.png",
+      "build": "04",
+      "sha256": "bdcea618f9961af6208f0f3c5ea01c802228f56a17a534368e4d79f5a7524f23"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-to-Lumi-02.png",
+      "build": "04",
+      "sha256": "80bf178962ec9e23a0cc9dd5fff9068bb37d1737294a04f65b050efe2dc187bd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-to-Lumi-03.png",
+      "build": "04",
+      "sha256": "80bf178962ec9e23a0cc9dd5fff9068bb37d1737294a04f65b050efe2dc187bd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-to-Lumi-04.png",
+      "build": "04",
+      "sha256": "80bf178962ec9e23a0cc9dd5fff9068bb37d1737294a04f65b050efe2dc187bd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-to-Lumi-05.png",
+      "build": "04",
+      "sha256": "80bf178962ec9e23a0cc9dd5fff9068bb37d1737294a04f65b050efe2dc187bd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-to-Lumi-06.png",
+      "build": "04",
+      "sha256": "80bf178962ec9e23a0cc9dd5fff9068bb37d1737294a04f65b050efe2dc187bd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-to-Lumi-07.png",
+      "build": "04",
+      "sha256": "80bf178962ec9e23a0cc9dd5fff9068bb37d1737294a04f65b050efe2dc187bd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-da_lat-D2-to-Lumi-08.png",
+      "build": "04",
+      "sha256": "80bf178962ec9e23a0cc9dd5fff9068bb37d1737294a04f65b050efe2dc187bd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-return-00.png",
+      "build": "04",
+      "sha256": "6f9a8fdb348bec8c9b984c381301187cd14cebc9b82b8f91252ae816c56eb743"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-return-01.png",
+      "build": "04",
+      "sha256": "3cbc254c3caed49016ae592838b8cf551275cd34c1774f1b4ae1a05789a5c2fd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-return-02.png",
+      "build": "04",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-return-03.png",
+      "build": "04",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-return-04.png",
+      "build": "04",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-return-05.png",
+      "build": "04",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-return-06.png",
+      "build": "04",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-return-07.png",
+      "build": "04",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-return-08.png",
+      "build": "04",
+      "sha256": "2b66ef78fbc049f4793bad128ed1a30fb13697e1ccd29478ce6385f33c28e8c1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-to-Lumi-00.png",
+      "build": "04",
+      "sha256": "d442b56b1aa6a2e35c8916e73198de21a91c4b0e3ea1b45aefdfc2c30ca5d490"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-to-Lumi-01.png",
+      "build": "04",
+      "sha256": "1c4068c435d32ce021cb77f935cd07e2a8f9e4f74e6b646a4b7ee6278fc52128"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-to-Lumi-02.png",
+      "build": "04",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-to-Lumi-03.png",
+      "build": "04",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-to-Lumi-04.png",
+      "build": "04",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-to-Lumi-05.png",
+      "build": "04",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-to-Lumi-06.png",
+      "build": "04",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-to-Lumi-07.png",
+      "build": "04",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U1-to-Lumi-08.png",
+      "build": "04",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U2-to-Lumi-00.png",
+      "build": "04",
+      "sha256": "13e0549a7e954ce05cba834f0889b966cd9d8cf1050d6c1e39e7cb11bb83a613"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U2-to-Lumi-01.png",
+      "build": "04",
+      "sha256": "76c68b98bef684f922ff94b7e1af425609014cb136cacdc89849b411482b13e9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U2-to-Lumi-02.png",
+      "build": "04",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U2-to-Lumi-03.png",
+      "build": "04",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U2-to-Lumi-04.png",
+      "build": "04",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U2-to-Lumi-05.png",
+      "build": "04",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U2-to-Lumi-06.png",
+      "build": "04",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U2-to-Lumi-07.png",
+      "build": "04",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U2-to-Lumi-08.png",
+      "build": "04",
+      "sha256": "7dc5a0df8b025a74441e13022faf490dfca4350b5854308c2ff2d93fc92dad74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U3-to-Lumi-00.png",
+      "build": "04",
+      "sha256": "0c1f7ae1797250cefb69ccb9021b83bb0680b22d4a12b346df20eeca103df0f6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U3-to-Lumi-01.png",
+      "build": "04",
+      "sha256": "be20fb505cbebd9b0720fd13d4537b21ff1007ccd29518680098f49539271665"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U3-to-Lumi-02.png",
+      "build": "04",
+      "sha256": "e5a65d27a6472d76c11b78bd4b55cacb2e08ec645928638973a43f2089554beb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U3-to-Lumi-03.png",
+      "build": "04",
+      "sha256": "e5a65d27a6472d76c11b78bd4b55cacb2e08ec645928638973a43f2089554beb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U3-to-Lumi-04.png",
+      "build": "04",
+      "sha256": "e5a65d27a6472d76c11b78bd4b55cacb2e08ec645928638973a43f2089554beb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U3-to-Lumi-05.png",
+      "build": "04",
+      "sha256": "e5a65d27a6472d76c11b78bd4b55cacb2e08ec645928638973a43f2089554beb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U3-to-Lumi-06.png",
+      "build": "04",
+      "sha256": "e5a65d27a6472d76c11b78bd4b55cacb2e08ec645928638973a43f2089554beb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U3-to-Lumi-07.png",
+      "build": "04",
+      "sha256": "e5a65d27a6472d76c11b78bd4b55cacb2e08ec645928638973a43f2089554beb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-hue-U3-to-Lumi-08.png",
+      "build": "04",
+      "sha256": "e5a65d27a6472d76c11b78bd4b55cacb2e08ec645928638973a43f2089554beb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-jeonju-J5-to-Lumi-00.png",
+      "build": "04",
+      "sha256": "f9909870f50b229b741d330f0ea6b4b5af3e27c3f3966801312ca6d90e8f2072"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-jeonju-J5-to-Lumi-01.png",
+      "build": "04",
+      "sha256": "0da5c063bd7577f427ff80b05913f2713bcc6b3f308c79790fecbdc38a2f013f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-jeonju-J5-to-Lumi-02.png",
+      "build": "04",
+      "sha256": "8ef7b38674017055c089cd822b13b2bd0c774eccd71259ce36e13f0560e46717"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-jeonju-J5-to-Lumi-03.png",
+      "build": "04",
+      "sha256": "8ef7b38674017055c089cd822b13b2bd0c774eccd71259ce36e13f0560e46717"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-jeonju-J5-to-Lumi-04.png",
+      "build": "04",
+      "sha256": "8ef7b38674017055c089cd822b13b2bd0c774eccd71259ce36e13f0560e46717"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-jeonju-J5-to-Lumi-05.png",
+      "build": "04",
+      "sha256": "8ef7b38674017055c089cd822b13b2bd0c774eccd71259ce36e13f0560e46717"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-jeonju-J5-to-Lumi-06.png",
+      "build": "04",
+      "sha256": "8ef7b38674017055c089cd822b13b2bd0c774eccd71259ce36e13f0560e46717"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-jeonju-J5-to-Lumi-07.png",
+      "build": "04",
+      "sha256": "8ef7b38674017055c089cd822b13b2bd0c774eccd71259ce36e13f0560e46717"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/Speaker-jeonju-J5-to-Lumi-08.png",
+      "build": "04",
+      "sha256": "8ef7b38674017055c089cd822b13b2bd0c774eccd71259ce36e13f0560e46717"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI-01-CityMap-globe-backpack.png",
+      "build": "04",
+      "sha256": "8d6afcd31f6de94b73ecbfeecee74bb5993536e83c532224dbb9e51d9f7aec83"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI-02-WorldMap-from-globe.png",
+      "build": "04",
+      "sha256": "5a9e2534018c14ae22f03e83689822562fd0a4b34da89f619fa35e43941364ae"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI-03-Inventory-from-backpack.png",
+      "build": "04",
+      "sha256": "c40d04cee6acaa3a5231239e94946383676f039e8f1a34af22c09cd51bf96a45"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI-04-Lumi-dialogue.png",
+      "build": "04",
+      "sha256": "c4fe5f504ad53b81446948dad498bfb18f95e616d34a5dcbd08f3d0c21c63869"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI-05-NPC-Mai-dialogue.png",
+      "build": "04",
+      "sha256": "043ff0d2b2c810d5701d69b8ce51d43d6e463353fd5988f3ae518a22c7956470"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI-NPC-boatman.png",
+      "build": "04",
+      "sha256": "48ea5a69a6804b0adf23e25fffb16bb3d42eb3af53c1b56a45957cbfe009988c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI-NPC-Korean-visitor.png",
+      "build": "04",
+      "sha256": "8613ff20b4df99cd8c29cf667e4613cf646d1a73aba46bfa7c17c99134e8f0ad"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI-WorldMap-locked-Hue.png",
+      "build": "04",
+      "sha256": "313c3bd8ba85d8b024e9a27856cc1767aba216be56f7949b01d57eecbb46ab76"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI-WorldMap-story-routes-open.png",
+      "build": "04",
+      "sha256": "70cf81970dca9e3ec63b92ef3cbc3a3ccb69bd7e37aade12713955ccd808e509"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI1-01b-CityMap-overview-paper.png",
+      "build": "04",
+      "sha256": "b4bd1cc3eed94490ab8ad5b2b82ff149babb83e801c74c5f4c24a1fe9cb16887"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI1-03-Inventory-three-earned-items.png",
+      "build": "04",
+      "sha256": "b56a0176b168b25ad8db7867d15aed9d6784f7844e117313b1e3642d69e89d78"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI1-Inventory-landscape.png",
+      "build": "04",
+      "sha256": "b733ed39e9437b67b4b3d4149f932fb995b3d16f846813ec4a96b747c8b6d411"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI1-Inventory-safe-area-simulation.png",
+      "build": "04",
+      "sha256": "1252b10cb703be0f6c8e5258cfe4c60cadbb2a77ab530e502f973986c44db07e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI1-Inventory-scroll-fixture.png",
+      "build": "04",
+      "sha256": "fb89c5ef996aebd0e75cdffdc63a4379d8971eae377d6a5a7388b2bfd37fcef0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/UI1-Phone-20x9-safe-area-simulation.png",
+      "build": "04",
+      "sha256": "96b6921af290740fb78b69ae32ecd46ce4103ba2cb7c66313dc80e197521c71c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-HoiAn-only-one-delivery-HQ07-blocked.png",
+      "build": "04",
+      "sha256": "4668ed54d17810d2c4bde43ac6b6a83083f42d5b942ef75aa24948201b020d74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-hue-arrival.png",
+      "build": "04",
+      "sha256": "95b741da07a356212b3271826a9ab31409c681256d72c9e47966e978f048e2f3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-hue-inventory-after.png",
+      "build": "04",
+      "sha256": "43d296d9863aefa05b91a0441db6c4de3f24dcad000d7454079f8bdf20e8e914"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-hue-inventory-before.png",
+      "build": "04",
+      "sha256": "8067da2e689a73ce541611cc3ae5c4336a61747634ade545628b3f5aa95170bc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-hue-Lumi-confirm.png",
+      "build": "04",
+      "sha256": "3c3f398e53b4a11073d549f64963be154e4cf6a1a7b40bf248fe7848e47ff532"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-hue-Lumi-intro.png",
+      "build": "04",
+      "sha256": "6e307b752f1963b4fcfffb61a14316f720df6eaed659944b6db9ba5e32fb1f67"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-hue-NPC-before.png",
+      "build": "04",
+      "sha256": "ab91f71a2ac87d7530b2804232826aa90fa827326333b6e73f82d19baecc32af"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-hue-NPC-delivered.png",
+      "build": "04",
+      "sha256": "a6f287b862902e1e537003b364d59dfbc206279f4a241877024566b836044348"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-hue-NPC-missing-fixture.png",
+      "build": "04",
+      "sha256": "ff57f814cfd36b12365c335530cbbbdf47399728619c296d377a4a265fea2e1f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-hue-quest-journal.png",
+      "build": "04",
+      "sha256": "26b61b25ff1c423055a92007c0a3769456ad8895645dfa5dece55c4c2a535fb9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-jeonju-arrival.png",
+      "build": "04",
+      "sha256": "bfda69e8280e0cddc68d7ce7c2cd90d893736c113014a569ced18824773825a5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-jeonju-Lumi-intro.png",
+      "build": "04",
+      "sha256": "fa2dad948e0f26d9c9015c2cae6bd00a7b7ef512aa5d2abdc4d5f75f1ec12ff6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-Recovery-used-legacy-fixture.png",
+      "build": "04",
+      "sha256": "8bc7dda8eeb711f60f1ce6fde6c56f46b902b4d045f390e6dcae97bad5456adc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-WorldMap-select-da_lat.png",
+      "build": "04",
+      "sha256": "b341f2561e9ed0633f90c1cca4ebf4fea1e04be9417d33cfdbd8e7539a3e9cba"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-WorldMap-select-hoi_an.png",
+      "build": "04",
+      "sha256": "a482afc72a014a6dd1f7e1ece71783951131211aefa26072ee6ce64ce47af297"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-WorldMap-select-hue.png",
+      "build": "04",
+      "sha256": "5021a4b44c4df5f61d8b6338bf9e9819b46abeef35545de9c285549dbcf319a4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh02/X-WorldMap-select-jeonju.png",
+      "build": "04",
+      "sha256": "2a998a85441c7cbe632a923a012cd4cb3df2a1f6fa8235529776d6b84b7c47ad"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/01-HoiAn-stage0-hidden-regions.png",
+      "build": "04",
+      "sha256": "0b07be370a3eee4446eba8a7fafd3f4dd8bd912a6335a37494763d6e49831848"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/02-Mai-offer.png",
+      "build": "04",
+      "sha256": "1cff653b4bdc43fd26ce0f3a7bffca1a2a528868a20e16b1055e9326cc7c34aa"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/03-HoiAn-stage1-reveal.png",
+      "build": "04",
+      "sha256": "a58e28b67407b894e474acce832f68e828bb9b92c1112b17400f4b1b681818a3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/04-quest-journal.png",
+      "build": "04",
+      "sha256": "80e577f708818a5b1660e9448cc030853a45f7cf9c8bc3ab919e8b6cd787db89"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/05-H3-exploration.png",
+      "build": "04",
+      "sha256": "8a275f90e0b65f64aff8756d63cb0afd2cdf7a49b14cecc56acf7f06195c8659"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/06-H3-part-picked-up.png",
+      "build": "04",
+      "sha256": "1cdf1c22b516c55b8477a10767a3d004c25a95c6e6b7251ac289d33fd87127e4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/07-HoiAn-stage2-before-bot.png",
+      "build": "04",
+      "sha256": "be7df760993aca17578b20348f1c2e597a67cbebb14fa4b3bb90f4944c37c957"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/08-battle-before-loss.png",
+      "build": "04",
+      "sha256": "f05b1fa3f1c9b428324ca50f65e4220b93dc1ae6639e548c8de367fbb0aa3fc1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/09-battle-loss-retry.png",
+      "build": "04",
+      "sha256": "55ed2cb97a1e85a36a2cd169fa3277e52d88d151e88ba50577e73091dc2cfe74"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/10-battle-actions.png",
+      "build": "04",
+      "sha256": "73a2081940e13ae2808f212e54691f8c3c7858af9c8eb8ebc935ff422e8fb773"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/11-battle-win.png",
+      "build": "04",
+      "sha256": "df32c3c29d36f7768026c1d2a170e4026aabdc0fef437a82ca6611953fccd0bd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/12-Phuc-clue.png",
+      "build": "04",
+      "sha256": "683b4218b07fae2f54643e8e3e3edfae1b66b8cc7dc52c4363c15495699e0b85"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/13-bot-disabled-by-puzzle.png",
+      "build": "04",
+      "sha256": "b0d941c0d0a45e65772437bca8c3d644b263fadd836873f2ffed74a83fca132b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/14-crab-bait-resolution.png",
+      "build": "04",
+      "sha256": "8b6478d9c16214d8165906be39f6550ffd7bc9a4ef6515ccb40e363b93cfdddb"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/15-BaTu-turn-in.png",
+      "build": "04",
+      "sha256": "81d509e56cacbc0d6c6a9d7fbe53c1092b0d3b9e879b24877cce9de7f046a201"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/16-station-ready.png",
+      "build": "04",
+      "sha256": "346b7034243428a137b23cf4cda694c06cf3e3e3823991e7a3df99ee6e68c3f7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/17-station-light-restored.png",
+      "build": "04",
+      "sha256": "640140362f2e3d0cef8e2c8f7980b0ba2a2162e69c51f6a25a26662313635de9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/18-HoiAn-final-discovery.png",
+      "build": "04",
+      "sha256": "5dffa4b0c582c1bbddf28bd905ffced98d4d5cbe7a2fb49deb6c9bd656beb7d5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/19-HoiAn-tablet-final.png",
+      "build": "04",
+      "sha256": "4cde0896a71ccca7f8d1d533bc2870cf352d372e49c3d0e8cf5ff22f5369a125"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/20-inventory-final.png",
+      "build": "04",
+      "sha256": "71b57a9665dab7f5c67e55e323fe3913990643245f4a8d1d448d9ab878993baf"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J11-checkin.png",
+      "build": "04",
+      "sha256": "358351a562b4d436861378697aaa7353f1042f6ee9a4edd5ff0d2c91e6731ded"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J14-win.png",
+      "build": "04",
+      "sha256": "b2e322432bc31e51d64c20c7839e06b6a1476ba2f060ef2bd7e245b9a3d2db75"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J15-inventory-after-shop.png",
+      "build": "04",
+      "sha256": "6267305f077be67d8020311d93d067a36950920486a8e5a0e1bf1a11e0c8da04"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J15-inventory-before-shop.png",
+      "build": "04",
+      "sha256": "424cb75f24597f1f04c959706a1625f7264ef8d3a7a46269ca1e05cc8c179f9f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J15-shop-insufficient-fixture.png",
+      "build": "04",
+      "sha256": "6bdb8f404ce0266f482581570b5ed4e164ad632b9a07ca1768206cffb95436f8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J15-shop-receipt.png",
+      "build": "04",
+      "sha256": "d80d76f83907eb9732944c40f5a30ad41502061a74d67b4099a4188d8d6a131f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J17-three-lantern-rings.png",
+      "build": "04",
+      "sha256": "b1d67f78dc4f29a0c1be6dec1701177830b8379133c29b931af0fa3e8d07baf7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J18-win.png",
+      "build": "04",
+      "sha256": "3d026957fc4287c043e3da8fd6daf0dc0215ffe633d2e405904d72c9a2397be9"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J6-win.png",
+      "build": "04",
+      "sha256": "adcd7ca2dfa773b5eb57bba46016d301b512244ad9a54807d569cdc47b9bcca2"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J7-folded-paper.png",
+      "build": "04",
+      "sha256": "929db1cfa5d95b792f9066a5f7abbc8febb3ac24a1eff19b90619d85d011d23b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J8-checkin.png",
+      "build": "04",
+      "sha256": "890f273c2edbaa2b798ce9ec8014b255d66423a1e8963fdd78f5333d2a857571"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-J9-win.png",
+      "build": "04",
+      "sha256": "fbb753d0d31a9b4b7fc3f7137fb095c65813faf6b8af9d65886e37eb955abede"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-Jeonju-gate1-reveal.png",
+      "build": "04",
+      "sha256": "f91fc40ec446e3444a4828f2eebeb8681539c9596d5db5da0037986603a38abf"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-jeonju-landscape-zoom1.png",
+      "build": "04",
+      "sha256": "c6983187cfaeafadfefbc9e8f01e40829ea8d15a5442288f77a31ee9366bf8d7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-jeonju-landscape-zoom2.png",
+      "build": "04",
+      "sha256": "c488a2320e05dca8592f214979637457622af95eba7f4f25f43985e9472256b8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-jeonju-landscape-zoom4.png",
+      "build": "04",
+      "sha256": "dd0d5bf65cbd82874f122a17bef7e29d2adfc99e175dc57a1f4f861314fd1e63"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-jeonju-portrait-zoom1.png",
+      "build": "04",
+      "sha256": "01beb6c0ca680cebedd8036500d6980490c13305c1f114d5987e2c1c0808f733"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-jeonju-portrait-zoom2.png",
+      "build": "04",
+      "sha256": "9d366dad4371491b6f1a6ac36350289c01b64631ff5498cac6cd5c878749af17"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-jeonju-portrait-zoom4.png",
+      "build": "04",
+      "sha256": "465faaf53a1cd7aa99c9a83cb26d363e975a565d8aa496bbc366659a748d38bc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-Jeonju-restored.png",
+      "build": "04",
+      "sha256": "f4871dad94db85a01c7b07d0bee581fc4ecce466f113cb3126d63e8596ab8b92"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Chapter-jeonju-stage0.png",
+      "build": "04",
+      "sha256": "835d7d59f984e701d0c18b07e35787c1cd9cd2d31ec0e5ef752ddc0b5e552982"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/EXP-01-Fresh-revealed-preview-hidden.png",
+      "build": "04",
+      "sha256": "5aaba2dd77208009658ae74eb3c274ece9615a70a253868542a17419c8673003"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/EXP-02-After-first-gate-new-boundary-previews.png",
+      "build": "04",
+      "sha256": "649af0aa919f5f321ed3cbe58203ee15439a8f3319db973e621e610e0aee95de"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/EXP-03-Boss-sprite-red-floating-alert.png",
+      "build": "04",
+      "sha256": "6e80f0947ae65cf6e3291608bac8ae50fc472ca0c05ab5032899cd8954648cfe"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/EXP-04-Camera-white-marker.png",
+      "build": "04",
+      "sha256": "329d50b1f0f32ae7404823ac0d42cbc3c5835a483de7f1a8d5a518188968b87d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/EXP-04-White-camera-checkin-offer.png",
+      "build": "04",
+      "sha256": "a1a040c063a4844cb9eed2bb585bbd899d80d083df52c4a973c8eb1d66a88f04"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/EXP-05-Checkin-recorded.png",
+      "build": "04",
+      "sha256": "658ef9f0e99c9494fed0461e6450e99b9d06e71b233d0b83f702e7d7d42e0473"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/EXP-Motion-off.png",
+      "build": "04",
+      "sha256": "76f9fdc460f9f88bfec370576f6f1a83860ea50e00532f0d25c7758cf0147f9e"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/failure-runtime.png",
+      "build": "04",
+      "sha256": "301a514117644e86a73d98bc2ffa8557494261bc4c242847ba916b00c07611db"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/FOOD-01-NPC-request-missing-reserved-spice.png",
+      "build": "04",
+      "sha256": "3dbbe140de3b57831e217999ee0cdc8c39a1dac4720d1d2e19410e22cd25cd03"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/FOOD-02-Spice-pickup-at-map-node.png",
+      "build": "04",
+      "sha256": "0173bfe2256f54a606be2a52c69a785c172429389b5b82b4c5a60b8d007971c6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/FOOD-03-Pickup-icons-and-quantities.png",
+      "build": "04",
+      "sha256": "8750cbb1034d929b021ae665791357cb8cb2e6fa5910c10cb5e904a8f6129fd7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/FOOD-04-Inventory-chili-shallot.png",
+      "build": "04",
+      "sha256": "4eac85e795c8edee7e86267035e59ceea0edae6416c3616cb6227688b3d54e06"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/FOOD-05-Inventory-shallot.png",
+      "build": "04",
+      "sha256": "484cb348e2f5cede4f9a25809191e61dea99d50b53c8bde5d22d148da425eea6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/FOOD-06-Actual-turn-in-reward.png",
+      "build": "04",
+      "sha256": "fd64cb0ef6986bd2e6606729102a177d7a4d581eab23e0644fe24d107400d927"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/FOOD-07-Pending-cross-city-journal.png",
+      "build": "04",
+      "sha256": "7816afd15d60bb041a8f90bab9cc66916bda8b8762b3096dbd0e4a5bfd95bfb5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/FOOD-Recovery-fixture.png",
+      "build": "04",
+      "sha256": "8bc7dda8eeb711f60f1ce6fde6c56f46b902b4d045f390e6dcae97bad5456adc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/intermediate-H5-stop.png",
+      "build": "04",
+      "sha256": "1e697f932f687afc7164bc4a1489a62be3e26838fcfafedfe80f410d03884e8c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/MKR-01-Fresh-NPC-talk-and-hidden-boss.png",
+      "build": "04",
+      "sha256": "9492853e89d50db36a6bf8ea43e6bfc48c99f5cdb11534b1e8936532ba851351"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/MKR-02-Mai-needs-item-and-alley-reward.png",
+      "build": "04",
+      "sha256": "768cab2114cf109660c482bb6e59f35097b723e80eccb0d3f76274c39d4d2e03"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/MKR-03-Mai-ready-to-receive-item.png",
+      "build": "04",
+      "sha256": "0a52d4eae4b1610be7bafc5e5c0d508ebecbc6a8a752f278f4657c8275d201fd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/MKR-04-Visible-boss-red-alert.png",
+      "build": "04",
+      "sha256": "ece01929e11eeae6f7e8b1eb7836663dff6f862a6b77769536d836b18264bdbe"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/MKR-05-BaTu-return-with-item.png",
+      "build": "04",
+      "sha256": "8add71f5e2bddaeb76d785b6c786471c09e085a13779acb08c57860231460f3a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/MKR-06-Completed-locations-become-checkin-markers.png",
+      "build": "04",
+      "sha256": "5dffa4b0c582c1bbddf28bd905ffced98d4d5cbe7a2fb49deb6c9bd656beb7d5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/MKR-H22-extension-fixture-not-delivered-content.png",
+      "build": "04",
+      "sha256": "848bdd35a969e485a723f9ce848e46713d7bd14243bf7ff56fbb2ce798f9d8d7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-hoi_an-H10-stage3.png",
+      "build": "04",
+      "sha256": "b76f7df35a80741c96ba70b6b8fa9763c0c6715dc1b0e919b85a3a7ff39ef9a6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-hoi_an-H10-stage4.png",
+      "build": "04",
+      "sha256": "24c7acf0924295cbc589d9652f0233cc5d9016c8630a467b3fcb182245442b85"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-hoi_an-H14-stage2.png",
+      "build": "04",
+      "sha256": "307cc1eb584cd5f3a8e3109d6126920b5b6db050098a035eb014dee6d70b0ef4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-hoi_an-H17-stage4.png",
+      "build": "04",
+      "sha256": "48ea5a69a6804b0adf23e25fffb16bb3d42eb3af53c1b56a45957cbfe009988c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-hoi_an-H18-stage2.png",
+      "build": "04",
+      "sha256": "8613ff20b4df99cd8c29cf667e4613cf646d1a73aba46bfa7c17c99134e8f0ad"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-hoi_an-H18-stage4.png",
+      "build": "04",
+      "sha256": "836e545e1aab2c0ab2f92015b7701e1e214d84cce3c0c5b16ed90c9f0dbf57fa"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-hoi_an-H2-stage1.png",
+      "build": "04",
+      "sha256": "afdfbce28d6a7980f23c452b6bff623e237cb4cb88172a56d8d24f5cf43cac91"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-jeonju-J15-stage4.png",
+      "build": "04",
+      "sha256": "ae623c64f82e3f2a9c35384255fe305f30ed1e24aab5ab0d0f58e9f891cbda3f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-jeonju-J16-stage0.png",
+      "build": "04",
+      "sha256": "8b98217b1af895273e9f41d76ec1c3a4fca46648639d0920c636254b7220ec99"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-jeonju-J2-stage0.png",
+      "build": "04",
+      "sha256": "d74d5e3a090b211350446052dc9351d28da85ff71c180e7f90e5c7b8d5611689"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-jeonju-J4-stage1.png",
+      "build": "04",
+      "sha256": "692e9ae407cb1a2f6ec20008a7743a65f09db774bd11f93b473e4a4a92f795f4"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Portrait-jeonju-J5-stage1.png",
+      "build": "04",
+      "sha256": "c4cca91bc24c44414e9dfdd0837bf31cb4b8db92cc9ff0489254ddac343d50ec"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/puzzle-puzzle_dye-retry.png",
+      "build": "04",
+      "sha256": "822ad2b3157d268ad221d5399882557db5ebec904e211c5802beea5fc18ee1ca"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/puzzle-puzzle_dye-solved.png",
+      "build": "04",
+      "sha256": "f5c1336f7fce565cc7665243500b457029b92456bb463a577f512751fab3a643"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/puzzle-puzzle_embroidery-retry.png",
+      "build": "04",
+      "sha256": "cb68826e898ecacecd3ff422a35da7bf189d22819f83001af87fe09f3c81a8cc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/puzzle-puzzle_embroidery-solved.png",
+      "build": "04",
+      "sha256": "d97b83aed8ff48c6d610e70abbbce652bab0bb69efd0ff7ecdfb2ece515f8939"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/puzzle-puzzle_market-retry.png",
+      "build": "04",
+      "sha256": "772795f6704602cd09a0fa812cf2e2259f90fc55d174282f55e43321e2aeb9e7"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/puzzle-puzzle_market-solved.png",
+      "build": "04",
+      "sha256": "dea5decee5c3f6c00ca9187184108409ad6f3d463531220440665235b953d9af"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/puzzle-puzzle_paper-retry.png",
+      "build": "04",
+      "sha256": "c0c61fb3be459cb70bebe21b843fc8a7bafaf5211f9263a00e601d84e2c141e1"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/puzzle-puzzle_paper-solved.png",
+      "build": "04",
+      "sha256": "0992f2e77d16d2f175e5d1256d4be1f56e717230cf269fba9611839bb8287f1f"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/puzzle-puzzle_pottery-retry.png",
+      "build": "04",
+      "sha256": "bded4c3eee56b20ec79c8a787e0239892db2d0ace9261c2e39e0846bfa6442fd"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/puzzle-puzzle_pottery-solved.png",
+      "build": "04",
+      "sha256": "afb4f8cd60eca529d643d1c6271f897c2cd5946c3427fb7f0e68e3e1c4e78046"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Reward-150-entrance-early.png",
+      "build": "04",
+      "sha256": "af6c04ddf1442375ef31ebc0bd29be24e9e1d32417fbdaba5fe216d0e2532789"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Reward-150-entrance-middle.png",
+      "build": "04",
+      "sha256": "d81931f8f4138348e78a90f443ebae72635e764f10ac088749169dc0588f2719"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Reward-150-entrance-settled.png",
+      "build": "04",
+      "sha256": "4e2b1367c37c9e6510069bf86b3248360129bfbfac93e130d99683168c1195c5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/S1-01-Fresh-map-Mai-only-starting-region.png",
+      "build": "04",
+      "sha256": "4fa43183853c9ed341b63f90d2bfb4b3ec8f2a19a7de82fa1fd5773481b834d6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/S1-02-Gate1-only-next-region-merchant-crab.png",
+      "build": "04",
+      "sha256": "ce5b04306cc74c5c2d8bb12a5aba33366633b1df43b196d82f7f40e0b14bdeb3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/S1-03-NPC-and-bridge-bot-on-map.png",
+      "build": "04",
+      "sha256": "28028766de6f1ac715ffa375ad1d1c76f53279ca833579a5ce1cc973a65dcbf8"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/S1-03b-NPC-and-bot-map-detail.png",
+      "build": "04",
+      "sha256": "646726e3cce196a3e3792b02a0f4da6c985d8f6e1582436e55d842082c92261a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/S1-04-Battle-opens-station-region-only.png",
+      "build": "04",
+      "sha256": "88d6e813dcfa3aea3d1f6102e016ce1df32db79fef3205a7772ecac830bf56e0"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/S1-05-Code-opens-same-region-only.png",
+      "build": "04",
+      "sha256": "809c75a9b9f4ab89c566b49fd9df4b12650bde1b8d1ec79e8168185fe08d098a"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Speaker-jeonju-J5-to-Lumi-00.png",
+      "build": "04",
+      "sha256": "8759262dc99a76c5cacd94b0bd1455efd613b7e5c72cae7ef445f2ded7e8e327"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Speaker-jeonju-J5-to-Lumi-01.png",
+      "build": "04",
+      "sha256": "8759262dc99a76c5cacd94b0bd1455efd613b7e5c72cae7ef445f2ded7e8e327"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Speaker-jeonju-J5-to-Lumi-02.png",
+      "build": "04",
+      "sha256": "8759262dc99a76c5cacd94b0bd1455efd613b7e5c72cae7ef445f2ded7e8e327"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Speaker-jeonju-J5-to-Lumi-03.png",
+      "build": "04",
+      "sha256": "8759262dc99a76c5cacd94b0bd1455efd613b7e5c72cae7ef445f2ded7e8e327"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Speaker-jeonju-J5-to-Lumi-04.png",
+      "build": "04",
+      "sha256": "8759262dc99a76c5cacd94b0bd1455efd613b7e5c72cae7ef445f2ded7e8e327"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Speaker-jeonju-J5-to-Lumi-05.png",
+      "build": "04",
+      "sha256": "8759262dc99a76c5cacd94b0bd1455efd613b7e5c72cae7ef445f2ded7e8e327"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Speaker-jeonju-J5-to-Lumi-06.png",
+      "build": "04",
+      "sha256": "8759262dc99a76c5cacd94b0bd1455efd613b7e5c72cae7ef445f2ded7e8e327"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Speaker-jeonju-J5-to-Lumi-07.png",
+      "build": "04",
+      "sha256": "8759262dc99a76c5cacd94b0bd1455efd613b7e5c72cae7ef445f2ded7e8e327"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/Speaker-jeonju-J5-to-Lumi-08.png",
+      "build": "04",
+      "sha256": "8759262dc99a76c5cacd94b0bd1455efd613b7e5c72cae7ef445f2ded7e8e327"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI-01-CityMap-globe-backpack.png",
+      "build": "04",
+      "sha256": "3f15573b24af618d4bdc21ca544b6bfd37cda9b0acf0f911caf35e98dec4df8b"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI-02-WorldMap-from-globe.png",
+      "build": "04",
+      "sha256": "5a9e2534018c14ae22f03e83689822562fd0a4b34da89f619fa35e43941364ae"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI-03-Inventory-from-backpack.png",
+      "build": "04",
+      "sha256": "82a07d82e756264890c086208809a4430b2cadab5841f76019ba044f9a950821"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI-04-Lumi-dialogue.png",
+      "build": "04",
+      "sha256": "acd3d286a8e2b0bf3ed02337521aaaca759b8042a6a0e0c78fbcc03996fa68c3"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI-05-NPC-Mai-dialogue.png",
+      "build": "04",
+      "sha256": "043ff0d2b2c810d5701d69b8ce51d43d6e463353fd5988f3ae518a22c7956470"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI-NPC-boatman.png",
+      "build": "04",
+      "sha256": "48ea5a69a6804b0adf23e25fffb16bb3d42eb3af53c1b56a45957cbfe009988c"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI-NPC-Korean-visitor.png",
+      "build": "04",
+      "sha256": "8613ff20b4df99cd8c29cf667e4613cf646d1a73aba46bfa7c17c99134e8f0ad"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI-WorldMap-locked-Hue.png",
+      "build": "04",
+      "sha256": "313c3bd8ba85d8b024e9a27856cc1767aba216be56f7949b01d57eecbb46ab76"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI-WorldMap-story-routes-open.png",
+      "build": "04",
+      "sha256": "70cf81970dca9e3ec63b92ef3cbc3a3ccb69bd7e37aade12713955ccd808e509"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI1-01b-CityMap-overview-paper.png",
+      "build": "04",
+      "sha256": "8e398923989599b64d9a78a7d2da429cab4e42eaa3bf43a73bbd2112e0a2f953"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI1-03-Inventory-three-earned-items.png",
+      "build": "04",
+      "sha256": "b56a0176b168b25ad8db7867d15aed9d6784f7844e117313b1e3642d69e89d78"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI1-Inventory-landscape.png",
+      "build": "04",
+      "sha256": "b733ed39e9437b67b4b3d4149f932fb995b3d16f846813ec4a96b747c8b6d411"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI1-Inventory-safe-area-simulation.png",
+      "build": "04",
+      "sha256": "97661e262beabc7203922b46648e02cf75938b60ab8b54fa97d7cf40073953db"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI1-Inventory-scroll-fixture.png",
+      "build": "04",
+      "sha256": "b423582c8d42327e5eb6586809714bc036ea41114e71896f881d86eb3b141e7d"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/UI1-Phone-20x9-safe-area-simulation.png",
+      "build": "04",
+      "sha256": "eedd734eed1d0e88b64d2b59c9214c59522280a99201f49df8a5ff9859d98a80"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/X-jeonju-arrival.png",
+      "build": "04",
+      "sha256": "bfda69e8280e0cddc68d7ce7c2cd90d893736c113014a569ced18824773825a5"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/X-jeonju-Lumi-intro.png",
+      "build": "04",
+      "sha256": "fa2dad948e0f26d9c9015c2cae6bd00a7b7ef512aa5d2abdc4d5f75f1ec12ff6"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/X-Recovery-used-legacy-fixture.png",
+      "build": "04",
+      "sha256": "8bc7dda8eeb711f60f1ce6fde6c56f46b902b4d045f390e6dcae97bad5456adc"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/X-WorldMap-select-hoi_an.png",
+      "build": "04",
+      "sha256": "57761854aa5a9b09a83c2152345ebdf7d14d8788d5c5d2afeab44dde2b4e7036"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Reverse02/X-WorldMap-select-jeonju.png",
+      "build": "04",
+      "sha256": "da1cae47f61789b2d536b59e38ffe600431b289f9ee3593aa76030b351a43c79"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh03/failure-runtime.png",
+      "build": "05",
+      "sha256": "16952d521021761d6e4532504b36d9f9ee927db9e7cdfc2b27f49837cff0a127"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh03/Portrait-jeonju-J15-stage4.png",
+      "build": "05",
+      "sha256": "c154d320ca48ddbf6a1ee11a106e38898ace90f27eca9243a9422870abb2f060"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh03/X-jeonju-inventory-before.png",
+      "build": "05",
+      "sha256": "e8797cc431de05e98da9ede96b07d49756fb45eda6282801330f2ea2f2f5f878"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh03/X-jeonju-NPC-before.png",
+      "build": "05",
+      "sha256": "c154d320ca48ddbf6a1ee11a106e38898ace90f27eca9243a9422870abb2f060"
+    },
+    {
+      "path": "Validation/FullStory-20261017/Fresh03/X-WorldMap-select-jeonju.png",
+      "build": "05",
+      "sha256": "4492df1162dd603c6af7553d0fdebea0f0f178cd32f7e34087f95b367a7f2df1"
+    }
+  ],
+  "lineage": "Fresh02 -> Fresh03 before-fixture checkpoint -> Fresh04; Reverse02 -> Reverse03. Historical failed assertions disclosed; no synthetic completion flags.",
+  "limitations": [
+    "Seven nodes retain presentation differences; seven NPC portraits missing; new enemy art temporary.",
+    "Terrain geometry awaits visual acceptance. Android/device NOT_VERIFIED.",
+    "Reverse end-to-end used build05; build06 changes display-only NPC missing-item notes and QA check-in coverage. Fresh04 and all coverage/negative/restart checks use06."
+  ]
+}

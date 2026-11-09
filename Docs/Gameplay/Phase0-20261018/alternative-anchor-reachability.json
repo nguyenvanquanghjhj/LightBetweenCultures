@@ -1,0 +1,82 @@
+[
+  {
+    "run": "Fresh04",
+    "decision": "D01-B",
+    "city": "jeonju",
+    "node": "J2",
+    "unlocked": true,
+    "revealed": true,
+    "reachable": true,
+    "method": "STATIC_BFS_FROM_EARNED_POSTGAME_SAVE; NOT fragment or new player test"
+  },
+  {
+    "run": "Fresh04",
+    "decision": "D03-B",
+    "city": "gyeongju",
+    "node": "G14",
+    "unlocked": true,
+    "revealed": true,
+    "reachable": true,
+    "method": "STATIC_BFS_FROM_EARNED_POSTGAME_SAVE; NOT fragment or new player test"
+  },
+  {
+    "run": "Fresh04",
+    "decision": "D02-B",
+    "city": "seoul",
+    "node": "S16",
+    "unlocked": true,
+    "revealed": true,
+    "reachable": true,
+    "method": "STATIC_BFS_FROM_EARNED_POSTGAME_SAVE; NOT fragment or new player test"
+  },
+  {
+    "run": "Fresh04",
+    "decision": "D04-B",
+    "city": "jeonju",
+    "node": "J15",
+    "unlocked": true,
+    "revealed": true,
+    "reachable": true,
+    "method": "STATIC_BFS_FROM_EARNED_POSTGAME_SAVE; NOT fragment or new player test"
+  },
+  {
+    "run": "Reverse03",
+    "decision": "D01-B",
+    "city": "jeonju",
+    "node": "J2",
+    "unlocked": true,
+    "revealed": true,
+    "reachable": true,
+    "method": "STATIC_BFS_FROM_EARNED_POSTGAME_SAVE; NOT fragment or new player test"
+  },
+  {
+    "run": "Reverse03",
+    "decision": "D03-B",
+    "city": "gyeongju",
+    "node": "G14",
+    "unlocked": true,
+    "revealed": true,
+    "reachable": true,
+    "method": "STATIC_BFS_FROM_EARNED_POSTGAME_SAVE; NOT fragment or new player test"
+  },
+  {
+    "run": "Reverse03",
+    "decision": "D02-B",
+    "city": "seoul",
+    "node": "S16",
+    "unlocked": true,
+    "revealed": true,
+    "reachable": true,
+    "method": "STATIC_BFS_FROM_EARNED_POSTGAME_SAVE; NOT fragment or new player test"
+  },
+  {
+    "run": "Reverse03",
+    "decision": "D04-B",
+    "city": "jeonju",
+    "node": "J15",
+    "unlocked": true,
+    "revealed": true,
+    "reachable": true,
+    "method": "STATIC_BFS_FROM_EARNED_POSTGAME_SAVE; NOT fragment or new player test"
+  }
+]

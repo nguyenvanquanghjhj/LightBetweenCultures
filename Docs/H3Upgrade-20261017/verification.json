@@ -1,0 +1,394 @@
+{
+  "status": "H3_PRESENTATION_GAMEPLAY_WINDOWS_TOUCH_RESTART_PASS_VISUAL_ACCEPTANCE_PENDING",
+  "createdUTC": "2026-10-17T09:53:37.367256+00:00",
+  "finalBuild": "09",
+  "sceneSHA256": "447289dcf5765496e04cc8fea316687e3428f592b5f2eef69083e6373106e37e",
+  "physicsBlocksByteIdentical": 14,
+  "unchangedOriginalAssetsPackagesSettings": 488,
+  "changedOriginalFiles": [
+    "Assets/_Game/Scenes/HoiAnDemo.unity",
+    "Assets/_Game/Scripts/Editor/ArtLibrarySetup.cs",
+    "Assets/_Game/Scripts/HoiAn/FollowCamera2D.cs",
+    "Assets/_Game/Scripts/HoiAn/HoiAnGameplay.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs"
+  ],
+  "npcEnemyLumiMarkerCityBindingsUnchanged": true,
+  "sources": [
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_01_VisualTarget_Reference.png",
+      "mode": "RGB",
+      "size": [
+        941,
+        1672
+      ],
+      "alpha": "opaque reference RGB",
+      "sha256": "ba764324ecf39b7c05c58f807e352db1c65d100423c65d6a582e41d0a2ef18a0"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "mode": "RGBA",
+      "size": [
+        1448,
+        1086
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "a93dd7c9de3afdb6e48c2e4ebaf1695eb1956e589477f3f60829c1faaca38329"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_03_UI_TextBaked_Reference.png",
+      "mode": "RGBA",
+      "size": [
+        1448,
+        1086
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "0402a6a4db4dcd1bb246f5aff7067ad7f63c8675c35879e0659e928848c36e81"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_04_Lantern_LightFX_Concept.png",
+      "mode": "RGBA",
+      "size": [
+        1448,
+        1086
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "85197d042b073b684da3dc010dda798909f927f542939ef84bae0fee35ac1ed0"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "mode": "RGBA",
+      "size": [
+        1448,
+        1086
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "6863f0d25cdcc741b9995d990aee871fefc8e7b2bf6b8e0a3fc191445f408724"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_06_Markers_Interactables_Concept.png",
+      "mode": "RGBA",
+      "size": [
+        1448,
+        1086
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "fc765ef932e89338ec65f433d823c1b55fb6e40ada64de6006113f73617fb7a8"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "mode": "RGBA",
+      "size": [
+        1448,
+        1086
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "7cbef3187db3a532c2ddeb7906e5aaf0a2515c78f02fec086ba9fd7f89d971f3"
+    }
+  ],
+  "h3SpriteBindings": [
+    {
+      "role": "h3_environment",
+      "id": "H3_Citrus_Pot",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Citrus_Pot.asset",
+      "guid": "ce5eae9fd3bca0a4dba263c8d23b85d8",
+      "localId": "21300000",
+      "spriteName": "H3_Citrus_Pot",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_Crates",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Crates.asset",
+      "guid": "4d42b99ac765f2b49847a513009d0a12",
+      "localId": "21300000",
+      "spriteName": "H3_Crates",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_Garden_Wall",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Garden_Wall.asset",
+      "guid": "262531e258ed29f4f890f8f194708025",
+      "localId": "21300000",
+      "spriteName": "H3_Garden_Wall",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_House_A",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_House_A.asset",
+      "guid": "48fa00e8226c91142a475ec2ed50e9db",
+      "localId": "21300000",
+      "spriteName": "H3_House_A",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_House_B",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_House_B.asset",
+      "guid": "89e8ead0dc5c22f4e99de62dc3e7553c",
+      "localId": "21300000",
+      "spriteName": "H3_House_B",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_Pink_Pot",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Pink_Pot.asset",
+      "guid": "75731e1bc0fe5f141ab8509d2517a57e",
+      "localId": "21300000",
+      "spriteName": "H3_Pink_Pot",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_StoneGround_Continuous_v1",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_StoneGround_Continuous_v1.png",
+      "guid": "7a590c25545da184b80712c5f8e23fd4",
+      "localId": "21300000",
+      "spriteName": "H3_StoneGround_Continuous_v1",
+      "source": "Assets/_Game/Art/Environment/HoiAn/H3/H3_StoneGround_Continuous_v1.png",
+      "status": "AI_DERIVED_GROUND_ONLY; runtime; visual_acceptance_pending",
+      "canonical": false
+    },
+    {
+      "role": "h3_ui",
+      "id": "H3_Cream_Frame",
+      "path": "Assets/_Game/Art/UI/H3/H3_Cream_Frame.asset",
+      "guid": "3f8c35179de53e946a900ffa871f30ec",
+      "localId": "21300000",
+      "spriteName": "H3_Cream_Frame",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false
+    },
+    {
+      "role": "h3_ui",
+      "id": "H3_Gold_Button",
+      "path": "Assets/_Game/Art/UI/H3/H3_Gold_Button.asset",
+      "guid": "ffe5fa394565b9a4b9d3dab4c3c931f1",
+      "localId": "21300000",
+      "spriteName": "H3_Gold_Button",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false
+    },
+    {
+      "role": "h3_ui",
+      "id": "H3_Teal_Frame",
+      "path": "Assets/_Game/Art/UI/H3/H3_Teal_Frame.asset",
+      "guid": "5103b76ff43590b4d8c6b12f88f275e5",
+      "localId": "21300000",
+      "spriteName": "H3_Teal_Frame",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false
+    }
+  ],
+  "runs": [
+    {
+      "run": "Touch07",
+      "assertions": 48,
+      "sha256": "33a1ccb8f9145e37211b584cfc4c3813719e3b5bef9589154374d6b8867642c5"
+    },
+    {
+      "run": "Desktop06",
+      "assertions": 50,
+      "sha256": "044da08cb62a245a60c63a7996c538e464d804792e0811962ccd40d1776d119c"
+    },
+    {
+      "run": "RestartTouch03",
+      "assertions": 20,
+      "sha256": "dfc851becba5e6f89aae66c9f7fb984cd06df863f46cf1ec074d5637d2ac5cec"
+    },
+    {
+      "run": "RestartDesktop03",
+      "assertions": 22,
+      "sha256": "fc752a3658952fa31bdaee106ecb7650c7fbe3e93b214b7df1eaef866fe8f387"
+    }
+  ],
+  "assertions": 140,
+  "images": [
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch07/05-H3-exploration.png",
+      "sha256": "e3431a6981180f863f59092292eaca86c33f698e41e1ca9468bd37336cf4f282",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch07/06-H3-part-picked-up.png",
+      "sha256": "04f4b4f546891219dcc499790901ed20bbe4c76e51363b7060c3bc53f9d9e76e",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch07/H3-near-eye-before-pickup.png",
+      "sha256": "450976687ece9eeaac117a279d6d8fe0811efc47e121bd26e1589ec627c837e0",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch07/H3-reentry-no-duplicate.png",
+      "sha256": "08e181c50475ab655e436b4726737a0615084483784008482ad7a1aaadd3759d",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch07/H3-return-map-progress.png",
+      "sha256": "12e3826964167a861c3446eff08f79adb5808c3b988eb210cbbf6413b4b5e035",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop06/05-H3-exploration.png",
+      "sha256": "e3431a6981180f863f59092292eaca86c33f698e41e1ca9468bd37336cf4f282",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop06/06-H3-part-picked-up.png",
+      "sha256": "04f4b4f546891219dcc499790901ed20bbe4c76e51363b7060c3bc53f9d9e76e",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop06/H3-desktop-1280x720.png",
+      "sha256": "c46d5aa742230e91d8322518dba064f0b3bed76b3c26b8a75420769ffcd291ba",
+      "size": [
+        1280,
+        720
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop06/H3-near-eye-before-pickup.png",
+      "sha256": "4af09ab9ace668770d2a2d541efe2788cd843b9098b0afef912f8095db8a026c",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop06/H3-reentry-no-duplicate.png",
+      "sha256": "d357992c8bdc227ecf904c61f79da68ef70df2411e88073f4be577db31467967",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop06/H3-return-map-progress.png",
+      "sha256": "67d5a4a4f4bab5e78dd3fec933b5bab9df821a889fa873a8da50e55f40ee9cb0",
+      "size": [
+        1280,
+        720
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/RestartTouch03/H3-restart-item-stays-collected.png",
+      "sha256": "071b73c7b9dcb110af84b6a6a2a8e0e967399532dd0a74ca57a767f2bb282e18",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/RestartTouch03/H3-return-map-progress.png",
+      "sha256": "7483b8a65900eed605db2ecf42136c2078575ad330f31431d396eb84b086c9ef",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/RestartDesktop03/H3-desktop-1280x720.png",
+      "sha256": "ff43d3294635ef6ad8664ecaf6e06b783b3f9e3aaf3853f5fa02c8eb066cdfdc",
+      "size": [
+        1280,
+        720
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/RestartDesktop03/H3-restart-item-stays-collected.png",
+      "sha256": "c2157ad15f3164ef601c0f3e1fc06de104cffdc939a1eab69bbbfac6fd4d9323",
+      "size": [
+        540,
+        960
+      ],
+      "build": "09"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/RestartDesktop03/H3-return-map-progress.png",
+      "sha256": "ca040b76cff4d77b35f8b6d5336864dfab5518aa697d07aa57473afaad080bf2",
+      "size": [
+        1280,
+        720
+      ],
+      "build": "09"
+    }
+  ],
+  "assemblySHA256": "2f29e94013aad399aa75a5adcfe3342e17d4e24938fe3c7d9490e101a51e05d2",
+  "limitations": [
+    "Android physical device not tested.",
+    "One approved exploration pose plus existing step cue; no drawn walk cycle.",
+    "Floor is a new AI-derived material; user visual approval is separate from gameplay PASS.",
+    "Other puzzle/combat art remains outside this H3 overhaul."
+  ]
+}

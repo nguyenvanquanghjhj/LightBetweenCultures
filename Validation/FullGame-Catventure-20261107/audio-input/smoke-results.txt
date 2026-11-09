@@ -1,0 +1,17 @@
+UTC run: 2026-11-07T17:01:29.7234994Z | Unity 6000.6.5f1 | 540x960
+PASS: Exactly one persistent audio service
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Mouse wheel zoom still works with event/discovery system
+PASS: Two-finger pinch still zooms the map
+PASS: Dragging still pans actual map content
+PASS: Pinch and pan cannot trigger hidden node events or movement
+PASS: Map clamps extreme pan and maximum zoom
+PASS: Map A keeps its original illustration aspect ratio
+PASS: Wheel, pinch and map pan are silent; only the final Overview button emits one cue
+PASS: Exactly one active listener after UI scene transitions
+PASS: Fresh runtime capture written: SFX-map-input
+ALL CHECKS PASSED

@@ -1,0 +1,24 @@
+[
+  {
+    "path": "Builds/Windows-ThreeNpcQA-20261025/LightBetweenCultures.exe",
+    "sha256": "ea5e643cc09def0d56d303c1afe9472b04b81566a5178e6ac3731ff354187ef4",
+    "bytes": 667136
+  },
+  {
+    "path": "Builds/Windows-ThreeNpcQA-20261025/LightBetweenCultures_Data/Managed/Assembly-CSharp.dll",
+    "sha256": "66f57330860d799dd2d3959f12d65f243c70f7a072eec954465e8680af255381",
+    "bytes": 1284096
+  },
+  {
+    "path": "Builds/Android/LightBetweenCultures-RC2-20261024.apk",
+    "sha256": "d884e171d7e3debb365bd2b598466cc8de786db9825a14ac46017e711ab13554",
+    "bytes": 286414150,
+    "zipCRC": "PASS"
+  },
+  {
+    "path": "Builds/LightBetweenCultures-RC2-20261024-Windows.zip",
+    "sha256": "311d0dd51f2313895c88824b314c035d84a6e1f68f280013bea8c4cc32bd1d4d",
+    "bytes": 309219204,
+    "zipCRC": "PASS"
+  }
+]

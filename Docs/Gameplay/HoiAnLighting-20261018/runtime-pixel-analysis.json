@@ -1,0 +1,21 @@
+{
+  "method": "sRGB luma median ratios in fixed map ROI; game objects/halos can locally differ",
+  "screen": [
+    1280,
+    960
+  ],
+  "zoom": 1,
+  "A_over_C_median": 0.5799564061905258,
+  "A_perceived_darker_percent": 42.00435938094742,
+  "B_near_canonical_pixel_percent": 43.92131625907126,
+  "B_dark_pixel_percent": 50.49475159257572,
+  "B_over_A_bright_district_median": 1.714127006780448,
+  "B_over_C_restored_district_median": 1.0,
+  "B_over_C_distant_district_median": 0.5803234141621594,
+  "HUD_world_button_brightness_ratio_median": 1.0,
+  "HUD_world_button_exact_pixel_fraction": 0.834307992202729,
+  "HUD_inventory_journal_brightness_ratio_median": 1.0,
+  "HUD_inventory_journal_exact_pixel_fraction": 0.8830666666666667,
+  "A_picked_over_A_initial_median": 1.0,
+  "B_after_H7_over_B_before_H7_median": 1.0
+}

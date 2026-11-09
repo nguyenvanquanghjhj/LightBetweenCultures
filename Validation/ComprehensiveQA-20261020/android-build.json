@@ -1,0 +1,14 @@
+{
+    "output": "Builds/Android/LightBetweenCultures-ComprehensiveQA-20261021.apk",
+    "identifier": "com.DefaultCompany.LightBetweenCultures",
+    "result": "Succeeded",
+    "error": "",
+    "startedUTC": "2026-10-21T00:34:00.0226785Z",
+    "finishedUTC": "2026-10-21T00:39:15.5691033Z",
+    "version": "1.0-qa20261021",
+    "bytes": 1529682465,
+    "customKeystore": false,
+    "errors": 0,
+    "warnings": 1014,
+    "versionCode": 2
+}

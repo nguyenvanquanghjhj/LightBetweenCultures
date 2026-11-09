@@ -1,0 +1,1701 @@
+{
+  "generatedUTC": "2026-10-16T21:49:15.418877+00:00",
+  "scope": "Read-only file/reference audit; no new runtime or visual validation",
+  "inputs": [
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "sha256": "a5eafb703ef1b1768947571d53d6229a4a4b2abe32432da7f46f108977a40859"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/AdventurePresentation.json",
+      "sha256": "019484b870f6e8d6e9086d0ae68a0e9027f5bdad8702dd0d380c930cd0eea07b"
+    },
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+      "sha256": "e871e411b7edc138afceea62526682e8737635ded5d8c3a1e86949e8989077c2"
+    },
+    {
+      "path": "Docs/Art/native-art-bindings.json",
+      "sha256": "58eef3a01593de43166eaaec3c5af84a2cc4e7da60580473d5763d05de1f4f11"
+    },
+    {
+      "path": "LBC_AnhMoi_BanGiaoCodex_20261015/ASSET_MANIFEST.csv",
+      "sha256": "6e3325590fccef5d793a5bb17b77a639f77a9ea44f31b3976fc9fc3fa92bf8f5"
+    },
+    {
+      "path": "LightBetweenCultures_DesignKit_v1/Data/AssetManifest.csv",
+      "sha256": "65c0e339b42d9a9e23a54ef2078c9650eeaed4a38d1e1e301553adc4f0252cb1"
+    },
+    {
+      "path": "LightBetweenCultures_DesignKit_v1/Docs/01_ART_BIBLE.md",
+      "sha256": "c7dcbcef2d5cdb13add806be9d1ecd088f956cfe3b5dd538c9fa3699198553f9"
+    },
+    {
+      "path": "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/NPC_Roster_Concept.png",
+      "sha256": "e4139f9ad91d44a8b02281718f5972e949159f2ea7973f5995c18b69e2251251"
+    },
+    {
+      "path": "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png",
+      "sha256": "7aa3ef410c2af2a29bf36840b46313f107857a5cbe2d60b41f4845cbbbf9b204"
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/quests.json",
+      "sha256": "940de68bb738ca276bb0bdf44d301bf70034b3a11d08e9a3e43c3ee90b0c70ef"
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/enemies.json",
+      "sha256": "f4e3a03665f9de71c228e5d9f6b2ebea9cd3b6f4d23dd708f98123024645108e"
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/items.json",
+      "sha256": "aa0278b82be7a20268fd28cc2fb7203a3a04f221f9431707626cd1b243a5bb19"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_fog_boss.png",
+      "sha256": "9a073d7dd4a067625425e53325c71ed13a98313f291250f610599e02e22320be"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_fog_boss.png.meta",
+      "sha256": "7556e849caa8f60c004841e52997c84ed417d50a1e54be769e976b5f7e4ec101"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png",
+      "sha256": "75015e347126152cb17b8acba3ac6c0049c6d55a9ff8f5317f6d3c302dbec5dc"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png.meta",
+      "sha256": "83bbe05446e6831e2d30049886d33c74ba710ab319a9716b3583e80a6513d574"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_mist_wolf.png",
+      "sha256": "f23dc92676e9ed30fa7e83df4c5e0bd95a7ff37ca28035ea78ff53336adb6fb8"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_mist_wolf.png.meta",
+      "sha256": "b5b4d157e8dd99bc5efee8fe26d35ced99c786727a18ce75c196efe8c172de90"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/HoiAn_Enemies_Atlas.png",
+      "sha256": "f5d51f34b23aed622f0e10aad9a34df12ceaddacea26e7fbb7acf4223e9baa58"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/HoiAn_Enemies_Atlas.png.meta",
+      "sha256": "994d2750153402ae1514ea673be6402ac37891a87f48ed54858b113ae627b704"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png",
+      "sha256": "895cc5f001beabf857892834b4185f962478d2840e2fc3cf2db3896d1f20eecd"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png.meta",
+      "sha256": "b865cbdfa1a761129dfe6cbf071454ff73c516646aed9d5ac1a603523ebd4ba4"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png",
+      "sha256": "9f81f2243fab2eba4128194a6ec08be3dde7a269b8e12120ecd9197d20d7a799"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png.meta",
+      "sha256": "9dec3de4fe54dda043a0dee2aa719ffb85f511c1d549831517ceee37b36b3aa2"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png",
+      "sha256": "c9eaace3159a4fb3770c70104302d530e8b69231fe7851ba8b281efbb4894081"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png.meta",
+      "sha256": "f2af9ac481b3079d48c7f701a2b65d2fa08163818dbf2d6600e95bddac6a534a"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png",
+      "sha256": "426d606ef7df229bfdb949e608213faab4b086dfacab74f8fec7b2483528c2e5"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png.meta",
+      "sha256": "c7893ee3e785f8d354ba4310693f93f0e94c8f2945d46ac9b14cfef2be4d6e3d"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png",
+      "sha256": "b0d46f325fc0d482d898c5cf08b4453e74a9bcae9aaeb6ad8b28194786f600d2"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png.meta",
+      "sha256": "78eb37fcde0670c8f8031da657020c73ea6b3fe8c7e5e34ce765bb1e13bce67c"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png",
+      "sha256": "937200d80965bdf03e413df0c653bb515b6dacbb829b8282c915164a396433ea"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png.meta",
+      "sha256": "8ec44c1ac73ec3ee6a63d9e67a6cf950b35821e372048f1657721cbcfe552830"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png",
+      "sha256": "42a4cfb742868418587c604b0838fbe164409e19fdf2d580cc19511bd9b687c4"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png.meta",
+      "sha256": "45b9316daedd99d7acdb6ffc10b2b32d96d49f3a90bdc51e42105c8c90c20389"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png",
+      "sha256": "32de2f21401fb53c00c809343f14be8fa6ec242f011268c59392458dac12b18b"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png.meta",
+      "sha256": "7af33a52e23716241cbfd14ca15e42bc89bf6aa8cca271e43a27c075a12d5262"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png",
+      "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png.meta",
+      "sha256": "1c70185bbb2e550c0ff38e126714ce1e6cdb2b826128b8e3c7908edc0a63d949"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_ExplorationIdle.png",
+      "sha256": "d1b9b14d78ebd0238a1651b631e295f864de4a969f389dd3f26a73b000fe975e"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_ExplorationIdle.png.meta",
+      "sha256": "c0f408c00ca291cc28d83184e72fb5b6998c977abc9329d49174b33924b69493"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png",
+      "sha256": "91a4e8f7613e4eb58df7bdf25162081af46e44fe04e288a75707c20701d700d7"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png.meta",
+      "sha256": "66e570e8d1c5a95d035e4e2214aaa10cd3ed6d35e14df06e12308cfd1f2471d8"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+      "sha256": "40f33f91189d0829ac66973b83eaf9c431ab5eb64836a98de5f68864acb6f404"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png.meta",
+      "sha256": "9c95a06b7ec826b0a636f19dcbf72a002b9cb192869014e56b6bcc4af6812847"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+      "sha256": "f7996bdea43934e25f70625e60b8125f347f0fbae7bfaf68779384cf595ab78b"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png.meta",
+      "sha256": "2ebe9f5a4fd87bdac5e209e4055f54fa84898e2bbebc4887fde4da25538f77c7"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+      "sha256": "9d86a77b26635549a1044b1629be0e286416033e19286f8f2154e5e2132fad99"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png.meta",
+      "sha256": "b08ed46fec2ba1f45ac6a67fa5a2c725390236ad52025c9bf7b94938cfef2d81"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+      "sha256": "148d12ec8ff2b07d7fbbf42c25afefadcc9e9d69da3853593c093154b1cbf6cd"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png.meta",
+      "sha256": "bd116dc30d0819113c566f535f1fa98ebc1e537bc5504aca9fdbe683583def87"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+      "sha256": "50a302d2ee697b42585dcf56ed7fd9a90c93800ceea12650d80e59c17a64f187"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png.meta",
+      "sha256": "961d3cdbf0ef44aaee37a876798cc17f6bf05dd9ccee1f79a3dc855ebb784c74"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+      "sha256": "ca26766b34317562a60153ffb6222b82e3e35c14569d25ecae20c6977fbb975e"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png.meta",
+      "sha256": "2c591b7e9692ba023a2618b275b9b595a38a55f72459a644d689305a4786469e"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+      "sha256": "fc7bb16df6781ecbe20521d3e00be1b7193be2392f35ee92def647aa9f17fed2"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png.meta",
+      "sha256": "b2716491c7e3a24fdbdce39abaed7d5dd8a13ff5eed29ba093b63ee9f8a805f0"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+      "sha256": "6930e06a55f6989b3547f2f11a2f7e3aed867f84eb9bbd53f943faa866d44530"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png.meta",
+      "sha256": "ab7db5e94d64a3a9ee62a3d8ebf83252aa60e4d56acd9be1dd3f84a8f66f573e"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+      "sha256": "15587f85e7fd1b72e26031bb9b28098c54ebed90f9e8d0ebc2e4af36d5ffee46"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png.meta",
+      "sha256": "e68976453af880cbc9f927480c13d7c41c3bf993de0df9d35112f579c26015ca"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+      "sha256": "cb4bd5bb94b28656a70540d06792fc3411cc0672fcf9b29f2b1626af80a1797b"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png.meta",
+      "sha256": "bcd5bb51bee1ad023daa8c82a0738428f7f7f6405754253f073ffdfbecb74a19"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+      "sha256": "bf3defe0a6a193938bfd5c1e19176b572624760b89903cbc2b65222f142af7af"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png.meta",
+      "sha256": "a190225f1a293d822b5ec714d90d62efc9973499580a772c254bd91d0478dfbe"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+      "sha256": "144d39585715517f831861c8951bb90198086f7978675e4381686ae323ef4936"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png.meta",
+      "sha256": "e14035592a64a5466c855a88af64bde6f87e66865f82907af8c8e1b17e2881d9"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "sha256": "87e127de96b7eb9aa259bb643f667b0167796ec9dce246ee0369a9ad4e84dc94"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta",
+      "sha256": "8283e462fca5ca216660919b5863c83a7f15310ddc0d1adf6eba44846b3ff3ba"
+    },
+    {
+      "path": "Assets/_Game/Art/Checkin/Item_Food_Postcard.jpg",
+      "sha256": "29716acbc71049f131a7ebd298b05a4738e11e52d80821f988637682db0dcffb"
+    },
+    {
+      "path": "Assets/_Game/Art/Checkin/Item_Food_Postcard.jpg.meta",
+      "sha256": "bf6bd06a5b8425fc735c9da9b68bb7b06d9796425c9215318fb65120475b6b64"
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/Common/UnitSprite.png",
+      "sha256": "e737dac8d0f4f8564bb2c31436ee4c84e1ac9cd308683b892176607ab24ad2e3"
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/Common/UnitSprite.png.meta",
+      "sha256": "899be8acf32e24381ff3fc73215d62ffb61fc57c42194baba2445c2a9d81c0cd"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Consumables/Item_Healing_Tea.png",
+      "sha256": "57500004d645b4ea4cb51b54c8a709921167756ef6211d789de2edbe625b3ce1"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Consumables/Item_Healing_Tea.png.meta",
+      "sha256": "446206e1d2dd2ff46500ffffb4408bf5af2c37e9bbd2f1a7107b97db82a70040"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Food/Item_HoiAn_Chili.png",
+      "sha256": "2429fe53fba6cea003e7e5a2b4167cd463c3b7c6f240cc128f67c4a374681e47"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Food/Item_HoiAn_Chili.png.meta",
+      "sha256": "48307f7d94687cb6464307ffed254a0db74aad3bd029669852c163b49ec83af1"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Food/Item_HoiAn_Shallot.png",
+      "sha256": "13dbf720e393f07d6eb4582d51d6fe5dae0d2b3c85664272625ede68e4f7c32d"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Food/Item_HoiAn_Shallot.png.meta",
+      "sha256": "3aa16c26fcbfb38ed027a4a6aebdac0c01ec8d830f5b78fa8d326ff8150e0078"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Materials/Item_Copper_Wire.png",
+      "sha256": "3ddf437a92fd2cbe8ceb5482f3076dec04be787b2fb7b93babbe2acc228e09c7"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Materials/Item_Copper_Wire.png.meta",
+      "sha256": "0701f5fa48f6d572088e8b1b4f5c7190aab8850e26c8c3b1f3ff1bb2e01faf84"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Quest/Item_Hanji_Core.png",
+      "sha256": "fd33b6edfac07d0d333c6fc68ce5e44c34f0139b0aa1db01c8147a22fbd050d6"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Quest/Item_Hanji_Core.png.meta",
+      "sha256": "8496b19e002f3a6dce99ed88539d0d4f9f487a19521e397f118d5dc6869e2a8f"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Shared/Interactables_Atlas.png",
+      "sha256": "2589e2717ea65536da7347670daf63d25f5b727b9c75f56a45c09c991f0215df"
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Shared/Interactables_Atlas.png.meta",
+      "sha256": "e9642865a262dc7fb750432ecf00f9c8b53b883b362ef775eeae6cfccf7de5f8"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png",
+      "sha256": "0b2872b62a8b06dc1c08095cdea20fb540385032a64782e59e20acf11c7a444c"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png.meta",
+      "sha256": "8cc656026e45559bee47c6ac2e2b4466755886a19db08f0c2af353ed5a48cdb9"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_DestinationPreview_A.png",
+      "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_DestinationPreview_A.png.meta",
+      "sha256": "877f11edcc2916c860484a6d77a7a8daa0ab0cd86cffb0065da59e3207255495"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_DestinationPreview_A.png",
+      "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_DestinationPreview_A.png.meta",
+      "sha256": "4871a9c187b2bb1f912287e649e24d1159491d4824983d5cccf4ae32856006f9"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png",
+      "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png.meta",
+      "sha256": "b4c734dbdda45ad902c0010204fe8d1f7c5cb09542a37be060e4f38dc7d2ba15"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png",
+      "sha256": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png.meta",
+      "sha256": "1ae16506ea568e0f5794d433efc1d1f40fb2b1d5b09d325e8ec7100c4e035cee"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png",
+      "sha256": "f1260ef1b4f718b989d55d907f50c99c341081263f3470bfda2d6fab1d2926c8"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png.meta",
+      "sha256": "0c030dae06d23c5a24c6a9ad078641000a186f14c47fc95ed28e680754df0197"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_DestinationPreview_A.png",
+      "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_DestinationPreview_A.png.meta",
+      "sha256": "0de6516064823411871ce90fca0a29d0eb0522de8a83c01dbabe720ddfa02e45"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_available.png",
+      "sha256": "fbf9b899d66942db4c9aa77395689576bd23bed84088c5a77f76f275139e173d"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_available.png.meta",
+      "sha256": "b5d209134339990be86852197f4c915448f58c8f09394aa22b725f0349c4c8a9"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_current.png",
+      "sha256": "c158ac8b6173efcd6f48d813997012a0c96560aade9add6fd0fe8095f844e098"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_current.png.meta",
+      "sha256": "4c1636dad4d929179820e851fcc119d68b4d932abe61926f26b6c3f90e644e00"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_enemy.png",
+      "sha256": "75e2ac2ef640210cbd41e22b7e68da13a55f8696ed3f1e3d5b1c000db38759b2"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_enemy.png.meta",
+      "sha256": "efaeac1dd320edf0bd635c60740f3632f41f519bb517af777778dc92277c52fa"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_item.png",
+      "sha256": "e817bfe5736df505c5cb99d725d75f608b32144f010c54bfa7270e70354d377b"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_item.png.meta",
+      "sha256": "7e591567a5f943451d90139b56bd6f8ae80813fe4a98211364e19b848d4d5501"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_locked.png",
+      "sha256": "43324db67f19e50760f7b7c0dc1873dd6055dbc332b902730ac7c4bc30a55253"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_locked.png.meta",
+      "sha256": "24e02715ca8001f33cca1f042901903be737859987def1ab115b0dcb2b40a213"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_npc.png",
+      "sha256": "43187d191eee5a0cc522507724cd9ad0ab5d96adca939c17ad39d64be6dfc57e"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_npc.png.meta",
+      "sha256": "28a8d4c26869d8df8baa5e4584158635b9a05bf2b0639bdeb3505a8bcf77a375"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_portal.png",
+      "sha256": "694ae85241e294f6fea2e1ae4ec92c8cde4543336ee01e1c7692922badc69b8c"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_portal.png.meta",
+      "sha256": "d8dc672bda2c8d846f159b5443f8fb026cdd4b593ef7aaf45586a2ef51787637"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_puzzle.png",
+      "sha256": "87804335c1d770daea1717af15b3301fc1880154ce1fd97270eed5b386b9e49b"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_puzzle.png.meta",
+      "sha256": "2e83b1300cd6e91f0c9367f6268acdb7d3cecbfe36ddb96ceef23375428cbdc3"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_quest.png",
+      "sha256": "c896014ea01279e7adf886764693ff5b4fc416f220d535075463cf7f8e839832"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_quest.png.meta",
+      "sha256": "a1567a6b39328c46cc1bef54c81163dfc807e0a0e9482a358df301a7c56e159c"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_secret.png",
+      "sha256": "36c8905b0d1f210f4d77b4227530e551574ec1b425dab3fe44d8d77182d29e3a"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_secret.png.meta",
+      "sha256": "49f3350e6171ce11bd63076ae702fa7a181395c9c10ce6d7d74bb7299086b47d"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_visited.png",
+      "sha256": "f8989c43a9f5ab024b25484771edc1f5627b446d7ab217153bca0e0afb559b95"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_visited.png.meta",
+      "sha256": "5586add6d01519312b835f1d10a27eb48021ad65ef18f053585a1c86d3c02d53"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_BossAlert.png",
+      "sha256": "a6bcb5dfd5e58e06b0168a9306aea9a54bad0a44007083d334c92f0de5693c94"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_BossAlert.png.meta",
+      "sha256": "0f5b4910dd99999f26611cfc06b2f82a02dcd28ddc0a2d01575f146fc59e6d36"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Camera.png",
+      "sha256": "0649fd65b4954eac3b8058807b8e8bc087594749cccaa10d986c4359d9f5a513"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Camera.png.meta",
+      "sha256": "5c0ec2c26001a9b6aa1460f7f812a9678450a71c76068224d27ea6e2ca6d7c34"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Completed.png",
+      "sha256": "1785db3814d1a756dc018e0afbc58b9d13bf28906fddfd3eb470bfd2f22914ed"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Completed.png.meta",
+      "sha256": "eb0ed9e8dcf3737277abc96e9dde321289fdbe8ef40079b30b3ba2d7b3979837"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Current.png",
+      "sha256": "131982419a380ab48ed2619a8c5917310f0ceeabc7e0c2aa446c22c5590e261e"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Current.png.meta",
+      "sha256": "61b8dbe7f45ffc6111dc6aed0d4183a8d4b9ce6c414ef6fb45a082192bac9adc"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Ground.png",
+      "sha256": "4f141d7abb3bf338e3f1c141fced01075501b8e17f1d5516902abf6d417e368c"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Ground.png.meta",
+      "sha256": "9c5646064958728060f40815a3e1c2b0ca80af98ee4d4a16a64fa6136cfd9191"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_NpcNeedItem.png",
+      "sha256": "410d80e8f97fbbb33b36735dff08709e5eef5181fdfbe28c7c9b1a49ad8b0a47"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_NpcNeedItem.png.meta",
+      "sha256": "d1c1e599d581c1ca37ae709ea052db584c412e5fbb01f664ef06592eef84d290"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_NpcTalk.png",
+      "sha256": "bf01a6e32b9a9a56cf0b7762d801589999e22a96a5a4e6555445b33d93e398c2"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_NpcTalk.png.meta",
+      "sha256": "c2e57a98172d2298587dc02e0cea91b5cd025afb848f0af431dde700c0ffb308"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Puzzle.png",
+      "sha256": "03eb988775976885cbed252a9a2f0461e3f722dacbd6610e6f2b994cc47b7728"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Puzzle.png.meta",
+      "sha256": "d6fc101b0d9cc3cd2dc82c5bb38476fdc3814ecbb94517ed128277b24a2ca7e7"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Quest.png",
+      "sha256": "3b860755962338342a6d08a7b74546acabed150fe7dd0c24e2e3c73410647dc5"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Quest.png.meta",
+      "sha256": "1c15aa0e91a47a6ed40e5eec4234bd9edec1e0fc202a90e6b26d06e1c4abf35b"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Reward.png",
+      "sha256": "ca36129774dfb1d6834cc5f0b2864d28ca833a21fed7c71e0d3a5f034cedb1a8"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Reward.png.meta",
+      "sha256": "15e01c0ee2d575cd78cff48ff2073e3933c30d46cc46b0cb24159d9858d613a9"
+    },
+    {
+      "path": "Assets/_Game/Art/UI/Icons/UI_World_Globe.png",
+      "sha256": "f7800c93bc7c27562016515ecb29a5904cc1ff338133fe79c273f97d50c07608"
+    },
+    {
+      "path": "Assets/_Game/Art/UI/Icons/UI_World_Globe.png.meta",
+      "sha256": "4950a6b65d4e9c6f4cc022eafdfc5f9b58ffccbbd50c7655f32d092e972bf02f"
+    },
+    {
+      "path": "Assets/_Game/Art/UI/Panels/LBC_UI_SkinAtlas.png",
+      "sha256": "65100dcea7fa62d7cdd08cd1287f3aedea928e43a815bb2f356d8d4032a43dcc"
+    },
+    {
+      "path": "Assets/_Game/Art/UI/Panels/LBC_UI_SkinAtlas.png.meta",
+      "sha256": "cb15fbb7f1ddd086387f2f3339cdd8c7fcc022c416bddbaac04fe2ab60d9791a"
+    },
+    {
+      "path": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_128.png",
+      "sha256": "a150c83125508853f9a7643f45c9e5820e05c96321e9e054f101f4b81470b3e2"
+    },
+    {
+      "path": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_128.png.meta",
+      "sha256": "2f135d3ef9727082d7ad1aaecd343db70b2b210093fcad8bc1bf18fe699dccde"
+    },
+    {
+      "path": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_256.png",
+      "sha256": "95061774ab06032908a131864462f7ed8a3a9d6b98eaa723a787450263b763bc"
+    },
+    {
+      "path": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_256.png.meta",
+      "sha256": "9facc3b86bcf2a51dea34bb9ec5d1845ff401379b6065b756989502d914e31cb"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+      "sha256": "e41f2539663cd1c92975b9ba411fedbe7a23c0a143cd9da3241dfcc6c99e56ba"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png.meta",
+      "sha256": "89adce9beae3da3d54c078bf92ef34746b4b44b10f1665bef74f05cd41b41cbe"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Checkin_Postcards_VNKR_v1.png",
+      "sha256": "e51dce4e67c10c63dcee2e3bc3557fba58b6ac6588f3572fd4d8f3c2e59dbf51"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Checkin_Postcards_VNKR_v1.png.meta",
+      "sha256": "5ca7230ca345db14dbacae96ea57be072ae14abc942d21054574993a6427fef3"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_fog_boss-draft.png",
+      "sha256": "58ee58277bd6dbed804b4f40896792a95024afc72958b1231a73a40374e47f88"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_fog_boss-draft.png.meta",
+      "sha256": "e2442da90a9ef334839028062e8c97c58837507e07cb2497679bd3862ac93c77"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_glass_thief-draft.png",
+      "sha256": "e6ff250e7fbc999150ceb275133ee5aaffff55c84458725b9476c618cfcf3851"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_glass_thief-draft.png.meta",
+      "sha256": "a8c4b9c9b6c631326bda9e9cf4363951d7e5afc4f48dce73e34d9308ccfaa236"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_mist_wolf-draft.png",
+      "sha256": "89a77322cb06fd3b1b23cf8170d27805ccb6923a686f808c822f27fc722d945c"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_mist_wolf-draft.png.meta",
+      "sha256": "63fc5c4034e86744d971b63c4e7b9850bb329f971d973e5a4a413955c0eb00ce"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_gardener-draft.png",
+      "sha256": "d2288715799d7c0fea7d5cd089f0e9d3027c7f3a7908d54bf049e75709be78ac"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_gardener-draft.png.meta",
+      "sha256": "b4392a3b09a1cb688ab81a18cf69c43949f8eba644394279323680e4cbc3fab4"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_hungry_dog-draft.png",
+      "sha256": "6d5b4ac1f8401eabc503ac3663e07981d05b2255d6a308d97cddeebd104744f0"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_hungry_dog-draft.png.meta",
+      "sha256": "dce760f54c0ec140c189584a60ace3ada4ad535afd03f13a4feccdc461ac1788"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_lan-draft.png",
+      "sha256": "4a3d17cf807d2beabfc46307c63abf5804ef2e807df4e4a83f62be1ed6ada61d"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_lan-draft.png.meta",
+      "sha256": "4f465f89329571c96e95c5a41424715c2ce595d187d5053cd8d63a089e749e2f"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_thuy-draft.png",
+      "sha256": "80fd3412332ed28ceb6745e33fc393ca0cf07f28a25a57b0824faacc53cf9897"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_thuy-draft.png.meta",
+      "sha256": "960be1726a54afea37d3ad270e68cca8da5594bc2df130866d359c32d83ca868"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_01_VisualTarget_Reference.png",
+      "sha256": "ba764324ecf39b7c05c58f807e352db1c65d100423c65d6a582e41d0a2ef18a0"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_01_VisualTarget_Reference.png.meta",
+      "sha256": "42a90be103a51288dfd339f840190706d3d21d54ff31a41d76c571f16a27f687"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "sha256": "a93dd7c9de3afdb6e48c2e4ebaf1695eb1956e589477f3f60829c1faaca38329"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png.meta",
+      "sha256": "99fec184d2afbf709dad6c7ce8b9ec61937557bf98240aab91c6dc4d40c30f5d"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_03_UI_TextBaked_Reference.png",
+      "sha256": "0402a6a4db4dcd1bb246f5aff7067ad7f63c8675c35879e0659e928848c36e81"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_03_UI_TextBaked_Reference.png.meta",
+      "sha256": "b52e4bfbd8fbdd2857fad80e16658c9966deaae8f10818a26b913106da743862"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_04_Lantern_LightFX_Concept.png",
+      "sha256": "85197d042b073b684da3dc010dda798909f927f542939ef84bae0fee35ac1ed0"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_04_Lantern_LightFX_Concept.png.meta",
+      "sha256": "1aa6a4d8279e1e6416db9845c6a5d7852af2a40bb009f55d85426dfee2c8f4d5"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "sha256": "6863f0d25cdcc741b9995d990aee871fefc8e7b2bf6b8e0a3fc191445f408724"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png.meta",
+      "sha256": "5e98b6f6396c6aba2786b5686921a4c8c8d57f6039f8b69bf95f93a3b1e5eeed"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_06_Markers_Interactables_Concept.png",
+      "sha256": "fc765ef932e89338ec65f433d823c1b55fb6e40ada64de6006113f73617fb7a8"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_06_Markers_Interactables_Concept.png.meta",
+      "sha256": "e49aab3b81200e4876c04721944fb3408dca31fd906f08f254f88d7014bbcad0"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "sha256": "7cbef3187db3a532c2ddeb7906e5aaf0a2515c78f02fec086ba9fd7f89d971f3"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta",
+      "sha256": "372ee6e92b7bc3628b162aebacff7d7ec9ca6b6031547c5ee703d873c0e58f8d"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/HoiAn_H3_Environment_v1.png",
+      "sha256": "b82d9bcbd728198365b6046f20aafe983a86513f1af6a4e4b6c2a645c33f917c"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/HoiAn_H3_Environment_v1.png.meta",
+      "sha256": "37871fc955c893d1af33052d0ef1ca96f359b14d8795f21b9cc4c6d920d517ef"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemSheet_VNKR_FoodCulture_v1.png",
+      "sha256": "2598a2c23f4454d0600e6df7df7c68ead45b666c39d75be9e782353ababa6373"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemSheet_VNKR_FoodCulture_v1.png.meta",
+      "sha256": "7a8970b63587b2afa75843ee78835b634d357644b40fc93cfad790e4f9212a65"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Chili.jpg",
+      "sha256": "d3704b8a2c51f209ab0faa6d80c3d102b18b51daff8605756700ba7deec5b932"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Chili.jpg.meta",
+      "sha256": "d4064947d3072790dfb55e5484cb19d76b0d64d783a30efeafb2e7bb8484cfd3"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Shallot.jpg",
+      "sha256": "a04831e27615a92512c9a8a982de76c0dd9bd7371d3b6326b0346db757c241ef"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Shallot.jpg.meta",
+      "sha256": "27690a43c9ea63c7932ceb0a7de20dddeb9db408feea74ef82d5278b83ef6773"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
+      "sha256": "6e07f538417d56d94e6c2c97cd5c8b50f61aec868e4fb75d73c6152e440c03b8"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png.meta",
+      "sha256": "d72efbfcc694f0ee5c0a11ce7abaf5150be7707c0f28d4c3481bf347b2b02708"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
+      "sha256": "65d7dd9931f85fe10941ffae77fa5e9688120cdb310b3a9174e4e562deb04e77"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png.meta",
+      "sha256": "2b17d29efadc7549c8337722706c23c2f1b450d6377bf70da3d9cf3ffcbf0511"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Lumi/Lumi_Character_Cutout_Concept.png",
+      "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Lumi/Lumi_Character_Cutout_Concept.png.meta",
+      "sha256": "9ec424e6539f1f43f78e424ab05a33d443affaed0651f5f3338cf43c72fbbf10"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/UI_Adventure_Kit_v1.png",
+      "sha256": "787e43d1cff2f2caddacd09f2e0934a19a2de038cb4614366587fa167714bd5a"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/UI_Adventure_Kit_v1.png.meta",
+      "sha256": "91e3c94dcf3d66833f004541f4a03a0645aa303d03ff655300ed39a83dd706c4"
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/da_lat.json",
+      "sha256": "8710af0ec85ecd14912dfb0339324f0b0ba56b553d9f700c813e726782b69fa0"
+    },
+    {
+      "path": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/DaLat/Map_Overview_A.png",
+      "sha256": "0b2872b62a8b06dc1c08095cdea20fb540385032a64782e59e20acf11c7a444c"
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/gyeongju.json",
+      "sha256": "6ff96430d2f5fb4c180065e0c90063273bcc2cb1af4bcb62fde92ef6da7fcf9c"
+    },
+    {
+      "path": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Gyeongju/Map_Overview_A.png",
+      "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c"
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/hoi_an.json",
+      "sha256": "2ca360dab3ac9492438101f80388dcf7056d86422ea9ef6287c6cc5648075ee2"
+    },
+    {
+      "path": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/HoiAn/Map_Overview_A.png",
+      "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c"
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/hue.json",
+      "sha256": "1e5d41f78dae9dd929c7705ec20d4ebfb460cfc2052ae94347ac6f4e19258548"
+    },
+    {
+      "path": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Hue/Map_Overview_A.png",
+      "sha256": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c"
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/jeonju.json",
+      "sha256": "ea2fed8c63d2e3c41f5d6d16dae4af110a4e44814f33fd3420ac5c56809f7403"
+    },
+    {
+      "path": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Jeonju/Map_Overview_A.png",
+      "sha256": "f1260ef1b4f718b989d55d907f50c99c341081263f3470bfda2d6fab1d2926c8"
+    },
+    {
+      "path": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/seoul.json",
+      "sha256": "1f0ee739aefe48d6f64fb43350d7e562cf30e1c47813b775489b83e1a3f9d286"
+    },
+    {
+      "path": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Seoul/Map_Overview_A.png",
+      "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2"
+    }
+  ],
+  "cities": [
+    {
+      "cityId": "da_lat",
+      "nodeCount": 22,
+      "runtimeReady": true,
+      "runtimeNodeIds": [],
+      "emptyRuntimeNodeIdsMeansFullCity": true,
+      "source": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/DaLat/Map_Overview_A.png",
+      "path": "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png",
+      "guid": "44c553d406b840740a51a62491818111",
+      "localId": "21300000",
+      "sha256": "0b2872b62a8b06dc1c08095cdea20fb540385032a64782e59e20acf11c7a444c",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "originalOverviewABytesMatch": true,
+      "importSettings": [
+        {
+          "target": "DefaultTexturePlatform",
+          "maxTextureSize": 2048,
+          "overridden": false
+        },
+        {
+          "target": "Standalone",
+          "maxTextureSize": 2048,
+          "overridden": false
+        },
+        {
+          "target": "WebGL",
+          "maxTextureSize": 2048,
+          "overridden": false
+        }
+      ],
+      "fullResolutionImportReady": true,
+      "configuredMapActors": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D2",
+          "artId": "npc_lan",
+          "size": {
+            "x": 52,
+            "y": 60
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D3",
+          "artId": "npc_thuy",
+          "size": {
+            "x": 52,
+            "y": 60
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D4",
+          "artId": "npc_market_merchant",
+          "size": {
+            "x": 52,
+            "y": 60
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D6",
+          "artId": "enemy_mist_wolf",
+          "size": {
+            "x": 58,
+            "y": 48
+          },
+          "offset": {
+            "x": -28,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D7",
+          "artId": "enemy_glass_thief",
+          "size": {
+            "x": 52,
+            "y": 60
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D10",
+          "artId": "npc_hungry_dog",
+          "size": {
+            "x": 58,
+            "y": 48
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D13",
+          "artId": "npc_gardener",
+          "size": {
+            "x": 52,
+            "y": 60
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D15",
+          "artId": "enemy_fog_boss",
+          "size": {
+            "x": 58,
+            "y": 48
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        }
+      ],
+      "npcNodesWithoutConfiguredMapActor": [
+        {
+          "nodeId": "D18",
+          "name": "Nhà nghỉ trên dốc",
+          "eventId": "npc_innkeeper"
+        }
+      ],
+      "enemiesWithoutRegisteredSprite": [],
+      "terrainReview": "MANUAL REVIEW REQUIRED for each newly enabled edge; source routesReviewed alone is not proof"
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeCount": 22,
+      "runtimeReady": false,
+      "runtimeNodeIds": [],
+      "emptyRuntimeNodeIdsMeansFullCity": true,
+      "source": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Gyeongju/Map_Overview_A.png",
+      "path": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_DestinationPreview_A.png",
+      "guid": "f1f6e381ad05edb4da03ce1c821476b0",
+      "localId": "21300000",
+      "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "originalOverviewABytesMatch": true,
+      "importSettings": [
+        {
+          "target": "DefaultTexturePlatform",
+          "maxTextureSize": 1024,
+          "overridden": false
+        },
+        {
+          "target": "Standalone",
+          "maxTextureSize": 2048,
+          "overridden": false
+        },
+        {
+          "target": "WebGL",
+          "maxTextureSize": 2048,
+          "overridden": false
+        }
+      ],
+      "fullResolutionImportReady": false,
+      "configuredMapActors": [],
+      "npcNodesWithoutConfiguredMapActor": [
+        {
+          "nodeId": "G3",
+          "name": "Nhà khảo cổ Min",
+          "eventId": "npc_min"
+        },
+        {
+          "nodeId": "G9",
+          "name": "Sân chính di tích",
+          "eventId": "npc_keeper"
+        },
+        {
+          "nodeId": "G14",
+          "name": "Kho bản khắc",
+          "eventId": "npc_inscription"
+        }
+      ],
+      "enemiesWithoutRegisteredSprite": [
+        {
+          "id": "enemy_fox",
+          "name": "Cáo Bóng Mờ"
+        },
+        {
+          "id": "enemy_stone_guard",
+          "name": "Tượng Đá Thức Tỉnh"
+        },
+        {
+          "id": "enemy_night_guard",
+          "name": "Bot Canh Đêm"
+        },
+        {
+          "id": "enemy_star_core",
+          "name": "Lõi Tinh Tú"
+        }
+      ],
+      "terrainReview": "MANUAL REVIEW REQUIRED for each newly enabled edge; source routesReviewed alone is not proof"
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeCount": 22,
+      "runtimeReady": true,
+      "runtimeNodeIds": [],
+      "emptyRuntimeNodeIdsMeansFullCity": true,
+      "source": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/HoiAn/Map_Overview_A.png",
+      "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png",
+      "guid": "9f457fcf0b8450940a9493323d9febcc",
+      "localId": "21300000",
+      "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "originalOverviewABytesMatch": true,
+      "importSettings": [
+        {
+          "target": "DefaultTexturePlatform",
+          "maxTextureSize": 2048,
+          "overridden": false
+        },
+        {
+          "target": "Standalone",
+          "maxTextureSize": 2048,
+          "overridden": false
+        },
+        {
+          "target": "WebGL",
+          "maxTextureSize": 2048,
+          "overridden": false
+        }
+      ],
+      "fullResolutionImportReady": true,
+      "configuredMapActors": [
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H2",
+          "artId": "npc_mai",
+          "size": {
+            "x": 52,
+            "y": 62
+          },
+          "offset": {
+            "x": -22,
+            "y": 10
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H4",
+          "artId": "npc_market_merchant",
+          "size": {
+            "x": 48,
+            "y": 58
+          },
+          "offset": {
+            "x": 28,
+            "y": 6
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H5",
+          "artId": "enemy_mo01",
+          "size": {
+            "x": 58,
+            "y": 66
+          },
+          "offset": {
+            "x": 20,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        },
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H12",
+          "artId": "enemy_crab",
+          "size": {
+            "x": 48,
+            "y": 40
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        },
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H15",
+          "artId": "enemy_ghost",
+          "size": {
+            "x": 43,
+            "y": 52
+          },
+          "offset": {
+            "x": -20,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        },
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H17",
+          "artId": "npc_boatman",
+          "size": {
+            "x": 50,
+            "y": 60
+          },
+          "offset": {
+            "x": 20,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H18",
+          "artId": "npc_guest",
+          "size": {
+            "x": 40,
+            "y": 52
+          },
+          "offset": {
+            "x": 12,
+            "y": 4
+          },
+          "hideWhenResolved": false
+        }
+      ],
+      "npcNodesWithoutConfiguredMapActor": [
+        {
+          "nodeId": "H10",
+          "name": "Quầy hàng Bà Tư",
+          "eventId": "npc_ba_tu"
+        },
+        {
+          "nodeId": "H14",
+          "name": "Nghệ nhân ông Phúc",
+          "eventId": "npc_phuc"
+        }
+      ],
+      "enemiesWithoutRegisteredSprite": [],
+      "terrainReview": "MANUAL REVIEW REQUIRED for each newly enabled edge; source routesReviewed alone is not proof"
+    },
+    {
+      "cityId": "hue",
+      "nodeCount": 22,
+      "runtimeReady": true,
+      "runtimeNodeIds": [],
+      "emptyRuntimeNodeIdsMeansFullCity": true,
+      "source": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Hue/Map_Overview_A.png",
+      "path": "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png",
+      "guid": "481d167093be364419d9ebb11b8e4e27",
+      "localId": "21300000",
+      "sha256": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "originalOverviewABytesMatch": true,
+      "importSettings": [
+        {
+          "target": "DefaultTexturePlatform",
+          "maxTextureSize": 2048,
+          "overridden": false
+        },
+        {
+          "target": "Standalone",
+          "maxTextureSize": 2048,
+          "overridden": false
+        },
+        {
+          "target": "WebGL",
+          "maxTextureSize": 2048,
+          "overridden": false
+        }
+      ],
+      "fullResolutionImportReady": true,
+      "configuredMapActors": [
+        {
+          "cityId": "hue",
+          "nodeId": "U1",
+          "artId": "npc_huong",
+          "size": {
+            "x": 52,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "hue",
+          "nodeId": "U2",
+          "artId": "npc_nguyet",
+          "size": {
+            "x": 52,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "hue",
+          "nodeId": "U3",
+          "artId": "npc_tam",
+          "size": {
+            "x": 52,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "hue",
+          "nodeId": "U7",
+          "artId": "npc_scholar",
+          "size": {
+            "x": 52,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "hue",
+          "nodeId": "U5",
+          "artId": "enemy_gate_guard",
+          "size": {
+            "x": 55,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        },
+        {
+          "cityId": "hue",
+          "nodeId": "U12",
+          "artId": "enemy_river_wisp",
+          "size": {
+            "x": 55,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        },
+        {
+          "cityId": "hue",
+          "nodeId": "U15",
+          "artId": "enemy_courier",
+          "size": {
+            "x": 55,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        },
+        {
+          "cityId": "hue",
+          "nodeId": "U18",
+          "artId": "enemy_archive_guard",
+          "size": {
+            "x": 55,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        }
+      ],
+      "npcNodesWithoutConfiguredMapActor": [],
+      "enemiesWithoutRegisteredSprite": [],
+      "terrainReview": "MANUAL REVIEW REQUIRED for each newly enabled edge; source routesReviewed alone is not proof"
+    },
+    {
+      "cityId": "jeonju",
+      "nodeCount": 22,
+      "runtimeReady": true,
+      "runtimeNodeIds": [],
+      "emptyRuntimeNodeIdsMeansFullCity": true,
+      "source": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Jeonju/Map_Overview_A.png",
+      "path": "Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png",
+      "guid": "a81827839b4593840a4f9ed1ebc59f9d",
+      "localId": "21300000",
+      "sha256": "f1260ef1b4f718b989d55d907f50c99c341081263f3470bfda2d6fab1d2926c8",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "originalOverviewABytesMatch": true,
+      "importSettings": [
+        {
+          "target": "DefaultTexturePlatform",
+          "maxTextureSize": 2048,
+          "overridden": false
+        },
+        {
+          "target": "Standalone",
+          "maxTextureSize": 2048,
+          "overridden": false
+        },
+        {
+          "target": "WebGL",
+          "maxTextureSize": 2048,
+          "overridden": false
+        }
+      ],
+      "fullResolutionImportReady": true,
+      "configuredMapActors": [
+        {
+          "cityId": "jeonju",
+          "nodeId": "J15",
+          "artId": "npc_soyeon",
+          "size": {
+            "x": 52,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J2",
+          "artId": "npc_hana",
+          "size": {
+            "x": 52,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J4",
+          "artId": "npc_yoon",
+          "size": {
+            "x": 52,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J5",
+          "artId": "npc_park",
+          "size": {
+            "x": 52,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J16",
+          "artId": "npc_elder",
+          "size": {
+            "x": 52,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": false
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J6",
+          "artId": "enemy_parcel_bot",
+          "size": {
+            "x": 55,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J9",
+          "artId": "enemy_paper_crane",
+          "size": {
+            "x": 55,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J14",
+          "artId": "enemy_pattern_bot",
+          "size": {
+            "x": 55,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J18",
+          "artId": "enemy_crane_boss",
+          "size": {
+            "x": 55,
+            "y": 62
+          },
+          "offset": {
+            "x": 22,
+            "y": 8
+          },
+          "hideWhenResolved": true
+        }
+      ],
+      "npcNodesWithoutConfiguredMapActor": [],
+      "enemiesWithoutRegisteredSprite": [],
+      "terrainReview": "MANUAL REVIEW REQUIRED for each newly enabled edge; source routesReviewed alone is not proof"
+    },
+    {
+      "cityId": "seoul",
+      "nodeCount": 23,
+      "runtimeReady": false,
+      "runtimeNodeIds": [],
+      "emptyRuntimeNodeIdsMeansFullCity": true,
+      "source": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Seoul/Map_Overview_A.png",
+      "path": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_DestinationPreview_A.png",
+      "guid": "3f3e71d2ddb346442bd9f232ce09d9b4",
+      "localId": "21300000",
+      "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "originalOverviewABytesMatch": true,
+      "importSettings": [
+        {
+          "target": "DefaultTexturePlatform",
+          "maxTextureSize": 1024,
+          "overridden": false
+        },
+        {
+          "target": "Standalone",
+          "maxTextureSize": 2048,
+          "overridden": false
+        },
+        {
+          "target": "WebGL",
+          "maxTextureSize": 2048,
+          "overridden": false
+        }
+      ],
+      "fullResolutionImportReady": false,
+      "configuredMapActors": [],
+      "npcNodesWithoutConfiguredMapActor": [
+        {
+          "nodeId": "S2",
+          "name": "Cổng thành xưa",
+          "eventId": "npc_curator"
+        },
+        {
+          "nodeId": "S7",
+          "name": "Quảng trường màn hình",
+          "eventId": "npc_tech"
+        },
+        {
+          "nodeId": "S11",
+          "name": "Trạm kiểm soát kỹ thuật",
+          "eventId": "npc_engineer"
+        },
+        {
+          "nodeId": "S14",
+          "name": "Bến phà thông tin",
+          "eventId": "npc_boat"
+        }
+      ],
+      "enemiesWithoutRegisteredSprite": [
+        {
+          "id": "enemy_drone",
+          "name": "Drone Trinh Sát"
+        },
+        {
+          "id": "enemy_signal_bot",
+          "name": "Bot Nhiễu Tín Hiệu"
+        },
+        {
+          "id": "enemy_bridge",
+          "name": "Bot Giữ Cầu"
+        },
+        {
+          "id": "enemy_shadow_courier",
+          "name": "Bot Đưa Tin Bóng Mờ"
+        },
+        {
+          "id": "enemy_final_core",
+          "name": "Lõi Nhiễu Sáng"
+        }
+      ],
+      "terrainReview": "MANUAL REVIEW REQUIRED for each newly enabled edge; source routesReviewed alone is not proof"
+    }
+  ],
+  "temporaryIdentityBindings": [
+    {
+      "role": "npc",
+      "id": "npc_huong",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "-1343187348",
+      "spriteName": "npc_huong",
+      "source": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "status": "TEMPORARY_UNASSIGNED_ROSTER_CAST; NOT_CANONICAL; replace registry reference when approved",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_soyeon",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "464872565",
+      "spriteName": "npc_soyeon",
+      "source": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "status": "TEMPORARY_UNASSIGNED_ROSTER_CAST; NOT_CANONICAL; replace registry reference when approved",
+      "canonical": false
+    }
+  ],
+  "protectedIdentityBindings": [
+    {
+      "role": "npc",
+      "id": "npc_mai",
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+      "guid": "a6cc838dd76ae7f40902d846693f4a5e",
+      "localId": "-1732270161",
+      "spriteName": "Mai_DialoguePortrait",
+      "source": "Characters/NPC_Roster_Concept.png",
+      "status": "existing_approved_static_cutout",
+      "canonical": true
+    },
+    {
+      "role": "npc",
+      "id": "npc_guest",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "-404209332",
+      "spriteName": "npc_guest",
+      "source": "",
+      "status": "",
+      "canonical": true
+    }
+  ],
+  "sharedMapActorScale": 0.72,
+  "sharedTouchSize": 52,
+  "itemIdsWithoutRegisteredSprite": [],
+  "itemsUsingCategoryArt": [
+    "stargazer_lens",
+    "lantern_stamp",
+    "river_pass",
+    "royal_herb",
+    "lost_letter",
+    "ancient_seal",
+    "astral_script",
+    "fog_battery",
+    "blue_water_signal",
+    "hanji_pattern_1",
+    "hanji_pattern_2",
+    "hanji_pattern_3",
+    "missing_parcel",
+    "hanji_circuit",
+    "reply_letter",
+    "star_symbol_1",
+    "star_symbol_2",
+    "star_symbol_3",
+    "relay_a",
+    "relay_b",
+    "relay_c",
+    "festival_friendship_postcard",
+    "hoi_an_bridge_postcard",
+    "jeonju_recipe_card",
+    "hue_market_note"
+  ],
+  "limitations": [
+    "No automatic pixel-quality, face identity or walkable-terrain certification",
+    "Unconfigured NPC slot / missing enemy binding does not prove no usable source art exists",
+    "Fresh runtime captures, route walks, discovery and restart tests required when enabling new content"
+  ]
+}

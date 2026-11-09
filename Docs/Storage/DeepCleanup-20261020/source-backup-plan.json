@@ -1,0 +1,218 @@
+{
+  "destination": "D:\\GAMEKKK\\Backups\\LBC_SourceVerified-20261020",
+  "files": 2644,
+  "bytes": 494203331,
+  "historicalUnique": [
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeAudit-20261015\\Assets\\_Game\\Art\\Generated.meta",
+      "originalPath": "Assets/_Game/Art/Generated.meta",
+      "bytes": 172,
+      "sha256": "bf5d6526d41a08762912e244a212c86db2486730ad7ab43769be5f764c9a4224"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeAudit-20261015\\Assets\\_Game\\Art\\Generated\\placeholder.png",
+      "originalPath": "Assets/_Game/Art/Generated/placeholder.png",
+      "bytes": 75,
+      "sha256": "e737dac8d0f4f8564bb2c31436ee4c84e1ac9cd308683b892176607ab24ad2e3"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeAudit-20261015\\Assets\\_Game\\Art\\Generated\\placeholder.png.meta",
+      "originalPath": "Assets/_Game/Art/Generated/placeholder.png.meta",
+      "bytes": 3704,
+      "sha256": "ebdfc2b056cc7c19965a194f9c35d7a422364d9d2e6a5d37f97337477362b606"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeDesignKit-20261015\\Assets\\_Game\\Art\\Generated\\placeholder.png.meta",
+      "originalPath": "Assets/_Game/Art/Generated/placeholder.png.meta",
+      "bytes": 3702,
+      "sha256": "899be8acf32e24381ff3fc73215d62ffb61fc57c42194baba2445c2a9d81c0cd"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit.meta",
+      "bytes": 172,
+      "sha256": "5ab3ce6b3144ebbd449029e2f82ac829dde4c74988cd3379f262f5472eb0e012"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Lumi.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Lumi.meta",
+      "bytes": 172,
+      "sha256": "e4abc7246a29e113eb51ab4014dad4ce161319a528d0fa8ee2fa447cfffb7365"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers.meta",
+      "bytes": 172,
+      "sha256": "74f22590d858c9044afc84f053e13574cf7a241c726284a3698845b833e704b3"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_available.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_available.png",
+      "bytes": 2656,
+      "sha256": "fbf9b899d66942db4c9aa77395689576bd23bed84088c5a77f76f275139e173d"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_available.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_available.png.meta",
+      "bytes": 3718,
+      "sha256": "b5d209134339990be86852197f4c915448f58c8f09394aa22b725f0349c4c8a9"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_current.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_current.png",
+      "bytes": 2678,
+      "sha256": "c158ac8b6173efcd6f48d813997012a0c96560aade9add6fd0fe8095f844e098"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_current.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_current.png.meta",
+      "bytes": 3712,
+      "sha256": "4c1636dad4d929179820e851fcc119d68b4d932abe61926f26b6c3f90e644e00"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_enemy.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_enemy.png",
+      "bytes": 5548,
+      "sha256": "75e2ac2ef640210cbd41e22b7e68da13a55f8696ed3f1e3d5b1c000db38759b2"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_enemy.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_enemy.png.meta",
+      "bytes": 3703,
+      "sha256": "efaeac1dd320edf0bd635c60740f3632f41f519bb517af777778dc92277c52fa"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_item.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_item.png",
+      "bytes": 3058,
+      "sha256": "e817bfe5736df505c5cb99d725d75f608b32144f010c54bfa7270e70354d377b"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_item.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_item.png.meta",
+      "bytes": 3700,
+      "sha256": "7e591567a5f943451d90139b56bd6f8ae80813fe4a98211364e19b848d4d5501"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_locked.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_locked.png",
+      "bytes": 2523,
+      "sha256": "43324db67f19e50760f7b7c0dc1873dd6055dbc332b902730ac7c4bc30a55253"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_locked.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_locked.png.meta",
+      "bytes": 3706,
+      "sha256": "24e02715ca8001f33cca1f042901903be737859987def1ab115b0dcb2b40a213"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_npc.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_npc.png",
+      "bytes": 5125,
+      "sha256": "43187d191eee5a0cc522507724cd9ad0ab5d96adca939c17ad39d64be6dfc57e"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_npc.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_npc.png.meta",
+      "bytes": 3700,
+      "sha256": "28a8d4c26869d8df8baa5e4584158635b9a05bf2b0639bdeb3505a8bcf77a375"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_portal.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_portal.png",
+      "bytes": 8864,
+      "sha256": "694ae85241e294f6fea2e1ae4ec92c8cde4543336ee01e1c7692922badc69b8c"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_portal.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_portal.png.meta",
+      "bytes": 3709,
+      "sha256": "d8dc672bda2c8d846f159b5443f8fb026cdd4b593ef7aaf45586a2ef51787637"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_puzzle.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_puzzle.png",
+      "bytes": 4587,
+      "sha256": "87804335c1d770daea1717af15b3301fc1880154ce1fd97270eed5b386b9e49b"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_puzzle.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_puzzle.png.meta",
+      "bytes": 3706,
+      "sha256": "2e83b1300cd6e91f0c9367f6268acdb7d3cecbfe36ddb96ceef23375428cbdc3"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_quest.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_quest.png",
+      "bytes": 2826,
+      "sha256": "c896014ea01279e7adf886764693ff5b4fc416f220d535075463cf7f8e839832"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_quest.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_quest.png.meta",
+      "bytes": 3706,
+      "sha256": "a1567a6b39328c46cc1bef54c81163dfc807e0a0e9482a358df301a7c56e159c"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_secret.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_secret.png",
+      "bytes": 5189,
+      "sha256": "36c8905b0d1f210f4d77b4227530e551574ec1b425dab3fe44d8d77182d29e3a"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_secret.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_secret.png.meta",
+      "bytes": 3706,
+      "sha256": "49f3350e6171ce11bd63076ae702fa7a181395c9c10ce6d7d74bb7299086b47d"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_visited.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_visited.png",
+      "bytes": 2667,
+      "sha256": "f8989c43a9f5ab024b25484771edc1f5627b446d7ab217153bca0e0afb559b95"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Markers\\node_visited.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Markers/node_visited.png.meta",
+      "bytes": 3709,
+      "sha256": "5586add6d01519312b835f1d10a27eb48021ad65ef18f053585a1c86d3c02d53"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Lumi\\Lumi_Character_Cutout_Concept.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_Character_Cutout_Concept.png",
+      "bytes": 1108620,
+      "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Lumi\\Lumi_Character_Cutout_Concept.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_Character_Cutout_Concept.png.meta",
+      "bytes": 3763,
+      "sha256": "9ec424e6539f1f43f78e424ab05a33d443affaed0651f5f3338cf43c72fbbf10"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Lumi\\Lumi_CityMarker_128.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_CityMarker_128.png",
+      "bytes": 15761,
+      "sha256": "a150c83125508853f9a7643f45c9e5820e05c96321e9e054f101f4b81470b3e2"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Lumi\\Lumi_CityMarker_128.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_CityMarker_128.png.meta",
+      "bytes": 3732,
+      "sha256": "2f135d3ef9727082d7ad1aaecd343db70b2b210093fcad8bc1bf18fe699dccde"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Lumi\\Lumi_CityMarker_256.png",
+      "originalPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_CityMarker_256.png",
+      "bytes": 51591,
+      "sha256": "95061774ab06032908a131864462f7ed8a3a9d6b98eaa723a787450263b763bc"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015\\Assets\\_Game\\Art\\DesignKit\\Lumi\\Lumi_CityMarker_256.png.meta",
+      "originalPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_CityMarker_256.png.meta",
+      "bytes": 3732,
+      "sha256": "9facc3b86bcf2a51dea34bb9ec5d1845ff401379b6065b756989502d914e31cb"
+    }
+  ],
+  "oldSourcePathsInspected": 8310
+}

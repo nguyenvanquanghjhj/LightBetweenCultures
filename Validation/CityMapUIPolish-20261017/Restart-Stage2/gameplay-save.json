@@ -1,0 +1,97 @@
+{
+    "version": 2,
+    "cityId": "hoi_an",
+    "node": 13,
+    "previousNode": 13,
+    "visited": [
+        0,
+        1,
+        2,
+        13,
+        3,
+        4
+    ],
+    "accepted": [
+        "mai-lantern",
+        "HQ01"
+    ],
+    "completed": [
+        "mai-lantern"
+    ],
+    "items": [
+        "healing_tea",
+        "healing_tea",
+        "lamp_eye",
+        "hanji_core"
+    ],
+    "collected": [
+        "lantern-part"
+    ],
+    "flags": [
+        "quest:HQ01",
+        "hoi_an.lamp_eye_found",
+        "lantern-lit",
+        "hoi_an.market_puzzle_solved",
+        "hoi_an.hanji_core_obtained"
+    ],
+    "resolvedEvents": [],
+    "defeatedEnemies": [],
+    "solvedPuzzles": [
+        "puzzle_market",
+        "puzzle_paper"
+    ],
+    "choices": [],
+    "rewardGrantIds": [
+        "quest-accept:HQ01:healing_tea",
+        "h3-lamp-eye",
+        "puzzle:puzzle_paper:hanji_core"
+    ],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 13,
+            "stage": 2,
+            "visited": [
+                0,
+                1,
+                2,
+                13,
+                3,
+                4
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "jeonju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 3,
+    "coins": 0
+}

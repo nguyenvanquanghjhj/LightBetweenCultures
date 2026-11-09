@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "windows": "VERIFIED_ON_WINDOWS_PLAYER",
+  "input": "SIMULATED_TOUCH_PASS",
+  "assertions": 142,
+  "restart": "VERIFIED_ON_WINDOWS_PLAYER",
+  "androidBuild": "Succeeded",
+  "androidDevice": "BLOCKED_ADB_NO_DEVICE",
+  "androidDevicesLog": "Validation/JourneyShop-20261021/adb-devices.txt",
+  "apk": {
+    "path": "Builds/Android/LightBetweenCultures-JourneyShop-20261021.apk",
+    "version": "1.0-shop20261021",
+    "versionCode": 3,
+    "bytes": 289655644,
+    "sha256": "51de198eb877cbeb30b988d6624a3f6e23c61d1c43d880ef230c50b63a8432fa"
+  },
+  "buildMethodSeconds": 162.244895,
+  "windowsManagedAssemblySHA256": "0a80cefca26d2f9f2cee2e807b3b348d5f373f4703214dc6aea4f2fa659962f5",
+  "scope": "8 ordinary items + 1 optional canonical HQ04 fare; no full campaign rerun",
+  "limits": [
+    "Android real device touch/scroll/notch not tested",
+    "No independent human economy/fun playtest",
+    "Prior comprehensive QA remains partial; see its checkpoint report"
+  ],
+  "evidence": [
+    "runtime01/SHOP-fresh-all-visible.png",
+    "runtime01/SHOP-seoul-items-scrolled.png",
+    "runtime01/smoke-results.txt",
+    "restart01/restart-results.txt"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "reviewedSources": [
+    "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+    "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+    "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+    "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
+    "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
+    "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/NPC_Roster_Concept.png",
+    "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Characters_Moodboard.png",
+    "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/12_HoiAn_NPC_Concepts.png"
+  ],
+  "newBindings": [],
+  "newCanonicalIdentities": [],
+  "resolvedMissingPortraits": 0,
+  "needsNewArt": 6,
+  "notRequiredInCurrentGameplay": 1,
+  "roles": [
+    {
+      "npcId": "npc_boat",
+      "name": "Bến phà thông tin",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S14",
+          "actor": "Bến phà thông tin"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "assetStatus": "NEEDS_NEW_ART",
+      "decision": "S14 có tương tác bến phà nhưng chưa khóa nhân dạng người nói. Hai bác lái đò hiện hữu đã thuộc npc_boatman/npc_tam. Không dùng mặt của họ cho vai trò độc lập ở Seoul.",
+      "newCanonicalBinding": false,
+      "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+      "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+    },
+    {
+      "npcId": "npc_curator",
+      "name": "Quản thủ bảo tàng",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S2",
+          "actor": "Quản thủ bảo tàng"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "assetStatus": "NEEDS_NEW_ART",
+      "decision": "S2 cần người quản lý di tích/bảo tàng tại Seoul. Gương mặt Tech-Curator trên roster/moodboard đã thuộc So-yeon. Min, Phúc, Yoon đã có vai trò; không có ứng viên sạch, độc lập và phù hợp được xác minh.",
+      "newCanonicalBinding": false,
+      "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+      "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+    },
+    {
+      "npcId": "npc_engineer",
+      "name": "Kỹ sư Trạm Số",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S11",
+          "actor": "Kỹ sư Trạm Số"
+        },
+        {
+          "cityId": "seoul",
+          "nodeId": "S11",
+          "actor": "Kỹ sư Trạm Số"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "assetStatus": "NEEDS_NEW_ART",
+      "decision": "S11 cần kỹ sư trạm; cô gái công nghệ đã thuộc So-yeon. Nghệ nhân trên Composite_Illustrated chỉ là hình nhỏ khoảng 100×135, có nền, chưa có bản cắt sạch đạt kích thước portrait hiện tại; không ép dùng làm kỹ sư.",
+      "newCanonicalBinding": false,
+      "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+      "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+    },
+    {
+      "npcId": "npc_innkeeper",
+      "name": "npc_innkeeper",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D18",
+          "actor": "Lumi"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "assetStatus": "NOT_REQUIRED_CURRENT_GAMEPLAY",
+      "decision": "D18 hiện là event type=start, actor=Lumi, nghỉ/nghỉ dẫn đường; không có chủ trọ xuất hiện/phát biểu. Không tạo người mới hoặc gắn hình đầu bếp chỉ để lấp khóa npc_innkeeper.",
+      "newCanonicalBinding": false,
+      "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+      "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+    },
+    {
+      "npcId": "npc_inscription",
+      "name": "Kho bản khắc",
+      "placements": [
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G14",
+          "actor": "Kho bản khắc"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "assetStatus": "NEEDS_NEW_ART",
+      "decision": "G14 cần NPC hỗ trợ bản khắc ở Gyeongju. Lính có ảnh alpha rõ là lính Hoàng thành Huế theo roster. Phúc/Yoon/Min không là mặt trống; người gánh hàng/đầu bếp không phù hợp vai trò.",
+      "newCanonicalBinding": false,
+      "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+      "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+    },
+    {
+      "npcId": "npc_keeper",
+      "name": "Sân chính di tích",
+      "placements": [
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G9",
+          "actor": "Sân chính di tích"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "assetStatus": "NEEDS_NEW_ART",
+      "decision": "G9 là người giữ di tích Gyeongju. Lính Hoàng thành Huế sai bối cảnh/trang phục; không đổi NPC thành lính Việt để khớp ảnh. Sư thầy/bảo vệ trong DesignKit chỉ là concept rất nhỏ có nền/chữ, chưa đạt sprite portrait sạch.",
+      "newCanonicalBinding": false,
+      "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+      "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+    },
+    {
+      "npcId": "npc_tech",
+      "name": "Ji-won",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S7",
+          "actor": "Kỹ thuật viên Ji-won"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "assetStatus": "NEEDS_NEW_ART",
+      "decision": "S7 là Ji-won, nhân viên công nghệ Seoul. Không dùng khuôn mặt So-yeon dù vai trò gốc của ảnh là Tech-Curator; các ứng viên chưa gán còn lại không hợp vai trò hoặc chỉ là concept nhỏ không đạt.",
+      "newCanonicalBinding": false,
+      "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+      "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+    }
+  ],
+  "historicalSnapshot": true,
+  "supersededBy": "Docs/Art/NPC_REUSE_FINAL_DECISION.md",
+  "currentSummary": {
+    "newCanonicalNpc": "npc_tech",
+    "portraits": 21,
+    "canonical": 9,
+    "unconfirmed": 12,
+    "needsNewArt": 4,
+    "s14": "NOT_REQUIRED_LOCATION_INFORMATION",
+    "d18": "NOT_REQUIRED_CURRENT_GAMEPLAY"
+  }
+}

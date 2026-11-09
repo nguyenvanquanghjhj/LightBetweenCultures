@@ -1,0 +1,16 @@
+center=(0.383287, 0.608002) edge=(0.601657, 0.608002) rawAlpha=0.3853705 renderAlignedAlpha=0.3384066 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.537698, 0.813883) rawAlpha=0.4019139 renderAlignedAlpha=0.3398457 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.383287, 0.899162) rawAlpha=0.383615 renderAlignedAlpha=0.3380405 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.228876, 0.813883) rawAlpha=0.3402889 renderAlignedAlpha=0.340288 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.164917, 0.608002) rawAlpha=0.2948563 renderAlignedAlpha=0.3390966 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.228876, 0.402121) rawAlpha=0.2761434 renderAlignedAlpha=0.3381821 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.383287, 0.316842) rawAlpha=0.2939144 renderAlignedAlpha=0.339031 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.537698, 0.402121) rawAlpha=0.3404692 renderAlignedAlpha=0.3390268 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.601657, 0.608002) rawAlpha=0.3853705 renderAlignedAlpha=0.3384066 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.537698, 0.813883) rawAlpha=0.4019139 renderAlignedAlpha=0.3398457 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.383287, 0.899162) rawAlpha=0.383615 renderAlignedAlpha=0.3380405 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.228876, 0.813883) rawAlpha=0.3402889 renderAlignedAlpha=0.340288 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.164917, 0.608002) rawAlpha=0.2948563 renderAlignedAlpha=0.3390966 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.228876, 0.402121) rawAlpha=0.2761434 renderAlignedAlpha=0.3381821 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.383287, 0.316842) rawAlpha=0.2939144 renderAlignedAlpha=0.339031 expected=0.3374815
+center=(0.383287, 0.608002) edge=(0.537698, 0.402121) rawAlpha=0.3404692 renderAlignedAlpha=0.3390268 expected=0.3374815

@@ -1,0 +1,47 @@
+UTC run: 2026-10-23T09:44:18.7778155Z | Unity 6000.6.5f1 | 540x960
+PASS: All six cities / 133 canonical nodes are loaded
+PASS: Runtime and map artwork exist: da_lat
+PASS: Fresh save cannot bypass world unlock: da_lat
+PASS: Runtime and map artwork exist: gyeongju
+PASS: Fresh save cannot bypass world unlock: gyeongju
+PASS: Runtime and map artwork exist: hoi_an
+PASS: Runtime and map artwork exist: hue
+PASS: Fresh save cannot bypass world unlock: hue
+PASS: Runtime and map artwork exist: jeonju
+PASS: Fresh save cannot bypass world unlock: jeonju
+PASS: Runtime and map artwork exist: seoul
+PASS: Fresh save cannot bypass world unlock: seoul
+PASS: Locked destinations explain actual prerequisite cities
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Own map art rendered: da_lat
+PASS: Correct node count: da_lat
+PASS: Arrival guidance names a visible actionable place: da_lat / Gặp Người dẫn đường Lan tại Người dẫn đường Lan.
+PASS: Two existing cultural activities retained: da_lat
+PASS: Goal, place and known requirements appear together: da_lat
+PASS: One optional hint expansion, no extra location-only page: da_lat
+PASS: Guidance read/close grants and consumes nothing: da_lat
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Own map art rendered: gyeongju
+PASS: Correct node count: gyeongju
+PASS: Arrival guidance names a visible actionable place: gyeongju / Gặp Hướng dẫn viên Min tại Nhà khảo cổ Min.
+PASS: Two existing cultural activities retained: gyeongju
+PASS: Goal, place and known requirements appear together: gyeongju
+PASS: One optional hint expansion, no extra location-only page: gyeongju
+PASS: Guidance read/close grants and consumes nothing: gyeongju
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LightBetweenCultures.GameplaySmokeRunner+<FinalUXJourney>d__66.MoveNext () [0x003d9] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.FinalUX.cs:39 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__290.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

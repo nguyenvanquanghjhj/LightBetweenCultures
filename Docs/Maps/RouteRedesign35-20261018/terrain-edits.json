@@ -1,0 +1,1532 @@
+{
+  "coordinateSystem": "original canonical pixels, origin top-left,1448x1086; these are walk anchors/waypoints, never canonical node positions",
+  "edges": [
+    {
+      "cityId": "hoi_an",
+      "edgeId": "H0__H1",
+      "pixels": [
+        [
+          357,
+          813
+        ],
+        [
+          352,
+          786
+        ],
+        [
+          371,
+          773
+        ],
+        [
+          395,
+          762
+        ],
+        [
+          419,
+          750
+        ],
+        [
+          462,
+          758
+        ],
+        [
+          503,
+          763
+        ],
+        [
+          547,
+          761
+        ],
+        [
+          586,
+          751
+        ],
+        [
+          616,
+          736
+        ],
+        [
+          639,
+          720
+        ],
+        [
+          640,
+          695
+        ],
+        [
+          640,
+          670
+        ],
+        [
+          630,
+          638
+        ],
+        [
+          624,
+          624
+        ],
+        [
+          629,
+          603
+        ],
+        [
+          636,
+          581
+        ],
+        [
+          633,
+          575
+        ],
+        [
+          616,
+          574
+        ],
+        [
+          579,
+          558
+        ],
+        [
+          542,
+          546
+        ],
+        [
+          501,
+          534
+        ],
+        [
+          459,
+          522
+        ],
+        [
+          420,
+          518
+        ],
+        [
+          397,
+          516
+        ],
+        [
+          375,
+          515
+        ],
+        [
+          359,
+          514
+        ],
+        [
+          355,
+          503
+        ]
+      ],
+      "reason": "West open bridge: old lower-edge arc sat below the deck/rail; follow visible paving, preserve stairs and all covered-bridge routes."
+    },
+    {
+      "cityId": "hoi_an",
+      "edgeId": "H1__H4",
+      "pixels": [
+        [
+          355,
+          503
+        ],
+        [
+          359,
+          514
+        ],
+        [
+          375,
+          515
+        ],
+        [
+          397,
+          516
+        ],
+        [
+          420,
+          518
+        ],
+        [
+          459,
+          522
+        ],
+        [
+          501,
+          534
+        ],
+        [
+          542,
+          546
+        ],
+        [
+          579,
+          558
+        ],
+        [
+          616,
+          574
+        ],
+        [
+          633,
+          575
+        ],
+        [
+          636,
+          581
+        ],
+        [
+          629,
+          603
+        ],
+        [
+          624,
+          624
+        ],
+        [
+          630,
+          638
+        ],
+        [
+          640,
+          670
+        ],
+        [
+          640,
+          695
+        ],
+        [
+          639,
+          720
+        ],
+        [
+          616,
+          736
+        ],
+        [
+          586,
+          751
+        ],
+        [
+          547,
+          761
+        ],
+        [
+          503,
+          763
+        ],
+        [
+          462,
+          758
+        ],
+        [
+          419,
+          750
+        ],
+        [
+          395,
+          747
+        ],
+        [
+          369,
+          741
+        ],
+        [
+          347,
+          734
+        ],
+        [
+          328,
+          727
+        ]
+      ],
+      "reason": "Same west open-bridge deck in reverse, shared geometry instead of two displaced traces."
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U4__U12",
+      "pixels": [
+        [
+          850,
+          452
+        ],
+        [
+          815,
+          437
+        ],
+        [
+          780,
+          421
+        ],
+        [
+          743,
+          411
+        ],
+        [
+          700,
+          402
+        ],
+        [
+          656,
+          391
+        ],
+        [
+          610,
+          383
+        ],
+        [
+          565,
+          374
+        ],
+        [
+          520,
+          364
+        ],
+        [
+          472,
+          352
+        ]
+      ],
+      "reason": "Outside river embankment paving below closed citadel wall, avoid willow trunks/wall coping."
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U5__U6",
+      "pixels": [
+        [
+          876,
+          389
+        ],
+        [
+          881,
+          374
+        ],
+        [
+          885,
+          352
+        ],
+        [
+          890,
+          328
+        ],
+        [
+          888,
+          314
+        ]
+      ],
+      "reason": "Existing main-gate arch passage, approach and emerge on the same axis; never cross a sealed side wall."
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U6__U7",
+      "pixels": [
+        [
+          904,
+          300
+        ],
+        [
+          923,
+          296
+        ],
+        [
+          939,
+          289
+        ],
+        [
+          950,
+          282
+        ],
+        [
+          968,
+          277
+        ],
+        [
+          988,
+          277
+        ],
+        [
+          1010,
+          275
+        ],
+        [
+          1030,
+          271
+        ],
+        [
+          1049,
+          260
+        ],
+        [
+          1069,
+          247
+        ],
+        [
+          1090,
+          240
+        ]
+      ],
+      "reason": "Climb visible pavilion front stairs and walk along podium frontage to east courtyard; avoid both roof and southern lotus pond."
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U6__U18",
+      "pixels": [
+        [
+          904,
+          300
+        ],
+        [
+          923,
+          296
+        ],
+        [
+          939,
+          289
+        ],
+        [
+          950,
+          282
+        ],
+        [
+          968,
+          277
+        ]
+      ],
+      "reason": "Use same paved pavilion frontage, then entrance steps. Shared-ground vertices unified after crossing audit; do not weave near-parallel traces."
+    },
+    {
+      "cityId": "da_lat",
+      "edgeId": "D3__D2",
+      "pixels": [
+        [
+          656,
+          498
+        ],
+        [
+          677,
+          493
+        ],
+        [
+          698,
+          488
+        ],
+        [
+          718,
+          489
+        ]
+      ],
+      "reason": "Pull shoreline chord onto paved upper bank, clear of water and retaining edge."
+    },
+    {
+      "cityId": "da_lat",
+      "edgeId": "D1__D20",
+      "pixels": [
+        [
+          907,
+          288
+        ],
+        [
+          908,
+          308
+        ],
+        [
+          930,
+          317
+        ],
+        [
+          950,
+          329
+        ],
+        [
+          970,
+          342
+        ],
+        [
+          995,
+          350
+        ],
+        [
+          1020,
+          360
+        ],
+        [
+          1040,
+          367
+        ],
+        [
+          1060,
+          376
+        ],
+        [
+          1080,
+          385
+        ],
+        [
+          1095,
+          400
+        ],
+        [
+          1116,
+          426
+        ],
+        [
+          1115,
+          442
+        ],
+        [
+          1100,
+          461
+        ],
+        [
+          1073,
+          476
+        ],
+        [
+          1041,
+          484
+        ],
+        [
+          1005,
+          484
+        ],
+        [
+          973,
+          480
+        ],
+        [
+          947,
+          476
+        ]
+      ],
+      "reason": "Walk above lake retaining wall, around eastern bank to central bridge. Rejected first proposal because it followed wall face/water below paving."
+    },
+    {
+      "cityId": "da_lat",
+      "edgeId": "D20__D13",
+      "pixels": [
+        [
+          947,
+          476
+        ],
+        [
+          973,
+          480
+        ],
+        [
+          1005,
+          484
+        ],
+        [
+          1041,
+          484
+        ],
+        [
+          1073,
+          476
+        ],
+        [
+          1090,
+          490
+        ],
+        [
+          1112,
+          512
+        ],
+        [
+          1134,
+          528
+        ],
+        [
+          1153,
+          531
+        ],
+        [
+          1174,
+          518
+        ]
+      ],
+      "reason": "Central bridge deck to east garden steps/paved frontage, bend around flower beds. Shared-ground vertices unified after crossing audit; do not weave near-parallel traces."
+    },
+    {
+      "cityId": "da_lat",
+      "edgeId": "D10__D15",
+      "pixels": [
+        [
+          647,
+          812
+        ],
+        [
+          678,
+          814
+        ],
+        [
+          713,
+          812
+        ],
+        [
+          750,
+          809
+        ],
+        [
+          787,
+          811
+        ],
+        [
+          821,
+          815
+        ],
+        [
+          850,
+          817
+        ],
+        [
+          880,
+          816
+        ],
+        [
+          910,
+          812
+        ],
+        [
+          938,
+          806
+        ]
+      ],
+      "reason": "Southern stone bridge: align entry/deck/exit along actual curved parapets, not water-side straight chord."
+    },
+    {
+      "cityId": "da_lat",
+      "edgeId": "D7__D8",
+      "pixels": [
+        [
+          535,
+          389
+        ],
+        [
+          511,
+          403
+        ],
+        [
+          482,
+          420
+        ],
+        [
+          452,
+          426
+        ],
+        [
+          424,
+          421
+        ]
+      ],
+      "reason": "Small-house frontage through church forecourt/steps, avoid rooftop line."
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J1__J3",
+      "pixels": [
+        [
+          640,
+          485
+        ],
+        [
+          610,
+          486
+        ],
+        [
+          580,
+          480
+        ],
+        [
+          550,
+          467
+        ],
+        [
+          520,
+          458
+        ],
+        [
+          490,
+          447
+        ]
+      ],
+      "reason": "Circle south/west around central tree plaza, then market frontage, not hanok roofs."
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J16__J3",
+      "pixels": [
+        [
+          622,
+          581
+        ],
+        [
+          632,
+          565
+        ],
+        [
+          638,
+          544
+        ],
+        [
+          641,
+          524
+        ],
+        [
+          633,
+          507
+        ],
+        [
+          610,
+          486
+        ],
+        [
+          580,
+          480
+        ],
+        [
+          550,
+          467
+        ],
+        [
+          520,
+          458
+        ],
+        [
+          490,
+          447
+        ]
+      ],
+      "reason": "Main street from canal bridge to plaza frontage, shares physical street but keeps gameplay edges distinct."
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J3__J8",
+      "pixels": [
+        [
+          446,
+          449
+        ],
+        [
+          418,
+          448
+        ],
+        [
+          391,
+          448
+        ],
+        [
+          370,
+          452
+        ],
+        [
+          351,
+          466
+        ]
+      ],
+      "reason": "Market front paving to visible bridge approach instead of diagonally through hanok."
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J3__J4",
+      "pixels": [
+        [
+          500,
+          444
+        ],
+        [
+          536,
+          431
+        ],
+        [
+          565,
+          414
+        ],
+        [
+          590,
+          395
+        ],
+        [
+          613,
+          378
+        ],
+        [
+          625,
+          355
+        ],
+        [
+          627,
+          325
+        ]
+      ],
+      "reason": "Follow open north plaza axis around shop block to upper gateway."
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J4__J7",
+      "pixels": [
+        [
+          600,
+          286
+        ],
+        [
+          570,
+          281
+        ],
+        [
+          538,
+          275
+        ],
+        [
+          510,
+          273
+        ]
+      ],
+      "reason": "Along upper courtyard frontage, below the eaves."
+    },
+    {
+      "cityId": "gyeongju",
+      "edgeId": "G12__G13",
+      "pixels": [
+        [
+          919,
+          700
+        ],
+        [
+          944,
+          700
+        ],
+        [
+          967,
+          690
+        ],
+        [
+          989,
+          684
+        ],
+        [
+          1012,
+          685
+        ],
+        [
+          1032,
+          693
+        ],
+        [
+          1057,
+          701
+        ],
+        [
+          1082,
+          703
+        ]
+      ],
+      "reason": "Follow real red arch bridge deck from south bank to east bank, not across pond above bridge."
+    },
+    {
+      "cityId": "gyeongju",
+      "edgeId": "G0__G1",
+      "pixels": [
+        [
+          595,
+          913
+        ],
+        [
+          610,
+          891
+        ],
+        [
+          625,
+          878
+        ],
+        [
+          633,
+          856
+        ],
+        [
+          640,
+          835
+        ],
+        [
+          649,
+          811
+        ],
+        [
+          661,
+          785
+        ]
+      ],
+      "reason": "Use visible central south-gate arch and straight stone causeway, rather than roof wing."
+    },
+    {
+      "cityId": "gyeongju",
+      "edgeId": "G16__G12",
+      "pixels": [
+        [
+          709,
+          891
+        ],
+        [
+          682,
+          895
+        ],
+        [
+          655,
+          894
+        ],
+        [
+          628,
+          883
+        ],
+        [
+          635,
+          858
+        ],
+        [
+          642,
+          835
+        ],
+        [
+          649,
+          811
+        ],
+        [
+          661,
+          785
+        ],
+        [
+          674,
+          765
+        ],
+        [
+          689,
+          724
+        ],
+        [
+          718,
+          672
+        ],
+        [
+          751,
+          635
+        ],
+        [
+          775,
+          648
+        ],
+        [
+          795,
+          667
+        ],
+        [
+          821,
+          680
+        ],
+        [
+          846,
+          690
+        ],
+        [
+          872,
+          696
+        ]
+      ],
+      "reason": "Reach south-bank footpath via central stone causeway; replace final dive into pond. Passage under south gate is architectural, not water walking."
+    },
+    {
+      "cityId": "gyeongju",
+      "edgeId": "G10__G18",
+      "pixels": [
+        [
+          1144,
+          214
+        ],
+        [
+          1146,
+          229
+        ],
+        [
+          1150,
+          244
+        ]
+      ],
+      "reason": "Small bend follows stair landing instead of cutting corner vegetation."
+    },
+    {
+      "cityId": "seoul",
+      "edgeId": "S2__S3",
+      "pixels": [
+        [
+          412,
+          354
+        ],
+        [
+          389,
+          347
+        ],
+        [
+          371,
+          333
+        ],
+        [
+          374,
+          313
+        ],
+        [
+          381,
+          291
+        ],
+        [
+          387,
+          273
+        ],
+        [
+          393,
+          253
+        ]
+      ],
+      "reason": "Palace public approach through visible front/inner gateway, not diagonal sealed side wall."
+    },
+    {
+      "cityId": "seoul",
+      "edgeId": "S3__S17",
+      "pixels": [
+        [
+          393,
+          253
+        ],
+        [
+          387,
+          273
+        ],
+        [
+          381,
+          291
+        ],
+        [
+          374,
+          313
+        ],
+        [
+          371,
+          333
+        ],
+        [
+          389,
+          347
+        ],
+        [
+          421,
+          359
+        ],
+        [
+          465,
+          351
+        ],
+        [
+          510,
+          336
+        ],
+        [
+          550,
+          323
+        ],
+        [
+          583,
+          334
+        ],
+        [
+          620,
+          356
+        ],
+        [
+          650,
+          370
+        ]
+      ],
+      "reason": "Exit palace by actual gateway, follow public forecourt to monument; keep independent gameplay connection."
+    },
+    {
+      "cityId": "seoul",
+      "edgeId": "S1__S6",
+      "pixels": [
+        [
+          890,
+          613
+        ],
+        [
+          925,
+          629
+        ],
+        [
+          965,
+          649
+        ],
+        [
+          1005,
+          672
+        ],
+        [
+          1045,
+          693
+        ],
+        [
+          1085,
+          715
+        ],
+        [
+          1115,
+          734
+        ]
+      ],
+      "reason": "North-bank roadside/park promenade below towers, clear of building footprint."
+    },
+    {
+      "cityId": "da_lat",
+      "edgeId": "D8__D9",
+      "pixels": [
+        [
+          369,
+          407
+        ],
+        [
+          345,
+          401
+        ],
+        [
+          321,
+          393
+        ],
+        [
+          294,
+          385
+        ],
+        [
+          270,
+          375
+        ],
+        [
+          246,
+          362
+        ],
+        [
+          227,
+          345
+        ],
+        [
+          220,
+          325
+        ],
+        [
+          225,
+          304
+        ],
+        [
+          240,
+          282
+        ],
+        [
+          238,
+          262
+        ]
+      ],
+      "reason": "Follow west church forecourt and waterfall-side winding path; remove old diagonal through church tower/roof."
+    },
+    {
+      "cityId": "da_lat",
+      "edgeId": "D8__D19",
+      "pixels": [
+        [
+          369,
+          407
+        ],
+        [
+          345,
+          401
+        ],
+        [
+          321,
+          393
+        ],
+        [
+          294,
+          385
+        ],
+        [
+          270,
+          375
+        ],
+        [
+          246,
+          362
+        ],
+        [
+          227,
+          345
+        ],
+        [
+          220,
+          325
+        ],
+        [
+          225,
+          304
+        ],
+        [
+          240,
+          282
+        ],
+        [
+          238,
+          262
+        ],
+        [
+          232,
+          245
+        ],
+        [
+          230,
+          229
+        ],
+        [
+          242,
+          210
+        ],
+        [
+          260,
+          194
+        ],
+        [
+          281,
+          181
+        ]
+      ],
+      "reason": "Follow west church forecourt and waterfall-side winding path; remove old diagonal through church tower/roof."
+    },
+    {
+      "cityId": "da_lat",
+      "edgeId": "D20__D15",
+      "reason": "Use identical central-bridge/east-garden physical corridor before diverging; no gameplay edge merge. Shared-ground vertices unified after crossing audit; do not weave near-parallel traces.",
+      "pixels": [
+        [
+          947,
+          476
+        ],
+        [
+          973,
+          480
+        ],
+        [
+          1005,
+          484
+        ],
+        [
+          1041,
+          484
+        ],
+        [
+          1073,
+          476
+        ],
+        [
+          1090,
+          490
+        ],
+        [
+          1112,
+          512
+        ],
+        [
+          1134,
+          528
+        ],
+        [
+          1153,
+          531
+        ],
+        [
+          1174,
+          518
+        ],
+        [
+          1182,
+          505
+        ],
+        [
+          1188,
+          537
+        ],
+        [
+          1201,
+          567
+        ],
+        [
+          1209,
+          600
+        ],
+        [
+          1200,
+          645
+        ],
+        [
+          1186,
+          672
+        ],
+        [
+          1174,
+          705
+        ],
+        [
+          1167,
+          741
+        ],
+        [
+          1140,
+          760
+        ],
+        [
+          1100,
+          771
+        ],
+        [
+          1062,
+          781
+        ],
+        [
+          1024,
+          793
+        ]
+      ]
+    },
+    {
+      "cityId": "da_lat",
+      "edgeId": "D6__D7",
+      "reason": "Use identical central-bridge/east-garden physical corridor before diverging; no gameplay edge merge. Shared-ground vertices unified after crossing audit; do not weave near-parallel traces.",
+      "pixels": [
+        [
+          344,
+          492
+        ],
+        [
+          371,
+          508
+        ],
+        [
+          399,
+          523
+        ],
+        [
+          413,
+          502
+        ],
+        [
+          440,
+          486
+        ],
+        [
+          469,
+          467
+        ],
+        [
+          497,
+          452
+        ],
+        [
+          519,
+          433
+        ],
+        [
+          511,
+          403
+        ],
+        [
+          535,
+          389
+        ]
+      ]
+    }
+  ],
+  "arrivals": [
+    {
+      "cityId": "hue",
+      "nodeId": "U12",
+      "pixel": [
+        420,
+        350
+      ],
+      "reason": "Keep canonical node on willow landmark; ground arrival on visible river-side promenade below wall, not foliage."
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D7",
+      "pixel": [
+        559,
+        377
+      ],
+      "reason": "Ground in front of small house, preserve original roof/landmark marker."
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D8",
+      "pixel": [
+        391,
+        410
+      ],
+      "reason": "Ground at bottom of visible church steps, keep canonical marker unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J3",
+      "pixel": [
+        470,
+        442
+      ],
+      "reason": "Place Lumi on market frontage south of roof; canonical marker position remains 440,396."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J7",
+      "pixel": [
+        486,
+        276
+      ],
+      "reason": "Ground below cottage front eave, retain marker and NPC identity."
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G12",
+      "pixel": [
+        896,
+        690
+      ],
+      "reason": "Old arrival875,653 is blue water; south-bank paving before red arch bridge is walkable."
+    }
+  ],
+  "coveredPassages": [
+    {
+      "cityId": "hue",
+      "id": "hue.main_gate_passage",
+      "pixels": [
+        [
+          864,
+          355
+        ],
+        [
+          891,
+          345
+        ],
+        [
+          916,
+          360
+        ],
+        [
+          921,
+          377
+        ],
+        [
+          894,
+          390
+        ],
+        [
+          873,
+          384
+        ]
+      ],
+      "reason": "Roof volume above visible main gate arch; not a mask for closed-wall shortcuts."
+    },
+    {
+      "cityId": "gyeongju",
+      "id": "gyeongju.south_gate",
+      "pixels": [
+        [
+          550,
+          823
+        ],
+        [
+          625,
+          799
+        ],
+        [
+          721,
+          821
+        ],
+        [
+          738,
+          850
+        ],
+        [
+          680,
+          859
+        ],
+        [
+          620,
+          864
+        ],
+        [
+          561,
+          850
+        ]
+      ],
+      "reason": "Visible south-gate entrance/exit on central causeway; roof hides real passage."
+    },
+    {
+      "cityId": "seoul",
+      "id": "seoul.palace_front_gate",
+      "pixels": [
+        [
+          345,
+          292
+        ],
+        [
+          374,
+          281
+        ],
+        [
+          413,
+          291
+        ],
+        [
+          415,
+          311
+        ],
+        [
+          390,
+          325
+        ],
+        [
+          359,
+          316
+        ]
+      ],
+      "reason": "Actual palace gate roof on central entrance axis, only masks gateway passage."
+    },
+    {
+      "cityId": "gyeongju",
+      "id": "gyeongju.middle_gate",
+      "pixels": [
+        [
+          675,
+          650
+        ],
+        [
+          729,
+          626
+        ],
+        [
+          791,
+          647
+        ],
+        [
+          797,
+          667
+        ],
+        [
+          750,
+          678
+        ],
+        [
+          700,
+          674
+        ]
+      ],
+      "reason": "Existing open red gate on central stone causeway, roof above actual through-passage."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "profile": "editor-runtime",
+    "exitCode": 0,
+    "kind": "OFFLINE_COMPILE_ONLY_NOT_PLAYER_BUILD"
+  },
+  {
+    "profile": "windows-development",
+    "exitCode": 0,
+    "kind": "OFFLINE_COMPILE_ONLY_NOT_PLAYER_BUILD"
+  },
+  {
+    "profile": "android-development",
+    "exitCode": 0,
+    "kind": "OFFLINE_COMPILE_ONLY_NOT_PLAYER_BUILD"
+  },
+  {
+    "profile": "windows-release",
+    "exitCode": 0,
+    "kind": "OFFLINE_COMPILE_ONLY_NOT_PLAYER_BUILD"
+  },
+  {
+    "profile": "android-release",
+    "exitCode": 0,
+    "kind": "OFFLINE_COMPILE_ONLY_NOT_PLAYER_BUILD"
+  },
+  {
+    "profile": "editor-tools",
+    "exitCode": 0,
+    "kind": "OFFLINE_COMPILE_ONLY_NOT_PLAYER_BUILD"
+  }
+]

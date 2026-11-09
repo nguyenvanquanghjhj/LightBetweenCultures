@@ -1,0 +1,21 @@
+{
+  "dateLocal": "2026-10-25",
+  "timezone": "Asia/Bangkok",
+  "status": "PARTIAL_NOT_FULL_GAME_PASS",
+  "runs": 23,
+  "rawPass": 16,
+  "rawFail": 7,
+  "helperPassLines": 4344,
+  "staticGroups": 35,
+  "staticFailed": 0,
+  "sourceUnchanged": true,
+  "ownerSaveUnchanged": true,
+  "android": "BLOCKED_NO_ADB_DEVICE",
+  "report": "D:\\GAMEKKK\\LightBetweenCultures\\Docs\\QA\\FULL_GAME_20261025.md",
+  "openIssues": [
+    "Jeonju mixed-input assembly in long campaign; isolated earned retry passes",
+    "archive drag in long Korea route",
+    "WorldMap transition timeout after boss",
+    "tea runner assumes full HP on Korea-first route"
+  ]
+}

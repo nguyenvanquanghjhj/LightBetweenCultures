@@ -1,0 +1,6 @@
+{
+  "Assets/_Game/Scripts/Core/QuestManager.cs": true,
+  "Assets/_Game/Scripts/Core/SaveSystem.cs": true,
+  "Assets/_Game/Resources/Content/GameplayContent.json": true,
+  "Assets/_Game/Resources/Content/CityNavigation.json": true
+}

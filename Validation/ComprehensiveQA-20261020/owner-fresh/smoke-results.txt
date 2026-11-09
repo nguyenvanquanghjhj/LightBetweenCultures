@@ -1,0 +1,16 @@
+UTC run: 2026-10-20T14:36:57.7628041Z | Unity 6000.6.5f1 | 540x960
+PASS: H3 pickup UX starts fresh, without injected quest or items
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+System.Exception: Timed out: button EventClose
+Modal=False moving=False stage=1
+Buttons: ObjectiveHint:True:True,MarkerMotion:True:True,H3:True:True,H4:True:True,H17:False:False,H12:True:True,H13:True:True,H6:False:False,H15:False:False,Back:True:True,H16:False:False,H9:False:False,H2:True:True,H18:False:False,H8:False:False,ZoomOut:True:True,Inventory:True:True,FocusLumi:True:True,H0:True:True,MapOverview:True:True,H21:True:True,H1:True:True,ZoomIn:True:True,H20:False:False,H10:True:True,QuestJournal:True:True,H5:False:False,Interact:True:True,H11:True:True,H7:False:False,H14:False:False,H19:False:False,AudioSettings:True:True
+  at LightBetweenCultures.GameplaySmokeRunner+<Until>d__277.MoveNext () [0x001b4] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:107 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__276.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

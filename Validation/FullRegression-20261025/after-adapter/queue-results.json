@@ -1,0 +1,126 @@
+﻿[
+    {
+        "run":  "campaign-vietnam",
+        "status":  "FAIL",
+        "started":  "2026-10-25T10:01:10.1158046Z",
+        "finished":  "2026-10-25T10:06:18.6087955Z",
+        "elapsedSeconds":  308,
+        "peakWorkingSetBytes":  689717248,
+        "assertions":  1088,
+        "seed":  "",
+        "arguments":  [
+                          "--pc-full-gameplay",
+                          "--phase4-e2e=VN_FIRST"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\after-adapter\\campaign-vietnam",
+        "exitCode":  1
+    },
+    {
+        "run":  "campaign-korea",
+        "status":  "PASS",
+        "started":  "2026-10-25T10:06:18.6463302Z",
+        "finished":  "2026-10-25T10:12:29.3827688Z",
+        "elapsedSeconds":  371,
+        "peakWorkingSetBytes":  696860672,
+        "assertions":  1199,
+        "seed":  "",
+        "arguments":  [
+                          "--pc-full-gameplay",
+                          "--phase4-e2e=KOREA_FIRST"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\after-adapter\\campaign-korea",
+        "exitCode":  0
+    },
+    {
+        "run":  "campaign-korea-restart",
+        "status":  "PASS",
+        "started":  "2026-10-25T10:12:29.3968055Z",
+        "finished":  "2026-10-25T10:12:39.5000139Z",
+        "elapsedSeconds":  10,
+        "peakWorkingSetBytes":  622292992,
+        "assertions":  10,
+        "seed":  "",
+        "arguments":  [
+                          "--pc-gameplay-restart"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\after-adapter\\campaign-korea",
+        "exitCode":  0
+    },
+    {
+        "run":  "dialogue-complete-fixtures",
+        "status":  "PASS",
+        "started":  "2026-10-25T10:12:39.5148859Z",
+        "finished":  "2026-10-25T10:13:23.8966959Z",
+        "elapsedSeconds":  44,
+        "peakWorkingSetBytes":  642502656,
+        "assertions":  127,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ThreeNpc-20261024\\legacy-source.json",
+        "arguments":  [
+                          "--dialogue-release-qa",
+                          "--buttons-partial-save=D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ReleaseCandidate-20261024\\shop-partial-hoian.json",
+                          "--buttons-world-save=D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ReleaseCandidate-20261024\\focused\\RC-earned.json"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\after-adapter\\dialogue-complete-fixtures",
+        "exitCode":  0
+    },
+    {
+        "run":  "final-ux-latest-source",
+        "status":  "PASS",
+        "started":  "2026-10-25T10:13:23.9076125Z",
+        "finished":  "2026-10-25T10:14:36.4341839Z",
+        "elapsedSeconds":  73,
+        "peakWorkingSetBytes":  637583360,
+        "assertions":  373,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ThreeNpc-20261024\\legacy-source.json",
+        "arguments":  [
+                          "--final-ux-qa"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\after-adapter\\final-ux-latest-source",
+        "exitCode":  0
+    },
+    {
+        "run":  "leisure-twelve-latest-source",
+        "status":  "PASS",
+        "started":  "2026-10-25T10:14:36.4474939Z",
+        "finished":  "2026-10-25T10:16:41.3301602Z",
+        "elapsedSeconds":  125,
+        "peakWorkingSetBytes":  647081984,
+        "assertions":  211,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FinalGameplayAndroid-20261020\\leisure12\\Casual-earned-optional-lane.json",
+        "arguments":  [
+                          "--casual-runtime"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\after-adapter\\leisure-twelve-latest-source",
+        "exitCode":  0
+    },
+    {
+        "run":  "all-npc-approaches",
+        "status":  "PASS",
+        "started":  "2026-10-25T10:16:41.3426742Z",
+        "finished":  "2026-10-25T10:17:43.7736485Z",
+        "elapsedSeconds":  62,
+        "peakWorkingSetBytes":  638496768,
+        "assertions":  253,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ThreeNpc-20261024\\legacy-source.json",
+        "arguments":  [
+                          "--npc-standing-qa"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\after-adapter\\all-npc-approaches",
+        "exitCode":  0
+    },
+    {
+        "run":  "three-npc",
+        "status":  "FAIL",
+        "started":  "2026-10-25T10:17:43.7882279Z",
+        "finished":  "2026-10-25T10:18:01.9434181Z",
+        "elapsedSeconds":  18,
+        "peakWorkingSetBytes":  626208768,
+        "assertions":  12,
+        "seed":  "",
+        "arguments":  [
+                          "--three-npc-qa"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\after-adapter\\three-npc",
+        "exitCode":  1
+    }
+]

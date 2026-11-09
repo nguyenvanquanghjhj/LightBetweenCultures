@@ -1,0 +1,470 @@
+{
+    "entries": [
+        {
+            "id": "npc_engineer",
+            "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png",
+            "spriteName": "NPC_Seoul_Engineer",
+            "guid": "4f74a41c66ef3364ca044bc04afa2bcb",
+            "localId": "21300000",
+            "status": "ART_IMPORTED_PENDING_APPROVAL; NOT_CANONICAL; technical binding authorized 2026-10-18",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1086.0,
+                "height": 1448.0
+            }
+        },
+        {
+            "id": "npc_curator",
+            "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png",
+            "spriteName": "NPC_Seoul_Curator",
+            "guid": "6b7b12ad613bda14d969e359a2f08d59",
+            "localId": "21300000",
+            "status": "ART_IMPORTED_PENDING_APPROVAL; NOT_CANONICAL; technical binding authorized 2026-10-18",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1086.0,
+                "height": 1448.0
+            }
+        },
+        {
+            "id": "npc_keeper",
+            "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png",
+            "spriteName": "NPC_Gyeongju_Keeper",
+            "guid": "880215f55ae56f2418894f7baed7f6cb",
+            "localId": "21300000",
+            "status": "ART_IMPORTED_PENDING_APPROVAL; NOT_CANONICAL; technical binding authorized 2026-10-18",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1086.0,
+                "height": 1448.0
+            }
+        },
+        {
+            "id": "npc_inscription",
+            "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png",
+            "spriteName": "NPC_Gyeongju_Inscription",
+            "guid": "399ff7e49a026ed42b9cb627929f5b35",
+            "localId": "21300000",
+            "status": "ART_IMPORTED_PENDING_APPROVAL; NOT_CANONICAL; technical binding authorized 2026-10-18",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1086.0,
+                "height": 1448.0
+            }
+        },
+        {
+            "id": "relic_hoi_an_lantern",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png",
+            "spriteName": "relic_hoi_an_lantern",
+            "guid": "350907f3172eebd4c9340a84002a3501",
+            "localId": "1682999978",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 330.0,
+                "y": 388.0,
+                "width": 590.0,
+                "height": 866.0
+            }
+        },
+        {
+            "id": "fragment_hoi_an_bamboo_frame",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png",
+            "spriteName": "fragment_hoi_an_bamboo_frame",
+            "guid": "350907f3172eebd4c9340a84002a3501",
+            "localId": "1417245160",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 40.0,
+                "y": 9.0,
+                "width": 280.0,
+                "height": 435.0
+            }
+        },
+        {
+            "id": "fragment_hoi_an_old_flower_paper",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png",
+            "spriteName": "fragment_hoi_an_old_flower_paper",
+            "guid": "350907f3172eebd4c9340a84002a3501",
+            "localId": "1292220931",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 350.0,
+                "y": 0.0,
+                "width": 275.0,
+                "height": 404.0
+            }
+        },
+        {
+            "id": "fragment_hoi_an_roof_hook",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png",
+            "spriteName": "fragment_hoi_an_roof_hook",
+            "guid": "350907f3172eebd4c9340a84002a3501",
+            "localId": "1470368475",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 650.0,
+                "y": 24.0,
+                "width": 310.0,
+                "height": 360.0
+            }
+        },
+        {
+            "id": "fragment_hoi_an_eye_reflection",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png",
+            "spriteName": "fragment_hoi_an_eye_reflection",
+            "guid": "350907f3172eebd4c9340a84002a3501",
+            "localId": "674921884",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 960.0,
+                "y": 0.0,
+                "width": 294.0,
+                "height": 379.0
+            }
+        },
+        {
+            "id": "relic_hue_dragon_seal",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png",
+            "spriteName": "relic_hue_dragon_seal",
+            "guid": "623cab00f7d17024aa2f930ac3a1ae3d",
+            "localId": "1073214551",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 290.0,
+                "y": 429.0,
+                "width": 920.0,
+                "height": 825.0
+            }
+        },
+        {
+            "id": "fragment_hue_river_jade",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png",
+            "spriteName": "fragment_hue_river_jade",
+            "guid": "623cab00f7d17024aa2f930ac3a1ae3d",
+            "localId": "549223324",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 405.0,
+                "y": 4.0,
+                "width": 310.0,
+                "height": 410.0
+            }
+        },
+        {
+            "id": "fragment_hue_dragon_face",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png",
+            "spriteName": "fragment_hue_dragon_face",
+            "guid": "623cab00f7d17024aa2f930ac3a1ae3d",
+            "localId": "-1532298412",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 10.0,
+                "y": 24.0,
+                "width": 390.0,
+                "height": 400.0
+            }
+        },
+        {
+            "id": "fragment_hue_ritual_cord",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png",
+            "spriteName": "fragment_hue_ritual_cord",
+            "guid": "623cab00f7d17024aa2f930ac3a1ae3d",
+            "localId": "-271464348",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 660.0,
+                "y": 0.0,
+                "width": 335.0,
+                "height": 429.0
+            }
+        },
+        {
+            "id": "fragment_hue_rhythm_inscription",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png",
+            "spriteName": "fragment_hue_rhythm_inscription",
+            "guid": "623cab00f7d17024aa2f930ac3a1ae3d",
+            "localId": "641877853",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 1000.0,
+                "y": 24.0,
+                "width": 250.0,
+                "height": 350.0
+            }
+        },
+        {
+            "id": "relic_dalat_mist_compass",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png",
+            "spriteName": "relic_dalat_mist_compass",
+            "guid": "5673f2c46b03183448ec8d5c8fb67cde",
+            "localId": "196272222",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 300.0,
+                "y": 469.0,
+                "width": 755.0,
+                "height": 785.0
+            }
+        },
+        {
+            "id": "fragment_da_lat_lake_glass",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png",
+            "spriteName": "fragment_da_lat_lake_glass",
+            "guid": "5673f2c46b03183448ec8d5c8fb67cde",
+            "localId": "1004616211",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 28.0,
+                "y": 24.0,
+                "width": 382.0,
+                "height": 440.0
+            }
+        },
+        {
+            "id": "fragment_da_lat_pine_direction",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png",
+            "spriteName": "fragment_da_lat_pine_direction",
+            "guid": "5673f2c46b03183448ec8d5c8fb67cde",
+            "localId": "2018810898",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 410.0,
+                "y": 22.0,
+                "width": 280.0,
+                "height": 442.0
+            }
+        },
+        {
+            "id": "fragment_da_lat_mist_bell",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png",
+            "spriteName": "fragment_da_lat_mist_bell",
+            "guid": "5673f2c46b03183448ec8d5c8fb67cde",
+            "localId": "-1001495848",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 700.0,
+                "y": 4.0,
+                "width": 240.0,
+                "height": 470.0
+            }
+        },
+        {
+            "id": "fragment_da_lat_blue_signal_seed",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png",
+            "spriteName": "fragment_da_lat_blue_signal_seed",
+            "guid": "5673f2c46b03183448ec8d5c8fb67cde",
+            "localId": "-1860730808",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 950.0,
+                "y": 14.0,
+                "width": 304.0,
+                "height": 450.0
+            }
+        },
+        {
+            "id": "relic_jeonju_hanji_stamp",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+            "spriteName": "relic_jeonju_hanji_stamp",
+            "guid": "c05ae4c2fe3fa6b49ac9787285d03f21",
+            "localId": "1168067648",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 300.0,
+                "y": 359.0,
+                "width": 650.0,
+                "height": 895.0
+            }
+        },
+        {
+            "id": "fragment_jeonju_hanok_pattern",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+            "spriteName": "fragment_jeonju_hanok_pattern",
+            "guid": "c05ae4c2fe3fa6b49ac9787285d03f21",
+            "localId": "-1688845438",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 380.0,
+                "y": 14.0,
+                "width": 255.0,
+                "height": 390.0
+            }
+        },
+        {
+            "id": "fragment_jeonju_dyed_thread",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+            "spriteName": "fragment_jeonju_dyed_thread",
+            "guid": "c05ae4c2fe3fa6b49ac9787285d03f21",
+            "localId": "412024830",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 635.0,
+                "y": 0.0,
+                "width": 310.0,
+                "height": 404.0
+            }
+        },
+        {
+            "id": "fragment_jeonju_old_hanji_core",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+            "spriteName": "fragment_jeonju_old_hanji_core",
+            "guid": "c05ae4c2fe3fa6b49ac9787285d03f21",
+            "localId": "1835256344",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 4.0,
+                "width": 385.0,
+                "height": 420.0
+            }
+        },
+        {
+            "id": "fragment_jeonju_greeting_stamp",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+            "spriteName": "fragment_jeonju_greeting_stamp",
+            "guid": "c05ae4c2fe3fa6b49ac9787285d03f21",
+            "localId": "-366406191",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 930.0,
+                "y": 4.0,
+                "width": 324.0,
+                "height": 410.0
+            }
+        },
+        {
+            "id": "relic_gyeongju_star_lens",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+            "spriteName": "relic_gyeongju_star_lens",
+            "guid": "b1c38408f24cc5b4a84e45fff7d26a0f",
+            "localId": "1877534874",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 300.0,
+                "y": 349.0,
+                "width": 690.0,
+                "height": 905.0
+            }
+        },
+        {
+            "id": "fragment_gyeongju_min_record",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+            "spriteName": "fragment_gyeongju_min_record",
+            "guid": "b1c38408f24cc5b4a84e45fff7d26a0f",
+            "localId": "-1600110330",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 630.0,
+                "y": 9.0,
+                "width": 340.0,
+                "height": 340.0
+            }
+        },
+        {
+            "id": "fragment_gyeongju_star_stone",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+            "spriteName": "fragment_gyeongju_star_stone",
+            "guid": "b1c38408f24cc5b4a84e45fff7d26a0f",
+            "localId": "-367033317",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 30.0,
+                "y": 14.0,
+                "width": 275.0,
+                "height": 365.0
+            }
+        },
+        {
+            "id": "fragment_gyeongju_statue_reflection",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+            "spriteName": "fragment_gyeongju_statue_reflection",
+            "guid": "b1c38408f24cc5b4a84e45fff7d26a0f",
+            "localId": "-1667462288",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 980.0,
+                "y": 9.0,
+                "width": 260.0,
+                "height": 380.0
+            }
+        },
+        {
+            "id": "fragment_gyeongju_heritage_ring",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+            "spriteName": "fragment_gyeongju_heritage_ring",
+            "guid": "b1c38408f24cc5b4a84e45fff7d26a0f",
+            "localId": "-306397913",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 305.0,
+                "y": 0.0,
+                "width": 320.0,
+                "height": 429.0
+            }
+        },
+        {
+            "id": "relic_seoul_trirelay_prism",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+            "spriteName": "relic_seoul_trirelay_prism",
+            "guid": "0b39cc9d42dc56640bc206a885645080",
+            "localId": "-74045468",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 300.0,
+                "y": 374.0,
+                "width": 710.0,
+                "height": 880.0
+            }
+        },
+        {
+            "id": "fragment_seoul_relay_frame",
+            "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+            "spriteName": "fragment_seoul_relay_frame",
+            "guid": "0b39cc9d42dc56640bc206a885645080",
+            "localId": "1990054730",
+            "status": "NATIVE_CROP_TECHNICAL_IMPORT; VISUAL_REVIEW_REQUIRED",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 890.0,
+                "y": 4.0,
+                "width": 360.0,
+                "height": 425.0
+            }
+        }
+    ],
+    "existingNpcBindingsPreserved": true
+}

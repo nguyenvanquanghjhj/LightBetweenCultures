@@ -1,0 +1,513 @@
+PASS: v1 migration keeps legacy state and normalizes optional cats
+PASS: Initial isolated save committed
+PASS: Previous rescue unlocks city hoi_an
+PASS: Read-only progress query does not auto-accept hoi_an
+PASS: Accept hoi_an
+PASS: Double acceptance inert hoi_an
+PASS: Rescue before tasks blocked hoi_an
+PASS: No empty completion hoi_an_lantern
+PASS: Unknown challenge rejected hoi_an_lantern
+PASS: Remote actions rejected hoi_an_lantern
+PASS: Bad drag target/index rejected hoi_an_lantern
+PASS: Placement reports failed write hoi_an_lantern
+PASS: Partial placement rollback hoi_an_lantern
+PASS: Correct placement saved hoi_an_lantern:0
+PASS: Duplicate placement inert hoi_an_lantern:0
+PASS: Partial placement survives disk reload hoi_an_lantern
+PASS: Correct placement saved hoi_an_lantern:1
+PASS: Duplicate placement inert hoi_an_lantern:1
+PASS: Correct placement saved hoi_an_lantern:2
+PASS: Duplicate placement inert hoi_an_lantern:2
+PASS: Correct placement saved hoi_an_lantern:3
+PASS: Duplicate placement inert hoi_an_lantern:3
+PASS: Proof ready hoi_an_lantern
+PASS: Completion reports failed write hoi_an_lantern
+PASS: Completion rollback keeps earlier progress hoi_an_lantern
+PASS: Complete exactly once hoi_an_lantern
+PASS: No empty completion hoi_an_bridge
+PASS: Unknown challenge rejected hoi_an_bridge
+PASS: Remote actions rejected hoi_an_bridge
+PASS: Wrong/invalid answer preserves retry hoi_an_bridge
+PASS: Correct choice reports failed write hoi_an_bridge
+PASS: Choice rolls back failed disk commit hoi_an_bridge
+PASS: Correct choice persists hoi_an_bridge
+PASS: Proof ready hoi_an_bridge
+PASS: Completion reports failed write hoi_an_bridge
+PASS: Completion rollback keeps earlier progress hoi_an_bridge
+PASS: Complete exactly once hoi_an_bridge
+PASS: No empty completion hoi_an_food
+PASS: Unknown challenge rejected hoi_an_food
+PASS: Remote actions rejected hoi_an_food
+PASS: Bad drag target/index rejected hoi_an_food
+PASS: Placement reports failed write hoi_an_food
+PASS: Partial placement rollback hoi_an_food
+PASS: Correct placement saved hoi_an_food:0
+PASS: Duplicate placement inert hoi_an_food:0
+PASS: Partial placement survives disk reload hoi_an_food
+PASS: Correct placement saved hoi_an_food:1
+PASS: Duplicate placement inert hoi_an_food:1
+PASS: Correct placement saved hoi_an_food:2
+PASS: Duplicate placement inert hoi_an_food:2
+PASS: Proof ready hoi_an_food
+PASS: Completion reports failed write hoi_an_food
+PASS: Completion rollback keeps earlier progress hoi_an_food
+PASS: Complete exactly once hoi_an_food
+PASS: No empty completion hoi_an_river
+PASS: Unknown challenge rejected hoi_an_river
+PASS: Remote actions rejected hoi_an_river
+PASS: Wrong/invalid answer preserves retry hoi_an_river
+PASS: Correct choice reports failed write hoi_an_river
+PASS: Choice rolls back failed disk commit hoi_an_river
+PASS: Correct choice persists hoi_an_river
+PASS: Proof ready hoi_an_river
+PASS: Completion reports failed write hoi_an_river
+PASS: Completion rollback keeps earlier progress hoi_an_river
+PASS: Complete exactly once hoi_an_river
+PASS: All tasks without supplies cannot rescue hoi_an
+PASS: Remote supply blocked hoi_an_basket
+PASS: Supply unique hoi_an_basket
+PASS: Remote supply blocked hoi_an_lantern
+PASS: Supply unique hoi_an_lantern
+PASS: Remote supply blocked hoi_an_rope
+PASS: Supply unique hoi_an_rope
+PASS: Final area opened only with tasks and supplies hoi_an
+PASS: Bad rescue placement rejected hoi_an
+PASS: Rescue reports failed write hoi_an
+PASS: Failed rescue rolls back cat, reward and receipt hoi_an
+PASS: Cat and coins awarded atomically hoi_an
+PASS: Reward cannot be claimed twice hoi_an
+PASS: Rescued cat survives disk reload hoi_an
+PASS: Previous rescue unlocks city hue
+PASS: Read-only progress query does not auto-accept hue
+PASS: Accept hue
+PASS: Double acceptance inert hue
+PASS: Rescue before tasks blocked hue
+PASS: No empty completion hue_heritage
+PASS: Unknown challenge rejected hue_heritage
+PASS: Remote actions rejected hue_heritage
+PASS: Bad drag target/index rejected hue_heritage
+PASS: Placement reports failed write hue_heritage
+PASS: Partial placement rollback hue_heritage
+PASS: Correct placement saved hue_heritage:0
+PASS: Duplicate placement inert hue_heritage:0
+PASS: Partial placement survives disk reload hue_heritage
+PASS: Correct placement saved hue_heritage:1
+PASS: Duplicate placement inert hue_heritage:1
+PASS: Correct placement saved hue_heritage:2
+PASS: Duplicate placement inert hue_heritage:2
+PASS: Proof ready hue_heritage
+PASS: Completion reports failed write hue_heritage
+PASS: Completion rollback keeps earlier progress hue_heritage
+PASS: Complete exactly once hue_heritage
+PASS: No empty completion hue_food
+PASS: Unknown challenge rejected hue_food
+PASS: Remote actions rejected hue_food
+PASS: Bad drag target/index rejected hue_food
+PASS: Placement reports failed write hue_food
+PASS: Partial placement rollback hue_food
+PASS: Correct placement saved hue_food:0
+PASS: Duplicate placement inert hue_food:0
+PASS: Partial placement survives disk reload hue_food
+PASS: Correct placement saved hue_food:1
+PASS: Duplicate placement inert hue_food:1
+PASS: Correct placement saved hue_food:2
+PASS: Duplicate placement inert hue_food:2
+PASS: Proof ready hue_food
+PASS: Completion reports failed write hue_food
+PASS: Completion rollback keeps earlier progress hue_food
+PASS: Complete exactly once hue_food
+PASS: No empty completion hue_music
+PASS: Unknown challenge rejected hue_music
+PASS: Remote actions rejected hue_music
+PASS: Wrong/invalid answer preserves retry hue_music
+PASS: Correct choice reports failed write hue_music
+PASS: Choice rolls back failed disk commit hue_music
+PASS: Correct choice persists hue_music
+PASS: Proof ready hue_music
+PASS: Completion reports failed write hue_music
+PASS: Completion rollback keeps earlier progress hue_music
+PASS: Complete exactly once hue_music
+PASS: No empty completion hue_river
+PASS: Unknown challenge rejected hue_river
+PASS: Remote actions rejected hue_river
+PASS: Maze cannot teleport or leave board hue_river
+PASS: First maze segment saved hue_river
+PASS: Maze retry resets only current path hue_river
+PASS: Adjacent maze segment hue_river:1
+PASS: Adjacent maze segment hue_river:2
+PASS: Adjacent maze segment hue_river:7
+PASS: Adjacent maze segment hue_river:12
+PASS: Adjacent maze segment hue_river:11
+PASS: Adjacent maze segment hue_river:10
+PASS: Adjacent maze segment hue_river:15
+PASS: Adjacent maze segment hue_river:20
+PASS: Adjacent maze segment hue_river:21
+PASS: Adjacent maze segment hue_river:22
+PASS: Adjacent maze segment hue_river:23
+PASS: Adjacent maze segment hue_river:24
+PASS: Proof ready hue_river
+PASS: Completion reports failed write hue_river
+PASS: Completion rollback keeps earlier progress hue_river
+PASS: Complete exactly once hue_river
+PASS: All tasks without supplies cannot rescue hue
+PASS: Remote supply blocked hue_boat
+PASS: Supply unique hue_boat
+PASS: Remote supply blocked hue_vest
+PASS: Supply unique hue_vest
+PASS: Remote supply blocked hue_blanket
+PASS: Supply unique hue_blanket
+PASS: Final area opened only with tasks and supplies hue
+PASS: Bad rescue placement rejected hue
+PASS: Rescue reports failed write hue
+PASS: Failed rescue rolls back cat, reward and receipt hue
+PASS: Cat and coins awarded atomically hue
+PASS: Reward cannot be claimed twice hue
+PASS: Rescued cat survives disk reload hue
+PASS: Previous rescue unlocks city da_lat
+PASS: Read-only progress query does not auto-accept da_lat
+PASS: Accept da_lat
+PASS: Double acceptance inert da_lat
+PASS: Rescue before tasks blocked da_lat
+PASS: No empty completion da_lat_flowers
+PASS: Unknown challenge rejected da_lat_flowers
+PASS: Remote actions rejected da_lat_flowers
+PASS: Hidden distractor and bad index rejected da_lat_flowers
+PASS: Hidden proof unique da_lat_flowers:0
+PASS: Hidden proof unique da_lat_flowers:1
+PASS: Hidden proof unique da_lat_flowers:2
+PASS: Proof ready da_lat_flowers
+PASS: Completion reports failed write da_lat_flowers
+PASS: Completion rollback keeps earlier progress da_lat_flowers
+PASS: Complete exactly once da_lat_flowers
+PASS: No empty completion da_lat_food
+PASS: Unknown challenge rejected da_lat_food
+PASS: Remote actions rejected da_lat_food
+PASS: Bad drag target/index rejected da_lat_food
+PASS: Placement reports failed write da_lat_food
+PASS: Partial placement rollback da_lat_food
+PASS: Correct placement saved da_lat_food:0
+PASS: Duplicate placement inert da_lat_food:0
+PASS: Partial placement survives disk reload da_lat_food
+PASS: Correct placement saved da_lat_food:1
+PASS: Duplicate placement inert da_lat_food:1
+PASS: Correct placement saved da_lat_food:2
+PASS: Duplicate placement inert da_lat_food:2
+PASS: Proof ready da_lat_food
+PASS: Completion reports failed write da_lat_food
+PASS: Completion rollback keeps earlier progress da_lat_food
+PASS: Complete exactly once da_lat_food
+PASS: No empty completion da_lat_station
+PASS: Unknown challenge rejected da_lat_station
+PASS: Remote actions rejected da_lat_station
+PASS: Bad drag target/index rejected da_lat_station
+PASS: Placement reports failed write da_lat_station
+PASS: Partial placement rollback da_lat_station
+PASS: Correct placement saved da_lat_station:0
+PASS: Duplicate placement inert da_lat_station:0
+PASS: Partial placement survives disk reload da_lat_station
+PASS: Correct placement saved da_lat_station:1
+PASS: Duplicate placement inert da_lat_station:1
+PASS: Correct placement saved da_lat_station:2
+PASS: Duplicate placement inert da_lat_station:2
+PASS: Correct placement saved da_lat_station:3
+PASS: Duplicate placement inert da_lat_station:3
+PASS: Proof ready da_lat_station
+PASS: Completion reports failed write da_lat_station
+PASS: Completion rollback keeps earlier progress da_lat_station
+PASS: Complete exactly once da_lat_station
+PASS: No empty completion da_lat_fog
+PASS: Unknown challenge rejected da_lat_fog
+PASS: Remote actions rejected da_lat_fog
+PASS: Maze cannot teleport or leave board da_lat_fog
+PASS: First maze segment saved da_lat_fog
+PASS: Maze retry resets only current path da_lat_fog
+PASS: Adjacent maze segment da_lat_fog:5
+PASS: Adjacent maze segment da_lat_fog:6
+PASS: Adjacent maze segment da_lat_fog:7
+PASS: Adjacent maze segment da_lat_fog:12
+PASS: Adjacent maze segment da_lat_fog:13
+PASS: Adjacent maze segment da_lat_fog:14
+PASS: Adjacent maze segment da_lat_fog:19
+PASS: Adjacent maze segment da_lat_fog:24
+PASS: Proof ready da_lat_fog
+PASS: Completion reports failed write da_lat_fog
+PASS: Completion rollback keeps earlier progress da_lat_fog
+PASS: Complete exactly once da_lat_fog
+PASS: All tasks without supplies cannot rescue da_lat
+PASS: Remote supply blocked da_lat_lamp
+PASS: Supply unique da_lat_lamp
+PASS: Remote supply blocked da_lat_bell
+PASS: Supply unique da_lat_bell
+PASS: Remote supply blocked da_lat_food
+PASS: Supply unique da_lat_food
+PASS: Final area opened only with tasks and supplies da_lat
+PASS: Bad rescue placement rejected da_lat
+PASS: Rescue reports failed write da_lat
+PASS: Failed rescue rolls back cat, reward and receipt da_lat
+PASS: Cat and coins awarded atomically da_lat
+PASS: Reward cannot be claimed twice da_lat
+PASS: Rescued cat survives disk reload da_lat
+PASS: Previous rescue unlocks city jeonju
+PASS: Read-only progress query does not auto-accept jeonju
+PASS: Accept jeonju
+PASS: Double acceptance inert jeonju
+PASS: Rescue before tasks blocked jeonju
+PASS: No empty completion jeonju_hanok
+PASS: Unknown challenge rejected jeonju_hanok
+PASS: Remote actions rejected jeonju_hanok
+PASS: Bad drag target/index rejected jeonju_hanok
+PASS: Placement reports failed write jeonju_hanok
+PASS: Partial placement rollback jeonju_hanok
+PASS: Correct placement saved jeonju_hanok:0
+PASS: Duplicate placement inert jeonju_hanok:0
+PASS: Partial placement survives disk reload jeonju_hanok
+PASS: Correct placement saved jeonju_hanok:1
+PASS: Duplicate placement inert jeonju_hanok:1
+PASS: Correct placement saved jeonju_hanok:2
+PASS: Duplicate placement inert jeonju_hanok:2
+PASS: Correct placement saved jeonju_hanok:3
+PASS: Duplicate placement inert jeonju_hanok:3
+PASS: Proof ready jeonju_hanok
+PASS: Completion reports failed write jeonju_hanok
+PASS: Completion rollback keeps earlier progress jeonju_hanok
+PASS: Complete exactly once jeonju_hanok
+PASS: No empty completion jeonju_bibimbap
+PASS: Unknown challenge rejected jeonju_bibimbap
+PASS: Remote actions rejected jeonju_bibimbap
+PASS: Bad drag target/index rejected jeonju_bibimbap
+PASS: Placement reports failed write jeonju_bibimbap
+PASS: Partial placement rollback jeonju_bibimbap
+PASS: Correct placement saved jeonju_bibimbap:0
+PASS: Duplicate placement inert jeonju_bibimbap:0
+PASS: Partial placement survives disk reload jeonju_bibimbap
+PASS: Correct placement saved jeonju_bibimbap:1
+PASS: Duplicate placement inert jeonju_bibimbap:1
+PASS: Correct placement saved jeonju_bibimbap:2
+PASS: Duplicate placement inert jeonju_bibimbap:2
+PASS: Correct placement saved jeonju_bibimbap:3
+PASS: Duplicate placement inert jeonju_bibimbap:3
+PASS: Proof ready jeonju_bibimbap
+PASS: Completion reports failed write jeonju_bibimbap
+PASS: Completion rollback keeps earlier progress jeonju_bibimbap
+PASS: Complete exactly once jeonju_bibimbap
+PASS: No empty completion jeonju_hanbok
+PASS: Unknown challenge rejected jeonju_hanbok
+PASS: Remote actions rejected jeonju_hanbok
+PASS: Bad drag target/index rejected jeonju_hanbok
+PASS: Placement reports failed write jeonju_hanbok
+PASS: Partial placement rollback jeonju_hanbok
+PASS: Correct placement saved jeonju_hanbok:0
+PASS: Duplicate placement inert jeonju_hanbok:0
+PASS: Partial placement survives disk reload jeonju_hanbok
+PASS: Correct placement saved jeonju_hanbok:1
+PASS: Duplicate placement inert jeonju_hanbok:1
+PASS: Correct placement saved jeonju_hanbok:2
+PASS: Duplicate placement inert jeonju_hanbok:2
+PASS: Hanbok needs a valid palette choice
+PASS: Palette reports failed write
+PASS: Palette rolls back failed commit
+PASS: Palette choice saved
+PASS: Palette survives disk reload
+PASS: Proof ready jeonju_hanbok
+PASS: Completion reports failed write jeonju_hanbok
+PASS: Completion rollback keeps earlier progress jeonju_hanbok
+PASS: Complete exactly once jeonju_hanbok
+PASS: No empty completion jeonju_find
+PASS: Unknown challenge rejected jeonju_find
+PASS: Remote actions rejected jeonju_find
+PASS: Hidden distractor and bad index rejected jeonju_find
+PASS: Hidden proof unique jeonju_find:0
+PASS: Hidden proof unique jeonju_find:1
+PASS: Hidden proof unique jeonju_find:2
+PASS: Proof ready jeonju_find
+PASS: Completion reports failed write jeonju_find
+PASS: Completion rollback keeps earlier progress jeonju_find
+PASS: Complete exactly once jeonju_find
+PASS: All tasks without supplies cannot rescue jeonju
+PASS: Remote supply blocked jeonju_basket
+PASS: Supply unique jeonju_basket
+PASS: Remote supply blocked jeonju_ribbon
+PASS: Supply unique jeonju_ribbon
+PASS: Remote supply blocked jeonju_food
+PASS: Supply unique jeonju_food
+PASS: Final area opened only with tasks and supplies jeonju
+PASS: Bad rescue placement rejected jeonju
+PASS: Rescue reports failed write jeonju
+PASS: Failed rescue rolls back cat, reward and receipt jeonju
+PASS: Cat and coins awarded atomically jeonju
+PASS: Reward cannot be claimed twice jeonju
+PASS: Rescued cat survives disk reload jeonju
+PASS: Previous rescue unlocks city gyeongju
+PASS: Read-only progress query does not auto-accept gyeongju
+PASS: Accept gyeongju
+PASS: Double acceptance inert gyeongju
+PASS: Rescue before tasks blocked gyeongju
+PASS: No empty completion gyeongju_stars
+PASS: Unknown challenge rejected gyeongju_stars
+PASS: Remote actions rejected gyeongju_stars
+PASS: Bad drag target/index rejected gyeongju_stars
+PASS: Placement reports failed write gyeongju_stars
+PASS: Partial placement rollback gyeongju_stars
+PASS: Correct placement saved gyeongju_stars:0
+PASS: Duplicate placement inert gyeongju_stars:0
+PASS: Partial placement survives disk reload gyeongju_stars
+PASS: Correct placement saved gyeongju_stars:1
+PASS: Duplicate placement inert gyeongju_stars:1
+PASS: Correct placement saved gyeongju_stars:2
+PASS: Duplicate placement inert gyeongju_stars:2
+PASS: Correct placement saved gyeongju_stars:3
+PASS: Duplicate placement inert gyeongju_stars:3
+PASS: Proof ready gyeongju_stars
+PASS: Completion reports failed write gyeongju_stars
+PASS: Completion rollback keeps earlier progress gyeongju_stars
+PASS: Complete exactly once gyeongju_stars
+PASS: No empty completion gyeongju_silla
+PASS: Unknown challenge rejected gyeongju_silla
+PASS: Remote actions rejected gyeongju_silla
+PASS: Bad drag target/index rejected gyeongju_silla
+PASS: Placement reports failed write gyeongju_silla
+PASS: Partial placement rollback gyeongju_silla
+PASS: Correct placement saved gyeongju_silla:0
+PASS: Duplicate placement inert gyeongju_silla:0
+PASS: Partial placement survives disk reload gyeongju_silla
+PASS: Correct placement saved gyeongju_silla:1
+PASS: Duplicate placement inert gyeongju_silla:1
+PASS: Correct placement saved gyeongju_silla:2
+PASS: Duplicate placement inert gyeongju_silla:2
+PASS: Proof ready gyeongju_silla
+PASS: Completion reports failed write gyeongju_silla
+PASS: Completion rollback keeps earlier progress gyeongju_silla
+PASS: Complete exactly once gyeongju_silla
+PASS: No empty completion gyeongju_buddhist
+PASS: Unknown challenge rejected gyeongju_buddhist
+PASS: Remote actions rejected gyeongju_buddhist
+PASS: Wrong/invalid answer preserves retry gyeongju_buddhist
+PASS: Correct choice reports failed write gyeongju_buddhist
+PASS: Choice rolls back failed disk commit gyeongju_buddhist
+PASS: Correct choice persists gyeongju_buddhist
+PASS: Proof ready gyeongju_buddhist
+PASS: Completion reports failed write gyeongju_buddhist
+PASS: Completion rollback keeps earlier progress gyeongju_buddhist
+PASS: Complete exactly once gyeongju_buddhist
+PASS: No empty completion gyeongju_map
+PASS: Unknown challenge rejected gyeongju_map
+PASS: Remote actions rejected gyeongju_map
+PASS: Maze cannot teleport or leave board gyeongju_map
+PASS: First maze segment saved gyeongju_map
+PASS: Maze retry resets only current path gyeongju_map
+PASS: Adjacent maze segment gyeongju_map:1
+PASS: Adjacent maze segment gyeongju_map:2
+PASS: Adjacent maze segment gyeongju_map:3
+PASS: Adjacent maze segment gyeongju_map:4
+PASS: Adjacent maze segment gyeongju_map:9
+PASS: Adjacent maze segment gyeongju_map:14
+PASS: Adjacent maze segment gyeongju_map:13
+PASS: Adjacent maze segment gyeongju_map:12
+PASS: Adjacent maze segment gyeongju_map:11
+PASS: Adjacent maze segment gyeongju_map:10
+PASS: Adjacent maze segment gyeongju_map:15
+PASS: Adjacent maze segment gyeongju_map:20
+PASS: Adjacent maze segment gyeongju_map:21
+PASS: Adjacent maze segment gyeongju_map:22
+PASS: Adjacent maze segment gyeongju_map:23
+PASS: Adjacent maze segment gyeongju_map:24
+PASS: Proof ready gyeongju_map
+PASS: Completion reports failed write gyeongju_map
+PASS: Completion rollback keeps earlier progress gyeongju_map
+PASS: Complete exactly once gyeongju_map
+PASS: All tasks without supplies cannot rescue gyeongju
+PASS: Remote supply blocked gyeongju_map
+PASS: Supply unique gyeongju_map
+PASS: Remote supply blocked gyeongju_lamp
+PASS: Supply unique gyeongju_lamp
+PASS: Remote supply blocked gyeongju_basket
+PASS: Supply unique gyeongju_basket
+PASS: Final area opened only with tasks and supplies gyeongju
+PASS: Bad rescue placement rejected gyeongju
+PASS: Rescue reports failed write gyeongju
+PASS: Failed rescue rolls back cat, reward and receipt gyeongju
+PASS: Cat and coins awarded atomically gyeongju
+PASS: Reward cannot be claimed twice gyeongju
+PASS: Rescued cat survives disk reload gyeongju
+PASS: Previous rescue unlocks city seoul
+PASS: Read-only progress query does not auto-accept seoul
+PASS: Accept seoul
+PASS: Double acceptance inert seoul
+PASS: Rescue before tasks blocked seoul
+PASS: No empty completion seoul_storm
+PASS: Unknown challenge rejected seoul_storm
+PASS: Remote actions rejected seoul_storm
+PASS: Hidden distractor and bad index rejected seoul_storm
+PASS: Hidden proof unique seoul_storm:0
+PASS: Hidden proof unique seoul_storm:1
+PASS: Hidden proof unique seoul_storm:2
+PASS: Proof ready seoul_storm
+PASS: Completion reports failed write seoul_storm
+PASS: Completion rollback keeps earlier progress seoul_storm
+PASS: Complete exactly once seoul_storm
+PASS: No empty completion seoul_hangul
+PASS: Unknown challenge rejected seoul_hangul
+PASS: Remote actions rejected seoul_hangul
+PASS: Bad drag target/index rejected seoul_hangul
+PASS: Placement reports failed write seoul_hangul
+PASS: Partial placement rollback seoul_hangul
+PASS: Correct placement saved seoul_hangul:0
+PASS: Duplicate placement inert seoul_hangul:0
+PASS: Partial placement survives disk reload seoul_hangul
+PASS: Correct placement saved seoul_hangul:1
+PASS: Duplicate placement inert seoul_hangul:1
+PASS: Correct placement saved seoul_hangul:2
+PASS: Duplicate placement inert seoul_hangul:2
+PASS: Proof ready seoul_hangul
+PASS: Completion reports failed write seoul_hangul
+PASS: Completion rollback keeps earlier progress seoul_hangul
+PASS: Complete exactly once seoul_hangul
+PASS: No empty completion seoul_greeting
+PASS: Unknown challenge rejected seoul_greeting
+PASS: Remote actions rejected seoul_greeting
+PASS: Wrong/invalid answer preserves retry seoul_greeting
+PASS: Correct choice reports failed write seoul_greeting
+PASS: Choice rolls back failed disk commit seoul_greeting
+PASS: Correct choice persists seoul_greeting
+PASS: Proof ready seoul_greeting
+PASS: Completion reports failed write seoul_greeting
+PASS: Completion rollback keeps earlier progress seoul_greeting
+PASS: Complete exactly once seoul_greeting
+PASS: No empty completion seoul_shelter
+PASS: Unknown challenge rejected seoul_shelter
+PASS: Remote actions rejected seoul_shelter
+PASS: Maze cannot teleport or leave board seoul_shelter
+PASS: First maze segment saved seoul_shelter
+PASS: Maze retry resets only current path seoul_shelter
+PASS: Adjacent maze segment seoul_shelter:1
+PASS: Adjacent maze segment seoul_shelter:2
+PASS: Adjacent maze segment seoul_shelter:7
+PASS: Adjacent maze segment seoul_shelter:12
+PASS: Adjacent maze segment seoul_shelter:13
+PASS: Adjacent maze segment seoul_shelter:14
+PASS: Adjacent maze segment seoul_shelter:19
+PASS: Adjacent maze segment seoul_shelter:24
+PASS: Proof ready seoul_shelter
+PASS: Completion reports failed write seoul_shelter
+PASS: Completion rollback keeps earlier progress seoul_shelter
+PASS: Complete exactly once seoul_shelter
+PASS: All tasks without supplies cannot rescue seoul
+PASS: Remote supply blocked seoul_carrier
+PASS: Supply unique seoul_carrier
+PASS: Remote supply blocked seoul_umbrella
+PASS: Supply unique seoul_umbrella
+PASS: Remote supply blocked seoul_food
+PASS: Supply unique seoul_food
+PASS: Final area opened only with tasks and supplies seoul
+PASS: Bad rescue placement rejected seoul
+PASS: Rescue reports failed write seoul
+PASS: Failed rescue rolls back cat, reward and receipt seoul
+PASS: Cat and coins awarded atomically seoul
+PASS: Reward cannot be claimed twice seoul
+PASS: Rescued cat survives disk reload seoul
+PASS: Six cats, six receipts, exact total rewards
+PASS: Rescue leaves legacy inventory, flags, quests and puzzles untouched
+PASS: Actual save backup recovers all six cats
+PASS: Recovered save commits while preserving corrupt primary evidence
+PASS: Unreadable save blocks overwrite
+ALL 512 DOMAIN CHECKS PASSED (adapter host; Unity Player NOT TESTED)

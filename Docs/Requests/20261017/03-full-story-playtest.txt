@@ -1,0 +1,170 @@
+# LBC — TRIỂN KHAI TOÀN BỘ CỐT TRUYỆN 6 THÀNH PHỐ ĐỂ PLAYTEST END-TO-END
+
+Project: `D:\GAMEKKK\LightBetweenCultures`
+
+Tôi muốn ưu tiên hoàn thiện **TOÀN BỘ NỘI DUNG CỐT TRUYỆN VÀ GAMEPLAY CỦA SÁU THÀNH PHỐ NGAY BÂY GIỜ** để có thể chơi thử từ lúc bắt đầu đến khi xem kết thúc, sau đó mới chỉnh sửa, cân bằng và đánh bóng nghệ thuật.
+
+Đọc đầy đủ file mới:
+
+`Docs/Story/FULL_STORY_PLAYTEST.md`
+
+File đã có diễn biến sáu chương, nội dung 133 node, toàn bộ 24 quest gốc, nhiệm vụ giao lưu Hội An bổ sung, lời thoại và điều kiện mở gate, vật phẩm, boss, trạm ánh sáng và kết thúc.
+
+Đối chiếu các nguồn gốc:
+
+- `LBC_Gameplay_6Cities_Detailed_v1/Docs/FULL_LEVEL_DESIGN.md`
+- `LBC_Gameplay_6Cities_Detailed_v1/Docs/QUEST_CHAINS_AND_GATES.md`
+- `LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/*.json`
+- `LBC_Gameplay_6Cities_Detailed_v1/Data/quests.json`
+- `LBC_Gameplay_6Cities_Detailed_v1/Data/world_progression.json`
+- `LBC_HoiAn_StoryExpansion_v1/Data/hoi_an_chapter.json`
+- `LBC_HoiAn_StoryExpansion_v1/Data/cross_city_food_hooks.json`
+
+Không bắt đầu lại từ đầu. Kiểm tra trạng thái Unity mới nhất, giữ mọi nhiệm vụ đã được triển khai và chạy đúng. Bổ sung những phần còn thiếu.
+
+## 1. TRIỂN KHAI ĐỦ SÁU CHƯƠNG
+
+### Hội An — H0 đến H21
+
+Giữ toàn bộ HQ01–HQ07, HA_FOOD_PREP nếu đã có, câu chuyện Cô Mai, H3, Bot Mờ-01, mật mã H19, Bà Tư, Ji-eun và H7.
+
+H7 mở Huế và Jeonju song song.
+
+Giữ nguyên boss, bot, marker dấu ! và những hình đã được người dùng duyệt.
+
+### Huế — U0 đến U21
+
+Hoàn thiện cốt truyện bức thư thất lạc, vượt sông Hương, Bà Nguyệt, học giả Lê An, thảo dược, ấn tín, thư khố U17, puzzle U8, Bot Thân Vệ U5 và trạm U19.
+
+Tích hợp HQ06: nhận hành tím Hội An tại U1, phát giấy nhắn và cập nhật quest thật.
+
+Hoàn thành U19 mới mở Đà Lạt.
+
+### Đà Lạt — D0 đến D21
+
+Triển khai Lan mất kính, Bot Giấu Kính, đường sương D8, ba phần thức ăn, chú chó D10, Bóng Sương D15, thác D16 và trạm D14.
+
+Lời thoại phải giải thích vì sao Bóng Sương bảo vệ đường đi thay vì chỉ là quái vật vô cớ.
+
+Tín hiệu `blue_water_signal` được giữ cho Seoul.
+
+### Jeonju — J0 đến J21
+
+Triển khai Hana, Park, thầy Yoon, ba hoa văn Hanji, kiện hàng thất lạc, puzzle J12, J17, trạm J19 và thư hồi âm J21.
+
+Tích hợp HQ05 tại J15, So-yeon nhận ớt Hội An và cấp thẻ món ăn một lần. Không làm mất chức năng bán hàng của J15.
+
+J19 mới mở Gyeongju.
+
+### Gyeongju — G0 đến G21
+
+Triển khai hướng dẫn viên Min, ba biểu tượng sao tại G5/G6/G10, đài G4, ấn tín từ Huế tại G12, tượng đá G7, Lõi Tinh Tú G18 và trạm G19.
+
+Phải có lựa chọn cứu/sửa tượng đá thay vì bắt buộc đánh khi thiết kế cho phép.
+
+Bảo toàn item `stargazer_lens` và các manh mối dùng tại Seoul.
+
+### Seoul — S0 đến S22
+
+Triển khai quản thủ S2, kỹ thuật viên Ji-won S7, hồ sơ và sự thật về hệ thống phòng vệ cũ.
+
+Người chơi phải tự kích hoạt:
+- Relay A S16 từ tín hiệu xanh Đà Lạt.
+- Relay B S17 từ Ấn Tín Cổ Huế.
+- Relay C S18 từ mạch giấy Hanji Jeonju.
+
+Chỉ khi đủ ba relay mới được đối mặt boss S20.
+
+Boss cuối có hai pha theo thiết kế, với lựa chọn sửa hệ thống thay vì chỉ tiêu diệt.
+
+S21 phải có epilogue, lễ hội sáu thành phố, credits và khả năng quay lại làm quest phụ.
+
+S22 có nội dung bí mật khi đủ điều kiện.
+
+## 2. TẤT CẢ 133 NODE PHẢI CÓ VAI TRÒ
+
+Mỗi node cần có một trong các vai trò:
+- Tương tác kể chuyện.
+- NPC giao/nhận quest.
+- Puzzle.
+- Encounter.
+- Nhặt vật phẩm.
+- Check-in.
+- Đường chuyển tiếp.
+- Nhánh bí mật.
+- Key gate.
+- Beacon/portal.
+
+Node chuyển tiếp có thể chỉ cần lời mô tả ngắn, nhưng phải có vai trò đường đi hợp lệ.
+
+Không được biến tất cả node thành trận chiến, cũng không được để một node đáng lẽ có quest chỉ hiện một câu “Sắp ra mắt”.
+
+Lời thoại ở những nơi còn trống đã được bổ sung trong `FULL_STORY_PLAYTEST.md`. Hãy chuyển thành dialogue runtime thực sự và bổ sung các trạng thái trước, trong, sau nhiệm vụ.
+
+Phần câu thoại bổ sung được coi là nội dung playtest có thể sửa sau, không cần dừng chờ duyệt từng câu.
+
+## 3. ƯU TIÊN GAMEPLAY HOÀN CHỈNH TRƯỚC POLISH
+
+Nếu asset NPC chưa có:
+- Tìm từ art pack và registry.
+- Dùng asset tạm phù hợp nếu cần, đánh dấu TEMPORARY.
+- Không tráo nhân vật đã có canonical.
+- Không để thiếu art khiến cốt truyện dừng triển khai.
+
+Không tự vẽ lại Map Overview A, boss, bot hoặc marker đã được người dùng duyệt.
+
+Không bắt đầu lại dự án hay tạo framework trùng.
+
+Không cần xây thêm minigame mới ngoài những gameplay đã được thiết kế nếu có thể dùng hệ puzzle và combat hiện có.
+
+## 4. CHỐNG SOFTLOCK VÀ KIỂM THỬ
+
+Các gate phải có đường giải quyết thật, không dựa vào cờ QA giả.
+
+Kiểm tra đặc biệt:
+- H19 có thể tới trước khi phải xử lý H5.
+- U5 không yêu cầu bắt buộc ấn tín U11 nếu ấn tín chỉ lấy được phía sau gate.
+- Trả kính D2 mới mở đúng tuyến sương.
+- Ba phần thức ăn cho chó có thể lấy được.
+- J11 chỉ phát hoa văn sau khi trả kiện.
+- G12 nhận đúng ấn tín Huế mà không tiêu mất vật phẩm cần tại Seoul.
+- Seoul chỉ mở khi đủ bốn trạm nhánh.
+- SQ01 hoàn thành từ ba relay thật.
+- Không có quest item cần thiết bị tiêu nhầm.
+- Không có reward phát hai lần.
+- Save/restart giữ toàn bộ tiến độ.
+- Có thể quay lại Hội An hoàn thành HQ07 và HQ03.
+
+## 5. BẮT BUỘC PLAYTEST XUYÊN SUỐT
+
+Test bằng một fresh save:
+
+Hội An → H7 → Huế → U19 → Đà Lạt → D14 → Jeonju → J19 → Gyeongju → G19 → Seoul → S16/S17/S18 → S20 → S21.
+
+Kiểm tra thêm thứ tự Jeonju trước Huế.
+
+Trong lúc chơi, hoàn thành HQ05, HQ06 và quay lại Hội An lấy thưởng HQ07.
+
+Không dùng test fixture mở toàn bộ thành phố rồi tuyên bố end-to-end PASS.
+
+Có thể dùng fixture cho kiểm thử riêng, nhưng phải phân biệt với hành trình chơi thật.
+
+## 6. BÀN GIAO
+
+Yêu cầu có:
+1. Danh sách toàn bộ 133 node, trạng thái triển khai.
+2. Danh sách toàn bộ nhiệm vụ gốc và nhiệm vụ bổ sung, đánh dấu quest thực sự hoàn thành được.
+3. Ảnh gameplay thực tế của cả sáu chương.
+4. Bằng chứng từng trạm và ba relay Seoul.
+5. Bằng chứng kết thúc S20/S21.
+6. Các lỗi cốt truyện, softlock và vật phẩm.
+7. Kết quả build, save/restart, checkpoint.
+8. Danh sách nội dung tạm cần đánh bóng sau.
+
+**KHÔNG cần dừng ở bản demo một phần nếu vẫn còn khả năng tiếp tục. Hãy triển khai toàn bộ cốt truyện qua các checkpoint theo từng thành phố.**
+
+Nếu hết quota hoặc phải dừng, lưu phần đã hoàn thành và ghi rõ phần chưa triển khai để lượt sau tiếp tục chính xác.
+
+MỤC TIÊU CUỐI CÙNG: Người chơi có thể thực sự hoàn thành cốt truyện sáu thành phố từ Hội An đến Seoul, không cần bật cheat/QA fixture, và có thể quay lại hoàn thành nhiệm vụ phụ.
+
+Chất lượng hình ảnh và UI sẽ tiếp tục được điều chỉnh sau khi vòng chơi trọn vẹn đã hoạt động.

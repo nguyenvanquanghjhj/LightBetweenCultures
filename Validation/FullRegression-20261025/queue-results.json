@@ -1,0 +1,156 @@
+﻿[
+    {
+        "run":  "three-npc",
+        "status":  "PASS",
+        "started":  "2026-10-25T08:02:12.2472464Z",
+        "finished":  "2026-10-25T08:02:44.7559067Z",
+        "elapsedSeconds":  33,
+        "peakWorkingSetBytes":  635015168,
+        "assertions":  157,
+        "seed":  "",
+        "arguments":  [
+                          "--three-npc-qa"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\three-npc",
+        "exitCode":  0
+    },
+    {
+        "run":  "three-npc-restart",
+        "status":  "PASS",
+        "started":  "2026-10-25T08:02:44.8042722Z",
+        "finished":  "2026-10-25T08:03:00.9870160Z",
+        "elapsedSeconds":  16,
+        "peakWorkingSetBytes":  627478528,
+        "assertions":  102,
+        "seed":  "",
+        "arguments":  [
+                          "--three-npc-qa",
+                          "--three-npc-restart"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\three-npc",
+        "exitCode":  0
+    },
+    {
+        "run":  "campaign-vietnam",
+        "status":  "FAIL",
+        "started":  "2026-10-25T08:03:00.9986462Z",
+        "finished":  "2026-10-25T08:03:11.0718936Z",
+        "elapsedSeconds":  10,
+        "peakWorkingSetBytes":  644452352,
+        "assertions":  47,
+        "seed":  "",
+        "arguments":  [
+                          "--pc-full-gameplay",
+                          "--phase4-e2e=VN_FIRST"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\campaign-vietnam",
+        "exitCode":  1
+    },
+    {
+        "run":  "save-recovery-six-cities",
+        "status":  "PASS",
+        "started":  "2026-10-25T08:03:11.0864769Z",
+        "finished":  "2026-10-25T08:03:23.2019363Z",
+        "elapsedSeconds":  12,
+        "peakWorkingSetBytes":  627343360,
+        "assertions":  118,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ThreeNpc-20261024\\legacy-source.json",
+        "arguments":  [
+                          "--release-candidate-qa"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\save-recovery-six-cities",
+        "exitCode":  0
+    },
+    {
+        "run":  "final-ux-puzzles-relics-audio",
+        "status":  "PASS",
+        "started":  "2026-10-25T08:03:23.2163945Z",
+        "finished":  "2026-10-25T08:04:17.6611184Z",
+        "elapsedSeconds":  54,
+        "peakWorkingSetBytes":  637394944,
+        "assertions":  373,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ThreeNpc-20261024\\legacy-source.json",
+        "arguments":  [
+                          "--final-ux-qa"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\final-ux-puzzles-relics-audio",
+        "exitCode":  0
+    },
+    {
+        "run":  "dialogue-npc-buttons",
+        "status":  "FAIL",
+        "started":  "2026-10-25T08:04:17.6761774Z",
+        "finished":  "2026-10-25T08:04:43.8662531Z",
+        "elapsedSeconds":  26,
+        "peakWorkingSetBytes":  639238144,
+        "assertions":  85,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ThreeNpc-20261024\\legacy-source.json",
+        "arguments":  [
+                          "--dialogue-release-qa"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\dialogue-npc-buttons",
+        "exitCode":  1
+    },
+    {
+        "run":  "node-panel-two-resolutions",
+        "status":  "PASS",
+        "started":  "2026-10-25T08:04:43.8784497Z",
+        "finished":  "2026-10-25T08:05:18.1324734Z",
+        "elapsedSeconds":  34,
+        "peakWorkingSetBytes":  649756672,
+        "assertions":  151,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ThreeNpc-20261024\\legacy-source.json",
+        "arguments":  [
+                          "--node-panel-qa"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\node-panel-two-resolutions",
+        "exitCode":  0
+    },
+    {
+        "run":  "leisure-twelve",
+        "status":  "PASS",
+        "started":  "2026-10-25T08:05:18.1493585Z",
+        "finished":  "2026-10-25T08:07:10.9283970Z",
+        "elapsedSeconds":  113,
+        "peakWorkingSetBytes":  647176192,
+        "assertions":  211,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FinalGameplayAndroid-20261020\\leisure12\\Casual-earned-optional-lane.json",
+        "arguments":  [
+                          "--casual-runtime"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\leisure-twelve",
+        "exitCode":  0
+    },
+    {
+        "run":  "boats-junctions-six-city-graph",
+        "status":  "PASS",
+        "started":  "2026-10-25T08:07:10.9419119Z",
+        "finished":  "2026-10-25T08:08:37.5655646Z",
+        "elapsedSeconds":  87,
+        "peakWorkingSetBytes":  639168512,
+        "assertions":  333,
+        "seed":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ThreeNpc-20261024\\legacy-source.json",
+        "arguments":  [
+                          "--owner-route-b",
+                          "--owner-route-cases=D:\\GAMEKKK\\LightBetweenCultures\\Docs\\Maps\\OwnerRoutePhaseB-20261019\\ferry-test-cases.json"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\boats-junctions-six-city-graph",
+        "exitCode":  0
+    },
+    {
+        "run":  "campaign-korea",
+        "status":  "FAIL",
+        "started":  "2026-10-25T08:08:37.5770766Z",
+        "finished":  "2026-10-25T08:11:06.6006165Z",
+        "elapsedSeconds":  149,
+        "peakWorkingSetBytes":  686018560,
+        "assertions":  618,
+        "seed":  "",
+        "arguments":  [
+                          "--pc-full-gameplay",
+                          "--phase4-e2e=KOREA_FIRST"
+                      ],
+        "folder":  "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullRegression-20261025\\campaign-korea",
+        "exitCode":  1
+    }
+]

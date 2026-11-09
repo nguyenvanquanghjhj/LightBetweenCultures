@@ -1,0 +1,142 @@
+[
+  {
+    "path": "Assets/_Game/Scripts/UI/AdventureIconGraphic.cs",
+    "sha256": "0a4dcabef4ce83291c2566585fbf849765ffeaba5d94f9014eab31b4e2fba351"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+    "sha256": "d9c92c226753907aab9db5e7f08e5eeffe0b028200cb4d12398b41541da66a71"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/DesignKitArt.cs",
+    "sha256": "bda66a7a89872e3142897444cb4f07059334ab711feefdc4e8e5be24d6c5c322"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/GameplayPanels.CheckIns.cs",
+    "sha256": "ab93463a1ffb88b123d9eef2c48b84653d96cbe61e27f6a9c245f1ae806d5794"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+    "sha256": "951e677997ea0a55827f44dea6ed24f620c9a665af48631546b91a3d12478b21"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/GameplayPanels.CulturalTrials.cs",
+    "sha256": "f96ae79a0ca3d8022275a084ced69cbf6219c3318c52cfba150da2f9ab9caaa6"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/GameplayPanels.FinalConnection.cs",
+    "sha256": "b73ebcc5dd36f376c3814743ad4124cdb683eb16e9c2ac4a117932374b27f861"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/GameplayPanels.Guidance.cs",
+    "sha256": "283f65689dec3ee1e0992cb08a148a048476fba6dc9eab17e1557f052032d5d5"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs",
+    "sha256": "fa52362da91c0700a984d3169f5b46e4869e773c77002ab5992d45336f6195fb"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/GameplayPanels.LeisurePilots.cs",
+    "sha256": "0eff4c46687ddfa3feaa372faa04cb89334d31775d328937afb5e26fe2fd44de"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/GameplayPanels.PlayerGuide.cs",
+    "sha256": "826c748c708ac4a531ac95873de8ace403022ae4a8dd878e4c734bd52bb98c53"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+    "sha256": "c0553ea1695a067a2544c7dc1fd34154264baaf58a0bd3f39a667ddecadfb543"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/GameplayPanels.StoryActivities.cs",
+    "sha256": "1aec8c51cc9892e05f7233258b91a5d25234351d291d28ee8bbad3f7997d89b8"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/InventoryPanel.cs",
+    "sha256": "b453b20d99969231b13280412b92091ed1b179d5a489af79dc412e95e09018a5"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/MaiDialogueController.cs",
+    "sha256": "7e4554951245e8254caaf223a4f1623e516e7afadcaaaee246016c030a0b39ca"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/MapBackdropGraphic.cs",
+    "sha256": "f9fadce3c85b43c04f073877a1fd4bc27c585cee36b700a6eb6a88ab1e3b24c8"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/MobileUI.cs",
+    "sha256": "1bf800e4230c6e5a190b262d9c00fd223b78a36c25f2f2092fa32ab1d68ab190"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/PlayerCopy.cs",
+    "sha256": "3fbdf715cb637305e7417c8f214bbdc8decea4f7aaa5be4c3c5f2ec4dd375afa"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/PortraitPresence.cs",
+    "sha256": "c1b8a85b1c89c1f59a7a5679906c2dca61f9bbe0b972891f197d1b35796c80db"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/PresentationShapes.cs",
+    "sha256": "c49d7d3d6d4381187c0a6cef4ca6254261211eedb7e8826dd97cd50343e88e22"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/RelicDragHandle.cs",
+    "sha256": "25a2ec0fa5bfe06dbf4c5450cd23030c3c3eec0ca06fc29932821825631d9230"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/RelicSurveySurface.cs",
+    "sha256": "7768b073725a8ae2538b3fc750dc9964eac691f8b8818459ee533966eda9e545"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/RoundedPanelGraphic.cs",
+    "sha256": "978e722201998aa95d8e0000bb9f835fddc8b8107a2a2f6018890c5baa0fd93a"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/SoftAudio.cs",
+    "sha256": "f59db0e5934d041fcb17113072d179b1c8161fa9b7174d075f39b6e8e1405333"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/SoftAudio.Music.cs",
+    "sha256": "124075494f338c553b5c743a86256cf53968f85eb2bdd80c42b89d7d77f27f10"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/SoftAudio.Settings.cs",
+    "sha256": "8a8d520adaaac45d2994b396cc8a5e1e84495896763cee39f48a5524d20105f1"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/SoftAudioClips.cs",
+    "sha256": "bab69749812d0e4d484a2720cf407263c4738d9c14ead6b893f3dea25d4dd2bd"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/SoftMusicClips.cs",
+    "sha256": "b16c631d82654567ac0b5dacc22b4444fbfd88167b29fe5cf6709bf5827a31f0"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/UIButtonFeedback.cs",
+    "sha256": "f43bd7d809bca8d174daa2926c3ca1c73f1b11fcc0b8878d0f2e8f51a1455989"
+  },
+  {
+    "path": "Assets/_Game/Scripts/UI/UIController.cs",
+    "sha256": "86f329922b9574573c710072a7bbb03527dc770413595b867d83699781046401"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+    "sha256": "f30f4f856759ee7b0eea88c01b9e03dff4c3659a06d403aea0f0523ae7f79155"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityMap.Guidance.cs",
+    "sha256": "b318e595a6e5d1b046c436798851e93c51f09b45a74b97ce9c6d511feb719816"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityMap.CulturalRestoration.cs",
+    "sha256": "c6aba6d650109f16427a48ce30689d6887eda8c5ab7f6df7a4d6d09e0fb203a8"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+    "sha256": "e4691c3eab2907c67583fe94ec74162720e2d0e24acb327014e46c423d9fb83b"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/MainMenu.cs",
+    "sha256": "945440ca8ad0c28a7782d2a841fa3549ad7dc9dc0bb5a152cb4654d368305c8c"
+  }
+]

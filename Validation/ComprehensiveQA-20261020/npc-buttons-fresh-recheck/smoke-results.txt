@@ -1,0 +1,55 @@
+UTC run: 2026-10-21T00:37:17.2685340Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: X declines the offered quest without acceptance, proof or reward
+PASS: Explicit quest acceptance has no duplicate promise/Next dialogue
+PASS: The canonical acceptance-item receipt never grants twice on Continue
+PASS: After the actual acceptance receipt, play resumes without another NPC menu to close
+PASS: Accept never hands out the quest item
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Reading the ready food quest then closing X never spends ingredients or grants rewards
+PASS: Only explicit deliver consumes 2 chilli and 1 shallot, preserving canonical reserves
+PASS: Closing an event or battle returns map input to the player
+PASS: Reopening completed NPC cannot duplicate rewards
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H3 is discovered
+PASS: Lumi reaches H3 through the real map input
+PASS: The old 1/2 page button is gone; genuine actions are directly listed
+PASS: Every genuine action is present in the scrollable list; no hidden page/branch loss
+NOT_TESTED: overflowing action-list touch drag; genuine actions fit this fixture's viewport
+PASS: Fresh runtime capture written: Standing-actions-all
+PASS: Closing an event or battle returns map input to the player
+PASS: Reload preserves earned delivery and reserves after simplified dialogue
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U1 is discovered
+PASS: Lumi reaches U1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: HQ06 confirmation opens without handing over items or receiving rewards
+PASS: Not yet / cancel retains every ingredient and reward
+PASS: X on confirmation never delivers or rewards
+PASS: Only explicit HQ06 confirm hands over exactly one shallot
+PASS: Receipt Continue only dismisses the receipt; it cannot grant twice
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Completed HQ06 dialogue cannot repeat a delivery reward
+PASS: Confirmed delivery persists across reload without replaying a reward
+PASS: Persist checkpoint Standing-buttons-earned
+ALL CHECKS PASSED

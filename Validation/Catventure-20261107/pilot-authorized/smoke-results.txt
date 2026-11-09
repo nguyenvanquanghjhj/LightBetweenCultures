@@ -1,0 +1,51 @@
+UTC run: 2026-11-07T15:10:40.0045608Z | Unity 6000.6.5f1 | 540x960
+PASS: Legacy v1 load preserves inventory/coins and initializes rescue state
+PASS: Reading rescue introduction grants no progress
+PASS: Fresh runtime capture written: CAT-HoiAn-introduction
+PASS: Real touch accepts Hoi An rescue
+PASS: Cannot skip challenge or rescue early: hoi_an
+PASS: Remote interaction rejected: hoi_an
+PASS: Repeated accept is inert: hoi_an
+PASS: Travel and touch collect supply: hoi_an_basket
+PASS: Duplicate supply rejected: hoi_an_basket
+PASS: Travel and touch collect supply: hoi_an_lantern
+PASS: Duplicate supply rejected: hoi_an_lantern
+PASS: Travel and touch collect supply: hoi_an_rope
+PASS: Duplicate supply rejected: hoi_an_rope
+PASS: Empty trial cannot submit: hoi_an_lantern
+PASS: Fresh runtime capture written: CAT-mode-jigsaw
+PASS: Wrong drop cannot finish: hoi_an_lantern
+PASS: Mouse/touch matching accepted: hoi_an_lantern piece 0
+PASS: Close/reopen restores partial placement
+PASS: Mouse/touch matching accepted: hoi_an_lantern piece 1
+PASS: Mouse/touch matching accepted: hoi_an_lantern piece 2
+PASS: Mouse/touch matching accepted: hoi_an_lantern piece 3
+PASS: Interaction proof ready: hoi_an_lantern
+PASS: Explicit completion persists: hoi_an_lantern
+PASS: Empty trial cannot submit: hoi_an_bridge
+PASS: Fresh runtime capture written: CAT-mode-choice
+PASS: Wrong answer explains and allows retry: hoi_an_bridge
+PASS: Interaction proof ready: hoi_an_bridge
+PASS: Explicit completion persists: hoi_an_bridge
+PASS: Empty trial cannot submit: hoi_an_food
+PASS: Fresh runtime capture written: CAT-mode-match
+PASS: Wrong drop cannot finish: hoi_an_food
+PASS: Mouse/touch matching accepted: hoi_an_food piece 0
+PASS: Close/reopen restores partial placement
+PASS: Mouse/touch matching accepted: hoi_an_food piece 1
+PASS: Mouse/touch matching accepted: hoi_an_food piece 2
+PASS: Interaction proof ready: hoi_an_food
+PASS: Explicit completion persists: hoi_an_food
+PASS: Empty trial cannot submit: hoi_an_river
+PASS: Fresh runtime capture written: CAT-mode-scenario
+PASS: Wrong answer explains and allows retry: hoi_an_river
+PASS: Interaction proof ready: hoi_an_river
+PASS: Explicit completion persists: hoi_an_river
+PASS: Actual rescue gesture awards exactly once: hoi_an
+PASS: Repeated rescue rejected: hoi_an
+PASS: Fresh runtime capture written: CAT-rescued-hoi_an
+PASS: Rescued cat, badge and postcard available: hoi_an
+PASS: Disk reload keeps completed rescue: hoi_an
+PASS: All requested rescue chapters persist
+PASS: Cat campaign never fabricates legacy quest, combat or puzzle completion
+ALL CHECKS PASSED

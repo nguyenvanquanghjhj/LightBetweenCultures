@@ -1,0 +1,174 @@
+[
+  {
+    "cityId": "da_lat",
+    "status": "NEEDS_USER_DECISION_NOT_APPLIED",
+    "nodesOver3": [
+      {
+        "nodeId": "D20",
+        "neighbors": [
+          "D0",
+          "D1",
+          "D13",
+          "D15"
+        ]
+      },
+      {
+        "nodeId": "D5",
+        "neighbors": [
+          "D0",
+          "D11",
+          "D18",
+          "D6"
+        ]
+      }
+    ],
+    "modelStates": 320,
+    "candidateRemovalSets": [],
+    "proofScope": "Exact all-visible-node connected-component partitions at stages0..4, every combination of existing edge/node required flags. Pure undirected topology only; no claim of mandatory encounter, ferry, quest order or terrain validation. Production graph remains byte-equivalent.",
+    "note": "Do not approve an edge deletion solely on this model: route geography and mandatory blockers need review."
+  },
+  {
+    "cityId": "hue",
+    "status": "NEEDS_USER_DECISION_NOT_APPLIED",
+    "nodesOver3": [
+      {
+        "nodeId": "U1",
+        "neighbors": [
+          "U0",
+          "U15",
+          "U16",
+          "U2"
+        ]
+      },
+      {
+        "nodeId": "U11",
+        "neighbors": [
+          "U10",
+          "U12",
+          "U6",
+          "U7"
+        ]
+      },
+      {
+        "nodeId": "U14",
+        "neighbors": [
+          "U13",
+          "U2",
+          "U3",
+          "U4"
+        ]
+      },
+      {
+        "nodeId": "U4",
+        "neighbors": [
+          "U12",
+          "U14",
+          "U3",
+          "U5"
+        ]
+      },
+      {
+        "nodeId": "U6",
+        "neighbors": [
+          "U11",
+          "U18",
+          "U5",
+          "U7"
+        ]
+      },
+      {
+        "nodeId": "U7",
+        "neighbors": [
+          "U11",
+          "U20",
+          "U6",
+          "U8"
+        ]
+      },
+      {
+        "nodeId": "U8",
+        "neighbors": [
+          "U17",
+          "U18",
+          "U7",
+          "U9"
+        ]
+      }
+    ],
+    "modelStates": 320,
+    "candidateRemovalSets": [],
+    "proofScope": "Exact all-visible-node connected-component partitions at stages0..4, every combination of existing edge/node required flags. Pure undirected topology only; no claim of mandatory encounter, ferry, quest order or terrain validation. Production graph remains byte-equivalent.",
+    "note": "Do not approve an edge deletion solely on this model: route geography and mandatory blockers need review."
+  },
+  {
+    "cityId": "jeonju",
+    "status": "NEEDS_USER_DECISION_NOT_APPLIED",
+    "nodesOver3": [
+      {
+        "nodeId": "J0",
+        "neighbors": [
+          "J10",
+          "J15",
+          "J16",
+          "J18"
+        ]
+      },
+      {
+        "nodeId": "J1",
+        "neighbors": [
+          "J16",
+          "J17",
+          "J2",
+          "J3"
+        ]
+      },
+      {
+        "nodeId": "J12",
+        "neighbors": [
+          "J13",
+          "J14",
+          "J17",
+          "J2"
+        ]
+      },
+      {
+        "nodeId": "J13",
+        "neighbors": [
+          "J11",
+          "J12",
+          "J19",
+          "J4"
+        ]
+      },
+      {
+        "nodeId": "J3",
+        "neighbors": [
+          "J1",
+          "J16",
+          "J4",
+          "J8"
+        ]
+      }
+    ],
+    "modelStates": 80,
+    "candidateRemovalSets": [
+      [
+        "J0__J10",
+        "J13__J12",
+        "J1__J3"
+      ],
+      [
+        "J0__J15",
+        "J13__J12",
+        "J1__J3"
+      ],
+      [
+        "J13__J12",
+        "J18__J0",
+        "J1__J3"
+      ]
+    ],
+    "proofScope": "Exact all-visible-node connected-component partitions at stages0..4, every combination of existing edge/node required flags. Pure undirected topology only; no claim of mandatory encounter, ferry, quest order or terrain validation. Production graph remains byte-equivalent.",
+    "note": "Do not approve an edge deletion solely on this model: route geography and mandatory blockers need review."
+  }
+]

@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "design_only": true,
+  "scope": "Additive hooks. Never overwrite original hue.json, jeonju.json, world_progression.json. Requires event manager implementation.",
+  "cross_city_events": [
+    {
+      "id": "foodexchange_jeonju_j15",
+      "city": "jeonju",
+      "node": "J15",
+      "actor": "So-yeon, chủ gian hàng",
+      "quest": "HQ05",
+      "available_when": {
+        "all_flags": [
+          "hoi_an.lamp_restored",
+          "hoi_an.hq05_accepted"
+        ],
+        "none_flags": [
+          "jeonju.chili_shared"
+        ]
+      },
+      "dialogue": [
+        {
+          "speaker": "So-yeon",
+          "text": "Khách từ Hội An à? Ji-eun bảo bạn có mang theo chút ớt tươi để thử món giao lưu."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Cháu mang ớt từ quầy Bà Tư. Mọi người thử vị cay vừa phải nhé!"
+        },
+        {
+          "speaker": "So-yeon",
+          "text": "Cảm ơn! Đây là thẻ món ăn của gian hàng chúng tôi, bạn mang về Hội An làm kỷ niệm nhé."
+        }
+      ],
+      "require_item": {
+        "hoi_an_fresh_chili": 1
+      },
+      "on_confirm": [
+        {
+          "type": "consume_item",
+          "id": "hoi_an_fresh_chili",
+          "amount": 1
+        },
+        {
+          "type": "give_item_once",
+          "id": "jeonju_recipe_card",
+          "amount": 1,
+          "unique_key": "jeonju.chili_exchange_card"
+        },
+        {
+          "type": "set_flag",
+          "id": "jeonju.chili_shared"
+        },
+        {
+          "type": "complete_quest_once",
+          "id": "HQ05"
+        }
+      ],
+      "fallback": "If player lacks chili, show H10 directions. Do not consume/trigger quest."
+    },
+    {
+      "id": "foodexchange_hue_u1",
+      "city": "hue",
+      "node": "U1",
+      "actor": "Chị Hương, người bán hàng",
+      "quest": "HQ06",
+      "available_when": {
+        "all_flags": [
+          "hoi_an.lamp_restored",
+          "hoi_an.hq06_accepted"
+        ],
+        "none_flags": [
+          "hue.shallot_shared"
+        ]
+      },
+      "dialogue": [
+        {
+          "speaker": "Chị Hương",
+          "text": "Chợ xưa đang chuẩn bị mâm cơm đón khách. Bà Tư ở Hội An nhắn có gói hành tím."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Cháu mang đến đây rồi ạ!"
+        },
+        {
+          "speaker": "Chị Hương",
+          "text": "Cảm ơn cháu. Nhờ cháu gửi lại Bà Tư tờ giấy nhắn này nhé."
+        }
+      ],
+      "require_item": {
+        "hoi_an_purple_shallot": 1
+      },
+      "on_confirm": [
+        {
+          "type": "consume_item",
+          "id": "hoi_an_purple_shallot",
+          "amount": 1
+        },
+        {
+          "type": "give_item_once",
+          "id": "hue_market_note",
+          "amount": 1,
+          "unique_key": "hue.shallot_exchange_note"
+        },
+        {
+          "type": "set_flag",
+          "id": "hue.shallot_shared"
+        },
+        {
+          "type": "complete_quest_once",
+          "id": "HQ06"
+        }
+      ],
+      "fallback": "If lacking shallot, can revisit H10 for quest recovery."
+    },
+    {
+      "id": "hoi_an_ba_tu_final",
+      "city": "hoi_an",
+      "node": "H10",
+      "actor": "Bà Tư",
+      "quest": "HQ07",
+      "available_when": {
+        "all_flags": [
+          "jeonju.chili_shared",
+          "hue.shallot_shared"
+        ],
+        "none_flags": [
+          "hoi_an.festival_food_exchange_done"
+        ]
+      },
+      "dialogue": [
+        {
+          "speaker": "Bà Tư",
+          "text": "Hàng của bà đã đến cả Huế và Jeonju rồi! Tờ giấy nhắn và thẻ món ăn còn đẹp hơn tiền lời."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Chuyến đi này quả thật đang nối những cuộc trò chuyện giữa hai nước."
+        }
+      ],
+      "on_confirm": [
+        {
+          "type": "set_flag",
+          "id": "hoi_an.festival_food_exchange_done"
+        },
+        {
+          "type": "give_item_once",
+          "id": "festival_friendship_postcard",
+          "amount": 1,
+          "unique_key": "hoi_an.food_friendship_reward"
+        },
+        {
+          "type": "complete_quest_once",
+          "id": "HQ07"
+        }
+      ]
+    },
+    {
+      "id": "hoi_an_jeonju_letter",
+      "city": "hoi_an",
+      "node": "H18",
+      "actor": "Ji-eun",
+      "quest": "HQ03",
+      "available_when": {
+        "items_at_least": {
+          "reply_letter": 1
+        },
+        "none_flags": [
+          "hoi_an.lost_lantern_rescued"
+        ]
+      },
+      "dialogue": [
+        {
+          "speaker": "Ji-eun",
+          "text": "Bạn đã tìm thấy thư từ Jeonju rồi sao? Tôi đã chờ hồi âm này lâu lắm."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Đèn ở hai nơi vẫn nhớ cùng một câu chuyện."
+        }
+      ],
+      "on_confirm": [
+        {
+          "type": "complete_quest_once",
+          "id": "HQ03"
+        },
+        {
+          "type": "set_flag",
+          "id": "hoi_an.lost_lantern_rescued"
+        }
+      ]
+    }
+  ],
+  "important_note": "Do not change J15 merchant existing healing-item function or U1 existing letter delivery. Add new dialogue choices/events alongside existing interactions."
+}

@@ -1,0 +1,233 @@
+UTC run: 2026-11-07T17:00:49.6581952Z | Unity 6000.6.5f1 | 540x960
+PASS: Leisure/shared UI review starts from an earned completed save
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H12 is discovered
+PASS: Lumi reaches H12 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Existing Ba Tu quest really opens the swing's hidden lane; no visibility flags injected
+PASS: Closing an event or battle returns map input to the player
+PASS: Persist checkpoint Casual-earned-optional-lane
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: Fresh runtime capture written: X-WorldMap-select-da_lat
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: City identity and persistent travel summary are actually displayed: da_lat
+PASS: Fresh runtime capture written: Casual-journal-da_lat
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D13 is discovered
+PASS: Lumi reaches D13 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-da_lat-D13
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_dalat_strawberrypatch
+PASS: Actual animation clock advances visible progress: leisure_dalat_strawberrypatch
+PASS: Real completion offers replay and full progress: leisure_dalat_strawberrypatch
+PASS: Optional leisure presentation changes no gameplay or save: leisure_dalat_strawberrypatch
+PASS: Fresh runtime capture written: Casual-leisure-da_lat
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_dalat_strawberrypatch
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D9 is discovered
+PASS: Lumi reaches D9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-da_lat-D9
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_dalat_kiterack
+PASS: Actual animation clock advances visible progress: leisure_dalat_kiterack
+PASS: Real completion offers replay and full progress: leisure_dalat_kiterack
+PASS: Optional leisure presentation changes no gameplay or save: leisure_dalat_kiterack
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_dalat_kiterack
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-gyeongju
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: City identity and persistent travel summary are actually displayed: gyeongju
+PASS: Fresh runtime capture written: Casual-journal-gyeongju
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G10 is discovered
+PASS: Lumi reaches G10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-gyeongju-G10
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_gyeongju_bellexhibit
+PASS: Actual animation clock advances visible progress: leisure_gyeongju_bellexhibit
+PASS: Real completion offers replay and full progress: leisure_gyeongju_bellexhibit
+PASS: Optional leisure presentation changes no gameplay or save: leisure_gyeongju_bellexhibit
+PASS: Fresh runtime capture written: Casual-leisure-gyeongju
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_gyeongju_bellexhibit
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G11 is discovered
+PASS: Lumi reaches G11 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-gyeongju-G11
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_gyeongju_wishtags
+PASS: Actual animation clock advances visible progress: leisure_gyeongju_wishtags
+PASS: Real completion offers replay and full progress: leisure_gyeongju_wishtags
+PASS: Optional leisure presentation changes no gameplay or save: leisure_gyeongju_wishtags
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_gyeongju_wishtags
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: City identity and persistent travel summary are actually displayed: hoi_an
+PASS: Fresh runtime capture written: Casual-journal-hoi_an
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H9 is discovered
+PASS: Lumi reaches H9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-hoi_an-H9
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_hoian_swing
+PASS: Actual animation clock advances visible progress: leisure_hoian_swing
+PASS: Real completion offers replay and full progress: leisure_hoian_swing
+PASS: Optional leisure presentation changes no gameplay or save: leisure_hoian_swing
+PASS: Fresh runtime capture written: Casual-leisure-hoi_an
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_hoian_swing
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H16 is discovered
+PASS: Lumi reaches H16 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-hoi_an-H16
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_hoian_lanternrelease_stand
+PASS: Actual animation clock advances visible progress: leisure_hoian_lanternrelease_stand
+PASS: Real completion offers replay and full progress: leisure_hoian_lanternrelease_stand
+PASS: Optional leisure presentation changes no gameplay or save: leisure_hoian_lanternrelease_stand
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_hoian_lanternrelease_stand
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hue
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: City identity and persistent travel summary are actually displayed: hue
+PASS: Fresh runtime capture written: Casual-journal-hue
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U0 is discovered
+PASS: Lumi reaches U0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-hue-U0
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_hue_pedalswanboat
+PASS: Actual animation clock advances visible progress: leisure_hue_pedalswanboat
+PASS: Real completion offers replay and full progress: leisure_hue_pedalswanboat
+PASS: Optional leisure presentation changes no gameplay or save: leisure_hue_pedalswanboat
+PASS: Fresh runtime capture written: Casual-leisure-hue
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_hue_pedalswanboat
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U8 is discovered
+PASS: Lumi reaches U8 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-hue-U8
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_hue_thronereplica
+PASS: Actual animation clock advances visible progress: leisure_hue_thronereplica
+PASS: Real completion offers replay and full progress: leisure_hue_thronereplica
+PASS: Optional leisure presentation changes no gameplay or save: leisure_hue_thronereplica
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_hue_thronereplica
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-jeonju
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: City identity and persistent travel summary are actually displayed: jeonju
+PASS: Fresh runtime capture written: Casual-journal-jeonju
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J13 is discovered
+PASS: Lumi reaches J13 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-jeonju-J13
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_jeonju_wateringcan_garden
+PASS: Actual animation clock advances visible progress: leisure_jeonju_wateringcan_garden
+PASS: Real completion offers replay and full progress: leisure_jeonju_wateringcan_garden
+PASS: Optional leisure presentation changes no gameplay or save: leisure_jeonju_wateringcan_garden
+PASS: Fresh runtime capture written: Casual-leisure-jeonju
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_jeonju_wateringcan_garden
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J15 is discovered
+PASS: Lumi reaches J15 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-jeonju-J15
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_jeonju_teatable
+PASS: Actual animation clock advances visible progress: leisure_jeonju_teatable
+PASS: Real completion offers replay and full progress: leisure_jeonju_teatable
+PASS: Optional leisure presentation changes no gameplay or save: leisure_jeonju_teatable
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_jeonju_teatable
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: Fresh runtime capture written: X-WorldMap-select-seoul
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: City identity and persistent travel summary are actually displayed: seoul
+PASS: Fresh runtime capture written: Casual-journal-seoul
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S1 is discovered
+PASS: Lumi reaches S1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-seoul-S1
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_seoul_tteokbokkistall
+PASS: Actual animation clock advances visible progress: leisure_seoul_tteokbokkistall
+PASS: Real completion offers replay and full progress: leisure_seoul_tteokbokkistall
+PASS: Optional leisure presentation changes no gameplay or save: leisure_seoul_tteokbokkistall
+PASS: Fresh runtime capture written: Casual-leisure-seoul
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_seoul_tteokbokkistall
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S7 is discovered
+PASS: Lumi reaches S7 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Context help describes the actual current interaction: không phải thử thách
+PASS: Fresh runtime capture written: Casual-help-seoul-S7
+PASS: Help dismisses locally without cancelling activity or changing gameplay state
+PASS: Leisure help retains the approved animation driver: leisure_seoul_kpopstage
+PASS: Actual animation clock advances visible progress: leisure_seoul_kpopstage
+PASS: Real completion offers replay and full progress: leisure_seoul_kpopstage
+PASS: Optional leisure presentation changes no gameplay or save: leisure_seoul_kpopstage
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-replay close destroys feedback and restores map input: leisure_seoul_kpopstage
+PASS: Persist checkpoint Casual-six-cities-preserved
+ALL CHECKS PASSED

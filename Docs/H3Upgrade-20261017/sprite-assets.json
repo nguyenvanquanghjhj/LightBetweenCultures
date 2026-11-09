@@ -1,0 +1,288 @@
+{
+  "runtimeSprites": [
+    {
+      "role": "h3_environment",
+      "id": "H3_Citrus_Pot",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Citrus_Pot.asset",
+      "guid": "ce5eae9fd3bca0a4dba263c8d23b85d8",
+      "localId": "21300000",
+      "spriteName": "H3_Citrus_Pot",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false,
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceMode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "rectUnityBottomLeft": [
+        1291.0,
+        348.0,
+        145.0,
+        170.0
+      ],
+      "border": "{x: 0, y: 0, z: 0, w: 0}",
+      "pixelsPerUnit": 100.0,
+      "quality": "Runtime reviewed; user visual acceptance separate from gameplay PASS"
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_Crates",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Crates.asset",
+      "guid": "4d42b99ac765f2b49847a513009d0a12",
+      "localId": "21300000",
+      "spriteName": "H3_Crates",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false,
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceMode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "rectUnityBottomLeft": [
+        756.0,
+        352.0,
+        174.0,
+        152.0
+      ],
+      "border": "{x: 0, y: 0, z: 0, w: 0}",
+      "pixelsPerUnit": 100.0,
+      "quality": "Runtime reviewed; user visual acceptance separate from gameplay PASS"
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_Garden_Wall",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Garden_Wall.asset",
+      "guid": "262531e258ed29f4f890f8f194708025",
+      "localId": "21300000",
+      "spriteName": "H3_Garden_Wall",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false,
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceMode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "rectUnityBottomLeft": [
+        12.0,
+        534.0,
+        258.0,
+        182.0
+      ],
+      "border": "{x: 0, y: 0, z: 0, w: 0}",
+      "pixelsPerUnit": 100.0,
+      "quality": "Runtime reviewed; user visual acceptance separate from gameplay PASS"
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_House_A",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_House_A.asset",
+      "guid": "48fa00e8226c91142a475ec2ed50e9db",
+      "localId": "21300000",
+      "spriteName": "H3_House_A",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false,
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceMode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "rectUnityBottomLeft": [
+        5.0,
+        740.0,
+        340.0,
+        296.0
+      ],
+      "border": "{x: 0, y: 0, z: 0, w: 0}",
+      "pixelsPerUnit": 100.0,
+      "quality": "Runtime reviewed; user visual acceptance separate from gameplay PASS"
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_House_B",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_House_B.asset",
+      "guid": "89e8ead0dc5c22f4e99de62dc3e7553c",
+      "localId": "21300000",
+      "spriteName": "H3_House_B",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false,
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceMode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "rectUnityBottomLeft": [
+        354.0,
+        740.0,
+        347.0,
+        338.0
+      ],
+      "border": "{x: 0, y: 0, z: 0, w: 0}",
+      "pixelsPerUnit": 100.0,
+      "quality": "Runtime reviewed; user visual acceptance separate from gameplay PASS"
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_Pink_Pot",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Pink_Pot.asset",
+      "guid": "75731e1bc0fe5f141ab8509d2517a57e",
+      "localId": "21300000",
+      "spriteName": "H3_Pink_Pot",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false,
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceMode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "rectUnityBottomLeft": [
+        1138.0,
+        349.0,
+        143.0,
+        163.0
+      ],
+      "border": "{x: 0, y: 0, z: 0, w: 0}",
+      "pixelsPerUnit": 100.0,
+      "quality": "Runtime reviewed; user visual acceptance separate from gameplay PASS"
+    },
+    {
+      "role": "h3_environment",
+      "id": "H3_StoneGround_Continuous_v1",
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_StoneGround_Continuous_v1.png",
+      "guid": "7a590c25545da184b80712c5f8e23fd4",
+      "localId": "21300000",
+      "spriteName": "H3_StoneGround_Continuous_v1",
+      "source": "Assets/_Game/Art/Environment/HoiAn/H3/H3_StoneGround_Continuous_v1.png",
+      "status": "AI_DERIVED_GROUND_ONLY; runtime; visual_acceptance_pending",
+      "canonical": false,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceMode": "RGB",
+      "alpha": "opaque ground, no cutout alpha required",
+      "quality": "Runtime reviewed; user visual acceptance separate from gameplay PASS"
+    },
+    {
+      "role": "h3_ui",
+      "id": "H3_Cream_Frame",
+      "path": "Assets/_Game/Art/UI/H3/H3_Cream_Frame.asset",
+      "guid": "3f8c35179de53e946a900ffa871f30ec",
+      "localId": "21300000",
+      "spriteName": "H3_Cream_Frame",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false,
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceMode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "rectUnityBottomLeft": [
+        801.0,
+        755.0,
+        630.0,
+        312.0
+      ],
+      "border": "{x: 98, y: 66, z: 98, w: 66}",
+      "pixelsPerUnit": 100.0,
+      "quality": "Runtime reviewed; user visual acceptance separate from gameplay PASS"
+    },
+    {
+      "role": "h3_ui",
+      "id": "H3_Gold_Button",
+      "path": "Assets/_Game/Art/UI/H3/H3_Gold_Button.asset",
+      "guid": "ffe5fa394565b9a4b9d3dab4c3c931f1",
+      "localId": "21300000",
+      "spriteName": "H3_Gold_Button",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false,
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceMode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "rectUnityBottomLeft": [
+        477.0,
+        190.0,
+        311.0,
+        117.0
+      ],
+      "border": "{x: 55, y: 32, z: 55, w: 32}",
+      "pixelsPerUnit": 100.0,
+      "quality": "Runtime reviewed; user visual acceptance separate from gameplay PASS"
+    },
+    {
+      "role": "h3_ui",
+      "id": "H3_Teal_Frame",
+      "path": "Assets/_Game/Art/UI/H3/H3_Teal_Frame.asset",
+      "guid": "5103b76ff43590b4d8c6b12f88f275e5",
+      "localId": "21300000",
+      "spriteName": "H3_Teal_Frame",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "status": "USER_SOURCE_NATIVE_CROP; runtime; visual_acceptance_pending",
+      "canonical": false,
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceMode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "rectUnityBottomLeft": [
+        623.0,
+        555.0,
+        457.0,
+        164.0
+      ],
+      "border": "{x: 72, y: 38, z: 72, w: 38}",
+      "pixelsPerUnit": 100.0,
+      "quality": "Runtime reviewed; user visual acceptance separate from gameplay PASS"
+    }
+  ],
+  "unusedCandidates": [
+    "Assets/_Game/Art/Environment/HoiAn/H3/H3_Stone_A.asset",
+    "Assets/_Game/Art/Environment/HoiAn/H3/H3_Stone_B.asset"
+  ],
+  "unusedReason": "Small non-seamless source samples, not scene/build dependencies; not final ground materials"
+}

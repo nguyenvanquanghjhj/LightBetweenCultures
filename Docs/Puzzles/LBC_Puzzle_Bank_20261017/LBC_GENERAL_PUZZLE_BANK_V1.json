@@ -1,0 +1,2417 @@
+{
+  "schemaVersion": 1,
+  "bankId": "LBC_GENERAL_PUZZLE_BANK_V1",
+  "locale": "vi-VN",
+  "purpose": "Optional non-story quiz/riddle encounters; do not override canonical puzzles or quest gates",
+  "questionCount": 150,
+  "selection": {
+    "mode": "seeded_without_replacement",
+    "shuffleChoices": true,
+    "persistSelectedQuestionPerAttempt": true,
+    "avoidRepeatUntilPoolExhausted": true,
+    "noRewardExploit": true,
+    "allowCategoryWeightsByCity": true
+  },
+  "questions": [
+    {
+      "id": "LBCQ_LOGIC_001",
+      "category": "logic",
+      "difficulty": 1,
+      "question": "Ba chiếc rương ghi A, B, C. Chỉ rương B có chìa khóa. Bạn nên chọn rương nào?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "Không rương nào"
+      ],
+      "answerIndex": 1,
+      "hint": "Đề đã cho biết vị trí chìa khóa.",
+      "explanation": "Đề xác định chìa khóa ở rương B.",
+      "answerText": "B"
+    },
+    {
+      "id": "LBCQ_LOGIC_002",
+      "category": "logic",
+      "difficulty": 1,
+      "question": "Mọi đèn xanh đều sáng. Chiếc đèn này màu xanh. Kết luận nào chắc chắn đúng?",
+      "options": [
+        "Mọi đèn sáng đều xanh",
+        "Đèn này màu đỏ",
+        "Đèn này sáng",
+        "Đèn này đã hỏng"
+      ],
+      "answerIndex": 2,
+      "hint": "Áp dụng trực tiếp mệnh đề đã cho.",
+      "explanation": "Từ “mọi đèn xanh đều sáng” và đèn này xanh, suy ra nó sáng.",
+      "answerText": "Đèn này sáng"
+    },
+    {
+      "id": "LBCQ_LOGIC_003",
+      "category": "logic",
+      "difficulty": 2,
+      "question": "Lumi đứng trước hai cửa. Cửa A dẫn tới B, cửa B dẫn tới C. Muốn tới C từ A theo đường đã nêu, cần qua đâu?",
+      "options": [
+        "Cửa D",
+        "Quay lại A",
+        "Không cần đi",
+        "Cửa B"
+      ],
+      "answerIndex": 3,
+      "hint": "Đi theo thứ tự hai cạnh được cho.",
+      "explanation": "Đường được mô tả là A → B → C.",
+      "answerText": "Cửa B"
+    },
+    {
+      "id": "LBCQ_LOGIC_004",
+      "category": "logic",
+      "difficulty": 2,
+      "question": "An nói: “Bình cầm đèn”. Bình nói: “Chi cầm đèn”. Chi nói: “Tôi không cầm đèn”. Biết đúng một người nói thật và chỉ một người cầm đèn, ai cầm đèn?",
+      "options": [
+        "Chi",
+        "Không xác định",
+        "Bình",
+        "An"
+      ],
+      "answerIndex": 1,
+      "hint": "Thử tất cả ba người; hai trường hợp có thể cho cùng số câu đúng.",
+      "explanation": "Nếu An cầm đèn: An sai, Bình sai, Chi đúng → một câu đúng. Nếu Chi cầm đèn: An sai, Bình đúng, Chi sai → một câu đúng. Có hai khả năng nên không xác định duy nhất.",
+      "answerText": "Không xác định"
+    },
+    {
+      "id": "LBCQ_LOGIC_005",
+      "category": "logic",
+      "difficulty": 2,
+      "question": "Có 3 đòn bẩy, mỗi đòn mở đúng một cánh cửa khác nhau. Bạn đã biết đòn số 2 mở cửa giữa. Đòn nào chắc chắn mở cửa giữa?",
+      "options": [
+        "Đòn 1",
+        "Không thể biết",
+        "Đòn 2",
+        "Đòn 3"
+      ],
+      "answerIndex": 2,
+      "hint": "Đừng suy diễn ngoài dữ kiện.",
+      "explanation": "Thông tin cho biết trực tiếp đòn số 2 mở cửa giữa.",
+      "answerText": "Đòn 2"
+    },
+    {
+      "id": "LBCQ_LOGIC_006",
+      "category": "logic",
+      "difficulty": 1,
+      "question": "Lumi đi về phía đông rồi quay 180°. Lumi đang nhìn về hướng nào?",
+      "options": [
+        "Đông",
+        "Bắc",
+        "Nam",
+        "Tây"
+      ],
+      "answerIndex": 3,
+      "hint": "Quay 180° nghĩa là hướng ngược lại.",
+      "explanation": "Hướng ngược với đông là tây.",
+      "answerText": "Tây"
+    },
+    {
+      "id": "LBCQ_LOGIC_007",
+      "category": "logic",
+      "difficulty": 2,
+      "question": "Một chiếc hộp có ba viên bi đỏ và không có bi màu khác. Lấy ngẫu nhiên một viên, màu chắc chắn là gì?",
+      "options": [
+        "Vàng",
+        "Đỏ",
+        "Không xác định",
+        "Xanh"
+      ],
+      "answerIndex": 1,
+      "hint": "Tất cả bi đều cùng màu.",
+      "explanation": "Chỉ có bi đỏ nên chọn viên nào cũng đỏ.",
+      "answerText": "Đỏ"
+    },
+    {
+      "id": "LBCQ_LOGIC_008",
+      "category": "logic",
+      "difficulty": 3,
+      "question": "Ba phong bì A, B, C, chỉ một phong bì có chìa khóa. Ba dòng ghi: (1) “Không ở A”; (2) “Ở A”; (3) “Không ở B”. Biết đúng một dòng là thật. Chìa khóa ở đâu?",
+      "options": [
+        "A",
+        "Không xác định",
+        "B",
+        "C"
+      ],
+      "answerIndex": 2,
+      "hint": "Thử đặt chìa ở A, B, C và đếm số dòng đúng.",
+      "explanation": "Nếu ở A: (2),(3) đúng (2 dòng); ở B: chỉ (1) đúng (1 dòng); ở C: (1),(3) đúng (2 dòng). Chìa nằm ở B.",
+      "answerText": "B"
+    },
+    {
+      "id": "LBCQ_LOGIC_009",
+      "category": "logic",
+      "difficulty": 2,
+      "question": "Tấm biển ghi: “Nếu có mưa thì đèn ở bến bật.” Đèn bến đang tắt. Có thể kết luận điều gì?",
+      "options": [
+        "Chắc chắn không mưa",
+        "Đèn hỏng",
+        "Không thể kết luận gì",
+        "Chắc chắn có mưa"
+      ],
+      "answerIndex": 0,
+      "hint": "Dùng phản chứng của mệnh đề nếu A thì B.",
+      "explanation": "Nếu mưa bắt buộc đèn bật; đèn tắt nên không mưa, với giả thiết biển luôn đúng.",
+      "answerText": "Chắc chắn không mưa"
+    },
+    {
+      "id": "LBCQ_LOGIC_010",
+      "category": "logic",
+      "difficulty": 3,
+      "question": "Một ngọn đèn chỉ sáng nếu có pin. Hôm nay đèn sáng. Kết luận nào chắc chắn đúng?",
+      "options": [
+        "Đèn là giả",
+        "Không có pin",
+        "Có pin",
+        "Pin đã hết"
+      ],
+      "answerIndex": 2,
+      "hint": "“Chỉ nếu” biểu thị điều kiện cần.",
+      "explanation": "Đèn sáng đòi hỏi phải có pin.",
+      "answerText": "Có pin"
+    },
+    {
+      "id": "LBCQ_PATTERNS_001",
+      "category": "patterns",
+      "difficulty": 1,
+      "question": "Dãy số: 2, 4, 6, 8, ... Số tiếp theo là?",
+      "options": [
+        "10",
+        "12",
+        "11",
+        "9"
+      ],
+      "answerIndex": 0,
+      "hint": "Mỗi bước cộng cùng một số.",
+      "explanation": "Mỗi số tăng 2, nên tiếp theo là 10.",
+      "answerText": "10"
+    },
+    {
+      "id": "LBCQ_PATTERNS_002",
+      "category": "patterns",
+      "difficulty": 1,
+      "question": "Dãy: 1, 2, 4, 8, ... tiếp theo là?",
+      "options": [
+        "10",
+        "16",
+        "18",
+        "12"
+      ],
+      "answerIndex": 1,
+      "hint": "Mỗi số gấp đôi số trước.",
+      "explanation": "8 × 2 = 16.",
+      "answerText": "16"
+    },
+    {
+      "id": "LBCQ_PATTERNS_003",
+      "category": "patterns",
+      "difficulty": 2,
+      "question": "Dãy: 1, 4, 9, 16, ... tiếp theo là?",
+      "options": [
+        "25",
+        "30",
+        "20",
+        "24"
+      ],
+      "answerIndex": 0,
+      "hint": "Đó là bình phương các số tự nhiên.",
+      "explanation": "1², 2², 3², 4², rồi 5² = 25.",
+      "answerText": "25"
+    },
+    {
+      "id": "LBCQ_PATTERNS_004",
+      "category": "patterns",
+      "difficulty": 2,
+      "question": "Dãy: 3, 6, 12, 24, ... số tiếp theo là?",
+      "options": [
+        "48",
+        "42",
+        "36",
+        "30"
+      ],
+      "answerIndex": 0,
+      "hint": "Nhân 2.",
+      "explanation": "24 × 2 = 48.",
+      "answerText": "48"
+    },
+    {
+      "id": "LBCQ_PATTERNS_005",
+      "category": "patterns",
+      "difficulty": 2,
+      "question": "Dãy: 2, 3, 5, 8, 12, ... tiếp theo là?",
+      "options": [
+        "15",
+        "17",
+        "16",
+        "18"
+      ],
+      "answerIndex": 1,
+      "hint": "Hiệu tăng dần 1, 2, 3, 4.",
+      "explanation": "Hiệu kế tiếp là 5, nên 12 + 5 = 17.",
+      "answerText": "17"
+    },
+    {
+      "id": "LBCQ_PATTERNS_006",
+      "category": "patterns",
+      "difficulty": 3,
+      "question": "Dãy: 1, 1, 2, 3, 5, 8, ... tiếp theo là?",
+      "options": [
+        "11",
+        "16",
+        "13",
+        "12"
+      ],
+      "answerIndex": 2,
+      "hint": "Số sau bằng tổng hai số trước.",
+      "explanation": "5 + 8 = 13 (Fibonacci).",
+      "answerText": "13"
+    },
+    {
+      "id": "LBCQ_PATTERNS_007",
+      "category": "patterns",
+      "difficulty": 2,
+      "question": "Chuỗi màu lặp: Đỏ – Xanh – Vàng – Đỏ – Xanh – ... Màu kế tiếp?",
+      "options": [
+        "Tím",
+        "Vàng",
+        "Xanh",
+        "Đỏ"
+      ],
+      "answerIndex": 1,
+      "hint": "Chu kỳ dài ba màu.",
+      "explanation": "Sau đỏ, xanh là vàng.",
+      "answerText": "Vàng"
+    },
+    {
+      "id": "LBCQ_PATTERNS_008",
+      "category": "patterns",
+      "difficulty": 3,
+      "question": "Dãy: 1, 3, 6, 10, 15, ... tiếp theo là?",
+      "options": [
+        "18",
+        "21",
+        "20",
+        "25"
+      ],
+      "answerIndex": 1,
+      "hint": "Cộng 2, 3, 4, 5, ...",
+      "explanation": "Cộng tiếp 6, thành 21.",
+      "answerText": "21"
+    },
+    {
+      "id": "LBCQ_PATTERNS_009",
+      "category": "patterns",
+      "difficulty": 3,
+      "question": "Dãy 2, 6, 12, 20, 30, ... Số tiếp theo là?",
+      "options": [
+        "42",
+        "40",
+        "44",
+        "36"
+      ],
+      "answerIndex": 0,
+      "hint": "Hiệu lần lượt 4, 6, 8, 10.",
+      "explanation": "Hiệu tiếp theo là 12, nên 30+12=42.",
+      "answerText": "42"
+    },
+    {
+      "id": "LBCQ_PATTERNS_010",
+      "category": "patterns",
+      "difficulty": 1,
+      "question": "Hoa – Trăng – Đèn – Hoa – Trăng – ... Biểu tượng tiếp theo là?",
+      "options": [
+        "Sao",
+        "Đèn",
+        "Hoa",
+        "Trăng"
+      ],
+      "answerIndex": 1,
+      "hint": "Chu kỳ ba biểu tượng.",
+      "explanation": "Sau Hoa, Trăng là Đèn.",
+      "answerText": "Đèn"
+    },
+    {
+      "id": "LBCQ_MATH_001",
+      "category": "math",
+      "difficulty": 1,
+      "question": "Lumi có 7 chiếc đèn lồng, tặng 3 chiếc. Còn bao nhiêu?",
+      "options": [
+        "4",
+        "10",
+        "5",
+        "3"
+      ],
+      "answerIndex": 0,
+      "hint": "Lấy 7 trừ 3.",
+      "explanation": "7 − 3 = 4.",
+      "answerText": "4"
+    },
+    {
+      "id": "LBCQ_MATH_002",
+      "category": "math",
+      "difficulty": 1,
+      "question": "Một vé đò giá 5 xu. Hai vé giống nhau hết bao nhiêu xu?",
+      "options": [
+        "8",
+        "7",
+        "10",
+        "12"
+      ],
+      "answerIndex": 2,
+      "hint": "Nhân số vé với giá mỗi vé.",
+      "explanation": "2 × 5 = 10 xu.",
+      "answerText": "10"
+    },
+    {
+      "id": "LBCQ_MATH_003",
+      "category": "math",
+      "difficulty": 2,
+      "question": "Một đoạn đường dài 120 m, Lumi đi được 3/4. Còn bao nhiêu mét?",
+      "options": [
+        "30",
+        "20",
+        "40",
+        "90"
+      ],
+      "answerIndex": 0,
+      "hint": "Phần còn lại là 1/4.",
+      "explanation": "120 × 1/4 = 30 m.",
+      "answerText": "30"
+    },
+    {
+      "id": "LBCQ_MATH_004",
+      "category": "math",
+      "difficulty": 1,
+      "question": "Ba túi, mỗi túi có 4 quả dâu. Tổng cộng bao nhiêu quả?",
+      "options": [
+        "12",
+        "14",
+        "10",
+        "7"
+      ],
+      "answerIndex": 0,
+      "hint": "Nhân 3 với 4.",
+      "explanation": "3 × 4 = 12.",
+      "answerText": "12"
+    },
+    {
+      "id": "LBCQ_MATH_005",
+      "category": "math",
+      "difficulty": 2,
+      "question": "Có 18 viên đá xếp thành 3 hàng đều nhau. Mỗi hàng bao nhiêu viên?",
+      "options": [
+        "9",
+        "6",
+        "5",
+        "3"
+      ],
+      "answerIndex": 1,
+      "hint": "Lấy tổng chia số hàng.",
+      "explanation": "18 ÷ 3 = 6.",
+      "answerText": "6"
+    },
+    {
+      "id": "LBCQ_MATH_006",
+      "category": "math",
+      "difficulty": 2,
+      "question": "Chiếc đồng hồ chỉ 14:30. Sau 90 phút là mấy giờ?",
+      "options": [
+        "16:00",
+        "15:00",
+        "16:30",
+        "15:30"
+      ],
+      "answerIndex": 0,
+      "hint": "90 phút bằng một tiếng rưỡi.",
+      "explanation": "14:30 + 1:30 = 16:00.",
+      "answerText": "16:00"
+    },
+    {
+      "id": "LBCQ_MATH_007",
+      "category": "math",
+      "difficulty": 3,
+      "question": "Một cánh cổng cần 24 điểm năng lượng. Đã có 5/8 tổng số điểm. Còn thiếu bao nhiêu?",
+      "options": [
+        "8",
+        "6",
+        "9",
+        "15"
+      ],
+      "answerIndex": 2,
+      "hint": "Tính 3/8 của 24.",
+      "explanation": "Đã có 15 điểm, còn thiếu 9.",
+      "answerText": "9"
+    },
+    {
+      "id": "LBCQ_MATH_008",
+      "category": "math",
+      "difficulty": 2,
+      "question": "Một hình vuông cạnh 6 m có chu vi bằng bao nhiêu?",
+      "options": [
+        "36 m",
+        "24 m",
+        "30 m",
+        "12 m"
+      ],
+      "answerIndex": 1,
+      "hint": "Chu vi hình vuông bằng 4 lần cạnh.",
+      "explanation": "4 × 6 = 24 m.",
+      "answerText": "24 m"
+    },
+    {
+      "id": "LBCQ_MATH_009",
+      "category": "math",
+      "difficulty": 3,
+      "question": "Thuyền đi 12 km trong 3 giờ, sau đó quay về 12 km trong 2 giờ. Tốc độ trung bình của cả chuyến là?",
+      "options": [
+        "6 km/h",
+        "4 km/h",
+        "4,8 km/h",
+        "5 km/h"
+      ],
+      "answerIndex": 2,
+      "hint": "Tính tổng quãng đường chia tổng thời gian, không lấy trung bình cộng hai tốc độ.",
+      "explanation": "Tổng 24 km trong 5 giờ, tốc độ trung bình 24/5=4,8 km/h.",
+      "answerText": "4,8 km/h"
+    },
+    {
+      "id": "LBCQ_MATH_010",
+      "category": "math",
+      "difficulty": 2,
+      "question": "Bạn có 50 xu, mua món 17 xu và món 23 xu. Còn lại bao nhiêu?",
+      "options": [
+        "8",
+        "10",
+        "13",
+        "17"
+      ],
+      "answerIndex": 1,
+      "hint": "Cộng tiền mua trước.",
+      "explanation": "50 − (17+23) = 10 xu.",
+      "answerText": "10"
+    },
+    {
+      "id": "LBCQ_NATURE_001",
+      "category": "nature",
+      "difficulty": 1,
+      "question": "Cây xanh thường hấp thụ khí nào trong quá trình quang hợp?",
+      "options": [
+        "Nitơ",
+        "Heli",
+        "Oxy",
+        "Cacbon đioxit"
+      ],
+      "answerIndex": 3,
+      "hint": "Đó là khí có công thức CO₂.",
+      "explanation": "Trong quang hợp, cây hấp thụ CO₂ và thường giải phóng O₂.",
+      "answerText": "Cacbon đioxit"
+    },
+    {
+      "id": "LBCQ_NATURE_002",
+      "category": "nature",
+      "difficulty": 1,
+      "question": "Bộ phận nào của cây thường hút nước từ đất?",
+      "options": [
+        "Quả",
+        "Rễ",
+        "Lá",
+        "Hoa"
+      ],
+      "answerIndex": 1,
+      "hint": "Bộ phận nằm dưới đất.",
+      "explanation": "Rễ hấp thụ nước và chất khoáng từ đất.",
+      "answerText": "Rễ"
+    },
+    {
+      "id": "LBCQ_NATURE_003",
+      "category": "nature",
+      "difficulty": 2,
+      "question": "Loài nào sau đây là động vật có vú?",
+      "options": [
+        "Ếch",
+        "Dơi",
+        "Bướm",
+        "Cá chép"
+      ],
+      "answerIndex": 1,
+      "hint": "Nó biết bay nhưng nuôi con bằng sữa.",
+      "explanation": "Dơi là động vật có vú.",
+      "answerText": "Dơi"
+    },
+    {
+      "id": "LBCQ_NATURE_004",
+      "category": "nature",
+      "difficulty": 1,
+      "question": "Khi trời mưa, hiện tượng nào thường xảy ra?",
+      "options": [
+        "Mặt Trời biến mất vĩnh viễn",
+        "Mọi cây ngừng lớn",
+        "Đất bị ướt",
+        "Đá chuyển thành vàng"
+      ],
+      "answerIndex": 2,
+      "hint": "Chọn hệ quả trực tiếp có thể quan sát.",
+      "explanation": "Mưa làm ướt mặt đất khi không có mái che.",
+      "answerText": "Đất bị ướt"
+    },
+    {
+      "id": "LBCQ_NATURE_005",
+      "category": "nature",
+      "difficulty": 2,
+      "question": "Côn trùng nào trải qua các giai đoạn sâu non rồi nhộng rồi thành con trưởng thành?",
+      "options": [
+        "Ếch",
+        "Chó",
+        "Mèo",
+        "Bướm"
+      ],
+      "answerIndex": 3,
+      "hint": "Hãy nghĩ tới chiếc kén/nhộng.",
+      "explanation": "Bướm có biến thái hoàn toàn gồm trứng, sâu non, nhộng, trưởng thành.",
+      "answerText": "Bướm"
+    },
+    {
+      "id": "LBCQ_NATURE_006",
+      "category": "nature",
+      "difficulty": 2,
+      "question": "Bộ phận nào giúp cá thường lấy oxy hòa tan trong nước?",
+      "options": [
+        "Lông",
+        "Phổi",
+        "Sừng",
+        "Mang"
+      ],
+      "answerIndex": 3,
+      "hint": "Cá thở bằng bộ phận hai bên đầu.",
+      "explanation": "Mang trao đổi khí với nước.",
+      "answerText": "Mang"
+    },
+    {
+      "id": "LBCQ_NATURE_007",
+      "category": "nature",
+      "difficulty": 2,
+      "question": "Ban ngày, bóng của một cây thay đổi chủ yếu vì điều gì?",
+      "options": [
+        "Đất tự quay dưới cây mà không có ánh sáng",
+        "Lá cây đổi màu",
+        "Mặt Trời đổi vị trí biểu kiến",
+        "Thân cây co lại mỗi giờ"
+      ],
+      "answerIndex": 2,
+      "hint": "Hướng chiếu ánh sáng thay đổi.",
+      "explanation": "Do Trái Đất tự quay, vị trí biểu kiến của Mặt Trời đổi, kéo theo bóng đổi.",
+      "answerText": "Mặt Trời đổi vị trí biểu kiến"
+    },
+    {
+      "id": "LBCQ_NATURE_008",
+      "category": "nature",
+      "difficulty": 1,
+      "question": "Mùa nào thường gắn với hoa anh đào nở ở Hàn Quốc?",
+      "options": [
+        "Mùa hạ",
+        "Mùa đông",
+        "Mùa xuân",
+        "Mùa thu"
+      ],
+      "answerIndex": 2,
+      "hint": "Đó là thời kỳ sau mùa đông.",
+      "explanation": "Hoa anh đào thường nở vào mùa xuân.",
+      "answerText": "Mùa xuân"
+    },
+    {
+      "id": "LBCQ_NATURE_009",
+      "category": "nature",
+      "difficulty": 3,
+      "question": "Lá thông dạng kim và lớp sáp ở bề mặt có thể giúp cây thích nghi bằng cách nào?",
+      "options": [
+        "Tạo ra kim loại",
+        "Biến nước thành muối",
+        "Giảm thất thoát nước",
+        "Ngăn hoàn toàn quang hợp"
+      ],
+      "answerIndex": 2,
+      "hint": "Hình dạng lá có liên quan đến diện tích tiếp xúc và thoát hơi nước.",
+      "explanation": "Lá nhỏ dạng kim và lớp sáp thường giúp hạn chế mất nước.",
+      "answerText": "Giảm thất thoát nước"
+    },
+    {
+      "id": "LBCQ_NATURE_010",
+      "category": "nature",
+      "difficulty": 2,
+      "question": "Trong vòng tuần hoàn nước, hơi nước nguội đi thường tạo thành gì?",
+      "options": [
+        "Mây do ngưng tụ",
+        "Kim loại",
+        "Cát",
+        "Đá núi lửa"
+      ],
+      "answerIndex": 0,
+      "hint": "Hơi nước chuyển thành giọt rất nhỏ.",
+      "explanation": "Hơi nước ngưng tụ thành giọt nước nhỏ, góp phần tạo mây.",
+      "answerText": "Mây do ngưng tụ"
+    },
+    {
+      "id": "LBCQ_SCIENCE_001",
+      "category": "science",
+      "difficulty": 1,
+      "question": "Ánh sáng truyền nhanh hơn âm thanh trong không khí. Khi có sấm chớp, ta thường thấy gì trước?",
+      "options": [
+        "Nghe tiếng sấm",
+        "Thấy tia chớp",
+        "Cả hai luôn cùng lúc",
+        "Thấy cầu vồng"
+      ],
+      "answerIndex": 1,
+      "hint": "Bạn thường thấy lóe sáng rồi mới nghe tiếng.",
+      "explanation": "Ánh sáng đến mắt nhanh hơn âm thanh đến tai.",
+      "answerText": "Thấy tia chớp"
+    },
+    {
+      "id": "LBCQ_SCIENCE_002",
+      "category": "science",
+      "difficulty": 2,
+      "question": "Khi không có lực cản đáng kể, vật nào rơi nhanh hơn trong chân không: hòn đá hay chiếc lông?",
+      "options": [
+        "Chiếc lông",
+        "Hòn đá",
+        "Cùng gia tốc rơi",
+        "Không vật nào rơi"
+      ],
+      "answerIndex": 2,
+      "hint": "Không khí mới làm chiếc lông rơi chậm.",
+      "explanation": "Trong chân không, chúng có cùng gia tốc trọng trường ở cùng vị trí.",
+      "answerText": "Cùng gia tốc rơi"
+    },
+    {
+      "id": "LBCQ_SCIENCE_003",
+      "category": "science",
+      "difficulty": 1,
+      "question": "Nước tinh khiết ở áp suất khí quyển tiêu chuẩn thường sôi ở khoảng bao nhiêu °C?",
+      "options": [
+        "200",
+        "100",
+        "0",
+        "50"
+      ],
+      "answerIndex": 1,
+      "hint": "Con số quen thuộc trong nhiệt kế.",
+      "explanation": "Ở 1 atm, nước tinh khiết sôi khoảng 100°C.",
+      "answerText": "100"
+    },
+    {
+      "id": "LBCQ_SCIENCE_004",
+      "category": "science",
+      "difficulty": 2,
+      "question": "Trong mạch điện đơn giản, công tắc mở thường khiến dòng điện qua nhánh đó ra sao?",
+      "options": [
+        "Tiếp tục như cũ",
+        "Đổi chiều mỗi giây",
+        "Tăng vô hạn",
+        "Bị ngắt"
+      ],
+      "answerIndex": 3,
+      "hint": "Mạch bị hở.",
+      "explanation": "Công tắc mở làm hở mạch, ngắt dòng qua nhánh.",
+      "answerText": "Bị ngắt"
+    },
+    {
+      "id": "LBCQ_SCIENCE_005",
+      "category": "science",
+      "difficulty": 2,
+      "question": "Tại sao chiếc thìa kim loại đặt trong nước nóng cũng nóng lên?",
+      "options": [
+        "Từ tính",
+        "Phản xạ toàn phần",
+        "Tự phát sáng",
+        "Dẫn nhiệt"
+      ],
+      "answerIndex": 3,
+      "hint": "Nhiệt truyền qua vật liệu.",
+      "explanation": "Kim loại dẫn nhiệt, đưa năng lượng từ đầu nóng tới chỗ khác.",
+      "answerText": "Dẫn nhiệt"
+    },
+    {
+      "id": "LBCQ_SCIENCE_006",
+      "category": "science",
+      "difficulty": 1,
+      "question": "Đơn vị nào đo cường độ dòng điện?",
+      "options": [
+        "Ampe",
+        "Lít",
+        "Mét",
+        "Giây"
+      ],
+      "answerIndex": 0,
+      "hint": "Ký hiệu thường là A.",
+      "explanation": "Ampe (A) là đơn vị cường độ dòng điện.",
+      "answerText": "Ampe"
+    },
+    {
+      "id": "LBCQ_SCIENCE_007",
+      "category": "science",
+      "difficulty": 2,
+      "question": "Nếu cùng quãng đường mà đi mất ít thời gian hơn, tốc độ trung bình sẽ thế nào?",
+      "options": [
+        "Không đổi",
+        "Nhỏ hơn",
+        "Luôn bằng 0",
+        "Lớn hơn"
+      ],
+      "answerIndex": 3,
+      "hint": "Tốc độ = quãng đường / thời gian.",
+      "explanation": "Với cùng quãng đường, thời gian giảm thì tốc độ tăng.",
+      "answerText": "Lớn hơn"
+    },
+    {
+      "id": "LBCQ_SCIENCE_008",
+      "category": "science",
+      "difficulty": 2,
+      "question": "Vật nào thường bị nam châm hút mạnh?",
+      "options": [
+        "Thủy tinh",
+        "Giấy",
+        "Sắt",
+        "Gỗ"
+      ],
+      "answerIndex": 2,
+      "hint": "Đây là vật liệu sắt từ quen thuộc.",
+      "explanation": "Sắt bị nam châm hút mạnh trong điều kiện thông thường.",
+      "answerText": "Sắt"
+    },
+    {
+      "id": "LBCQ_SCIENCE_009",
+      "category": "science",
+      "difficulty": 3,
+      "question": "Trong bóng tối hoàn toàn, một vật không tự phát sáng có thể được nhìn thấy bằng mắt thường không?",
+      "options": [
+        "Chỉ vào buổi sáng",
+        "Có, vì mọi vật tự phát tia nhìn thấy",
+        "Có, luôn luôn",
+        "Không, nếu không có ánh sáng tới mắt"
+      ],
+      "answerIndex": 3,
+      "hint": "Mắt cần nhận ánh sáng.",
+      "explanation": "Không có ánh sáng phản xạ/phát ra tới mắt thì ta không thấy vật.",
+      "answerText": "Không, nếu không có ánh sáng tới mắt"
+    },
+    {
+      "id": "LBCQ_SCIENCE_010",
+      "category": "science",
+      "difficulty": 2,
+      "question": "Điều gì khiến cầu vồng thường xuất hiện khi có nắng và giọt nước?",
+      "options": [
+        "Âm thanh phản xạ",
+        "Không khí biến thành kính",
+        "Trái Đất đứng yên",
+        "Khúc xạ, phản xạ và tán sắc ánh sáng"
+      ],
+      "answerIndex": 3,
+      "hint": "Ánh sáng trắng tách thành nhiều màu.",
+      "explanation": "Giọt nước khúc xạ, phản xạ trong và tán sắc ánh sáng.",
+      "answerText": "Khúc xạ, phản xạ và tán sắc ánh sáng"
+    },
+    {
+      "id": "LBCQ_VIETNAM_001",
+      "category": "vietnam",
+      "difficulty": 1,
+      "question": "Hội An nổi tiếng với loại đồ trang trí phát sáng nào trên phố cổ?",
+      "options": [
+        "Cột đèn neon",
+        "Đèn pha sân vận động",
+        "Đèn laser",
+        "Đèn lồng"
+      ],
+      "answerIndex": 3,
+      "hint": "Những chiếc đèn đủ màu treo dọc phố.",
+      "explanation": "Đèn lồng là biểu tượng quen thuộc của Hội An.",
+      "answerText": "Đèn lồng"
+    },
+    {
+      "id": "LBCQ_VIETNAM_002",
+      "category": "vietnam",
+      "difficulty": 1,
+      "question": "Sông nào gắn liền với thành phố Huế?",
+      "options": [
+        "Sông Hương",
+        "Sông Đồng Nai",
+        "Sông Đà",
+        "Sông Hồng"
+      ],
+      "answerIndex": 0,
+      "hint": "Tên sông gợi hương thơm.",
+      "explanation": "Sông Hương chảy qua Huế.",
+      "answerText": "Sông Hương"
+    },
+    {
+      "id": "LBCQ_VIETNAM_003",
+      "category": "vietnam",
+      "difficulty": 1,
+      "question": "Thành phố nào nổi tiếng với khí hậu mát và rừng thông trên cao nguyên Lâm Viên?",
+      "options": [
+        "Hải Phòng",
+        "Đà Lạt",
+        "Cần Thơ",
+        "Vũng Tàu"
+      ],
+      "answerIndex": 1,
+      "hint": "Nơi có hồ Xuân Hương.",
+      "explanation": "Đà Lạt nổi tiếng với rừng thông và khí hậu cao nguyên.",
+      "answerText": "Đà Lạt"
+    },
+    {
+      "id": "LBCQ_VIETNAM_004",
+      "category": "vietnam",
+      "difficulty": 2,
+      "question": "Chùa Cầu là công trình biểu tượng của nơi nào?",
+      "options": [
+        "Đà Lạt",
+        "Hội An",
+        "Hạ Long",
+        "Nha Trang"
+      ],
+      "answerIndex": 1,
+      "hint": "Gắn với phố cổ ven sông Hoài.",
+      "explanation": "Chùa Cầu là di tích biểu tượng của Hội An.",
+      "answerText": "Hội An"
+    },
+    {
+      "id": "LBCQ_VIETNAM_005",
+      "category": "vietnam",
+      "difficulty": 2,
+      "question": "Ngọ Môn là cổng chính phía nam của công trình nào?",
+      "options": [
+        "Chợ Bến Thành",
+        "Dinh Độc Lập",
+        "Nhà hát Lớn Hà Nội",
+        "Hoàng thành Huế"
+      ],
+      "answerIndex": 3,
+      "hint": "Địa danh nằm trong quần thể di tích cố đô.",
+      "explanation": "Ngọ Môn là cổng chính phía nam của Hoàng thành Huế.",
+      "answerText": "Hoàng thành Huế"
+    },
+    {
+      "id": "LBCQ_VIETNAM_006",
+      "category": "vietnam",
+      "difficulty": 1,
+      "question": "Món ăn nào gắn nhiều với vùng đất Huế?",
+      "options": [
+        "Bún bò Huế",
+        "Sushi",
+        "Pizza",
+        "Kimchi"
+      ],
+      "answerIndex": 0,
+      "hint": "Tên món đã có tên thành phố.",
+      "explanation": "Bún bò Huế là món ăn đặc trưng của Huế.",
+      "answerText": "Bún bò Huế"
+    },
+    {
+      "id": "LBCQ_VIETNAM_007",
+      "category": "vietnam",
+      "difficulty": 2,
+      "question": "Nghề làm loại đèn nào là nét thủ công được nhiều du khách trải nghiệm ở Hội An?",
+      "options": [
+        "Đèn huỳnh quang",
+        "Đèn tín hiệu giao thông",
+        "Đèn pha ô tô",
+        "Đèn lồng"
+      ],
+      "answerIndex": 3,
+      "hint": "Gắn với phố cổ ban đêm.",
+      "explanation": "Hội An có nghề làm đèn lồng thủ công.",
+      "answerText": "Đèn lồng"
+    },
+    {
+      "id": "LBCQ_VIETNAM_008",
+      "category": "vietnam",
+      "difficulty": 2,
+      "question": "Lễ hội thả hoa đăng thường gắn với hoạt động nào?",
+      "options": [
+        "Đốt pháo trong nhà",
+        "Thả diều giữa trưa",
+        "Thả đèn nhỏ trên mặt nước",
+        "Treo tranh lên núi"
+      ],
+      "answerIndex": 2,
+      "hint": "Vật nhỏ phát sáng được đặt trôi theo nước.",
+      "explanation": "Hoa đăng là đèn nhỏ được thả trên mặt nước trong các dịp lễ.",
+      "answerText": "Thả đèn nhỏ trên mặt nước"
+    },
+    {
+      "id": "LBCQ_VIETNAM_009",
+      "category": "vietnam",
+      "difficulty": 2,
+      "question": "Loại hình nghệ thuật cung đình nào gắn với triều Nguyễn ở Huế?",
+      "options": [
+        "Nhã nhạc cung đình",
+        "Múa ballet Nga",
+        "Opera Ý",
+        "Flamenco"
+      ],
+      "answerIndex": 0,
+      "hint": "Đó là loại nhạc cung đình.",
+      "explanation": "Nhã nhạc cung đình Huế là di sản âm nhạc truyền thống.",
+      "answerText": "Nhã nhạc cung đình"
+    },
+    {
+      "id": "LBCQ_VIETNAM_010",
+      "category": "vietnam",
+      "difficulty": 1,
+      "question": "Một chiếc nón lá thường được dùng để làm gì?",
+      "options": [
+        "Che nắng và mưa nhẹ",
+        "Phát Wi-Fi",
+        "Đo nhiệt độ",
+        "Lọc nước sông"
+      ],
+      "answerIndex": 0,
+      "hint": "Đây là vật dụng đội trên đầu.",
+      "explanation": "Nón lá là đồ đội đầu truyền thống, thường dùng che nắng mưa.",
+      "answerText": "Che nắng và mưa nhẹ"
+    },
+    {
+      "id": "LBCQ_KOREA_001",
+      "category": "korea",
+      "difficulty": 1,
+      "question": "Hanok là tên gọi của loại kiến trúc nào ở Hàn Quốc?",
+      "options": [
+        "Trống cổ",
+        "Nhà truyền thống",
+        "Đài thiên văn",
+        "Tàu điện ngầm"
+      ],
+      "answerIndex": 1,
+      "hint": "Gắn với mái ngói và nhà gỗ.",
+      "explanation": "Hanok là nhà truyền thống Hàn Quốc.",
+      "answerText": "Nhà truyền thống"
+    },
+    {
+      "id": "LBCQ_KOREA_002",
+      "category": "korea",
+      "difficulty": 1,
+      "question": "Hanji của Hàn Quốc là gì?",
+      "options": [
+        "Giấy truyền thống",
+        "Món mì",
+        "Kiếm cổ",
+        "Nhạc cụ"
+      ],
+      "answerIndex": 0,
+      "hint": "Có thể gấp, cắt và làm đồ thủ công.",
+      "explanation": "Hanji là giấy truyền thống Hàn Quốc.",
+      "answerText": "Giấy truyền thống"
+    },
+    {
+      "id": "LBCQ_KOREA_003",
+      "category": "korea",
+      "difficulty": 1,
+      "question": "Món ăn lên men nổi tiếng của Hàn Quốc là?",
+      "options": [
+        "Kimchi",
+        "Bánh mì",
+        "Phở bò",
+        "Tacos"
+      ],
+      "answerIndex": 0,
+      "hint": "Thường được chế biến từ rau cải muối.",
+      "explanation": "Kimchi là món rau lên men nổi tiếng ở Hàn Quốc.",
+      "answerText": "Kimchi"
+    },
+    {
+      "id": "LBCQ_KOREA_004",
+      "category": "korea",
+      "difficulty": 2,
+      "question": "Gyeongju gắn liền với vương quốc lịch sử nào?",
+      "options": [
+        "La Mã",
+        "Inca",
+        "Ai Cập cổ",
+        "Silla"
+      ],
+      "answerIndex": 3,
+      "hint": "Tên vương quốc trong chương di sản của game.",
+      "explanation": "Gyeongju là trung tâm lịch sử của Silla.",
+      "answerText": "Silla"
+    },
+    {
+      "id": "LBCQ_KOREA_005",
+      "category": "korea",
+      "difficulty": 2,
+      "question": "Cheomseongdae tại Gyeongju thường được biết đến như công trình gì?",
+      "options": [
+        "Sân vận động",
+        "Nhà ga tốc độ cao",
+        "Cầu treo hiện đại",
+        "Đài quan sát thiên văn cổ"
+      ],
+      "answerIndex": 3,
+      "hint": "Gắn với quan sát bầu trời.",
+      "explanation": "Cheomseongdae được biết đến như đài quan sát thiên văn cổ.",
+      "answerText": "Đài quan sát thiên văn cổ"
+    },
+    {
+      "id": "LBCQ_KOREA_006",
+      "category": "korea",
+      "difficulty": 2,
+      "question": "Sông lớn chảy qua Seoul mang tên gì?",
+      "options": [
+        "Sông Hàn (Hangang)",
+        "Sông Seine",
+        "Sông Hương",
+        "Sông Mekong"
+      ],
+      "answerIndex": 0,
+      "hint": "Tên tiếng Hàn là Hangang.",
+      "explanation": "Sông Hàn (Hangang) chảy qua Seoul.",
+      "answerText": "Sông Hàn (Hangang)"
+    },
+    {
+      "id": "LBCQ_KOREA_007",
+      "category": "korea",
+      "difficulty": 2,
+      "question": "Jeonju Hanok Village nổi tiếng nhất với điều gì?",
+      "options": [
+        "Khu nhà truyền thống Hanok",
+        "Núi lửa đang phun",
+        "Băng tuyết quanh năm",
+        "Sa mạc rộng lớn"
+      ],
+      "answerIndex": 0,
+      "hint": "Tên địa danh nói lên kiến trúc chủ đạo.",
+      "explanation": "Khu làng Hanok Jeonju có nhiều nhà truyền thống.",
+      "answerText": "Khu nhà truyền thống Hanok"
+    },
+    {
+      "id": "LBCQ_KOREA_008",
+      "category": "korea",
+      "difficulty": 2,
+      "question": "Chữ viết thông dụng của tiếng Hàn ngày nay là?",
+      "options": [
+        "Hangul",
+        "Hiragana",
+        "Chữ Devanagari",
+        "Chữ Cyrillic"
+      ],
+      "answerIndex": 0,
+      "hint": "Hệ chữ do vua Sejong gắn với việc phổ cập.",
+      "explanation": "Hangul là hệ chữ viết của tiếng Hàn.",
+      "answerText": "Hangul"
+    },
+    {
+      "id": "LBCQ_KOREA_009",
+      "category": "korea",
+      "difficulty": 3,
+      "question": "Trong nhà Hanok truyền thống, hệ thống ondol gắn với công dụng gì?",
+      "options": [
+        "Sưởi ấm sàn nhà",
+        "Treo đèn giấy",
+        "Làm mái ngói",
+        "Chứa nước mưa"
+      ],
+      "answerIndex": 0,
+      "hint": "Bạn thường ngồi và ngủ gần mặt sàn được làm ấm.",
+      "explanation": "Ondol là hệ thống sưởi sàn truyền thống của Hàn Quốc.",
+      "answerText": "Sưởi ấm sàn nhà"
+    },
+    {
+      "id": "LBCQ_KOREA_010",
+      "category": "korea",
+      "difficulty": 2,
+      "question": "Trong bộ trò chơi dân gian Hàn Quốc, Yutnori dùng dụng cụ nào để quyết định bước đi?",
+      "options": [
+        "Đồng hồ cát điện tử",
+        "Thẻ ngân hàng",
+        "Cờ vua điện tử",
+        "Que gỗ tung"
+      ],
+      "answerIndex": 3,
+      "hint": "Không phải xúc xắc hình lập phương.",
+      "explanation": "Yutnori dùng các thanh/que gỗ tung để quyết định bước đi.",
+      "answerText": "Que gỗ tung"
+    },
+    {
+      "id": "LBCQ_WORLD_001",
+      "category": "world",
+      "difficulty": 1,
+      "question": "Đại dương nào lớn nhất Trái Đất theo diện tích?",
+      "options": [
+        "Đại Tây Dương",
+        "Thái Bình Dương",
+        "Ấn Độ Dương",
+        "Bắc Băng Dương"
+      ],
+      "answerIndex": 1,
+      "hint": "Đó là đại dương nằm giữa châu Á và châu Mỹ.",
+      "explanation": "Thái Bình Dương lớn nhất theo diện tích.",
+      "answerText": "Thái Bình Dương"
+    },
+    {
+      "id": "LBCQ_WORLD_002",
+      "category": "world",
+      "difficulty": 1,
+      "question": "Thủ đô của Nhật Bản là gì?",
+      "options": [
+        "Sapporo",
+        "Osaka",
+        "Tokyo",
+        "Kyoto"
+      ],
+      "answerIndex": 2,
+      "hint": "Một trong các đô thị lớn nhất thế giới.",
+      "explanation": "Tokyo là thủ đô Nhật Bản.",
+      "answerText": "Tokyo"
+    },
+    {
+      "id": "LBCQ_WORLD_003",
+      "category": "world",
+      "difficulty": 2,
+      "question": "Kim tự tháp Giza nổi tiếng nằm ở quốc gia nào?",
+      "options": [
+        "Ý",
+        "Canada",
+        "Peru",
+        "Ai Cập"
+      ],
+      "answerIndex": 3,
+      "hint": "Gắn với sông Nile.",
+      "explanation": "Quần thể kim tự tháp Giza ở Ai Cập.",
+      "answerText": "Ai Cập"
+    },
+    {
+      "id": "LBCQ_WORLD_004",
+      "category": "world",
+      "difficulty": 1,
+      "question": "Châu lục nào có Việt Nam và Hàn Quốc?",
+      "options": [
+        "Châu Mỹ",
+        "Châu Âu",
+        "Châu Phi",
+        "Châu Á"
+      ],
+      "answerIndex": 3,
+      "hint": "Cả hai đều thuộc Đông Á hoặc Đông Nam Á.",
+      "explanation": "Việt Nam và Hàn Quốc đều thuộc châu Á.",
+      "answerText": "Châu Á"
+    },
+    {
+      "id": "LBCQ_WORLD_005",
+      "category": "world",
+      "difficulty": 2,
+      "question": "Thành phố Paris nằm bên dòng sông nào?",
+      "options": [
+        "Sông Hàn",
+        "Sông Seine",
+        "Sông Hương",
+        "Sông Nile"
+      ],
+      "answerIndex": 1,
+      "hint": "Tên sông thường đi cùng hình ảnh Paris.",
+      "explanation": "Sông Seine chảy qua Paris.",
+      "answerText": "Sông Seine"
+    },
+    {
+      "id": "LBCQ_WORLD_006",
+      "category": "world",
+      "difficulty": 2,
+      "question": "Núi Phú Sĩ là biểu tượng thiên nhiên của nước nào?",
+      "options": [
+        "Úc",
+        "Hàn Quốc",
+        "Nhật Bản",
+        "Nepal"
+      ],
+      "answerIndex": 2,
+      "hint": "Núi lửa nổi tiếng gần Tokyo.",
+      "explanation": "Núi Phú Sĩ ở Nhật Bản.",
+      "answerText": "Nhật Bản"
+    },
+    {
+      "id": "LBCQ_WORLD_007",
+      "category": "world",
+      "difficulty": 2,
+      "question": "Châu lục nào có sa mạc Sahara?",
+      "options": [
+        "Nam Cực",
+        "Châu Phi",
+        "Châu Âu",
+        "Châu Đại Dương"
+      ],
+      "answerIndex": 1,
+      "hint": "Sahara ở phía bắc châu lục này.",
+      "explanation": "Sahara nằm chủ yếu ở Bắc Phi.",
+      "answerText": "Châu Phi"
+    },
+    {
+      "id": "LBCQ_WORLD_008",
+      "category": "world",
+      "difficulty": 2,
+      "question": "Công trình Đấu trường Colosseum nằm ở đâu?",
+      "options": [
+        "Seoul",
+        "Bangkok",
+        "Hội An",
+        "Rome"
+      ],
+      "answerIndex": 3,
+      "hint": "Thành phố thủ đô của Ý.",
+      "explanation": "Colosseum ở Rome, Ý.",
+      "answerText": "Rome"
+    },
+    {
+      "id": "LBCQ_WORLD_009",
+      "category": "world",
+      "difficulty": 2,
+      "question": "Rạn san hô Great Barrier Reef nằm gần bờ biển nước nào?",
+      "options": [
+        "Na Uy",
+        "Úc",
+        "Thụy Sĩ",
+        "Mông Cổ"
+      ],
+      "answerIndex": 1,
+      "hint": "Quốc gia ở châu Đại Dương.",
+      "explanation": "Great Barrier Reef nằm ngoài khơi Queensland, Úc.",
+      "answerText": "Úc"
+    },
+    {
+      "id": "LBCQ_WORLD_010",
+      "category": "world",
+      "difficulty": 3,
+      "question": "Một nơi ở vĩ độ 20° Bắc, một nơi ở 20° Nam trên cùng một kinh tuyến. Chúng cách nhau bao nhiêu độ vĩ tuyến?",
+      "options": [
+        "0°",
+        "20°",
+        "40°",
+        "60°"
+      ],
+      "answerIndex": 2,
+      "hint": "Hai điểm nằm ở hai phía của xích đạo.",
+      "explanation": "Khoảng chênh vĩ độ là 20° + 20° = 40°.",
+      "answerText": "40°"
+    },
+    {
+      "id": "LBCQ_LANGUAGE_001",
+      "category": "language",
+      "difficulty": 1,
+      "question": "Từ nào trái nghĩa với “sáng” trong cụm “trời sáng”?",
+      "options": [
+        "Nhẹ",
+        "Trong",
+        "Tối",
+        "Dài"
+      ],
+      "answerIndex": 2,
+      "hint": "Đối lập với ban ngày sáng rõ.",
+      "explanation": "Tối là từ trái nghĩa phù hợp.",
+      "answerText": "Tối"
+    },
+    {
+      "id": "LBCQ_LANGUAGE_002",
+      "category": "language",
+      "difficulty": 2,
+      "question": "Từ “liên kết” gần nghĩa nhất với từ nào?",
+      "options": [
+        "Kết nối",
+        "Đánh rơi",
+        "Ẩn giấu",
+        "Chia tách"
+      ],
+      "answerIndex": 0,
+      "hint": "Hai bên được nối lại.",
+      "explanation": "Liên kết có nghĩa tạo mối quan hệ hoặc kết nối.",
+      "answerText": "Kết nối"
+    },
+    {
+      "id": "LBCQ_LANGUAGE_003",
+      "category": "language",
+      "difficulty": 1,
+      "question": "Trong các từ sau, từ nào chỉ một màu sắc?",
+      "options": [
+        "Xanh",
+        "Lấp lánh",
+        "Hôm qua",
+        "Chạy"
+      ],
+      "answerIndex": 0,
+      "hint": "Chỉ màu của lá hoặc biển.",
+      "explanation": "Xanh là từ chỉ màu sắc.",
+      "answerText": "Xanh"
+    },
+    {
+      "id": "LBCQ_LANGUAGE_004",
+      "category": "language",
+      "difficulty": 2,
+      "question": "Trong từ “thư viện”, chữ “thư” thường mang nghĩa gì?",
+      "options": [
+        "Gió",
+        "Sách",
+        "Đá",
+        "Nước"
+      ],
+      "answerIndex": 1,
+      "hint": "Nơi lưu giữ nhiều sách.",
+      "explanation": "“Thư” trong “thư viện” mang nghĩa sách.",
+      "answerText": "Sách"
+    },
+    {
+      "id": "LBCQ_LANGUAGE_005",
+      "category": "language",
+      "difficulty": 2,
+      "question": "Từ “di sản” thường chỉ điều gì?",
+      "options": [
+        "Một loại cáp điện",
+        "Thời tiết hôm nay",
+        "Giá trị được truyền lại",
+        "Đơn vị đo"
+      ],
+      "answerIndex": 2,
+      "hint": "Những gì thế hệ trước để lại.",
+      "explanation": "Di sản là những giá trị/vật thể/tri thức được truyền lại.",
+      "answerText": "Giá trị được truyền lại"
+    },
+    {
+      "id": "LBCQ_LANGUAGE_006",
+      "category": "language",
+      "difficulty": 2,
+      "question": "Từ nào đúng chính tả tiếng Việt?",
+      "options": [
+        "Khám phá",
+        "Khám fá",
+        "Khám phả",
+        "Khám pháh"
+      ],
+      "answerIndex": 0,
+      "hint": "Hai tiếng đều có dấu đúng vị trí.",
+      "explanation": "“Khám phá” là cách viết đúng.",
+      "answerText": "Khám phá"
+    },
+    {
+      "id": "LBCQ_LANGUAGE_007",
+      "category": "language",
+      "difficulty": 2,
+      "question": "Trong câu “Lumi tìm thấy chiếc chìa khóa”, động từ chính là gì?",
+      "options": [
+        "Chìa khóa",
+        "Lumi",
+        "Tìm thấy",
+        "Chiếc"
+      ],
+      "answerIndex": 2,
+      "hint": "Hành động của Lumi.",
+      "explanation": "“Tìm thấy” là cụm động từ chính.",
+      "answerText": "Tìm thấy"
+    },
+    {
+      "id": "LBCQ_LANGUAGE_008",
+      "category": "language",
+      "difficulty": 1,
+      "question": "Từ nào thường dùng để cảm ơn bằng tiếng Hàn?",
+      "options": [
+        "Sayonara",
+        "Gamsahamnida",
+        "Gracias",
+        "Bonjour"
+      ],
+      "answerIndex": 1,
+      "hint": "Âm gần “kam-sa-ham-ni-da”.",
+      "explanation": "Gamsahamnida (감사합니다) là cách cảm ơn lịch sự bằng tiếng Hàn.",
+      "answerText": "Gamsahamnida"
+    },
+    {
+      "id": "LBCQ_LANGUAGE_009",
+      "category": "language",
+      "difficulty": 2,
+      "question": "Chữ Việt “hữu nghị” gần nghĩa với gì?",
+      "options": [
+        "Khí hậu nóng",
+        "Thời gian dài",
+        "Sự đối địch",
+        "Tình bạn tốt đẹp"
+      ],
+      "answerIndex": 3,
+      "hint": "Dùng nói về quan hệ giữa các dân tộc.",
+      "explanation": "Hữu nghị là quan hệ thân thiện, tốt đẹp.",
+      "answerText": "Tình bạn tốt đẹp"
+    },
+    {
+      "id": "LBCQ_LANGUAGE_010",
+      "category": "language",
+      "difficulty": 3,
+      "question": "Trong cụm “cổ kính”, từ này thường miêu tả điều gì?",
+      "options": [
+        "Rất nhanh",
+        "Không có âm thanh",
+        "Hoàn toàn mới",
+        "Có vẻ xưa và trang nghiêm"
+      ],
+      "answerIndex": 3,
+      "hint": "Nhớ đến những ngôi nhà cổ.",
+      "explanation": "Cổ kính gợi nét cổ xưa, trang nghiêm.",
+      "answerText": "Có vẻ xưa và trang nghiêm"
+    },
+    {
+      "id": "LBCQ_TECHNOLOGY_001",
+      "category": "technology",
+      "difficulty": 1,
+      "question": "Thiết bị nào dùng để nhập chữ vào máy tính?",
+      "options": [
+        "Màn hình",
+        "Bàn phím",
+        "Máy chiếu",
+        "Loa"
+      ],
+      "answerIndex": 1,
+      "hint": "Gồm các phím chữ và số.",
+      "explanation": "Bàn phím cho phép nhập ký tự.",
+      "answerText": "Bàn phím"
+    },
+    {
+      "id": "LBCQ_TECHNOLOGY_002",
+      "category": "technology",
+      "difficulty": 1,
+      "question": "Biểu tượng chiếc kính lúp trong ứng dụng thường có chức năng gì?",
+      "options": [
+        "Xóa toàn bộ",
+        "Phát nhạc",
+        "Tắt máy",
+        "Tìm kiếm"
+      ],
+      "answerIndex": 3,
+      "hint": "Dùng khi muốn tìm một mục.",
+      "explanation": "Kính lúp là biểu tượng phổ biến của tìm kiếm.",
+      "answerText": "Tìm kiếm"
+    },
+    {
+      "id": "LBCQ_TECHNOLOGY_003",
+      "category": "technology",
+      "difficulty": 2,
+      "question": "Mã QR thường được đọc bằng cách nào trên điện thoại?",
+      "options": [
+        "Đếm từng pixel thủ công",
+        "Ngửi mùi giấy",
+        "Dùng camera quét",
+        "Lắc điện thoại"
+      ],
+      "answerIndex": 2,
+      "hint": "Mở camera hoặc chức năng quét.",
+      "explanation": "Camera giải mã mẫu ô vuông của QR.",
+      "answerText": "Dùng camera quét"
+    },
+    {
+      "id": "LBCQ_TECHNOLOGY_004",
+      "category": "technology",
+      "difficulty": 2,
+      "question": "Thông tin nào KHÔNG nên chia sẻ công khai trên mạng?",
+      "options": [
+        "Thời tiết hôm nay",
+        "Tên một thành phố",
+        "Mật khẩu tài khoản",
+        "Tên loại cây"
+      ],
+      "answerIndex": 2,
+      "hint": "Thông tin giúp người khác đăng nhập thay bạn.",
+      "explanation": "Mật khẩu phải được bảo vệ.",
+      "answerText": "Mật khẩu tài khoản"
+    },
+    {
+      "id": "LBCQ_TECHNOLOGY_005",
+      "category": "technology",
+      "difficulty": 2,
+      "question": "Phần mềm lưu tiến độ chơi thường ghi gì?",
+      "options": [
+        "Chỉ màu vỏ máy",
+        "Trạng thái nhiệm vụ và vật phẩm",
+        "Nhiệt độ ngoài trời",
+        "Mã bí mật của người khác"
+      ],
+      "answerIndex": 1,
+      "hint": "Cần khôi phục nơi đã chơi dở.",
+      "explanation": "Save game lưu tiến độ, vật phẩm, cờ nhiệm vụ và trạng thái liên quan.",
+      "answerText": "Trạng thái nhiệm vụ và vật phẩm"
+    },
+    {
+      "id": "LBCQ_TECHNOLOGY_006",
+      "category": "technology",
+      "difficulty": 2,
+      "question": "GPS trên thiết bị thường dùng để hỗ trợ việc gì?",
+      "options": [
+        "Thay pin",
+        "Xác định vị trí",
+        "Đo vị ngọt món ăn",
+        "Chỉnh màu quần áo"
+      ],
+      "answerIndex": 1,
+      "hint": "Ứng dụng bản đồ sử dụng nó.",
+      "explanation": "GPS cung cấp thông tin vị trí dựa trên tín hiệu vệ tinh.",
+      "answerText": "Xác định vị trí"
+    },
+    {
+      "id": "LBCQ_TECHNOLOGY_007",
+      "category": "technology",
+      "difficulty": 2,
+      "question": "Mạng Wi-Fi thường dùng để làm gì?",
+      "options": [
+        "Rửa màn hình",
+        "Kết nối thiết bị không dây vào mạng",
+        "Thay thế loa vật lý",
+        "Sạc điện bằng ánh sáng"
+      ],
+      "answerIndex": 1,
+      "hint": "Cho máy kết nối mạng không cần cáp Ethernet.",
+      "explanation": "Wi-Fi là công nghệ kết nối mạng vô tuyến cự ly gần.",
+      "answerText": "Kết nối thiết bị không dây vào mạng"
+    },
+    {
+      "id": "LBCQ_TECHNOLOGY_008",
+      "category": "technology",
+      "difficulty": 3,
+      "question": "Bản save cũ chưa có trường “difficulty”, phiên bản game mới lại đọc trường này. Cách nâng cấp tương thích tốt nhất là?",
+      "options": [
+        "Nếu thiếu thì dùng giá trị mặc định hợp lệ",
+        "Xóa tất cả save cũ",
+        "Gán giá trị ngẫu nhiên mỗi lần mở",
+        "Không cho người chơi cập nhật"
+      ],
+      "answerIndex": 0,
+      "hint": "Tương thích ngược nghĩa là dữ liệu cũ vẫn đọc được.",
+      "explanation": "Trường tùy chọn có giá trị mặc định và migration an toàn cho phép mở save cũ.",
+      "answerText": "Nếu thiếu thì dùng giá trị mặc định hợp lệ"
+    },
+    {
+      "id": "LBCQ_TECHNOLOGY_009",
+      "category": "technology",
+      "difficulty": 2,
+      "question": "Một bản đồ có các điểm và các đường nối giữa chúng là ví dụ gần nhất của cấu trúc nào?",
+      "options": [
+        "Bộ lọc ảnh",
+        "Đồ thị",
+        "Danh sách mua hàng",
+        "Tệp âm thanh"
+      ],
+      "answerIndex": 1,
+      "hint": "Các đỉnh và cạnh.",
+      "explanation": "Graph/đồ thị gồm đỉnh và cạnh, phù hợp mô hình node-path.",
+      "answerText": "Đồ thị"
+    },
+    {
+      "id": "LBCQ_TECHNOLOGY_010",
+      "category": "technology",
+      "difficulty": 3,
+      "question": "Khi 2 người cùng sửa một file, công cụ nào hữu ích để so sánh và gộp thay đổi?",
+      "options": [
+        "Đồng hồ báo thức",
+        "Hệ thống quản lý phiên bản",
+        "Máy ảnh",
+        "Ứng dụng thời tiết"
+      ],
+      "answerIndex": 1,
+      "hint": "Hãy nghĩ tới Git.",
+      "explanation": "Hệ thống quản lý phiên bản giúp theo dõi, so sánh và hợp nhất thay đổi.",
+      "answerText": "Hệ thống quản lý phiên bản"
+    },
+    {
+      "id": "LBCQ_EVERYDAY_001",
+      "category": "everyday",
+      "difficulty": 1,
+      "question": "Lumi thấy biển “Cầu đang sửa chữa”. Hành động an toàn nhất là gì?",
+      "options": [
+        "Bỏ qua biển cảnh báo",
+        "Chạy thật nhanh qua cầu",
+        "Tìm lối hợp lệ khác",
+        "Nhảy xuống nước"
+      ],
+      "answerIndex": 2,
+      "hint": "Đừng đi vào khu vực đang thi công.",
+      "explanation": "Nên tìm lối an toàn được phép sử dụng.",
+      "answerText": "Tìm lối hợp lệ khác"
+    },
+    {
+      "id": "LBCQ_EVERYDAY_002",
+      "category": "everyday",
+      "difficulty": 1,
+      "question": "Khi gặp NPC nhờ giúp tìm đồ thất lạc, bước đầu hợp lý nhất là gì?",
+      "options": [
+        "Hỏi vị trí nhìn thấy lần cuối",
+        "Đổi thành phố ngay",
+        "Mua đồ ngẫu nhiên",
+        "Bỏ đi không nghe"
+      ],
+      "answerIndex": 0,
+      "hint": "Tìm manh mối trước khi tìm kiếm.",
+      "explanation": "Vị trí cuối cùng giúp khoanh vùng tìm kiếm.",
+      "answerText": "Hỏi vị trí nhìn thấy lần cuối"
+    },
+    {
+      "id": "LBCQ_EVERYDAY_003",
+      "category": "everyday",
+      "difficulty": 2,
+      "question": "Một ngọn đèn nhấp nháy vì pin yếu. Cách xử lý hợp lý nhất?",
+      "options": [
+        "Giấu chiếc đèn",
+        "Kiểm tra nguồn pin",
+        "Đập vỡ đèn",
+        "Tăng độ sáng màn hình điện thoại"
+      ],
+      "answerIndex": 1,
+      "hint": "Tìm nguyên nhân ở nguồn năng lượng.",
+      "explanation": "Kiểm tra và thay pin phù hợp trước khi sử dụng.",
+      "answerText": "Kiểm tra nguồn pin"
+    },
+    {
+      "id": "LBCQ_EVERYDAY_004",
+      "category": "everyday",
+      "difficulty": 2,
+      "question": "Bạn thấy con đường ngắn cắt ngang mái nhà. Cách đi hợp lý hơn?",
+      "options": [
+        "Đi xuyên mái",
+        "Bay qua nhà",
+        "Bỏ qua vật cản",
+        "Đi theo ngõ và cầu thực tế"
+      ],
+      "answerIndex": 3,
+      "hint": "Đường đi nên hợp địa hình.",
+      "explanation": "Lối đi hợp lệ phải đi trên đường hoặc cầu thay vì xuyên vật cản.",
+      "answerText": "Đi theo ngõ và cầu thực tế"
+    },
+    {
+      "id": "LBCQ_EVERYDAY_005",
+      "category": "everyday",
+      "difficulty": 2,
+      "question": "Một thương nhân đưa món hàng nhưng bạn chưa kiểm tra đơn đặt. Nên làm gì?",
+      "options": [
+        "Bỏ đi",
+        "Kiểm tra món và số lượng",
+        "Nhận mọi thứ ngay",
+        "Đổ hết hàng xuống sông"
+      ],
+      "answerIndex": 1,
+      "hint": "Đối chiếu với yêu cầu ban đầu.",
+      "explanation": "Kiểm tra trước giúp tránh giao nhầm.",
+      "answerText": "Kiểm tra món và số lượng"
+    },
+    {
+      "id": "LBCQ_EVERYDAY_006",
+      "category": "everyday",
+      "difficulty": 2,
+      "question": "Lumi cần qua bờ đối diện nhưng không có cầu. Có bến đò hoạt động hợp lệ. Cách nào đúng?",
+      "options": [
+        "Đi vòng vô hạn",
+        "Xuyên qua nhà ven sông",
+        "Đi bộ trên nước",
+        "Dùng đò theo quy định"
+      ],
+      "answerIndex": 3,
+      "hint": "Trò chơi đã cho phương tiện vượt sông.",
+      "explanation": "Dùng đò là tuyến di chuyển phù hợp địa hình.",
+      "answerText": "Dùng đò theo quy định"
+    },
+    {
+      "id": "LBCQ_EVERYDAY_007",
+      "category": "everyday",
+      "difficulty": 2,
+      "question": "Một bí mật trong game chỉ xuất hiện sau khi có chìa khóa. Muốn mở khóa, nên làm gì?",
+      "options": [
+        "Nhấn liên tục để bỏ qua gate",
+        "Thay đổi đồng hồ máy",
+        "Tìm chìa khóa qua nhiệm vụ",
+        "Xóa save"
+      ],
+      "answerIndex": 2,
+      "hint": "Đi theo điều kiện mở được hướng dẫn.",
+      "explanation": "Cần hoàn thành điều kiện nhận chìa khóa.",
+      "answerText": "Tìm chìa khóa qua nhiệm vụ"
+    },
+    {
+      "id": "LBCQ_EVERYDAY_008",
+      "category": "everyday",
+      "difficulty": 3,
+      "question": "Một người nói “Tôi có manh mối, nhưng chưa chắc đúng”. Cách xử lý tốt nhất?",
+      "options": [
+        "Coi đó là đáp án",
+        "Bỏ hết manh mối",
+        "Tin ngay tuyệt đối",
+        "Kiểm chứng bằng bằng chứng khác"
+      ],
+      "answerIndex": 3,
+      "hint": "Manh mối chưa chắc chắn cần đối chiếu.",
+      "explanation": "Nên kiểm tra chéo thông tin trước khi quyết định.",
+      "answerText": "Kiểm chứng bằng bằng chứng khác"
+    },
+    {
+      "id": "LBCQ_EVERYDAY_009",
+      "category": "everyday",
+      "difficulty": 3,
+      "question": "Một nhiệm vụ cần đúng 3 quả dâu; kho có 2 quả. Bạn có thể đổi 2 quả táo lấy 1 quả dâu ở chợ, hiện có 4 quả táo. Sau khi đổi và giao, kho còn gì?",
+      "options": [
+        "0 táo, 2 dâu",
+        "2 táo, 0 dâu",
+        "4 táo, 1 dâu",
+        "2 táo, 3 dâu"
+      ],
+      "answerIndex": 1,
+      "hint": "Đổi mất 2 táo để đủ 3 dâu, rồi giao hết dâu.",
+      "explanation": "4 táo - 2 = 2 táo; 2 dâu + 1 = 3 dâu, giao xong còn 0 dâu.",
+      "answerText": "2 táo, 0 dâu"
+    },
+    {
+      "id": "LBCQ_EVERYDAY_010",
+      "category": "everyday",
+      "difficulty": 2,
+      "question": "Khi chạy qua cầu hẹp, vì sao nên giảm tốc?",
+      "options": [
+        "Dễ quan sát và tránh va chạm",
+        "Để nước ngừng chảy",
+        "Để đồ vật biến mất",
+        "Để cầu tự dài thêm"
+      ],
+      "answerIndex": 0,
+      "hint": "Cầu hẹp có ít không gian di chuyển.",
+      "explanation": "Giảm tốc giúp quan sát và kiểm soát bước đi.",
+      "answerText": "Dễ quan sát và tránh va chạm"
+    },
+    {
+      "id": "LBCQ_RIDDLES_001",
+      "category": "riddles",
+      "difficulty": 1,
+      "question": "Cái gì có mặt nhưng không có mắt, có kim nhưng không biết khâu?",
+      "options": [
+        "Con mèo",
+        "Cây thông",
+        "Đồng hồ",
+        "Cái ghế"
+      ],
+      "answerIndex": 2,
+      "hint": "Dùng để xem giờ.",
+      "explanation": "Đồng hồ có mặt số và kim chỉ giờ.",
+      "answerText": "Đồng hồ"
+    },
+    {
+      "id": "LBCQ_RIDDLES_002",
+      "category": "riddles",
+      "difficulty": 1,
+      "question": "Cái gì càng lau càng ướt?",
+      "options": [
+        "Đá lạnh",
+        "Khăn lau",
+        "Chiếc bóng",
+        "Con đường"
+      ],
+      "answerIndex": 1,
+      "hint": "Vật hấp thụ nước khi lau.",
+      "explanation": "Khăn dùng lau nước sẽ ngày càng ướt.",
+      "answerText": "Khăn lau"
+    },
+    {
+      "id": "LBCQ_RIDDLES_003",
+      "category": "riddles",
+      "difficulty": 2,
+      "question": "Cái gì có nhiều răng nhưng không ăn được?",
+      "options": [
+        "Lược",
+        "Cá",
+        "Gà",
+        "Chó"
+      ],
+      "answerIndex": 0,
+      "hint": "Dùng để chải tóc.",
+      "explanation": "Răng lược là các thanh nhỏ để chải tóc.",
+      "answerText": "Lược"
+    },
+    {
+      "id": "LBCQ_RIDDLES_004",
+      "category": "riddles",
+      "difficulty": 1,
+      "question": "Cái gì có cổ nhưng không có đầu?",
+      "options": [
+        "Bút chì",
+        "Chai",
+        "Đèn pin",
+        "Bàn"
+      ],
+      "answerIndex": 1,
+      "hint": "Thường đựng nước.",
+      "explanation": "Chai có cổ chai mà không có đầu.",
+      "answerText": "Chai"
+    },
+    {
+      "id": "LBCQ_RIDDLES_005",
+      "category": "riddles",
+      "difficulty": 2,
+      "question": "Cái gì có chân nhưng không biết đi?",
+      "options": [
+        "Cái bàn",
+        "Người",
+        "Con gà",
+        "Con mèo"
+      ],
+      "answerIndex": 0,
+      "hint": "Dùng làm nơi đặt đồ.",
+      "explanation": "Bàn có chân bàn nhưng không di chuyển như động vật.",
+      "answerText": "Cái bàn"
+    },
+    {
+      "id": "LBCQ_RIDDLES_006",
+      "category": "riddles",
+      "difficulty": 2,
+      "question": "Cái gì có thể lấp đầy căn phòng nhưng không chiếm chỗ như đồ vật?",
+      "options": [
+        "Bàn ghế",
+        "Khối đá",
+        "Ánh sáng",
+        "Tủ gỗ"
+      ],
+      "answerIndex": 2,
+      "hint": "Khi bật đèn, cả phòng thay đổi.",
+      "explanation": "Ánh sáng lan khắp phòng, không chiếm thể tích như vật rắn.",
+      "answerText": "Ánh sáng"
+    },
+    {
+      "id": "LBCQ_RIDDLES_007",
+      "category": "riddles",
+      "difficulty": 2,
+      "question": "Càng lấy bớt đất, cái gì càng lớn?",
+      "options": [
+        "Cái hố",
+        "Cuốn sách",
+        "Bình nước",
+        "Viên đá"
+      ],
+      "answerIndex": 0,
+      "hint": "Ta đào nó xuống đất.",
+      "explanation": "Đào đất ra khỏi hố làm hố lớn hơn.",
+      "answerText": "Cái hố"
+    },
+    {
+      "id": "LBCQ_RIDDLES_008",
+      "category": "riddles",
+      "difficulty": 3,
+      "question": "Cái gì bạn có thể giữ sau khi đã trao cho người khác?",
+      "options": [
+        "Một chiếc chìa khóa",
+        "Một đồng xu",
+        "Một chiếc cốc",
+        "Lời hứa"
+      ],
+      "answerIndex": 3,
+      "hint": "Giữ bằng hành động chứ không phải bằng tay.",
+      "explanation": "Đã hứa với người khác, bạn vẫn có thể giữ lời hứa.",
+      "answerText": "Lời hứa"
+    },
+    {
+      "id": "LBCQ_RIDDLES_009",
+      "category": "riddles",
+      "difficulty": 2,
+      "question": "Cái gì có thể chạy nhưng không có chân?",
+      "options": [
+        "Viên gạch",
+        "Dòng nước",
+        "Cái bát",
+        "Chiếc ghế"
+      ],
+      "answerIndex": 1,
+      "hint": "Sông suối có thứ này.",
+      "explanation": "“Nước chảy/chạy” là cách nói về chuyển động của nước.",
+      "answerText": "Dòng nước"
+    },
+    {
+      "id": "LBCQ_RIDDLES_010",
+      "category": "riddles",
+      "difficulty": 3,
+      "question": "Cái gì luôn ở phía trước bạn nhưng bạn chưa thể nhìn thấy trực tiếp?",
+      "options": [
+        "Mặt đất",
+        "Chiếc bàn trước mặt",
+        "Tấm gương",
+        "Tương lai"
+      ],
+      "answerIndex": 3,
+      "hint": "Chưa xảy ra.",
+      "explanation": "Tương lai là những gì chưa xảy ra và chưa thể nhìn trực tiếp.",
+      "answerText": "Tương lai"
+    },
+    {
+      "id": "LBCQ_CIPHER_001",
+      "category": "cipher",
+      "difficulty": 2,
+      "question": "Một khóa dùng quy tắc A=1, B=2, C=3. Mã C-A-B tương ứng dãy nào?",
+      "options": [
+        "2-3-1",
+        "3-2-1",
+        "1-2-3",
+        "3-1-2"
+      ],
+      "answerIndex": 3,
+      "hint": "Đổi từng chữ thành vị trí của nó trong bảng chữ A-B-C.",
+      "explanation": "C=3, A=1, B=2 nên mã là 3-1-2.",
+      "answerText": "3-1-2"
+    },
+    {
+      "id": "LBCQ_CIPHER_002",
+      "category": "cipher",
+      "difficulty": 2,
+      "question": "Một cửa ghi: “Muốn mở, đọc ngược 4321”. Bạn phải nhập gì?",
+      "options": [
+        "1234",
+        "4321",
+        "2143",
+        "1432"
+      ],
+      "answerIndex": 0,
+      "hint": "Đảo thứ tự bốn chữ số.",
+      "explanation": "Đọc ngược 4321 thành 1234.",
+      "answerText": "1234"
+    },
+    {
+      "id": "LBCQ_CIPHER_003",
+      "category": "cipher",
+      "difficulty": 3,
+      "question": "Trên ổ khóa ghi “Mỗi chữ cái lùi một vị trí: B→A, C→B”. Mã D-B-C thành gì?",
+      "options": [
+        "C-A-B",
+        "E-C-D",
+        "B-A-C",
+        "C-B-A"
+      ],
+      "answerIndex": 0,
+      "hint": "D lùi thành C.",
+      "explanation": "D→C, B→A, C→B; kết quả C-A-B.",
+      "answerText": "C-A-B"
+    },
+    {
+      "id": "LBCQ_CIPHER_004",
+      "category": "cipher",
+      "difficulty": 2,
+      "question": "Ba đèn đỏ, xanh, vàng bật theo thứ tự 2-3-1. Nếu 1=Đỏ, 2=Xanh, 3=Vàng, thứ tự là gì?",
+      "options": [
+        "Đỏ-Xanh-Vàng",
+        "Vàng-Xanh-Đỏ",
+        "Vàng-Đỏ-Xanh",
+        "Xanh-Vàng-Đỏ"
+      ],
+      "answerIndex": 3,
+      "hint": "Ánh xạ số sang màu trước, rồi đọc thứ tự.",
+      "explanation": "2=Xanh, 3=Vàng, 1=Đỏ.",
+      "answerText": "Xanh-Vàng-Đỏ"
+    },
+    {
+      "id": "LBCQ_CIPHER_005",
+      "category": "cipher",
+      "difficulty": 3,
+      "question": "Một mật mã có quy tắc chữ số cuối bằng tổng hai chữ số đầu. Mã nào hợp lệ?",
+      "options": [
+        "4-1-6",
+        "3-4-8",
+        "2-5-7",
+        "1-6-8"
+      ],
+      "answerIndex": 2,
+      "hint": "Thử cộng từng cặp đầu.",
+      "explanation": "2+5=7; ba mã còn lại không thỏa.",
+      "answerText": "2-5-7"
+    },
+    {
+      "id": "LBCQ_CIPHER_006",
+      "category": "cipher",
+      "difficulty": 2,
+      "question": "Một người viết “1 bước Bắc, 1 Đông, 1 Nam”. Từ điểm xuất phát, bạn đang ở đâu?",
+      "options": [
+        "Một bước về Tây",
+        "Một bước về Đông",
+        "Ngay tại chỗ",
+        "Một bước về Bắc"
+      ],
+      "answerIndex": 1,
+      "hint": "Bắc và Nam triệt tiêu.",
+      "explanation": "Đi Bắc rồi Nam bằng nhau, còn 1 bước Đông.",
+      "answerText": "Một bước về Đông"
+    },
+    {
+      "id": "LBCQ_CIPHER_007",
+      "category": "cipher",
+      "difficulty": 3,
+      "question": "Một mã có 4 chữ số a-b-c-d. Biết a=2, b=a+1, c=b×2, d=c−a. Mã đúng là?",
+      "options": [
+        "2-3-5-4",
+        "2-3-6-4",
+        "2-3-6-5",
+        "2-4-6-4"
+      ],
+      "answerIndex": 1,
+      "hint": "Tính lần lượt từ a tới d.",
+      "explanation": "a=2, b=3, c=6, d=6−2=4.",
+      "answerText": "2-3-6-4"
+    },
+    {
+      "id": "LBCQ_CIPHER_008",
+      "category": "cipher",
+      "difficulty": 3,
+      "question": "Mật thư ghi: “Mỗi bước tăng 3”. Dãy khóa 4, 7, 10, ... chữ số tiếp theo là?",
+      "options": [
+        "12",
+        "13",
+        "11",
+        "14"
+      ],
+      "answerIndex": 1,
+      "hint": "Cộng tiếp 3.",
+      "explanation": "10+3=13.",
+      "answerText": "13"
+    },
+    {
+      "id": "LBCQ_CIPHER_009",
+      "category": "cipher",
+      "difficulty": 2,
+      "question": "Các biểu tượng theo mã: Trăng=0, Sao=1, Đèn=2. Dãy Sao-Đèn-Trăng là?",
+      "options": [
+        "012",
+        "120",
+        "102",
+        "201"
+      ],
+      "answerIndex": 1,
+      "hint": "Thay từng hình bằng chữ số.",
+      "explanation": "Sao=1, Đèn=2, Trăng=0 nên là 120.",
+      "answerText": "120"
+    },
+    {
+      "id": "LBCQ_CIPHER_010",
+      "category": "cipher",
+      "difficulty": 3,
+      "question": "Tủ A chứa khóa B, tủ B chứa khóa C. Bạn chỉ có chìa mở A. Thứ tự hợp lý để mở được tủ C?",
+      "options": [
+        "B→A→C",
+        "A→B→C",
+        "C→B→A",
+        "C→A→B"
+      ],
+      "answerIndex": 1,
+      "hint": "Mỗi tủ cho khóa mở tủ tiếp theo.",
+      "explanation": "Mở A nhận khóa B, mở B nhận khóa C, rồi mở C.",
+      "answerText": "A→B→C"
+    },
+    {
+      "id": "LBCQ_SPATIAL_001",
+      "category": "spatial",
+      "difficulty": 2,
+      "question": "Đang quay mặt về Bắc, Lumi rẽ phải. Lumi nhìn về hướng nào?",
+      "options": [
+        "Bắc",
+        "Tây",
+        "Đông",
+        "Nam"
+      ],
+      "answerIndex": 2,
+      "hint": "Xoay 90° theo chiều kim đồng hồ.",
+      "explanation": "Từ Bắc rẽ phải là Đông.",
+      "answerText": "Đông"
+    },
+    {
+      "id": "LBCQ_SPATIAL_002",
+      "category": "spatial",
+      "difficulty": 2,
+      "question": "Lumi đi 2 bước Bắc, 2 bước Nam rồi 1 bước Tây. So với chỗ xuất phát Lumi ở đâu?",
+      "options": [
+        "Đông 1 bước",
+        "Bắc 1 bước",
+        "Tây 1 bước",
+        "Ngay tại chỗ"
+      ],
+      "answerIndex": 2,
+      "hint": "Hai lượt đi Bắc và Nam triệt tiêu.",
+      "explanation": "Còn lại 1 bước về Tây.",
+      "answerText": "Tây 1 bước"
+    },
+    {
+      "id": "LBCQ_SPATIAL_003",
+      "category": "spatial",
+      "difficulty": 3,
+      "question": "Một lưới có hàng trên A-B-C, hàng dưới D-E-F. Đi từ A sang F theo các cạnh ngang/dọc, tuyến nào hợp lệ?",
+      "options": [
+        "A-E-F",
+        "A-C-F",
+        "A-B-C-F",
+        "A-D-F"
+      ],
+      "answerIndex": 2,
+      "hint": "Không được đi chéo hoặc nhảy qua ô.",
+      "explanation": "A→B→C→F gồm ba cạnh nối ngang/dọc.",
+      "answerText": "A-B-C-F"
+    },
+    {
+      "id": "LBCQ_SPATIAL_004",
+      "category": "spatial",
+      "difficulty": 2,
+      "question": "Trên bản đồ, cầu là lối duy nhất qua sông. Điểm đến ở bờ kia. Tuyến nào hợp lý?",
+      "options": [
+        "Nối thẳng qua nước",
+        "Đến cầu rồi sang sông",
+        "Đứng chờ ở mép nước mãi",
+        "Đi xuyên ngôi nhà"
+      ],
+      "answerIndex": 1,
+      "hint": "Phải dùng lối qua sông được xây dựng.",
+      "explanation": "Đi qua cầu là cách di chuyển hợp lệ.",
+      "answerText": "Đến cầu rồi sang sông"
+    },
+    {
+      "id": "LBCQ_SPATIAL_005",
+      "category": "spatial",
+      "difficulty": 2,
+      "question": "Một ngã tư có bốn hướng Bắc, Nam, Đông, Tây. Nếu Lumi từ Nam đi thẳng qua ngã tư, Lumi đi về hướng nào?",
+      "options": [
+        "Đông",
+        "Nam",
+        "Tây",
+        "Bắc"
+      ],
+      "answerIndex": 3,
+      "hint": "Từ phía Nam đi vào giữa ngã tư rồi đi thẳng.",
+      "explanation": "Đi thẳng từ phía Nam tới phía Bắc.",
+      "answerText": "Bắc"
+    },
+    {
+      "id": "LBCQ_SPATIAL_006",
+      "category": "spatial",
+      "difficulty": 3,
+      "question": "Một lưới 3×3 có ô giữa là (2,2), hàng tăng từ trên xuống, cột tăng từ trái sang. Từ (2,2) đi lên, sang phải, rồi xuống. Tọa độ cuối là?",
+      "options": [
+        "(2,3)",
+        "(3,3)",
+        "(1,3)",
+        "(2,1)"
+      ],
+      "answerIndex": 0,
+      "hint": "Di chuyển lần lượt theo hàng và cột.",
+      "explanation": "(2,2) → (1,2) → (1,3) → (2,3).",
+      "answerText": "(2,3)"
+    },
+    {
+      "id": "LBCQ_SPATIAL_007",
+      "category": "spatial",
+      "difficulty": 2,
+      "question": "Hướng Tây là bên trái bản đồ khi Bắc ở phía trên. Lumi đi về Tây nghĩa là đi?",
+      "options": [
+        "Xuống dưới",
+        "Lên trên",
+        "Sang phải",
+        "Sang trái"
+      ],
+      "answerIndex": 3,
+      "hint": "La bàn bản đồ Bắc lên trên.",
+      "explanation": "Với Bắc ở phía trên, Tây nằm bên trái.",
+      "answerText": "Sang trái"
+    },
+    {
+      "id": "LBCQ_SPATIAL_008",
+      "category": "spatial",
+      "difficulty": 3,
+      "question": "Trên đường hình vuông, Lumi đi lần lượt Đông 3 m, Bắc 3 m, Tây 3 m, Nam 3 m. Kết quả?",
+      "options": [
+        "Ở phía Đông",
+        "Trở lại điểm đầu",
+        "Cách điểm đầu 3 m",
+        "Cách điểm đầu 6 m"
+      ],
+      "answerIndex": 1,
+      "hint": "Hai cặp hướng đối nhau.",
+      "explanation": "Mọi độ dời triệt tiêu; Lumi trở lại điểm đầu.",
+      "answerText": "Trở lại điểm đầu"
+    },
+    {
+      "id": "LBCQ_SPATIAL_009",
+      "category": "spatial",
+      "difficulty": 2,
+      "question": "Một ngọn tháp nằm phía Đông bến đò. Từ tháp nhìn về bến đò phải nhìn hướng nào?",
+      "options": [
+        "Đông",
+        "Nam",
+        "Tây",
+        "Bắc"
+      ],
+      "answerIndex": 2,
+      "hint": "Đổi góc nhìn thì hướng đảo lại.",
+      "explanation": "Nếu tháp ở Đông của bến, bến ở Tây của tháp.",
+      "answerText": "Tây"
+    },
+    {
+      "id": "LBCQ_SPATIAL_010",
+      "category": "spatial",
+      "difficulty": 3,
+      "question": "Một bản đồ có hai tuyến A→B→D (4+2 bước) và A→C→D (3+4 bước). Tuyến nào ngắn hơn?",
+      "options": [
+        "Qua B",
+        "Qua C",
+        "Không thể biết",
+        "Bằng nhau"
+      ],
+      "answerIndex": 0,
+      "hint": "Cộng số bước trên mỗi tuyến.",
+      "explanation": "Qua B là 6 bước; qua C là 7 bước.",
+      "answerText": "Qua B"
+    },
+    {
+      "id": "LBCQ_MYSTERY_001",
+      "category": "mystery",
+      "difficulty": 2,
+      "question": "Một NPC bảo: “Chìa khóa ở nơi không ướt khi trời mưa”. Trong ba nơi: bến trống, mái hiên, giữa hồ, nên tìm ở đâu?",
+      "options": [
+        "Giữa hồ",
+        "Cả ba như nhau",
+        "Mái hiên",
+        "Bến trống"
+      ],
+      "answerIndex": 2,
+      "hint": "Hãy tìm nơi có mái che.",
+      "explanation": "Mái hiên có khả năng che mưa cho đồ bên dưới.",
+      "answerText": "Mái hiên"
+    },
+    {
+      "id": "LBCQ_MYSTERY_002",
+      "category": "mystery",
+      "difficulty": 2,
+      "question": "Bốn ngọn đèn xếp hàng: đỏ, ?, xanh, ?. Biết dãy lặp Đỏ-Vàng-Xanh, hai vị trí trống là gì?",
+      "options": [
+        "Đỏ-Vàng",
+        "Vàng-Xanh",
+        "Vàng-Đỏ",
+        "Xanh-Vàng"
+      ],
+      "answerIndex": 2,
+      "hint": "Chu kỳ gồm ba màu.",
+      "explanation": "Dãy là Đỏ–Vàng–Xanh–Đỏ.",
+      "answerText": "Vàng-Đỏ"
+    },
+    {
+      "id": "LBCQ_MYSTERY_003",
+      "category": "mystery",
+      "difficulty": 3,
+      "question": "Ba rương Đỏ, Xanh, Vàng, mỗi rương chứa đúng một viên khác màu và cả ba nhãn đều sai. Mở rương ghi Đỏ thấy viên Xanh. Rương ghi Xanh chứa viên màu gì?",
+      "options": [
+        "Xanh",
+        "Không xác định",
+        "Vàng",
+        "Đỏ"
+      ],
+      "answerIndex": 2,
+      "hint": "Rương ghi Vàng không thể chứa Vàng, trong khi viên Xanh đã nằm ở rương ghi Đỏ.",
+      "explanation": "Rương ghi Vàng phải chứa Đỏ. Vì thế rương ghi Xanh chứa Vàng.",
+      "answerText": "Vàng"
+    },
+    {
+      "id": "LBCQ_MYSTERY_004",
+      "category": "mystery",
+      "difficulty": 2,
+      "question": "Một cuốn nhật ký ghi: “Hãy đến cầu trước khi trời tối”. Để không bỏ lỡ, bạn nên làm gì?",
+      "options": [
+        "Đợi trời tối mới tìm cầu",
+        "Đến sau nửa đêm",
+        "Không xem bản đồ",
+        "Đến cầu trước khi tối"
+      ],
+      "answerIndex": 3,
+      "hint": "Điều kiện thời gian ghi ngay trong câu.",
+      "explanation": "Nhiệm vụ yêu cầu đến trước khi trời tối.",
+      "answerText": "Đến cầu trước khi tối"
+    },
+    {
+      "id": "LBCQ_MYSTERY_005",
+      "category": "mystery",
+      "difficulty": 3,
+      "question": "Hai người canh cổng: A luôn nói thật, B luôn nói dối. A nói “Cửa Đông đang khóa”. Cửa nào chắc chắn đang khóa?",
+      "options": [
+        "Cửa Tây",
+        "Không cửa nào",
+        "Cửa Đông",
+        "Cả hai"
+      ],
+      "answerIndex": 2,
+      "hint": "Chỉ dựa vào lời A.",
+      "explanation": "A luôn nói thật nên cửa Đông đang khóa.",
+      "answerText": "Cửa Đông"
+    },
+    {
+      "id": "LBCQ_MYSTERY_006",
+      "category": "mystery",
+      "difficulty": 2,
+      "question": "Bức tranh có 5 ngôi sao. Một ngôi sao bị che, còn 4 sao nhìn thấy. Có tổng cộng bao nhiêu sao?",
+      "options": [
+        "Không biết",
+        "4",
+        "6",
+        "5"
+      ],
+      "answerIndex": 3,
+      "hint": "Một ngôi sao bị che vẫn tồn tại.",
+      "explanation": "4 nhìn thấy + 1 bị che = 5.",
+      "answerText": "5"
+    },
+    {
+      "id": "LBCQ_MYSTERY_007",
+      "category": "mystery",
+      "difficulty": 3,
+      "question": "Ba công tắc ở ngoài điều khiển một bóng đèn dây tóc trong phòng kín, chỉ một công tắc đúng; chỉ được vào phòng một lần. Cách nào phân biệt cả ba?",
+      "options": [
+        "Bật cả ba rồi vào",
+        "Để cả ba tắt rồi vào",
+        "Bật A vài phút rồi tắt, bật B, vào kiểm tra sáng và nhiệt",
+        "Bật A và B mãi rồi vào"
+      ],
+      "answerIndex": 2,
+      "hint": "Bóng dây tóc còn ấm một lúc sau khi tắt.",
+      "explanation": "Nếu sáng thì B; nếu tắt nhưng ấm thì A; nếu tắt và nguội thì C.",
+      "answerText": "Bật A vài phút rồi tắt, bật B, vào kiểm tra sáng và nhiệt"
+    },
+    {
+      "id": "LBCQ_MYSTERY_008",
+      "category": "mystery",
+      "difficulty": 2,
+      "question": "Trên bản đồ, ký hiệu tam giác là núi, hình vuông là nhà, vòng tròn là giếng. Muốn tìm nước uống, nên tới đâu?",
+      "options": [
+        "Vòng tròn",
+        "Tam giác",
+        "Cả ba giống nhau",
+        "Hình vuông"
+      ],
+      "answerIndex": 0,
+      "hint": "Hãy giải mã ký hiệu của giếng.",
+      "explanation": "Vòng tròn ứng với giếng nước.",
+      "answerText": "Vòng tròn"
+    },
+    {
+      "id": "LBCQ_MYSTERY_009",
+      "category": "mystery",
+      "difficulty": 3,
+      "question": "Lumi nhặt ba mảnh giấy: “HẸN”, “Ở”, “CẦU”. Cách ghép nào thành lời hẹn tự nhiên nhất?",
+      "options": [
+        "CẦU HẸN Ở",
+        "HẸN Ở CẦU",
+        "Ở CẦU HẸN",
+        "Ở HẸN CẦU"
+      ],
+      "answerIndex": 1,
+      "hint": "Ghép động từ, giới từ, địa điểm.",
+      "explanation": "“Hẹn ở cầu” là cụm có nghĩa tự nhiên trong ngữ cảnh.",
+      "answerText": "HẸN Ở CẦU"
+    },
+    {
+      "id": "LBCQ_MYSTERY_010",
+      "category": "mystery",
+      "difficulty": 2,
+      "question": "Một tấm biển ghi “Lối này đóng khi nước dâng”. Nước đang dâng. Hành động hợp lý là?",
+      "options": [
+        "Cứ đi tiếp",
+        "Tìm tuyến khác",
+        "Đi xuống lòng sông",
+        "Xóa tấm biển"
+      ],
+      "answerIndex": 1,
+      "hint": "Điều kiện đóng đang được thỏa.",
+      "explanation": "Nước dâng thì lối đóng, phải chọn lối khác.",
+      "answerText": "Tìm tuyến khác"
+    }
+  ]
+}

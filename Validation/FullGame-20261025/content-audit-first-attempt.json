@@ -1,0 +1,198 @@
+{
+  "scope": "Static data checks, not gameplay assertions or proof of route visual clearance",
+  "counts": {
+    "cities": 6,
+    "events": 164,
+    "items": 38,
+    "quests": 29,
+    "puzzles": 22,
+    "enemies": 23,
+    "checkIns": 18
+  },
+  "checks": [
+    {
+      "check": "Six cities and 133 nodes",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Unique cities IDs",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Unique items IDs",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Unique quests IDs",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Unique puzzles IDs",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Unique enemies IDs",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Unique checkIns IDs",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Event IDs unique within city",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Node IDs and spawn references",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "All event/puzzle/check-in city and node references",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Canonical edge endpoints",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Finite normalized canonical positions",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Event itemId references",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Event questId references",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Event puzzleId references",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Event enemyId references",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Reward and required item references",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Quest giver/completion node references",
+      "status": "FAIL",
+      "failures": [
+        "JQ04",
+        "HQ05",
+        "HQ06",
+        "DQ05"
+      ]
+    },
+    {
+      "check": "Six relics and 24 unique fragments",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Four valid fragments per relic",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Relic and fragment city/node references",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "22 story activities bound to puzzles",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "12 enabled leisure nodes",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Navigation endpoints hoi_an",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Navigation endpoints hue",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Navigation endpoints da_lat",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Navigation endpoints jeonju",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Navigation endpoints gyeongju",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "Navigation endpoints seoul",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "New NPC identity/reward/one-shot G16",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "New NPC UTF-8 dialogue G16",
+      "status": "FAIL",
+      "failures": [
+        "question mark/replacement found"
+      ]
+    },
+    {
+      "check": "New NPC identity/reward/one-shot G21",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "New NPC UTF-8 dialogue G21",
+      "status": "FAIL",
+      "failures": [
+        "question mark/replacement found"
+      ]
+    },
+    {
+      "check": "New NPC identity/reward/one-shot S12",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "check": "New NPC UTF-8 dialogue S12",
+      "status": "PASS",
+      "failures": []
+    }
+  ]
+}

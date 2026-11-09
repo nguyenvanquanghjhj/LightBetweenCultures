@@ -1,0 +1,181 @@
+# LBC — BỔ SUNG KIỂM SOÁT CHẤT LƯỢNG CHO 4 NHIỆM VỤ HIỆN CÓ
+
+Project: `D:\GAMEKKK\LightBetweenCultures`
+
+Đây là PHỤ LỤC BỔ SUNG cho bốn yêu cầu trước đó, không phải nhiệm vụ thứ năm độc lập. Không được bắt đầu làm lại các phần đã hoàn thành đúng.
+
+Trước tiên hãy kiểm tra trạng thái project và checkpoint mới nhất vì một số nhiệm vụ có thể đã được triển khai sau thời điểm tôi xuất các file Assets/Docs/References.
+
+Đọc nguyên văn bốn yêu cầu tại:
+
+- `Docs/Requests/20261017/01-citymap-ui-polish.txt`
+- `Docs/Requests/20261017/02-portraits-dialogue-story-audit.txt`
+- `Docs/Requests/20261017/03-full-story-playtest.txt`
+- `Docs/Requests/20261017/04-h3-art-overhaul.txt`
+
+Giữ thứ tự triển khai đang thực hiện. Không gộp cả bốn thành một lần xử lý khổng lồ.
+
+## A. ĐỒNG BỘ CỐT TRUYỆN VÀ TÀI LIỆU
+
+Có một sai khác đường dẫn cần kiểm tra:
+
+Prompt Full Story đề cập `Docs/Story/FULL_STORY_PLAYTEST.md`, nhưng bộ Docs được kiểm tra có file `Docs/Story/LBC_FullStory_Playtest_6Cities_133Nodes.md`.
+
+Hãy đọc toàn bộ file thực tế, xác nhận nội dung và đối chiếu với dữ liệu canonical trước khi sử dụng.
+
+Không tự sáng tác lại cốt truyện chỉ vì tên file khác. Nếu cần, cập nhật tham chiếu đến tên file đúng hoặc tạo đường dẫn tương thích, nhưng không duy trì hai bản tài liệu có nội dung khác nhau.
+
+LƯU Ý VỀ CHECKPOINT VÀ TIẾN ĐỘ:
+
+Các checkpoint trước như CheckpointCrossCityFood, CheckpointHueJeonjuGameplay, CheckpointDaLatChapter và các checkpoint UI/terrain chỉ là kết quả của từng giai đoạn, không phải giới hạn của yêu cầu Full Story.
+
+Tiếp tục từ checkpoint thực sự mới nhất. Giữ toàn bộ phần đã hoàn thành đúng và triển khai mọi chương, node, nhiệm vụ còn thiếu.
+
+Được phép tạo checkpoint trung gian sau từng thành phố nhưng KHÔNG coi checkpoint trung gian là hoàn thành toàn bộ game.
+
+Nếu phải dừng do giới hạn tài nguyên, ghi rõ phần xong, phần chưa xong và bước tiếp tục.
+
+## B. BẢO TOÀN ĐỦ 133 NODE VÀ 29 QUEST HIỆN CÓ
+
+Trong bản dữ liệu đã kiểm tra:
+
+- 133 node trên sáu thành phố.
+- 29 quest runtime, bao gồm các quest bổ sung.
+- Gyeongju và Seoul còn `runtimeReady=false`.
+- Nhiều event của hai thành phố cuối có `sourceStatus=imported_design_not_playable`.
+
+Tài liệu Full Story cũ có chỗ ghi 28 quest, do được tạo trước một số bổ sung gameplay. Không được dựa vào con số cũ để xóa quest hợp lệ.
+
+Đặc biệt bảo toàn:
+- HQ01–HQ07 và HA_FOOD_PREP.
+- UQ01–UQ04.
+- DQ01–DQ05.
+- JQ01–JQ04.
+- GQ01–GQ04.
+- SQ01–SQ04.
+
+DQ05 là nhiệm vụ phụ Đà Lạt → Jeonju, nhận dâu tại D4 sau khi đủ điều kiện và giao tại J15. Kiểm tra nguồn phát vật phẩm, xác nhận giao, tiêu hao chính xác một lần, thưởng chính xác một lần và khả năng quay lại Jeonju.
+
+Không biến quest phụ này thành điều kiện bắt buộc để mở Seoul.
+
+Khi triển khai Gyeongju/Seoul, phải chuyển nội dung DATA_ONLY thành tương tác gameplay thật, sử dụng các manager và framework đã có. Không chỉ đổi `runtimeReady` sang true rồi tuyên bố hoàn thành.
+
+## C. RÀ SOÁT ĐƯỜNG ĐI NHƯNG KHÔNG PHÁ CÁC TUYẾN ĐÃ SỬA
+
+Hội An đã có dữ liệu chỉnh waypoint mới trong:
+
+`Docs/Maps/TerrainRoutes-20261017/`
+
+Bao gồm edge-waypoint-diff, arrival-anchors và các ảnh overlay.
+
+Không tự động bỏ toàn bộ công việc này để tính lại đường bằng đường thẳng.
+
+Kiểm tra thực tế các vùng còn NEEDS_REVIEW:
+
+- R1: sàn cầu có mái.
+- R2: bậc thang phía đền.
+- R3: mép tán cây phía đông.
+
+Phải phân biệt:
+
+1. Đường vẽ trùng đường Lumi thực sự di chuyển.
+2. Đường thực sự phù hợp với địa hình và vật cản trên tranh.
+
+Điều thứ nhất PASS không tự chứng minh điều thứ hai PASS.
+
+Với các đường mơ hồ do tranh bị che khuất, giữ trạng thái NEEDS_REVIEW và cung cấp ảnh để người dùng duyệt.
+
+Giữ tách biệt marker anchor với arrival anchor, không di chuyển node ID, không thay đổi save schema.
+
+Nếu dùng công cụ chỉnh waypoint trực tiếp trong bản game đang chạy, phải đảm bảo mọi thay đổi được ghi về dữ liệu nguồn. Cuối cùng kiểm tra lại trên một bản build sạch và sau khi mở lại game.
+
+Khi triển khai các thành phố khác, dùng waypoint riêng cho từng địa hình, không sao chép tuyến Hội An.
+
+## D. ĐỒ HỌA H3 VÀ CÔNG CỤ TẠO SCENE
+
+Trong source được kiểm tra, HoiAnDemoSetup.cs vẫn có logic tạo Ground/Road/House/Tree từ UnitSprite placeholder.
+
+Bộ ảnh H3 mới đang ở:
+
+`Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/`
+
+Khi thực hiện nhiệm vụ H3:
+
+- Phải tách sprite hợp lệ, tạo môi trường 2D nhiều lớp thực sự.
+- Dùng art đúng vai trò; concept có chữ không được đưa nguyên vào scene.
+- Giữ Lumi canonical, interaction, collider, cơ chế nhặt Mắt Đèn và save.
+- Rà soát HoiAnDemoSetup và bất kỳ công cụ rebuild scene nào để không vô tình tái tạo các primitive cũ sau khi đại tu.
+- Không thay gameplay bằng một ảnh nền tĩnh giả lập tương tác.
+- Nếu cần tạo sprite mới, giữ phong cách đã được duyệt và không nhân bản tài nguyên tương đương.
+
+H3 chỉ được coi là hoàn thành khi cảnh gameplay thật đã được build, mở và kiểm tra trực tiếp.
+
+## E. NHÂN VẬT, MARKER VÀ ART THAM KHẢO
+
+Bà Tư H10 và Phúc H16 cần portrait/sprite sạch đúng danh tính.
+
+Hương U1 và So-yeon J15 vẫn có hình tạm, chưa phải canonical. Không đổi sang nhân vật khác hoặc tự xem hình concept là bản final.
+
+Ji-won tại Seoul phải có danh tính riêng; không tự sử dụng khuôn mặt So-yeon.
+
+Không thay đổi Cô Mai, Ji-eun và ba vai trò Lumi đã được duyệt.
+
+Hai hình trong `References/MarkerDesign` chỉ là visual reference. Giữ marker NPC, bot, boss và dấu chấm than đã chạy đúng; không đại tu hệ marker chỉ vì thấy ảnh concept mới.
+
+`References/NeedsReview/Item_Food_Postcard_Derivative_NeedsCleanup.png` chưa phải asset final. Không gắn hình còn chữ ký/credit hoặc lỗi cắt vào runtime. Nếu cần art thay thế, dùng tài nguyên gốc có quyền sử dụng hoặc thiết kế mới độc lập, không tự ý xóa dấu ghi công trên hình để tái sử dụng.
+
+Mọi artwork chưa duyệt phải có trạng thái PROPOSAL/NEEDS_ART rõ ràng.
+
+## F. TỐI ƯU KIỂM THỬ, DUNG LƯỢNG VÀ TÀI NGUYÊN CODEX
+
+Project và thư mục Backups đã tăng dung lượng rất nhanh. Hãy tối ưu quy trình kiểm thử mà không bỏ qua tính đúng đắn.
+
+- Không mở ba Windows Player đồng thời nếu không có yêu cầu song song thật sự.
+- Chỉ build lại khi code, asset, importer hoặc dữ liệu đóng gói đã thay đổi và cần build mới.
+- Chạy test liên quan trước, regression toàn diện khi chốt checkpoint.
+- Không lặp lại hàng nghìn assertions hoặc chụp hàng trăm screenshot không cần thiết sau mỗi thay đổi nhỏ.
+- Không ghi đè hoặc xóa backup, checkpoint cũ khi chưa có sự cho phép của người dùng.
+- Giữ tối thiểu một checkpoint có thể khôi phục đầy đủ.
+- Không thay đổi package, save schema hoặc hệ manager nếu không có bằng chứng cần thiết.
+
+Vì thư mục Validation quá lớn để chuyển cho người đánh giá, hãy tạo một REVIEW PACK NHẸ cho mỗi cột mốc quan trọng, gồm:
+
+1. Báo cáo ngắn các thay đổi thực tế.
+2. Danh sách file đã sửa/thêm.
+3. Các ảnh before/after quan trọng, số lượng vừa đủ.
+4. Manifest build và kết quả kiểm thử cuối cùng.
+5. Đoạn log lỗi liên quan nếu có.
+6. Danh sách PASS / FAILED / NOT VERIFIED / NEEDS_REVIEW.
+7. Checkpoint tương ứng.
+
+Giữ bộ Validation đầy đủ trong máy, nhưng chỉ đóng gói bằng chứng chọn lọc để tôi có thể kiểm tra mà không cần tải hàng GB.
+
+Không tuyên bố PASS Android vật lý nếu mới kiểm tra Windows hoặc mô phỏng cảm ứng.
+
+## G. THỨ TỰ VÀ TIÊU CHÍ HOÀN THÀNH
+
+Không lặp lại nhiệm vụ City Map/UI nếu đã hoàn thành và không có hồi quy.
+
+Tiếp tục chính xác nhiệm vụ đang dang dở, rồi các nhiệm vụ tiếp theo theo thứ tự đã được giao.
+
+Ưu tiên cao nhất của Full Story là người chơi có thể thực sự hoàn thành hành trình từ fresh save qua sáu thành phố, cả hai nhánh Việt–Hàn và phần kết Seoul, không bật fixture/cheat.
+
+Giữ gameplay đã đúng, đặc biệt nhánh thắng/thua boss, gate, phần thưởng không lặp, quest phụ, quay lại thành phố cũ và save/restart.
+
+Không được đánh đồng:
+- Có node trong JSON với node có gameplay.
+- Build thành công với hoàn thành cốt truyện.
+- Assertions PASS với chất lượng hình ảnh đã được duyệt.
+- Có ảnh concept với có sprite runtime sạch.
+- Có checkpoint với hoàn thành toàn bộ yêu cầu.
+
+Nếu có việc không thể hoàn tất vì cần người dùng duyệt hình ảnh, chỉ đánh dấu đúng phần đó là NEEDS_REVIEW. Không tự chặn mọi công việc độc lập khác.
+
+Cuối lượt, báo cáo trung thực:
+- Đã hoàn thành gì.
+- Đã kiểm tra thực tế gì.
+- Còn thiếu gì.
+- Nhiệm vụ nào tiếp tục ngay sau đó.
+- File REVIEW PACK và checkpoint nằm ở đâu.
+
+Không tự mở rộng phạm vi ngoài bốn nhiệm vụ đã giao.

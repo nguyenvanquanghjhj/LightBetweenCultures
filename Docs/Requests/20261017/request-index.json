@@ -1,0 +1,42 @@
+[
+  {
+    "order": 1,
+    "attachment": "b97e5c86-982b-4579-ae3f-4ba2066ac918",
+    "source": "C:\\Users\\admin\\.codex\\attachments\\b97e5c86-982b-4579-ae3f-4ba2066ac918\\Pasted text.txt",
+    "preservedAs": "Docs/Requests/20261017/01-citymap-ui-polish.txt",
+    "bytes": 9798,
+    "sha256": "5328efd134b7db3067bac11b0b24d0dabb5f86fbe97b1921f6757f4940b8f140",
+    "readStatus": "READ_FULL_ORIGINAL",
+    "workStatus": "TASK1_IMPLEMENTED_WITH_DOCUMENTED_TERRAIN_LIMITS"
+  },
+  {
+    "order": 2,
+    "attachment": "daed50ac-e3b9-4b2e-a6cc-7cbab7dede9c",
+    "source": "C:\\Users\\admin\\.codex\\attachments\\daed50ac-e3b9-4b2e-a6cc-7cbab7dede9c\\Pasted text.txt",
+    "preservedAs": "Docs/Requests/20261017/02-portraits-dialogue-story-audit.txt",
+    "bytes": 8524,
+    "sha256": "90268c760e4474a2a8524dbe0f27cdcf3fdfe4c0f24004899cd85a4c4ec1a02e",
+    "readStatus": "READ_FULL_ORIGINAL",
+    "workStatus": "QUEUED_UNCHANGED"
+  },
+  {
+    "order": 3,
+    "attachment": "6777f4ca-29bc-4ead-9887-6a5f99990112",
+    "source": "C:\\Users\\admin\\.codex\\attachments\\6777f4ca-29bc-4ead-9887-6a5f99990112\\Pasted text.txt",
+    "preservedAs": "Docs/Requests/20261017/03-full-story-playtest.txt",
+    "bytes": 8239,
+    "sha256": "b6cf879efeb87649903316d90bf475da8f1a5acc47e9b43473227c9a799454e1",
+    "readStatus": "READ_FULL_ORIGINAL",
+    "workStatus": "QUEUED_UNCHANGED"
+  },
+  {
+    "order": 4,
+    "attachment": "9f39ca52-f702-4924-b67e-a4cb08ac420c",
+    "source": "C:\\Users\\admin\\.codex\\attachments\\9f39ca52-f702-4924-b67e-a4cb08ac420c\\Pasted text.txt",
+    "preservedAs": "Docs/Requests/20261017/04-h3-art-overhaul.txt",
+    "bytes": 6627,
+    "sha256": "7963b1c1639d71b2179abc4d71e589c468cb5293e83b95da0359dfd388d1c9d4",
+    "readStatus": "READ_FULL_ORIGINAL",
+    "workStatus": "QUEUED_UNCHANGED"
+  }
+]

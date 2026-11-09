@@ -1,0 +1,149 @@
+{
+    "version": 2,
+    "cityId": "hoi_an",
+    "node": 7,
+    "previousNode": 6,
+    "visited": [
+        0,
+        11,
+        1,
+        2,
+        13,
+        3,
+        4,
+        14,
+        18,
+        19,
+        5,
+        10,
+        12,
+        6,
+        7
+    ],
+    "accepted": [
+        "mai-lantern",
+        "HQ01",
+        "HQ02"
+    ],
+    "completed": [
+        "mai-lantern",
+        "HQ02",
+        "HQ01"
+    ],
+    "items": [
+        "healing_tea",
+        "healing_tea",
+        "healing_tea",
+        "hoi_an_fresh_chili",
+        "hoi_an_fresh_chili",
+        "hoi_an_purple_shallot",
+        "hoi_an_purple_shallot"
+    ],
+    "collected": [
+        "lantern-part"
+    ],
+    "flags": [
+        "quest:HQ01",
+        "hoi_an.lamp_eye_found",
+        "lantern-lit",
+        "hoi_an.market_puzzle_solved",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.pottery_clue_known",
+        "hoi_an.mo01_hack_code",
+        "hoi_an.mo01_disabled",
+        "hoi_an.dock_crate_opened",
+        "quest:HQ02",
+        "hoi_an.crab_resolved",
+        "hoi_an.ba_tu_helped",
+        "hoi_an.secret_lane_found",
+        "hoi_an.ba_tu_spices_received",
+        "hoi_an.lamp_restored",
+        "city.hue.unlocked",
+        "city.jeonju.unlocked"
+    ],
+    "resolvedEvents": [
+        "hoi_an:npc_phuc",
+        "hoi_an:enemy_mo01",
+        "hoi_an:loot_crate",
+        "hoi_an:enemy_crab",
+        "hoi_an:npc_ba_tu"
+    ],
+    "defeatedEnemies": [],
+    "solvedPuzzles": [
+        "puzzle_market",
+        "puzzle_paper",
+        "puzzle_pottery"
+    ],
+    "choices": [
+        "hoi_an:enemy_mo01:hack",
+        "hoi_an:enemy_crab:bait"
+    ],
+    "rewardGrantIds": [
+        "quest-accept:HQ01:healing_tea",
+        "h3-lamp-eye",
+        "puzzle:puzzle_paper:hanji_core",
+        "event:hoi_an:npc_phuc:healing_tea",
+        "encounter:hoi_an:enemy_mo01:link_key",
+        "quest-accept:HQ02:meat_portion",
+        "encounter:hoi_an:enemy_crab:copper_wire",
+        "quest:HQ02:hoi_an_fresh_chili",
+        "quest:HQ02:hoi_an_purple_shallot"
+    ],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 7,
+            "stage": 4,
+            "visited": [
+                0,
+                11,
+                1,
+                2,
+                13,
+                3,
+                4,
+                14,
+                18,
+                19,
+                5,
+                10,
+                12,
+                6,
+                7
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "jeonju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 3,
+    "coins": 156
+}

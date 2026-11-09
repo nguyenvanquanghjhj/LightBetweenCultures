@@ -1,0 +1,740 @@
+{
+  "version": 1,
+  "chapters": [
+    {
+      "cityId": "hoi_an",
+      "title": "Thắp sáng phố Hội",
+      "opening": "Mưa vừa dứt, những chiếc đèn đánh dấu lối đi đã tắt. Mèo đang đợi trên mái thấp cạnh bến nước! Cùng Lumi tìm vật dụng, khôi phục đèn và đón bạn về nơi khô ráo.",
+      "weather": "rain",
+      "rescueNode": "H11",
+      "rescueText": "Kéo mèo vào giỏ trú an toàn. Lumi và đội cứu hộ địa phương đã chuẩn bị sẵn vật dụng.",
+      "catId": "cat_hoi_an",
+      "catName": "Mèo Hội An",
+      "catLine": "Meo! Có ánh đèn dẫn đường rồi!",
+      "catTrait": "Thích ngắm những chiếc đèn nhiều màu.",
+      "spriteIndex": 0,
+      "rewardCoins": 8,
+      "badge": "Người thắp đèn phố Hội",
+      "postcard": "Hội An là đô thị thương cảng lịch sử. Những ngôi nhà, đường phố và công trình lưu lại dấu ấn giao lưu văn hóa.",
+      "nextCity": "hue",
+      "sourceUrls": [
+        "https://whc.unesco.org/en/list/948/"
+      ],
+      "supplies": [
+        {
+          "id": "hoi_an_basket",
+          "name": "Giỏ cứu hộ",
+          "nodeId": "H0",
+          "description": "Giỏ khô lót vải mềm để đón mèo.",
+          "artId": "backpack"
+        },
+        {
+          "id": "hoi_an_lantern",
+          "name": "Đèn dẫn đường",
+          "nodeId": "H1",
+          "description": "Đèn được giữ trên bờ để đánh dấu lối đi.",
+          "artId": "relic:relic_hoi_an_lantern"
+        },
+        {
+          "id": "hoi_an_rope",
+          "name": "Dây buộc giỏ",
+          "nodeId": "H11",
+          "description": "Dây giữ giỏ chắc chắn trong cảnh cứu hộ.",
+          "artId": "item:copper_wire"
+        }
+      ],
+      "challenges": [
+        {
+          "id": "hoi_an_lantern",
+          "nodeId": "H11",
+          "mode": "jigsaw",
+          "title": "Sắc màu đèn lồng",
+          "instructions": "Kéo bốn mảnh về đúng vị trí để khôi phục chiếc đèn dẫn đường.",
+          "hint": "Quan sát tranh mẫu ở góc: các nét của hình phải nối liền nhau.",
+          "fact": "Đèn lồng là hình ảnh quen thuộc của phố Hội. Trong hành trình này, đèn giúp đội cứu hộ nhận biết lối đi đã chuẩn bị.",
+          "imageId": "relic:relic_hoi_an_lantern",
+          "tokens": [
+            "Mảnh trên trái",
+            "Mảnh trên phải",
+            "Mảnh dưới trái",
+            "Mảnh dưới phải"
+          ],
+          "targets": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "id": "hoi_an_bridge",
+          "nodeId": "H1",
+          "mode": "choice",
+          "title": "Kiến trúc phố cổ",
+          "instructions": "Công trình nào còn được gọi là cầu Nhật Bản ở Hội An?",
+          "hint": "Chùa Cầu gắn với lịch sử giao lưu tại Hội An. Ngọ Môn thuộc Huế; Cheomseongdae ở Gyeongju.",
+          "fact": "Chùa Cầu, còn gọi là cầu Nhật Bản, là một dấu ấn kiến trúc và giao lưu văn hóa tại Hội An.",
+          "options": [
+            "Ngọ Môn",
+            "Chùa Cầu",
+            "Cheomseongdae"
+          ],
+          "answer": 1,
+          "imageId": "checkin:hoi_an.h6"
+        },
+        {
+          "id": "hoi_an_food",
+          "nodeId": "H0",
+          "mode": "match",
+          "title": "Hương vị phố Hội",
+          "instructions": "Kéo mỗi thẻ món ăn vào mô tả phù hợp.",
+          "hint": "Cao lầu có sợi mì và rau; mì Quảng thường có ít nước dùng; bánh mì có vỏ giòn và nhiều loại nhân.",
+          "fact": "Cao lầu, mì Quảng và bánh mì là những món có thể gặp trong hành trình ẩm thực Hội An.",
+          "tokens": [
+            "Cao lầu",
+            "Mì Quảng",
+            "Bánh mì"
+          ],
+          "targets": [
+            "Mì, thịt và rau sống",
+            "Mì với ít nước dùng",
+            "Ổ bánh có vỏ giòn"
+          ],
+          "imageId": "checkin:hoi_an.h4"
+        },
+        {
+          "id": "hoi_an_river",
+          "nodeId": "H1",
+          "mode": "scenario",
+          "title": "Đêm hội hoa đăng",
+          "instructions": "Lumi muốn xem hoa đăng và giữ dòng sông sạch. Bạn chọn cách nào?",
+          "hint": "Tham gia hoạt động có người tổ chức, theo quy định địa phương và thu gom vật dụng sau hoạt động. Không thả nhựa hay xuống dòng nước.",
+          "fact": "Có thể tìm hiểu hoa đăng qua mô hình trên bờ và các hoạt động được tổ chức. Trải nghiệm văn hóa cần đi cùng việc bảo vệ môi trường.",
+          "options": [
+            "Tự xuống nước nhặt đèn",
+            "Thả cả túi nhựa theo đèn",
+            "Xem mô hình và cùng thu gom vật dụng"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "cityId": "hue",
+      "title": "Cuộc giải cứu bên sông Hương",
+      "opening": "Mưa lớn trong câu chuyện làm lối ven sông bị ngập. Mèo đang trú trên một bục cao. Lumi cần chuẩn bị áo phao, tìm thuyền và chọn tuyến đã được đội cứu hộ đánh dấu.",
+      "weather": "rain",
+      "rescueNode": "U14",
+      "rescueText": "Kéo mèo vào giỏ trú an toàn. Lumi và đội cứu hộ địa phương đã chuẩn bị sẵn vật dụng.",
+      "catId": "cat_hue",
+      "catName": "Mèo Huế",
+      "catLine": "Cảm ơn vì đã chờ mình bình tĩnh bước vào giỏ.",
+      "catTrait": "Thích nghe tiếng nhạc dịu và nằm bên cửa sổ.",
+      "spriteIndex": 1,
+      "rewardCoins": 8,
+      "badge": "Bạn nhỏ bên sông Hương",
+      "postcard": "Huế lưu giữ di sản cung đình, kiến trúc và âm nhạc. Quần thể di tích Cố đô Huế nằm bên dòng sông Hương.",
+      "nextCity": "da_lat",
+      "sourceUrls": [
+        "https://whc.unesco.org/en/list/678/",
+        "https://ich.unesco.org/en/RL/nha-nhac-vietnamese-court-music-00074"
+      ],
+      "supplies": [
+        {
+          "id": "hue_boat",
+          "name": "Thuyền của đội cứu hộ",
+          "nodeId": "U0",
+          "description": "Thuyền trong câu chuyện do người lớn của đội cứu hộ điều khiển.",
+          "artId": "resource:LeisureProps/Hue_PedalSwanBoat"
+        },
+        {
+          "id": "hue_vest",
+          "name": "Áo phao",
+          "nodeId": "U1",
+          "description": "Áo phao dành cho chuyến đi cùng đội cứu hộ.",
+          "artId": "backpack"
+        },
+        {
+          "id": "hue_blanket",
+          "name": "Khăn khô",
+          "nodeId": "U2",
+          "description": "Giữ ấm cho mèo sau khi về bờ.",
+          "artId": "item:healing_tea"
+        }
+      ],
+      "challenges": [
+        {
+          "id": "hue_heritage",
+          "nodeId": "U1",
+          "mode": "match",
+          "title": "Dấu ấn Cố đô",
+          "instructions": "Nối di sản với thành phố phù hợp.",
+          "hint": "Ngọ Môn và Hoàng thành thuộc Huế; Chùa Cầu thuộc Hội An.",
+          "fact": "Ngọ Môn là cổng chính phía nam của Hoàng thành Huế. Chùa Cầu thuộc phố cổ Hội An.",
+          "tokens": [
+            "Ngọ Môn",
+            "Hoàng thành",
+            "Chùa Cầu"
+          ],
+          "targets": [
+            "Cổng ở Huế",
+            "Khu thành ở Huế",
+            "Cầu tại Hội An"
+          ],
+          "imageId": "checkin:hue_u6_checkin"
+        },
+        {
+          "id": "hue_food",
+          "nodeId": "U2",
+          "mode": "match",
+          "title": "Hương vị Huế",
+          "instructions": "Ghép món ăn với đặc điểm dễ nhận biết.",
+          "hint": "Bún bò dùng sợi bún; bánh bèo thường ở chén nhỏ; bánh khoái là bánh chiên giòn.",
+          "fact": "Bún bò Huế, bánh bèo và bánh khoái là những gợi ý để tìm hiểu ẩm thực xứ Huế.",
+          "tokens": [
+            "Bún bò Huế",
+            "Bánh bèo",
+            "Bánh khoái"
+          ],
+          "targets": [
+            "Món bún với nước dùng",
+            "Bánh trong chén nhỏ",
+            "Bánh chiên giòn"
+          ]
+        },
+        {
+          "id": "hue_music",
+          "nodeId": "U0",
+          "mode": "choice",
+          "title": "Giai điệu cung đình",
+          "instructions": "Nhã nhạc gắn với không gian văn hóa nào?",
+          "hint": "Tên gọi Nhã nhạc chỉ âm nhạc cung đình Việt Nam, có truyền thống được gìn giữ tại Huế.",
+          "fact": "Nhã nhạc là âm nhạc cung đình Việt Nam, từng được dùng trong các nghi lễ của triều đình.",
+          "options": [
+            "Âm nhạc cung đình",
+            "Biển báo giao thông",
+            "Trò chơi điện tử"
+          ],
+          "answer": 0,
+          "imageId": "checkin:hue_u6_checkin"
+        },
+        {
+          "id": "hue_river",
+          "nodeId": "U14",
+          "mode": "maze",
+          "title": "Tìm đường cứu hộ",
+          "instructions": "Dẫn thuyền theo các ô đường sáng. Vùng tối là tuyến chưa được đội cứu hộ kiểm tra.",
+          "hint": "Chỉ đi sang ô kề có đường. Tránh vùng tối và quay lại nếu gặp ngõ cụt.",
+          "fact": "Sông Hương gắn với cảnh quan Huế. Tuyến cứu hộ trong game là mô hình giả tưởng, không phải bản đồ an toàn ngoài đời.",
+          "maze": [
+            "...##",
+            "##.##",
+            "...##",
+            ".####",
+            "....."
+          ],
+          "start": 0,
+          "exit": 24
+        }
+      ]
+    },
+    {
+      "cityId": "da_lat",
+      "title": "Tiếng chuông trong sương",
+      "opening": "Sương phủ khu vườn và rừng thông. Mèo đi lạc khi đuổi theo một chiếc lá. Hãy tìm đèn, chuông và thức ăn để nhẹ nhàng gọi bạn về.",
+      "weather": "mist",
+      "rescueNode": "D18",
+      "rescueText": "Kéo mèo vào giỏ trú an toàn. Lumi và đội cứu hộ địa phương đã chuẩn bị sẵn vật dụng.",
+      "catId": "cat_da_lat",
+      "catName": "Mèo Đà Lạt",
+      "catLine": "Leng keng! Mình nhận ra tiếng chuông rồi.",
+      "catTrait": "Rất tò mò trước những chiếc lá thông.",
+      "spriteIndex": 2,
+      "rewardCoins": 8,
+      "badge": "Người dẫn đường trong sương",
+      "postcard": "Đà Lạt có hồ Xuân Hương, rừng thông, những vườn hoa và nhà ga với hình dáng mái đặc trưng.",
+      "nextCity": "jeonju",
+      "sourceUrls": [
+        "https://vietnam.travel/place-to-go/south-central-coast-central-highlands/dalat/",
+        "https://dalat.vn/en/nhagadalat"
+      ],
+      "supplies": [
+        {
+          "id": "da_lat_lamp",
+          "name": "Đèn pin",
+          "nodeId": "D0",
+          "description": "Soi các biển chỉ đường trong câu chuyện.",
+          "artId": "item:fog_battery"
+        },
+        {
+          "id": "da_lat_bell",
+          "name": "Chuông gọi mèo",
+          "nodeId": "D5",
+          "description": "Gọi nhẹ để mèo nhận ra hướng trở về.",
+          "artId": "item:stargazer_lens"
+        },
+        {
+          "id": "da_lat_food",
+          "name": "Thức ăn cho mèo",
+          "nodeId": "D3",
+          "description": "Một phần ăn nhỏ của đội chăm sóc.",
+          "artId": "item:meat_portion"
+        }
+      ],
+      "challenges": [
+        {
+          "id": "da_lat_flowers",
+          "nodeId": "D3",
+          "mode": "hidden",
+          "title": "Thành phố ngàn hoa",
+          "instructions": "Tìm ba bông hoa có dấu giọt sương trong khu vườn. Chạm để quan sát; đồ trang trí không phải manh mối.",
+          "hint": "Quan sát những chấm sáng trên hoa. Không hái hoa hay nhầm diều và giỏ với bông hoa.",
+          "fact": "Đà Lạt được biết đến với những vườn hoa. Quan sát tại chỗ giúp giữ vẻ đẹp của khu vườn.",
+          "tokens": [
+            "Hoa bên trái",
+            "Hoa cạnh giỏ",
+            "Hoa dưới tán lá"
+          ],
+          "tokenArt": [
+            "flower",
+            "flower",
+            "flower"
+          ],
+          "imageId": "city:da_lat"
+        },
+        {
+          "id": "da_lat_food",
+          "nodeId": "D0",
+          "mode": "match",
+          "title": "Hương vị cao nguyên",
+          "instructions": "Ghép món và nông sản với mô tả.",
+          "hint": "Dâu tây là trái cây; bánh căn là bánh nhỏ nướng trong khuôn; bánh ướt là những lớp bánh mềm.",
+          "fact": "Dâu tây, bánh căn và bánh ướt lòng gà là những gợi ý khám phá ẩm thực Đà Lạt.",
+          "tokens": [
+            "Dâu tây",
+            "Bánh căn",
+            "Bánh ướt lòng gà"
+          ],
+          "targets": [
+            "Quả đỏ có hạt nhỏ",
+            "Bánh nhỏ nướng khuôn",
+            "Bánh mềm với lòng gà"
+          ],
+          "tokenArt": [
+            "item:da_lat_strawberry",
+            "",
+            ""
+          ]
+        },
+        {
+          "id": "da_lat_station",
+          "nodeId": "D5",
+          "mode": "jigsaw",
+          "title": "Dấu ấn nhà ga",
+          "instructions": "Ghép tranh minh họa Ga Đà Lạt theo ba đỉnh mái nổi bật.",
+          "hint": "Quan sát tranh mẫu ở góc: các nét của hình phải nối liền nhau.",
+          "fact": "Ga Đà Lạt có ba đỉnh mái đặc trưng. Bức tranh là minh họa giúp nhận biết hình dáng công trình, không phải bản vẽ kiến trúc.",
+          "imageId": "station",
+          "tokens": [
+            "Mảnh trên trái",
+            "Mảnh trên phải",
+            "Mảnh dưới trái",
+            "Mảnh dưới phải"
+          ],
+          "targets": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "id": "da_lat_fog",
+          "nodeId": "D18",
+          "mode": "maze",
+          "title": "Bản đồ trong sương",
+          "instructions": "Theo biển chỉ đường trong vườn để tìm mèo; tránh những ô bị sương che.",
+          "hint": "Chỉ đi sang ô kề có đường. Tránh vùng tối và quay lại nếu gặp ngõ cụt.",
+          "fact": "Hồ Xuân Hương và rừng thông là những hình ảnh gắn với Đà Lạt. Khi thăm vườn, hãy ở trên lối đi dành cho khách.",
+          "maze": [
+            ".####",
+            "...##",
+            "##...",
+            "####.",
+            "....."
+          ],
+          "start": 0,
+          "exit": 24
+        }
+      ]
+    },
+    {
+      "cityId": "jeonju",
+      "title": "Lễ hội làng Hanok",
+      "opening": "Lễ hội sắp bắt đầu, nhưng mèo đã trốn giữa những mái ngói và làm rơi các dải trang trí! Giúp chuẩn bị món ăn, tìm dấu chân và đưa mèo về sân lễ hội.",
+      "weather": "petals",
+      "rescueNode": "J16",
+      "rescueText": "Kéo mèo vào giỏ trú an toàn. Lumi và đội cứu hộ địa phương đã chuẩn bị sẵn vật dụng.",
+      "catId": "cat_jeonju",
+      "catName": "Mèo Jeonju",
+      "catLine": "Mình sẽ ngồi yên nghe kể chuyện cùng bạn!",
+      "catTrait": "Mê những dải ruy băng và thích trốn sau giỏ.",
+      "spriteIndex": 3,
+      "rewardCoins": 8,
+      "badge": "Bạn của lễ hội Hanok",
+      "postcard": "Jeonju nổi tiếng với làng Hanok, bibimbap và nghề làm giấy Hanji. Hanbok là trang phục truyền thống Hàn Quốc.",
+      "nextCity": "gyeongju",
+      "sourceUrls": [
+        "https://hanok.jeonju.go.kr/contents/en_facility",
+        "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110848",
+        "https://www.nfm.go.kr/k-box/ui/hanbok/male.do?lang=en"
+      ],
+      "supplies": [
+        {
+          "id": "jeonju_basket",
+          "name": "Giỏ cứu hộ",
+          "nodeId": "J0",
+          "description": "Chiếc giỏ quen giúp mèo yên tâm.",
+          "artId": "backpack"
+        },
+        {
+          "id": "jeonju_ribbon",
+          "name": "Ruy băng lễ hội",
+          "nodeId": "J1",
+          "description": "Dải màu dùng để đánh dấu sân hẹn.",
+          "artId": "item:hanji_pattern_1"
+        },
+        {
+          "id": "jeonju_food",
+          "name": "Phần ăn cho mèo",
+          "nodeId": "J16",
+          "description": "Thức ăn riêng của mèo, không lấy từ bát bibimbap.",
+          "artId": "item:meat_portion"
+        }
+      ],
+      "challenges": [
+        {
+          "id": "jeonju_hanok",
+          "nodeId": "J1",
+          "mode": "jigsaw",
+          "title": "Bí mật Hanok",
+          "instructions": "Ghép hình mái ngói làng Hanok. Quan sát đường mái trong tranh mẫu.",
+          "hint": "Quan sát tranh mẫu ở góc: các nét của hình phải nối liền nhau.",
+          "fact": "Hanok là nhà truyền thống Hàn Quốc. Làng Hanok Jeonju là nơi tìm hiểu kiến trúc và nếp sống truyền thống.",
+          "imageId": "checkin:jeonju_j11_checkin",
+          "tokens": [
+            "Mảnh trên trái",
+            "Mảnh trên phải",
+            "Mảnh dưới trái",
+            "Mảnh dưới phải"
+          ],
+          "targets": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "id": "jeonju_bibimbap",
+          "nodeId": "J0",
+          "mode": "drag",
+          "title": "Đầu bếp nhí Jeonju",
+          "instructions": "Kéo từng nguyên liệu vào phần tương ứng của bát mẫu. Đây là một cách sắp xếp để chơi, không phải quy tắc nấu ăn bắt buộc.",
+          "hint": "Bát mẫu có cơm, rau, trứng và tương gochujang. Đọc nhãn từng ô rồi kéo nguyên liệu vào.",
+          "fact": "Bibimbap là cơm trộn với nhiều nguyên liệu. Có nhiều biến thể; người ăn có thể chọn nguyên liệu phù hợp.",
+          "tokens": [
+            "Cơm",
+            "Rau củ",
+            "Trứng",
+            "Gochujang"
+          ],
+          "targets": [
+            "Nền cơm",
+            "Phần rau",
+            "Phần trứng",
+            "Phần tương"
+          ],
+          "imageId": "city:jeonju"
+        },
+        {
+          "id": "jeonju_hanbok",
+          "nodeId": "J1",
+          "mode": "hanbok",
+          "title": "Sắc màu Hanbok",
+          "instructions": "Ghép tên các phần trang phục, rồi chọn một phối màu cho Hanbok của bạn.",
+          "hint": "Jeogori là áo, chima là váy và baji là quần. Không có một bảng màu duy nhất áp dụng cho mọi Hanbok.",
+          "fact": "Hanbok gồm nhiều dạng trang phục: jeogori là áo, chima là váy, baji là quần. Màu và cách phối có thể thay đổi.",
+          "tokens": [
+            "Jeogori",
+            "Chima",
+            "Baji"
+          ],
+          "targets": [
+            "Áo",
+            "Váy",
+            "Quần"
+          ]
+        },
+        {
+          "id": "jeonju_find",
+          "nodeId": "J16",
+          "mode": "hidden",
+          "title": "Tìm mèo trong làng",
+          "instructions": "Tìm ba dấu hiệu của mèo giữa sân Hanok: chóp tai, bàn chân và chiếc đuôi.",
+          "hint": "Quan sát những ô có hình mèo; diều và chậu cây chỉ là đồ trang trí.",
+          "fact": "Trong làng Hanok, hãy đi nhẹ và tôn trọng không gian sinh hoạt của người dân.",
+          "tokens": [
+            "Chóp tai sau mái",
+            "Chân bên giỏ",
+            "Đuôi cạnh hiên"
+          ],
+          "tokenArt": [
+            "cat",
+            "cat",
+            "cat"
+          ],
+          "imageId": "checkin:jeonju_j11_checkin"
+        }
+      ]
+    },
+    {
+      "cityId": "gyeongju",
+      "title": "Bản đồ sao vương quốc Silla",
+      "opening": "Mèo theo một vệt sáng rồi lạc vào khu vườn di tích. Những mảnh bản đồ bị gió tách rời. Quan sát di sản Silla, ghép manh mối và tìm mèo mà không chạm vào hiện vật.",
+      "weather": "stars",
+      "rescueNode": "G11",
+      "rescueText": "Kéo mèo vào giỏ trú an toàn. Lumi và đội cứu hộ địa phương đã chuẩn bị sẵn vật dụng.",
+      "catId": "cat_gyeongju",
+      "catName": "Mèo Gyeongju",
+      "catLine": "Mình tìm được bạn nhờ những ngôi sao nhỏ!",
+      "catTrait": "Thích nhìn đom đóm từ một khoảng cách an toàn.",
+      "spriteIndex": 4,
+      "rewardCoins": 8,
+      "badge": "Người giữ dấu sao Silla",
+      "postcard": "Gyeongju lưu giữ nhiều di tích của Silla. Cheomseongdae gắn với thiên văn, còn Bulguksa và Seokguram gắn với nghệ thuật Phật giáo.",
+      "nextCity": "seoul",
+      "sourceUrls": [
+        "https://whc.unesco.org/en/list/976/",
+        "https://whc.unesco.org/en/list/736/"
+      ],
+      "supplies": [
+        {
+          "id": "gyeongju_map",
+          "name": "Bản đồ khu vườn",
+          "nodeId": "G0",
+          "description": "Bản sao dành cho khách, không phải hiện vật khai quật.",
+          "artId": "item:astral_script"
+        },
+        {
+          "id": "gyeongju_lamp",
+          "name": "Đèn nhỏ",
+          "nodeId": "G1",
+          "description": "Chiếu lên biển chỉ dẫn, không chiếu vào khách khác.",
+          "artId": "item:stargazer_lens"
+        },
+        {
+          "id": "gyeongju_basket",
+          "name": "Giỏ đón mèo",
+          "nodeId": "G2",
+          "description": "Đặt trên nền lối đi, cách xa hiện vật.",
+          "artId": "backpack"
+        }
+      ],
+      "challenges": [
+        {
+          "id": "gyeongju_stars",
+          "nodeId": "G1",
+          "mode": "jigsaw",
+          "title": "Nhà thiên văn nhí",
+          "instructions": "Ghép tranh Cheomseongdae. Quan sát thân tháp cong và cửa mở trong tranh.",
+          "hint": "Quan sát tranh mẫu ở góc: các nét của hình phải nối liền nhau.",
+          "fact": "Cheomseongdae là đài thiên văn cổ ở Gyeongju, nằm trong quần thể di tích lịch sử Gyeongju.",
+          "imageId": "checkin:gyeongju_g4_checkin",
+          "tokens": [
+            "Mảnh trên trái",
+            "Mảnh trên phải",
+            "Mảnh dưới trái",
+            "Mảnh dưới phải"
+          ],
+          "targets": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "id": "gyeongju_silla",
+          "nodeId": "G2",
+          "mode": "match",
+          "title": "Bí mật vương quốc Silla",
+          "instructions": "Nối mỗi dấu mốc với ý nghĩa của nó.",
+          "hint": "Cheomseongdae gắn với quan sát trời; Daereungwon là khu lăng mộ; Silla là một vương quốc cổ.",
+          "fact": "Gyeongju từng là kinh đô Silla. Khu vực lưu giữ di tích, lăng mộ và nghệ thuật của nhiều giai đoạn lịch sử.",
+          "tokens": [
+            "Cheomseongdae",
+            "Daereungwon",
+            "Silla"
+          ],
+          "targets": [
+            "Đài thiên văn",
+            "Khu lăng mộ",
+            "Vương quốc cổ"
+          ]
+        },
+        {
+          "id": "gyeongju_buddhist",
+          "nodeId": "G0",
+          "mode": "choice",
+          "title": "Kho báu Phật giáo",
+          "instructions": "Cặp di sản nào gắn với Gyeongju và nghệ thuật Phật giáo?",
+          "hint": "Bulguksa là chùa và Seokguram là hang động có tượng Phật. Cả hai ở khu vực Gyeongju.",
+          "fact": "Bulguksa và Seokguram được ghi danh chung là Di sản Thế giới, riêng với Khu di tích lịch sử Gyeongju.",
+          "options": [
+            "Bulguksa và Seokguram",
+            "Chùa Cầu và Ngọ Môn",
+            "Hồ Xuân Hương và Ga Đà Lạt"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "gyeongju_map",
+          "nodeId": "G11",
+          "mode": "maze",
+          "title": "Bản đồ cổ đại",
+          "instructions": "Đi trên lối tham quan để tìm mèo. Các vùng tối là bồn cây và khu vực bảo tồn.",
+          "hint": "Chỉ đi sang ô kề có đường. Tránh vùng tối và quay lại nếu gặp ngõ cụt.",
+          "fact": "Tôn trọng lối tham quan giúp bảo vệ di sản. Không đào tìm đồ cổ hay lấy mảnh đá khỏi di tích.",
+          "maze": [
+            ".....",
+            "####.",
+            ".....",
+            ".####",
+            "....."
+          ],
+          "start": 0,
+          "exit": 24
+        }
+      ]
+    },
+    {
+      "cityId": "seoul",
+      "title": "Điểm trú ẩn giữa Seoul",
+      "opening": "Cơn gió trong câu chuyện làm các biển chỉ dẫn bị lật. Mèo đang núp cạnh công viên. Tìm vật dụng, ghép ký hiệu và chọn cách giúp đỡ lịch sự để đưa bạn tới điểm trú.",
+      "weather": "wind",
+      "rescueNode": "S13",
+      "rescueText": "Kéo mèo vào giỏ trú an toàn. Lumi và đội cứu hộ địa phương đã chuẩn bị sẵn vật dụng.",
+      "catId": "cat_seoul",
+      "catName": "Mèo Seoul",
+      "catLine": "Meo! Bên bạn là chỗ trú ấm áp nhất.",
+      "catTrait": "Thích ngắm thành phố từ bậu cửa trong nhà.",
+      "spriteIndex": 5,
+      "rewardCoins": 8,
+      "badge": "Nhịp cầu tình bạn",
+      "postcard": "Seoul kết nối nhịp sống hiện đại với di sản. Hangeul là hệ chữ Hàn Quốc; những lời chào lịch sự giúp mở đầu một cuộc gặp.",
+      "nextCity": "",
+      "sourceUrls": [
+        "https://english.visitseoul.net/",
+        "https://www.korean.go.kr/eng_hangeul/principle/001.html"
+      ],
+      "supplies": [
+        {
+          "id": "seoul_carrier",
+          "name": "Hộp vận chuyển",
+          "nodeId": "S0",
+          "description": "Hộp có chỗ thông khí và lót mềm.",
+          "artId": "backpack"
+        },
+        {
+          "id": "seoul_umbrella",
+          "name": "Ô của đội hỗ trợ",
+          "nodeId": "S12",
+          "description": "Vật dụng trong câu chuyện, được thu lại khi gió mạnh.",
+          "artId": "item:relay_a"
+        },
+        {
+          "id": "seoul_food",
+          "name": "Thức ăn cho mèo",
+          "nodeId": "S13",
+          "description": "Đặt gần hộp để mèo tự bước vào.",
+          "artId": "item:meat_portion"
+        }
+      ],
+      "challenges": [
+        {
+          "id": "seoul_storm",
+          "nodeId": "S12",
+          "mode": "hidden",
+          "title": "Dấu vết sau cơn gió",
+          "instructions": "Tìm ba mảnh biển có dấu sao để khôi phục chỉ dẫn trong công viên.",
+          "hint": "Tìm các ký hiệu sao nhỏ. Những chiếc diều không phải mảnh biển chỉ dẫn.",
+          "fact": "Công viên ven sông Hàn là một phần không gian xanh của Seoul. Giữ lối đi gọn giúp mọi người cùng sử dụng.",
+          "tokens": [
+            "Biển cạnh ghế",
+            "Biển sau chậu",
+            "Biển gần lối ra"
+          ],
+          "tokenArt": [
+            "star",
+            "star",
+            "star"
+          ],
+          "imageId": "city:seoul"
+        },
+        {
+          "id": "seoul_hangul",
+          "nodeId": "S0",
+          "mode": "hangul",
+          "title": "Hành trình Hangeul",
+          "instructions": "Ghép ba chữ cái theo mẫu để tạo âm tiết han: h ở đầu, a ở bên phải, n ở dưới.",
+          "hint": "Chữ Hangeul được kết hợp thành khối âm tiết. Mẫu han dùng phụ âm h, nguyên âm a và phụ âm cuối n.",
+          "fact": "Hangeul kết hợp phụ âm và nguyên âm thành khối âm tiết. Bạn vừa ghép khối han, âm đầu trong tên Hangeul.",
+          "tokens": [
+            "h · hieut",
+            "a",
+            "n · nieun"
+          ],
+          "targets": [
+            "Phụ âm đầu",
+            "Nguyên âm",
+            "Phụ âm cuối"
+          ]
+        },
+        {
+          "id": "seoul_greeting",
+          "nodeId": "S12",
+          "mode": "scenario",
+          "title": "Lời chào và sự giúp đỡ",
+          "instructions": "Lumi gặp một người lớn ở điểm hỗ trợ. Cách mở lời nào lịch sự?",
+          "hint": "Một lời chào lễ phép, cúi đầu nhẹ và hỏi xin giúp đỡ phù hợp hơn chen ngang hoặc ra lệnh.",
+          "fact": "Cách chào thay đổi theo hoàn cảnh và quan hệ. Nói lễ phép, chào nhẹ và lắng nghe là lựa chọn phù hợp trong tình huống này.",
+          "options": [
+            "Chen ngang và ra lệnh",
+            "Chào, cúi đầu nhẹ rồi hỏi xin hỗ trợ",
+            "Giật đồ từ tay người khác"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "seoul_shelter",
+          "nodeId": "S13",
+          "mode": "maze",
+          "title": "Tuyến đường tới điểm trú",
+          "instructions": "Theo các biển sáng tới chỗ mèo; tránh ô có vật cản do gió làm đổ.",
+          "hint": "Chỉ đi sang ô kề có đường. Tránh vùng tối và quay lại nếu gặp ngõ cụt.",
+          "fact": "Trong câu chuyện, đội hỗ trợ đã kiểm tra lối đi. Biển chỉ dẫn trong game không thay thế hướng dẫn an toàn thực tế.",
+          "maze": [
+            "...##",
+            ".#.##",
+            ".#...",
+            ".###.",
+            "....."
+          ],
+          "start": 0,
+          "exit": 24
+        }
+      ]
+    }
+  ]
+}

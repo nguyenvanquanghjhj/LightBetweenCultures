@@ -1,0 +1,4 @@
+A-before-tutorial | 1280x960 | state=A zoom=1 mapMin=(110.72, 78.72) mapMax=(1169.28, 872.64) dimAlpha=0.674963 fullyBrightCoverage=0.1711222 weightedCoverage=0.1999997 H2Alpha=0.6745098 farAlpha=0.6745098
+A-eye-picked-not-returned | 1280x960 | state=A zoom=1 mapMin=(110.72, 78.72) mapMax=(1169.28, 872.64) dimAlpha=0.674963 fullyBrightCoverage=0.1711222 weightedCoverage=0.1999997 H2Alpha=0.6745098 farAlpha=0.6745098
+B-mai-returned | 1280x960 | state=B zoom=1 mapMin=(110.72, 78.72) mapMax=(1169.28, 872.64) dimAlpha=0.674963 fullyBrightCoverage=0.1711222 weightedCoverage=0.1999997 H2Alpha=0 farAlpha=0.6745098
+B-wide-district | 1600x1000 | state=B zoom=1 mapMin=(248.67, 82.00) mapMax=(1351.33, 909.00) dimAlpha=0.674963 fullyBrightCoverage=0.1711222 weightedCoverage=0.1999997 H2Alpha=0 farAlpha=0.6745098

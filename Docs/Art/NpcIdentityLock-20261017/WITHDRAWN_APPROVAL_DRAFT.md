@@ -1,0 +1,1 @@
+The user explicitly withdrew bulk approval on 2026-10-17. The 12 pending NPCs are NOT approved. Authoritative registry and runtime status/source files restored to exact pre-task bytes. Draft build/guard outputs do not establish canonical approval. Native sprite review PNGs are source exports only, not new art.

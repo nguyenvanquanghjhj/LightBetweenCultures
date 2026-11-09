@@ -1,0 +1,385 @@
+# LIGHT BETWEEN CULTURES — MASTER CANONICAL IMPLEMENTATION PLAN v2026-10-18
+## Hợp nhất: NPC art · NPC reuse · Check-in & Photo Journal · World Map dependency · 6 di vật/24 mảnh · Art import · World Reactions · 1 Ending · Release Readiness
+
+**PROJECT:** `D:\GAMEKKK\LightBetweenCultures`  
+**UNITY:** checkpoint trước ghi `6000.6.5f1`, hãy kiểm tra trong `ProjectSettings/ProjectVersion.txt`.  
+**TÍNH CHẤT:** Đây là một **master plan duy nhất**, thay thế các chỉ dẫn trùng hoặc lỗi thời của bốn văn bản nguồn. Không được hiểu là yêu cầu mở bốn task đồng thời. Đọc toàn bộ trước khi bắt đầu.
+
+## 0. Luật ưu tiên, phạm vi và điểm dừng
+
+1. **QUYẾT ĐỊNH MỚI NHẤT:** Game có **một kết thúc duy nhất**. `finalConnectionReady = finalBossDefeated AND sixRelicsRestored`; người chơi sau đó chủ động kích hoạt **Nghi thức Kết nối cuối tại Seoul** thì mới được đánh dấu `globalGameCompleted`, phát ending/credits. Hai điều kiện là AND, không phải OR. Đánh bại boss Seoul trước khi đủ di vật **không phát ending**, vẫn được chơi tiếp và quay lại các map; không phải đánh boss lần hai. Đủ di vật mà chưa hạ boss cũng chưa ending. Không có normal/bad/secret/true ending khác.
+2. **MỞ THÀNH PHỐ ĐỘC LẬP VỚI DI VẬT.** Quest/beacon/gate đã có mở World Map; tuyệt đối không yêu cầu relic để mở Huế/Jeonju/Đà Lạt/Gyeongju/Seoul, vào boss hoặc hoàn thành quest chính. Người chơi có thể thắng boss khi có 0/6 relic. **Nhưng cần đủ 6/6 restored relic để phá đảo toàn game.** Những chữ “Six Relics optional và không liên quan ending” ở tài liệu cũ **đã lỗi thời**, chỉ còn đúng đối với mở map và đánh boss.
+3. Sáu di vật gồm **24 mảnh, 6 thử thách phục dựng thao tác thật, 6 hiệu ứng khôi phục**, một Collection/nhật ký, mạng văn hóa Việt–Hàn. Mọi mảnh phải có đường nhận hợp lệ ở cả hai thứ tự chơi, old save, post-boss; không được là missable one-shot nếu cần cho ending duy nhất.
+4. Hội An có **ba trạng thái riêng**: chưa trả Mắt Đèn → còn tối; đã trả Mắt Đèn cho Cô Mai → chỉ đèn/góc phố sáng cục bộ; sau đủ 4 mảnh, ghép Đèn Mắt Phố và thắng Dẫn Ánh Đèn → mới **KHAI SÁNG TOÀN HỘI AN**. H7 là tiến trình beacon/world unlock **riêng**, giữ flags/gates gốc, không tự bật full-city light. Không tự đổi tên `hoi_an.lamp_restored` vì ngữ nghĩa lịch sử khác hiệu ứng toàn phố.
+5. **Không tích hợp MCQ phụ 150/32/30 câu**. Không tạo quiz UI, random câu hỏi, reward/cultural moments quiz; không xóa tài liệu cũ/backup. Giữ nguyên **22 puzzle cốt truyện** thực sự.
+6. Gốc dự án có baseline lịch sử **6 thành phố, 133 node, 29 quest runtime, 22 puzzle, hai tuyến Full Story từng PASS**; đây là baseline cần **đối chiếu source và báo cáo mới nhất**, không phải bảo đảm build hiện tại PASS. Không tự sửa ID, đáp án, story/reward/gate/boss để khớp tài liệu.
+7. **Mỗi phase chỉ làm đúng việc của phase đó**; không sửa song song cùng source với task khác, không reset project, không nhập lặp asset đã có, không tái chạy hàng nghìn assertions sau sửa nhỏ. Tiến độ thật khác mô tả → ghi rõ chênh lệch và kế thừa phần đã PASS.
+8. **Quy tắc stop:** Trong lượt đầu **CHỈ THỰC HIỆN PHASE 0 AUDIT/DESIGN** và dừng để chủ dự án duyệt phân bố 24 mảnh, lựa chọn Hội An/Đà Lạt và dependency ending. KHÔNG sửa gameplay runtime, NPC binding, asset import, SaveSystem, WorldMap, dialogue, boss, scene hay tạo build trong Phase 0; chỉ tạo/sửa tài liệu audit. Sau khi được duyệt mới triển khai Phase 1→3. **DỪNG LẦN HAI sau pilot Hội An ở Phase 3**. Phases 4→7 được bảo lưu đầy đủ và chỉ chạy khi chủ dự án tiếp tục cho phép. Không coi điểm dừng là hủy phần việc sau.
+9. Quyền phê duyệt: các phân bố mảnh liên thành phố, nguồn fragment chưa xác thực, identity NPC chưa định danh, art chưa được người dùng duyệt, thay đổi save schema lớn, thay đổi ending/legacy completed save có xung đột → **NEEDS_USER_DECISION/BLOCKED**. Không tự chọn giả nếu còn hai phương án hợp lý.
+
+### Kế hoạch thống nhất
+
+- **PHASE 0 — AUDIT / DESIGN / APPROVAL GATE:** kiểm toán mở map, World/Story flags, boss/ending, 24 fragment + độ tiếp cận, nguồn NPC/check-in/đặc sản, assets thực tế, save. Xuất dependency graph và phương án thiết kế. **DỪNG cho user duyệt**.
+- **PHASE 1 — GẮN 4 NPC PORTRAIT & NPC REGISTRY:** import/bind 4 art mới sau khi user cho phép, kiểm ảnh và identity.
+- **PHASE 2 — SIX RELICS DATA + ART SOURCE + NPC/CHECK-IN PLAN:** kiểm sáu PNG nguồn, crop tối đa 30 sprites nếu hợp lệ, registry/mapping, kiến trúc persistence, Photo Journal design; không nhập ảnh giả.
+- **PHASE 3 — CORE/PERSISTENCE + HỘI AN VERTICAL SLICE:** bốn mảnh và minigame thật, Cô Mai/H3/H7 continuity, một check-in có ngắm cảnh/postcard, World Reactions/Lumi hẹp, QA. **DỪNG cho user duyệt Hội An**.
+- **PHASE 4 — NĂM THÀNH PHỐ CÒN LẠI:** Jeonju → Huế → Đà Lạt → Gyeongju → Seoul, từng thành phố dùng một registry/save/UI thống nhất; 4 mảnh, một thử thách thật, phản ứng riêng, NPC/check-in thích hợp; checkpoint test sau mỗi city. Thứ tự này là thứ tự *thi công*, không được thay World Map progression của người chơi.
+- **PHASE 5 — FINAL CONNECTION / ONE ENDING:** audit/thiết kế flow boss cũ rồi chuyển có kiểm soát sang post-boss play + six-relic ceremony/credits/save; không có second ending.
+- **PHASE 6 — ART / GAME FEEL / CROSS-CITY POLISH:** art nhập sau, six city reactions, Lumi, SFX, postcard/gallery, micro-transitions, effect/World Reactions phối hợp; chỉ dùng asset duyệt.
+- **PHASE 7 — RELEASE READINESS AUDIT v4:** kiểm tra đầy đủ kết thúc duy nhất, 24 mảnh, six minigames, gameplay, Android/Windows, bug priority, report final. Thay cho Audit V3 cũ ở những chỗ nó bảo vệ ending “boss win = game finished” hoặc nói relic không liên quan ending.
+
+## 1. Phạm vi được bảo vệ xuyên suốt
+
+Đọc trước khi sửa: `AGENTS.md`, `ProjectSettings/ProjectVersion.txt`, `Docs/Story/FULL_STORY_PLAYTEST.md`, LBC Full Story Playtest 133 nodes (nếu có), `world_progression.json` vị trí thật, `GameplayContent.json`, `AdventurePresentation.json`, `WorldMap.cs`, `CityMap.cs`, `SceneTransition.cs`, Quest/Story/WorldState/Save/Inventory/Battle/Puzzle/Dialogue/Presentation code, `AdventureUIArt.asset`, NPC canonical registry/reuse 17-10-2026, node & quest audits, H3/terrain/UI/RenderQuality/QualityAddendum, Cross City Food, Relics/World Reactions/Release reports mới nhất, asset catalog/source indexes/Unity sprite meta, photo markers, existing build/toolchain logs và pending tasks. Đường dẫn ví dụ chưa chắc tồn tại, hãy **tìm file thật có mục đích tương ứng**, không đoán.
+
+Bảo toàn 6 thành phố; các node IDs; questId và dependency HQ01–HQ07/HA_FOOD_PREP, UQ01–04, DQ01–05, JQ01–04, GQ01–04, SQ01–04; 22 original puzzles **H4 H13 H19; U8 U16 U17; D8 D12; J3 J7 J12 J17; G2 G4 G12 G15 G17; S3 S10 S16 S17 S18**; item IDs/quantities, story items, ledger/reward, existing save slots, H3 Mắt Đèn pickup/pathfinding/collision, original Gyeongju statue repair-or-fight and alternate boss paths, Seoul S16/S17/S18 relay readiness + two-phase boss, visual identity Lumi/NPC/Map Overview A, roads/landscape/camera/discovery HIDDEN/gates/waypoints. Tuyệt đối không thay đoạn thắng boss thành “thua” nếu thiếu di vật; battle victory và credits là hai trạng thái khác nhau.
+
+Không tạo map/node/24 quest/24 NPC/boss mới, camera permission thật, manager/QuestManager/EndingManager/InventorySystem song song, MCQ phụ, companion AI, skill tree, story item clones, stage item tiêu hao lần hai. Không tự xóa bản backup, checkpoint incremental-chain hay tài liệu cũ. Không tạo backup nhiều GB. Không dùng art/nhạc chưa rõ giấy phép; không tự gen AI art. Chỉ cho phép thêm **collection fragment & presentation state** bằng extension an toàn sau audit; nếu cần schema migration lớn, báo blocker và chờ chủ dự án.
+
+## 2. PHASE 0 — A: World Map unlock & two story branches (AUDIT ONLY)
+
+**Baseline lịch sử, bắt buộc kiểm chứng bằng runtime:** start Hội An H0; H7 `hoi_an.lamp_restored` đồng bộ beacon → mở **Huế + Jeonju song song**; Huế U19 `hue.beacon_lit` → mở Đà Lạt; Jeonju J19 `jeonju.beacon_lit` → mở Gyeongju; Seoul mở khi `hue.beacon_lit AND da_lat.beacon_lit AND jeonju.beacon_lit AND gyeongju.beacon_lit` đúng; D21 có thể gửi tín hiệu nhưng không bypass Seoul gate. Hai thứ tự chơi khả dĩ: VN trước `Hội An→Huế→Đà Lạt→Jeonju→Gyeongju→Seoul` hoặc Hàn trước `Hội An→Jeonju→Gyeongju→Huế→Đà Lạt→Seoul` nếu runtime cho phép. Không coi fixture/QA flags là quy tắc chơi thật.
+
+Kiểm tra **mỗi cạnh** của graph: file, line/field, eventId/questId, required flag AND/OR/item, node/beacon, time of unlock, `runtimeReady`, `portal`, `visited`, `discovered`, `HIDDEN`, preview locked, enterable, khả năng backtrack và giữ vị trí/save/restart; có thể xem ảnh map của city khóa nhưng không thể Enter. Kiểm tra quyền quay lại sau boss và sau credits; điều kiện bổ sung từ runtime mới nhất và old save migration.
+
+Phải xuất `Docs/Gameplay/MAP_UNLOCK_DEPENDENCY_AUDIT.md` có graph thật, khác biệt thiết kế/runtime, xét hai tuyến, đối chiếu bằng chứng, không sửa gate. Dùng `Docs/Gameplay/MAP_ARTIFACT_DEPENDENCY_GRAPH.json` mô tả AND/OR dependencies `from/to`, `dependencyType`, `requiredQuest/flag`, `mapAccessible`, `source`, `isMain`, `isOptional`, `status`, `lockLoopRisk`, không viết vào runtime.
+
+## 3. PHASE 0 — B: Six Relics 24 fragments & cross-city dependencies (AUDIT ONLY)
+
+### 3.1 Danh tính gameplay canonical
+
+| City | relicId | Tên | Vai trò | 4 fragment names | Minigame | Hiệu ứng |
+|---|---|---|---|---|---|---|
+| Hội An | `relic_hoi_an_lantern` | **Đèn Mắt Phố Hội An** | Đánh thức | Khung Tre Bến Sông · Tấm Giấy Hoa Cổ · Móc Đồng Mái Hiên · Dấu Phản Chiếu Mắt Đèn | **Dẫn Ánh Đèn** | Khai Sáng Toàn Hội An; đèn, sông Hoài, Lumi/Cô Mai, tín hiệu Jeonju dạng biểu trưng |
+| Huế | `relic_hue_dragon_seal` | **Ấn Rồng Ngọc Tỉ** | Xác thực | Lõi Ngọc Sông Hương · Mặt Ấn Rồng · Dây Buộc Nghi Lễ · Mảnh Văn Khắc Nhịp | **Khôi Phục Dấu Ấn** | Ấn rồng fantasy và phản chiếu sông Hương, nhấn di tích; không thay `ancient_seal` |
+| Đà Lạt | `relic_dalat_mist_compass` | **La Bàn Sương Lam** | Định hướng | Mảnh Kính Hồ · Lá Thông Dẫn Hướng · Chuông Gió Cầu Sương · Hạt Tín Hiệu Xanh | **Tìm Đường Qua Sương** | Màn sương trang trí tan bớt, hồ/cầu/landmark đã khám phá rõ hơn; không thay fog-of-war |
+| Jeonju | `relic_jeonju_hanji_stamp` | **Mộc Ấn Hanji** | Lưu giữ | Mảnh Hoa Văn Hanok · Sợi Chỉ Nhuộm · Lõi Hanji Cổ · Con Dấu Lời Chào | **Ghép Hoa Văn Giao Lưu** | Hanji/postcard/hoa văn giao lưu Việt–Hàn, xưởng đổi diện mạo |
+| Gyeongju | `relic_gyeongju_star_lens` | **Kính Ấn Tinh Tú** | Đọc ký ức | Mảnh Ghi Chép Min · Mảnh Đá Khắc Sao · Mảnh Phản Chiếu Tượng Đá · Vòng Đồng Di Tích | **Rà Ánh Sáng Trên Di Tích** | Bản đồ sao fantasy Silla, ký ức di tích, tượng phản hồi đúng nhánh sửa/đánh |
+| Seoul | `relic_seoul_trirelay_prism` | **Lăng Kính Tam Relay** | Kết nối | Mảnh Dữ Liệu Di Sản · Lõi Đồng Bộ Ji-won · Vòng Kính Tinh Tú · Khung Relay Seoul | **Nối Ba Luồng Sáng** | Hội tụ tín hiệu Đà Lạt/Huế/Jeonju, mạng kết nối 6 thành phố; không mở relay/boss/ending sớm |
+
+Lục Đại Di Vật tạo trục **ĐÁNH THỨC → XÁC THỰC → ĐỊNH HƯỚNG → LƯU GIỮ → ĐỌC KÝ ỨC → KẾT NỐI**. Một hiện vật/fantasy interpretation không được gọi là cổ vật lịch sử xác thực; Ấn Rồng fantasy Nguyễn-era, Kính Sao fantasy Silla.
+
+Không tự đổi `Dấu Phản Chiếu Mắt Đèn` thành Mắt Đèn thứ hai; không đổi Hạt Tín Hiệu Xanh thành item relay; không dùng 3 visual sources Đà Lạt/Huế/Jeonju thay bộ 4 fragment Seoul. **Gameplay relic IDs** nếu chưa triển khai thì mặc định các `relic_*` ở trên; nếu đã có `artifact_*` runtime có save, duy trì stable IDs và lập alias một-một, không sinh hai sổ sưu tầm/tracking riêng.
+
+### 3.2 Quy tắc phân bổ mảnh liên thành phố
+
+Một di vật thuộc homeCity nhưng mảnh/kiến thức/đồ phục chế có thể tới từ foundCity khác. Tất cả 24 fragments phải xác định nguồn có chứng cứ. Mẫu **2 mảnh trong thành phố gốc + 1 ở thành phố đối tác + 1 từ event trao đổi/check-in** là *đề xuất*, không phải công thức cứng. Giao lưu có thể là fragment vật lý, chứng thực bằng ký hiệu, bản vẽ/họa tiết giải mã, postcard, NPC dialogue hoặc world-reaction hậu kỳ. **Không áp 2+1+1 một cách mù quáng** nếu làm hết sáu relic chỉ hoàn thành sau Seoul, demo đầu yếu, hoặc tạo softlock. Một fragment ở map chưa mở **được phép** nếu city sẽ mở bằng quest chính độc lập, sau đó quay lại lấy được. Sai khi chính fragment/relic ấy cần để mở city chứa fragment.
+
+Cấm: mảnh nằm sau gate do chính relic mở; NPC một lần biến mất sau event; event một lần không retro-grant; item đã dùng hết không còn clue; fragment ở HIDDEN node bị lộ qua collection; vật phẩm fragment được tặng khi người chơi chỉ mở preview khóa; quest đặc sản optional bị biến thành story/map gate; không nhận được do đi hai nhánh khác thứ tự; defeat boss chặn backtrack; post-ending mất khả năng phục dựng ở old saves.
+
+Ma trận 24 dòng bắt buộc (`Docs/Gameplay/ARTIFACT_FRAGMENT_ACCESS_MATRIX.md`, đồng bộ `Docs/Gameplay/ARTIFACT_FRAGMENT_SOURCE_MATRIX.md` như view, một source-of-truth): `relicId, fragmentId, name, homeCity, foundCity, nodeId, ExistingEventId, QuestId, PuzzleId, NPCId, CheckinId, chest/exploration, sourceType, requiredCityUnlock, requiredNodeDiscovery, requiredQuest/StoryFlag, original item vs collection evidence, earliestAcquire, earliestRestoration, main/optional, crossCityExchangeReason, canAcquireVietnamFirst, canAcquireKoreaFirst, canAcquireAfterBoss, oldSaveRetroactive, duplicateGrantRisk, lockLoopRisk, alternatePath, sourceEvidence, status, userApproval`.
+
+`sourceType`: `EXISTING_QUEST, EXISTING_PUZZLE, EXISTING_NPC, EXISTING_CHECKIN, EXISTING_CHEST, EXISTING_EXPLORATION, CROSS_CITY_EXCHANGE, NEW_CONTENT_REQUIRED`. Status: `VALID_ACCESSIBLE, VALID_OPTIONAL, POST_UNLOCK_ONLY, SOURCE_UNASSIGNED, INVALID_LOCK_LOOP, NEEDS_USER_DECISION, BLOCKED_BY_MISSING_RUNTIME_STATE`. `POST_UNLOCK_ONLY` là hợp lệ nếu chỉ yêu cầu cho ending sau này và nguồn truy cập vĩnh viễn; không đồng nghĩa PASS nếu điệu kiện lấy mảnh chưa có. Nếu thật thiếu nguồn, đề xuất node/event hợp lệ và user quyết định; không bịa để bảng đủ 24 dòng.
+
+### 3.3 Sáu cặp cross-city cần so sánh
+
+1. **Hội An ↔ Jeonju.** Ứng viên Móc Đồng Mái Hiên có thể được phục chế tại Jeonju nhờ Hana/So-yeon, có thể được gợi ý sau trao ớt HQ05. So sánh **A: cả 4 mảnh Hội An có thể lấy sớm** (Jeonju hỗ trợ xác nhận/visual/cultural postlude), và **B: Jeonju giữ một fragment vật lý**, H7 mở Jeonju rồi quay về mới có full-city light. Đánh giá trải nghiệm 30 giây đầu, demo, backtracking, lần đi đầu, khả năng quay lại, chỉ một full-city trigger. Không để di vật mở Jeonju; không tiêu ớt lần hai.
+2. **Huế ↔ Gyeongju.** Candidate Mảnh Văn Khắc Nhịp có thể được đối chiếu Gyeongju; so sánh mảnh vật lý tại Gyeongju với U17 cung cấp fragment và Gyeongju cung cấp chứng thực thêm. Đảm bảo đi nhánh Việt Nam trước vẫn hoàn thành U19/Đà Lạt, `ancient_seal` tại U11 cho G12/S17 không bị tiêu/nhân bản.
+3. **Đà Lạt ↔ Seoul.** **Rủi ro pacing cao**: Hạt Tín Hiệu Xanh nếu thật nằm Seoul thì La Bàn Đà Lạt chỉ được phục dựng sau city cuối. So sánh A: D12/D16 hoặc event thật tại Đà Lạt cấp dấu và Seoul khuếch đại/xác thực hậu kỳ; B: lấy fragment tại Seoul và backtrack sau. Không tự chọn nếu cả hai hợp lệ; đề xuất ưu tiên theo trải nghiệm player.
+4. **Jeonju ↔ Hội An/Đà Lạt.** Con Dấu Lời Chào từ VN — postcard Hội An hoặc tương tác J15, hoặc sau giao dâu DQ05 — nhưng người chọn Hàn Quốc trước không được mất cơ hội; dâu/ớt chỉ mở clue/dialogue/check-in, không đổi thành fragment, không cấp lại quà.
+5. **Gyeongju ↔ Huế.** Huế có thể cho manh mối ký hiệu về di tích; G3/G4/G7/G15 có thể là fragment nguồn; nhánh tượng sửa/đánh đều có proof hợp lệ; không khóa tuyến Hàn trước Huế, không tạo nhánh statue thứ ba.
+6. **Seoul ↔ cả sáu thành phố.** S2 hồ sơ, S7 Ji-won, S10 tháp, S18 relay làm fragment candidates; visual minigame kết nối ba luồng Đà Lạt/Huế/Jeonju dùng **data biểu trưng**, không tạo item thay fragment; không kích S16/17/18, boss, hay ending tự động. Lăng Kính phục dựng chỉ là **một trong sáu điều kiện của `allRelicsRestored`**, không tự thay boss defeat/final ceremony.
+
+**Tuyến trao đổi giữ nguyên**: HQ05 ớt Hội An→Jeonju; HQ06 hành tím Hội An→Huế; HQ07 chỉ complete sau cả hai giao dịch thật; DQ05 dâu Đà Lạt→Jeonju. Kiểm source để xác nhận các flags. Đặc sản là cầu nối quan hệ; mảnh di vật/kiến thức được gửi, phục chế, đối chiếu sau đó; không tự đổi quest reward/flag/item, không duplicate hoặc double-consume; nếu exchange optional trở thành prerequisite một fragment bắt buộc cho global ending, kiểm reachability hai thứ tự, post-boss, old saves; không âm thầm bắt hoàn thành toàn bộ side quests.
+
+### 3.4 Mô phỏng AND/OR và nghiệm thu dependency
+
+Dựng graph chứa `world unlock, node visibility/accessibility, quest/puzzle completed, encounter boss/relay, exchange, NPC/check-in, fragment grant, 4/4, assembled, minigame restored, six restored, boss cleared, final ceremony, ending credits`. Mỗi cạnh ghi file/source, điều kiện AND/OR, `isMainPathRequired`, `optional`, khả năng retry, `savePersistence`, `playerRoute`. Kiểm chu trình cụ thể và phương án cắt cạnh. Mô phỏng 4 tuyến:
+
+- `VN_FIRST`: Hội An→Huế→Đà Lạt→Jeonju→Gyeongju→Seoul.
+- `KOREA_FIRST`: Hội An→Jeonju→Gyeongju→Huế→Đà Lạt→Seoul.
+- `SKIP_RELICS`: mở đủ city, hạ boss, vẫn chơi tiếp nhưng **không đạt global ending** (khác hẳn dòng “skip di vật vẫn phá đảo” cũ).
+- `OLD_SAVE_AND_POST_BOSS`: quest/puzzle đã hoàn thành, boss có thể đã defeated, các fragments/di vật còn thiếu vẫn nhận được, không mất reward/quest.
+
+Ở từng bước ghi unlocked cities, beacons, fragments acquired/available, số relic restorable, thiếu fragment/city nào, có thể backtrack, có cần exchange, không missable, có được đánh boss, có thể final ceremony hay không. Không thay stage unlock để sửa graph trong Phase 0.
+
+**Ưu tiên pacing**: Không dồn 6 minigames chỉ về Seoul trừ khi user duyệt. City mới tới cần clue và progression 0/4–4/4; nếu mảnh phải chờ partner city, UI giải thích vừa đủ không spoiler HIDDEN. Phân biệt completion “quest chính xong” với “di vật hoàn chỉnh” và “game finished”.
+
+Xuất `Docs/Gameplay/SIX_ARTIFACT_PROGRESSION_DESIGN.md`, `Docs/Gameplay/ARTIFACT_UNLOCK_DECISIONS.md` với A/B Hội An và A/B Đà Lạt, các lựa chọn Huế/Gyeongju/Jeonju, đề xuất mapping đúng 24, risk, source, UI pacing; không tự chốt các quyết định user chưa duyệt.
+
+## 4. PHASE 0 — C: NPC inventory & re-use (AUDIT ONLY)
+
+**Đếm NPC runtime không phải chỉ PNG trong folder NPC.** Kiểm `NPC canonical registry, NPC roster, ART_ASSET_CATALOG/ART_SOURCE_INDEX/MISSING_ASSETS, Assets/_Game/Art/Characters/NPC, shared NPC transparent atlas, native subassets, source sheets, scene actors, AdventureUIArt.asset, dialogue speaker bindings, runtime-used/unused NPC, map sprite vs dialogue portrait, unnamed figures`. Phân loại và giải thích số lượng: `CANONICAL_IN_USE, BOUND_NOT_YET_APPROVED, CANONICAL_UNUSED, UNNAMED_ART_AVAILABLE, APPROVED_VARIANT_AVAILABLE, SHARED_TRAVELER_CANDIDATE, MISSING_ART/NEEDS_NEW_ART, DESIGN_REFERENCE_ONLY, NOT_REQUIRED, IDENTITY_CONFLICT, DO_NOT_REUSE`.
+
+Với mỗi người: npcId; tên/alias; city/node/quest/story role; sprite source/sheet/rect/GUID/localID; portrait map or dialogue; approved status; có xuất hiện thật hay chưa; tuổi/văn hóa/ngoại hình; có thể gợi ý fragment/check-in/địa danh không; có thể đi xuyên thành phố nào và vì sao; bị conflict tên/mặt/continuity nào; cần artwork variant hay not; pending user approval. **Không lấy khuôn mặt NPC đã có tên gắn cho nhân vật khác** và không xáo canonical chỉ vì tái sử dụng. Nhân vật chưa tên/sprite chưa dùng thì **chỉ đề xuất** role/npcId/tên sau khi chứng minh không thuộc canonical, rồi xin duyệt.
+
+Một NPC hiện có có thể dẫn tới nhiều mảnh; không cần một NPC/mảnh. Có thể cho nhân vật du hành (nghiên cứu di sản, nghệ nhân giao lưu, thương nhân, người đưa thư, nhiếp ảnh gia, người thu thập ký ức) sang city đối tác có **lý do cốt truyện thực**; giữ một identity/npcId, age/features/wardrobe consistent; variant nếu có ảnh thật hoặc approved variant; xét cả hai thứ tự VN/Hàn, re-entry và post-boss. Không đặt NPC du hành ở city chưa mở để người chơi tiếp cận. Không thêm NPC chỉ để làm đầy collection.
+
+NPC/candidate roles, cần xác minh story trước khi dùng:
+
+| City | Ưu tiên NPC hiện có | Nhiệm vụ gợi ý liên quan relic / check-in | Candidate nodes |
+|---|---|---|---|
+| Hội An | Cô Mai; Ông Phúc; Bà Tư; thương nhân/bác lái đò | Mắt Đèn, tre/hoa văn/mái hiên, đèn lồng, bến sông; clue đối tác Jeonju | H0/H2/H3/H4/H10/H14/H16 |
+| Huế | Bác Tâm; Bà Nguyệt; Lê An; NPC chưa dùng hợp vai | Bến đò/sông, dấu triện, văn khắc và nghi lễ | U3/U8/U16/U17 |
+| Đà Lạt | Lan; Cô Thủy; người làm vườn (nếu có); Lumi tự quan sát | Hồ/kính, thông, chuông sương, tín hiệu xanh | D2/D3/D8/D10/D12/D14 |
+| Jeonju | Hana; So-yeon; Yoon/Park nếu có đúng role | Hanok, Hanji, nhuộm, lời chào/giao đặc sản | J2/J3/J7/J12/J15/J17 |
+| Gyeongju | Min; `npc_keeper` G9; `npc_inscription` G14 | Ghi chép, dấu sao, tượng, vòng đồng | G3/G4/G7/G9/G14/G15 |
+| Seoul | Ji-won S7; `npc_curator` S2; `npc_engineer` S11 | Hồ sơ dữ liệu, đồng bộ Ji-won, tháp sao, relay | S2/S7/S10/S11/S18 |
+
+Đây là **candidates, không phải xác nhận vị trí**. Không biến chó Đà Lạt hay statue/enemy thành người cầm fragment nếu story không cho phép. S14 là điểm thông tin không đòi người lái phà mới; D18 Lumi monologue không phải chủ trọ. 4 NPC import new art ở Phase 1, Ji-won S7 giữ canonical binding.
+
+Tạo `Docs/Gameplay/CULTURAL_ARTIFACT_NPC_AUDIT.md` gồm roster, unused sprite evidence, candidate shared traveler, side-dialogue opportunities, 24-fragment mapping và approval statuses.
+
+## 5. PHASE 0 — D: Photo check-in / Cultural Photo Journal (AUDIT ONLY)
+
+Kiểm `camera icon`, camera/landmark markers, node/checkin event, CityMap actor, actual screenshot/capture, album/gallery/postcard, discovery, existing artwork. Phân biệt `CHECKIN_EXISTING_RUNTIME, MARKER_ONLY, DATA_ONLY, MISSING_PRESENTATION, READY_TO_REUSE, NOT_VERIFIED`; không tưởng icon 📷 = mini-game đã có, không tạo marker/icon trùng.
+
+Thiết kế **CULTURAL PHOTO JOURNAL — NHẬT KÝ HÀNH TRÌNH** như gameplay du lịch ảo trong game, **không dùng camera vật lý điện thoại, không yêu cầu camera/gallery OS permission**. Luồng mỗi check-in: địa danh đã mở → nút “Khám phá góc nhìn/Chụp kỷ niệm” → viewport/postcard matching art → một thao tác ngắn **kéo khung, căn hoa văn, xoay/đổi góc sáng, vuốt màn sương, chạm chi tiết văn hóa** → nhận một thông tin văn hóa ngắn & phản ứng Lumi → lưu mark/photo journal → optional clue/fragment khi có mapping đúng. **Không phải mọi check-in đều cấp fragment**, không 24 lần chụp giống nhau; không cần minigame khó tại mọi điểm. Cho mở lại postcard, save/restart, re-entry/post-boss, chống grant lặp, không che modal/nút/marker, không lộ node HIDDEN và không biến check-in thành main-city gate.
+
+Art UI: dùng approved City Map/cutouts/landmark illustrations/overlay/postcard/theme skin, không phá Map Overview A, không upscale tiny collage/baked watermark; postcard có thể là `GENERATED_POSTCARD_VIEW` từ UI asset và metadata, **không gọi giả là ảnh screenshot thật**; dùng `CAPTURED_SCREENSHOT` chỉ nếu có capture thật. Ưu tiên lưu metadata hơn nhiều file bitmap/IO trên Android; performance/mobile portrait/touch/focus an toàn. Art thiếu ghi NEEDS_ART.
+
+Landmark ứng viên: Hội An Chùa Cầu/sông Hoài/đèn (căn đèn và phản chiếu; hai trạng thái trước/sau Khai Sáng nếu save đúng); Huế sông Hương/bến/Hoàng thành (dấu triện); Đà Lạt hồ Xuân Hương/cầu/thông (vuốt sương); Jeonju Hanok/xưởng Hanji (căn họa tiết); Gyeongju tháp/tượng/di tích Silla (soi dấu khắc); Seoul tháp/sông/cảnh relay (căn luồng tín hiệu nhưng không kích relay). Chỉ map tới node/asset đã kiểm chứng, không tự thêm địa điểm.
+
+Tạo `Docs/Gameplay/CHECKIN_LANDMARK_AUDIT.md` gồm marker vs runtime, node/city/landmark/art, proposed interaction, whether replayable, fragment clue candidate, status/risks. Đề xuất **một** check-in thật tại Hội An làm pilot sau approval, rồi đề xuất check-in thích hợp cho năm thành phố còn lại. Không áp số lượng cứng cho năm thành phố; kiểm chất lượng trước mở rộng.
+
+## 6. PHASE 0 — E: Ending audit & one-ending architecture (AUDIT ONLY)
+
+Chính thức **ba lớp tiến độ**:
+
+- A World progression: city unlock, beacons, portal, node discovery (giữ runtime cũ).
+- B Six Relics: 24 fragments, restored/assembled/challenges, 6 effects, collected postcards (độc lập gates).
+- C Global completion: boss victory, six relics restored, ceremony triggered, single ending/credits, post-end re-entry. Chỉ đọc state thật; không tạo 2 ending managers.
+
+Kiểm Seoul boss hai pha S20: battle victory event, boss reward, final quest completion, scene transition, old `gameCompleted`/ending/credits triggers, `SaveSystem`, previous flow after boss, Map access, journal locks, post-boss NPC. **Audit rủi ro nếu old save đã thấy credits/ending:** không xóa/lùi quest, không trả thưởng lại; tạo migration plan và `NEEDS_USER_DECISION` nếu mapping finalCompleted cũ với mới không rõ.
+
+**Thiết kế yêu cầu sau approval:**
+
+- `bossDefeated=false/true` từ boss victory đã thực, persist và idempotent; sau chiến thắng boss không respawn/không replay boss/không thay kết quả combat.
+- `allRelicsRestored = restored(6 specific relic IDs)`, mỗi cái chỉ sau hoàn thành thao tác phục dựng thật, không chỉ đủ 4 mảnh hay có registry.
+- `finalConnectionReady = bossDefeated && allRelicsRestored`.
+- `globalCompleted = finalConnectionReady && finalCeremonyConfirmed`, UI/credits chỉ khi này. Đọc state cũ hiện có và additive safe storage khi cần, không âm thầm tạo cờ trùng/đổi schema.
+- Nếu boss defeated nhưng 0–5 relic: show `BOSS_DEFEATED_PENDING_FINAL_CONNECTION` (logic state mô tả), **không credits/game complete**, vẫn đi 6 cities/npc/check-in/side quest/collection, quest combat marked done, reward once, no second ending, no boss again. Nếu 6 relic trước boss: fight boss as normal, ceremony ready sau victory. Nếu 6/6+b0ss nhưng chưa chạm ceremony: chưa auto-ending, save/restart vẫn có quyền làm ceremony.
+- Nghi thức duy nhất **“NHỊP CẦU ÁNH SÁNG — LỤC ĐẠI DI VẬT HỘI TỤ”** tại existing safe Seoul node/event (kiểm cái nào), không thêm node, không khởi động lại arena, không puzzle thứ 23. Journal gợi quay lại điểm kết nối, UI 6 relic phát sáng theo **Đánh thức→Xác thực→Định hướng→Lưu giữ→Đọc ký ức→Kết nối**, ba luồng/các city hội tụ qua Seoul, một chạm confirm của Lumi → cinematic 15–30s (đề xuất), lời thoại kết nhẹ, credits một lần; optional skip visuals không skip persistence; Android portrait, no heavy shader. Nếu art chưa đủ: ART_PENDING và plan overlay/particle/scalable silhouettes, không tạo ảnh AI.
+- After credits: tùy chính sách game hiện có cho trở lại map; không auto-NewGame, không auto-grant reward; replay cinematic có thể là explicit album button, không tự phát lại sau load.
+- Story: sửa những lời thoại tuyên bố “mọi chuyện đã kết thúc” ngay sau boss, và các câu Hội An “toàn phố sáng” sớm; chỉ continuity hẹp, không thay boss motive/canon plot. Victory boss = đã giải quyết nguy cơ phòng vệ, ending = sáu ký ức kết nối; chỉ **một ending**.
+
+Tạo `Docs/Story/ONE_ENDING_SIX_RELICS_CANONICAL.md`, `Docs/Gameplay/SEOUL_FINAL_CONNECTION_DESIGN.md`, `Docs/QA/FINAL_ENDING_AND_POST_BOSS_AUDIT.md` ở mức **DESIGN_ONLY** trong Phase 0; chưa ghi code cho ending.
+
+## 7. PHASE 0 — Tổng hợp, điều kiện duyệt và dừng ngay
+
+Xuất/cập nhật không ghi đè báo cáo hợp lệ:
+
+1. `Docs/Gameplay/MAP_UNLOCK_DEPENDENCY_AUDIT.md`
+2. `Docs/Gameplay/MAP_ARTIFACT_DEPENDENCY_GRAPH.json`
+3. `Docs/Gameplay/ARTIFACT_FRAGMENT_ACCESS_MATRIX.md` — **24 dòng, mỗi dòng có nguồn và trạng thái**.
+4. `Docs/Gameplay/ARTIFACT_FRAGMENT_SOURCE_MATRIX.md` — view/alias đồng bộ của số 3.
+5. `Docs/Gameplay/SIX_ARTIFACT_PROGRESSION_DESIGN.md`
+6. `Docs/Gameplay/ARTIFACT_UNLOCK_DECISIONS.md`
+7. `Docs/Gameplay/CULTURAL_ARTIFACT_NPC_AUDIT.md`
+8. `Docs/Gameplay/CHECKIN_LANDMARK_AUDIT.md`
+9. `Docs/Gameplay/SIX_RELICS_SOURCE_MAPPING.md` — evidence item/event/save/alias.
+10. `Docs/Story/ONE_ENDING_SIX_RELICS_CANONICAL.md`.
+11. `Docs/Gameplay/SEOUL_FINAL_CONNECTION_DESIGN.md`.
+12. `Docs/QA/FINAL_ENDING_AND_POST_BOSS_AUDIT.md` — audit/design tests, **không giả runtime PASS**.
+13. `Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md` — những gì đã có trong source, task xung đột, decisions chờ người dùng, filenames, hành động Phase 1 sau duyệt.
+
+Nếu tên file đã tồn tại, cập nhật có kiểm soát, không ghi đè bất cứ source-of-truth khác. Có thể phân tách chi tiết nhiều tài liệu nhưng **không được giảm nội dung hoặc để hai mapping cạnh tranh**. Không dùng hàng nghìn validation screenshots để điền report.
+
+**PHẢN HỒI CUỐI PHASE 0 PHẢI CÓ:** World Map conditions thật; sơ đồ 2 tuyến; bảng đúng 24 mảnh kèm home/found city, proof and earliest restoration; 2 phương án Hội An và 2 Đà Lạt kèm lý do; câu trả lời về Huế↔Gyeongju, Jeonju↔VN, Seoul↔six; HQ05/HQ06/HQ07/DQ05 dependency; số NPC runtime + unused art và reused/cross-city candidate; số marker check-in vs playable; boss old ending trigger/old save issue; all 6 relic reachability both routes after boss; điều kiện 1 ending; các điểm user **bắt buộc duyệt**; status triển khai hiện tại và file chứng cứ. **DỪNG, không tự tiếp Phase 1–7.**
+
+---
+
+## 8. PHASE 1 — Import/bind bốn NPC mới (chỉ sau user approval)
+
+User đã giải nén ZIP `LBC_4_NPC_MissingArt_20261017.zip` trực tiếp vào root project theo thiết kế; xác minh bốn PNG thật, **không tự unzip trùng đè Assets**.
+
+| NPC id (exact) | City/node | Vai trò | File (expected) |
+|---|---|---|---|
+| `npc_engineer` | Seoul S11 | Kỹ sư Trạm Số, hồ sơ/lệnh phòng vệ SQ02 | `Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png` |
+| `npc_curator` | Seoul S2 | Quản thủ bảo tàng, hồ sơ & SQ02/S3/S4 | `Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png` |
+| `npc_keeper` | Gyeongju G9 | Người giữ di tích, tượng đá/biểu tượng sao | `Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png` |
+| `npc_inscription` | Gyeongju G14 | Người hỗ trợ bản khắc, khiên ba nhịp Lõi Sao | `Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png` |
+
+- Kiểm PNG ~1086×1448 nếu đúng nguồn (size thật), alpha RGBA, nền trong suốt, full single character, crop đủ đầu/tay/chân, không chữ/logo/khung/nhiều người/viền bẩn. Style chibi 2.5–3 đầu, viền nâu đậm, màu ấm, so sánh canonical Cô Mai/Lan/Min/NPC approved. Notes pending: Engineer thiếu kính so với brief; Curator trẻ hơn brief; Keeper tóc/râu trắng; Inscription cần khác nhân vật nữ Hàn khác. Chưa tự phê duyệt art.
+- Unity importer `Sprite (2D and UI)`, `Sprite Mode=Single`, alpha đúng, PPU/filter/compression nhất quán pattern đã duyệt, giữ `.meta`/GUID/localID thật; không giả 21300000 hoặc hardcode PNG path vào runtime nếu serializer dùng refs. Tìm `AdventureUIArt.asset` thật, gắn 4 ids, portrait vs map actor riêng; không tạo map actor thêm, walk cycle từ ảnh tĩnh, hoặc ghi đè NPC khác.
+- Bảo vệ 9 canonical đã khóa và 12 portrait khác từng BOUND_UNCONFIRMED (kiểm mới nhất), đặc biệt `npc_tech` Ji-won S7 đã có native sprite; không tráo So-yeon/Ji-won. S14 là điểm thông tin không đòi portrait; D18 Lumi monologue, không tạo chủ trọ. Không đổi Cô Mai, Bà Tư, Phúc, Hana, Hương, Lan, Min, Ji-eun, So-yeon, Yoon, Park, Tam, boatman hoặc bất kỳ identity đã duyệt.
+- Kiểm đúng speaker, alpha, framing/scale, không trắng/crop/chồng chữ/che nút touch, modal không grant thưởng/đổi quest, save/reload không mất reference. Chụp tối đa 4 runtime screenshots thật tại S2/S11/G9/G14, không dùng concept mock. Status `ART_IMPORTED_PENDING_APPROVAL`/`PENDING_USER_VISUAL_APPROVAL` trừ khi user đã duyệt; ảnh lỗi `BLOCKED`/`NEEDS_NEW_ART`.
+- Tạo `Docs/Art/NPC_FOUR_NEW_ART_INTEGRATION_20261017.md`: npcId, city/node, actual PNG, dimensions, importer/alpha, actual GUID/localID, serialized binding, runtime rendering, screenshots, canonical approval status, issues/tests & file diff. Đồng bộ NPC registry, không nâng 12 NPC khác thành APPROVED. Nếu task import đã PASS trước đó, chỉ validate/kế thừa.
+
+## 9. PHASE 2 — Six Artifact images/import/slicing & data (chỉ sau user approval)
+
+Nguồn đề xuất: `Assets/_Game/Art/_SourceSheets/CulturalArtifacts/` với **sáu PNG có thể đã có hoặc chưa**:
+
+- `Artifact_HoiAn_Lantern_Source.png`
+- `Artifact_Hue_DragonSeal_Source.png`
+- `Artifact_DaLat_MistCompass_Source.png`
+- `Artifact_Jeonju_HanjiSeal_Source.png`
+- `Artifact_Gyeongju_StarlightLens_Source.png`
+- `Artifact_Seoul_ThreeRelayPrism_Source.png`
+
+**XÁC MINH FILE THẬT.** Nếu file thiếu, báo `ART_PENDING`/`CONCEPT_ONLY`/`NOT_RUNTIME_READY`, không bịa; người dùng sẽ tạo ảnh riêng. Nếu tồn tại: kiểm alpha/baked checkerboard, watermark/credit/nhãn/vật thể thừa/nhiều người, 1 full relic + 4 separate source fragments, crop thực tế 5 sprites/sheet = **30 sprites** nếu đủ, không dùng whole source sheet như item runtime, không xóa/che logo/credit bất hợp pháp; ảnh sai `NEEDS_ART_REVIEW`, dừng binding ảnh đó. Giữ nguồn byte-identical và `.meta`; có thể dùng Sprite Multiple và rect/safe-crop RGBA, không auto slice mù quáng; đúng Unity import alpha/sorting/PPU/filter/compression; lưu GUID/localID và preview từng fragment. Runtime sprite destinations dự kiến `Assets/_Game/Art/Items/CulturalArtifacts/{HoiAn,Hue,DaLat,Jeonju,Gyeongju,Seoul}/`, nhưng ưu tiên convention hiện có. Không tạo duplicate asset tree.
+
+**Legacy artifact asset aliases trong prompt ảnh**, dùng mapping source sprite, KHÔNG thành hệ `relic` thứ hai:
+
+| relicId | artifact asset alias | visual component IDs (art labels only, verify actual crop/meaning) |
+|---|---|---|
+| `relic_hoi_an_lantern` | `artifact_hoi_an_lantern` | `artifact_hoi_an_bamboo_frame`; `artifact_hoi_an_craft_paper`; `artifact_hoi_an_roof_hook`; `artifact_hoi_an_reflection_core` |
+| `relic_hue_dragon_seal` | `artifact_hue_dragon_seal` | `artifact_hue_dragon_face`; `artifact_hue_perfume_river_core`; `artifact_hue_ritual_cord`; `artifact_hue_rhythm_inscription` |
+| `relic_dalat_mist_compass` | `artifact_da_lat_mist_compass` | `artifact_da_lat_lake_glass`; `artifact_da_lat_pine_direction`; `artifact_da_lat_mist_bell`; `artifact_da_lat_blue_signal_seed` |
+| `relic_jeonju_hanji_stamp` | `artifact_jeonju_hanji_seal` | `artifact_jeonju_old_hanji_core`; `artifact_jeonju_hanok_pattern`; `artifact_jeonju_dyed_thread`; `artifact_jeonju_greeting_stamp` |
+| `relic_gyeongju_star_lens` | `artifact_gyeongju_starlight_lens` | `artifact_gyeongju_star_inscription`; `artifact_gyeongju_heritage_ring`; `artifact_gyeongju_min_record`; `artifact_gyeongju_statue_reflection` |
+| `relic_seoul_trirelay_prism` | `artifact_seoul_three_relay_prism` | `artifact_seoul_mist_water_core`; `artifact_seoul_hue_seal_shard`; `artifact_seoul_hanji_circuit`; `artifact_seoul_relay_frame` |
+
+**SEOUL SEMANTIC MISMATCH:** Seoul canonical gameplay milestones are *Mảnh Dữ Liệu Di Sản, Lõi Đồng Bộ Ji-won, Vòng Kính Tinh Tú, Khung Relay Seoul*, whereas visual components are *mist/water, Hue seal, Hanji circuit, relay frame*. They are **NOT** automatically interchangeable. Asset can depict decorative international signals while collection slots remain story-based; if cannot explain 1:1 art, classify `ASSET_SEMANTIC_MISMATCH`, present two safe designs and **stop Seoul binding** until approval, not secretly relabel.
+
+Data registry per relic: stable ID/name/homeCity; 4 globally unique fragmentIds; source city/node/quest/event/character/checkin; show/unlock/grant/assembled/minigame/restored/effect/replay/art status; save/old-save strategy; references from available framework, idempotent grants. UI Collection 0/4–4/4, hints limited by discovery, 6 icons/preview, small tab/panel in existing Journal/Collection, tutorial/use mouse/touch/portrait safe. Do not create six huge standalone managers. Source type and grant semantics must come from **approved Phase 0 mapping**; no unassigned freebies.
+
+Save strategy: reuse current collection/state framework if safe; else additive versioned/optional extension or sidecar after careful source audit, backward compatible/transactional, never RAM-only final and never wipe old slots. Old quest completed → derive fragment or allow one legitimate side interaction; no forced replay single-use puzzle; ledger idempotent across repeated taps, reloads, migrations and re-entry. If extensive schema change → NEEDS_USER_DECISION/BLOCKED, never silently rewrite SaveSystem.
+
+Outputs: `Docs/Gameplay/CULTURAL_ARTIFACTS_INTEGRATION_REPORT.md`, `Docs/Art/SIX_RELICS_ART_MANIFEST.md`: 6 complete images + 24 fragments (or sheet plan), format/dimensions/alpha/style/source target/Unity Sprite settings/expected GUID binding, quality/needs-art and scene effect/SFX needs, actual count imported/sliced/pending, alias mismatch, runtime status. Art source availability != art approval != runtime integration.
+
+## 10. PHASE 3 — Build core, Hội An pilot, World Reactions and Photo Journal
+
+Chỉ sau approved Phase 0 design. **Dùng một core registry/save/grant/UI cho tất cả city**, không tách collector systems. Thu thập fragment dựa trên quest event/npc/checkin/exploration **đã được xác minh**; interaction phụ 10–30s, restoration minigame khoảng 30–90s, tap/drag/swipe/rotate thật, hint, rõ đúng/sai, retry vô hạn không mất fragment/reward, exit/skip không phá quest, replay celebration. Cho phép “skip/exit” màn phụ **không được tự biến chưa phục dựng thành đã phục dựng**, vì 6/6 restored là điều kiện global ending.
+
+### 10.1 Hội An pilot 4 mảnh theo mapping đã duyệt
+
+- `Khung Tre Bến Sông`: candidate H0/bến thật; xác định đúng khung tre/tương tác hình và địa hình.
+- `Tấm Giấy Hoa Cổ`: candidate H4 sau `puzzle_market`, lấy memory/pattern chứ không giải hộ puzzle H4/H13/H19.
+- `Móc Đồng Mái Hiên`: candidate H10 mái hiên **hoặc Jeonju** nếu user duyệt cross-city variant; kéo móc vào vị trí có đường treo hợp lệ. Nếu source ở Jeonju, **pilot Hội An phải thiết kế được đoạn pending/backtracking**, không giả đủ 4 mảnh chưa unlock.
+- `Dấu Phản Chiếu Mắt Đèn`: H3/HQ01 proof sau khi trả Mắt Đèn cho Cô Mai; **không phải bản sao item Mắt Đèn**, không duplicate inventory/reward; old save quest complete đủ điều kiện proof hoặc recovery interaction.
+
+**Minigame Dẫn Ánh Đèn:** lắp 4 mảnh với hitbox/correct slots và drag/rotate điều hướng tia từ bến qua mái hiên vào phố, vật cản/hints có thật; góc sai có phản hồi, retry; không chỉ dialog/confirm. Mobile portrait/cảm ứng + chuột, không softlock.
+
+**Ba trạng thái presentation**: trước HQ01 sáng ít; sau quest trả Mắt Đèn chỉ **đèn/tiệm/góc phố sáng**, World Reactions/Lumi/Cô Mai local response; H7 beacon progress mở Huế/Jeonju như cũ và **không toàn phố sáng**; chỉ `fourFragments && assembled && GuideLanternCompleted && HQ01Proof` kích toàn thành phố qua *Relic controller*; overlays/glow cho đèn toàn phố, Chùa Cầu, phố cổ, sông Hoài, Lumi/Cô Mai reaction, biểu tượng liên kết Jeonju **không mở gate**; không ghi đè canonical map PNG; save/reload/revisit thể hiện stage chính xác. World Reactions dùng original quest state, không thêm second full-city trigger. Sync ONLY small runtime dialogue and `Docs/Story/FULL_STORY_PLAYTEST.md` continuity (câu cũ “toàn phố sáng” sau quest/H7) và tạo `Docs/Story/HOI_AN_LIGHT_RESTORATION_CONTINUITY.md`; không rewrite story/quest graph.
+
+**Hội An Photo Journal pilot**: tận dụng một camera marker/landmark có thật (Chùa Cầu/sông Hoài/đèn), nếu không có an toàn thì báo source missing; mời người chơi căn góc đèn & bóng phản chiếu hoặc quan sát hoa văn, một clue hợp lệ cho fragment nếu approved mapping; ảnh postcard built từ art thật hoặc actual capture, metadata 1-time/replay, Lumi reaction, safe return/re-entry. Không cấp fragment khi player chỉ mở node nếu cần xem clue, không double-grant khi xem lại. Vẽ đẹp vừa đủ mà không cản quest/H3/mouse/touch. Không cần chờ di vật hoàn thành mới xem postcard, nhưng chế độ before/after Khai Sáng tôn trọng world state.
+
+**Lumi / World Reactions hẹp**: idle/breathing/squash/stretch nhỏ, nhún và icon/particle khi nhặt quest item/fragment, dialogue phù hợp, SFX licensed nếu có, không biến dạng portrait/đổi outfit, không tạo walk cycle giả/companion AI, không chặn HUD/touch/pathfinding, hiệu năng phone; missing portrait/audio `NEEDS_ART/NEEDS_AUDIO`.
+
+**Pilot QA**: fresh save → H2 quest → H3 pick up once → HQ01 return & only local light → H7 unlock progress old → H4/puzzle & other 4 fragment sources theo mapping → assembly + Dẫn Ánh Đèn real gestures → world full light (đúng và chỉ một lần) → save/restart/revisit → one check-in postcard revisit → touch/mouse/portrait UI, reward idempotence, old-save proof, NO main gate changes; before/after screenshots same camera/zoom/time state; test “H7 done but relic incomplete still not full city”, and “relic pending Jeonju” if approved. QA if cross-city fragment requires Jeonju: do not artificially complete the early-city vertical slice; test accessibility using real unlocked branch. Report `Docs/Gameplay/SIX_RELICS_IMPLEMENTATION_REPORT.md`, `Docs/Gameplay/CULTURAL_ARTIFACTS_HOIAN_PILOT_REPORT.md`, `Docs/QA/WORLD_REACTIONS_AND_LUMI_POLISH.md`, with audited actual fields, failures/pending.
+
+**HARD STOP after Phase 3:** report art/NPC/pilot, show visual approval items and ask user to approve. Do not secretly proceed five cities. Preserve five-city implementation in plan below.
+
+## 11. PHASE 4 — Complete remaining five relics and cross-city NPC/check-ins
+
+Run only on explicit continuation; reuse Phase 0 approved 24-matrix, pilot architecture. Per city implement 4 real fragment sources, one tactile assembly+challenge, cosmetic City Map reaction, NPC/side-dialogue+1+ check-in as feasible, collection/save/replay/revisit/post-boss; honor old saves and both routes. Test after each; do not run five tasks in parallel that edit shared source.
+
+1. **Jeonju — Mộc Ấn Hanji**: candidates J2 Hanok Hana, J3 dye puzzle, J7 Hanji core, J15 greeting exchange. Frag names as section 3. Mini **Ghép Hoa Văn Giao Lưu**: drag/rotate patterned paper, dyed threads, seal/greeting with visual guide from already-seen motifs; decorative postcard/xưởng/art Vietnam-Korea, NPC Hana/So-yeon response and Hui An cooperation, don't replace J7/J12/J17, core item or food quests.
+2. **Huế — Ấn Rồng Ngọc Tỉ**: candidates U3 perfume river reflection, U8 court puzzle, U16 market code, U17 archive rhythm and/or Gyeongju partner via approved matrix. Mini **Khôi Phục Dấu Ấn**: 4-slot assembly, finger light scans hidden triện lines, rotate matched layers, stamp/rồng luminous; cosmetic river reflection and heritage, no U11 story ancient seal, U19/G12 gate edits. Bà Nguyệt/Bác Tâm/Lê An only if roles confirmed.
+3. **Đà Lạt — La Bàn Sương Lam**: candidates D2 forest/Lan, D8 fog bridge, D12/D16 signal, lake & pine. Mini **Tìm Đường Qua Sương**: swipe fog to reveal meaningful traces, rotate compass using bell/pine/lake clues, wrong direction gentle retry, optional fallback if no audio; cosmetic fog only, discovery/bridge/DQ01–DQ05, signal to Seoul unchanged; explicit cross-city partner Seoul validation decision from approved matrix.
+4. **Gyeongju — Kính Ấn Tinh Tú**: candidates G3 Min record, G4 observatory puzzle, G7 statue branch evidence, G15 heritage copper; role G9 npc_keeper and G14 npc_inscription. Mini **Rà Ánh Sáng Trên Di Tích**: assemble lens, swipe light over rock inscriptions to separate old star/moon symbols from noise; fantasy Silla star map/memory glow; repair and fight branches same completion pathway; no change puzzle star–moon–star, G12 gate, boss. Foreign exchange Hue story if approved.
+5. **Seoul — Lăng Kính Tam Relay**: candidates S2 npc_curator/heritage data, S7 Ji-won synchronization, S10 tower star ring, S18 actual readiness and relay frame. Mini **Nối Ba Luồng Sáng**: arrange/rotate three lanes from Đà Lạt nature, Huế heritage, Jeonju craft, converge in prism with clear drag feedback; cosmetic network 6 cities, no pre-activation S16/S17/S18, boss/ending, no artificial relay proof; Seoul collectible completion can occur after boss and be reachable afterward. Art semantic mismatch must be resolved before final binding.
+
+Collection final presentation: 6 relics and their symbols, 6-city map line `Hội An–Huế–Đà Lạt–Jeonju–Gyeongju–Seoul`, harmless replayable 6/6 celebration; **không được phát ending/credits ngay khi 6/6 nếu boss chưa defeated và ceremony chưa confirm**. Use single final ceremony in Phase 5, not duplicate climax controllers.
+
+## 12. PHASE 5 — Final Seoul Connection: ONE ending implementation
+
+After Phase 4, audit actual boss S20 outcome; if hard-coded credits on victory, adjust **only** trusted ending trigger. Preserve battle win, boss rewards and flags, two combat phases; stop auto-ending. Post-boss state persists, no respawn/reward duplication, no WorldMap lock. When `boss defeated` and `all six restored` activate final ceremony at safe existing Seoul node, do not force replay arena/fight. UI Journal explicit `Boss đã hoàn thành / Di vật 4/6 / Kết nối cuối chưa sẵn sàng`, hints for outstanding cities/fragments/NPC/check-ins without HIDDEN spoilers; once 6/6, `Kết nối sẵn sàng` prompts player to return; one tap for ceremony, synchronized visual 6 sources/roles, credits single time, persist completion and allow replay only on explicit request, return to already unlocked cities afterward if supported. No normal/bad/secret/true split, no new ending quest/gate or puzzle #23. Missing cinematic art → `ART_PENDING`, reasonable functional fallback, don't claim visual final.
+
+**Six role cinematic**: Hội An lantern amber **Đánh thức**, Huế dragon seal/triện **Xác thực**, Đà Lạt blue compass mist **Định hướng**, Jeonju luminous Hanji motifs **Lưu giữ**, Gyeongju Silla star lens memory **Đọc ký ức**, Seoul prism gathering 3 sources **Kết nối**. Light travels across both countries to city network, Lumi confirms; one emotional closing dialogue, not long exposition/propaganda; visual 15–30s suggested, skippable but save must finalize, Android portrait FPS/touch safe, no PC-only shader. Avoid false geography/cultural details; art source approved/licensed only.
+
+Check old saves where boss already defeated/credits earlier: record legacy flags; **do not revoke completed item/reward**, map to post-boss or legacy completed only with explicit migration plan/user approval if ambiguous. Don't force replay previously completed six minigames if already restored. Save final ceremony/credits idempotent across pause, reload, re-entry.
+
+Output `Docs/Story/ONE_ENDING_SIX_RELICS_CANONICAL.md`, `Docs/Gameplay/SEOUL_FINAL_CONNECTION_DESIGN.md`, `Docs/QA/FINAL_ENDING_AND_POST_BOSS_AUDIT.md`, synchronize minimal relevant dialogue & `Docs/Story/FULL_STORY_PLAYTEST.md`, `Docs/QA/CURRENT_RELEASE_STATUS.md` later. This feature phase is authorized after approvals; release audit is not authorized to undo it.
+
+## 13. PHASE 6 — Art/UI/World Reactions/Game feel polish
+
+Integrate official six full relic + 24 fragment art if approved; correct 30 sprites, actual 6 restored cosmetics vs design. If source sheets unfit, request exact images via `Docs/Art/SIX_RELICS_ART_MANIFEST.md`, do not Photoshop source into misleading final. Keep NPC canonical and 4 new pending approval until user confirms. Inspect enemy/boss art (fox is not a cat; drone not wrong reused bot; Gyeongju/Seoul boss distinct; Seoul boss two-phase visuals), missing SFX & licensing, light character motion small. At city scope separate Quest Reactions vs Relic Reactions (especially three Hội An stages). Six signature moments: Huế river/boat, Đà Lạt bridge fog, Jeonju workshops, Gyeongju statue branch/lens, Seoul relay+battle vs final ceremony; do not change battle/gate/discovery. Ensure City Map connections not through buildings/rivers, camera pan/zoom/pinch quality, UI phone portrait 9:16/20:9, safe area, post card/gallery scales readable; no effect blocks touch, no HUD overlap, reasonable Android memory/FPS. Keep global map PNG canonical unchanged; use overlays.
+
+## 14. PHASE 7 — RELEASE READINESS AUDIT v4 & limited safe fixes
+
+Audit **after stable implementation**, don't start new gameplay task. Baseline 133 node /29 quests /22 puzzles /two story routes, earlier H2/H4/H11/U8/D8/J3/D18 partials should be rechecked, H3, bridges/terrain/markers/colliders/pinch, combat/quest/reward/puzzles, original bot routes, home→Seoul progression, new cross-city exchange and 24 source events, show/not discover hidden, 6 challenges real, 6 effects real, 4 NPC imported/approved, NPC unused art, two POVs, lost source/photo markers, Lumi idle/audio, six city cultural landmarks, Windows/Android readiness, **one and only one ending** and post-boss revisit.
+
+Puzzle checks: H4,H13,H19 / U8,U16,U17 / D8,D12 / J3,J7,J12,J17 / G2,G4,G12,G15,G17 / S3,S10,S16,S17,S18; clue fairness, no spoilers, no softlock, don't replace puzzles or codes. World Map unlock from original beacon, H7 vs full illumination separated. Photo journal: mark-only vs playable, postcards actual UI, metadata persist, replay, touch no OS camera. Cultural exchange authenticity: food quests/rewards unchanged. Boss and Seoul: relays unaffected by relic, post-boss `bossDefeated` stable, only final ceremony after 6 relic. Do not flag user refusal to integrate MCQ as release bug; don't delete MCQ docs.
+
+**Bug severity and permission:** P0 crash/compile/save loss/hard softlock/main quest impossible/global ending blocked; P1 wrong gate, duplicated rewards, wrong NPC identity, prematurely full-lit Hội An, relic/item/ending contradiction, post-boss World Map lock, fragment permanently missable; P2 UI crop/touch/marker/route/scale/effects/render minor with proven safe fix; P3 art missing/final animation/sound optional polish. Self-fix P0/P1 and small P2 only if small, testable, no source conflict; any large save/story/boss/quest structural rewrite requires user decision; never quietly “fix” changed ending by reverting to original. After shared manager/save/ending changes, run suitably wide regression; no 133 node E2E for tiny binding. Tests from earlier logs are historical, not proof new binary PASS.
+
+**Release test matrix minimum:** `boss 0/6`, `boss 3/6`, `boss 5/6→6/6`, `6/6 without boss`, `6/6 boss then ceremony`, save/restart boss pending, save/restart 6/6 ready, save/restart after credits, VN-first, Korea-first, old save boss-dead, relic-skip map unlock and boss accessible/no ending, partner-city fragment locked→unlocked, post-boss NPC/check-in remains, boss+6/6 but no ceremony = no ending until confirmed, reward/credits once. This covers all **16 final tests** from the source; also extra resilience repeated clicks, rapid scene transitions, load slots and no missed UI pointer. Must not claim PASS if only stubbed/mock; distinguish Windows compile/runtime, Android APK build, Android device test. `WINDOWS_BUILD_PASS` only actual Windows binary, `ANDROID_BUILD_PASS` only actual APK/AAB, `ANDROID_DEVICE_PASS` only installed/played on real phone; Android toolchain missing → `BLOCKED_BY_TOOLCHAIN`, not device PASS. No external publishing/upload.
+
+**Demo/competition route**: Hội An H0→Cô Mai→H3/Mắt Đèn→return local lamp→H7 normal unlock→all four relic fragments from approved sources (may require Jeonju/backtrack; do NOT falsify early completion)→Dẫn Ánh Đèn→full-city light→photo/card/cultural exchange; long-game Seoul boss→6/6→ceremony/end. If user approves cross-city-late Hội An, plan separate short opening-video version that doesn't depict unreached reward, don't spoof the game. Evaluate first 30s, true gameplay not click through text, real cross-cultural connection, portrait touch/performance, replay/restart and ability to record competition demo.
+
+**Release report** `Docs/QA/CURRENT_RELEASE_STATUS.md`: sections A gameplay 6 cities/nodes/quests/puzzles, both routes, H3/terrain/boss/save; B canonical/4 new NPC/enemy/boss art; C 6 relic X/6, collectible fragments X/24, sprites X/30, real challenges X/6, effects X/6, save/backtrack; D Hội An 3 light states and story dialogue; E check-in markers vs playable, Lumi/SFX/UI/Map visuals; F ONE ENDING status boss/6 relic/ceremony/credits; G Windows/Android build/device separate; H P0–P3 fixed/remaining with evidence; I five highest priority actions by 11 Nov 2026; J playability alone/friends/video/jury APK and user-needed art/blockers. Every claim has test file/date/run or `NOT_TESTED`. No false `GAME FINAL` while blockers or approval pending.
+
+## 15. REQUIRED QA/EVIDENCE AND STATUS VOCABULARY
+
+Each phase summary must list: files created/changed; what was read/proved; actual numbers; states; screenshots true runtime only; test command/test environment/result or NOT_TESTED; visual art approval; blocker owner; next phase and explicit stop. Statuses: `DESIGNED_ONLY`, `IMPLEMENTED`, `IMPLEMENTED_AND_TESTED`, `IMPLEMENTED_NEEDS_VISUAL_REVIEW`, `ART_PENDING`, `CONCEPT_ONLY`, `NOT_RUNTIME_READY`, `NEEDS_ART_REVIEW`, `SOURCE_UNASSIGNED`, `POST_UNLOCK_ONLY`, `INVALID_LOCK_LOOP`, `ASSET_SEMANTIC_MISMATCH`, `PENDING_USER_VISUAL_APPROVAL`, `NEEDS_USER_DECISION`, `BLOCKED`, `NOT_TESTED`, `PASS`, `FAIL`, `PARTIAL`. Neither import nor code compile implies gameplay/relic/visual/Android device PASS.
+
+Keep evidence small: no thousands of screenshots, no full multi-GB checkpoints, no indiscriminate scanning `Library/`, `Backups/`, old `Validation/`; use affected-state tests, direct dependencies, one smoke route, widen only when shared state or ending modified. If running out of context/budget: preserve source in buildable state, write `Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md` with exact phase, work completed, file diff, failures, next test and blocker, then STOP instead of rushing to next phase.
+
+## 16. DELIVERY / STOP CONDITIONS
+
+**FIRST USER TURN / NOW:** Perform only **Phase 0** source audit, create required dependency/NPC/check-in/ending design reports, give verified graph and full 24-line fragment matrix, present A/B Hội An & Đà Lạt and suggested plan for five other cities. Do not modify runtime, even if it seems easy. **STOP for user approval.**
+
+**AFTER USER SAYS APPROVE & CONTINUE PHASE 1–3:** import/bind four portraits, artifact sheet validation, save design implementation if safe, real Hội An minigame and one photo check-in; complete story continuity/local vs full lighting; rigorous targeted QA. **STOP for visual/gameplay user review after Phase 3**. If approved cross-city-late Hội An, pilot must honestly represent dependency/backtracking.
+
+**AFTER USER SAYS CONTINUE PHASE 4–6:** implement five other relics and city cultural interactions, one ending with Seoul final connection, art/Lumi/world reactions, regression. Do not silently merge legacy ending. Stop on big save issues or unsafe source conflicts.
+
+**AFTER USER SAYS FINAL AUDIT PHASE 7:** do readiness report and only safe patches, actual Windows/Android tests per available tools; do not present final until blockers/approvals resolved.
+
+DO NOT ask for approval of trivial reversible details; DO ask for cross-city fragment placements or architectural changes that alter timing/game flow. Do not start unrelated features. Do not claim all 24 fragments or 6 minigames are implemented merely because text reports mention them.
+
+**TARGET EXPERIENCE:** The player unlocks maps through adventure; travels Vietnam and Korea, learns through NPC/art/check-in; personally gathers 24 traces, restores six relics, and sees each city change. The last boss can be beaten without relics, yet Lumi must finish reconnecting all six cultural memories to activate **the sole ending** in Seoul. Gameplay—not JSON or a report—must prove it.
+
+## 17. Checklist 16 trường hợp ending bắt buộc — không được rút gọn khi QA Phase 5/7
+
+| Test | Thiết lập bắt buộc | Kết quả kỳ vọng |
+|---|---|---|
+| E01 | 0/6 relic, boss chưa đánh | Không ending/credits |
+| E02 | 0/6 relic, boss defeated | Có thể chơi tiếp, no ending |
+| E03 | 3/6 relic, boss defeated | Quay lại các city, no ending |
+| E04 | 5/6 relic, boss defeated, restore relic thứ 6 | Final connection ready, không đánh boss lại, chưa credits trước ceremony |
+| E05 | 6/6 relic, boss chưa defeated | Không ending; boss gate và combat vẫn hoạt động |
+| E06 | 6/6 relic, boss defeated, ceremony confirmed | **Một ending duy nhất**, globalComplete once |
+| E07 | Save/restart sau boss khi relic chưa đủ | Boss vẫn defeated, relic flags giữ, không tự bật ending |
+| E08 | Save/restart sau khi 6 relic restored | Final readiness giữ, không tự phát credits khi chưa ceremony |
+| E09 | Save/restart sau ending | Không tự phát lại credits hoặc thưởng; continue/replay chủ động nếu hỗ trợ |
+| E10 | VN-first route | Boss + 6 relic + ceremony có thể đạt ending |
+| E11 | Korea-first route | Boss + 6 relic + ceremony có thể đạt ending |
+| E12 | Old save với boss đã defeated trước Six Relics | Không lùi quest/save; vẫn có đường lấy đủ relic, migration an toàn |
+| E13 | Bỏ qua relic khi mở tất cả cities/đánh boss | World Map/gate/boss vẫn hoạt động; **chưa global ending** |
+| E14 | Fragment thuộc partner city còn khóa rồi được mở chính thống | Trước unlock không nhận/không teleport; sau unlock có thể nhận, không cycle |
+| E15 | Boss defeated, quay lại NPC/check-in để nhận còn thiếu | Fragment/postcard nhận được, boss/quest/reward không reset |
+| E16 | Boss defeated + 6/6 nhưng chưa thực hiện ceremony | Không auto ending; sau reload có thể kích ceremony duy nhất |
+
+Mỗi test bắt buộc báo `PASS/FAIL/PARTIAL/NOT_TESTED`, nguồn fixture hay player thật, state/save slot tách biệt, log/source, ảnh khi visual cần thiết. Không lấy scripted fixture giả truy cập node/fragment khi runtime player không thể tới làm minh chứng reachability. Nếu một test fail và có nguy cơ global softlock, phân P0/P1 theo tác động, không tuyên bố final.
+
+## 18. Danh mục 25 câu hỏi bắt buộc trả lời sau PHASE 0
+
+1. Trong runtime Hội An mở city nào và tại event/flag nào?
+2. Huế mở Đà Lạt bằng điều kiện thật gì?
+3. Jeonju mở Gyeongju bằng điều kiện thật gì?
+4. Seoul có đòi đủ 4 beacon không, còn `runtimeReady` hay portal rule nào khác?
+5. Hai nhánh VN-first/Korea-first có chơi hợp lệ không?
+6. Có thể quay lại mỗi thành phố cũ trước/sau boss và sau credits không?
+7. Bốn mảnh Hội An nên nằm ở đâu, sớm nhất lấy lúc nào?
+8. Có nên yêu cầu sang Jeonju rồi mới Khai Sáng Toàn Hội An không (so sánh A/B)?
+9. Bốn mảnh Huế nên tìm/nhận ở đâu?
+10. Mảnh Văn Khắc Nhịp có nên có fragment thật tại Gyeongju hay chỉ xác thực ở đó?
+11. Bốn mảnh Đà Lạt nên tìm/nhận ở đâu?
+12. Hạt Tín Hiệu Xanh nên ở Đà Lạt hay phải đợi Seoul (so sánh A/B)?
+13. Bốn mảnh Jeonju nên nằm ở đâu?
+14. Con Dấu Lời Chào có nguồn Hội An hay Đà Lạt, ảnh hưởng hai tuyến ra sao?
+15. Bốn mảnh Gyeongju nên nằm ở đâu?
+16. Bốn mảnh Seoul nên nằm ở đâu, source art biểu tượng khác gameplay mapping nào?
+17. HQ05/HQ06/HQ07/DQ05 mở clue nào mà không nhân đôi, tiêu lại vật phẩm hay thay reward?
+18. NPC runtime/unused/unnamed/shared nào có thể tận dụng hợp danh tính và lý do?
+19. Camera/check-in nào chỉ marker, cái nào chạy thật; ứng viên clue nào?
+20. Fragment nào missable, double-grant, softlock, NPC biến mất hoặc cần state không tồn tại?
+21. Bỏ qua relic có vẫn mở toàn World Map, thắng boss; điều kiện nào còn thiếu để **một ending** xảy ra?
+22. Old save (trước relic và trước new ending) giữ boss/reward và nhận đủ fragment được không?
+23. Sáu relic được phục dựng sớm nhất ở bước nào trên cả VN-first và Korea-first?
+24. Phương án phân bố nào tối ưu đồng thời cultural exchange, gameplay pacing, demo, backtrack, QA, Android?
+25. Chủ dự án cần phê duyệt chính xác quyết định nào trước khi Phase 1–3/Phase 4–5?
+
+**PHASE 0 chỉ được coi hoàn tất về tài liệu khi 25 câu này được trả lời bằng nguồn runtime hoặc ghi rõ NOT_VERIFIED, có bảng 24 fragment, đồ thị unlock/dependency AND/OR, so sánh phương án, danh sách blocker.** Không dùng lời giải chung chung “đã kiểm tra”. DỪNG xin duyệt.
+
+## 19. Những quyết định nguồn cũ đã được thay thế minh bạch
+
+| Chỉ dẫn từng xuất hiện | Chính sách Master hiện hành | Lý do |
+|---|---|---|
+| Six Relics hoàn toàn tùy chọn, không liên quan ending | Di vật **không bắt buộc mở map/boss**, nhưng **bắt buộc đạt 6/6 cho ending** | Quyết định canonical mới nhất của chủ dự án |
+| Hạ boss cuối hoặc trạm Seoul thì có thể phát credits/game completed ngay | Boss victory chỉ ghi nhận combat; credits cần boss + 6 restored + ceremony | Một ending duy nhất |
+| H7 hoặc trả Mắt Đèn làm cả Hội An sáng | H2/H3 quest sáng cục bộ; H7 vẫn mở map; 4 mảnh + Dẫn Ánh Đèn mới khai sáng | Trạng thái ánh sáng 3 tầng |
+| Tất cả fragments nằm tại homeCity | Có thể ở partner city nếu city được mở độc lập; phải thiết kế route-safe | Giao lưu VN–Hàn qua gameplay |
+| Formula 2+1+1 bắt buộc cho mọi relic | Là gợi ý, cần so với demo/pacing/reachability/missable | Tránh chờ Seoul mới phục dựng cả 6 |
+| Móc Đồng chắc chắn H10 / Seoul Hạt Tín Hiệu Xanh chắc chắn tại S18 | Chỉ candidate, các lựa chọn cross-city còn pending user approval | Phải kiểm dependency thật |
+| `artifact_*` alias là một gameplay system thứ hai | Một hệ relic duy nhất; artifact IDs dùng cho asset aliases khi mapping hợp lệ | Không tạo double collection |
+| 4 Seoul art-shards là 4 collectible names đã chốt | Phân biệt visual components với story milestone fragments; nếu không map chuẩn, stop Seoul binding | Tránh sai danh tính ảnh |
+| Giao NPC chưa dùng đồng nghĩa được đổi tên | Chỉ reuse có chứng cứ; canonical identity không đổi; unnamed art cần phê duyệt | Bảo vệ NPC |
+| Icon 📷 mặc định là check-in gameplay | Phải audit marker vs event; Photo Journal là gameplay thật nếu triển khai | Không claim triển khai giả |
+| Skip một relic vẫn phá đảo | Có thể skip khi đi story/mở map/đánh boss; thiếu relic thì **chưa ending** | New global completion rule |
+| Master cũ thực hiện Phase 0→3 ngay rồi mới xin duyệt | **Ngừng ngay sau Phase 0 design** để duyệt placement; sau đó làm 1–3 và dừng duyệt pilot | Quyết định sau cùng về cross-city dependency |
+| Release Audit V3 nói không sửa ending | Audit mới phải nghiệm thu one ending và post-boss; chỉ Phase 5 được triển khai ending | Mới hơn và cần QA |
+
+**Đây là bảng loại bỏ mâu thuẫn, không phải giấy phép xóa các chức năng gốc đang chạy.** Các yêu cầu cũ không mâu thuẫn được giữ ở các mục trên, không lược vì chỉ xuất hiện trong một nguồn. Nếu Codex thấy thiếu/khác source mới nhất, báo bằng chứng và hỏi đúng chỗ, không tự thay định hướng.

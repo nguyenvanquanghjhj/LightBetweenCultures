@@ -1,0 +1,13 @@
+{
+  "pcNpcAndCallback": "PASS_381_ASSERTIONS_26_NPCS_3_ZOOMS",
+  "pcOwnerDerivedPartialBoundary": "PASS_14_ASSERTIONS_EXPLICIT_QA_FIXTURE",
+  "androidLatestApkBuild": "PASS",
+  "androidLatestApkInstall": "PASS",
+  "androidLatestDialogueSmoke": "BLOCKED_ACCEPTANCE_FRAME_NOT_DIALOGUE",
+  "androidLatestSavePersistence": "NOT_VERIFIED",
+  "androidPreviousTouchApk": "DEVICE_TARGETED_TOUCH_PASS_NOT_FULL_GAME_PASS",
+  "apk": "D:\\GAMEKKK\\LightBetweenCultures\\Builds\\Android\\LightBetweenCultures-OwnerPriority-20261020.apk",
+  "sha256": "2f973feaf03c0ee04f6fed0251ea077c7da91ccd39208eb00b50e45fd8efd3f3",
+  "bytes": 289630692,
+  "note": "Final capture was dark. Process remained alive; no proof of crash. Stop Android QA as owner requested. Earlier candidate reproduced the obsolete Ba Tu talk button; final source fixes it and passes PC. Do not transfer earlier APK acceptance to this final APK."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ending-gates-interruption",
+  "status": "PASS",
+  "exit": 0,
+  "seconds": 57.93,
+  "assertions": 143,
+  "arguments": [
+    "--phase5-validation"
+  ],
+  "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+  "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-Catventure-20261107\\ending-gates-interruption\\smoke-results.txt",
+  "assemblySHA256": "6349b90ffa565f933e7e670d44d65d5f146251901ded1fa8506f5e4d44a12dc0",
+  "failureTail": null
+}

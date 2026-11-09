@@ -1,0 +1,19 @@
+{
+  "nodes": 133,
+  "nodeStatuses": {
+    "IMPLEMENTED": 126,
+    "PARTIAL": 7
+  },
+  "quests": 29,
+  "questStatuses": {
+    "IMPLEMENTED": 29
+  },
+  "proofs": [
+    "Validation/FullStory-20261017/Fresh04/full-story-final.json",
+    "Validation/FullStory-20261017/Reverse03/full-story-final.json",
+    "Validation/FullStory-20261017/Coverage03/full-coverage-final.json"
+  ],
+  "freshE2E": true,
+  "reverseE2E": true,
+  "lineage": "Fresh02 H0 -> Fresh03 earned jeonju-before (before negative fixture) -> Fresh04; Reverse02 H0 -> exact earned Reverse03. No synthetic progress fields."
+}

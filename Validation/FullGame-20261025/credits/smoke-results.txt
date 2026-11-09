@@ -1,0 +1,28 @@
+UTC run: 2026-10-25T06:19:52.3526487Z | Unity 6000.6.5f1 | 1280x720
+PASS: Credits presentation preview uses the previously earned ending save; not a new playthrough
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: Fresh runtime capture written: X-WorldMap-select-seoul
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S21 is discovered
+PASS: Lumi reaches S21 through the real map input
+PASS: Credits keep readable type without automatic shrinking at 540x1080
+PASS: Credits display the approved copy
+PASS: Credits omit the unsupported blanket art/story attribution
+PASS: Approved credits fit the visible body at 540x1080
+PASS: Complete game title fits without clipping
+PASS: Credits have one clear continuation action
+PASS: Credits continuation stays on screen
+PASS: Fresh runtime capture written: Credits-540x1080
+PASS: Credits keep readable type without automatic shrinking at 1280x720
+PASS: Credits display the approved copy
+PASS: Credits omit the unsupported blanket art/story attribution
+PASS: Approved credits fit the visible body at 1280x720
+PASS: Complete game title fits without clipping
+PASS: Credits have one clear continuation action
+PASS: Credits continuation stays on screen
+PASS: Fresh runtime capture written: Credits-1280x720
+PASS: Previewing/closing credits preserves inventory, currency, quests and receipts
+ALL CHECKS PASSED

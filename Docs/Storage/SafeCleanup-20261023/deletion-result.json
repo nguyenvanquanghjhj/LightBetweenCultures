@@ -1,0 +1,49 @@
+﻿{
+    "deleted":  [
+                    {
+                        "relativePath":  "Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build",
+                        "absolutePath":  "D:\\GAMEKKK\\LightBetweenCultures\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build",
+                        "bytes":  1684310392,
+                        "files":  437,
+                        "reason":  "Regenerable generated build/cache output; no production/custom-tool reference; retained input/source and runnable packages",
+                        "recovery":  "Regenerate with Unity build / Python import"
+                    },
+                    {
+                        "relativePath":  "Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build",
+                        "absolutePath":  "D:\\GAMEKKK\\LightBetweenCultures\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build",
+                        "bytes":  1321374528,
+                        "files":  1161,
+                        "reason":  "Regenerable generated build/cache output; no production/custom-tool reference; retained input/source and runnable packages",
+                        "recovery":  "Regenerate with Unity build / Python import"
+                    },
+                    {
+                        "relativePath":  "Library/Bee/artifacts/objcopy_5lmi",
+                        "absolutePath":  "D:\\GAMEKKK\\LightBetweenCultures\\Library\\Bee\\artifacts\\objcopy_5lmi",
+                        "bytes":  646568272,
+                        "files":  4,
+                        "reason":  "Regenerable generated build/cache output; no production/custom-tool reference; retained input/source and runnable packages",
+                        "recovery":  "Regenerate with Unity build / Python import"
+                    },
+                    {
+                        "relativePath":  "Library/PlayerDataCache/Win642",
+                        "absolutePath":  "D:\\GAMEKKK\\LightBetweenCultures\\Library\\PlayerDataCache\\Win642",
+                        "bytes":  566653286,
+                        "files":  24,
+                        "reason":  "Regenerable generated build/cache output; no production/custom-tool reference; retained input/source and runnable packages",
+                        "recovery":  "Regenerate with Unity build / Python import"
+                    },
+                    {
+                        "relativePath":  "Tools/__pycache__",
+                        "absolutePath":  "D:\\GAMEKKK\\LightBetweenCultures\\Tools\\__pycache__",
+                        "bytes":  6309,
+                        "files":  1,
+                        "reason":  "Regenerable generated build/cache output; no production/custom-tool reference; retained input/source and runnable packages",
+                        "recovery":  "Regenerate with Unity build / Python import"
+                    }
+                ],
+    "bytes":  4218912787,
+    "files":  1627,
+    "allTargetsVerifiedAbsent":  true,
+    "noBuildActive":  true,
+    "reportingNote":  "All five native Remove-Item calls completed. Initial report aggregation failed on hashtable properties; rebuilt result after independently verifying targets absent. System execution policy unchanged."
+}

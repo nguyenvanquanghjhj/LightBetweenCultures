@@ -1,0 +1,145 @@
+UTC run: 2026-11-07T17:03:53.3593932Z | Unity 6000.6.5f1 | 540x1080
+PASS: Fixture has exact restored count without canonical completion: 0
+PASS: E01–E05 False/0: backend rejects ending
+PASS: E01–E05 False/0: backend rejects ending_next
+PASS: E01–E05 False/0: backend rejects ending_ack
+PASS: E01–E05 False/0: backend rejects ceremony_confirm
+PASS: E01–E05 False/0: backend rejects ceremony_finish
+PASS: E01–E05 False/0: backend rejects ceremony_skip
+PASS: Readiness is exactly boss AND six restored: False/0
+PASS: Fixture has exact restored count without canonical completion: 3
+PASS: E01–E05 False/3: backend rejects ending
+PASS: E01–E05 False/3: backend rejects ending_next
+PASS: E01–E05 False/3: backend rejects ending_ack
+PASS: E01–E05 False/3: backend rejects ceremony_confirm
+PASS: E01–E05 False/3: backend rejects ceremony_finish
+PASS: E01–E05 False/3: backend rejects ceremony_skip
+PASS: Readiness is exactly boss AND six restored: False/3
+PASS: Fixture has exact restored count without canonical completion: 5
+PASS: E01–E05 False/5: backend rejects ending
+PASS: E01–E05 False/5: backend rejects ending_next
+PASS: E01–E05 False/5: backend rejects ending_ack
+PASS: E01–E05 False/5: backend rejects ceremony_confirm
+PASS: E01–E05 False/5: backend rejects ceremony_finish
+PASS: E01–E05 False/5: backend rejects ceremony_skip
+PASS: Readiness is exactly boss AND six restored: False/5
+PASS: Fixture has exact restored count without canonical completion: 6
+PASS: E01–E05 False/6: backend rejects ending
+PASS: E01–E05 False/6: backend rejects ending_next
+PASS: E01–E05 False/6: backend rejects ending_ack
+PASS: E01–E05 False/6: backend rejects ceremony_confirm
+PASS: E01–E05 False/6: backend rejects ceremony_finish
+PASS: E01–E05 False/6: backend rejects ceremony_skip
+PASS: Readiness is exactly boss AND six restored: False/6
+PASS: Fixture has exact restored count without canonical completion: 0
+PASS: E01–E05 True/0: backend rejects ending
+PASS: E01–E05 True/0: backend rejects ending_next
+PASS: E01–E05 True/0: backend rejects ending_ack
+PASS: E01–E05 True/0: backend rejects ceremony_confirm
+PASS: E01–E05 True/0: backend rejects ceremony_finish
+PASS: E01–E05 True/0: backend rejects ceremony_skip
+PASS: Readiness is exactly boss AND six restored: True/0
+PASS: SQ03 confirmation accepts boss with only 0 restored
+PASS: SQ03 confirmation is one-shot
+PASS: Persist checkpoint P5-boss-zero-fixture
+PASS: Fixture has exact restored count without canonical completion: 3
+PASS: E01–E05 True/3: backend rejects ending
+PASS: E01–E05 True/3: backend rejects ending_next
+PASS: E01–E05 True/3: backend rejects ending_ack
+PASS: E01–E05 True/3: backend rejects ceremony_confirm
+PASS: E01–E05 True/3: backend rejects ceremony_finish
+PASS: E01–E05 True/3: backend rejects ceremony_skip
+PASS: Readiness is exactly boss AND six restored: True/3
+PASS: SQ03 confirmation accepts boss with only 3 restored
+PASS: SQ03 confirmation is one-shot
+PASS: Fresh runtime capture written: P5-S21-three-relics
+PASS: Fresh runtime capture written: P5-journal-three-relics
+PASS: Fixture has exact restored count without canonical completion: 5
+PASS: E01–E05 True/5: backend rejects ending
+PASS: E01–E05 True/5: backend rejects ending_next
+PASS: E01–E05 True/5: backend rejects ending_ack
+PASS: E01–E05 True/5: backend rejects ceremony_confirm
+PASS: E01–E05 True/5: backend rejects ceremony_finish
+PASS: E01–E05 True/5: backend rejects ceremony_skip
+PASS: Readiness is exactly boss AND six restored: True/5
+PASS: SQ03 confirmation accepts boss with only 5 restored
+PASS: SQ03 confirmation is one-shot
+PASS: Fixture has exact restored count without canonical completion: 6
+PASS: E01–E05 True/6: backend rejects ending
+PASS: E01–E05 True/6: backend rejects ending_next
+PASS: E01–E05 True/6: backend rejects ending_ack
+PASS: E01–E05 True/6: backend rejects ceremony_confirm
+PASS: E01–E05 True/6: backend rejects ceremony_finish
+PASS: E01–E05 True/6: backend rejects ceremony_skip
+PASS: Readiness is exactly boss AND six restored: True/6
+PASS: Fixture has exact restored count without canonical completion: 6
+PASS: Legacy credits plus six relics never grandfather the new ceremony
+PASS: Persist checkpoint P5-legacy-six
+PASS: Fixture has exact restored count without canonical completion: 0
+PASS: Legacy credits with zero relics remain history only
+PASS: Persist checkpoint P5-legacy-zero
+PASS: Fixture has exact restored count without canonical completion: 6
+PASS: Persist checkpoint P5-ready-unconfirmed
+PASS: Cancel confirmation is never Skip or completion
+PASS: Paused application does not advance ceremony or implicitly Skip
+PASS: Persist checkpoint P5-ceremony-interrupted
+PASS: Ordinary close cancels an active ceremony without granting completion
+PASS: Fixture has exact restored count without canonical completion: 5
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S7 is discovered
+PASS: Lumi reaches S7 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Dialogue choice relic_restore:relic_seoul_trirelay_prism has a real receipt/next/interact control
+PASS: Actual city restoration uses its distinct tactile rule: prism
+PASS: Wrong trial submission cannot restore relic_seoul_trirelay_prism
+PASS: Hint/retry preserve earned assembly and four fragments without solving
+PASS: Real mouse/touch controls satisfy prism trial
+PASS: Correct arrangement alone cannot auto-confirm restoration
+PASS: Explicit trial confirmation commits restored state once: relic_seoul_trirelay_prism
+PASS: E04 real last trial makes S21 ready without respawning the resolved boss
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S21 is discovered
+PASS: Lumi reaches S21 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: S21 explicitly completes SQ03 independently before ceremony
+PASS: Fresh runtime capture written: P5-S21-ready
+PASS: Fresh runtime capture written: P5-confirmation
+PASS: Confirmation popup alone has no ceremony/completion
+PASS: Only accepted explicit confirmation starts a transient ceremony
+PASS: Portrait controls remain in screen: 540x1080 FinalSkip
+PASS: Portrait controls remain in screen: 540x1080 RelicExit
+PASS: Immediate backend finish cannot skip the actual ceremony clock
+PASS: Fresh runtime capture written: P5-ceremony-HoiAn
+PASS: Fresh runtime capture written: P5-ceremony-Hue
+PASS: Fresh runtime capture written: P5-ceremony-DaLat
+PASS: Fresh runtime capture written: P5-ceremony-Jeonju
+PASS: Fresh runtime capture written: P5-ceremony-Gyeongju
+PASS: Fresh runtime capture written: P5-ceremony-Seoul
+PASS: Fresh runtime capture written: P5-six-lights-converge
+PASS: Fresh runtime capture written: P5-Lumi-connection
+PASS: A valid ceremony or deliberate Skip commits the one canonical ending
+PASS: Repeated Finish/Skip cannot commit twice
+PASS: Exactly one global completion marker
+PASS: Fresh runtime capture written: P5-ending-dialogue
+PASS: Credits only follow the committed six-relic ceremony
+PASS: Fresh runtime capture written: P5-credits
+PASS: Ceremony/credits never grant or replay item/coin/quest rewards
+PASS: Acknowledged credits preserve compatible historical ending evidence
+PASS: Persist checkpoint P5-ending-completed
+PASS: Fresh runtime capture written: P5-post-credits
+PASS: Explicit replay is presentation-only
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Fresh runtime capture written: P5-world-map-after-ending
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Post-credits re-entry never auto-plays ending
+PASS: Fresh runtime capture written: P5-ending-reentry
+ALL CHECKS PASSED

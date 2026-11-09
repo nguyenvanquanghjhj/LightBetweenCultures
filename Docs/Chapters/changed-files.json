@@ -1,0 +1,695 @@
+{
+  "comparedTo": "D:\\GAMEKKK\\Backups\\BeforeHueJeonjuChapters-20261016",
+  "entries": [
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_01_VisualTarget_Reference.png",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "ba764324ecf39b7c05c58f807e352db1c65d100423c65d6a582e41d0a2ef18a0"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_01_VisualTarget_Reference.png.meta",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "42a90be103a51288dfd339f840190706d3d21d54ff31a41d76c571f16a27f687"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "a93dd7c9de3afdb6e48c2e4ebaf1695eb1956e589477f3f60829c1faaca38329"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png.meta",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "99fec184d2afbf709dad6c7ce8b9ec61937557bf98240aab91c6dc4d40c30f5d"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_03_UI_TextBaked_Reference.png",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "0402a6a4db4dcd1bb246f5aff7067ad7f63c8675c35879e0659e928848c36e81"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_03_UI_TextBaked_Reference.png.meta",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "b52e4bfbd8fbdd2857fad80e16658c9966deaae8f10818a26b913106da743862"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_04_Lantern_LightFX_Concept.png",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "85197d042b073b684da3dc010dda798909f927f542939ef84bae0fee35ac1ed0"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_04_Lantern_LightFX_Concept.png.meta",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "1aa6a4d8279e1e6416db9845c6a5d7852af2a40bb009f55d85426dfee2c8f4d5"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "6863f0d25cdcc741b9995d990aee871fefc8e7b2bf6b8e0a3fc191445f408724"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png.meta",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "5e98b6f6396c6aba2786b5686921a4c8c8d57f6039f8b69bf95f93a3b1e5eeed"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_06_Markers_Interactables_Concept.png",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "fc765ef932e89338ec65f433d823c1b55fb6e40ada64de6006113f73617fb7a8"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_06_Markers_Interactables_Concept.png.meta",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "e49aab3b81200e4876c04721944fb3408dca31fd906f08f254f88d7014bbcad0"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "7cbef3187db3a532c2ddeb7906e5aaf0a2515c78f02fec086ba9fd7f89d971f3"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "372ee6e92b7bc3628b162aebacff7d7ec9ca6b6031547c5ee703d873c0e58f8d"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/README_H3_Assets.txt",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "290ebf59c6171caea8780e70a2c8fda974429f28e67d61337c69d4ca8dd02988"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/README_H3_Assets.txt.meta",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "d25c9d6492ee28a3f4caaf29cc3f1835da00af914b8b58b5d26c3cc7eed8f26a"
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016.meta",
+      "status": "added",
+      "origin": "user_supplied_H3_sources",
+      "sha256": "d9cf8fc2155b1d6577d92caa06e28dd5bdbd627c2a749abf14ce9fdaf92ff546"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "895cc5f001beabf857892834b4185f962478d2840e2fc3cf2db3896d1f20eecd"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "b865cbdfa1a761129dfe6cbf071454ff73c516646aed9d5ac1a603523ebd4ba4"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "9f81f2243fab2eba4128194a6ec08be3dde7a269b8e12120ecd9197d20d7a799"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "9dec3de4fe54dda043a0dee2aa719ffb85f511c1d549831517ceee37b36b3aa2"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "c9eaace3159a4fb3770c70104302d530e8b69231fe7851ba8b281efbb4894081"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "f2af9ac481b3079d48c7f701a2b65d2fa08163818dbf2d6600e95bddac6a534a"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "426d606ef7df229bfdb949e608213faab4b086dfacab74f8fec7b2483528c2e5"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "c7893ee3e785f8d354ba4310693f93f0e94c8f2945d46ac9b14cfef2be4d6e3d"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "d37bad975234344a823d6f5cd03dfea9a294fa878748ce485ffd4cbf44830df0"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "b0d46f325fc0d482d898c5cf08b4453e74a9bcae9aaeb6ad8b28194786f600d2"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "78eb37fcde0670c8f8031da657020c73ea6b3fe8c7e5e34ce765bb1e13bce67c"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "937200d80965bdf03e413df0c653bb515b6dacbb829b8282c915164a396433ea"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "8ec44c1ac73ec3ee6a63d9e67a6cf950b35821e372048f1657721cbcfe552830"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "42a4cfb742868418587c604b0838fbe164409e19fdf2d580cc19511bd9b687c4"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "45b9316daedd99d7acdb6ffc10b2b32d96d49f3a90bdc51e42105c8c90c20389"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "32de2f21401fb53c00c809343f14be8fa6ec242f011268c59392458dac12b18b"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "7af33a52e23716241cbfd14ca15e42bc89bf6aa8cca271e43a27c075a12d5262"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "ae9866790bb3b4de2f606a66cbca6ad049a86948a22932c50e71aa7e7ddc1e2d"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "6930e06a55f6989b3547f2f11a2f7e3aed867f84eb9bbd53f943faa866d44530"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "ab7db5e94d64a3a9ee62a3d8ebf83252aa60e4d56acd9be1dd3f84a8f66f573e"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "15587f85e7fd1b72e26031bb9b28098c54ebed90f9e8d0ebc2e4af36d5ffee46"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "e68976453af880cbc9f927480c13d7c41c3bf993de0df9d35112f579c26015ca"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "cb4bd5bb94b28656a70540d06792fc3411cc0672fcf9b29f2b1626af80a1797b"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "bcd5bb51bee1ad023daa8c82a0738428f7f7f6405754253f073ffdfbecb74a19"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "bf3defe0a6a193938bfd5c1e19176b572624760b89903cbc2b65222f142af7af"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "a190225f1a293d822b5ec714d90d62efc9973499580a772c254bd91d0478dfbe"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "144d39585715517f831861c8951bb90198086f7978675e4381686ae323ef4936"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "e14035592a64a5466c855a88af64bde6f87e66865f82907af8c8e1b17e2881d9"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "8283e462fca5ca216660919b5863c83a7f15310ddc0d1adf6eba44846b3ff3ba"
+    },
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "e4b97be7969e6d3b72df92ca0d44a2104a6ea541d74393dc4b9b73b6e4f1ff37"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/AdventurePresentation.json",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "d912cc07154355cedddbe229959e820668ebaa0e076f9b6da7bcf7c13e52feea"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "affb8e8468a87bc32216b753624931fc3b182d0184ef621bd59239c571ec3c6a"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/ContentDefinitions.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "837011541f125b6cf8f8996e9095f20d9613f28b8585ad3e0fb5aa7a052ef63a"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "66438ee8c08d75e61a514e67f0849da4d4b0a17675682f1c04ae3efa1403f63e"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/PuzzleManager.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "cd30bdb972e8927031c4694c90bf023346cc080fff4c5f215d898a1c05f11b5b"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameData.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "9e073e32afe329f41c1716e58e74542268433e22d82e5f4147d5d0bd8ce75590"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/Inventory.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "6e8f96322a33f026a48a0869a63dc547dfe3f3aca6add6c4794b6af69f5ab505"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/QuestManager.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "3aee59d578b023ddd8d3c98c500e24ee98f881fe9155f62b33d4c5c424d2e8fb"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/AdventureUISetup.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "9b441effd32d0a95cd57f6b4e5b2dd04f7c8d22daabbe970207172ac1ee18575"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "70378e4c50e530b0b0b5f99480ea8435466fd69be74618985fd5e4e50b29a560"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapDiscoveryManager.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "a93a1b44ebc3b97ab1e77f9e709dcb02168de98c6199e6179c2797531fbf7b0a"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "2f3bb9b7e5a1862c8feb0f4132e2f59d384efd6debdbaa43d3bfe1038b43dc31"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Chapters.cs",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "4c47370b0a5bccdf3ab02e9ab328d4d1a3d621e476ebefa302501f0f21efd70f"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Chapters.cs.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "752cd4480bbd9cc29b6d304e81d60aacc53b4b07c379533aa266719fed96bb18"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CrossCity.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "2144129105d47d8ccd8ec24bdd28a2b11f8613f3678101be55a579db91a0da7b"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "81d4068cc081f4614a1e361e6ba469530cc228706783cb7994c63182fd993fe0"
+    },
+    {
+      "path": "Assets/_Game.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "424c15d7eb47d8bb72b908e2161b32ddfe1979ffca31b2fb809a01287bbca399"
+    },
+    {
+      "path": "Assets/Scenes/SampleScene.unity",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "387d8216a517be775b6ecc2ab55b97ece687c3372322da2ba027a96908014912"
+    },
+    {
+      "path": "Assets/Scenes/SampleScene.unity.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "204f446bc13539151c15af875550a7fa6f791662e967572a1b4b06fd0005dad1"
+    },
+    {
+      "path": "Assets/Scenes.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "a80a7b316e7d7ce80c8a01ecb374702a04e91228a0729629c894c70250baea5d"
+    },
+    {
+      "path": "Assets/Settings/DefaultVolumeProfile.asset",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "4789b43834dd5efb32eec4c3b436baf0895c9f8cf2a0624121da8dd812ee984a"
+    },
+    {
+      "path": "Assets/Settings/DefaultVolumeProfile.asset.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "037700fc76ee8e15bf57a6608bf0229b50b9ba78a1095a943fe0add01a6bf5c5"
+    },
+    {
+      "path": "Assets/Settings/InputSystem_Actions.inputactions",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "1c6cbb519d65ecfe19a29231735b7f54741a20ac1a8ad4f46a18e1bfb28a3c39"
+    },
+    {
+      "path": "Assets/Settings/InputSystem_Actions.inputactions.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "e2df3de96691137dc24b37bd9009e7be17040f3e5cd6d5401b2cd9d8ae2c9c1d"
+    },
+    {
+      "path": "Assets/Settings/Lit2DSceneTemplate.scenetemplate",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "ca928761bf976c878d54df524a3742c5f1bca53a013b4061abd2c752c8a212aa"
+    },
+    {
+      "path": "Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "d4cc0f73332c3228945aa64f9c5019f1c1950d77703728c5e9674a0367c5e4d1"
+    },
+    {
+      "path": "Assets/Settings/Renderer2D.asset",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "900455794d0d788504847c3aa54e03a0374fd3635afa295ed05c2f646f974705"
+    },
+    {
+      "path": "Assets/Settings/Renderer2D.asset.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "9689252004910cfad653e8a8d09b8c96befb560e1fb583033630db0f5bb76420"
+    },
+    {
+      "path": "Assets/Settings/Scenes/URP2DSceneTemplate.unity",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "f6fb3e91aaa90417e2920b7f903066833b3b9aea72ddcb5e46b91afa729c2e90"
+    },
+    {
+      "path": "Assets/Settings/Scenes/URP2DSceneTemplate.unity.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "e7391ff924b7defdf30e0b0b235f8113618481c93f567e0c699c8895a9534579"
+    },
+    {
+      "path": "Assets/Settings/Scenes.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "705b24f629af6836450c9fd2085f781fe11d8633bcaa0c7b3197058b93a766e5"
+    },
+    {
+      "path": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "adcf683780138e1c4987add26ce706020423ac21725ca7fb391ffb096afdcfea"
+    },
+    {
+      "path": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "746a38b93f8f49b644ff6893456cf24db401e5c342aaae3864e91560d37c5422"
+    },
+    {
+      "path": "Assets/Settings/UniversalRP.asset",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "105c850a8996289abbb82e404ccd00d855fd16cdc59055392f623849f9b4c71b"
+    },
+    {
+      "path": "Assets/Settings/UniversalRP.asset.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "8b7653265c1a9a054461264fc7b03bdbafc030149949fce5bf9e85924fb565a5"
+    },
+    {
+      "path": "Assets/Settings.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "0b5ba35daae66cbfcfa17bf61091aeab7f3bed07681f8db7bed3fb72d178c2d4"
+    },
+    {
+      "path": "Assets/Welcome/2d-template.png",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "d10e43955a1ff62f420c2e82ed9bae4481c75a4559522196be77cde49070eb25"
+    },
+    {
+      "path": "Assets/Welcome/2d-template.png.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "09276c6728f70195df623aa96d40fccbb327fd6b7d650390b43b72e76579561e"
+    },
+    {
+      "path": "Assets/Welcome/NewWelcomePage.asset",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "b8f5b74159bd138202e78d653c78304b15714a0927be345bd55256ce71ff7113"
+    },
+    {
+      "path": "Assets/Welcome/NewWelcomePage.asset.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "b62d798f38d44bf09e210876042931010d21a1e46ceeef556608cae13db654c2"
+    },
+    {
+      "path": "Assets/Welcome/TutorialProjectSettings.asset",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "7509e1816d3a9e4576f0d9ef5e095b48e779a862cd946cefd7067b9e72523d05"
+    },
+    {
+      "path": "Assets/Welcome/TutorialProjectSettings.asset.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "3644a742e7c9fba830dba4c12c654372e4329ac144d2ba26821717fe17e94c8f"
+    },
+    {
+      "path": "Assets/Welcome/Unity.2D.Welcome.asmdef",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "f3fbb465d982c9e533170b9e1fa958c83663c850b43c46dc92da65cf8d3506f2"
+    },
+    {
+      "path": "Assets/Welcome/Unity.2D.Welcome.asmdef.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "28c11e43e3e5099eec8d53cec7c8de9d6c716b92a947aeae26becd63121086e5"
+    },
+    {
+      "path": "Assets/Welcome/Welcome2DScript.asset",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "a060d10e478919bf933e7c69c5e635a3e1ec9dde5c085b7c3495003c27685392"
+    },
+    {
+      "path": "Assets/Welcome/Welcome2DScript.asset.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "4b6c900fa29b2c79cdc38def65ff9fd2b362ca26732dfb7072380d712a26edac"
+    },
+    {
+      "path": "Assets/Welcome/Welcome2DScript.cs",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "de8913a7eaa8b8820d49e02d459f376cb7645e234123ee24cfec3932a69d0c10"
+    },
+    {
+      "path": "Assets/Welcome/Welcome2DScript.cs.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "7844f4bf7129cf9dc2c7d6c0fceeb518b8ace15900e3012005adfa16b625e757"
+    },
+    {
+      "path": "Assets/Welcome.meta",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "7f9e88db1a5f912122f7d32a131a9a1cc0235be1ca2637a1e6b0f7a7fc76d3a6"
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.csv",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "d732c024e4bd809a1ac738e3136c495a1e64ce0450bf4ab2edb383e2674a9d93"
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.json",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "11b84acf10d324d7af6bb3918abe3fa9c78745e2d6e21fb2ef99ce62e56bfedc"
+    },
+    {
+      "path": "Docs/Art/ART_ASSET_CATALOG.md",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "e6a674c58b8335285384941d8795d71413bc87a806981b5d12c3dacd50a6c1af"
+    },
+    {
+      "path": "Docs/Art/ChapterSpriteSlices.json",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "4a23f0c58983e61c88504fd6ff9fb816bcfe2ac3966d3239f312f519d28865f9"
+    },
+    {
+      "path": "Docs/Art/city-art-preflight.json",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "a62af98d2fa9a5f586b0fcd569acdcf84c733609c6ea24211038fac95d8c5359"
+    },
+    {
+      "path": "Docs/Art/CITY_EXPANSION_ART_CHECKLIST.md",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "907e7eb7ca9a2392dcb3527e26506c2416e0fd4b813b34ead2d5ce8a6572f69b"
+    },
+    {
+      "path": "Docs/Art/HueJeonjuArtDerivatives.json",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "cb6e86d5dfc052433d48ccf9d18018b8f3a313e6616b7bce495c8975d13b6f8a"
+    },
+    {
+      "path": "Docs/Art/HueJeonjuImagePrompts.md",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "dc35d2cf01052f9b99e445231bd0c2b021d89b87f813b6b3a23ee7def01faca7"
+    },
+    {
+      "path": "Docs/Art/MISSING_ASSETS.md",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "af74cfb035ad993900a588cfa667155d86aeb783dbf7e7c736138e164516015a"
+    },
+    {
+      "path": "Docs/Art/native-art-bindings.json",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "d1db1adf75cf017afac7afa549fb04a9eadc6ae1cd3d01deb1e9e8971abb93bc"
+    },
+    {
+      "path": "Docs/Chapters/DESIGN_CONFLICTS.md",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "0c82cb14a6f97de36eca73fdb5eed37e6f55fdda850e3e47493436d0dae4a5fa"
+    },
+    {
+      "path": "Docs/Chapters/hue-node-coverage.md",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "2a9f0f4ff0ca05be8cd799781fac31b2bb2f8404724e07df71362506f238c422"
+    },
+    {
+      "path": "Docs/Chapters/jeonju-node-coverage.md",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "0b251b0371d22008a29033e9c13a84caeb8df78ac53727d60d513ecf58488127"
+    },
+    {
+      "path": "Docs/Chapters/six-city-node-coverage.csv",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "44951f371874e38682646dacb008ac0a77aae38e7b0bbbdcc5dbe86cae85ab09"
+    },
+    {
+      "path": "Docs/Maps/HUE_JEONJU_TERRAIN_LIMITS.md",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "295b3c276310523e41b098403b7500dee571907db0cd9fec9a7b03f673f05bf6"
+    },
+    {
+      "path": "Docs/Maps/HueJeonjuChapterRoutes.json",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "dd2396d2316cef7340caf327de0ca7001bc76c918074bfe9b3a4957db49d1e96"
+    },
+    {
+      "path": "Tools/art_asset_catalog.py",
+      "status": "changed",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "8d6f1d86a012e43fbbb5243770382f0d3d599fd382ab016d212529513e20ffc1"
+    },
+    {
+      "path": "Tools/author_hue_jeonju_chapters.py",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "0d87588809274d7843e1095fb54fe1849bd27b5317c4ec12a756cd0be9105b98"
+    },
+    {
+      "path": "Tools/chapter_evidence.py",
+      "status": "added",
+      "origin": "chapter_implementation_or_audit",
+      "sha256": "2e4873e57d82ace43d73c75031ada8af9a2e2d6797e83f472716202e4beb607e"
+    }
+  ]
+}

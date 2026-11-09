@@ -1,0 +1,14 @@
+{
+    "output": "Builds/Android/LightBetweenCultures-FinalUX-20261023.apk",
+    "identifier": "com.DefaultCompany.LightBetweenCultures",
+    "result": "Succeeded",
+    "error": "",
+    "startedUTC": "2026-10-23T10:00:08.5641285Z",
+    "finishedUTC": "2026-10-23T10:03:25.7589127Z",
+    "version": "1.0-ux20261023",
+    "bytes": 1511906179,
+    "customKeystore": false,
+    "errors": 0,
+    "warnings": 1067,
+    "versionCode": 5
+}

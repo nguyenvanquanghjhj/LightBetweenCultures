@@ -1,0 +1,14 @@
+{
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointOwnerConfusionUX-20261020",
+  "baseManifestSHA256": "c89dcdabd3ea5b98f0265131c36c58b37e826d6ea72d4b82b1f3ce2f6aeda354",
+  "before": [
+    {
+      "path": "Assets/_Game/Scripts/Maps/MainMenu.cs",
+      "beforeSHA256": "945440ca8ad0c28a7782d2a841fa3549ad7dc9dc0bb5a152cb4654d368305c8c"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "beforeSHA256": "678adb4d054e8e89a6d01d1d7f383e41807e0c8e38a9090d84a63a074e0e2874"
+    }
+  ]
+}

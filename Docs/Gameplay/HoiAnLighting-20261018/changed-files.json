@@ -1,0 +1,31 @@
+{
+  "runtime": [
+    "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+    "Assets/_Game/Resources/Content/HoiAnLighting.json",
+    "Assets/_Game/Resources/Content/HoiAnLighting.json.meta"
+  ],
+  "qa": [
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Lighting.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Lighting.cs.meta",
+    "Tools/qa_hoi_an_lighting.py"
+  ],
+  "documentation": [
+    "Docs/QA/HOIAN_THREE_STAGE_LIGHTING_REVISION.md",
+    "Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md",
+    "Docs/Gameplay/HoiAnLighting-20261018/"
+  ],
+  "evidence": [
+    "Logs/hoi-an-lighting-build01.log",
+    "Logs/hoi-an-lighting-build02.log",
+    "Validation/HoiAnLighting-20261018/"
+  ],
+  "unchanged": [
+    "H6 postcard and all18 artworks",
+    "QuestLight",
+    "node/edge/routes",
+    "quest/relic/gameplay/save",
+    "canonical art bindings",
+    "ProjectSettings"
+  ]
+}

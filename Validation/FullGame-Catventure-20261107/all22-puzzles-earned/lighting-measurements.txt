@@ -1,0 +1,6 @@
+A-before-tutorial | 1280x960 | state=A zoom=1 mapMin=(150.40, 78.72) mapMax=(1129.60, 813.12) dimAlpha=0.674963 fullyBrightCoverage=0.1711222 weightedCoverage=0.1999997 H2Alpha=0.6745098 farAlpha=0.6745098
+A-eye-picked-not-returned | 1280x960 | state=A zoom=1 mapMin=(150.40, 78.72) mapMax=(1129.60, 813.12) dimAlpha=0.674963 fullyBrightCoverage=0.1711222 weightedCoverage=0.1999997 H2Alpha=0.6745098 farAlpha=0.6745098
+B-mai-returned | 1280x960 | state=B zoom=1 mapMin=(150.40, 78.72) mapMax=(1129.60, 813.12) dimAlpha=0.674963 fullyBrightCoverage=0.1711222 weightedCoverage=0.1999997 H2Alpha=0 farAlpha=0.6745098
+B-wide-district | 1600x1000 | state=B zoom=1 mapMin=(290.00, 82.00) mapMax=(1310.00, 847.00) dimAlpha=0.674963 fullyBrightCoverage=0.1711222 weightedCoverage=0.1999997 H2Alpha=0 farAlpha=0.6745098
+B-after-H7-before-relic | 1280x960 | state=B zoom=1 mapMin=(150.40, 78.72) mapMax=(1129.60, 813.12) dimAlpha=0.674963 fullyBrightCoverage=0.1711222 weightedCoverage=0.1999997 H2Alpha=0 farAlpha=0.6745098
+C-full-city-restored | 1280x960 | state=C zoom=1 mapMin=(150.40, 78.72) mapMax=(1129.60, 813.12) dimAlpha=0.674963 fullyBrightCoverage=0.1711222 weightedCoverage=0.1999997 H2Alpha=0 farAlpha=0

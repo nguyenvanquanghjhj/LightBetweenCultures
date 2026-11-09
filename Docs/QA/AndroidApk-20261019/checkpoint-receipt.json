@@ -1,0 +1,16 @@
+{
+  "checkpoint": "D:\\GAMEKKK\\Backups\\CheckpointAndroidApkBuild-20261019",
+  "manifestSHA256": "d45d4763493031ac345418c7902fae43eca4c94bececa0d537e0283830f27db5",
+  "standalone": false,
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointPhase7Final-20261019",
+  "baseManifestSHA256": "626e9de9dec8b7ef258dba926ffa01cc55dce46f6223f41edbbd49645eadcc9b",
+  "files": 25,
+  "bytes": 1538745,
+  "MiB": 1.47,
+  "baseContentVerified": true,
+  "baseChainManifestVerified": true,
+  "copiedFilesVerified": true,
+  "deletedPaths": [],
+  "APKDuplicated": false,
+  "stop": "STOP_WAITING_FOR_OWNER_DEVICE_TEST"
+}

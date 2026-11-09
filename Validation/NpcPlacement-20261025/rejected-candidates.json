@@ -1,0 +1,66 @@
+[
+  {
+    "node": "D4",
+    "npc": "npc_market_merchant",
+    "before": [
+      22.0,
+      8.0
+    ],
+    "after": [
+      2,
+      0
+    ],
+    "delta": [
+      -20.0,
+      -8.0
+    ]
+  },
+  {
+    "node": "D10",
+    "npc": "npc_hungry_dog",
+    "before": [
+      22.0,
+      8.0
+    ],
+    "after": [
+      46,
+      18
+    ],
+    "delta": [
+      24.0,
+      10.0
+    ]
+  },
+  {
+    "node": "G16",
+    "npc": "npc_kang_taeho",
+    "before": [
+      22.0,
+      5.0
+    ],
+    "after": [
+      50,
+      -15
+    ],
+    "delta": [
+      28.0,
+      -20.0
+    ]
+  },
+  {
+    "node": "G21",
+    "npc": "npc_choi_eunsu",
+    "before": [
+      24.0,
+      5.0
+    ],
+    "after": [
+      34,
+      -15
+    ],
+    "delta": [
+      10.0,
+      -20.0
+    ]
+  }
+]

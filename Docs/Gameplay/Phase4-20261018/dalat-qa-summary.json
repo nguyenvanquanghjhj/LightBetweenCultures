@@ -1,0 +1,17 @@
+[
+  {
+    "run": "dalat01",
+    "checks": 131,
+    "result": "PASS"
+  },
+  {
+    "run": "dalat-restart-A",
+    "checks": 21,
+    "result": "PASS"
+  },
+  {
+    "run": "dalat-restart-C",
+    "checks": 21,
+    "result": "PASS"
+  }
+]

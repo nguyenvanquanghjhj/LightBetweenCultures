@@ -1,0 +1,3 @@
+Timed out: NPC sprite tap opens dialogue G16
+Modal=False moving=False stage=4
+Buttons: MarkerMotion:True:True,G13:True:True,FocusLumi:True:True,G12:True:True,G21:True:True,ZoomOut:True:True,AudioSettings:True:True,G5:True:True,ZoomIn:True:True,G17:True:True,ObjectiveHint:True:True,JourneyShop:True:True,G14:True:True,Interact:True:True,G4:True:True,G0:True:True,G11:True:True,G6:True:True,G19:True:True,G2:True:True,QuestJournal:True:True,G16:True:True,G20:True:True,G8:True:True,G3:True:True,Back:True:True,G9:True:True,Inventory:True:True,G18:True:True,G10:True:True,G7:True:True,G1:True:True,G15:True:True,MapOverview:True:True

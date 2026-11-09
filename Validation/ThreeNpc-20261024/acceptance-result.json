@@ -1,0 +1,37 @@
+{
+  "status": "WINDOWS_THREE_NPC_ACCEPTANCE_PASS",
+  "licenseEditor": "PASS_ADMIN_CONTEXT",
+  "assertions": {
+    "runtime": 157,
+    "restart": 102
+  },
+  "staticAssertions": 186,
+  "oldSaveAndDuplicateRewards": "PASS",
+  "ownerSaveUnchanged": true,
+  "artInventory": "FAIL_PREEXISTING_HUE_MIGRATION_HASH",
+  "modifiedSource": [
+    "Assets/_Game/Resources/Content/GameplayContent.json",
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta",
+    "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta",
+    "Assets/_Game/Scripts/Editor/ThreeNpcSetup.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.ThreeNpc.cs",
+    "Docs/Art/NPC_CANONICAL_REGISTRY.json",
+    "Docs/Art/NPC_CANONICAL_REGISTRY.md",
+    "Docs/Art/native-art-bindings.json"
+  ],
+  "screenshots": {
+    "Validation/ThreeNpc-20261024/ThreeNpc-Map-G16.png": "583c02af693ebd9951ba67430b75a99e849a085c6a179d59ace93dfe6d92ccc0",
+    "Validation/ThreeNpc-20261024/ThreeNpc-Map-G21.png": "9b2b7222a24438572bb0d139b4d94b1b30de3c0990975e70920c9962fbac4b7a",
+    "Validation/ThreeNpc-20261024/ThreeNpc-Map-S12.png": "0b1faecfdafe2fec04612d5c2931aa18a021e8e1aad93c8da387007c791924dc",
+    "Validation/ThreeNpc-20261024/ThreeNpc-Dialogue-G16.png": "a6c134978b3add94c85bf435e75f26ca0d6c6fe55792de46fb69b1ffd23a78cd",
+    "Validation/ThreeNpc-20261024/ThreeNpc-Dialogue-G21.png": "7e0087d2cc008c7b7854139c899b530fdec9cf30e6456bbb160424c200b3b05b",
+    "Validation/ThreeNpc-20261024/ThreeNpc-Dialogue-S12.png": "688c55aab8de824599a47b14f1037419da90b20b1d2ca720eeed6e1055ea3da9"
+  },
+  "build": "Builds/Windows-ThreeNpcQA-20261025/LightBetweenCultures.exe",
+  "finalProtectedChecks": [
+    "Existing NPC identities unchanged",
+    "Existing map actor definitions unchanged",
+    "Exactly G16 G21 S12 added"
+  ]
+}

@@ -1,0 +1,11 @@
+Assets/Scenes/SampleScene.unity: unchanged=True
+Packages/manifest.json: unchanged=True
+Packages/packages-lock.json: unchanged=True
+ProjectSettings/ProjectVersion.txt: unchanged=True
+Assets/_Game/Scripts/Core/QuestManager.cs: unchanged=True
+Assets/_Game/Scripts/Core/Inventory.cs: unchanged=True
+Assets/_Game/Scripts/HoiAn/HoiAnPlayerController.cs: unchanged=True
+Assets/_Game/Scripts/HoiAn/InteractionSystem.cs: unchanged=True
+Assets/_Game/Scripts/Core/SceneTransition.cs: unchanged=True
+Original Rigidbody2D and BoxCollider2D serialized components unchanged=True; before=14, after=14
+Original files missing=0

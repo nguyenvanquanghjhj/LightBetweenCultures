@@ -1,0 +1,114 @@
+[
+  {
+    "id": "E01",
+    "case": "Boss chưa resolved, 0/6",
+    "result": "PASS",
+    "runs": "matrix04",
+    "evidenceLimit": "Fixture: backend và UI không mở ending."
+  },
+  {
+    "id": "E02",
+    "case": "Boss resolved, 0/6",
+    "result": "PASS",
+    "runs": "no-relics02; matrix04",
+    "evidenceLimit": "Boss repair thực, SQ03 tại S21, không credits; đi lại sáu thành phố."
+  },
+  {
+    "id": "E03",
+    "case": "Boss resolved, 3/6",
+    "result": "PASS",
+    "runs": "matrix04",
+    "evidenceLimit": "Fixture: báo tin SQ03, Collection 3/6; legacy ending/finish/skip bị chặn."
+  },
+  {
+    "id": "E04",
+    "case": "5/6 → restored mảnh cuối",
+    "result": "PASS",
+    "runs": "matrix04",
+    "evidenceLimit": "Fixture 5 restored; thực hiện trial Seoul thật → sẵn sàng, không đánh boss lại."
+  },
+  {
+    "id": "E05",
+    "case": "6/6 trước boss",
+    "result": "PASS",
+    "runs": "matrix04; e2e-vn01; e2e-korea01",
+    "evidenceLimit": "Fixture guard + hai tuyến fresh phải giải quyết S20 thật."
+  },
+  {
+    "id": "E06",
+    "case": "Boss + 6 + xác nhận",
+    "result": "PASS",
+    "runs": "matrix04; tail-vn01; tail-korea01",
+    "evidenceLimit": "Đủ 24 giây hoạt động hoặc explicit Skip sau confirm → một completion."
+  },
+  {
+    "id": "E07",
+    "case": "Restart sau boss, thiếu relic",
+    "result": "PASS",
+    "runs": "restart-repair01; restart-legacy-zero01",
+    "evidenceLimit": "Player process mới: boss không hồi sinh, không global ending."
+  },
+  {
+    "id": "E08",
+    "case": "Restart 6/6 chưa nghi thức",
+    "result": "PASS",
+    "runs": "restart-ready02",
+    "evidenceLimit": "Không auto animation/credits; người chơi có thể xác nhận sau."
+  },
+  {
+    "id": "E09",
+    "case": "Restart sau ending",
+    "result": "PASS",
+    "runs": "restart-completed02",
+    "evidenceLimit": "Giữ completion/ledger/inventory; World Map mở được, không tự credits."
+  },
+  {
+    "id": "E10",
+    "case": "VN_FIRST",
+    "result": "PASS",
+    "runs": "e2e-vn01; tail-vn01",
+    "evidenceLimit": "Fresh H0 → 24 mảnh/6 trial → G7 repair/S20 repair → S21/credits; final-build tail kiểm lại."
+  },
+  {
+    "id": "E11",
+    "case": "KOREA_FIRST",
+    "result": "PASS",
+    "runs": "e2e-korea01; tail-korea01",
+    "evidenceLimit": "Fresh H0 → nhánh Hàn trước → G7 battle/S20 battle → S21/credits; final-build tail kiểm lại."
+  },
+  {
+    "id": "E12",
+    "case": "Old save thắng boss",
+    "result": "PASS",
+    "runs": "legacy-claim01",
+    "evidenceLimit": "Save earned lịch sử, 0 relic/old credits: tương tác nhận mảnh H0 thật, không reset lịch sử."
+  },
+  {
+    "id": "E13",
+    "case": "Main story không relic",
+    "result": "PASS",
+    "runs": "no-relics02",
+    "evidenceLimit": "Save earned trước boss có 0 relic → hai pha/repair → SQ03 ở S21, không ending."
+  },
+  {
+    "id": "E14",
+    "case": "Fragment liên thành phố",
+    "result": "PASS",
+    "runs": "legacy-claim01; hai E2E",
+    "evidenceLimit": "Old H6 proof → J2 greeting-stamp bằng thao tác claim thật, ledger một lần."
+  },
+  {
+    "id": "E15",
+    "case": "Post-boss NPC/check-in",
+    "result": "PASS",
+    "runs": "legacy-claim01; hai E2E",
+    "evidenceLimit": "H6/Jeonju NPC vẫn tiếp cận, claim không đổi item/quest/choice/reward cũ."
+  },
+  {
+    "id": "E16",
+    "case": "Boss+6, chưa confirm, reload",
+    "result": "PASS",
+    "runs": "restart-ready02; restart-interrupted02",
+    "evidenceLimit": "Ready và interrupted đều không tự commit; phải chủ động bắt đầu lại."
+  }
+]

@@ -1,0 +1,330 @@
+UTC run: 2026-10-25T06:46:29.6631685Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Actor respects real discovery/resolution: H2
+PASS: Real assigned sprite/aspect/outline preserved: H2
+PASS: Shared72percent scale and52-unit touch area: H2
+PASS: Actor respects real discovery/resolution: H4
+PASS: Real assigned sprite/aspect/outline preserved: H4
+PASS: Shared72percent scale and52-unit touch area: H4
+PASS: Actor respects real discovery/resolution: H5
+PASS: Every actual talk/item-wait marker has a visible actor: hoi_an:H10
+PASS: Actor respects real discovery/resolution: H10
+PASS: Real assigned sprite/aspect/outline preserved: H10
+PASS: Shared72percent scale and52-unit touch area: H10
+PASS: New actor foot remains at its configured map-space ground anchor: H10
+PASS: Shadow follows actor foot: H10
+PASS: Semantic marker clears the actor face: H10
+PASS: Actor respects real discovery/resolution: H12
+PASS: Every actual talk/item-wait marker has a visible actor: hoi_an:H14
+PASS: Actor respects real discovery/resolution: H14
+PASS: Real assigned sprite/aspect/outline preserved: H14
+PASS: Shared72percent scale and52-unit touch area: H14
+PASS: New actor foot remains at its configured map-space ground anchor: H14
+PASS: Shadow follows actor foot: H14
+PASS: Semantic marker clears the actor face: H14
+PASS: Actor respects real discovery/resolution: H15
+PASS: Real assigned sprite/aspect/outline preserved: H15
+PASS: Shared72percent scale and52-unit touch area: H15
+PASS: Actor respects real discovery/resolution: H17
+PASS: Real assigned sprite/aspect/outline preserved: H17
+PASS: Shared72percent scale and52-unit touch area: H17
+PASS: Every actual talk/item-wait marker has a visible actor: hoi_an:H18
+PASS: Actor respects real discovery/resolution: H18
+PASS: Real assigned sprite/aspect/outline preserved: H18
+PASS: Shared72percent scale and52-unit touch area: H18
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: NPC-city-hoi_an
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Every actual talk/item-wait marker has a visible actor: hoi_an:H10
+PASS: Actor respects real discovery/resolution: H10
+PASS: Real assigned sprite/aspect/outline preserved: H10
+PASS: Shared72percent scale and52-unit touch area: H10
+PASS: New actor foot remains at its configured map-space ground anchor: H10
+PASS: Shadow follows actor foot: H10
+PASS: Semantic marker clears the actor face: H10
+PASS: Every actual talk/item-wait marker has a visible actor: hoi_an:H10
+PASS: Actor respects real discovery/resolution: H10
+PASS: Real assigned sprite/aspect/outline preserved: H10
+PASS: Shared72percent scale and52-unit touch area: H10
+PASS: New actor foot remains at its configured map-space ground anchor: H10
+PASS: Shadow follows actor foot: H10
+PASS: Semantic marker clears the actor face: H10
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: NPC-H10-map
+PASS: Closing an event or battle returns map input to the player
+PASS: No ghost/listener portrait exists in the active dialogue
+PASS: One active speaker image owns the dialogue portrait slot
+PASS: Full portrait rectangle fits inside the safe area
+PASS: Speaker retains a real sprite, correct aspect and full image alpha
+PASS: Sprite tap reaches its own event and existing portrait: H10
+PASS: Fresh runtime capture written: NPC-H10-dialogue
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H14 is discovered
+PASS: Lumi reaches H14 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Every actual talk/item-wait marker has a visible actor: hoi_an:H14
+PASS: Actor respects real discovery/resolution: H14
+PASS: Real assigned sprite/aspect/outline preserved: H14
+PASS: Shared72percent scale and52-unit touch area: H14
+PASS: New actor foot remains at its configured map-space ground anchor: H14
+PASS: Shadow follows actor foot: H14
+PASS: Semantic marker clears the actor face: H14
+PASS: Every actual talk/item-wait marker has a visible actor: hoi_an:H14
+PASS: Actor respects real discovery/resolution: H14
+PASS: Real assigned sprite/aspect/outline preserved: H14
+PASS: Shared72percent scale and52-unit touch area: H14
+PASS: New actor foot remains at its configured map-space ground anchor: H14
+PASS: Shadow follows actor foot: H14
+PASS: Semantic marker clears the actor face: H14
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: NPC-H14-map
+PASS: Closing an event or battle returns map input to the player
+PASS: No ghost/listener portrait exists in the active dialogue
+PASS: One active speaker image owns the dialogue portrait slot
+PASS: Full portrait rectangle fits inside the safe area
+PASS: Speaker retains a real sprite, correct aspect and full image alpha
+PASS: Sprite tap reaches its own event and existing portrait: H14
+PASS: Fresh runtime capture written: NPC-H14-dialogue
+PASS: Closing an event or battle returns map input to the player
+PASS: Mouse wheel zoom still works with event/discovery system
+PASS: Two-finger pinch still zooms the map
+PASS: Dragging still pans actual map content
+PASS: Pinch and pan cannot trigger hidden node events or movement
+PASS: Map clamps extreme pan and maximum zoom
+PASS: Map A keeps its original illustration aspect ratio
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hue
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Every actual talk/item-wait marker has a visible actor: hue:U1
+PASS: Actor respects real discovery/resolution: U1
+PASS: Real assigned sprite/aspect/outline preserved: U1
+PASS: Shared72percent scale and52-unit touch area: U1
+PASS: Every actual talk/item-wait marker has a visible actor: hue:U2
+PASS: Actor respects real discovery/resolution: U2
+PASS: Real assigned sprite/aspect/outline preserved: U2
+PASS: Shared72percent scale and52-unit touch area: U2
+PASS: Actor respects real discovery/resolution: U3
+PASS: Real assigned sprite/aspect/outline preserved: U3
+PASS: Shared72percent scale and52-unit touch area: U3
+PASS: Actor respects real discovery/resolution: U5
+PASS: Actor respects real discovery/resolution: U7
+PASS: Real assigned sprite/aspect/outline preserved: U7
+PASS: Shared72percent scale and52-unit touch area: U7
+PASS: Actor respects real discovery/resolution: U12
+PASS: Real assigned sprite/aspect/outline preserved: U12
+PASS: Shared72percent scale and52-unit touch area: U12
+PASS: Actor respects real discovery/resolution: U15
+PASS: Actor respects real discovery/resolution: U18
+PASS: Real assigned sprite/aspect/outline preserved: U18
+PASS: Shared72percent scale and52-unit touch area: U18
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U14 is discovered
+PASS: Lumi reaches U14 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: NPC-city-hue
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U14 is discovered
+PASS: Lumi reaches U14 through the real map input
+PASS: Location clue uses journal/info marker without a fake person: U14
+PASS: Fresh runtime capture written: NPC-location-U14
+PASS: Closing an event or battle returns map input to the player
+PASS: Mouse wheel zoom still works with event/discovery system
+PASS: Two-finger pinch still zooms the map
+PASS: Dragging still pans actual map content
+PASS: Pinch and pan cannot trigger hidden node events or movement
+PASS: Map clamps extreme pan and maximum zoom
+PASS: Map A keeps its original illustration aspect ratio
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: Fresh runtime capture written: X-WorldMap-select-da_lat
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Actor respects real discovery/resolution: D2
+PASS: Real assigned sprite/aspect/outline preserved: D2
+PASS: Shared72percent scale and52-unit touch area: D2
+PASS: Every actual talk/item-wait marker has a visible actor: da_lat:D3
+PASS: Actor respects real discovery/resolution: D3
+PASS: Real assigned sprite/aspect/outline preserved: D3
+PASS: Shared72percent scale and52-unit touch area: D3
+PASS: Every actual talk/item-wait marker has a visible actor: da_lat:D4
+PASS: Actor respects real discovery/resolution: D4
+PASS: Real assigned sprite/aspect/outline preserved: D4
+PASS: Shared72percent scale and52-unit touch area: D4
+PASS: Actor respects real discovery/resolution: D6
+PASS: Real assigned sprite/aspect/outline preserved: D6
+PASS: Shared72percent scale and52-unit touch area: D6
+PASS: Actor respects real discovery/resolution: D7
+PASS: Actor respects real discovery/resolution: D10
+PASS: Real assigned sprite/aspect/outline preserved: D10
+PASS: Shared72percent scale and52-unit touch area: D10
+PASS: Every actual talk/item-wait marker has a visible actor: da_lat:D13
+PASS: Actor respects real discovery/resolution: D13
+PASS: Real assigned sprite/aspect/outline preserved: D13
+PASS: Shared72percent scale and52-unit touch area: D13
+PASS: Actor respects real discovery/resolution: D15
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D2 is discovered
+PASS: Lumi reaches D2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: NPC-city-da_lat
+PASS: Mouse wheel zoom still works with event/discovery system
+PASS: Two-finger pinch still zooms the map
+PASS: Dragging still pans actual map content
+PASS: Pinch and pan cannot trigger hidden node events or movement
+PASS: Map clamps extreme pan and maximum zoom
+PASS: Map A keeps its original illustration aspect ratio
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-jeonju
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Actor respects real discovery/resolution: J2
+PASS: Real assigned sprite/aspect/outline preserved: J2
+PASS: Shared72percent scale and52-unit touch area: J2
+PASS: Actor respects real discovery/resolution: J4
+PASS: Real assigned sprite/aspect/outline preserved: J4
+PASS: Shared72percent scale and52-unit touch area: J4
+PASS: Actor respects real discovery/resolution: J5
+PASS: Real assigned sprite/aspect/outline preserved: J5
+PASS: Shared72percent scale and52-unit touch area: J5
+PASS: Actor respects real discovery/resolution: J6
+PASS: Actor respects real discovery/resolution: J9
+PASS: Real assigned sprite/aspect/outline preserved: J9
+PASS: Shared72percent scale and52-unit touch area: J9
+PASS: Actor respects real discovery/resolution: J14
+PASS: Every actual talk/item-wait marker has a visible actor: jeonju:J15
+PASS: Actor respects real discovery/resolution: J15
+PASS: Real assigned sprite/aspect/outline preserved: J15
+PASS: Shared72percent scale and52-unit touch area: J15
+PASS: Every actual talk/item-wait marker has a visible actor: jeonju:J16
+PASS: Actor respects real discovery/resolution: J16
+PASS: Real assigned sprite/aspect/outline preserved: J16
+PASS: Shared72percent scale and52-unit touch area: J16
+PASS: Actor respects real discovery/resolution: J18
+PASS: Real assigned sprite/aspect/outline preserved: J18
+PASS: Shared72percent scale and52-unit touch area: J18
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J2 is discovered
+PASS: Lumi reaches J2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: NPC-city-jeonju
+PASS: Mouse wheel zoom still works with event/discovery system
+PASS: Two-finger pinch still zooms the map
+PASS: Dragging still pans actual map content
+PASS: Pinch and pan cannot trigger hidden node events or movement
+PASS: Map clamps extreme pan and maximum zoom
+PASS: Map A keeps its original illustration aspect ratio
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-gyeongju
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Actor respects real discovery/resolution: G3
+PASS: Real assigned sprite/aspect/outline preserved: G3
+PASS: Shared72percent scale and52-unit touch area: G3
+PASS: Actor respects real discovery/resolution: G6
+PASS: Actor respects real discovery/resolution: G7
+PASS: Real assigned sprite/aspect/outline preserved: G7
+PASS: Shared72percent scale and52-unit touch area: G7
+PASS: Actor respects real discovery/resolution: G9
+PASS: Real assigned sprite/aspect/outline preserved: G9
+PASS: Shared72percent scale and52-unit touch area: G9
+PASS: New actor foot remains at its configured map-space ground anchor: G9
+PASS: Shadow follows actor foot: G9
+PASS: Semantic marker clears the actor face: G9
+PASS: Actor respects real discovery/resolution: G13
+PASS: Real assigned sprite/aspect/outline preserved: G13
+PASS: Shared72percent scale and52-unit touch area: G13
+PASS: Actor respects real discovery/resolution: G14
+PASS: Real assigned sprite/aspect/outline preserved: G14
+PASS: Shared72percent scale and52-unit touch area: G14
+PASS: New actor foot remains at its configured map-space ground anchor: G14
+PASS: Shadow follows actor foot: G14
+PASS: Semantic marker clears the actor face: G14
+PASS: Every actual talk/item-wait marker has a visible actor: gyeongju:G16
+PASS: Actor respects real discovery/resolution: G16
+PASS: Real assigned sprite/aspect/outline preserved: G16
+PASS: Shared72percent scale and52-unit touch area: G16
+PASS: Actor respects real discovery/resolution: G18
+PASS: Every actual talk/item-wait marker has a visible actor: gyeongju:G21
+PASS: Actor respects real discovery/resolution: G21
+PASS: Real assigned sprite/aspect/outline preserved: G21
+PASS: Shared72percent scale and52-unit touch area: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G9 is discovered
+PASS: Lumi reaches G9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: NPC-city-gyeongju
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G9 is discovered
+PASS: Lumi reaches G9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Actor respects real discovery/resolution: G9
+PASS: Real assigned sprite/aspect/outline preserved: G9
+PASS: Shared72percent scale and52-unit touch area: G9
+PASS: New actor foot remains at its configured map-space ground anchor: G9
+PASS: Shadow follows actor foot: G9
+PASS: Semantic marker clears the actor face: G9
+PASS: Actor respects real discovery/resolution: G9
+PASS: Real assigned sprite/aspect/outline preserved: G9
+PASS: Shared72percent scale and52-unit touch area: G9
+PASS: New actor foot remains at its configured map-space ground anchor: G9
+PASS: Shadow follows actor foot: G9
+PASS: Semantic marker clears the actor face: G9
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: NPC-G9-map
+PASS: Closing an event or battle returns map input to the player
+PASS: No ghost/listener portrait exists in the active dialogue
+PASS: One active speaker image owns the dialogue portrait slot
+PASS: Full portrait rectangle fits inside the safe area
+PASS: Speaker retains a real sprite, correct aspect and full image alpha
+PASS: Sprite tap reaches its own event and existing portrait: G9
+PASS: Fresh runtime capture written: NPC-G9-dialogue
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G14 is discovered
+PASS: Lumi reaches G14 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Actor respects real discovery/resolution: G14
+PASS: Real assigned sprite/aspect/outline preserved: G14
+PASS: Shared72percent scale and52-unit touch area: G14
+PASS: New actor foot remains at its configured map-space ground anchor: G14
+PASS: Shadow follows actor foot: G14
+PASS: Semantic marker clears the actor face: G14
+PASS: Actor respects real discovery/resolution: G14
+PASS: Real assigned sprite/aspect/outline preserved: G14
+PASS: Shared72percent scale and52-unit touch area: G14
+PASS: New actor foot remains at its configured map-space ground anchor: G14
+PASS: Shadow follows actor foot: G14
+PASS: Semantic marker clears the actor face: G14
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: NPC-G14-map
+PASS: Closing an event or battle returns map input to the player
+System.Exception: Timed out: NPC actor pointer opens existing dialogue
+Modal=False moving=False stage=4
+Buttons: G21:True:True,Interact:True:True,G1:True:True,G2:True:True,G11:True:True,JourneyShop:True:True,Back:True:True,AudioSettings:True:True,G16:True:True,ObjectiveHint:True:True,G8:True:True,G15:True:True,G10:True:True,G0:True:True,G9:True:True,ZoomOut:True:True,FocusLumi:True:True,G20:True:True,MapOverview:True:True,G17:True:True,MarkerMotion:True:True,G4:True:True,G14:True:True,QuestJournal:True:True,G18:True:True,Inventory:True:True,G3:True:True,G13:True:True,G19:True:True,G12:True:True,G7:True:True,G5:True:True,ZoomIn:True:True,G6:True:True
+  at LightBetweenCultures.GameplaySmokeRunner+<Until>d__311.MoveNext () [0x001b4] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:107 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

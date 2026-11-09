@@ -1,0 +1,57 @@
+{
+  "data_driven": true,
+  "icon_priority": [
+    "mandatory_key_boss_red_exclamation",
+    "npc_turn_in_ready_white_bubble_glow",
+    "quest_available_white_bubble",
+    "camera_checkin",
+    "puzzle",
+    "item",
+    "normal"
+  ],
+  "examples": [
+    {
+      "node": "H2",
+      "before": "npc_talk",
+      "after_accept": "quest_progress",
+      "after_complete": "npc_talk"
+    },
+    {
+      "node": "H5",
+      "before": "key_boss_red_exclamation",
+      "after": "completed"
+    },
+    {
+      "node": "H6",
+      "before": "camera_checkin",
+      "after": "completed"
+    },
+    {
+      "node": "H10",
+      "before": "npc_talk",
+      "when_copper_wire_ready": "npc_need_item_bubble_glow",
+      "when_hq07_ready": "npc_turn_in_ready_white_bubble_glow",
+      "after": "npc_talk"
+    },
+    {
+      "node": "H18",
+      "before": "npc_talk",
+      "after_hq05_offer": "npc_quest_bubble",
+      "when_reply_letter": "npc_turn_in_ready_white_bubble_glow"
+    }
+  ],
+  "world_quests": "Cross-city NPC J15,U1 display item request bubble only after relevant quest accepted and node revealed. Never show markers for hidden nodes.",
+  "animation": {
+    "idle_bob_px": [
+      3,
+      5
+    ],
+    "period_seconds": [
+      1.6,
+      2.1
+    ],
+    "use_unscaled_time_if_paused": false,
+    "reduced_motion_supported": true
+  },
+  "portrait_rules": "City Map Lumi uses small chibi, dialogue Lumi uses approved gesturing canonical; boss uses its own portrait/sprite, never generic lightning emblem."
+}

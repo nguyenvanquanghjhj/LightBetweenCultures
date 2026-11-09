@@ -1,0 +1,156 @@
+{
+  "type": "PHASE0_DOCUMENTATION_CHECKPOINT_NOT_GAME_BACKUP",
+  "date": "2026-10-18",
+  "status": "COMPLETE_DESIGN_AWAITING_USER_DECISION_STOP",
+  "runtimeBase": "D:/GAMEKKK/Backups/CheckpointWorldReactionsV2-20261017",
+  "runtimeChanged": false,
+  "buildRun": false,
+  "notes": "Primary13 documents + bounded source records. Does not replace or claim to be a standalone project backup. No Phase1-7 execution.",
+  "entries": [
+    {
+      "path": "Docs/Gameplay/ARTIFACT_FRAGMENT_ACCESS_MATRIX.md",
+      "sha256": "e37f35037c6b75a804186953a9b6cd726d84e64bf63c5f089f1029e42cd7d48f",
+      "bytes": 46891
+    },
+    {
+      "path": "Docs/Gameplay/ARTIFACT_FRAGMENT_SOURCE_MATRIX.md",
+      "sha256": "1e63754f1137641b56afee2938f615d890e105830ade06688d3d57c28becbf1c",
+      "bytes": 4431
+    },
+    {
+      "path": "Docs/Gameplay/ARTIFACT_UNLOCK_DECISIONS.md",
+      "sha256": "e0ca93c30cd8233ffb92b2cd11a1732e64ec59f1c71b4c916266d5fb642311b3",
+      "bytes": 9046
+    },
+    {
+      "path": "Docs/Gameplay/CHECKIN_LANDMARK_AUDIT.md",
+      "sha256": "79a3a384b29ac479f922d71f352c0e0247d75e9e7cdbf3ecc02a7189b8a083c2",
+      "bytes": 8522
+    },
+    {
+      "path": "Docs/Gameplay/CULTURAL_ARTIFACT_NPC_AUDIT.md",
+      "sha256": "a1347fa81cb37c0dd3840af5e184f96a6719c8327961bc8ea3b211a3ab6bed3d",
+      "bytes": 14268
+    },
+    {
+      "path": "Docs/Gameplay/MAP_ARTIFACT_DEPENDENCY_GRAPH.json",
+      "sha256": "a7bee80febafb7ae76f106c84ecc56e6d08f0cefe7d578b7f2e7d99890fdeb38",
+      "bytes": 1041121
+    },
+    {
+      "path": "Docs/Gameplay/MAP_UNLOCK_DEPENDENCY_AUDIT.md",
+      "sha256": "173cd188e524806ee263a71cf6109ad98fb2dde2d49852ecce26d4791558417b",
+      "bytes": 7421
+    },
+    {
+      "path": "Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md",
+      "sha256": "39884377c68256820a737fa19ede86f2a35962e76287d828cfb03d060a296dfe",
+      "bytes": 12250
+    },
+    {
+      "path": "Docs/Gameplay/PHASE0_MASTER_AUDIT.md",
+      "sha256": "00f441d67c84b5ed225841d6540353176bdead411bd59537dfb8b2b916dbecfa",
+      "bytes": 2251
+    },
+    {
+      "path": "Docs/Gameplay/SEOUL_FINAL_CONNECTION_DESIGN.md",
+      "sha256": "2bdc41b1268e7c8ab46be88bacfba96061d6cbfe2b06856491a7ea24f9a1eb0e",
+      "bytes": 6176
+    },
+    {
+      "path": "Docs/Gameplay/SIX_ARTIFACT_PROGRESSION_DESIGN.md",
+      "sha256": "f581b074848658d17fcc78f9331b3b31766516752af436cb95e3134559e908f4",
+      "bytes": 11001
+    },
+    {
+      "path": "Docs/Gameplay/SIX_RELICS_SOURCE_MAPPING.md",
+      "sha256": "6c00a016c0deb82019caa849a541cbf2be1c305dc93e8f61bd06c2afa2ae234f",
+      "bytes": 9671
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/alternative-anchor-reachability.json",
+      "sha256": "69f75b9103a8b13813ebf2c2f12feee49949e75fd3af425f49cd40d2bef56dba",
+      "bytes": 2091
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/checkin-marker-inventory.json",
+      "sha256": "15e266d970add8d7e7cfae62ca0fc0d0cd0fd41e01f07b3e25d808e07a5dbb11",
+      "bytes": 4483
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/checkpoint-comparison.json",
+      "sha256": "65e8370788b68ef55a7b9d31a67e317769fa04056bbc04b6fd6edc340f22c7ca",
+      "bytes": 272
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/ending-16-test-plan.json",
+      "sha256": "e6a4eb5673fb816b519e1dd6e097c4452f1d219e068d81c0656785b409c6621c",
+      "bytes": 7144
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/fragment-matrix-projection.json",
+      "sha256": "98e0b1597016498f36d057aa7585efea1352869ff51d67187bafcabae54fdeaf",
+      "bytes": 68657
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/historical-route-evidence.json",
+      "sha256": "2672db83daeada8f2c78d1ff324ba9a595b927c2a6e6f16032134a6bc9f09753",
+      "bytes": 5925
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/MASTER_CANONICAL_SOURCE.txt",
+      "sha256": "8e307d0695f0e8863ab08fa8d8ec41404d6d5d788dbaf3e157efe922031908c8",
+      "bytes": 69670
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/new-art-source-audit.json",
+      "sha256": "0fc9b3f129e7b06bd4ad9ca6cf224904f2d83f626bc63ef762c02d5119e1181a",
+      "bytes": 5063
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/npc-audit-records.json",
+      "sha256": "c241db0b36b45aedb50ad820d77970fe6c9f10879c773f54b3ce165007072efb",
+      "bytes": 46260
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/post-boss-anchor-reachability.json",
+      "sha256": "15846d6f33d5829531de658ea16598bcb24f70becec7240c340bd6ea26e5543a",
+      "bytes": 15701
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/route-design-simulation.json",
+      "sha256": "0f48b1ad1615953ca7cd5a6fb653be4fa422d9f9784ed93a7774961ca560522f",
+      "bytes": 8927
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/runtime-before.json",
+      "sha256": "bae6f2f09515ed9994b7a2bbb53a6cdc4a8b0885a84ccc779dce641c70f79f83",
+      "bytes": 28798
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/runtime-facts.json",
+      "sha256": "d5b5a1fea9439690db13429716a82f788d6302ef539886cd8e3b8cdfc50f3252",
+      "bytes": 544553
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/SourceReview.html",
+      "sha256": "26e6c5a66b51ee6e6742c44bd24f442796aca20f39443c58e3edae8abb87d992",
+      "bytes": 4687
+    },
+    {
+      "path": "Docs/Gameplay/Phase0-20261018/verification.json",
+      "sha256": "39522e29a3e8a91c221990573ab2040c0bb76dffec7f3950e47b940141d5665f",
+      "bytes": 3302
+    },
+    {
+      "path": "Docs/Story/ONE_ENDING_SIX_RELICS_CANONICAL.md",
+      "sha256": "67f7df113552b8a041792c83d2c83b56db967330e2097d47383949c40f36bd1d",
+      "bytes": 6384
+    },
+    {
+      "path": "Docs/QA/FINAL_ENDING_AND_POST_BOSS_AUDIT.md",
+      "sha256": "feaba98897abc6e12d540cd6b4224a04be31da53040e5ceaebed72c93a4387f2",
+      "bytes": 8734
+    }
+  ]
+}

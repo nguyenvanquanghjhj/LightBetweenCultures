@@ -1,0 +1,34 @@
+[
+  {
+    "name": "01-CityMapUI",
+    "zip": "01-CityMapUI.zip",
+    "bytes": 4114234,
+    "sha256": "ec6fc866b4ed51444afd0aa55aa38246cb949710f3b068b9c663b570bf84d155",
+    "images": 7,
+    "historicalCheckpoint": "CheckpointCityMapUIPolish-20261017"
+  },
+  {
+    "name": "02-Portraits",
+    "zip": "02-Portraits.zip",
+    "bytes": 7785925,
+    "sha256": "2210851b5a6efb993d9ec4bb2e398647063967d2148bd23cb9123284d62e5602",
+    "images": 8,
+    "historicalCheckpoint": "CheckpointPortraitDialogueStoryAudit-20261017"
+  },
+  {
+    "name": "03-FullStory",
+    "zip": "03-FullStory.zip",
+    "bytes": 9332759,
+    "sha256": "18d99f72a4257e6931472371288c7a1a01bf7e4485f9129c2895b02197289293",
+    "images": 11,
+    "historicalCheckpoint": "CheckpointFullStoryComplete-20261017"
+  },
+  {
+    "name": "04-H3",
+    "zip": "04-H3.zip",
+    "bytes": 7681125,
+    "sha256": "bd81caf763fa350ee0ccead90a889feac48a35f39e44e27a255e9bfe11bc05d9",
+    "images": 9,
+    "historicalCheckpoint": "CheckpointH3VisualUpgrade-20261017"
+  }
+]

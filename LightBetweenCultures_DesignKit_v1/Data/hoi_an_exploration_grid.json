@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "location_id": "hoi_an.h3_roof_alley",
+  "design_only": true,
+  "tile_size_logical": 64,
+  "grid_origin": "top_left",
+  "grid_rows": [
+    "####################",
+    "#.....HHH..........#",
+    "#.....HHH.......I..#",
+    "#...............C..#",
+    "#..CC..............#",
+    "#..................#",
+    "#......WWW.........#",
+    "#......WWW....HHH..#",
+    "#.............HHH..#",
+    "#..................#",
+    "#..P....N..........#",
+    "#..............E...#",
+    "#..................#",
+    "####################"
+  ],
+  "legend": {
+    "#": "blocking boundary wall",
+    "H": "blocking house footprint",
+    "C": "blocking crate",
+    "W": "blocking canal water",
+    ".": "walkable paving",
+    "P": "player_spawn walkable",
+    "I": "lantern_lens pickup walkable",
+    "N": "NPC prop trigger (walkable if trigger)",
+    "E": "exit trigger walkable"
+  },
+  "interactions": [
+    {
+      "id": "pick_lantern_lens",
+      "symbol": "I",
+      "requires_flag": "hoi_an.quest.restore_started",
+      "grants_flag": "hoi_an.item.lantern_lens_collected",
+      "once": true
+    },
+    {
+      "id": "leave_alley",
+      "symbol": "E",
+      "action": "return_to_city_node_H3"
+    }
+  ],
+  "player_control": "click/tap move to walkable cell, grid-based shortest path; do not cut through blocked tiles",
+  "test_requirements": [
+    "P can reach I and E (checked)",
+    "I only one pickup",
+    "on return CityMap current node must H3",
+    "on reentry item stays hidden when collected"
+  ],
+  "note": "Grid is greybox topology only; Codex can decorate via Tilemap without changing collision topology."
+}

@@ -1,0 +1,5 @@
+UTC run: 2026-11-07T15:51:28.3084693Z | Unity 6000.6.5f1 | 540x960
+PASS: Separate process reload keeps six rescued cats
+PASS: Restart rejects reward replay
+PASS: Exactly six reward receipts survive process restart
+ALL CHECKS PASSED

@@ -1,0 +1,31 @@
+{
+  "spec": "Docs\\Story\\FULL_STORY_PLAYTEST.md",
+  "specSHA256": "eaecc70b3d090165f33d0fcf4827bcf41c39c8333b6259451d18579f4ef54bff",
+  "baseline": "D:\\GAMEKKK\\Backups\\CheckpointPortraitDialogueStoryAudit-20261017",
+  "status": "AUTHORED_NOT_RUNTIME_VERIFIED",
+  "resolutions": [
+    "Preserve all four released city graphs, node IDs/positions and save schema.",
+    "G4-G19 replaced by G4-G9; add G18-G19; remove G2-G11/G11-G12 to keep degree3; G12 remains reachable via G16. Third symbol reachable before observatory gate.",
+    "G7 gate uses guard_resolved for win OR repair; stone_guard_friend only on peaceful repair.",
+    "G12 verifies Hue seal and script without consuming them; GQ02 requires both decoded seal and resolved guard.",
+    "S2 acceptance reveals first urban branch; A reveals second; report three real relays opens S19; courier is sole route to S20.",
+    "Remove four redundant Seoul shortcuts to avoid degree4 and courier bypass.",
+    "Relay readiness is derived from three real flags; quest report requires explicit S7 interaction.",
+    "S20 has two 44HP phases (original proposed total88); relay weakness affects only this new boss.",
+    "Ending pages and credits require real button advances; ending_seen only on final page; SQ03 finishes there.",
+    "Only the user rename of the byte-identical full-story spec differs from the pre-task document path."
+  ],
+  "proposals": [
+    "Concrete puzzle symbols, additional chest supplies, GQ04 eight coins, final relay defense reduction are PLAYTEST_NEW, not fixed original rewards."
+  ],
+  "missingArt": [
+    "G9 keeper",
+    "G14 inscription keeper",
+    "S2 curator",
+    "S7 Ji-won",
+    "S11 engineer",
+    "S14 ferry NPC",
+    "G6 fox and S5 drone standalone final sprites"
+  ],
+  "terrainStatus": "New city geometry pending separate terrain authoring/runtime review; no terrain PASS inferred from movement"
+}

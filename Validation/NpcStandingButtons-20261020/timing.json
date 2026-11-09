@@ -1,0 +1,36 @@
+{
+  "measured": [
+    {
+      "stage": "Windows build 02",
+      "secondsIncludingShutdown": 87.1,
+      "result": "PASS"
+    },
+    {
+      "stage": "Windows build 03",
+      "secondsIncludingShutdown": 85.32,
+      "result": "PASS"
+    },
+    {
+      "stage": "Windows build 04",
+      "secondsIncludingShutdown": 56.04,
+      "result": "PASS"
+    },
+    {
+      "stage": "Windows build 05",
+      "secondsIncludingShutdown": 57.64,
+      "result": "PASS"
+    },
+    {
+      "stage": "Windows build 06",
+      "secondsIncludingShutdown": 50.1,
+      "result": "PASS"
+    },
+    {
+      "stage": "npc-final06",
+      "seconds": 41.38
+    }
+  ],
+  "androidBuilds": 0,
+  "adbActions": 0,
+  "notes": "No time allocated to full campaign or human blind playtest; build outputs reused."
+}

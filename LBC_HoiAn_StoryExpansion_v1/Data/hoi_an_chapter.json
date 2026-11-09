@@ -1,0 +1,2510 @@
+{
+  "schema_version": 1,
+  "content_type": "story_extension_design_data_not_runtime_compatible_yet",
+  "chapter_id": "hoi_an",
+  "title": "Hội An – Phố Đèn Lồng Bí Ẩn",
+  "subtitle": "Ánh sáng không tự nhiên biến mất",
+  "design_baseline": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/hoi_an.json",
+  "runtime_warning": "Overlay story over current Assets/_Game/Resources/HoiAnData.json; DO NOT replace runtime node coordinates or existing routes with raw design anchors.",
+  "lore": {
+    "premise": "Đêm hội ở Hội An chập chờn vì các trạm đèn cộng hưởng bị nhiễu. Lumi tìm hiểu sự cố, giúp cư dân và nhận ra không phải cỗ máy nào cũng độc ác.",
+    "central_mystery": "Ai đã sửa tín hiệu khiến sáu trạm phải đồng bộ cùng lúc? Vì sao bot phòng vệ lại gửi lời cảnh báo?",
+    "twist_1": "Bot Mờ-01 vốn là máy bảo vệ, bị một lệnh giả ép thu gom nguồn sáng. Sau khi bị đánh bại hoặc hóa giải, nó nhắc đừng kích hoạt tất cả sáu trạm cùng lúc.",
+    "twist_2": "Trên Lõi Giấy Sáng có hoa văn tương đồng với nghệ thuật đèn giấy của Jeonju. Dấu vết chỉ một hành trình giao lưu, không phải một phép thuật gắn với riêng nước nào.",
+    "ending": "Lumi thắp trạm Hội An ở chế độ an toàn; cổng đến Huế và Jeonju mở đồng thời. Lumi được quyền tự chọn nhánh tiếp theo và quay lại giải nhiệm vụ phụ.",
+    "narrative_rules": [
+      "Người dân không tự kết tội bot trước khi tìm bằng chứng",
+      "Không mô tả món ăn sáng tác như món truyền thống chính thức",
+      "Không bắt buộc hoàn thành hoạt động ẩm thực để mở đường cốt truyện",
+      "Bot không phải tất cả đều xấu",
+      "Không sao chép thoại hoặc icon của Dynamons World"
+    ]
+  },
+  "player_character": "lumi",
+  "start_node": "H0",
+  "chapter_completion_flag": "hoi_an.lamp_restored",
+  "old_quest_compatibility": {
+    "existing_id": "mai-lantern",
+    "existing_item": "lantern-part",
+    "existing_reward_flag": "lantern-lit",
+    "migration_policy": "Retain old quest/flag and any existing unlocked access as tutorial progress; do not silently convert lantern-lit to hoi_an.lamp_restored. Existing HQ01 completion needs real checks of H3,H4,H13,H5,H7.",
+    "collected_legacy_item_handling": "If older save has collected H3 or lantern-part, map ONE successful H3 pickup toward lamp_eye quest progress, never duplicate item and never mark full HQ01 finished."
+  },
+  "story_beats": [
+    {
+      "id": "HA_BEAT_00",
+      "node": "H0",
+      "caption": "Con thuyền cập bến",
+      "requires": {},
+      "sets": [
+        "hoi_an.intro_seen"
+      ]
+    },
+    {
+      "id": "HA_BEAT_01",
+      "node": "H2",
+      "caption": "Ánh đèn trước tiệm cô Mai",
+      "requires": {},
+      "sets": [
+        "hoi_an.hq01_accepted",
+        "hoi_an.reveal_stage_1"
+      ]
+    },
+    {
+      "id": "HA_BEAT_02",
+      "node": "H3",
+      "caption": "Mắt Đèn nằm trong hẻm",
+      "requires": {
+        "items_at_least": {
+          "lamp_eye": 1
+        }
+      },
+      "sets": [
+        "hoi_an.lamp_eye_found"
+      ]
+    },
+    {
+      "id": "HA_BEAT_03",
+      "node": "H4",
+      "caption": "Mật hiệu Hoa – Trăng – Đèn",
+      "requires": {
+        "all_flags": [
+          "hoi_an.lamp_eye_found"
+        ]
+      },
+      "sets": [
+        "hoi_an.market_puzzle_solved",
+        "hoi_an.reveal_stage_2"
+      ]
+    },
+    {
+      "id": "HA_BEAT_04",
+      "node": "H13",
+      "caption": "Mạch giấy sáng từ ngõ nghề",
+      "requires": {
+        "all_flags": [
+          "hoi_an.market_puzzle_solved"
+        ],
+        "items_at_least": {
+          "hanji_core": 1
+        }
+      },
+      "sets": [
+        "hoi_an.hanji_core_obtained"
+      ]
+    },
+    {
+      "id": "HA_BEAT_05",
+      "node": "H5",
+      "caption": "Lời cảnh báo bị cắt",
+      "requires": {
+        "all_flags": [
+          "hoi_an.mo01_disabled"
+        ]
+      },
+      "sets": [
+        "hoi_an.reveal_stage_3"
+      ]
+    },
+    {
+      "id": "HA_BEAT_06",
+      "node": "H7",
+      "caption": "Thắp trạm trong đêm",
+      "requires": {
+        "all_flags": [
+          "hoi_an.mo01_disabled"
+        ],
+        "items_at_least": {
+          "lamp_eye": 1,
+          "hanji_core": 1,
+          "link_key": 1
+        }
+      },
+      "sets": [
+        "hoi_an.lamp_restored",
+        "hoi_an.reveal_stage_4"
+      ]
+    },
+    {
+      "id": "HA_BEAT_07",
+      "node": "H8/H20",
+      "caption": "Hai cánh cửa cùng mở",
+      "requires": {
+        "all_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      },
+      "sets": [
+        "world.hue_available",
+        "world.jeonju_available"
+      ]
+    }
+  ],
+  "key_gates": [
+    {
+      "order": 1,
+      "node": "H2",
+      "type": "npc",
+      "name": "Cô Mai – Khởi đầu hành trình",
+      "complete_when": "accept HQ01",
+      "reveals_stage": 1
+    },
+    {
+      "order": 2,
+      "node": "H4",
+      "type": "puzzle",
+      "name": "Hoa văn chợ ven sông",
+      "complete_when": "solve market sequence after lamp_eye pickup",
+      "reveals_stage": 2
+    },
+    {
+      "order": 3,
+      "node": "H5",
+      "type": "boss_or_hack",
+      "name": "Bot Mờ-01 giữ bến gỗ",
+      "complete_when": "win battle OR enter code learned at H19",
+      "reveals_stage": 3
+    },
+    {
+      "order": 4,
+      "node": "H7",
+      "type": "beacon",
+      "name": "Trạm đèn hội quán",
+      "complete_when": "all three main items and mo01_disabled",
+      "reveals_stage": 4
+    }
+  ],
+  "map_reveal": {
+    "first_save_stage": 0,
+    "stage_to_nodes": {
+      "0": [
+        "H0",
+        "H11",
+        "H4",
+        "H10",
+        "H1",
+        "H2"
+      ],
+      "1": [
+        "H0",
+        "H11",
+        "H4",
+        "H10",
+        "H1",
+        "H2",
+        "H3",
+        "H21",
+        "H18",
+        "H16",
+        "H12"
+      ],
+      "2": [
+        "H0",
+        "H11",
+        "H4",
+        "H10",
+        "H1",
+        "H2",
+        "H3",
+        "H21",
+        "H18",
+        "H16",
+        "H12",
+        "H13",
+        "H14",
+        "H6",
+        "H19",
+        "H5",
+        "H15",
+        "H17"
+      ],
+      "3": [
+        "H0",
+        "H11",
+        "H4",
+        "H10",
+        "H1",
+        "H2",
+        "H3",
+        "H21",
+        "H18",
+        "H16",
+        "H12",
+        "H13",
+        "H14",
+        "H6",
+        "H19",
+        "H5",
+        "H15",
+        "H17",
+        "H7"
+      ],
+      "4": [
+        "H0",
+        "H11",
+        "H4",
+        "H10",
+        "H1",
+        "H2",
+        "H3",
+        "H21",
+        "H18",
+        "H16",
+        "H12",
+        "H13",
+        "H14",
+        "H6",
+        "H19",
+        "H5",
+        "H15",
+        "H17",
+        "H7",
+        "H8",
+        "H20"
+      ]
+    },
+    "conditional_nodes": {
+      "H9": {
+        "any_flags": [
+          "hoi_an.secret_lane_found",
+          "jeonju.hidden_letter_found"
+        ]
+      }
+    },
+    "preview_rule": "At most 1–2 immediate next-stage nodes may show translucent circles; their sprites, labels, paths, NPC markers, and rewards must remain hidden.",
+    "visibility_criteria": "Evaluate (stage unlocked OR optional secret condition) AND quest-specific edge conditions; rendering is separate from pathfinding and interaction.",
+    "edge_policy": "If either endpoint hidden, edge is hidden and NOT traversable. Gate-only one-way progression conditions override bidirectional graph; route review must avoid bypass.",
+    "compatibility_note": "This stage list is a narrative layout proposal. Review it against 29 design edges and actual CityRouteGeometry waypoints; do not copy node array indices or replace runtime coordinates."
+  },
+  "nodes": [
+    {
+      "id": "H0",
+      "design_anchor_top_left_1000": [
+        565,
+        735
+      ],
+      "name": "Bến thuyền khởi hành",
+      "event_id": "intro",
+      "kind": "start"
+    },
+    {
+      "id": "H1",
+      "design_anchor_top_left_1000": [
+        365,
+        442
+      ],
+      "name": "Ngã ba phố đèn",
+      "event_id": "street_intro",
+      "kind": "junction"
+    },
+    {
+      "id": "H2",
+      "design_anchor_top_left_1000": [
+        332,
+        421
+      ],
+      "name": "Tiệm đèn Cô Mai",
+      "event_id": "npc_mai",
+      "kind": "npc"
+    },
+    {
+      "id": "H3",
+      "design_anchor_top_left_1000": [
+        420,
+        317
+      ],
+      "name": "Hẻm mái ngói",
+      "event_id": "scene_roof_alley",
+      "kind": "exploration"
+    },
+    {
+      "id": "H4",
+      "design_anchor_top_left_1000": [
+        225,
+        619
+      ],
+      "name": "Chợ ven sông",
+      "event_id": "puzzle_market",
+      "kind": "puzzle"
+    },
+    {
+      "id": "H5",
+      "design_anchor_top_left_1000": [
+        783,
+        724
+      ],
+      "name": "Bến gỗ máy canh",
+      "event_id": "enemy_mo01",
+      "kind": "boss"
+    },
+    {
+      "id": "H6",
+      "design_anchor_top_left_1000": [
+        725,
+        520
+      ],
+      "name": "Cầu cổ ánh đèn",
+      "event_id": "bridge_story",
+      "kind": "junction"
+    },
+    {
+      "id": "H7",
+      "design_anchor_top_left_1000": [
+        432,
+        143
+      ],
+      "name": "Trạm đèn hội quán",
+      "event_id": "restore_lantern",
+      "kind": "beacon"
+    },
+    {
+      "id": "H8",
+      "design_anchor_top_left_1000": [
+        158,
+        164
+      ],
+      "name": "Cổng giao lưu Jeonju",
+      "event_id": "portal_jeonju",
+      "kind": "portal"
+    },
+    {
+      "id": "H9",
+      "design_anchor_top_left_1000": [
+        133,
+        366
+      ],
+      "name": "Ngõ đèn thất lạc",
+      "event_id": "chest_secret",
+      "kind": "secret"
+    },
+    {
+      "id": "H10",
+      "design_anchor_top_left_1000": [
+        160,
+        550
+      ],
+      "name": "Quầy hàng Bà Tư",
+      "event_id": "npc_ba_tu",
+      "kind": "npc"
+    },
+    {
+      "id": "H11",
+      "design_anchor_top_left_1000": [
+        290,
+        725
+      ],
+      "name": "Rương gỗ bến nước",
+      "event_id": "loot_crate",
+      "kind": "item"
+    },
+    {
+      "id": "H12",
+      "design_anchor_top_left_1000": [
+        525,
+        671
+      ],
+      "name": "Cua trộm dưới bờ",
+      "event_id": "enemy_crab",
+      "kind": "enemy"
+    },
+    {
+      "id": "H13",
+      "design_anchor_top_left_1000": [
+        520,
+        430
+      ],
+      "name": "Xưởng ghép giấy",
+      "event_id": "puzzle_paper",
+      "kind": "puzzle"
+    },
+    {
+      "id": "H14",
+      "design_anchor_top_left_1000": [
+        640,
+        341
+      ],
+      "name": "Nghệ nhân ông Phúc",
+      "event_id": "npc_phuc",
+      "kind": "npc"
+    },
+    {
+      "id": "H15",
+      "design_anchor_top_left_1000": [
+        919,
+        428
+      ],
+      "name": "Lối đèn lập lòe",
+      "event_id": "enemy_ghost",
+      "kind": "enemy"
+    },
+    {
+      "id": "H16",
+      "design_anchor_top_left_1000": [
+        680,
+        676
+      ],
+      "name": "Cầu tàu trung tâm",
+      "event_id": "dock_central",
+      "kind": "junction"
+    },
+    {
+      "id": "H17",
+      "design_anchor_top_left_1000": [
+        945,
+        586
+      ],
+      "name": "Bến đò phía đông",
+      "event_id": "npc_boatman",
+      "kind": "npc"
+    },
+    {
+      "id": "H18",
+      "design_anchor_top_left_1000": [
+        537,
+        396
+      ],
+      "name": "Tiệm trà khách lạ",
+      "event_id": "npc_guest",
+      "kind": "npc"
+    },
+    {
+      "id": "H19",
+      "design_anchor_top_left_1000": [
+        695,
+        223
+      ],
+      "name": "Ngõ gốm hoa",
+      "event_id": "puzzle_pottery",
+      "kind": "puzzle"
+    },
+    {
+      "id": "H20",
+      "design_anchor_top_left_1000": [
+        496,
+        106
+      ],
+      "name": "Cổng đi Huế",
+      "event_id": "portal_hue",
+      "kind": "portal"
+    },
+    {
+      "id": "H21",
+      "design_anchor_top_left_1000": [
+        304,
+        284
+      ],
+      "name": "Rương áp mái",
+      "event_id": "loot_attic",
+      "kind": "item"
+    }
+  ],
+  "node_story_roles": {
+    "H0": {
+      "actor": "Bác lái thuyền",
+      "event_type": "story",
+      "story_purpose": "Cập bến và nhìn đèn phố chập chờn",
+      "reward_or_marker": "Bưu thiếp bến thuyền, check-in tùy chọn"
+    },
+    "H1": {
+      "actor": "Lumi",
+      "event_type": "junction",
+      "story_purpose": "Một lối dẫn vào tiệm đèn, lối kia có tiếng rao chợ",
+      "reward_or_marker": "Không chiến đấu"
+    },
+    "H2": {
+      "actor": "Cô Mai",
+      "event_type": "npc",
+      "story_purpose": "Giao nhiệm vụ tìm ba phần trạm",
+      "reward_or_marker": "Key Gate 1; marker chat"
+    },
+    "H3": {
+      "actor": "Lumi",
+      "event_type": "exploration",
+      "story_purpose": "Tìm Mắt Đèn phía trong hẻm mái ngói",
+      "reward_or_marker": "Item nằm trong Free Exploration"
+    },
+    "H4": {
+      "actor": "Chú bán họa tiết",
+      "event_type": "puzzle",
+      "story_purpose": "Quan sát hoa văn gạch để giải câu đố Hoa – Trăng – Đèn",
+      "reward_or_marker": "Key Gate 2; có góc hàng gia vị"
+    },
+    "H5": {
+      "actor": "Bot Mờ-01",
+      "event_type": "boss",
+      "story_purpose": "Thắng hoặc dùng mã H19; nhận Chìa Kết Nối",
+      "reward_or_marker": "Key Gate 3; ! đỏ"
+    },
+    "H6": {
+      "actor": "Lumi",
+      "event_type": "checkin",
+      "story_purpose": "Ngắm cầu cổ, ghi bưu thiếp",
+      "reward_or_marker": "Check-in máy ảnh"
+    },
+    "H7": {
+      "actor": "Cô Mai / Trạm đèn",
+      "event_type": "beacon",
+      "story_purpose": "Lắp ba phần và bật trạm chế độ an toàn",
+      "reward_or_marker": "Key Gate 4; kết chương"
+    },
+    "H8": {
+      "actor": "Cổng Jeonju",
+      "event_type": "portal",
+      "story_purpose": "Nhánh Hàn Quốc mở, đi hay ở lại tùy chọn",
+      "reward_or_marker": "Yêu cầu hoi_an.lamp_restored"
+    },
+    "H9": {
+      "actor": "Người giữ ngõ",
+      "event_type": "secret",
+      "story_purpose": "Dò thư hồi âm và dấu mực trên đèn",
+      "reward_or_marker": "Bí mật, hiển thị theo OR flags"
+    },
+    "H10": {
+      "actor": "Bà Tư",
+      "event_type": "npc",
+      "story_purpose": "Tìm dây đồng bị cua lấy; mở thêm hàng gia vị",
+      "reward_or_marker": "Bàn giao ớt, hành tím"
+    },
+    "H11": {
+      "actor": "Lumi",
+      "event_type": "chest",
+      "story_purpose": "Mở rương bến nước, nhặt xu và giấy chỉ đường",
+      "reward_or_marker": "Phần thưởng một lần"
+    },
+    "H12": {
+      "actor": "Cua Trộm",
+      "event_type": "enemy",
+      "story_purpose": "Đánh hoặc dụ bằng mồi để lấy dây đồng",
+      "reward_or_marker": "Không bắt buộc giết sinh vật"
+    },
+    "H13": {
+      "actor": "Thợ làm giấy",
+      "event_type": "puzzle",
+      "story_purpose": "Lấy Lõi Giấy Sáng theo mẫu ở chợ",
+      "reward_or_marker": "Gợi liên kết với Jeonju"
+    },
+    "H14": {
+      "actor": "Ông Phúc",
+      "event_type": "npc",
+      "story_purpose": "Dạy cách đọc hoa văn ngõ gốm, báo bot bị sửa tín hiệu",
+      "reward_or_marker": "Gợi ý H19"
+    },
+    "H15": {
+      "actor": "Đèn Lồng Ma",
+      "event_type": "enemy",
+      "story_purpose": "Có thể làm dịu hoặc chiến đấu tùy chọn",
+      "reward_or_marker": "Không phải ma quỷ độc ác"
+    },
+    "H16": {
+      "actor": "Người gác bến",
+      "event_type": "junction",
+      "story_purpose": "Mở lối qua vùng bến, chỉ đường tới bot",
+      "reward_or_marker": "Tránh auto bỏ qua sự kiện"
+    },
+    "H17": {
+      "actor": "Bác lái đò",
+      "event_type": "npc",
+      "story_purpose": "Đưa 5 xu hoặc sửa mái chèo để mở đường tắt",
+      "reward_or_marker": "Không xuyên nước bằng đường bộ"
+    },
+    "H18": {
+      "actor": "Ji-eun – khách từ Jeonju",
+      "event_type": "npc",
+      "story_purpose": "Nói về hoa văn hanji và đề nghị giao lưu ẩm thực",
+      "reward_or_marker": "Mở nhiệm vụ ớt hai nước"
+    },
+    "H19": {
+      "actor": "Lumi / Bức tranh gốm",
+      "event_type": "puzzle",
+      "story_purpose": "Đọc mã Hoa – Trăng – Đèn để hóa giải H5",
+      "reward_or_marker": "Nhánh không chiến đấu"
+    },
+    "H20": {
+      "actor": "Cổng đi Huế",
+      "event_type": "portal",
+      "story_purpose": "Nhánh cố đô mở khi trạm Hội An sáng",
+      "reward_or_marker": "Yêu cầu hoi_an.lamp_restored"
+    },
+    "H21": {
+      "actor": "Lumi",
+      "event_type": "chest",
+      "story_purpose": "Rương áp mái và thông điệp về ngõ bị quên",
+      "reward_or_marker": "Bưu thiếp ẩn, thưởng một lần"
+    }
+  },
+  "quests": [
+    {
+      "id": "HQ01",
+      "name": "Đèn phố tối",
+      "type": "main",
+      "given_by": "H2",
+      "steps": [
+        {
+          "step": 1,
+          "trigger": "dialogue.mai_accept",
+          "goal": "Nhận nhiệm vụ ở H2",
+          "condition": {},
+          "complete_actions": [
+            {
+              "type": "set_flag",
+              "id": "hoi_an.hq01_accepted"
+            },
+            {
+              "type": "reveal_stage",
+              "city": "hoi_an",
+              "stage": 1
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "trigger": "pickup.lamp_eye.h3",
+          "goal": "Vào H3, tìm Mắt Đèn",
+          "condition": {
+            "quest_active": "HQ01"
+          },
+          "complete_actions": [
+            {
+              "type": "give_item_once",
+              "id": "lamp_eye",
+              "amount": 1,
+              "unique_key": "hoi_an.lamp_eye_pickup"
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.lamp_eye_found"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "trigger": "puzzle.market.h4.correct",
+          "goal": "Giải quy luật Hoa – Trăng – Đèn ở H4",
+          "condition": {
+            "all_flags": [
+              "hoi_an.lamp_eye_found"
+            ]
+          },
+          "complete_actions": [
+            {
+              "type": "set_flag",
+              "id": "hoi_an.market_puzzle_solved"
+            },
+            {
+              "type": "reveal_stage",
+              "city": "hoi_an",
+              "stage": 2
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "trigger": "puzzle.paper.h13.correct",
+          "goal": "Lắp đúng mẫu giấy ở H13 để lấy Lõi Giấy Sáng",
+          "condition": {
+            "all_flags": [
+              "hoi_an.market_puzzle_solved"
+            ]
+          },
+          "complete_actions": [
+            {
+              "type": "give_item_once",
+              "id": "hanji_core",
+              "amount": 1,
+              "unique_key": "hoi_an.hanji_core_pickup"
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.hanji_core_obtained"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "trigger": "boss.mo01.h5.resolved",
+          "goal": "Giải quyết Bot Mờ-01 tại H5 bằng chiến đấu hoặc mã H19",
+          "condition": {
+            "any_flags": [
+              "hoi_an.mo01_defeated",
+              "hoi_an.mo01_hacked"
+            ]
+          },
+          "complete_actions": [
+            {
+              "type": "set_flag",
+              "id": "hoi_an.mo01_disabled"
+            },
+            {
+              "type": "give_item_once",
+              "id": "link_key",
+              "amount": 1,
+              "unique_key": "hoi_an.link_key_reward"
+            },
+            {
+              "type": "reveal_stage",
+              "city": "hoi_an",
+              "stage": 3
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "trigger": "beacon.h7.activated",
+          "goal": "Thắp trạm H7 bằng đủ ba linh kiện",
+          "condition": {
+            "items_at_least": {
+              "lamp_eye": 1,
+              "hanji_core": 1,
+              "link_key": 1
+            },
+            "all_flags": [
+              "hoi_an.mo01_disabled"
+            ]
+          },
+          "complete_actions": [
+            {
+              "type": "set_flag",
+              "id": "hoi_an.lamp_restored"
+            },
+            {
+              "type": "reveal_stage",
+              "city": "hoi_an",
+              "stage": 4
+            },
+            {
+              "type": "complete_quest_once",
+              "id": "HQ01"
+            },
+            {
+              "type": "grant_currency_once",
+              "id": "coin",
+              "amount": 150,
+              "unique_key": "hoi_an.hq01_150coins"
+            },
+            {
+              "type": "unlock_city",
+              "id": "hue"
+            },
+            {
+              "type": "unlock_city",
+              "id": "jeonju"
+            }
+          ]
+        }
+      ],
+      "fail_safe": "Main items are quest-owned. Never permanently consume them on incidental use; restoring from older save and reward dedupe required.",
+      "branch_note": "H19 code may be learned before H5; challenge H5 remains the resolution trigger; neither battle nor puzzle route has exclusive main rewards."
+    },
+    {
+      "id": "HQ02",
+      "name": "Hàng của Bà Tư",
+      "type": "optional",
+      "given_by": "H10",
+      "steps": [
+        {
+          "trigger": "dialogue.ba_tu_accept",
+          "goal": "Bà Tư nhờ lấy lại Dây Đồng",
+          "complete_actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ02"
+            }
+          ]
+        },
+        {
+          "trigger": "enemy.crab.h12.resolved",
+          "goal": "Lấy Dây Đồng tại H12 (đánh hoặc dùng mồi)",
+          "complete_actions": [
+            {
+              "type": "give_item_once",
+              "id": "copper_wire",
+              "amount": 1,
+              "unique_key": "hoi_an.crab_wire"
+            }
+          ]
+        },
+        {
+          "trigger": "dialogue.ba_tu_wire_returned",
+          "goal": "Trả dây cho Bà Tư H10",
+          "condition": {
+            "items_at_least": {
+              "copper_wire": 1
+            }
+          },
+          "complete_actions": [
+            {
+              "type": "consume_item",
+              "id": "copper_wire",
+              "amount": 1
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.ba_tu_helped"
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.secret_lane_found"
+            },
+            {
+              "type": "complete_quest_once",
+              "id": "HQ02"
+            },
+            {
+              "type": "give_item_once",
+              "id": "hoi_an_fresh_chili",
+              "amount": 2,
+              "unique_key": "hoi_an.first_chili_bundle"
+            },
+            {
+              "type": "give_item_once",
+              "id": "hoi_an_purple_shallot",
+              "amount": 2,
+              "unique_key": "hoi_an.first_shallot_bundle"
+            }
+          ]
+        }
+      ],
+      "note": "H11 only gives coins and a clue, not a duplicate copper_wire drop."
+    },
+    {
+      "id": "HQ03",
+      "name": "Con đèn lạc – Bức thư trở về",
+      "type": "cross_city_optional",
+      "given_by": "H18",
+      "steps": [
+        {
+          "trigger": "dialogue.jieun_letter_request",
+          "goal": "Hỏi thăm câu chuyện chiếc đèn ở Jeonju",
+          "complete_actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ03"
+            }
+          ]
+        },
+        {
+          "trigger": "jeonju.j21.reply_letter_collected",
+          "goal": "Sau khi mở Jeonju, nhặt Thư Hồi Âm tại J21",
+          "condition": {
+            "items_at_least": {
+              "reply_letter": 1
+            }
+          }
+        },
+        {
+          "trigger": "dialogue.jieun_letter_returned",
+          "goal": "Trả thư cho Ji-eun H18 và xem ngõ H9",
+          "condition": {
+            "items_at_least": {
+              "reply_letter": 1
+            }
+          },
+          "complete_actions": [
+            {
+              "type": "complete_quest_once",
+              "id": "HQ03"
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.lost_lantern_rescued"
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.secret_lane_found"
+            }
+          ]
+        }
+      ],
+      "note": "Reuse JQ04 existing reply_letter flow; no duplicate letters or mutually exclusive routes."
+    },
+    {
+      "id": "HQ04",
+      "name": "Đò qua nhánh nước",
+      "type": "optional",
+      "given_by": "H17",
+      "steps": [
+        {
+          "trigger": "dialogue.boatman_offer",
+          "goal": "Thỏa thuận giúp bác lái đò",
+          "complete_actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ04"
+            }
+          ]
+        },
+        {
+          "trigger": "dialogue.boatman_pay",
+          "goal": "Đưa 5 xu HOẶC hoàn thành thử thách sửa mái chèo",
+          "condition": {
+            "any_of": [
+              {
+                "items_at_least": {
+                  "coin": 5
+                }
+              },
+              {
+                "all_flags": [
+                  "hoi_an.oar_fixed"
+                ]
+              }
+            ]
+          },
+          "complete_actions": [
+            {
+              "type": "set_flag",
+              "id": "hoi_an.ferry_available"
+            },
+            {
+              "type": "complete_quest_once",
+              "id": "HQ04"
+            }
+          ]
+        }
+      ],
+      "note": "If paid, consume 5 coins exactly once. Otherwise consume none. Only ferry route H17-H5, not walking over water."
+    },
+    {
+      "id": "HQ05",
+      "name": "Ớt qua biển – Lời mời từ Jeonju",
+      "type": "new_cross_city_optional",
+      "given_by": "H18",
+      "steps": [
+        {
+          "trigger": "dialogue.jieun_food_exchange_offer",
+          "goal": "Nghe Ji-eun kể về một gian hàng giao lưu ẩm thực",
+          "complete_actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ05"
+            }
+          ]
+        },
+        {
+          "trigger": "inventory.hoi_an_fresh_chili.available",
+          "goal": "Giữ ít nhất một trái Ớt Hội An từ Bà Tư H10",
+          "condition": {
+            "items_at_least": {
+              "hoi_an_fresh_chili": 1
+            }
+          }
+        },
+        {
+          "trigger": "jeonju.j15.chili_delivery",
+          "goal": "Mang một trái ớt đến người bán hàng J15 ở Jeonju",
+          "condition": {
+            "items_at_least": {
+              "hoi_an_fresh_chili": 1
+            }
+          },
+          "complete_actions": [
+            {
+              "type": "consume_item",
+              "id": "hoi_an_fresh_chili",
+              "amount": 1
+            },
+            {
+              "type": "give_item_once",
+              "id": "jeonju_recipe_card",
+              "amount": 1,
+              "unique_key": "jeonju.chili_exchange_card"
+            },
+            {
+              "type": "set_flag",
+              "id": "jeonju.chili_shared"
+            },
+            {
+              "type": "complete_quest_once",
+              "id": "HQ05"
+            }
+          ]
+        }
+      ],
+      "note": "This is an invented fusion-food festival activity, not a claim that a traditional Korean dish requires Hội An chili."
+    },
+    {
+      "id": "HQ06",
+      "name": "Hành tím gửi cố đô",
+      "type": "new_cross_city_optional",
+      "given_by": "H10",
+      "steps": [
+        {
+          "trigger": "dialogue.ba_tu_market_request",
+          "goal": "Bà Tư nhờ mang Hành Tím tới gian hàng U1 ở Huế",
+          "complete_actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ06"
+            }
+          ]
+        },
+        {
+          "trigger": "hue.u1.shallot_delivery",
+          "goal": "Đưa một củ hành tím Hội An đến U1",
+          "condition": {
+            "items_at_least": {
+              "hoi_an_purple_shallot": 1
+            }
+          },
+          "complete_actions": [
+            {
+              "type": "consume_item",
+              "id": "hoi_an_purple_shallot",
+              "amount": 1
+            },
+            {
+              "type": "give_item_once",
+              "id": "hue_market_note",
+              "amount": 1,
+              "unique_key": "hue.shallot_exchange_note"
+            },
+            {
+              "type": "set_flag",
+              "id": "hue.shallot_shared"
+            },
+            {
+              "type": "complete_quest_once",
+              "id": "HQ06"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HQ07",
+      "name": "Hai bờ, một mâm cơm",
+      "type": "new_cross_city_followup",
+      "given_by": "H10",
+      "steps": [
+        {
+          "trigger": "flags.both_food_delivered",
+          "goal": "Hoàn thành trao đổi ớt tới Jeonju và hành tím tới Huế",
+          "condition": {
+            "all_flags": [
+              "jeonju.chili_shared",
+              "hue.shallot_shared"
+            ]
+          }
+        },
+        {
+          "trigger": "dialogue.ba_tu_friendship_reward",
+          "goal": "Quay lại gặp Bà Tư tại H10",
+          "condition": {
+            "all_flags": [
+              "jeonju.chili_shared",
+              "hue.shallot_shared"
+            ]
+          },
+          "complete_actions": [
+            {
+              "type": "set_flag",
+              "id": "hoi_an.festival_food_exchange_done"
+            },
+            {
+              "type": "give_item_once",
+              "id": "festival_friendship_postcard",
+              "amount": 1,
+              "unique_key": "hoi_an.food_friendship_reward"
+            },
+            {
+              "type": "complete_quest_once",
+              "id": "HQ07"
+            }
+          ]
+        }
+      ],
+      "note": "Cosmetic optional reward only, does not control city portals or main quest."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "ha_intro_h0",
+      "node": "H0",
+      "when": {
+        "none_flags": [
+          "hoi_an.intro_seen"
+        ]
+      },
+      "priority": 0,
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Hội An đẹp quá... Nhưng sao một dãy đèn ven sông lại chớp tắt?"
+        },
+        {
+          "speaker": "Bác lái thuyền",
+          "text": "Đèn đêm nay lạ lắm. Cháu ghé tiệm cô Mai ở phố đèn hỏi thử."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Vâng ạ! Cháu sẽ đi theo lối sáng ở giữa phố."
+        }
+      ],
+      "on_finish": [
+        {
+          "type": "set_flag",
+          "id": "hoi_an.intro_seen"
+        }
+      ]
+    },
+    {
+      "id": "ha_mai_offer",
+      "node": "H2",
+      "when": {
+        "none_flags": [
+          "hoi_an.hq01_accepted"
+        ]
+      },
+      "priority": 50,
+      "lines": [
+        {
+          "speaker": "Cô Mai",
+          "text": "Cháu thấy đèn lồng ngoài bến không? Có ai đó đổi nhịp sáng của chúng."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Cháu giúp cô kiểm tra được không?"
+        },
+        {
+          "speaker": "Cô Mai",
+          "text": "Cô cần Mắt Đèn trong hẻm, Lõi Giấy Sáng từ xưởng, và Chìa Kết Nối ở bến gỗ."
+        },
+        {
+          "speaker": "Cô Mai",
+          "text": "Nếu sợ Bot Mờ-01, tìm ông Phúc. Có thể còn cách khác ngoài đánh nhau."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Cháu nhận nhiệm vụ!",
+          "when": {},
+          "actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ01"
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.hq01_accepted"
+            },
+            {
+              "type": "reveal_stage",
+              "city": "hoi_an",
+              "stage": 1
+            }
+          ]
+        },
+        {
+          "text": "Để cháu đi xem đã",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_mai_progress",
+      "node": "H2",
+      "when": {
+        "all_flags": [
+          "hoi_an.hq01_accepted"
+        ],
+        "none_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      },
+      "priority": 5,
+      "lines": [
+        {
+          "speaker": "Cô Mai",
+          "text": "Có mắt đèn, lõi giấy và chìa trạm thì cô mới sửa được hệ thống."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Cháu sẽ tìm từng món. Chỗ nào còn thiếu, cô cứ đánh dấu trong sổ giúp cháu!"
+        }
+      ]
+    },
+    {
+      "id": "ha_mai_completed",
+      "node": "H2",
+      "when": {
+        "all_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      },
+      "priority": 80,
+      "lines": [
+        {
+          "speaker": "Cô Mai",
+          "text": "Ánh sáng đã trở lại, nhưng nhớ lời Bot Mờ-01: đừng kích hoạt cả sáu trạm một lúc."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Cháu sẽ mang câu hỏi đó sang Huế và Jeonju."
+        }
+      ]
+    },
+    {
+      "id": "ha_h3_enter",
+      "node": "H3",
+      "when": {
+        "none_flags": [
+          "hoi_an.lamp_eye_found"
+        ]
+      },
+      "priority": 0,
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Mắt Đèn có thể nằm sau đống thùng kia. Phải đi vòng qua, không thể băng qua tường."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Tìm được rồi! Cẩn thận kẻo đụng mái hiên."
+        }
+      ],
+      "on_finish": [
+        {
+          "type": "open_scene",
+          "id": "HoiAnDemo"
+        }
+      ]
+    },
+    {
+      "id": "ha_h3_revisit",
+      "node": "H3",
+      "when": {
+        "all_flags": [
+          "hoi_an.lamp_eye_found"
+        ]
+      },
+      "priority": 10,
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Mắt Đèn đã nhặt rồi. Không còn vật phẩm nhiệm vụ mới trong hẻm đâu."
+        }
+      ]
+    },
+    {
+      "id": "ha_h4_no_eye",
+      "node": "H4",
+      "when": {
+        "none_flags": [
+          "hoi_an.lamp_eye_found"
+        ]
+      },
+      "priority": 10,
+      "lines": [
+        {
+          "speaker": "Người bán họa tiết",
+          "text": "Cậu nhìn hoa trên mái, trăng dưới sông và chiếc đèn ngoài hiên đi. Nhưng trước tiên giúp cô Mai tìm Mắt Đèn đã."
+        }
+      ]
+    },
+    {
+      "id": "ha_h4_puzzle",
+      "node": "H4",
+      "when": {
+        "all_flags": [
+          "hoi_an.lamp_eye_found"
+        ],
+        "none_flags": [
+          "hoi_an.market_puzzle_solved"
+        ]
+      },
+      "priority": 20,
+      "lines": [
+        {
+          "speaker": "Người bán họa tiết",
+          "text": "Tôi chỉ đường tới xưởng bằng một trò nhỏ: Hoa – Trăng – Đèn."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Thứ tự phải dựa vào những gì ta thấy trên phố, không phải đoán bừa."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Xem họa tiết",
+          "when": {},
+          "actions": [
+            {
+              "type": "open_puzzle",
+              "id": "puzzle_market"
+            }
+          ]
+        },
+        {
+          "text": "Để sau",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h4_complete",
+      "node": "H4",
+      "when": {
+        "all_flags": [
+          "hoi_an.market_puzzle_solved"
+        ]
+      },
+      "priority": 30,
+      "lines": [
+        {
+          "speaker": "Người bán họa tiết",
+          "text": "Đúng rồi! Xưởng ghép giấy đã nhận được tín hiệu. Qua đó đi cháu."
+        }
+      ]
+    },
+    {
+      "id": "ha_h13_paper",
+      "node": "H13",
+      "when": {
+        "all_flags": [
+          "hoi_an.market_puzzle_solved"
+        ],
+        "none_flags": [
+          "hoi_an.hanji_core_obtained"
+        ]
+      },
+      "priority": 30,
+      "lines": [
+        {
+          "speaker": "Thợ làm giấy",
+          "text": "Mảnh giấy này phản sáng rất đặc biệt. Chúng tôi từng trao đổi mẫu hoa văn với khách Jeonju."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Vậy câu chuyện mất đèn có liên quan đến cả hai nước sao?"
+        }
+      ],
+      "choices": [
+        {
+          "text": "Ghép mẫu giấy",
+          "when": {},
+          "actions": [
+            {
+              "type": "open_puzzle",
+              "id": "puzzle_paper"
+            }
+          ]
+        },
+        {
+          "text": "Quay lại sau",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h13_completed",
+      "node": "H13",
+      "when": {
+        "all_flags": [
+          "hoi_an.hanji_core_obtained"
+        ]
+      },
+      "priority": 50,
+      "lines": [
+        {
+          "speaker": "Thợ làm giấy",
+          "text": "Lõi Giấy Sáng đã được đưa cho cháu. Giữ kỹ nhé, nó cần cho trạm H7."
+        }
+      ]
+    },
+    {
+      "id": "ha_h14_hint",
+      "node": "H14",
+      "when": {
+        "none_flags": [
+          "hoi_an.mo01_disabled"
+        ]
+      },
+      "priority": 20,
+      "lines": [
+        {
+          "speaker": "Ông Phúc",
+          "text": "Trước đây tôi bảo dưỡng máy canh bến. Một lệnh lạ đã đổi lời cảnh báo của nó thành mệnh lệnh."
+        },
+        {
+          "speaker": "Ông Phúc",
+          "text": "Hoa, Trăng, Đèn... ba dấu ấy nằm trên tranh gốm ở ngõ cao H19."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Vậy cháu có thể giải mã để cho Bot ngừng gác đường!"
+        }
+      ],
+      "on_finish": [
+        {
+          "type": "set_flag",
+          "id": "hoi_an.mo01_hint_known"
+        }
+      ]
+    },
+    {
+      "id": "ha_h19_code",
+      "node": "H19",
+      "when": {
+        "none_flags": [
+          "hoi_an.mo01_hack_code"
+        ]
+      },
+      "priority": 20,
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Những hình trên gốm không phải đồ trang trí ngẫu nhiên."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Nếu xếp đúng thứ tự, mình sẽ đọc được mã an toàn của Bot Mờ-01."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Giải mã",
+          "when": {},
+          "actions": [
+            {
+              "type": "open_puzzle",
+              "id": "puzzle_pottery"
+            }
+          ]
+        },
+        {
+          "text": "Để sau",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h19_done",
+      "node": "H19",
+      "when": {
+        "all_flags": [
+          "hoi_an.mo01_hack_code"
+        ]
+      },
+      "priority": 30,
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Đã có mã an toàn! Vẫn phải đến H5 nhập vào Bot mới mở được đường."
+        }
+      ]
+    },
+    {
+      "id": "ha_h5_intro",
+      "node": "H5",
+      "when": {
+        "none_flags": [
+          "hoi_an.mo01_disabled"
+        ]
+      },
+      "priority": 20,
+      "lines": [
+        {
+          "speaker": "Bot Mờ-01",
+          "text": "...Tín hiệu phòng vệ... bị can thiệp... Không được bật sáu trạm cùng..."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Nó đang cảnh báo chứ không hẳn muốn đánh mình!"
+        }
+      ],
+      "choices": [
+        {
+          "text": "Dùng mã vô hiệu hóa",
+          "when": {
+            "all_flags": [
+              "hoi_an.mo01_hack_code"
+            ]
+          },
+          "actions": [
+            {
+              "type": "resolve_encounter",
+              "id": "enemy_mo01",
+              "method": "hack"
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.mo01_hacked"
+            }
+          ]
+        },
+        {
+          "text": "Chiến đấu",
+          "when": {},
+          "actions": [
+            {
+              "type": "start_battle",
+              "id": "enemy_mo01"
+            }
+          ]
+        },
+        {
+          "text": "Rút lui",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h5_done",
+      "node": "H5",
+      "when": {
+        "all_flags": [
+          "hoi_an.mo01_disabled"
+        ]
+      },
+      "priority": 60,
+      "lines": [
+        {
+          "speaker": "Bot Mờ-01",
+          "text": "Đường bến gỗ đã an toàn. Tôi chỉ còn nhớ một điều: ánh sáng phải có nhịp riêng."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Cháu sẽ ghi lại lời này, không đánh máy móc vô cớ nữa."
+        }
+      ]
+    },
+    {
+      "id": "ha_h7_locked",
+      "node": "H7",
+      "when": {
+        "none_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      },
+      "priority": 10,
+      "lines": [
+        {
+          "speaker": "Trạm Đèn Hội Quán",
+          "text": "Đang đợi ba linh kiện và trạng thái an toàn của cổng H5."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Mình sẽ không kích hoạt trước khi chuẩn bị đủ."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Thử kích hoạt",
+          "when": {},
+          "actions": [
+            {
+              "type": "try_activate_beacon",
+              "id": "H7"
+            }
+          ]
+        },
+        {
+          "text": "Quay lại",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h7_on",
+      "node": "H7",
+      "when": {
+        "all_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      },
+      "priority": 80,
+      "lines": [
+        {
+          "speaker": "Cô Mai",
+          "text": "Đèn hội quán đã sáng. Ký hiệu bên trái chỉ Huế, bên phải chỉ Jeonju."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Cháu sẽ đến cả hai nơi, nhưng lần lượt thôi, không bật mọi trạm cùng lúc."
+        }
+      ]
+    },
+    {
+      "id": "ha_h12_crab",
+      "node": "H12",
+      "when": {
+        "none_flags": [
+          "hoi_an.crab_resolved"
+        ]
+      },
+      "priority": 15,
+      "lines": [
+        {
+          "speaker": "Cua Trộm",
+          "text": "Kẹt kẹt! Cuộn dây này bóng quá, ta tưởng là kho báu!"
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Mình cần dây cho Bà Tư. Có thể dụ cua đổi đồ thay vì đánh."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Đặt mồi cua",
+          "when": {
+            "items_at_least": {
+              "crab_bait": 1
+            }
+          },
+          "actions": [
+            {
+              "type": "consume_item",
+              "id": "crab_bait",
+              "amount": 1
+            },
+            {
+              "type": "resolve_encounter",
+              "id": "enemy_crab",
+              "method": "bait"
+            }
+          ]
+        },
+        {
+          "text": "Đánh 1 trận ngắn",
+          "when": {},
+          "actions": [
+            {
+              "type": "start_battle",
+              "id": "enemy_crab"
+            }
+          ]
+        },
+        {
+          "text": "Bỏ qua",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h10_offer",
+      "node": "H10",
+      "when": {
+        "none_flags": [
+          "hoi_an.ba_tu_helped"
+        ]
+      },
+      "priority": 20,
+      "lines": [
+        {
+          "speaker": "Bà Tư",
+          "text": "Cua dưới bến kéo mất cuộn dây của bà. Cháu tìm giúp, bà tặng ít đồ chợ."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Cháu sẽ tìm thử ở mép nước!"
+        }
+      ],
+      "choices": [
+        {
+          "text": "Cháu giúp bà!",
+          "when": {},
+          "actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ02"
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.hq02_accepted"
+            }
+          ]
+        },
+        {
+          "text": "Để sau",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h10_deliver",
+      "node": "H10",
+      "when": {
+        "items_at_least": {
+          "copper_wire": 1
+        },
+        "none_flags": [
+          "hoi_an.ba_tu_helped"
+        ]
+      },
+      "priority": 60,
+      "lines": [
+        {
+          "speaker": "Bà Tư",
+          "text": "Đúng cuộn dây này rồi! Bà sửa được đèn chợ. Đây, ít ớt tươi và hành tím cho cháu."
+        },
+        {
+          "speaker": "Bà Tư",
+          "text": "Có khách từ Huế và Jeonju thích trao đổi cách nấu. Cháu cứ mang theo, đừng vội bỏ."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Trả cuộn dây",
+          "when": {},
+          "actions": [
+            {
+              "type": "emit_trigger",
+              "id": "dialogue.ba_tu_wire_returned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ha_h10_after",
+      "node": "H10",
+      "when": {
+        "all_flags": [
+          "hoi_an.ba_tu_helped"
+        ]
+      },
+      "priority": 70,
+      "lines": [
+        {
+          "speaker": "Bà Tư",
+          "text": "Chợ lại sáng rồi! Nếu hết gia vị để giao lưu, bà còn hàng dự phòng cho cháu."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Nhận gói ớt dự phòng",
+          "when": {
+            "all_flags": [
+              "hoi_an.hq05_accepted"
+            ],
+            "none_flags": [
+              "jeonju.chili_shared"
+            ]
+          },
+          "actions": [
+            {
+              "type": "refill_if_below",
+              "id": "hoi_an_fresh_chili",
+              "threshold": 1,
+              "amount": 1,
+              "per_quest": "HQ05"
+            }
+          ]
+        },
+        {
+          "text": "Nhận hành tím dự phòng",
+          "when": {
+            "all_flags": [
+              "hoi_an.hq06_accepted"
+            ],
+            "none_flags": [
+              "hue.shallot_shared"
+            ]
+          },
+          "actions": [
+            {
+              "type": "refill_if_below",
+              "id": "hoi_an_purple_shallot",
+              "threshold": 1,
+              "amount": 1,
+              "per_quest": "HQ06"
+            }
+          ]
+        },
+        {
+          "text": "Nói chuyện",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h17_boat",
+      "node": "H17",
+      "when": {
+        "none_flags": [
+          "hoi_an.ferry_available"
+        ]
+      },
+      "priority": 20,
+      "lines": [
+        {
+          "speaker": "Bác lái đò",
+          "text": "Nhánh nước này không thể đi bộ qua. Nếu có năm xu, bác chở; hoặc cháu giúp bác sửa mái chèo."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Có đường tắt thì quay lại làm nhiệm vụ sẽ tiện hơn."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Trả 5 xu",
+          "when": {
+            "items_at_least": {
+              "coin": 5
+            }
+          },
+          "actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ04"
+            },
+            {
+              "type": "consume_item",
+              "id": "coin",
+              "amount": 5
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.ferry_available"
+            },
+            {
+              "type": "complete_quest_once",
+              "id": "HQ04"
+            }
+          ]
+        },
+        {
+          "text": "Sửa mái chèo",
+          "when": {},
+          "actions": [
+            {
+              "type": "open_puzzle",
+              "id": "puzzle_oar"
+            }
+          ]
+        },
+        {
+          "text": "Để sau",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h18_guest",
+      "node": "H18",
+      "when": {
+        "none_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      },
+      "priority": 20,
+      "lines": [
+        {
+          "speaker": "Ji-eun",
+          "text": "Tôi đến từ Jeonju. Kiểu giấy bên đèn lồng này khiến tôi nhớ những hoa văn quê nhà."
+        },
+        {
+          "speaker": "Ji-eun",
+          "text": "Nếu tìm ra nguồn nhiễu, đừng vội tin rằng mọi cỗ máy đều xấu."
+        }
+      ]
+    },
+    {
+      "id": "ha_h18_after",
+      "node": "H18",
+      "when": {
+        "all_flags": [
+          "hoi_an.lamp_restored"
+        ],
+        "none_flags": [
+          "hoi_an.hq05_accepted"
+        ]
+      },
+      "priority": 30,
+      "lines": [
+        {
+          "speaker": "Ji-eun",
+          "text": "Cổng sang Jeonju đã mở. Ở chợ hanok J15 có gian hàng giao lưu ẩm thực."
+        },
+        {
+          "speaker": "Ji-eun",
+          "text": "Bạn mang một trái ớt Hội An sang đó nhé? Họ đang thử phối một suất cơm rau mới."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Nhận lời mang ớt",
+          "when": {},
+          "actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ05"
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.hq05_accepted"
+            }
+          ]
+        },
+        {
+          "text": "Hỏi về thư hồi âm",
+          "when": {},
+          "actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ03"
+            }
+          ]
+        },
+        {
+          "text": "Để sau",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h10_food_branch",
+      "node": "H10",
+      "when": {
+        "all_flags": [
+          "hoi_an.lamp_restored",
+          "hoi_an.ba_tu_helped"
+        ],
+        "none_flags": [
+          "hue.shallot_shared",
+          "hoi_an.hq06_accepted"
+        ]
+      },
+      "priority": 85,
+      "lines": [
+        {
+          "speaker": "Bà Tư",
+          "text": "Có một sạp ở chợ xưa Huế hỏi mua hành tím. Nếu đi Huế, cháu mang giúp bà một củ nhé?"
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Vừa đi khám phá vừa kết nối chợ hai miền, hay đó ạ."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Nhận gói hàng",
+          "when": {},
+          "actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ06"
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.hq06_accepted"
+            }
+          ]
+        },
+        {
+          "text": "Để sau",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h10_food_finish",
+      "node": "H10",
+      "when": {
+        "all_flags": [
+          "hue.shallot_shared",
+          "jeonju.chili_shared"
+        ],
+        "none_flags": [
+          "hoi_an.festival_food_exchange_done"
+        ]
+      },
+      "priority": 100,
+      "lines": [
+        {
+          "speaker": "Bà Tư",
+          "text": "Huế có giấy nhắn, Jeonju có thẻ món ăn! Hóa ra cùng một mâm cơm cũng kết nối được ba thành phố."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Đúng rồi. Không chỉ đèn lồng, cả những việc nhỏ cũng nối hai nước."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Nhận bưu thiếp lễ hội",
+          "when": {},
+          "actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ07"
+            },
+            {
+              "type": "emit_trigger",
+              "id": "dialogue.ba_tu_friendship_reward"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ha_h9_secret",
+      "node": "H9",
+      "when": {
+        "any_flags": [
+          "hoi_an.secret_lane_found",
+          "jeonju.hidden_letter_found"
+        ]
+      },
+      "priority": 30,
+      "lines": [
+        {
+          "speaker": "Người giữ ngõ",
+          "text": "Một người từ Jeonju từng gửi lời nhắn ở đây. Dấu mực chỉ hiện khi đèn phố đã sáng."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Có lẽ chiếc đèn này không thất lạc, chỉ đang đợi lời hồi âm."
+        }
+      ]
+    },
+    {
+      "id": "ha_h6_postcard",
+      "node": "H6",
+      "when": {
+        "none_flags": [
+          "hoi_an.checkin_bridge"
+        ]
+      },
+      "priority": 15,
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Cây cầu nối hai bờ phố cổ thật đẹp. Mình chụp một bưu thiếp lưu lại khoảnh khắc này!"
+        }
+      ],
+      "choices": [
+        {
+          "text": "Check-in",
+          "when": {},
+          "actions": [
+            {
+              "type": "set_flag",
+              "id": "hoi_an.checkin_bridge"
+            },
+            {
+              "type": "give_item_once",
+              "id": "hoi_an_bridge_postcard",
+              "amount": 1,
+              "unique_key": "checkin.hoi_an.bridge"
+            }
+          ]
+        },
+        {
+          "text": "Đi tiếp",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h15_lantern",
+      "node": "H15",
+      "when": {
+        "none_flags": [
+          "hoi_an.ghost_freed"
+        ]
+      },
+      "priority": 20,
+      "lines": [
+        {
+          "speaker": "Đèn Lồng Ma",
+          "text": "Lập lòe... đừng giật ngọn lửa của tôi..."
+        },
+        {
+          "speaker": "Lumi",
+          "text": "Có thể chiếc đèn này đang hết năng lượng, không phải kẻ địch."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Giúp thắp lại",
+          "when": {
+            "items_at_least": {
+              "healing_tea": 1
+            }
+          },
+          "actions": [
+            {
+              "type": "set_flag",
+              "id": "hoi_an.ghost_freed"
+            }
+          ]
+        },
+        {
+          "text": "Chiến đấu phòng vệ",
+          "when": {},
+          "actions": [
+            {
+              "type": "start_battle",
+              "id": "enemy_ghost"
+            }
+          ]
+        },
+        {
+          "text": "Bỏ qua",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h20_hue",
+      "node": "H20",
+      "when": {
+        "all_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      },
+      "priority": 20,
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Bên kia cổng là Huế, nơi sông Hương chảy giữa hai bờ thành phố. Đi nào!"
+        }
+      ]
+    },
+    {
+      "id": "ha_h8_jeonju",
+      "node": "H8",
+      "when": {
+        "all_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      },
+      "priority": 20,
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Jeonju đang chờ. Mình sẽ tìm hiểu xem mảnh giấy sáng ấy từ đâu mà có."
+        }
+      ]
+    },
+    {
+      "id": "ha_h4_crab_bait",
+      "node": "H4",
+      "priority": 26,
+      "when": {
+        "all_flags": [
+          "hoi_an.hq02_accepted"
+        ],
+        "none_flags": [
+          "hoi_an.crab_resolved"
+        ],
+        "not_items_at_least": {
+          "crab_bait": 1
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Người bán chợ",
+          "text": "Nếu không muốn đánh cua, cháu lấy ít mồi này, đặt xuống bờ nước để đổi cuộn dây."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Nhận mồi cua",
+          "when": {},
+          "actions": [
+            {
+              "type": "refill_if_below",
+              "id": "crab_bait",
+              "threshold": 1,
+              "amount": 1,
+              "per_quest": "HQ02"
+            }
+          ]
+        },
+        {
+          "text": "Để sau",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "id": "ha_h18_exchange_active",
+      "node": "H18",
+      "priority": 40,
+      "when": {
+        "all_flags": [
+          "hoi_an.hq05_accepted"
+        ],
+        "none_flags": [
+          "jeonju.chili_shared"
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "Ji-eun",
+          "text": "Một trái ớt Hội An đưa tới quầy J15 ở Jeonju là đủ. Nếu hết, ghé Bà Tư H10 nhé."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Hỏi về thư hồi âm",
+          "when": {},
+          "actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ha_h18_exchange_done",
+      "node": "H18",
+      "priority": 55,
+      "when": {
+        "all_flags": [
+          "jeonju.chili_shared"
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "Ji-eun",
+          "text": "So-yeon bên Jeonju gửi thẻ món ăn rồi à? Cảm ơn Lumi. Chuyến giao lưu này mới chỉ bắt đầu."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Hỏi về thư hồi âm",
+          "when": {},
+          "actions": [
+            {
+              "type": "start_quest",
+              "id": "HQ03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ha_h1_street",
+      "node": "H1",
+      "priority": 1,
+      "when": {},
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Phố đèn chia làm nhiều nhánh. Mình sẽ ghé các ngõ đang mở trước, không cần chạy tới hết mọi nơi."
+        }
+      ]
+    },
+    {
+      "id": "ha_h11_chest",
+      "node": "H11",
+      "priority": 1,
+      "when": {
+        "none_flags": [
+          "hoi_an.chest_h11_opened"
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Một chiếc rương gỗ bên bến. Có vài đồng xu và mẩu giấy chỉ đường."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Mở rương",
+          "when": {},
+          "actions": [
+            {
+              "type": "give_item_once",
+              "id": "coin",
+              "amount": 6,
+              "unique_key": "hoi_an.h11_chest_coins"
+            },
+            {
+              "type": "set_flag",
+              "id": "hoi_an.chest_h11_opened"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ha_h16_dock",
+      "node": "H16",
+      "priority": 1,
+      "when": {},
+      "lines": [
+        {
+          "speaker": "Người gác bến",
+          "text": "Lối sang bến gỗ có cỗ máy canh. Nếu nó còn khóa đường, cháu nên chuẩn bị trước."
+        }
+      ]
+    },
+    {
+      "id": "ha_h12_after",
+      "node": "H12",
+      "priority": 40,
+      "when": {
+        "all_flags": [
+          "hoi_an.crab_resolved"
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Cuộn dây đã trả lại cho Bà Tư được rồi. Con cua cũng yên ổn bên bờ nước."
+        }
+      ]
+    },
+    {
+      "id": "ha_h17_after",
+      "node": "H17",
+      "priority": 40,
+      "when": {
+        "all_flags": [
+          "hoi_an.ferry_available"
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "Bác lái đò",
+          "text": "Muốn đi qua nhánh đông thì cứ lên thuyền, cháu không cần trả phí lần nữa."
+        }
+      ]
+    },
+    {
+      "id": "ha_h21_attic",
+      "node": "H21",
+      "priority": 1,
+      "when": {
+        "none_flags": [
+          "hoi_an.chest_h21_opened"
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Rương áp mái có chút tiền và dấu mực giống nét viết từ một vùng đất xa."
+        }
+      ],
+      "choices": [
+        {
+          "text": "Mở rương",
+          "when": {},
+          "actions": [
+            {
+              "type": "set_flag",
+              "id": "hoi_an.chest_h21_opened"
+            },
+            {
+              "type": "grant_currency_once",
+              "id": "coin",
+              "amount": 3,
+              "unique_key": "hoi_an.h21_3coins"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ha_h0_checkin",
+      "node": "H0",
+      "priority": 1,
+      "when": {
+        "all_flags": [
+          "hoi_an.intro_seen"
+        ],
+        "none_flags": [
+          "hoi_an.checkin_wharf"
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "Lumi",
+          "text": "Mình chụp bưu thiếp đầu tiên ở bến thuyền. Ánh đèn trên nước đẹp quá!"
+        }
+      ],
+      "choices": [
+        {
+          "text": "Check-in",
+          "when": {},
+          "actions": [
+            {
+              "type": "set_flag",
+              "id": "hoi_an.checkin_wharf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "puzzles": [
+    {
+      "id": "puzzle_market",
+      "node": "H4",
+      "type": "symbol_order",
+      "intro": "Chỉ đường đến xưởng giấy bằng ba biểu tượng mái phố.",
+      "symbols": [
+        "Hoa",
+        "Trăng",
+        "Đèn"
+      ],
+      "solution": [
+        "Hoa",
+        "Trăng",
+        "Đèn"
+      ],
+      "attempts_unlimited": true,
+      "fail_has_no_item_cost": true,
+      "reward_flag": "hoi_an.market_puzzle_solved",
+      "note": "Source screenshot already uses Hoa–Trăng–Đèn; do not override actual existing puzzle answer if source differs."
+    },
+    {
+      "id": "puzzle_paper",
+      "node": "H13",
+      "type": "pattern_selection",
+      "intro": "Nhận dạng mẫu giấy phù hợp họa tiết và nhịp đèn ở chợ.",
+      "variants": [
+        "Mẫu giấy nhịp lệch",
+        "Mẫu hoa văn phản sáng đúng",
+        "Mẫu giấy có nét thiếu"
+      ],
+      "correct_choice_index": 1,
+      "reward_item": "hanji_core",
+      "reward_once": true
+    },
+    {
+      "id": "puzzle_pottery",
+      "node": "H19",
+      "type": "symbol_code",
+      "intro": "Đọc ba dấu trên tranh gốm để lấy mã an toàn cho bot H5.",
+      "symbols": [
+        "Hoa",
+        "Trăng",
+        "Đèn"
+      ],
+      "solution": [
+        "Hoa",
+        "Trăng",
+        "Đèn"
+      ],
+      "reward_flag": "hoi_an.mo01_hack_code",
+      "note": "Receiving the code is not the same as resolving the boss; H5 requires interaction to enter the code."
+    },
+    {
+      "id": "puzzle_oar",
+      "node": "H17",
+      "type": "simple_repair",
+      "intro": "Đặt hai miếng gỗ lên mái chèo theo vết ghép và buộc dây.",
+      "actions_in_order": [
+        "ghép hai miếng gỗ",
+        "buộc dây cố định"
+      ],
+      "reward_flag": "hoi_an.oar_fixed",
+      "note": "Optional route alternative to paying 5 coins. Must not automatically move player across water."
+    }
+  ],
+  "quest_progress_rules": [
+    "Recompute ordered quest objectives from persistent flags, collected IDs and item counts when loading or advancing. If player resolved H5 before H13, step H5 auto-satisfies later without replaying the battle.",
+    "Quest start/complete/reward actions must be idempotent and keyed by unique IDs.",
+    "Do not show an option whose requirements cannot be met; show helpful hint when an item is missing.",
+    "While cross-city trade quest active, item recovery is one unit only when none remains; disallow selling these active quest items to farm recovery."
+  ]
+}

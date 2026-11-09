@@ -1,0 +1,17 @@
+{
+  "G16": {
+    "actor": "Kang Tae-ho · Người trông đền",
+    "text": "Ta trông ngôi đền này đã lâu, vẫn thích nhất lúc mặt hồ lặng gió. Khách đường xa như Lumi cứ nghỉ ở hiên một lát nhé. Hai phần trà và năm xu này, cháu mang theo cho ấm bụng dọc đường.",
+    "completedText": "Lumi lại ghé đấy à? Hiên đền vẫn yên như hôm trước. Cứ ngồi nghe tiếng nước một lát rồi hãy lên đường nhé."
+  },
+  "G21": {
+    "actor": "Choi Eun-su · Người hái thuốc",
+    "text": "Tôi là Eun-su, đang hái ít lá thuốc còn đẫm sương. Đi chậm mới nhận ra mùi cây cỏ, Lumi nhỉ? Tôi gửi bạn hai phần trà; đến chặng nghỉ hãy pha, đừng đợi mỏi chân quá nhé.",
+    "completedText": "Chào Lumi! Khóm cây hôm trước đã có lá non rồi. Bạn cứ nghỉ bên lối cỏ; những chặng đường dài cũng cần một khoảng thảnh thơi."
+  },
+  "S12": {
+    "actor": "Han Do-yun · Người chăm công viên",
+    "text": "Mình là Do-yun, vừa chăm xong luống cây bên lối đi. Giữa Seoul rộn ràng, góc xanh này giúp mình nghe rõ tiếng gió. Lumi ngồi nghỉ nhé; ba phần trà và mười hai xu này là chút động viên cho chặng tiếp theo.",
+    "completedText": "Lumi, lại gặp bạn rồi! Cây vẫn xanh, ghế bên sông vẫn còn chỗ. Khi phố xá làm bạn thấy vội, cứ ghé đây nghỉ một lát nhé."
+  }
+}

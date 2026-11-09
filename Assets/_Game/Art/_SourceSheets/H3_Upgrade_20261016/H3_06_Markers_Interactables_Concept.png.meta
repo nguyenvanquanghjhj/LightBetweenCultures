@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: 72dd905d099991c4fbc0af75b2b7d0b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -103771263370196650
+    second: H3_06_Markers_Interactables_Concept_0
+  - first:
+      213: -6817479529757180769
+    second: H3_06_Markers_Interactables_Concept_1
+  - first:
+      213: 8115138309275417019
+    second: H3_06_Markers_Interactables_Concept_2
+  - first:
+      213: -2903019030234297941
+    second: H3_06_Markers_Interactables_Concept_3
+  - first:
+      213: -6305396000816172489
+    second: H3_06_Markers_Interactables_Concept_4
+  - first:
+      213: -161226719401740812
+    second: H3_06_Markers_Interactables_Concept_5
+  - first:
+      213: -4784467064671877111
+    second: H3_06_Markers_Interactables_Concept_6
+  - first:
+      213: 4042913331242645213
+    second: H3_06_Markers_Interactables_Concept_7
+  - first:
+      213: 5325639440414643652
+    second: H3_06_Markers_Interactables_Concept_8
+  - first:
+      213: 5275116062629691927
+    second: H3_06_Markers_Interactables_Concept_9
+  - first:
+      213: 2913516056149314714
+    second: H3_06_Markers_Interactables_Concept_10
+  - first:
+      213: -3964065785957611063
+    second: H3_06_Markers_Interactables_Concept_11
+  - first:
+      213: -7154125776285844233
+    second: H3_06_Markers_Interactables_Concept_12
+  - first:
+      213: 4781883957165447823
+    second: H3_06_Markers_Interactables_Concept_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 394
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6590de4f5945f8ef0800000000000000
+      internalID: -103771263370196650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 734
+        width: 749
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c735dfc727361a0800000000000000
+      internalID: -6817479529757180769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_2
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1036
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb97683eb43ce9070800000000000000
+      internalID: 8115138309275417019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_3
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 749
+        width: 197
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba98fa6a29766b7d0800000000000000
+      internalID: -2903019030234297941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_4
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1012
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732fe23aebbbe78a0800000000000000
+      internalID: -6305396000816172489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_5
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1002
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5f1c5272533cdf0800000000000000
+      internalID: -161226719401740812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_6
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 730
+        width: 170
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9084daacd882a9db0800000000000000
+      internalID: -4784467064671877111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 1036
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6b86621405b1830800000000000000
+      internalID: 4042913331242645213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_8
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 714
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c599b7cad878e940800000000000000
+      internalID: 5325639440414643652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_9
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 730
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71200063c1af43940800000000000000
+      internalID: 5275116062629691927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_10
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 704
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c4d26aa63ee6820800000000000000
+      internalID: 2913516056149314714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 372
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c987b19b2fccf8c0800000000000000
+      internalID: -3964065785957611063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 56
+        width: 311
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc340ab28077bc90800000000000000
+      internalID: -7154125776285844233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_06_Markers_Interactables_Concept_13
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 52
+        width: 329
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a5cff9f1aac5240800000000000000
+      internalID: 4781883957165447823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      H3_06_Markers_Interactables_Concept_0: -103771263370196650
+      H3_06_Markers_Interactables_Concept_1: -6817479529757180769
+      H3_06_Markers_Interactables_Concept_10: 2913516056149314714
+      H3_06_Markers_Interactables_Concept_11: -3964065785957611063
+      H3_06_Markers_Interactables_Concept_12: -7154125776285844233
+      H3_06_Markers_Interactables_Concept_13: 4781883957165447823
+      H3_06_Markers_Interactables_Concept_2: 8115138309275417019
+      H3_06_Markers_Interactables_Concept_3: -2903019030234297941
+      H3_06_Markers_Interactables_Concept_4: -6305396000816172489
+      H3_06_Markers_Interactables_Concept_5: -161226719401740812
+      H3_06_Markers_Interactables_Concept_6: -4784467064671877111
+      H3_06_Markers_Interactables_Concept_7: 4042913331242645213
+      H3_06_Markers_Interactables_Concept_8: 5325639440414643652
+      H3_06_Markers_Interactables_Concept_9: 5275116062629691927
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

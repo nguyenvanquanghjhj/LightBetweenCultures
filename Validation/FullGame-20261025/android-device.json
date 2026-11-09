@@ -1,0 +1,9 @@
+{
+  "dateLocal": "2026-10-25",
+  "timezone": "Asia/Bangkok",
+  "adbDevices": "List of devices attached; no entries",
+  "status": "BLOCKED_NO_ADB_DEVICE",
+  "installedOrUpdated": false,
+  "saveChanged": false,
+  "latestNpcAndroidAcceptance": "NOT_TESTED"
+}

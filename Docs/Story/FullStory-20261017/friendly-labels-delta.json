@@ -1,0 +1,54 @@
+{
+  "type": "DISPLAY_TEXT_ONLY",
+  "gameplayFieldsIdenticalToBuild04": true,
+  "changes": [
+    {
+      "city": "gyeongju",
+      "node": "G17",
+      "before": null,
+      "after": "Nhận nhiệm vụ Hoa văn bờ tây tại đây trước khi ghép hoa văn Hanji."
+    },
+    {
+      "city": "gyeongju",
+      "node": "G18",
+      "before": null,
+      "after": "Nhận nhiệm vụ Đêm đài thiên văn tại đây trước khi giao chiến; nhật ký sẽ ghi đường tới trạm G19."
+    },
+    {
+      "city": "seoul",
+      "node": "S3",
+      "before": null,
+      "after": "Hãy mở hồ sơ lịch sử S4 rồi mới giải lời nhắn tại sân cung điện."
+    },
+    {
+      "city": "seoul",
+      "node": "S16",
+      "before": null,
+      "after": "Nhận nhiệm vụ Ba nhịp đồng bộ ở Ji-won S7 và mang Tín Hiệu Nước Xanh từ Đà Lạt."
+    },
+    {
+      "city": "seoul",
+      "node": "S17",
+      "before": null,
+      "after": "Cần nhiệm vụ Ba nhịp đồng bộ và Ấn Tín Cổ từ Huế. Ấn chỉ được đối chiếu, không tiêu hao."
+    },
+    {
+      "city": "seoul",
+      "node": "S18",
+      "before": null,
+      "after": "Nhận nhiệm vụ Ba nhịp đồng bộ ở Ji-won S7 và mang Mạch Đèn Hanji từ Jeonju."
+    },
+    {
+      "city": "seoul",
+      "node": "S20",
+      "before": null,
+      "after": "Nhận nhiệm vụ Lõi sáng cuối tại đây trước khi chạm vào lõi. Ba relay và đường hầm phải được xử lý thật."
+    },
+    {
+      "city": "seoul",
+      "node": "S22",
+      "before": null,
+      "after": "Nhận nhiệm vụ Tín hiệu bóng Mờ tại đây rồi kiểm tra bản tin bằng ống kính."
+    }
+  ]
+}

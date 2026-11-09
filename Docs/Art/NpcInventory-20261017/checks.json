@@ -1,0 +1,9 @@
+{
+  "reviewImageLinks": "PASS",
+  "assignedGuidAndLocalIdMeta": "PASS; Unity Single sprites use implicit localId 21300000",
+  "identityApprovalAndVariantsUnchanged": "PASS",
+  "missingRoleAssessment": "6 NEEDS_NEW_ART, 1 NOT_REQUIRED_CURRENT_GAMEPLAY",
+  "sourceAndBindings": "PASS; see integrity.json",
+  "newRuntimeDisplayTest": "NOT APPLICABLE: no new binding",
+  "newBuild": "NOT REQUIRED: no production input change"
+}

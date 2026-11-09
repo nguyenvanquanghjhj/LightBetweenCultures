@@ -1,0 +1,128 @@
+{
+    "version": 2,
+    "cityId": "hoi_an",
+    "node": 2,
+    "previousNode": 7,
+    "visited": [
+        0,
+        2,
+        3,
+        4,
+        10,
+        13,
+        19,
+        5,
+        7
+    ],
+    "accepted": [
+        "mai-lantern",
+        "HQ01"
+    ],
+    "completed": [
+        "mai-lantern",
+        "HQ01"
+    ],
+    "items": [
+        "healing_tea",
+        "healing_tea"
+    ],
+    "collected": [
+        "lantern-part"
+    ],
+    "flags": [
+        "relic.proof.fragment_hoi_an_bamboo_frame",
+        "relic.fragment.fragment_hoi_an_bamboo_frame",
+        "quest:HQ01",
+        "hoi_an.lamp_eye_found",
+        "lantern-lit",
+        "relic.proof.fragment_hoi_an_eye_reflection",
+        "relic.fragment.fragment_hoi_an_eye_reflection",
+        "hoi_an.market_puzzle_solved",
+        "relic.proof.fragment_hoi_an_old_flower_paper",
+        "relic.fragment.fragment_hoi_an_old_flower_paper",
+        "relic.proof.fragment_hoi_an_roof_hook",
+        "relic.fragment.fragment_hoi_an_roof_hook",
+        "relic.assembled.relic_hoi_an_lantern",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.mo01_hack_code",
+        "hoi_an.mo01_disabled",
+        "hoi_an.lamp_restored",
+        "city.hue.unlocked",
+        "city.jeonju.unlocked"
+    ],
+    "resolvedEvents": [
+        "hoi_an:enemy_mo01"
+    ],
+    "defeatedEnemies": [],
+    "solvedPuzzles": [
+        "puzzle_market",
+        "puzzle_paper",
+        "puzzle_pottery"
+    ],
+    "choices": [
+        "hoi_an:enemy_mo01:hack"
+    ],
+    "rewardGrantIds": [
+        "relic:v1:claim:fragment_hoi_an_bamboo_frame",
+        "quest-accept:HQ01:healing_tea",
+        "h3-lamp-eye",
+        "relic:v1:claim:fragment_hoi_an_eye_reflection",
+        "relic:v1:claim:fragment_hoi_an_old_flower_paper",
+        "relic:v1:claim:fragment_hoi_an_roof_hook",
+        "puzzle:puzzle_paper:hanji_core",
+        "encounter:hoi_an:enemy_mo01:link_key"
+    ],
+    "leisureCompleted": [],
+    "catRescues": [],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 2,
+            "stage": 4,
+            "visited": [
+                0,
+                2,
+                3,
+                4,
+                10,
+                13,
+                19,
+                5,
+                7
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "jeonju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 3,
+    "coins": 150
+}

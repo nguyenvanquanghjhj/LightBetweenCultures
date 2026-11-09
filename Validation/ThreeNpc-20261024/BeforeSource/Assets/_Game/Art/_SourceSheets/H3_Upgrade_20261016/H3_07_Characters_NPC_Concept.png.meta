@@ -1,0 +1,968 @@
+fileFormatVersion: 2
+guid: ab62ba1e558f7274984500bb1cac18f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 479841202289729273
+    second: H3_07_Characters_NPC_Concept_0
+  - first:
+      213: -5143043727086802620
+    second: H3_07_Characters_NPC_Concept_1
+  - first:
+      213: -4265597072747776650
+    second: H3_07_Characters_NPC_Concept_2
+  - first:
+      213: -2012730137663393918
+    second: H3_07_Characters_NPC_Concept_3
+  - first:
+      213: 8745918615066747196
+    second: H3_07_Characters_NPC_Concept_4
+  - first:
+      213: -8415950893824659087
+    second: H3_07_Characters_NPC_Concept_5
+  - first:
+      213: 6957984451916124669
+    second: H3_07_Characters_NPC_Concept_6
+  - first:
+      213: -4090676421461662750
+    second: H3_07_Characters_NPC_Concept_7
+  - first:
+      213: 1763056132593772794
+    second: H3_07_Characters_NPC_Concept_8
+  - first:
+      213: 6772333607864178943
+    second: H3_07_Characters_NPC_Concept_9
+  - first:
+      213: 144276011234019059
+    second: H3_07_Characters_NPC_Concept_10
+  - first:
+      213: 3271152826625519489
+    second: H3_07_Characters_NPC_Concept_11
+  - first:
+      213: 5918670669536044755
+    second: H3_07_Characters_NPC_Concept_12
+  - first:
+      213: 2371881605166659234
+    second: H3_07_Characters_NPC_Concept_13
+  - first:
+      213: 4210009647818869598
+    second: H3_07_Characters_NPC_Concept_14
+  - first:
+      213: -800487684454507135
+    second: H3_07_Characters_NPC_Concept_15
+  - first:
+      213: -1607489545527418455
+    second: H3_07_Characters_NPC_Concept_16
+  - first:
+      213: 6277053376908514288
+    second: H3_07_Characters_NPC_Concept_17
+  - first:
+      213: 7144811786846740715
+    second: H3_07_Characters_NPC_Concept_18
+  - first:
+      213: -7400866961864976714
+    second: H3_07_Characters_NPC_Concept_19
+  - first:
+      213: -1608953927863941457
+    second: H3_07_Characters_NPC_Concept_20
+  - first:
+      213: 543755733558087777
+    second: H3_07_Characters_NPC_Concept_21
+  - first:
+      213: 8518964461385267744
+    second: H3_07_Characters_NPC_Concept_22
+  - first:
+      213: 8637574531497076435
+    second: H3_07_Characters_NPC_Concept_23
+  - first:
+      213: 8367833647545224222
+    second: H3_07_Characters_NPC_Concept_24
+  - first:
+      213: -1742927032031606190
+    second: H3_07_Characters_NPC_Concept_25
+  - first:
+      213: -5231367431455545097
+    second: H3_07_Characters_NPC_Concept_26
+  - first:
+      213: 8980932690861220783
+    second: H3_07_Characters_NPC_Concept_27
+  - first:
+      213: 8941126398687135933
+    second: H3_07_Characters_NPC_Concept_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 933
+        width: 218
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe531bf70db8a600800000000000000
+      internalID: 479841202289729273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 965
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449a0beaafc30a8b0800000000000000
+      internalID: -5143043727086802620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 947
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6753cebff0e8dc4c0800000000000000
+      internalID: -4265597072747776650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 940
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fa9db8a985114e0800000000000000
+      internalID: -2012730137663393918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 925
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31a78d74aebf5970800000000000000
+      internalID: 8745918615066747196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_5
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 929
+        width: 191
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171337e6049843b80800000000000000
+      internalID: -8415950893824659087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_6
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 961
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1d6297ef9bf8060800000000000000
+      internalID: 6957984451916124669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_7
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 939
+        width: 120
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e326bfc77ffa37c0800000000000000
+      internalID: -4090676421461662750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1042
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af863562632a77810800000000000000
+      internalID: 1763056132593772794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_9
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 949
+        width: 116
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff81f25f8892cfd50800000000000000
+      internalID: 6772333607864178943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_10
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 971
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6c63f8442900200800000000000000
+      internalID: 144276011234019059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_11
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 955
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f670d1a28756d20800000000000000
+      internalID: 3271152826625519489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_12
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 945
+        width: 140
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d628309d97532250800000000000000
+      internalID: 5918670669536044755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_13
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 974
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6fd3dc0cd9ae020800000000000000
+      internalID: 2371881605166659234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_14
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 531
+        width: 322
+        height: 519
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b06371875fc6a30800000000000000
+      internalID: 4210009647818869598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_15
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 965
+        width: 44
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d930131b814e4f0800000000000000
+      internalID: -800487684454507135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 939
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a12fa276cc01b9e0800000000000000
+      internalID: -1607489545527418455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_17
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 939
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f35ccef9c29c1750800000000000000
+      internalID: 6277053376908514288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_18
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 931
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0260e1778772360800000000000000
+      internalID: 7144811786846740715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 351
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b61d1ca5b6da4990800000000000000
+      internalID: -7400866961864976714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_20
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 923
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa643bd5de8dba9e0800000000000000
+      internalID: -1608953927863941457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_21
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 449
+        width: 609
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160df4f65fecb8700800000000000000
+      internalID: 543755733558087777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_22
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 46
+        width: 575
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02abb0fca01793670800000000000000
+      internalID: 8518964461385267744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_23
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 481
+        width: 252
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -126, y: 207}
+        - {x: 126, y: 207}
+        - {x: 126, y: -207}
+        - {x: -126, y: -207}
+        - {x: -126, y: 83}
+        - {x: -116, y: 83}
+        - {x: -116, y: 148}
+        - {x: -126, y: 148}
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d628d6c544ded770800000000000000
+      internalID: 8637574531497076435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_24
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 62
+        width: 478
+        height: 459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c8e752e54802470800000000000000
+      internalID: 8367833647545224222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_25
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 459
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a845a4911efc7e0800000000000000
+      internalID: -1742927032031606190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_26
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 458
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f86b8eb9037667b0800000000000000
+      internalID: -5231367431455545097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_27
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 455
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3e97603bea2ac70800000000000000
+      internalID: 8980932690861220783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H3_07_Characters_NPC_Concept_28
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 64
+        width: 318
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db84d956613451c70800000000000000
+      internalID: 8941126398687135933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phuc_DialoguePortrait
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 521
+        width: 263
+        height: 411
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -131.5, y: 205.5}
+        - {x: 131.5, y: 205.5}
+        - {x: 131.5, y: -32.5}
+        - {x: 103.5, y: -51.5}
+        - {x: 96.5, y: -70.5}
+        - {x: 96.5, y: -205.5}
+        - {x: -131.5, y: -205.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346439cea541330498f6f017e5ed9efa
+      internalID: 1019635214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JiWon_DialoguePortrait
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 66
+        width: 355
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -177.5, y: 200}
+        - {x: 143.5, y: 200}
+        - {x: 143.5, y: 110}
+        - {x: 177.5, y: 87}
+        - {x: 177.5, y: 23}
+        - {x: 149.5, y: 5}
+        - {x: 149.5, y: -200}
+        - {x: -177.5, y: -200}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68ba07cad97df44abe5e802bd2186a5
+      internalID: 1851553138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0f0214819ea507a428ec32c59eba7fc2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      H3_07_Characters_NPC_Concept_0: 479841202289729273
+      H3_07_Characters_NPC_Concept_1: -5143043727086802620
+      H3_07_Characters_NPC_Concept_10: 144276011234019059
+      H3_07_Characters_NPC_Concept_11: 3271152826625519489
+      H3_07_Characters_NPC_Concept_12: 5918670669536044755
+      H3_07_Characters_NPC_Concept_13: 2371881605166659234
+      H3_07_Characters_NPC_Concept_14: 4210009647818869598
+      H3_07_Characters_NPC_Concept_15: -800487684454507135
+      H3_07_Characters_NPC_Concept_16: -1607489545527418455
+      H3_07_Characters_NPC_Concept_17: 6277053376908514288
+      H3_07_Characters_NPC_Concept_18: 7144811786846740715
+      H3_07_Characters_NPC_Concept_19: -7400866961864976714
+      H3_07_Characters_NPC_Concept_2: -4265597072747776650
+      H3_07_Characters_NPC_Concept_20: -1608953927863941457
+      H3_07_Characters_NPC_Concept_21: 543755733558087777
+      H3_07_Characters_NPC_Concept_22: 8518964461385267744
+      H3_07_Characters_NPC_Concept_23: 8637574531497076435
+      H3_07_Characters_NPC_Concept_24: 8367833647545224222
+      H3_07_Characters_NPC_Concept_25: -1742927032031606190
+      H3_07_Characters_NPC_Concept_26: -5231367431455545097
+      H3_07_Characters_NPC_Concept_27: 8980932690861220783
+      H3_07_Characters_NPC_Concept_28: 8941126398687135933
+      H3_07_Characters_NPC_Concept_3: -2012730137663393918
+      H3_07_Characters_NPC_Concept_4: 8745918615066747196
+      H3_07_Characters_NPC_Concept_5: -8415950893824659087
+      H3_07_Characters_NPC_Concept_6: 6957984451916124669
+      H3_07_Characters_NPC_Concept_7: -4090676421461662750
+      H3_07_Characters_NPC_Concept_8: 1763056132593772794
+      H3_07_Characters_NPC_Concept_9: 6772333607864178943
+      JiWon_DialoguePortrait: 1851553138
+      Phuc_DialoguePortrait: 1019635214
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

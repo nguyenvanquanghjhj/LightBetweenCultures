@@ -1,0 +1,283 @@
+{
+    "version": 2,
+    "cityId": "jeonju",
+    "node": 1,
+    "previousNode": 16,
+    "visited": [
+        0,
+        1,
+        16
+    ],
+    "accepted": [],
+    "completed": [],
+    "items": [],
+    "collected": [],
+    "flags": [],
+    "resolvedEvents": [],
+    "defeatedEnemies": [],
+    "solvedPuzzles": [],
+    "choices": [],
+    "rewardGrantIds": [
+        "catrescue.reward.cat_hoi_an",
+        "catrescue.reward.cat_hue",
+        "catrescue.reward.cat_da_lat"
+    ],
+    "leisureCompleted": [],
+    "catRescues": [
+        {
+            "cityId": "hoi_an",
+            "started": true,
+            "rescued": true,
+            "completed": [
+                "hoi_an_lantern",
+                "hoi_an_bridge",
+                "hoi_an_food",
+                "hoi_an_river"
+            ],
+            "supplies": [
+                "hoi_an_basket",
+                "hoi_an_lantern",
+                "hoi_an_rope"
+            ],
+            "challenges": [
+                {
+                    "challengeId": "hoi_an_lantern",
+                    "marks": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "hoi_an_bridge",
+                    "marks": [
+                        1
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "hoi_an_food",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "hoi_an_river",
+                    "marks": [
+                        2
+                    ],
+                    "path": []
+                }
+            ]
+        },
+        {
+            "cityId": "hue",
+            "started": true,
+            "rescued": true,
+            "completed": [
+                "hue_heritage",
+                "hue_food",
+                "hue_music",
+                "hue_river"
+            ],
+            "supplies": [
+                "hue_boat",
+                "hue_vest",
+                "hue_blanket"
+            ],
+            "challenges": [
+                {
+                    "challengeId": "hue_heritage",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "hue_food",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "hue_music",
+                    "marks": [
+                        0
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "hue_river",
+                    "marks": [],
+                    "path": [
+                        0,
+                        1,
+                        2,
+                        7,
+                        12,
+                        11,
+                        10,
+                        15,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24
+                    ]
+                }
+            ]
+        },
+        {
+            "cityId": "da_lat",
+            "started": true,
+            "rescued": true,
+            "completed": [
+                "da_lat_flowers",
+                "da_lat_food",
+                "da_lat_station",
+                "da_lat_fog"
+            ],
+            "supplies": [
+                "da_lat_lamp",
+                "da_lat_bell",
+                "da_lat_food"
+            ],
+            "challenges": [
+                {
+                    "challengeId": "da_lat_flowers",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "da_lat_food",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "da_lat_station",
+                    "marks": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "da_lat_fog",
+                    "marks": [],
+                    "path": [
+                        0,
+                        5,
+                        6,
+                        7,
+                        12,
+                        13,
+                        14,
+                        19,
+                        24
+                    ]
+                }
+            ]
+        },
+        {
+            "cityId": "jeonju",
+            "started": true,
+            "rescued": false,
+            "completed": [],
+            "supplies": [
+                "jeonju_basket",
+                "jeonju_ribbon",
+                "jeonju_food"
+            ],
+            "challenges": [
+                {
+                    "challengeId": "jeonju_hanok",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": []
+                }
+            ]
+        }
+    ],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 18,
+            "stage": 0,
+            "visited": [
+                0,
+                5,
+                3,
+                18
+            ]
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 11,
+            "stage": 0,
+            "visited": [
+                0,
+                1,
+                11
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 14,
+            "stage": 0,
+            "visited": [
+                0,
+                1,
+                2,
+                14
+            ]
+        },
+        {
+            "cityId": "jeonju",
+            "node": 1,
+            "stage": 0,
+            "visited": [
+                0,
+                1,
+                16
+            ]
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 3,
+    "coins": 24
+}

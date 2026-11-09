@@ -1,0 +1,3 @@
+Timed out: scene WorldMap
+Modal=False moving=False stage=4
+Buttons: H1:True:True,H17:True:True,H15:True:True,H0:True:True,AudioSettings:True:True,H18:True:True,MarkerMotion:True:True,Inventory:True:True,H10:True:True,QuestJournal:True:True,ObjectiveHint:True:True,H11:True:True,ZoomIn:True:True,H12:True:True,H7:True:True,H19:True:True,H5:True:True,H14:True:True,H21:True:True,H13:True:True,H4:True:True,ZoomOut:True:True,H9:False:False,H16:True:True,H20:True:True,FocusLumi:True:True,MapOverview:True:True,H8:True:True,Back:True:True,H2:True:True,H3:True:True,JourneyShop:True:True,Interact:True:True,H6:True:True

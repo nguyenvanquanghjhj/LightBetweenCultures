@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "type": "DESIGN_REFERENCE_NOT_RUNTIME_SAVE",
+  "notes": "Thiết kế sáu thành phố; chỉ HoiAn triển khai playable slice trước. ID cố định không dịch.",
+  "cities": [
+    {
+      "id": "hoi_an",
+      "display_name": "Hội An",
+      "country": "VN",
+      "palette": [
+        "#F4C368",
+        "#E7A53F",
+        "#D15C3D",
+        "#367F79",
+        "#224C65"
+      ],
+      "visual_landmarks": [
+        "nhà tường vàng mái ngói",
+        "đèn lồng",
+        "bến sông và thuyền",
+        "hẻm phố cổ"
+      ],
+      "signature_play": "nút đường đi phân nhánh + hẻm khám phá tự do; khôi phục trạm đèn",
+      "core_quest": "Khôi phục ánh sáng phố Hội",
+      "nodes_target": 10,
+      "required_flag": "START_UNLOCKED",
+      "unlocks_city": [
+        "jeonju",
+        "hue"
+      ],
+      "production_priority": "P0"
+    },
+    {
+      "id": "jeonju",
+      "display_name": "Jeonju",
+      "country": "KR",
+      "palette": [
+        "#D3B38C",
+        "#768A8A",
+        "#A9535A",
+        "#3A5758",
+        "#E8DCC4"
+      ],
+      "visual_landmarks": [
+        "mái nhà hanok",
+        "sân lát đá",
+        "xưởng thủ công",
+        "hẻm truyền thống"
+      ],
+      "signature_play": "ghép manh mối từ NPC và đồ vật thủ công",
+      "core_quest": "Mảnh hoa văn thất lạc",
+      "nodes_target": 6,
+      "required_flag": "hoi_an.light_restored",
+      "unlocks_city": [
+        "gyeongju"
+      ],
+      "production_priority": "P1"
+    },
+    {
+      "id": "hue",
+      "display_name": "Huế",
+      "country": "VN",
+      "palette": [
+        "#B9A66A",
+        "#BC6E4A",
+        "#60766B",
+        "#635A73",
+        "#293E50"
+      ],
+      "visual_landmarks": [
+        "cổng thành",
+        "sân gạch",
+        "hồ và tường cổ",
+        "vườn cây"
+      ],
+      "signature_play": "vật cản, đường vòng, bot giữ chìa khóa",
+      "core_quest": "Người gác cổng thành",
+      "nodes_target": 7,
+      "required_flag": "hoi_an.light_restored",
+      "unlocks_city": [
+        "da_lat"
+      ],
+      "production_priority": "P1"
+    },
+    {
+      "id": "gyeongju",
+      "display_name": "Gyeongju",
+      "country": "KR",
+      "palette": [
+        "#C8AF7C",
+        "#7C8E73",
+        "#7F6B91",
+        "#395C63",
+        "#F5D8A4"
+      ],
+      "visual_landmarks": [
+        "ao nước",
+        "điện các lịch sử",
+        "đường đá",
+        "khu vườn"
+      ],
+      "signature_play": "kích hoạt biểu tượng theo chuỗi manh mối",
+      "core_quest": "Đài cộng hưởng",
+      "nodes_target": 6,
+      "required_flag": "jeonju.quest.completed",
+      "unlocks_city": [],
+      "production_priority": "P2"
+    },
+    {
+      "id": "da_lat",
+      "display_name": "Đà Lạt",
+      "country": "VN",
+      "palette": [
+        "#A9C4B4",
+        "#557A66",
+        "#46687A",
+        "#A8886B",
+        "#D9CBB8"
+      ],
+      "visual_landmarks": [
+        "rừng thông",
+        "hồ sương",
+        "nhà mái dốc",
+        "lối mòn"
+      ],
+      "signature_play": "NPC mất kính dẫn đường; thú canh lối cần ba vật phẩm",
+      "core_quest": "Con đường qua sương mù",
+      "nodes_target": 8,
+      "required_flag": "hue.quest.completed",
+      "unlocks_city": [],
+      "production_priority": "P2"
+    },
+    {
+      "id": "seoul",
+      "display_name": "Seoul",
+      "country": "KR",
+      "palette": [
+        "#192F53",
+        "#486BA2",
+        "#57B3CD",
+        "#F49C54",
+        "#DE6C88"
+      ],
+      "visual_landmarks": [
+        "đô thị đêm",
+        "tháp và phố sáng đèn",
+        "trạm điện",
+        "cổng công nghệ"
+      ],
+      "signature_play": "bot + công tắc năng lượng; quyết định cuối liên kết các thành phố",
+      "core_quest": "Nguồn sáng cuối cùng",
+      "nodes_target": 7,
+      "required_flags_all": [
+        "hue.guardian_defeated",
+        "gyeongju.core_activated",
+        "da_lat.fog_cleared"
+      ],
+      "unlocks_city": [],
+      "production_priority": "P2"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+RequestedLayerState{bf9b1e NavigationBar0#93 parentId=308049}
+RequestedLayerState{925c42a StatusBar#79 parentId=308050}
+RequestedLayerState{WindowedMagnification:0:31#3 parentId=47}
+RequestedLayerState{HideDisplayCutout:0:14#4 parentId=3}
+RequestedLayerState{OneHanded:0:14#5 parentId=4}
+RequestedLayerState{AppZoomOut:0:0#6 parentId=5}
+RequestedLayerState{Leaf:0:0#7 parentId=6}
+RequestedLayerState{Leaf:1:1#8 parentId=5 z=1}
+RequestedLayerState{AppZoomOut:2:14#9 parentId=5 z=2}
+RequestedLayerState{DefaultTaskDisplayArea#10 parentId=9}
+RequestedLayerState{Leaf:3:12#11 parentId=9 z=1}
+RequestedLayerState{ImePlaceholder:13:14#12 parentId=9 z=2}
+RequestedLayerState{ImeContainer#13 parentId=307962 relativeParentId=307969 z=1}
+RequestedLayerState{OneHanded:15:15#14 parentId=3 z=1}
+RequestedLayerState{Leaf:15:15#15 parentId=14}
+RequestedLayerState{HideDisplayCutout:16:16#16 parentId=3 z=2}
+RequestedLayerState{OneHanded:16:16#17 parentId=16}
+RequestedLayerState{AppZoomOut:16:16#18 parentId=17}
+RequestedLayerState{Leaf:16:16#19 parentId=18}
+RequestedLayerState{OneHanded:17:17#20 parentId=3 z=3}
+RequestedLayerState{Leaf:17:17#21 parentId=20}
+RequestedLayerState{HideDisplayCutout:18:23#22 parentId=3 z=4}
+RequestedLayerState{OneHanded:18:23#23 parentId=22}
+RequestedLayerState{AppZoomOut:18:18#24 parentId=23}
+RequestedLayerState{Leaf:18:18#25 parentId=24}
+RequestedLayerState{Leaf:19:19#26 parentId=23 z=1}
+RequestedLayerState{AppZoomOut:20:21#27 parentId=23 z=2}
+RequestedLayerState{Leaf:20:21#28 parentId=27}
+RequestedLayerState{Leaf:22:22#29 parentId=23 z=3}
+RequestedLayerState{AppZoomOut:23:23#30 parentId=23 z=4}
+RequestedLayerState{Leaf:23:23#31 parentId=30}
+RequestedLayerState{Leaf:24:25#32 parentId=3 z=5}
+RequestedLayerState{HideDisplayCutout:26:31#33 parentId=3 z=6}
+RequestedLayerState{OneHanded:26:31#34 parentId=33}
+RequestedLayerState{AppZoomOut:26:31#35 parentId=34}
+RequestedLayerState{Leaf:26:31#36 parentId=35}
+RequestedLayerState{HideDisplayCutout:32:35#37 parentId=47 z=1}
+RequestedLayerState{OneHanded:32:32#38 parentId=37}
+RequestedLayerState{AppZoomOut:32:32#39 parentId=38}
+RequestedLayerState{Leaf:32:32#40 parentId=39}
+RequestedLayerState{AppZoomOut:33:33#41 parentId=37 z=1}
+RequestedLayerState{Leaf:33:33#42 parentId=41}
+RequestedLayerState{OneHanded:34:35#43 parentId=37 z=2}
+RequestedLayerState{AppZoomOut:34:35#44 parentId=43}
+RequestedLayerState{Leaf:34:35#45 parentId=44}
+RequestedLayerState{Leaf:36:36#46 parentId=47 z=2}
+RequestedLayerState{Display 0 name="Built-in Screen"#47}
+RequestedLayerState{Display Overlays#48 parentId=47 z=2147483647}
+RequestedLayerState{Input Overlays#49 parentId=47 z=2147483646}
+RequestedLayerState{Accessibility Overlays#50 parentId=47 z=2147483645}
+RequestedLayerState{com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity#308048 parentId=307969}
+RequestedLayerState{home_task_overlay_container#52 parentId=274952 z=2147483647}
+RequestedLayerState{50eecaa InputMethod#96404 parentId=308055}
+RequestedLayerState{Background for c3c9e35 SurfaceView[com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity]#308054 parentId=308052 relativeParentId=308048 z=-2147483648}
+RequestedLayerState{Task=3#55 parentId=10 z=1}
+RequestedLayerState{Task=4#56 parentId=55 z=1}
+RequestedLayerState{Task=5#57 parentId=55}
+RequestedLayerState{WindowToken{b2fcf50 type=2038 android.os.BinderProxy@dc1d4f9}-topChild=null#58 parentId=11}
+RequestedLayerState{eee9511 ShellDropTarget#59 parentId=58}
+RequestedLayerState{Dim layer#60 parentId=56 z=2147483646}
+RequestedLayerState{WindowToken{a312220 type=2038 android.os.BinderProxy@54d7d23}-topChild=null#10069 parentId=11 z=1}
+RequestedLayerState{Dim layer#62 parentId=57 z=2147483646}
+RequestedLayerState{ActivityRecord{244870525 u0 com.facebook.katana/.LoginActivity#307291 parentId=307290}
+RequestedLayerState{9e81b70 ScreenDecorOverlayBottom#72 parentId=71}
+RequestedLayerState{WallpaperWindowToken{db21f0 showWhenLocked=false}#65 parentId=8}
+RequestedLayerState{555ba4f com.android.systemui.wallpapers.ImageWallpaper#66 parentId=65}
+RequestedLayerState{com.android.systemui.wallpapers.ImageWallpaper#67 parentId=66}
+RequestedLayerState{Wallpaper BBQ wrapper#68 parentId=67}
+RequestedLayerState{WindowToken{cdd6f41 type=2024 android.os.BinderProxy@8ee3628}-topChild=null#69 z=1073741826}
+RequestedLayerState{8996172 ScreenDecorOverlay#70 parentId=69}
+RequestedLayerState{WindowToken{d290b22 type=2024 android.os.BinderProxy@32f7958}-topChild=null#71 parentId=46 z=1073741826}
+RequestedLayerState{WindowToken{c8c8ba0 type=2019 android.os.BinderProxy@41813d2}-topChild=null#92 parentId=32}
+RequestedLayerState{Surface(name=Task=5027#305026)/@0x8564a81_transition-leash#305031 z=4}
+RequestedLayerState{WindowToken{b413488 type=2040 android.os.BinderProxy@36a487a}-topChild=null#76 parentId=21}
+RequestedLayerState{9447246 NotificationShade#77 parentId=76}
+RequestedLayerState{WindowToken{21952cc type=2000 android.os.BinderProxy@ee9841e}-topChild=null#78 parentId=15}
+RequestedLayerState{ActivityRecord{15329113 u0 com.android.launcher3/com.android.searchlauncher.SearchLauncher#274954 parentId=274953}
+RequestedLayerState{Input Consumer recents_animation_input_consumer#274957 relativeParentId=307844 z=2}
+RequestedLayerState{NavigationBar0#96 parentId=93}
+RequestedLayerState{StatusBar#84 parentId=79}
+RequestedLayerState{Surface(name=50eecaa InputMethod#96404)/@0x8ed6c38 - animation-leash of insets_animation#307080}
+RequestedLayerState{Task=2930#34689 parentId=10 !handle z=2}
+RequestedLayerState{c4408cc ActivityRecordInputSink com.facebook.orca/com.facebook.messenger.neue.MainActivity#307856 parentId=307845 z=-2147483648}
+RequestedLayerState{Dim Layer for - Task=3142#58801 parentId=47 !handle z=-1}
+RequestedLayerState{ba980a3 ActivityRecordInputSink com.android.launcher3/com.android.searchlauncher.SearchLauncher#274961 parentId=274954 z=-2147483648}
+RequestedLayerState{9dd7b5b com.heytap.market/com.oplus.exp.installed.rec.core.InstalledRecommendActivity#307945 parentId=307938}
+RequestedLayerState{Shell Root Leash 0#10070 parentId=10069}
+RequestedLayerState{WindowToken{bd9ad7b type=2011 android.os.Binder@37c010a}-topChild=null#96399 parentId=13}
+RequestedLayerState{Task=4825#274952 parentId=10}
+RequestedLayerState{Task=4826#274953 parentId=274952}
+RequestedLayerState{70c56dd com.android.launcher3/com.android.searchlauncher.SearchLauncher#274955 parentId=274954}
+RequestedLayerState{Surface(name=Task=5027#305026)/@0xea5105_transition-leash#305044 z=4}
+RequestedLayerState{Surface(name=9dd7b5b com.heytap.market/com.oplus.exp.installed.rec.core.InstalledRecommendActivity#307945)/@0x17e6cd1 - animation-leash of starting_reveal#307949}
+RequestedLayerState{SurfaceControlViewHost#307847}
+RequestedLayerState{Task=5050#307290 parentId=10 z=5}
+RequestedLayerState{Surface(name=Task=5058#307961)/@0x18fbeb7_transition-leash#308040 z=8}
+RequestedLayerState{Task=5038#305509 z=1}
+RequestedLayerState{ActivityRecord{51468799 u0 com.ddut.e_dut/.MainActivity#306887 parentId=306886}
+RequestedLayerState{824843c ActivityRecordInputSink com.coccoc.trinhduyet/org.chromium.chrome.browser.ChromeTabbedActivity#306715 parentId=306702 z=-2147483648}
+RequestedLayerState{Surface(name=Task=5058#307961)/@0x542efc4_transition-leash#308011 z=8}
+RequestedLayerState{ActivityRecord{10240018 u0 com.heytap.market/com.oplus.exp.installed.rec.core.InstalledRecommendActivity#307938 parentId=307937}
+RequestedLayerState{Surface(name=Task=4825#274952)/@0xe0c71_transition-leash#308010 z=6}
+RequestedLayerState{Task=5045#306886 parentId=10 z=3}
+RequestedLayerState{Task=5057#307937 parentId=10 z=8}
+RequestedLayerState{Surface(name=Task=5058#307961)/@0x77fdf73_transition-leash#307988 z=8}
+RequestedLayerState{32a7fa7 ActivityRecordInputSink com.android.settings/.SubSettings#307794 parentId=307788 z=-2147483648}
+RequestedLayerState{ee7d394 GoogleDiscoverWindow#305629 parentId=274954 z=1}
+RequestedLayerState{58dbe7f com.facebook.katana/com.facebook.katana.LoginActivity#307457 parentId=307291}
+RequestedLayerState{749afe6 ActivityRecordInputSink com.facebook.katana/.activity.FbMainTabActivity#307302 parentId=307291 z=-2147483648}
+RequestedLayerState{ActivityRecord{36071978 u0 com.facebook.orca/.auth.StartScreenActivity#307845 parentId=307844}
+RequestedLayerState{adc4d59 ActivityRecordInputSink com.ddut.e_dut/.MainActivity#306894 parentId=306887 z=-2147483648}
+RequestedLayerState{Surface(name=Task=4825#274952)/@0xa2d69c4_transition-leash#307987 z=6}
+RequestedLayerState{7589186 ActivityRecordInputSink com.heytap.market/com.oplus.exp.installed.rec.core.InstalledRecommendActivity#307942 parentId=307938 z=-2147483648}
+RequestedLayerState{Task=5044#306701 parentId=10 z=2}
+RequestedLayerState{94caed0 ActivityRecordInputSink com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity#307968 parentId=307962 z=-2147483648}
+RequestedLayerState{ActivityRecord{140143386 u0 com.coccoc.trinhduyet/com.coccoc.Main#306702 parentId=306701}
+RequestedLayerState{2ae3bf4 com.android.settings/com.android.settings.Settings#307520 parentId=307513}
+RequestedLayerState{Surface(name=50eecaa InputMethod#96404)/@0x8ed6c38 - animation-leash of insets_animation#308055 parentId=96399}
+RequestedLayerState{5fae17b ActivityRecordInputSink com.android.settings/.SubSettings#307802 parentId=307796 z=-2147483648}
+RequestedLayerState{Task=5046#306911 parentId=10 z=4}
+RequestedLayerState{ActivityRecord{120767407 u0 com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity#306912 parentId=306911}
+RequestedLayerState{ca3ac01 com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity#306918 parentId=306912}
+RequestedLayerState{ActivityRecord{154204033 u0 com.android.settings/.Settings#307513 parentId=307512}
+RequestedLayerState{8977f8e ActivityRecordInputSink com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity#306916 parentId=306912 z=-2147483648}
+RequestedLayerState{Surface(name=Task=4825#274952)/@0x3e5da78_transition-leash#308039 z=6}
+RequestedLayerState{Task=5056#307844 parentId=10 z=6}
+RequestedLayerState{d2d7a8b ActivityRecordInputSink com.android.settings/.homepage.SettingsHomepageActivity#307517 parentId=307513 z=-2147483648}
+RequestedLayerState{Surface(name=Task=5052#307512)/@0x1c57dcd_transition-leash#307903 z=2}
+RequestedLayerState{Surface(name=WallpaperWindowToken{db21f0 showWhenLocked=false}#65)/@0x29455e2_transition-leash#308012 z=-2}
+RequestedLayerState{e0d0c84 com.android.settings/com.android.settings.SubSettings#307780 parentId=307778}
+RequestedLayerState{Surface(name=WallpaperWindowToken{db21f0 showWhenLocked=false}#65)/@0x7feaa9_transition-leash#307989 z=-2}
+RequestedLayerState{ActivityRecord{85518798 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity#307962 parentId=307961}
+RequestedLayerState{Task=5052#307512 parentId=10 z=7}
+RequestedLayerState{Task=5058#307961 parentId=10 z=9}
+RequestedLayerState{c3c9e35 SurfaceView[com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity](BLAST)#308053 parentId=308052}
+RequestedLayerState{Surface(name=WallpaperWindowToken{db21f0 showWhenLocked=false}#65)/@0xe59658d_transition-leash#308041 z=-2}
+RequestedLayerState{51c712 ActivityRecordInputSink com.android.settings.intelligence/.search.SearchActivity#307644 parentId=307638 z=-2147483648}
+RequestedLayerState{99ae6d7 ActivityRecordInputSink com.android.settings/.SubSettings#307785 parentId=307778 z=-2147483648}
+RequestedLayerState{1fe5c8b com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity#307969 parentId=307962}
+RequestedLayerState{ActivityRecord{76255456 u0 com.android.settings.intelligence/.search.SearchActivity#307638 parentId=307512 z=1}
+RequestedLayerState{31618c2 com.android.settings.intelligence/com.android.settings.intelligence.search.SearchActivity#307639 parentId=307638}
+RequestedLayerState{Surface(name=1fe5c8b com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity#307969)/@0xed1a981 - animation-leash of starting_reveal#307977}
+RequestedLayerState{ActivityRecord{177470404 u0 com.android.settings/.SubSettings#307778 parentId=307512 z=2}
+RequestedLayerState{ActivityRecord{113436669 u0 com.android.settings/.SubSettings#307788 parentId=307512 z=3}
+RequestedLayerState{f8c9f16 com.android.settings/com.android.settings.SubSettings#307789 parentId=307788}
+RequestedLayerState{Surface(name=bf9b1e NavigationBar0#93)/@0x20cdc15 - animation-leash of insets_animation#308049 parentId=92}
+RequestedLayerState{ActivityRecord{154963953 u0 com.android.settings/.SubSettings#307796 parentId=307512 z=4}
+RequestedLayerState{41baf2b com.android.settings/com.android.settings.SubSettings#307797 parentId=307796}
+RequestedLayerState{Task=5055#307816 z=6}
+RequestedLayerState{Bounds for - com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity#308051 parentId=308048}
+RequestedLayerState{c3c9e35 SurfaceView[com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity]#308052 parentId=308051 relativeParentId=308048 z=-2}
+RequestedLayerState{Surface(name=925c42a StatusBar#79)/@0x5b5d5cd - animation-leash of insets_animation#308050 parentId=78}

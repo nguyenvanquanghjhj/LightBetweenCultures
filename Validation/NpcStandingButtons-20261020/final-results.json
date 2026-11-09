@@ -1,0 +1,20 @@
+{
+  "windowsBuild": "PASS",
+  "buildLog": "Logs/npc-standing-windows06.log",
+  "npcBehavior": {
+    "tested": 26,
+    "blocked": 1,
+    "overall": "PARTIAL"
+  },
+  "blockedNodes": [
+    "G14"
+  ],
+  "dialogueCallbacks": "PASS",
+  "callbackPlayerActualResolution": "720x1080",
+  "npcPlayerActualResolution": "540x960",
+  "overflowScrollDrag": "NOT_TESTED",
+  "androidCurrentChanges": "NOT_TESTED",
+  "blindHumanPlaytest": "NOT_RUN",
+  "allGalleryLinksExist": true,
+  "qaMiB": 37.62
+}

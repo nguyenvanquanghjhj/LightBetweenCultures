@@ -1,0 +1,16 @@
+{
+  "candidate": "BeforeCityMapUIPolish-20261017",
+  "retainedEquivalent": "CheckpointDaLatChapter-20261017",
+  "payloadFilesCompared": 1578,
+  "sameRelativePathsAndSHA256": true,
+  "distinctFile": "checkpoint-manifest.json",
+  "action": "PROPOSED_ONLY_NOT_APPROVED: preserve unique manifest and update baseline-dependent tool references before any removal",
+  "toolDependencies": [
+    "Tools/citymap_ui_polish.py"
+  ],
+  "keepMandatory": [
+    "CheckpointFullStoryComplete-20261017",
+    "CheckpointPortraitDialogueStoryAudit-20261017"
+  ],
+  "otherHistoricalBackups": "KEEP: unique source/art/build/evidence or unresolved dependencies"
+}

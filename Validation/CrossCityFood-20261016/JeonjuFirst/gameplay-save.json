@@ -1,0 +1,195 @@
+{
+    "version": 2,
+    "cityId": "hoi_an",
+    "node": 10,
+    "previousNode": 10,
+    "visited": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        13,
+        14,
+        18,
+        19,
+        5,
+        11,
+        10,
+        12,
+        6,
+        7,
+        8,
+        15,
+        17
+    ],
+    "accepted": [
+        "mai-lantern",
+        "HQ01",
+        "HQ02",
+        "HA_FOOD_PREP",
+        "HQ06",
+        "HQ05",
+        "HQ07"
+    ],
+    "completed": [
+        "mai-lantern",
+        "HQ02",
+        "HQ01",
+        "HA_FOOD_PREP",
+        "HQ05",
+        "HQ06",
+        "HQ07"
+    ],
+    "items": [
+        "healing_tea",
+        "healing_tea",
+        "healing_tea",
+        "hoi_an_bridge_postcard",
+        "hoi_an_purple_shallot",
+        "healing_tea",
+        "jeonju_recipe_card",
+        "hue_market_note",
+        "festival_friendship_postcard"
+    ],
+    "collected": [
+        "lantern-part"
+    ],
+    "flags": [
+        "quest:HQ01",
+        "hoi_an.lamp_eye_found",
+        "lantern-lit",
+        "hoi_an.market_puzzle_solved",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.pottery_clue_known",
+        "hoi_an.mo01_hack_code",
+        "hoi_an.mo01_disabled",
+        "hoi_an.dock_crate_opened",
+        "quest:HQ02",
+        "hoi_an.crab_resolved",
+        "hoi_an.ba_tu_helped",
+        "hoi_an.secret_lane_found",
+        "hoi_an.ba_tu_spices_received",
+        "hoi_an.lamp_restored",
+        "city.hue.unlocked",
+        "city.jeonju.unlocked",
+        "checkin.hoi_an.h6",
+        "quest:HA_FOOD_PREP",
+        "hoi_an.ha_food_prep_accepted",
+        "hoi_an.spice_bundle_picked",
+        "hoi_an.local_food_prepared",
+        "quest:HQ06",
+        "hoi_an.hq06_accepted",
+        "quest:HQ05",
+        "hoi_an.hq05_accepted",
+        "jeonju.chili_shared",
+        "hue.shallot_shared",
+        "quest:HQ07",
+        "hoi_an.hq07_accepted",
+        "hoi_an.festival_food_exchange_done"
+    ],
+    "resolvedEvents": [
+        "hoi_an:npc_phuc",
+        "hoi_an:enemy_mo01",
+        "hoi_an:loot_crate",
+        "hoi_an:enemy_crab",
+        "hoi_an:npc_ba_tu",
+        "hoi_an:restore_lantern",
+        "hoi_an:food_spice_bundle"
+    ],
+    "defeatedEnemies": [],
+    "solvedPuzzles": [
+        "puzzle_market",
+        "puzzle_paper",
+        "puzzle_pottery"
+    ],
+    "choices": [
+        "hoi_an:enemy_mo01:hack",
+        "hoi_an:enemy_crab:bait"
+    ],
+    "rewardGrantIds": [
+        "quest-accept:HQ01:healing_tea",
+        "h3-lamp-eye",
+        "puzzle:puzzle_paper:hanji_core",
+        "event:hoi_an:npc_phuc:healing_tea",
+        "encounter:hoi_an:enemy_mo01:link_key",
+        "quest-accept:HQ02:meat_portion",
+        "encounter:hoi_an:enemy_crab:copper_wire",
+        "quest:HQ02:hoi_an_fresh_chili",
+        "quest:HQ02:hoi_an_purple_shallot",
+        "checkin:hoi_an.h6",
+        "checkin:hoi_an.h6:hoi_an_bridge_postcard",
+        "event:hoi_an:food_spice_bundle:hoi_an_fresh_chili",
+        "event:hoi_an:food_spice_bundle:hoi_an_purple_shallot",
+        "quest:HA_FOOD_PREP:healing_tea",
+        "quest:HQ05:jeonju_recipe_card",
+        "quest:HQ06:hue_market_note",
+        "quest:HQ07:festival_friendship_postcard"
+    ],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 10,
+            "stage": 4,
+            "visited": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                13,
+                14,
+                18,
+                19,
+                5,
+                11,
+                10,
+                12,
+                6,
+                7,
+                8,
+                15,
+                17
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 1,
+            "stage": 0,
+            "visited": [
+                0,
+                1
+            ]
+        },
+        {
+            "cityId": "jeonju",
+            "node": 15,
+            "stage": 0,
+            "visited": [
+                0,
+                15
+            ]
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 3,
+    "coins": 166
+}

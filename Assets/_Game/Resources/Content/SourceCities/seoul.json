@@ -1,0 +1,1009 @@
+{
+  "schema_version": 1,
+  "design_only": true,
+  "city_id": "seoul",
+  "city_name": "Seoul",
+  "map_background_relative_to_NEW_ART_PACK": "Maps/Seoul/Map_Overview_A.png",
+  "spawn_node_id": "S0",
+  "city_completion_flag": "seoul.final_cleared",
+  "visual_identity": "Cung điện – sông Hàn – skyline – tháp N Seoul",
+  "coordinate_system": {
+    "origin": "top_left",
+    "x_range": [
+      0,
+      1000
+    ],
+    "y_range": [
+      0,
+      1000
+    ],
+    "note": "x,y are approximate 2D design anchors; manual adjust for actual walkable road; normalized UI position = (x/1000,y/1000), Unity world y often inverted."
+  },
+  "city_story": {
+    "opening": "Seoul nhận đồng thời tín hiệu đèn Hội An/Jeonju, chìa Huế/Gyeongju và sương Đà Lạt. Các trạm số đang phát tín hiệu chồng lấn khiến một số bot nhầm lẫn bạn–thù.",
+    "main": "Khôi phục ba rơle: A D16→S16, B U11→S17, C J19→S18. Gặp kỹ thuật viên S7 và quản thủ S2 để truy nguyên. Đột nhập S20 khi ba rơle đã sáng; đánh Lõi Nhiễu 2 pha hoặc giải cơ cấu vô hiệu hóa trong lúc boss lộ lõi.",
+    "twist": "“Hội Bóng Mờ” được đồn là kẻ phá hoại, nhưng kẻ cầm đầu thực chất lợi dụng một hệ thống bảo vệ cũ bị lỗi; bot ở Hội An đã cố cảnh báo. Lumi phải chọn phục hồi nó thay vì phá hủy toàn bộ.",
+    "end": "Festival giả tưởng ở S21: sáu thành phố sáng lên, NPC từ cả hai nước gửi lời cảm ơn; sau credit vẫn quay lại làm sidequest được."
+  },
+  "nodes": [
+    {
+      "id": "S0",
+      "name": "Bến công viên sông Hàn",
+      "x": 490,
+      "y": 690,
+      "kind": "start",
+      "event_id": "intro",
+      "description": "Đặt chân đến Seoul",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "S1",
+      "name": "Quảng trường trung tâm",
+      "x": 618,
+      "y": 523,
+      "kind": "junction",
+      "event_id": "central_plaza",
+      "description": "Trung tâm chuyển tuyến sang cũ và mới",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "S2",
+      "name": "Cổng thành xưa",
+      "x": 294,
+      "y": 292,
+      "kind": "npc",
+      "event_id": "npc_curator",
+      "description": "Người quản lý di tích mở cốt truyện",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "S3",
+      "name": "Sân cung điện",
+      "x": 274,
+      "y": 204,
+      "kind": "puzzle",
+      "event_id": "puzzle_palace",
+      "description": "Đọc lời nhắn từ Huế",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "S4",
+      "name": "Hồ sơ lịch sử",
+      "x": 210,
+      "y": 380,
+      "kind": "item",
+      "event_id": "loot_archive",
+      "description": "Tấm bản ghi mối liên hệ Huế",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "S5",
+      "name": "Drone trinh sát",
+      "x": 587,
+      "y": 418,
+      "kind": "enemy",
+      "event_id": "enemy_drone",
+      "description": "Drone canh trạm hiện đại",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "S6",
+      "name": "Bờ đông sông Hàn",
+      "x": 830,
+      "y": 666,
+      "kind": "junction",
+      "event_id": "east_riverside",
+      "description": "Điểm rẽ trạm năng lượng",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "S7",
+      "name": "Quảng trường màn hình",
+      "x": 757,
+      "y": 467,
+      "kind": "npc",
+      "event_id": "npc_tech",
+      "description": "Nhân viên công nghệ Seoul",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "S8",
+      "name": "Đường cao ốc",
+      "x": 612,
+      "y": 367,
+      "kind": "enemy",
+      "event_id": "enemy_signal_bot",
+      "description": "Bot trộn dữ liệu trên lối chính",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "S9",
+      "name": "Đường lên N Seoul Tower",
+      "x": 760,
+      "y": 254,
+      "kind": "junction",
+      "event_id": "tower_trail",
+      "description": "Lối leo đồi có cây hoa",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "S10",
+      "name": "Chân tháp N Seoul",
+      "x": 709,
+      "y": 116,
+      "kind": "puzzle",
+      "event_id": "puzzle_tower",
+      "description": "Đồng bộ bộ thu sóng trên đỉnh",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "S11",
+      "name": "Trạm kiểm soát kỹ thuật",
+      "x": 841,
+      "y": 275,
+      "kind": "npc",
+      "event_id": "npc_engineer",
+      "description": "Yêu cầu 3 mã từ ba thành phố",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "S12",
+      "name": "Đảo công viên xanh",
+      "x": 465,
+      "y": 641,
+      "kind": "item",
+      "event_id": "loot_park",
+      "description": "Rương đồng xu và bộ hồi phục",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "S13",
+      "name": "Cầu ánh sáng phía tây",
+      "x": 344,
+      "y": 540,
+      "kind": "junction",
+      "event_id": "bridge_west",
+      "description": "Cầu nối vùng cổ và đô thị",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "S14",
+      "name": "Bến phà thông tin",
+      "x": 379,
+      "y": 801,
+      "kind": "npc",
+      "event_id": "npc_boat",
+      "description": "Chuyên chở qua sông khi hệ thống sáng",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "S15",
+      "name": "Bot bảo vệ cầu",
+      "x": 411,
+      "y": 483,
+      "kind": "enemy",
+      "event_id": "enemy_bridge",
+      "description": "Giữ mã an ninh cầu",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "S16",
+      "name": "Trạm phát điện bờ đông",
+      "x": 872,
+      "y": 776,
+      "kind": "puzzle",
+      "event_id": "puzzle_station",
+      "description": "Trạm A dùng năng lượng Đà Lạt",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "S17",
+      "name": "Rơle cung điện",
+      "x": 470,
+      "y": 343,
+      "kind": "puzzle",
+      "event_id": "puzzle_relay_hue",
+      "description": "Trạm B dùng phù hiệu Huế",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "S18",
+      "name": "Rơle ánh đèn hanji",
+      "x": 660,
+      "y": 510,
+      "kind": "puzzle",
+      "event_id": "puzzle_relay_jeonju",
+      "description": "Trạm C dùng mẫu Jeonju",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "S19",
+      "name": "Đường hầm dữ liệu",
+      "x": 897,
+      "y": 696,
+      "kind": "enemy",
+      "event_id": "enemy_shadow_courier",
+      "description": "Bot đưa tin chặn đài trung tâm",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "S20",
+      "name": "Buồng Lõi Nhiễu",
+      "x": 884,
+      "y": 534,
+      "kind": "boss",
+      "event_id": "enemy_final_core",
+      "description": "Đấu boss 2 pha, sau khi đủ ba rơle",
+      "visible_when": {
+        "all_flags": [
+          "seoul.relay_a_on",
+          "seoul.relay_b_on",
+          "seoul.relay_c_on"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "boss_arena"
+    },
+    {
+      "id": "S21",
+      "name": "Lễ hội hai nền văn hóa",
+      "x": 318,
+      "y": 435,
+      "kind": "epilogue",
+      "event_id": "final_festival",
+      "description": "Ending toàn mạng lưới thắp sáng",
+      "visible_when": {
+        "all_flags": [
+          "seoul.final_cleared"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "S22",
+      "name": "Kính quan sát đồi",
+      "x": 642,
+      "y": 208,
+      "kind": "secret",
+      "event_id": "secret_tower",
+      "description": "Bí mật đọc tin nhắn của Hội Bóng Mờ",
+      "visible_when": {
+        "all_flags": [
+          "seoul.hidden_tower_found"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    }
+  ],
+  "edges": [
+    {
+      "id": "S0__S12",
+      "from": "S0",
+      "to": "S12",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S0__S14",
+      "from": "S0",
+      "to": "S14",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          453,
+          730
+        ],
+        [
+          398,
+          771
+        ]
+      ],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S12__S13",
+      "from": "S12",
+      "to": "S13",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          429,
+          613
+        ],
+        [
+          385,
+          562
+        ]
+      ],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S13__S15",
+      "from": "S13",
+      "to": "S15",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S15__S4",
+      "from": "S15",
+      "to": "S4",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S4__S2",
+      "from": "S4",
+      "to": "S2",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S2__S3",
+      "from": "S2",
+      "to": "S3",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S2__S21",
+      "from": "S2",
+      "to": "S21",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "seoul.final_cleared"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S3__S17",
+      "from": "S3",
+      "to": "S17",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S17__S5",
+      "from": "S17",
+      "to": "S5",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S5__S8",
+      "from": "S5",
+      "to": "S8",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S8__S9",
+      "from": "S8",
+      "to": "S9",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S9__S10",
+      "from": "S9",
+      "to": "S10",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S10__S22",
+      "from": "S10",
+      "to": "S22",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S9__S11",
+      "from": "S9",
+      "to": "S11",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S11__S7",
+      "from": "S11",
+      "to": "S7",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S7__S18",
+      "from": "S7",
+      "to": "S18",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S18__S1",
+      "from": "S18",
+      "to": "S1",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S1__S5",
+      "from": "S1",
+      "to": "S5",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S1__S6",
+      "from": "S1",
+      "to": "S6",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S6__S16",
+      "from": "S6",
+      "to": "S16",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S16__S19",
+      "from": "S16",
+      "to": "S19",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S19__S20",
+      "from": "S19",
+      "to": "S20",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "seoul.relay_a_on",
+        "seoul.relay_b_on",
+        "seoul.relay_c_on"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S7__S20",
+      "from": "S7",
+      "to": "S20",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S6__S20",
+      "from": "S6",
+      "to": "S20",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S13__S1",
+      "from": "S13",
+      "to": "S1",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S6__S14",
+      "from": "S6",
+      "to": "S14",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "S7__S8",
+      "from": "S7",
+      "to": "S8",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    }
+  ],
+  "events": [
+    {
+      "id": "intro",
+      "node": "S0",
+      "actor": "Bến công viên sông Hàn",
+      "event_type": "Start",
+      "dialogue_open": "",
+      "interaction": "Đặt chân đến Seoul",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "central_plaza",
+      "node": "S1",
+      "actor": "Quảng trường trung tâm",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Trung tâm chuyển tuyến sang cũ và mới",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_curator",
+      "node": "S2",
+      "actor": "Quản thủ bảo tàng",
+      "event_type": "NPC",
+      "dialogue_open": "“Điều nguy hiểm không chỉ là kẻ phá hoại, mà là mã bảo vệ cũ.”",
+      "interaction": "Mở SQ02, gợi ý xem bản ghi lịch sử S4.",
+      "planned_reward": "quest:SQ02",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_palace",
+      "node": "S3",
+      "actor": "Sân cung điện",
+      "event_type": "Puzzle",
+      "dialogue_open": "",
+      "interaction": "Đọc lời nhắn từ Huế",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_archive",
+      "node": "S4",
+      "actor": "Hồ sơ lịch sử",
+      "event_type": "Item",
+      "dialogue_open": "",
+      "interaction": "Tấm bản ghi mối liên hệ Huế",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_drone",
+      "node": "S5",
+      "actor": "Drone Trinh Sát",
+      "event_type": "Enemy",
+      "dialogue_open": "“Phát hiện ánh sáng không xác thực.”",
+      "interaction": "Đánh hoặc lẩn vào vườn đá, mở tuyến cao ốc.",
+      "planned_reward": "flag:seoul.drone_disabled",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "east_riverside",
+      "node": "S6",
+      "actor": "Bờ đông sông Hàn",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Điểm rẽ trạm năng lượng",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_tech",
+      "node": "S7",
+      "actor": "Kỹ thuật viên Ji-won",
+      "event_type": "NPC",
+      "dialogue_open": "“Hãy mang về ba tín hiệu từ Việt Nam và Jeonju.”",
+      "interaction": "Nhận SQ01; chỉ 3 rơle và điều kiện boss.",
+      "planned_reward": "quest:SQ01",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_signal_bot",
+      "node": "S8",
+      "actor": "Đường cao ốc",
+      "event_type": "Enemy",
+      "dialogue_open": "",
+      "interaction": "Bot trộn dữ liệu trên lối chính",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "tower_trail",
+      "node": "S9",
+      "actor": "Đường lên N Seoul Tower",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Lối leo đồi có cây hoa",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_tower",
+      "node": "S10",
+      "actor": "Đài Tháp N Seoul",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Ba nguồn sáng luân phiên soi chiếc ống kính.”",
+      "interaction": "Cần stargazer_lens hoặc đúng mẫu ký hiệu, làm sáng đỉnh tháp.",
+      "planned_reward": "flag:seoul.tower_calibrated",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_engineer",
+      "node": "S11",
+      "actor": "Kỹ sư Trạm Số",
+      "event_type": "NPC",
+      "dialogue_open": "“Bot ấy không được sinh ra để đánh nhau.”",
+      "interaction": "Giải thích twist, mở lựa chọn sửa AI thay vì xóa.",
+      "planned_reward": "hint:seoul_truth",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "seoul.hidden_tower_found",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_park",
+      "node": "S12",
+      "actor": "Đảo công viên xanh",
+      "event_type": "Item",
+      "dialogue_open": "",
+      "interaction": "Rương đồng xu và bộ hồi phục",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "bridge_west",
+      "node": "S13",
+      "actor": "Cầu ánh sáng phía tây",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Cầu nối vùng cổ và đô thị",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_boat",
+      "node": "S14",
+      "actor": "Bến phà thông tin",
+      "event_type": "Npc",
+      "dialogue_open": "",
+      "interaction": "Chuyên chở qua sông khi hệ thống sáng",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_bridge",
+      "node": "S15",
+      "actor": "Bot Giữ Cầu",
+      "event_type": "Enemy",
+      "dialogue_open": "“Mã cầu đã hết hạn.”",
+      "interaction": "Combat hoặc dùng ancient_seal mở nhanh.",
+      "planned_reward": "flag:seoul.bridge_guard_disabled",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_station",
+      "node": "S16",
+      "actor": "Rơle A – Hồ Và Sương",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Nguồn nước Đà Lạt ổn định xung số 1.”",
+      "interaction": "Cần blue_water_signal; puzzle xoay 2 công tắc.",
+      "planned_reward": "flag:seoul.relay_a_on",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "seoul.relay_a_on",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "inventory.blue_water_signal>=1"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_relay_hue",
+      "node": "S17",
+      "actor": "Rơle B – Kinh Thành",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Nhịp từ ấn tín Huế phù hợp cổng số 2.”",
+      "interaction": "Cần ancient_seal + hue.beacon_lit; puzzle 3 nhịp.",
+      "planned_reward": "flag:seoul.relay_b_on",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "seoul.relay_b_on",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "inventory.ancient_seal>=1",
+        "hue.beacon_lit"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_relay_jeonju",
+      "node": "S18",
+      "actor": "Rơle C – Hanji",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Mạch giấy Jeonju truyền xung số 3.”",
+      "interaction": "Cần hanji_circuit + jeonju.beacon_lit; puzzle 3 biểu tượng.",
+      "planned_reward": "flag:seoul.relay_c_on",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "seoul.relay_c_on",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "inventory.hanji_circuit>=1",
+        "jeonju.beacon_lit"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_shadow_courier",
+      "node": "S19",
+      "actor": "Bot Đưa Tin Bóng Mờ",
+      "event_type": "Enemy",
+      "dialogue_open": "“Lệnh gửi đi từ lõi đã bị kẻ xấu sửa.”",
+      "interaction": "Thắng hoặc dùng 3 rơle ngắt nguồn, mở S20.",
+      "planned_reward": "flag:seoul.courier_disabled",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_final_core",
+      "node": "S20",
+      "actor": "Lõi Nhiễu Sáng",
+      "event_type": "Final Boss",
+      "dialogue_open": "“Lệnh ban đầu của ta là bảo vệ những chiếc đèn...”",
+      "interaction": "Pha 1 phá khiên bằng rơle; pha 2 3 lựa chọn đánh/sửa/che chắn; tránh soft-lock.",
+      "planned_reward": "flag:seoul.final_cleared",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "seoul.final_cleared",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "seoul.relay_a_on",
+        "seoul.relay_b_on",
+        "seoul.relay_c_on"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "final_festival",
+      "node": "S21",
+      "actor": "Lễ Hội Hai Nước",
+      "event_type": "Epilogue",
+      "dialogue_open": "“Mỗi ánh đèn là một câu chuyện; mỗi người bạn giúp là một nhịp cầu.”",
+      "interaction": "Epilogue 6 map sáng, mở free-roam postgame.",
+      "planned_reward": "flag:game.ending_seen",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "secret_tower",
+      "node": "S22",
+      "actor": "Kính quan sát đồi",
+      "event_type": "Secret",
+      "dialogue_open": "",
+      "interaction": "Bí mật đọc tin nhắn của Hội Bóng Mờ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    }
+  ]
+}

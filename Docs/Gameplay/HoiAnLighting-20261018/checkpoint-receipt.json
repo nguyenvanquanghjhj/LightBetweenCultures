@@ -1,0 +1,12 @@
+{
+  "checkpoint": "D:\\GAMEKKK\\Backups\\CheckpointHoiAnLighting-20261018",
+  "type": "INCREMENTAL_REQUIRES_BASE",
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointCheckInArt-20261018",
+  "baseManifestSHA256": "7f8e2834549dd2cae5a5002737fec57a300f0841a5e7e63a9ec895fbca7f058e",
+  "manifestSHA256": "7fcbfb540f27597eeafa224af66d01da072cc370117b294ab722f1f78af47723",
+  "fileCount": 104,
+  "payloadBytes": 53049141,
+  "allCopiedHashesVerified": true,
+  "protectedFilesUnchanged": 51,
+  "assertionsPassed": 544
+}

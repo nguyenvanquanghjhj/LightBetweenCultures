@@ -1,0 +1,145 @@
+{
+    "version": 2,
+    "cityId": "hoi_an",
+    "node": 13,
+    "previousNode": 4,
+    "visited": [
+        0,
+        11,
+        2,
+        13,
+        3,
+        12,
+        21,
+        10,
+        4
+    ],
+    "accepted": [
+        "mai-lantern",
+        "HQ01",
+        "HQ02",
+        "HQ06",
+        "HA_FOOD_PREP"
+    ],
+    "completed": [
+        "mai-lantern",
+        "HQ02"
+    ],
+    "items": [
+        "healing_tea",
+        "healing_tea",
+        "lamp_eye",
+        "meat_portion",
+        "hoi_an_fresh_chili",
+        "hoi_an_fresh_chili",
+        "hoi_an_purple_shallot",
+        "hoi_an_purple_shallot"
+    ],
+    "collected": [
+        "lantern-part"
+    ],
+    "flags": [
+        "relic.proof.fragment_hoi_an_bamboo_frame",
+        "relic.fragment.fragment_hoi_an_bamboo_frame",
+        "hoi_an.dock_crate_opened",
+        "quest:HQ01",
+        "hoi_an.lamp_eye_found",
+        "checkin.hoi_an.h3",
+        "lantern-lit",
+        "relic.proof.fragment_hoi_an_eye_reflection",
+        "relic.fragment.fragment_hoi_an_eye_reflection",
+        "hoi_an.enemy_crab_defeated",
+        "hoi_an.crab_resolved",
+        "hoi_an.attic_clue_found",
+        "relic.proof.fragment_hoi_an_roof_hook",
+        "relic.fragment.fragment_hoi_an_roof_hook",
+        "quest:HQ02",
+        "hoi_an.ba_tu_helped",
+        "hoi_an.secret_lane_found",
+        "hoi_an.ba_tu_spices_received",
+        "quest:HQ06",
+        "hoi_an.hq06_accepted",
+        "quest:HA_FOOD_PREP",
+        "hoi_an.ha_food_prep_accepted",
+        "hoi_an.market_puzzle_solved"
+    ],
+    "resolvedEvents": [
+        "hoi_an:loot_crate",
+        "hoi_an:enemy_crab",
+        "hoi_an:loot_attic",
+        "hoi_an:npc_ba_tu"
+    ],
+    "defeatedEnemies": [
+        "enemy_crab"
+    ],
+    "solvedPuzzles": [
+        "puzzle_market"
+    ],
+    "choices": [
+        "hoi_an:enemy_crab:battle"
+    ],
+    "rewardGrantIds": [
+        "relic:v1:claim:fragment_hoi_an_bamboo_frame",
+        "quest-accept:HQ01:healing_tea",
+        "h3-lamp-eye",
+        "checkin:hoi_an.h3",
+        "relic:v1:claim:fragment_hoi_an_eye_reflection",
+        "encounter:hoi_an:enemy_crab:copper_wire",
+        "relic:v1:claim:fragment_hoi_an_roof_hook",
+        "quest-accept:HQ02:meat_portion",
+        "quest:HQ02:hoi_an_fresh_chili",
+        "quest:HQ02:hoi_an_purple_shallot"
+    ],
+    "leisureCompleted": [],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 13,
+            "stage": 1,
+            "visited": [
+                0,
+                11,
+                2,
+                13,
+                3,
+                12,
+                21,
+                10,
+                4
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "jeonju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 2,
+    "coins": 18
+}

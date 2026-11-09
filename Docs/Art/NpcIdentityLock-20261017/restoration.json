@@ -1,0 +1,15 @@
+{
+  "status": "PRE_TASK_SOURCES_RESTORED",
+  "restored": [
+    "AGENTS.md",
+    "Docs/Art/NPC_CANONICAL_REGISTRY.json",
+    "Docs/Art/NPC_CANONICAL_REGISTRY.md",
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Scripts/Editor/PortraitRepairSetup.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Portraits.cs",
+    "Tools/art_asset_catalog.py"
+  ],
+  "protectedFilesChecked": 46,
+  "historicalBackupsOrSavesTouched": false
+}

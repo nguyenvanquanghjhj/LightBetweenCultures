@@ -1,0 +1,208 @@
+{
+  "cases": [
+    {
+      "cityId": "da_lat",
+      "fromId": "D3",
+      "toId": "D2",
+      "changed": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromId": "D1",
+      "toId": "D20",
+      "changed": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromId": "D6",
+      "toId": "D7",
+      "changed": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromId": "D7",
+      "toId": "D8",
+      "changed": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromId": "D8",
+      "toId": "D9",
+      "changed": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromId": "D8",
+      "toId": "D19",
+      "changed": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromId": "D10",
+      "toId": "D15",
+      "changed": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromId": "D20",
+      "toId": "D13",
+      "changed": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromId": "G0",
+      "toId": "G1",
+      "changed": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromId": "G10",
+      "toId": "G18",
+      "changed": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromId": "G12",
+      "toId": "G13",
+      "changed": true
+    },
+    {
+      "cityId": "gyeongju",
+      "fromId": "G16",
+      "toId": "G12",
+      "changed": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromId": "H0",
+      "toId": "H1",
+      "changed": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromId": "H1",
+      "toId": "H4",
+      "changed": true
+    },
+    {
+      "cityId": "hoi_an",
+      "fromId": "H18",
+      "toId": "H5",
+      "changed": false
+    },
+    {
+      "cityId": "hoi_an",
+      "fromId": "H5",
+      "toId": "H6",
+      "changed": false
+    },
+    {
+      "cityId": "hoi_an",
+      "fromId": "H6",
+      "toId": "H15",
+      "changed": false
+    },
+    {
+      "cityId": "hue",
+      "fromId": "U3",
+      "toId": "U4",
+      "changed": false
+    },
+    {
+      "cityId": "hue",
+      "fromId": "U5",
+      "toId": "U6",
+      "changed": true
+    },
+    {
+      "cityId": "hue",
+      "fromId": "U6",
+      "toId": "U7",
+      "changed": true
+    },
+    {
+      "cityId": "hue",
+      "fromId": "U6",
+      "toId": "U18",
+      "changed": true
+    },
+    {
+      "cityId": "hue",
+      "fromId": "U9",
+      "toId": "U12",
+      "changed": true
+    },
+    {
+      "cityId": "hue",
+      "fromId": "U12",
+      "toId": "U11",
+      "changed": true
+    },
+    {
+      "cityId": "hue",
+      "fromId": "U4",
+      "toId": "U12",
+      "changed": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromId": "J1",
+      "toId": "J3",
+      "changed": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromId": "J3",
+      "toId": "J8",
+      "changed": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromId": "J3",
+      "toId": "J4",
+      "changed": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromId": "J4",
+      "toId": "J7",
+      "changed": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromId": "J7",
+      "toId": "J21",
+      "changed": true
+    },
+    {
+      "cityId": "jeonju",
+      "fromId": "J16",
+      "toId": "J3",
+      "changed": true
+    },
+    {
+      "cityId": "seoul",
+      "fromId": "S2",
+      "toId": "S3",
+      "changed": true
+    },
+    {
+      "cityId": "seoul",
+      "fromId": "S3",
+      "toId": "S17",
+      "changed": true
+    },
+    {
+      "cityId": "seoul",
+      "fromId": "S1",
+      "toId": "S6",
+      "changed": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromId": "D20",
+      "toId": "D15",
+      "changed": true
+    }
+  ]
+}

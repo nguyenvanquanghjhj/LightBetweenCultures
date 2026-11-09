@@ -1,0 +1,134 @@
+﻿cityId,nodeId,name,kind,eventId,eventType,questId,extraQuestIds,npcId,enemyId,puzzleId,checkInId,revealStage,gate,status
+da_lat,D0,Bến hồ Xuân Hương,start,intro,start,,,,,,,0,,NOT IMPLEMENTED; data only
+da_lat,D1,Quảng trường dốc,junction,square,junction,,,,,,,0,,NOT IMPLEMENTED; data only
+da_lat,D2,Người dẫn đường Lan,npc,npc_lan,npc,,,npc_lan,,,,0,quest:DQ01,NOT IMPLEMENTED; data only
+da_lat,D3,Tiệm hoa Thủy,npc,npc_thuy,npc,,,npc_thuy,,,,0,,NOT IMPLEMENTED; data only
+da_lat,D4,Chợ trên đồi,npc,npc_market,npc,,,npc_market,,,,0,,NOT IMPLEMENTED; data only
+da_lat,D5,Lối rừng thông,junction,pine_path,junction,,,,,,,1,,NOT IMPLEMENTED; data only
+da_lat,D6,Sói sương mù,enemy,enemy_mist_wolf,encounter,,,,enemy_mist_wolf,,,1,,NOT IMPLEMENTED; data only
+da_lat,D7,Trạm quan sát sương,enemy,enemy_glass_thief,encounter,,,,enemy_glass_thief,,,1,,NOT IMPLEMENTED; data only
+da_lat,D8,Ngõ sương vòng,puzzle,puzzle_mist,puzzle,,,,,puzzle_mist,,1,da_lat.fog_cleared,NOT IMPLEMENTED; data only
+da_lat,D9,Đài nhìn thông,item,loot_mountain,chest,,,,,,,2,,NOT IMPLEMENTED; data only
+da_lat,D10,Chó canh đói,npc,npc_hungry_dog,npc,,,npc_hungry_dog,,,,2,da_lat.dog_fed,NOT IMPLEMENTED; data only
+da_lat,D11,Lối vườn hoa,item,loot_meat_garden,chest,,,,,,,2,,NOT IMPLEMENTED; data only
+da_lat,D12,Cối xay cạnh hồ,puzzle,puzzle_windmill,puzzle,,,,,puzzle_windmill,,2,,NOT IMPLEMENTED; data only
+da_lat,D13,Vườn kính hoa,npc,npc_gardener,npc,,,npc_gardener,,,,2,,NOT IMPLEMENTED; data only
+da_lat,D14,Đài dẫn sáng núi,beacon,restore_dalat,beacon,,,,,,,3,da_lat.beacon_lit,NOT IMPLEMENTED; data only
+da_lat,D15,Bóng sương cầu đá,boss,enemy_fog_boss,encounter,,,,enemy_fog_boss,,,3,,NOT IMPLEMENTED; data only
+da_lat,D16,Thác hồi âm,item,loot_waterfall,chest,,,,,,,3,,NOT IMPLEMENTED; data only
+da_lat,D17,Lối bí mật bờ đông,secret,secret_lookout,secret,,,,,,,3,,NOT IMPLEMENTED; data only
+da_lat,D18,Nhà nghỉ trên dốc,npc,npc_innkeeper,npc,,,npc_innkeeper,,,,1,,NOT IMPLEMENTED; data only
+da_lat,D19,Vườn hoa đêm,secret,secret_night_bloom,secret,,,,,,,3,,NOT IMPLEMENTED; data only
+da_lat,D20,Cầu dẫn hồ,junction,lake_bridge,junction,,,,,,,3,,NOT IMPLEMENTED; data only
+da_lat,D21,Cửa đồng bộ Seoul,portal,portal_seoul,portal,,,,,,,4,,NOT IMPLEMENTED; data only
+gyeongju,G0,Cổng vào làng di tích,start,intro,start,,,,,,,0,,NOT IMPLEMENTED; data only
+gyeongju,G1,Cầu lối bắc,junction,north_bridge,junction,,,,,,,0,,NOT IMPLEMENTED; data only
+gyeongju,G2,Đình ao sen,puzzle,puzzle_pond,puzzle,,,,,puzzle_pond,,0,,NOT IMPLEMENTED; data only
+gyeongju,G3,Nhà khảo cổ Min,npc,npc_min,npc,,,npc_min,,,,0,quest:GQ01,NOT IMPLEMENTED; data only
+gyeongju,G4,Đài Cheomseongdae cách điệu,puzzle,puzzle_observatory,puzzle,,,,,puzzle_observatory,,1,gyeongju.three_stars_placed,NOT IMPLEMENTED; data only
+gyeongju,G5,Gò mộ phía tây,item,loot_tomb_west,chest,,,,,,,1,,NOT IMPLEMENTED; data only
+gyeongju,G6,Đường giữa các gò,enemy,enemy_fox,encounter,,,,enemy_fox,,,1,,NOT IMPLEMENTED; data only
+gyeongju,G7,Tượng đá gác lối,enemy,enemy_stone_guard,encounter,,,,enemy_stone_guard,,,2,gyeongju.stone_guard_friend,NOT IMPLEMENTED; data only
+gyeongju,G8,Lối chùa đá,junction,stone_path,junction,,,,,,,2,,NOT IMPLEMENTED; data only
+gyeongju,G9,Sân chính di tích,npc,npc_keeper,npc,,,npc_keeper,,,,1,,NOT IMPLEMENTED; data only
+gyeongju,G10,Đình trên đồi,item,loot_hill,chest,,,,,,,1,,NOT IMPLEMENTED; data only
+gyeongju,G11,Vườn đá trung tâm,junction,stone_garden,junction,,,,,,,1,,NOT IMPLEMENTED; data only
+gyeongju,G12,Bệ phong ấn nứt,puzzle,puzzle_cracked_seal,puzzle,,,,,puzzle_cracked_seal,,2,,NOT IMPLEMENTED; data only
+gyeongju,G13,Lính canh đêm,enemy,enemy_night_guard,encounter,,,,enemy_night_guard,,,3,,NOT IMPLEMENTED; data only
+gyeongju,G14,Kho bản khắc,npc,npc_inscription,npc,,,npc_inscription,,,,2,,NOT IMPLEMENTED; data only
+gyeongju,G15,Thềm điện đá,puzzle,puzzle_temple,puzzle,,,,,puzzle_temple,,2,,NOT IMPLEMENTED; data only
+gyeongju,G16,Đền dưới hồ,item,loot_lake,chest,,,,,,,1,,NOT IMPLEMENTED; data only
+gyeongju,G17,Đài lồng đèn bờ tây,puzzle,puzzle_lantern_west,puzzle,,,,,puzzle_lantern_west,,2,,NOT IMPLEMENTED; data only
+gyeongju,G18,Lõi canh tinh tú,boss,enemy_star_core,encounter,,,,enemy_star_core,,,3,,NOT IMPLEMENTED; data only
+gyeongju,G19,Trạm cộng hưởng Silla,beacon,restore_gyeongju,beacon,,,,,,,3,gyeongju.beacon_lit,NOT IMPLEMENTED; data only
+gyeongju,G20,Cổng đi Seoul,portal,portal_seoul,portal,,,,,,,4,,NOT IMPLEMENTED; data only
+gyeongju,G21,Lối cỏ dược liệu,secret,secret_herb,secret,,,,,,,2,,NOT IMPLEMENTED; data only
+hoi_an,H0,Bến thuyền khởi hành,start,intro,start,,,,,,,0,,PASS runtime journey
+hoi_an,H1,Ngã ba phố đèn,junction,street_intro,junction,,,,,,,0,,PASS runtime journey
+hoi_an,H2,Tiệm đèn Cô Mai,npc,npc_mai,npc,HQ01,,npc_mai,,,hoi_an.h2,0,quest:HQ01,PASS runtime journey
+hoi_an,H3,Hẻm mái ngói,exploration,scene_roof_alley,exploration,,,,,,hoi_an.h3,1,,PASS runtime journey
+hoi_an,H4,Chợ ven sông,puzzle,puzzle_market,puzzle,,,,,puzzle_market,hoi_an.h4,1,,PASS runtime journey
+hoi_an,H5,Bến gỗ máy canh,boss,enemy_mo01,encounter,,,,enemy_mo01,,,2,hoi_an.mo01_disabled,PASS runtime journey
+hoi_an,H6,Cầu cổ ánh đèn,junction,bridge_story,junction,,,,,,hoi_an.h6,3,,PASS runtime journey
+hoi_an,H7,Trạm đèn hội quán,beacon,restore_lantern,beacon,HQ01,,,,,hoi_an.h7,3,hoi_an.lamp_restored,PASS runtime journey
+hoi_an,H8,Cổng giao lưu Jeonju,portal,portal_jeonju,portal,,,,,,,4,,PASS runtime journey
+hoi_an,H9,Ngõ đèn thất lạc,secret,chest_secret,secret,HQ03,,,,,,1,,PASS runtime journey
+hoi_an,H10,Quầy hàng Bà Tư,npc,npc_ba_tu,npc,HQ02,"HA_FOOD_PREP,HQ05,HQ06,HQ07",npc_ba_tu,,,,1,,PASS runtime journey
+hoi_an,H11,Rương gỗ bến nước,item,loot_crate,chest,,,,,,,0,,PASS runtime journey
+hoi_an,H12,Cua trộm dưới bờ,enemy,enemy_crab,encounter,,,,enemy_crab,,,1,,PASS runtime journey
+hoi_an,H13,Xưởng ghép giấy,puzzle,puzzle_paper,puzzle,,,,,puzzle_paper,,1,hoi_an.hanji_core_obtained,PASS runtime journey
+hoi_an,H14,Nghệ nhân ông Phúc,npc,npc_phuc,dialogue,,,npc_phuc,,,,2,,PASS runtime journey
+hoi_an,H15,Lối đèn lập lòe,enemy,enemy_ghost,encounter,,,,enemy_ghost,,,3,,PASS runtime journey
+hoi_an,H16,Cầu tàu trung tâm,junction,dock_central,junction,,,,,,,2,,PASS runtime journey
+hoi_an,H17,Bến đò phía đông,npc,npc_boatman,npc,HQ04,,npc_boatman,,,hoi_an.h17,3,,PASS runtime journey
+hoi_an,H18,Tiệm trà khách lạ,npc,npc_guest,npc,HQ03,"HQ05,JQ04",npc_guest,,,,2,,PASS runtime journey
+hoi_an,H19,Ngõ gốm hoa,puzzle,puzzle_pottery,puzzle,,,,,puzzle_pottery,,2,,PASS runtime journey
+hoi_an,H20,Cổng đi Huế,portal,portal_hue,portal,,,,,,,4,,PASS runtime journey
+hoi_an,H21,Rương áp mái,item,loot_attic,chest,,,,,,,1,,PASS runtime journey
+hue,U0,Bến sông phía phố,start,intro,start,,,,,,,0,,PASS runtime journey
+hue,U1,Chợ xưa bờ nam,npc,npc_merchant,npc,,HQ06,npc_huong,,,,0,,PASS runtime journey
+hue,U2,Nhà thuốc Bà Nguyệt,npc,npc_nguyet,npc,UQ02,,npc_nguyet,,,,0,,PASS runtime journey
+hue,U3,Bến đò bờ nam,npc,npc_ferryman,npc,UQ03,,npc_tam,,,,0,hue.crossing_permit,PASS runtime journey
+hue,U4,Đầu cầu vào thành,junction,bridge_entry,junction,,,,,,hue_u4_checkin,1,,PASS runtime journey
+hue,U5,Bot Thân vệ Cổng,boss,enemy_gate_guard,encounter,,,,enemy_gate_guard,,,2,hue.guard_disabled,PASS runtime journey
+hue,U6,Cửa Ngọ Môn cách điệu,junction,gate_story,junction,,,,,,hue_u6_checkin,3,,PASS runtime journey
+hue,U7,Nho sinh Lê An,npc,npc_scholar,npc,UQ01,UQ04,npc_scholar,,,,1,,PASS runtime journey
+hue,U8,Sân điện chính,puzzle,puzzle_court,puzzle,,,,,puzzle_court,,1,,PASS runtime journey
+hue,U9,Vườn phía tây,junction,garden_west,junction,,,,,,,3,,PASS runtime journey
+hue,U10,Vườn thuốc bờ bắc,item,herb_patch,chest,,,,,,,1,,PASS runtime journey
+hue,U11,Gốc cây dấu ấn,item,seal_cache,chest,UQ04,UQ04,,,,,1,,PASS runtime journey
+hue,U12,Bến sông tây,enemy,enemy_river_wisp,encounter,,,,enemy_river_wisp,,,1,,PASS runtime journey
+hue,U13,Bến thuyền hẻm,secret,secret_pier,secret,,,,,,,1,,PASS runtime journey
+hue,U14,Cầu ngõ phía đông,junction,east_bridge,dialogue,,,,,,,0,,PASS runtime journey
+hue,U15,Máy thu thư,enemy,enemy_courier,encounter,,,,enemy_courier,,,0,,PASS runtime journey
+hue,U16,Sạp mật mã chợ,puzzle,puzzle_market_code,puzzle,,,,,puzzle_market_code,,0,,PASS runtime journey
+hue,U17,Thư khố Hoàng thành,puzzle,puzzle_archive,puzzle,,,,,puzzle_archive,,1,hue.archive_decoded,PASS runtime journey
+hue,U18,Sân thử thách Hoàng môn,enemy,enemy_archive_guard,encounter,,,,enemy_archive_guard,,,3,,PASS runtime journey
+hue,U19,Đài đèn thành nội,beacon,restore_hue,beacon,UQ01,,,,,,3,hue.beacon_lit,PASS runtime journey
+hue,U20,Cổng dẫn Đà Lạt,portal,portal_dalat,portal,,,,,,,4,,PASS runtime journey
+hue,U21,Lối đi ẩn bên tường,secret,secret_wall,secret,,,,,,,4,,PASS runtime journey
+jeonju,J0,Cổng làng phía nam,start,intro,start,,,,,,,0,,PASS runtime journey
+jeonju,J1,Ngã ba hanok,junction,center,junction,,,,,,,0,,PASS runtime journey
+jeonju,J2,Nghệ nhân Hana,npc,npc_hana,npc,JQ01,,npc_hana,,,,0,quest:JQ01,PASS runtime journey
+jeonju,J3,Xưởng nhuộm vải,puzzle,puzzle_dye,puzzle,,,,,puzzle_dye,,1,,PASS runtime journey
+jeonju,J4,Nhà thầy Yoon,npc,npc_yoon,npc,,,npc_yoon,,,,1,,PASS runtime journey
+jeonju,J5,Tiệm hàng chuyển,npc,npc_parcel,npc,JQ02,,npc_park,,,,1,,PASS runtime journey
+jeonju,J6,Bot Cắp Kiện,enemy,enemy_parcel_bot,encounter,,,,enemy_parcel_bot,,,1,,PASS runtime journey
+jeonju,J7,Thư viện giấy hanji,puzzle,puzzle_hanji,puzzle,,,,,puzzle_hanji,,1,,PASS runtime journey
+jeonju,J8,Cầu đá tây,junction,west_bridge,junction,,,,,,jeonju_j8_checkin,1,,PASS runtime journey
+jeonju,J9,Bờ suối nước chảy,enemy,enemy_paper_crane,encounter,,,,enemy_paper_crane,,,1,,PASS runtime journey
+jeonju,J10,Rương ven hồ,item,loot_pond,chest,,,,,,,1,,PASS runtime journey
+jeonju,J11,Đài ngắm mái ngói,item,loot_rooftop,chest,,,,,,jeonju_j11_checkin,1,,PASS runtime journey
+jeonju,J12,Sân thêu họa tiết,puzzle,puzzle_embroidery,puzzle,,JQ01,,,puzzle_embroidery,,1,jeonju.three_patterns_joined,PASS runtime journey
+jeonju,J13,Cổng sân cổ,junction,old_gate,junction,,,,,,,1,,PASS runtime journey
+jeonju,J14,Bot Hoa Văn,enemy,enemy_pattern_bot,encounter,,,,enemy_pattern_bot,,,2,,PASS runtime journey
+jeonju,J15,Chợ hanok,npc,npc_snack_seller,npc,,HQ05,npc_soyeon,,,,2,,PASS runtime journey
+jeonju,J16,Người giữ chuyện,npc,npc_elder,dialogue,,JQ04,npc_elder,,,,0,,PASS runtime journey
+jeonju,J17,Đèn song thành,puzzle,puzzle_lantern,puzzle,,JQ03,,,puzzle_lantern,,2,jeonju.lantern_puzzle_solved,PASS runtime journey
+jeonju,J18,Hạc giấy bóng tối,boss,enemy_crane_boss,encounter,,,,enemy_crane_boss,,,2,,PASS runtime journey
+jeonju,J19,Trạm ánh sáng hanji,beacon,restore_jeonju,beacon,JQ03,,,,,,3,jeonju.beacon_lit,PASS runtime journey
+jeonju,J20,Cổng đi Gyeongju,portal,portal_gyeongju,portal,,,,,,,4,,PASS runtime journey
+jeonju,J21,Lối thư hồi âm,secret,secret_hoi_an_reply,secret,,,,,,,1,,PASS runtime journey
+seoul,S0,Bến công viên sông Hàn,start,intro,start,,,,,,,0,,NOT IMPLEMENTED; data only
+seoul,S1,Quảng trường trung tâm,junction,central_plaza,junction,,,,,,,0,,NOT IMPLEMENTED; data only
+seoul,S2,Cổng thành xưa,npc,npc_curator,npc,,,npc_curator,,,,0,,NOT IMPLEMENTED; data only
+seoul,S3,Sân cung điện,puzzle,puzzle_palace,puzzle,,,,,puzzle_palace,,1,,NOT IMPLEMENTED; data only
+seoul,S4,Hồ sơ lịch sử,item,loot_archive,chest,,,,,,,0,,NOT IMPLEMENTED; data only
+seoul,S5,Drone trinh sát,enemy,enemy_drone,encounter,,,,enemy_drone,,,1,,NOT IMPLEMENTED; data only
+seoul,S6,Bờ đông sông Hàn,junction,east_riverside,junction,,,,,,,1,,NOT IMPLEMENTED; data only
+seoul,S7,Quảng trường màn hình,npc,npc_tech,npc,,,npc_tech,,,,0,quest:SQ01,NOT IMPLEMENTED; data only
+seoul,S8,Đường cao ốc,enemy,enemy_signal_bot,encounter,,,,enemy_signal_bot,,,1,,NOT IMPLEMENTED; data only
+seoul,S9,Đường lên N Seoul Tower,junction,tower_trail,junction,,,,,,,1,,NOT IMPLEMENTED; data only
+seoul,S10,Chân tháp N Seoul,puzzle,puzzle_tower,puzzle,,,,,puzzle_tower,,2,,NOT IMPLEMENTED; data only
+seoul,S11,Trạm kiểm soát kỹ thuật,npc,npc_engineer,npc,,,npc_engineer,,,,2,,NOT IMPLEMENTED; data only
+seoul,S12,Đảo công viên xanh,item,loot_park,chest,,,,,,,0,,NOT IMPLEMENTED; data only
+seoul,S13,Cầu ánh sáng phía tây,junction,bridge_west,junction,,,,,,,0,,NOT IMPLEMENTED; data only
+seoul,S14,Bến phà thông tin,npc,npc_boat,npc,,,npc_boat,,,,0,,NOT IMPLEMENTED; data only
+seoul,S15,Bot bảo vệ cầu,enemy,enemy_bridge,encounter,,,,enemy_bridge,,,3,,NOT IMPLEMENTED; data only
+seoul,S16,Trạm phát điện bờ đông,puzzle,puzzle_station,puzzle,,,,,puzzle_station,,1,seoul.relay_a_on,NOT IMPLEMENTED; data only
+seoul,S17,Rơle cung điện,puzzle,puzzle_relay_hue,puzzle,,,,,puzzle_relay_hue,,2,,NOT IMPLEMENTED; data only
+seoul,S18,Rơle ánh đèn hanji,puzzle,puzzle_relay_jeonju,puzzle,,,,,puzzle_relay_jeonju,,2,seoul.relays_ready,NOT IMPLEMENTED; data only
+seoul,S19,Đường hầm dữ liệu,enemy,enemy_shadow_courier,encounter,,,,enemy_shadow_courier,,,3,,NOT IMPLEMENTED; data only
+seoul,S20,Buồng Lõi Nhiễu,boss,enemy_final_core,encounter,,,,enemy_final_core,,,3,seoul.final_cleared,NOT IMPLEMENTED; data only
+seoul,S21,Lễ hội hai nền văn hóa,epilogue,final_festival,epilogue,,,,,,,4,,NOT IMPLEMENTED; data only
+seoul,S22,Kính quan sát đồi,secret,secret_tower,secret,,,,,,,2,,NOT IMPLEMENTED; data only

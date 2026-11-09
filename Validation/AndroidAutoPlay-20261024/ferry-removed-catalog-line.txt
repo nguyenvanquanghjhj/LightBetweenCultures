@@ -1,0 +1,1 @@
+            new JourneyShopEntry("ferry_hq04",null,"Trả phí đò Hội An",5,"Trả đúng phí HQ04 và mở quyền đò tùy chọn ngay. Không mở thành phố.","hoi_an.ferry_available","HQ04")

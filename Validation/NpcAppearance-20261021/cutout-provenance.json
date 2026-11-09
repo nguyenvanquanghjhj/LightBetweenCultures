@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-21",
+  "method": "Built-in imagegen transparent extraction of owner-supplied new designs; not a mathematically pixel-identical background matte",
+  "npc_nguyet": {"sourceDescription":"Owner reattached large conical-hat / purple ao dai / yellow-flower basket image; second no-hat image is the old identity reference only", "master":"NEW01-nguyet-cutout-master.png", "generatedFile":"C:/Users/admin/.codex/generated_images/01a13f2d-8dae-7a02-99b2-182d4401a411/exec-5fdf6435-2087-4ea2-b3e8-21b6b5ed2835.png"},
+  "npc_elder": {"sourceDescription":"Owner new silver-haired elder, white/pink hanbok, hands in front", "master":"NEW02-elder-cutout-master.png", "generatedFile":"C:/Users/admin/.codex/generated_images/01a13f2d-8dae-7a02-99b2-182d4401a411/exec-99ccaac2-049d-40d3-a007-58bdb677c07c.png", "limitation":"Feet are hidden by the original hanbok; no claim of visible feet"},
+  "npc_hana": {"sourceDescription":"Owner new black-haired girl with two braids, closed-eye smile, white/pink hanbok", "master":"NEW03-hana-cutout-master.png", "generatedFile":"C:/Users/admin/.codex/generated_images/01a13f2d-8dae-7a02-99b2-182d4401a411/exec-38e34713-3c2d-48c7-b325-eab98030b372.png", "limitation":"Original large source cropped the skirt bottom. Extraction rounded the hem slightly; not an exact full-body preservation claim. Owner preview approval pending."},
+  "lumi": {"method":"Existing canonical native sprite reference only; no imagegen or PNG edit", "path":"Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png"}
+}

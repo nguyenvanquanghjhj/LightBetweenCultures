@@ -1,0 +1,12 @@
+[
+  {
+    "stage": "baseline Windows build",
+    "secondsIncludingShutdown": 57.01,
+    "log": "Logs\\gel-buttons-baseline.log"
+  },
+  {
+    "stage": "after Windows build",
+    "secondsIncludingShutdown": 63.07,
+    "log": "Logs\\gel-buttons-after01.log"
+  }
+]

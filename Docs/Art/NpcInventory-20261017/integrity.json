@@ -1,0 +1,17 @@
+{
+  "protectedFilesChecked": 46,
+  "documentMetadataChanged": [
+    "Docs/Art/NPC_CANONICAL_REGISTRY.json",
+    "Docs/Art/NPC_CANONICAL_REGISTRY.md",
+    "Docs/Art/ART_ASSET_CATALOG.md"
+  ],
+  "productionDifferences": [],
+  "identityOrBindingChanges": [],
+  "approvalCounts": {
+    "CANONICAL": 8,
+    "MISSING_VISUAL": 7,
+    "UNCONFIRMED_VISUAL": 12
+  },
+  "newRuntimeTest": "NOT VERIFIED; no new runtime binding",
+  "productionChanges": false
+}

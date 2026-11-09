@@ -1,0 +1,44 @@
+PASS: All 14 supplied PNGs are imported and referenced
+PASS: Legacy v1 save migrates optional visited history without losing quest
+PASS: Cancel reset preserves save
+PASS: Main menu displays supplied canonical cutout
+PASS: Fresh save starts at H0
+PASS: Locked nodes and edges rejected
+PASS: Cannot collect before quest acceptance
+PASS: Bundled runtime font contains Vietnamese glyphs
+PASS: Five cities remain locked
+PASS: New city UI strings preserve Vietnamese UTF-8 content
+PASS: Moving city avatar uses canonical Lumi PNG
+PASS: Current and locked node sprites match gameplay state
+PASS: NPC, puzzle, bot, portal and secret PNGs attached to designed nodes
+PASS: Touch begins animated node movement without teleport
+PASS: Mai dialogue accepts quest at H2
+PASS: Traversed nodes use visited icon and persist history
+PASS: Dialogue displays canonical Lumi portrait as listener
+PASS: Active uncollected quest displays supplied item PNG at H3
+PASS: Exploration entered from H3
+PASS: Uncollected item exists in world
+PASS: Exploration uses supplied independent SpriteRenderers with original player collider
+PASS: Follow camera serialized in generated scene
+PASS: Player visible outside HUD at aspect 0.5625
+PASS: Player visible outside HUD at aspect 1.777778
+PASS: House collider rejects destination
+PASS: WASD movement stops at house collider
+PASS: Path around house found
+PASS: Physical player reached route around obstacle
+PASS: Touchscreen ground input moves physical player
+PASS: Mouse ground input moves physical player (target (-0.60, 2.00), actual (-0.58, 2.00), mouse 5/5)
+PASS: Route to interaction range of lantern part found
+PASS: Touch interaction collects item once
+PASS: Duplicate pickup rejected
+PASS: Return restores exactly H3
+PASS: Collected-item marker disappears from city map
+PASS: Item remains absent after leaving and re-entering scene
+PASS: Turn-in consumes item and unlocks reward route
+PASS: Reward nodes open while future content stays locked
+PASS: Turn-in clears quest badge and updates unlocked node icon
+PASS: Completed dialogue does not grant duplicate rewards
+PASS: Save written to disk
+PASS: Quest, inventory, world and node restored from disk
+PASS: No duplicate manager, canvas or EventSystem after transitions
+ALL CHECKS PASSED

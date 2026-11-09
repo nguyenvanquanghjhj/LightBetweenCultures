@@ -1,0 +1,179 @@
+UTC run: 2026-10-24T06:58:57.9124327Z | Unity 6000.6.5f1 | 1280x960
+PASS: PC New Game starts with a blank isolated save, no seed or fixture
+PASS: Six cities/133 nodes/29 quests/22 story puzzles unchanged
+PASS: Single collection retains6 canonical relic IDs and24 fragment IDs
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Actual saved quest/relic state selects lighting A
+PASS: Map-space mask draws immediately above canonical painting, beneath actors/routes/markers
+PASS: Lighting cannot intercept mouse/touch/UI
+PASS: Lighting mask follows complete map bounds, not screen
+PASS: Soft circular district restores about20 percent of the painting including its gradient
+PASS: A dims both near/far background before actual tutorial hand-in
+PASS: Lighting does not expose hidden event H3
+PASS: Lighting does not expose hidden event H4
+PASS: Lighting does not expose hidden event H5
+PASS: Lighting does not expose hidden event H6
+PASS: Lighting does not expose hidden event H7
+PASS: Lighting does not expose hidden event H8
+PASS: Lighting does not expose hidden event H9
+PASS: Lighting does not expose hidden event H10
+PASS: Lighting does not expose hidden event H12
+PASS: Lighting does not expose hidden event H13
+PASS: Lighting does not expose hidden event H14
+PASS: Lighting does not expose hidden event H15
+PASS: Lighting does not expose hidden event H16
+PASS: Lighting does not expose hidden event H17
+PASS: Lighting does not expose hidden event H18
+PASS: Lighting does not expose hidden event H19
+PASS: Lighting does not expose hidden event H20
+PASS: Lighting does not expose hidden event H21
+PASS: Persist checkpoint state-A
+PASS: Dim background never unlocks hidden H19 movement
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H0 is discovered
+PASS: Lumi reaches H0 through the real map input
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_bamboo_frame
+PASS: Confirm without placement cannot claim: fragment_hoi_an_bamboo_frame
+PASS: Wrong drop rejected: fragment_hoi_an_bamboo_frame
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_bamboo_frame
+PASS: Wrong orientation rejected: fragment_hoi_an_bamboo_frame
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_bamboo_frame
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_bamboo_frame
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_bamboo_frame
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H3 is discovered
+PASS: Lumi reaches H3 through the real map input
+PASS: PC H3 picks up the physical lamp eye exactly once
+PASS: PC H3 return restores map input, scene readiness and movement
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H3 is discovered
+PASS: Lumi reaches H3 through the real map input
+PASS: PC H3 reentry has no duplicate eye or pickup control
+PASS: PC H3 second return preserves exactly one eye and responsive map
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Picked-up Eye has not completed Mai tutorial
+PASS: Actual saved quest/relic state selects lighting A
+PASS: Map-space mask draws immediately above canonical painting, beneath actors/routes/markers
+PASS: Lighting cannot intercept mouse/touch/UI
+PASS: Lighting mask follows complete map bounds, not screen
+PASS: Soft circular district restores about20 percent of the painting including its gradient
+PASS: A dims both near/far background before actual tutorial hand-in
+PASS: Lighting does not expose hidden event H5
+PASS: Lighting does not expose hidden event H6
+PASS: Lighting does not expose hidden event H7
+PASS: Lighting does not expose hidden event H8
+PASS: Lighting does not expose hidden event H9
+PASS: Lighting does not expose hidden event H14
+PASS: Lighting does not expose hidden event H15
+PASS: Lighting does not expose hidden event H16
+PASS: Lighting does not expose hidden event H17
+PASS: Lighting does not expose hidden event H18
+PASS: Lighting does not expose hidden event H19
+PASS: Lighting does not expose hidden event H20
+PASS: Persist checkpoint state-A-picked
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual saved quest/relic state selects lighting B
+PASS: Map-space mask draws immediately above canonical painting, beneath actors/routes/markers
+PASS: Lighting cannot intercept mouse/touch/UI
+PASS: Lighting mask follows complete map bounds, not screen
+PASS: Soft circular district restores about20 percent of the painting including its gradient
+PASS: B restores H2 district while distant background stays dim
+PASS: StateB circle is centered on the existing lamp, not the arrival anchor
+PASS: StateB soft circular edge has consistent map-pixel radius; see circle-samples.txt
+PASS: Lighting does not expose hidden event H5
+PASS: Lighting does not expose hidden event H6
+PASS: Lighting does not expose hidden event H7
+PASS: Lighting does not expose hidden event H8
+PASS: Lighting does not expose hidden event H9
+PASS: Lighting does not expose hidden event H14
+PASS: Lighting does not expose hidden event H15
+PASS: Lighting does not expose hidden event H16
+PASS: Lighting does not expose hidden event H17
+PASS: Lighting does not expose hidden event H18
+PASS: Lighting does not expose hidden event H19
+PASS: Lighting does not expose hidden event H20
+PASS: Persist checkpoint state-B
+PASS: Visual district recovery grants neither HQ01 nor world unlock
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_eye_reflection
+PASS: Confirm without placement cannot claim: fragment_hoi_an_eye_reflection
+PASS: Wrong drop rejected: fragment_hoi_an_eye_reflection
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_eye_reflection
+PASS: Wrong orientation rejected: fragment_hoi_an_eye_reflection
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_eye_reflection
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_eye_reflection
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_eye_reflection
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H4 is discovered
+PASS: Lumi reaches H4 through the real map input
+PASS: Intentional story action commits old proof without puzzle UI: puzzle_market
+PASS: Original coin reward exact: puzzle_market
+PASS: Original flags retained: puzzle_market
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_market
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_old_flower_paper
+PASS: Confirm without placement cannot claim: fragment_hoi_an_old_flower_paper
+PASS: Wrong drop rejected: fragment_hoi_an_old_flower_paper
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_old_flower_paper
+PASS: Wrong orientation rejected: fragment_hoi_an_old_flower_paper
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_old_flower_paper
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_old_flower_paper
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_old_flower_paper
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_roof_hook
+PASS: Confirm without placement cannot claim: fragment_hoi_an_roof_hook
+PASS: Wrong drop rejected: fragment_hoi_an_roof_hook
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_roof_hook
+PASS: Wrong orientation rejected: fragment_hoi_an_roof_hook
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_roof_hook
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_roof_hook
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_roof_hook
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Assembly rejects empty slots
+PASS: Four actual drops persist assembled state
+PASS: Wrong beam route cannot restore city
+PASS: Correct beam before H7 still cannot complete ritual or full-city light
+PASS: Four fragments and assembly before H7 cannot produce full light
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H13 is discovered
+PASS: Lumi reaches H13 through the real map input
+PASS: Real activity opens without granting proof: puzzle_paper
+PASS: Closing an event or battle returns map input to the player
+PASS: Cancel before success preserves items/proofs: puzzle_paper
+PASS: Empty confirmation cannot pay or consume: puzzle_paper
+PASS: Wrong drop rejected: puzzle_paper
+PASS: Touch drag / tap-select places actual piece: puzzle_paper 0
+PASS: Prepared tactile state alone never auto-commits: puzzle_paper
+PASS: Explicit interaction success records original PuzzleID: puzzle_paper
+PASS: Original coin reward exact: puzzle_paper
+PASS: Original item and one-time ledger exact: puzzle_paper hanji_core
+PASS: Original flags retained: puzzle_paper
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_paper
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H19 is discovered
+PASS: Lumi reaches H19 through the real map input
+PASS: Intentional story action commits old proof without puzzle UI: puzzle_pottery
+PASS: Original coin reward exact: puzzle_pottery
+PASS: Original flags retained: puzzle_pottery
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_pottery
+PASS: Closing an event or battle returns map input to the player
+System.Exception: FAIL: PC purchase uses earned currency
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<PcBuy>d__171.MoveNext () [0x0009b] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.PcGameplay.cs:52 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__303.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

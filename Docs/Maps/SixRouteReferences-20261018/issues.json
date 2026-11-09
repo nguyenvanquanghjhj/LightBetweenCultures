@@ -1,0 +1,119 @@
+[
+  {
+    "id": "HA01",
+    "city": "hoi_an",
+    "keys": [
+      "H17__H5",
+      "H5__H6",
+      "H18__H5"
+    ],
+    "box": [
+      1090,
+      610,
+      1370,
+      790
+    ],
+    "reason": "Blue loop below/right of H5 crosses open water beside the quay. Copying it would retain water walking; H5 arrival and H6 covered passage must remain unchanged."
+  },
+  {
+    "id": "HA02",
+    "city": "hoi_an",
+    "keys": [
+      "H0__H1",
+      "H0__H11"
+    ],
+    "box": [
+      330,
+      620,
+      720,
+      935
+    ],
+    "reason": "Extra corrupted label near the central junction is not a valid runtime node ID; true H0 marker and its arrival differ. The image does not specify which source edge a new branch belongs to."
+  },
+  {
+    "id": "HU01",
+    "city": "hue",
+    "keys": [
+      "U1__U15",
+      "U15__U3"
+    ],
+    "box": [
+      360,
+      550,
+      630,
+      735
+    ],
+    "reason": "U15 is printed twice at different places around U0/bridge stairs; no stable EdgeID identifies the replacement subroute."
+  },
+  {
+    "id": "HU02",
+    "city": "hue",
+    "keys": [
+      "U6__U18",
+      "U18__U8"
+    ],
+    "box": [
+      810,
+      100,
+      1180,
+      340
+    ],
+    "reason": "U18 appears both near the upper palace and beside the lower courtyard. Preserve canonical U18; resolving which branch replaces which edge requires an explicit mark."
+  },
+  {
+    "id": "DA01",
+    "city": "da_lat",
+    "keys": [
+      "D13__D21"
+    ],
+    "box": [
+      1090,
+      530,
+      1280,
+      800
+    ],
+    "reason": "Reference descent traverses dense conifers/cliff beside the lodge. A continuous walkable corridor is not clear on canonical art. Cannot infer stairs or add occlusion."
+  },
+  {
+    "id": "JJ01",
+    "city": "jeonju",
+    "keys": [
+      "J4__J7"
+    ],
+    "box": [
+      440,
+      225,
+      700,
+      360
+    ],
+    "reason": "Reference shortcut crosses the small tiled gate/roof between J4/J7. A ground-level crossing versus covered passage is ambiguous; cannot introduce a new occlusion assumption."
+  },
+  {
+    "id": "GY01",
+    "city": "gyeongju",
+    "keys": [
+      "G2__G17"
+    ],
+    "box": [
+      190,
+      405,
+      350,
+      590
+    ],
+    "reason": "Reference branch between G17 and the red island bridge includes open water with no depicted continuous bridge. Retaining graph/arrivals forbids solving this by adding a transport event."
+  },
+  {
+    "id": "SE01",
+    "city": "seoul",
+    "keys": [
+      "S0__S14"
+    ],
+    "box": [
+      480,
+      740,
+      775,
+      925
+    ],
+    "reason": "S-E002 is drawn across water below the central island rather than a continuous depicted bridge. A new island-to-road crossing cannot be assumed from the blue line."
+  }
+]

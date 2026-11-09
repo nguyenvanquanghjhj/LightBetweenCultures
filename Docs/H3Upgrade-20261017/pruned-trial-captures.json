@@ -1,0 +1,1560 @@
+{
+  "files": [
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch04/05-H3-exploration.png",
+      "bytes": 843837,
+      "sha256": "05d3dec20aa981c2d97253d230d5bf7249bb38b1b2fd2564f09b8ff3244c05f1",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch04/06-H3-part-picked-up.png",
+      "bytes": 843197,
+      "sha256": "fd9d4d66021b112d6fc4c06dfd5290610f8f5818ae2610b35cac1696789e22cc",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch04/H3-near-eye-before-pickup.png",
+      "bytes": 849088,
+      "sha256": "3d5b99006210706b3454e69ce6d7ea45de3411a9b3f9e701e964a0e778bc876a",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch04/H3-reentry-no-duplicate.png",
+      "bytes": 854778,
+      "sha256": "9b2fa13335ee56c72fad6e3efd7721999f0ca109d8c4f156bd078b4e94e5f7e1",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch04/H3-return-map-progress.png",
+      "bytes": 1064332,
+      "sha256": "896a91bd443d24952a825cec32f91dd69ad703a6cf55ed307946cae978ee279e",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch05/05-H3-exploration.png",
+      "bytes": 843837,
+      "sha256": "05d3dec20aa981c2d97253d230d5bf7249bb38b1b2fd2564f09b8ff3244c05f1",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch05/06-H3-part-picked-up.png",
+      "bytes": 843197,
+      "sha256": "fd9d4d66021b112d6fc4c06dfd5290610f8f5818ae2610b35cac1696789e22cc",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch05/H3-near-eye-before-pickup.png",
+      "bytes": 849121,
+      "sha256": "79e037731865e0b2a84a05b8ca608e2d94c77a0127270fde64c36eff256ea351",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch05/H3-reentry-no-duplicate.png",
+      "bytes": 854674,
+      "sha256": "e43bab6050128dc91ea272d37472ffb3cf4c5518ac0b43f05fb205898a645501",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch05/H3-return-map-progress.png",
+      "bytes": 1064353,
+      "sha256": "f98e4172ab608e2fb4e4ca379a86e47fd4f9ff8f67dfd3885cb30c1f570bced2",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch01/06-H3-part-picked-up.png",
+      "bytes": 826166,
+      "sha256": "05c60ea1bdb07861638d8ea83b2f477b07797dd28cb4859aa383cd7e035aa0db",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop03/05-H3-exploration.png",
+      "bytes": 843837,
+      "sha256": "05d3dec20aa981c2d97253d230d5bf7249bb38b1b2fd2564f09b8ff3244c05f1",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop03/06-H3-part-picked-up.png",
+      "bytes": 843197,
+      "sha256": "fd9d4d66021b112d6fc4c06dfd5290610f8f5818ae2610b35cac1696789e22cc",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop03/H3-desktop-1280x720.png",
+      "bytes": 1589973,
+      "sha256": "70bf59ef59f22dcd5e12ca0a1327b040060c6a4bf8e7863d4a79e4419e33f443",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop03/H3-near-eye-before-pickup.png",
+      "bytes": 849198,
+      "sha256": "b2a711b15bad32aea28e0c6cde9db48a1cd903566bd671822dfcc1cd26cc970b",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop03/H3-reentry-no-duplicate.png",
+      "bytes": 855137,
+      "sha256": "827b5914a6e7eeb5a025c01b70990d963cf73a438a19a84b2986e96000850368",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop03/H3-return-map-progress.png",
+      "bytes": 1536076,
+      "sha256": "38241c3f7ddf7eb6146e15dd24f93225964c3869b8811750cbdf0d23818e04be",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop02/05-H3-exploration.png",
+      "bytes": 844303,
+      "sha256": "a0b39c57a2fa5c19c1af73e335bf201a7391860150f5f82f7d96fb0ec75eaa08",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop02/06-H3-part-picked-up.png",
+      "bytes": 843612,
+      "sha256": "f23de025151a5d5a8303d3ef7b84205bfe7335fef0a2688ed4fb146dc291b4d8",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop02/H3-desktop-1280x720.png",
+      "bytes": 1600235,
+      "sha256": "422b8b8abee860c77afcb84c083c9a0b6d1fa3c844cd0acd1b9d6f4d7911b7e4",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop02/H3-reentry-no-duplicate.png",
+      "bytes": 855535,
+      "sha256": "81492dc865554d31b742064eb9dc19aa5a85b212bdbaf346b925d584eddb6749",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop02/H3-return-map-progress.png",
+      "bytes": 1536141,
+      "sha256": "6fbb13baecab272ac6cbafbfd4ba029499b31697063a9ddabe55a3703596eb52",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch02/06-H3-part-picked-up.png",
+      "bytes": 842203,
+      "sha256": "0cf7d265ef248903a9018d9b98ec9fbe80c0e76cdea3257c5229963a97b91d2c",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch02/H3-reentry-no-duplicate.png",
+      "bytes": 857185,
+      "sha256": "d203362b2f1a240ab8481b6b8cb482456f69423f2835beb8170f8d064bfbcc6d",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch02/H3-return-map-progress.png",
+      "bytes": 1064404,
+      "sha256": "e30ae811657e72376629040666591c362782c25b28a81edd42759eb5c94af614",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop04/05-H3-exploration.png",
+      "bytes": 843837,
+      "sha256": "05d3dec20aa981c2d97253d230d5bf7249bb38b1b2fd2564f09b8ff3244c05f1",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop04/06-H3-part-picked-up.png",
+      "bytes": 843197,
+      "sha256": "fd9d4d66021b112d6fc4c06dfd5290610f8f5818ae2610b35cac1696789e22cc",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop04/H3-desktop-1280x720.png",
+      "bytes": 1589973,
+      "sha256": "70bf59ef59f22dcd5e12ca0a1327b040060c6a4bf8e7863d4a79e4419e33f443",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop04/H3-near-eye-before-pickup.png",
+      "bytes": 849104,
+      "sha256": "13552711d002a6602ab579dfbac181705b24ac272e31294968e35fff5fe4fb0d",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop04/H3-reentry-no-duplicate.png",
+      "bytes": 855137,
+      "sha256": "827b5914a6e7eeb5a025c01b70990d963cf73a438a19a84b2986e96000850368",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop04/H3-return-map-progress.png",
+      "bytes": 1536115,
+      "sha256": "99fdff1b64c4b68188fd28394036ea0868ab2daacdcfd55d4428849e8ac92a17",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/01-HoiAn-stage0-hidden-regions.png",
+      "bytes": 1063544,
+      "sha256": "00688aaf19d625e129b085975f4c33b269e3ed7e2286497f9d1ad9f92e16dfbe",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/02-Mai-offer.png",
+      "bytes": 948078,
+      "sha256": "d384fc6932b99dc42ca0b2205787ceb4f85130be6dd54b0795996cc40276e03a",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/03-HoiAn-stage1-reveal.png",
+      "bytes": 1064451,
+      "sha256": "a03411cec17fc59b2b32cb708daa2c6b98944e7317b42720fd1d1253fcc14891",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/04-quest-journal.png",
+      "bytes": 303094,
+      "sha256": "960cf0c77b4a87f5c1b5dc76a2a4fb975f47d61769eebbca187c97a70ca941d7",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/07-HoiAn-stage2-before-bot.png",
+      "bytes": 1065609,
+      "sha256": "8f804a175742bfb7c8103004dbb75a591997eff641332dbb9e865f77d5ae67fa",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/08-battle-before-loss.png",
+      "bytes": 252814,
+      "sha256": "ce3946c74749b2ca1232a3c8413d63620c0d823c924bd165639c900dbc9c7463",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/09-battle-loss-retry.png",
+      "bytes": 266580,
+      "sha256": "0a919f78b2ab8d816ec406995aa7f76677eab78f3176f187e01f1437f08932f9",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/10-battle-actions.png",
+      "bytes": 257310,
+      "sha256": "761ac03738b30835d5fbb38c0d38025ec5148f2f2a3ed4549438d05582b13620",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/11-battle-win.png",
+      "bytes": 254827,
+      "sha256": "3ce2a4754818ec1e4cc5f1db992210e7e21d2c870e38f37d6eb159c391190aa6",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/12-Phuc-clue.png",
+      "bytes": 910224,
+      "sha256": "f4328b0740b65cfbc29d65a4841db8c517bcb06e4b0a4b0052322df22eb027c0",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/13-bot-disabled-by-puzzle.png",
+      "bytes": 900328,
+      "sha256": "242b1da496d2d4ae764a7d5e9dfae715174489ef31e214adb10e32a6cfab0cea",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/14-crab-bait-resolution.png",
+      "bytes": 698251,
+      "sha256": "e43512210aee9a3392d0d915d4e4da66146765fa6e1aadd83375a34644e2aad2",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/EXP-01-Fresh-revealed-preview-hidden.png",
+      "bytes": 1063392,
+      "sha256": "f4ed41ca95f1b5d2acee107aa4a426bfa812bf9638d6dfa524934bbb6e7392aa",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/EXP-02-After-first-gate-new-boundary-previews.png",
+      "bytes": 1007058,
+      "sha256": "2990efd38a7450cd628257a3de87a38a81a7da996bebaefd8d3aebca03fed819",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/EXP-03-Boss-sprite-red-floating-alert.png",
+      "bytes": 1047960,
+      "sha256": "6df5b3bafa50584ccfdc34feebe8500aa501b464223b3afd7e6f8efc4a5bcea0",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/EXP-Motion-off.png",
+      "bytes": 1063385,
+      "sha256": "76f9fdc460f9f88bfec370576f6f1a83860ea50e00532f0d25c7758cf0147f9e",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/intermediate-H5-stop.png",
+      "bytes": 950876,
+      "sha256": "f5db07803771194e87bca1a2f28079c4d3384f8ccd9c1c20802642b3212430b4",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/MKR-01-Fresh-NPC-talk-and-hidden-boss.png",
+      "bytes": 1088735,
+      "sha256": "a3e8ed94b3c704a3090da59ebeb0376a4d06906f5eb5e5880da9243cb0ffe9e7",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/MKR-02-Mai-needs-item-and-alley-reward.png",
+      "bytes": 1064660,
+      "sha256": "b90775ebb7e167ea18caef29ce12ec1139bf4a3c5a47241763061755a8d92a8a",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/MKR-03-Mai-ready-to-receive-item.png",
+      "bytes": 1064565,
+      "sha256": "6c8a2675177b014b51890448067564cc5cbda34a051101bf56ed7f99d20ee05d",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/MKR-04-Visible-boss-red-alert.png",
+      "bytes": 1063450,
+      "sha256": "1be1c1179f79d2a2c7b08481aaa922e244ccccd87daa41f2995b6f2aff1273a4",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/MKR-05-BaTu-return-with-item.png",
+      "bytes": 812917,
+      "sha256": "ce1272ac9fd0df7094a5052f8d0f292d518070905ee3c62047d888c7e7f059bd",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/puzzle-puzzle_market-retry.png",
+      "bytes": 197960,
+      "sha256": "5b68acbc0879958c4fa217424c51f6c340abcc8c6987aad28d0f47673a40631e",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/puzzle-puzzle_market-solved.png",
+      "bytes": 201086,
+      "sha256": "dea5decee5c3f6c00ca9187184108409ad6f3d463531220440665235b953d9af",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/puzzle-puzzle_paper-retry.png",
+      "bytes": 199507,
+      "sha256": "b4eb5143262062048ec8d3222efb8669adeb6b5ca4ce8dfc5bc7525d9b0b9fa1",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/puzzle-puzzle_paper-solved.png",
+      "bytes": 202736,
+      "sha256": "4ba0fad019e28e3326ad476f385962a4b61ac854774edef510355246ea7b62da",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/puzzle-puzzle_pottery-retry.png",
+      "bytes": 197211,
+      "sha256": "5b22cf787c7846c2ddcd67af3dc7364a95c3c98faecad56790f62c2f4aebe4f0",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/puzzle-puzzle_pottery-solved.png",
+      "bytes": 199938,
+      "sha256": "afb4f8cd60eca529d643d1c6271f897c2cd5946c3427fb7f0e68e3e1c4e78046",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/S1-01-Fresh-map-Mai-only-starting-region.png",
+      "bytes": 812228,
+      "sha256": "6a70ae7abea602f12eed1fc99b4b543c6477eaca6ecd6a68ed307fe4796129e5",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/S1-02-Gate1-only-next-region-merchant-crab.png",
+      "bytes": 812455,
+      "sha256": "5368192293b2340b8e6d1ad5cb9228faaa5cd30d86ee452da6d1701434bd3577",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/S1-03-NPC-and-bridge-bot-on-map.png",
+      "bytes": 813528,
+      "sha256": "666bc62e4d328210f458b04cdb093303e8881d9adce452f279d43b2d44a72359",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/S1-03b-NPC-and-bot-map-detail.png",
+      "bytes": 1063397,
+      "sha256": "c3fa51323d4d27092ff71f015c708032753f4d36832537834cbd87481f8203af",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/S1-04-Battle-opens-station-region-only.png",
+      "bytes": 812403,
+      "sha256": "814f2826f83e466cd2af4d15e15ff3f47a23ac6b3a5d5a44da469571f32e9d67",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/S1-05-Code-opens-same-region-only.png",
+      "bytes": 812871,
+      "sha256": "8e8d0c2a363474f3fdffcba00ab8579364420844d8dfbb34d3df393dec5d8f83",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/UI-01-CityMap-globe-backpack.png",
+      "bytes": 812195,
+      "sha256": "f406955bb5a8aca81025539edfa1c0bb3ae94c3b69907afb121633768df6f57f",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/UI-02-WorldMap-from-globe.png",
+      "bytes": 803883,
+      "sha256": "5a9e2534018c14ae22f03e83689822562fd0a4b34da89f619fa35e43941364ae",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/UI-03-Inventory-from-backpack.png",
+      "bytes": 693951,
+      "sha256": "8be70b78feb57d605f85fb8f6511d260daf6849e7ffa7a541007b62e35c1c590",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/UI-04-Lumi-dialogue.png",
+      "bytes": 1008029,
+      "sha256": "8234e658dac5f0e47b92a894fef9fe8e2eecec70db37e79fb0fecfb233e7bba6",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/UI-05-NPC-Mai-dialogue.png",
+      "bytes": 947893,
+      "sha256": "7c9a83ab59afaf874b5744fe4f15216944063711b939301bfa10959afacea420",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/UI-NPC-Korean-visitor.png",
+      "bytes": 965397,
+      "sha256": "c0cbc98c48a149cc9363da5faa0cccb45281e7447529176a54365770cb5d13c4",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/UI-WorldMap-locked-Hue.png",
+      "bytes": 803667,
+      "sha256": "4f11575d72f0947865cb0617748ab9246c48ed9c0d1199becaa76aad9b06e6fa",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/UI1-01b-CityMap-overview-paper.png",
+      "bytes": 812164,
+      "sha256": "5849f476ed03a82db7acd142109a7ee854ffadf300b8d7a9e038337e2ef1231a",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/UI1-03-Inventory-three-earned-items.png",
+      "bytes": 702223,
+      "sha256": "f3dacf56db6fd1159a287363d93af7acf5a99d020ed9f4b97e91c169caeae2e0",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop01/05-H3-exploration.png",
+      "bytes": 845125,
+      "sha256": "d10831f968bebf04072cbedc23c48713d5efca447770d7a60b38805aa03efa92",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop01/06-H3-part-picked-up.png",
+      "bytes": 842203,
+      "sha256": "0cf7d265ef248903a9018d9b98ec9fbe80c0e76cdea3257c5229963a97b91d2c",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop01/H3-desktop-1280x720.png",
+      "bytes": 703068,
+      "sha256": "b702aad9079af8964835c6ed2c930c52f7dc5e52cae327f2c6653bddfe9640a1",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop01/H3-reentry-no-duplicate.png",
+      "bytes": 857185,
+      "sha256": "38acf25628476b167a61caa75ef34116f3561e7b58658b4029ec90f70fbfda9a",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop01/H3-return-map-progress.png",
+      "bytes": 1536228,
+      "sha256": "1929c621df26b5da693c1d12de6efa53483323de2bcbca0cc93214671f15cb01",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch03/05-H3-exploration.png",
+      "bytes": 844303,
+      "sha256": "a0b39c57a2fa5c19c1af73e335bf201a7391860150f5f82f7d96fb0ec75eaa08",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch03/06-H3-part-picked-up.png",
+      "bytes": 843612,
+      "sha256": "f23de025151a5d5a8303d3ef7b84205bfe7335fef0a2688ed4fb146dc291b4d8",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch03/H3-reentry-no-duplicate.png",
+      "bytes": 855594,
+      "sha256": "2a62241441af207754033d2c36f88bb606f0d7f43bbd147fa3c04208ac6b16ef",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch03/H3-return-map-progress.png",
+      "bytes": 1064385,
+      "sha256": "7e36e0f5b4012de24ff031e43dea80dddf1b00d4376fea362d956bfdfa38b542",
+      "reason": "This task own superseded trial capture; final build08 proof, before pair, diagnostic samples, all logs and saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0000.png",
+      "bytes": 1047978,
+      "sha256": "ccf7694a8d14cedb8383b3bd538d5ca18758d21ccfebac440bcbfe4525c0dfbd",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0001.png",
+      "bytes": 1047966,
+      "sha256": "069c9667d3867864a4783b2418d1ed7a8974f90e11821ab95240bc14b063c7ce",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0002.png",
+      "bytes": 1048015,
+      "sha256": "ddf70b8ed62b1aa06268f7d88fb767a52213bd88bf60da2125812da16b7ac5d8",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0003.png",
+      "bytes": 1047948,
+      "sha256": "eafd30c5226a0940b881b317a7dd7b1d49c8b3fb2059e7d8189276d0b9e93798",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0004.png",
+      "bytes": 1047960,
+      "sha256": "788f59acb17b98cf0728dbba11ab2ee3ac29a9fa39ffb6e8db49a86cf5dd0fcf",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0005.png",
+      "bytes": 1048021,
+      "sha256": "3736fe3fabe9697b069ee54a04d8c8c141647111029d3abe1ada8d1074796039",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0006.png",
+      "bytes": 1047959,
+      "sha256": "b49d39dd2eca356e5386781a0ccbf1b2c2c205b3ffe0504bd95c70e2ec8bc24d",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0007.png",
+      "bytes": 1047969,
+      "sha256": "f081397f58a1195a60f2c0ea2789d8e709323d63ce276305a5385165e84056b0",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0008.png",
+      "bytes": 1048042,
+      "sha256": "895fb34b39a9c6f113dbf7203f7d4f7d3629e7606fbe75e68f9ef586b0cbf6f7",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0009.png",
+      "bytes": 1047993,
+      "sha256": "424502cc5f4015ea6b4a5d7a402655f87b5a2558d9433a98eb6d1a4a2bd02d2b",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0010.png",
+      "bytes": 1048000,
+      "sha256": "df6e93913413d98ff8d900ed710fba1c2a13597790840bc73b2a9675931002fd",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0011.png",
+      "bytes": 1048003,
+      "sha256": "a128dc613948f44246fd126cef6c937d947d5cca64b81d7dbf60e46afd0d8fec",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0012.png",
+      "bytes": 1048057,
+      "sha256": "3e7e4003b81cca639d568d3ebb4619718a96b7e3fc2061a610639032f6e18e9a",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0013.png",
+      "bytes": 1048075,
+      "sha256": "4c595817d9187ffacc711157af34290930544e3f72dbd2236f928f0bbdd9e6db",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0014.png",
+      "bytes": 1048066,
+      "sha256": "0479005c7b710faedc7b76644edfdc7730f74f13feb60f725c07708c287acdfe",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0015.png",
+      "bytes": 1048020,
+      "sha256": "31e93dbf13f5a5c0e31bb9b7fc82eed7fa6695e570eff2bdb4461c18e53319ac",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0016.png",
+      "bytes": 1048077,
+      "sha256": "4c91b68806896ae262eb736dd444e0312393a11d8cfebf8056364da5b9ee8aa7",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0017.png",
+      "bytes": 1048029,
+      "sha256": "0d315f4fd1247ba9d52b47a6d540ed627ef4842beb7b28d8ce08f638596c8300",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0018.png",
+      "bytes": 1048033,
+      "sha256": "3d005b9398204b1a969cc7176e38574057e6b74455393d1384e24bbf90db61e6",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0019.png",
+      "bytes": 1048012,
+      "sha256": "17c92b6fe01bfa255b8ad864f13a0401899489b089860fa014f9a636c5497c80",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0020.png",
+      "bytes": 1048005,
+      "sha256": "d6baa993a7d91db361d86011558f70dd0707822b8d0d10b5a1934894d780903e",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0021.png",
+      "bytes": 1047998,
+      "sha256": "0eac17b9123735e2240fcc4816479c36b06b5d602244b1c980b4d55e1354c722",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0022.png",
+      "bytes": 1047958,
+      "sha256": "a873f5c1b72bc22e673d857c87357ca9a52a41b23dcda85730e2ebd37a7a7d57",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0023.png",
+      "bytes": 1047991,
+      "sha256": "9d5f25d595cee76d56d459168c9dbef5b01a2a28b27761574f9cb294b25f6037",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0024.png",
+      "bytes": 1047990,
+      "sha256": "306c11ef4205f4b49dda7fa1f3d027d785bec1eb46b9e02679ead3d8882a7c63",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0025.png",
+      "bytes": 1047904,
+      "sha256": "5565ebc3d7d66f0918fe0c027b21b33bc383e5626976362e1d7b86584a77c72d",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0026.png",
+      "bytes": 1047912,
+      "sha256": "c8ba8f6ab807f8130181b183f4e7a727124985984b65881d5964e61c70ad2776",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0027.png",
+      "bytes": 1047954,
+      "sha256": "035c1953c40689a9951629759b5c7f2d12779390d34273618f1e0755bfd20e45",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0028.png",
+      "bytes": 1047946,
+      "sha256": "286bd0b64a1a604806114f0cde6e962e293bd8063ffd45c35b9042792804669f",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0029.png",
+      "bytes": 1047981,
+      "sha256": "2a618e4e868cfc250faa799065c136a08883812b53e3b50b721d14b2551b1f26",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0030.png",
+      "bytes": 1047977,
+      "sha256": "d54d94d0af864ad0ed63530ab4a043eeec235c0807b1f327a8a8e5c42524533f",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0031.png",
+      "bytes": 1047981,
+      "sha256": "f9a37343adcdec0f09c765a8c7fd7532e063931fa9a56b75e082f891f132178d",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0032.png",
+      "bytes": 1047980,
+      "sha256": "302915fcae6c84baac605d9f69b5cecdcb19b56ce9570275b9353a843b73a3c8",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0033.png",
+      "bytes": 1048006,
+      "sha256": "495dfc2dcbed605b0ce518c9ff3ab2628842f0c9a356e7661d4918a413e27aaa",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0034.png",
+      "bytes": 1047966,
+      "sha256": "198e642027b4e3b508476fd67c627690dc374a1af965b9961b9d873388180430",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0035.png",
+      "bytes": 1047977,
+      "sha256": "806cd5ba26a2738379a92a79b49ae56478e94d345d5b0a758182394a74847aaf",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0036.png",
+      "bytes": 1048009,
+      "sha256": "38dc088c0dbb5e77bbc0244e97514d58b83c9f8f45a591318baed827447ec2c4",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0037.png",
+      "bytes": 1047981,
+      "sha256": "791907ca7bc4325b2a382a8f8f5bf73b86077bb275968a336888be0b88ea8121",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0038.png",
+      "bytes": 1047984,
+      "sha256": "3d30ac39251adbea21a90b515aa02b615888ea31efefc1017c6192908218bc68",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0039.png",
+      "bytes": 1047999,
+      "sha256": "2df7d9c6d02e9040656999fbbe084dbf7d57a55c7f79c1300baac2bc3b7501ad",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0040.png",
+      "bytes": 1047969,
+      "sha256": "ae01e55b97760854a0cb624ffad42a33a8b1d5beb1643c0e2706e8093d13137b",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0041.png",
+      "bytes": 1048050,
+      "sha256": "8e8b1c5f37b573f2774eb10b04cd266862187eac3b00383602ceb28633696e84",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0042.png",
+      "bytes": 1047943,
+      "sha256": "a6d46c4418cf2548f9ba4fb7da6e62c1f267638fcaecaa76bf53501e33c09919",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0043.png",
+      "bytes": 1048000,
+      "sha256": "30695a124f33f12f43d8ed49cdf3f23675e5514015dc9e99c42c8d9d62a17ecf",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0044.png",
+      "bytes": 1048032,
+      "sha256": "6244c2ebec665b90f2b35892a26df1abad8a4e1e479c6613875ceb5d5771577c",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0045.png",
+      "bytes": 1048055,
+      "sha256": "2958e624e6f966c6c883e604a817f23f9fca8b395bf687b90ac5b0da744195b8",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0046.png",
+      "bytes": 1048087,
+      "sha256": "114a03c6da60d1e7cc3b4d3aa8c414ca790a6151a4bc48901505e6627bb62537",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0047.png",
+      "bytes": 1048034,
+      "sha256": "aefaaf5e8156613861bb5d1dfee3de52833a2451e6965fa304c0e10ea85c468e",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0048.png",
+      "bytes": 1048054,
+      "sha256": "386bb50bd3b45d6d6b4aea7d242a3d972de69e9a08b95efba983e6503e003698",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0049.png",
+      "bytes": 1048028,
+      "sha256": "d0294a920764ed0e401215d4fc77b30539f2de3fcf40028e6b552b95d8cb02d1",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0050.png",
+      "bytes": 1048031,
+      "sha256": "f44111cedf37e9656f2aee71ab5dbb71830f733c6255ed94098bc265f89b4db9",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0051.png",
+      "bytes": 1048004,
+      "sha256": "aa865ca8a5f01d9c87dbe2f8f0d20432e2de1b81102611ec2285eb968fb8d923",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0052.png",
+      "bytes": 1048023,
+      "sha256": "d6133a56b6becc92f53a78a4f01b4c4406a57c738b9ae52563a5902f209d34d0",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0053.png",
+      "bytes": 1047983,
+      "sha256": "4ee7d37285ae470f7341692138b8d05395c712b6431c64da0480e53c17cf008a",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0054.png",
+      "bytes": 1047914,
+      "sha256": "b783ffab0ebdc5f815bf0711f44b468fc75cb796e8d870bf8a1ce3464c1d4515",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0055.png",
+      "bytes": 1047985,
+      "sha256": "c2d1a22c12d26032a01bfe35072c1bd379c2924d20b29d79008fae295b443757",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0056.png",
+      "bytes": 1047989,
+      "sha256": "02ba8dda386114503fdfe484cd298a341496f24abd106632530538b3f8e2d37b",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0057.png",
+      "bytes": 1047921,
+      "sha256": "7c53f062cea4e1c34bdeb3c2878ff30c3b3b02ecd0d32ffa434a7e717d11dc9d",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0058.png",
+      "bytes": 1047877,
+      "sha256": "e46c3c5c12bc036d60942056bd063e006bbe589745b771ed766a5abb7b8fda4c",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0059.png",
+      "bytes": 1047952,
+      "sha256": "848fb9c0282d68cd7a6bf582043fa54d92d6134e224683879fd31e328b0834b9",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0060.png",
+      "bytes": 1047927,
+      "sha256": "85e3fa33d11a830153b56a0e9fb6660597ca0f9c267068be65e816633dc95db5",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0061.png",
+      "bytes": 1047958,
+      "sha256": "8331f85a94372af1072353d8ebb1b0c49d4037b63c4b6ba8f88504465b02c702",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0062.png",
+      "bytes": 1047963,
+      "sha256": "f18801b7852ef5cee796bce3ee7b00bae03ad74bfe8c73e3f9a4e794e0aeb004",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0063.png",
+      "bytes": 1047959,
+      "sha256": "a023f5f7febb8387a4904949a4e12f14d7a386aeda72c5de4162d5ce152c60c2",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0064.png",
+      "bytes": 1047985,
+      "sha256": "580707a941fdd6a75412af219ddc3c20051f243f4b8adf6d6d99d68aaad1a56e",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0065.png",
+      "bytes": 1047975,
+      "sha256": "432e3aa6d21d954d8be0b315877d7c25095cef3d8976e983d68473f77e9ea2a2",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0066.png",
+      "bytes": 1047983,
+      "sha256": "cd84c7f1bc3af5af572605d13398092f03c66f349be4ccad81567999e6875959",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0067.png",
+      "bytes": 1048000,
+      "sha256": "b3eafb982e315f76aa0b81e07a7a74906c5c26917bf57de4e9715dfe14a7ad21",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0068.png",
+      "bytes": 1047965,
+      "sha256": "49204ed3eadfa913cf587db234b627229fbcdef69be3492fe765a3d1261e485a",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0069.png",
+      "bytes": 1047973,
+      "sha256": "aeac138d341bb6422a3f7de7608676e7966327a28106fd61da62ea96c66b2c26",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0070.png",
+      "bytes": 1047986,
+      "sha256": "620e82b0b163f2be194c4dfdaa7715cdf5dd7916b8bf6bc05442397a25ee83ab",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0071.png",
+      "bytes": 1048004,
+      "sha256": "8f572c01fcb9384fbb8bdc26e802b2264b25fd2d67ad326aaaac870c5712f5cd",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0072.png",
+      "bytes": 1047984,
+      "sha256": "ef6e18383a38eca4274c59f8dd9d61bd3d4e9a1a1154c2ca844c314f86be0bfb",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0073.png",
+      "bytes": 1048029,
+      "sha256": "29e723bd7819d30f2a760d8570b33c930cc0f7660192d81bd7f27a4b41cbd106",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0074.png",
+      "bytes": 1048005,
+      "sha256": "ec70314d9f811686f86a69b5c2bb4044ead5085ecb048f2845a41c0402e5c551",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0075.png",
+      "bytes": 1048023,
+      "sha256": "a6588b4d838ed278ee6ac5b8bade1ced6f752c4eb81a25465f2bd20dea2038d6",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0076.png",
+      "bytes": 1048019,
+      "sha256": "23e6c65a4e6a434e221d18b8a7134d02dd8e16a84ec8a0ecdc639d3ebf3157c5",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0077.png",
+      "bytes": 1048095,
+      "sha256": "bc53fa58e5194c15bf6fa0818a65cfc93146ba6e677dfd0aa449b3685f6e0ac3",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0078.png",
+      "bytes": 1048042,
+      "sha256": "cd847d6d73146d93ebb76b07b19e784bb5d096178e67b910df502eb57c69e875",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/boss-floating/frame-0079.png",
+      "bytes": 1047988,
+      "sha256": "22e53ce9ffc8268ec3c4edb03f19394db6afc8a2bf95a29da3754dbb0cfa9708",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0000.png",
+      "bytes": 1063619,
+      "sha256": "74a9198431280edf2a754184b79bc8a3447a837f661c9dc717b3ccae1bbdf781",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0001.png",
+      "bytes": 1063605,
+      "sha256": "7a2a1f013ad9c6637c1be866046bfb3eede45dfe747317ce6252041fd43ab35b",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0002.png",
+      "bytes": 1063620,
+      "sha256": "c87954352532293eb5995fd7457f0b2709eeeb91bf67b35d886193bd2f6fe692",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0003.png",
+      "bytes": 1063592,
+      "sha256": "830a678f2001c378d8e1fe9d0e0a9a32dd80bed4f0b7dd0c4e784cb208c91c5c",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0004.png",
+      "bytes": 1063570,
+      "sha256": "02ae97868562fa7facecb61653e9478b46d04c621638731b6596bf7b3a78a82e",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0005.png",
+      "bytes": 1063557,
+      "sha256": "2e04d38eebcd6545f302315a04b0891e2de17c20455a37a4c0f67ff2183cbf67",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0006.png",
+      "bytes": 1063552,
+      "sha256": "0bc94f55812286e5087003ec2ba50690e01c070855e0e505f220b8432703fe2a",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0007.png",
+      "bytes": 1063535,
+      "sha256": "012e1f3efc5b95fa13c8782ae59f6e455a3f589fc4caa1fdde60e26df1429bcb",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0008.png",
+      "bytes": 1063560,
+      "sha256": "23a5f3a615010d8d4cc9dd95a59a2c69548f97aff65013e14e992ca9db3d54c3",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0009.png",
+      "bytes": 1063540,
+      "sha256": "03f80318c79b32c9b2f7d40e8063f7b0e697dc56b4aa0f6a053fa3673ea14322",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0010.png",
+      "bytes": 1063524,
+      "sha256": "553b19a94c9e1a6ef0fe334961b58229a232d62102cc44ac5c3919ee36adb93e",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0011.png",
+      "bytes": 1063491,
+      "sha256": "b802e0b8fd259f30b8d76744ff00574e7df99da7d48b133a8c492a69aa5c52d2",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0012.png",
+      "bytes": 1063490,
+      "sha256": "5d40b4ba731932fd37f4c5cdc5d03f2fcdac2084d2a4238b4ac2c2a01a30a30e",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0013.png",
+      "bytes": 1063473,
+      "sha256": "4f0613891cff7b5c5e1c4cb588a9f11a069ce854609aa6c4cd292d248e8c9bba",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0014.png",
+      "bytes": 1063502,
+      "sha256": "e37223aea756a32a58efedad556e97c0e458905f909ca0b79933f7e95bbd21e3",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0015.png",
+      "bytes": 1063490,
+      "sha256": "17f75647e8f787e8bffeb3780ece13dbef959c9868c6e5fcbad0c0d700881add",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0016.png",
+      "bytes": 1063479,
+      "sha256": "c4f39342f757d811cfc676cf848a0ba5a35ee987e0dd4e8935e45cf9ded74505",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0017.png",
+      "bytes": 1063503,
+      "sha256": "0795994575ff9320ef333a41d93562b9d51b2c465b4c6b19bb4e349b461da246",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0018.png",
+      "bytes": 1063510,
+      "sha256": "40c8c92c793f6e36e9c8e995fba588d2ba09de3d9acdc4f967a1652478f2d15c",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0019.png",
+      "bytes": 1063497,
+      "sha256": "86217e117e3d5bbe53ab1c21b14b2621ae0ea41626407417c6561bdb3d51a9a9",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0020.png",
+      "bytes": 1063490,
+      "sha256": "63641858269b7f55ea97faf0e91042163f729749969bafb8997439427fba5834",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0021.png",
+      "bytes": 1063468,
+      "sha256": "19f25aba05673700b64a349b96733b991260f7d9bb38ab5bbe60e9419fe0ad42",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0022.png",
+      "bytes": 1063509,
+      "sha256": "0bcdcdd771ac597fafc5f2895fbfb65bc268c51ee81f4f9fd8dc0826fa6aa25f",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0023.png",
+      "bytes": 1063518,
+      "sha256": "6537b6d57e30aeafe55ad379d1d66323486826414e176065119d4566a01004cf",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0024.png",
+      "bytes": 1063546,
+      "sha256": "001c827fcf860fff49232ec6ff30406a87058b129c82ff7badcf722b62c10c5d",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0025.png",
+      "bytes": 1063559,
+      "sha256": "c3b96616cf3b4753a3ef2007fb88d8a719660bd157df0a1613dbb8dd936caa44",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0026.png",
+      "bytes": 1063559,
+      "sha256": "341e9344d9b8612a547556edf3da9083e8ed31fec47f2cb767ea820e75ad7a0b",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0027.png",
+      "bytes": 1063552,
+      "sha256": "6aa312c3ec4454e30dbfb0f9eb911fe79888beea267b36bea745872586c94715",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0028.png",
+      "bytes": 1063598,
+      "sha256": "14d2c9f7999401f68c219816285c0510aba94e89190e58bc289fe92ad65741bc",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0029.png",
+      "bytes": 1063564,
+      "sha256": "c44f5b40a6cd0142b64a028280dd2241e306699f31f3d048abdd65bebbf9d628",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0030.png",
+      "bytes": 1063598,
+      "sha256": "cf478142fb8614bc4b9065a7db562735365490bcaf8ec53f307e722f5dd4fb5f",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0031.png",
+      "bytes": 1063610,
+      "sha256": "18f28a7e58c3e8ef21d28ecfd86524ba81a649dbd62a7a4f8d68996f3cd54f97",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0032.png",
+      "bytes": 1063623,
+      "sha256": "75336d16ef2b16b9340e3f1f61dff453e86b578ce1e3451da4167318cb0d6813",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0033.png",
+      "bytes": 1063618,
+      "sha256": "32f666b66f97cb788e0bbf110899e33576750472ba4b2f3d37fd94038af7a1aa",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0034.png",
+      "bytes": 1063619,
+      "sha256": "92a124e1756f6e2551308c39a70eb3aa06f5b2fce6af5d8dff20dc2fbe2b8521",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0035.png",
+      "bytes": 1063604,
+      "sha256": "60c8e35390cabac98ba4501f9fccd4272d0115c6e6fa34c2db71fcb18fc273e6",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0036.png",
+      "bytes": 1063599,
+      "sha256": "883cc25557e35785fdd822f5f0be607d0fb5e843b091e8dade8e21634aa97696",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0037.png",
+      "bytes": 1063565,
+      "sha256": "5b92900250481581208d9554887a14c13c46dab1d7dc05279f05140af51e013b",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0038.png",
+      "bytes": 1063570,
+      "sha256": "9bf3ac147a3d28f35ce336ee15416cfab1de8f79b7f2694e9be6b9abb93490d4",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0039.png",
+      "bytes": 1063562,
+      "sha256": "f7828fb9c59fb554692d4210039c5593e450a73544d3fade7204857156e4b098",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0040.png",
+      "bytes": 1063541,
+      "sha256": "d92ac65ac3c3549cbc4fe5a62a21d2103754831c76c504f7ecd7fb06ab325e56",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0041.png",
+      "bytes": 1063575,
+      "sha256": "6aeaf1b108af3c4a4994c3e61466b7db1d7b707606a275de961c51e691da3b1f",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0042.png",
+      "bytes": 1063553,
+      "sha256": "8c9a5a684f3b87abe68bbc1c049673ff702fb9a27e5dd5a95978cd19fe1e9c8c",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0043.png",
+      "bytes": 1063497,
+      "sha256": "ae808ed0943a27dd6bf0a0d308a740d879d06b7be1b3c6b8380946c7b22ed7b5",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0044.png",
+      "bytes": 1063504,
+      "sha256": "d110e5d5cd7a2fd98c58e3a16cda184f7a8204c8f4acbb0782d279f7ba960125",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0045.png",
+      "bytes": 1063493,
+      "sha256": "4c5e1df9b000e635de03f447429bdb9e9ffbeb227838451035629243eedee30b",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0046.png",
+      "bytes": 1063486,
+      "sha256": "a2738ecd0cbab5274765fb4f757360bc2b2b3bbc4588f241b30bb387257e3d54",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0047.png",
+      "bytes": 1063498,
+      "sha256": "0823c834e2129078189cc784b6d783880ae8d4535eb3e8cca05bfb72fd4779db",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0048.png",
+      "bytes": 1063537,
+      "sha256": "d7c9379f40228c7a38a43fad4727a6fa8d840e814fc5eee9e26ddc06436f9993",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0049.png",
+      "bytes": 1063496,
+      "sha256": "57e55040e70b778ea7f28b687bbaa8ddda450a92ba946f31368eade762e4044c",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0050.png",
+      "bytes": 1063487,
+      "sha256": "54dba98ddee8104f91b62a8a920ab62fc669a98d2ebd3b7e16eb9323bc099c7a",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0051.png",
+      "bytes": 1063509,
+      "sha256": "abbced60c8c24d161367418d00988854c597d1276c66d1cd792ac2f6bb0a7c62",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0052.png",
+      "bytes": 1063478,
+      "sha256": "fa3ef9c7ad263195cba1e150a39c80daad49b297b30bc5c2eb936dc14bbecd94",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0053.png",
+      "bytes": 1063508,
+      "sha256": "47adafab1fc1a6384c654e32fe3bc31b11e12df37d0f54aa13bc48d547bf8018",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0054.png",
+      "bytes": 1063488,
+      "sha256": "ae860274d5d8a6aad5694bff0971bb376178c0899e8157772742eda335b4ea83",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0055.png",
+      "bytes": 1063488,
+      "sha256": "db11a298e48e61277ca967cd934a200d60677c67bae8b5745530806c4e36c086",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0056.png",
+      "bytes": 1063516,
+      "sha256": "846d54eb08b7d8454b964bb32c40ea9db3c11e6682c662248b0868b5d6029e9a",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0057.png",
+      "bytes": 1063535,
+      "sha256": "457a9b3564a294fd763a5817bb344369d62cef7d9c55311bdc19944d6fc59deb",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0058.png",
+      "bytes": 1063559,
+      "sha256": "e4fb07332685ca226cf827032d50873f230fdb8353995795d018b0984b8189b7",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0059.png",
+      "bytes": 1063557,
+      "sha256": "c867f9c8d8d4f1cb4f4efd662f9c141e72df9700e1ff909c53858b49e606d184",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0060.png",
+      "bytes": 1063562,
+      "sha256": "e3bf1c0033332b9d310cefd044e059dbdf8970c9b0b942c0757f4de9139d3a96",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0061.png",
+      "bytes": 1063604,
+      "sha256": "b3f3915dc2e6c8d48f4943277d779b5629af53157a6e5389ba6bf38e292c7194",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0062.png",
+      "bytes": 1063574,
+      "sha256": "64a0d3b16f690e60d1b2a7ed7e494356e13c654b004423433c5c72be127381bf",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0063.png",
+      "bytes": 1063622,
+      "sha256": "8b0c6be244f883c9bcb68a731be121c79022a5955fa0ea1e469027f045798370",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0064.png",
+      "bytes": 1063633,
+      "sha256": "7e7d4c0b8337b8cd1beeb1cb434c7e82f506788b331b3b3edff3cb4348627797",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0065.png",
+      "bytes": 1063622,
+      "sha256": "5e7d54f93d259e430f12ac2e160552e7b90a2e7a23bcd249075fb1d493a2041e",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0066.png",
+      "bytes": 1063617,
+      "sha256": "0b7c497ad7d2cd60a8f7a0def3219b73210aad8829a1b86d3092df81d20f51b7",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0067.png",
+      "bytes": 1063603,
+      "sha256": "dc5a80fa5821cf682ff5269e9ef1aba3b10ffed05fe7e51a34356d097b476f66",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0068.png",
+      "bytes": 1063591,
+      "sha256": "fea4eabbe99a05af2bfda31c6458cc8b859f52174859952c3f1b7f7e748c33a9",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0069.png",
+      "bytes": 1063538,
+      "sha256": "b5beea83b6090c81e49db7f9cefa6b9b59ec52eb41a08c0acec35ff9068e9e7b",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0070.png",
+      "bytes": 1063563,
+      "sha256": "6a05096bfc3fe543a5c1557a1af35d5fe9fb6d888226844a24bfad32aa8a03f4",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0071.png",
+      "bytes": 1063575,
+      "sha256": "17301a9f389799e0b5782f73e823d1735ce65378e3a087caf1755089466efe88",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0072.png",
+      "bytes": 1063541,
+      "sha256": "cf4f5bd034fce4182f3fd96af6c4fa429c8e2fd5e4d461ed28bfb628f0995bde",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0073.png",
+      "bytes": 1063569,
+      "sha256": "2863334ff6c67972e3ab0fd71076fe0fe876abe8832894c41a36cbb061b7b181",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0074.png",
+      "bytes": 1063559,
+      "sha256": "68c5cc31d6b4feb1022395d193fd50bce30fb5065691a01858d30203657003d9",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0075.png",
+      "bytes": 1063494,
+      "sha256": "0d1e5653c2d8376e737035057185ef770e710bdad5123d307526b02d66aff682",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0076.png",
+      "bytes": 1063497,
+      "sha256": "9caa259f6b0259d2e15f12afa8015801d6483f6028992b13c812663183387d45",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0077.png",
+      "bytes": 1063473,
+      "sha256": "6f5df369c2c949845293f12c12e46459ebf54111bf290e2847d8b212d82638c0",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0078.png",
+      "bytes": 1063476,
+      "sha256": "a09c0289bc1ba1e4eed44337e0f099c055563b67efee5a88bd5b93b8b085de42",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Before/npc-floating/frame-0079.png",
+      "bytes": 1063499,
+      "sha256": "0aa308e291b8d7d5ce97fbea7a18c3a6e373e34a9a81b12562dce474f70cfd5a",
+      "reason": "Unneeded marker animation frames produced by the before-capture prefix; unrelated to H3 acceptance, existing marker proofs untouched"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch06/05-H3-exploration.png",
+      "bytes": 843837,
+      "sha256": "05d3dec20aa981c2d97253d230d5bf7249bb38b1b2fd2564f09b8ff3244c05f1",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch06/06-H3-part-picked-up.png",
+      "bytes": 843197,
+      "sha256": "fd9d4d66021b112d6fc4c06dfd5290610f8f5818ae2610b35cac1696789e22cc",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch06/H3-near-eye-before-pickup.png",
+      "bytes": 849150,
+      "sha256": "27627cdf0d6213e66db9d8cff6b00da798c2be31206ff0cc1ed4c2d1d0017fdf",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch06/H3-reentry-no-duplicate.png",
+      "bytes": 855288,
+      "sha256": "2fc36a7fcada0bdfa2ecf4f1355849adb52bc69494c3e6fb0b66f01b20d888e8",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Touch06/H3-return-map-progress.png",
+      "bytes": 1064370,
+      "sha256": "0c77a368afb7271584751766c68210c8fa849a8e334be46adbf82e782b23c4ea",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop05/05-H3-exploration.png",
+      "bytes": 843837,
+      "sha256": "05d3dec20aa981c2d97253d230d5bf7249bb38b1b2fd2564f09b8ff3244c05f1",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop05/06-H3-part-picked-up.png",
+      "bytes": 843197,
+      "sha256": "fd9d4d66021b112d6fc4c06dfd5290610f8f5818ae2610b35cac1696789e22cc",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop05/H3-desktop-1280x720.png",
+      "bytes": 1590927,
+      "sha256": "e26a7276ed3db260195f02dc33848d74b18d35e8cc7918ee1ce7963aa4ffcbac",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop05/H3-near-eye-before-pickup.png",
+      "bytes": 849165,
+      "sha256": "4dfa17bd4dba485e02becbc0633f8f1916559a3370e7a91d825e49c0460506c9",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop05/H3-reentry-no-duplicate.png",
+      "bytes": 853980,
+      "sha256": "e34f4909fad1ee9426f499f2de4900d4b9d305079f8a299b9c7e3523a3add1f0",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/Desktop05/H3-return-map-progress.png",
+      "bytes": 1536159,
+      "sha256": "09eea19e7352d15c4471a3c5de4a61ee34006524283a0de7ac64ef80958596e5",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/RestartTouch02/H3-restart-item-stays-collected.png",
+      "bytes": 856578,
+      "sha256": "75f1f742e114037a70f6aac327e06643b243ba5d6ae0106d3c7408fb10beb935",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/RestartTouch02/H3-return-map-progress.png",
+      "bytes": 1061657,
+      "sha256": "4bc0f8820b7a8732333d7245e4ec81dc31f2ef61df23c17c72af7f13b037c47c",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/RestartDesktop02/H3-desktop-1280x720.png",
+      "bytes": 1593474,
+      "sha256": "91f08e57a57c6bc0095cccb3d725cfdfc5e72999663c439deed202f427a4665c",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/RestartDesktop02/H3-restart-item-stays-collected.png",
+      "bytes": 856580,
+      "sha256": "ee8afdeb2cf52fefbfc77fd9e9166fb848419de6d697fe9e7227c96099c77006",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    },
+    {
+      "path": "Validation/H3Upgrade-20261017/RestartDesktop02/H3-return-map-progress.png",
+      "bytes": 1537554,
+      "sha256": "9b0345bb45550709e25819414beccd0d8e3d44e015866d2f9a61f5cb163e67e1",
+      "reason": "Own build08 capture superseded by build09 framing final proof; results/saves retained"
+    }
+  ],
+  "bytes": 257495535,
+  "scope": "Only current H3 task trial PNGs; no old project validation or backups touched"
+}

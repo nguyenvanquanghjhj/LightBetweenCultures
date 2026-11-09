@@ -1,0 +1,200 @@
+# LBC — POLISH CITY MAP VÀ UI: DỌN MẠNG ĐƯỜNG, CẢI THIỆN THÔNG BÁO VÀ HOẠT HỌA NÚT
+
+Project: `D:\GAMEKKK\LightBetweenCultures`
+
+Trước khi thực hiện, hãy đọc checkpoint và source mới nhất. Chỉ sửa phần còn thiếu hoặc chưa đạt. Không làm lại những thành phần đang hoạt động tốt.
+
+## 0. CÁC PHẦN ĐÃ DUYỆT — TUYỆT ĐỐI GIỮ NGUYÊN
+
+Tôi đã xem ảnh runtime và xác nhận:
+
+- Sprite bot, boss và cách nhân vật đối địch xuất hiện trên City Map hiện tại đã chấp nhận được.
+- Marker dấu `!` đỏ trên đầu boss đã đạt.
+- Kích thước bot/NPC và cách marker gắn trên đầu hiện tại được giữ nguyên.
+- Không cần thiết kế lại sprite boss, combat art, marker hoặc các hiệu ứng liên quan đến boss.
+- Không sửa BattleManager, enemy stats, combat gameplay hay cấu hình encounter trong lượt này.
+- Giữ nguyên Map Overview A, Lumi và các sprite canonical đã duyệt.
+
+Không thực hiện PHẦN B sửa boss/enemy trong prompt cũ. Chỉ tập trung vào hệ thống đường đi và chất lượng UI.
+
+## 1. THIẾT KẾ LẠI MẠNG ĐƯỜNG HỘI AN
+
+Mạng đường hiện tại quá chằng chịt, nhiều tuyến gần trùng nhau, cắt ngang công trình và lấn át bản đồ minh họa.
+
+### 1.1. Tinh giản topology thật
+
+- Mỗi gameplay node có tối đa 3 node hàng xóm trực tiếp, tính cả cạnh có điều kiện.
+- Node thông thường ưu tiên 2 kết nối.
+- Node cuối nhánh chỉ cần 1 kết nối.
+- Ngã ba tối đa 3 kết nối.
+- Không có node 4–5 đường chỉ để tiện routing.
+- Một cạnh cho phép đi hai chiều không cần vẽ thành hai đường.
+- Ưu tiên một tuyến phiêu lưu chính với các nhánh phụ ngắn, dễ hiểu.
+- Xóa hoặc tái nối những cạnh dư thừa, vòng lặp không có vai trò gameplay.
+
+Kiểm tra đặc biệt H1, H3, H4, H6 vì dữ liệu trước đây có hơn 3 kết nối.
+
+Phải đối chiếu dữ liệu hiện tại trước khi sửa; không dùng graph cũ nếu đã được cập nhật.
+
+### 1.2. Không phá nhiệm vụ
+
+Đảm bảo vẫn đến được:
+- H2 → H3 → H2 của Cô Mai.
+- H4/H13 đúng tiến độ.
+- H19 trước H5 để có lựa chọn giải mã thay chiến đấu.
+- H10 → H12 → H10.
+- H11, H17, H21 và các nhánh phụ.
+- H7, cổng Huế và Jeonju khi đủ điều kiện.
+
+Không bỏ qua gate, không tạo đường vòng vượt boss, không thay ID và thứ tự 22 node Hội An.
+
+Nếu loại một cạnh, hãy chứng minh đường thay thế vẫn hoạt động ở mọi trạng thái mở khóa hợp lệ.
+
+### 1.3. Giảm rối về hình ảnh
+
+- Đường đi bám phố, cầu, bến, không xuyên nước hoặc mái nhà.
+- Không vẽ nhiều nét trùng nhau trên cùng hành lang đường.
+- Đường bình thường mảnh và mờ hơn.
+- Tuyến đang được người chơi chọn mới sáng rõ hơn.
+- Không cho các đường phía sau gate xuất hiện sớm.
+- Khi xem toàn cảnh, ưu tiên độ rõ của node và phong cảnh thay vì hiện một mạng đường vàng dày đặc.
+- Đường Lumi di chuyển phải khớp đường được vẽ.
+
+Không chỉ giảm opacity để che topology sai.
+
+### 1.4. Kiểm thử
+
+Xuất:
+- Node degree trước/sau.
+- Danh sách cạnh đã bỏ/thêm/đổi.
+- Graph trước/sau.
+- Ảnh toàn cảnh cùng mức zoom.
+- Kiểm thử tất cả các chặng, nhánh quest, save/restart.
+
+Không PASS nếu graph đẹp hơn nhưng khiến nhiệm vụ bị kẹt.
+
+## 2. CHỈNH LẠI POPUP THƯỞNG
+
+Tôi thấy popup 150 xu và popup bưu thiếp đang quá rộng, nhiều chỗ trống, icon hoặc nội dung lại nhỏ.
+
+Yêu cầu:
+
+- Dùng skin giấy kem, teal, viền đồng đang có.
+- Thu gọn popup theo lượng nội dung.
+- Làm icon phần thưởng, tên và số lượng rõ ràng.
+- Căn giữa và cân đối nội dung.
+- Có animation xuất hiện fade/scale nhẹ khoảng 0,2–0,35 giây.
+- Có hiệu ứng ánh sáng ngắn khi nhận phần thưởng quan trọng.
+- Nút xác nhận và đóng phải dễ nhìn và dễ chạm.
+- Nếu có nhiều phần thưởng, sắp thành hàng hoặc danh sách phù hợp.
+
+Đặc biệt kiểm tra trường hợp **popup thưởng và hội thoại xuất hiện cùng lúc** như ảnh Hội An nhận bưu thiếp. Phải có thứ tự hiển thị rõ ràng, không để hai lớp UI tranh nhau sự chú ý, che nút hoặc làm người chơi khó hiểu.
+
+Animation không được phát thưởng lần thứ hai.
+
+## 3. NÂNG CẤP PANEL HỘI THOẠI
+
+Hiện panel xanh chiếm diện tích lớn, nhiều khoảng trống. Nút lựa chọn dài bị ép chữ, trong khi nội dung thoại không nhiều.
+
+Yêu cầu:
+
+- Giữ thiết kế tổng thể đang có, không vẽ lại toàn bộ UI.
+- Tối ưu panel theo chiều dài hội thoại và số lựa chọn.
+- Câu ngắn không cần một khung cao với nửa dưới trống.
+- Câu dài phải cuộn được và không bị cắt chữ.
+- Portrait nhân vật đặt hợp lý, không che nút.
+- Không thay ngoại hình các nhân vật trong lượt polish UI này.
+- Tên speaker và nội dung thoại có phân cấp kích thước rõ.
+- Các lựa chọn dài phải tự xuống dòng, đủ chiều cao, không chồng chữ.
+- Không ép ba nút quá dài lên một hàng khi màn hình dọc không đủ chỗ.
+- Nút hành động chính và nút phụ phải phân biệt rõ.
+
+Thêm chuyển động:
+- Mở panel: fade/slide nhẹ.
+- Chuyển nhân vật nói: fade hoặc scale tinh tế.
+- Nhấn lựa chọn: visual feedback rõ.
+- Cho phép bỏ qua hoặc rút ngắn hiệu ứng.
+
+Không tạo kiểu hoạt họa liên tục gây mỏi mắt.
+
+## 4. HIỆU ỨNG NÚT BẤM DÙNG CHUNG
+
+Bổ sung phản hồi khi tương tác vào các nút hiện có:
+
+- Túi đồ.
+- Nhật ký.
+- World Map.
+- Zoom +/−.
+- Focus Lumi.
+- Mở/đóng hội thoại.
+- Lựa chọn nhiệm vụ.
+- Xác nhận nhận/giao vật phẩm.
+- Các nút menu thông thường.
+
+Ưu tiên hiệu ứng đơn giản:
+- Press scale khoảng 0,96.
+- Release phục hồi mềm.
+- Hover highlight trên PC.
+- Disabled rõ trạng thái.
+- Modal fade ngắn.
+
+Dùng hệ UI hiện có, không tạo Canvas/EventSystem/UI manager mới.
+
+Áp dụng ở lớp UI chung để sáu thành phố kế thừa. Hỗ trợ chế độ Nhịp/Nhẹ/Tắt đã có.
+
+## 5. KIỂM TRA MAPPING HÌNH NHÂN VẬT — CHỈ KIỂM TOÁN
+
+Tôi đã nhận thấy:
+
+- Chị Hương ở Huế đang sử dụng hình vốn được ghi là cô chủ tiệm hoa/cà phê Đà Lạt trong NPC roster concept.
+- So-yeon ở Jeonju đang sử dụng hình vốn được ghi là cô gái công nghệ/bảo tàng Seoul.
+
+Hai ảnh hiện tại khá đẹp, không cần tự động thay ngay.
+
+Hãy kiểm tra:
+- Đây có phải hình được tái sử dụng có chủ ý không?
+- Nếu Đà Lạt/Seoul cũng dùng chính hình đó cho NPC khác thì có trùng danh tính không?
+- Có sprite thay thế phù hợp đã tồn tại không?
+- Có nhân vật canonical nào bị ảnh hưởng không?
+
+Chỉ lập báo cáo nguồn asset, NPC ID, vai trò concept ban đầu và mapping hiện tại.
+
+**Không đổi hình Chị Hương hoặc So-yeon trước khi tôi duyệt. Không tự vẽ lại và không tạo NPC mới trong lượt này.**
+
+## 6. QA H22
+
+Kiểm tra ảnh `H22 · QA check-in node`.
+
+Nếu chỉ là screenshot fixture test thì giữ nguyên cơ chế test và xác nhận rõ. Nếu node QA thực sự lọt vào bản chơi chính, hãy ngăn nó xuất hiện trong bản phát hành.
+
+Không thay đổi số node Hội An để xử lý một lỗi chỉ tồn tại trong QA.
+
+## 7. PHẠM VI VÀ BẢO TOÀN
+
+Bảo toàn:
+- Gameplay và save hiện có.
+- Các item/quest, bao gồm nhiệm vụ giao ớt và hành tím.
+- Hệ discovery, preview, gate, check-in, NPC.
+- Tất cả sprite boss, bot và marker dấu `!` đã duyệt.
+- Toàn bộ map Overview A.
+- Asset Registry, GUID và prefab.
+- Các thay đổi hợp lệ đã hoàn thành trong những lượt Codex trước.
+
+Không chỉnh boss, combat và art enemy.
+
+## 8. BÀN GIAO
+
+1. Graph trước/sau với số cạnh và degree từng node.
+2. Ảnh City Map trước/sau cho thấy mạng đường gọn hơn.
+3. Ảnh popup xu và bưu thiếp sau chỉnh.
+4. Ảnh hội thoại ngắn/dài, nhất là giao ớt ở Jeonju và hành tím ở Huế.
+5. Video hoặc ảnh liên tiếp chứng minh animation nút và panel.
+6. Báo cáo kiểm tra mapping Chị Hương/So-yeon, chưa tự đổi hình.
+7. Kết quả build, gameplay regression, save/restart và checkpoint.
+8. Danh sách những phần chưa thể xác minh.
+
+**Ưu tiên: đường đi → popup và hội thoại → animation nút → nghiệm thu.**
+
+Nếu công việc quá lớn, chia checkpoint nhỏ. Không tự làm lại phần boss/bot đã đạt, không thay art nhân vật đang được người dùng duyệt, không ảnh hưởng các chương đang được phát triển.
+
+Mục tiêu cuối: City Map sạch, dễ hiểu; giao diện có chuyển động nhẹ và cảm giác như game thực thụ thay vì form tĩnh, trong khi giữ nguyên các nhân vật và boss đã đạt.

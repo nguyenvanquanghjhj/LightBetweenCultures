@@ -1,0 +1,25 @@
+To: btc.koreagameweek@gmail.com
+Subject: [Dự thi Lập trình game KGW2026] Light Between Cultures - [Tên cá nhân/nhóm]
+
+Kính gửi Ban tổ chức,
+
+Em/chúng em là [Họ tên từng thành viên; trường/ngành], dự thi theo hình thức [cá nhân/đội tối đa 2 người].
+
+Em/chúng em xin gửi sản phẩm Light Between Cultures — Nhịp Cầu Ánh Sáng: một casual adventure trên Android, phát triển bằng Unity, với các tương tác khám phá và thủ công gắn với văn hóa Việt Nam – Hàn Quốc.
+
+Hồ sơ:
+1. File ý tưởng PowerPoint: [Đính kèm file PPTX đã điền đủ thông tin].
+2. APK Android: [Điền link tải thật đã kiểm tra quyền truy cập].
+3. Windows Player để thử trên máy tính: [Điền link ZIP tải thật].
+4. Video demo (nếu đã quay): [Điền link thật hoặc bỏ dòng này].
+
+Thông tin đăng ký chính thức: [Chỉ ghi đã đăng ký sau khi tự kiểm tra xác nhận].
+Liên hệ: [Email/số điện thoại của người đại diện].
+
+Nhờ Ban tổ chức xác nhận đã nhận được hồ sơ và truy cập được các tệp.
+
+Em/chúng em xin cảm ơn.
+[Họ tên]
+
+---
+DỰ THẢO, CHƯA GỬI. Không gửi nguyên các dấu ngoặc chờ điền. Chưa xác nhận quyền sử dụng tài nguyên thì không thêm lời cam kết bản quyền chưa được kiểm chứng.

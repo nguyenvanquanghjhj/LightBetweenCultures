@@ -1,0 +1,204 @@
+[
+  {
+    "node": "G16",
+    "name": "Kang Tae-ho",
+    "npcId": "npc_kang_taeho",
+    "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+    "guid": "c6176fa957f7eb549b9b40703e5038ea",
+    "localId": "5254145682798913077",
+    "spriteName": "npc_kang_taeho",
+    "rectTopDown": [
+      318,
+      140,
+      296,
+      420
+    ],
+    "outlineTopDown": [
+      [
+        320,
+        140
+      ],
+      [
+        614,
+        140
+      ],
+      [
+        614,
+        560
+      ],
+      [
+        318,
+        560
+      ]
+    ],
+    "runtime": "BLOCKED_LICENSE_198"
+  },
+  {
+    "node": "G21",
+    "name": "Choi Eun-su",
+    "npcId": "npc_choi_eunsu",
+    "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+    "guid": "ab62ba1e558f7274984500bb1cac18f6",
+    "localId": "-5085934906556862197",
+    "spriteName": "npc_choi_eunsu",
+    "rectTopDown": [
+      807,
+      170,
+      349,
+      395
+    ],
+    "outlineTopDown": [
+      [
+        855,
+        255
+      ],
+      [
+        864,
+        225
+      ],
+      [
+        1022,
+        174
+      ],
+      [
+        1114,
+        202
+      ],
+      [
+        1116,
+        248
+      ],
+      [
+        1081,
+        284
+      ],
+      [
+        1085,
+        314
+      ],
+      [
+        1134,
+        323
+      ],
+      [
+        1155,
+        397
+      ],
+      [
+        1144,
+        461
+      ],
+      [
+        1105,
+        510
+      ],
+      [
+        1052,
+        526
+      ],
+      [
+        1035,
+        560
+      ],
+      [
+        936,
+        560
+      ],
+      [
+        922,
+        537
+      ],
+      [
+        855,
+        537
+      ],
+      [
+        818,
+        480
+      ],
+      [
+        809,
+        420
+      ],
+      [
+        825,
+        359
+      ],
+      [
+        852,
+        327
+      ]
+    ],
+    "runtime": "BLOCKED_LICENSE_198"
+  },
+  {
+    "node": "S12",
+    "name": "Han Do-yun",
+    "npcId": "npc_han_doyun",
+    "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+    "guid": "ab62ba1e558f7274984500bb1cac18f6",
+    "localId": "2768669405438306836",
+    "spriteName": "npc_han_doyun",
+    "rectTopDown": [
+      1126,
+      150,
+      322,
+      410
+    ],
+    "outlineTopDown": [
+      [
+        1144,
+        150
+      ],
+      [
+        1340,
+        150
+      ],
+      [
+        1340,
+        212
+      ],
+      [
+        1448,
+        212
+      ],
+      [
+        1448,
+        430
+      ],
+      [
+        1360,
+        430
+      ],
+      [
+        1382,
+        500
+      ],
+      [
+        1354,
+        560
+      ],
+      [
+        1200,
+        560
+      ],
+      [
+        1180,
+        496
+      ],
+      [
+        1140,
+        460
+      ],
+      [
+        1126,
+        350
+      ],
+      [
+        1144,
+        283
+      ]
+    ],
+    "runtime": "BLOCKED_LICENSE_198"
+  }
+]

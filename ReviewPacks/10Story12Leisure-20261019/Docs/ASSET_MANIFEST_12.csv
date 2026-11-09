@@ -1,0 +1,13 @@
+﻿City,SuggestedNode,SpriteFilename,Experience,ClickableOnMap,Purpose
+hoi_an,H9,HoiAn_Swing.png,Xích đu,NO,Decoration + preview; trigger only via EXISTING node UI
+hoi_an,H16,HoiAn_LanternRelease_Stand.png,Thả hoa đăng,NO,Decoration + preview; trigger only via EXISTING node UI
+hue,U0,Hue_PedalSwanBoat.png,Đạp vịt/thiên nga,NO,Decoration + preview; trigger only via EXISTING node UI
+hue,U8,Hue_ThroneReplica.png,Ngai vàng mô phỏng,NO,Decoration + preview; trigger only via EXISTING node UI
+da_lat,D13,DaLat_StrawberryPatch.png,Hái dâu,NO,Decoration + preview; trigger only via EXISTING node UI
+da_lat,D9,DaLat_KiteRack.png,Thả diều,NO,Decoration + preview; trigger only via EXISTING node UI
+jeonju,J13,Jeonju_WateringCan_Garden.png,Tưới cây,NO,Decoration + preview; trigger only via EXISTING node UI
+jeonju,J15,Jeonju_TeaTable.png,Thưởng trà,NO,Decoration + preview; trigger only via EXISTING node UI
+gyeongju,G10,Gyeongju_BellExhibit.png,Gõ chuông mô phỏng,NO,Decoration + preview; trigger only via EXISTING node UI
+gyeongju,G11,Gyeongju_WishTags.png,Treo thẻ ước nguyện,NO,Decoration + preview; trigger only via EXISTING node UI
+seoul,S1,Seoul_TteokbokkiStall.png,Ăn tteokbokki,NO,Decoration + preview; trigger only via EXISTING node UI
+seoul,S7,Seoul_KpopStage.png,Nhảy K-pop,NO,Decoration + preview; trigger only via EXISTING node UI

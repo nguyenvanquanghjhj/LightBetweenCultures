@@ -1,0 +1,14 @@
+{
+  "name": "map-return",
+  "status": "PASS",
+  "exit": 0,
+  "seconds": 21.95,
+  "assertions": 29,
+  "arguments": [
+    "--map-return-qa"
+  ],
+  "seed": null,
+  "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-Catventure-20261107\\map-return\\smoke-results.txt",
+  "assemblySHA256": "6349b90ffa565f933e7e670d44d65d5f146251901ded1fa8506f5e4d44a12dc0",
+  "failureTail": null
+}

@@ -1,0 +1,1026 @@
+{
+  "schema_version": 1,
+  "design_only": true,
+  "city_id": "hoi_an",
+  "city_name": "Hội An",
+  "map_background_relative_to_NEW_ART_PACK": "Maps/HoiAn/Map_Overview_A.png",
+  "spawn_node_id": "H0",
+  "city_completion_flag": "hoi_an.lamp_restored",
+  "visual_identity": "Phố cổ vàng – đèn lồng – sông Hoài",
+  "coordinate_system": {
+    "origin": "top_left",
+    "x_range": [
+      0,
+      1000
+    ],
+    "y_range": [
+      0,
+      1000
+    ],
+    "note": "x,y are approximate 2D design anchors; manual adjust for actual walkable road; normalized UI position = (x/1000,y/1000), Unity world y often inverted."
+  },
+  "city_story": {
+    "opening": "Lumi đến Hội An giữa đêm hội, thấy nhiều đèn lồng sáng yếu. Cô Mai không buộc tội ai; cô chỉ nhờ Lumi kiểm tra hệ thống vì ánh sáng bị thu gom một cách kỳ lạ.",
+    "main": "Cô Mai cần Mắt Đèn (H3), Lõi Giấy Sáng (H13) và Chìa Kết Nối (H5). Có thể hạ Bot Mờ-01 hoặc giải mật mã tại H19 để vô hiệu hóa nó. Lắp đủ ở H7 để đèn cả phố sáng trở lại.",
+    "twist": "Bot Mờ-01 phát lời nhắn “đừng thắp tất cả cùng lúc”; sau này tại Seoul mới hiểu nó là cảnh báo bị cắt ghép từ hệ thống phòng vệ. Đèn Hội An hé lộ chuỗi ký hiệu trên đèn hanji ở Jeonju.",
+    "end": "Mở Huế và Jeonju song song; người chơi tự chọn hướng đi."
+  },
+  "nodes": [
+    {
+      "id": "H0",
+      "name": "Bến thuyền khởi hành",
+      "x": 565,
+      "y": 735,
+      "kind": "start",
+      "event_id": "intro",
+      "description": "Lumi lên bờ tại cầu tàu, học cách đi node",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H1",
+      "name": "Ngã ba phố đèn",
+      "x": 365,
+      "y": 442,
+      "kind": "junction",
+      "event_id": "street_intro",
+      "description": "Ngã rẽ đèn lồng và phố cổ",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H2",
+      "name": "Tiệm đèn Cô Mai",
+      "x": 332,
+      "y": 421,
+      "kind": "npc",
+      "event_id": "npc_mai",
+      "description": "Nhận trả nhiệm vụ sửa đèn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H3",
+      "name": "Hẻm mái ngói",
+      "x": 420,
+      "y": 317,
+      "kind": "exploration",
+      "event_id": "scene_roof_alley",
+      "description": "Scene đi lại nhặt mắt đèn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "free_exploration"
+    },
+    {
+      "id": "H4",
+      "name": "Chợ ven sông",
+      "x": 225,
+      "y": 619,
+      "kind": "puzzle",
+      "event_id": "puzzle_market",
+      "description": "Sắp họa tiết nón và lồng đèn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "H5",
+      "name": "Bến gỗ máy canh",
+      "x": 783,
+      "y": 724,
+      "kind": "boss",
+      "event_id": "enemy_mo01",
+      "description": "Bot canh mảnh khóa truyền tín hiệu",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "boss_arena"
+    },
+    {
+      "id": "H6",
+      "name": "Cầu cổ ánh đèn",
+      "x": 725,
+      "y": 520,
+      "kind": "junction",
+      "event_id": "bridge_story",
+      "description": "Cây cầu đá làm đầu mối hai bờ",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H7",
+      "name": "Trạm đèn hội quán",
+      "x": 432,
+      "y": 143,
+      "kind": "beacon",
+      "event_id": "restore_lantern",
+      "description": "Khôi phục trạm Hội An",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H8",
+      "name": "Cổng giao lưu Jeonju",
+      "x": 158,
+      "y": 164,
+      "kind": "portal",
+      "event_id": "portal_jeonju",
+      "description": "Cổng Việt–Hàn qua mái đình nhỏ",
+      "visible_when": {
+        "all_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H9",
+      "name": "Ngõ đèn thất lạc",
+      "x": 133,
+      "y": 366,
+      "kind": "secret",
+      "event_id": "chest_secret",
+      "description": "Ngõ ẩn sau khi nhận bản đồ thương nhân",
+      "visible_when": {
+        "all_flags": [
+          "hoi_an.secret_lane_found"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "H10",
+      "name": "Quầy hàng Bà Tư",
+      "x": 160,
+      "y": 550,
+      "kind": "npc",
+      "event_id": "npc_ba_tu",
+      "description": "Xin tìm gói nguyên liệu thất lạc",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H11",
+      "name": "Rương gỗ bến nước",
+      "x": 290,
+      "y": 725,
+      "kind": "item",
+      "event_id": "loot_crate",
+      "description": "Nhặt dây đồng sau khi mở rương",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "H12",
+      "name": "Cua trộm dưới bờ",
+      "x": 525,
+      "y": 671,
+      "kind": "enemy",
+      "event_id": "enemy_crab",
+      "description": "Con cua giữ ngọc chân đèn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "H13",
+      "name": "Xưởng ghép giấy",
+      "x": 520,
+      "y": 430,
+      "kind": "puzzle",
+      "event_id": "puzzle_paper",
+      "description": "Câu đố ghép 3 họa tiết, lấy lõi đèn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "H14",
+      "name": "Nghệ nhân ông Phúc",
+      "x": 640,
+      "y": 341,
+      "kind": "npc",
+      "event_id": "npc_phuc",
+      "description": "Cho lời gợi ý về đèn truyền sóng",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H15",
+      "name": "Lối đèn lập lòe",
+      "x": 919,
+      "y": 428,
+      "kind": "enemy",
+      "event_id": "enemy_ghost",
+      "description": "Đèn lồng ma tạo nhiễu tuyến đông",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "H16",
+      "name": "Cầu tàu trung tâm",
+      "x": 680,
+      "y": 676,
+      "kind": "junction",
+      "event_id": "dock_central",
+      "description": "Đổi hướng sang bến gỗ",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H17",
+      "name": "Bến đò phía đông",
+      "x": 945,
+      "y": 586,
+      "kind": "npc",
+      "event_id": "npc_boatman",
+      "description": "Lái đò đưa qua nhánh nước",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H18",
+      "name": "Tiệm trà khách lạ",
+      "x": 537,
+      "y": 396,
+      "kind": "npc",
+      "event_id": "npc_guest",
+      "description": "Lời nhắn liên quan Jeonju",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H19",
+      "name": "Ngõ gốm hoa",
+      "x": 695,
+      "y": 223,
+      "kind": "puzzle",
+      "event_id": "puzzle_pottery",
+      "description": "Tìm hình hoa được khắc đúng",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "H20",
+      "name": "Cổng đi Huế",
+      "x": 496,
+      "y": 106,
+      "kind": "portal",
+      "event_id": "portal_hue",
+      "description": "Mở sau khi thắp trạm Hội An",
+      "visible_when": {
+        "all_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "H21",
+      "name": "Rương áp mái",
+      "x": 304,
+      "y": 284,
+      "kind": "item",
+      "event_id": "loot_attic",
+      "description": "Hòm phụ có tiền và giấy chỉ lối",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    }
+  ],
+  "edges": [
+    {
+      "id": "H0__H16",
+      "from": "H0",
+      "to": "H16",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H0__H11",
+      "from": "H0",
+      "to": "H11",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H11__H4",
+      "from": "H11",
+      "to": "H4",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H4__H10",
+      "from": "H4",
+      "to": "H10",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H10__H1",
+      "from": "H10",
+      "to": "H1",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H1__H2",
+      "from": "H1",
+      "to": "H2",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H1__H3",
+      "from": "H1",
+      "to": "H3",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H1__H13",
+      "from": "H1",
+      "to": "H13",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H2__H3",
+      "from": "H2",
+      "to": "H3",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H3__H21",
+      "from": "H3",
+      "to": "H21",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H3__H18",
+      "from": "H3",
+      "to": "H18",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H13__H18",
+      "from": "H13",
+      "to": "H18",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H13__H14",
+      "from": "H13",
+      "to": "H14",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H14__H19",
+      "from": "H14",
+      "to": "H19",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H19__H7",
+      "from": "H19",
+      "to": "H7",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H7__H8",
+      "from": "H7",
+      "to": "H8",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "hoi_an.lamp_restored"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H7__H20",
+      "from": "H7",
+      "to": "H20",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "hoi_an.lamp_restored"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H18__H6",
+      "from": "H18",
+      "to": "H6",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H6__H14",
+      "from": "H6",
+      "to": "H14",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H6__H15",
+      "from": "H6",
+      "to": "H15",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H15__H17",
+      "from": "H15",
+      "to": "H17",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H17__H5",
+      "from": "H17",
+      "to": "H5",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          915,
+          620
+        ],
+        [
+          855,
+          705
+        ]
+      ],
+      "all_flags": [
+        "hoi_an.ferry_available"
+      ],
+      "travel": "ferry",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H16__H5",
+      "from": "H16",
+      "to": "H5",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          710,
+          686
+        ],
+        [
+          760,
+          702
+        ]
+      ],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H16__H6",
+      "from": "H16",
+      "to": "H6",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H12__H16",
+      "from": "H12",
+      "to": "H16",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H12__H4",
+      "from": "H12",
+      "to": "H4",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H5__H6",
+      "from": "H5",
+      "to": "H6",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          760,
+          650
+        ],
+        [
+          795,
+          595
+        ],
+        [
+          744,
+          535
+        ]
+      ],
+      "all_flags": [
+        "hoi_an.mo01_disabled"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H9__H10",
+      "from": "H9",
+      "to": "H10",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "H9__H21",
+      "from": "H9",
+      "to": "H21",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    }
+  ],
+  "events": [
+    {
+      "id": "intro",
+      "node": "H0",
+      "actor": "Bến thuyền khởi hành",
+      "event_type": "Start",
+      "dialogue_open": "",
+      "interaction": "Lumi lên bờ tại cầu tàu, học cách đi node",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "street_intro",
+      "node": "H1",
+      "actor": "Ngã ba phố đèn",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Ngã rẽ đèn lồng và phố cổ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_mai",
+      "node": "H2",
+      "actor": "Cô Mai",
+      "event_type": "NPC",
+      "dialogue_open": "“Đèn lồng nhà cô tắt cùng lúc. Giúp cô tìm mắt đèn trong hẻm, lõi giấy ở xưởng và chìa trạm nhé!”",
+      "interaction": "Nhận HQ01; mỗi món trả một lần, đèn tại tiệm sáng dần.",
+      "planned_reward": "quest:HQ01",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "scene_roof_alley",
+      "node": "H3",
+      "actor": "Hẻm mái ngói",
+      "event_type": "Free Exploration",
+      "dialogue_open": "“Lối này hẹp, chú ý thùng gỗ và rãnh nước.”",
+      "interaction": "Scene H3 có spawn P, item mắt đèn I, exit E; lấy một lần; không đi xuyên vật cản.",
+      "planned_reward": "item:lamp_eye",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "lamp_eye",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_market",
+      "node": "H4",
+      "actor": "Người bán hàng",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Sắp ba mảnh hình theo họa tiết xuất hiện trên mái nhà.”",
+      "interaction": "Đổi vị trí 3 ô bằng tap; hoàn thành mở xưởng H13.",
+      "planned_reward": "flag:hoi_an.market_puzzle_solved",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "hoi_an.market_puzzle_solved",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_mo01",
+      "node": "H5",
+      "actor": "Bot Mờ-01",
+      "event_type": "Boss",
+      "dialogue_open": "“Dữ liệu bị chỉnh sửa... Đừng để sáu trạm cùng nhấp nháy!”",
+      "interaction": "Hai cách: giao chiến 1v1 hoặc có mã H19 để hack. Nhận link_key một lần.",
+      "planned_reward": "item:link_key|flag:hoi_an.mo01_disabled",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "link_key",
+          "amount_or_value": 1
+        },
+        {
+          "type": "flag",
+          "id": "hoi_an.mo01_disabled",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "bridge_story",
+      "node": "H6",
+      "actor": "Cầu cổ ánh đèn",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Cây cầu đá làm đầu mối hai bờ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "restore_lantern",
+      "node": "H7",
+      "actor": "Trạm Đèn Hội Quán",
+      "event_type": "Beacon",
+      "dialogue_open": "“Ba linh kiện đã đồng bộ. Bạn muốn thắp sáng trạm không?”",
+      "interaction": "Tiêu thụ/đánh dấu linh kiện; bật ảnh ánh sáng overlay, mở H8 và H20.",
+      "planned_reward": "flag:hoi_an.lamp_restored",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "hoi_an.lamp_restored",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "inventory.lamp_eye>=1",
+        "inventory.hanji_core>=1",
+        "inventory.link_key>=1"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "portal_jeonju",
+      "node": "H8",
+      "actor": "Cổng giao lưu Jeonju",
+      "event_type": "Portal",
+      "dialogue_open": "",
+      "interaction": "Cổng Việt–Hàn qua mái đình nhỏ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "chest_secret",
+      "node": "H9",
+      "actor": "Ngõ đèn thất lạc",
+      "event_type": "Secret",
+      "dialogue_open": "",
+      "interaction": "Ngõ ẩn sau khi nhận bản đồ thương nhân",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_ba_tu",
+      "node": "H10",
+      "actor": "Bà Tư",
+      "event_type": "NPC",
+      "dialogue_open": "“Có con cua cứ kéo đồ của bà xuống mép nước. Cho bà xin lại cuộn dây!”",
+      "interaction": "HQ02: nhận dây từ H12, trả nhận bản đồ phát hiện H9.",
+      "planned_reward": "quest:HQ02",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "hoi_an.secret_lane_found",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_crate",
+      "node": "H11",
+      "actor": "Rương gỗ bến nước",
+      "event_type": "Item",
+      "dialogue_open": "",
+      "interaction": "Nhặt dây đồng sau khi mở rương",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "coin",
+          "amount_or_value": 6
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_crab",
+      "node": "H12",
+      "actor": "Cua Trộm",
+      "event_type": "Enemy",
+      "dialogue_open": "“Kẹt kẹt! Đừng lấy kho báu của ta!”",
+      "interaction": "Combat nhỏ 2 lượt hoặc đưa mồi để cua nhả dây.",
+      "planned_reward": "item:copper_wire",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "copper_wire",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_paper",
+      "node": "H13",
+      "actor": "Xưởng ghép giấy",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Đèn phố nào phản chiếu đúng họa tiết ở sạp chợ?”",
+      "interaction": "Chọn trong 3 mẫu giấy; dùng manh mối H4, nhận lõi giấy.",
+      "planned_reward": "item:hanji_core",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "hanji_core",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_phuc",
+      "node": "H14",
+      "actor": "Ông Phúc",
+      "event_type": "NPC",
+      "dialogue_open": "“Có người đã thay mã trạm bằng hình gốm. Nhìn hoa văn ở ngõ trên.”",
+      "interaction": "Gợi ý H19; tặng trà sau khi giúp.",
+      "planned_reward": "hint:puzzle_pottery",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_ghost",
+      "node": "H15",
+      "actor": "Đèn Lồng Ma",
+      "event_type": "Enemy",
+      "dialogue_open": "“Một chiếc đèn yếu ớt bay vòng vòng.”",
+      "interaction": "Không phải linh hồn tà ác; có thể dùng lõi nhỏ làm dịu hoặc combat tránh đòn.",
+      "planned_reward": "flag:hoi_an.ghost_freed",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "dock_central",
+      "node": "H16",
+      "actor": "Cầu tàu trung tâm",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Đổi hướng sang bến gỗ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_boatman",
+      "node": "H17",
+      "actor": "Bác Lái Đò",
+      "event_type": "NPC",
+      "dialogue_open": "“Đưa bác năm đồng xu hoặc sửa mái chèo là qua nhánh đông được.”",
+      "interaction": "Mở shortcut sau quest HQ04; không vượt nước bằng đường bộ.",
+      "planned_reward": "flag:hoi_an.ferry_available",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_guest",
+      "node": "H18",
+      "actor": "Khách lạ Hàn Quốc",
+      "event_type": "NPC",
+      "dialogue_open": "“Tôi từng thấy hoa văn ấy tại làng Jeonju...”",
+      "interaction": "Foreshadow Jeonju, mở sidequest thư hồi âm về Hội An.",
+      "planned_reward": "hint:jeonju_lantern",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_pottery",
+      "node": "H19",
+      "actor": "Ngõ gốm hoa",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Sao chép chuỗi Hoa – Trăng – Đèn theo tranh gốm.”",
+      "interaction": "Giải puzzle lấy mã vô hiệu hóa H5; không bắt buộc chiến đấu.",
+      "planned_reward": "flag:hoi_an.mo01_hack_code",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "hoi_an.mo01_hack_code",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "portal_hue",
+      "node": "H20",
+      "actor": "Cổng đi Huế",
+      "event_type": "Portal",
+      "dialogue_open": "",
+      "interaction": "Mở sau khi thắp trạm Hội An",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_attic",
+      "node": "H21",
+      "actor": "Rương áp mái",
+      "event_type": "Item",
+      "dialogue_open": "",
+      "interaction": "Hòm phụ có tiền và giấy chỉ lối",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    }
+  ]
+}

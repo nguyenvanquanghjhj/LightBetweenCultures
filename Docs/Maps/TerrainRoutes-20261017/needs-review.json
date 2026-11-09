@@ -1,0 +1,35 @@
+[
+  {
+    "region": "R1: covered bridge floor / NEEDS_REVIEW",
+    "pixelBox": [
+      904,
+      490,
+      300,
+      160
+    ],
+    "status": "NEEDS_REVIEW",
+    "reason": "Baked art partially occludes ground; no terrain PASS claimed."
+  },
+  {
+    "region": "R2: temple side steps / NEEDS_REVIEW",
+    "pixelBox": [
+      190,
+      135,
+      48,
+      105
+    ],
+    "status": "NEEDS_REVIEW",
+    "reason": "Baked art partially occludes ground; no terrain PASS claimed."
+  },
+  {
+    "region": "R3: eastern canopy edge / NEEDS_REVIEW",
+    "pixelBox": [
+      1190,
+      550,
+      60,
+      65
+    ],
+    "status": "NEEDS_REVIEW",
+    "reason": "Baked art partially occludes ground; no terrain PASS claimed."
+  }
+]

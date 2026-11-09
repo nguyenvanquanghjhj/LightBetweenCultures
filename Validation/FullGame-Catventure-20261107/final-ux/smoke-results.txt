@@ -1,0 +1,375 @@
+UTC run: 2026-11-07T16:58:13.0524416Z | Unity 6000.6.5f1 | 540x960
+PASS: All six cities / 133 canonical nodes are loaded
+PASS: Runtime and map artwork exist: da_lat
+PASS: Fresh save cannot bypass world unlock: da_lat
+PASS: Runtime and map artwork exist: gyeongju
+PASS: Fresh save cannot bypass world unlock: gyeongju
+PASS: Runtime and map artwork exist: hoi_an
+PASS: Runtime and map artwork exist: hue
+PASS: Fresh save cannot bypass world unlock: hue
+PASS: Runtime and map artwork exist: jeonju
+PASS: Fresh save cannot bypass world unlock: jeonju
+PASS: Runtime and map artwork exist: seoul
+PASS: Fresh save cannot bypass world unlock: seoul
+PASS: Locked destinations explain actual prerequisite cities
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Own map art rendered: da_lat
+PASS: Correct node count: da_lat
+PASS: Arrival guidance names a visible actionable place: da_lat / Gặp Người dẫn đường Lan tại Người dẫn đường Lan.
+PASS: Two existing cultural activities retained: da_lat
+PASS: Goal, place and known requirements appear together: da_lat
+PASS: One optional hint expansion, no extra location-only page: da_lat
+PASS: Guidance read/close grants and consumes nothing: da_lat
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Own map art rendered: gyeongju
+PASS: Correct node count: gyeongju
+PASS: Arrival guidance names a visible actionable place: gyeongju / Gặp Hướng dẫn viên Min tại Nhà khảo cổ Min.
+PASS: Two existing cultural activities retained: gyeongju
+PASS: Goal, place and known requirements appear together: gyeongju
+PASS: One optional hint expansion, no extra location-only page: gyeongju
+PASS: Guidance read/close grants and consumes nothing: gyeongju
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Own map art rendered: hoi_an
+PASS: Correct node count: hoi_an
+PASS: Arrival guidance names a visible actionable place: hoi_an / Gặp Cô Mai nhận việc tại Tiệm cô Mai.
+PASS: Two existing cultural activities retained: hoi_an
+PASS: Goal, place and known requirements appear together: hoi_an
+PASS: One optional hint expansion, no extra location-only page: hoi_an
+PASS: Guidance read/close grants and consumes nothing: hoi_an
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Own map art rendered: hue
+PASS: Correct node count: hue
+PASS: Arrival guidance names a visible actionable place: hue / Gặp Bà Nguyệt tại Nhà thuốc Bà Nguyệt.
+PASS: Two existing cultural activities retained: hue
+PASS: Goal, place and known requirements appear together: hue
+PASS: One optional hint expansion, no extra location-only page: hue
+PASS: Fresh runtime capture written: UX-guidance-hue
+PASS: Guidance read/close grants and consumes nothing: hue
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Own map art rendered: jeonju
+PASS: Correct node count: jeonju
+PASS: Arrival guidance names a visible actionable place: jeonju / Gặp Nghệ nhân Hana tại Nghệ nhân Hana.
+PASS: Two existing cultural activities retained: jeonju
+PASS: Goal, place and known requirements appear together: jeonju
+PASS: One optional hint expansion, no extra location-only page: jeonju
+PASS: Guidance read/close grants and consumes nothing: jeonju
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Own map art rendered: seoul
+PASS: Correct node count: seoul
+PASS: Arrival guidance names a visible actionable place: seoul / Gặp Quản thủ bảo tàng tại Cổng thành xưa.
+PASS: Two existing cultural activities retained: seoul
+PASS: Goal, place and known requirements appear together: seoul
+PASS: One optional hint expansion, no extra location-only page: seoul
+PASS: Fresh runtime capture written: UX-guidance-seoul
+PASS: Guidance read/close grants and consumes nothing: seoul
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only proven information/rest duplicates pruned: da_lat:D2
+PASS: Menu audit never accepts/delivers/rewards: da_lat:D2
+PASS: Only proven information/rest duplicates pruned: da_lat:D3
+PASS: Menu audit never accepts/delivers/rewards: da_lat:D3
+PASS: Only proven information/rest duplicates pruned: da_lat:D4
+PASS: Menu audit never accepts/delivers/rewards: da_lat:D4
+PASS: Only proven information/rest duplicates pruned: da_lat:D10
+PASS: Menu audit never accepts/delivers/rewards: da_lat:D10
+PASS: Only proven information/rest duplicates pruned: da_lat:D13
+PASS: Menu audit never accepts/delivers/rewards: da_lat:D13
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only proven information/rest duplicates pruned: gyeongju:G3
+PASS: Menu audit never accepts/delivers/rewards: gyeongju:G3
+PASS: Only proven information/rest duplicates pruned: gyeongju:G9
+PASS: Menu audit never accepts/delivers/rewards: gyeongju:G9
+PASS: Only proven information/rest duplicates pruned: gyeongju:G14
+PASS: Menu audit never accepts/delivers/rewards: gyeongju:G14
+PASS: Only proven information/rest duplicates pruned: gyeongju:G16
+PASS: Menu audit never accepts/delivers/rewards: gyeongju:G16
+PASS: Only proven information/rest duplicates pruned: gyeongju:G21
+PASS: Menu audit never accepts/delivers/rewards: gyeongju:G21
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only proven information/rest duplicates pruned: hoi_an:H2
+PASS: Menu audit never accepts/delivers/rewards: hoi_an:H2
+PASS: Only proven information/rest duplicates pruned: hoi_an:H10
+PASS: Menu audit never accepts/delivers/rewards: hoi_an:H10
+PASS: Only proven information/rest duplicates pruned: hoi_an:H17
+PASS: Menu audit never accepts/delivers/rewards: hoi_an:H17
+PASS: Only proven information/rest duplicates pruned: hoi_an:H18
+PASS: Menu audit never accepts/delivers/rewards: hoi_an:H18
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only proven information/rest duplicates pruned: hue:U1
+PASS: Menu audit never accepts/delivers/rewards: hue:U1
+PASS: Only proven information/rest duplicates pruned: hue:U2
+PASS: Menu audit never accepts/delivers/rewards: hue:U2
+PASS: Only proven information/rest duplicates pruned: hue:U3
+PASS: Menu audit never accepts/delivers/rewards: hue:U3
+PASS: Only proven information/rest duplicates pruned: hue:U7
+PASS: Menu audit never accepts/delivers/rewards: hue:U7
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only proven information/rest duplicates pruned: jeonju:J2
+PASS: Menu audit never accepts/delivers/rewards: jeonju:J2
+PASS: Only proven information/rest duplicates pruned: jeonju:J4
+PASS: Menu audit never accepts/delivers/rewards: jeonju:J4
+PASS: Only proven information/rest duplicates pruned: jeonju:J5
+PASS: Menu audit never accepts/delivers/rewards: jeonju:J5
+PASS: Only proven information/rest duplicates pruned: jeonju:J15
+PASS: Menu audit never accepts/delivers/rewards: jeonju:J15
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only proven information/rest duplicates pruned: seoul:S2
+PASS: Menu audit never accepts/delivers/rewards: seoul:S2
+PASS: Only proven information/rest duplicates pruned: seoul:S7
+PASS: Menu audit never accepts/delivers/rewards: seoul:S7
+PASS: Only proven information/rest duplicates pruned: seoul:S11
+PASS: Menu audit never accepts/delivers/rewards: seoul:S11
+PASS: Only proven information/rest duplicates pruned: seoul:S12
+PASS: Menu audit never accepts/delivers/rewards: seoul:S12
+PASS: Only proven information/rest duplicates pruned: seoul:S14
+PASS: Menu audit never accepts/delivers/rewards: seoul:S14
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Coin changes invalidate guidance without changing any list count
+PASS: Replacing a flag with the same list length invalidates guidance
+PASS: Ready cross-city delivery points to destination city, not old giver
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing puzzle starts with earned prerequisites: puzzle_paper
+PASS: Wrong drop retries only current piece: puzzle_paper
+PASS: Near edge snaps during drag and locks: puzzle_paper piece 0
+PASS: Placement alone grants no proof/reward: puzzle_paper
+PASS: Rotation control exists exactly when a different orientation is required: puzzle_paper
+PASS: Exit keeps quest/items/ledger unchanged: puzzle_paper
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing puzzle starts with earned prerequisites: puzzle_market_code
+PASS: Wrong drop retries only current piece: puzzle_market_code
+PASS: Near edge snaps during drag and locks: puzzle_market_code piece 0
+PASS: Near edge snaps during drag and locks: puzzle_market_code piece 1
+PASS: Placement alone grants no proof/reward: puzzle_market_code
+PASS: Rotation control exists exactly when a different orientation is required: puzzle_market_code
+PASS: Exit keeps quest/items/ledger unchanged: puzzle_market_code
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing puzzle starts with earned prerequisites: puzzle_archive
+PASS: Wrong drop retries only current piece: puzzle_archive
+PASS: Near edge snaps during drag and locks: puzzle_archive piece 0
+PASS: Near edge snaps during drag and locks: puzzle_archive piece 1
+PASS: Near edge snaps during drag and locks: puzzle_archive piece 2
+PASS: Placement alone grants no proof/reward: puzzle_archive
+PASS: Rotation control exists exactly when a different orientation is required: puzzle_archive
+PASS: Fresh runtime capture written: UX-Hue-archive-snapped
+PASS: Exit keeps quest/items/ledger unchanged: puzzle_archive
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing puzzle starts with earned prerequisites: puzzle_hanji
+PASS: Wrong drop retries only current piece: puzzle_hanji
+PASS: Near edge snaps during drag and locks: puzzle_hanji piece 0
+PASS: Placement alone grants no proof/reward: puzzle_hanji
+PASS: Rotation control exists exactly when a different orientation is required: puzzle_hanji
+PASS: Exit keeps quest/items/ledger unchanged: puzzle_hanji
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing puzzle starts with earned prerequisites: puzzle_embroidery
+PASS: Wrong drop retries only current piece: puzzle_embroidery
+PASS: Near edge snaps during drag and locks: puzzle_embroidery piece 0
+PASS: Near edge snaps during drag and locks: puzzle_embroidery piece 1
+PASS: Near edge snaps during drag and locks: puzzle_embroidery piece 2
+PASS: Near edge snaps during drag and locks: puzzle_embroidery piece 3
+PASS: Placement alone grants no proof/reward: puzzle_embroidery
+PASS: Rotation control exists exactly when a different orientation is required: puzzle_embroidery
+PASS: Exit keeps quest/items/ledger unchanged: puzzle_embroidery
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing puzzle starts with earned prerequisites: puzzle_observatory
+PASS: Wrong drop retries only current piece: puzzle_observatory
+PASS: Near edge snaps during drag and locks: puzzle_observatory piece 0
+PASS: Near edge snaps during drag and locks: puzzle_observatory piece 1
+PASS: Near edge snaps during drag and locks: puzzle_observatory piece 2
+PASS: Placement alone grants no proof/reward: puzzle_observatory
+PASS: Rotation control exists exactly when a different orientation is required: puzzle_observatory
+PASS: Exit keeps quest/items/ledger unchanged: puzzle_observatory
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing puzzle starts with earned prerequisites: puzzle_cracked_seal
+PASS: Wrong drop retries only current piece: puzzle_cracked_seal
+PASS: Near edge snaps during drag and locks: puzzle_cracked_seal piece 0
+PASS: Placement alone grants no proof/reward: puzzle_cracked_seal
+PASS: Rotation control exists exactly when a different orientation is required: puzzle_cracked_seal
+PASS: Exit keeps quest/items/ledger unchanged: puzzle_cracked_seal
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing puzzle starts with earned prerequisites: puzzle_tower
+PASS: Wrong drop retries only current piece: puzzle_tower
+PASS: Near edge snaps during drag and locks: puzzle_tower piece 0
+PASS: Placement alone grants no proof/reward: puzzle_tower
+PASS: Rotation control exists exactly when a different orientation is required: puzzle_tower
+PASS: Exit keeps quest/items/ledger unchanged: puzzle_tower
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing puzzle starts with earned prerequisites: puzzle_relay_jeonju
+PASS: Wrong drop retries only current piece: puzzle_relay_jeonju
+PASS: Near edge snaps during drag and locks: puzzle_relay_jeonju piece 0
+PASS: Near edge snaps during drag and locks: puzzle_relay_jeonju piece 1
+PASS: Near edge snaps during drag and locks: puzzle_relay_jeonju piece 2
+PASS: Placement alone grants no proof/reward: puzzle_relay_jeonju
+PASS: Rotation control exists exactly when a different orientation is required: puzzle_relay_jeonju
+PASS: Exit keeps quest/items/ledger unchanged: puzzle_relay_jeonju
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Relic piece accepts edge and locks: hoi_an
+PASS: One piece never bypasses four-piece assembly/trial/reward: hoi_an
+PASS: Relic exit grants nothing: hoi_an
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Relic piece accepts edge and locks: hue
+PASS: One piece never bypasses four-piece assembly/trial/reward: hue
+PASS: Relic exit grants nothing: hue
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Relic piece accepts edge and locks: da_lat
+PASS: One piece never bypasses four-piece assembly/trial/reward: da_lat
+PASS: Relic exit grants nothing: da_lat
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Relic piece accepts edge and locks: jeonju
+PASS: One piece never bypasses four-piece assembly/trial/reward: jeonju
+PASS: Relic exit grants nothing: jeonju
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Relic piece accepts edge and locks: gyeongju
+PASS: One piece never bypasses four-piece assembly/trial/reward: gyeongju
+PASS: Relic exit grants nothing: gyeongju
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Relic piece accepts edge and locks: seoul
+PASS: One piece never bypasses four-piece assembly/trial/reward: seoul
+PASS: Relic exit grants nothing: seoul
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Prism connection snaps and remains locked after redraw: 0
+PASS: Prism connection snaps and remains locked after redraw: 1
+PASS: Prism connection snaps and remains locked after redraw: 2
+PASS: Connecting prism streams does not skip rotations, trial confirmation or rewards
+PASS: Quest completion uses one existing success cue
+PASS: Korean map background music plays through existing music service
+PASS: Repeated feedback is bounded by existing voice pool
+PASS: Existing volume UI controls both buses
+PASS: Mute stops/rejects effect playback
+PASS: Save/reload retains exact focused fixture progress and ledger
+ALL CHECKS PASSED

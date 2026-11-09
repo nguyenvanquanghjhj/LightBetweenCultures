@@ -1,0 +1,310 @@
+{
+    "entries": [
+        {
+            "cityId": "hoi_an",
+            "nodeId": "H2",
+            "checkInId": "hoi_an.h2",
+            "source": "_CheckIn_Import_20261018/images/01_hoi_an_H2_tiem_den_co_mai.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/01_hoi_an_H2_tiem_den_co_mai.png",
+            "description": "Đèn lồng và bàn tay thủ công gợi chuyện phố cổ. Tranh minh họa trong thế giới Light Between Cultures.",
+            "uv": [
+                0.0,
+                0.1597796082496643,
+                1.0,
+                0.8402203917503357
+            ],
+            "guid": "247b1cc4f2d741c4db59cad9b0edc181",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "hoi_an",
+            "nodeId": "H3",
+            "checkInId": "hoi_an.h3",
+            "source": "_CheckIn_Import_20261018/images/02_hoi_an_H3_hem_mai_ngoi.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/02_hoi_an_H3_hem_mai_ngoi.png",
+            "description": "Mái ngói, giàn hoa và đèn nhỏ mở ra một góc hẻm phố cổ. Tranh minh họa, không phải ảnh tư liệu.",
+            "uv": [
+                0.0,
+                0.1597796082496643,
+                1.0,
+                0.8402203917503357
+            ],
+            "guid": "95b7493cc9ff63f4db475f4f2d464733",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "hoi_an",
+            "nodeId": "H4",
+            "checkInId": "hoi_an.h4",
+            "source": "_CheckIn_Import_20261018/images/03_hoi_an_H4_cho_ven_song.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/03_hoi_an_H4_cho_ven_song.png",
+            "description": "Quầy hàng ven sông nối sắc màu thủ công với nhịp sống phố cổ. Tranh minh họa trong thế giới game.",
+            "uv": [
+                0.0,
+                0.1597796082496643,
+                1.0,
+                0.8402203917503357
+            ],
+            "guid": "1911a6933858d6446a1261fdf486cb60",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "hoi_an",
+            "nodeId": "H6",
+            "checkInId": "hoi_an.h6",
+            "source": "_CheckIn_Import_20261018/images/04_hoi_an_H6_cau_co_anh_den.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/04_hoi_an_H6_cau_co_anh_den.png",
+            "description": "Góc cầu và ánh đèn trên nước; artwork mới chỉ là ứng viên, không thay bài căn khớp đang dùng.",
+            "uv": [
+                0.0,
+                0.16115702688694,
+                1.0,
+                0.8388429880142212
+            ],
+            "guid": "268a3773f25105c4c979418f8837ec23",
+            "localId": "21300000",
+            "bindingStatus": "PENDING_USER_VISUAL_APPROVAL; CANDIDATE_ONLY; EXISTING_H6_MAP_VIEW_PRESERVED"
+        },
+        {
+            "cityId": "hoi_an",
+            "nodeId": "H7",
+            "checkInId": "hoi_an.h7",
+            "source": "_CheckIn_Import_20261018/images/05_hoi_an_H7_tram_anh_sang_hoi_an.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/05_hoi_an_H7_tram_anh_sang_hoi_an.png",
+            "description": "Gỗ, giấy và ánh đèn kể chuyện giao lưu Hội An. Xem tranh không đồng nghĩa phục dựng trạm.",
+            "uv": [
+                0.0,
+                0.16115702688694,
+                1.0,
+                0.8388429880142212
+            ],
+            "guid": "ae6538a3f6575f14298485c0870eea9c",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "hoi_an",
+            "nodeId": "H17",
+            "checkInId": "hoi_an.h17",
+            "source": "_CheckIn_Import_20261018/images/06_hoi_an_H17_ben_do_pho_co.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/06_hoi_an_H17_ben_do_pho_co.png",
+            "description": "Mái chèo và đèn bến sông gợi nhịp đi lại của phố cổ. Cảnh minh họa giả tưởng.",
+            "uv": [
+                0.0,
+                0.16115702688694,
+                1.0,
+                0.8388429880142212
+            ],
+            "guid": "9f215b865808620448a73ee116fd41df",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "hue",
+            "nodeId": "U4",
+            "checkInId": "hue_u4_checkin",
+            "source": "_CheckIn_Import_20261018/images/07_hue_U4_dau_cau_vao_thanh.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/07_hue_U4_dau_cau_vao_thanh.png",
+            "description": "Nhịp cầu và sông nước dẫn mắt về kiến trúc lấy cảm hứng cung đình Huế. Đây là cảnh minh họa cách điệu.",
+            "uv": [
+                0.0,
+                0.17313019931316376,
+                1.0,
+                0.826869785785675
+            ],
+            "guid": "565a4706fcd54b249af63ec5c5deb070",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "hue",
+            "nodeId": "U6",
+            "checkInId": "hue_u6_checkin",
+            "source": "_CheckIn_Import_20261018/images/08_hue_U6_cua_ngo_mon_cach_dieu.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/08_hue_U6_cua_ngo_mon_cach_dieu.png",
+            "description": "Sắc mái, tầng lầu và cổng thành gợi cảm hứng kiến trúc cung đình Huế; không phải bản sao di tích.",
+            "uv": [
+                0.0,
+                0.1717451512813568,
+                1.0,
+                0.8282548189163208
+            ],
+            "guid": "dda4f78bbb33012448b98e8fb40afe94",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "da_lat",
+            "nodeId": "D0",
+            "checkInId": "dalat_checkin_0",
+            "source": "_CheckIn_Import_20261018/images/09_da_lat_D0_ben_ho_xuan_huong.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/09_da_lat_D0_ben_ho_xuan_huong.png",
+            "description": "Mặt hồ, thông và sương núi gợi cảnh quan Đà Lạt. Một góc nhìn minh họa trong hành trình Lumi.",
+            "uv": [
+                0.0,
+                0.17036011815071106,
+                1.0,
+                0.8296399116516113
+            ],
+            "guid": "aced49c3bdf688e45ab038ba9e678a3f",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "da_lat",
+            "nodeId": "D14",
+            "checkInId": "dalat_checkin_14",
+            "source": "_CheckIn_Import_20261018/images/10_da_lat_D14_dai_dan_sang_nui.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/10_da_lat_D14_dai_dan_sang_nui.png",
+            "description": "Đồi thông và nguồn sáng trên cao gợi nhịp khám phá cao nguyên. Công trình thuộc thế giới giả tưởng.",
+            "uv": [
+                0.0,
+                0.17036011815071106,
+                1.0,
+                0.8296399116516113
+            ],
+            "guid": "0eb05e0bc784f9549b4836c5b12da2e9",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "jeonju",
+            "nodeId": "J8",
+            "checkInId": "jeonju_j8_checkin",
+            "source": "_CheckIn_Import_20261018/images/11_jeonju_J8_cau_da_tay.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/11_jeonju_J8_cau_da_tay.png",
+            "description": "Cầu đá, dòng suối và mái ngói hanok gợi một lối nhỏ Jeonju cách điệu. Tranh minh họa.",
+            "uv": [
+                0.0,
+                0.1689750701189041,
+                1.0,
+                0.8310249447822571
+            ],
+            "guid": "e634ae5d35e5e0a43b35c0966ee2fbe9",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "jeonju",
+            "nodeId": "J11",
+            "checkInId": "jeonju_j11_checkin",
+            "source": "_CheckIn_Import_20261018/images/12_jeonju_J11_dai_ngam_mai_ngoi.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/12_jeonju_J11_dai_ngam_mai_ngoi.png",
+            "description": "Những lớp mái hanok nối nhau trong ánh chiều. Một góc nhìn minh họa về không gian thủ công Jeonju.",
+            "uv": [
+                0.0,
+                0.1689750701189041,
+                1.0,
+                0.8310249447822571
+            ],
+            "guid": "4c7b955967a6db1439f4ee2cef1905ab",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "gyeongju",
+            "nodeId": "G4",
+            "checkInId": "gyeongju_g4_checkin",
+            "source": "_CheckIn_Import_20261018/images/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png",
+            "description": "Tầng đá và trời sao gợi cảm hứng quan sát thiên văn tại vùng di sản Silla. Cảnh minh họa cách điệu.",
+            "uv": [
+                0.0,
+                0.16931216418743134,
+                1.0,
+                0.8306878209114075
+            ],
+            "guid": "2cf0df9048ae3c04483427ac114f401e",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "gyeongju",
+            "nodeId": "G14",
+            "checkInId": "gyeongju_g14_checkin",
+            "source": "_CheckIn_Import_20261018/images/14_gyeongju_G14_kho_ban_khac_di_tich.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/14_gyeongju_G14_kho_ban_khac_di_tich.png",
+            "description": "Những nét khắc và gian lưu giữ kể chuyện ký ức văn hóa. Kho bản khắc là không gian minh họa trong game.",
+            "uv": [
+                0.0,
+                0.16798941791057587,
+                1.0,
+                0.8320105671882629
+            ],
+            "guid": "8007ee7ad206d924db38f7b6dba892c4",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "gyeongju",
+            "nodeId": "G17",
+            "checkInId": "gyeongju_g17_checkin",
+            "source": "_CheckIn_Import_20261018/images/15_gyeongju_G17_dai_long_den_bo_tay.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/15_gyeongju_G17_dai_long_den_bo_tay.png",
+            "description": "Lồng đèn bên di tích nối hoa văn thủ công với ánh sáng giao lưu. Cảnh giả tưởng lấy cảm hứng Gyeongju.",
+            "uv": [
+                0.0,
+                0.16931216418743134,
+                1.0,
+                0.8306878209114075
+            ],
+            "guid": "d57f4953075ec7340b53013023e3836e",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "seoul",
+            "nodeId": "S2",
+            "checkInId": "seoul_s2_checkin",
+            "source": "_CheckIn_Import_20261018/images/16_seoul_S2_cong_thanh_xua_ben_song_han.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/16_seoul_S2_cong_thanh_xua_ben_song_han.png",
+            "description": "Mái cổng truyền thống gặp dòng sáng đô thị, gợi sự tiếp nối di sản tại Seoul. Tranh minh họa cách điệu.",
+            "uv": [
+                0.0,
+                0.16931216418743134,
+                1.0,
+                0.8306878209114075
+            ],
+            "guid": "5de406e3254225c44942fb630633f2a3",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "seoul",
+            "nodeId": "S10",
+            "checkInId": "seoul_s10_checkin",
+            "source": "_CheckIn_Import_20261018/images/17_seoul_S10_chan_thap_n_seoul.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/17_seoul_S10_chan_thap_n_seoul.png",
+            "description": "Tháp, sườn đồi và phố xa mở ra góc nhìn Seoul trong thế giới game; không phải ảnh chụp địa lý.",
+            "uv": [
+                0.0,
+                0.16931216418743134,
+                1.0,
+                0.8306878209114075
+            ],
+            "guid": "3bc3df9f61adb74429d57747026c401f",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        },
+        {
+            "cityId": "seoul",
+            "nodeId": "S18",
+            "checkInId": "seoul_s18_checkin",
+            "source": "_CheckIn_Import_20261018/images/18_seoul_S18_role_anh_den_hanji.png",
+            "assetPath": "Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet/18_seoul_S18_role_anh_den_hanji.png",
+            "description": "Giấy Hanji và đèn gợi một nhịp giao lưu giữa thủ công và đô thị. Ghi dấu tranh không kích hoạt rơle.",
+            "uv": [
+                0.0,
+                0.16798941791057587,
+                1.0,
+                0.8320105671882629
+            ],
+            "guid": "506b1e7dde280494cbce489125f17063",
+            "localId": "21300000",
+            "bindingStatus": "RUNTIME_ART_BOUND; RUNTIME_VARIANT_PENDING_VISUAL_REVIEW"
+        }
+    ]
+}

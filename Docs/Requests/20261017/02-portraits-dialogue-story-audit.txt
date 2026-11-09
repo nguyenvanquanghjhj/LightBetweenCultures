@@ -1,0 +1,154 @@
+# LBC — BỔ SUNG: HOÀN THIỆN PORTRAIT NPC, HỘI THOẠI VÀ CỐT TRUYỆN SÁU THÀNH PHỐ
+
+Project: D:\GAMEKKK\LightBetweenCultures
+
+Hãy tiếp tục từ checkpoint mới nhất. Tôi đã duyệt hình boss, bot, marker dấu ! và thiết kế nền City Map. Không chỉnh lại những phần đó.
+
+Yêu cầu bổ sung này phải phối hợp với các prompt đang nằm trong Queue, tránh làm lại công việc đã hoàn thành.
+
+## A. KHẮC PHỤC PORTRAIT NPC BỊ THIẾU
+
+Ảnh runtime cho thấy Bà Tư tại Hội An chưa có portrait hiển thị rõ ràng. Một số NPC khác có thể cũng đang sử dụng fallback hoặc chưa được gán sprite đúng.
+
+Hãy kiểm kê từng NPC trên tất cả sáu thành phố:
+
+- npcId và tên.
+- Thành phố và node xuất hiện.
+- Đường dẫn sprite portrait hiện tại.
+- Thiết kế canonical hay tạm.
+- Portrait có hiện thực sự trong dialogue runtime không.
+- Có nhân vật khác dùng cùng hình ngoài ý muốn không.
+- Chất lượng RGBA, viền, pivot, kích thước và phần cơ thể bị crop.
+
+Ưu tiên giải quyết Bà Tư, ông Phúc và tất cả NPC có hội thoại nhưng chưa hiển thị chân dung.
+
+Tìm hình phù hợp từ art pack, NPC roster và Asset Registry trước khi yêu cầu tạo mới.
+
+Không được lấy hình đã có danh tính của NPC khác để gán tùy tiện. Nếu thiếu art thật, lập danh sách cụ thể để bổ sung, không dùng hình tròn rỗng hoặc icon chat thay cho chân dung final.
+
+Giữ nguyên Cô Mai và các NPC canonical đã duyệt. Với Chị Hương và So-yeon, chỉ kiểm tra mapping trùng và tiếp tục dùng hình hiện tại cho đến khi người dùng duyệt thay đổi.
+
+## B. SỬA NHÂN VẬT MỜ KHI CHUYỂN NGƯỜI NÓI
+
+Trong screenshot hội thoại Lumi tại Jeonju, có một nhân vật mờ như bóng ma nằm bên trái phía trên map trong khi Lumi xuất hiện rõ bên phải.
+
+Hãy xác định chính xác nguyên nhân:
+- Cơ chế cố tình hiển thị người không nói với alpha thấp.
+- Tween fade chưa hoàn tất.
+- Portrait cũ không được ẩn.
+- Hai UIImage/CanvasGroup chồng lên nhau.
+- Sai thứ tự render/sorting hoặc anchor.
+- Alpha còn sót khi tái sử dụng panel.
+
+Ưu tiên thiết kế mới:
+
+**Chỉ portrait của nhân vật đang nói được hiển thị rõ ràng.**
+
+Khi chuyển speaker:
+1. Portrait cũ fade out và được ẩn hoàn toàn.
+2. Portrait mới fade in vào slot chính xác.
+3. Không để hình cũ lơ lửng bán trong suốt trên tranh nền.
+4. Không để portrait nhảy vị trí bất thường hoặc thay đổi tỷ lệ.
+5. Khi nhân vật quay lại nói, dùng đúng sprite đã được gán.
+6. Đóng dialogue phải dọn sạch trạng thái portrait trước khi mở lượt mới.
+
+Nếu cần hiển thị cả hai người trong cùng đoạn hội thoại, phải có thiết kế bố cục hai chân dung rõ ràng, không dùng bóng mờ trên phong cảnh như hiện tại.
+
+Không thay ngoại hình, thiết kế hoặc nội dung lời nói chỉ để sửa lỗi hiển thị.
+
+## C. CHUẨN HÓA BỐ CỤC HỘI THOẠI
+
+Những screenshot Huế, Jeonju và Hội An cho thấy panel còn quá cao, khoảng trống nhiều, portrait và các nút chưa được bố trí tối ưu.
+
+Hãy áp dụng các yêu cầu đã có trong prompt UI Polish, đồng thời kiểm tra:
+
+- Panel cân đối với độ dài nội dung và số lựa chọn.
+- Portrait không bị cắt đầu/chân ngoài ý muốn.
+- Phần nền giấy phía trên không để trống quá nhiều.
+- Nhân vật không che nút hành động.
+- Tên speaker, địa điểm và nội dung dễ đọc.
+- Nút có nhãn dài phải tự xuống dòng và tăng chiều cao.
+- Nút nhận/giao vật phẩm không bị lẫn với nút đóng.
+- Popup thưởng không chồng lên dialogue gây khó hiểu.
+- Màn 9:16, 20:9, landscape và safe area vẫn hiển thị đúng.
+
+Giữ skin giấy kem, xanh ngọc và viền đồng hiện tại.
+
+## D. KIỂM TOÁN CỐT TRUYỆN THỰC TẾ CỦA 6 THÀNH PHỐ
+
+Tôi đã có tài liệu thiết kế sáu thành phố, nhưng không muốn game chỉ có node, hình ảnh và vài đoạn hội thoại mà thiếu gameplay thực sự.
+
+Đọc lại:
+
+`LBC_Gameplay_6Cities_Detailed_v1/Docs/FULL_LEVEL_DESIGN.md`
+
+`LBC_Gameplay_6Cities_Detailed_v1/Docs/QUEST_CHAINS_AND_GATES.md`
+
+Cùng các JSON node, enemy, item, quests và world progression.
+
+Kiểm tra hiện trạng sau các lượt Codex mới nhất, rồi lập bảng từng node của cả sáu thành phố, gồm:
+
+- Node ID / tên.
+- Vai trò cốt truyện.
+- Sự kiện gameplay đã triển khai.
+- NPC, enemy hoặc puzzle liên quan.
+- Quest và điều kiện nhận/trả.
+- Item/reward/flag thật.
+- Điều kiện gate và reveal.
+- Lời thoại trước, trong và sau nhiệm vụ.
+- Kết quả save/restart.
+- Trạng thái: IMPLEMENTED / PARTIAL / DATA_ONLY / NOT_VERIFIED.
+
+Không tính một node là hoàn thành chỉ vì có marker, sprite, tooltip hoặc một câu thoại giới thiệu.
+
+Node điều hướng thông thường có thể không cần event phức tạp, nhưng phải có vai trò hợp lý trong graph.
+
+### Các chuỗi chính phải được bảo toàn và hoàn thiện
+
+Hội An: HQ01, Bot H5/H19, H7, các nhiệm vụ phụ và chuỗi đặc sản mới.
+
+Huế: Thư thất lạc, đường qua sông, ấn tín, giải mã, trạm U19, tuyến mở Đà Lạt.
+
+Đà Lạt: Trả kính cho Lan, khám phá rừng sương, thu thập thức ăn cho chó, giải quyết boss sương, tín hiệu thác nước, thắp trạm.
+
+Jeonju: Ba mảnh hoa văn Hanji, kiện hàng thất lạc, trạm J19, nhiệm vụ gửi thư và giao ớt ở J15.
+
+Gyeongju: Ba biểu tượng sao, câu đố di sản, ấn tín từ Huế, bảo vệ bệ đá, trạm G19.
+
+Seoul: Hội tụ tín hiệu từ các thành phố, giải mã sự thật, chuẩn bị ba rơle, boss cuối và kết truyện.
+
+Áp dụng theo tài liệu canonical, không tự thay đổi nội dung đã duyệt nếu không có lý do rõ ràng.
+
+### Kiểm tra đặc biệt
+
+- Người chơi không thể bỏ qua gate/boss bắt buộc.
+- Cốt truyện không bị đảo thứ tự gây khó hiểu.
+- Nhiệm vụ phụ không tự biến mất khi kết thúc main quest.
+- Item và manh mối có thể nhận được trước khi cần sử dụng.
+- Các nhiệm vụ liên thành phố có đầu, giữa và kết thúc.
+- Quest journal theo dõi đúng mục tiêu đang thực hiện.
+- Không trả thưởng lặp.
+- Hội thoại phải đổi theo tiến độ thật.
+- Người chơi có thể quay lại các thành phố cũ.
+- Không dùng fixture QA hoặc world flag giả làm bằng chứng người chơi đã hoàn thành.
+- Seoul chỉ mở và kết thúc khi đủ các điều kiện canonical.
+
+Nếu hai chương Huế/Jeonju đang triển khai, bổ sung phần thiếu trực tiếp vào công việc đang chờ, không tạo một hệ thống cốt truyện thứ hai.
+
+## E. BẰNG CHỨNG NGHIỆM THU
+
+Bắt buộc bàn giao:
+
+1. Ảnh trước/sau Bà Tư và các NPC trước đó chưa có portrait.
+2. Ảnh/video chuyển thoại NPC → Lumi → NPC, không còn ghost portrait.
+3. Ảnh panel hội thoại ngắn và dài sau chỉnh.
+4. Danh sách NPC thiếu sprite chuẩn hoặc còn sử dụng art tạm.
+5. Bảng triển khai gameplay từng node của cả sáu thành phố.
+6. Bảng quest chính/phụ hoàn thành được và những quest còn thiếu.
+7. Kiểm thử từng chapter từ mở đầu tới kết chương.
+8. Kiểm thử quay lại map trước và save/restart.
+9. Build/log/checkpoint và danh sách vấn đề chưa hoàn thành.
+
+**PHẠM VI:** Không vẽ lại map, không đổi sprite boss/bot/marker đã duyệt, không làm lại các chức năng đã đúng. Nếu các mục cốt truyện đã được triển khai ở lượt khác, chỉ xác minh và bổ sung phần thiếu.
+
+Dừng sau checkpoint, báo cáo rõ phần hoàn thành và phần còn chờ nghiệm thu.

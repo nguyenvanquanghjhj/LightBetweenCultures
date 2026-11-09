@@ -1,0 +1,49 @@
+{
+  "comparison": "full source base plus CheckpointTouchNpcDialogue-20261020",
+  "baseFullyVerified": 2679,
+  "previousIncrementalFullyVerified": 36,
+  "checked": 855,
+  "changed": [
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+      "before": "c15ee2d6929a942a9891263fa8f269ae29e98f5db01f756fc648e18d92c89f45",
+      "after": "65eda2a576201d37dc3a2718f8751b136885c126b7ec69785e6c777cda920987",
+      "bytes": 35808
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "before": "8863909e8d33a90116fe6d89d8783e7ed9929e5639426740ffaf9cf625aad819",
+      "after": "05a1378159f33b64adeb98d9d2840a6ac08024631550c6212b399a6dd24bc36c",
+      "bytes": 38615
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "before": "9582eb7fc1d8d1faff4000b4512b6daa7388a00faa57b7b78511c6067c14b835",
+      "after": "c4f987ce5a1969a600c2565650344380c2cd0b726172dfef6de548c7cbb66cf3",
+      "bytes": 119514
+    }
+  ],
+  "new": [
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.NpcApproach.cs",
+      "sha256": "5b997b09f67ae8c5109ab0002251f817789772685e2afd2f08fe6601bd404791",
+      "bytes": 8969
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.NpcApproach.cs.meta",
+      "sha256": "d90b31b57cd30c56a045923474b9310892bb36846e0fe2c7dfaf160d11d76209",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.NpcStanding.cs",
+      "sha256": "92c33259c515b8520b4230286f7a3b7a5696fc21cd6b66d40d75b2f5c14f9770",
+      "bytes": 13491
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.NpcStanding.cs.meta",
+      "sha256": "6009eeb479602ba7e2a0d52124f3952bcdad9fffcc6e3f3309d04bc500f2795b",
+      "bytes": 59
+    }
+  ],
+  "missing": []
+}

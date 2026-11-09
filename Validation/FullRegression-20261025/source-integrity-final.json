@@ -1,0 +1,12 @@
+{
+  "fixedBuild": "Builds/Windows-ThreeNpcQA-20261025/LightBetweenCultures.exe",
+  "assemblySHA256": "7749c9c60aee544705d819d5d53b234280ac3c923724a3e49d4f28addd4aa2f0",
+  "sourceFilesChecked": 910,
+  "sourceChangedDuringQa": true,
+  "changedPaths": [
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs"
+  ],
+  "userConfirmedOtherEditingSession": true,
+  "claim": "Results apply to the hashed Player artifact; current moving source is not certified."
+}

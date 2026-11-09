@@ -1,0 +1,482 @@
+[
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_hoi_an_bamboo_frame",
+    "anchor": "hoi_an:H0",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_hoi_an_old_flower_paper",
+    "anchor": "hoi_an:H4",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_hoi_an_roof_hook",
+    "anchor": "hoi_an:H10",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_hoi_an_eye_reflection",
+    "anchor": "hoi_an:H2",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_hue_river_jade",
+    "anchor": "hue:U3",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_hue_dragon_face",
+    "anchor": "hue:U8",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_hue_ritual_cord",
+    "anchor": "hue:U16",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_hue_rhythm_inscription",
+    "anchor": "hue:U17",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_da_lat_lake_glass",
+    "anchor": "da_lat:D0",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_da_lat_pine_direction",
+    "anchor": "da_lat:D2",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_da_lat_mist_bell",
+    "anchor": "da_lat:D8",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_da_lat_blue_signal_seed",
+    "anchor": "da_lat:D12",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_jeonju_hanok_pattern",
+    "anchor": "jeonju:J2",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_jeonju_dyed_thread",
+    "anchor": "jeonju:J3",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_jeonju_old_hanji_core",
+    "anchor": "jeonju:J7",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_jeonju_greeting_stamp",
+    "anchor": "hoi_an:H6",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_gyeongju_min_record",
+    "anchor": "gyeongju:G3",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_gyeongju_star_stone",
+    "anchor": "gyeongju:G4",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_gyeongju_statue_reflection",
+    "anchor": "gyeongju:G7",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_gyeongju_heritage_ring",
+    "anchor": "gyeongju:G15",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_seoul_heritage_data",
+    "anchor": "seoul:S2",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_seoul_jiwon_sync",
+    "anchor": "seoul:S7",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_seoul_stellar_ring",
+    "anchor": "seoul:S10",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Fresh04",
+    "fragmentId": "fragment_seoul_relay_frame",
+    "anchor": "seoul:S18",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_hoi_an_bamboo_frame",
+    "anchor": "hoi_an:H0",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_hoi_an_old_flower_paper",
+    "anchor": "hoi_an:H4",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_hoi_an_roof_hook",
+    "anchor": "hoi_an:H10",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_hoi_an_eye_reflection",
+    "anchor": "hoi_an:H2",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_hue_river_jade",
+    "anchor": "hue:U3",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_hue_dragon_face",
+    "anchor": "hue:U8",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_hue_ritual_cord",
+    "anchor": "hue:U16",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_hue_rhythm_inscription",
+    "anchor": "hue:U17",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_da_lat_lake_glass",
+    "anchor": "da_lat:D0",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_da_lat_pine_direction",
+    "anchor": "da_lat:D2",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_da_lat_mist_bell",
+    "anchor": "da_lat:D8",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_da_lat_blue_signal_seed",
+    "anchor": "da_lat:D12",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_jeonju_hanok_pattern",
+    "anchor": "jeonju:J2",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_jeonju_dyed_thread",
+    "anchor": "jeonju:J3",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_jeonju_old_hanji_core",
+    "anchor": "jeonju:J7",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_jeonju_greeting_stamp",
+    "anchor": "hoi_an:H6",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_gyeongju_min_record",
+    "anchor": "gyeongju:G3",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_gyeongju_star_stone",
+    "anchor": "gyeongju:G4",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_gyeongju_statue_reflection",
+    "anchor": "gyeongju:G7",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_gyeongju_heritage_ring",
+    "anchor": "gyeongju:G15",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_seoul_heritage_data",
+    "anchor": "seoul:S2",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_seoul_jiwon_sync",
+    "anchor": "seoul:S7",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_seoul_stellar_ring",
+    "anchor": "seoul:S10",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  },
+  {
+    "run": "Reverse03",
+    "fragmentId": "fragment_seoul_relay_frame",
+    "anchor": "seoul:S18",
+    "cityUnlocked": true,
+    "nodeRevealed": true,
+    "graphReachable": true,
+    "method": "STATIC_BFS_FROM_HISTORICAL_EARNED_POSTGAME_SAVE; NOT a new runtime test",
+    "fragmentGrant": "NOT_IMPLEMENTED"
+  }
+]

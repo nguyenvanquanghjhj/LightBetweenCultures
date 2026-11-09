@@ -1,0 +1,1605 @@
+{
+  "createdUTC": "2026-10-18T05:50:46.576990+00:00",
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointMapRoute35-20261018",
+  "changed": [
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "beforeSHA256": "0035517eb5a89a139e2355e846518fa966f7d5a23116e184a7885cecee82f980",
+      "sha256": "8efb8d92acea66c835b30001618e79f954d034af760f88a5ada0b6bf85768a4c",
+      "bytes": 36419
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+      "beforeSHA256": "9b15e08b099a72fe586645481389a5d4b0d946bc79b5115a918aa0dd0be39069",
+      "sha256": "78845fb423cd6fd1c99816246009ba1167683254c6f53c0bbae5a8ae8040fc75",
+      "bytes": 14037
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+      "beforeSHA256": "66970dd3c047e30c2de43ea6fc1deebd06470d8ef5dc32022c088767ec08af93",
+      "sha256": "acb450d86958ed5092723d66e30317b377665abb31fb99cce2f952997bafd389",
+      "bytes": 3960
+    },
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+      "beforeSHA256": "8b8b67a0b80f555a92bb4b7b1a033d41ed58f61d7dfddbc38fd104fc9c1254a2",
+      "sha256": "f4f5874bdfabd3688fe0cdbf485fce6e6896f2e2fbca9aa34ce04b7136753dad",
+      "bytes": 73334
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/NodeMarkerResolver.cs",
+      "beforeSHA256": "11fe4a7f5c7487cb4f6086e685d18b258eefa782a527f38d8f2993e547872ef6",
+      "sha256": "986f3eda56b87b06b4c0aed3a35722f42c9658b9a93970367fb6211b498032a7",
+      "bytes": 8329
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "beforeSHA256": "fa351e12d132393837c0e5824bbe6508a9b8185095805931b3823b9cdfca24ea",
+      "sha256": "23194d8a29a81f2db738968b710919e25df4cee7e31bb3c07d6d7e6871d8c6d6",
+      "bytes": 110599
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Relics.cs",
+      "beforeSHA256": "8da5d924d9b1ab462c9d8fdba1d5fb60712559a2769e2a7c59d6dc25bed881b3",
+      "sha256": "c963782dcacffb3d6fda99f2a1342ef477832e808d826efe2c8c15dd182eba31",
+      "bytes": 21877
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/ArtLibrarySetup.cs",
+      "beforeSHA256": "0183edaaf04b8574a3d584870d440b03072114f3ff32f4b6e4071978cd24c2ed",
+      "sha256": "b92d8057a5190bb08c0ca984be9cb226ef5edb8236f7650a6fa9f5df6e7bc04e",
+      "bytes": 10782
+    },
+    {
+      "path": "Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md",
+      "beforeSHA256": "b1ca2301fb3c9352160468478ad5c8f098617363be16a4d350c1a08d846a606b",
+      "sha256": "198af5c80028104eb2189e44f105da3524fb796d4e766017939c98389ca9827b",
+      "bytes": 5450
+    },
+    {
+      "path": "Docs/Gameplay/CHECKIN_LANDMARK_AUDIT.md",
+      "beforeSHA256": "7722f15360193122a76193a78687d3f0e005d1ce839819c863edd29ae7d6cf13",
+      "sha256": "e952d19f5eecae3fbc46e3b624e045d36a2362c48a6978ea0578d8fd1690cb58",
+      "bytes": 9265
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Chapters.cs",
+      "beforeSHA256": "22a0dc2666e618aaa2ff3850b82499641eda353c0c86669e0512147dfc5609ca",
+      "sha256": "6208f36c16ef2d60e7a886e63582fd5fed99eeda29744dedc4669e29c2dff38b",
+      "bytes": 28632
+    },
+    {
+      "path": "Docs/Art/native-art-bindings.json",
+      "beforeSHA256": "8c4494e3a1790856f0ff2155ab08e50c1ba07e5e9ca295ab1e6331cd299d9b16",
+      "sha256": "dd7913a7ce85b9e3260a3deae0b67f27edf00222aca21cc5429c6dedd423314d",
+      "bytes": 198224
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.json",
+      "beforeSHA256": "ff8f3ede9fc46277d65a50da41c51b5e4075db02f62aff3bf8c1f904cdf7c2d6",
+      "sha256": "74a7bf1bf0fbcb5a2ec44438369e9f9583161e538d3e4979f55316d45b83d362",
+      "bytes": 395326
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.csv",
+      "beforeSHA256": "41d322d71fc98b6ce67c22672470229d5fe782197b955aa8d814c7bfbb304d77",
+      "sha256": "ebe8f2d704632ea7a0246f2e6df56857b39c504f3dae43d1f1333091c790f45b",
+      "bytes": 75885
+    },
+    {
+      "path": "Docs/Art/ART_ASSET_CATALOG.md",
+      "beforeSHA256": "60153f3ef193f3270208987df4de7eb4d52d5b8edde24a1b6ffacdb139a3f29b",
+      "sha256": "55e5ce743b0988d304f36d96fe879c4ab9fb1d7cab977deb0596481ac1d9d61b",
+      "bytes": 56734
+    }
+  ],
+  "addedOrSupportingEvidence": [
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks.meta",
+      "sha256": "cb41a02a24571f5478335e1d90d895d997917267e0955ba35602e374907d78de",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived.meta",
+      "sha256": "32ac24636c6193e4a2f9b37e66a466c385fc8c5c2c67660e748188e292129d7b",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/01_hoi_an_H2_tiem_den_co_mai.png",
+      "sha256": "41dc2b2c9edd255a72649fef045bada62cd393cbd8ef72ae0e2d2ed6c4102781",
+      "bytes": 606591
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/01_hoi_an_H2_tiem_den_co_mai.png.meta",
+      "sha256": "bba4f6bea1c472e2dab0e52b665cedbdfe9bff3c715cbdffdaf2127b948238a3",
+      "bytes": 4117
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/02_hoi_an_H3_hem_mai_ngoi.png",
+      "sha256": "cf73ab44bad98cf8b409c830856d3d3f3c92aca42976ee579d19a5b1921a1ac3",
+      "bytes": 564757
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/02_hoi_an_H3_hem_mai_ngoi.png.meta",
+      "sha256": "9b89a4d0189e0585214a9841c8cd2da7342a2db2305f7ec38a3755c7efae7676",
+      "bytes": 4105
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/03_hoi_an_H4_cho_ven_song.png",
+      "sha256": "73911f85ee1078a5a0284128108d1a909f5ec5e8d007fdd4a31bbe776932713d",
+      "bytes": 597700
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/03_hoi_an_H4_cho_ven_song.png.meta",
+      "sha256": "5a41b971621ba2d82afeb0af21470e77b2af7a9c59dbe6b0fccae81e2769009f",
+      "bytes": 4108
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/04_hoi_an_H6_cau_co_anh_den.png",
+      "sha256": "9eb2de1176632295e5a3a2bad8de6933311bc38a5f620c15bd0c63791f0c5c0b",
+      "bytes": 580410
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/04_hoi_an_H6_cau_co_anh_den.png.meta",
+      "sha256": "44d46a6877a502fea7cbf188089c5bade8d5e351c728bbc0776f5138dcbf2184",
+      "bytes": 4114
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/05_hoi_an_H7_tram_anh_sang_hoi_an.png",
+      "sha256": "c824c60d037566e665c0997d3ee55b6a552f29cf142d76e3d2a570ee62af9b13",
+      "bytes": 568585
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/05_hoi_an_H7_tram_anh_sang_hoi_an.png.meta",
+      "sha256": "274717a2a157329877dc9d6eef43f9796e6762f19fff35b26dd1170dee39c285",
+      "bytes": 4132
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/06_hoi_an_H17_ben_do_pho_co.png",
+      "sha256": "7c2cc2bda82bb7f690d7b1d4cac40ed66008ee3686caf3c57932e16ce027b882",
+      "bytes": 551154
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/06_hoi_an_H17_ben_do_pho_co.png.meta",
+      "sha256": "36e701546b63360f7037e946d94af0aac94f0c5e37ecfb3e871928325e0c4dcf",
+      "bytes": 4111
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/07_hue_U4_dau_cau_vao_thanh.png",
+      "sha256": "daba19345aeb94b09dcc3b45207ae5d240d8eeb949c724444b9cd4e54d9d7750",
+      "bytes": 542391
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/07_hue_U4_dau_cau_vao_thanh.png.meta",
+      "sha256": "25bd91796e22928fb2e20003f2cd41ba5699d4aac70ece64cd71a8d42cdfefdf",
+      "bytes": 4111
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/08_hue_U6_cua_ngo_mon_cach_dieu.png",
+      "sha256": "9ae8fe825da66e1b44fe2f1ca84ec3ced8b1d942e8e1905b980697cd65ecbf1f",
+      "bytes": 555357
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/08_hue_U6_cua_ngo_mon_cach_dieu.png.meta",
+      "sha256": "d637ed53a01d8f320f6667210f02110cd21ea026c54c8ac39ac11973f7f5b24a",
+      "bytes": 4123
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/09_da_lat_D0_ben_ho_xuan_huong.png",
+      "sha256": "9aad81c59eba5e1296d0a8e62655b11b5a5a5f408e49a1bd5afa08f250bec0b4",
+      "bytes": 573737
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/09_da_lat_D0_ben_ho_xuan_huong.png.meta",
+      "sha256": "88f1d54d2fe1eaaa9940b2ff3907297a17b979dfb3bc07753bb4c1de18c77de9",
+      "bytes": 4123
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/10_da_lat_D14_dai_dan_sang_nui.png",
+      "sha256": "4bd9001d9a2c5676822ad26e036fcd8c9b05d8428101294d6d6a5d9b04afeee4",
+      "bytes": 557457
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/10_da_lat_D14_dai_dan_sang_nui.png.meta",
+      "sha256": "40ef94eb6bdc4b3315e2541ab53a6c42257a6c28e84807fd4ced8324aea63695",
+      "bytes": 4120
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/11_jeonju_J8_cau_da_tay.png",
+      "sha256": "a6002391b328992fb9668f5a482d6ef660e3500b7b0b12f592fc141f82ae9db1",
+      "bytes": 590119
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/11_jeonju_J8_cau_da_tay.png.meta",
+      "sha256": "9c8ceb7c589bef9a19c31cace9376c8189473e411fafb8d2c1d6c4b2018bb816",
+      "bytes": 4099
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/12_jeonju_J11_dai_ngam_mai_ngoi.png",
+      "sha256": "0c861952ad29ac4fd6466a1bbf1db6509a9e2394692b24d6c97b0062fae5e0bf",
+      "bytes": 553783
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/12_jeonju_J11_dai_ngam_mai_ngoi.png.meta",
+      "sha256": "49191352fc9a6c0daf2010ddef1c529b8954a9e6bd952e1f33789b18f91e935b",
+      "bytes": 4123
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png",
+      "sha256": "109c6e9c6ca235f99f46dce5d0b5e72b56401b4805f0b440ed75c13de285c078",
+      "bytes": 626646
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png.meta",
+      "sha256": "ca50c3b5776d4affdd1d6696ca96f486781205a23e9351d61e743e551f04e7df",
+      "bytes": 4168
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/14_gyeongju_G14_kho_ban_khac_di_tich.png",
+      "sha256": "5cbeb041ea617f960054480309c4f8dfaea64b738ec65287bcfaaea66b8fc38f",
+      "bytes": 608548
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/14_gyeongju_G14_kho_ban_khac_di_tich.png.meta",
+      "sha256": "db748a8d77db96d9443f4a98b9a6c93ce8e5c18ff8dd510033527027dc951ad4",
+      "bytes": 4138
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/15_gyeongju_G17_dai_long_den_bo_tay.png",
+      "sha256": "b1e21333ed4f78c97aa684ad7c8ca25db2a6233b4e7add1786c8411a4d7a3309",
+      "bytes": 556333
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/15_gyeongju_G17_dai_long_den_bo_tay.png.meta",
+      "sha256": "025296600f2a67a0577661991f01e5613d8b132db2af0360f4276e07e680b32d",
+      "bytes": 4138
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/16_seoul_S2_cong_thanh_xua_ben_song_han.png",
+      "sha256": "657e8e1d83ac9fd3207a266a83123233f3a3522ddbe3b0fc9a8e3c301c77067d",
+      "bytes": 580725
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/16_seoul_S2_cong_thanh_xua_ben_song_han.png.meta",
+      "sha256": "ef8ca405876e8351b874140f96f8c04ecd1ac73f9b1a7ab3a8d58f40331294bd",
+      "bytes": 4150
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/17_seoul_S10_chan_thap_n_seoul.png",
+      "sha256": "f8d6cf36a830245385b8799b7c1c297f2d5f82c893a0bb2f64ef0af4d4c9a6a7",
+      "bytes": 583766
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/17_seoul_S10_chan_thap_n_seoul.png.meta",
+      "sha256": "f6db057f2477cd34bcb25e27055915afee276fe04e233856bc757c11c64547c1",
+      "bytes": 4120
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/18_seoul_S18_role_anh_den_hanji.png",
+      "sha256": "6c2724a9bf68bf3fea1b81fa8b3b407e6c289aed044ee765b1ce839acc019ed5",
+      "bytes": 549309
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/18_seoul_S18_role_anh_den_hanji.png.meta",
+      "sha256": "56390858c8fc77877f0f485865a7d4cb08d2a457baa50cc7c7d8e122c8e38b08",
+      "bytes": 4123
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/CheckInArtSetup.cs",
+      "sha256": "f096ea967043630ee634e05af54c1dcc421a8144387e92c20d1da6f687993ce4",
+      "bytes": 4464
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/CheckInArtSetup.cs.meta",
+      "sha256": "5b151537685da7b1e1182fccdba2cde1d79d232db49590bc5eceaa15792814f4",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.CheckIns.cs",
+      "sha256": "9441f7859c665eea70c116a077d329b635579c7b15116402b92a5ab69d99ed44",
+      "bytes": 9085
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.CheckIns.cs.meta",
+      "sha256": "9939586e4853db825ff9ab222e4a94e7d4c87c19681905e58cae2247f165953d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CheckIns.cs",
+      "sha256": "fdc596a8baaea4112a093f7e57ad7975d1ead1509200a57e55bac33b7435ea73",
+      "bytes": 13414
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CheckIns.cs.meta",
+      "sha256": "8be280e3b343440ce38c8cd50788b5ab9ddc737bcbc7e65d7054b27919dd6496",
+      "bytes": 59
+    },
+    {
+      "path": "Docs/Art/CHECKIN_LANDMARK_IMAGE_MAPPING.md",
+      "sha256": "cbb2c9698f2725191821547fe0ba70d828ec58ae28a8310c029c177a395fce01",
+      "bytes": 8184
+    },
+    {
+      "path": "Docs/Gameplay/CHECKIN_18_ART_INTEGRATION_REPORT.md",
+      "sha256": "84a68838f5e2deea2b509503d0d07c4144ee896ba71fdae93350b9b8688e127c",
+      "bytes": 10250
+    },
+    {
+      "path": "Docs/Gameplay/CheckInArt-20261018/RuntimeReview.html",
+      "sha256": "390451cb23321a42fc8f65c00d1f0fcfb979c9a34df6c807b3a98d5928f93189",
+      "bytes": 8431
+    },
+    {
+      "path": "Docs/Gameplay/CheckInArt-20261018/audit-before.md",
+      "sha256": "446fe16071fc2b2951bfaed19336c693a219c27a2d85fcd6ce23c7a20d3bbd55",
+      "bytes": 4790
+    },
+    {
+      "path": "Docs/Gameplay/CheckInArt-20261018/baseline.json",
+      "sha256": "a946b7737247a1d721599e92a17f965335be553ed04c885d1630c66dc654f445",
+      "bytes": 4721
+    },
+    {
+      "path": "Docs/Gameplay/CheckInArt-20261018/native-before-derived.json",
+      "sha256": "319153954dd8adf49c7808a9496e77e14a19b53c603918e475730c74c146ef33",
+      "bytes": 14775
+    },
+    {
+      "path": "Docs/Gameplay/CheckInArt-20261018/native-checkin-art.json",
+      "sha256": "39b3048d55ac617933549ab456c2a6ba83a20fc656daedc0a2c45bc3d6719a87",
+      "bytes": 15720
+    },
+    {
+      "path": "Docs/Gameplay/CheckInArt-20261018/runtime-crop-table.md",
+      "sha256": "ffa25a45dad51661bd57c68bae69f6491a5c7d51194336f01d2d38791b1a4351",
+      "bytes": 4928
+    },
+    {
+      "path": "Docs/Gameplay/CheckInArt-20261018/source-inventory.json",
+      "sha256": "0c9837270ffc16604ba0901edf00fd781dc3631ba312b86a7c983c6314e79c76",
+      "bytes": 30202
+    },
+    {
+      "path": "Docs/Gameplay/CheckInArt-20261018/verification.json",
+      "sha256": "dcf0855c32dac81e5f5c2d597f38fc6e1e9f83d73350e37b3553723701dfddeb",
+      "bytes": 5887
+    },
+    {
+      "path": "Docs/Gameplay/CheckInArt-20261018/verified-mapping.json",
+      "sha256": "cf6ffc5b19549aa7cec9a5817871ae2dc52d22ee299243f2c93e6bff3f064c8d",
+      "bytes": 38889
+    },
+    {
+      "path": "Docs/QA/CHECKIN_18_RUNTIME_QA.md",
+      "sha256": "ce73ebb5feff52660917aa717ae43019d166b556c2de1a5fb257279236fd2f38",
+      "bytes": 6984
+    },
+    {
+      "path": "Logs/checkin18-build01.log",
+      "sha256": "97035aa630f969e523fde42ec10c10d575406172510bc2b94381dbde92b66f7d",
+      "bytes": 1178065
+    },
+    {
+      "path": "Logs/checkin18-build02.log",
+      "sha256": "69ce246b73ec5d93ad3e29f7a8f76f58faa15a9535674f4bca7d4247fabddd7c",
+      "bytes": 1179783
+    },
+    {
+      "path": "Logs/checkin18-build03-derived.log",
+      "sha256": "1d4afc5cba0f84c8d2628174e5f3a56614eb55d74f6e535e222ac08fc1390b5f",
+      "bytes": 1176989
+    },
+    {
+      "path": "Logs/checkin18-build04-captions.log",
+      "sha256": "8583b4ef50deafe890aa0f343eb6cc4289d150630b53187930305200ece1c42b",
+      "bytes": 1065865
+    },
+    {
+      "path": "Logs/checkin18-build05-cross-album-qa.log",
+      "sha256": "999240a42f62883e866152e06d5e2d4f213e1defe2abb586cc38754861f297aa",
+      "bytes": 1180615
+    },
+    {
+      "path": "Logs/checkin18-derived-import.log",
+      "sha256": "c88342e796d72fd8be080bfcacbc1bd96b587a3921619dba040cb69c3a815812",
+      "bytes": 116559
+    },
+    {
+      "path": "Logs/checkin18-import.log",
+      "sha256": "187df50c4ea251a55e73a97a071bfa9e0629c4bf250b2065387997113214877d",
+      "bytes": 128402
+    },
+    {
+      "path": "Tools/finalize_checkin_art_review.py",
+      "sha256": "baa5b3efc8bffb88945a7035e43f69f7a921b333a333bcbd5008ae7d8b08e7a0",
+      "bytes": 13276
+    },
+    {
+      "path": "Tools/prepare_checkin_runtime.py",
+      "sha256": "16a4bb88f0a5a2545e9c1adcb14728afe2d78b40f56ac4ae4e5098e7eebef99d",
+      "bytes": 4889
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/CrossAlbum01/Cross-city-album-hoi_an-while-at-seoul.png",
+      "sha256": "c6b4d7259f7260cc51bf8284560ebc840a0120cbb5cc57daf228589537d50115",
+      "bytes": 688876
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/CrossAlbum01/Cross-city-album-seoul-while-at-seoul.png",
+      "sha256": "fbe75f9746e892ba80154b6a4cc422e7fd6d9d043cb263af8e8da7103f0ef0c5",
+      "bytes": 641229
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/CrossAlbum01/Restart-album-seoul.png",
+      "sha256": "fbe75f9746e892ba80154b6a4cc422e7fd6d9d043cb263af8e8da7103f0ef0c5",
+      "bytes": 641229
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/CrossAlbum01/X-WorldMap-select-seoul.png",
+      "sha256": "a80aaa2b6cf34740419a08914929372f545cf8ee6d275e66fa39b5f54085759e",
+      "bytes": 830775
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/CrossAlbum01/gameplay-save.json",
+      "sha256": "36e52cdb8f3762da27c0627325a47fe27123bb7d59f90275e20ca56ac51de2ec",
+      "bytes": 18957
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/CrossAlbum01/gameplay-save.json.bak",
+      "sha256": "36e52cdb8f3762da27c0627325a47fe27123bb7d59f90275e20ca56ac51de2ec",
+      "bytes": 18957
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/CrossAlbum01/player.log",
+      "sha256": "371a250d48350ed30a69157231d30ed6b1855650aaec99e1c4bf16e6e05ec07e",
+      "bytes": 232095
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/CrossAlbum01/restart-captures.txt",
+      "sha256": "dc8ee337705337b39824181eadf62c585546fe960636b77af1849f0f91f825d4",
+      "bytes": 601
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/CrossAlbum01/restart-results.txt",
+      "sha256": "cfe1f112c35057134ddd6ad3d1d958d581abbbc0b4920847f75cb321a215382a",
+      "bytes": 8542
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/D0-before-after.png",
+      "sha256": "cbb3e7c432fa3113e042b3ba4825fcb2e048b6f6ad0df3797d37b6d7647a34b4",
+      "bytes": 1310062
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/D14-before-after.png",
+      "sha256": "83f147fcd558d7d0d970be92150f867af7308d8be339beec1eabafbade19f87a",
+      "bytes": 1272229
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/G14-before-after.png",
+      "sha256": "4069cf32fe457c9556d2cb967593f39b99f6078334de2dfabee3ad0d0a0c24de",
+      "bytes": 1043597
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/G17-before-after.png",
+      "sha256": "12ee1afb8180592c968c995619a2afd6915f8201e4071e9d5befa812f018eeba",
+      "bytes": 908368
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/G4-before-after.png",
+      "sha256": "485b67b3e6137cbbc4ecb687742541295396c17b52dccac59279c764b00e772f",
+      "bytes": 1059963
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/H17-before-after.png",
+      "sha256": "49c3802a4d8755fa9fd9816d8f1f07999d722529940fbf97773dcb36ec1c6c79",
+      "bytes": 919747
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/H2-before-after.png",
+      "sha256": "6c9144063f302594d1cf9ed56b6d800f6f985027302f427e0866fbfa2ddf4b71",
+      "bytes": 1010406
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/H3-before-after.png",
+      "sha256": "671a3a2a78c8d9d077447c3dc45ca66533137ad002da2d7d79c5d45f2fd4e70c",
+      "bytes": 1024376
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/H4-before-after.png",
+      "sha256": "41feb1440a2104ac86eeb3160f59bec632d355e29facc18759fbd88081eac73c",
+      "bytes": 1010797
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/H6-before-after.png",
+      "sha256": "e0fb5b9e33ca17cbba8b0e1580f5fe7d35e90a48e70db649bf05ac2cf1980bf5",
+      "bytes": 923079
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/H7-before-after.png",
+      "sha256": "f31fa3030dea85115b32b0e91859b1eefc8bb459332233acb11a429576d75b7b",
+      "bytes": 936773
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/J11-before-after.png",
+      "sha256": "1fe6b507471ce32aad8e00739e114ba8ebb4b81171334855e86d44019925f1af",
+      "bytes": 1257122
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/J8-before-after.png",
+      "sha256": "17941d8d9d2fffb592f7fed1a9afd685f14a7cdd175784c4a7f9550f6f192bdd",
+      "bytes": 1337748
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/S10-before-after.png",
+      "sha256": "0c47a3900beddf1c4d35fc8a09d68773e3211474e95f789d4a331a282dee56b5",
+      "bytes": 976453
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/S18-before-after.png",
+      "sha256": "5244ef70c6111eb5db29f9841161109ccd009cb7533e89d5449dc8ec5ae3ce8d",
+      "bytes": 839035
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/S2-before-after.png",
+      "sha256": "bd68ca1a0935310f553a43a53dc2be6a32620afe11458849f16a745d13c5e634",
+      "bytes": 932403
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/U4-before-after.png",
+      "sha256": "d4d53cbc9316e1328ed4e81232a2d2021d088ad1db835a0909dde4e34234b1a3",
+      "bytes": 1235075
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/U6-before-after.png",
+      "sha256": "30824c125793efa0c352908d32e655c40044561c65afab2ae5cf9679a685cd79",
+      "bytes": 1255684
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/DerivedReview/index.html",
+      "sha256": "5a96ed4f7eb19b98f78ea78cf3bde45bff463a421f5f6434a87898316034b080",
+      "bytes": 1410
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/EdgeReview/edges-1.png",
+      "sha256": "55f5eb32963327a0f94f04c705dc0d6337fbd5c834606f9409bdbbe980d9d312",
+      "bytes": 1541991
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/EdgeReview/edges-2.png",
+      "sha256": "fd68627065a1c11934d95fd6a2e07b80a53b5eacfa8cf37473cbaed2e93c39e3",
+      "bytes": 1481208
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/EdgeReview/edges-3.png",
+      "sha256": "0ae59365aa066e95dabbf1752fca0238c56938d6927cc984421dcfbbe25a5562",
+      "bytes": 1537162
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Fresh01/Fresh-journal-hoi_an.png",
+      "sha256": "cf0da23c69d4ab5bf5e84bebffeedaefd88dca8abfef6662bf426ed5f7b3f6c3",
+      "bytes": 576150
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Fresh01/Fresh-journal-seoul.png",
+      "sha256": "86ce2dca74dad4a3fd67e5d4816240e507ad5afbc8e6e376c6a6023e8864c5ab",
+      "bytes": 562497
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Fresh01/X-WorldMap-select-hoi_an.png",
+      "sha256": "34348d9c53d3fec429a8055674bff6b5acad223bd193055861393fdbbf3f97f0",
+      "bytes": 804380
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Fresh01/capture-manifest.txt",
+      "sha256": "950eabf753158ceed2ef4b2b5467404d22b58cae0b251dbd074a377ead7b9b04",
+      "bytes": 426
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Fresh01/gameplay-save.json",
+      "sha256": "ffc7f4a9bf6491cfab45a12504ed3ff5bda2a4f42bf215af9f5e6b60afae6dee",
+      "bytes": 1207
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Fresh01/gameplay-save.json.bak",
+      "sha256": "ffc7f4a9bf6491cfab45a12504ed3ff5bda2a4f42bf215af9f5e6b60afae6dee",
+      "bytes": 1207
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Fresh01/player.log",
+      "sha256": "7c176e38b91685223365804e3b111b576a5b106424178a0c69aa31594f6efc66",
+      "bytes": 110446
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Fresh01/smoke-results.txt",
+      "sha256": "f196388448d52694d3d08edc47793b4e47b52b0d03467071920269bbcc7e19a4",
+      "bytes": 1507
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/H6-original-alignment.png",
+      "sha256": "30033403957f6b1614882b2c9bbab9526c2f0172ea78212a46375a1298ba50e0",
+      "bytes": 815704
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/Journal-hoi_an.png",
+      "sha256": "136a96726bdd303672c86360ebc2391ce2f280fb18d9a8ff416d66a60a72115b",
+      "bytes": 725514
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/Journal-large-H17.png",
+      "sha256": "9f92e3496a8fd835c22f5d83138c6e7bd75f31f2cf6a043a86c7a5418135a014",
+      "bytes": 1047316
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/Scenery-H2.png",
+      "sha256": "751833386bec29cb0444133566ef0faaff95422475d806d987b2430d48371638",
+      "bytes": 751315
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/X-WorldMap-select-hoi_an.png",
+      "sha256": "9c6e6db5eee3f7d60d99c96aa73ea95583f72a6a492a46b7d2d3ab4ae72cef01",
+      "bytes": 819206
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/capture-manifest.txt",
+      "sha256": "f577690ceba5a95c4f8248e3f65dfc3beca0c5f6454ee57be469816a6f591881",
+      "bytes": 691
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/failure-runtime.png",
+      "sha256": "9f92e3496a8fd835c22f5d83138c6e7bd75f31f2cf6a043a86c7a5418135a014",
+      "bytes": 1047316
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/failure-ui-state.txt",
+      "sha256": "b3fde696a05f075291582fa68ff5cc3b1bf3b59ec84ce6544519311ae08491b9",
+      "bytes": 553
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/gameplay-save.json",
+      "sha256": "913fa9b6d89fa8e7fd7b90ad839ddd8c3eba1677493f561d1c3bb7cbf0d01075",
+      "bytes": 18449
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/gameplay-save.json.bak",
+      "sha256": "913fa9b6d89fa8e7fd7b90ad839ddd8c3eba1677493f561d1c3bb7cbf0d01075",
+      "bytes": 18449
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/player.log",
+      "sha256": "e3b4c66c02d7f65f5609a4477df51a82ebe18c306c1d4eb136cffa5b9221ab7c",
+      "bytes": 335819
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey01/smoke-results.txt",
+      "sha256": "a87c4dc5700274d45573b484834c7409e66144b03bfcec39bbf82d28334047da",
+      "bytes": 9072
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/H6-original-alignment.png",
+      "sha256": "30033403957f6b1614882b2c9bbab9526c2f0172ea78212a46375a1298ba50e0",
+      "bytes": 815704
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-da_lat.png",
+      "sha256": "bd536baa3061cadb998205e3cd3a72d1942d59bbaae713335e57cac0174337f4",
+      "bytes": 600923
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-gyeongju.png",
+      "sha256": "1583432dfc1497027c612fb2286a08c3963b8d88e57876296f6240e6bfaa8c94",
+      "bytes": 639479
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-hoi_an.png",
+      "sha256": "136a96726bdd303672c86360ebc2391ce2f280fb18d9a8ff416d66a60a72115b",
+      "bytes": 725514
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-hue.png",
+      "sha256": "8c0db8fbf40443fe07d667dc345c5ee0f05c0930bf556a20de1275e68d42faa8",
+      "bytes": 602549
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-jeonju.png",
+      "sha256": "b6ee35dfde9c3e7235a77ed4fcff62b3bc3d6013c6e7e9bcc6caf0ce05387a51",
+      "bytes": 605190
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-large-D14.png",
+      "sha256": "60aebd5571c242747448844da9ca543d9660f1d418b0fcfdf447a86faf0edb1e",
+      "bytes": 720714
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-large-G17.png",
+      "sha256": "7bfa24ee13b600e901408c52afc0dd1940f8882b113ee14e1a92cd1900244300",
+      "bytes": 700303
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-large-H17.png",
+      "sha256": "9b3abfc1a80a2f21cb1e4792efbf96d31a49970f1c86cac91c811252221ac70e",
+      "bytes": 719391
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-large-J11.png",
+      "sha256": "a5456db646f20d3e2764c51bbedd59d3944acd7e41cf05c7975bc75efa3c3bce",
+      "bytes": 717628
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-large-S18.png",
+      "sha256": "01fe886dc8f7b9582756d1c6c38475e66edbb9f191abf376afea2443d2c300b5",
+      "bytes": 690178
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-large-U6.png",
+      "sha256": "54a6524ffe73fcbc9d3b0b3a43ca6ae22be22e2c846f761e434742ecc2070fb2",
+      "bytes": 716303
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Journal-seoul.png",
+      "sha256": "70bd6bfe2f688ebf9bf514d5e46da410ada5650ecca014269085955582e6cf98",
+      "bytes": 638566
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/NPC-and-checkin-G14.png",
+      "sha256": "eec3efe83ddd0b2392f4762424583b56b18a727618145ce084316a433a5ae445",
+      "bytes": 983881
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/NPC-and-checkin-S2.png",
+      "sha256": "05b18c789020be52a668a16dcfede44390765c758520d49f29f3fe00fb0c36e2",
+      "bytes": 971114
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Scenery-D0.png",
+      "sha256": "4a1d78cb42ef02310a42c99a4f1c68fcb98369bd0598fd8609acc1f41608ba6b",
+      "bytes": 740149
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Scenery-G14.png",
+      "sha256": "80a8b915aaf6f10029767240e119d5424fa0ca8b4e146b8545f86466d5f11150",
+      "bytes": 733511
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Scenery-H2.png",
+      "sha256": "f0de7431ae9f85c7e83ffb09cbd006173fddd3a93a69ff5ac178e7ed6bec9554",
+      "bytes": 751234
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Scenery-J11.png",
+      "sha256": "931caaf4dcbf3dfa3bb3829bd958933e44f9cfcc6de2b41a7ab5da7eb7f9b400",
+      "bytes": 717821
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Scenery-S18.png",
+      "sha256": "ede0d4f09984a56c1bfdd13c3bba519785ec8ea11f94d8d1dec758d2fa0f0862",
+      "bytes": 688483
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Scenery-S2.png",
+      "sha256": "6fe76c871de871fa8152f9aca125605892e01db42a8aefc94af6da9602b15cac",
+      "bytes": 708198
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/Scenery-U6.png",
+      "sha256": "ad91210850f3c6d7d0f4a7ebbc384937da2fd5bfbcedd82c8058a72e2a99cad2",
+      "bytes": 717215
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/X-WorldMap-select-da_lat.png",
+      "sha256": "64453ff95b0c3227e07dca6d3cc3df6942fe72dfd8c97e7487b796eca5b53962",
+      "bytes": 821851
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/X-WorldMap-select-gyeongju.png",
+      "sha256": "e4ec681d9fc909ffbe3842cd4c5e06443e870f496a5ac958c043abe6b3719a8f",
+      "bytes": 831499
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/X-WorldMap-select-hoi_an.png",
+      "sha256": "1294664584056363af572a1a2c16335bca9ba2da82a2a3394b04df52b16bcd25",
+      "bytes": 819206
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/X-WorldMap-select-hue.png",
+      "sha256": "75bb01367d27924dc012980bf522d704f833c6d8e98b9fb5560752109e58088d",
+      "bytes": 821038
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/X-WorldMap-select-jeonju.png",
+      "sha256": "def2f8503d3d061a07fc2ec15c309e9b1512c4989a3f34f7059528a2fbd0ea20",
+      "bytes": 822403
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/X-WorldMap-select-seoul.png",
+      "sha256": "e16be84d6a1e29cf09592603d25a7a498b3414ebfecdb4e85a9a5906b0604ff9",
+      "bytes": 830770
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/capture-manifest.txt",
+      "sha256": "8ec10e0fb41fb6dd079ed39b096a793cb679adb9594b64f5d4f4538a5ccee7eb",
+      "bytes": 3844
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/checkin-after-da_lat.json",
+      "sha256": "f2365cbe7062cb4fdf1f1be32be86bcc2f41784bfb1f41b6eeab004526d65f7a",
+      "bytes": 18487
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/checkin-after-gyeongju.json",
+      "sha256": "f66c2f4a24209e2276471341bfbe8b57070976fe4e693f627a44e111c6e89284",
+      "bytes": 18714
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/checkin-after-hoi_an.json",
+      "sha256": "913fa9b6d89fa8e7fd7b90ad839ddd8c3eba1677493f561d1c3bb7cbf0d01075",
+      "bytes": 18449
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/checkin-after-hue.json",
+      "sha256": "a23c0d674e60a96dfe99cc3be783819812e15c47ecb8c45ec99b74b0ec0b9e26",
+      "bytes": 18481
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/checkin-after-jeonju.json",
+      "sha256": "2d5547389929b580c0519cb821c21fac1e60a3b9072f09f02c4c41d60de63efa",
+      "bytes": 18475
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/checkin-after-seoul.json",
+      "sha256": "f5a415699223491c68657393cc5de2cd643f7a5cde08f2eff6c13e9e22943fee",
+      "bytes": 18956
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/checkin-journey-summary.txt",
+      "sha256": "221ab08d156c410eb2954754908c66996f91303115fe78e704da77bc915a5325",
+      "bytes": 155
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/gameplay-save.json",
+      "sha256": "f5a415699223491c68657393cc5de2cd643f7a5cde08f2eff6c13e9e22943fee",
+      "bytes": 18956
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/gameplay-save.json.bak",
+      "sha256": "f5a415699223491c68657393cc5de2cd643f7a5cde08f2eff6c13e9e22943fee",
+      "bytes": 18956
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/player.log",
+      "sha256": "e8fecb2ca5f483b0904c5bcf9c6b74f30a561b09e5c83dd43e5fe737d4732957",
+      "bytes": 903537
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Journey02/smoke-results.txt",
+      "sha256": "79acf328c97804292d2a3a8697c93ca90f2f5bb3b8a8ff408f3d9bc0263b203f",
+      "bytes": 27318
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Relay01/S18-relay-after-real-puzzle.png",
+      "sha256": "d4d6a3701030f85fe19ea0eb38118366c48ff7b190105ff496169a9fab95f4dd",
+      "bytes": 968913
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Relay01/X-WorldMap-select-seoul.png",
+      "sha256": "993d3c09028f290af8705dc57bf275168ac6a101fa4a833801e535569f478a70",
+      "bytes": 830608
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Relay01/capture-manifest.txt",
+      "sha256": "5d8a9b84df0e0738de820b7e90f79f2470793608ea6c80c5ffb0bb4ed5b4da9f",
+      "bytes": 599
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Relay01/checkin-relay-valid.json",
+      "sha256": "72b89b907609d12e19f1a85748fc0d7968a349a260a4a5871cc8b6a3203df809",
+      "bytes": 16250
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Relay01/gameplay-save.json",
+      "sha256": "72b89b907609d12e19f1a85748fc0d7968a349a260a4a5871cc8b6a3203df809",
+      "bytes": 16250
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Relay01/gameplay-save.json.bak",
+      "sha256": "72b89b907609d12e19f1a85748fc0d7968a349a260a4a5871cc8b6a3203df809",
+      "bytes": 16250
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Relay01/player.log",
+      "sha256": "10095bfca4fb07ae5da0fdfce7ccb7d7c9b29f8ad386321a26f53d68b0c0544b",
+      "bytes": 131885
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Relay01/puzzle-puzzle_relay_jeonju-retry.png",
+      "sha256": "b7da221aaea2548ba6b5c94860bfc0e23536c71924de8ce97fe6cf3316154ea9",
+      "bytes": 200748
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Relay01/puzzle-puzzle_relay_jeonju-solved.png",
+      "sha256": "2d2dde8a7aa4b18348a32fe9a69195cbe08e6e530d11d0835f5241785d52125e",
+      "bytes": 203804
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Relay01/smoke-results.txt",
+      "sha256": "92da9e8d76ddc33dca6f3d78a8f74935b81f84ac3353ed257404e59765c361a5",
+      "bytes": 2005
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/05-H3-exploration.png",
+      "sha256": "46f7f878540210b6c22c8513b7822d503b7b6c593c96d4e6543c3c4546785263",
+      "bytes": 858063
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/06-H3-part-picked-up.png",
+      "sha256": "b9e2ba665dc3d23a79ba6c256e20539ae071c8210850e37e400cfe9b04ddf97d",
+      "bytes": 866422
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Relic-H10-hook-collected.png",
+      "sha256": "53f2bcee919ccc9a0c778f4872fb1d6630b9a128c3b395dc34430bed29afbf8f",
+      "bytes": 608771
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Relic-H6-postcard-aligned.png",
+      "sha256": "0143411e6de5fd4b3453012ba2163cdbcc7e1058aaf49640be4f166e8cf8f27f",
+      "bytes": 810168
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Relic-after-full-city-same-view.png",
+      "sha256": "7b2c87bed3ab239fcc7131d8df946025816cdea102a03d8084170e36f3d21f59",
+      "bytes": 900734
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Relic-beam-valid-restoration.png",
+      "sha256": "d8f6efb1cc07c6100173e643a4ef23687d1c91263618ac6c843c7b384570006b",
+      "bytes": 499511
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Relic-before-full-city-H7-done.png",
+      "sha256": "7e4308cf435f64eca34a77c5d1fbf4d8dcb4cc2f4156610dd3f3b47594273209",
+      "bytes": 904847
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Relic-collection-six-icons.png",
+      "sha256": "d1d0e4a88fa5a4836c878964dbbc375b10337462e5a15a4946265c22f22f2263",
+      "bytes": 665125
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Relic-four-pieces-assembly.png",
+      "sha256": "292b0d5fce20e6bbdab80a1d8433283c4eea91505c0a36e1ed5535f8ff019c7d",
+      "bytes": 516435
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Relic-photo-album-revisit.png",
+      "sha256": "02b89f29a39483c15761dec25c97cf0878ea821a0fbcfb20637f28923775f33c",
+      "bytes": 724564
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Story-BaTu-old-quest-preserved.png",
+      "sha256": "ecf144a5f1999faed7542dacfafce6696c6408708495814d227bbc23c2356db8",
+      "bytes": 917720
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Story-H2-checkin-local.png",
+      "sha256": "cd702fad6b256f6b821e81c7880a31e08f2b9a29eb9e329054a067fa830158d2",
+      "bytes": 762648
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Story-H7-ready-before-ritual.png",
+      "sha256": "6d8776800ed56a4f04a785d7df9b9a207ae5c51c6b1697b3dde7220ccdab05f5",
+      "bytes": 801005
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Story-Mai-full-city-restored.png",
+      "sha256": "602911622d7532c66f24cdc49dcc6e8df6ac6571a9942f31629828e41e84414d",
+      "bytes": 797044
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Story-local-after-guidance.png",
+      "sha256": "ee19e6e41c279167df9f33ad77adddd272a1a7691c585ecb310e086d28fbe6ec",
+      "bytes": 885522
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/Story-local-before-baseline.png",
+      "sha256": "5cc695ef0656b1563c97671ab07d5bd9b228f70844a22f00d94d77f96f224e60",
+      "bytes": 882449
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/capture-manifest.txt",
+      "sha256": "908546dd3a883228827b2f6c67044cebf7c85f05635bdb5fa477e3abf01c4abc",
+      "bytes": 2349
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/gameplay-save.json",
+      "sha256": "20220be8abf3a4b7d7b456916af987252850806b0d78a9819715903cea3a7be7",
+      "bytes": 3438
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/gameplay-save.json.bak",
+      "sha256": "20220be8abf3a4b7d7b456916af987252850806b0d78a9819715903cea3a7be7",
+      "bytes": 3438
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/player.log",
+      "sha256": "8969db6a7de126c1df4e96a6d60ce8cf1eba5a5350d7880956f139440e1f0ae2",
+      "bytes": 472773
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/relic-pilot-final.json",
+      "sha256": "20220be8abf3a4b7d7b456916af987252850806b0d78a9819715903cea3a7be7",
+      "bytes": 3438
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/smoke-results.txt",
+      "sha256": "1d385fd10b044c1187f4dfc9e8bca0737cfcc0c18ef914811ea7584df1dda499",
+      "bytes": 13244
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/story-H7-ready.json",
+      "sha256": "0acb14638aa4a2a137bb9b137104009ff2853aeff3b329a094b8ad9f65457d12",
+      "bytes": 3132
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/story-local.json",
+      "sha256": "35601df3443b0148e2fc9a6343ffbd1204e172d75ab54853ecf8531e39447af3",
+      "bytes": 1810
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicRestart01/Story-restart-restored.png",
+      "sha256": "2e5deb89875b0582be837eb048f4ded97fb067e81b64321e46046f4c82e51e1d",
+      "bytes": 882646
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicRestart01/gameplay-save.json",
+      "sha256": "36db6d3039bc1b14a6b681b6f4b2df29955acd7944128569417cb493b18b0bbf",
+      "bytes": 3438
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicRestart01/gameplay-save.json.bak",
+      "sha256": "36db6d3039bc1b14a6b681b6f4b2df29955acd7944128569417cb493b18b0bbf",
+      "bytes": 3438
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicRestart01/player.log",
+      "sha256": "8f3e401d273d97d5cb5ab4cd08bf1107fa5b1c204f250b5b7a0ddb65837eb3ef",
+      "bytes": 97384
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicRestart01/restart-captures.txt",
+      "sha256": "634d3594582e0ce1b50db2beb32ab360645d4cab58261dfb781dfd22792e9476",
+      "bytes": 143
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RelicRestart01/restart-results.txt",
+      "sha256": "dc695ce42815318b9aaeb6c62177bfd100ceba6fd035ee3f90e5157f342893e3",
+      "bytes": 945
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-da_lat/Postcard-D0.png",
+      "sha256": "4ad16c7cd00956a461115345d2f29e8feb07d356fed18f43d5f93bb30f535fd6",
+      "bytes": 746775
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-da_lat/Postcard-D14.png",
+      "sha256": "69d2e426dfa2b159a4174bc5ab3909535388f513bb321d88ea455cee793f26c7",
+      "bytes": 731980
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-da_lat/Restart-album-da_lat.png",
+      "sha256": "d14c943e18ca5d9fdfb60a1732d725fb645e1afa8bc1af854d5d399d073faab9",
+      "bytes": 603380
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-da_lat/X-WorldMap-select-da_lat.png",
+      "sha256": "542e5025eceaa1d02d84116fccd29d4e016505ec49f3a04a9d205bd8d1149238",
+      "bytes": 822295
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-da_lat/gameplay-save.json",
+      "sha256": "e8ed9cc3ad056af92ab3ff58629c244f5d9aa56440344a79fff2ae72076e81a1",
+      "bytes": 18487
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-da_lat/gameplay-save.json.bak",
+      "sha256": "e8ed9cc3ad056af92ab3ff58629c244f5d9aa56440344a79fff2ae72076e81a1",
+      "bytes": 18487
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-da_lat/player.log",
+      "sha256": "d686a6d193ac29078bafd3e7516083bb853a057972f65ffd4adc7dc6459e06a6",
+      "bytes": 104519
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-da_lat/restart-captures.txt",
+      "sha256": "eb589a49a191192c0cb83d4581bb011ab30718bbc38a690107151b367c39a814",
+      "bytes": 551
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-da_lat/restart-results.txt",
+      "sha256": "ddabd0fcafd7de70dc46cf730e8d43150d2bee1720623b5df21e88c9e8b628f2",
+      "bytes": 1442
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-gyeongju/Postcard-G14.png",
+      "sha256": "ee68e9ae27fb0acb4601d13a3ff23ab803e2267df1c9b2d0cae2ceeeb796ce96",
+      "bytes": 734715
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-gyeongju/Postcard-G17.png",
+      "sha256": "6fcf3e21a8f41a3a6688cd364e5380cd1361eb1463efc023ab36913bc7557998",
+      "bytes": 697113
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-gyeongju/Postcard-G4.png",
+      "sha256": "4afa7c584f47c505bafe6a7c6c606d82fbe5a4749581dc4f95dc383d1719f87f",
+      "bytes": 745450
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-gyeongju/Restart-album-gyeongju.png",
+      "sha256": "0fff69efdb881da4a97fdef17f644eb0989e35706b3f92961cb3fb4ad771d5fd",
+      "bytes": 640144
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-gyeongju/X-WorldMap-select-gyeongju.png",
+      "sha256": "effec281b54235128f9491e5ace343887de895e446fa493c4c73fd0f9ea20093",
+      "bytes": 830847
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-gyeongju/gameplay-save.json",
+      "sha256": "017b39e85058993eef38146bccdbabd0db771e21d51c663dd961eaaf9fb37344",
+      "bytes": 18715
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-gyeongju/gameplay-save.json.bak",
+      "sha256": "017b39e85058993eef38146bccdbabd0db771e21d51c663dd961eaaf9fb37344",
+      "bytes": 18715
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-gyeongju/player.log",
+      "sha256": "156cd46fc2f77637b53c86f840cfdb0ff5abd45eae231ca84b773ebc0f8f785c",
+      "bytes": 112311
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-gyeongju/restart-captures.txt",
+      "sha256": "b804d5dfd38ad824024209b190428d002292bab6741c24061cd2b1844ee53833",
+      "bytes": 688
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-gyeongju/restart-results.txt",
+      "sha256": "dc9e323479fef00191d260b0855578102fbb3ea931347356625fc309253fa47b",
+      "bytes": 1904
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/Postcard-H17.png",
+      "sha256": "cc10fdcb25afcf6ab8704c859e2823add7dda3e7fe5daa1081b49592a6a85455",
+      "bytes": 703843
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/Postcard-H2.png",
+      "sha256": "3f6e0709d8959d8cf8e211122a991f01bb51f89f8a43b09bfce8e349da419d5a",
+      "bytes": 752468
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/Postcard-H3.png",
+      "sha256": "3ff3687984b495c4da4ea156d983e0096b594702088d78359c064d2fcdf1a8dd",
+      "bytes": 721161
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/Postcard-H4.png",
+      "sha256": "58e445623726961a186fb0618b49383c2a3af437f92c946a43a2ebc4f3cb9659",
+      "bytes": 743314
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/Postcard-H6.png",
+      "sha256": "a6006ebab6ad94287331fec555d5d6ad05118ba291b294e8eba10e33c1c2527c",
+      "bytes": 727172
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/Postcard-H7.png",
+      "sha256": "1651d82366701d7cca9e3d67a1bceda3a00b1093eca465f823aa9fc82eedab3c",
+      "bytes": 721121
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/Restart-album-hoi_an.png",
+      "sha256": "076ecced03ee47eb1d575051b1146890696c177ab987f7c7379f21f30ddd7d05",
+      "bytes": 681218
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/X-WorldMap-select-hoi_an.png",
+      "sha256": "61deb08c32eb00a7750ce0482f17136e6dd01fc8bf79a0b3125372730aa5cc09",
+      "bytes": 819624
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/gameplay-save.json",
+      "sha256": "578232b7c2ffa7a9f443906dc76f4119d581d873445a67aecd4983b12800d349",
+      "bytes": 18450
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/gameplay-save.json.bak",
+      "sha256": "578232b7c2ffa7a9f443906dc76f4119d581d873445a67aecd4983b12800d349",
+      "bytes": 18450
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/player.log",
+      "sha256": "071909877f8920e710a9a3d7aa090f825893ee74ab01f6bc87626fc5f6ed3ba2",
+      "bytes": 135280
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/restart-captures.txt",
+      "sha256": "063a858586f2d9f30ee11d44c492d6ec413050c353ac169d8868fcb87e34d11f",
+      "bytes": 1079
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/restart-results.txt",
+      "sha256": "9fcc3bdba04af2a2ca1342fb88c856f7514cf3c06e8b5b902dd8b772d7f1755d",
+      "bytes": 2886
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hue/Postcard-U4.png",
+      "sha256": "3b103bf777b3c7ee4f5c813ab5a7ceb3b4925403f1d2ae41eba9492dc211144a",
+      "bytes": 727369
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hue/Postcard-U6.png",
+      "sha256": "78bd9081fd3516d1ee0a7b0838ef7cc51347c803939d059138f238d0de225cbc",
+      "bytes": 732214
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hue/Restart-album-hue.png",
+      "sha256": "09257f55fa4bc32dd4ebe3606532078428f851217644e7dcb1eca38bad9c1c4e",
+      "bytes": 606594
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hue/X-WorldMap-select-hue.png",
+      "sha256": "c85720a1f0df371f26e152d4f557652b4a7cd24f72b8aabfdc92a0bd4b3762ec",
+      "bytes": 821501
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hue/gameplay-save.json",
+      "sha256": "b1a4d201c8f3b17a220059cb264e83e645b7a2239e8be61eca5fb77f42fde5f5",
+      "bytes": 18481
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hue/gameplay-save.json.bak",
+      "sha256": "b1a4d201c8f3b17a220059cb264e83e645b7a2239e8be61eca5fb77f42fde5f5",
+      "bytes": 18481
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hue/player.log",
+      "sha256": "c3dcda66284b5892204d54343e1ae74b1e11fdae64bad8474891ecf439d67faa",
+      "bytes": 104490
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hue/restart-captures.txt",
+      "sha256": "76f0c7c0d512103ad8a0eaf7ed09d75a584204ce13e05c25fdc635523af6f6ee",
+      "bytes": 544
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-hue/restart-results.txt",
+      "sha256": "d00f8e35092cfa9fea2b444a85a9ed6c47ad8e2ee396cedf1f7c8aa9885611a2",
+      "bytes": 1411
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-jeonju/Postcard-J11.png",
+      "sha256": "aaf8b89dcbffbac832aa30c194d860ce71f4c664e47add823b645edd883580ad",
+      "bytes": 731138
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-jeonju/Postcard-J8.png",
+      "sha256": "56aa627732e3dad893b018c014754c2693b87365677e6c4fcf4d29b3046d2368",
+      "bytes": 768583
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-jeonju/Restart-album-jeonju.png",
+      "sha256": "7a11dfa0d32fdd6af015e71e132c17e1f8993c21ce30b49bc9ecbfef67ecca37",
+      "bytes": 608729
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-jeonju/X-WorldMap-select-jeonju.png",
+      "sha256": "cb35ca674348a720723d148172a00c088b0566b781d2048a1e04da5edabd75d9",
+      "bytes": 822357
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-jeonju/gameplay-save.json",
+      "sha256": "c8b7a3384ef31d698c881da4fea36e93f5dc4724f6c140e994602153fb604d59",
+      "bytes": 18475
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-jeonju/gameplay-save.json.bak",
+      "sha256": "c8b7a3384ef31d698c881da4fea36e93f5dc4724f6c140e994602153fb604d59",
+      "bytes": 18475
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-jeonju/player.log",
+      "sha256": "dfa1a73d6629adc0a675f7f80f568ccc7d7fe9dbf7eb8454e6eccd95498bf905",
+      "bytes": 104539
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-jeonju/restart-captures.txt",
+      "sha256": "13eeb578d6ca292ec96d79d4c41e154ad9fbf0685b2cf997c7d550d5102cca36",
+      "bytes": 551
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-jeonju/restart-results.txt",
+      "sha256": "2abbbd80087aa741880d4be6ecee1f4c990c90d980f830d006b3da9d494be3b9",
+      "bytes": 1458
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-seoul/Postcard-S10.png",
+      "sha256": "999d58f297ab18007dc0d6a9e51909b1446330b1dfc18a9635abf72f3726e436",
+      "bytes": 721045
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-seoul/Postcard-S18.png",
+      "sha256": "d28166a01a893419233cae707a804d08eef5029f18b22e48aee429e876858c03",
+      "bytes": 696308
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-seoul/Postcard-S2.png",
+      "sha256": "7d4f3c991e6b70fe60f0af458b1fbd4312385acabccd285e0268c2fe126ee5b8",
+      "bytes": 715121
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-seoul/Restart-album-seoul.png",
+      "sha256": "e817f265008140eecd64cc851aa0abee0a3355f07450583720ef8cdc9633ff5c",
+      "bytes": 641228
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-seoul/X-WorldMap-select-seoul.png",
+      "sha256": "6d32fd5c0645b1c92e8bb662092a6177a033630940f1f0646aea402a81acf375",
+      "bytes": 830680
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-seoul/gameplay-save.json",
+      "sha256": "36e52cdb8f3762da27c0627325a47fe27123bb7d59f90275e20ca56ac51de2ec",
+      "bytes": 18957
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-seoul/gameplay-save.json.bak",
+      "sha256": "36e52cdb8f3762da27c0627325a47fe27123bb7d59f90275e20ca56ac51de2ec",
+      "bytes": 18957
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-seoul/player.log",
+      "sha256": "ef330db5bb84e61001e170bc5cb3bfedea2918eee54bc1e2bacfab46c42318db",
+      "bytes": 112259
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-seoul/restart-captures.txt",
+      "sha256": "5a59bbbcae86cd9d9afc12919fee98f68b9b6a711285a34ad7d1c87b180220df",
+      "bytes": 682
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/Restart-seoul/restart-results.txt",
+      "sha256": "565e2b12c72e22bbb163e93dcc7597bc474152b064a6a19bf2bcc2ef287ece6f",
+      "bytes": 1850
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/Postcard-H17.png",
+      "sha256": "cc10fdcb25afcf6ab8704c859e2823add7dda3e7fe5daa1081b49592a6a85455",
+      "bytes": 703843
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/Postcard-H2.png",
+      "sha256": "3f6e0709d8959d8cf8e211122a991f01bb51f89f8a43b09bfce8e349da419d5a",
+      "bytes": 752468
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/Postcard-H3.png",
+      "sha256": "3ff3687984b495c4da4ea156d983e0096b594702088d78359c064d2fcdf1a8dd",
+      "bytes": 721161
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/Postcard-H4.png",
+      "sha256": "58e445623726961a186fb0618b49383c2a3af437f92c946a43a2ebc4f3cb9659",
+      "bytes": 743314
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/Postcard-H6.png",
+      "sha256": "f115a311e0cdbf8f684e53270acdb01b2db5ae552a641d77a54a39542dcc003d",
+      "bytes": 727398
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/Postcard-H7.png",
+      "sha256": "1651d82366701d7cca9e3d67a1bceda3a00b1093eca465f823aa9fc82eedab3c",
+      "bytes": 721121
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/Restart-album-hoi_an.png",
+      "sha256": "076ecced03ee47eb1d575051b1146890696c177ab987f7c7379f21f30ddd7d05",
+      "bytes": 681218
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/X-WorldMap-select-hoi_an.png",
+      "sha256": "61deb08c32eb00a7750ce0482f17136e6dd01fc8bf79a0b3125372730aa5cc09",
+      "bytes": 819624
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/gameplay-save.json",
+      "sha256": "578232b7c2ffa7a9f443906dc76f4119d581d873445a67aecd4983b12800d349",
+      "bytes": 18450
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/gameplay-save.json.bak",
+      "sha256": "578232b7c2ffa7a9f443906dc76f4119d581d873445a67aecd4983b12800d349",
+      "bytes": 18450
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/player.log",
+      "sha256": "9726242dda60805ea5d4cd4759b9233484f219c7d3f68d9459c16074b566f592",
+      "bytes": 135281
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/restart-captures.txt",
+      "sha256": "e712d03a55e5029a35d217506fcfd14d97c1e3018a6d0eb359b9a90a304425fc",
+      "bytes": 1079
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/restart-results.txt",
+      "sha256": "772b6a68e5bb870ba969d5a1b692d6638f79b32b83d04fcd79fd5a858becde18",
+      "bytes": 2886
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-seoul/Postcard-S10.png",
+      "sha256": "999d58f297ab18007dc0d6a9e51909b1446330b1dfc18a9635abf72f3726e436",
+      "bytes": 721045
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-seoul/Postcard-S18.png",
+      "sha256": "ff6d9ceeda30e2c1e211c8a44c461ad38d3b8a4721e84851ad8e314a12a934f0",
+      "bytes": 697169
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-seoul/Postcard-S2.png",
+      "sha256": "7d4f3c991e6b70fe60f0af458b1fbd4312385acabccd285e0268c2fe126ee5b8",
+      "bytes": 715121
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-seoul/Restart-album-seoul.png",
+      "sha256": "e817f265008140eecd64cc851aa0abee0a3355f07450583720ef8cdc9633ff5c",
+      "bytes": 641228
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-seoul/X-WorldMap-select-seoul.png",
+      "sha256": "6d32fd5c0645b1c92e8bb662092a6177a033630940f1f0646aea402a81acf375",
+      "bytes": 830680
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-seoul/gameplay-save.json",
+      "sha256": "36e52cdb8f3762da27c0627325a47fe27123bb7d59f90275e20ca56ac51de2ec",
+      "bytes": 18957
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-seoul/gameplay-save.json.bak",
+      "sha256": "36e52cdb8f3762da27c0627325a47fe27123bb7d59f90275e20ca56ac51de2ec",
+      "bytes": 18957
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-seoul/player.log",
+      "sha256": "a80328a02294477193b71689f720e2b3d08f91a38a384233aa308f00582fe558",
+      "bytes": 112258
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-seoul/restart-captures.txt",
+      "sha256": "2908fc09a2f2f48f1921c715e1708e18326fa8402e09e4d770cf25b5eb7e93dd",
+      "bytes": 682
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/RestartFinal-seoul/restart-results.txt",
+      "sha256": "84c69be21cc45db47c607f645d962916f5889b11a23b334343709207698f8dd2",
+      "bytes": 1850
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/UnityAutoSettings/ProjectSettings-auto-build05.asset",
+      "sha256": "22b21b8cefee6234d497bb5ae71493f8f99065b0771a21299f554f85879e447f",
+      "bytes": 21436
+    },
+    {
+      "path": "Validation/CheckInArt-20261018/UnityAutoSettings/ProjectSettings-auto.asset",
+      "sha256": "22b21b8cefee6234d497bb5ae71493f8f99065b0771a21299f554f85879e447f",
+      "bytes": 21436
+    },
+    {
+      "path": "_CheckIn_Import_20261018/README_IMPORT.txt",
+      "sha256": "3a1ce8b84f292033244df033a34297904b99655ea33a71df760341d2f4849d9d",
+      "bytes": 1377
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/01_hoi_an_H2_tiem_den_co_mai.png",
+      "sha256": "b070bc4994b039183eda1b9c006fde633fd5ec8e678b28449f628d8a4dd37aae",
+      "bytes": 586009
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/02_hoi_an_H3_hem_mai_ngoi.png",
+      "sha256": "025cd8a5a1079e3ca59ea6ec31b25cef01b8941b3dea8173bf7ea7a655c4b9d0",
+      "bytes": 587275
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/03_hoi_an_H4_cho_ven_song.png",
+      "sha256": "278ef277d61aea303fa820829fb9b909ef7481b71c68a422205a8348807ed13e",
+      "bytes": 582488
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/04_hoi_an_H6_cau_co_anh_den.png",
+      "sha256": "c41e78eca2b5876bc1a567149f5b35cc2bb873541786ddd95b37bf3fcfce5dc9",
+      "bytes": 558364
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/05_hoi_an_H7_tram_anh_sang_hoi_an.png",
+      "sha256": "e814798df49777c7e1d78ba49ad953ca855eb5ea984d234a6aa8efc6befcb547",
+      "bytes": 552461
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/06_hoi_an_H17_ben_do_pho_co.png",
+      "sha256": "0ee13e3da56c09fcee0280f710eb8f94ec17f5deadb8ee87503b80b6e6e631ca",
+      "bytes": 552527
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/07_hue_U4_dau_cau_vao_thanh.png",
+      "sha256": "2aaca7fd796222a6d8ae48067a15529582ccfc5c926f6d9bdcfaa6829bb2c357",
+      "bytes": 530890
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/08_hue_U6_cua_ngo_mon_cach_dieu.png",
+      "sha256": "399fbb90df25c8c6cc6a9a919dcadd26c02b14cff7a2cbecbe0dc4857f106b66",
+      "bytes": 538051
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/09_da_lat_D0_ben_ho_xuan_huong.png",
+      "sha256": "e8adc7c0d3f346a919b034cbaa0545c35472cbdbbf0b66bcd9a9ab499c8730c7",
+      "bytes": 569521
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/10_da_lat_D14_dai_dan_sang_nui.png",
+      "sha256": "2a83e5aabc3e6b3faba7a35ed9b512236d86f6cbf90963bcb60c1786b37ef3f5",
+      "bytes": 548689
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/11_jeonju_J8_cau_da_tay.png",
+      "sha256": "5d7a6675bf03fc54042a79d31885fc621d7696b67535842a5d1eb5732796798b",
+      "bytes": 580741
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/12_jeonju_J11_dai_ngam_mai_ngoi.png",
+      "sha256": "da53ba9b7329ad7f20bdf819f71f9c2b0414653c798540c9b78773855a08d67c",
+      "bytes": 542563
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png",
+      "sha256": "a287eee57e4ec1518cf985004bf12ef95231a42bb7905bc1a553b5bb12b0b0bb",
+      "bytes": 612069
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/14_gyeongju_G14_kho_ban_khac_di_tich.png",
+      "sha256": "c541d5304d0d6118427c9c15f6f070e8a524ca4a63f508a57260be853a8b5d40",
+      "bytes": 602459
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/15_gyeongju_G17_dai_long_den_bo_tay.png",
+      "sha256": "2ec0d0261926fd4ab39ae6b9ce2874d9f6c840269f14f041ee0d2cf84c2c0b53",
+      "bytes": 548036
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/16_seoul_S2_cong_thanh_xua_ben_song_han.png",
+      "sha256": "0f2c15f333e93f238c4e1615fa8b31c0bd4474dc61b9839b0b708d91143b5ac4",
+      "bytes": 561074
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/17_seoul_S10_chan_thap_n_seoul.png",
+      "sha256": "adb6fb3c6ec8e6203cfa70cd422e42116455f010b6923d23fef33d0efedc1f7e",
+      "bytes": 568379
+    },
+    {
+      "path": "_CheckIn_Import_20261018/images/18_seoul_S18_role_anh_den_hanji.png",
+      "sha256": "dd1bb598e8395659b5ee4b6da282012fb72f71ac785708838510cdeeca1dfd31",
+      "bytes": 523742
+    },
+    {
+      "path": "_CheckIn_Import_20261018/manifest.csv",
+      "sha256": "c4786ce5fc1edbbca3bcf75e1473a3065fa3f0f92f8ae0edecf6f1c9ba7b1276",
+      "bytes": 1528
+    }
+  ],
+  "note": "Includes task evidence,18 original source PNGs and18 runtime derived assets. New indexes are hashed by checkpoint manifest. QA staged derived copies excluded; regenerate from included originals if rerunning import. No deletion of historical data.",
+  "deletedPaths": []
+}

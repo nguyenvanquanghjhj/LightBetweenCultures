@@ -1,0 +1,9 @@
+UTC run: 2026-10-21T00:51:45.9758645Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Real restart contains no leisure panel or animation/input lock
+PASS: Real restart preserves rewards, quest, relic and optional history
+ALL CHECKS PASSED

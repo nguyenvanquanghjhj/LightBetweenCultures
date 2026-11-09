@@ -1,0 +1,64 @@
+{
+  "type": "INCREMENTAL_REQUIRES_BASE",
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointRelicHoiAnPilot-20261018",
+  "baseManifestSHA256": "6073acb6c2905ebf1dc182f1875e5ebe42bec3d4d0923eb39013171760423b0e",
+  "entries": [
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicCollection.cs",
+      "sha256": "40fd0fb306b426824eea5305919dc2b6afae3e26c7bd39373d3b8b5d7a088d83",
+      "bytes": 8930
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "sha256": "406fc342da75f771bfd8a70d52bce6aaaf69b74e87f3c79c5b347ceceba8f0c8",
+      "bytes": 29254
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "sha256": "4a344c272d775eb89b7116494546eeb55d50fd989b5a7346871a355645a19423",
+      "bytes": 36196
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+      "sha256": "3329c9306079996acbca708ecc2802ddedd2aa59c0fc1f1cd2df2cb03a763754",
+      "bytes": 14490
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CulturalRelics.json",
+      "sha256": "2d06ed91e0b63ad1e792e5cd8247ea10a9157fb29a1e89fe0b7557e56b9f3a12",
+      "bytes": 13243
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "sha256": "e8902cf19476131a2c50e120b3f0f375dbf6f811d0d7bf37930829d8cc36bdad",
+      "bytes": 109871
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Relics.cs",
+      "sha256": "3e2738277a20cf3768c8b263374d942f9cde45a1e30275a9302a18f18e40bd40",
+      "bytes": 16459
+    },
+    {
+      "path": "Docs/Story/FULL_STORY_PLAYTEST.md",
+      "sha256": "4d85d80cde15b8d3ab1477c7dbb61243b6a93d9be57221ba14e0d3edf10b7ce6",
+      "bytes": 57054
+    },
+    {
+      "path": "Docs/Story/HOI_AN_LIGHT_RESTORATION_CONTINUITY.md",
+      "sha256": "10599081b02020ebcd9ab8613f05236436a7d4b6007eea7eb083412f042f757f",
+      "bytes": 8361
+    },
+    {
+      "path": "Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md",
+      "sha256": "7bd5958e335d674437d3899cef79c5b5b6a7edc600a5c8ea3f930272d0b41676",
+      "bytes": 3327
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "sha256": "57a9ffa941a88211f17c1f314234502801b38c1799b90e9a8e0fb56a8c52cee0",
+      "bytes": 516415
+    }
+  ],
+  "deletedPaths": [],
+  "totalBytes": 813600
+}

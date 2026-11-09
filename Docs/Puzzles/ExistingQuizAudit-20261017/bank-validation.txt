@@ -1,0 +1,2 @@
+PASS: 150 câu, 15 chủ đề, đáp án ổn định sau 10 lần shuffle mỗi câu; không ID/choice trùng.
+Difficulty: {1: 37, 2: 82, 3: 31}

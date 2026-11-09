@@ -1,0 +1,62 @@
+{
+  "changedExistingFiles": [
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Resources/DesignKitArt.asset",
+    "Assets/_Game/Scenes/HoiAnDemo.unity",
+    "Assets/_Game/Prefabs/DesignKit/LumiExplorationSprite.prefab",
+    "Assets/_Game/Prefabs/DesignKit/LumiMapToken.prefab",
+    "Assets/_Game/Scripts/Editor/LumiRoleSetup.cs",
+    "Assets/_Game/Scripts/UI/DesignKitArt.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.LeisurePilots.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.LeisurePilot.cs",
+    "Assets/_Game/Scripts/Validation/SliceSmokeRunner.cs"
+  ],
+  "protectedFilesUnchanged": 859,
+  "canonicalLumi": {
+    "path": "Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png",
+    "guid": "9a7d3aad847598b419b6b01ab212a053",
+    "localId": "-1754387159",
+    "roles": 5
+  },
+  "npcBindings": [
+    {
+      "role": "npc",
+      "id": "npc_hana",
+      "path": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_hana.png",
+      "guid": "2683b36a1f2e0f24aa056fc4a46ab1d8",
+      "localId": "-3786701452203122310",
+      "spriteName": "npc_hana_Owner20261021",
+      "source": "Validation/NpcAppearance-20261021/NEW03-hana-cutout-master.png",
+      "status": "OWNER_DESIGN_REPLACEMENT_20261021; transparent cutout; Windows visual review",
+      "canonical": true
+    },
+    {
+      "role": "npc",
+      "id": "npc_nguyet",
+      "path": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_nguyet.png",
+      "guid": "90853a883999d1a4090495dd15aa99d0",
+      "localId": "4180976369657288829",
+      "spriteName": "npc_nguyet_Owner20261021",
+      "source": "Validation/NpcAppearance-20261021/NEW01-nguyet-cutout-master.png",
+      "status": "OWNER_DESIGN_REPLACEMENT_20261021; transparent cutout; Windows visual review",
+      "canonical": true
+    },
+    {
+      "role": "npc",
+      "id": "npc_elder",
+      "path": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_elder.png",
+      "guid": "3056bc602bbb42945ba0edc767f09275",
+      "localId": "5509288358854237611",
+      "spriteName": "npc_elder_Owner20261021",
+      "source": "Validation/NpcAppearance-20261021/NEW02-elder-cutout-master.png",
+      "status": "OWNER_DESIGN_REPLACEMENT_20261021; transparent cutout; Windows visual review",
+      "canonical": true
+    }
+  ],
+  "allOtherArtRegistryFieldsUnchanged": true,
+  "originalArtworkBytesUnchanged": true,
+  "gameplayDataAndSourceUnchanged": true,
+  "android": "NOT_BUILT_THIS_ART_REVISION"
+}

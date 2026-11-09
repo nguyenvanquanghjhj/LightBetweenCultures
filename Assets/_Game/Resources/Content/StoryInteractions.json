@@ -1,0 +1,328 @@
+{
+  "entries": [
+    {
+      "id": "puzzle_paper",
+      "kind": "STORY_MINIGAME",
+      "enabled": true,
+      "title": "Hoa văn vào khuôn",
+      "scene": "paper",
+      "itemIds": [
+        "fragment_hoi_an_old_flower_paper"
+      ],
+      "targetTurns": [
+        1
+      ],
+      "dialTargets": [],
+      "inspectCount": 0,
+      "gesture": "hold",
+      "actionLabel": "Bắt đầu · Hoa văn vào khuôn",
+      "successText": "Lõi Giấy Sáng đã thành hình. Hãy xử lý bot giữ đường rồi trở lại trạm ánh sáng.",
+      "introText": "Đưa giấy hoa vào khuôn, xoay theo bóng mẫu rồi giữ để in lõi giấy."
+    },
+    {
+      "id": "puzzle_market_code",
+      "kind": "STORY_MINIGAME",
+      "enabled": true,
+      "title": "In dấu qua sông",
+      "scene": "permit",
+      "itemIds": [
+        "fragment_hoi_an_old_flower_paper",
+        "fragment_hoi_an_old_flower_paper"
+      ],
+      "targetTurns": [
+        0,
+        0
+      ],
+      "dialTargets": [],
+      "inspectCount": 2,
+      "gesture": "hold",
+      "actionLabel": "Bắt đầu · In dấu qua sông",
+      "successText": "Thẻ qua sông đã in xong. Trở lại bến gặp bác Tâm để trình thẻ.",
+      "introText": "Quan sát hai nét trên vải. Đặt hai con dấu khớp mẫu trên thẻ rồi giữ in dấu."
+    },
+    {
+      "id": "puzzle_archive",
+      "kind": "STORY_MINIGAME",
+      "enabled": true,
+      "title": "Nối lại bức thư",
+      "scene": "letter",
+      "itemIds": [
+        "lost_letter",
+        "lost_letter",
+        "lost_letter"
+      ],
+      "targetTurns": [
+        0,
+        0,
+        0
+      ],
+      "dialTargets": [],
+      "inspectCount": 0,
+      "gesture": "reveal",
+      "actionLabel": "Bắt đầu · Nối lại bức thư",
+      "successText": "Nét mực hiện lại: nhịp khắc xưa nối những miền di sản. Có thể đối chiếu tại sân điện và bộ chữ sao.",
+      "introText": "Ghép ba mép thư, sau đó lướt thanh sáng để hiện lớp mực đã phai."
+    },
+    {
+      "id": "puzzle_mist",
+      "kind": "STORY_MINIGAME",
+      "enabled": true,
+      "title": "Dẫn tia qua sương",
+      "scene": "mist",
+      "itemIds": [],
+      "targetTurns": [],
+      "dialTargets": [
+        1,
+        3,
+        1
+      ],
+      "inspectCount": 0,
+      "gesture": "",
+      "actionLabel": "Bắt đầu · Dẫn tia qua sương",
+      "successText": "Ba tia sáng gặp nhau trong sương. Trở lại người dẫn đường rồi tiếp tục đến trạm tín hiệu.",
+      "introText": "Xoay ba trụ phản quang theo hướng nét vàng để dẫn ánh sáng qua sương."
+    },
+    {
+      "id": "puzzle_hanji",
+      "kind": "STORY_MINIGAME",
+      "enabled": true,
+      "title": "Nếp gấp Hanji",
+      "scene": "fold",
+      "itemIds": [
+        "hanji_pattern_1"
+      ],
+      "targetTurns": [
+        2
+      ],
+      "dialTargets": [],
+      "inspectCount": 0,
+      "gesture": "fold",
+      "actionLabel": "Bắt đầu · Nếp gấp Hanji",
+      "successText": "Nếp giấy đã giữ được nét hoa đầu tiên. Hãy tìm những hoa văn còn lại trong làng.",
+      "introText": "Đặt giấy vào hình mờ, căn hướng rồi lướt theo vạch để gấp Hanji."
+    },
+    {
+      "id": "puzzle_embroidery",
+      "kind": "STORY_MINIGAME",
+      "enabled": true,
+      "title": "Ghép hoa văn song thành",
+      "scene": "motifs",
+      "itemIds": [
+        "hanji_pattern_1",
+        "hanji_pattern_2",
+        "hanji_pattern_3",
+        "lamp_eye"
+      ],
+      "targetTurns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "dialTargets": [],
+      "inspectCount": 0,
+      "gesture": "",
+      "actionLabel": "Bắt đầu · Ghép hoa văn song thành",
+      "successText": "Ba mẫu và tâm sáng đã nối thành Mạch Hanji. Có thể thắp đèn song thành và trình kết quả.",
+      "introText": "Ghép ba hoa văn đã tìm thấy và tâm sáng vào bốn ô tương ứng."
+    },
+    {
+      "id": "puzzle_observatory",
+      "kind": "STORY_MINIGAME",
+      "enabled": true,
+      "title": "Căn vòng thiên văn",
+      "scene": "observatory",
+      "itemIds": [
+        "star_symbol_1",
+        "star_symbol_2",
+        "star_symbol_3"
+      ],
+      "targetTurns": [
+        0,
+        0,
+        0
+      ],
+      "dialTargets": [
+        2
+      ],
+      "inspectCount": 0,
+      "gesture": "",
+      "actionLabel": "Bắt đầu · Căn vòng thiên văn",
+      "successText": "Ba dấu sao đã thống nhịp, thấu kính được trao lại cho Lumi. Xác nhận với người giao nhiệm vụ.",
+      "introText": "Đặt ba dấu sao vào đài quan sát rồi căn vòng trời theo hướng mẫu."
+    },
+    {
+      "id": "puzzle_cracked_seal",
+      "kind": "STORY_MINIGAME",
+      "enabled": true,
+      "title": "Đối chiếu ấn tín",
+      "scene": "seal",
+      "itemIds": [
+        "ancient_seal"
+      ],
+      "targetTurns": [
+        1
+      ],
+      "dialTargets": [],
+      "inspectCount": 0,
+      "gesture": "",
+      "actionLabel": "Bắt đầu · Đối chiếu ấn tín",
+      "successText": "Ấn tín và văn khắc trùng nhau. Đã có căn cứ để sửa tượng; lựa chọn giao chiến vẫn giữ nguyên.",
+      "introText": "Đặt ấn tín vào văn khắc trên đá rồi xoay khớp nét mờ."
+    },
+    {
+      "id": "puzzle_tower",
+      "kind": "STORY_MINIGAME",
+      "enabled": true,
+      "title": "Hội tụ ánh sáng",
+      "scene": "tower",
+      "itemIds": [
+        "stargazer_lens"
+      ],
+      "targetTurns": [
+        0
+      ],
+      "dialTargets": [
+        1,
+        2,
+        3
+      ],
+      "inspectCount": 0,
+      "gesture": "",
+      "actionLabel": "Bắt đầu · Hội tụ ánh sáng",
+      "successText": "Thấu kính hội tụ đúng tia. Dấu sao trên tháp đã rõ; có thể tiếp tục thu thập tại địa điểm này.",
+      "introText": "Lắp thấu kính, xoay ba tia theo hướng mẫu để hội tụ ánh sáng."
+    },
+    {
+      "id": "puzzle_relay_jeonju",
+      "kind": "STORY_MINIGAME",
+      "enabled": true,
+      "title": "Nối mạch Hanji",
+      "scene": "circuit",
+      "itemIds": [
+        "hanji_circuit",
+        "hanji_circuit",
+        "hanji_circuit"
+      ],
+      "targetTurns": [
+        0,
+        0,
+        0
+      ],
+      "dialTargets": [],
+      "inspectCount": 0,
+      "gesture": "",
+      "actionLabel": "Bắt đầu · Nối mạch Hanji",
+      "successText": "Mạch Hanji đã nối rơle C. Hai rơle còn lại cần tín hiệu riêng; hãy kiểm tra nhật ký.",
+      "introText": "Đặt ba đoạn dẫn Hanji khớp những khe mạch để nối rơle."
+    },
+    {
+      "id": "puzzle_market",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Quan sát mẫu hoa văn",
+      "successText": "Lumi ghi lại nét hoa từ sạp chợ. Mẫu này có thể dùng để in lõi giấy sáng.",
+      "itemIds": [],
+      "introText": "Lumi có thể quan sát mẫu hoa văn. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    },
+    {
+      "id": "puzzle_pottery",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Đọc dấu gốm",
+      "successText": "Nét gốm lưu mã vô hiệu hóa. Lumi vẫn có thể chọn giao chiến hoặc dùng mã khi gặp bot.",
+      "itemIds": [],
+      "introText": "Lumi có thể đọc dấu gốm. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    },
+    {
+      "id": "puzzle_court",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Xác nhận bản ghi sân điện",
+      "successText": "Bản ghi thư khố khớp với bóng sân điện. Dấu ấn di sản đã được ghi lại.",
+      "itemIds": [],
+      "introText": "Lumi có thể xác nhận bản ghi sân điện. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    },
+    {
+      "id": "puzzle_windmill",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Mở hộc cối xay",
+      "successText": "Bánh răng quay, hộc đồ tiếp tế mở ra. Lumi giữ phần thức ăn cho hành trình.",
+      "itemIds": [],
+      "introText": "Lumi có thể mở hộc cối xay. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    },
+    {
+      "id": "puzzle_dye",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Nhận mẻ vải đã nhuộm",
+      "successText": "Mẻ vải đã sẵn sàng. Sợi màu và nét hoa trong xưởng đã trở lại.",
+      "itemIds": [],
+      "introText": "Lumi có thể nhận mẻ vải đã nhuộm. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    },
+    {
+      "id": "puzzle_lantern",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Thắp đèn song thành",
+      "successText": "Mạch Hanji nhận đúng tín hiệu Hội An. Đèn song thành sáng lên.",
+      "itemIds": [],
+      "introText": "Lumi có thể thắp đèn song thành. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    },
+    {
+      "id": "puzzle_pond",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Quan sát phản chiếu",
+      "successText": "Mặt ao giữ một nhịp sao lặng lẽ; Lumi ghi lại manh mối.",
+      "itemIds": [],
+      "introText": "Lumi có thể quan sát phản chiếu. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    },
+    {
+      "id": "puzzle_temple",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Ghi lại bóng thềm đá",
+      "successText": "Bóng các bậc thềm tạo nên nét vòng di sản. Lumi ghi lại hình phản chiếu.",
+      "itemIds": [],
+      "introText": "Lumi có thể ghi lại bóng thềm đá. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    },
+    {
+      "id": "puzzle_lantern_west",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Thắp đèn bờ tây",
+      "successText": "Tín hiệu từ Jeonju được đèn bờ tây tiếp nhận.",
+      "itemIds": [],
+      "introText": "Lumi có thể thắp đèn bờ tây. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    },
+    {
+      "id": "puzzle_palace",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Đọc thông điệp cung điện",
+      "successText": "Hồ sơ và lời nhắn cung điện khớp nhau. Lumi đọc được phần ký ức bị ngắt.",
+      "itemIds": [],
+      "introText": "Lumi có thể đọc thông điệp cung điện. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    },
+    {
+      "id": "puzzle_station",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Kích hoạt rơle A",
+      "successText": "Rơle hồ và sương đã nhận tín hiệu Đà Lạt. Chỉ rơle A được kích hoạt.",
+      "itemIds": [],
+      "introText": "Lumi có thể kích hoạt rơle A. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    },
+    {
+      "id": "puzzle_relay_hue",
+      "kind": "LIGHT_STORY_RESOLUTION",
+      "enabled": true,
+      "actionLabel": "Xác thực dấu ấn Huế",
+      "successText": "Dấu Huế khớp rơle kinh thành. Chỉ rơle B được kích hoạt.",
+      "itemIds": [],
+      "introText": "Lumi có thể xác thực dấu ấn Huế. Chọn hành động để ghi lại kết quả khi đã đủ điều kiện."
+    }
+  ]
+}

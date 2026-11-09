@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "HQ01",
+    "cityId": "hoi_an",
+    "title": "Đèn phố tối",
+    "giverNode": "H2",
+    "completeAtNode": "H7",
+    "completionFlag": "hoi_an.lamp_restored",
+    "objectives": [
+      "find:lamp_eye@H3",
+      "find:hanji_core@H13",
+      "find:link_key@H5",
+      "activate:H7"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "lamp_eye",
+        "amount": 1
+      },
+      {
+        "itemId": "hanji_core",
+        "amount": 1
+      },
+      {
+        "itemId": "link_key",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [
+      "hoi_an.mo01_disabled"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [
+      {
+        "itemId": "healing_tea",
+        "amount": 2
+      }
+    ],
+    "flags": [
+      "city.hue.unlocked",
+      "city.jeonju.unlocked"
+    ],
+    "rewardCoins": 150,
+    "consumeItems": true,
+    "rewardOnce": true,
+    "offer": "Đèn lồng trong phố tắt cùng lúc. Cháu giúp cô tìm Mắt Đèn trong hẻm H3, ghép Lõi Giấy Sáng ở xưởng H13 và lấy Chìa Kết Nối từ bot H5 nhé. Mang cả ba tới trạm H7 để khôi phục ánh sáng.",
+    "reminder": "Mắt Đèn ở H3; chợ H4 giữ manh mối cho xưởng H13. Ông Phúc biết cách đọc mã gốm ở H19 nếu cháu muốn tránh giao chiến với bot.",
+    "thanks": "Ánh sáng đã trở về! Huế và Jeonju cùng đáp lại tín hiệu của Hội An. Cháu có thể đi tiếp hoặc ở lại giúp bà con.",
+    "sourceStatus": "runtime_configured_hoi_an",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "HQ02",
+    "cityId": "hoi_an",
+    "title": "Hàng của Bà Tư",
+    "giverNode": "H10",
+    "completeAtNode": "H10",
+    "completionFlag": "hoi_an.ba_tu_helped",
+    "objectives": [
+      "resolve:enemy_crab@H12",
+      "deliver:copper_wire@H10"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "copper_wire",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [
+      "hoi_an.crab_resolved"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [
+      {
+        "itemId": "hoi_an_fresh_chili",
+        "amount": 2
+      },
+      {
+        "itemId": "hoi_an_purple_shallot",
+        "amount": 2
+      }
+    ],
+    "acceptRewardItems": [
+      {
+        "itemId": "meat_portion",
+        "amount": 1
+      }
+    ],
+    "flags": [
+      "hoi_an.secret_lane_found",
+      "hoi_an.ba_tu_spices_received"
+    ],
+    "rewardCoins": 0,
+    "consumeItems": true,
+    "rewardOnce": true,
+    "offer": "Con cua kéo cuộn dây đồng của bà xuống mép nước H12. Cháu lấy lại giúp bà nhé. Đây là một phần thức ăn; thử dụ nó ra trước khi phải đánh.",
+    "reminder": "Cua Trộm ở H12 giữ cuộn dây. Có thể giao chiến hoặc dùng phần thức ăn bà đã đưa.",
+    "thanks": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.",
+    "sourceStatus": "runtime_configured_hoi_an",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "HQ03",
+    "cityId": "hoi_an",
+    "title": "Con đèn lạc",
+    "giverNode": "H18",
+    "completeAtNode": "H9",
+    "completionFlag": "hoi_an.lost_lantern_rescued",
+    "objectives": [
+      "find:reply_letter@J21",
+      "interact:H9"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "reply_letter",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [
+      "hoi_an.mini_lantern_companion"
+    ],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Một chiếc đèn lạc đang chờ tin từ Jeonju. Khi có thư hồi âm J21, hãy mang về ngõ H9.",
+    "reminder": "Nghe chuyện J16, lấy thư J21 Jeonju; mang tới Ji-eun H18 rồi ghé ngõ H9.",
+    "thanks": "Cảm ơn Lumi!",
+    "sourceStatus": "canonical_cross_city_letter_now_playable",
+    "giverCityId": "hoi_an",
+    "completeCityId": "hoi_an",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "HQ04",
+    "cityId": "hoi_an",
+    "title": "Đò qua nhánh nước",
+    "giverNode": "H17",
+    "completeAtNode": "H17",
+    "completionFlag": "hoi_an.ferry_available",
+    "objectives": [
+      "collect:coin*5",
+      "talk:H17"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "coin",
+        "amount": 5
+      }
+    ],
+    "requiredFlags": [],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": true,
+    "rewardOnce": true,
+    "offer": "Bác cần năm xu để sửa mái chèo và mở chuyến đò qua nhánh đông. Khi sẵn sàng, mang tiền lại đây nhé.",
+    "reminder": "Mang năm xu đến H17; đường đò là lối tắt tùy chọn.",
+    "thanks": "Mái chèo đã sửa xong. Bác sẽ đưa cháu qua bến H5 bất cứ khi nào cần.",
+    "sourceStatus": "runtime_configured_hoi_an",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "UQ01",
+    "cityId": "hue",
+    "title": "Dấu ấn hai bờ",
+    "giverNode": "U7",
+    "completeAtNode": "U19",
+    "completionFlag": "hue.beacon_lit",
+    "objectives": [
+      "get:lost_letter@U15",
+      "solve:U17",
+      "solve:U8",
+      "activate:U19"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "lost_letter",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [
+      "hue.archive_decoded",
+      "hue.court_solved",
+      "hue.guard_disabled"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Bức thư niêm phong ở U15 chứa cảnh báo bị cắt ghép. Giúp tôi đọc thư khố U17, xếp cờ U8 và đồng bộ trạm U19 nhé.",
+    "reminder": "Giữ kiện thư U15. Giải nhịp ngắn–dài–ngắn ở U17, áp dụng tại U8; giải quyết bot U5 rồi kích hoạt U19.",
+    "thanks": "Hai bờ đã đồng bộ. Tuyến Đà Lạt đủ điều kiện mở; ấn Huế còn được dùng ở Gyeongju và Seoul.",
+    "sourceStatus": "canonical_LBC_v1; authored_runtime_dialogue_and_interaction_proposal",
+    "pending": false,
+    "giverCityId": "hue",
+    "completeCityId": "hue",
+    "requiredFlagLabels": [
+      "Đọc nhịp tại thư khố U17",
+      "Xếp cờ sân điện U8",
+      "Giải quyết Thân Vệ U5"
+    ],
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "UQ02",
+    "cityId": "hue",
+    "title": "Thảo dược Bà Nguyệt",
+    "giverNode": "U2",
+    "completeAtNode": "U2",
+    "completionFlag": "hue.nguyet_helped",
+    "objectives": [
+      "find:royal_herb@U10",
+      "deliver:royal_herb@U2"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "royal_herb",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [],
+    "acceptFlags": [],
+    "rewardItems": [
+      {
+        "itemId": "healing_tea",
+        "amount": 3
+      }
+    ],
+    "acceptRewardItems": [],
+    "flags": [
+      "hue.north_garden_open"
+    ],
+    "rewardCoins": 0,
+    "consumeItems": true,
+    "rewardOnce": true,
+    "offer": "Thuốc cho người chèo đò sắp hết. Tìm lá ở U10 giúp bà nhé.",
+    "reminder": "Qua đò ở U3, men bờ bắc tới U10. Mang lá về U2; đừng dùng lá như vật phẩm hồi máu.",
+    "thanks": "Bà đã sắc thuốc cho bến đò. Cháu cầm ba phần trà hồi phục; vườn phía tây cũng đã mở.",
+    "sourceStatus": "canonical_LBC_v1; authored_runtime_dialogue_and_interaction_proposal",
+    "confirmDelivery": true,
+    "confirmationText": "Cháu giao lá thuốc bờ bắc cho bà Nguyệt.",
+    "pending": false,
+    "giverCityId": "hue",
+    "completeCityId": "hue",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "UQ03",
+    "cityId": "hue",
+    "title": "Qua sông an toàn",
+    "giverNode": "U3",
+    "completeAtNode": "U3",
+    "completionFlag": "hue.crossing_permit",
+    "objectives": [
+      "solve:U16",
+      "use:river_pass@U3"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "river_pass",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Giải hai ký hiệu trên vải ở U16 rồi mang thẻ về bến U3. Bác chỉ đưa cháu qua khi đã kiểm tra thẻ.",
+    "reminder": "Tìm thẻ qua sông tại U16; quay lại nói chuyện và xác nhận tại U3.",
+    "thanks": "Thẻ hợp lệ. Bác Tâm mở chuyến đò qua U4; cháu vẫn được quay lại bờ nam.",
+    "sourceStatus": "canonical_LBC_v1; authored_runtime_dialogue_and_interaction_proposal",
+    "confirmDelivery": true,
+    "confirmationText": "Cháu trình thẻ qua sông. Bác kiểm tra giúp cháu nhé.",
+    "pending": false,
+    "giverCityId": "hue",
+    "completeCityId": "hue",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "UQ04",
+    "cityId": "hue",
+    "title": "Tấm ấn gửi đi xa",
+    "giverNode": "U11",
+    "completeAtNode": "U7",
+    "completionFlag": "hue.star_script_known",
+    "objectives": [
+      "find:ancient_seal@U11",
+      "talk:U7"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "ancient_seal",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Ấn cổ có nét khắc giống chòm sao. Mang đến Lê An ở U7 để đối chiếu; giữ lại ấn cho hành trình xa.",
+    "reminder": "Giữ Ấn Tín Cổ và nói chuyện Lê An tại U7.",
+    "thanks": "Lê An ghi nhận ký hiệu. Ấn được giữ lại để đối chiếu bệ đá Gyeongju và rơle Seoul.",
+    "sourceStatus": "canonical_LBC_v1; authored_runtime_dialogue_and_interaction_proposal",
+    "pending": false,
+    "giverCityId": "hue",
+    "completeCityId": "hue",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "DQ01",
+    "cityId": "da_lat",
+    "title": "Kính giữa sương",
+    "giverNode": "D2",
+    "completeAtNode": "D8",
+    "completionFlag": "da_lat.fog_cleared",
+    "objectives": [
+      "defeat:enemy_glass_thief@D7",
+      "return:lan_glasses@D2",
+      "solve:D8"
+    ],
+    "requiredItems": [],
+    "requiredFlags": [
+      "da_lat.glasses_returned",
+      "da_lat.fog_path_solved"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Chị làm rơi kính gần trạm quan sát. Bot Giấu Kính đang giữ chúng. Em có thể giao chiến hoặc bật bẫy phản quang hai lần. Mang kính về đây rồi chị sẽ chỉ đường D8.",
+    "reminder": "Lấy kính D7, giao lại Lan D2. Theo phác thảo Thông → Đèn → Hồ để giải D8.",
+    "thanks": "Lan đã nhìn rõ biển chỉ đường, lối sương được mở.",
+    "sourceStatus": "canonical_LBC_v1; concrete_dialogue_and_interaction_proposal",
+    "requiredFlagLabels": [
+      "Giao kính lại cho Lan ở D2",
+      "Theo bản phác và giải ba cổng tại D8"
+    ],
+    "pending": false,
+    "giverCityId": "da_lat",
+    "completeCityId": "da_lat",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "DQ02",
+    "cityId": "da_lat",
+    "title": "Bạn chó canh đường",
+    "giverNode": "D10",
+    "completeAtNode": "D10",
+    "completionFlag": "da_lat.dog_fed",
+    "objectives": [
+      "collect:meat_portion*3@D9,D11,D12",
+      "give:meat_portion*3@D10"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "meat_portion",
+        "amount": 3
+      }
+    ],
+    "requiredFlags": [],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": true,
+    "rewardOnce": true,
+    "offer": "Chú chó giữ đường xuống cầu đá vì bụng đói. Ba phần thức ăn sẽ giúp nó yên tâm tránh lối.",
+    "reminder": "Tìm thức ăn ở D9, D11 và D12; có một phần dự phòng tại Thủy D3.",
+    "thanks": "Chú chó đã no, vẫy đuôi chỉ đường xuống thác. Lumi có thể quay lại bất cứ lúc nào.",
+    "sourceStatus": "canonical_LBC_v1; concrete_dialogue_and_interaction_proposal",
+    "confirmDelivery": true,
+    "confirmationText": "Lumi đưa đúng ba phần thức ăn cho chú chó, mở lối xuống cầu đá.",
+    "pending": false,
+    "giverCityId": "da_lat",
+    "completeCityId": "da_lat",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "DQ03",
+    "cityId": "da_lat",
+    "title": "Tín hiệu thác nước",
+    "giverNode": "D16",
+    "completeAtNode": "D14",
+    "completionFlag": "da_lat.beacon_lit",
+    "objectives": [
+      "defeat:enemy_fog_boss@D15",
+      "find:blue_water_signal@D16",
+      "activate:D14"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "blue_water_signal",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [
+      "da_lat.fog_cleared",
+      "da_lat.dog_fed",
+      "da_lat.mist_boss_cleared"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Mang tín hiệu thác nước tới đài đèn D14. Giữ mã nước xanh để đồng bộ rơle A tại Seoul.",
+    "reminder": "Thu mã nước xanh D16 sau Bóng Sương; kích hoạt đài D14.",
+    "thanks": "Mình đã hiểu: những bóng sương là tín hiệu cảnh báo cũ đang tự nhân bản, không phải sinh vật muốn hại mọi người. Giúp Lan và chú chó đã làm chúng dịu lại. Nguồn sương và tín hiệu nước nay đồng bộ, gửi nhịp rơle A tới Seoul. Mình vẫn cần kết quả của cả hai nhánh Việt–Hàn trước khi tới đó.",
+    "sourceStatus": "canonical_LBC_v1; concrete_dialogue_and_interaction_proposal",
+    "requiredFlagLabels": [
+      "Xua sương tại D8",
+      "Cho chó D10 ăn",
+      "Vượt Bóng Sương D15"
+    ],
+    "pending": false,
+    "giverCityId": "da_lat",
+    "completeCityId": "da_lat",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "DQ04",
+    "cityId": "da_lat",
+    "title": "Hoa trong mây",
+    "giverNode": "D13",
+    "completeAtNode": "D13",
+    "completionFlag": "da_lat.night_flower_done",
+    "objectives": [
+      "find:night_flower@D19",
+      "deliver:night_flower@D13"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "night_flower",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [],
+    "acceptFlags": [],
+    "rewardItems": [
+      {
+        "itemId": "healing_tea",
+        "amount": 2
+      }
+    ],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": true,
+    "rewardOnce": true,
+    "offer": "Có hoa chỉ nở khi trụ D8 xua sương. Mang một bông ở D19 về đây, tôi sẽ pha trà hỗ trợ chuyến đi.",
+    "reminder": "Lấy hoa đêm tại D19 sau khi giải D8; có thể cho Thủy xem trước khi giao.",
+    "thanks": "Bông hoa đã về vườn kính. Cảm ơn Lumi đã giữ đường rừng an toàn.",
+    "sourceStatus": "canonical_LBC_v1; concrete_dialogue_and_interaction_proposal",
+    "confirmDelivery": true,
+    "confirmationText": "Giao bông hoa đêm cho người làm vườn?",
+    "pending": false,
+    "giverCityId": "da_lat",
+    "completeCityId": "da_lat",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "JQ01",
+    "cityId": "jeonju",
+    "title": "Hoa văn ba miền",
+    "giverNode": "J2",
+    "completeAtNode": "J12",
+    "completionFlag": "jeonju.three_patterns_joined",
+    "objectives": [
+      "get:hanji_pattern_1@J7",
+      "get:hanji_pattern_2@J6",
+      "get:hanji_pattern_3@J11",
+      "solve:J12"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "hanji_pattern_1",
+        "amount": 1
+      },
+      {
+        "itemId": "hanji_pattern_2",
+        "amount": 1
+      },
+      {
+        "itemId": "hanji_pattern_3",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [
+      "jeonju.three_patterns_joined"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Một tấm khuôn đã chia ba. Hãy gấp giấy ở J7, lấy mảnh trong kiện J6 và hộp kính J11, rồi ghép ở J12.",
+    "reminder": "J7: gấp giấy; J6: giải quyết bot; trả kiện Park J5 để mở hộp J11. Ghép ba mảnh tại J12.",
+    "thanks": "Ba mảnh hanji đã thành một mạch đèn. Mang kết quả tới đèn song thành J17.",
+    "sourceStatus": "canonical_LBC_v1; authored_runtime_dialogue_and_interaction_proposal",
+    "onAcceptFlags": [
+      "quest:JQ01"
+    ],
+    "pending": false,
+    "giverCityId": "jeonju",
+    "completeCityId": "jeonju",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "JQ02",
+    "cityId": "jeonju",
+    "title": "Kiện hàng thất lạc",
+    "giverNode": "J5",
+    "completeAtNode": "J5",
+    "completionFlag": "jeonju.parcel_returned",
+    "objectives": [
+      "resolve:enemy_parcel_bot@J6",
+      "return:missing_parcel@J5"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "missing_parcel",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": true,
+    "rewardOnce": true,
+    "offer": "Kiện hàng bên suối biến mất. Bot J6 giữ cả kiện lẫn mảnh hoa văn; sổ ghi mã Hoa – Đèn – Hoa. Hỏi tiến độ để ghi nhận mã.",
+    "reminder": "Mã trong sổ: Hoa – Đèn – Hoa. Hỏi tiến độ tại J5 để ghi mã; lấy kiện J6 bằng mã hoặc chiến đấu, mang về J5 xác nhận trả.",
+    "thanks": "Kiện đã về đúng chủ. Bác mở hộp kính trên đài J11 để Lumi lấy mảnh hoa văn thứ ba.",
+    "sourceStatus": "canonical_LBC_v1; authored_runtime_dialogue_and_interaction_proposal",
+    "confirmDelivery": true,
+    "confirmationText": "Cháu trả kiện hàng nguyên vẹn cho bác Park.",
+    "pending": false,
+    "giverCityId": "jeonju",
+    "completeCityId": "jeonju",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "JQ03",
+    "cityId": "jeonju",
+    "title": "Đèn soi qua hai nước",
+    "giverNode": "J17",
+    "completeAtNode": "J19",
+    "completionFlag": "jeonju.beacon_lit",
+    "objectives": [
+      "have_flag:hoi_an.lamp_restored",
+      "solve:J17",
+      "activate:J19"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "hanji_circuit",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [
+      "jeonju.lantern_puzzle_solved",
+      "jeonju.three_patterns_joined"
+    ],
+    "acceptFlags": [
+      "hoi_an.lamp_restored"
+    ],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Đèn Hội An đã phản chiếu sang Jeonju. Giải ba vòng ký hiệu ở J17, rồi lắp mạch hanji tại J19.",
+    "reminder": "Ba mảnh đã ghép ở J12. Xoay ký hiệu J17 theo manh mối Hội An và kích hoạt trạm J19.",
+    "thanks": "Sợi giấy nối ánh sáng hai thành phố. Tuyến Gyeongju đủ điều kiện mở; mạch hanji được giữ cho Seoul.",
+    "sourceStatus": "canonical_LBC_v1; authored_runtime_dialogue_and_interaction_proposal",
+    "pending": false,
+    "giverCityId": "jeonju",
+    "completeCityId": "jeonju",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "JQ04",
+    "cityId": "jeonju",
+    "title": "Thư gửi phố cũ",
+    "giverNode": "J16",
+    "completeAtNode": "H18",
+    "completionFlag": "jeonju.letter_delivered",
+    "objectives": [
+      "find:reply_letter@J21",
+      "carry:reply_letter@H18"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "reply_letter",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [
+      "hoi_an.secret_lane_found"
+    ],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Có thư hồi âm tại lối kín J21. Nhờ Lumi mang tới Ji-eun ở H18 Hội An, không cần đánh Hạc Giấy.",
+    "reminder": "Tìm thư J21 sau khi nghe chuyện ở J16; trở về Ji-eun H18 và xác nhận giao.",
+    "thanks": "Ji-eun đã đọc thư. Ngõ đèn H9 có thể được cứu; thư vẫn được giữ làm manh mối.",
+    "sourceStatus": "canonical_LBC_v1; authored_runtime_dialogue_and_interaction_proposal",
+    "completeCityId": "hoi_an",
+    "confirmDelivery": true,
+    "confirmationText": "Mình đưa thư hồi âm Jeonju cho Ji-eun đọc, rồi sẽ tới ngõ H9.",
+    "pending": false,
+    "giverCityId": "jeonju",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "GQ01",
+    "cityId": "gyeongju",
+    "title": "Đường sao Silla",
+    "giverNode": "G3",
+    "completeAtNode": "G4",
+    "completionFlag": "gyeongju.three_stars_placed",
+    "objectives": [
+      "get:star_symbol_1@G5",
+      "get:star_symbol_2@G6",
+      "get:star_symbol_3@G10",
+      "solve:G4"
+    ],
+    "requiredItems": [],
+    "requiredFlags": [
+      "gyeongju.three_stars_placed"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Ba nét sao ở gò tây G5, đường gò G6 và đình đồi G10. Hãy đặt chúng lên đài G4. Tượng đá không tự nhiên trở nên ác; đừng vội phá nó.",
+    "reminder": "Tìm ba biểu tượng G5/G6/G10; giải đài G4 rồi xác nhận hoàn thành tại đài.",
+    "thanks": "Ba biểu tượng đã đúng vị trí. Giữ ống kính sao cho hồ sơ ở Seoul.",
+    "sourceStatus": "FULL_STORY_PLAYTEST; canonical_objectives; PLAYTEST_NEW_dialogue",
+    "pending": false,
+    "giverCityId": "gyeongju",
+    "completeCityId": "gyeongju",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "GQ02",
+    "cityId": "gyeongju",
+    "title": "Bệ đá nối hai nước",
+    "giverNode": "G12",
+    "completeAtNode": "G12",
+    "completionFlag": "gyeongju.seal_repaired",
+    "objectives": [
+      "have:ancient_seal",
+      "solve:G12",
+      "defeat_or_fix:enemy_stone_guard@G7"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "ancient_seal",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [
+      "gyeongju.seal_decoded",
+      "gyeongju.guard_resolved"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Đọc Ấn Tín Cổ từ Huế tại bệ này, rồi cứu hoặc vượt tượng đá G7. Quay lại xác nhận; ấn tín vẫn cần cho Seoul.",
+    "reminder": "Giải G12 theo manh mối U17, xử lý G7 rồi trở lại bệ. Nếu chưa đi Huế, có thể rời Silla và quay lại.",
+    "thanks": "Bệ đã nối lại hai nhánh. Ấn tín vẫn nguyên vẹn trong túi để dùng tại S17.",
+    "sourceStatus": "FULL_STORY_PLAYTEST; canonical_objectives; PLAYTEST_NEW_dialogue",
+    "pending": false,
+    "giverCityId": "gyeongju",
+    "completeCityId": "gyeongju",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "GQ03",
+    "cityId": "gyeongju",
+    "title": "Đêm đài thiên văn",
+    "giverNode": "G18",
+    "completeAtNode": "G19",
+    "completionFlag": "gyeongju.beacon_lit",
+    "objectives": [
+      "have_flag:gyeongju.three_stars_placed",
+      "defeat:enemy_star_core@G18",
+      "activate:G19"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "silla_prism",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [
+      "gyeongju.three_stars_placed",
+      "gyeongju.star_core_disabled"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Ổn định Lõi Tinh Tú G18 rồi mang lăng kính tới trạm G19. Giữ ống kính và vật chứng để tới Seoul.",
+    "reminder": "Vượt lõi G18 bằng nhịp sao; xác nhận thắp trạm G19.",
+    "thanks": "Trạm Silla đã sáng. Seoul chỉ mở khi cả bốn trạm nhánh cùng đồng bộ.",
+    "sourceStatus": "FULL_STORY_PLAYTEST; canonical_objectives; PLAYTEST_NEW_dialogue",
+    "pending": false,
+    "giverCityId": "gyeongju",
+    "completeCityId": "gyeongju",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "GQ04",
+    "cityId": "gyeongju",
+    "title": "Hoa văn bờ tây",
+    "giverNode": "G17",
+    "completeAtNode": "G17",
+    "completionFlag": "gyeongju.west_lantern_done",
+    "objectives": [
+      "have_flag:jeonju.beacon_lit",
+      "solve:G17"
+    ],
+    "requiredItems": [],
+    "requiredFlags": [
+      "gyeongju.west_lantern_solved",
+      "jeonju.beacon_lit"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 8,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Đài bờ tây phản hồi hoa văn Hanji. Nhận việc rồi ghép Hoa – Trăng – Đèn; xác nhận tại đây để nhận thưởng.",
+    "reminder": "Giải hoa văn tại G17 rồi xác nhận hoàn thành.",
+    "thanks": "Ánh đèn bờ tây đã tìm lại nhịp; manh mối được ghi và tám xu hỗ trợ chuyến đi.",
+    "sourceStatus": "FULL_STORY_PLAYTEST; canonical_objectives; PLAYTEST_NEW_dialogue",
+    "pending": false,
+    "giverCityId": "gyeongju",
+    "completeCityId": "gyeongju",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "SQ01",
+    "cityId": "seoul",
+    "title": "Ba nhịp đồng bộ",
+    "giverNode": "S7",
+    "completeAtNode": "S7",
+    "completionFlag": "seoul.relays_ready",
+    "objectives": [
+      "have:blue_water_signal",
+      "solve:S16",
+      "have:ancient_seal",
+      "solve:S17",
+      "have:hanji_circuit",
+      "solve:S18"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "blue_water_signal",
+        "amount": 1
+      },
+      {
+        "itemId": "ancient_seal",
+        "amount": 1
+      },
+      {
+        "itemId": "hanji_circuit",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [
+      "seoul.relay_a_on",
+      "seoul.relay_b_on",
+      "seoul.relay_c_on"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [
+      "seoul.relay_reported"
+    ],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Ba nguồn phải do em tự kích hoạt: nước xanh Đà Lạt tại S16, Ấn Tín Cổ Huế tại S17 và mạch Hanji tại S18. Khi đủ cả ba, quay lại đây xác nhận đồng bộ.",
+    "reminder": "Kích hoạt riêng S16, S17, S18 rồi báo Ji-won tại S7. Các vật chứng chỉ đối chiếu, không tiêu hao.",
+    "thanks": "Ba relay thật đã đồng bộ. Đường hầm S19 dẫn tới lõi; hãy nhớ còn có lựa chọn sửa hệ thống.",
+    "sourceStatus": "FULL_STORY_PLAYTEST; canonical_objectives; PLAYTEST_NEW_dialogue",
+    "pending": false,
+    "giverCityId": "seoul",
+    "completeCityId": "seoul",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "SQ02",
+    "cityId": "seoul",
+    "title": "Lời nhắn cũ",
+    "giverNode": "S2",
+    "completeAtNode": "S11",
+    "completionFlag": "seoul.truth_discovered",
+    "objectives": [
+      "get:stargazer_lens@G4",
+      "interact:S3",
+      "talk:S11"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "stargazer_lens",
+        "amount": 1
+      }
+    ],
+    "requiredFlags": [
+      "seoul.archive_read",
+      "seoul.palace_message_decoded",
+      "seoul.engineer_explained"
+    ],
+    "acceptFlags": [],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Không phải mọi bot đều thù địch. Hồ sơ S4 và câu đố S3 giữ lệnh bảo vệ ban đầu. Mang ống kính Silla tới kỹ sư S11 để đọc nét đã bị sửa.",
+    "reminder": "Mở hồ sơ S4, giải lời nhắn S3, gặp kỹ sư S11 và xác nhận sự thật. Giữ ống kính.",
+    "thanks": "Lệnh gốc là bảo vệ đèn khỏi quá tải. Có người đã sửa lệnh và cắt cảnh báo của Bot Mờ-01. Có thể cứu hệ thống.",
+    "sourceStatus": "FULL_STORY_PLAYTEST; canonical_objectives; PLAYTEST_NEW_dialogue",
+    "pending": false,
+    "giverCityId": "seoul",
+    "completeCityId": "seoul",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "SQ03",
+    "cityId": "seoul",
+    "title": "Lõi sáng cuối",
+    "giverNode": "S20",
+    "completeAtNode": "S21",
+    "completionFlag": "seoul.final_cleared",
+    "objectives": [
+      "have_flag:seoul.relays_ready",
+      "boss:enemy_final_core@S20",
+      "visit:S21"
+    ],
+    "requiredItems": [],
+    "requiredFlags": [
+      "seoul.final_cleared"
+    ],
+    "acceptFlags": [
+      "seoul.relays_ready",
+      "seoul.relay_reported"
+    ],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Đối mặt Lõi Nhiễu hai pha tại S20. Sau khi xử lý, tới lễ hội S21 và xem hết lời kết/credits; còn có thể quay lại làm quest phụ.",
+    "reminder": "Vượt hai pha S20 rồi xem epilogue S21. Không có phần thưởng chỉ vì bước tới boss.",
+    "thanks": "Sáu thành phố tìm lại nhịp chung. Những nhiệm vụ phụ còn lại vẫn chờ Lumi.",
+    "sourceStatus": "FULL_STORY_PLAYTEST; canonical_objectives; PLAYTEST_NEW_dialogue",
+    "pending": false,
+    "giverCityId": "seoul",
+    "completeCityId": "seoul",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "SQ04",
+    "cityId": "seoul",
+    "title": "Tín hiệu bóng Mờ",
+    "giverNode": "S22",
+    "completeAtNode": "S22",
+    "completionFlag": "seoul.secret_ending",
+    "objectives": [
+      "have_flag:seoul.truth_discovered",
+      "read:S22"
+    ],
+    "requiredItems": [],
+    "requiredFlags": [
+      "seoul.secret_message_read",
+      "seoul.truth_discovered"
+    ],
+    "acceptFlags": [
+      "seoul.truth_discovered"
+    ],
+    "rewardItems": [],
+    "acceptRewardItems": [],
+    "flags": [],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "rewardOnce": true,
+    "offer": "Dùng kính ở S22 để đọc bản tin bí mật. Nhận nhiệm vụ, đọc rồi xác nhận tại đây.",
+    "reminder": "Kiểm tra tin nhắn tại S22 và xác nhận đã đọc.",
+    "thanks": "Bản tin bí mật đã được lưu; góc nhìn về những người canh đèn đã thay đổi.",
+    "sourceStatus": "FULL_STORY_PLAYTEST; canonical_objectives; PLAYTEST_NEW_dialogue",
+    "pending": false,
+    "giverCityId": "seoul",
+    "completeCityId": "seoul",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "HQ05",
+    "cityId": "hoi_an",
+    "giverCityId": "hoi_an",
+    "completeCityId": "jeonju",
+    "title": "Ớt qua biển – Lời mời từ Jeonju",
+    "giverNode": "H18",
+    "completeAtNode": "J15",
+    "acceptFlags": [
+      "hoi_an.ba_tu_helped"
+    ],
+    "requiredFlags": [
+      "hoi_an.lamp_restored"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "hoi_an_fresh_chili",
+        "amount": 1
+      }
+    ],
+    "rewardItems": [
+      {
+        "itemId": "jeonju_recipe_card",
+        "amount": 1
+      }
+    ],
+    "rewardCoins": 0,
+    "consumeItems": true,
+    "completionFlag": "jeonju.chili_shared",
+    "offer": "Ji-eun: Bạn có thể mang một trái ớt của Bà Tư đến gian hàng So-yeon ở J15 Jeonju không?",
+    "reminder": "Giữ một trái ớt Hội An cho gian hàng giao lưu tại J15.",
+    "thanks": "So-yeon cảm ơn và gửi thẻ món ăn về Hội An.",
+    "pending": false,
+    "pendingReason": "",
+    "onAcceptFlags": [
+      "hoi_an.hq05_accepted"
+    ],
+    "sourceStatus": "LBC_HoiAn_StoryExpansion_v1; playable_cross_city_delivery",
+    "confirmDelivery": true,
+    "confirmationText": "Cháu mang ớt từ quầy Bà Tư. Mọi người thử vị cay vừa phải nhé!",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "HQ06",
+    "cityId": "hoi_an",
+    "giverCityId": "hoi_an",
+    "completeCityId": "hue",
+    "title": "Hành tím gửi cố đô",
+    "giverNode": "H10",
+    "completeAtNode": "U1",
+    "acceptFlags": [
+      "hoi_an.ba_tu_helped"
+    ],
+    "requiredFlags": [
+      "hoi_an.lamp_restored"
+    ],
+    "requiredItems": [
+      {
+        "itemId": "hoi_an_purple_shallot",
+        "amount": 1
+      }
+    ],
+    "rewardItems": [
+      {
+        "itemId": "hue_market_note",
+        "amount": 1
+      }
+    ],
+    "rewardCoins": 0,
+    "consumeItems": true,
+    "completionFlag": "hue.shallot_shared",
+    "offer": "Bà Tư: Nhờ cháu mang một củ hành tím đến chị Hương ở chợ U1 Huế.",
+    "reminder": "Giữ một củ hành tím Hội An cho gian hàng U1 Huế.",
+    "thanks": "Chị Hương đã nhận hành và gửi lời cảm ơn.",
+    "pending": false,
+    "pendingReason": "",
+    "onAcceptFlags": [
+      "hoi_an.hq06_accepted"
+    ],
+    "sourceStatus": "LBC_HoiAn_StoryExpansion_v1; playable_cross_city_delivery",
+    "confirmDelivery": true,
+    "confirmationText": "Cháu mang đến đây rồi ạ!",
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "HQ07",
+    "cityId": "hoi_an",
+    "giverCityId": "hoi_an",
+    "completeCityId": "hoi_an",
+    "title": "Hai bờ, một mâm cơm",
+    "giverNode": "H10",
+    "completeAtNode": "H10",
+    "acceptFlags": [
+      "jeonju.chili_shared",
+      "hue.shallot_shared"
+    ],
+    "requiredFlags": [
+      "jeonju.chili_shared",
+      "hue.shallot_shared"
+    ],
+    "requiredItems": [],
+    "rewardItems": [
+      {
+        "itemId": "festival_friendship_postcard",
+        "amount": 1
+      }
+    ],
+    "rewardCoins": 0,
+    "consumeItems": false,
+    "completionFlag": "hoi_an.festival_food_exchange_done",
+    "offer": "Bà Tư: Cả hai gian hàng đã nhận quà. Cháu kể bà nghe chuyến đi nhé.",
+    "reminder": "Quay lại H10 sau khi hoàn thành cả hai chuyến giao lưu.",
+    "thanks": "Bà Tư tặng bưu thiếp giao lưu Việt–Hàn.",
+    "pending": false,
+    "pendingReason": "",
+    "onAcceptFlags": [
+      "hoi_an.hq07_accepted"
+    ],
+    "sourceStatus": "LBC_HoiAn_StoryExpansion_v1",
+    "confirmDelivery": true,
+    "confirmationText": "Chuyến đi này quả thật đang nối những cuộc trò chuyện giữa hai nước.",
+    "acceptQuests": [
+      "HQ05",
+      "HQ06"
+    ],
+    "requiredQuests": [
+      "HQ05",
+      "HQ06"
+    ],
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "HA_FOOD_PREP",
+    "cityId": "hoi_an",
+    "giverCityId": "hoi_an",
+    "completeCityId": "hoi_an",
+    "title": "Một phần gia vị cho đêm hội",
+    "giverNode": "H10",
+    "completeAtNode": "H10",
+    "acceptFlags": [
+      "hoi_an.ba_tu_spices_received"
+    ],
+    "requiredFlags": [],
+    "requiredItems": [
+      {
+        "itemId": "hoi_an_fresh_chili",
+        "amount": 2
+      },
+      {
+        "itemId": "hoi_an_purple_shallot",
+        "amount": 1
+      }
+    ],
+    "rewardItems": [
+      {
+        "itemId": "healing_tea",
+        "amount": 1
+      }
+    ],
+    "rewardCoins": 8,
+    "consumeItems": true,
+    "completionFlag": "hoi_an.local_food_prepared",
+    "offer": "Bà Tư: Quầy đêm hội cần 2 trái ớt và 1 củ hành. Cháu lấy thêm túi gia vị ở hòm bến H11 nhé; nhớ chừa mỗi món một cái cho chuyến giao lưu.",
+    "reminder": "Giao 2 ớt và 1 hành ở H10; tổng cần có ít nhất 3 ớt và 2 hành để giữ lại một phần cho chuyến đi sau.",
+    "thanks": "Bà đã nhận đúng một phần gia vị. Đây là trà hồi phục cho chuyến đi!",
+    "pending": false,
+    "pendingReason": "",
+    "onAcceptFlags": [
+      "hoi_an.ha_food_prep_accepted"
+    ],
+    "sourceStatus": "user_item_extension_20261016; optional_local_quest_proposal",
+    "reserveItems": [
+      {
+        "itemId": "hoi_an_fresh_chili",
+        "amount": 1
+      },
+      {
+        "itemId": "hoi_an_purple_shallot",
+        "amount": 1
+      }
+    ],
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  },
+  {
+    "id": "DQ05",
+    "cityId": "da_lat",
+    "title": "Dâu cao nguyên gửi Jeonju",
+    "giverNode": "D4",
+    "giverCityId": "da_lat",
+    "completeAtNode": "J15",
+    "completeCityId": "jeonju",
+    "completionFlag": "jeonju.dalat_strawberry_shared",
+    "objectives": [
+      "receive:da_lat_strawberry@D4",
+      "deliver:da_lat_strawberry@J15"
+    ],
+    "acceptFlags": [
+      "da_lat.beacon_lit"
+    ],
+    "requiredFlags": [],
+    "requiredItems": [
+      {
+        "itemId": "da_lat_strawberry",
+        "amount": 1
+      }
+    ],
+    "acceptRewardItems": [
+      {
+        "itemId": "da_lat_strawberry",
+        "amount": 1
+      }
+    ],
+    "rewardItems": [],
+    "rewardCoins": 10,
+    "consumeItems": true,
+    "confirmDelivery": true,
+    "confirmationText": "Giao một phần dâu Đà Lạt cho So-yeon làm quà?",
+    "offer": "Mang một phần dâu cao nguyên tới So-yeon tại J15. Chuyến quà tùy chọn này không chặn cốt truyện.",
+    "reminder": "Giữ dâu trong túi; giao trực tiếp tại quầy J15 ở Jeonju.",
+    "thanks": "So-yeon nhận quà dâu cao nguyên và gửi lời cảm ơn về Đà Lạt.",
+    "sourceStatus": "PROPOSED_OPTIONAL_SPECIALTY_QUEST_NOT_IN_CANONICAL_24",
+    "pending": false,
+    "status": "IMPLEMENTED",
+    "actualCompletionProof": "Validation/FullStory-20261017/Fresh04/full-story-final.json"
+  }
+]

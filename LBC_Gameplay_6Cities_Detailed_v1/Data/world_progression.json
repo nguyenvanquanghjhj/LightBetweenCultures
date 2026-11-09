@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "cities": [
+    {
+      "id": "hoi_an",
+      "name": "Hội An",
+      "start": "H0",
+      "unlocks_when": {
+        "all_flags": []
+      }
+    },
+    {
+      "id": "hue",
+      "name": "Huế",
+      "start": "U0",
+      "unlocks_when": {
+        "all_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      }
+    },
+    {
+      "id": "jeonju",
+      "name": "Jeonju",
+      "start": "J0",
+      "unlocks_when": {
+        "all_flags": [
+          "hoi_an.lamp_restored"
+        ]
+      }
+    },
+    {
+      "id": "da_lat",
+      "name": "Đà Lạt",
+      "start": "D0",
+      "unlocks_when": {
+        "all_flags": [
+          "hue.beacon_lit"
+        ]
+      }
+    },
+    {
+      "id": "gyeongju",
+      "name": "Gyeongju",
+      "start": "G0",
+      "unlocks_when": {
+        "all_flags": [
+          "jeonju.beacon_lit"
+        ]
+      }
+    },
+    {
+      "id": "seoul",
+      "name": "Seoul",
+      "start": "S0",
+      "unlocks_when": {
+        "all_flags": [
+          "hue.beacon_lit",
+          "da_lat.beacon_lit",
+          "jeonju.beacon_lit",
+          "gyeongju.beacon_lit"
+        ]
+      }
+    }
+  ],
+  "cross_city_resonance": [
+    {
+      "source_flag": "hoi_an.lamp_restored",
+      "destination_city": "jeonju",
+      "effect": "J17 lit; unlock clue for puzzle lantern"
+    },
+    {
+      "source_flag": "jeonju.hidden_letter_found",
+      "destination_city": "hoi_an",
+      "effect": "H9 secret lane appears and lost lantern sidequest"
+    },
+    {
+      "source_item": "ancient_seal",
+      "destination_city": "gyeongju",
+      "effect": "G12 stone seal can be solved"
+    },
+    {
+      "source_item": "ancient_seal",
+      "destination_city": "seoul",
+      "effect": "S17 relay B accessible"
+    },
+    {
+      "source_item": "blue_water_signal",
+      "destination_city": "seoul",
+      "effect": "S16 relay A accessible"
+    },
+    {
+      "source_item": "hanji_circuit",
+      "destination_city": "seoul",
+      "effect": "S18 relay C accessible"
+    },
+    {
+      "source_flag": "gyeongju.beacon_lit",
+      "destination_city": "seoul",
+      "effect": "world Seoul gate eligibility updates"
+    },
+    {
+      "source_flag": "seoul.final_cleared",
+      "destination_city": "all",
+      "effect": "6 towns show festival lighting; sidequests remain"
+    }
+  ],
+  "developer_notes": "Do not require Gyeongju artifact as the only key to enter Seoul when it can only be obtained after a sidequest tied to Hue; ensure both branches completable."
+}

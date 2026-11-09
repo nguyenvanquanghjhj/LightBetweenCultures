@@ -1,0 +1,250 @@
+UTC run: 2026-10-20T14:37:41.0118717Z | Unity 6000.6.5f1 | 720x1080
+PASS: Production uses approved owner navigation: da_lat
+PASS: Canonical node IDs/count retained: da_lat
+PASS: All canonical arrival positions retained: da_lat
+PASS: Valid connected polyline endpoints and bounds: da_lat
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: da_lat
+PASS: Fresh graph cannot route to HIDDEN nodes: da_lat
+PASS: Every valid fresh destination has a route before optional ferry unlocks: da_lat
+PASS: Production uses approved owner navigation: gyeongju
+PASS: Canonical node IDs/count retained: gyeongju
+PASS: All canonical arrival positions retained: gyeongju
+PASS: Valid connected polyline endpoints and bounds: gyeongju
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: gyeongju
+PASS: Fresh graph cannot route to HIDDEN nodes: gyeongju
+PASS: Every valid fresh destination has a route before optional ferry unlocks: gyeongju
+PASS: Production uses approved owner navigation: hoi_an
+PASS: Canonical node IDs/count retained: hoi_an
+PASS: All canonical arrival positions retained: hoi_an
+PASS: Valid connected polyline endpoints and bounds: hoi_an
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: hoi_an
+PASS: Fresh graph cannot route to HIDDEN nodes: hoi_an
+PASS: Every valid fresh destination has a route before optional ferry unlocks: hoi_an
+PASS: Production uses approved owner navigation: hue
+PASS: Canonical node IDs/count retained: hue
+PASS: All canonical arrival positions retained: hue
+PASS: Valid connected polyline endpoints and bounds: hue
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: hue
+PASS: Fresh graph cannot route to HIDDEN nodes: hue
+PASS: Every valid fresh destination has a route before optional ferry unlocks: hue
+PASS: Production uses approved owner navigation: jeonju
+PASS: Canonical node IDs/count retained: jeonju
+PASS: All canonical arrival positions retained: jeonju
+PASS: Valid connected polyline endpoints and bounds: jeonju
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: jeonju
+PASS: Fresh graph cannot route to HIDDEN nodes: jeonju
+PASS: Every valid fresh destination has a route before optional ferry unlocks: jeonju
+PASS: Production uses approved owner navigation: seoul
+PASS: Canonical node IDs/count retained: seoul
+PASS: All canonical arrival positions retained: seoul
+PASS: Valid connected polyline endpoints and bounds: seoul
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: seoul
+PASS: Fresh graph cannot route to HIDDEN nodes: seoul
+PASS: Every valid fresh destination has a route before optional ferry unlocks: seoul
+PASS: Source totals:133 nodes/29 quests/22 story interactions/12 leisure/6 relics/24 fragments
+PASS: Dijkstra prefers three short polylines over two long edges; closed shortcut rejected
+PASS: Open shortcut used forward; one-way direction respected in reverse
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H0 is discovered
+PASS: Lumi reaches H0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: R1 shortest permitted route uses real boat: H0 -> H16
+PASS: Fresh route runtime image R1-walk-start
+PASS: Actual boat sprite visible on water R1
+PASS: Fresh route runtime image R1-boat
+PASS: R1 real walking/boarding/boat/disembark reaches locked arrival, error=3.411969E-05
+PASS: Closing an event or battle returns map input to the player
+PASS: Disembark restores feet/map input R1
+PASS: Fresh route runtime image R1-disembarked
+PASS: Every emitted dot belongs to an open/discovered actual walk polyline and stays outside roof cover; max error=1.525879E-05
+PASS: One bounded route mesh cannot intercept touch; dots=9
+PASS: Route rendering cannot mutate quests, rewards, relics or save
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H16 is discovered
+PASS: Lumi reaches H16 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: R1 shortest permitted route uses real boat: H16 -> H0
+PASS: Fresh route runtime image R1-reverse-start
+PASS: Actual boat sprite visible on water R1
+PASS: Fresh route runtime image R1-reverse-boat
+PASS: R1 real walking/boarding/boat/disembark reaches locked arrival, error=3.814697E-05
+PASS: Closing an event or battle returns map input to the player
+PASS: Disembark restores feet/map input R1
+PASS: Fresh route runtime image R1-reverse-arrival
+PASS: Every emitted dot belongs to an open/discovered actual walk polyline and stays outside roof cover; max error=0
+PASS: One bounded route mesh cannot intercept touch; dots=0
+PASS: Route rendering cannot mutate quests, rewards, relics or save
+PASS: Persist checkpoint OwnerRoutes-R1
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: Fresh runtime capture written: X-WorldMap-select-da_lat
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D13 is discovered
+PASS: Lumi reaches D13 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: R2 shortest permitted route uses real boat: D13 -> D21
+PASS: Fresh route runtime image R2-walk-start
+PASS: Actual boat sprite visible on water R2
+PASS: Fresh route runtime image R2-boat
+PASS: R2 real walking/boarding/boat/disembark reaches locked arrival, error=6.29136E-05
+PASS: Closing an event or battle returns map input to the player
+PASS: Disembark restores feet/map input R2
+PASS: Fresh route runtime image R2-disembarked
+PASS: Every emitted dot belongs to an open/discovered actual walk polyline and stays outside roof cover; max error=1.525879E-05
+PASS: One bounded route mesh cannot intercept touch; dots=2
+PASS: Route rendering cannot mutate quests, rewards, relics or save
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D21 is discovered
+PASS: Lumi reaches D21 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: R2 shortest permitted route uses real boat: D21 -> D13
+PASS: Fresh route runtime image R2-reverse-start
+PASS: Actual boat sprite visible on water R2
+PASS: Fresh route runtime image R2-reverse-boat
+PASS: R2 real walking/boarding/boat/disembark reaches locked arrival, error=6.823938E-05
+PASS: Closing an event or battle returns map input to the player
+PASS: Disembark restores feet/map input R2
+PASS: Fresh route runtime image R2-reverse-arrival
+PASS: Every emitted dot belongs to an open/discovered actual walk polyline and stays outside roof cover; max error=0
+PASS: One bounded route mesh cannot intercept touch; dots=0
+PASS: Route rendering cannot mutate quests, rewards, relics or save
+PASS: Persist checkpoint OwnerRoutes-R2
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-gyeongju
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G1 is discovered
+PASS: Lumi reaches G1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: R4 shortest permitted route uses real boat: G1 -> G2
+PASS: Fresh route runtime image R4-walk-start
+PASS: Actual boat sprite visible on water R4
+PASS: Fresh route runtime image R4-boat
+PASS: R4 real walking/boarding/boat/disembark reaches locked arrival, error=3.411969E-05
+PASS: Closing an event or battle returns map input to the player
+PASS: Disembark restores feet/map input R4
+PASS: Fresh route runtime image R4-disembarked
+PASS: Every emitted dot belongs to an open/discovered actual walk polyline and stays outside roof cover; max error=0
+PASS: One bounded route mesh cannot intercept touch; dots=1
+PASS: Route rendering cannot mutate quests, rewards, relics or save
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G2 is discovered
+PASS: Lumi reaches G2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: R4 shortest permitted route uses real boat: G2 -> G1
+PASS: Fresh route runtime image R4-reverse-start
+PASS: Actual boat sprite visible on water R4
+PASS: Fresh route runtime image R4-reverse-boat
+PASS: R4 real walking/boarding/boat/disembark reaches locked arrival, error=3.411969E-05
+PASS: Closing an event or battle returns map input to the player
+PASS: Disembark restores feet/map input R4
+PASS: Fresh route runtime image R4-reverse-arrival
+PASS: Every emitted dot belongs to an open/discovered actual walk polyline and stays outside roof cover; max error=0
+PASS: One bounded route mesh cannot intercept touch; dots=3
+PASS: Route rendering cannot mutate quests, rewards, relics or save
+PASS: Persist checkpoint OwnerRoutes-R4
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-gyeongju
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G2 is discovered
+PASS: Lumi reaches G2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: R3 shortest permitted route uses real boat: G2 -> G17
+PASS: Fresh route runtime image R3-walk-start
+PASS: Actual boat sprite visible on water R3
+PASS: Fresh route runtime image R3-boat
+PASS: R3 real walking/boarding/boat/disembark reaches locked arrival, error=3.411969E-05
+PASS: Closing an event or battle returns map input to the player
+PASS: Disembark restores feet/map input R3
+PASS: Fresh route runtime image R3-disembarked
+PASS: Every emitted dot belongs to an open/discovered actual walk polyline and stays outside roof cover; max error=3.411969E-05
+PASS: One bounded route mesh cannot intercept touch; dots=7
+PASS: Route rendering cannot mutate quests, rewards, relics or save
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G17 is discovered
+PASS: Lumi reaches G17 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: R3 shortest permitted route uses real boat: G17 -> G2
+PASS: Fresh route runtime image R3-reverse-start
+PASS: Actual boat sprite visible on water R3
+PASS: Fresh route runtime image R3-reverse-boat
+PASS: R3 real walking/boarding/boat/disembark reaches locked arrival, error=3.411969E-05
+PASS: Closing an event or battle returns map input to the player
+PASS: Disembark restores feet/map input R3
+PASS: Fresh route runtime image R3-reverse-arrival
+PASS: Every emitted dot belongs to an open/discovered actual walk polyline and stays outside roof cover; max error=0
+PASS: One bounded route mesh cannot intercept touch; dots=1
+PASS: Route rendering cannot mutate quests, rewards, relics or save
+PASS: Persist checkpoint OwnerRoutes-R3
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: Fresh runtime capture written: X-WorldMap-select-seoul
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S14 is discovered
+PASS: Lumi reaches S14 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S12 is discovered
+PASS: Lumi reaches S12 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: R5 shortest permitted route uses real boat: S12 -> S14
+PASS: Fresh route runtime image R5-walk-start
+PASS: Actual boat sprite visible on water R5
+PASS: Fresh route runtime image R5-boat
+PASS: R5 real walking/boarding/boat/disembark reaches locked arrival, error=3.411969E-05
+PASS: Closing an event or battle returns map input to the player
+PASS: Disembark restores feet/map input R5
+PASS: Fresh route runtime image R5-disembarked
+PASS: Every emitted dot belongs to an open/discovered actual walk polyline and stays outside roof cover; max error=1.525879E-05
+PASS: One bounded route mesh cannot intercept touch; dots=28
+PASS: Route rendering cannot mutate quests, rewards, relics or save
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S14 is discovered
+PASS: Lumi reaches S14 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: R5 shortest permitted route uses real boat: S14 -> S12
+PASS: Fresh route runtime image R5-reverse-start
+PASS: Actual boat sprite visible on water R5
+PASS: Fresh route runtime image R5-reverse-boat
+PASS: R5 real walking/boarding/boat/disembark reaches locked arrival, error=3.411969E-05
+PASS: Closing an event or battle returns map input to the player
+PASS: Disembark restores feet/map input R5
+PASS: Fresh route runtime image R5-reverse-arrival
+PASS: Every emitted dot belongs to an open/discovered actual walk polyline and stays outside roof cover; max error=3.411969E-05
+PASS: One bounded route mesh cannot intercept touch; dots=5
+PASS: Route rendering cannot mutate quests, rewards, relics or save
+PASS: Persist checkpoint OwnerRoutes-R5
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H0 is discovered
+PASS: Lumi reaches H0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Initial real route passes confirmed junction X1
+PASS: Redirect destination is genuinely revealed X1
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LightBetweenCultures.GameplaySmokeRunner+<OwnerRouteBJourney>d__148.MoveNext () [0x0077e] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.OwnerRoutesB.cs:108 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__276.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

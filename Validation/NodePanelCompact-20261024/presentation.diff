@@ -1,0 +1,94 @@
+--- RC1/GameplayPanels.cs
++++ current/GameplayPanels.cs
+@@ -56,6 +56,25 @@
+                 horizontalOverflow=HorizontalWrapMode.Wrap,generationExtents=new Vector2(width,0)};
+             return new TextGenerator().GetPreferredHeight(text??"",settings);
+         }
++        Sprite DialoguePortrait(EventDefinition definition,bool lumiSpeaking,out bool useMesh)
++        {
++            useMesh=false;
++            if(lumiSpeaking||definition?.actor=="Lumi")return art.lumiPortrait;
++            if(definition==null)return null;
++            // Only actual actors belong above dialogue. A node category badge is
++            // navigation UI, never a substitute portrait for information/actions.
++            var skin=AdventureUIArt.Load();
++            if(definition.type=="encounter")
++            {
++                var enemy=skin.Enemy(definition.enemyId);
++                if(enemy==null||enemy.categoryIcon)return null;
++                useMesh=true;return enemy.portrait??enemy.sprite;
++            }
++            var npc=skin.Npc(definition.npcId);
++            if(npc!=null&&!npc.categoryIcon)
++            {useMesh=npc.portraitUseSpriteMesh;return npc.portrait??npc.sprite;}
++            return definition.legacyTutorial?art.maiPortrait:null;
++        }
+         void DrawDialogue(int node,EventView view,EventDefinition definition,string notice,bool lumiSpeaking,int optionPage=0,bool delivery=false)
+         {
+             var oldPortrait=overlay!=null?overlay.Find("EventPortrait")?.GetComponent<Image>():null;
+@@ -79,8 +98,12 @@
+             Clear();Canvas.ForceUpdateCanvases();
+             overlay=ui.Panel(ui.Root,"GameplayOverlay",Vector2.zero,Vector2.one,new Color(.025f,.07f,.10f,.26f));
+             var scale=DisplayScale;var width=Mathf.Min(700,ui.Root.rect.width/scale-32);
++            var portrait=DialoguePortrait(definition,lumiSpeaking,out var portraitMesh);
++            var speakerName=lumiSpeaking?"Lumi":string.IsNullOrEmpty(view.speaker)?view.title:view.speaker;
++            var locationName=game.Data.nodes[node].name;
++            var showLocation=locationName!=speakerName&&locationName!=view.title;
+             var count=lumiSpeaking?0:view.options.Count;
+-            var headerHeight=82f;
++            var headerHeight=showLocation?82f:60f;
+             var text=PlayerCopy.Display(view.text);var feedbackText=PlayerCopy.Display(notice);
+             if(string.IsNullOrWhiteSpace(feedbackText)||text.Contains(feedbackText)||feedbackText==text)feedbackText="";
+             else if(feedbackText.Length>100){if(!feedbackText.Contains(text))text+="\n\n"+feedbackText;else text=feedbackText;feedbackText="";}
+@@ -89,35 +112,30 @@
+             var visibleOptions=Mathf.Min(optionsHeight,ui.Root.rect.height/scale*.30f);
+             var actionHint=optionsHeight>visibleOptions+.1f?18f:0f;
+             var feedbackHeight=string.IsNullOrEmpty(feedbackText)?0:Mathf.Max(26,TextHeight(feedbackText,width-48,15)+6);
+-            var availableBody=Mathf.Max(56,ui.Root.rect.height/scale-220-visibleOptions-actionHint-feedbackHeight-160-(headerHeight-82));
++            var availableBody=Mathf.Max(56,ui.Root.rect.height/scale-220-visibleOptions-actionHint-feedbackHeight-(portrait!=null?160:0)-(headerHeight-82));
+             var bodyHeight=Mathf.Clamp(TextHeight(text,width-48,20)+8,56,Mathf.Min(156,availableBody));
+             var height=headerHeight+bodyHeight+feedbackHeight+12+visibleOptions+actionHint+(lumiSpeaking?64:16);
+             var sheet=MobileUI.Frame(ui,overlay,"NodeEventPanel",Vector2.zero,Vector2.zero,AdventureUIArt.Load().window,2.8f);
+             sheet.anchorMin=sheet.anchorMax=new Vector2(.5f,0);sheet.pivot=new Vector2(.5f,0);sheet.sizeDelta=new Vector2(width,height);sheet.anchoredPosition=new Vector2(0,18);sheet.localScale=Vector3.one*scale;
+             var entrance=sheet.gameObject.AddComponent<PortraitPresence>();entrance.slide=true;
+-            var portrait=definition!=null&&definition.legacyTutorial?art.maiPortrait:definition?.type=="encounter"?art.enemy:definition?.type=="puzzle"?art.puzzle:art.Kind(game.Data.nodes[node].kind);
+-            var npcArt=AdventureUIArt.Load().Npc(definition?.npcId);
+-            var npcPortrait=npcArt?.portrait??npcArt?.sprite;if(npcPortrait!=null)portrait=npcPortrait;
+-            if(!string.IsNullOrEmpty(definition?.npcId)&&npcPortrait==null&&!definition.legacyTutorial)portrait=null;
+-            var enemyArt=definition?.type=="encounter"?AdventureUIArt.Load().Enemy(definition.enemyId):null;
+-            if(enemyArt!=null)portrait=enemyArt.portrait??enemyArt.sprite??portrait;
+-            if(definition!=null&&!definition.legacyTutorial&&string.IsNullOrEmpty(definition.npcId)&&definition.type!="encounter"&&definition.actor!="Lumi")portrait=null;
+-            if(definition?.actor=="Lumi")portrait=art.lumiPortrait;
+-            var portraitHeight=Mathf.Min(216,(ui.Root.rect.height-18-height*scale)/scale-8);
+-            portraitHeight=Mathf.Max(90,portraitHeight);
+-            var active=ui.Picture(overlay,"EventPortrait",lumiSpeaking?art.lumiPortrait:portrait,Vector2.zero,Vector2.zero);
+-            active.rectTransform.anchorMin=active.rectTransform.anchorMax=new Vector2(.5f,0);active.rectTransform.pivot=new Vector2(.5f,0);
+-            active.rectTransform.sizeDelta=new Vector2(220,portraitHeight)*scale;
+-            active.rectTransform.anchoredPosition=new Vector2((lumiSpeaking?width*.30f:-width*.30f)*scale,18+height*scale-5);
+-            active.useSpriteMesh=!lumiSpeaking&&(npcArt!=null&&npcArt.portraitUseSpriteMesh||enemyArt!=null&&definition?.actor!="Lumi");
+-            active.raycastTarget=false;
+-            active.gameObject.AddComponent<PortraitPresence>().TransitionFrom(oldSprite,oldPosition,oldSize,oldMesh);
+-            active.gameObject.SetActive(active.sprite!=null);
++            if(portrait!=null)
++            {
++                var portraitHeight=Mathf.Min(216,(ui.Root.rect.height-18-height*scale)/scale-8);
++                portraitHeight=Mathf.Max(90,portraitHeight);
++                var active=ui.Picture(overlay,"EventPortrait",portrait,Vector2.zero,Vector2.zero);
++                active.rectTransform.anchorMin=active.rectTransform.anchorMax=new Vector2(.5f,0);active.rectTransform.pivot=new Vector2(.5f,0);
++                active.rectTransform.sizeDelta=new Vector2(220,portraitHeight)*scale;
++                active.rectTransform.anchoredPosition=new Vector2((lumiSpeaking?width*.30f:-width*.30f)*scale,18+height*scale-5);
++                active.useSpriteMesh=portraitMesh;
++                active.raycastTarget=false;
++                active.gameObject.AddComponent<PortraitPresence>().TransitionFrom(oldSprite,oldPosition,oldSize,oldMesh);
++            }
+             var nameplate=ui.Panel(sheet,"SpeakerPlate",Vector2.zero,Vector2.zero,DesignKitArt.Hex("315F64"));Place(nameplate,24,14,width-104,34);MobileUI.Round(nameplate);nameplate.GetComponent<Image>().raycastTarget=false;
+             MobileUI.Symbol(nameplate,"SpeechIcon",AdventureSymbol.Chat,new Vector2(.025f,.10f),new Vector2(.10f,.90f),DesignKitArt.Gold);
+-            var speaker=ui.Label(nameplate,"EventSpeaker",lumiSpeaking?"Lumi":string.IsNullOrEmpty(view.speaker)?view.title:view.speaker,new Vector2(.13f,.05f),new Vector2(.97f,.95f),20,false);speaker.alignment=TextAnchor.MiddleLeft;
++            var speaker=ui.Label(nameplate,"EventSpeaker",speakerName,new Vector2(.13f,.05f),new Vector2(.97f,.95f),20,false);speaker.alignment=TextAnchor.MiddleLeft;
+             MobileUI.CloseButton(ui,sheet,"DialogueCloseX",Close);
+-            var location=ui.Label(sheet,"EventLocation",game.Data.nodes[node].name,Vector2.zero,Vector2.zero,13,false);location.color=DesignKitArt.Teal;location.alignment=TextAnchor.MiddleLeft;Place(location.rectTransform,24,54,width-182,20);
++            if(showLocation)
++            {var location=ui.Label(sheet,"EventLocation",locationName,Vector2.zero,Vector2.zero,13,false);location.color=DesignKitArt.Teal;location.alignment=TextAnchor.MiddleLeft;Place(location.rectTransform,24,54,width-48,20);}
+             var textViewport=ui.Panel(sheet,"DialogueTextViewport",Vector2.zero,Vector2.zero,Color.clear);Place(textViewport,24,headerHeight,width-48,bodyHeight);textViewport.gameObject.AddComponent<RectMask2D>();
+             var body=ui.Label(textViewport,"EventText",text,new Vector2(0,1),Vector2.one,20,false);body.color=DesignKitArt.Ink;body.alignment=TextAnchor.UpperLeft;
+             body.rectTransform.pivot=new Vector2(.5f,1);body.rectTransform.sizeDelta=new Vector2(0,bodyHeight);

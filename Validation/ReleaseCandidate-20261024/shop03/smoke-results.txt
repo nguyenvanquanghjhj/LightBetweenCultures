@@ -1,0 +1,144 @@
+UTC run: 2026-10-23T17:49:50.7943830Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Fresh player sees all nine offers, including other cities, without unlock gates
+PASS: Insufficient funds keeps every offer visible and disables purchase
+PASS: Shop displays actual existing coin balance
+PASS: Backend also rejects insufficient funds without mutation
+PASS: Fresh runtime capture written: SHOP-fresh-all-visible
+PASS: Open/close and X never charge coins or change progress
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H11 is discovered
+PASS: Lumi reaches H11 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing early H11 chest earns six real coins: enough for several ordinary purchases
+PASS: Shop control exists: ShopBuy_chili
+PASS: One real touch debits one coin and grants one ingredient
+PASS: Shop control exists: ShopBuy_chili
+PASS: Rapid repeated touch is debounced, no second debit/grant
+PASS: Shop control exists: ShopBuy_shallot
+PASS: Next deliberate purchase uses the same global fixed price
+PASS: Shop control exists: ShopBuy_herb
+PASS: Buying a quest item never automatically accepts/completes its delivery quest
+PASS: Owned unique item cannot be bought uselessly a second time
+PASS: Shop control exists: ShopFilter_permissions
+PASS: Permission remains visible even before its city/quest timing and shows insufficient funds
+PASS: Persist checkpoint SHOP-earned-items
+PASS: Reload preserves exact balance, inventory and unique ownership in existing schema
+PASS: Backend allowlist rejects forbidden/unknown purchase: lamp_eye
+PASS: Backend allowlist rejects forbidden/unknown purchase: link_key
+PASS: Backend allowlist rejects forbidden/unknown purchase: hanji_core
+PASS: Backend allowlist rejects forbidden/unknown purchase: ancient_seal
+PASS: Backend allowlist rejects forbidden/unknown purchase: relic_hoi_an_lantern
+PASS: Backend allowlist rejects forbidden/unknown purchase: fragment_hoi_an_roof_hook
+PASS: Backend allowlist rejects forbidden/unknown purchase: SQ03
+PASS: Backend allowlist rejects forbidden/unknown purchase: seoul.final_cleared
+PASS: Backend allowlist rejects forbidden/unknown purchase: game.ending_seen
+PASS: Delivery fixture retains the genuinely accepted optional food quest
+PASS: Purchase required chilli/reserve 0
+PASS: Purchase required chilli/reserve 1
+PASS: Purchase required chilli/reserve 2
+PASS: Purchase required shallot/reserve 0
+PASS: Purchase required shallot/reserve 1
+PASS: Five purchased ingredients satisfy the same canonical requirements and reserves
+PASS: Canonical manual delivery consumes purchased ingredients and grants the old reward once
+PASS: A bought ingredient cannot farm repeat quest rewards
+PASS: First transaction token accepted
+PASS: Repeated identical transaction token cannot charge/grant twice
+PASS: Persistent ledger rejects the same request after reload
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: Fresh runtime capture written: X-WorldMap-select-seoul
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Shop control exists: ShopFilter_permissions
+PASS: Shop control exists: ShopBuy_ferry_hq04
+PASS: Permission confirmation has no side effect
+PASS: Cancel preserves every coin, flag and quest
+PASS: Shop control exists: ShopBuy_ferry_hq04
+PASS: Remote paid fare commits exactly five coins and canonical HQ04/ferry state immediately
+PASS: Paid permission touches no other quest, boss, puzzle, relic, item or ending state
+PASS: Completed permission cannot be purchased twice
+PASS: Purchased canonical permission survives reload without duplicate cost/reward
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: Fresh runtime capture written: X-WorldMap-select-da_lat
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Shop control exists: ShopFilter_items
+PASS: All item offers present in da_lat
+PASS: Portrait shop has a real scrollable list: da_lat
+PASS: Shop leaves exact map/save/input intact: da_lat
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-gyeongju
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Shop control exists: ShopFilter_items
+PASS: All item offers present in gyeongju
+PASS: Portrait shop has a real scrollable list: gyeongju
+PASS: Shop leaves exact map/save/input intact: gyeongju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Shop control exists: ShopFilter_items
+PASS: All item offers present in hoi_an
+PASS: Portrait shop has a real scrollable list: hoi_an
+PASS: Shop leaves exact map/save/input intact: hoi_an
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hue
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Shop control exists: ShopFilter_items
+PASS: All item offers present in hue
+PASS: Portrait shop has a real scrollable list: hue
+PASS: Shop leaves exact map/save/input intact: hue
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-jeonju
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Shop control exists: ShopFilter_items
+PASS: All item offers present in jeonju
+PASS: Portrait shop has a real scrollable list: jeonju
+PASS: Shop leaves exact map/save/input intact: jeonju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: Fresh runtime capture written: X-WorldMap-select-seoul
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Shop control exists: ShopFilter_items
+PASS: All item offers present in seoul
+PASS: Portrait shop has a real scrollable list: seoul
+PASS: Fresh runtime capture written: SHOP-seoul-items-scrolled
+PASS: Shop leaves exact map/save/input intact: seoul
+PASS: Original manual HQ04 acceptance/payment still works at the canonical NPC
+PASS: Manual completion is recognized as owned in the shop, no useless charge
+PASS: Failed persistence rolls back coin, inventory and ledger in memory
+PASS: Failed transaction temporary payload contains the original state, not an unacknowledged debit
+PASS: Existing v1 compatibility preserves shop balance/items/permission without schema changes
+PASS: Persist checkpoint SHOP-final
+ALL CHECKS PASSED

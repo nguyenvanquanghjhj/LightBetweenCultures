@@ -1,0 +1,159 @@
+UTC run: 2026-10-24T17:45:53.5084437Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Optional NPC keeps original one-time interaction: G16
+PASS: Every actual talk/item-wait marker has a visible actor: gyeongju:G16
+PASS: Actor respects real discovery/resolution: G16
+PASS: Real assigned sprite/aspect/outline preserved: G16
+PASS: Shared72percent scale and52-unit touch area: G16
+PASS: Visible map NPC uses its own existing sprite: G16
+PASS: Fresh runtime capture written: ThreeNpc-Map-G16
+PASS: Lumi reaches NPC without a new route: G16
+PASS: Correct native NPC portrait: G16
+PASS: Correct Korean name: G16
+PASS: Initial/return dialogue: G16
+PASS: Dialogue panel fits screen: G16
+PASS: Close control center is outside reading area: G16
+PASS: Text does not overlap button: G16/EventOption_talk
+PASS: Reading dialogue grants nothing: G16
+PASS: Close before gift preserves state and restores map: G16
+PASS: Fresh runtime capture written: ThreeNpc-Dialogue-G16
+PASS: Exact original reward through NPC talk: G16
+PASS: Tea receipt has exact amount: G16
+PASS: Coin receipt has exact amount: G16
+PASS: Rapid stale callbacks while receipt is open cannot duplicate reward: G16
+PASS: Original ledger resolves without story/quest changes: G16
+PASS: Closing an event or battle returns map input to the player
+PASS: Return greeting replaces initial gift offer: G16
+PASS: No old chest collection offered: G16
+PASS: Repeated/stale talk and collect cannot duplicate reward: G16
+PASS: Return/reload does not replay a reward receipt: G16
+PASS: Closing an event or battle returns map input to the player
+PASS: Panel closes and restores map controls: G16
+PASS: Original graph still has a reachable neighbor: G16
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G0 is discovered
+PASS: Lumi reaches G0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G16 is discovered
+PASS: Lumi reaches G16 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Lumi moves out and returns on original routes: G16
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Optional NPC keeps original one-time interaction: G21
+PASS: Every actual talk/item-wait marker has a visible actor: gyeongju:G21
+PASS: Actor respects real discovery/resolution: G21
+PASS: Real assigned sprite/aspect/outline preserved: G21
+PASS: Shared72percent scale and52-unit touch area: G21
+PASS: Visible map NPC uses its own existing sprite: G21
+PASS: Fresh runtime capture written: ThreeNpc-Map-G21
+PASS: Lumi reaches NPC without a new route: G21
+PASS: Correct native NPC portrait: G21
+PASS: Correct Korean name: G21
+PASS: Initial/return dialogue: G21
+PASS: Dialogue panel fits screen: G21
+PASS: Close control center is outside reading area: G21
+PASS: Text does not overlap button: G21/EventOption_talk
+PASS: Reading dialogue grants nothing: G21
+PASS: Close before gift preserves state and restores map: G21
+PASS: Fresh runtime capture written: ThreeNpc-Dialogue-G21
+PASS: Exact original reward through NPC talk: G21
+PASS: Tea receipt has exact amount: G21
+PASS: Coin receipt has exact amount: G21
+PASS: Rapid stale callbacks while receipt is open cannot duplicate reward: G21
+PASS: Original ledger resolves without story/quest changes: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: Return greeting replaces initial gift offer: G21
+PASS: No old chest collection offered: G21
+PASS: Repeated/stale talk and collect cannot duplicate reward: G21
+PASS: Return/reload does not replay a reward receipt: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: Panel closes and restores map controls: G21
+PASS: Original graph still has a reachable neighbor: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G0 is discovered
+PASS: Lumi reaches G0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G21 is discovered
+PASS: Lumi reaches G21 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Lumi moves out and returns on original routes: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Optional NPC keeps original one-time interaction: S12
+PASS: Every actual talk/item-wait marker has a visible actor: seoul:S12
+PASS: Actor respects real discovery/resolution: S12
+PASS: Real assigned sprite/aspect/outline preserved: S12
+PASS: Shared72percent scale and52-unit touch area: S12
+PASS: Visible map NPC uses its own existing sprite: S12
+PASS: Fresh runtime capture written: ThreeNpc-Map-S12
+PASS: Lumi reaches NPC without a new route: S12
+PASS: Correct native NPC portrait: S12
+PASS: Correct Korean name: S12
+PASS: Initial/return dialogue: S12
+PASS: Dialogue panel fits screen: S12
+PASS: Close control center is outside reading area: S12
+PASS: Text does not overlap button: S12/EventOption_talk
+PASS: Reading dialogue grants nothing: S12
+PASS: Close before gift preserves state and restores map: S12
+PASS: Fresh runtime capture written: ThreeNpc-Dialogue-S12
+PASS: Exact original reward through NPC talk: S12
+PASS: Tea receipt has exact amount: S12
+PASS: Coin receipt has exact amount: S12
+PASS: Rapid stale callbacks while receipt is open cannot duplicate reward: S12
+PASS: Original ledger resolves without story/quest changes: S12
+PASS: Closing an event or battle returns map input to the player
+PASS: Return greeting replaces initial gift offer: S12
+PASS: No old chest collection offered: S12
+PASS: Repeated/stale talk and collect cannot duplicate reward: S12
+PASS: Return/reload does not replay a reward receipt: S12
+PASS: Closing an event or battle returns map input to the player
+PASS: Panel closes and restores map controls: S12
+PASS: Original graph still has a reachable neighbor: S12
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S0 is discovered
+PASS: Lumi reaches S0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S12 is discovered
+PASS: Lumi reaches S12 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Lumi moves out and returns on original routes: S12
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Old claimed-save key selects return greeting: G16
+PASS: Old claimed save receives no additional items/coins: G16
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Old claimed-save key selects return greeting: G21
+PASS: Old claimed save receives no additional items/coins: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Old claimed-save key selects return greeting: S12
+PASS: Old claimed save receives no additional items/coins: S12
+ALL CHECKS PASSED

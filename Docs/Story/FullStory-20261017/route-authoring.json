@@ -1,0 +1,1455 @@
+[
+  {
+    "cityId": "gyeongju",
+    "edge": "G0__G21",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.345994475,
+        "y": 0.132596685
+      },
+      {
+        "x": 0.310082873,
+        "y": 0.136279926
+      },
+      {
+        "x": 0.277624309,
+        "y": 0.155616943
+      },
+      {
+        "x": 0.248618785,
+        "y": 0.180478821
+      },
+      {
+        "x": 0.217541436,
+        "y": 0.196132597
+      },
+      {
+        "x": 0.189226519,
+        "y": 0.209023941
+      },
+      {
+        "x": 0.158149171,
+        "y": 0.224677716
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G0__G1",
+    "oldWaypoints": [
+      {
+        "x": 0.358,
+        "y": 0.22
+      },
+      {
+        "x": 0.418,
+        "y": 0.262
+      }
+    ],
+    "newWaypoints": [
+      {
+        "x": 0.431629834,
+        "y": 0.158379374
+      },
+      {
+        "x": 0.46339779,
+        "y": 0.184162063
+      },
+      {
+        "x": 0.507596685,
+        "y": 0.186003683
+      },
+      {
+        "x": 0.49378453,
+        "y": 0.208103131
+      },
+      {
+        "x": 0.486878453,
+        "y": 0.238489871
+      },
+      {
+        "x": 0.474447514,
+        "y": 0.269797422
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G0__G16",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.431629834,
+        "y": 0.158379374
+      },
+      {
+        "x": 0.46339779,
+        "y": 0.184162063
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G1__G11",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.475828729,
+        "y": 0.333333333
+      },
+      {
+        "x": 0.495856354,
+        "y": 0.38121547
+      },
+      {
+        "x": 0.518646409,
+        "y": 0.415285451
+      },
+      {
+        "x": 0.540745856,
+        "y": 0.445672192
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G1__G2",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.475828729,
+        "y": 0.333333333
+      },
+      {
+        "x": 0.495856354,
+        "y": 0.38121547
+      },
+      {
+        "x": 0.518646409,
+        "y": 0.415285451
+      },
+      {
+        "x": 0.540745856,
+        "y": 0.445672192
+      },
+      {
+        "x": 0.54281768,
+        "y": 0.479742173
+      },
+      {
+        "x": 0.532458564,
+        "y": 0.507366483
+      },
+      {
+        "x": 0.519337017,
+        "y": 0.53038674
+      },
+      {
+        "x": 0.495856354,
+        "y": 0.556169429
+      },
+      {
+        "x": 0.471685083,
+        "y": 0.578268877
+      },
+      {
+        "x": 0.451657459,
+        "y": 0.604051565
+      },
+      {
+        "x": 0.429558011,
+        "y": 0.624309392
+      },
+      {
+        "x": 0.414364641,
+        "y": 0.64732965
+      },
+      {
+        "x": 0.392955801,
+        "y": 0.663904236
+      },
+      {
+        "x": 0.369475138,
+        "y": 0.67587477
+      },
+      {
+        "x": 0.345303867,
+        "y": 0.692449355
+      },
+      {
+        "x": 0.331491713,
+        "y": 0.715469613
+      },
+      {
+        "x": 0.357044199,
+        "y": 0.738489871
+      },
+      {
+        "x": 0.332872928,
+        "y": 0.739410681
+      },
+      {
+        "x": 0.309392265,
+        "y": 0.743093923
+      },
+      {
+        "x": 0.278314917,
+        "y": 0.741252302
+      },
+      {
+        "x": 0.254834254,
+        "y": 0.737569061
+      },
+      {
+        "x": 0.22859116,
+        "y": 0.732965009
+      },
+      {
+        "x": 0.202348066,
+        "y": 0.732965009
+      },
+      {
+        "x": 0.174033149,
+        "y": 0.743093923
+      },
+      {
+        "x": 0.139502762,
+        "y": 0.758747698
+      },
+      {
+        "x": 0.120856354,
+        "y": 0.732965009
+      },
+      {
+        "x": 0.104281768,
+        "y": 0.7053407
+      },
+      {
+        "x": 0.107044199,
+        "y": 0.679558011
+      },
+      {
+        "x": 0.125,
+        "y": 0.651933702
+      },
+      {
+        "x": 0.151933702,
+        "y": 0.632596685
+      },
+      {
+        "x": 0.174033149,
+        "y": 0.623388582
+      },
+      {
+        "x": 0.183701657,
+        "y": 0.592081031
+      },
+      {
+        "x": 0.18301105,
+        "y": 0.563535912
+      },
+      {
+        "x": 0.190607735,
+        "y": 0.532228361
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G2__G17",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.190607735,
+        "y": 0.532228361
+      },
+      {
+        "x": 0.18301105,
+        "y": 0.563535912
+      },
+      {
+        "x": 0.183701657,
+        "y": 0.592081031
+      },
+      {
+        "x": 0.174033149,
+        "y": 0.623388582
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G17__G5",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.125,
+        "y": 0.651933702
+      },
+      {
+        "x": 0.107044199,
+        "y": 0.679558011
+      },
+      {
+        "x": 0.104281768,
+        "y": 0.7053407
+      },
+      {
+        "x": 0.120856354,
+        "y": 0.732965009
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G5__G6",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.174033149,
+        "y": 0.743093923
+      },
+      {
+        "x": 0.202348066,
+        "y": 0.732965009
+      },
+      {
+        "x": 0.22859116,
+        "y": 0.732965009
+      },
+      {
+        "x": 0.254834254,
+        "y": 0.737569061
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G6__G3",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.309392265,
+        "y": 0.743093923
+      },
+      {
+        "x": 0.332872928,
+        "y": 0.739410681
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G3__G4",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.383977901,
+        "y": 0.744935543
+      },
+      {
+        "x": 0.418508287,
+        "y": 0.748618785
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G3__G11",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.331491713,
+        "y": 0.715469613
+      },
+      {
+        "x": 0.345303867,
+        "y": 0.692449355
+      },
+      {
+        "x": 0.369475138,
+        "y": 0.67587477
+      },
+      {
+        "x": 0.392955801,
+        "y": 0.663904236
+      },
+      {
+        "x": 0.414364641,
+        "y": 0.64732965
+      },
+      {
+        "x": 0.429558011,
+        "y": 0.624309392
+      },
+      {
+        "x": 0.451657459,
+        "y": 0.604051565
+      },
+      {
+        "x": 0.471685083,
+        "y": 0.578268877
+      },
+      {
+        "x": 0.495856354,
+        "y": 0.556169429
+      },
+      {
+        "x": 0.519337017,
+        "y": 0.53038674
+      },
+      {
+        "x": 0.532458564,
+        "y": 0.507366483
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G19__G9",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.580110497,
+        "y": 0.680478821
+      },
+      {
+        "x": 0.604972376,
+        "y": 0.656537753
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G9__G15",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.660911602,
+        "y": 0.632596685
+      },
+      {
+        "x": 0.688535912,
+        "y": 0.655616943
+      },
+      {
+        "x": 0.716850829,
+        "y": 0.686924494
+      },
+      {
+        "x": 0.742403315,
+        "y": 0.715469613
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G15__G10",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.777624309,
+        "y": 0.772559853
+      },
+      {
+        "x": 0.79558011,
+        "y": 0.761510129
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G10__G18",
+    "oldWaypoints": [],
+    "newWaypoints": [],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G18__G14",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.835635359,
+        "y": 0.732965009
+      },
+      {
+        "x": 0.860497238,
+        "y": 0.70441989
+      },
+      {
+        "x": 0.88121547,
+        "y": 0.671270718
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G14__G8",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.835635359,
+        "y": 0.612338858
+      },
+      {
+        "x": 0.810082873,
+        "y": 0.585635359
+      },
+      {
+        "x": 0.785911602,
+        "y": 0.563535912
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G8__G7",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.699585635,
+        "y": 0.541436464
+      },
+      {
+        "x": 0.659530387,
+        "y": 0.55985267
+      },
+      {
+        "x": 0.623618785,
+        "y": 0.579189687
+      },
+      {
+        "x": 0.591160221,
+        "y": 0.592081031
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G7__G11",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.575966851,
+        "y": 0.534069982
+      },
+      {
+        "x": 0.560773481,
+        "y": 0.507366483
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G12__G13",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.638121547,
+        "y": 0.395027624
+      },
+      {
+        "x": 0.672651934,
+        "y": 0.38213628
+      },
+      {
+        "x": 0.70718232,
+        "y": 0.372928177
+      },
+      {
+        "x": 0.740331492,
+        "y": 0.366482505
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G13__G20",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.803176796,
+        "y": 0.369244936
+      },
+      {
+        "x": 0.839779006,
+        "y": 0.379373849
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G8__G13",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.779696133,
+        "y": 0.514732965
+      },
+      {
+        "x": 0.787983425,
+        "y": 0.478821363
+      },
+      {
+        "x": 0.787292818,
+        "y": 0.443830571
+      },
+      {
+        "x": 0.778314917,
+        "y": 0.404235727
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G16__G12",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.49378453,
+        "y": 0.208103131
+      },
+      {
+        "x": 0.486878453,
+        "y": 0.238489871
+      },
+      {
+        "x": 0.474447514,
+        "y": 0.269797422
+      },
+      {
+        "x": 0.465469613,
+        "y": 0.29558011
+      },
+      {
+        "x": 0.475828729,
+        "y": 0.333333333
+      },
+      {
+        "x": 0.495856354,
+        "y": 0.38121547
+      },
+      {
+        "x": 0.518646409,
+        "y": 0.415285451
+      },
+      {
+        "x": 0.540745856,
+        "y": 0.445672192
+      },
+      {
+        "x": 0.54281768,
+        "y": 0.479742173
+      },
+      {
+        "x": 0.568370166,
+        "y": 0.459484346
+      },
+      {
+        "x": 0.58839779,
+        "y": 0.435543278
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G4__G9",
+    "oldWaypoints": null,
+    "newWaypoints": [
+      {
+        "x": 0.490331492,
+        "y": 0.739410681
+      },
+      {
+        "x": 0.519337017,
+        "y": 0.715469613
+      },
+      {
+        "x": 0.554558011,
+        "y": 0.715469613
+      },
+      {
+        "x": 0.580110497,
+        "y": 0.680478821
+      },
+      {
+        "x": 0.604972376,
+        "y": 0.656537753
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "gyeongju",
+    "edge": "G18__G19",
+    "oldWaypoints": null,
+    "newWaypoints": [
+      {
+        "x": 0.777624309,
+        "y": 0.772559853
+      },
+      {
+        "x": 0.763121547,
+        "y": 0.741252302
+      },
+      {
+        "x": 0.742403315,
+        "y": 0.715469613
+      },
+      {
+        "x": 0.716850829,
+        "y": 0.686924494
+      },
+      {
+        "x": 0.688535912,
+        "y": 0.655616943
+      },
+      {
+        "x": 0.660911602,
+        "y": 0.632596685
+      },
+      {
+        "x": 0.626381215,
+        "y": 0.61878453
+      },
+      {
+        "x": 0.604972376,
+        "y": 0.656537753
+      },
+      {
+        "x": 0.580110497,
+        "y": 0.680478821
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S0__S12",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.483425414,
+        "y": 0.286372007
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S0__S14",
+    "oldWaypoints": [
+      {
+        "x": 0.453,
+        "y": 0.27
+      },
+      {
+        "x": 0.398,
+        "y": 0.229
+      }
+    ],
+    "newWaypoints": [
+      {
+        "x": 0.483425414,
+        "y": 0.286372007
+      },
+      {
+        "x": 0.448895028,
+        "y": 0.298342541
+      },
+      {
+        "x": 0.421270718,
+        "y": 0.276243094
+      },
+      {
+        "x": 0.393646409,
+        "y": 0.255985267
+      },
+      {
+        "x": 0.373618785,
+        "y": 0.238489871
+      },
+      {
+        "x": 0.355662983,
+        "y": 0.224677716
+      },
+      {
+        "x": 0.335635359,
+        "y": 0.212707182
+      },
+      {
+        "x": 0.315607735,
+        "y": 0.215469613
+      },
+      {
+        "x": 0.294889503,
+        "y": 0.226519337
+      },
+      {
+        "x": 0.281077348,
+        "y": 0.241252302
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S12__S13",
+    "oldWaypoints": [
+      {
+        "x": 0.429,
+        "y": 0.387
+      },
+      {
+        "x": 0.385,
+        "y": 0.438
+      }
+    ],
+    "newWaypoints": [
+      {
+        "x": 0.421270718,
+        "y": 0.276243094
+      },
+      {
+        "x": 0.393646409,
+        "y": 0.255985267
+      },
+      {
+        "x": 0.373618785,
+        "y": 0.238489871
+      },
+      {
+        "x": 0.355662983,
+        "y": 0.224677716
+      },
+      {
+        "x": 0.335635359,
+        "y": 0.212707182
+      },
+      {
+        "x": 0.315607735,
+        "y": 0.215469613
+      },
+      {
+        "x": 0.294889503,
+        "y": 0.226519337
+      },
+      {
+        "x": 0.281077348,
+        "y": 0.241252302
+      },
+      {
+        "x": 0.264502762,
+        "y": 0.23572744
+      },
+      {
+        "x": 0.248618785,
+        "y": 0.269797422
+      },
+      {
+        "x": 0.222375691,
+        "y": 0.302025783
+      },
+      {
+        "x": 0.197513812,
+        "y": 0.330570902
+      },
+      {
+        "x": 0.172651934,
+        "y": 0.355432781
+      },
+      {
+        "x": 0.159530387,
+        "y": 0.372928177
+      },
+      {
+        "x": 0.193370166,
+        "y": 0.391344383
+      },
+      {
+        "x": 0.230662983,
+        "y": 0.406998158
+      },
+      {
+        "x": 0.268646409,
+        "y": 0.426335175
+      },
+      {
+        "x": 0.306629834,
+        "y": 0.446593002
+      },
+      {
+        "x": 0.345303867,
+        "y": 0.465930018
+      },
+      {
+        "x": 0.379834254,
+        "y": 0.482504604
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S13__S15",
+    "oldWaypoints": [],
+    "newWaypoints": [],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S15__S4",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.379834254,
+        "y": 0.523020258
+      },
+      {
+        "x": 0.352209945,
+        "y": 0.539594843
+      },
+      {
+        "x": 0.321132597,
+        "y": 0.569981584
+      },
+      {
+        "x": 0.290745856,
+        "y": 0.565377532
+      },
+      {
+        "x": 0.258977901,
+        "y": 0.576427256
+      },
+      {
+        "x": 0.230662983,
+        "y": 0.591160221
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S4__S2",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.21961326,
+        "y": 0.635359116
+      },
+      {
+        "x": 0.246546961,
+        "y": 0.656537753
+      },
+      {
+        "x": 0.27140884,
+        "y": 0.669429098
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S2__S3",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.292127072,
+        "y": 0.70441989
+      },
+      {
+        "x": 0.290055249,
+        "y": 0.73480663
+      },
+      {
+        "x": 0.282458564,
+        "y": 0.760589319
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S2__S21",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.27140884,
+        "y": 0.669429098
+      },
+      {
+        "x": 0.246546961,
+        "y": 0.656537753
+      },
+      {
+        "x": 0.21961326,
+        "y": 0.635359116
+      },
+      {
+        "x": 0.208563536,
+        "y": 0.613259669
+      },
+      {
+        "x": 0.230662983,
+        "y": 0.591160221
+      },
+      {
+        "x": 0.258977901,
+        "y": 0.576427256
+      },
+      {
+        "x": 0.290745856,
+        "y": 0.565377532
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S3__S17",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.304558011,
+        "y": 0.772559853
+      },
+      {
+        "x": 0.334944751,
+        "y": 0.752302026
+      },
+      {
+        "x": 0.366022099,
+        "y": 0.732044199
+      },
+      {
+        "x": 0.397099448,
+        "y": 0.70626151
+      },
+      {
+        "x": 0.429558011,
+        "y": 0.680478821
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S17__S5",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.492403315,
+        "y": 0.635359116
+      },
+      {
+        "x": 0.517265193,
+        "y": 0.616022099
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S5__S8",
+    "oldWaypoints": [],
+    "newWaypoints": [],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S8__S9",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.564917127,
+        "y": 0.652854512
+      },
+      {
+        "x": 0.587016575,
+        "y": 0.682320442
+      },
+      {
+        "x": 0.609116022,
+        "y": 0.709944751
+      },
+      {
+        "x": 0.633977901,
+        "y": 0.732965009
+      },
+      {
+        "x": 0.658149171,
+        "y": 0.781767956
+      },
+      {
+        "x": 0.689226519,
+        "y": 0.76427256
+      },
+      {
+        "x": 0.724447514,
+        "y": 0.743093923
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S9__S10",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.724447514,
+        "y": 0.743093923
+      },
+      {
+        "x": 0.689226519,
+        "y": 0.76427256
+      },
+      {
+        "x": 0.658149171,
+        "y": 0.781767956
+      },
+      {
+        "x": 0.684392265,
+        "y": 0.787292818
+      },
+      {
+        "x": 0.705801105,
+        "y": 0.809392265
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S10__S22",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.705801105,
+        "y": 0.809392265
+      },
+      {
+        "x": 0.684392265,
+        "y": 0.787292818
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S9__S11",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.796961326,
+        "y": 0.718232044
+      },
+      {
+        "x": 0.827348066,
+        "y": 0.709944751
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S11__S7",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.848756906,
+        "y": 0.67771639
+      },
+      {
+        "x": 0.831491713,
+        "y": 0.641804788
+      },
+      {
+        "x": 0.80801105,
+        "y": 0.609576427
+      },
+      {
+        "x": 0.784530387,
+        "y": 0.573664825
+      },
+      {
+        "x": 0.76519337,
+        "y": 0.537753223
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S7__S18",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.714088398,
+        "y": 0.486187845
+      },
+      {
+        "x": 0.694060773,
+        "y": 0.47053407
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S18__S1",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.639502762,
+        "y": 0.459484346
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S1__S6",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.634668508,
+        "y": 0.430939227
+      },
+      {
+        "x": 0.669889503,
+        "y": 0.41252302
+      },
+      {
+        "x": 0.700276243,
+        "y": 0.393186004
+      },
+      {
+        "x": 0.72859116,
+        "y": 0.372007366
+      },
+      {
+        "x": 0.752762431,
+        "y": 0.342541436
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S6__S16",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.812154696,
+        "y": 0.278084715
+      },
+      {
+        "x": 0.83218232,
+        "y": 0.247697974
+      },
+      {
+        "x": 0.850138122,
+        "y": 0.225598527
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S16__S19",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.850138122,
+        "y": 0.225598527
+      },
+      {
+        "x": 0.83218232,
+        "y": 0.247697974
+      },
+      {
+        "x": 0.812154696,
+        "y": 0.278084715
+      },
+      {
+        "x": 0.787292818,
+        "y": 0.306629834
+      },
+      {
+        "x": 0.814917127,
+        "y": 0.309392265
+      },
+      {
+        "x": 0.842541436,
+        "y": 0.29558011
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S19__S20",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.875690608,
+        "y": 0.302946593
+      },
+      {
+        "x": 0.863950276,
+        "y": 0.339779006
+      },
+      {
+        "x": 0.849447514,
+        "y": 0.372928177
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S13__S1",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.45718232,
+        "y": 0.493554328
+      },
+      {
+        "x": 0.48480663,
+        "y": 0.487108656
+      },
+      {
+        "x": 0.513812155,
+        "y": 0.476979742
+      },
+      {
+        "x": 0.542127072,
+        "y": 0.465009208
+      },
+      {
+        "x": 0.574585635,
+        "y": 0.453959484
+      }
+    ],
+    "travel": "walk",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  },
+  {
+    "cityId": "seoul",
+    "edge": "S6__S14",
+    "oldWaypoints": [],
+    "newWaypoints": [
+      {
+        "x": 0.766574586,
+        "y": 0.26335175
+      },
+      {
+        "x": 0.732044199,
+        "y": 0.217311234
+      },
+      {
+        "x": 0.690607735,
+        "y": 0.167587477
+      },
+      {
+        "x": 0.642265193,
+        "y": 0.123388582
+      },
+      {
+        "x": 0.587016575,
+        "y": 0.08839779
+      },
+      {
+        "x": 0.517955801,
+        "y": 0.079189687
+      },
+      {
+        "x": 0.448895028,
+        "y": 0.099447514
+      },
+      {
+        "x": 0.386740331,
+        "y": 0.134438306
+      },
+      {
+        "x": 0.324585635,
+        "y": 0.17587477
+      }
+    ],
+    "travel": "ferry",
+    "review": "NEEDS_REVIEW; original painting/corridor overlay and runtime must be visually accepted"
+  }
+]

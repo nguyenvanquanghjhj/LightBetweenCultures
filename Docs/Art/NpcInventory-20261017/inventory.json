@@ -1,0 +1,1955 @@
+{
+  "scope": "Current NPC registry + native binding export + exact NPC source sheets and rejected drafts. Excludes Lumi/enemy art as independent NPCs.",
+  "approvalChanges": [],
+  "bindingChanges": [],
+  "runtimeTest": "NOT VERIFIED in this inventory pass",
+  "counts": {
+    "canonical": 8,
+    "assignedUnconfirmed": 12,
+    "missingPortraitRoles": 7,
+    "nativeNpcScope": 51,
+    "assignedNative": 20,
+    "unboundNative": 31,
+    "unboundClassification": {
+      "WHOLE_CONCEPT_SHEET": 3,
+      "AUTO_SLICE_FRAGMENT": 22,
+      "RESERVED_MAI_VARIANT": 1,
+      "MULTI_PERSON_COMPOSITE": 2,
+      "SINGLE_PERSON_CANDIDATE_NEEDS_REVIEW": 1,
+      "BOT_RESERVED": 2
+    },
+    "rejectedNpcDraftSourceFiles": 4
+  },
+  "npcs": [
+    {
+      "npcId": "npc_ba_tu",
+      "name": "Bà Tư",
+      "status": "CANONICAL",
+      "locations": [
+        "Hội An H10"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_ba_tu.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "spriteName": "H3_07_Characters_NPC_Concept_23",
+          "guid": "ab62ba1e558f7274984500bb1cac18f6",
+          "localId": "8637574531497076435",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17.",
+          "provenance": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "catalogIssues": [
+            "transparent sheet; individual crop/padding requires review before registration"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_ba_tu",
+          "type": "npc",
+          "speaker": "Bà Tư",
+          "questId": "HQ02",
+          "cityId": "hoi_an",
+          "nodeId": "H10"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_boat",
+      "name": "Bến phà thông tin",
+      "status": "MISSING_VISUAL",
+      "locations": [
+        "Seoul S14"
+      ],
+      "visuals": [],
+      "interaction": [
+        {
+          "eventId": "npc_boat",
+          "type": "npc",
+          "speaker": "Bến phà thông tin",
+          "questId": "",
+          "cityId": "seoul",
+          "nodeId": "S14"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {
+        "reviewed": "2026-10-17",
+        "assetStatus": "NEEDS_NEW_ART",
+        "decision": "S14 có tương tác bến phà nhưng chưa khóa nhân dạng người nói. Hai bác lái đò hiện hữu đã thuộc npc_boatman/npc_tam. Không dùng mặt của họ cho vai trò độc lập ở Seoul.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+      },
+      "proposal": "Event mang tên địa điểm Bến phà thông tin; chưa xác định nhân dạng người nói. Không dùng bác lái đò Hội An/Tâm làm người khác."
+    },
+    {
+      "npcId": "npc_boatman",
+      "name": "Bác Lái Đò",
+      "status": "CANONICAL",
+      "locations": [
+        "Hội An H17"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_boatman.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+          "spriteName": "NPC_HoiAn_Boatman",
+          "guid": "3835aa72bd8c88b41af32d4aabd40b98",
+          "localId": "21300000",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17.",
+          "provenance": "Assets/_Game/Art/Runtime/AdventureUI/Boatman_Portrait.png",
+          "catalogIssues": []
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_boatman",
+          "type": "npc",
+          "speaker": "Bác Lái Đò",
+          "questId": "HQ04",
+          "cityId": "hoi_an",
+          "nodeId": "H17"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_curator",
+      "name": "Quản thủ bảo tàng",
+      "status": "MISSING_VISUAL",
+      "locations": [
+        "Seoul S2"
+      ],
+      "visuals": [],
+      "interaction": [
+        {
+          "eventId": "npc_curator",
+          "type": "npc",
+          "speaker": "Quản thủ bảo tàng",
+          "questId": "SQ02",
+          "cityId": "seoul",
+          "nodeId": "S2"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {
+        "reviewed": "2026-10-17",
+        "assetStatus": "NEEDS_NEW_ART",
+        "decision": "S2 cần người quản lý di tích/bảo tàng tại Seoul. Gương mặt Tech-Curator trên roster/moodboard đã thuộc So-yeon. Min, Phúc, Yoon đã có vai trò; không có ứng viên sạch, độc lập và phù hợp được xác minh.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+      },
+      "proposal": "Chưa thấy ứng viên đủ căn cứ cho quản thủ Seoul; không mượn Min, Yoon hoặc Phúc."
+    },
+    {
+      "npcId": "npc_elder",
+      "name": "Người giữ chuyện",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Jeonju J16"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_elder.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+          "spriteName": "npc_elder",
+          "guid": "9e2ba05a32d628045ae4dce1b7b1cb19",
+          "localId": "245854044",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-33d3b4b8-0005-46d6-af23-f7edb2cf564d.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_elder"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_elder",
+          "type": "dialogue",
+          "speaker": "Người giữ chuyện",
+          "questId": "",
+          "cityId": "jeonju",
+          "nodeId": "J16"
+        },
+        {
+          "eventId": "chapter_jq04_offer",
+          "type": "quest",
+          "speaker": "Người giữ chuyện",
+          "questId": "JQ04",
+          "cityId": "jeonju",
+          "nodeId": "J16"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_engineer",
+      "name": "Kỹ sư Trạm Số",
+      "status": "MISSING_VISUAL",
+      "locations": [
+        "Seoul S11"
+      ],
+      "visuals": [],
+      "interaction": [
+        {
+          "eventId": "npc_engineer",
+          "type": "npc",
+          "speaker": "Kỹ sư Trạm Số",
+          "questId": "",
+          "cityId": "seoul",
+          "nodeId": "S11"
+        },
+        {
+          "eventId": "sq02_finish",
+          "type": "quest",
+          "speaker": "Kỹ sư Trạm Số",
+          "questId": "SQ02",
+          "cityId": "seoul",
+          "nodeId": "S11"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {
+        "reviewed": "2026-10-17",
+        "assetStatus": "NEEDS_NEW_ART",
+        "decision": "S11 cần kỹ sư trạm; cô gái công nghệ đã thuộc So-yeon. Nghệ nhân trên Composite_Illustrated chỉ là hình nhỏ khoảng 100×135, có nền, chưa có bản cắt sạch đạt kích thước portrait hiện tại; không ép dùng làm kỹ sư.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+      },
+      "proposal": "Chưa thấy ứng viên kỹ sư độc lập đủ căn cứ; không dùng lại So-yeon."
+    },
+    {
+      "npcId": "npc_gardener",
+      "name": "Người Làm Vườn",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Đà Lạt D13"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_gardener.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+          "spriteName": "npc_gardener",
+          "guid": "cac9b7f04788a1743af1858d523019df",
+          "localId": "1390191892",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-592f122b-a363-41ad-9bd3-ebc0dfa9379e.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_gardener"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_gardener",
+          "type": "npc",
+          "speaker": "Người Làm Vườn",
+          "questId": "DQ04",
+          "cityId": "da_lat",
+          "nodeId": "D13"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_guest",
+      "name": "Ji-eun",
+      "status": "CANONICAL",
+      "locations": [
+        "Hội An H18"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_guest.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_guest",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-404209332",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17.",
+          "provenance": "Assets/_Game/Art/Runtime/AdventureUI/NPC_TransparentAtlas.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_scholar, npc_hana, npc_min"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_guest",
+          "type": "npc",
+          "speaker": "Khách lạ Hàn Quốc",
+          "questId": "HQ03",
+          "cityId": "hoi_an",
+          "nodeId": "H18"
+        },
+        {
+          "eventId": "chapter_jq04_return",
+          "type": "quest",
+          "speaker": "Khách lạ Hàn Quốc",
+          "questId": "JQ04",
+          "cityId": "hoi_an",
+          "nodeId": "H18"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_hana",
+      "name": "Nghệ nhân Hana",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Jeonju J2"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_hana.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_hana",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-730319472",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "Assets/_Game/Art/Runtime/AdventureUI/NPC_TransparentAtlas.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_scholar, npc_hana, npc_min"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_hana",
+          "type": "npc",
+          "speaker": "Nghệ nhân Hana",
+          "questId": "JQ01",
+          "cityId": "jeonju",
+          "nodeId": "J2"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_hungry_dog",
+      "name": "Chó Canh Đường",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Đà Lạt D10"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_hungry_dog.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+          "spriteName": "npc_hungry_dog",
+          "guid": "3df301f30edc9d243899518bb89fb538",
+          "localId": "37410012",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-f9d9225b-fa66-4403-ab6c-d3cfed897378.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_hungry_dog"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_hungry_dog",
+          "type": "npc",
+          "speaker": "Chó Canh Đường",
+          "questId": "DQ02",
+          "cityId": "da_lat",
+          "nodeId": "D10"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_huong",
+      "name": "Chị Hương",
+      "status": "CANONICAL",
+      "locations": [
+        "Huế U1"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_huong.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_huong",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-1343187348",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17.",
+          "provenance": "Assets/_Game/Art/Runtime/AdventureUI/NPC_TransparentAtlas.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_scholar, npc_hana, npc_min"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_merchant",
+          "type": "npc",
+          "speaker": "Chị Hương",
+          "questId": "",
+          "cityId": "hue",
+          "nodeId": "U1"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_innkeeper",
+      "name": "npc_innkeeper",
+      "status": "MISSING_VISUAL",
+      "locations": [
+        "Đà Lạt D18"
+      ],
+      "visuals": [],
+      "interaction": [
+        {
+          "eventId": "npc_innkeeper",
+          "type": "start",
+          "speaker": "Lumi",
+          "questId": "",
+          "cityId": "da_lat",
+          "nodeId": "D18"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {
+        "reviewed": "2026-10-17",
+        "assetStatus": "NOT_REQUIRED_CURRENT_GAMEPLAY",
+        "decision": "D18 hiện là event type=start, actor=Lumi, nghỉ/nghỉ dẫn đường; không có chủ trọ xuất hiện/phát biểu. Không tạo người mới hoặc gắn hình đầu bếp chỉ để lấp khóa npc_innkeeper.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+      },
+      "proposal": "NOT_REQUIRED_CURRENT_GAMEPLAY: D18 là lời dẫn Lumi/nghỉ ngơi, chưa thể hiện chủ trọ. Không gán đầu bếp để lấp chỗ trống."
+    },
+    {
+      "npcId": "npc_inscription",
+      "name": "Kho bản khắc",
+      "status": "MISSING_VISUAL",
+      "locations": [
+        "Gyeongju G14"
+      ],
+      "visuals": [],
+      "interaction": [
+        {
+          "eventId": "npc_inscription",
+          "type": "npc",
+          "speaker": "Kho bản khắc",
+          "questId": "",
+          "cityId": "gyeongju",
+          "nodeId": "G14"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {
+        "reviewed": "2026-10-17",
+        "assetStatus": "NEEDS_NEW_ART",
+        "decision": "G14 cần NPC hỗ trợ bản khắc ở Gyeongju. Lính có ảnh alpha rõ là lính Hoàng thành Huế theo roster. Phúc/Yoon/Min không là mặt trống; người gánh hàng/đầu bếp không phù hợp vai trò.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+      },
+      "proposal": "NEEDS_NEW_ART: chưa có nhân vật độc lập phù hợp kho bản khắc Gyeongju; không mượn Phúc/Yoon/Min."
+    },
+    {
+      "npcId": "npc_keeper",
+      "name": "Sân chính di tích",
+      "status": "MISSING_VISUAL",
+      "locations": [
+        "Gyeongju G9"
+      ],
+      "visuals": [],
+      "interaction": [
+        {
+          "eventId": "npc_keeper",
+          "type": "npc",
+          "speaker": "Sân chính di tích",
+          "questId": "",
+          "cityId": "gyeongju",
+          "nodeId": "G9"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {
+        "reviewed": "2026-10-17",
+        "assetStatus": "NEEDS_NEW_ART",
+        "decision": "G9 là người giữ di tích Gyeongju. Lính Hoàng thành Huế sai bối cảnh/trang phục; không đổi NPC thành lính Việt để khớp ảnh. Sư thầy/bảo vệ trong DesignKit chỉ là concept rất nhỏ có nền/chữ, chưa đạt sprite portrait sạch.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+      },
+      "proposal": "NEEDS_NEW_ART: người lính trong roster là lính Hoàng thành Huế, không hợp bối cảnh Gyeongju; không ép gán."
+    },
+    {
+      "npcId": "npc_lan",
+      "name": "Người dẫn đường Lan",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Đà Lạt D2"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_lan.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+          "spriteName": "npc_lan",
+          "guid": "fb6c63798ffdb6841a4fd318adf72a74",
+          "localId": "1886636321",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-e6e8509b-ddb7-4234-bd4d-3830786383bc.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_lan"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_lan",
+          "type": "npc",
+          "speaker": "Người dẫn đường Lan",
+          "questId": "DQ01",
+          "cityId": "da_lat",
+          "nodeId": "D2"
+        },
+        {
+          "eventId": "dalat_return_glasses",
+          "type": "item",
+          "speaker": "Người dẫn đường Lan",
+          "questId": "",
+          "cityId": "da_lat",
+          "nodeId": "D2"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_mai",
+      "name": "Cô Mai",
+      "status": "CANONICAL",
+      "locations": [
+        "Hội An H2"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_mai.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+          "spriteName": "Mai_DialoguePortrait",
+          "guid": "a6cc838dd76ae7f40902d846693f4a5e",
+          "localId": "-1732270161",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17.",
+          "provenance": "Assets/_Game/Art/Runtime/NPCs/Mai_DialoguePortrait.png",
+          "catalogIssues": []
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_mai",
+          "type": "npc",
+          "speaker": "Cô Mai",
+          "questId": "HQ01",
+          "cityId": "hoi_an",
+          "nodeId": "H2"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_market_merchant",
+      "name": "Thương nhân đường xa",
+      "status": "CANONICAL",
+      "locations": [
+        "Đà Lạt D4"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_market_merchant.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+          "spriteName": "NPC_HoiAn_MarketMerchant",
+          "guid": "0a91b2dbca846994bbade4807ff62596",
+          "localId": "21300000",
+          "cities": [
+            "da_lat",
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17.",
+          "provenance": "Assets/_Game/Art/Runtime/AdventureUI/Market_Merchant.png",
+          "catalogIssues": []
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_market",
+          "type": "npc",
+          "speaker": "Thương nhân đường xa",
+          "questId": "",
+          "cityId": "da_lat",
+          "nodeId": "D4"
+        },
+        {
+          "eventId": "dalat_strawberry_offer",
+          "type": "quest",
+          "speaker": "Thương nhân đường xa",
+          "questId": "DQ05",
+          "cityId": "da_lat",
+          "nodeId": "D4"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_min",
+      "name": "Hướng dẫn viên Min",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Gyeongju G3"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_min.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_min",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "830274255",
+          "cities": [
+            "gyeongju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "Assets/_Game/Art/Runtime/AdventureUI/NPC_TransparentAtlas.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_scholar, npc_hana, npc_min"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_min",
+          "type": "npc",
+          "speaker": "Hướng dẫn viên Min",
+          "questId": "GQ01",
+          "cityId": "gyeongju",
+          "nodeId": "G3"
+        },
+        {
+          "eventId": "min_fox_food",
+          "type": "item",
+          "speaker": "Hướng dẫn viên Min",
+          "questId": "",
+          "cityId": "gyeongju",
+          "nodeId": "G3"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_nguyet",
+      "name": "Bà Nguyệt",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Huế U2"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_nguyet.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+          "spriteName": "npc_nguyet",
+          "guid": "48a2e6c60f7ec0349befacea7c60e927",
+          "localId": "-1004916199",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-7e190989-bfd9-4c83-942e-22f38ecab7f1.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_nguyet"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_nguyet",
+          "type": "npc",
+          "speaker": "Bà Nguyệt",
+          "questId": "UQ02",
+          "cityId": "hue",
+          "nodeId": "U2"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_park",
+      "name": "Thương nhân Park",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Jeonju J5"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_park.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+          "spriteName": "npc_park",
+          "guid": "36a0c8ea46b133e40bf8731d313402d7",
+          "localId": "-606975524",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-e66f287a-2b5e-4f66-987a-71069b8fd083.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_park"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_parcel",
+          "type": "npc",
+          "speaker": "Thương nhân Park",
+          "questId": "JQ02",
+          "cityId": "jeonju",
+          "nodeId": "J5"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_phuc",
+      "name": "Ông Phúc",
+      "status": "CANONICAL",
+      "locations": [
+        "Hội An H14"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_phuc.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "spriteName": "Phuc_DialoguePortrait",
+          "guid": "ab62ba1e558f7274984500bb1cac18f6",
+          "localId": "1019635214",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17.",
+          "provenance": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "catalogIssues": [
+            "transparent sheet; individual crop/padding requires review before registration"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_phuc",
+          "type": "dialogue",
+          "speaker": "Ông Phúc",
+          "questId": "",
+          "cityId": "hoi_an",
+          "nodeId": "H14"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_scholar",
+      "name": "Nho Sinh Lê An",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Huế U7"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_scholar.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_scholar",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-156234960",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "Assets/_Game/Art/Runtime/AdventureUI/NPC_TransparentAtlas.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_scholar, npc_hana, npc_min"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_scholar",
+          "type": "npc",
+          "speaker": "Nho Sinh Lê An",
+          "questId": "UQ01",
+          "cityId": "hue",
+          "nodeId": "U7"
+        },
+        {
+          "eventId": "chapter_uq04_return",
+          "type": "quest",
+          "speaker": "Nho Sinh Lê An",
+          "questId": "UQ04",
+          "cityId": "hue",
+          "nodeId": "U7"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_soyeon",
+      "name": "So-yeon",
+      "status": "CANONICAL",
+      "locations": [
+        "Jeonju J15"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_soyeon.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_soyeon",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "464872565",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17.",
+          "provenance": "Assets/_Game/Art/Runtime/AdventureUI/NPC_TransparentAtlas.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_scholar, npc_hana, npc_min"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_snack_seller",
+          "type": "npc",
+          "speaker": "So-yeon",
+          "questId": "",
+          "cityId": "jeonju",
+          "nodeId": "J15"
+        },
+        {
+          "eventId": "dalat_strawberry_return",
+          "type": "quest",
+          "speaker": "So-yeon",
+          "questId": "DQ05",
+          "cityId": "jeonju",
+          "nodeId": "J15"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_tam",
+      "name": "Bác Lái Đò Tâm",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Huế U3"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_tam.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+          "spriteName": "npc_tam",
+          "guid": "7eb9ff722f5f81748945b06d9e1d05bd",
+          "localId": "-1705763202",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-f12979ec-7b12-4269-903d-cd88c0edd1de.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_tam"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_ferryman",
+          "type": "npc",
+          "speaker": "Bác Lái Đò Tâm",
+          "questId": "UQ03",
+          "cityId": "hue",
+          "nodeId": "U3"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_tech",
+      "name": "Ji-won",
+      "status": "MISSING_VISUAL",
+      "locations": [
+        "Seoul S7"
+      ],
+      "visuals": [],
+      "interaction": [
+        {
+          "eventId": "npc_tech",
+          "type": "npc",
+          "speaker": "Kỹ thuật viên Ji-won",
+          "questId": "SQ01",
+          "cityId": "seoul",
+          "nodeId": "S7"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {
+        "reviewed": "2026-10-17",
+        "assetStatus": "NEEDS_NEW_ART",
+        "decision": "S7 là Ji-won, nhân viên công nghệ Seoul. Không dùng khuôn mặt So-yeon dù vai trò gốc của ảnh là Tech-Curator; các ứng viên chưa gán còn lại không hợp vai trò hoặc chỉ là concept nhỏ không đạt.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+      },
+      "proposal": "Ji-won chưa có ứng viên đủ căn cứ; tuyệt đối không dùng mặt So-yeon."
+    },
+    {
+      "npcId": "npc_thuy",
+      "name": "Cô Thủy chủ tiệm hoa",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Đà Lạt D3"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_thuy.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+          "spriteName": "npc_thuy",
+          "guid": "33ce1e750bcd0124d9feb5cfcbf3fa66",
+          "localId": "-857154714",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-c2a55252-5f3c-4e4c-8fda-bc436bd89b83.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_thuy"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_thuy",
+          "type": "npc",
+          "speaker": "Cô Thủy chủ tiệm hoa",
+          "questId": "",
+          "cityId": "da_lat",
+          "nodeId": "D3"
+        },
+        {
+          "eventId": "dalat_thuy_food",
+          "type": "item",
+          "speaker": "Cô Thủy chủ tiệm hoa",
+          "questId": "",
+          "cityId": "da_lat",
+          "nodeId": "D3"
+        },
+        {
+          "eventId": "dalat_dog_food_recovery",
+          "type": "recovery",
+          "speaker": "Cô Thủy chủ tiệm hoa",
+          "questId": "DQ02",
+          "cityId": "da_lat",
+          "nodeId": "D3"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    },
+    {
+      "npcId": "npc_yoon",
+      "name": "Nhà thầy Yoon",
+      "status": "UNCONFIRMED_VISUAL",
+      "locations": [
+        "Jeonju J4"
+      ],
+      "visuals": [
+        {
+          "variantId": "npc_yoon.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+          "spriteName": "npc_yoon",
+          "guid": "9e80ff4e3ffd49044b5dabf92b3d6b27",
+          "localId": "-321799653",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "provenance": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-62274880-f810-4340-9317-60a9e24076d1.png",
+          "catalogIssues": [
+            "PROPOSED / TEMPORARY bindings, not canonical/final: npc_yoon"
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "eventId": "npc_yoon",
+          "type": "npc",
+          "speaker": "Nhà thầy Yoon",
+          "questId": "",
+          "cityId": "jeonju",
+          "nodeId": "J4"
+        }
+      ],
+      "verification": "SOURCE_CONFIG_VERIFIED; runtime mới NOT VERIFIED",
+      "portraitAssessment": {},
+      "proposal": ""
+    }
+  ],
+  "unboundNative": [
+    {
+      "role": "native_sprite",
+      "id": "Characters_MissingSprites_v1_0",
+      "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+      "guid": "0173405b4fb1ebf4795d5ca8849bd7e1",
+      "localId": "3843813242334413880",
+      "spriteName": "Characters_MissingSprites_v1_0",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        0.0,
+        0.0,
+        544.0,
+        359.0
+      ],
+      "sourceDimensions": [
+        544,
+        359
+      ],
+      "classification": "WHOLE_CONCEPT_SHEET"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_5",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "-8415950893824659087",
+      "spriteName": "H3_07_Characters_NPC_Concept_5",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        464.0,
+        36.0,
+        191.0,
+        121.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_19",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "-7400866961864976714",
+      "spriteName": "H3_07_Characters_NPC_Concept_19",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        0.0,
+        152.0,
+        351.0,
+        404.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "RESERVED_MAI_VARIANT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_26",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "-5231367431455545097",
+      "spriteName": "H3_07_Characters_NPC_Concept_26",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        859.0,
+        612.0,
+        6.0,
+        16.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_1",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "-5143043727086802620",
+      "spriteName": "H3_07_Characters_NPC_Concept_1",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        77.0,
+        87.0,
+        51.0,
+        34.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_2",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "-4265597072747776650",
+      "spriteName": "H3_07_Characters_NPC_Concept_2",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        135.0,
+        125.0,
+        10.0,
+        14.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_7",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "-4090676421461662750",
+      "spriteName": "H3_07_Characters_NPC_Concept_7",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        688.0,
+        73.0,
+        120.0,
+        74.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_3",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "-2012730137663393918",
+      "spriteName": "H3_07_Characters_NPC_Concept_3",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        249.0,
+        40.0,
+        106.0,
+        106.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_25",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "-1742927032031606190",
+      "spriteName": "H3_07_Characters_NPC_Concept_25",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        845.0,
+        614.0,
+        15.0,
+        13.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_20",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "-1608953927863941457",
+      "spriteName": "H3_07_Characters_NPC_Concept_20",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        316.0,
+        152.0,
+        13.0,
+        11.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_16",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "-1607489545527418455",
+      "spriteName": "H3_07_Characters_NPC_Concept_16",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        96.0,
+        138.0,
+        8.0,
+        9.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_15",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "-800487684454507135",
+      "spriteName": "H3_07_Characters_NPC_Concept_15",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        1329.0,
+        24.0,
+        44.0,
+        97.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_10",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "144276011234019059",
+      "spriteName": "H3_07_Characters_NPC_Concept_10",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        812.0,
+        101.0,
+        12.0,
+        14.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_0",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "479841202289729273",
+      "spriteName": "H3_07_Characters_NPC_Concept_0",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        18.0,
+        18.0,
+        218.0,
+        135.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_21",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "543755733558087777",
+      "spriteName": "H3_07_Characters_NPC_Concept_21",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        573.0,
+        154.0,
+        609.0,
+        483.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "MULTI_PERSON_COMPOSITE"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_8",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "1763056132593772794",
+      "spriteName": "H3_07_Characters_NPC_Concept_8",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        810.0,
+        38.0,
+        6.0,
+        6.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_13",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "2371881605166659234",
+      "spriteName": "H3_07_Characters_NPC_Concept_13",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        1024.0,
+        101.0,
+        7.0,
+        11.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_11",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "3271152826625519489",
+      "spriteName": "H3_07_Characters_NPC_Concept_11",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        812.0,
+        119.0,
+        18.0,
+        12.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_14",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "4210009647818869598",
+      "spriteName": "H3_07_Characters_NPC_Concept_14",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        1126.0,
+        36.0,
+        322.0,
+        519.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "SINGLE_PERSON_CANDIDATE_NEEDS_REVIEW"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_12",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "5918670669536044755",
+      "spriteName": "H3_07_Characters_NPC_Concept_12",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        969.0,
+        25.0,
+        140.0,
+        116.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_17",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "6277053376908514288",
+      "spriteName": "H3_07_Characters_NPC_Concept_17",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        102.0,
+        140.0,
+        8.0,
+        7.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_9",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "6772333607864178943",
+      "spriteName": "H3_07_Characters_NPC_Concept_9",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        812.0,
+        14.0,
+        116.0,
+        123.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_6",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "6957984451916124669",
+      "spriteName": "H3_07_Characters_NPC_Concept_6",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        531.0,
+        91.0,
+        37.0,
+        34.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_18",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "7144811786846740715",
+      "spriteName": "H3_07_Characters_NPC_Concept_18",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        835.0,
+        144.0,
+        17.0,
+        11.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_24",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "8367833647545224222",
+      "spriteName": "H3_07_Characters_NPC_Concept_24",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        957.0,
+        565.0,
+        478.0,
+        459.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "BOT_RESERVED"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_22",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "8518964461385267744",
+      "spriteName": "H3_07_Characters_NPC_Concept_22",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        29.0,
+        598.0,
+        575.0,
+        442.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "MULTI_PERSON_COMPOSITE"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_4",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "8745918615066747196",
+      "spriteName": "H3_07_Characters_NPC_Concept_4",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        355.0,
+        71.0,
+        60.0,
+        90.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_28",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "8941126398687135933",
+      "spriteName": "H3_07_Characters_NPC_Concept_28",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        635.0,
+        630.0,
+        318.0,
+        392.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "BOT_RESERVED"
+    },
+    {
+      "role": "native_sprite",
+      "id": "H3_07_Characters_NPC_Concept_27",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "8980932690861220783",
+      "spriteName": "H3_07_Characters_NPC_Concept_27",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        863.0,
+        614.0,
+        9.0,
+        17.0
+      ],
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "classification": "AUTO_SLICE_FRAGMENT"
+    },
+    {
+      "role": "native_sprite",
+      "id": "Concept_Composite_02_0",
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
+      "guid": "4ecfe5a65b714bf49b2f39c4788e47d4",
+      "localId": "-2020965655337547702",
+      "spriteName": "Concept_Composite_02_0",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        0.0,
+        0.0,
+        1536.0,
+        1024.0
+      ],
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "classification": "WHOLE_CONCEPT_SHEET"
+    },
+    {
+      "role": "native_sprite",
+      "id": "Concept_Composite_01_0",
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
+      "guid": "e2ee55c326f7e2e4a86e7d19b579f740",
+      "localId": "1794785706949923089",
+      "spriteName": "Concept_Composite_01_0",
+      "source": "",
+      "status": "registry binding determines runtime usage",
+      "canonical": false,
+      "bound": false,
+      "rectTopLeft": [
+        0.0,
+        0.0,
+        1536.0,
+        1024.0
+      ],
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "classification": "WHOLE_CONCEPT_SHEET"
+    }
+  ],
+  "rejectedDraftSources": [
+    "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_gardener-draft.png",
+    "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_hungry_dog-draft.png",
+    "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_lan-draft.png",
+    "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_thuy-draft.png"
+  ],
+  "historicalSnapshot": true,
+  "supersededBy": "Docs/Art/NPC_REUSE_FINAL_DECISION.md",
+  "currentSummary": {
+    "newCanonicalNpc": "npc_tech",
+    "portraits": 21,
+    "canonical": 9,
+    "unconfirmed": 12,
+    "needsNewArt": 4,
+    "s14": "NOT_REQUIRED_LOCATION_INFORMATION",
+    "d18": "NOT_REQUIRED_CURRENT_GAMEPLAY"
+  }
+}

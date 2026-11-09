@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "design_only": true,
+  "quests": [
+    {
+      "id": "HQ01",
+      "name": "Đèn phố tối",
+      "city": "hoi_an",
+      "start_node": "H2",
+      "objectives_ordered": [
+        "find:lamp_eye@H3",
+        "find:hanji_core@H13",
+        "find:link_key@H5",
+        "activate:H7"
+      ],
+      "completion_flag": "hoi_an.lamp_restored",
+      "reward_description": "150 xu, mở Huế & Jeonju",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "HQ02",
+      "name": "Hàng của Bà Tư",
+      "city": "hoi_an",
+      "start_node": "H10",
+      "objectives_ordered": [
+        "resolve:enemy_crab@H12",
+        "deliver:copper_wire@H10"
+      ],
+      "completion_flag": "hoi_an.ba_tu_helped",
+      "reward_description": "bản đồ ngõ ẩn H9",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "HQ03",
+      "name": "Con đèn lạc",
+      "city": "hoi_an",
+      "start_node": "H18",
+      "objectives_ordered": [
+        "find:reply_letter@J21",
+        "interact:H9"
+      ],
+      "completion_flag": "hoi_an.lost_lantern_rescued",
+      "reward_description": "bạn đồng hành Đèn Lồng Nhỏ",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "HQ04",
+      "name": "Đò qua nhánh nước",
+      "city": "hoi_an",
+      "start_node": "H17",
+      "objectives_ordered": [
+        "collect:coin*5",
+        "talk:H17"
+      ],
+      "completion_flag": "hoi_an.ferry_available",
+      "reward_description": "đường tắt H17–H5",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "UQ01",
+      "name": "Dấu ấn hai bờ",
+      "city": "hue",
+      "start_node": "U7",
+      "objectives_ordered": [
+        "get:lost_letter@U15",
+        "solve:U17",
+        "solve:U8",
+        "activate:U19"
+      ],
+      "completion_flag": "hue.beacon_lit",
+      "reward_description": "mở Đà Lạt",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "UQ02",
+      "name": "Thảo dược Bà Nguyệt",
+      "city": "hue",
+      "start_node": "U2",
+      "objectives_ordered": [
+        "find:royal_herb@U10",
+        "deliver:royal_herb@U2"
+      ],
+      "completion_flag": "hue.nguyet_helped",
+      "reward_description": "trà hồi phục x3 và thẻ bờ bắc",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "UQ03",
+      "name": "Qua sông an toàn",
+      "city": "hue",
+      "start_node": "U3",
+      "objectives_ordered": [
+        "solve:U16",
+        "use:river_pass@U3"
+      ],
+      "completion_flag": "hue.crossing_permit",
+      "reward_description": "mở cầu U4–U5",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "UQ04",
+      "name": "Tấm ấn gửi đi xa",
+      "city": "hue",
+      "start_node": "U11",
+      "objectives_ordered": [
+        "find:ancient_seal@U11",
+        "talk:U7"
+      ],
+      "completion_flag": "hue.star_script_known",
+      "reward_description": "Gyeongju G12 và Seoul S17 đổi trạng thái",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "DQ01",
+      "name": "Kính giữa sương",
+      "city": "da_lat",
+      "start_node": "D2",
+      "objectives_ordered": [
+        "defeat:enemy_glass_thief@D7",
+        "return:lan_glasses@D2",
+        "solve:D8"
+      ],
+      "completion_flag": "da_lat.fog_cleared",
+      "reward_description": "mở đường sương D8 và đèn núi",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "DQ02",
+      "name": "Bạn chó canh đường",
+      "city": "da_lat",
+      "start_node": "D10",
+      "objectives_ordered": [
+        "collect:meat_portion*3@D9,D11,D12",
+        "give:meat_portion*3@D10"
+      ],
+      "completion_flag": "da_lat.dog_fed",
+      "reward_description": "mở D10–D15, không đánh thú",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "DQ03",
+      "name": "Tín hiệu thác nước",
+      "city": "da_lat",
+      "start_node": "D16",
+      "objectives_ordered": [
+        "defeat:enemy_fog_boss@D15",
+        "find:blue_water_signal@D16",
+        "activate:D14"
+      ],
+      "completion_flag": "da_lat.beacon_lit",
+      "reward_description": "mã rơle Seoul A",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "DQ04",
+      "name": "Hoa trong mây",
+      "city": "da_lat",
+      "start_node": "D13",
+      "objectives_ordered": [
+        "find:night_flower@D19",
+        "deliver:night_flower@D13"
+      ],
+      "completion_flag": "da_lat.night_flower_done",
+      "reward_description": "hồi phục và vật phẩm hỗ trợ",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "JQ01",
+      "name": "Hoa văn ba miền",
+      "city": "jeonju",
+      "start_node": "J2",
+      "objectives_ordered": [
+        "get:hanji_pattern_1@J7",
+        "get:hanji_pattern_2@J6",
+        "get:hanji_pattern_3@J11",
+        "solve:J12"
+      ],
+      "completion_flag": "jeonju.three_patterns_joined",
+      "reward_description": "mạch đèn hanji",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "JQ02",
+      "name": "Kiện hàng thất lạc",
+      "city": "jeonju",
+      "start_node": "J5",
+      "objectives_ordered": [
+        "resolve:enemy_parcel_bot@J6",
+        "return:missing_parcel@J5"
+      ],
+      "completion_flag": "jeonju.parcel_returned",
+      "reward_description": "mở đường lên đài J11",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "JQ03",
+      "name": "Đèn soi qua hai nước",
+      "city": "jeonju",
+      "start_node": "J17",
+      "objectives_ordered": [
+        "have_flag:hoi_an.lamp_restored",
+        "solve:J17",
+        "activate:J19"
+      ],
+      "completion_flag": "jeonju.beacon_lit",
+      "reward_description": "mở Gyeongju, gửi rơle C Seoul",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "JQ04",
+      "name": "Thư gửi phố cũ",
+      "city": "jeonju",
+      "start_node": "J16",
+      "objectives_ordered": [
+        "find:reply_letter@J21",
+        "carry:reply_letter@H18"
+      ],
+      "completion_flag": "jeonju.letter_delivered",
+      "reward_description": "Hội An mở ngõ H9",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "GQ01",
+      "name": "Đường sao Silla",
+      "city": "gyeongju",
+      "start_node": "G3",
+      "objectives_ordered": [
+        "get:star_symbol_1@G5",
+        "get:star_symbol_2@G6",
+        "get:star_symbol_3@G10",
+        "solve:G4"
+      ],
+      "completion_flag": "gyeongju.three_stars_placed",
+      "reward_description": "ống kính sao",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "GQ02",
+      "name": "Bệ đá nối hai nước",
+      "city": "gyeongju",
+      "start_node": "G12",
+      "objectives_ordered": [
+        "have:ancient_seal",
+        "solve:G12",
+        "defeat_or_fix:enemy_stone_guard@G7"
+      ],
+      "completion_flag": "gyeongju.seal_repaired",
+      "reward_description": "phần thưởng giúp khám phá",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "GQ03",
+      "name": "Đêm đài thiên văn",
+      "city": "gyeongju",
+      "start_node": "G18",
+      "objectives_ordered": [
+        "have_flag:gyeongju.three_stars_placed",
+        "defeat:enemy_star_core@G18",
+        "activate:G19"
+      ],
+      "completion_flag": "gyeongju.beacon_lit",
+      "reward_description": "mở điều kiện đi Seoul",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "GQ04",
+      "name": "Hoa văn bờ tây",
+      "city": "gyeongju",
+      "start_node": "G17",
+      "objectives_ordered": [
+        "have_flag:jeonju.beacon_lit",
+        "solve:G17"
+      ],
+      "completion_flag": "gyeongju.west_lantern_done",
+      "reward_description": "xu & bí mật",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "SQ01",
+      "name": "Ba nhịp đồng bộ",
+      "city": "seoul",
+      "start_node": "S7",
+      "objectives_ordered": [
+        "have:blue_water_signal",
+        "solve:S16",
+        "have:ancient_seal",
+        "solve:S17",
+        "have:hanji_circuit",
+        "solve:S18"
+      ],
+      "completion_flag": "seoul.relays_ready",
+      "reward_description": "mở boss S20",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "SQ02",
+      "name": "Lời nhắn cũ",
+      "city": "seoul",
+      "start_node": "S2",
+      "objectives_ordered": [
+        "get:stargazer_lens@G4",
+        "interact:S3",
+        "talk:S11"
+      ],
+      "completion_flag": "seoul.truth_discovered",
+      "reward_description": "lựa chọn phục hồi hệ thống",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "SQ03",
+      "name": "Lõi sáng cuối",
+      "city": "seoul",
+      "start_node": "S20",
+      "objectives_ordered": [
+        "have_flag:seoul.relays_ready",
+        "boss:enemy_final_core@S20",
+        "visit:S21"
+      ],
+      "completion_flag": "seoul.final_cleared",
+      "reward_description": "festival và credits",
+      "status": "design",
+      "reward_once": true
+    },
+    {
+      "id": "SQ04",
+      "name": "Tín hiệu bóng Mờ",
+      "city": "seoul",
+      "start_node": "S22",
+      "objectives_ordered": [
+        "have_flag:seoul.truth_discovered",
+        "read:S22"
+      ],
+      "completion_flag": "seoul.secret_ending",
+      "reward_description": "đoạn kết mở rộng",
+      "status": "design",
+      "reward_once": true
+    }
+  ]
+}

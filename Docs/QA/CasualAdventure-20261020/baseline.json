@@ -1,0 +1,736 @@
+{
+  "createdUTC": "2026-10-19T17:08:05.438839+00:00",
+  "entries": [
+    {
+      "path": "Assets/_Game/Resources/Content/AdventurePresentation.json",
+      "bytes": 33714,
+      "sha256": "e278f3dcbcd2d463c7333d0952c48576eaf4024bafdd5db5e62ff53e2c99e769"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CityNavigation.json",
+      "bytes": 778320,
+      "sha256": "890ccc4961dbc062a10e34f8982ae5a17e495052084984b5c8c8665ae0b63b2a"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CulturalRelics.json",
+      "bytes": 321303,
+      "sha256": "d4e0297bf44094a1e742f5a6a206811360250753f74e480f4e65d0d9ff941a29"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/FinalConnectionPresentation.json",
+      "bytes": 1707,
+      "sha256": "08408e07dfec496b2e20555ee8e543fc9ed7f3a40afe5b62e41fbd9b10e47894"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "bytes": 545758,
+      "sha256": "d6d22da8c1065b100267fbfc069fa5dbae20d52c59c310cbf9cdac62b56de383"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/HoiAnLighting.json",
+      "bytes": 7421,
+      "sha256": "05846fb64fa5211641e628edb141896661a2260b6a2e3ddaeb58b6c72a08bec9"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/LeisureActivities.json",
+      "bytes": 6750,
+      "sha256": "bd130e52d5215d203ca281cb1c6cbb76204538caaa0da3ca01421c64ba34e35e"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/StoryInteractions.json",
+      "bytes": 12398,
+      "sha256": "a49ec176de05b3f3baf96038634374d0d817bc660df1b90e8cf65f3200c4db30"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/BattleManager.cs",
+      "bytes": 8742,
+      "sha256": "15ed346834a6757a3b6c46d1cff8419aefbef3a860a13032bf54cdbdc89cfe82"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/ContentDefinitions.cs",
+      "bytes": 9731,
+      "sha256": "dd149fb96bb72ad6413999676c7ee63e041308fb1b91e20d9f7cb78ee7f5fe68"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/EncounterManager.cs",
+      "bytes": 2916,
+      "sha256": "56e44174cbf1cac9f1e945c041196d86584be419de7841ec694109cdbe3b90a8"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "bytes": 30798,
+      "sha256": "495b55afc9321c49c0df8bcdb76d33a73adc9f0f1e716264c0383d298443f631"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.FinalConnection.cs",
+      "bytes": 7162,
+      "sha256": "097098c2d623b84cd774ff7e6cc4397b5eb43f90e417c23f3afacce7baa19565"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/PuzzleManager.cs",
+      "bytes": 7868,
+      "sha256": "78099df6f275bab90c3c39aeacef34b124f866c579dc3566c144e7d19df8b6bb"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicActivity.Trials.cs",
+      "bytes": 5447,
+      "sha256": "a83aa5962969ac72b0570d4a7543ba7e98dd32deacd14340d4751fb174641721"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicCollection.cs",
+      "bytes": 10809,
+      "sha256": "825b7a7f3fc317406b9731c51080670b6568a2dfd3d31dc92e05ff357eae1b33"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/StoryActivity.cs",
+      "bytes": 3331,
+      "sha256": "cb4a0ab370bb7e99500268fba85e5a459378d5761420b8e1698d2dd31ae3da5c"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/CityNavigation.cs",
+      "bytes": 7697,
+      "sha256": "76f2054e11f7d1e3282121264f4e943d7c88177deff8c187dd3e94dade857bfb"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameBootstrap.cs",
+      "bytes": 4959,
+      "sha256": "a95c332f0fd5c730561546062e545704934782f217f1fa714d52f3d00eaef7cc"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameData.cs",
+      "bytes": 6027,
+      "sha256": "2b3d6e5b0b0e49028231f6671d5c79577ed860086b719ee52c93f3bde63af08a"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/Inventory.cs",
+      "bytes": 1657,
+      "sha256": "6e8f96322a33f026a48a0869a63dc547dfe3f3aca6add6c4794b6af69f5ab505"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/QuestManager.cs",
+      "bytes": 8021,
+      "sha256": "50e132ac902efba45f9546eb355d3fba892c38395e66ddedbf35e0b113e26269"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/QuestManager.Guidance.cs",
+      "bytes": 6219,
+      "sha256": "f4000b571d7de62a8aac129d1a676ffd49507d9c109469adfdc6bce7b2918efd"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/SaveSystem.cs",
+      "bytes": 6171,
+      "sha256": "ac3b6774596348f7936930a50ae3155abb1ebbac865f4f16d0f05b14f14813dd"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/SceneTransition.cs",
+      "bytes": 1133,
+      "sha256": "f9aef22707c303af14f2d6aafd6d834b30b0c6d1ab67811c4a8a8339852586df"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/WorldState.cs",
+      "bytes": 1060,
+      "sha256": "b6a5dc8efa118a5f4fce578e08455705bbfccefd4dcf063853eb658589249bae"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMapPaths.cs",
+      "bytes": 8030,
+      "sha256": "0934a2acc533f6aa4f7183bd3020df84920d2dfa8eb705735d9a4c164a2132d8"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs",
+      "bytes": 2772,
+      "sha256": "4c55d1f975b967463fb3a50347b6f4adf12be9d20c2d56bb151cc6e86a5d1491"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.CulturalRestoration.cs",
+      "bytes": 6076,
+      "sha256": "c6aba6d650109f16427a48ce30689d6887eda8c5ab7f6df7a4d6d09e0fb203a8"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+      "bytes": 10222,
+      "sha256": "e4691c3eab2907c67583fe94ec74162720e2d0e24acb327014e46c423d9fb83b"
+    },
+    {
+      "path": "Tools/SixCityRouteEditor/data/source.json",
+      "bytes": 897254,
+      "sha256": "0cfd6fd7021aa4b737bcf33ee8102357d13c5615c6936841f252cd862ae35dc8"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "bytes": 22648,
+      "sha256": "b6d011c56c25ebcffa42d4d80cb89e4fbaa7dca8ca94b10667240288329e84c2"
+    },
+    {
+      "path": "ProjectSettings/QualitySettings.asset",
+      "bytes": 10058,
+      "sha256": "c1ed060f85623d3595b1e9eea133d957cd92191639a6edc51c638e3edcba240c"
+    },
+    {
+      "path": "ProjectSettings/EditorSettings.asset",
+      "bytes": 1673,
+      "sha256": "f8f13b4ead8154753e42ba1c82cd701d14d4c7eb70e6a9cc615a353b7b041a51"
+    },
+    {
+      "path": "Assets/_Game/Resources/HoiAnData.json",
+      "bytes": 26880,
+      "sha256": "e2961e1b1807325a071e4a52c26ca5708fc9b56fd2b39790f81c21b0fab49011"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png",
+      "bytes": 3694429,
+      "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png",
+      "bytes": 4021351,
+      "sha256": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png",
+      "bytes": 4064740,
+      "sha256": "0b2872b62a8b06dc1c08095cdea20fb540385032a64782e59e20acf11c7a444c"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png",
+      "bytes": 4330806,
+      "sha256": "f1260ef1b4f718b989d55d907f50c99c341081263f3470bfda2d6fab1d2926c8"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png",
+      "bytes": 4079782,
+      "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c"
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png",
+      "bytes": 4100855,
+      "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_fog_boss.png.meta",
+      "bytes": 4061,
+      "sha256": "f44eb7adb97cdfed7d47b9497ce9746a6524544ad93878291d465c89ad63d80c"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png.meta",
+      "bytes": 4072,
+      "sha256": "d68828b874acd5cb6861938bdd86de448c505a8bc7bbe86db7ca338a91548d99"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_mist_wolf.png.meta",
+      "bytes": 4059,
+      "sha256": "a782858f8cc6ea06ebf476944ff305efe0af16765dc7f7af898d929735943e87"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/HoiAn_Enemies_Atlas.png.meta",
+      "bytes": 5474,
+      "sha256": "4c71e13665956488f2c5d68d022c94a6c46db6ba437994fe45e3c1b5947e5f78"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png.meta",
+      "bytes": 4151,
+      "sha256": "0cfc0b795d4562e3725cf11925adca734fbc32f5c7893f198a6b31c6062a52a3"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png.meta",
+      "bytes": 4056,
+      "sha256": "9478212ebc94c8c55938d3bfc3f52deec3cd4687472aabf60ceff882f722737b"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png.meta",
+      "bytes": 4361,
+      "sha256": "1568b0a3e815159362b8f299691c3262c7b9978a470a30f7a11a41b10df76ba0"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png.meta",
+      "bytes": 4360,
+      "sha256": "a5167c3207c68a5676172ee4c6400b789217348ce6ed1bcd009e3379b5752fdd"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png.meta",
+      "bytes": 4577,
+      "sha256": "ec047a3465be03777a2d0dd55282febaeb028b5c7d0cc5628fcee2f3320bc6fd"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png.meta",
+      "bytes": 5269,
+      "sha256": "38816ef3599cf0a73c492ed7196ef5b5bc4ee873f2a792f5b85e480927e8c6b6"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png.meta",
+      "bytes": 4141,
+      "sha256": "7762bb6134b3c34e4543d5dedaf65617f98c58de06312947b62b4e7fa6f4be82"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png.meta",
+      "bytes": 4069,
+      "sha256": "d49bbd59f6c506c4649eb4c2bd4483a7279d9add331a02d69ae8fc6a9c42d14d"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png.meta",
+      "bytes": 4873,
+      "sha256": "dff673518799d6e739f885dad731962e94fa557de28caa35a7ba42dbfac5df1a"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png.meta",
+      "bytes": 4123,
+      "sha256": "d8bf80ca0abc6bef94a59223e2df500ca5065b93fe2e1f2c4b3b0aad93b9d478"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png.meta",
+      "bytes": 4057,
+      "sha256": "01833860882a9afe2413f0a6c7faa1824e505d742b50bda2f239a9eada12c75e"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png.meta",
+      "bytes": 4103,
+      "sha256": "052bf7d768b3525d2222a1c35398ac5d810db5cfba34c2b63a23c0218e0a19c5"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png.meta",
+      "bytes": 4108,
+      "sha256": "6590863add43f711f308addbd4db5dc2e66707061a7879ac380441ee2e70bcac"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png.meta",
+      "bytes": 5415,
+      "sha256": "5232a93211993595079b522464c129c5f71306a9777064f1fb2cb2fdb58331fd"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png.meta",
+      "bytes": 5380,
+      "sha256": "201525e693b1879555a9faf6a63c8ed671dc616ee074907867e4b7b7b55150df"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png.meta",
+      "bytes": 6603,
+      "sha256": "c39d1501f77348003b27738d4e2ec020d64ea58922a201066611b39c1fcc3902"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png.meta",
+      "bytes": 4852,
+      "sha256": "1e95e818787388b794916ea6404eb185d550d098b2370c3edab32b61b19faa2c"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png.meta",
+      "bytes": 8480,
+      "sha256": "be47a9133b67372e62793f35f0b19e2fa264fd353002d0f1c371f344bdcec4fd"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png.meta",
+      "bytes": 4384,
+      "sha256": "daffbf8783f252bf157694cceb768b9d4ac11de25d6ce0ffd5cbf7dd419264b1"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png.meta",
+      "bytes": 4298,
+      "sha256": "7aef32dd47ad722996256d3f8206306b83eaa8bec510f7fd732cb2a510a3cc8b"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png.meta",
+      "bytes": 4109,
+      "sha256": "c9edb3fa7975c0bf38dd4516cedfea91730293de92efdda67a2778238a9c645d"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png.meta",
+      "bytes": 4040,
+      "sha256": "4e8573353d1430bcf4c8a7d5338603823f82c11d5be68d922885774b6fe05beb"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png.meta",
+      "bytes": 4499,
+      "sha256": "13e2d10f0eac32ceee2654d77c0596c89e19b5d0d4b1e432c7faa1bd1e53953c"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png.meta",
+      "bytes": 4727,
+      "sha256": "493f6cb97d6b777afd663fa606263dd6edf872904a1cabdc2b87d743b1ae7f2b"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png.meta",
+      "bytes": 6641,
+      "sha256": "b8713c5de9161ef3e2f615e6d976cb4ef9cac1ca2f45b49d9cf614b3655888ee"
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta",
+      "bytes": 12387,
+      "sha256": "c8d76e02ee82b4311b239c143f992ee0ad0df761a0a576c1ee25dbd060f5ba67"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_BossAlert.png.meta",
+      "bytes": 5279,
+      "sha256": "adc70330d971cd0a4ab18cf7a37e6a007b421105085cbc117d7f2d823847dae9"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Camera.png.meta",
+      "bytes": 4655,
+      "sha256": "79f885484442eb4d40ca984a83d4c611e3dd6e4beaa93953b63dbe90c0e01909"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Completed.png.meta",
+      "bytes": 4066,
+      "sha256": "ac1039d5e7dac1cf63171cb52af8d550e6126759a45542f5b9d8b00d0f0722ad"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Current.png.meta",
+      "bytes": 14341,
+      "sha256": "f4997627a9a5ba70302cf351fcd3e4ff91f6c9ed78f7da0c9e7d6f98547058f3"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Ground.png.meta",
+      "bytes": 7061,
+      "sha256": "881f400b0ff41e977c59009019cecea09422e145e5fdfb86731f65cf0adc5d54"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_NpcNeedItem.png.meta",
+      "bytes": 7149,
+      "sha256": "965727c1e2f539f1bdc757560ba902364ad43c64e532e3d7e91f31c7af0c8092"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_NpcTalk.png.meta",
+      "bytes": 7674,
+      "sha256": "997fcfd5835c67fcd697ff258bfdf314c64317e7999296f2913bffd415eec41f"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Puzzle.png.meta",
+      "bytes": 5252,
+      "sha256": "d2fe625af83a74e428089b8e3bd268549b1ac2ac3d88e896966b67b668ff306f"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Quest.png.meta",
+      "bytes": 4049,
+      "sha256": "4fe1f0c982328b0492abf92cf0cc7b18b9721c933bf524d8cfb59b0f9699e95d"
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Reward.png.meta",
+      "bytes": 6452,
+      "sha256": "41c11a349a53d8d92b2e29c24cb6e86d051f9ae01f4f639c517e4afef258f1b0"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/DaLat_KiteRack.png.meta",
+      "bytes": 4079,
+      "sha256": "c8242ed99215050554eb1978c4476d6c8e25370867eb46b706d8d77ed94c2452"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/DaLat_StrawberryPatch.png.meta",
+      "bytes": 4096,
+      "sha256": "6a732cd90654665577a3a4bd7c604aa6b8fb2b777d780de3f8117e8238483259"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Gyeongju_BellExhibit.png.meta",
+      "bytes": 4089,
+      "sha256": "6a74bff656199af82a7727efb15dec0f52edbcbf6625af4ccc720461bf2a1a3a"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Gyeongju_WishTags.png.meta",
+      "bytes": 4084,
+      "sha256": "d25fe8c938959bae5a35c20a27afafc77557fc16e6cbf88561f6569e682167bf"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/HoiAn_LanternRelease_Stand.png.meta",
+      "bytes": 4114,
+      "sha256": "c41bff5038bf36e6667795891d44226c2ded54a27cbad7895efc7486407a658e"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/HoiAn_Swing.png.meta",
+      "bytes": 4069,
+      "sha256": "07db0fa877d69edf5a2a81c8aae41f0e54dbb960cde2bd712ba2fe74d4b28bed"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Hue_PedalSwanBoat.png.meta",
+      "bytes": 4087,
+      "sha256": "18fe5917bc779169be48e22d76844ea751e616fc818d552ee644b1d1db4cf2ea"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Hue_ThroneReplica.png.meta",
+      "bytes": 4084,
+      "sha256": "667e229618b5c919abc0f035ea111dc8ea39e60419451bcfe7ea5f710cbf15ce"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Jeonju_TeaTable.png.meta",
+      "bytes": 4078,
+      "sha256": "a94e8800aae04da0b85ed7bb2a51f3a6a5089d42a8724438ed227bc4b2c2e5bd"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Jeonju_WateringCan_Garden.png.meta",
+      "bytes": 4110,
+      "sha256": "ad3a81124e34318b80c6fb63a01cf99bf50e2fc033628aba141c6eb02812de5e"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Seoul_KpopStage.png.meta",
+      "bytes": 4078,
+      "sha256": "cb3844d470cb3a4595e15b168c63237fa5a7eebf200556957c4f2fe95dd0ea51"
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Seoul_TteokbokkiStall.png.meta",
+      "bytes": 4093,
+      "sha256": "1195ee1162d4311189ef3abd36efb9fd2ec95c5151f6d04855fa2e5ebb1555ea"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureIconGraphic.cs",
+      "bytes": 6648,
+      "sha256": "0a4dcabef4ce83291c2566585fbf849765ffeaba5d94f9014eab31b4e2fba351"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+      "bytes": 4587,
+      "sha256": "d9c92c226753907aab9db5e7f08e5eeffe0b028200cb4d12398b41541da66a71"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/DesignKitArt.cs",
+      "bytes": 2221,
+      "sha256": "bda66a7a89872e3142897444cb4f07059334ab711feefdc4e8e5be24d6c5c322"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.CheckIns.cs",
+      "bytes": 10359,
+      "sha256": "ab93463a1ffb88b123d9eef2c48b84653d96cbe61e27f6a9c245f1ae806d5794"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "bytes": 35128,
+      "sha256": "9b01b3ab185400376e7e69db3eaea43bacca8d7a3785c7c8632440ef59e5ce0d"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.CulturalTrials.cs",
+      "bytes": 8012,
+      "sha256": "f96ae79a0ca3d8022275a084ced69cbf6219c3318c52cfba150da2f9ab9caaa6"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.FinalConnection.cs",
+      "bytes": 7279,
+      "sha256": "b73ebcc5dd36f376c3814743ad4124cdb683eb16e9c2ac4a117932374b27f861"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Guidance.cs",
+      "bytes": 967,
+      "sha256": "283f65689dec3ee1e0992cb08a148a048476fba6dc9eab17e1557f052032d5d5"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs",
+      "bytes": 24276,
+      "sha256": "fa52362da91c0700a984d3169f5b46e4869e773c77002ab5992d45336f6195fb"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.LeisurePilots.cs",
+      "bytes": 14145,
+      "sha256": "0eff4c46687ddfa3feaa372faa04cb89334d31775d328937afb5e26fe2fd44de"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.PlayerGuide.cs",
+      "bytes": 3750,
+      "sha256": "826c748c708ac4a531ac95873de8ace403022ae4a8dd878e4c734bd52bb98c53"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+      "bytes": 17333,
+      "sha256": "c0553ea1695a067a2544c7dc1fd34154264baaf58a0bd3f39a667ddecadfb543"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.StoryActivities.cs",
+      "bytes": 12011,
+      "sha256": "1aec8c51cc9892e05f7233258b91a5d25234351d291d28ee8bbad3f7997d89b8"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/InventoryPanel.cs",
+      "bytes": 10648,
+      "sha256": "b453b20d99969231b13280412b92091ed1b179d5a489af79dc412e95e09018a5"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MaiDialogueController.cs",
+      "bytes": 2923,
+      "sha256": "7e4554951245e8254caaf223a4f1623e516e7afadcaaaee246016c030a0b39ca"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MapBackdropGraphic.cs",
+      "bytes": 3594,
+      "sha256": "f9fadce3c85b43c04f073877a1fd4bc27c585cee36b700a6eb6a88ab1e3b24c8"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MobileUI.cs",
+      "bytes": 5235,
+      "sha256": "59aa97f90086b0b7f742450ca17ac3eb9a2ab1570cdda3d3ae4bb8ad21d81c3d"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PlayerCopy.cs",
+      "bytes": 5687,
+      "sha256": "7be8c8577ed6e8a7d48f9a8e06fb844dd2d24366893b213b0b38d8f3034d5a36"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PortraitPresence.cs",
+      "bytes": 3541,
+      "sha256": "c1b8a85b1c89c1f59a7a5679906c2dca61f9bbe0b972891f197d1b35796c80db"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PresentationShapes.cs",
+      "bytes": 1602,
+      "sha256": "c49d7d3d6d4381187c0a6cef4ca6254261211eedb7e8826dd97cd50343e88e22"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicDragHandle.cs",
+      "bytes": 1417,
+      "sha256": "25a2ec0fa5bfe06dbf4c5450cd23030c3c3eec0ca06fc29932821825631d9230"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicSurveySurface.cs",
+      "bytes": 793,
+      "sha256": "7768b073725a8ae2538b3fc750dc9964eac691f8b8818459ee533966eda9e545"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RoundedPanelGraphic.cs",
+      "bytes": 1215,
+      "sha256": "978e722201998aa95d8e0000bb9f835fddc8b8107a2a2f6018890c5baa0fd93a"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudio.cs",
+      "bytes": 7604,
+      "sha256": "f59db0e5934d041fcb17113072d179b1c8161fa9b7174d075f39b6e8e1405333"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudio.Music.cs",
+      "bytes": 3979,
+      "sha256": "124075494f338c553b5c743a86256cf53968f85eb2bdd80c42b89d7d77f27f10"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudio.Settings.cs",
+      "bytes": 2555,
+      "sha256": "8a8d520adaaac45d2994b396cc8a5e1e84495896763cee39f48a5524d20105f1"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudioClips.cs",
+      "bytes": 371,
+      "sha256": "bab69749812d0e4d484a2720cf407263c4738d9c14ead6b893f3dea25d4dd2bd"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftMusicClips.cs",
+      "bytes": 265,
+      "sha256": "b16c631d82654567ac0b5dacc22b4444fbfd88167b29fe5cf6709bf5827a31f0"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIButtonFeedback.cs",
+      "bytes": 2046,
+      "sha256": "f43bd7d809bca8d174daa2926c3ca1c73f1b11fcc0b8878d0f2e8f51a1455989"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIController.cs",
+      "bytes": 5736,
+      "sha256": "86f329922b9574573c710072a7bbb03527dc770413595b867d83699781046401"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+      "bytes": 35591,
+      "sha256": "f30f4f856759ee7b0eea88c01b9e03dff4c3659a06d403aea0f0523ae7f79155"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MainMenu.cs",
+      "bytes": 2751,
+      "sha256": "945440ca8ad0c28a7782d2a841fa3549ad7dc9dc0bb5a152cb4654d368305c8c"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.Guidance.cs",
+      "bytes": 1480,
+      "sha256": "b318e595a6e5d1b046c436798851e93c51f09b45a74b97ce9c6d511feb719816"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "bytes": 116638,
+      "sha256": "05e7d4925c51d3c3c62991ac0fc71c37547c2c43d9b5f23b1f18d468ae25e51a"
+    }
+  ],
+  "protected": [
+    "Assets/_Game/Resources/Content/AdventurePresentation.json",
+    "Assets/_Game/Resources/Content/CityNavigation.json",
+    "Assets/_Game/Resources/Content/CulturalRelics.json",
+    "Assets/_Game/Resources/Content/FinalConnectionPresentation.json",
+    "Assets/_Game/Resources/Content/GameplayContent.json",
+    "Assets/_Game/Resources/Content/HoiAnLighting.json",
+    "Assets/_Game/Resources/Content/LeisureActivities.json",
+    "Assets/_Game/Resources/Content/StoryInteractions.json",
+    "Assets/_Game/Scripts/Content/BattleManager.cs",
+    "Assets/_Game/Scripts/Content/ContentDefinitions.cs",
+    "Assets/_Game/Scripts/Content/EncounterManager.cs",
+    "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+    "Assets/_Game/Scripts/Content/NodeEventManager.FinalConnection.cs",
+    "Assets/_Game/Scripts/Content/PuzzleManager.cs",
+    "Assets/_Game/Scripts/Content/RelicActivity.Trials.cs",
+    "Assets/_Game/Scripts/Content/RelicCollection.cs",
+    "Assets/_Game/Scripts/Content/StoryActivity.cs",
+    "Assets/_Game/Scripts/Core/CityNavigation.cs",
+    "Assets/_Game/Scripts/Core/GameBootstrap.cs",
+    "Assets/_Game/Scripts/Core/GameData.cs",
+    "Assets/_Game/Scripts/Core/Inventory.cs",
+    "Assets/_Game/Scripts/Core/QuestManager.cs",
+    "Assets/_Game/Scripts/Core/QuestManager.Guidance.cs",
+    "Assets/_Game/Scripts/Core/SaveSystem.cs",
+    "Assets/_Game/Scripts/Core/SceneTransition.cs",
+    "Assets/_Game/Scripts/Core/WorldState.cs",
+    "Assets/_Game/Scripts/Maps/CityMapPaths.cs",
+    "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs",
+    "Assets/_Game/Scripts/Maps/CityMap.CulturalRestoration.cs",
+    "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+    "Tools/SixCityRouteEditor/data/source.json",
+    "ProjectSettings/ProjectSettings.asset",
+    "ProjectSettings/QualitySettings.asset",
+    "ProjectSettings/EditorSettings.asset",
+    "Assets/_Game/Resources/HoiAnData.json",
+    "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png",
+    "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png",
+    "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png",
+    "Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png",
+    "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png",
+    "Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png",
+    "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_fog_boss.png.meta",
+    "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png.meta",
+    "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_mist_wolf.png.meta",
+    "Assets/_Game/Art/Characters/Enemies/HoiAn_Enemies_Atlas.png.meta",
+    "Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png.meta",
+    "Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png.meta",
+    "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png.meta",
+    "Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png.meta",
+    "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png.meta",
+    "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png.meta",
+    "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png.meta",
+    "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png.meta",
+    "Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png.meta",
+    "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png.meta",
+    "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png.meta",
+    "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png.meta",
+    "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png.meta",
+    "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png.meta",
+    "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png.meta",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png.meta",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png.meta",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png.meta",
+    "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png.meta",
+    "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png.meta",
+    "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png.meta",
+    "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png.meta",
+    "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png.meta",
+    "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png.meta",
+    "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png.meta",
+    "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta",
+    "Assets/_Game/Art/Markers/Marker_BossAlert.png.meta",
+    "Assets/_Game/Art/Markers/Marker_Camera.png.meta",
+    "Assets/_Game/Art/Markers/Marker_Completed.png.meta",
+    "Assets/_Game/Art/Markers/Marker_Current.png.meta",
+    "Assets/_Game/Art/Markers/Marker_Ground.png.meta",
+    "Assets/_Game/Art/Markers/Marker_NpcNeedItem.png.meta",
+    "Assets/_Game/Art/Markers/Marker_NpcTalk.png.meta",
+    "Assets/_Game/Art/Markers/Marker_Puzzle.png.meta",
+    "Assets/_Game/Art/Markers/Marker_Quest.png.meta",
+    "Assets/_Game/Art/Markers/Marker_Reward.png.meta",
+    "Assets/_Game/Resources/LeisureProps/DaLat_KiteRack.png.meta",
+    "Assets/_Game/Resources/LeisureProps/DaLat_StrawberryPatch.png.meta",
+    "Assets/_Game/Resources/LeisureProps/Gyeongju_BellExhibit.png.meta",
+    "Assets/_Game/Resources/LeisureProps/Gyeongju_WishTags.png.meta",
+    "Assets/_Game/Resources/LeisureProps/HoiAn_LanternRelease_Stand.png.meta",
+    "Assets/_Game/Resources/LeisureProps/HoiAn_Swing.png.meta",
+    "Assets/_Game/Resources/LeisureProps/Hue_PedalSwanBoat.png.meta",
+    "Assets/_Game/Resources/LeisureProps/Hue_ThroneReplica.png.meta",
+    "Assets/_Game/Resources/LeisureProps/Jeonju_TeaTable.png.meta",
+    "Assets/_Game/Resources/LeisureProps/Jeonju_WateringCan_Garden.png.meta",
+    "Assets/_Game/Resources/LeisureProps/Seoul_KpopStage.png.meta",
+    "Assets/_Game/Resources/LeisureProps/Seoul_TteokbokkiStall.png.meta"
+  ],
+  "baseCheckpoint": "D:/GAMEKKK/Backups/CheckpointOwnerRoutesPhaseB-20261019"
+}

@@ -1,0 +1,3 @@
+Timed out: NPC actor pointer opens existing dialogue
+Modal=False moving=False stage=4
+Buttons: G21:True:True,Interact:True:True,G1:True:True,G2:True:True,G11:True:True,JourneyShop:True:True,Back:True:True,AudioSettings:True:True,G16:True:True,ObjectiveHint:True:True,G8:True:True,G15:True:True,G10:True:True,G0:True:True,G9:True:True,ZoomOut:True:True,FocusLumi:True:True,G20:True:True,MapOverview:True:True,G17:True:True,MarkerMotion:True:True,G4:True:True,G14:True:True,QuestJournal:True:True,G18:True:True,Inventory:True:True,G3:True:True,G13:True:True,G19:True:True,G12:True:True,G7:True:True,G5:True:True,ZoomIn:True:True,G6:True:True

@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "combat_style": "small_turn_based",
+  "balance_to_test": true,
+  "enemies": [
+    {
+      "id": "enemy_crab",
+      "city": "Hội An",
+      "name": "Cua Trộm",
+      "level": 1,
+      "hp": 13,
+      "attack": 4,
+      "defense": 2,
+      "skills": [
+        "Vồ Móc",
+        "Kẹp Nhẹ"
+      ],
+      "drop_once": "copper_wire",
+      "alternative_resolution": "Use decoy bait instead",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_ghost",
+      "city": "Hội An",
+      "name": "Đèn Lồng Ma",
+      "level": 2,
+      "hp": 16,
+      "attack": 5,
+      "defense": 2,
+      "skills": [
+        "Bóng Lửa",
+        "Loé Sáng"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Can pacify via small lamp",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_mo01",
+      "city": "Hội An",
+      "name": "Bot Mờ-01",
+      "level": 3,
+      "hp": 26,
+      "attack": 7,
+      "defense": 3,
+      "skills": [
+        "Khóa Đèn",
+        "Quét Sáng"
+      ],
+      "drop_once": "link_key",
+      "alternative_resolution": "Hack via H19 code",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_river_wisp",
+      "city": "Huế",
+      "name": "Tinh Sông Nhiễu",
+      "level": 3,
+      "hp": 19,
+      "attack": 6,
+      "defense": 2,
+      "skills": [
+        "Làn Sóng",
+        "Đánh Lạc"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Avoidable encounter",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_courier",
+      "city": "Huế",
+      "name": "Bot Chuyển Thư",
+      "level": 3,
+      "hp": 22,
+      "attack": 6,
+      "defense": 3,
+      "skills": [
+        "Giữ Thư",
+        "Chặn Đường"
+      ],
+      "drop_once": "lost_letter",
+      "alternative_resolution": "U16 fake-letter solution",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_archive_guard",
+      "city": "Huế",
+      "name": "Cỗ Máy Điện Cũ",
+      "level": 4,
+      "hp": 27,
+      "attack": 7,
+      "defense": 4,
+      "skills": [
+        "Đóng Cổng",
+        "Quét Cờ"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Optional",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_gate_guard",
+      "city": "Huế",
+      "name": "Thân Vệ Hoàng Môn",
+      "level": 5,
+      "hp": 34,
+      "attack": 8,
+      "defense": 4,
+      "skills": [
+        "Khiên Thành",
+        "Gạt Đòn"
+      ],
+      "drop_once": "astral_script",
+      "alternative_resolution": "Hack using seal & scholar",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_mist_wolf",
+      "city": "Đà Lạt",
+      "name": "Sói Sương",
+      "level": 5,
+      "hp": 24,
+      "attack": 7,
+      "defense": 3,
+      "skills": [
+        "Gió Rít",
+        "Mây Mù"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Stealth with lamp",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_glass_thief",
+      "city": "Đà Lạt",
+      "name": "Bot Giấu Kính",
+      "level": 5,
+      "hp": 27,
+      "attack": 7,
+      "defense": 3,
+      "skills": [
+        "Xuyên Sương",
+        "Đánh Lừa"
+      ],
+      "drop_once": "lan_glasses",
+      "alternative_resolution": "Trap with light puzzle",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_fog_boss",
+      "city": "Đà Lạt",
+      "name": "Bóng Sương Cầu Đá",
+      "level": 6,
+      "hp": 40,
+      "attack": 9,
+      "defense": 5,
+      "skills": [
+        "Che Mờ",
+        "Quật Gió"
+      ],
+      "drop_once": "blue_water_signal",
+      "alternative_resolution": "Dog/Lan weaken boss",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_paper_crane",
+      "city": "Jeonju",
+      "name": "Hạc Giấy Nhiễu",
+      "level": 4,
+      "hp": 20,
+      "attack": 6,
+      "defense": 2,
+      "skills": [
+        "Cánh Sắc",
+        "Vòng Giấy"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Pacify with pattern",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_parcel_bot",
+      "city": "Jeonju",
+      "name": "Bot Cắp Kiện",
+      "level": 5,
+      "hp": 27,
+      "attack": 7,
+      "defense": 3,
+      "skills": [
+        "Thùng Bay",
+        "Giữ Chặt"
+      ],
+      "drop_once": "missing_parcel",
+      "alternative_resolution": "Solve package serial code",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_pattern_bot",
+      "city": "Jeonju",
+      "name": "Bot Hoa Văn",
+      "level": 6,
+      "hp": 30,
+      "attack": 7,
+      "defense": 4,
+      "skills": [
+        "Khoá Nét",
+        "Tia Đèn"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Hack with paper pattern",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_crane_boss",
+      "city": "Jeonju",
+      "name": "Hạc Giấy Bóng Tối",
+      "level": 7,
+      "hp": 39,
+      "attack": 9,
+      "defense": 4,
+      "skills": [
+        "Bão Giấy",
+        "Phản Sáng"
+      ],
+      "drop_once": "reply_letter",
+      "alternative_resolution": "Optional boss; quest should not be locked on victory",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_fox",
+      "city": "Gyeongju",
+      "name": "Cáo Bóng Mờ",
+      "level": 7,
+      "hp": 27,
+      "attack": 8,
+      "defense": 3,
+      "skills": [
+        "Bứt Tốc",
+        "Cắn Nhẹ"
+      ],
+      "drop_once": "star_symbol_2",
+      "alternative_resolution": "Bait instead of battle",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_stone_guard",
+      "city": "Gyeongju",
+      "name": "Tượng Đá Thức Tỉnh",
+      "level": 8,
+      "hp": 44,
+      "attack": 9,
+      "defense": 6,
+      "skills": [
+        "Nện Đất",
+        "Khiên Đá"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Repair seal for friendship",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_night_guard",
+      "city": "Gyeongju",
+      "name": "Bot Canh Đêm",
+      "level": 8,
+      "hp": 31,
+      "attack": 9,
+      "defense": 4,
+      "skills": [
+        "Canh Gác",
+        "Khoá Lối"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Battle or night-lamp bypass",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_star_core",
+      "city": "Gyeongju",
+      "name": "Lõi Tinh Tú",
+      "level": 9,
+      "hp": 48,
+      "attack": 10,
+      "defense": 5,
+      "skills": [
+        "Tia Sao",
+        "Vòng Sao"
+      ],
+      "drop_once": "silla_prism",
+      "alternative_resolution": "Break shield via 3-star puzzle",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_drone",
+      "city": "Seoul",
+      "name": "Drone Trinh Sát",
+      "level": 9,
+      "hp": 33,
+      "attack": 9,
+      "defense": 4,
+      "skills": [
+        "Quét Vùng",
+        "Bắn Chùm"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Stealth option",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_signal_bot",
+      "city": "Seoul",
+      "name": "Bot Nhiễu Tín Hiệu",
+      "level": 9,
+      "hp": 36,
+      "attack": 9,
+      "defense": 5,
+      "skills": [
+        "Cắt Sóng",
+        "Tăng Tốc"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Interrupt with relay pulse",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_bridge",
+      "city": "Seoul",
+      "name": "Bot Giữ Cầu",
+      "level": 10,
+      "hp": 38,
+      "attack": 10,
+      "defense": 5,
+      "skills": [
+        "Khoá Cầu",
+        "Lưới Sáng"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Seal hack",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_shadow_courier",
+      "city": "Seoul",
+      "name": "Bot Đưa Tin Bóng Mờ",
+      "level": 10,
+      "hp": 44,
+      "attack": 11,
+      "defense": 5,
+      "skills": [
+        "Chớp Tin",
+        "Nhiễu Kênh"
+      ],
+      "drop_once": "coin",
+      "alternative_resolution": "Relays disable",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    },
+    {
+      "id": "enemy_final_core",
+      "city": "Seoul",
+      "name": "Lõi Nhiễu Sáng",
+      "level": 12,
+      "hp": 88,
+      "attack": 12,
+      "defense": 7,
+      "skills": [
+        "Khiên Phản Chiếu",
+        "Mưa Tia"
+      ],
+      "drop_once": "ending",
+      "alternative_resolution": "Two phases + repair decision",
+      "replayable": false,
+      "stats_are_balance_proposals": true
+    }
+  ]
+}

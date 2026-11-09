@@ -1,0 +1,732 @@
+{
+  "status": "AUDIT_COMPLETE_NO_ELIGIBLE_EXISTING_QUIZ",
+  "scope": "Only replace content in existing independent question/answer interactions; do not add gameplay.",
+  "documentConflict": "Bank CODEX_APPLY_PUZZLE_BANK.md suggests new optional quizzes/random adapter; latest explicit user instruction forbids them and takes precedence.",
+  "cities": 6,
+  "nodes": 133,
+  "events": 164,
+  "puzzles": 22,
+  "modes": {
+    "sequence": 18,
+    "choice": 1,
+    "rings": 2,
+    "fold": 1
+  },
+  "eligibleLocations": 0,
+  "replacements": [],
+  "bank": {
+    "id": "LBC_GENERAL_PUZZLE_BANK_V1",
+    "questions": 150,
+    "structuralValidation": "PASS",
+    "factualValidation": "NOT PERFORMED — no bank question selected; do not interpret structure PASS as factual approval"
+  },
+  "puzzleAudit": [
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H4",
+      "puzzleId": "puzzle_market",
+      "mode": "sequence",
+      "oldQuestion": "Ba tấm biển bên sạp mô tả một buổi tối: hoa nở trước, trăng lên rồi đèn sáng. Chạm ba biểu tượng theo thứ tự đó.",
+      "oldOptions": [
+        "Hoa",
+        "Trăng",
+        "Đèn"
+      ],
+      "oldAnswer": "Hoa|Trăng|Đèn",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Chuỗi Hoa–Trăng–Đèn; H13 dùng manh mối đầu tiên từ H4. Giữ dữ liệu liên kết.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [],
+      "requiredItems": [],
+      "flags": [
+        "hoi_an.market_puzzle_solved"
+      ],
+      "completionFlag": "hoi_an.market_puzzle_solved",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H13",
+      "puzzleId": "puzzle_paper",
+      "mode": "choice",
+      "oldQuestion": "Mẫu đầu tiên tại sạp chợ là hoa. Mảnh giấy đúng phải giữ đúng nét hoa ấy; chọn mẫu Hoa để ghép lõi.",
+      "oldOptions": [
+        "Hoa",
+        "Trăng",
+        "Đèn"
+      ],
+      "oldAnswer": "Hoa",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Lựa chọn Hoa dựa trên H4; phát hanji_core và mở tiến độ/gate H13. Tài liệu ngân hàng cũng chỉ định giữ nguyên.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "hoi_an.market_puzzle_solved"
+      ],
+      "requiredItems": [],
+      "flags": [
+        "hoi_an.hanji_core_obtained"
+      ],
+      "completionFlag": "hoi_an.hanji_core_obtained",
+      "rewardItems": [
+        {
+          "itemId": "hanji_core",
+          "amount": 1
+        }
+      ],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H19",
+      "puzzleId": "puzzle_pottery",
+      "mode": "sequence",
+      "oldQuestion": "Tranh gốm khắc ba cảnh nối tiếp: Hoa – Trăng – Đèn. Sao chép đúng thứ tự để nhận mã vô hiệu hóa Bot Mờ-01.",
+      "oldOptions": [
+        "Hoa",
+        "Trăng",
+        "Đèn"
+      ],
+      "oldAnswer": "Hoa|Trăng|Đèn",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Chuỗi Hoa–Trăng–Đèn cấp mật mã vô hiệu hóa H5, nhánh thay chiến đấu. Giữ mật mã cốt truyện.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [],
+      "requiredItems": [],
+      "flags": [
+        "hoi_an.mo01_hack_code"
+      ],
+      "completionFlag": "hoi_an.mo01_hack_code",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D8",
+      "puzzleId": "puzzle_mist",
+      "mode": "sequence",
+      "oldQuestion": "Lan đã đánh dấu ba cổng: Thông → Đèn → Hồ. Chạm các biểu tượng theo thứ tự rồi xác nhận. Sai có thể xóa và thử lại.",
+      "oldOptions": [
+        "Thông",
+        "Đèn",
+        "Hồ"
+      ],
+      "oldAnswer": "Thông|Đèn|Hồ",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Chuỗi Thông–Đèn–Hồ theo manh mối Lan, mở đường sương. Không là trắc nghiệm độc lập.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "da_lat.glasses_returned"
+      ],
+      "requiredItems": [],
+      "flags": [
+        "da_lat.fog_path_solved",
+        "da_lat.fog_cleared"
+      ],
+      "completionFlag": "",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D12",
+      "puzzleId": "puzzle_windmill",
+      "mode": "rings",
+      "oldQuestion": "Ba ngọn thông nghiêng theo gió Đông → Bắc → Tây. Đặt ba cánh theo hướng đó; cối xay mở hộc thức ăn một lần.",
+      "oldOptions": [
+        "Đông",
+        "Bắc",
+        "Tây"
+      ],
+      "oldAnswer": "Đông|Bắc|Tây",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Cơ cấu rings, hướng gió; cấp thức ăn. Puzzle tương tác, ngoài phạm vi hỏi đáp.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [],
+      "requiredItems": [],
+      "flags": [
+        "da_lat.windmill_supplies_found"
+      ],
+      "completionFlag": "",
+      "rewardItems": [
+        {
+          "itemId": "meat_portion",
+          "amount": 1
+        }
+      ],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G2",
+      "puzzleId": "puzzle_pond",
+      "mode": "sequence",
+      "oldQuestion": "Ao phản chiếu: Sao → Trăng → Sao. Chạm theo thứ tự để ghi manh mối, không phát vật phẩm.",
+      "oldOptions": [
+        "Sao",
+        "Trăng"
+      ],
+      "oldAnswer": "Sao|Trăng|Sao",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Chuỗi Sao–Trăng–Sao ghi manh mối Gyeongju/boss, không là câu kiến thức.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [],
+      "requiredItems": [],
+      "flags": [
+        "gyeongju.pond_hint"
+      ],
+      "completionFlag": "",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G4",
+      "puzzleId": "puzzle_observatory",
+      "mode": "sequence",
+      "oldQuestion": "Ba nét trên phiến đá đọc từ trái sang phải: Sao → Trăng → Sao. Cần đủ ba biểu tượng; giữ chúng làm vật chứng.",
+      "oldOptions": [
+        "Sao",
+        "Trăng"
+      ],
+      "oldAnswer": "Sao|Trăng|Sao",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Đặt ba biểu tượng thật và giải chuỗi; cấp ống kính Silla liên thành phố.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "quest:GQ01"
+      ],
+      "requiredItems": [
+        {
+          "itemId": "star_symbol_1",
+          "amount": 1
+        },
+        {
+          "itemId": "star_symbol_2",
+          "amount": 1
+        },
+        {
+          "itemId": "star_symbol_3",
+          "amount": 1
+        }
+      ],
+      "flags": [
+        "gyeongju.three_stars_placed"
+      ],
+      "completionFlag": "",
+      "rewardItems": [
+        {
+          "itemId": "stargazer_lens",
+          "amount": 1
+        }
+      ],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G12",
+      "puzzleId": "puzzle_cracked_seal",
+      "mode": "sequence",
+      "oldQuestion": "Ấn tín Huế và bản ghi U17 cùng nhịp: Ngắn → Dài → Ngắn. Chỉ đối chiếu, không tiêu ấn tín.",
+      "oldOptions": [
+        "Ngắn",
+        "Dài"
+      ],
+      "oldAnswer": "Ngắn|Dài|Ngắn",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Đối chiếu ấn tín Huế và nhịp U17; giữ vật chứng và manh mối liên thành phố.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "hue.star_script_known",
+        "puzzle:puzzle_archive"
+      ],
+      "requiredItems": [
+        {
+          "itemId": "ancient_seal",
+          "amount": 1
+        }
+      ],
+      "flags": [
+        "gyeongju.seal_decoded"
+      ],
+      "completionFlag": "",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G15",
+      "puzzleId": "puzzle_temple",
+      "mode": "sequence",
+      "oldQuestion": "Ba bóng đổ được vẽ cạnh bệ: Thấp → Giữa → Cao.",
+      "oldOptions": [
+        "Thấp",
+        "Giữa",
+        "Cao"
+      ],
+      "oldAnswer": "Thấp|Giữa|Cao",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Sắp bóng đổ Thấp–Giữa–Cao: puzzle thứ tự tương tác, không phải hỏi đáp kiến thức.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [],
+      "requiredItems": [],
+      "flags": [
+        "gyeongju.temple_shadows_solved"
+      ],
+      "completionFlag": "",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G17",
+      "puzzleId": "puzzle_lantern_west",
+      "mode": "sequence",
+      "oldQuestion": "Hoa văn Jeonju đọc: Hoa → Trăng → Đèn.",
+      "oldOptions": [
+        "Hoa",
+        "Trăng",
+        "Đèn"
+      ],
+      "oldAnswer": "Hoa|Trăng|Đèn",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Chuỗi hoa văn từ Jeonju và điều kiện GQ04; giữ liên kết cốt truyện.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "jeonju.beacon_lit",
+        "quest:GQ04"
+      ],
+      "requiredItems": [],
+      "flags": [
+        "gyeongju.west_lantern_solved"
+      ],
+      "completionFlag": "",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U8",
+      "puzzleId": "puzzle_court",
+      "mode": "sequence",
+      "oldQuestion": "Bản ghi U17: nhịp ngắn đầu là cờ Vàng, nhịp dài là cờ Tím, nhịp ngắn cuối là cờ Xanh. Chạm ba lá cờ theo nhịp ấy.",
+      "oldOptions": [
+        "Vàng",
+        "Tím",
+        "Xanh"
+      ],
+      "oldAnswer": "Vàng|Tím|Xanh",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Ba cờ đọc theo bản ghi U17; thứ tự gắn manh mối kinh thành, không là trắc nghiệm lịch sử.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "hue.archive_decoded"
+      ],
+      "requiredItems": [],
+      "flags": [
+        "hue.court_solved"
+      ],
+      "completionFlag": "",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U16",
+      "puzzleId": "puzzle_market_code",
+      "mode": "sequence",
+      "oldQuestion": "Tấm vải có SEN hai cánh và ĐÈN hai vạch; MÂY có ba nét. Chọn lần lượt hai ký hiệu có đúng hai dấu: Sen rồi Đèn.",
+      "oldOptions": [
+        "Sen",
+        "Đèn",
+        "Mây"
+      ],
+      "oldAnswer": "Sen|Đèn",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Chọn hai ký hiệu Sen–Đèn có hai dấu, cấp river_pass/mã đối phó bot. Giữ puzzle ký hiệu.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [],
+      "requiredItems": [],
+      "flags": [
+        "hue.market_code_known",
+        "hue.courier_code_known"
+      ],
+      "completionFlag": "",
+      "rewardItems": [
+        {
+          "itemId": "river_pass",
+          "amount": 1
+        }
+      ],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U17",
+      "puzzleId": "puzzle_archive",
+      "mode": "sequence",
+      "oldQuestion": "Kiện thư U15 ghi nhịp: chớp ngắn, chớp dài, chớp ngắn. Gõ ba nhịp theo đúng thứ tự.",
+      "oldOptions": [
+        "Ngắn",
+        "Dài"
+      ],
+      "oldAnswer": "Ngắn|Dài|Ngắn",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Nhịp Ngắn–Dài–Ngắn dựa kiện thư; liên kết U8/G12/Seoul. Không thay mã.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [],
+      "requiredItems": [
+        {
+          "itemId": "lost_letter",
+          "amount": 1
+        }
+      ],
+      "flags": [
+        "hue.archive_decoded",
+        "hue.secret_wall_found",
+        "hue.scholar_code_known"
+      ],
+      "completionFlag": "",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J3",
+      "puzzleId": "puzzle_dye",
+      "mode": "sequence",
+      "oldQuestion": "Mẫu vải có ba lớp từ ngoài vào: Tím của cánh hoa, Vàng của đèn, Xanh của lá. Chạm theo thứ tự đó.",
+      "oldOptions": [
+        "Tím",
+        "Vàng",
+        "Xanh"
+      ],
+      "oldAnswer": "Tím|Vàng|Xanh",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Sắp lớp màu vải Tím–Vàng–Xanh; puzzle chuỗi tương tác, không phải hỏi đáp độc lập.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [],
+      "requiredItems": [],
+      "flags": [
+        "jeonju.dye_restored"
+      ],
+      "completionFlag": "",
+      "rewardItems": [
+        {
+          "itemId": "healing_tea",
+          "amount": 1
+        }
+      ],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J7",
+      "puzzleId": "puzzle_hanji",
+      "mode": "fold",
+      "oldQuestion": "Tờ Hanji có hai vạch sáng. Xoay 90° hai lần để căn vạch, rồi gấp một lần. Thử gấp sớm sẽ chưa khớp; không mất giấy.",
+      "oldOptions": [],
+      "oldAnswer": "folded",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Cơ chế fold: hai lần xoay và một lần gấp, cấp mảnh Hanji. Giữ puzzle tương tác.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [],
+      "requiredItems": [],
+      "flags": [],
+      "completionFlag": "",
+      "rewardItems": [
+        {
+          "itemId": "hanji_pattern_1",
+          "amount": 1
+        }
+      ],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J12",
+      "puzzleId": "puzzle_embroidery",
+      "mode": "sequence",
+      "oldQuestion": "Yoon J4 ghi: Hoa → Trăng → Đèn. Đặt nét đèn Hội An tại tâm khuôn. Cần đủ ba mảnh thật trước khi ghép.",
+      "oldOptions": [
+        "Hoa",
+        "Trăng",
+        "Đèn"
+      ],
+      "oldAnswer": "Hoa|Trăng|Đèn",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Ghép ba mảnh và đặt chuỗi theo Yoon/Hội An; cấp hanji_circuit cho chương sau.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "jeonju.yoon_clue_known",
+        "hoi_an.lamp_restored"
+      ],
+      "requiredItems": [
+        {
+          "itemId": "hanji_pattern_1",
+          "amount": 1
+        },
+        {
+          "itemId": "hanji_pattern_2",
+          "amount": 1
+        },
+        {
+          "itemId": "hanji_pattern_3",
+          "amount": 1
+        }
+      ],
+      "flags": [
+        "jeonju.three_patterns_joined"
+      ],
+      "completionFlag": "",
+      "rewardItems": [
+        {
+          "itemId": "hanji_circuit",
+          "amount": 1
+        }
+      ],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J17",
+      "puzzleId": "puzzle_lantern",
+      "mode": "rings",
+      "oldQuestion": "Ba vòng trên đèn mang Hoa, Trăng, Đèn. Khi Hội An sáng, nét tâm hiện ra: xoay từng vòng, từ trái sang phải thành Hoa → Trăng → Đèn như mẫu Yoon và khuôn J12.",
+      "oldOptions": [
+        "Hoa",
+        "Trăng",
+        "Đèn"
+      ],
+      "oldAnswer": "Hoa|Trăng|Đèn",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Cơ cấu rings với mạch Hanji và manh mối Yoon/J12; giữ điều kiện chương.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "hoi_an.lamp_restored",
+        "jeonju.three_patterns_joined"
+      ],
+      "requiredItems": [
+        {
+          "itemId": "hanji_circuit",
+          "amount": 1
+        }
+      ],
+      "flags": [
+        "jeonju.lantern_puzzle_solved"
+      ],
+      "completionFlag": "",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "seoul",
+      "nodeId": "S3",
+      "puzzleId": "puzzle_palace",
+      "mode": "sequence",
+      "oldQuestion": "Bản ghi Huế và hồ sơ cũ: Ngắn → Dài → Ngắn. Đọc nhịp để khôi phục lời nhắn bị cắt.",
+      "oldOptions": [
+        "Ngắn",
+        "Dài"
+      ],
+      "oldAnswer": "Ngắn|Dài|Ngắn",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Giải lời nhắn theo nhịp Huế, SQ02 và hồ sơ cũ. Giữ mã cốt truyện.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "seoul.archive_read",
+        "quest:SQ02"
+      ],
+      "requiredItems": [],
+      "flags": [
+        "seoul.palace_message_decoded"
+      ],
+      "completionFlag": "",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "seoul",
+      "nodeId": "S10",
+      "puzzleId": "puzzle_tower",
+      "mode": "sequence",
+      "oldQuestion": "Ống kính Silla đọc ba tia: Sao → Trăng → Sao. Kính vẫn được giữ sau khi hiệu chuẩn.",
+      "oldOptions": [
+        "Sao",
+        "Trăng"
+      ],
+      "oldAnswer": "Sao|Trăng|Sao",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Hiệu chuẩn bằng ống kính Silla, chuỗi Sao–Trăng–Sao; giữ vật chứng/manh mối.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [],
+      "requiredItems": [
+        {
+          "itemId": "stargazer_lens",
+          "amount": 1
+        }
+      ],
+      "flags": [
+        "seoul.tower_calibrated"
+      ],
+      "completionFlag": "",
+      "rewardItems": [],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "seoul",
+      "nodeId": "S16",
+      "puzzleId": "puzzle_station",
+      "mode": "sequence",
+      "oldQuestion": "Tín hiệu nước Đà Lạt ghi hai công tắc: Nước → Sáng. Chạm từng công tắc rồi xác nhận.",
+      "oldOptions": [
+        "Nước",
+        "Sáng"
+      ],
+      "oldAnswer": "Nước|Sáng",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Rơle A dùng tín hiệu nước Đà Lạt, điều kiện SQ01; không thay puzzle trạm.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "quest:SQ01",
+        "da_lat.beacon_lit"
+      ],
+      "requiredItems": [
+        {
+          "itemId": "blue_water_signal",
+          "amount": 1
+        }
+      ],
+      "flags": [
+        "seoul.relay_a_on"
+      ],
+      "completionFlag": "",
+      "rewardItems": [
+        {
+          "itemId": "relay_a",
+          "amount": 1
+        }
+      ],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "seoul",
+      "nodeId": "S17",
+      "puzzleId": "puzzle_relay_hue",
+      "mode": "sequence",
+      "oldQuestion": "Rơle B đọc ấn Huế: Ngắn → Dài → Ngắn. Ấn chỉ dùng xác thực, không tiêu hao.",
+      "oldOptions": [
+        "Ngắn",
+        "Dài"
+      ],
+      "oldAnswer": "Ngắn|Dài|Ngắn",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Rơle B đối chiếu ấn tín Huế, điều kiện SQ01; không thay puzzle trạm.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "quest:SQ01",
+        "hue.beacon_lit"
+      ],
+      "requiredItems": [
+        {
+          "itemId": "ancient_seal",
+          "amount": 1
+        }
+      ],
+      "flags": [
+        "seoul.relay_b_on"
+      ],
+      "completionFlag": "",
+      "rewardItems": [
+        {
+          "itemId": "relay_b",
+          "amount": 1
+        }
+      ],
+      "rewardCoins": 0
+    },
+    {
+      "cityId": "seoul",
+      "nodeId": "S18",
+      "puzzleId": "puzzle_relay_jeonju",
+      "mode": "sequence",
+      "oldQuestion": "Rơle C đọc mạch Hanji: Hoa → Trăng → Đèn. Giữ mạch sau khi đồng bộ.",
+      "oldOptions": [
+        "Hoa",
+        "Trăng",
+        "Đèn"
+      ],
+      "oldAnswer": "Hoa|Trăng|Đèn",
+      "newBankQuestionId": null,
+      "decision": "KEEP_EXISTING",
+      "reason": "Rơle C đối chiếu mạch Hanji Jeonju, điều kiện SQ01; không thay puzzle trạm.",
+      "mechanism": "UNCHANGED",
+      "newAnswerRuntimeTest": "NOT APPLICABLE — no content replaced",
+      "requiredFlags": [
+        "quest:SQ01",
+        "jeonju.beacon_lit"
+      ],
+      "requiredItems": [
+        {
+          "itemId": "hanji_circuit",
+          "amount": 1
+        }
+      ],
+      "flags": [
+        "seoul.relay_c_on"
+      ],
+      "completionFlag": "",
+      "rewardItems": [
+        {
+          "itemId": "relay_c",
+          "amount": 1
+        }
+      ],
+      "rewardCoins": 0
+    }
+  ],
+  "newRuntimeTests": "NOT APPLICABLE — no content replaced",
+  "build": "NOT REQUIRED — runtime inputs unchanged"
+}

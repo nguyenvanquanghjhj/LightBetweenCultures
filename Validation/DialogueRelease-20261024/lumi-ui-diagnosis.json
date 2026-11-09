@@ -1,0 +1,27 @@
+{
+  "deviceVersionAtCapture": "1.0",
+  "deviceVersionCode": 1,
+  "cause": "Old installed APK was launched as pre-update fixture; current source bindings and button style match approved checkpoints.",
+  "approvedLumi": "Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png",
+  "approvedLumiSHA256": "91a4e8f7613e4eb58df7bdf25162081af46e44fe04e288a75707c20701d700d7",
+  "checks": {
+    "lumi_roles": {
+      "path": "Assets/_Game/Resources/DesignKitArt.asset",
+      "sha256": "ec1380c8691bb11d42b05d5103677e5c23e066f018bb07a4ea5f052b30d5d393",
+      "reference": "D:\\GAMEKKK\\Backups\\CheckpointAppearance-20261021\\Project\\Assets\\_Game\\Resources\\DesignKitArt.asset",
+      "sameAsApprovedCheckpoint": true
+    },
+    "approved_button_style": {
+      "path": "Assets/_Game/Scripts/UI/UIController.cs",
+      "sha256": "c5e39003b9899711f40b486393c7f9dfe0fb98a696c0aee449fab1b18757d979",
+      "reference": "D:\\GAMEKKK\\Backups\\CheckpointGelButtons-20261020\\Project\\Assets\\_Game\\Scripts\\UI\\UIController.cs",
+      "sameAsApprovedCheckpoint": true
+    },
+    "opening_menu": {
+      "path": "Assets/_Game/Scripts/Maps/MainMenu.cs",
+      "sha256": "1a411a29eb187b0fb011b36c6302b74ae5cbe69e15180c92072b7b91e263507c",
+      "reference": "D:\\GAMEKKK\\Backups\\LBC_SourceVerified-20261020\\Project\\Assets\\_Game\\Scripts\\Maps\\MainMenu.cs",
+      "sameAsApprovedCheckpoint": true
+    }
+  }
+}

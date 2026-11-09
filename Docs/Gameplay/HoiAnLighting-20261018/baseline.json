@@ -1,0 +1,34 @@
+{
+  "type": "INCREMENTAL_REQUIRES_BASE",
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointCheckInArt-20261018",
+  "baseManifestSHA256": "7f8e2834549dd2cae5a5002737fec57a300f0841a5e7e63a9ec895fbca7f058e",
+  "createdUTC": "2026-10-18T05:59:45.708927+00:00",
+  "entries": [
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+      "bytes": 2844,
+      "sha256": "87382f3b3a58bbba8c1a7c3ec5185d3d1eb641b33c1f3836f6fd16e08d2b7958"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.QuestReaction.cs",
+      "bytes": 4423,
+      "sha256": "32c88cce27f23f70142faeb21ce038bd8606d1df753f7ea92bd490f556e48669"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "bytes": 110599,
+      "sha256": "23194d8a29a81f2db738968b710919e25df4cee7e31bb3c07d6d7e6871d8c6d6"
+    },
+    {
+      "path": "Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md",
+      "bytes": 5450,
+      "sha256": "198af5c80028104eb2189e44f105da3524fb796d4e766017939c98389ca9827b"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "bytes": 20837,
+      "sha256": "35085c672985cf3f4723e67f729741d82e2cd361b283266016e4eb9d6544ed70"
+    }
+  ],
+  "deletedPaths": []
+}

@@ -1,0 +1,104 @@
+UTC run: 2026-10-25T08:03:00.2892864Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Optional NPC keeps original one-time interaction: G16
+PASS: Actor respects real discovery/resolution: G16
+PASS: Real assigned sprite/aspect/outline preserved: G16
+PASS: Shared72percent scale and52-unit touch area: G16
+PASS: Visible map NPC uses its own existing sprite: G16
+PASS: Lumi reaches NPC without a new route: G16
+PASS: Correct native NPC portrait: G16
+PASS: Correct Korean name: G16
+PASS: Initial/return dialogue: G16
+PASS: Dialogue panel fits screen: G16
+PASS: Close control center is outside reading area: G16
+PASS: Reading dialogue grants nothing: G16
+PASS: Separate process reload keeps reward resolved: G16
+PASS: No old chest collection offered: G16
+PASS: Repeated/stale talk and collect cannot duplicate reward: G16
+PASS: Return/reload does not replay a reward receipt: G16
+PASS: Closing an event or battle returns map input to the player
+PASS: Panel closes and restores map controls: G16
+PASS: Original graph still has a reachable neighbor: G16
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G0 is discovered
+PASS: Lumi reaches G0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G16 is discovered
+PASS: Lumi reaches G16 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Lumi moves out and returns on original routes: G16
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Optional NPC keeps original one-time interaction: G21
+PASS: Actor respects real discovery/resolution: G21
+PASS: Real assigned sprite/aspect/outline preserved: G21
+PASS: Shared72percent scale and52-unit touch area: G21
+PASS: Visible map NPC uses its own existing sprite: G21
+PASS: Lumi reaches NPC without a new route: G21
+PASS: Correct native NPC portrait: G21
+PASS: Correct Korean name: G21
+PASS: Initial/return dialogue: G21
+PASS: Dialogue panel fits screen: G21
+PASS: Close control center is outside reading area: G21
+PASS: Reading dialogue grants nothing: G21
+PASS: Separate process reload keeps reward resolved: G21
+PASS: No old chest collection offered: G21
+PASS: Repeated/stale talk and collect cannot duplicate reward: G21
+PASS: Return/reload does not replay a reward receipt: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: Panel closes and restores map controls: G21
+PASS: Original graph still has a reachable neighbor: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G0 is discovered
+PASS: Lumi reaches G0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G21 is discovered
+PASS: Lumi reaches G21 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Lumi moves out and returns on original routes: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Optional NPC keeps original one-time interaction: S12
+PASS: Actor respects real discovery/resolution: S12
+PASS: Real assigned sprite/aspect/outline preserved: S12
+PASS: Shared72percent scale and52-unit touch area: S12
+PASS: Visible map NPC uses its own existing sprite: S12
+PASS: Lumi reaches NPC without a new route: S12
+PASS: Correct native NPC portrait: S12
+PASS: Correct Korean name: S12
+PASS: Initial/return dialogue: S12
+PASS: Dialogue panel fits screen: S12
+PASS: Close control center is outside reading area: S12
+PASS: Reading dialogue grants nothing: S12
+PASS: Separate process reload keeps reward resolved: S12
+PASS: No old chest collection offered: S12
+PASS: Repeated/stale talk and collect cannot duplicate reward: S12
+PASS: Return/reload does not replay a reward receipt: S12
+PASS: Closing an event or battle returns map input to the player
+PASS: Panel closes and restores map controls: S12
+PASS: Original graph still has a reachable neighbor: S12
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S0 is discovered
+PASS: Lumi reaches S0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S12 is discovered
+PASS: Lumi reaches S12 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Lumi moves out and returns on original routes: S12
+PASS: Separate Windows process retains exact inventory, coins and reward ledgers
+ALL CHECKS PASSED

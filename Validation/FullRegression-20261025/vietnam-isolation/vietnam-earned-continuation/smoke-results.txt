@@ -1,0 +1,18 @@
+UTC run: 2026-10-25T10:55:01.7423421Z | Unity 6000.6.5f1 | 540x960
+PASS: PC original New Game run remains in the provenance evidence
+PASS: Six cities/133 nodes/29 quests/22 story puzzles unchanged
+PASS: Single collection retains6 canonical relic IDs and24 fragment IDs
+PASS: Persist checkpoint P4-E2E-VN_FIRST-hue
+PASS: Persist checkpoint P4-E2E-VN_FIRST-da_lat
+PASS: Persist checkpoint P4-E2E-VN_FIRST-jeonju
+PASS: Two-route earned statue choice agrees with actual branch: VN_FIRST
+PASS: Persist checkpoint P4-E2E-VN_FIRST-gyeongju
+PASS: Persist checkpoint P4-E2E-VN_FIRST-seoul
+PASS: Earned VN_FIRST reaches24/24 and6/6 before boss, with no automatic ending
+PASS: Closing an event or battle returns map input to the player
+System.Exception: Timed out: map ready
+Modal=no map moving= stage=4
+Buttons: AudioSettings:True:True,Reset:True:True,MainGuide:True:True,Start:True:True
+  at LightBetweenCultures.GameplaySmokeRunner+<Until>d__312.MoveNext () [0x001b4] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:107 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__311.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 0b39cc9d42dc56640bc206a885645080
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7301908006442819529
+    second: Artifact_Seoul_ThreeRelayPrism_Source_0
+  - first:
+      213: 3046084183394530097
+    second: Artifact_Seoul_ThreeRelayPrism_Source_1
+  - first:
+      213: 332793151637835176
+    second: Artifact_Seoul_ThreeRelayPrism_Source_2
+  - first:
+      213: 7214618684211698705
+    second: Artifact_Seoul_ThreeRelayPrism_Source_3
+  - first:
+      213: 1359858421366797290
+    second: Artifact_Seoul_ThreeRelayPrism_Source_4
+  - first:
+      213: -2077159742411754762
+    second: Artifact_Seoul_ThreeRelayPrism_Source_5
+  - first:
+      213: 7791729099499216249
+    second: Artifact_Seoul_ThreeRelayPrism_Source_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: relic_seoul_trirelay_prism
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 374
+        width: 710
+        height: 880
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -355, y: 440}
+        - {x: 355, y: 440}
+        - {x: 355, y: -260}
+        - {x: 95, y: -320}
+        - {x: 95, y: -440}
+        - {x: -105, y: -440}
+        - {x: -105, y: -320}
+        - {x: -355, y: -260}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48d08e9ce339fc49813993164884711
+      internalID: -74045468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fragment_seoul_relay_frame
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 4
+        width: 360
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -176, y: -115.5}
+        - {x: -175, y: -110.5}
+        - {x: -174, y: -107.5}
+        - {x: -171, y: -101.5}
+        - {x: 9, y: 171.5}
+        - {x: 11, y: 174.5}
+        - {x: 25, y: 188.5}
+        - {x: 33, y: 193.5}
+        - {x: 40, y: 197.5}
+        - {x: 42, y: 198.5}
+        - {x: 47, y: 200.5}
+        - {x: 56, y: 203.5}
+        - {x: 61, y: 204.5}
+        - {x: 75, y: 204.5}
+        - {x: 78, y: 203.5}
+        - {x: 134, y: 173.5}
+        - {x: 137, y: 171.5}
+        - {x: 148, y: 160.5}
+        - {x: 150, y: 157.5}
+        - {x: 153, y: 151.5}
+        - {x: 155, y: 146.5}
+        - {x: 158, y: 137.5}
+        - {x: 160, y: 129.5}
+        - {x: 161, y: 118.5}
+        - {x: 161, y: 109.5}
+        - {x: 148, y: -59.5}
+        - {x: 147, y: -65.5}
+        - {x: 146, y: -69.5}
+        - {x: 143, y: -78.5}
+        - {x: 139, y: -85.5}
+        - {x: 131, y: -96.5}
+        - {x: 122, y: -105.5}
+        - {x: -12, y: -173.5}
+        - {x: -28, y: -181.5}
+        - {x: -48, y: -189.5}
+        - {x: -60, y: -193.5}
+        - {x: -76, y: -198.5}
+        - {x: -82, y: -199.5}
+        - {x: -88, y: -199.5}
+        - {x: -141, y: -181.5}
+        - {x: -147, y: -178.5}
+        - {x: -150, y: -176.5}
+        - {x: -158, y: -168.5}
+        - {x: -163, y: -162.5}
+        - {x: -167, y: -155.5}
+        - {x: -171, y: -147.5}
+        - {x: -172, y: -144.5}
+        - {x: -175, y: -132.5}
+        - {x: -176, y: -122.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b22f6f0a9f23b478487fe547c6f7cb
+      internalID: 1990054730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b2b380ae97e42b14ebed5e80b7378e9b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fragment_seoul_relay_frame: 1990054730
+      relic_seoul_trirelay_prism: -74045468
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

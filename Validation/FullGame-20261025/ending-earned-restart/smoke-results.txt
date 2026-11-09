@@ -1,0 +1,12 @@
+UTC run: 2026-10-25T07:16:41.8922430Z | Unity 6000.6.5f1 | 540x960
+PASS: Process restart restores canonical completion only when previously committed: completed
+PASS: Restart never resumes unconfirmed animation/credits automatically
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Resolved boss remains resolved after real process restart
+PASS: Restart has no repeated reward or item loss
+PASS: Fresh runtime capture written: P5-restart-completed
+PASS: Fresh runtime capture written: P5-WorldMap-after-credits
+ALL CHECKS PASSED

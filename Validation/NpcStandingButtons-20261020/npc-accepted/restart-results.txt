@@ -1,0 +1,73 @@
+UTC run: 2026-10-20T14:04:41.3793241Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual route reaches intended canonical node: D2
+PASS: Dialogue remained closed throughout Lumi's movement: D2
+PASS: Canonical visible NPC foot never moves during Lumi approach: D2
+PASS: Visible sprite feet are close before dialogue opens: D2
+PASS: Walking/approach alone cannot grant or consume quest/reward state: D2
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual route reaches intended canonical node: D3
+PASS: Dialogue remained closed throughout Lumi's movement: D3
+PASS: Canonical visible NPC foot never moves during Lumi approach: D3
+PASS: Visible sprite feet are close before dialogue opens: D3
+PASS: Walking/approach alone cannot grant or consume quest/reward state: D3
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual route reaches intended canonical node: D4
+PASS: Dialogue remained closed throughout Lumi's movement: D4
+PASS: Canonical visible NPC foot never moves during Lumi approach: D4
+PASS: Visible sprite feet are close before dialogue opens: D4
+PASS: Walking/approach alone cannot grant or consume quest/reward state: D4
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual route reaches intended canonical node: D10
+PASS: Dialogue remained closed throughout Lumi's movement: D10
+PASS: Canonical visible NPC foot never moves during Lumi approach: D10
+PASS: Visible sprite feet are close before dialogue opens: D10
+PASS: Walking/approach alone cannot grant or consume quest/reward state: D10
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual route reaches intended canonical node: D13
+PASS: Dialogue remained closed throughout Lumi's movement: D13
+PASS: Canonical visible NPC foot never moves during Lumi approach: D13
+PASS: Visible sprite feet are close before dialogue opens: D13
+PASS: Walking/approach alone cannot grant or consume quest/reward state: D13
+PASS: Closing an event or battle returns map input to the player
+PASS: Approaches leave the entire Phase B graph and polylines unchanged: da_lat
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual route reaches intended canonical node: G3
+PASS: Dialogue remained closed throughout Lumi's movement: G3
+PASS: Canonical visible NPC foot never moves during Lumi approach: G3
+PASS: Visible sprite feet are close before dialogue opens: G3
+PASS: Walking/approach alone cannot grant or consume quest/reward state: G3
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual route reaches intended canonical node: G9
+PASS: Dialogue remained closed throughout Lumi's movement: G9
+PASS: Canonical visible NPC foot never moves during Lumi approach: G9
+PASS: Visible sprite feet are close before dialogue opens: G9
+PASS: Walking/approach alone cannot grant or consume quest/reward state: G9
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Standing-G14-before
+PASS: Actual route reaches intended canonical node: G14
+PASS: Dialogue remained closed throughout Lumi's movement: G14
+PASS: Canonical visible NPC foot never moves during Lumi approach: G14
+PASS: Unsafe approach does not open a distant dialogue: G14
+System.Exception: FAIL: The blocked approach explanation is visible in the real map HUD: G14
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<NpcStandingJourney>d__133.MoveNext () [0x005d2] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.NpcStanding.cs:48 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__275.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

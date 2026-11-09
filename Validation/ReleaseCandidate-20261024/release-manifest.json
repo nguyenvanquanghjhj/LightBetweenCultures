@@ -1,0 +1,56 @@
+{
+  "version": "1.0-rc1-20261024",
+  "androidVersionCode": 6,
+  "status": "RC_READY_FOR_OWNER_ACCEPTANCE",
+  "sourceHold": true,
+  "ownerAccepted": false,
+  "windows": {
+    "version": "1.0-rc1-20261024",
+    "development": false,
+    "output": "Builds\\Windows-AndroidTouch-20261020\\LightBetweenCultures.exe",
+    "archive": "Builds\\LightBetweenCultures-RC1-20261024-Windows.zip",
+    "bytes": 309218665,
+    "sha256": "65ec43c704a4f670a539ae011707d285956354f4c6d7bc2773f2680c72c21831",
+    "files": 228,
+    "crc": "PASS",
+    "qaCodeStripped": true,
+    "managedAssemblySHA256": "be668db4a2ea6c1cbd5c33a8dec16e4af39c7e90d0c218967b4ca9a4c1914c05"
+  },
+  "android": {
+    "path": "Builds\\Android\\LightBetweenCultures-RC1-20261024.apk",
+    "bytes": 286411518,
+    "sha256": "2612472e9ce6658bce11be1ab917ec26bb48ba20f247e4837509c3b9c9363689",
+    "crc": "PASS",
+    "sourceUnchangedAfterBuilds": true,
+    "build": "PASS",
+    "errors": 0,
+    "signature": "APK_V2_VERIFIED",
+    "certificateSHA256": "366c42b574b53902b73864b6f03d33f10e5485a144b5dc6f47c70f75b0828133",
+    "sameCertificateAsPreviousAPK": true,
+    "device": "BLOCKED_NO_ADB_DEVICE",
+    "realmeC71SavePersistence": "NOT_TESTED"
+  },
+  "sourceFingerprint": "d9ecf28a112ea1ec72872a9ac4b73dc3cfd7b86e56855576c6b7e65702664c69",
+  "sourceFileCount": 890,
+  "sourceManifest": "Validation/ReleaseCandidate-20261024/source-freeze.json",
+  "windowsSave": "PASS_BACKUP_TEMP_V1_REPEAT_AND_SEPARATE_PROCESS",
+  "sixCities": "PASS_REPRESENTATIVE_FIXTURES_PLUS_VALIDATED_INHERITED_EVIDENCE_NOT_FULL_CAMPAIGN",
+  "G14": "OPTIONAL_SAFE_BLOCK_RETAINED",
+  "hueArt": "APPROVED_EXISTING_LOCAL_COMPOSITE_APPLIED_ZERO_OUTSIDE_MASKS",
+  "ownerVisualPending": [
+    "Hana source hem/crop final visual acceptance"
+  ],
+  "cleanup": {
+    "beforeBytes": 16398166831,
+    "afterCleanupBytes": 12196620538,
+    "netRecoveredBytes": 4201546293,
+    "currentAfterReleaseBuildBytes": 16936153889,
+    "note": "Release builds regenerated allowed caches and added exactly one RC ZIP / one RC APK; no further cleanup performed"
+  },
+  "remainingAcceptance": [
+    "realme C71 launch/update over existing app",
+    "existing save retained and one interaction persisted across cold restart",
+    "owner final visual review; no automatic fun/retention PASS"
+  ],
+  "changes": "Validation/ReleaseCandidate-20261024/source-changes.json"
+}

@@ -1,0 +1,48 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 31556)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 8180)
+VBCSCompiler prewarm took 32.05 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.5f1 (3ff58d469c8a) revision 4191629'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 15556 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-29T08:34:51Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-admin" at "2026-10-29T08:34:51.574772Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7692, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              df032d5279fd4f2a9ac532f41e009b78
+  Correlation Id:          80d60e560b42eb7f9a241c0c261cdec7
+  External correlation Id: 7877374309297758460
+  Machine Id:              QZ5ArAUOVWfBBVr9WzRr5CQ5z28=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-admin" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-admin-notifications" at "2026-10-29T08:34:51.6457756Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968522363907-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.08s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+D:\GAMEKKK\LightBetweenCultures
+-executeMethod
+LightBetweenCultures.Editor.Phase5Setup.Build
+--qa-build-release
+--qa-build-version=1.0-playtest-20261029
+--qa-build-output=Builds/Windows-Playtest-20261029/LightBetweenCultures.exe
+-logFile
+D:\GAMEKKK\LightBetweenCultures\Validation\windows-playtest-build-20261029-elevated.log
+Successfully changed project path to: D:\GAMEKKK\LightBetweenCultures
+D:/GAMEKKK/LightBetweenCultures
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 1

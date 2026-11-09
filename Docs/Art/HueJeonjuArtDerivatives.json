@@ -1,0 +1,230 @@
+{
+  "tool": "built-in image_gen",
+  "sourcesUnchanged": true,
+  "referenceNPC": "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/NPC_Roster_Concept.png",
+  "referenceEnemy": "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png",
+  "prompt": "One standalone full-body transparent 2D chibi sprite matching LBC painted roster style. Preserve full hands/feet/props, clear padding, no scenery/text/ground/watermark; proposed derivative pending user approval. Subject follows each canonical runtime ID and name; Hương/So-yeon/Mai/Ji-eun are never replaced.",
+  "entries": [
+    {
+      "id": "npc_nguyet",
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-7e190989-bfd9-4c83-942e-22f38ecab7f1.png",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "alphaBounds": [
+        0,
+        9,
+        1298,
+        1199
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "6930e06a55f6989b3547f2f11a2f7e3aed867f84eb9bbd53f943faa866d44530"
+    },
+    {
+      "id": "npc_tam",
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-f12979ec-7b12-4269-903d-cd88c0edd1de.png",
+      "dimensions": [
+        1103,
+        1426
+      ],
+      "alphaBounds": [
+        0,
+        33,
+        1065,
+        1426
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "15587f85e7fd1b72e26031bb9b28098c54ebed90f9e8d0ebc2e4af36d5ffee46"
+    },
+    {
+      "id": "npc_yoon",
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-62274880-f810-4340-9317-60a9e24076d1.png",
+      "dimensions": [
+        1294,
+        1216
+      ],
+      "alphaBounds": [
+        0,
+        6,
+        1276,
+        1216
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "144d39585715517f831861c8951bb90198086f7978675e4381686ae323ef4936"
+    },
+    {
+      "id": "npc_park",
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-e66f287a-2b5e-4f66-987a-71069b8fd083.png",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "alphaBounds": [
+        0,
+        8,
+        1294,
+        1199
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "bf3defe0a6a193938bfd5c1e19176b572624760b89903cbc2b65222f142af7af"
+    },
+    {
+      "id": "npc_elder",
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-33d3b4b8-0005-46d6-af23-f7edb2cf564d.png",
+      "dimensions": [
+        1214,
+        1295
+      ],
+      "alphaBounds": [
+        33,
+        13,
+        1196,
+        1281
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "cb4bd5bb94b28656a70540d06792fc3411cc0672fcf9b29f2b1626af80a1797b"
+    },
+    {
+      "id": "enemy_river_wisp",
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-bb202b2f-387d-4c51-8002-094809d75d35.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alphaBounds": [
+        43,
+        16,
+        1466,
+        1006
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "426d606ef7df229bfdb949e608213faab4b086dfacab74f8fec7b2483528c2e5"
+    },
+    {
+      "id": "enemy_courier",
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-98abb5c2-b275-4452-92c4-7114301ff079.png",
+      "dimensions": [
+        1423,
+        1105
+      ],
+      "alphaBounds": [
+        41,
+        18,
+        1407,
+        1105
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "9f81f2243fab2eba4128194a6ec08be3dde7a269b8e12120ecd9197d20d7a799"
+    },
+    {
+      "id": "enemy_archive_guard",
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-dad87aa5-9c2b-425b-bdb7-c21a97f0c6da.png",
+      "dimensions": [
+        1402,
+        1122
+      ],
+      "alphaBounds": [
+        0,
+        17,
+        1394,
+        1106
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "895cc5f001beabf857892834b4185f962478d2840e2fc3cf2db3896d1f20eecd"
+    },
+    {
+      "id": "enemy_gate_guard",
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-8c48f445-6944-4a62-acb2-b423a740a3fe.png",
+      "dimensions": [
+        1397,
+        1126
+      ],
+      "alphaBounds": [
+        0,
+        29,
+        1375,
+        1079
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "c9eaace3159a4fb3770c70104302d530e8b69231fe7851ba8b281efbb4894081"
+    },
+    {
+      "id": "enemy_parcel_bot",
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-900a295e-9987-4da1-9552-9ec09f7e647e.png",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "alphaBounds": [
+        0,
+        6,
+        1298,
+        1199
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "42a4cfb742868418587c604b0838fbe164409e19fdf2d580cc19511bd9b687c4"
+    },
+    {
+      "id": "enemy_paper_crane",
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-949687a9-c17c-47de-9c10-32b43524b783.png",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1444,
+        1086
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "937200d80965bdf03e413df0c653bb515b6dacbb829b8282c915164a396433ea"
+    },
+    {
+      "id": "enemy_pattern_bot",
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-3cfdd4c3-6642-45ac-a7b9-f56bf07a5899.png",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "alphaBounds": [
+        0,
+        8,
+        1412,
+        1068
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "32de2f21401fb53c00c809343f14be8fa6ec242f011268c59392458dac12b18b"
+    },
+    {
+      "id": "enemy_crane_boss",
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-e00c2cd9-a997-4b97-8630-d89dfa7a9ad3.png",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "alphaBounds": [
+        0,
+        8,
+        1442,
+        1086
+      ],
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "sha256": "b0d46f325fc0d482d898c5cf08b4453e74a9bcae9aaeb6ad8b28194786f600d2"
+    }
+  ]
+}

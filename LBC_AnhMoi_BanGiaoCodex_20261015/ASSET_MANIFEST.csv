@@ -1,0 +1,18 @@
+﻿relative_path,role,usage_note_vi,ready_to_import_as_runtime_sprite,origin
+Maps/HoiAn/Map_Overview_A.png,map_overview,"Hội An: phố cổ, sông, bến thuyền, đèn lồng; dùng nền minh họa cho CityMap",NO - reference only unless independently isolated/cleaned,phố_cổ_bên_sông_dưới_ánh_đèn_hoa_đăng.png
+Maps/HoiAn/Map_Overview_B.png,map_overview,Hội An: bố cục tham khảo thứ hai cho CityMap,NO - reference only unless independently isolated/cleaned,phố_cổ_ven_sông_dưới_ánh_đèn_lồng.png
+Maps/Hue/Map_Overview_A.png,map_overview,"Huế: sông Hương chia hai bờ, Kinh thành một phía",NO - reference only unless independently isolated/cleaned,bản_đồ_hoàng_thành_huế_bên_sông_lung_linh.png
+Maps/Hue/Map_Overview_B.png,map_overview,Huế: góc bố cục Kinh thành / khu dân cư / sông,NO - reference only unless independently isolated/cleaned,thành_hoàng_cung_bên_dòng_nước.png
+Maps/DaLat/Map_Overview_A.png,map_overview,"Đà Lạt: đồi núi, hồ, rừng thông, sương mù",NO - reference only unless independently isolated/cleaned,thành_phố_hồ_giữa_núi_sương_mờ.png
+Maps/DaLat/Map_Overview_B.png,map_overview,Đà Lạt: cảnh ven hồ và đường quanh đồi,NO - reference only unless independently isolated/cleaned,thị_trấn_hồ_sương_mai_rực_rỡ.png
+Maps/Jeonju/Map_Overview_A.png,map_overview,"Jeonju: cụm nhà hanok mái cong, làng truyền thống",NO - reference only unless independently isolated/cleaned,thành_phố_hanok_rực_rỡ_bên_dòng_nước.png
+Maps/Jeonju/Map_Overview_B.png,map_overview,Jeonju: đường đi trong làng hanok và suối,NO - reference only unless independently isolated/cleaned,làng_hanok_rực_rỡ_bên_dòng_suối.png
+Maps/Gyeongju/Map_Overview_A.png,map_overview,"Gyeongju: kiến trúc lịch sử, vườn, hồ",NO - reference only unless independently isolated/cleaned,bản_đồ_cổ_thành_hàn_quốc_rực_rỡ.png
+Maps/Gyeongju/Map_Overview_B.png,map_overview,"Gyeongju: quần thể di tích, mộ cổ, Cheomseongdae gợi hình",NO - reference only unless independently isolated/cleaned,bản_đồ_gyeongju_rực_rỡ_di_sản_hàn_quốc.png
+Maps/Seoul/Map_Overview_A.png,map_overview,"Seoul: đô thị hiện đại, tháp, cầu sông, kiến trúc cổ",NO - reference only unless independently isolated/cleaned,bản_đồ_seoul_rực_rỡ_về_đêm.png
+Maps/Seoul/Map_Overview_B.png,map_overview,"Seoul: đô thị và cổng thành, phong cách game",NO - reference only unless independently isolated/cleaned,thành_phố_seoul_cổ_tích_rực_rỡ.png
+Characters/Characters_Moodboard.png,concept_sheet,"Tổng quan Lumi NPC bot: moodboard, KHÔNG tự coi là spritesheet chạy được",NO - reference only unless independently isolated/cleaned,bách_khoa_nhân_vật_ánh_sáng_văn_hóa.png
+Characters/Lumi_Actions_Concept.png,concept_sheet,"Lumi cùng 1 hướng góc máy, các động tác idle walk talk hurt etc; KHÔNG bắt làm 4 hướng",NO - reference only unless independently isolated/cleaned,bảng_tư_thế_lumi_chú_gà_phiêu_lưu.png
+Characters/NPC_Roster_Concept.png,concept_sheet,"Thiết kế NPC: Cô Mai, lính canh, người mất kính, hoa, lái đò, nghệ nhân",NO - reference only unless independently isolated/cleaned,bảng_nhân_vật_npc_văn_hóa_việt_á_đông.png
+Characters/Enemies_Roster_Concept.png,concept_sheet,"Bot và sinh vật: giữ chất hoạt hình, không nhầm động vật trung lập với kẻ địch",NO - reference only unless independently isolated/cleaned,danh_sách_kẻ_địch_và_bot_huyền_ảo.png
+Props/Items_And_Interactables_Concept.png,concept_sheet,"Vật phẩm rương kính thịt chìa khóa, cổng dịch chuyển, bảng, công tắc; hình có nền và chữ",NO - reference only unless independently isolated/cleaned,bộ_vật_phẩm_tương_tác_phong_cách_chibi_việt_nam.png

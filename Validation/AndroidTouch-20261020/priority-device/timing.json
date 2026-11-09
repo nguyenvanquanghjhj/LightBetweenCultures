@@ -1,0 +1,29 @@
+{
+  "status": "BLOCKED",
+  "error": "Game does not own focus; stop without more input",
+  "seconds": 26.671,
+  "device": "realme C71 / RMX5303 Android 16 720x1604",
+  "source": "OwnerPriority APK, Android InputManager injected touch, not human playtest",
+  "operations": [
+    {
+      "step": "install-r",
+      "seconds": 19.639,
+      "exit": 0
+    },
+    {
+      "step": "wake",
+      "seconds": 0.224,
+      "exit": 0
+    },
+    {
+      "step": "launch",
+      "seconds": 0.627,
+      "exit": 0
+    },
+    {
+      "step": "focus",
+      "seconds": 0.178,
+      "exit": 0
+    }
+  ]
+}

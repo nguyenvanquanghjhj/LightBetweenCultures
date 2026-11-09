@@ -1,0 +1,163 @@
+# LBC — CHỐT NGOẠI HÌNH NPC VĨNH VIỄN, SỬA PORTRAIT VÀ KHÓA DANH TÍNH NHÂN VẬT
+
+Project: `D:\GAMEKKK\LightBetweenCultures`
+
+Đây là phần bổ sung và thay thế các hướng dẫn về duyệt nhân vật trong nhiệm vụ PORTRAIT NPC đang thực hiện. Không phải một nhiệm vụ mới và không yêu cầu làm lại những phần đã hoàn thành đúng.
+
+## 1. QUYẾT ĐỊNH CHÍNH THỨC CỦA NGƯỜI DÙNG
+
+Tôi CHỐT ngoại hình những NPC đã có hình và đang được sử dụng trong game.
+
+Cụ thể:
+
+- **Bà Tư:** Chốt hình người phụ nữ lớn tuổi, khăn đỏ, mang giỏ rau từ bộ art hiện có.
+- **Ông Phúc:** Chốt hình nghệ nhân tóc bạc trong sheet H3. Đây chính thức là ông Phúc, không còn chỉ là nghệ nhân đại diện hay casting tạm.
+- **Chị Hương:** Chốt hình hiện đang được mapping cho Chị Hương, dù nguồn ban đầu thuộc bộ nhân vật Đà Lạt.
+- **So-yeon:** Chốt hình hiện đang được mapping cho So-yeon, dù ban đầu được dùng như lựa chọn tạm.
+- **Cô Mai:** Giữ nhân vật đã duyệt, trang phục đỏ và nón lá. Đặc biệt phải bảo đảm khuôn mặt, độ tuổi, kiểu tóc và ngoại hình nhất quán ở mọi lần xuất hiện.
+- **Ji-eun và các NPC khác đã có hình riêng:** Giữ nguyên hình hiện tại nếu không có lỗi xác định được.
+
+Những lựa chọn đã chốt này là CANONICAL, không còn trạng thái TEMPORARY/PROPOSED/NEEDS_APPROVAL chỉ vì trước đây chúng được lấy từ sheet hoặc roster khác.
+
+Không tự tạo lại các hình đã chốt.
+
+## 2. NGUYÊN TẮC QUAN TRỌNG NHẤT: MỖI NPC LÀ MỘT DANH TÍNH CỐ ĐỊNH
+
+Tôi đã gặp tình trạng hình AI thiếu nhất quán: cùng một nhân vật nhưng lúc trẻ, lúc già, lúc đổi khuôn mặt., còn nếu không đổi khuôn mặt mà đổi biểu cảm, cử chỉ, hay trang phục và vẫn nhận ra hoặc không sai khác đến mức không chấp nhận được thì vẫn dùng nếu có 2 tạo hình cho 1 nhân vật nếu ở 2 map khác nhau, vì họ ở map này qua map kia cũng phải thay đồ, biểu cảm khác đi,cử chỉ khác chứ,&#x20;
+
+Không được để tình trạng này xảy ra trong game.
+
+Mỗi npcId phải ánh xạ đến một danh tính hình ảnh chính thức, ổn định.
+
+Nếu một NPC xuất hiện trong nhiều thành phố, quest, dialogue, cửa hàng hoặc cutscene thì phải sử dụng đúng nhân vật đã đăng ký.
+
+Đặc biệt với Cô Mai:
+
+- Không dùng một portrait trẻ ở cảnh này và portrait già ở cảnh khác.
+- Không tự thay gương mặt theo ngữ cảnh hội thoại.
+- Không tự đổi trang phục và tóc nếu chưa có thiết kế biến thể được duyệt.
+- Nếu đang có nhiều portrait không thống nhất, đối chiếu hình đã duyệt và chọn một nguồn canonical để thống nhất.
+- Các biểu cảm khác nhau, nếu có, phải xuất phát từ cùng thiết kế gốc và giữ nguyên nhận diện khuôn mặt.
+
+Không được nhầm lẫn nhân vật chỉ vì tên file, art sheet hoặc vị trí thành phố tương tự nhau.
+
+## 3. LẬP SỔ ĐĂNG KÝ NPC CANONICAL
+
+Tạo và duy trì tài liệu:
+
+`Docs/Art/NPC_CANONICAL_REGISTRY.md`
+
+Nếu project đã có registry/mapping authoritative tương đương thì cập nhật dữ liệu hiện hữu và cho tài liệu trên tham chiếu tới đó, không tạo hai nguồn chân lý mâu thuẫn nhau.
+
+Ghi đầy đủ cho mỗi NPC có thể xuất hiện trong gameplay:
+
+- npcId chính xác từ source.
+- Tên nhân vật.
+- Thành phố và node liên quan.
+- Vai trò trong cốt truyện.
+- Đường dẫn sprite/portrait chuẩn.
+- Unity GUID và tên sprite hoặc sub-sprite nếu dùng atlas.
+- Trạng thái CANONICAL hay thực sự MISSING.
+- Nguồn art gốc.
+- Các scene, dialogue và event đang tham chiếu.
+- Ghi chú nhận diện để tránh nhầm nhân vật.
+
+Với Hương và So-yeon, ghi rõ nguồn hình ban đầu khác tên nhân vật nhưng đã được người dùng CHỐT cho danh tính mới.
+
+Kể từ thời điểm này, nguồn hình ban đầu KHÔNG được dùng làm lý do tự thay portrait của họ.
+
+Đăng ký Bà Tư và ông Phúc là CANONICAL ngay sau khi tách sprite thành công và xác minh kỹ thuật.
+
+Không tạo bản ghi trùng npcId.
+
+Không dùng một sprite chân dung cho hai NPC có danh tính độc lập, trừ khi có thiết kế được người dùng chấp thuận rõ ràng.
+
+Đặc biệt Ji-won tại Seoul không được tự động dùng khuôn mặt So-yeon. Nếu Ji-won thật sự chưa có art riêng, ghi MISSING và tìm nguồn phù hợp trong các asset hiện hữu trước khi đề xuất art mới.
+
+## 4. HOÀN THIỆN SPRITE VÀ BINDING
+
+Tiếp tục công việc đang làm:
+
+- Tách Bà Tư và ông Phúc từ art source.
+- Giữ nguyên file PNG nguồn.
+- Xuất sprite RGBA có nền trong suốt thật.
+- Không cắt cụt tóc, tay, chân hoặc phụ kiện.
+- Không để dính giỏ hoặc hình của NPC bên cạnh.
+- Kiểm tra viền alpha, độ nét và độ phân giải khi dùng trong UI.
+- Gắn đúng npcId và đúng mapping.
+- Giữ ổn định Unity .meta/GUID và tất cả reference hiện có.
+- Không tự tạo một nhân vật thay thế vì việc cắt sprite khó khăn.
+
+Kiểm tra ID ông Phúc thực tế trong project, không suy đoán mã node từ các báo cáo cũ.
+
+## 5. SỬA LỖI HỘI THOẠI VÀ BÓNG MA
+
+Đã xác định GameplayPanels sử dụng alpha khoảng 0,46 cho nhân vật không phát biểu.
+
+Hãy loại bỏ hiệu ứng khiến người nghe trông như bóng ma.
+
+Nhân vật được hiển thị phải có độ rõ và tương phản phù hợp với phong cách UI.
+
+Có thể phân biệt người đang nói bằng viền, ánh sáng, vị trí hoặc nhấn mạnh tên, nhưng không được làm chân dung người nghe trong suốt quá mức.
+
+Không được giải quyết bằng cách thay portrait.
+
+Kiểm tra khi:
+
+- Một NPC nói chuyện với Lumi.
+- Nhiều nhân vật xuất hiện.
+- Chuyển người phát biểu.
+- Mở/đóng hộp thoại.
+- Đổi thành phố và khởi động lại game.
+
+## 6. KIỂM TOÁN TOÀN BỘ NPC SÁU THÀNH PHỐ
+
+Không dừng lại ở Bà Tư và ông Phúc.
+
+Kiểm tra mọi npcId trong 133 node của sáu thành phố, nhưng chỉ liệt kê NPC thực sự có vai trò nhân vật/hội thoại, không coi item hoặc waypoint là NPC.
+
+Phân loại:
+
+- CANONICAL: Có hình đúng, đã chốt và mapping hoạt động.
+- MISSING: Thật sự thiếu hình hoặc không thể xác định nhân vật.
+- BROKEN_BINDING: Có hình nhưng game không hiển thị hoặc mapping sai.
+- IDENTITY_CONFLICT: Một npcId dùng nhiều nhân dạng hoặc hai NPC bị dùng nhầm cùng hình.
+
+Những nhân vật đã chốt trong phần 1 không được tiếp tục bị liệt kê là PROPOSED chỉ vì chưa từng có tên file trùng tên NPC.
+
+Nếu gặp nhân vật thật sự thiếu hình, tìm trong thư viện hiện hữu trước, không tự ý lấy hình của một NPC đã chốt để dùng lại.
+
+## 7. BẢO TOÀN GAMEPLAY VÀ TIẾN ĐỘ
+
+Không đổi quest, item, event, gate, save schema, tiến trình sáu thành phố hoặc thứ tự node chỉ để sửa hình NPC.
+
+Không làm lại checkpoint đã đạt yêu cầu.
+
+Không tự mở rộng nhiệm vụ này sang tạo lại toàn bộ nhân vật.
+
+Không dùng AI sinh lại chân dung canonical nếu người dùng chưa yêu cầu.
+
+Giữ nguyên Lumi và những hình nhân vật/bot/boss/marker đã được duyệt.
+
+## 8. NGHIỆM THU VÀ BÀN GIAO
+
+Xuất một review pack nhỏ, không cần chụp hàng trăm screenshot.
+
+Cần có:
+
+1. Bảng npcId → nhân vật → portrait canonical → đường dẫn → GUID.
+2. Ảnh Bà Tư và ông Phúc đã tách.
+3. Ảnh hội thoại runtime của Bà Tư, Phúc, Hương, So-yeon và Cô Mai.
+4. Bằng chứng Cô Mai có cùng nhận diện trong các lần xuất hiện.
+5. Ảnh trước/sau lỗi bóng ma.
+6. Danh sách NPC thật sự còn MISSING hoặc BROKEN_BINDING.
+7. Kết quả kiểm thử sau save/restart.
+8. Các file đã sửa và checkpoint mới.
+
+Chỉ cần xin người dùng xác nhận khi phát hiện một xung đột danh tính thật sự không thể giải quyết bằng các hình đã chốt.
+
+QUY TẮC CUỐI CÙNG:
+
+**MỘT NHÂN VẬT — MỘT DANH TÍNH — MỘT NGUỒN HÌNH CHÍNH THỨC.**
+
+Các hình đã chốt không được tự thay đổi trong những nhiệm vụ Codex tiếp theo. Hãy lưu quy tắc này trong tài liệu dự án để kể cả khi đổi phiên Codex hoặc bị context compaction, hệ thống vẫn áp dụng đúng.

@@ -1,0 +1,2020 @@
+{
+  "status": "TASK1_GAMEPLAY_UI_PASS_TERRAIN_OCCLUDED_SEGMENTS_NOT_VERIFIED",
+  "assemblySHA256": "7229f7fcce638d50dbba6777f4d13f3a528bc10bc71eba7b09ce486b0ae05058",
+  "buildLog": "Logs/citymap-ui-polish-build-04.log",
+  "sourceInputs": [
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+      "sha256": "e871e411b7edc138afceea62526682e8737635ded5d8c3a1e86949e8989077c2"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/AdventurePresentation.json",
+      "sha256": "019484b870f6e8d6e9086d0ae68a0e9027f5bdad8702dd0d380c930cd0eea07b"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "sha256": "8b9857eac8286882a8b02d56d30d90770722f3c0ed30627f7e953a9cfef16585"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/da_lat.json",
+      "sha256": "8710af0ec85ecd14912dfb0339324f0b0ba56b553d9f700c813e726782b69fa0"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/gyeongju.json",
+      "sha256": "6ff96430d2f5fb4c180065e0c90063273bcc2cb1af4bcb62fde92ef6da7fcf9c"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/hoi_an.json",
+      "sha256": "2ca360dab3ac9492438101f80388dcf7056d86422ea9ef6287c6cc5648075ee2"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/hue.json",
+      "sha256": "1e5d41f78dae9dd929c7705ec20d4ebfb460cfc2052ae94347ac6f4e19258548"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/jeonju.json",
+      "sha256": "ea2fed8c63d2e3c41f5d6d16dae4af110a4e44814f33fd3420ac5c56809f7403"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/seoul.json",
+      "sha256": "1f0ee739aefe48d6f64fb43350d7e562cf30e1c47813b775489b83e1a3f9d286"
+    },
+    {
+      "path": "Assets/_Game/Resources/DesignKitArt.asset",
+      "sha256": "3b1bc0c94732e76854f80a69255c5d4db032a52324518e6e6adb3d4d927c9ae1"
+    },
+    {
+      "path": "Assets/_Game/Resources/HoiAnData.json",
+      "sha256": "aa52eb4268677af3391542a172bc268b39c04ecf5078cacbc3f5959a589a0da6"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/BattleManager.cs",
+      "sha256": "76b9e521fe5132e5a1d6676172d9f96df46239243f1069182af5198a678365f9"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/ContentDefinitions.cs",
+      "sha256": "f3e6fabc2c43f69fa24107d95d7da94a7ad88d93a66031572604109a73ad0bfc"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/EncounterManager.cs",
+      "sha256": "083cd50dcb7b7b6842036b21ebb1f08473e8e287a49523201d9e5cc16285a895"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "sha256": "35923009217741d30060f3c13f22a2458766049044168f1ebb9afa427b2fab36"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/PuzzleManager.cs",
+      "sha256": "7f167ac46968c9ccbcb8ac94c7adcc0719504b76bcde16adac3e4588cba01697"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameBootstrap.cs",
+      "sha256": "d063a30aec8238db29faf79d165e75267244ad4668272765a6c7c9f6f0b2b7df"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameData.cs",
+      "sha256": "0c0518c7a8ef6de3052be486cc652197080993782b273ab6465e9fca304de7c9"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/Inventory.cs",
+      "sha256": "6e8f96322a33f026a48a0869a63dc547dfe3f3aca6add6c4794b6af69f5ab505"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/QuestManager.cs",
+      "sha256": "3aee59d578b023ddd8d3c98c500e24ee98f881fe9155f62b33d4c5c424d2e8fb"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/SaveSystem.cs",
+      "sha256": "5ddd7ad4d0d8ef15de6c405051d87f259c4faf922f528f0cf5a5055a23fcdaf5"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/SceneTransition.cs",
+      "sha256": "f9aef22707c303af14f2d6aafd6d834b30b0c6d1ab67811c4a8a8339852586df"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/WorldState.cs",
+      "sha256": "d7327dd6cbbffac7db2294e14a8b14bf84ed978eb04a5deb182204c97748aa95"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/AdventureUISetup.cs",
+      "sha256": "329b6981e4469600d2e6de1106d3df0fa81a2ed7dd65178576b2a758007d391d"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/ArtLibrarySetup.cs",
+      "sha256": "4fa33b4010ac2d1c5ed9d081eae56bcc0a3d7027c5ba49e85bf740b67f82e585"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/DesignKitSetup.cs",
+      "sha256": "e38e55e2aba5b83e9a3e55bb50d9ba06851b46150906ac56a2298602e56bca55"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/HoiAnDemoSetup.cs",
+      "sha256": "c21f09786f35163d0d12578a3c751770dbf49cdc0e4d245168403c628af711ee"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/HoiAnMapLayoutWindow.cs",
+      "sha256": "4b8551a7cff53b35d5bbb801dc2774150f2b587f311591249044f7e4e8ae7647"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/HoiAnMapSetup.cs",
+      "sha256": "68f429c5124efe2edf24bb34ecc01fb76aed5d5d3ae907e58742a9142f114c14"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/LumiRoleSetup.cs",
+      "sha256": "a14079c1c268e1f0fd8b65abfac570d1d5b5b7e8e42ffdfc232c32721efcf2be"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/PrototypeSetup.cs",
+      "sha256": "4cb5407f443317a03d1ffb246fadadd30aa0dfac4a4b54fc8d879a5124308861"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/SliceValidation.cs",
+      "sha256": "30fca1f29d23f928285217224bac32b9f177398fef7d1eb8ac0ba60dc1ed09b2"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/VerticalSliceSetup.cs",
+      "sha256": "51d696d3cd753df8e9d074e5585d42511280fec359f3e9e0a3dc075a69cc8d56"
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/DepthSort2D.cs",
+      "sha256": "a9e5e283cae812ddeae4a44347f3a62062fa2526d0d314a3e4f472daa78bfb19"
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/FollowCamera2D.cs",
+      "sha256": "d84443306efbd742c273675a3f00c485801011498c6caa2d21aaac2d7e4a6745"
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnGameplay.cs",
+      "sha256": "a0b676150f240e1eafc1fb5629ff74612ffe7018c0670bdbb7760455ba6f9e3c"
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnItem.cs",
+      "sha256": "30c34885d6c0be09455b540fa92cb8168932b7f9d9d645140379c5a8ec9c5855"
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnNpc.cs",
+      "sha256": "b7c9bfbcf5fa889b4dfc785bd923cd44ac569c46327e5889a174d74545d59617"
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnPlayerController.cs",
+      "sha256": "354cc147e6aa0961b285979a8763f841516cb9f27568a15cb45a36101f4775a5"
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/InteractionSystem.cs",
+      "sha256": "1413b4970cdaea67c0c99d07d11afcae6840a446f94f0242d841cfbb23c3ee31"
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/LumiStepMotion.cs",
+      "sha256": "d5bfa622f8ad984a3dd8ee5d86b8521422e050205f263c854d7612c1f7229cb9"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+      "sha256": "9dc21ccafa1674b22058a1ac04d4e1481bf8fa85aed31cb80ab4b3f571f3022d"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMapPaths.cs",
+      "sha256": "5b316144aa497b8eaab34ae1f131ede97a05fda8b1a3bd0508cb2a009f2df181"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs",
+      "sha256": "8f60cfb82236da901122057662bd4208fcbc0f1681eeb39511d8462249e73327"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MainMenu.cs",
+      "sha256": "cc7f51a3ed8d14b6cb293c820de886369678c141591fcbd0ab9543ad47c0a066"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapDiscoveryManager.cs",
+      "sha256": "a93a1b44ebc3b97ab1e77f9e709dcb02168de98c6199e6179c2797531fbf7b0a"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapNodeHitTarget.cs",
+      "sha256": "b599078714bcbf99ae650b7588d0c52b57f70b91170557388fcb99396466ba11"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapPanZoom.cs",
+      "sha256": "97d27853ef72a55e3e7fb41b5d7707c56e56c4614d24405dbd4eba0f979865e4"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/NodeMarkerResolver.cs",
+      "sha256": "11fe4a7f5c7487cb4f6086e685d18b258eefa782a527f38d8f2993e547872ef6"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/NodeMarkerView.cs",
+      "sha256": "411ae55b202402f2790e0a2a1e6667d5f4bab20bf1655adb1ca85703924426ed"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/WorldMap.cs",
+      "sha256": "e16c9468be6dcab50baa532ebba4d1a4137c70c498da4602c2a74736f7dbf567"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Prototype/ExplorationItem.cs",
+      "sha256": "d03b733181952436c9fbe1705b840118fa1bbb04819237a8009eb391b526abfa"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Prototype/ExplorationSurface.cs",
+      "sha256": "138ba25690f5514487bd8de855a46c81806a7da48cb94ccba25e5f464cef5299"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Prototype/PrototypeGame.cs",
+      "sha256": "1e5e515d2a58e2b25591f1c6c6057303ad25e5c0f3faa80db23df6aaf6ca1ea8"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureIconGraphic.cs",
+      "sha256": "c99ed6c1eb20ead5c2d5382bcaa2eac93d73f033930b261a3966f3c4529c1f69"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+      "sha256": "9ddda6d527d15fae0f40d527918bbc981de04621ab44528ffe9eaf12c78405cd"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/DesignKitArt.cs",
+      "sha256": "bda66a7a89872e3142897444cb4f07059334ab711feefdc4e8e5be24d6c5c322"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "sha256": "962252ef77c17eb2afaf9dac522afd85bfeda7b6181e23eff182470577cf1234"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/InventoryPanel.cs",
+      "sha256": "68034504a8a535ca105ce80dcbe4a9ccf56946bcd7c91b27936867b307c58d5a"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MaiDialogueController.cs",
+      "sha256": "7e4554951245e8254caaf223a4f1623e516e7afadcaaaee246016c030a0b39ca"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MapBackdropGraphic.cs",
+      "sha256": "f9fadce3c85b43c04f073877a1fd4bc27c585cee36b700a6eb6a88ab1e3b24c8"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MobileUI.cs",
+      "sha256": "59aa97f90086b0b7f742450ca17ac3eb9a2ab1570cdda3d3ae4bb8ad21d81c3d"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PortraitPresence.cs",
+      "sha256": "34054b4ce814cb7ed20be49058fe93ee295e2b4c5c9351490d7b01a6399ed1cd"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PresentationShapes.cs",
+      "sha256": "d68babbf727c47138b17de3d11e0a4ada1c01f98c6f1a2d4d2322a71e184e526"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RoundedPanelGraphic.cs",
+      "sha256": "66e38d11d4962fe3d84ea7fa3c20a87f8f6a1b2831096d53d3b4eca17bc1bb81"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIButtonFeedback.cs",
+      "sha256": "f43bd7d809bca8d174daa2926c3ca1c73f1b11fcc0b8878d0f2e8f51a1455989"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIController.cs",
+      "sha256": "91cd7b9f1bdb68ca0ad83788bd0b3ca441f1c0a4f2cf0aa0b43b39e01e809270"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Chapters.cs",
+      "sha256": "dace085c6a3e6da4743a6829925f3ef8cd65895a1325f48b2180cab9df632f04"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CrossCity.cs",
+      "sha256": "0e4200723827d433b358b23c13824aed0f86095c6fdf581ded742a54611da4af"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "sha256": "6767dd0b58c1ea2723372a415d000cb5a87abd57b363802be3245d62b3ddbb04"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.DaLat.cs",
+      "sha256": "c1888f199fdafdaa43970aec94c74919d768e921683278d5cdab763cac956b85"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.UIPolish.cs",
+      "sha256": "6fbc8d3164eed67570e2c7e218d76a12ae603f93ca1d23bd1ef7f33ab27ec11e"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/SliceSmokeRunner.cs",
+      "sha256": "ac7faffd46bb5bb16632ccaa2c9d0d735b5c804e7ca79a69b07334a5d2503a77"
+    }
+  ],
+  "seedLineage": {
+    "Final04-Journey": "Fresh save via Start / actual gameplay, no pre-unlock fixture",
+    "Final04-Reverse": "BeforeClean/final-save.json, genuinely earned on previous binary; old-save compatibility and reverse city order",
+    "Final04-Diagnostics": "Validation/DaLatChapter-20261017/AcceptanceIntegrated/hoi_an-after.json, genuinely earned prior checkpoint; isolated edge walks and layout fixtures, not fresh E2E"
+  },
+  "preservedFileCount": 650,
+  "modifiedProtectedFiles": [
+    "Assets/_Game/Resources/Content/GameplayContent.json",
+    "Assets/_Game/Scripts/Core/GameData.cs",
+    "Assets/_Game/Scripts/Maps/CityMap.cs",
+    "Assets/_Game/Scripts/Maps/CityMapPaths.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+    "Assets/_Game/Scripts/UI/InventoryPanel.cs",
+    "Assets/_Game/Scripts/UI/MobileUI.cs",
+    "Assets/_Game/Scripts/UI/PortraitPresence.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Chapters.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs"
+  ],
+  "contentInvariant": "All non-HoiAn-route records, all 133 nodes/order/positions, quests, items, enemies, gates exactly equal baseline",
+  "runs": [
+    {
+      "directory": "Validation\\CityMapUIPolish-20261017\\Final04-Journey",
+      "assertions": 5877,
+      "result": "PASS"
+    },
+    {
+      "directory": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse",
+      "assertions": 2622,
+      "result": "PASS"
+    },
+    {
+      "directory": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics",
+      "assertions": 408,
+      "result": "PASS"
+    },
+    {
+      "directory": "Validation\\CityMapUIPolish-20261017\\Restart04-DaLat",
+      "assertions": 94,
+      "result": "PASS"
+    },
+    {
+      "directory": "Validation\\CityMapUIPolish-20261017\\Restart04-Ferry",
+      "assertions": 86,
+      "result": "PASS"
+    },
+    {
+      "directory": "Validation\\CityMapUIPolish-20261017\\Restart04-Hue",
+      "assertions": 94,
+      "result": "PASS"
+    },
+    {
+      "directory": "Validation\\CityMapUIPolish-20261017\\Restart04-Jeonju",
+      "assertions": 102,
+      "result": "PASS"
+    },
+    {
+      "directory": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage1",
+      "assertions": 98,
+      "result": "PASS"
+    },
+    {
+      "directory": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage2",
+      "assertions": 93,
+      "result": "PASS"
+    },
+    {
+      "directory": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage3",
+      "assertions": 89,
+      "result": "PASS"
+    },
+    {
+      "directory": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage4",
+      "assertions": 86,
+      "result": "PASS"
+    }
+  ],
+  "totalAssertions": 9649,
+  "isolatedBidirectionalRouteWalks": 44,
+  "maxMovementError": 0.00013647876039613038,
+  "screenshots": [
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\01-HoiAn-stage0-hidden-regions.png",
+      "bytes": 1063398,
+      "sha256": "42f1fe99a59922218902c82d2799361328e3f939fcf19a2c06dde16239ee6d60"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\02-Mai-offer.png",
+      "bytes": 951641,
+      "sha256": "1ca2a04cada342c70a54855c35693fa6e10463f0e7653fcd4691abdf4395f7b9"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\03-HoiAn-stage1-reveal.png",
+      "bytes": 1064636,
+      "sha256": "f6c4ed90164ebc5635834a379dd7ac8f3b880d266c1f965c6d444383f88b7a55"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\04-quest-journal.png",
+      "bytes": 369987,
+      "sha256": "c5550a3cd3fe0ad99187e4cb83e309fe3c85083f8a931bfae15c75445818983f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\05-H3-exploration.png",
+      "bytes": 59710,
+      "sha256": "8a275f90e0b65f64aff8756d63cb0afd2cdf7a49b14cecc56acf7f06195c8659"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\06-H3-part-picked-up.png",
+      "bytes": 52733,
+      "sha256": "1cdf1c22b516c55b8477a10767a3d004c25a95c6e6b7251ac289d33fd87127e4"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\07-HoiAn-stage2-before-bot.png",
+      "bytes": 1057509,
+      "sha256": "c4c2f9467be40f5a135802f7dac0feb847202c1642732eacf695535130d42f31"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\08-battle-before-loss.png",
+      "bytes": 249094,
+      "sha256": "dcc0bd5e045c8e6ae4aa0ca568f70eda6f5428e73a3391cb004d063d9953b9f9"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\09-battle-loss-retry.png",
+      "bytes": 262776,
+      "sha256": "96a924f7015e2c69df9f16336d505223cd4bedd48153a48e526ffee94fbfd7e6"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\10-battle-actions.png",
+      "bytes": 254703,
+      "sha256": "f0d1c4a7b31853badd09c7fc067d7debd6bed432d242e5c6dfd56e109d2492bb"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\11-battle-win.png",
+      "bytes": 251900,
+      "sha256": "d86ab33854d3f3f292b62216243d25fd50cc5ecc4187600aeb3e5b737abdcaa8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\12-Phuc-clue.png",
+      "bytes": 908423,
+      "sha256": "4b59051031718b6520f802ca69752328a4156df2088904d8142b013a8f130587"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\13-bot-disabled-by-puzzle.png",
+      "bytes": 900211,
+      "sha256": "eb8b46ac63b94309be9ddbfb6adfc2004118f4fda4550ce4f8fbd8f0ff4eee64"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\14-crab-bait-resolution.png",
+      "bytes": 698364,
+      "sha256": "967f3b1898fbceb06727dfc2f8c110ee11ad7d3627a45eb633a7b788251c26b4"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\15-BaTu-turn-in.png",
+      "bytes": 650133,
+      "sha256": "810eb6bc217be4c8d89554db54baa54b95a52309740ae38159158173f95920a4"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\16-station-ready.png",
+      "bytes": 804637,
+      "sha256": "2ca8679951868f85c7bedcfe71b8249dbc3f0f51a27c85d5e845711731df0f39"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\17-station-light-restored.png",
+      "bytes": 801762,
+      "sha256": "bc96728043661d2911d4b626133a81147e948725cb9acc55388a6e3d6556cddf"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\18-HoiAn-final-discovery.png",
+      "bytes": 812460,
+      "sha256": "1b5f6671072afd5a09e8f8e085bae1ef62c2bf16d6c86d1aa4fc77ec8a0e5d20"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\19-HoiAn-tablet-final.png",
+      "bytes": 1366520,
+      "sha256": "134e72da195c7d833f6fed61d5962733ba2364717e710da1390f58758d892a6a"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\20-inventory-final.png",
+      "bytes": 567739,
+      "sha256": "6e792a0695f3c6660f89cc1790e758539271433fdebc7c61ea87880cc3c9dad8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-D0-checkin.png",
+      "bytes": 636548,
+      "sha256": "c51679a81ae84c1e0e6a46bc8708e4511ce91c8a523cb933ba1ca89fe971cf44"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-D12-three-lantern-rings.png",
+      "bytes": 203449,
+      "sha256": "bcf516f12f17f1ba68e0b999fdfe3947c7148af55195ff9fed69e2b1d26bd38d"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-D14-checkin.png",
+      "bytes": 860767,
+      "sha256": "c659dd9c2f48d0ce9e672f528ff1146fa91187501433897024c8d5d574e6fc8d"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-D15-loss.png",
+      "bytes": 275703,
+      "sha256": "ac5a0004acb4a0c5c70f5a88bab820a7903911694d4f7f7185d2d0d10d6dcec6"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-D15-win.png",
+      "bytes": 262199,
+      "sha256": "6b5f006814a623014b0193bf0a2e30e50cfc605f32e8e89ec7e2d6bd1d8c58a3"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-da_lat-landscape-zoom1.png",
+      "bytes": 893609,
+      "sha256": "48ccfd5f2843b8bdf4a04e0ee0fde8e58bb59cdf012707322bddeb665ce79b8e"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-da_lat-landscape-zoom2.png",
+      "bytes": 1109651,
+      "sha256": "600cdc31e85a312b6385c45c167d23162f213451bb5677eea2bcae35ac9134ab"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-da_lat-landscape-zoom4.png",
+      "bytes": 949806,
+      "sha256": "88103e6c5f93908375fdf7b346cd73521019bc3ec110c6065ec0e8e1abc6b629"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-da_lat-portrait-zoom1.png",
+      "bytes": 782517,
+      "sha256": "1415b477529574cda7edfe7c099cb1057f61173a049bfa904025ca53af281811"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-da_lat-portrait-zoom2.png",
+      "bytes": 1107024,
+      "sha256": "0c2cb44f6187c14cb43f159ce0f7dd84425f0cc30a1c8efc7f41229d345140c2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-da_lat-portrait-zoom4.png",
+      "bytes": 1011292,
+      "sha256": "3a09093fa5dbd2f7f14c3d9656bdb28870eba05a0dbab53246fe9ef0e98671a8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-Dalat-destination-readiness.png",
+      "bytes": 799887,
+      "sha256": "95d5e433f676216a8e6302b3cf83659b5f630ffada6d3a21ad41a04c5b6a2bab"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-HQ03-lantern-rescued.png",
+      "bytes": 918152,
+      "sha256": "aed8ec0290bbaabb11bde2b550b03833633354e82e3d6ede37634758d65ddd66"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-hue-all-nodes.png",
+      "bytes": 783852,
+      "sha256": "147143a4826a909e4cc6f5fd8a397dbc8f02c567e2887c189c05d4a210bec6d2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-Hue-gate1-reveal.png",
+      "bytes": 782430,
+      "sha256": "d7f181ae81d96a17534ab0aa3cf50a4f86d14751445cf9a6de64d4e2f907554e"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-hue-journal.png",
+      "bytes": 274693,
+      "sha256": "213b69b6b55e168644c3749894d453ec6aa9cedaa7946c74e445a76b2c845fd8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-hue-landscape-zoom1.png",
+      "bytes": 890355,
+      "sha256": "012805f7b2fbdaca0c2de57458fc5f1b7cae902bedf6cdba7bb6d606abd1372f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-hue-landscape-zoom2.png",
+      "bytes": 1089534,
+      "sha256": "a6f9ce5b8cc36e62694f624e54fd03d723e9793a2ec6614d646ffda1e6c3df34"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-hue-landscape-zoom4.png",
+      "bytes": 918928,
+      "sha256": "db693f21c7e17f8bd63eab236182f17941da4cd71dd6a86e939d4ab20457e171"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-hue-portrait-zoom1.png",
+      "bytes": 783577,
+      "sha256": "e1e1104894a98178d9f39eb1071e397bfa7908b0199bc4d919d3a346fca78dd4"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-hue-portrait-zoom2.png",
+      "bytes": 1096604,
+      "sha256": "ced929621029e668f0329a42c6efed4a794dd36d3bd8db7fd2535c1c7c511beb"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-hue-portrait-zoom4.png",
+      "bytes": 978929,
+      "sha256": "35b346d8f2be9891b6700e7ba2b5e3b48aeb68279f3c3f8b03a317cb8f869cda"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-Hue-restored.png",
+      "bytes": 865454,
+      "sha256": "33bbaea4d066a9830ae2c033d9c062ed9663ceab2fbedbe523322a7d77738f26"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-hue-stage0.png",
+      "bytes": 779488,
+      "sha256": "1cc1e0ecc3e80465b8a57825b73973ca7089cb421bf2ee0c6113dad377f5fdc9"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-J11-checkin.png",
+      "bytes": 868024,
+      "sha256": "358351a562b4d436861378697aaa7353f1042f6ee9a4edd5ff0d2c91e6731ded"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-J15-inventory-after-shop.png",
+      "bytes": 657598,
+      "sha256": "047bc13dc519c6b1c91bc803f91c0eadc2675f089dfd808ac057a9358b0e68e2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-J15-inventory-before-shop.png",
+      "bytes": 657428,
+      "sha256": "22b68f4df1c3458aa9132b94fdf8a3b3f0fd5a21945c272757a7ceb52b39bb46"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-J15-shop-insufficient-fixture.png",
+      "bytes": 881128,
+      "sha256": "63601a9ad59ad19c90c070827b8e9d700a81c58e6d5f4f0e034adb32a008ca81"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-J15-shop-receipt.png",
+      "bytes": 891822,
+      "sha256": "0a9470ee0a6e02bd77480f0b7556e6b5897effc3a5271373135f2a4799282e5b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-J17-three-lantern-rings.png",
+      "bytes": 212023,
+      "sha256": "b1d67f78dc4f29a0c1be6dec1701177830b8379133c29b931af0fa3e8d07baf7"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-J18-win.png",
+      "bytes": 250209,
+      "sha256": "3d026957fc4287c043e3da8fd6daf0dc0215ffe633d2e405904d72c9a2397be9"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-J7-folded-paper.png",
+      "bytes": 207753,
+      "sha256": "929db1cfa5d95b792f9066a5f7abbc8febb3ac24a1eff19b90619d85d011d23b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-J8-checkin.png",
+      "bytes": 866731,
+      "sha256": "890f273c2edbaa2b798ce9ec8014b255d66423a1e8963fdd78f5333d2a857571"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-J9-win.png",
+      "bytes": 248901,
+      "sha256": "fbb753d0d31a9b4b7fc3f7137fb095c65813faf6b8af9d65886e37eb955abede"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-jeonju-all-nodes.png",
+      "bytes": 790546,
+      "sha256": "e4c4b765aa038ce29f9fe3c7a60dd215906dc4b450a05a799cb6a15f5f51955f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-Jeonju-gate1-reveal.png",
+      "bytes": 788110,
+      "sha256": "f91fc40ec446e3444a4828f2eebeb8681539c9596d5db5da0037986603a38abf"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-jeonju-journal.png",
+      "bytes": 276362,
+      "sha256": "f13347174c0f33955c46ecd6469d8d0744d4015159f164216f2176294c142d9a"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-jeonju-landscape-zoom1.png",
+      "bytes": 906806,
+      "sha256": "c6983187cfaeafadfefbc9e8f01e40829ea8d15a5442288f77a31ee9366bf8d7"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-jeonju-landscape-zoom2.png",
+      "bytes": 1130439,
+      "sha256": "c488a2320e05dca8592f214979637457622af95eba7f4f25f43985e9472256b8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-jeonju-landscape-zoom4.png",
+      "bytes": 940171,
+      "sha256": "dd0d5bf65cbd82874f122a17bef7e29d2adfc99e175dc57a1f4f861314fd1e63"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-jeonju-portrait-zoom1.png",
+      "bytes": 791050,
+      "sha256": "01beb6c0ca680cebedd8036500d6980490c13305c1f114d5987e2c1c0808f733"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-jeonju-portrait-zoom2.png",
+      "bytes": 1115245,
+      "sha256": "9d366dad4371491b6f1a6ac36350289c01b64631ff5498cac6cd5c878749af17"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-jeonju-portrait-zoom4.png",
+      "bytes": 1002330,
+      "sha256": "465faaf53a1cd7aa99c9a83cb26d363e975a565d8aa496bbc366659a748d38bc"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-Jeonju-restored.png",
+      "bytes": 892946,
+      "sha256": "362d5eb68eeebfdd5cfb0955d9448f293d2e327dfc9c1e73c3e21df182e6b2b5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-jeonju-stage0.png",
+      "bytes": 785765,
+      "sha256": "835d7d59f984e701d0c18b07e35787c1cd9cd2d31ec0e5ef752ddc0b5e552982"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-Jieun-letter-return.png",
+      "bytes": 932540,
+      "sha256": "1037126c8df65aa2280395595cc8aaf6d55763c60849044e9c4ee661e224ea85"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-LeAn-seal.png",
+      "bytes": 769703,
+      "sha256": "3e4df24825935515ac2416b55b41a83b0e8e18556150f135207376a31f4ee0ca"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-Nguyet-quest.png",
+      "bytes": 783480,
+      "sha256": "599f7dcd154a5194769a70dc864ec7cba16faf9b01d492b37a4d0510a97e47c6"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-U12-win.png",
+      "bytes": 242680,
+      "sha256": "11d400eccfcc920d3eafe462ebaf8d09a4f23c4ff7d3abfe65cb1f376ffa9178"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-U18-win.png",
+      "bytes": 253005,
+      "sha256": "100fcd022feea99f07df9b030b6d9c6cbbae6faa30b46a754b8efae83ef4b63a"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-U4-checkin.png",
+      "bytes": 849748,
+      "sha256": "40302b17246fa191415842e9e86d705a203ffc09e7288b58eebf575ff0ee2ba5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-U5-loss.png",
+      "bytes": 256757,
+      "sha256": "dfe2f92f0605d94a1c684e553e654dc336dfe39ce2c5760c8878e43f0e37c7f3"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-U5-seal-code.png",
+      "bytes": 1029223,
+      "sha256": "1bfbbbdaf0393b7abded74a5f0281633132e6d303f2f97fc9ec9c1f936d4115f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-U5-win.png",
+      "bytes": 249188,
+      "sha256": "eadf7fe77d35d77f12bce785578d17f678821469f1cb9591a0d308d966a55bbf"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Chapter-U6-checkin.png",
+      "bytes": 864130,
+      "sha256": "f742baf90899acc9f944d256d4923a49b8ab2b64ab4bf3ea5343054b749d933f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-00-fresh-map-preview.png",
+      "bytes": 782866,
+      "sha256": "6b092f789349a9b3ddd0e3e12142f9e44008b46f6c2111a42b3adeab4eedaf4d"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-00a-preview-before-touch.png",
+      "bytes": 1035979,
+      "sha256": "ddbae629a72ac2d112d068f0fbccb347c298cdd6f3759593852a21aad2e9d042"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-01-Lan-quest.png",
+      "bytes": 809524,
+      "sha256": "a1cc47891b930f7aa1ee7eda32cdc65413029ed83a84a32ab7dac03b4173d187"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-01b-20x9-safe-area-simulation.png",
+      "bytes": 983234,
+      "sha256": "f57fc8fd9191279afedcfad4ff9cfd70d1cfdb1f53d4a43af81efddc9405e1fe"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-02-light-trap-first-step.png",
+      "bytes": 898603,
+      "sha256": "f5ceb662f15a42d5fcfd2e269b8e49c3fab960ca1fd9c6a1ce538d0c38bd067c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-03-Lan-gate-reveal.png",
+      "bytes": 1036966,
+      "sha256": "d9ebf95227aae4addfe704328916f75ab3aaa4c5070cf790f2c5f37daa5d1d46"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-04-mist-gate-reveal.png",
+      "bytes": 1038379,
+      "sha256": "93454213431c4bc35e8197781b3929e017028cbfb2e998e2167359e001444b8f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-05-dog-missing-food.png",
+      "bytes": 913822,
+      "sha256": "71f484e078df5890bfd3141b754123c0ecf493d51b10186312607fb3be94a547"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-06-food-inventory.png",
+      "bytes": 673685,
+      "sha256": "6b5d7ef58a2a171855c0ba3406816eead284d98e8c2e490167a73ef45e138dcb"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-07-dog-gate-reveal.png",
+      "bytes": 1038826,
+      "sha256": "eefb87c065bcbdd78823d1186f0d1c67401688a0c3e6c4d96e7dee1999f2705b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-07b-mandatory-intermediate-boss-stop.png",
+      "bytes": 941411,
+      "sha256": "18ccfe7ea8776b6d94329270a8c7f00b231e5fd7ca2414610359b98ca6b058f2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-08-water-signal-inventory.png",
+      "bytes": 669496,
+      "sha256": "44ff490c416b3a92d1de3a3395138b32269301312def31b48bb1cad707efab19"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-09-station-restored.png",
+      "bytes": 867340,
+      "sha256": "85cc6ae66c93c2f55e699277f731b8a5803c06d84f3cfce5d124f05a493de06f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-10-Seoul-pending-other-branch.png",
+      "bytes": 797974,
+      "sha256": "0ec879107da6589f132cefd311d55cd11bc8724970c8ebe364eaeeda959e5787"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-11-complete-journal.png",
+      "bytes": 332007,
+      "sha256": "ee085e14bb4508ea6a69ce48e92a38350ad229236b1dc4e96891812a37611069"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-12-return-to-completed-city.png",
+      "bytes": 1015601,
+      "sha256": "46f56159bf4a857eeace9217cabd4c10314681a5bfd39bf908818763ef070ea7"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-13-SoYeon-strawberry-delivery.png",
+      "bytes": 894062,
+      "sha256": "4beeb0c00d0d1251c7967a12afe060e6b0268b2f94a9097f69dadbb122c13ea2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-14-complete-map-landscape.png",
+      "bytes": 3007054,
+      "sha256": "748036fb73f00f44196cae88f8608c2c85779abd2fe6130b46d0a9c9ba526fb2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-15-DIAGNOSTIC-pixel-coordinate-grid.png",
+      "bytes": 3010264,
+      "sha256": "1f473427b91c91ef269def5842a30b828f6bfd8a6405c8372ca40f5ea31d452c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-food-recovery-isolated-fixture.png",
+      "bytes": 889727,
+      "sha256": "486d26f803a160baf526a31acad5abd01f4fe4a7f27bdaeac0578404cef90bd2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-inn-rested.png",
+      "bytes": 931976,
+      "sha256": "41944c111b6465e9db8b60ac807f58fcd59c8b19996e8500ac6213b01b87ba88"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\DL-strawberry-gift-inventory.png",
+      "bytes": 672064,
+      "sha256": "30e6f33bbe2bf0b46226b2143012074ac9fd7c6c5a51e68d909521b825a974ff"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\EXP-01-Fresh-revealed-preview-hidden.png",
+      "bytes": 1063314,
+      "sha256": "71da66be8d8061883c9b4136288e26eb38d89613937c8d901dd7265f8bbc0e3d"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\EXP-02-After-first-gate-new-boundary-previews.png",
+      "bytes": 1006938,
+      "sha256": "6340d369c3719f7e62904bfa470da27a0f92b33f7a82ef18944f2ff3d6175933"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\EXP-03-Boss-sprite-red-floating-alert.png",
+      "bytes": 1048432,
+      "sha256": "2b951005e15379ed4a417db1e2a1dc304981ee3631e980f70163c6649dc7e030"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\EXP-04-Camera-white-marker.png",
+      "bytes": 1050332,
+      "sha256": "65df59342228d0d06cb9ce3dca1a1b9e3f05125da8649459a1e6dc9bda09627a"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\EXP-04-White-camera-checkin-offer.png",
+      "bytes": 876960,
+      "sha256": "b653bfeaf319e615011f11a7b90da2eb99d5128aea5d3367da86359a768045f4"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\EXP-05-Checkin-recorded.png",
+      "bytes": 836484,
+      "sha256": "947d97534d00ff22fa353f8ec27c47490578933802f10e05bc62940651b35571"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\EXP-Motion-off.png",
+      "bytes": 1063288,
+      "sha256": "e3bdbc8052d18ea75b3c9d174c1dd396fb88f108383c76270e148b2451bca3f3"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\FOOD-01-NPC-request-missing-reserved-spice.png",
+      "bytes": 860999,
+      "sha256": "01e30634df82a8bbc6e8211352a0afc57ea8df1592b5461ecb6786d364361742"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\FOOD-02-Spice-pickup-at-map-node.png",
+      "bytes": 960103,
+      "sha256": "83d3a36bce8ced6330cd3a91ef22531629c8b410ce6f95ea7edd7e50c3686006"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\FOOD-03-Pickup-icons-and-quantities.png",
+      "bytes": 875779,
+      "sha256": "4e291136d3164a93cca675da72eee989b21f131388e0f7786120db0457073982"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\FOOD-04-Inventory-chili-shallot.png",
+      "bytes": 697285,
+      "sha256": "ac111a148a505eb3dbe848e7ec9c29e711f29a815471f536e9e50fb7c42c5a81"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\FOOD-05-Inventory-shallot.png",
+      "bytes": 695881,
+      "sha256": "68458ccdc68cdb4d6b77745fd09bcab7c1560611a7b2815111af44fee9917ca2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\FOOD-06-Actual-turn-in-reward.png",
+      "bytes": 865380,
+      "sha256": "2a020479e0629ede6989cec9db3183ec105eb62cf3877bdae3f55baf944b4f1b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\FOOD-07-Pending-cross-city-journal.png",
+      "bytes": 339287,
+      "sha256": "486420eff642c94493a2123ff0036012f06ad5abec268044ddf2dcf311e388f4"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\FOOD-Recovery-fixture.png",
+      "bytes": 886606,
+      "sha256": "07eb5d443044b08d0cd8d17b1e100eed24e1869d59356bd2f69c0407afba0c02"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\intermediate-H5-stop.png",
+      "bytes": 953328,
+      "sha256": "3131a5619d94a8b5c302c4f1508261a108909f2206e811940d771ece54e13bde"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\MKR-01-Fresh-NPC-talk-and-hidden-boss.png",
+      "bytes": 1088912,
+      "sha256": "d1b22d09d30a733f4c29dcc9ccb640b2ade6ad75ccaf15ae2392ee86ddb8d7f9"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\MKR-02-Mai-needs-item-and-alley-reward.png",
+      "bytes": 1064465,
+      "sha256": "1123cd320c65c4e0b988df4cacdf9b783a3067b2c005b8b32715152e6421d468"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\MKR-03-Mai-ready-to-receive-item.png",
+      "bytes": 1064512,
+      "sha256": "e89563287ddce1f462b45ce0e047a6f1e8306a818c1ba4e807aa49021cb97ad4"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\MKR-04-Visible-boss-red-alert.png",
+      "bytes": 1063966,
+      "sha256": "ddad32e95008b3c45f7f4f12222ef964077f0c2fb445b5f2a2c49362df5fa892"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\MKR-05-BaTu-return-with-item.png",
+      "bytes": 813282,
+      "sha256": "2e0dee2d3d93e5c8e5d76c05db10f9b48f6de0b29688020af16fb863c45323fa"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\MKR-06-Completed-locations-become-checkin-markers.png",
+      "bytes": 812460,
+      "sha256": "1b5f6671072afd5a09e8f8e085bae1ef62c2bf16d6c86d1aa4fc77ec8a0e5d20"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\MKR-H22-extension-fixture-not-delivered-content.png",
+      "bytes": 1052674,
+      "sha256": "a4d6da872bf39b634e69b14678e167274b740aab33715c517a2d3efbcf0582a1"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_archive-retry.png",
+      "bytes": 177473,
+      "sha256": "3cb5fd0e45f3149edb5a47d10806f785802d1e9afa0f1fa5aecad70b1586fd93"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_archive-solved.png",
+      "bytes": 181123,
+      "sha256": "156bfdfc2b3b5ee1c3c74a264ccb5703271a26e76dac02aab69803dc05fc8688"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_court-retry.png",
+      "bytes": 183254,
+      "sha256": "2e1a40a5007c1f77713d5326e0d0b349de91c0f650719dd8de198a35da329e96"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_court-solved.png",
+      "bytes": 187228,
+      "sha256": "9480864ce73d3223181b6bea47f61f38a3ed4fbf221cadfeec3f985d513807f0"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_dye-retry.png",
+      "bytes": 185377,
+      "sha256": "822ad2b3157d268ad221d5399882557db5ebec904e211c5802beea5fc18ee1ca"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_dye-solved.png",
+      "bytes": 188307,
+      "sha256": "f5c1336f7fce565cc7665243500b457029b92456bb463a577f512751fab3a643"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_embroidery-retry.png",
+      "bytes": 183386,
+      "sha256": "cb68826e898ecacecd3ff422a35da7bf189d22819f83001af87fe09f3c81a8cc"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_embroidery-solved.png",
+      "bytes": 186524,
+      "sha256": "d97b83aed8ff48c6d610e70abbbce652bab0bb69efd0ff7ecdfb2ece515f8939"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_market-retry.png",
+      "bytes": 197984,
+      "sha256": "cc7011862141820949e733a7a2cc333c442eb91bda8b20015dfbfc9497da7a4e"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_market-solved.png",
+      "bytes": 201102,
+      "sha256": "3e88494ceba6adb7b794518814f768b774a0944be8d5e47e087e6807b86169df"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_market_code-retry.png",
+      "bytes": 185118,
+      "sha256": "2d7617cd016010e7d0a9fb239ae2313e72995e5bfe240078795b0451e129a944"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_market_code-solved.png",
+      "bytes": 188513,
+      "sha256": "35ac04b9dee72b4dfd831ce41802e846dd7d5a1b9233ea7713a15f5bd479cf94"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_mist-retry.png",
+      "bytes": 198218,
+      "sha256": "703630b53fdaf05f6239325ee00b70b917e3d07835741998cbea48d29ce23f8c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_mist-solved.png",
+      "bytes": 201822,
+      "sha256": "13bd92a05f6f2fbeac71ed1c214dbb5652e5759e067c08cc83184c7797107d43"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_paper-retry.png",
+      "bytes": 196620,
+      "sha256": "8f4108bd7634eebf42f2ed9d21fc1f544d36bfb9303e404b98271fcafdec0986"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_paper-solved.png",
+      "bytes": 199784,
+      "sha256": "4fc6ea9ab81e551a0456bcf6313ab36eaa40ea00ecbe1a8ce6001515f7b6f136"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_pottery-retry.png",
+      "bytes": 197181,
+      "sha256": "5858fdbabdc880cd78e7cd279a0106d567640e719b3ddea63eb955d0c2227f9f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\puzzle-puzzle_pottery-solved.png",
+      "bytes": 199876,
+      "sha256": "d17e563482601629cb82dc1ae24d7fd216ac551e48230199346036c28892b9ed"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Reward-150-entrance-early.png",
+      "bytes": 701139,
+      "sha256": "014f814a300374d403a1adc2e3c0fa73fdc47178b0a1f5feca0e60438ff064c8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Reward-150-entrance-middle.png",
+      "bytes": 663449,
+      "sha256": "984085a54ed8bb6496f936edbde20808a1175fbf29d0c133805a748175ef3aa5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\Reward-150-entrance-settled.png",
+      "bytes": 657222,
+      "sha256": "32fb4bc348a1c8c5b442ecfb8ead6cf5bd82e074be39f020d6e83c5b15543f51"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\S1-01-Fresh-map-Mai-only-starting-region.png",
+      "bytes": 812133,
+      "sha256": "2d8387e236052ed67cc07d737ae8a717ef139fb1166d1bee39351acadc54b72c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\S1-02-Gate1-only-next-region-merchant-crab.png",
+      "bytes": 812415,
+      "sha256": "57e51348719414a004593ac9514a312cdee00331bf552eb03b9d649a841a0c29"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\S1-03-NPC-and-bridge-bot-on-map.png",
+      "bytes": 813720,
+      "sha256": "9cee344c67669f38bd20a89b0b45528594b68f6b5859373f15c47d7693f5ed36"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\S1-03b-NPC-and-bot-map-detail.png",
+      "bytes": 1063917,
+      "sha256": "d79eb13f3e08bfd763bfc06e1facf1899c3f84c9c3336429687c9407f95c62b6"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\S1-04-Battle-opens-station-region-only.png",
+      "bytes": 812796,
+      "sha256": "9466a7b75ba2f57fb8c2deb004db4f98e356becb2e1d8bfe07af9762e2b2408c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\S1-05-Code-opens-same-region-only.png",
+      "bytes": 813045,
+      "sha256": "9a7c5011bd8a4326b0b4aa6b710d6108446668bb4e3338f7e97cf0a89470f633"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI-01-CityMap-globe-backpack.png",
+      "bytes": 812183,
+      "sha256": "76bc7bc33f39b1354cbe841891931ec5ce994c6e88ae7583795e4c7bf330166b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI-02-WorldMap-from-globe.png",
+      "bytes": 788749,
+      "sha256": "eb6da91fbdd76dbd467f55f53dca75a56928e3bb8c759b405740527ffcc1097b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI-03-Inventory-from-backpack.png",
+      "bytes": 693971,
+      "sha256": "4fe8a645cb3606f381adfb0e5dd9e6659ebc242e775496599f0d3075a3767313"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI-04-Lumi-dialogue.png",
+      "bytes": 1008872,
+      "sha256": "e78d76d9e80f23a8b32e056fa106738cd7a22e8881dfd4676feb0f8a07fc0f5c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI-05-NPC-Mai-dialogue.png",
+      "bytes": 947871,
+      "sha256": "4feabdd67b424383d020f79cfe8d8038bc00eeb2d79c4157223d31999134acb6"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI-NPC-boatman.png",
+      "bytes": 961576,
+      "sha256": "bf79b6d10779d5d40435fa2330e132d83aa6627960a1e36efe4e33aaf59a77f1"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI-NPC-Korean-visitor.png",
+      "bytes": 969472,
+      "sha256": "061e7adc0eddba5199adb6b3f7021764006f9b74113b872596cd473c524ecc09"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI-WorldMap-locked-Hue.png",
+      "bytes": 788674,
+      "sha256": "0ab6039a19fdb498611a994d75209d6fa64401805cf907ce5f332d890c9580ed"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI-WorldMap-story-routes-open.png",
+      "bytes": 796555,
+      "sha256": "024c954043fb67a401fd2cc2a2604bc15a630f1cd1b457e72e0dee1e7cf80366"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI1-01b-CityMap-overview-paper.png",
+      "bytes": 812166,
+      "sha256": "e2a9c8bc9c2a69804c71b6b7f3d2b068840aa1531321d7db421b23292d283507"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI1-03-Inventory-three-earned-items.png",
+      "bytes": 696446,
+      "sha256": "b91c628952ba10b5dd5ce8b73059eb9e37f81e69f39f070ddbf3d7632cda85ce"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI1-Inventory-landscape.png",
+      "bytes": 779754,
+      "sha256": "37c7be562dcc2dddcc67b1267a518418278542c8482464f11b2c6d0a473009af"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI1-Inventory-safe-area-simulation.png",
+      "bytes": 680993,
+      "sha256": "947287eaa235171419fdfbb60970f3eb23805ecb4ba6fce5b8aa7eb4c153815a"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI1-Inventory-scroll-fixture.png",
+      "bytes": 665662,
+      "sha256": "f67c825104bde765a4df4561325e31af49996010709e7697baaaf8efc7477762"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\UI1-Phone-20x9-safe-area-simulation.png",
+      "bytes": 1023302,
+      "sha256": "39db948e4728000553c46a1db0fcc9aa0b6203e5a727d5fdc8f63156751f2958"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-HoiAn-final-inventory.png",
+      "bytes": 648909,
+      "sha256": "583fa716b39c661b2ecd41e45f96c91d0884dd39504864ea2d5f641aedbf52b2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-HoiAn-final-quest-journal.png",
+      "bytes": 340890,
+      "sha256": "8d1aafe840ac9a0ad0042969f05aad17390c695e1c778822e552548c48dfb59f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-HoiAn-HQ07-offer.png",
+      "bytes": 895733,
+      "sha256": "d923891387b14a39dfafcf34feaa00cd4321f806b5501d69bb805500d9143363"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-HoiAn-HQ07-reward.png",
+      "bytes": 881281,
+      "sha256": "874570a6fa9f7651f96d5d15ac094b740bd711a329ccdce72d9930c83a44cd8c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-HoiAn-only-one-delivery-HQ07-blocked.png",
+      "bytes": 927925,
+      "sha256": "68264add54fc447eacd16a6572e3d6b4a085c1bd13909d5f0435abd4ced01d11"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-hue-arrival.png",
+      "bytes": 1029459,
+      "sha256": "95b741da07a356212b3271826a9ab31409c681256d72c9e47966e978f048e2f3"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-hue-inventory-after.png",
+      "bytes": 659349,
+      "sha256": "43d296d9863aefa05b91a0441db6c4de3f24dcad000d7454079f8bdf20e8e914"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-hue-inventory-before.png",
+      "bytes": 620642,
+      "sha256": "8067da2e689a73ce541611cc3ae5c4336a61747634ade545628b3f5aa95170bc"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-hue-Lumi-confirm.png",
+      "bytes": 964532,
+      "sha256": "f3a0cad1ec07003a65f17c6eb6fc585e7d5e45db9dde9267ba97142b4160b7d9"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-hue-Lumi-intro.png",
+      "bytes": 945878,
+      "sha256": "6e307b752f1963b4fcfffb61a14316f720df6eaed659944b6db9ba5e32fb1f67"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-hue-NPC-before.png",
+      "bytes": 735931,
+      "sha256": "c551d9879bc4d29514f93f2b40d85b9f0cfa0716e032a872aad440cd12be52d8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-hue-NPC-delivered.png",
+      "bytes": 887973,
+      "sha256": "ad67fd37078903edbcc3db00ad20b8e8e69df36276f37d8688f5221a301185db"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-hue-NPC-missing-fixture.png",
+      "bytes": 719266,
+      "sha256": "420e3f949c49e10327f8882b7d1643c75f8b3f74e597d3f707db93f7852afe50"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-hue-quest-journal.png",
+      "bytes": 340201,
+      "sha256": "26b61b25ff1c423055a92007c0a3769456ad8895645dfa5dece55c4c2a535fb9"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-hue-revisit-after-HQ07.png",
+      "bytes": 948845,
+      "sha256": "9e983438bf4abdc52522d15f7c286cd55f63fa8e8ce416694d1da84908d3ac7b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-jeonju-arrival.png",
+      "bytes": 1045569,
+      "sha256": "bfda69e8280e0cddc68d7ce7c2cd90d893736c113014a569ced18824773825a5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-jeonju-inventory-after.png",
+      "bytes": 662648,
+      "sha256": "cdaed5e06323db88e4d90b7c7405c26825bfac1a4d0bbac03dbf645abb4aff06"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-jeonju-inventory-before.png",
+      "bytes": 621705,
+      "sha256": "2d7d32b3088d83b8893dd1f37c8642b58bd2cb2033722d786ee770ee84920a9f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-jeonju-Lumi-confirm.png",
+      "bytes": 969976,
+      "sha256": "970bac2d857e66ffa8e0151871f0340d1a19b741fc5a3ef8d64c2b9ef83f2f71"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-jeonju-Lumi-intro.png",
+      "bytes": 957227,
+      "sha256": "fa2dad948e0f26d9c9015c2cae6bd00a7b7ef512aa5d2abdc4d5f75f1ec12ff6"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-jeonju-NPC-before.png",
+      "bytes": 744899,
+      "sha256": "f5b628ee06666ed185f43d39bba0f5e6bbe06d05542d600eb8a5771d9604a3f8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-jeonju-NPC-delivered.png",
+      "bytes": 900462,
+      "sha256": "562bd7842e19cc5fd1a31a65ca26bc029c07af661bcfe9f86ef8a295be06803f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-jeonju-NPC-missing-fixture.png",
+      "bytes": 727500,
+      "sha256": "a5ec994ef5fa8159eac8bfac5cc3f23a41c19ec7f9360cc65eda657caa901982"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-jeonju-quest-journal.png",
+      "bytes": 343365,
+      "sha256": "d048792bbf0672978bba3829c19c0d8b9b3722014aadfb73308ed265eba81e94"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-jeonju-revisit-after-HQ07.png",
+      "bytes": 934746,
+      "sha256": "4d09abeed9769cf0a4e65695eeafcd2a3afdb61f73449ba023d7eb523147821c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-Recovery-used-legacy-fixture.png",
+      "bytes": 886606,
+      "sha256": "07eb5d443044b08d0cd8d17b1e100eed24e1869d59356bd2f69c0407afba0c02"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-WorldMap-select-da_lat.png",
+      "bytes": 802549,
+      "sha256": "c419f34a6f51486e00abd2fe700f5abd000e874fcc789fda991a2a2374a4aaa2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-WorldMap-select-hoi_an.png",
+      "bytes": 799685,
+      "sha256": "673c118666f66204ee3b059b0807ebd667743032d59ac076904b4808bfac9814"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-WorldMap-select-hue.png",
+      "bytes": 801850,
+      "sha256": "79ae626793a175e4f30048915546a61fe48df707db2622e9bca09b58a0a0108b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Journey\\X-WorldMap-select-jeonju.png",
+      "bytes": 802843,
+      "sha256": "31a00cacc28185b391732a10039d744a39f7e99d1d30c18b2656b9238022a32b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-Dalat-destination-readiness.png",
+      "bytes": 802506,
+      "sha256": "2bb5793fb2f88c530239b7dc592c7e49d7049e9d083cd709f9e7379e3020ed96"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-HQ03-lantern-rescued.png",
+      "bytes": 918149,
+      "sha256": "f66895fc1b1aa0e2ddb81c828b7e872af6c4676a71aa273852aebfdb9d31f077"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-hue-all-nodes.png",
+      "bytes": 783852,
+      "sha256": "147143a4826a909e4cc6f5fd8a397dbc8f02c567e2887c189c05d4a210bec6d2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-Hue-gate1-reveal.png",
+      "bytes": 782430,
+      "sha256": "d7f181ae81d96a17534ab0aa3cf50a4f86d14751445cf9a6de64d4e2f907554e"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-hue-journal.png",
+      "bytes": 278490,
+      "sha256": "4257af876640bc7ea87c3421a75e80c895bdd96fdf66933fb0c7462760429905"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-hue-landscape-zoom1.png",
+      "bytes": 890355,
+      "sha256": "012805f7b2fbdaca0c2de57458fc5f1b7cae902bedf6cdba7bb6d606abd1372f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-hue-landscape-zoom2.png",
+      "bytes": 1089534,
+      "sha256": "a6f9ce5b8cc36e62694f624e54fd03d723e9793a2ec6614d646ffda1e6c3df34"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-hue-landscape-zoom4.png",
+      "bytes": 918928,
+      "sha256": "db693f21c7e17f8bd63eab236182f17941da4cd71dd6a86e939d4ab20457e171"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-hue-portrait-zoom1.png",
+      "bytes": 783577,
+      "sha256": "e1e1104894a98178d9f39eb1071e397bfa7908b0199bc4d919d3a346fca78dd4"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-hue-portrait-zoom2.png",
+      "bytes": 1096604,
+      "sha256": "ced929621029e668f0329a42c6efed4a794dd36d3bd8db7fd2535c1c7c511beb"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-hue-portrait-zoom4.png",
+      "bytes": 978929,
+      "sha256": "35b346d8f2be9891b6700e7ba2b5e3b48aeb68279f3c3f8b03a317cb8f869cda"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-Hue-restored.png",
+      "bytes": 865561,
+      "sha256": "47b5d466a2cf2d4583405870956533a77338547ce687e2e816114282cecb3a94"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-hue-stage0.png",
+      "bytes": 779488,
+      "sha256": "1cc1e0ecc3e80465b8a57825b73973ca7089cb421bf2ee0c6113dad377f5fdc9"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J11-checkin.png",
+      "bytes": 868024,
+      "sha256": "358351a562b4d436861378697aaa7353f1042f6ee9a4edd5ff0d2c91e6731ded"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J14-win.png",
+      "bytes": 247820,
+      "sha256": "b2e322432bc31e51d64c20c7839e06b6a1476ba2f060ef2bd7e245b9a3d2db75"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J15-inventory-after-shop.png",
+      "bytes": 659861,
+      "sha256": "6267305f077be67d8020311d93d067a36950920486a8e5a0e1bf1a11e0c8da04"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J15-inventory-before-shop.png",
+      "bytes": 660126,
+      "sha256": "424cb75f24597f1f04c959706a1625f7264ef8d3a7a46269ca1e05cc8c179f9f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J15-shop-insufficient-fixture.png",
+      "bytes": 881128,
+      "sha256": "63601a9ad59ad19c90c070827b8e9d700a81c58e6d5f4f0e034adb32a008ca81"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J15-shop-receipt.png",
+      "bytes": 891822,
+      "sha256": "0a9470ee0a6e02bd77480f0b7556e6b5897effc3a5271373135f2a4799282e5b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J17-three-lantern-rings.png",
+      "bytes": 212023,
+      "sha256": "b1d67f78dc4f29a0c1be6dec1701177830b8379133c29b931af0fa3e8d07baf7"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J18-win.png",
+      "bytes": 250209,
+      "sha256": "3d026957fc4287c043e3da8fd6daf0dc0215ffe633d2e405904d72c9a2397be9"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J6-win.png",
+      "bytes": 236901,
+      "sha256": "adcd7ca2dfa773b5eb57bba46016d301b512244ad9a54807d569cdc47b9bcca2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J7-folded-paper.png",
+      "bytes": 207753,
+      "sha256": "929db1cfa5d95b792f9066a5f7abbc8febb3ac24a1eff19b90619d85d011d23b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J8-checkin.png",
+      "bytes": 866731,
+      "sha256": "890f273c2edbaa2b798ce9ec8014b255d66423a1e8963fdd78f5333d2a857571"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-J9-win.png",
+      "bytes": 248901,
+      "sha256": "fbb753d0d31a9b4b7fc3f7137fb095c65813faf6b8af9d65886e37eb955abede"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-jeonju-all-nodes.png",
+      "bytes": 790546,
+      "sha256": "e4c4b765aa038ce29f9fe3c7a60dd215906dc4b450a05a799cb6a15f5f51955f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-Jeonju-gate1-reveal.png",
+      "bytes": 788110,
+      "sha256": "f91fc40ec446e3444a4828f2eebeb8681539c9596d5db5da0037986603a38abf"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-jeonju-journal.png",
+      "bytes": 273590,
+      "sha256": "0003b3fb7fc8dd5979a669bddf5b398923d42b2ee87a250bb1020ba399d38479"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-jeonju-landscape-zoom1.png",
+      "bytes": 906806,
+      "sha256": "c6983187cfaeafadfefbc9e8f01e40829ea8d15a5442288f77a31ee9366bf8d7"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-jeonju-landscape-zoom2.png",
+      "bytes": 1130439,
+      "sha256": "c488a2320e05dca8592f214979637457622af95eba7f4f25f43985e9472256b8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-jeonju-landscape-zoom4.png",
+      "bytes": 940171,
+      "sha256": "dd0d5bf65cbd82874f122a17bef7e29d2adfc99e175dc57a1f4f861314fd1e63"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-jeonju-portrait-zoom1.png",
+      "bytes": 791050,
+      "sha256": "01beb6c0ca680cebedd8036500d6980490c13305c1f114d5987e2c1c0808f733"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-jeonju-portrait-zoom2.png",
+      "bytes": 1115245,
+      "sha256": "9d366dad4371491b6f1a6ac36350289c01b64631ff5498cac6cd5c878749af17"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-jeonju-portrait-zoom4.png",
+      "bytes": 1002330,
+      "sha256": "465faaf53a1cd7aa99c9a83cb26d363e975a565d8aa496bbc366659a748d38bc"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-Jeonju-restored.png",
+      "bytes": 893854,
+      "sha256": "353061e176522c6fb4dbe810efe45deade12df773a5ff295b97378af84115892"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-jeonju-stage0.png",
+      "bytes": 785765,
+      "sha256": "835d7d59f984e701d0c18b07e35787c1cd9cd2d31ec0e5ef752ddc0b5e552982"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-Jieun-letter-return.png",
+      "bytes": 932658,
+      "sha256": "96f141b77cb0df43f53f13ba9313b6abe4996ef168b028e65f78fa77d9bbaed1"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-LeAn-seal.png",
+      "bytes": 769703,
+      "sha256": "3e4df24825935515ac2416b55b41a83b0e8e18556150f135207376a31f4ee0ca"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-Nguyet-quest.png",
+      "bytes": 783480,
+      "sha256": "599f7dcd154a5194769a70dc864ec7cba16faf9b01d492b37a4d0510a97e47c6"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-U12-win.png",
+      "bytes": 243440,
+      "sha256": "db7efb397044e5cb17597b368c4295d3f7a72918adea49095d48a8afd18bb831"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-U15-win.png",
+      "bytes": 233011,
+      "sha256": "b9ca9c290190561a391d5664c450c1d1039193c9ef5c7138eb4ca6226189f7af"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-U18-win.png",
+      "bytes": 253211,
+      "sha256": "79d17c2676e0655f68a6879d825a9382212ac79761e834b0de4e9f5a15e29f9e"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-U4-checkin.png",
+      "bytes": 849748,
+      "sha256": "40302b17246fa191415842e9e86d705a203ffc09e7288b58eebf575ff0ee2ba5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-U5-loss.png",
+      "bytes": 261108,
+      "sha256": "6dc5f1797d4ac5e416312e3cd17761254688be42e4e0bf7f1f2200c62d2d08f7"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-U5-seal-code.png",
+      "bytes": 1029082,
+      "sha256": "ee4b519551bc38df749aad1ff15eb0ef58d9af55e1b1621489b25d5632864e8d"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-U5-win.png",
+      "bytes": 249114,
+      "sha256": "0bef67ccb483ad178d2924521b4423b63fb13609a20ab31c37a6df75a8c63b62"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\Chapter-U6-checkin.png",
+      "bytes": 864130,
+      "sha256": "f742baf90899acc9f944d256d4923a49b8ab2b64ab4bf3ea5343054b749d933f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\puzzle-puzzle_archive-retry.png",
+      "bytes": 177473,
+      "sha256": "3cb5fd0e45f3149edb5a47d10806f785802d1e9afa0f1fa5aecad70b1586fd93"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\puzzle-puzzle_archive-solved.png",
+      "bytes": 181123,
+      "sha256": "156bfdfc2b3b5ee1c3c74a264ccb5703271a26e76dac02aab69803dc05fc8688"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\puzzle-puzzle_court-retry.png",
+      "bytes": 183254,
+      "sha256": "2e1a40a5007c1f77713d5326e0d0b349de91c0f650719dd8de198a35da329e96"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\puzzle-puzzle_court-solved.png",
+      "bytes": 187228,
+      "sha256": "9480864ce73d3223181b6bea47f61f38a3ed4fbf221cadfeec3f985d513807f0"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\puzzle-puzzle_dye-retry.png",
+      "bytes": 185377,
+      "sha256": "822ad2b3157d268ad221d5399882557db5ebec904e211c5802beea5fc18ee1ca"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\puzzle-puzzle_dye-solved.png",
+      "bytes": 188307,
+      "sha256": "f5c1336f7fce565cc7665243500b457029b92456bb463a577f512751fab3a643"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\puzzle-puzzle_embroidery-retry.png",
+      "bytes": 183386,
+      "sha256": "cb68826e898ecacecd3ff422a35da7bf189d22819f83001af87fe09f3c81a8cc"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\puzzle-puzzle_embroidery-solved.png",
+      "bytes": 186524,
+      "sha256": "d97b83aed8ff48c6d610e70abbbce652bab0bb69efd0ff7ecdfb2ece515f8939"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\puzzle-puzzle_market_code-retry.png",
+      "bytes": 185118,
+      "sha256": "2d7617cd016010e7d0a9fb239ae2313e72995e5bfe240078795b0451e129a944"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\puzzle-puzzle_market_code-solved.png",
+      "bytes": 188513,
+      "sha256": "35ac04b9dee72b4dfd831ce41802e846dd7d5a1b9233ea7713a15f5bd479cf94"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-HoiAn-final-inventory.png",
+      "bytes": 648972,
+      "sha256": "258fc8f4454eb656ac44ed08670d587732b97cab699d577e9732eac9bfc838d0"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-HoiAn-final-quest-journal.png",
+      "bytes": 344210,
+      "sha256": "5dfb96f33e7c99f38be1fa67fa42ade44ef026f061d929e2c60cbeae5b491070"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-HoiAn-HQ07-offer.png",
+      "bytes": 895733,
+      "sha256": "d923891387b14a39dfafcf34feaa00cd4321f806b5501d69bb805500d9143363"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-HoiAn-HQ07-reward.png",
+      "bytes": 881281,
+      "sha256": "874570a6fa9f7651f96d5d15ac094b740bd711a329ccdce72d9930c83a44cd8c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-HoiAn-only-one-delivery-HQ07-blocked.png",
+      "bytes": 895604,
+      "sha256": "85a4b75ece032d8cf993ee0c49e19624ab6926f1d5458e8037c74946563c4bfe"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-hue-arrival.png",
+      "bytes": 1029459,
+      "sha256": "95b741da07a356212b3271826a9ab31409c681256d72c9e47966e978f048e2f3"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-hue-inventory-after.png",
+      "bytes": 653586,
+      "sha256": "098de98ab9b7d2b3284e2e7f9496bec621ed7e039253624f015b9bae617b1eb5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-hue-inventory-before.png",
+      "bytes": 615805,
+      "sha256": "4f95575e70585aff74c9726d9fc295acce31c06af6eeb115abb14e4bb104f1c5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-hue-Lumi-confirm.png",
+      "bytes": 964532,
+      "sha256": "f3a0cad1ec07003a65f17c6eb6fc585e7d5e45db9dde9267ba97142b4160b7d9"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-hue-Lumi-intro.png",
+      "bytes": 945878,
+      "sha256": "6e307b752f1963b4fcfffb61a14316f720df6eaed659944b6db9ba5e32fb1f67"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-hue-NPC-before.png",
+      "bytes": 735931,
+      "sha256": "c551d9879bc4d29514f93f2b40d85b9f0cfa0716e032a872aad440cd12be52d8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-hue-NPC-delivered.png",
+      "bytes": 887973,
+      "sha256": "ad67fd37078903edbcc3db00ad20b8e8e69df36276f37d8688f5221a301185db"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-hue-NPC-missing-fixture.png",
+      "bytes": 719266,
+      "sha256": "420e3f949c49e10327f8882b7d1643c75f8b3f74e597d3f707db93f7852afe50"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-hue-quest-journal.png",
+      "bytes": 340915,
+      "sha256": "cbdd9c7dadb259e55b894b595caa1d7d6bbfd7a1910f70c1f636d956f98eef73"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-hue-revisit-after-HQ07.png",
+      "bytes": 948845,
+      "sha256": "9e983438bf4abdc52522d15f7c286cd55f63fa8e8ce416694d1da84908d3ac7b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-jeonju-arrival.png",
+      "bytes": 1045569,
+      "sha256": "bfda69e8280e0cddc68d7ce7c2cd90d893736c113014a569ced18824773825a5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-jeonju-inventory-after.png",
+      "bytes": 661786,
+      "sha256": "0dde8e8308b7a4d4765b719dd3735c45585b84b71ad64d3a4f1520fe8375972c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-jeonju-inventory-before.png",
+      "bytes": 618992,
+      "sha256": "21ac8aa10d15429b11a4a0e54b99436a958a2ec737ed210672d2a55be18f15a3"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-jeonju-Lumi-confirm.png",
+      "bytes": 969976,
+      "sha256": "970bac2d857e66ffa8e0151871f0340d1a19b741fc5a3ef8d64c2b9ef83f2f71"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-jeonju-Lumi-intro.png",
+      "bytes": 957227,
+      "sha256": "fa2dad948e0f26d9c9015c2cae6bd00a7b7ef512aa5d2abdc4d5f75f1ec12ff6"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-jeonju-NPC-before.png",
+      "bytes": 744899,
+      "sha256": "f5b628ee06666ed185f43d39bba0f5e6bbe06d05542d600eb8a5771d9604a3f8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-jeonju-NPC-delivered.png",
+      "bytes": 900462,
+      "sha256": "562bd7842e19cc5fd1a31a65ca26bc029c07af661bcfe9f86ef8a295be06803f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-jeonju-NPC-missing-fixture.png",
+      "bytes": 727500,
+      "sha256": "a5ec994ef5fa8159eac8bfac5cc3f23a41c19ec7f9360cc65eda657caa901982"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-jeonju-quest-journal.png",
+      "bytes": 340792,
+      "sha256": "7a082160b85616c2973fb54f788186148a570451d7185cd9e5d21e9ee9909003"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-jeonju-revisit-after-HQ07.png",
+      "bytes": 934746,
+      "sha256": "4d09abeed9769cf0a4e65695eeafcd2a3afdb61f73449ba023d7eb523147821c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-Recovery-used-legacy-fixture.png",
+      "bytes": 886728,
+      "sha256": "f4528266e444dd8ac3748352d7597e50c2fde66be3146f75231da35975720d0e"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-WorldMap-select-hoi_an.png",
+      "bytes": 799423,
+      "sha256": "f2b157e156668dd15f2182be384f031d2d78e906adfacd64bcee62135dd7b8f2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-WorldMap-select-hue.png",
+      "bytes": 801850,
+      "sha256": "79ae626793a175e4f30048915546a61fe48df707db2622e9bca09b58a0a0108b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Reverse\\X-WorldMap-select-jeonju.png",
+      "bytes": 802029,
+      "sha256": "3cc02e2726e40e8ac773903c41f747e0dd07fa4ceb1a576051df83ce9331f584"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\After-CoveredBridge.png",
+      "bytes": 1083208,
+      "sha256": "47416b41bcbe7d2aac6083624f14b39a787f174e646b52f06f22b31f660d4d5b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\After-Mai.png",
+      "bytes": 1099849,
+      "sha256": "bee01d77fa8132de9ced2766ee60023b64ba14a76084824d395d821910d7cf4c"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\After-NorthStreet.png",
+      "bytes": 1063911,
+      "sha256": "b32bef2fff7af3a9e7b8237c5791d0ea9e279c8bc386630970d29a23724e9f08"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\After-overview-clean.png",
+      "bytes": 1936426,
+      "sha256": "2fc02b4af3d50a4e104df895f5f06a582925b544e0f3008a874d2bf0464d6f92"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\After-QC-node-anchors.png",
+      "bytes": 1935408,
+      "sha256": "559639fc281ecb985949330c087f98772d22c3fc5b3fd28b5b2bf384916e96d5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\After-WestDock.png",
+      "bytes": 1053637,
+      "sha256": "64a9f644d2e11debe5889ce8722b7239c13d960ba2c795356ef40190b579c4d1"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Animation-Full-pressed.png",
+      "bytes": 812652,
+      "sha256": "9306e3c3160e715c3250a4018959d378b6f60eef678c033bcaeefbeb4f2fd38b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Animation-Full-released.png",
+      "bytes": 925189,
+      "sha256": "f13354fe353c615197e49010b42d9a9464ef9c61a83f40f0dfccbfbb76cb7a39"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Animation-Off-pressed.png",
+      "bytes": 1050998,
+      "sha256": "3bc5470226e6412772599a99cd41a599e3c57e866175a9bb1294aceb71e2c5d5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Animation-Off-released.png",
+      "bytes": 1101011,
+      "sha256": "78c57a0d1949667713f2316dfde3b38ca898939db9134da9265ea76ae2d83a57"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Animation-Reduced-pressed.png",
+      "bytes": 924969,
+      "sha256": "5e72cec4c47ff1f2ef809c8bb60f698a1f49df1d7687f4b1ace4b33f30154aeb"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Animation-Reduced-released.png",
+      "bytes": 1051065,
+      "sha256": "1a99b15e52a2abb2fed42e6f9d8b6438657c51fb09bcdbebe536e0daf405a8d8"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Chapter-hoi_an-ferry-outbound.png",
+      "bytes": 1925460,
+      "sha256": "3a15507ba501358f45904610a7a49c95e1bd0df641c42a17bcb5dd64ba89cd0d"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Chapter-hoi_an-ferry-return.png",
+      "bytes": 1924767,
+      "sha256": "b211f861971f7aeaf6b8ede923a32f37499c9bed37346ad00013c3fa49e7cbc5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Dialogue-layout-FIXTURE-540x1200-long-scrolled.png",
+      "bytes": 912692,
+      "sha256": "46faf1e6fec80e710988b1612d1839c5a9f0185a7b5dbc68d89fb7e6ccb23c29"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Dialogue-layout-FIXTURE-540x1200-short.png",
+      "bytes": 979330,
+      "sha256": "752b04fb446972bb0116bb6e813f4afd4f765e5f802ba9180147a6fab7bd78eb"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Dialogue-layout-FIXTURE-540x960-long-scrolled.png",
+      "bytes": 911141,
+      "sha256": "4fa251fbc4389d6070466c08ecffa69d8adfc6ca0f6d29dc5e91a48aa10417b2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Dialogue-layout-FIXTURE-540x960-short.png",
+      "bytes": 982815,
+      "sha256": "33fdaae32d753e382b87849513df8931c39df68ebdccc38e29273f7acd52a054"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Dialogue-layout-FIXTURE-960x540-long-scrolled.png",
+      "bytes": 868100,
+      "sha256": "9d094767383cd381977deaeb93ca0862fd44b8728a11d587f591a480b8142a42"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Dialogue-layout-FIXTURE-960x540-short.png",
+      "bytes": 917673,
+      "sha256": "c6a173174a2df0de91b96c15f1bb73b2df59fec43389d8cf23d38720d563de79"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\HoiAn-Lumi-covered-bridge-outbound.png",
+      "bytes": 1907825,
+      "sha256": "8fd8dfa37ada907dea9733b251235ec562a55628123dbd7434d2bfc4730692c3"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\HoiAn-Lumi-covered-bridge-return.png",
+      "bytes": 1908246,
+      "sha256": "e08c897b8932fbbb60140d7879cc65e972ebc735a8f9ca60740189cd7f9b6e99"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\HQ04-ferry-earned.png",
+      "bytes": 1695773,
+      "sha256": "6ab244b6120c59cc36bcfd44c856dbe5ce6350c73d45de7b832975759d76db79"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Panel-Full-early.png",
+      "bytes": 1869899,
+      "sha256": "6f0a0fc3e3ed179ed0cf95d301ff4c2600fb9c428ee2e9761206958ada8d3bd5"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Panel-Full-middle.png",
+      "bytes": 1713397,
+      "sha256": "37008326b78fa46f1a35c2b207d6d1dce7f78754173e1e7c6aaa1f60d8d82248"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Panel-Full-settled.png",
+      "bytes": 1695198,
+      "sha256": "d087297efbbfaad14eb03e3ad762d9b6aabec1b1d47d8f65b390cd1a1ed77634"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Panel-Off-early.png",
+      "bytes": 1703082,
+      "sha256": "3598dd0a1e4f7305af12505cd29fcb0cb33580595306bb0ee4d6a75be2767253"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Panel-Off-middle.png",
+      "bytes": 1695297,
+      "sha256": "afd436ca93a324d168d671deeaed8f7aaa5c1d769c01a040ab64f39c328b23cf"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Panel-Off-settled.png",
+      "bytes": 1695297,
+      "sha256": "afd436ca93a324d168d671deeaed8f7aaa5c1d769c01a040ab64f39c328b23cf"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Panel-Reduced-early.png",
+      "bytes": 1873536,
+      "sha256": "a4aaedcea1fab954ea7c3c33cf715cfb65165bdac03ae67d5f9de39f05def819"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Panel-Reduced-middle.png",
+      "bytes": 1695235,
+      "sha256": "15bd7098a3ebd43e2b4884b3cc509045ad173ea4dba3204ab18eb971efdac8cd"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\Panel-Reduced-settled.png",
+      "bytes": 1695235,
+      "sha256": "15bd7098a3ebd43e2b4884b3cc509045ad173ea4dba3204ab18eb971efdac8cd"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Final04-Diagnostics\\X-WorldMap-select-hoi_an.png",
+      "bytes": 800105,
+      "sha256": "59ee551ee068a417853767f6450b66178639ae592cbb472c6f012bd85a6daf0b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-DaLat\\Restart-da_lat-stage4.png",
+      "bytes": 1010679,
+      "sha256": "2e617934fe5765aff4f851c68c25946eff53fc89a56cda735c0b1db70f8bdf7b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-DaLat\\X-WorldMap-select-da_lat.png",
+      "bytes": 802969,
+      "sha256": "202d618462802a6ece3e37d6a0594a50b89d459796111a05ae2b811ba54f8f52"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Ferry\\Restart-hoi_an-stage4.png",
+      "bytes": 1048502,
+      "sha256": "393034e1937c1d56193c496ea6d59c954dbfb8c48accd2ce3f16afd53df5cdcd"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Ferry\\X-WorldMap-select-hoi_an.png",
+      "bytes": 800168,
+      "sha256": "f225504c57a744010bdbcf8fac8cf90dff8a15a58f6baeaf937cbbf76c48134f"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Hue\\Restart-hue-stage4.png",
+      "bytes": 1028737,
+      "sha256": "1f009d0d7ce5a46b6515e85551f2f119f4c616f01e7fcb116d4c2c59fdbe0404"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Hue\\X-WorldMap-select-hue.png",
+      "bytes": 802279,
+      "sha256": "88337910c36925936b8a074df0aaa5903996b5941c5276f219370ce423cc6e91"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Jeonju\\Restart-jeonju-stage4.png",
+      "bytes": 1046396,
+      "sha256": "0ca16086d59c9da405eba854eaa514cb584d7df09e12ba0117687012d01c3d55"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Jeonju\\X-WorldMap-select-jeonju.png",
+      "bytes": 800374,
+      "sha256": "f6bda4a39af68089586f2db91fced7e88e65eb584533fb0f606cd48cac52b2e4"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage1\\Restart-hoi_an-stage1.png",
+      "bytes": 1064893,
+      "sha256": "8d6eb3512dd6518adee0935b75588a29cc2410afb7ccbd7fe0dfb7c76055f60b"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage1\\X-WorldMap-select-hoi_an.png",
+      "bytes": 789371,
+      "sha256": "8eed1cef2880ea650fd1515d2bc32530d034cc1b8dd70b321ca9b66533c5f4f2"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage2\\Restart-hoi_an-stage2.png",
+      "bytes": 1065918,
+      "sha256": "bf3042029b7359b061af64bc5f90c436e77b6750e896fbcfe14765dc699c286d"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage2\\X-WorldMap-select-hoi_an.png",
+      "bytes": 789283,
+      "sha256": "894ca40c8aa3197fa89fd75cd6ee57ab98a8e9d3cc41e3a70d2f583d828e46ee"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage3\\Restart-hoi_an-stage3.png",
+      "bytes": 1047762,
+      "sha256": "eea45bc8f615c6bfea8795e21008f35f4ea8620aafc7504a32209c56f00dc035"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage3\\X-WorldMap-select-hoi_an.png",
+      "bytes": 789268,
+      "sha256": "cd5cb98c7c43b5df249443e30863305c72fc7fc92b080f77c1eea0f6dbac2282"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage4\\Restart-hoi_an-stage4.png",
+      "bytes": 1064373,
+      "sha256": "241961e8db49b12cc462040bbf6675e2540fe32132ddc640df06418363420295"
+    },
+    {
+      "path": "Validation\\CityMapUIPolish-20261017\\Restart04-Stage4\\X-WorldMap-select-hoi_an.png",
+      "bytes": 793922,
+      "sha256": "e69e5133fe0be7b5c747d851c0975fe9c39932954b7fdf1692ebc742ee7c07a0"
+    }
+  ],
+  "limitations": [
+    "Occluded ground at fixed illustrated node anchors and narrow northern/western alley sections: NOT VERIFIED terrain clearance.",
+    "Route-only walks and layout stress fixtures are not fresh-save story evidence.",
+    "Android/device testing NOT VERIFIED. Tasks 2, 3, 4 remain queued; Gyeongju/Seoul DATA_ONLY."
+  ]
+}

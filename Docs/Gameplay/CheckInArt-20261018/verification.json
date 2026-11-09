@@ -1,0 +1,172 @@
+{
+  "verifiedUTC": "2026-10-18T05:48:13.560848+00:00",
+  "status": "WINDOWS_TECHNICAL_PASS_VISUAL_REVIEW_PENDING",
+  "imported": 18,
+  "bound": 18,
+  "derived": 18,
+  "sourcePNGsUnchanged": true,
+  "GUIDsAndLocalIDsPreserved": 18,
+  "approvedSourceOnly": true,
+  "noUpscaling": true,
+  "protectedGuards": [
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "sha256": "368d47e73a67db3cc8bab751fb3f4d7d0c3f8e7698f1b2d7884a42d0a0a22b12",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/AdventurePresentation.json",
+      "sha256": "c8658886545ed06b1da6fa6df5ad164c3ca309ca726b7370c83a01185b48ae98",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/SaveSystem.cs",
+      "sha256": "5ddd7ad4d0d8ef15de6c405051d87f259c4faf922f528f0cf5a5055a23fcdaf5",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicCollection.cs",
+      "sha256": "d829ce6b9092d0ffa225911782567448c80a3f4c912d95022ce5b7a982460b21",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "sha256": "2069a7790de8fe376aacda27f19621539aed33d460877d09a7c1a666bece8981",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "Docs/Art/NPC_CANONICAL_REGISTRY.md",
+      "sha256": "9e4ff502959f962dad1905bb205501465d173abb8ab8560720779bb4ce9bee19",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "Docs/Art/NPC_CANONICAL_REGISTRY.json",
+      "sha256": "fdfe6311975b80ffc75d53cc9798e3390d21f9a60909a26c3959cf8a200636b1",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "35085c672985cf3f4723e67f729741d82e2cd361b283266016e4eb9d6544ed70",
+      "status": "BYTE_IDENTICAL_TO_BEFORE"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/ContentDefinitions.cs",
+      "sha256": "dd149fb96bb72ad6413999676c7ee63e041308fb1b91e20d9f7cb78ee7f5fe68",
+      "status": "ROUTE35_BYTE_IDENTICAL"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameData.cs",
+      "sha256": "824460c9756d79a6c65969555994389ca3f8140b851d92198bf75b4098da49e3",
+      "status": "ROUTE35_BYTE_IDENTICAL"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMapPaths.cs",
+      "sha256": "385f0c15f1821d1f22fab365ce5c96a87612bf3a3ec5cdf1f4e2e9692ace276d",
+      "status": "ROUTE35_BYTE_IDENTICAL"
+    }
+  ],
+  "oldNativeReferencesPreserved": 420,
+  "h6GestureBodyUnchanged": true,
+  "endingAndNpcDialogueBodiesUnchanged": true,
+  "runs": [
+    {
+      "run": "Journey02",
+      "assertions": 432,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/Journey02/smoke-results.txt"
+    },
+    {
+      "run": "Fresh01",
+      "assertions": 22,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/Fresh01/smoke-results.txt"
+    },
+    {
+      "run": "Relay01",
+      "assertions": 31,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/Relay01/smoke-results.txt"
+    },
+    {
+      "run": "RelicFresh01",
+      "assertions": 200,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/RelicFresh01/smoke-results.txt"
+    },
+    {
+      "run": "Restart-hoi_an",
+      "assertions": 38,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/Restart-hoi_an/restart-results.txt"
+    },
+    {
+      "run": "Restart-hue",
+      "assertions": 18,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/Restart-hue/restart-results.txt"
+    },
+    {
+      "run": "Restart-da_lat",
+      "assertions": 18,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/Restart-da_lat/restart-results.txt"
+    },
+    {
+      "run": "Restart-jeonju",
+      "assertions": 18,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/Restart-jeonju/restart-results.txt"
+    },
+    {
+      "run": "Restart-gyeongju",
+      "assertions": 23,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/Restart-gyeongju/restart-results.txt"
+    },
+    {
+      "run": "Restart-seoul",
+      "assertions": 23,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/Restart-seoul/restart-results.txt"
+    },
+    {
+      "run": "RestartFinal-hoi_an",
+      "assertions": 38,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/RestartFinal-hoi_an/restart-results.txt"
+    },
+    {
+      "run": "RestartFinal-seoul",
+      "assertions": 23,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/RestartFinal-seoul/restart-results.txt"
+    },
+    {
+      "run": "CrossAlbum01",
+      "assertions": 100,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/CrossAlbum01/restart-results.txt"
+    },
+    {
+      "run": "RelicRestart01",
+      "assertions": 13,
+      "status": "PASS",
+      "path": "Validation/CheckInArt-20261018/RelicRestart01/restart-results.txt"
+    }
+  ],
+  "assertions": 997,
+  "verifiedRuntimeCaptures": 99,
+  "oldMarks": 7,
+  "newExplicitMarks": 11,
+  "coinsDelta": 28,
+  "questRelicSaveSchemaUnchanged": true,
+  "derivedFootersUnmodified": true,
+  "crossCityAlbumWhileRemainingInSeoul": "WINDOWS_RUNTIME_PASS",
+  "failureRetained": "Journey01: QA clicked off-viewport last card, hit Close. Fixed QA scrolling; Journey02 PASS. No production change for this failure.",
+  "limitations": [
+    "ANDROID_NOT_TESTED",
+    "LIMITED_SOURCE_RESOLUTION",
+    "No physical touch/pinch device or FPS/VRAM measurement",
+    "No full133-node regression; current task targeted18 sites,6 restarts, fresh HoiAn and relayC"
+  ]
+}

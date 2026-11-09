@@ -1,0 +1,2 @@
+540x1080 | fontPixels=27 | textHeight=422.2222 | viewportHeight=496.8
+1280x720 | fontPixels=24.48 | textHeight=295.8333 | viewportHeight=414

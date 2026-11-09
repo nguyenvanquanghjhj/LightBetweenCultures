@@ -1,0 +1,22 @@
+[
+  {
+    "run": "jeonju02",
+    "checks": 109,
+    "result": "PASS"
+  },
+  {
+    "run": "jeonju03",
+    "checks": 37,
+    "result": "PASS"
+  },
+  {
+    "run": "jeonju-restart-A",
+    "checks": 21,
+    "result": "PASS"
+  },
+  {
+    "run": "jeonju-restart-C",
+    "checks": 21,
+    "result": "PASS"
+  }
+]

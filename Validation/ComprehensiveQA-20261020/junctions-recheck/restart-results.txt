@@ -1,0 +1,146 @@
+UTC run: 2026-10-21T00:24:44.8145175Z | Unity 6000.6.5f1 | 720x1080
+PASS: Production uses approved owner navigation: da_lat
+PASS: Canonical node IDs/count retained: da_lat
+PASS: All canonical arrival positions retained: da_lat
+PASS: Valid connected polyline endpoints and bounds: da_lat
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: da_lat
+PASS: Fresh graph cannot route to HIDDEN nodes: da_lat
+PASS: Every valid fresh destination has a route before optional ferry unlocks: da_lat
+PASS: Production uses approved owner navigation: gyeongju
+PASS: Canonical node IDs/count retained: gyeongju
+PASS: All canonical arrival positions retained: gyeongju
+PASS: Valid connected polyline endpoints and bounds: gyeongju
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: gyeongju
+PASS: Fresh graph cannot route to HIDDEN nodes: gyeongju
+PASS: Every valid fresh destination has a route before optional ferry unlocks: gyeongju
+PASS: Production uses approved owner navigation: hoi_an
+PASS: Canonical node IDs/count retained: hoi_an
+PASS: All canonical arrival positions retained: hoi_an
+PASS: Valid connected polyline endpoints and bounds: hoi_an
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: hoi_an
+PASS: Fresh graph cannot route to HIDDEN nodes: hoi_an
+PASS: Every valid fresh destination has a route before optional ferry unlocks: hoi_an
+PASS: Production uses approved owner navigation: hue
+PASS: Canonical node IDs/count retained: hue
+PASS: All canonical arrival positions retained: hue
+PASS: Valid connected polyline endpoints and bounds: hue
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: hue
+PASS: Fresh graph cannot route to HIDDEN nodes: hue
+PASS: Every valid fresh destination has a route before optional ferry unlocks: hue
+PASS: Production uses approved owner navigation: jeonju
+PASS: Canonical node IDs/count retained: jeonju
+PASS: All canonical arrival positions retained: jeonju
+PASS: Valid connected polyline endpoints and bounds: jeonju
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: jeonju
+PASS: Fresh graph cannot route to HIDDEN nodes: jeonju
+PASS: Every valid fresh destination has a route before optional ferry unlocks: jeonju
+PASS: Production uses approved owner navigation: seoul
+PASS: Canonical node IDs/count retained: seoul
+PASS: All canonical arrival positions retained: seoul
+PASS: Valid connected polyline endpoints and bounds: seoul
+PASS: All mandatory/optional nodes reachable in explicitly unlocked GRAPH FIXTURE: seoul
+PASS: Fresh graph cannot route to HIDDEN nodes: seoul
+PASS: Every valid fresh destination has a route before optional ferry unlocks: seoul
+PASS: Source totals:133 nodes/29 quests/22 story interactions/12 leisure/6 relics/24 fragments
+PASS: Dijkstra prefers three short polylines over two long edges; closed shortcut rejected
+PASS: Open shortcut used forward; one-way direction respected in reverse
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H0 is discovered
+PASS: Lumi reaches H0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Initial real route passes confirmed junction X1
+PASS: Redirect destination is genuinely revealed X1
+PASS: Approaching the ACTUAL confirmed junction before redirect X1
+PASS: Fresh route runtime image X1-approaching
+PASS: Runtime replanned AT confirmed junction and reaches new branch X1
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh route runtime image X1-branch-arrival
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-jeonju
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J16 is discovered
+PASS: Lumi reaches J16 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Initial real route passes confirmed junction X3
+PASS: Redirect destination is genuinely revealed X3
+PASS: Approaching the ACTUAL confirmed junction before redirect X3
+PASS: Fresh route runtime image X3-approaching
+PASS: Runtime replanned AT confirmed junction and reaches new branch X3
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh route runtime image X3-branch-arrival
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-gyeongju
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G0 is discovered
+PASS: Lumi reaches G0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Initial real route passes confirmed junction X4
+PASS: Redirect destination is genuinely revealed X4
+PASS: Approaching the ACTUAL confirmed junction before redirect X4
+PASS: Fresh route runtime image X4-approaching
+PASS: Runtime replanned AT confirmed junction and reaches new branch X4
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh route runtime image X4-branch-arrival
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: Fresh runtime capture written: X-WorldMap-select-da_lat
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Fresh route runtime image City-da_lat
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-gyeongju
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Fresh route runtime image City-gyeongju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Fresh route runtime image City-hoi_an
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hue
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Fresh route runtime image City-hue
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-jeonju
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Fresh route runtime image City-jeonju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: Fresh runtime capture written: X-WorldMap-select-seoul
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Fresh route runtime image City-seoul
+PASS: Mouse wheel zoom still works with event/discovery system
+PASS: Two-finger pinch still zooms the map
+PASS: Dragging still pans actual map content
+PASS: Pinch and pan cannot trigger hidden node events or movement
+PASS: Map clamps extreme pan and maximum zoom
+PASS: Map A keeps its original illustration aspect ratio
+PASS: Persist checkpoint OwnerRoutes-final
+ALL CHECKS PASSED

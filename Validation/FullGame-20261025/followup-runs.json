@@ -1,0 +1,58 @@
+[
+  {
+    "name": "dialogue-correct-fixture",
+    "status": "FAIL",
+    "exit": 1,
+    "assertions": 98,
+    "seconds": 26.33,
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "arguments": [
+      "--dialogue-release-qa",
+      "--node-panel-qa",
+      "--buttons-partial-save=D:\\GAMEKKK\\LightBetweenCultures\\Validation\\ReleaseCandidate-20261024\\shop-partial-hoian.json"
+    ],
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\dialogue-correct-fixture\\dialogue-correct-fixture-results.txt",
+    "failureTail": "ASS: Lumi reaches H2 through the real map input\nPASS: X declines the offered quest without acceptance, proof or reward\nPASS: Explicit quest acceptance has no duplicate promise/Next dialogue\nPASS: The canonical acceptance-item receipt never grants twice on Continue\nPASS: After the actual acceptance receipt, play resumes without another NPC menu to close\nPASS: Accept never hands out the quest item\nPASS: Closing an event or battle returns map input to the player\nPASS: City changes go through the actual World Map\nPASS: Selecting hoi_an only previews its destination until Enter is confirmed\nPASS: Earned world flags enable the hoi_an opening\nPASS: World Map enters the configured hoi_an data in the existing CityMap scene\nPASS: Closing an event or battle returns map input to the player\nPASS: Travel target H10 is discovered\nPASS: Lumi reaches H10 through the real map input\nPASS: Closing an event or battle returns map input to the player\nPASS: Reading the ready food quest then closing X never spends ingredients or grants rewards\nPASS: Only explicit deliver consumes 2 chilli and 1 shallot, preserving canonical reserves\nPASS: Closing an event or battle returns map input to the player\nPASS: Reopening completed NPC cannot duplicate rewards\nPASS: Closing an event or battle returns map input to the player\nPASS: Closing an event or battle returns map input to the player\nPASS: Travel target H3 is discovered\nPASS: Lumi reaches H3 through the real map input\nPASS: The old 1/2 page button is gone; genuine actions are directly listed\nPASS: Every genuine action is present in the scrollable list; no hidden page/branch loss\nNOT_TESTED: overflowing action-list touch drag; genuine actions fit this fixture's viewport\nPASS: Closing an event or battle returns map input to the player\nPASS: Reload preserves earned delivery and reserves after simplified dialogue\nSystem.InvalidOperationException: Sequence contains no matching element\n  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <f1b392d8fe224ca2b1f9fab1000b77eb>:0 \n  at LightBetweenCultures.GameplaySmokeRunner+<NpcButtonsJourney>d__154.MoveNext () [0x00acb] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.NpcStanding.cs:115 \n  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:76 \nFAILED\n"
+  },
+  {
+    "name": "leisure-correct-fixture",
+    "status": "PASS",
+    "exit": 0,
+    "assertions": 313,
+    "seconds": 59.22,
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\leisure12\\Casual-earned-optional-lane.json",
+    "arguments": [
+      "--leisure-visuals"
+    ],
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\leisure-correct-fixture\\leisure-correct-fixture-results.txt",
+    "failureTail": null
+  },
+  {
+    "name": "jeonju-isolated",
+    "status": "PASS",
+    "exit": 0,
+    "assertions": 43,
+    "seconds": 19.14,
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\campaign-vietnam\\gameplay-save.json",
+    "arguments": [
+      "--phase4-city=jeonju",
+      "--phase4-restore-only"
+    ],
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\jeonju-isolated\\jeonju-isolated-results.txt",
+    "failureTail": null
+  },
+  {
+    "name": "campaign-korea-core",
+    "status": "FAIL",
+    "exit": 1,
+    "assertions": 640,
+    "seconds": 143.47,
+    "seed": null,
+    "arguments": [
+      "--phase5-e2e",
+      "--phase4-e2e=KOREA_FIRST"
+    ],
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\campaign-korea-core\\campaign-korea-core-results.txt",
+    "failureTail": "battle returns map input to the player\nPASS: Travel target U15 is discovered\nPASS: Lumi reaches U15 through the real map input\nPASS: Closing an event or battle returns map input to the player\nPASS: Closing an event or battle returns map input to the player\nPASS: Travel target U3 is discovered\nPASS: Lumi reaches U3 through the real map input\nPASS: Closing an event or battle returns map input to the player\nPASS: Dialogue choice relic:fragment_hue_river_jade has a real receipt/next/interact control\nPASS: Source opens a real gesture without auto-grant: fragment_hue_river_jade\nPASS: Confirm without placement cannot claim: fragment_hue_river_jade\nPASS: Wrong drop rejected: fragment_hue_river_jade\nPASS: Actual mouse/touch drop reaches target: fragment_hue_river_jade\nPASS: Wrong orientation rejected: fragment_hue_river_jade\nPASS: Gesture commits distinct proof and ownership: fragment_hue_river_jade\nPASS: Claim ledger idempotent after repeated confirmation: fragment_hue_river_jade\nPASS: Collection never replaces story items or source rewards: fragment_hue_river_jade\nPASS: Closing an event or battle returns map input to the player\nPASS: Travel target U7 is discovered\nPASS: Lumi reaches U7 through the real map input\nPASS: Closing an event or battle returns map input to the player\nPASS: Travel target U17 is discovered\nPASS: Lumi reaches U17 through the real map input\nPASS: Missing item cannot solve original ID: puzzle_archive lost_letter\nPASS: Negative guard checks restore exact earned state: puzzle_archive\nPASS: Real activity opens without granting proof: puzzle_archive\nPASS: Closing an event or battle returns map input to the player\nPASS: Cancel before success preserves items/proofs: puzzle_archive\nPASS: Empty confirmation cannot pay or consume: puzzle_archive\nPASS: Wrong drop rejected: puzzle_archive\nSystem.Exception: FAIL: Touch drag / tap-select places actual piece: puzzle_archive 0\n  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:68 \n  at LightBetweenCultures.GameplaySmokeRunner+<SolveRevisedPuzzle>d__265.MoveNext () [0x005e5] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.StoryLeisure.cs:57 \n  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\\GAMEKKK\\LightBetweenCultures\\Assets\\_Game\\Scripts\\Validation\\GameplaySmokeRunner.cs:76 \nFAILED\n"
+  }
+]

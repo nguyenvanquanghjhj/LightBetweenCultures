@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: b1c38408f24cc5b4a84e45fff7d26a0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2450817640870876552
+    second: Artifact_Gyeongju_StarlightLens_Source_0
+  - first:
+      213: -1199960479146958707
+    second: Artifact_Gyeongju_StarlightLens_Source_1
+  - first:
+      213: 6798603553210022227
+    second: Artifact_Gyeongju_StarlightLens_Source_2
+  - first:
+      213: 946269826609652587
+    second: Artifact_Gyeongju_StarlightLens_Source_3
+  - first:
+      213: -3202682753718918054
+    second: Artifact_Gyeongju_StarlightLens_Source_4
+  - first:
+      213: -6755299844875704211
+    second: Artifact_Gyeongju_StarlightLens_Source_5
+  - first:
+      213: 5170982483221383065
+    second: Artifact_Gyeongju_StarlightLens_Source_6
+  - first:
+      213: -4967813506069036931
+    second: Artifact_Gyeongju_StarlightLens_Source_7
+  - first:
+      213: -9075311699809899959
+    second: Artifact_Gyeongju_StarlightLens_Source_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: relic_gyeongju_star_lens
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 349
+        width: 690
+        height: 905
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -345, y: 452.5}
+        - {x: 345, y: 452.5}
+        - {x: 345, y: -217.5}
+        - {x: 185, y: -247.5}
+        - {x: 185, y: -452.5}
+        - {x: -45, y: -452.5}
+        - {x: -45, y: -247.5}
+        - {x: -345, y: -217.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600f7260016b5d14699bd781a8de15ea
+      internalID: 1877534874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fragment_gyeongju_min_record
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 9
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559242ca6e01d2e4ab22ca4fbb9411dd
+      internalID: -1600110330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fragment_gyeongju_star_stone
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 14
+        width: 275
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c18034ae6350944aa797f7beb56251
+      internalID: -367033317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fragment_gyeongju_statue_reflection
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 9
+        width: 260
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac93a66521e1d94fb90c3f7f374daca
+      internalID: -1667462288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fragment_gyeongju_heritage_ring
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 320
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb9009d3934dda478f5f21955b87b80
+      internalID: -306397913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 327f503e57c055d42aa18080b8c27e95
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fragment_gyeongju_heritage_ring: -306397913
+      fragment_gyeongju_min_record: -1600110330
+      fragment_gyeongju_star_stone: -367033317
+      fragment_gyeongju_statue_reflection: -1667462288
+      relic_gyeongju_star_lens: 1877534874
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

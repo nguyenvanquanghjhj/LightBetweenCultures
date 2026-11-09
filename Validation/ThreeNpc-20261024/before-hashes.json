@@ -1,0 +1,19 @@
+{
+  "Assets/_Game/Resources/Content/GameplayContent.json": "513bd31344d57f153f085fade0054d033b376e7e066dd20dd9f3975830acadda",
+  "Assets/_Game/Resources/Content/SourceCities/gyeongju.json": "6ff96430d2f5fb4c180065e0c90063273bcc2cb1af4bcb62fde92ef6da7fcf9c",
+  "Assets/_Game/Resources/Content/SourceCities/seoul.json": "1f0ee739aefe48d6f64fb43350d7e562cf30e1c47813b775489b83e1a3f9d286",
+  "Assets/_Game/Resources/AdventureUIArt.asset": "379052fb47bc2873135e225b4626c4904d3b0469a09dc9d7a38db1b47ad763b7",
+  "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta": "c8d76e02ee82b4311b239c143f992ee0ad0df761a0a576c1ee25dbd060f5ba67",
+  "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta": "25edd102c65964ef934da4aafa65fd84b9f7f3d902b3784de7c4769a78015668",
+  "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs": "2c001f2ae299691d750573fbb42fc462ebbc61776f7ab9d47494faeb73bb7f10",
+  "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FullStory.cs": "8fd89784cca44b98738734143bc441173d59fd694115bda2c5e734e7767a4f31",
+  "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase4.cs": "76afdac91724dd747a2f5f23fe1b6a3e9533d675f1a8525455221017ef1f06fa",
+  "Docs/Art/NPC_CANONICAL_REGISTRY.json": "22cabec572f39dfcc1fb0979d38eef356bc633e1e4656b584bd701fd44eaf933",
+  "Docs/Art/NPC_CANONICAL_REGISTRY.md": "d947cfb2b0ddb44e208f84252a60a04712325b6b673e576dbfa42f490eab75d6",
+  "Assets/_Game/Scripts/Content/NodeEventManager.cs": "caf1f4ff0b3327a77916eeac0db4619f17f3129641ab79bd95cfd8695bbc4a99",
+  "Assets/_Game/Scripts/Content/ContentDefinitions.cs": "dd149fb96bb72ad6413999676c7ee63e041308fb1b91e20d9f7cb78ee7f5fe68",
+  "Assets/_Game/Scripts/UI/GameplayPanels.cs": "d6b277fb1c4f434ecea97bb661770d350d9ac58df5b7bffec3ec6d003ff25f30",
+  "Assets/_Game/Scripts/UI/PlayerCopy.cs": "de843bd7503481e12cec3d20e6768ead4123ef133d8913e76a66f7c2e0f29d63",
+  "Assets/_Game/Resources/Content/CityNavigation.json": "890ccc4961dbc062a10e34f8982ae5a17e495052084984b5c8c8665ae0b63b2a",
+  "Assets/_Game/Resources/DesignKitArt.asset": "ec1380c8691bb11d42b05d5103677e5c23e066f018bb07a4ea5f052b30d5d393"
+}

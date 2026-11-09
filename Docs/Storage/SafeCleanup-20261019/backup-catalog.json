@@ -1,0 +1,875 @@
+{
+  "backups": [
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointPortraitDialogueStoryAudit-20261017",
+      "bytes": 3446135015,
+      "files": 4458,
+      "manifestExists": true,
+      "type": "FULL_SOURCE_BUILD_WITH_SELECTED_RUNTIME_EVIDENCE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointFullStoryComplete-20261017",
+      "bytes": 2413241750,
+      "files": 3188,
+      "manifestExists": true,
+      "type": "FULL_SOURCE_BUILD_SELECTED_RUNTIME_EVIDENCE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointTerrainRoutes-20261017",
+      "bytes": 2387394498,
+      "files": 3076,
+      "manifestExists": true,
+      "type": "FULL_SOURCE_BUILD_WITH_SELECTED_RUNTIME_EVIDENCE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointCityMapUIPolish-20261017",
+      "bytes": 1935315474,
+      "files": 2542,
+      "manifestExists": true,
+      "type": "FULL_SOURCE_BUILD_WITH_SELECTED_RUNTIME_EVIDENCE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointHueJeonjuGameplay-20261017",
+      "bytes": 1626881399,
+      "files": 2318,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointFullStoryAuthored-20261017",
+      "bytes": 1331924600,
+      "files": 1730,
+      "manifestExists": true,
+      "type": "FULL_SOURCE_BUILD_SELECTED_RUNTIME_EVIDENCE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeCityMapUIPolish-20261017",
+      "bytes": 1196437256,
+      "files": 1579,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointDaLatChapter-20261017",
+      "bytes": 1196437202,
+      "files": 1579,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointCityMapNatural-20261016",
+      "bytes": 948810758,
+      "files": 1401,
+      "manifestExists": true,
+      "type": "UNSPECIFIED",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointCrossCityFood-20261016",
+      "bytes": 752915460,
+      "files": 1285,
+      "manifestExists": true,
+      "type": "UNSPECIFIED",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointArtLibrary-20261016",
+      "bytes": 660306298,
+      "files": 1052,
+      "manifestExists": true,
+      "type": "UNSPECIFIED",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointRenderQuality-20261017",
+      "bytes": 271082971,
+      "files": 452,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointPhase7Final-20261019",
+      "bytes": 196156436,
+      "files": 373,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointMapRoute35-20261018",
+      "bytes": 165040277,
+      "files": 162,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointPhase4Final-20261018",
+      "bytes": 164962631,
+      "files": 336,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointLeisureActivitiesFullReview-20261019",
+      "bytes": 163809730,
+      "files": 258,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointAppliedSixRouteReferences-20261019",
+      "bytes": 149228917,
+      "files": 182,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointCheckInArt-20261018",
+      "bytes": 133363990,
+      "files": 319,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeDaLatChapter-20261017",
+      "bytes": 112494522,
+      "files": 500,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointMapNpcMarkers-20261018",
+      "bytes": 95879585,
+      "files": 181,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointH3VisualUpgrade-20261017",
+      "bytes": 80874948,
+      "files": 160,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeArtLibrary-20261016",
+      "bytes": 79486783,
+      "files": 342,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointLeisureAnimationPilot-20261019",
+      "bytes": 78215417,
+      "files": 126,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHueJeonjuChapters-20261016",
+      "bytes": 73067082,
+      "files": 390,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeCrossCityFood-20261016",
+      "bytes": 72945252,
+      "files": 381,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeCityMapNatural-20261016",
+      "bytes": 72859381,
+      "files": 377,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeSpecialtyItems-20261016",
+      "bytes": 71352875,
+      "files": 334,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeMarkerSprites-20261016",
+      "bytes": 66209360,
+      "files": 316,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeExplorationMarkers-20261016",
+      "bytes": 60803641,
+      "files": 313,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeNodeMarkers-20261016",
+      "bytes": 60769645,
+      "files": 308,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeMapActorsStage1-20261016",
+      "bytes": 58131653,
+      "files": 310,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointUI1ArtDirection-20261016",
+      "bytes": 58064560,
+      "files": 274,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointAdventureUI-20261016",
+      "bytes": 54846046,
+      "files": 268,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointPhase4Seoul-20261018",
+      "bytes": 54801707,
+      "files": 139,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeUI1ArtDirection-20261016",
+      "bytes": 54769512,
+      "files": 264,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointHoiAnLighting-20261018",
+      "bytes": 53071029,
+      "files": 105,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointPhase6VisualAndroid-20261019",
+      "bytes": 50020701,
+      "files": 137,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointHoiAnStateB20-20261018",
+      "bytes": 41671515,
+      "files": 106,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointSixCityRouteEditor-20261019",
+      "bytes": 40738959,
+      "files": 44,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointQualityAddendum-20261017",
+      "bytes": 37980510,
+      "files": 60,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointPhase4Jeonju-20261018",
+      "bytes": 37733082,
+      "files": 100,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointPhase4Gyeongju-20261018",
+      "bytes": 36370229,
+      "files": 72,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointRelicHoiAnPilot-20261018",
+      "bytes": 35638971,
+      "files": 140,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointPhase5Final-20261019",
+      "bytes": 32966383,
+      "files": 304,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointRoutePlayerCorrection-20261019",
+      "bytes": 32906404,
+      "files": 195,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointSixRouteReferenceReview-20261018",
+      "bytes": 30440431,
+      "files": 29,
+      "manifestExists": true,
+      "type": "INCREMENTAL_DOCUMENTATION_ONLY_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointFinalPolishRecovery-20261019",
+      "bytes": 27897693,
+      "files": 77,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointPhase4DaLat-20261018",
+      "bytes": 22058227,
+      "files": 48,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointPhase4Hue-20261018",
+      "bytes": 20742174,
+      "files": 48,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointRelicHoiAnStorySync-20261018",
+      "bytes": 19606192,
+      "files": 64,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointSoftSfx-20261018",
+      "bytes": 19014070,
+      "files": 108,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointWorldReactionsV2-20261017",
+      "bytes": 18635876,
+      "files": 79,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointFourTrackMusic-20261018",
+      "bytes": 13858771,
+      "files": 76,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointGameplayAB-20261016",
+      "bytes": 10379911,
+      "files": 203,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeGameplayAB-20261016",
+      "bytes": 9872086,
+      "files": 200,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\AuditPreflightRouteUX-20261019",
+      "bytes": 9474951,
+      "files": 59,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointSwingStanding-20261019",
+      "bytes": 8500530,
+      "files": 34,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeMilestone01-20261016",
+      "bytes": 6776203,
+      "files": 181,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnMapPhase1-20261015",
+      "bytes": 6715558,
+      "files": 186,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeDesignKit-20261015",
+      "bytes": 5149070,
+      "files": 139,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeAudit-20261015",
+      "bytes": 5011831,
+      "files": 90,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointAndroidAppIcon-20261019",
+      "bytes": 3082335,
+      "files": 29,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointNpcReuse-20261017",
+      "bytes": 3007799,
+      "files": 28,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\Before10Story12Leisure-20261019",
+      "bytes": 2431054,
+      "files": 289,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforePhase6-20261019",
+      "bytes": 2352155,
+      "files": 287,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeCheckInArt-20261018",
+      "bytes": 1681575,
+      "files": 25,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointAndroidApkBuild-20261019",
+      "bytes": 1551977,
+      "files": 27,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeRelicPilot-20261018",
+      "bytes": 1414496,
+      "files": 19,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforePhase5-20261018",
+      "bytes": 1257337,
+      "files": 16,
+      "manifestExists": true,
+      "type": "PRE_EDIT_SCOPED_SNAPSHOT_REQUIRES_BASE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeMapNpcMarkers-20261018",
+      "bytes": 1024392,
+      "files": 14,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeRelicStorySync-20261018",
+      "bytes": 815962,
+      "files": 12,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeAdventureUI-20261016",
+      "bytes": 799149,
+      "files": 129,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeRouteCorrection-20261019",
+      "bytes": 780705,
+      "files": 6,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnStateB20-20261018",
+      "bytes": 761028,
+      "files": 8,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeMapRoute35-20261018",
+      "bytes": 750283,
+      "files": 12,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointGameplayA-20261016",
+      "bytes": 728199,
+      "files": 126,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\LumiRoleSceneUpdates",
+      "bytes": 669904,
+      "files": 2,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeAppliedRouteReferences-20261019",
+      "bytes": 667168,
+      "files": 4,
+      "manifestExists": true,
+      "type": "SCOPED_PRE_EDIT_NOT_STANDALONE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointReleaseReadinessAudit-20261017",
+      "bytes": 448274,
+      "files": 35,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": true,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\DesignKitSceneUpdates",
+      "bytes": 417357,
+      "files": 2,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeCityMapPolish-20261015",
+      "bytes": 416755,
+      "files": 15,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforePhase4Relics-20261018",
+      "bytes": 407577,
+      "files": 15,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeLeisureFullReview-20261019",
+      "bytes": 287106,
+      "files": 17,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeLeisureAnimationPilot-20261019",
+      "bytes": 252538,
+      "files": 9,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeSoftSfx-20261018",
+      "bytes": 234745,
+      "files": 9,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeFinalPolish-20261019",
+      "bytes": 232952,
+      "files": 10,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeSwingStanding-20261019",
+      "bytes": 169387,
+      "files": 6,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\BeforeHoiAnLighting-20261018",
+      "bytes": 145399,
+      "files": 6,
+      "manifestExists": true,
+      "type": "INCREMENTAL_REQUIRES_BASE",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointCityArtControl-20261016",
+      "bytes": 117489,
+      "files": 8,
+      "manifestExists": true,
+      "type": "UNSPECIFIED",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\SceneRebuilds",
+      "bytes": 79574,
+      "files": 1,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointJeonjuChapter-20261017",
+      "bytes": 14091,
+      "files": 3,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointHueChapter-20261017",
+      "bytes": 11139,
+      "files": 3,
+      "manifestExists": false,
+      "type": "NO_ROOT_MANIFEST",
+      "latestRestoreChain": false,
+      "decision": "KEEP_REQUIRES_OWNER_APPROVAL"
+    }
+  ],
+  "latestChainPaths": [
+    "D:\\GAMEKKK\\Backups\\CheckpointAndroidAppIcon-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointSixCityRouteEditor-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointAndroidApkBuild-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointPhase7Final-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointFinalPolishRecovery-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointSwingStanding-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointLeisureActivitiesFullReview-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointLeisureAnimationPilot-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointRoutePlayerCorrection-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointPhase6VisualAndroid-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointAppliedSixRouteReferences-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointPhase5Final-20261019",
+    "D:\\GAMEKKK\\Backups\\CheckpointSixRouteReferenceReview-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointFourTrackMusic-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointSoftSfx-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointMapNpcMarkers-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointHoiAnStateB20-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointPhase4Final-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointPhase4Seoul-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointPhase4Gyeongju-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointPhase4DaLat-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointPhase4Hue-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointPhase4Jeonju-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointHoiAnLighting-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointCheckInArt-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointMapRoute35-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointRelicHoiAnStorySync-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointRelicHoiAnPilot-20261018",
+    "D:\\GAMEKKK\\Backups\\CheckpointWorldReactionsV2-20261017",
+    "D:\\GAMEKKK\\Backups\\CheckpointNpcReuse-20261017",
+    "D:\\GAMEKKK\\Backups\\CheckpointReleaseReadinessAudit-20261017",
+    "D:\\GAMEKKK\\Backups\\CheckpointQualityAddendum-20261017",
+    "D:\\GAMEKKK\\Backups\\CheckpointRenderQuality-20261017",
+    "D:\\GAMEKKK\\Backups\\CheckpointH3VisualUpgrade-20261017",
+    "D:\\GAMEKKK\\Backups\\CheckpointFullStoryComplete-20261017"
+  ],
+  "manifestOverlapEstimate": {
+    "fullSnapshotCount": 5,
+    "duplicateOccurrenceCount": 10258,
+    "duplicateBytes": 7108257022,
+    "method": "Existing manifest SHA256+bytes only; not rehashed, not an authorization or proof of safe whole-checkpoint deletion."
+  }
+}

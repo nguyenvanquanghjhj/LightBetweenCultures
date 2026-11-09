@@ -1,0 +1,18 @@
+{
+  "Assets/_Game/Resources/Content/GameplayContent.json": "d08d9a163d6f2459d0e33b0bdb5e0e214ea046e588e091a124ca484952c2415b",
+  "Assets/_Game/Resources/AdventureUIArt.asset": "35308f19b9c07ccae9323f3eeb91a3fce0494849216fb6ccd6fa8de796092cbe",
+  "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta": "127ab1477139e380529379d684df9cc640d72526b182786219a8651b09e116fb",
+  "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta": "4cbb4518e1c1a37b9ad4c91b27abe65c143b090fa20c0251b9ca72344f237acc",
+  "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs": "7e8f756fdda8b5ca92b4deb5e5bf1a091b97075bd7a25be0e3cd678b02504b0f",
+  "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FullStory.cs": "dead28705317b829e32a80e559bfdbaccc531613158e61ab10bed91cf7c90a11",
+  "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase4.cs": "34acf10e811c9f78b8fa2e13569fafe3611e2852c771b86a6151c560f11552b1",
+  "Docs/Art/NPC_CANONICAL_REGISTRY.json": "687cda56abea7e024d6e71d9cc59e948dbbb156624aa88b07c016a8a75c4dece",
+  "Docs/Art/NPC_CANONICAL_REGISTRY.md": "2f8eddf76a4598579c02bd6da493e4fb6d05590feedada2f97d2c0f946bb7f26",
+  "Assets/_Game/Scripts/Editor/ThreeNpcSetup.cs": "71bfb656c1c691ae7e160a80eacd25b8912437e705e23d1d056b3bcb87275ac3",
+  "Assets/_Game/Scripts/Editor/ThreeNpcSetup.cs.meta": "39f1454587019add516cb0b6062c3206d1e01d5628de3bba16f94ec0cd2e38c7",
+  "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.ThreeNpc.cs": "f410be335677619ea68994379568c3fb918cfaf2297e2d8deb3c9baf1a8a88d1",
+  "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.ThreeNpc.cs.meta": "c393f4feaa233c176589e66eca5ea95c94a9c6b2971f28f4ccba74765cf6553c",
+  "Assets/_Game/Resources/Content/AdventurePresentation.json": "8de10c1e6495f02bf6d4496989fb39f5f50b2b456ad7aded6a7f123c9095979e",
+  "Docs/Art/native-art-bindings.json": "d83eb8c96fcc8d55050e3a867a0c25440f3302a76c6a9323630f623d1c89c57e",
+  "Docs/QA/THREE_NPC_20261024.md": "97d6acb4aeefb7479a228c3e4b2c9c6791c1b319af327099fef4f6c23f2a4682"
+}

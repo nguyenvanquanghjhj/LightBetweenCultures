@@ -1,0 +1,5 @@
+{
+  "apk": "Builds\\Android\\Catventure-20261107.apk",
+  "sha256": "c7a42299820f602652d396adeb48ee760cb19b96921d5c00fca43da942624008",
+  "note": "First build; final Android rebuild includes the presentation changes."
+}

@@ -1,0 +1,122 @@
+{
+  "checked": 849,
+  "changed": [
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "before": "495b55afc9321c49c0df8bcdb76d33a73adc9f0f1e716264c0383d298443f631",
+      "after": "caf1f4ff0b3327a77916eeac0db4619f17f3129641ab79bd95cfd8695bbc4a99",
+      "bytes": 32807
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameBootstrap.cs",
+      "before": "a95c332f0fd5c730561546062e545704934782f217f1fa714d52f3d00eaef7cc",
+      "after": "874dfda02ca266e5e3d5ba5d4b429614130fd23cd5c9a12beaebaa70bd9eaed9",
+      "bytes": 4993
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+      "before": "8f66d1ba5bdeb53934d85e78a6578bd82253f6ee8e62e4234e330324434333cd",
+      "after": "c15ee2d6929a942a9891263fa8f269ae29e98f5db01f756fc648e18d92c89f45",
+      "bytes": 38895
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs",
+      "before": "4c55d1f975b967463fb3a50347b6f4adf12be9d20c2d56bb151cc6e86a5d1491",
+      "after": "885da6298590cb9ad0e0696f84d20ae2902048f3532776041cef3c0636653807",
+      "bytes": 3607
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapNodeHitTarget.cs",
+      "before": "b599078714bcbf99ae650b7588d0c52b57f70b91170557388fcb99396466ba11",
+      "after": "cd8d3704ac5fe870c576c0ddb15da4ccd121278ac0db8f6e3b684334430e1bf6",
+      "bytes": 728
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapPanZoom.cs",
+      "before": "97d27853ef72a55e3e7fb41b5d7707c56e56c4614d24405dbd4eba0f979865e4",
+      "after": "35e0281f7dc34b869f7622285809980eaca553574c8426d534863820aaaaf11e",
+      "bytes": 8818
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/NodeMarkerView.cs",
+      "before": "e24795824f6c5ec0a9414df1304b7d23afebbcfa7d3220dd7a184955460da819",
+      "after": "46d070322cc4d42af03995ce1b0bac04bacb14a7865300acf6c6e7fcfbb559fd",
+      "bytes": 11527
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.LeisureInput.cs",
+      "before": "7f06ff59162bc29eb336773cd97a5768fac9f88a7429a77f854ccc3b35ffc2d9",
+      "after": "86337a5345c41e8945bc0fdb0155718331096e0dba4db1366fd4443c977e2cd9",
+      "bytes": 8833
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+      "before": "94abfcbc5ea3a5ae77f3d3f18999c8eb80516e53d64e877708fc07124df5b19b",
+      "after": "d6ad4fc5514d04df1d38126e01e9841e828652c82dbeb34b2bcdbe0ae79c377c",
+      "bytes": 19222
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.StoryActivities.cs",
+      "before": "e8fb42c7eb70e3783915e10007fac35a4fcf5df32d576ee21f9a3392eaa7cbc4",
+      "after": "e1241d9f4e776b50034c85253740eacfdd061b69e0ea8703c263feb1e3e8090e",
+      "bytes": 12709
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "before": "4fce820bf1a61b24b32fe3c76fb8b3d41c091dc8bb5255439785fcf4edfc0d69",
+      "after": "8863909e8d33a90116fe6d89d8783e7ed9929e5639426740ffaf9cf625aad819",
+      "bytes": 37776
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PlayerCopy.cs",
+      "before": "964cf581ae764c822168bea75e2c4d694038eafb8ed68ac7263874dbf5cd525f",
+      "after": "682aa87d44f2ed22850707c388ad3ff96e395fe435c7843f1f88947c92184bd0",
+      "bytes": 16051
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicDragHandle.cs",
+      "before": "25a2ec0fa5bfe06dbf4c5450cd23030c3c3eec0ca06fc29932821825631d9230",
+      "after": "8686ba04667cdfcb8f9c821d734870e97971e7f098cb7e4c3faf6140656bbf82",
+      "bytes": 2107
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicSurveySurface.cs",
+      "before": "7768b073725a8ae2538b3fc750dc9964eac691f8b8818459ee533966eda9e545",
+      "after": "55730bfc8c4e686356f5db20612bf11524fa2b909ad3d68833ec8af9963bdb09",
+      "bytes": 1108
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudio.Settings.cs",
+      "before": "8a8d520adaaac45d2994b396cc8a5e1e84495896763cee39f48a5524d20105f1",
+      "after": "65e2a27b9a2e355db6d57b49d2c70cd924433f935d7a5903995efa58a1c153de",
+      "bytes": 2867
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIController.cs",
+      "before": "86f329922b9574573c710072a7bbb03527dc770413595b867d83699781046401",
+      "after": "fd9a138f0037f5835f909bbba91fe95e34648b9b814c1a4ea714a555310d663f",
+      "bytes": 6018
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.OwnerConfusion.cs",
+      "before": "9d95d497a1e0c7ec1adbab45d3b9f6124cc4bf4a85c8726896dfe0e2fbd10a45",
+      "after": "e52a4152036a260a549342454fef06126f63a1baf7424be1de515d0a7a9ede56",
+      "bytes": 17519
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "before": "405da213a0b63144170b20dff651fe5cdb56479aac87ec54e299d7536b16bfe8",
+      "after": "9582eb7fc1d8d1faff4000b4512b6daa7388a00faa57b7b78511c6067c14b835",
+      "bytes": 118477
+    }
+  ],
+  "missing": [],
+  "added": [
+    "Assets/_Game/Scripts/UI/FramePacing.cs",
+    "Assets/_Game/Scripts/UI/FramePacing.cs.meta",
+    "Assets/_Game/Scripts/UI/TouchInputPolicy.cs",
+    "Assets/_Game/Scripts/UI/TouchInputPolicy.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.AndroidTouch.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.AndroidTouch.cs.meta"
+  ]
+}

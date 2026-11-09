@@ -1,0 +1,138 @@
+using System;
+using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+namespace LightBetweenCultures
+{
+    public sealed partial class GameplayPanels
+    {
+        RectTransform ActivitySheet(string name,string title,string subtitle)
+        {
+            Clear();overlay=ui.Panel(ui.Root,"GameplayOverlay",Vector2.zero,Vector2.one,new Color(.02f,.06f,.10f,.65f));
+            var sheet=MobileUI.Frame(ui,overlay,name,new Vector2(.035f,.05f),new Vector2(.965f,.94f),AdventureUIArt.Load().window,2.8f);
+            ui.Label(sheet,"ActivityTitle",title,new Vector2(.07f,.90f),new Vector2(.93f,.98f),24).color=DesignKitArt.Ink;
+            var note=ui.Label(sheet,"ActivityInstructions",subtitle,new Vector2(.07f,.78f),new Vector2(.93f,.90f),17);note.color=DesignKitArt.Teal;
+            MobileUI.Button(ui,sheet,"ActivityClose","Trở lại hành trình",new Vector2(.07f,.025f),new Vector2(.93f,.095f),()=>{game.Puzzles.Cancel();Close();},illustrated:true);
+            return sheet;
+        }
+        Sprite ActivitySprite(string id)=>AdventureUIArt.Load().Item(id)?.sprite??AdventureUIArt.Load().Fragment(id)??AdventureUIArt.Load().window;
+        static readonly System.Collections.Generic.Dictionary<int,Sprite> letterParts=new System.Collections.Generic.Dictionary<int,Sprite>();
+        Sprite ActivityPieceSprite(StoryInteractionDefinition definition,int index)
+        {
+            var source=ActivitySprite(definition.itemIds[index]);
+            if(definition.scene!="letter"||source.packed)return source;
+            if(!letterParts.TryGetValue(index,out var part))
+            {var r=source.rect;var w=Mathf.Floor(r.width/3);r.x+=w*index;r.width=index==2?source.rect.width-2*w:w;part=Sprite.Create(source.texture,r,new Vector2(.5f,.5f),source.pixelsPerUnit);letterParts[index]=part;}
+            return part;
+        }
+        void ShowStoryActivity(int node)
+        {
+            var puzzle=game.Puzzles;var a=puzzle.Activity;var definition=puzzle.Presentation;
+            if(a==null||definition==null){ShowEvent(node);return;}
+            var easyPlacement=a.EasyPlacement;
+            var needsRotation=definition.targetTurns.Any(t=>t!=0);
+            var sheet=ActivitySheet("StoryActivityPanel",definition.title,definition.introText+" Thử sai không mất đồ.");
+            ContextHelp(sheet,"story",StoryHelp(definition));
+            var board=ui.Panel(sheet,"StoryActivityBoard",new Vector2(.06f,.30f),new Vector2(.94f,.77f),new Color(.08f,.22f,.25f,1));MobileUI.Round(board);
+            var scenic=definition.scene=="mist"||definition.scene=="tower"||definition.scene=="observatory";
+            if(scenic)
+            {
+                ui.Label(board,"ActivityLandscape",definition.scene=="mist"?"Ba trụ trong sương":definition.scene=="tower"?"Thấu kính trên tháp":"Vòng trời ba vì sao",new Vector2(.06f,.84f),new Vector2(.94f,.98f),19).color=DesignKitArt.Cream;
+                for(var k=0;k<3;k++){var at=new Vector2(.18f+k*.31f,.48f);var post=ui.Panel(board,"LightPost"+k,at,at,new Color(.5f,.72f,.73f,.5f));post.sizeDelta=new Vector2(14,100);post.GetComponent<Image>().raycastTarget=false;}
+            }
+            else
+            {
+                var work=ui.Panel(board,"WorkSurface",new Vector2(.51f,.25f),new Vector2(.98f,.84f),new Color(.83f,.75f,.53f,.18f));MobileUI.Round(work);work.GetComponent<Image>().raycastTarget=false;
+                ui.Label(board,"WorkCaption",definition.scene=="letter"?"Ghép ba mép thư":definition.scene=="seal"?"Văn khắc trên đá":definition.scene=="circuit"?"Ba khe dẫn mạch":definition.scene=="permit"?"Hai dấu trên giấy thông hành":"Khuôn hoa văn",new Vector2(.04f,.01f),new Vector2(.96f,.12f),17).color=DesignKitArt.Cream;
+            }
+            var feedback=ui.Label(sheet,"ActivityFeedback","Quan sát nét mẫu trước khi thao tác.",new Vector2(.07f,.105f),new Vector2(.93f,.19f),17);feedback.color=DesignKitArt.Teal;
+            var selected=-1;var pieces=new Image[a.placed.Length];var ghosts=new Image[a.placed.Length];var dialVisuals=new RectTransform[a.dials.Length];
+            Action refresh=()=>
+            {
+                for(var i=0;i<pieces.Length;i++)if(pieces[i]!=null)
+                {
+                    pieces[i].rectTransform.localEulerAngles=new Vector3(0,0,-90*a.turns[i]);pieces[i].color=a.placed[i]&&a.turns[i]==definition.targetTurns[i]?new Color(1,.94f,.68f):Color.white;
+                    if(a.placed[i])
+                    {pieces[i].GetComponent<RelicDragHandle>().LockToTarget();pieces[i].GetComponent<TouchButton>().interactable=false;ghosts[i].transform.parent.GetComponent<TouchButton>().interactable=false;}
+                }
+                for(var i=0;i<dialVisuals.Length;i++)if(dialVisuals[i]!=null)dialVisuals[i].localEulerAngles=new Vector3(0,0,-90*a.dials[i]);
+                for(var i=0;i<a.dials.Length;i++){var beam=board.Find("Beam"+i);if(beam!=null)beam.GetComponent<Image>().color=a.dials[i]==definition.dialTargets[i]?new Color(1,.84f,.35f,.9f):new Color(.55f,.73f,.73f,.16f);}
+                feedback.text=a.Ready?"Đã khớp mẫu. Chọn Hoàn tất để ghi lại kết quả.":a.Prepared&&!string.IsNullOrEmpty(definition.gesture)?definition.gesture=="hold"?a.progress>0?"Đang in dấu · "+Mathf.RoundToInt(a.progress*100)+"% · Tiếp tục giữ.":"Giữ nút in dấu để hoàn thiện mẫu.":"Kéo thanh theo nếp gấp / vệt mực sáng.":"Kéo gần hình mờ để ghép, hoặc chọn mảnh rồi chạm ô."+(needsRotation?" Xoay để khớp hướng.":"");
+                if(easyPlacement&&!a.Ready&&!a.Prepared)
+                    feedback.text=a.placed.All(p=>p)?"Đã ghép hai dấu. Chạm hai nút Quan sát nét mẫu, rồi giữ để in dấu.":"Kéo mỗi dấu gần ô có cùng hình để tự ghép và khóa lại.";
+            };
+            for(var i=0;i<a.inspected.Length;i++)
+            {
+                var index=i;var b=MobileUI.Button(ui,board,"MicroInspect"+i,i==0?"Quan sát nét sen":"Quan sát nét đèn",new Vector2(.04f+i*.48f,.87f),new Vector2(.48f+i*.48f,.99f),()=>{a.Inspect(index);refresh();},illustrated:true);MobileUI.Cue(b,AdventureSymbol.Check);
+            }
+            for(var i=0;i<pieces.Length;i++)
+            {
+                var index=i;var start=new Vector2(.17f+(i%2)*.25f,i<2?.74f:.39f);var end=new Vector2(.66f+(i%2)*.23f,i<2?.74f:.39f);
+                var sprite=ActivityPieceSprite(definition,i);
+                var slot=ui.Picture(board,"MicroTarget"+i,AdventureUIArt.Load().slot,end,end);slot.rectTransform.sizeDelta=new Vector2(76,88);slot.raycastTarget=true;
+                ghosts[i]=ui.Picture(slot.transform,"Guide",sprite,new Vector2(.08f,.08f),new Vector2(.92f,.92f));ghosts[i].useSpriteMesh=true;ghosts[i].color=new Color(1,1,1,.26f);ghosts[i].rectTransform.localEulerAngles=new Vector3(0,0,-90*definition.targetTurns[i]);
+                pieces[i]=ui.Picture(board,"MicroPiece"+i,sprite,start,start);pieces[i].useSpriteMesh=true;pieces[i].rectTransform.sizeDelta=new Vector2(68,78);pieces[i].raycastTarget=true;
+                var piece=pieces[i];var tap=piece.gameObject.AddComponent<TouchButton>();tap.targetGraphic=piece;tap.onClick.AddListener(()=>{selected=index;feedback.text="Đã chọn mảnh "+(index+1)+". Chạm ô có cùng hình.";});
+                if(definition.scene=="permit")
+                {var symbol=i==0?AdventureSymbol.Aura:AdventureSymbol.Motion;MobileUI.Symbol(piece.transform,"StampPattern",symbol,new Vector2(.16f,.16f),new Vector2(.84f,.84f),DesignKitArt.Teal);MobileUI.Symbol(slot.transform,"PatternGhost",symbol,new Vector2(.16f,.16f),new Vector2(.84f,.84f),new Color(1,.9f,.5f,.4f));}
+                var target=slot.gameObject.AddComponent<TouchButton>();target.targetGraphic=slot;
+                target.onClick.AddListener(()=>
+                {
+                    if(selected==index&&a.Drop(index,Vector2.zero)){piece.rectTransform.position=slot.rectTransform.position;SoftAudio.Cue(SoftCue.Relic_Place);refresh();}
+                    else {feedback.text="Chọn đúng mảnh và xem hình mờ trước nhé.";SoftAudio.Cue(SoftCue.UI_Invalid);}
+                });
+                var drag=piece.gameObject.AddComponent<RelicDragHandle>();drag.target=slot.rectTransform;drag.submit=error=>a.Drop(index,error);drag.feedback=ok=>{refresh();if(!ok)feedback.text=!a.inspected.All(p=>p)?"Chạm Quan sát nét mẫu trước, rồi ghép vào ô tương ứng.":"Mảnh chưa vào ô tương ứng. Hãy thử lại, không mất vật phẩm.";};
+                drag.forgivingSnap=true;drag.placed=()=>a.placed[index];
+                if(needsRotation)MobileUI.Button(ui,board,"MicroRotate"+i,"Xoay",new Vector2(start.x-.07f,start.y-.19f),new Vector2(start.x+.07f,start.y-.065f),()=>{a.Rotate(index);refresh();},illustrated:true);
+                ui.Label(slot.transform,"ShapeNumber",(index+1).ToString(),new Vector2(0,-.25f),new Vector2(1,0),14).color=DesignKitArt.Gold;
+            }
+            for(var i=0;i<a.dials.Length;i++)
+            {
+                var index=i;var x=.18f+i*.31f;
+                var y=pieces.Length==0?.43f:.10f;
+                var beam=ui.Panel(board,"Beam"+i,new Vector2(x,.45f),new Vector2(Mathf.Min(x+.30f,.96f),.46f),new Color(1,.84f,.35f,.16f));beam.GetComponent<Image>().raycastTarget=false;
+                var guide=ui.Picture(board,"DialGuide"+i,AdventureUIArt.Load().Marker("Ground"),new Vector2(x-.12f,y-.09f),new Vector2(x+.12f,y+.09f));guide.color=new Color(1,.87f,.48f,.4f);guide.rectTransform.localEulerAngles=new Vector3(0,0,-90*definition.dialTargets[i]);
+                ui.Label(guide.transform,"Aim","↑",Vector2.zero,Vector2.one,36).color=DesignKitArt.Gold;
+                var dial=MobileUI.Button(ui,board,"MicroDial"+i,"↑",new Vector2(x-.07f,y-.065f),new Vector2(x+.07f,y+.065f),()=>{a.Dial(index);refresh();},illustrated:true);dialVisuals[i]=dial.transform.Find("Label").GetComponent<RectTransform>();
+            }
+            if(!string.IsNullOrEmpty(definition.gesture))
+            {
+                if(definition.gesture=="hold")
+                {
+                    var stamp=MobileUI.Button(ui,sheet,"MicroHold","Giữ để in dấu",new Vector2(.08f,.21f),new Vector2(.46f,.285f),()=>{},illustrated:true);
+                    var hold=stamp.gameObject.AddComponent<ActivityHoldGesture>();hold.accepts=()=>a.Prepared;hold.changed=value=>{a.Gesture(value);refresh();};
+                }
+                else
+                {
+                    var slider=ui.Panel(sheet,"MicroSwipe",new Vector2(.08f,.215f),new Vector2(.46f,.275f),DesignKitArt.Teal).gameObject.AddComponent<TouchSlider>();
+                    var handle=ui.Panel(slider.transform,"Handle",Vector2.zero,Vector2.one,DesignKitArt.Gold);handle.sizeDelta=new Vector2(52,0);slider.handleRect=handle;slider.targetGraphic=handle.GetComponent<Image>();slider.direction=Slider.Direction.LeftToRight;
+                    slider.onValueChanged.AddListener(v=>{if(!a.Gesture(v))slider.SetValueWithoutNotify(0);refresh();});
+                    ui.Label(slider.transform,"SwipeLabel",definition.gesture=="fold"?"→ Gấp theo vạch":"→ Lướt hiện mực",new Vector2(0,1),new Vector2(1,1.6f),13);
+                }
+            }
+            MobileUI.Button(ui,sheet,"MicroConfirm","Hoàn tất",new Vector2(.51f,.21f),new Vector2(.92f,.285f),()=>
+            {
+                if(!puzzle.CompleteActivity()){feedback.text="Chưa khớp đủ mẫu hoặc thao tác. Hãy quan sát và thử lại.";SoftAudio.Cue(SoftCue.UI_Invalid);return;}
+                SoftAudio.Cue(SoftCue.Puzzle_Success);
+                changed?.Invoke();var done=ActivitySheet("StoryActivityResult",definition.title,"Đã ghi lại kết quả");
+                var text=definition.successText;
+                if(puzzle.Definition.rewardCoins>0)text+="\n"+puzzle.Definition.rewardCoins+" xu";
+                foreach(var item in puzzle.Definition.rewardItems??Array.Empty<ItemAmount>())text+="\n"+(game.Content.Item(item.itemId)?.name??item.itemId)+" × "+item.amount;
+                ui.Label(done,"StoryActivitySuccess",text,new Vector2(.10f,.32f),new Vector2(.90f,.77f),23).color=DesignKitArt.Ink;
+                ui.Picture(done,"StoryLumi",art.lumiPortrait,new Vector2(.12f,.15f),new Vector2(.38f,.36f));
+                MobileUI.Button(ui,done,"StoryNextGoal","Xem việc tiếp theo",new Vector2(.43f,.14f),new Vector2(.92f,.23f),()=>ShowGuidance(),true,true);
+            },true,true);
+            refresh();
+        }
+    }
+    public sealed class ActivityHoldGesture:MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IPointerExitHandler
+    {
+        public Func<bool> accepts;public Action<float> changed;bool pressed;float progress;int owner;uint epoch;
+        public void OnPointerDown(PointerEventData e){TouchInputPolicy.Sample();if(pressed||e.button!=PointerEventData.InputButton.Left||TouchInputPolicy.ActiveTouches>1)return;pressed=accepts?.Invoke()==true;owner=e.pointerId;epoch=TouchInputPolicy.GestureEpoch;progress=0;}
+        public void OnPointerUp(PointerEventData e){if(e.pointerId==owner)pressed=false;}
+        public void OnPointerExit(PointerEventData e){if(e.pointerId==owner)pressed=false;}
+        void OnDisable(){pressed=false;}
+        void Update(){if(!pressed||accepts?.Invoke()!=true)return;TouchInputPolicy.Sample();if(epoch!=TouchInputPolicy.GestureEpoch){pressed=false;return;}progress=Mathf.Clamp01(progress+Time.unscaledDeltaTime/1.2f);changed?.Invoke(progress);if(progress>=1)pressed=false;}
+    }
+}

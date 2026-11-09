@@ -1,0 +1,14 @@
+{
+    "pid":  30548,
+    "exitCode":  0,
+    "framebuffer":  [
+                        432,
+                        768
+                    ],
+    "existingSavePresent":  true,
+    "saveLogicalStatePreserved":  true,
+    "errors":  [
+
+               ],
+    "visualCapture":  "NOT_VERIFIED_OCCLUDED_CAPTURE_EXCLUDED"
+}

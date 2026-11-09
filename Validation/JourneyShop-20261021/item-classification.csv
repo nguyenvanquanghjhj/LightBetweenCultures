@@ -1,0 +1,39 @@
+﻿ItemID,Name,Group,Price,StackLimit,Reason,RequiredBy
+lamp_eye,Mắt Đèn Hội An,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",HQ01
+hanji_core,Lõi Giấy Sáng,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",HQ01
+link_key,Chìa Kết Nối,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",HQ01
+copper_wire,Dây Đồng,A_VIA_BAIT,,99,"HQ02 also requires crab_resolved; selling a wire alone would be a misleading purchase. Buy the one-coin bait, then use the existing peaceful crab interaction to earn wire and canonical proof.",HQ02
+lantern_stamp,Dấu Ấn Đèn Lồng,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+river_pass,Thẻ Qua Sông,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",UQ03
+royal_herb,Thảo Dược Bờ Bắc,A,2,1,Ordinary supply; original delivery/interaction still required,UQ02
+lost_letter,Kiện Thư Niêm Phong,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",UQ01
+ancient_seal,Ấn Tín Cổ,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply","UQ04,GQ02,SQ01"
+astral_script,Chữ Sao Cổ,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+lan_glasses,Kính Của Lan,A,3,1,Ordinary supply; original delivery/interaction still required,
+meat_portion,Phần Thức Ăn,A,1,99,Ordinary supply; original delivery/interaction still required,DQ02
+fog_battery,Pin Sương Mù,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+blue_water_signal,Tín Hiệu Nước Xanh,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply","DQ03,SQ01"
+night_flower,Hoa Đêm,A,2,1,Ordinary supply; original delivery/interaction still required,DQ04
+hanji_pattern_1,Hoa Văn Hanji 1,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",JQ01
+hanji_pattern_2,Hoa Văn Hanji 2,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",JQ01
+hanji_pattern_3,Hoa Văn Hanji 3,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",JQ01
+missing_parcel,Kiện Hàng Thương Nhân,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",JQ02
+hanji_circuit,Mạch Đèn Hanji,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply","JQ03,SQ01"
+reply_letter,Thư Hồi Âm,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply","HQ03,JQ04"
+star_symbol_1,Dấu Sao Lăng Mộ,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+star_symbol_2,Dấu Sao Đường Gò,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+star_symbol_3,Dấu Sao Đồi Cao,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+silla_prism,Lăng Kính Silla,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",GQ03
+stargazer_lens,Ống Kính Thiên Văn,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",SQ02
+relay_a,Mã Trạm A,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+relay_b,Mã Trạm B,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+relay_c,Mã Trạm C,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+healing_tea,Trà Hồi Phục,A,2,99,Ordinary supply; original delivery/interaction still required,
+coin,Xu,C,,99,Currency itself,HQ04
+hoi_an_fresh_chili,Ớt Hội An,A,1,20,Ordinary supply; original delivery/interaction still required,"HQ05,HA_FOOD_PREP"
+hoi_an_purple_shallot,Hành tím Hội An,A,1,20,Ordinary supply; original delivery/interaction still required,"HQ06,HA_FOOD_PREP"
+jeonju_recipe_card,Thẻ món ăn Jeonju,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+hue_market_note,Giấy nhắn chợ Huế,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+festival_friendship_postcard,Bưu thiếp chợ giao lưu,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+hoi_an_bridge_postcard,Bưu thiếp cầu cổ Hội An,C,,1,"Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+da_lat_strawberry,Dâu tây Đà Lạt,A,2,1,Ordinary supply; original delivery/interaction still required,DQ05

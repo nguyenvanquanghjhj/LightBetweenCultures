@@ -1,0 +1,128 @@
+{
+  "canonicalNodes": 133,
+  "onlyAcceptedActorOffsetsChanged": true,
+  "protectedAssetsPackagesSettingsExactAgainstDailyBaseline": true,
+  "sourceChanges": [
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.NpcPlacement.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.NpcPlacement.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.PcGameplay.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.StoryLeisure.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs"
+  ],
+  "otherQaFilesChangedDuringAuditNotEditedByThisTask": [
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.PcGameplay.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.StoryLeisure.cs"
+  ],
+  "acceptedChanges": [
+    {
+      "node": "D2",
+      "npc": "npc_lan",
+      "before": [
+        22.0,
+        8.0
+      ],
+      "after": [
+        28,
+        32
+      ],
+      "delta": [
+        6.0,
+        24.0
+      ]
+    },
+    {
+      "node": "D3",
+      "npc": "npc_thuy",
+      "before": [
+        22.0,
+        8.0
+      ],
+      "after": [
+        -12,
+        30
+      ],
+      "delta": [
+        -34.0,
+        22.0
+      ]
+    },
+    {
+      "node": "D13",
+      "npc": "npc_gardener",
+      "before": [
+        22.0,
+        8.0
+      ],
+      "after": [
+        22,
+        -5
+      ],
+      "delta": [
+        0.0,
+        -13.0
+      ]
+    },
+    {
+      "node": "J5",
+      "npc": "npc_park",
+      "before": [
+        22.0,
+        8.0
+      ],
+      "after": [
+        22,
+        -8
+      ],
+      "delta": [
+        0.0,
+        -16.0
+      ]
+    },
+    {
+      "node": "G3",
+      "npc": "npc_min",
+      "before": [
+        22.0,
+        8.0
+      ],
+      "after": [
+        52,
+        25
+      ],
+      "delta": [
+        30.0,
+        17.0
+      ]
+    },
+    {
+      "node": "S12",
+      "npc": "npc_han_doyun",
+      "before": [
+        -24.0,
+        5.0
+      ],
+      "after": [
+        -24,
+        40
+      ],
+      "delta": [
+        0.0,
+        35.0
+      ]
+    }
+  ],
+  "pendingVisualNodes": {
+    "U2": "Chân trên mái nhà thuốc; nền đứng phù hợp cách xa, chưa có chỉnh nhỏ được xác nhận.",
+    "U7": "Chân sát cây và prop ngai; chưa tìm được offset nhỏ đồng thời tránh vật trang trí và Lumi.",
+    "D4": "Chân sát bồn hoa; chỉnh thử che NPC bởi Lumi, đã hoàn nguyên.",
+    "D10": "Chân trên tán cây; chỉnh thử vẫn chưa đưa đủ chân ra nền, đã hoàn nguyên.",
+    "G16": "Chân trên cây/mái bên đền; chỉnh thử bị hệ thống tiếp cận chặn, đã hoàn nguyên.",
+    "G21": "Chân ở bụi hoa; chỉnh thử vẫn nằm trong mảng cây/bồn hoa, đã hoàn nguyên."
+  },
+  "allRuntimeRows": 29,
+  "acceptedInteractionPass": 6,
+  "globalRuntimeAcceptance": "PARTIAL",
+  "qaBuild": "Windows-NpcPlacementQA-20261025 contains rejected trials; diagnostic only, not a final release",
+  "bell": "Original masks restored after trial showed detached rope pixels. Unresolved."
+}

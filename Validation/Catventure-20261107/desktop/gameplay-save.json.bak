@@ -1,0 +1,122 @@
+{
+    "version": 2,
+    "cityId": "hoi_an",
+    "node": 11,
+    "previousNode": 1,
+    "visited": [
+        0,
+        1,
+        11
+    ],
+    "accepted": [],
+    "completed": [],
+    "items": [],
+    "collected": [],
+    "flags": [],
+    "resolvedEvents": [],
+    "defeatedEnemies": [],
+    "solvedPuzzles": [],
+    "choices": [],
+    "rewardGrantIds": [
+        "catrescue.reward.cat_hoi_an"
+    ],
+    "leisureCompleted": [],
+    "catRescues": [
+        {
+            "cityId": "hoi_an",
+            "started": true,
+            "rescued": true,
+            "completed": [
+                "hoi_an_lantern",
+                "hoi_an_bridge",
+                "hoi_an_food",
+                "hoi_an_river"
+            ],
+            "supplies": [
+                "hoi_an_basket",
+                "hoi_an_lantern",
+                "hoi_an_rope"
+            ],
+            "challenges": [
+                {
+                    "challengeId": "hoi_an_lantern",
+                    "marks": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "hoi_an_bridge",
+                    "marks": [
+                        1
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "hoi_an_food",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": []
+                },
+                {
+                    "challengeId": "hoi_an_river",
+                    "marks": [
+                        2
+                    ],
+                    "path": []
+                }
+            ]
+        }
+    ],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 11,
+            "stage": 0,
+            "visited": [
+                0,
+                1,
+                11
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "jeonju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 3,
+    "coins": 8
+}

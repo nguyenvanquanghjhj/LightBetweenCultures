@@ -1,0 +1,15 @@
+{
+  "status": "PASS_DOCS_METADATA_ONLY",
+  "identities": 27,
+  "canonicalVisuals": 8,
+  "boundNpcSprites": 20,
+  "independentSpriteReferences": true,
+  "assetPackageSettingHashesUnchanged": 493,
+  "fourUserConfirmedNpcCanonical": true,
+  "newFaceDoesNotInheritApprovalById": true,
+  "jiwonFaceStillUnassigned": true,
+  "runtimeRebuilt": false,
+  "newRasterAssets": 0,
+  "allExportedReferencesPreserved": 332,
+  "merchantIdentitySharedAcrossHoiAnDaLat": true
+}

@@ -1,0 +1,186 @@
+PASS: Unchanged schemaVersion
+PASS: Unchanged source
+PASS: Unchanged cities
+PASS: Unchanged items
+PASS: Unchanged enemies
+PASS: Unchanged quests
+PASS: Unchanged puzzles
+PASS: Unchanged resonances
+PASS: Unchanged checkIns
+PASS: Other event da_lat:intro
+PASS: Other event da_lat:square
+PASS: Other event da_lat:npc_lan
+PASS: Other event da_lat:npc_thuy
+PASS: Other event da_lat:npc_market
+PASS: Other event da_lat:pine_path
+PASS: Other event da_lat:enemy_mist_wolf
+PASS: Other event da_lat:enemy_glass_thief
+PASS: Other event da_lat:puzzle_mist
+PASS: Other event da_lat:loot_mountain
+PASS: Other event da_lat:npc_hungry_dog
+PASS: Other event da_lat:loot_meat_garden
+PASS: Other event da_lat:puzzle_windmill
+PASS: Other event da_lat:npc_gardener
+PASS: Other event da_lat:restore_dalat
+PASS: Other event da_lat:enemy_fog_boss
+PASS: Other event da_lat:loot_waterfall
+PASS: Other event da_lat:secret_lookout
+PASS: Other event da_lat:npc_innkeeper
+PASS: Other event da_lat:secret_night_bloom
+PASS: Other event da_lat:lake_bridge
+PASS: Other event da_lat:portal_seoul
+PASS: Other event gyeongju:intro
+PASS: Other event gyeongju:north_bridge
+PASS: Other event gyeongju:puzzle_pond
+PASS: Other event gyeongju:npc_min
+PASS: Other event gyeongju:puzzle_observatory
+PASS: Other event gyeongju:loot_tomb_west
+PASS: Other event gyeongju:enemy_fox
+PASS: Other event gyeongju:enemy_stone_guard
+PASS: Other event gyeongju:stone_path
+PASS: Other event gyeongju:npc_keeper
+PASS: Other event gyeongju:loot_hill
+PASS: Other event gyeongju:stone_garden
+PASS: Other event gyeongju:puzzle_cracked_seal
+PASS: Other event gyeongju:enemy_night_guard
+PASS: Other event gyeongju:npc_inscription
+PASS: Other event gyeongju:puzzle_temple
+PASS: Same reward, IDs, guards G16
+PASS: Readable short UTF-8 dialogue G16
+PASS: Other event gyeongju:puzzle_lantern_west
+PASS: Other event gyeongju:enemy_star_core
+PASS: Other event gyeongju:restore_gyeongju
+PASS: Other event gyeongju:portal_seoul
+PASS: Same reward, IDs, guards G21
+PASS: Readable short UTF-8 dialogue G21
+PASS: Other event hoi_an:intro
+PASS: Other event hoi_an:street_intro
+PASS: Other event hoi_an:npc_mai
+PASS: Other event hoi_an:scene_roof_alley
+PASS: Other event hoi_an:puzzle_market
+PASS: Other event hoi_an:enemy_mo01
+PASS: Other event hoi_an:bridge_story
+PASS: Other event hoi_an:restore_lantern
+PASS: Other event hoi_an:portal_jeonju
+PASS: Other event hoi_an:chest_secret
+PASS: Other event hoi_an:npc_ba_tu
+PASS: Other event hoi_an:loot_crate
+PASS: Other event hoi_an:enemy_crab
+PASS: Other event hoi_an:puzzle_paper
+PASS: Other event hoi_an:npc_phuc
+PASS: Other event hoi_an:enemy_ghost
+PASS: Other event hoi_an:dock_central
+PASS: Other event hoi_an:npc_boatman
+PASS: Other event hoi_an:npc_guest
+PASS: Other event hoi_an:puzzle_pottery
+PASS: Other event hoi_an:portal_hue
+PASS: Other event hoi_an:loot_attic
+PASS: Other event hue:intro
+PASS: Other event hue:npc_merchant
+PASS: Other event hue:npc_nguyet
+PASS: Other event hue:npc_ferryman
+PASS: Other event hue:bridge_entry
+PASS: Other event hue:enemy_gate_guard
+PASS: Other event hue:gate_story
+PASS: Other event hue:npc_scholar
+PASS: Other event hue:puzzle_court
+PASS: Other event hue:garden_west
+PASS: Other event hue:herb_patch
+PASS: Other event hue:seal_cache
+PASS: Other event hue:enemy_river_wisp
+PASS: Other event hue:secret_pier
+PASS: Other event hue:east_bridge
+PASS: Other event hue:enemy_courier
+PASS: Other event hue:puzzle_market_code
+PASS: Other event hue:puzzle_archive
+PASS: Other event hue:enemy_archive_guard
+PASS: Other event hue:restore_hue
+PASS: Other event hue:portal_dalat
+PASS: Other event hue:secret_wall
+PASS: Other event jeonju:intro
+PASS: Other event jeonju:center
+PASS: Other event jeonju:npc_hana
+PASS: Other event jeonju:puzzle_dye
+PASS: Other event jeonju:npc_yoon
+PASS: Other event jeonju:npc_parcel
+PASS: Other event jeonju:enemy_parcel_bot
+PASS: Other event jeonju:puzzle_hanji
+PASS: Other event jeonju:west_bridge
+PASS: Other event jeonju:enemy_paper_crane
+PASS: Other event jeonju:loot_pond
+PASS: Other event jeonju:loot_rooftop
+PASS: Other event jeonju:puzzle_embroidery
+PASS: Other event jeonju:old_gate
+PASS: Other event jeonju:enemy_pattern_bot
+PASS: Other event jeonju:npc_snack_seller
+PASS: Other event jeonju:npc_elder
+PASS: Other event jeonju:puzzle_lantern
+PASS: Other event jeonju:enemy_crane_boss
+PASS: Other event jeonju:restore_jeonju
+PASS: Other event jeonju:portal_gyeongju
+PASS: Other event jeonju:secret_hoi_an_reply
+PASS: Other event seoul:intro
+PASS: Other event seoul:central_plaza
+PASS: Other event seoul:npc_curator
+PASS: Other event seoul:puzzle_palace
+PASS: Other event seoul:loot_archive
+PASS: Other event seoul:enemy_drone
+PASS: Other event seoul:east_riverside
+PASS: Other event seoul:npc_tech
+PASS: Other event seoul:enemy_signal_bot
+PASS: Other event seoul:tower_trail
+PASS: Other event seoul:puzzle_tower
+PASS: Other event seoul:npc_engineer
+PASS: Same reward, IDs, guards S12
+PASS: Readable short UTF-8 dialogue S12
+PASS: Other event seoul:bridge_west
+PASS: Other event seoul:npc_boat
+PASS: Other event seoul:enemy_bridge
+PASS: Other event seoul:puzzle_station
+PASS: Other event seoul:puzzle_relay_hue
+PASS: Other event seoul:puzzle_relay_jeonju
+PASS: Other event seoul:enemy_shadow_courier
+PASS: Other event seoul:enemy_final_core
+PASS: Other event seoul:final_festival
+PASS: Other event seoul:secret_tower
+PASS: Other event hoi_an:ba_tu_foodprep
+PASS: Other event hoi_an:ba_tu_spice_gift
+PASS: Other event hoi_an:food_spice_bundle
+PASS: Other event hoi_an:food_hq05
+PASS: Other event hoi_an:food_hq06
+PASS: Other event hoi_an:food_hq07
+PASS: Other event hoi_an:recover_hq05
+PASS: Other event hoi_an:recover_hq06
+PASS: Other event jeonju:foodexchange_jeonju_j15
+PASS: Other event hue:foodexchange_hue_u1
+PASS: Other event hue:chapter_uq04_offer
+PASS: Other event hue:chapter_uq04_return
+PASS: Other event jeonju:chapter_jq04_offer
+PASS: Other event hoi_an:chapter_jq04_return
+PASS: Other event jeonju:chapter_jq01_finish
+PASS: Other event jeonju:chapter_jq03_offer
+PASS: Other event da_lat:dalat_return_glasses
+PASS: Other event da_lat:dalat_dq01_finish
+PASS: Other event da_lat:dalat_thuy_food
+PASS: Other event da_lat:dalat_dog_food_recovery
+PASS: Other event da_lat:dalat_dq03_offer
+PASS: Other event da_lat:dalat_strawberry_offer
+PASS: Other event jeonju:dalat_strawberry_return
+PASS: Other event gyeongju:gq01_finish
+PASS: Other event gyeongju:min_fox_food
+PASS: Other event gyeongju:gq02_offer_finish
+PASS: Other event gyeongju:gq04_offer_finish
+PASS: Other event gyeongju:gq03_offer
+PASS: Other event seoul:sq02_finish
+PASS: Other event seoul:sq03_offer
+PASS: Other event seoul:sq04_offer_finish
+PASS: All 133 nodes retained
+PASS: Protected source unchanged Assets/_Game/Scripts/Content/NodeEventManager.cs
+PASS: Protected source unchanged Assets/_Game/Scripts/Content/ContentDefinitions.cs
+PASS: Protected source unchanged Assets/_Game/Scripts/UI/GameplayPanels.cs
+PASS: Protected source unchanged Assets/_Game/Scripts/UI/PlayerCopy.cs
+PASS: Protected source unchanged Assets/_Game/Resources/Content/CityNavigation.json
+PASS: Protected source unchanged Assets/_Game/Resources/DesignKitArt.asset
+PASS: Existing native IDs and rectangles retained Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta
+PASS: Existing native IDs and rectangles retained Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta
+PASS: Original earned QA save unchanged

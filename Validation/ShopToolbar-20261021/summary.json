@@ -1,0 +1,17 @@
+{
+  "widthBefore": 138,
+  "widthAfter": 100,
+  "reductionPercent": 27.54,
+  "height": 52,
+  "gapAfterObjective": 8,
+  "windows": "FOCUSED_PASS",
+  "input": "MOUSE_AND_SIMULATED_TOUCH_PASS",
+  "android": "NOT_BUILT_NOT_TESTED",
+  "callbackUnchanged": true,
+  "files": [
+    "Assets/_Game/Scripts/Maps/CityMap.JourneyShop.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.JourneyShop.cs"
+  ],
+  "capture": "runtime01/SHOP-toolbar-compact.png"
+}

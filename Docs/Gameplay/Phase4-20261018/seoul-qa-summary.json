@@ -1,0 +1,26 @@
+[
+  {
+    "run": "seoul01",
+    "checks": 228,
+    "result": "PASS",
+    "note": "source journey; initial beam rendering superseded by seoul02"
+  },
+  {
+    "run": "seoul02",
+    "checks": 40,
+    "result": "PASS",
+    "note": "accepted current geometry"
+  },
+  {
+    "run": "seoul-restart-A",
+    "checks": 21,
+    "result": "PASS",
+    "note": "restart"
+  },
+  {
+    "run": "seoul-restart-final-C",
+    "checks": 21,
+    "result": "PASS",
+    "note": "restart"
+  }
+]

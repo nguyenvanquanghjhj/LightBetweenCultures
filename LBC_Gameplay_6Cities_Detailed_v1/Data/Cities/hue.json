@@ -1,0 +1,1013 @@
+{
+  "schema_version": 1,
+  "design_only": true,
+  "city_id": "hue",
+  "city_name": "Huế",
+  "map_background_relative_to_NEW_ART_PACK": "Maps/Hue/Map_Overview_A.png",
+  "spawn_node_id": "U0",
+  "city_completion_flag": "hue.beacon_lit",
+  "visual_identity": "Sông Hương chia hai bờ – Kinh thành và khu phố",
+  "coordinate_system": {
+    "origin": "top_left",
+    "x_range": [
+      0,
+      1000
+    ],
+    "y_range": [
+      0,
+      1000
+    ],
+    "note": "x,y are approximate 2D design anchors; manual adjust for actual walkable road; normalized UI position = (x/1000,y/1000), Unity world y often inverted."
+  },
+  "city_story": {
+    "opening": "Ở hai bờ sông Hương, một bức thư bị thất lạc khiến học giả không thể đọc ký hiệu tại cổng thành. Lối qua cầu tạm thời bị bot tự động khóa.",
+    "main": "Lấy Thẻ Qua Sông ở U16 hoặc giúp lái đò U3; cứu kiện thư từ U15; tìm thảo dược cho Bà Nguyệt ở U10; giải mã thư khố U17 và áp dụng vào U8. Hạ/vô hiệu hóa Bot Thân Vệ, thắp U19.",
+    "twist": "Ấn Tín Cổ ở U11 không phải vật phẩm “mở mọi cửa”; nó chứa mẫu ký tự thiên văn dùng cho bệ phong ấn Gyeongju và rơle Seoul.",
+    "end": "Mở Đà Lạt; gửi mã Huế sang Seoul và Gyeongju."
+  },
+  "nodes": [
+    {
+      "id": "U0",
+      "name": "Bến sông phía phố",
+      "x": 138,
+      "y": 620,
+      "kind": "start",
+      "event_id": "intro",
+      "description": "Điểm Lumi tới bờ nam sông Hương",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "U1",
+      "name": "Chợ xưa bờ nam",
+      "x": 267,
+      "y": 610,
+      "kind": "npc",
+      "event_id": "npc_merchant",
+      "description": "Giao nhiệm vụ chuyển kiện thư",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "U2",
+      "name": "Nhà thuốc Bà Nguyệt",
+      "x": 432,
+      "y": 653,
+      "kind": "npc",
+      "event_id": "npc_nguyet",
+      "description": "Cần thảo dược ở phía Kinh thành",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "U3",
+      "name": "Bến đò bờ nam",
+      "x": 535,
+      "y": 502,
+      "kind": "npc",
+      "event_id": "npc_ferryman",
+      "description": "Thuyền dự phòng khi cầu bị khóa",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "U4",
+      "name": "Đầu cầu vào thành",
+      "x": 666,
+      "y": 430,
+      "kind": "junction",
+      "event_id": "bridge_entry",
+      "description": "Đầu cầu đi qua sông Hương",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "U5",
+      "name": "Bot Thân vệ Cổng",
+      "x": 605,
+      "y": 382,
+      "kind": "boss",
+      "event_id": "enemy_gate_guard",
+      "description": "Canh cổng thành và bản ghi khóa",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "boss_arena"
+    },
+    {
+      "id": "U6",
+      "name": "Cửa Ngọ Môn cách điệu",
+      "x": 603,
+      "y": 333,
+      "kind": "junction",
+      "event_id": "gate_story",
+      "description": "Cổng kiến trúc là điểm giao nhiệm vụ",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "U7",
+      "name": "Nho sinh Lê An",
+      "x": 773,
+      "y": 231,
+      "kind": "npc",
+      "event_id": "npc_scholar",
+      "description": "Yêu cầu dịch ký hiệu ánh sáng",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "U8",
+      "name": "Sân điện chính",
+      "x": 708,
+      "y": 153,
+      "kind": "puzzle",
+      "event_id": "puzzle_court",
+      "description": "Xếp cờ ánh sáng thứ tự đúng",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "U9",
+      "name": "Vườn phía tây",
+      "x": 490,
+      "y": 172,
+      "kind": "junction",
+      "event_id": "garden_west",
+      "description": "Đường dẫn ra thảo dược",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "U10",
+      "name": "Vườn thuốc bờ bắc",
+      "x": 376,
+      "y": 276,
+      "kind": "item",
+      "event_id": "herb_patch",
+      "description": "Có lá thảo dược Bà Nguyệt cần",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "U11",
+      "name": "Gốc cây dấu ấn",
+      "x": 516,
+      "y": 308,
+      "kind": "item",
+      "event_id": "seal_cache",
+      "description": "Ấn tín cũ bên đường phía bắc",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "U12",
+      "name": "Bến sông tây",
+      "x": 266,
+      "y": 336,
+      "kind": "enemy",
+      "event_id": "enemy_river_wisp",
+      "description": "Nhiễu sáng xuất hiện ven bờ",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "U13",
+      "name": "Bến thuyền hẻm",
+      "x": 756,
+      "y": 848,
+      "kind": "secret",
+      "event_id": "secret_pier",
+      "description": "Bến ẩn dẫn tới hòm ghi chép",
+      "visible_when": {
+        "all_flags": [
+          "hue.secret_pier_found"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "U14",
+      "name": "Cầu ngõ phía đông",
+      "x": 768,
+      "y": 735,
+      "kind": "junction",
+      "event_id": "east_bridge",
+      "description": "Cầu nhỏ nối nhánh đường dân cư",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "U15",
+      "name": "Máy thu thư",
+      "x": 325,
+      "y": 557,
+      "kind": "enemy",
+      "event_id": "enemy_courier",
+      "description": "Bot giữ kiện thư nhà buôn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "U16",
+      "name": "Sạp mật mã chợ",
+      "x": 242,
+      "y": 686,
+      "kind": "puzzle",
+      "event_id": "puzzle_market_code",
+      "description": "Đếm ký hiệu trên vải, nhận thẻ đò",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "U17",
+      "name": "Thư khố Hoàng thành",
+      "x": 819,
+      "y": 116,
+      "kind": "puzzle",
+      "event_id": "puzzle_archive",
+      "description": "Đối chiếu bản ghi Huế và Gyeongju",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "U18",
+      "name": "Sân thử thách Hoàng môn",
+      "x": 658,
+      "y": 258,
+      "kind": "enemy",
+      "event_id": "enemy_archive_guard",
+      "description": "Bot phụ canh cơ cấu cổ",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "U19",
+      "name": "Đài đèn thành nội",
+      "x": 721,
+      "y": 95,
+      "kind": "beacon",
+      "event_id": "restore_hue",
+      "description": "Kích hoạt trạm Huế",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "U20",
+      "name": "Cổng dẫn Đà Lạt",
+      "x": 900,
+      "y": 273,
+      "kind": "portal",
+      "event_id": "portal_dalat",
+      "description": "Mở nhánh cao nguyên",
+      "visible_when": {
+        "all_flags": [
+          "hue.beacon_lit"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "U21",
+      "name": "Lối đi ẩn bên tường",
+      "x": 858,
+      "y": 380,
+      "kind": "secret",
+      "event_id": "secret_wall",
+      "description": "Chứa Mảnh Chữ Sao cho Gyeongju",
+      "visible_when": {
+        "all_flags": [
+          "hue.secret_wall_found"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    }
+  ],
+  "edges": [
+    {
+      "id": "U0__U1",
+      "from": "U0",
+      "to": "U1",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U1__U2",
+      "from": "U1",
+      "to": "U2",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U1__U15",
+      "from": "U1",
+      "to": "U15",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U1__U16",
+      "from": "U1",
+      "to": "U16",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U15__U3",
+      "from": "U15",
+      "to": "U3",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U2__U14",
+      "from": "U2",
+      "to": "U14",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U14__U13",
+      "from": "U14",
+      "to": "U13",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          783,
+          773
+        ],
+        [
+          780,
+          805
+        ]
+      ],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U14__U3",
+      "from": "U14",
+      "to": "U3",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U3__U4",
+      "from": "U3",
+      "to": "U4",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          557,
+          490
+        ],
+        [
+          599,
+          465
+        ],
+        [
+          625,
+          441
+        ]
+      ],
+      "all_flags": [
+        "hue.crossing_permit"
+      ],
+      "travel": "ferry",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U4__U5",
+      "from": "U4",
+      "to": "U5",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          647,
+          418
+        ]
+      ],
+      "all_flags": [
+        "hue.crossing_permit"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U5__U6",
+      "from": "U5",
+      "to": "U6",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "hue.guard_disabled"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U6__U7",
+      "from": "U6",
+      "to": "U7",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U6__U11",
+      "from": "U6",
+      "to": "U11",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U6__U18",
+      "from": "U6",
+      "to": "U18",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U11__U10",
+      "from": "U11",
+      "to": "U10",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U10__U9",
+      "from": "U10",
+      "to": "U9",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "hue.north_garden_open"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U9__U12",
+      "from": "U9",
+      "to": "U12",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U9__U8",
+      "from": "U9",
+      "to": "U8",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U8__U7",
+      "from": "U8",
+      "to": "U7",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U8__U17",
+      "from": "U8",
+      "to": "U17",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U17__U19",
+      "from": "U17",
+      "to": "U19",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U18__U8",
+      "from": "U18",
+      "to": "U8",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U7__U20",
+      "from": "U7",
+      "to": "U20",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "hue.beacon_lit"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U20__U21",
+      "from": "U20",
+      "to": "U21",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U12__U11",
+      "from": "U12",
+      "to": "U11",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "U4__U14",
+      "from": "U4",
+      "to": "U14",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "hue.crossing_permit"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    }
+  ],
+  "events": [
+    {
+      "id": "intro",
+      "node": "U0",
+      "actor": "Bến sông phía phố",
+      "event_type": "Start",
+      "dialogue_open": "",
+      "interaction": "Điểm Lumi tới bờ nam sông Hương",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_merchant",
+      "node": "U1",
+      "actor": "Chợ xưa bờ nam",
+      "event_type": "Npc",
+      "dialogue_open": "",
+      "interaction": "Giao nhiệm vụ chuyển kiện thư",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_nguyet",
+      "node": "U2",
+      "actor": "Bà Nguyệt",
+      "event_type": "NPC",
+      "dialogue_open": "“Thuốc cho người chèo đò sắp hết. Con tìm lá bên vườn phía bắc giúp bà nhé.”",
+      "interaction": "Lấy royal_herb tại U10 và trả U2.",
+      "planned_reward": "quest:UQ02",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_ferryman",
+      "node": "U3",
+      "actor": "Bác Lái Đò Tâm",
+      "event_type": "NPC",
+      "dialogue_open": "“Muốn qua sông con cần thẻ đò ở chợ, hoặc giúp ta sửa thuyền.”",
+      "interaction": "Nhận thẻ U16. boat animation U3–U4 chỉ thực hiện khi mở.",
+      "planned_reward": "quest:UQ03",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "hue.crossing_permit",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "bridge_entry",
+      "node": "U4",
+      "actor": "Đầu cầu vào thành",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Đầu cầu đi qua sông Hương",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_gate_guard",
+      "node": "U5",
+      "actor": "Bot Thân Vệ Hoàng Môn",
+      "event_type": "Boss",
+      "dialogue_open": "“Cổng đang khóa vì một tín hiệu giả.”",
+      "interaction": "Thắng combat hoặc dùng ancient_seal + mật mã scholar để hack.",
+      "planned_reward": "flag:hue.guard_disabled",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "hue.guard_disabled",
+          "amount_or_value": true
+        },
+        {
+          "type": "flag",
+          "id": "hue.north_garden_open",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "gate_story",
+      "node": "U6",
+      "actor": "Cửa Ngọ Môn cách điệu",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Cổng kiến trúc là điểm giao nhiệm vụ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_scholar",
+      "node": "U7",
+      "actor": "Nho Sinh Lê An",
+      "event_type": "NPC",
+      "dialogue_open": "“Bức thư cũ không thể đọc thiếu ký hiệu ở thư khố. Xin nhờ bạn.”",
+      "interaction": "Nhận UQ01; thưởng manh mối sao cho Gyeongju.",
+      "planned_reward": "quest:UQ01",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_court",
+      "node": "U8",
+      "actor": "Sân Điện",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Ba lá cờ, ba luồng sáng: xếp theo bóng đổ trên sân.”",
+      "interaction": "Puzzle tap 3 lá cờ, không trắc nghiệm lịch sử.",
+      "planned_reward": "flag:hue.court_solved",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "hue.court_solved",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "garden_west",
+      "node": "U9",
+      "actor": "Vườn phía tây",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Đường dẫn ra thảo dược",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "herb_patch",
+      "node": "U10",
+      "actor": "Lá Thuốc",
+      "event_type": "Item",
+      "dialogue_open": "“Mùi thảo dược nhẹ bên rìa vườn.”",
+      "interaction": "Nhặt royal_herb một lần.",
+      "planned_reward": "item:royal_herb",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "royal_herb",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "seal_cache",
+      "node": "U11",
+      "actor": "Ấn Tín Cổ",
+      "event_type": "Item",
+      "dialogue_open": "“Trên ấn có ba nét khắc như chòm sao.”",
+      "interaction": "Nhặt ancient_seal, G12/S17 dùng flag sở hữu.",
+      "planned_reward": "item:ancient_seal",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "ancient_seal",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_river_wisp",
+      "node": "U12",
+      "actor": "Bến sông tây",
+      "event_type": "Enemy",
+      "dialogue_open": "",
+      "interaction": "Nhiễu sáng xuất hiện ven bờ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "secret_pier",
+      "node": "U13",
+      "actor": "Bến thuyền hẻm",
+      "event_type": "Secret",
+      "dialogue_open": "",
+      "interaction": "Bến ẩn dẫn tới hòm ghi chép",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "east_bridge",
+      "node": "U14",
+      "actor": "Cầu ngõ phía đông",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Cầu nhỏ nối nhánh đường dân cư",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "hue.secret_pier_found",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_courier",
+      "node": "U15",
+      "actor": "Bot Chuyển Thư",
+      "event_type": "Enemy",
+      "dialogue_open": "“Tôi được lệnh giữ kiện giấy có dấu đỏ.”",
+      "interaction": "Thắng hoặc đưa thư giả qua câu đố U16 để nhận lost_letter.",
+      "planned_reward": "item:lost_letter",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "lost_letter",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_market_code",
+      "node": "U16",
+      "actor": "Sạp Đố Vải",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Tìm số đèn có cùng nét khắc trên tấm vải.”",
+      "interaction": "Chọn đúng 2/3 biểu tượng nhận river_pass.",
+      "planned_reward": "item:river_pass",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "river_pass",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_archive",
+      "node": "U17",
+      "actor": "Thư khố",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Mã ánh sáng có nhịp ngắn – dài – ngắn.”",
+      "interaction": "Đổi thành nhịp trống U8, lưu hint cho G12.",
+      "planned_reward": "flag:hue.archive_decoded",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "hue.secret_wall_found",
+          "amount_or_value": true
+        },
+        {
+          "type": "flag",
+          "id": "hue.archive_decoded",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_archive_guard",
+      "node": "U18",
+      "actor": "Sân thử thách Hoàng môn",
+      "event_type": "Enemy",
+      "dialogue_open": "",
+      "interaction": "Bot phụ canh cơ cấu cổ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "restore_hue",
+      "node": "U19",
+      "actor": "Đài đèn thành nội",
+      "event_type": "Beacon",
+      "dialogue_open": "“Trạm được đồng bộ từ hai bờ.”",
+      "interaction": "Cần thư, puzzle điện, bot gate; bật hue.beacon_lit.",
+      "planned_reward": "flag:hue.beacon_lit",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "hue.beacon_lit",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "hue.court_solved",
+        "hue.archive_decoded",
+        "hue.guard_disabled"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "portal_dalat",
+      "node": "U20",
+      "actor": "Cổng dẫn Đà Lạt",
+      "event_type": "Portal",
+      "dialogue_open": "",
+      "interaction": "Mở nhánh cao nguyên",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "secret_wall",
+      "node": "U21",
+      "actor": "Lối đi ẩn bên tường",
+      "event_type": "Secret",
+      "dialogue_open": "",
+      "interaction": "Chứa Mảnh Chữ Sao cho Gyeongju",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "astral_script",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+UTC run: 2026-10-25T07:46:22.5623510Z | Unity 6000.6.5f1 | 720x1280
+PASS: Native pilot framebuffer 720x1280
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-H2
+PASS: Fresh runtime capture written: Placement-H4
+PASS: Fresh runtime capture written: Placement-H17
+PASS: Fresh runtime capture written: Placement-H18
+PASS: Fresh runtime capture written: Placement-H10
+PASS: Fresh runtime capture written: Placement-H14
+PASS: Phase B unchanged: hoi_an
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hue
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-U1
+PASS: Fresh runtime capture written: Placement-U2
+PASS: Fresh runtime capture written: Placement-U3
+PASS: Fresh runtime capture written: Placement-U7
+PASS: Phase B unchanged: hue
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: Fresh runtime capture written: X-WorldMap-select-da_lat
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-D2
+PASS: Fresh runtime capture written: Placement-D3
+PASS: Fresh runtime capture written: Placement-D4
+PASS: Fresh runtime capture written: Placement-D10
+PASS: Fresh runtime capture written: Placement-D13
+PASS: Phase B unchanged: da_lat
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-jeonju
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-J15
+PASS: Fresh runtime capture written: Placement-J2
+PASS: Fresh runtime capture written: Placement-J4
+PASS: Fresh runtime capture written: Placement-J5
+PASS: Fresh runtime capture written: Placement-J16
+PASS: Phase B unchanged: jeonju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-gyeongju
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-G3
+PASS: Fresh runtime capture written: Placement-G9
+PASS: Fresh runtime capture written: Placement-G14
+PASS: Fresh runtime capture written: Placement-G16
+PASS: Fresh runtime capture written: Placement-G21
+PASS: Phase B unchanged: gyeongju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: Fresh runtime capture written: X-WorldMap-select-seoul
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-S2
+PASS: Fresh runtime capture written: Placement-S7
+PASS: Fresh runtime capture written: Placement-S11
+PASS: Fresh runtime capture written: Placement-S12
+PASS: Phase B unchanged: seoul
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-gyeongju
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Bell starts with mouse drag
+PASS: Fresh runtime capture written: Placement-bell-swing
+PASS: Closing an event or battle returns map input to the player
+PASS: Bell closes and returns controls without changing save
+ALL CHECKS PASSED

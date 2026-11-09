@@ -1,0 +1,28 @@
+UTC run: 2026-10-24T07:02:42.4311278Z | Unity 6000.6.5f1 | 540x960
+PASS: PC original New Game run remains in the provenance evidence
+PASS: Six cities/133 nodes/29 quests/22 story puzzles unchanged
+PASS: Single collection retains6 canonical relic IDs and24 fragment IDs
+PASS: PC resumes the exact legitimately earned H19 checkpoint after the purchase-order blocker
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H5 is discovered
+PASS: Lumi reaches H5 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H7 is discovered
+PASS: Lumi reaches H7 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: PC H7 earned quest reward opens the normal Hue/Jeonju routes
+PASS: Closing an event or battle returns map input to the player
+PASS: PC purchase uses earned currency
+PASS: PC redundant ferry permission is not sold
+PASS: Shop control exists: ShopBuy_meat
+System.Exception: Timed out: button ShopConfirmBuy
+Modal=True moving=False stage=4
+Buttons: ShopBuy_tea:True:True,FocusLumi:True:False,H10:True:False,ShopFilter_items:True:True,H0:True:False,H18:True:False,QuestJournal:True:True,ObjectiveHint:True:False,ShopBuy_strawberry:True:True,H16:True:False,H9:False:False,ZoomIn:True:False,ShopBuy_herb:True:True,H3:True:False,H14:True:False,H6:True:False,MapOverview:True:False,H20:True:False,H2:True:False,H21:True:False,H1:True:False,ShopClose:True:True,ShopBuy_meat:True:True,H13:True:False,H8:True:False,JourneyShop:True:False,ShopBuy_flower:True:True,H4:True:False,H7:True:False,Back:True:False,ShopFilter_all:True:True,H11:True:False,Inventory:True:True,AudioSettings:True:True,MarkerMotion:True:False,ShopFilter_permissions:True:True,H19:True:False,H12:True:False,ShopBuy_chili:True:True,Interact:True:False,H15:True:False,ShopBuy_shallot:True:True,H17:True:False,H5:True:False,ZoomOut:True:False,ShopBuy_glasses:True:True
+  at LightBetweenCultures.GameplaySmokeRunner+<Until>d__307.MoveNext () [0x001b4] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:107 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__306.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

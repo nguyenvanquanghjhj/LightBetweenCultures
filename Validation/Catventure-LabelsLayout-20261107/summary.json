@@ -1,0 +1,112 @@
+{
+  "createdUTC": "2026-11-07T16:26:00.446989+00:00",
+  "version": "1.1.1-catventure-20261107",
+  "nativeRuns": [
+    {
+      "folder": "portrait-final",
+      "checks": 285,
+      "result": "PASS"
+    },
+    {
+      "folder": "desktop-final",
+      "checks": 285,
+      "result": "PASS"
+    },
+    {
+      "folder": "save-upgrade-final",
+      "checks": 3,
+      "result": "PASS"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "Builds/Windows-Catventure-Fix-Release-20261107/Catventure.exe",
+      "bytes": 667136,
+      "sha256": "dd9798ab0c753afcc7b136619b254bb92287886f8871a81d33ab9db418c67735"
+    },
+    {
+      "path": "Builds/Windows-Catventure-Fix-Release-20261107/Catventure_Data/Managed/Assembly-CSharp.dll",
+      "bytes": 472576,
+      "sha256": "ce2537554090f4fcdbcf3592a2aa9834d366fe2daf6b941b85b5d8ec519eef82"
+    },
+    {
+      "path": "Builds/Android/Catventure-Fix-20261107.apk",
+      "bytes": 293839168,
+      "sha256": "01c087eed8995ecf391ef2c17fbba2f65bcfc38a87137872b196ab49bc8b538f"
+    }
+  ],
+  "catLabels": [
+    "Mèo Hội An",
+    "Mèo Huế",
+    "Mèo Đà Lạt",
+    "Mèo Jeonju",
+    "Mèo Gyeongju",
+    "Mèo Seoul"
+  ],
+  "stableSaveIdsAndRewards": true,
+  "modifiedSource": [
+    {
+      "path": "Project/Assets/_Game/Resources/Content/CatRescue.json",
+      "bytes": 31596,
+      "sha256": "a49fed9329093da553485da7317adb1eb30d70d6db4218e2ad552b9178d5292f"
+    },
+    {
+      "path": "Project/Assets/_Game/Scripts/Editor/CatRescueBuild.cs",
+      "bytes": 4006,
+      "sha256": "312003c5f5b612a476debbab9cc1541fad3ce88ea40f9683edb426144387522a"
+    },
+    {
+      "path": "Project/Assets/_Game/Scripts/Maps/CityMap.CatRescue.cs",
+      "bytes": 7472,
+      "sha256": "cd8d3b39f8ef774e795819aea83948f73ca0d56c47a5083451f6e81c35b15599"
+    },
+    {
+      "path": "Project/Assets/_Game/Scripts/UI/GameplayPanels.CatRescue.cs",
+      "bytes": 28713,
+      "sha256": "c2b8e51cf9cbb02642c672baa772758282cc808db334a5db894a2b544c17600b"
+    },
+    {
+      "path": "Project/Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CatRescue.cs",
+      "bytes": 14509,
+      "sha256": "578318dd74ef4622344cb8f1a5be924b43bc2e3c82d14ff6ff7a566e7de8e64d"
+    },
+    {
+      "path": "Project/Tools/author_catventure.py",
+      "bytes": 19850,
+      "sha256": "22c9217a2e2c1fa2840e4d208e2ff555e09f0139c582ef6647d8cbc24254c36a"
+    },
+    {
+      "path": "Project/Tools/finalize_catventure_labels_layout.py",
+      "bytes": 9427,
+      "sha256": "76359dd13d82e45798c80ec004b9248a78736f492263083dc5438af2a782905a"
+    },
+    {
+      "path": "Project/Tools/verify_catventure_apk.py",
+      "bytes": 3310,
+      "sha256": "b27d536acbedb11b4222bc6ee22fbe47464f91de560639355c15921e1164faaf"
+    },
+    {
+      "path": "Project/Docs/Catventure/HANDOFF.md",
+      "bytes": 3388,
+      "sha256": "26822b71e1b92ea7f0f50a79d40fbaed967607ddcfeedf2a678f7c9618a25c36"
+    },
+    {
+      "path": "Project/Docs/Catventure/LABELS_LAYOUT_FIX.md",
+      "bytes": 3184,
+      "sha256": "4c9b15ab46d7240f2920a386d72299821ccfa288f7c6ad861229cb48115ca70f"
+    },
+    {
+      "path": "Project/Docs/Catventure/REPORT.md",
+      "bytes": 4773,
+      "sha256": "02efd2c94e422dc11b0a876c0c7b5a26043aa01918ff9c115cc194cc29e25744"
+    },
+    {
+      "path": "Project/Docs/QA/CURRENT_QA_STATUS.md",
+      "bytes": 9767,
+      "sha256": "6644a587c7b6db83a1fc21465711d7476e01a4f11854e0379fcbbdddcbb41a41"
+    }
+  ],
+  "deletedPaths": [],
+  "checkpoint": "D:\\GAMEKKK\\Backups\\CheckpointCatventureLabelsLayout-20261107",
+  "androidDevice": "NOT_TESTED"
+}

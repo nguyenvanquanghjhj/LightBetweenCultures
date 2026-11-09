@@ -1,0 +1,54 @@
+UTC run: 2026-10-23T17:45:16.1286545Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Fresh player sees all nine offers, including other cities, without unlock gates
+PASS: Insufficient funds keeps every offer visible and disables purchase
+PASS: Shop displays actual existing coin balance
+PASS: Backend also rejects insufficient funds without mutation
+PASS: Fresh runtime capture written: SHOP-fresh-all-visible
+PASS: Open/close and X never charge coins or change progress
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H11 is discovered
+PASS: Lumi reaches H11 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing early H11 chest earns six real coins: enough for several ordinary purchases
+PASS: Shop control exists: ShopBuy_chili
+PASS: One real touch debits one coin and grants one ingredient
+PASS: Shop control exists: ShopBuy_chili
+PASS: Rapid repeated touch is debounced, no second debit/grant
+PASS: Shop control exists: ShopBuy_shallot
+PASS: Next deliberate purchase uses the same global fixed price
+PASS: Shop control exists: ShopBuy_herb
+PASS: Buying a quest item never automatically accepts/completes its delivery quest
+PASS: Owned unique item cannot be bought uselessly a second time
+PASS: Shop control exists: ShopFilter_permissions
+PASS: Permission remains visible even before its city/quest timing and shows insufficient funds
+PASS: Persist checkpoint SHOP-earned-items
+PASS: Reload preserves exact balance, inventory and unique ownership in existing schema
+PASS: Backend allowlist rejects forbidden/unknown purchase: lamp_eye
+PASS: Backend allowlist rejects forbidden/unknown purchase: link_key
+PASS: Backend allowlist rejects forbidden/unknown purchase: hanji_core
+PASS: Backend allowlist rejects forbidden/unknown purchase: ancient_seal
+PASS: Backend allowlist rejects forbidden/unknown purchase: relic_hoi_an_lantern
+PASS: Backend allowlist rejects forbidden/unknown purchase: fragment_hoi_an_roof_hook
+PASS: Backend allowlist rejects forbidden/unknown purchase: SQ03
+PASS: Backend allowlist rejects forbidden/unknown purchase: seoul.final_cleared
+PASS: Backend allowlist rejects forbidden/unknown purchase: game.ending_seen
+PASS: Delivery fixture retains the genuinely accepted optional food quest
+PASS: Purchase required chilli/reserve 0
+PASS: Purchase required chilli/reserve 1
+PASS: Purchase required chilli/reserve 2
+PASS: Purchase required shallot/reserve 0
+PASS: Purchase required shallot/reserve 1
+System.Exception: FAIL: Five purchased ingredients satisfy the same canonical requirements and reserves
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<JourneyShopJourney>d__97.MoveNext () [0x00849] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.JourneyShop.cs:91 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__291.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

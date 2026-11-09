@@ -1,0 +1,4326 @@
+{
+  "createdUTC": "2026-10-20T14:43:08.775800+00:00",
+  "baseCheckpoint": "D:/GAMEKKK/Backups/CheckpointGelButtons-20261020",
+  "baseManifestSHA256": "6b6597a57aa41e790517d7509a8a8e0f00d7f9d0498fb35180db2091e856e837",
+  "sourceFingerprint": "1f253942776c033091ea9a8802fc6b241dcc0077cacebbf0cb01242a2acd210a",
+  "bundleVersion": "1.0",
+  "androidVersionCode": 1,
+  "windowsManagedAssemblySHA256": "98608f467b3c72ab36de8eb7b9dc0c7636599a10e93289b3e9d45dd68cd539f7",
+  "files": [
+    {
+      "path": "Assets/Resources.meta",
+      "sha256": "4c71cbc97bcbb8901a9f9212a684c1ccbd69c6ff5e86e30771bdea07be5d3d2c",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/Scenes.meta",
+      "sha256": "a80a7b316e7d7ce80c8a01ecb374702a04e91228a0729629c894c70250baea5d",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/Scenes/SampleScene.unity",
+      "sha256": "387d8216a517be775b6ecc2ab55b97ece687c3372322da2ba027a96908014912",
+      "bytes": 9947
+    },
+    {
+      "path": "Assets/Scenes/SampleScene.unity.meta",
+      "sha256": "204f446bc13539151c15af875550a7fa6f791662e967572a1b4b06fd0005dad1",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/Settings.meta",
+      "sha256": "0b5ba35daae66cbfcfa17bf61091aeab7f3bed07681f8db7bed3fb72d178c2d4",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/Settings/DefaultVolumeProfile.asset",
+      "sha256": "4789b43834dd5efb32eec4c3b436baf0895c9f8cf2a0624121da8dd812ee984a",
+      "bytes": 18777
+    },
+    {
+      "path": "Assets/Settings/DefaultVolumeProfile.asset.meta",
+      "sha256": "037700fc76ee8e15bf57a6608bf0229b50b9ba78a1095a943fe0add01a6bf5c5",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/Settings/InputSystem_Actions.inputactions",
+      "sha256": "1c6cbb519d65ecfe19a29231735b7f54741a20ac1a8ad4f46a18e1bfb28a3c39",
+      "bytes": 41005
+    },
+    {
+      "path": "Assets/Settings/InputSystem_Actions.inputactions.meta",
+      "sha256": "e2df3de96691137dc24b37bd9009e7be17040f3e5cd6d5401b2cd9d8ae2c9c1d",
+      "bytes": 376
+    },
+    {
+      "path": "Assets/Settings/Lit2DSceneTemplate.scenetemplate",
+      "sha256": "ca928761bf976c878d54df524a3742c5f1bca53a013b4061abd2c752c8a212aa",
+      "bytes": 3942809
+    },
+    {
+      "path": "Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta",
+      "sha256": "d4cc0f73332c3228945aa64f9c5019f1c1950d77703728c5e9674a0367c5e4d1",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/Settings/Renderer2D.asset",
+      "sha256": "900455794d0d788504847c3aa54e03a0374fd3635afa295ed05c2f646f974705",
+      "bytes": 3629
+    },
+    {
+      "path": "Assets/Settings/Renderer2D.asset.meta",
+      "sha256": "9689252004910cfad653e8a8d09b8c96befb560e1fb583033630db0f5bb76420",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/Settings/Scenes.meta",
+      "sha256": "705b24f629af6836450c9fd2085f781fe11d8633bcaa0c7b3197058b93a766e5",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/Settings/Scenes/URP2DSceneTemplate.unity",
+      "sha256": "f6fb3e91aaa90417e2920b7f903066833b3b9aea72ddcb5e46b91afa729c2e90",
+      "bytes": 9881
+    },
+    {
+      "path": "Assets/Settings/Scenes/URP2DSceneTemplate.unity.meta",
+      "sha256": "e7391ff924b7defdf30e0b0b235f8113618481c93f567e0c699c8895a9534579",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/Settings/UniversalRP.asset",
+      "sha256": "105c850a8996289abbb82e404ccd00d855fd16cdc59055392f623849f9b4c71b",
+      "bytes": 4862
+    },
+    {
+      "path": "Assets/Settings/UniversalRP.asset.meta",
+      "sha256": "8b7653265c1a9a054461264fc7b03bdbafc030149949fce5bf9e85924fb565a5",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+      "sha256": "adcf683780138e1c4987add26ce706020423ac21725ca7fb391ffb096afdcfea",
+      "bytes": 28648
+    },
+    {
+      "path": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta",
+      "sha256": "746a38b93f8f49b644ff6893456cf24db401e5c342aaae3864e91560d37c5422",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/Welcome.meta",
+      "sha256": "7f9e88db1a5f912122f7d32a131a9a1cc0235be1ca2637a1e6b0f7a7fc76d3a6",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/Welcome/2d-template.png",
+      "sha256": "d10e43955a1ff62f420c2e82ed9bae4481c75a4559522196be77cde49070eb25",
+      "bytes": 816464
+    },
+    {
+      "path": "Assets/Welcome/2d-template.png.meta",
+      "sha256": "09276c6728f70195df623aa96d40fccbb327fd6b7d650390b43b72e76579561e",
+      "bytes": 3319
+    },
+    {
+      "path": "Assets/Welcome/NewWelcomePage.asset",
+      "sha256": "b8f5b74159bd138202e78d653c78304b15714a0927be345bd55256ce71ff7113",
+      "bytes": 2298
+    },
+    {
+      "path": "Assets/Welcome/NewWelcomePage.asset.meta",
+      "sha256": "b62d798f38d44bf09e210876042931010d21a1e46ceeef556608cae13db654c2",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/Welcome/TutorialProjectSettings.asset",
+      "sha256": "7509e1816d3a9e4576f0d9ef5e095b48e779a862cd946cefd7067b9e72523d05",
+      "bytes": 1206
+    },
+    {
+      "path": "Assets/Welcome/TutorialProjectSettings.asset.meta",
+      "sha256": "3644a742e7c9fba830dba4c12c654372e4329ac144d2ba26821717fe17e94c8f",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/Welcome/Unity.2D.Welcome.asmdef",
+      "sha256": "f3fbb465d982c9e533170b9e1fa958c83663c850b43c46dc92da65cf8d3506f2",
+      "bytes": 32
+    },
+    {
+      "path": "Assets/Welcome/Unity.2D.Welcome.asmdef.meta",
+      "sha256": "28c11e43e3e5099eec8d53cec7c8de9d6c716b92a947aeae26becd63121086e5",
+      "bytes": 166
+    },
+    {
+      "path": "Assets/Welcome/Welcome2DScript.asset",
+      "sha256": "a060d10e478919bf933e7c69c5e635a3e1ec9dde5c085b7c3495003c27685392",
+      "bytes": 453
+    },
+    {
+      "path": "Assets/Welcome/Welcome2DScript.asset.meta",
+      "sha256": "4b6c900fa29b2c79cdc38def65ff9fd2b362ca26732dfb7072380d712a26edac",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/Welcome/Welcome2DScript.cs",
+      "sha256": "de8913a7eaa8b8820d49e02d459f376cb7645e234123ee24cfec3932a69d0c10",
+      "bytes": 332
+    },
+    {
+      "path": "Assets/Welcome/Welcome2DScript.cs.meta",
+      "sha256": "7844f4bf7129cf9dc2c7d6c0fceeb518b8ace15900e3012005adfa16b625e757",
+      "bytes": 83
+    },
+    {
+      "path": "Assets/_Game.meta",
+      "sha256": "424c15d7eb47d8bb72b908e2161b32ddfe1979ffca31b2fb809a01287bbca399",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art.meta",
+      "sha256": "8e580ed915699432966bccfc5d6bfe0eb6175e7f3bb4e53cf6e3328986c831d9",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters.meta",
+      "sha256": "e6819c1b8165d21de391ab4986077b8b2fe992a3d28301765aaaf525690d5d00",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies.meta",
+      "sha256": "7960b46b14c2bd001a65a3e59e69d5a760f201f59f688cfb14f9d91be8cf3581",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/CleanDerived.meta",
+      "sha256": "594315bd10b9814523b23c2577e98682d5f97830280ce579202aadb4331531d4",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/CleanDerived/energy_core_Clean.png",
+      "sha256": "5e6db00e286b30ef073207acb8309ed17ab6b0e6728aacdfe530e673378f6dda",
+      "bytes": 147382
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/CleanDerived/energy_core_Clean.png.meta",
+      "sha256": "1866be0d00c4d5a42089e51b5315606d62ab458b0f05f57ca50fb99b1b27592f",
+      "bytes": 4076
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/CleanDerived/shadow_cat_Clean.png",
+      "sha256": "6cdd7b8401006463f662fa77de370b5e0f535e2b2f5953b4be7bec81186c199d",
+      "bytes": 91686
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/CleanDerived/shadow_cat_Clean.png.meta",
+      "sha256": "9e7e443320396575265bd3b18a1155eacdd8512ce5775faddf563c44b050ed14",
+      "bytes": 4076
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/CleanDerived/shadow_courier_Clean.png",
+      "sha256": "284ea6da71ba17b5f7f1c45a74914e0a6f10027bfa7aac2b2dfcbe8c103900ff",
+      "bytes": 120271
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/CleanDerived/shadow_courier_Clean.png.meta",
+      "sha256": "51f9dfe65d3bce8a4cf0acb0033b6ade9b0acbcee6ce30e9a27bd3cd8497b75e",
+      "bytes": 4088
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/CleanDerived/stone_guard_Clean.png",
+      "sha256": "c0a6f831bf406f6588109cccfc83613c42abcc4b51b565c3837f3bbe52a83502",
+      "bytes": 158514
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/CleanDerived/stone_guard_Clean.png.meta",
+      "sha256": "cfc2433a7c3130f733bf4c39e1864da952062abc9843af9553beef613fdba5eb",
+      "bytes": 4082
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat.meta",
+      "sha256": "9dcb902c671ac2dad8622d340a86b1e89ede00f10865911546d38f1c5f50525f",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_fog_boss.png",
+      "sha256": "9a073d7dd4a067625425e53325c71ed13a98313f291250f610599e02e22320be",
+      "bytes": 1857275
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_fog_boss.png.meta",
+      "sha256": "f44eb7adb97cdfed7d47b9497ce9746a6524544ad93878291d465c89ad63d80c",
+      "bytes": 4061
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png",
+      "sha256": "75015e347126152cb17b8acba3ac6c0049c6d55a9ff8f5317f6d3c302dbec5dc",
+      "bytes": 1284908
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png.meta",
+      "sha256": "d68828b874acd5cb6861938bdd86de448c505a8bc7bbe86db7ca338a91548d99",
+      "bytes": 4072
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_mist_wolf.png",
+      "sha256": "f23dc92676e9ed30fa7e83df4c5e0bd95a7ff37ca28035ea78ff53336adb6fb8",
+      "bytes": 2065151
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_mist_wolf.png.meta",
+      "sha256": "a782858f8cc6ea06ebf476944ff305efe0af16765dc7f7af898d929735943e87",
+      "bytes": 4059
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/HoiAn_Enemies_Atlas.png",
+      "sha256": "f5d51f34b23aed622f0e10aad9a34df12ceaddacea26e7fbb7acf4223e9baa58",
+      "bytes": 1393963
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/HoiAn_Enemies_Atlas.png.meta",
+      "sha256": "4c71e13665956488f2c5d68d022c94a6c46db6ba437994fe45e3c1b5947e5f78",
+      "bytes": 5474
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue.meta",
+      "sha256": "d37bad975234344a823d6f5cd03dfea9a294fa878748ce485ffd4cbf44830df0",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png",
+      "sha256": "895cc5f001beabf857892834b4185f962478d2840e2fc3cf2db3896d1f20eecd",
+      "bytes": 1778173
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png.meta",
+      "sha256": "0cfc0b795d4562e3725cf11925adca734fbc32f5c7893f198a6b31c6062a52a3",
+      "bytes": 4151
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png",
+      "sha256": "9f81f2243fab2eba4128194a6ec08be3dde7a269b8e12120ecd9197d20d7a799",
+      "bytes": 1439849
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png.meta",
+      "sha256": "9478212ebc94c8c55938d3bfc3f52deec3cd4687472aabf60ceff882f722737b",
+      "bytes": 4056
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png",
+      "sha256": "c9eaace3159a4fb3770c70104302d530e8b69231fe7851ba8b281efbb4894081",
+      "bytes": 1380378
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png.meta",
+      "sha256": "1568b0a3e815159362b8f299691c3262c7b9978a470a30f7a11a41b10df76ba0",
+      "bytes": 4361
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png",
+      "sha256": "426d606ef7df229bfdb949e608213faab4b086dfacab74f8fec7b2483528c2e5",
+      "bytes": 1867629
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png.meta",
+      "sha256": "a5167c3207c68a5676172ee4c6400b789217348ce6ed1bcd009e3379b5752fdd",
+      "bytes": 4360
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju.meta",
+      "sha256": "ae9866790bb3b4de2f606a66cbca6ad049a86948a22932c50e71aa7e7ddc1e2d",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png",
+      "sha256": "b0d46f325fc0d482d898c5cf08b4453e74a9bcae9aaeb6ad8b28194786f600d2",
+      "bytes": 1644791
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png.meta",
+      "sha256": "ec047a3465be03777a2d0dd55282febaeb028b5c7d0cc5628fcee2f3320bc6fd",
+      "bytes": 4577
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png",
+      "sha256": "937200d80965bdf03e413df0c653bb515b6dacbb829b8282c915164a396433ea",
+      "bytes": 1702685
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png.meta",
+      "sha256": "38816ef3599cf0a73c492ed7196ef5b5bc4ee873f2a792f5b85e480927e8c6b6",
+      "bytes": 5269
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png",
+      "sha256": "42a4cfb742868418587c604b0838fbe164409e19fdf2d580cc19511bd9b687c4",
+      "bytes": 1550719
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png.meta",
+      "sha256": "7762bb6134b3c34e4543d5dedaf65617f98c58de06312947b62b4e7fa6f4be82",
+      "bytes": 4141
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png",
+      "sha256": "32de2f21401fb53c00c809343f14be8fa6ec242f011268c59392458dac12b18b",
+      "bytes": 1716246
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png.meta",
+      "sha256": "d49bbd59f6c506c4649eb4c2bd4483a7279d9add331a02d69ae8fc6a9c42d14d",
+      "bytes": 4069
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi.meta",
+      "sha256": "69c3abc7f9385ecf97474a14a9b2b5a0b0acf2b55a4595bfca3a4a610954bcb0",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png",
+      "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b",
+      "bytes": 1108620
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png.meta",
+      "sha256": "8baa43e7f6d1339eb83b79568d99473d4c080d95882b40b3e66a5dfb8ca4d43b",
+      "bytes": 3715
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_ExplorationIdle.png",
+      "sha256": "d1b9b14d78ebd0238a1651b631e295f864de4a969f389dd3f26a73b000fe975e",
+      "bytes": 957174
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_ExplorationIdle.png.meta",
+      "sha256": "57a540e016b615178169b3e517c4a797aec31416892330b05891e62f4ccf2d0c",
+      "bytes": 4883
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png",
+      "sha256": "91a4e8f7613e4eb58df7bdf25162081af46e44fe04e288a75707c20701d700d7",
+      "bytes": 895223
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png.meta",
+      "sha256": "dff673518799d6e739f885dad731962e94fa557de28caa35a7ba42dbfac5df1a",
+      "bytes": 4873
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC.meta",
+      "sha256": "5eab82abce35110c6f2cbab4a3f59c70315f7f6cd231e04387aa8b73f1364af6",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat.meta",
+      "sha256": "a66f6351328ddb0736280991d1e5f2714beb8033c335c81ea7fba92847065ac4",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+      "sha256": "40f33f91189d0829ac66973b83eaf9c431ab5eb64836a98de5f68864acb6f404",
+      "bytes": 1827187
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png.meta",
+      "sha256": "d8bf80ca0abc6bef94a59223e2df500ca5065b93fe2e1f2c4b3b0aad93b9d478",
+      "bytes": 4123
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+      "sha256": "f7996bdea43934e25f70625e60b8125f347f0fbae7bfaf68779384cf595ab78b",
+      "bytes": 1398052
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png.meta",
+      "sha256": "01833860882a9afe2413f0a6c7faa1824e505d742b50bda2f239a9eada12c75e",
+      "bytes": 4057
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+      "sha256": "9d86a77b26635549a1044b1629be0e286416033e19286f8f2154e5e2132fad99",
+      "bytes": 1290364
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png.meta",
+      "sha256": "052bf7d768b3525d2222a1c35398ac5d810db5cfba34c2b63a23c0218e0a19c5",
+      "bytes": 4103
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+      "sha256": "148d12ec8ff2b07d7fbbf42c25afefadcc9e9d69da3853593c093154b1cbf6cd",
+      "bytes": 2260423
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png.meta",
+      "sha256": "6590863add43f711f308addbd4db5dc2e66707061a7879ac380441ee2e70bcac",
+      "bytes": 4108
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju.meta",
+      "sha256": "c09785cdba24ef80272182862c0cc0c3b9ef4a37c13f892c8ee25920324a6682",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png",
+      "sha256": "b3586d8870df3e9c3bb573f909243c42b78968a44901da9b056547f45cb0919c",
+      "bytes": 1630500
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png.meta",
+      "sha256": "5232a93211993595079b522464c129c5f71306a9777064f1fb2cb2fdb58331fd",
+      "bytes": 5415
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png",
+      "sha256": "c3e2f275a9dca7ba9ba42f00780a8a463b36ba0a7a80831983fac276ca9f9d18",
+      "bytes": 1393728
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png.meta",
+      "sha256": "201525e693b1879555a9faf6a63c8ed671dc616ee074907867e4b7b7b55150df",
+      "bytes": 5380
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn.meta",
+      "sha256": "b550a7866b70e2c99533382362b16e68bac8b40b534af506d39715087d46f236",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+      "sha256": "50a302d2ee697b42585dcf56ed7fd9a90c93800ceea12650d80e59c17a64f187",
+      "bytes": 950768
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png.meta",
+      "sha256": "c39d1501f77348003b27738d4e2ec020d64ea58922a201066611b39c1fcc3902",
+      "bytes": 6603
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+      "sha256": "ca26766b34317562a60153ffb6222b82e3e35c14569d25ecae20c6977fbb975e",
+      "bytes": 1229211
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png.meta",
+      "sha256": "1e95e818787388b794916ea6404eb185d550d098b2370c3edab32b61b19faa2c",
+      "bytes": 4852
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+      "sha256": "fc7bb16df6781ecbe20521d3e00be1b7193be2392f35ee92def647aa9f17fed2",
+      "bytes": 1274381
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png.meta",
+      "sha256": "be47a9133b67372e62793f35f0b19e2fa264fd353002d0f1c371f344bdcec4fd",
+      "bytes": 8480
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue.meta",
+      "sha256": "2c981af3c051370a829b3e441edb429c440f334333b1b02497b20453b3237224",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+      "sha256": "6930e06a55f6989b3547f2f11a2f7e3aed867f84eb9bbd53f943faa866d44530",
+      "bytes": 1129967
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png.meta",
+      "sha256": "daffbf8783f252bf157694cceb768b9d4ac11de25d6ce0ffd5cbf7dd419264b1",
+      "bytes": 4384
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+      "sha256": "15587f85e7fd1b72e26031bb9b28098c54ebed90f9e8d0ebc2e4af36d5ffee46",
+      "bytes": 1150203
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png.meta",
+      "sha256": "7aef32dd47ad722996256d3f8206306b83eaa8bec510f7fd732cb2a510a3cc8b",
+      "bytes": 4298
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju.meta",
+      "sha256": "2144771e1c9bbacc5efa6bd97497cf475f19a91c456bb8119f622b194bcd28ea",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+      "sha256": "cb4bd5bb94b28656a70540d06792fc3411cc0672fcf9b29f2b1626af80a1797b",
+      "bytes": 1592252
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png.meta",
+      "sha256": "c9edb3fa7975c0bf38dd4516cedfea91730293de92efdda67a2778238a9c645d",
+      "bytes": 4109
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+      "sha256": "bf3defe0a6a193938bfd5c1e19176b572624760b89903cbc2b65222f142af7af",
+      "bytes": 1035203
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png.meta",
+      "sha256": "4e8573353d1430bcf4c8a7d5338603823f82c11d5be68d922885774b6fe05beb",
+      "bytes": 4040
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+      "sha256": "144d39585715517f831861c8951bb90198086f7978675e4381686ae323ef4936",
+      "bytes": 1089562
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png.meta",
+      "sha256": "13e2d10f0eac32ceee2654d77c0596c89e19b5d0d4b1e432c7faa1bd1e53953c",
+      "bytes": 4499
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul.meta",
+      "sha256": "dcbd645c17650d8824a7a03570b962082c940a87ce8ccc5612f9097065469c3b",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png",
+      "sha256": "cf66f4361ef2e32bc48a431989a9256e4f88f0e4b43a2959dcc4c65f2f666949",
+      "bytes": 1213061
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png.meta",
+      "sha256": "493f6cb97d6b777afd663fa606263dd6edf872904a1cabdc2b87d743b1ae7f2b",
+      "bytes": 4727
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png",
+      "sha256": "a9864960705f187f71c2aa758c0170ba0a8bf887070af205e63424326ec849d7",
+      "bytes": 1195503
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png.meta",
+      "sha256": "b8713c5de9161ef3e2f615e6d976cb4ef9cac1ca2f45b49d9cf614b3655888ee",
+      "bytes": 6641
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Shared.meta",
+      "sha256": "d77064e83d52683bf76f331cee96958bb816847c888f06e50b591090d55bdafa",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "sha256": "87e127de96b7eb9aa259bb643f667b0167796ec9dce246ee0369a9ad4e84dc94",
+      "bytes": 1792419
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta",
+      "sha256": "c8d76e02ee82b4311b239c143f992ee0ad0df761a0a576c1ee25dbd060f5ba67",
+      "bytes": 12387
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks.meta",
+      "sha256": "cb41a02a24571f5478335e1d90d895d997917267e0955ba35602e374907d78de",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived.meta",
+      "sha256": "32ac24636c6193e4a2f9b37e66a466c385fc8c5c2c67660e748188e292129d7b",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/01_hoi_an_H2_tiem_den_co_mai.png",
+      "sha256": "41dc2b2c9edd255a72649fef045bada62cd393cbd8ef72ae0e2d2ed6c4102781",
+      "bytes": 606591
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/01_hoi_an_H2_tiem_den_co_mai.png.meta",
+      "sha256": "bba4f6bea1c472e2dab0e52b665cedbdfe9bff3c715cbdffdaf2127b948238a3",
+      "bytes": 4117
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/02_hoi_an_H3_hem_mai_ngoi.png",
+      "sha256": "cf73ab44bad98cf8b409c830856d3d3f3c92aca42976ee579d19a5b1921a1ac3",
+      "bytes": 564757
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/02_hoi_an_H3_hem_mai_ngoi.png.meta",
+      "sha256": "9b89a4d0189e0585214a9841c8cd2da7342a2db2305f7ec38a3755c7efae7676",
+      "bytes": 4105
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/03_hoi_an_H4_cho_ven_song.png",
+      "sha256": "73911f85ee1078a5a0284128108d1a909f5ec5e8d007fdd4a31bbe776932713d",
+      "bytes": 597700
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/03_hoi_an_H4_cho_ven_song.png.meta",
+      "sha256": "5a41b971621ba2d82afeb0af21470e77b2af7a9c59dbe6b0fccae81e2769009f",
+      "bytes": 4108
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/04_hoi_an_H6_cau_co_anh_den.png",
+      "sha256": "9eb2de1176632295e5a3a2bad8de6933311bc38a5f620c15bd0c63791f0c5c0b",
+      "bytes": 580410
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/04_hoi_an_H6_cau_co_anh_den.png.meta",
+      "sha256": "44d46a6877a502fea7cbf188089c5bade8d5e351c728bbc0776f5138dcbf2184",
+      "bytes": 4114
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/05_hoi_an_H7_tram_anh_sang_hoi_an.png",
+      "sha256": "c824c60d037566e665c0997d3ee55b6a552f29cf142d76e3d2a570ee62af9b13",
+      "bytes": 568585
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/05_hoi_an_H7_tram_anh_sang_hoi_an.png.meta",
+      "sha256": "274717a2a157329877dc9d6eef43f9796e6762f19fff35b26dd1170dee39c285",
+      "bytes": 4132
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/06_hoi_an_H17_ben_do_pho_co.png",
+      "sha256": "7c2cc2bda82bb7f690d7b1d4cac40ed66008ee3686caf3c57932e16ce027b882",
+      "bytes": 551154
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/06_hoi_an_H17_ben_do_pho_co.png.meta",
+      "sha256": "36e701546b63360f7037e946d94af0aac94f0c5e37ecfb3e871928325e0c4dcf",
+      "bytes": 4111
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/07_hue_U4_dau_cau_vao_thanh.png",
+      "sha256": "daba19345aeb94b09dcc3b45207ae5d240d8eeb949c724444b9cd4e54d9d7750",
+      "bytes": 542391
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/07_hue_U4_dau_cau_vao_thanh.png.meta",
+      "sha256": "25bd91796e22928fb2e20003f2cd41ba5699d4aac70ece64cd71a8d42cdfefdf",
+      "bytes": 4111
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/08_hue_U6_cua_ngo_mon_cach_dieu.png",
+      "sha256": "9ae8fe825da66e1b44fe2f1ca84ec3ced8b1d942e8e1905b980697cd65ecbf1f",
+      "bytes": 555357
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/08_hue_U6_cua_ngo_mon_cach_dieu.png.meta",
+      "sha256": "d637ed53a01d8f320f6667210f02110cd21ea026c54c8ac39ac11973f7f5b24a",
+      "bytes": 4123
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/09_da_lat_D0_ben_ho_xuan_huong.png",
+      "sha256": "9aad81c59eba5e1296d0a8e62655b11b5a5a5f408e49a1bd5afa08f250bec0b4",
+      "bytes": 573737
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/09_da_lat_D0_ben_ho_xuan_huong.png.meta",
+      "sha256": "88f1d54d2fe1eaaa9940b2ff3907297a17b979dfb3bc07753bb4c1de18c77de9",
+      "bytes": 4123
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/10_da_lat_D14_dai_dan_sang_nui.png",
+      "sha256": "4bd9001d9a2c5676822ad26e036fcd8c9b05d8428101294d6d6a5d9b04afeee4",
+      "bytes": 557457
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/10_da_lat_D14_dai_dan_sang_nui.png.meta",
+      "sha256": "40ef94eb6bdc4b3315e2541ab53a6c42257a6c28e84807fd4ced8324aea63695",
+      "bytes": 4120
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/11_jeonju_J8_cau_da_tay.png",
+      "sha256": "a6002391b328992fb9668f5a482d6ef660e3500b7b0b12f592fc141f82ae9db1",
+      "bytes": 590119
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/11_jeonju_J8_cau_da_tay.png.meta",
+      "sha256": "9c8ceb7c589bef9a19c31cace9376c8189473e411fafb8d2c1d6c4b2018bb816",
+      "bytes": 4099
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/12_jeonju_J11_dai_ngam_mai_ngoi.png",
+      "sha256": "0c861952ad29ac4fd6466a1bbf1db6509a9e2394692b24d6c97b0062fae5e0bf",
+      "bytes": 553783
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/12_jeonju_J11_dai_ngam_mai_ngoi.png.meta",
+      "sha256": "49191352fc9a6c0daf2010ddef1c529b8954a9e6bd952e1f33789b18f91e935b",
+      "bytes": 4123
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png",
+      "sha256": "109c6e9c6ca235f99f46dce5d0b5e72b56401b4805f0b440ed75c13de285c078",
+      "bytes": 626646
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png.meta",
+      "sha256": "ca50c3b5776d4affdd1d6696ca96f486781205a23e9351d61e743e551f04e7df",
+      "bytes": 4168
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/14_gyeongju_G14_kho_ban_khac_di_tich.png",
+      "sha256": "5cbeb041ea617f960054480309c4f8dfaea64b738ec65287bcfaaea66b8fc38f",
+      "bytes": 608548
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/14_gyeongju_G14_kho_ban_khac_di_tich.png.meta",
+      "sha256": "db748a8d77db96d9443f4a98b9a6c93ce8e5c18ff8dd510033527027dc951ad4",
+      "bytes": 4138
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/15_gyeongju_G17_dai_long_den_bo_tay.png",
+      "sha256": "b1e21333ed4f78c97aa684ad7c8ca25db2a6233b4e7add1786c8411a4d7a3309",
+      "bytes": 556333
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/15_gyeongju_G17_dai_long_den_bo_tay.png.meta",
+      "sha256": "025296600f2a67a0577661991f01e5613d8b132db2af0360f4276e07e680b32d",
+      "bytes": 4138
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/16_seoul_S2_cong_thanh_xua_ben_song_han.png",
+      "sha256": "657e8e1d83ac9fd3207a266a83123233f3a3522ddbe3b0fc9a8e3c301c77067d",
+      "bytes": 580725
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/16_seoul_S2_cong_thanh_xua_ben_song_han.png.meta",
+      "sha256": "ef8ca405876e8351b874140f96f8c04ecd1ac73f9b1a7ab3a8d58f40331294bd",
+      "bytes": 4150
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/17_seoul_S10_chan_thap_n_seoul.png",
+      "sha256": "f8d6cf36a830245385b8799b7c1c297f2d5f82c893a0bb2f64ef0af4d4c9a6a7",
+      "bytes": 583766
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/17_seoul_S10_chan_thap_n_seoul.png.meta",
+      "sha256": "f6db057f2477cd34bcb25e27055915afee276fe04e233856bc757c11c64547c1",
+      "bytes": 4120
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/18_seoul_S18_role_anh_den_hanji.png",
+      "sha256": "6c2724a9bf68bf3fea1b81fa8b3b407e6c289aed044ee765b1ce839acc019ed5",
+      "bytes": 549309
+    },
+    {
+      "path": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/18_seoul_S18_role_anh_den_hanji.png.meta",
+      "sha256": "56390858c8fc77877f0f485865a7d4cb08d2a457baa50cc7c7d8e122c8e38b08",
+      "bytes": 4123
+    },
+    {
+      "path": "Assets/_Game/Art/Checkin.meta",
+      "sha256": "7da7a3e0cfb77efd4a0286bcd4d76c05876e0b7d4c8d14fd56d1851239f9cdcc",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Checkin/Item_Food_Postcard.jpg",
+      "sha256": "29716acbc71049f131a7ebd298b05a4738e11e52d80821f988637682db0dcffb",
+      "bytes": 77665
+    },
+    {
+      "path": "Assets/_Game/Art/Checkin/Item_Food_Postcard.jpg.meta",
+      "sha256": "bf6bd06a5b8425fc735c9da9b68bb7b06d9796425c9215318fb65120475b6b64",
+      "bytes": 3726
+    },
+    {
+      "path": "Assets/_Game/Art/Environment.meta",
+      "sha256": "29b54d15f4841b800b6a8953f7f7b11db26c3483424d730fa4c6b10f1a39cb7b",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/Common.meta",
+      "sha256": "b01d915bd9a62d48e1b8d4ebf41a2a35b18edcc12128b0a60d509e01b9c8ddbf",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/Common/UnitSprite.png",
+      "sha256": "e737dac8d0f4f8564bb2c31436ee4c84e1ac9cd308683b892176607ab24ad2e3",
+      "bytes": 75
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/Common/UnitSprite.png.meta",
+      "sha256": "899be8acf32e24381ff3fc73215d62ffb61fc57c42194baba2445c2a9d81c0cd",
+      "bytes": 3702
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn.meta",
+      "sha256": "d8f385cebe8cb6a8995e3e457d7b43cb8b83fadd535be57b36f843d81f5c6047",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3.meta",
+      "sha256": "90d134db2ea888b401217416e7550583eb84f0dd47923f09e511d6a82ce61d16",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Citrus_Pot.asset",
+      "sha256": "13e99eae08c49e6cbcf164c7973e8a1aac62b5780de6ab1802f47ce146a86d87",
+      "bytes": 5069
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Citrus_Pot.asset.meta",
+      "sha256": "678bfdaff239b3dd70463d5d06f703ffd3f0a80b8a6d13c214a4b561faebfd33",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Crates.asset",
+      "sha256": "65c45dc592c907854e230781240153cd3335977a3913085a51cb5be8ed80b15c",
+      "bytes": 5056
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Crates.asset.meta",
+      "sha256": "f063334d41f56b202e413803ff957d8d65e2f993d6f4ad82441b6dfdfbce77ed",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Garden_Wall.asset",
+      "sha256": "4486dfcc87bc84f0733d2f7dc62ccc8876690309c504d800a66e40de844d9e0d",
+      "bytes": 5058
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Garden_Wall.asset.meta",
+      "sha256": "da9884b3128deba133e07b373b3b3a75a206858ebc5ac1e7798707578bec3e7a",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_House_A.asset",
+      "sha256": "db1e6193b4a106c1a8e09cf126743e875e12441b3cac21d7d77413ef3a25c0ec",
+      "bytes": 5052
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_House_A.asset.meta",
+      "sha256": "af89ff935c6c157f929b1077020bdb47b85ec7cb29d06129c5c256d69717e703",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_House_B.asset",
+      "sha256": "b7f78ca5d13b55fbcd59df7fdf3950980b1f3510ae6c640b972a2cb312cf048c",
+      "bytes": 5062
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_House_B.asset.meta",
+      "sha256": "75071052b5732143d434148803a50aaaf78b1904d98863c78a67a766c70eef25",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Pink_Pot.asset",
+      "sha256": "4a11dab7dbbecf3d504341feb12fae044d38fce72b79df827b8a6f700d83ae9d",
+      "bytes": 5069
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Pink_Pot.asset.meta",
+      "sha256": "80ab313a287e11602d9f2a906cf5bcd7698b293f6ee6c38203e2d72b5a81dca9",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_StoneGround_Continuous_v1.png",
+      "sha256": "c3a6286160d6445fd901e84d183681cbd8e9883426e6b4d52f48ce66d92eab68",
+      "bytes": 3589785
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_StoneGround_Continuous_v1.png.meta",
+      "sha256": "65553765945ed179333459a792c088c9e34d3856501535ff111552e9357f6adf",
+      "bytes": 3758
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Stone_A.asset",
+      "sha256": "be5b870f3121639d0e84eda367794b73e27e05fa44727643b49fec68da822c5b",
+      "bytes": 5057
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Stone_A.asset.meta",
+      "sha256": "349efd45383d39abcc23d7d204c97f0d2509e8791a0ff04195bd7f35bb282381",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Stone_B.asset",
+      "sha256": "ec79763adf0b83e0164aca548897dc87ff6c3f84ace55e851507ea20eb621d44",
+      "bytes": 5057
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/HoiAn/H3/H3_Stone_B.asset.meta",
+      "sha256": "f428d7fa1173a3c1a6b479e1d1e37a77b9c6d0d239f854bcafe4e69a3c0d985b",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Art/Environment/OtherCities.meta",
+      "sha256": "c38f0b50675a96459ea782318ee994fb7bedf3ad6f398e5d83213aec324be63e",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Items.meta",
+      "sha256": "24c868197429a4fa966a83922c9001261f9ab1eb1699be1ce16f093731b04fe7",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Collectibles.meta",
+      "sha256": "6dda4ad2ab2adc42e07088accc891eb13f78ce5c442551ca6026b8159094e96d",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Consumables.meta",
+      "sha256": "e6498e61c97a05c27659203d9d615695d1244c41091ec6daee67ecd6713b3cbd",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Consumables/Item_Healing_Tea.png",
+      "sha256": "57500004d645b4ea4cb51b54c8a709921167756ef6211d789de2edbe625b3ce1",
+      "bytes": 1087748
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Consumables/Item_Healing_Tea.png.meta",
+      "sha256": "3da993931a15194ca4b88150fbeb8251014a8a406cccc18ff7594770c904b691",
+      "bytes": 6782
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Food.meta",
+      "sha256": "f42c5ad6b196ca5837dc47d192000de3be025c593bfe117394ba699eaa15eac7",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Food/Item_HoiAn_Chili.png",
+      "sha256": "2429fe53fba6cea003e7e5a2b4167cd463c3b7c6f240cc128f67c4a374681e47",
+      "bytes": 359972
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Food/Item_HoiAn_Chili.png.meta",
+      "sha256": "7cb697465d1470b9d19f7043821199b5a50bf963473354840072d42a97bbe42a",
+      "bytes": 3724
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Food/Item_HoiAn_Shallot.png",
+      "sha256": "13dbf720e393f07d6eb4582d51d6fe5dae0d2b3c85664272625ede68e4f7c32d",
+      "bytes": 681910
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Food/Item_HoiAn_Shallot.png.meta",
+      "sha256": "4a4cd9199a7104f919f170e995834fd1141d236547370a145b98ef082bf5d9f6",
+      "bytes": 9466
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Materials.meta",
+      "sha256": "87b84dc731aaa92b1263d652df0e175c2708d5e3aafbe805b893ffa1d2a8a359",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Materials/Item_Copper_Wire.png",
+      "sha256": "3ddf437a92fd2cbe8ceb5482f3076dec04be787b2fb7b93babbe2acc228e09c7",
+      "bytes": 1263704
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Materials/Item_Copper_Wire.png.meta",
+      "sha256": "8206affc3b8b8dc975e8184f3b8c227c15464fe4df6c1a8fc492f934c9c83a71",
+      "bytes": 6182
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Quest.meta",
+      "sha256": "62c3c001b41a8cc0dd27b43c7cf767a29a8bc825726a2f0248e9a3cf05d9560e",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Quest/Item_Hanji_Core.png",
+      "sha256": "fd33b6edfac07d0d333c6fc68ce5e44c34f0139b0aa1db01c8147a22fbd050d6",
+      "bytes": 1478432
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Quest/Item_Hanji_Core.png.meta",
+      "sha256": "7c2e1291f65fb4e37ac795bb7e469d1de0bbfaf543a45c575977b951a1db0041",
+      "bytes": 4318
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Shared.meta",
+      "sha256": "9832576052bd1ea86d196bfeaa9a51e15f3f1e6c83a5c2c66a57a20822c80e7a",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Shared/Interactables_Atlas.png",
+      "sha256": "2589e2717ea65536da7347670daf63d25f5b727b9c75f56a45c09c991f0215df",
+      "bytes": 1523368
+    },
+    {
+      "path": "Assets/_Game/Art/Items/Shared/Interactables_Atlas.png.meta",
+      "sha256": "e9642865a262dc7fb750432ecf00f9c8b53b883b362ef775eeae6cfccf7de5f8",
+      "bytes": 13471
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure.meta",
+      "sha256": "7d5fddfbc849136db3692c1677b70d2c712a556f90cd2800321b979f7695cae6",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds.meta",
+      "sha256": "aad360df3e6ac59d932257e0cb747c9d6e732ad41a450308ec6ecfcc67e6b7aa",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/DaLat_Kite_BG.png",
+      "sha256": "5976f81307dd1d81d6753594388b1f9b48098773399266de171f59b5266eec0a",
+      "bytes": 2952525
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/DaLat_Kite_BG.png.meta",
+      "sha256": "c7056fba423d1ff6b26d5522095bdbd14d2567167a5d48469da50c7b95998e1f",
+      "bytes": 4038
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/DaLat_Strawberry_BG.png",
+      "sha256": "aa3c9c6bb51928216f94725f7a70ef829b8c03d1db849d12b63ae60c506f37b8",
+      "bytes": 3213489
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/DaLat_Strawberry_BG.png.meta",
+      "sha256": "1d2f533762e69da1255d6f63b219fc9bbe654f5390a7673ee5ce9df92e8a6bc9",
+      "bytes": 4059
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Gyeongju_Bell_BG.png",
+      "sha256": "215875e83b10c8e4a887a69f865e18e9676b92240caabe0e97f0fa426e844067",
+      "bytes": 2772611
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Gyeongju_Bell_BG.png.meta",
+      "sha256": "f5379c6a99c7e5648e30cd59f513aa27dc2c74fbec2036757e1d2c9edb820af3",
+      "bytes": 4050
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Gyeongju_Wishes_.png",
+      "sha256": "c3a7753e0a0dd2451e55eec01cab18a9893a17cdaf972c812bf0b710a8477dfe",
+      "bytes": 2820296
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Gyeongju_Wishes_.png.meta",
+      "sha256": "2b06027df4b4289f5c51b113580a91963bc60257a8f26a0096f86b3509bc4f08",
+      "bytes": 4047
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/HoiAn_LanternRelease_BG.png",
+      "sha256": "79f8da273355511f5b4b068e26153957610be2c3a1c48e428e4b5577f205d2af",
+      "bytes": 2571799
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/HoiAn_LanternRelease_BG.png.meta",
+      "sha256": "985db429abb149f9febfe0bc3e74c1cc93cc334d43d7af14293f63502cd8a451",
+      "bytes": 4071
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/HoiAn_Swing_BG.png",
+      "sha256": "a51ae9efb2350d037ac455a588cf1a797f8831ccae23f84efe249d22ebf60e5f",
+      "bytes": 2837519
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/HoiAn_Swing_BG.png.meta",
+      "sha256": "6b7a45183a3cd0303051c519847c8ab44fcc97353cd711fe17850c2ebbf38f85",
+      "bytes": 4044
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Hue_PedalBoat_BG.png",
+      "sha256": "b26832c18b71d3cfed10e771766d53960ffb89fb7eedf397f94dcc1dd7ce0621",
+      "bytes": 2911047
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Hue_PedalBoat_BG.png.meta",
+      "sha256": "35112915a1087c04127ea0141cf91fcc90d389cc05ce8fada0b9eea79aab3ec2",
+      "bytes": 4050
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Hue_Throne_BG.png",
+      "sha256": "7411cd849738caf60b36731c48ce16d61ff69dbf5ff7bff01a7a11a846c23a8c",
+      "bytes": 2798597
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Hue_Throne_BG.png.meta",
+      "sha256": "065db828c0b7c8bb9575c02807c1e3084f864b5e25a669c22a8f2df8b2a79b36",
+      "bytes": 4041
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Jeonju_Tea_B.png",
+      "sha256": "a9bfc28c054331610bf9f58005efa8cb1461d5a852c33bd045d3f3ab459e5575",
+      "bytes": 2676210
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Jeonju_Tea_B.png.meta",
+      "sha256": "abf600da2b8307e4a48384a54b2406acf9ad9d10204722cb7d3fa6a8774b9c8d",
+      "bytes": 4038
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Jeonju_Watering_BG.png",
+      "sha256": "4db95f64718e979f8f911248fd77fa6a7d76e5603ca4304bfa06a6a15ed9314a",
+      "bytes": 2874785
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Jeonju_Watering_BG.png.meta",
+      "sha256": "2a02615ae511267b03ce576209e01dbf4559d5a28f74b610caad3ca843781c40",
+      "bytes": 4056
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Seoul_Kpop_BG.png",
+      "sha256": "ee215067cfd4968bb9618b0eedfc9c7c2cfbcdc49a45acbde5a2f1c82eb51511",
+      "bytes": 2681166
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Seoul_Kpop_BG.png.meta",
+      "sha256": "eba58b9082f728595c59bbba9ed26b6e3eabdfdeaa8d2e34c1a63757720871e7",
+      "bytes": 4041
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Seoul_Tteokbokki_BG.png",
+      "sha256": "f355a32088a3fcf012f7a30cad016aa0b9995b03cf7f48ebca0cf1dfd78b97be",
+      "bytes": 2717699
+    },
+    {
+      "path": "Assets/_Game/Art/Leisure/Backgrounds/Seoul_Tteokbokki_BG.png.meta",
+      "sha256": "c17be056acab332b45e95de07607d39638bbb6be8f5b74cc2aa4852ea026d1e4",
+      "bytes": 4056
+    },
+    {
+      "path": "Assets/_Game/Art/Maps.meta",
+      "sha256": "c9f74557b544fe6dfefdf98caf214e5f6f55d28e26894c77d210fe8824364ebf",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/DaLat.meta",
+      "sha256": "43e911fb043b7b889a05ab2986e60611270bf7b7b8bddf8775f6c071a37dc1a1",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png",
+      "sha256": "0b2872b62a8b06dc1c08095cdea20fb540385032a64782e59e20acf11c7a444c",
+      "bytes": 4064740
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png.meta",
+      "sha256": "8cc656026e45559bee47c6ac2e2b4466755886a19db08f0c2af353ed5a48cdb9",
+      "bytes": 3707
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Gyeongju.meta",
+      "sha256": "caea119105867e34afb7be6985a2cc4af564b1fbf901d0f351595091fc1f96a9",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_DestinationPreview_A.png",
+      "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c",
+      "bytes": 4079782
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_DestinationPreview_A.png.meta",
+      "sha256": "877f11edcc2916c860484a6d77a7a8daa0ab0cd86cffb0065da59e3207255495",
+      "bytes": 3716
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png",
+      "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c",
+      "bytes": 4079782
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png.meta",
+      "sha256": "b57becac2fb6699edc365240230926f6c5e2c9a22adac454f8547031adf7c678",
+      "bytes": 4100
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/HoiAn.meta",
+      "sha256": "d151e22e4654719ad1c204bc32613cb79c92b87016a5f52e97ec67b64517aa77",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_DestinationPreview_A.png",
+      "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c",
+      "bytes": 3694429
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_DestinationPreview_A.png.meta",
+      "sha256": "4871a9c187b2bb1f912287e649e24d1159491d4824983d5cccf4ae32856006f9",
+      "bytes": 3701
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png",
+      "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c",
+      "bytes": 3694429
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png.meta",
+      "sha256": "b4c734dbdda45ad902c0010204fe8d1f7c5cb09542a37be060e4f38dc7d2ba15",
+      "bytes": 3737
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Hue.meta",
+      "sha256": "7245ffc495a8513780c48c92ab601d9b96829b8072c3ae1ac41400a634201a5d",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png",
+      "sha256": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c",
+      "bytes": 4021351
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png.meta",
+      "sha256": "1ae16506ea568e0f5794d433efc1d1f40fb2b1d5b09d325e8ec7100c4e035cee",
+      "bytes": 3698
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Jeonju.meta",
+      "sha256": "6b68fa41f55530bf3dfb00321d6bf3bc7036abbf3ad12d15f7b6c0f3cc6bc593",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png",
+      "sha256": "f1260ef1b4f718b989d55d907f50c99c341081263f3470bfda2d6fab1d2926c8",
+      "bytes": 4330806
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png.meta",
+      "sha256": "0c030dae06d23c5a24c6a9ad078641000a186f14c47fc95ed28e680754df0197",
+      "bytes": 3710
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Seoul.meta",
+      "sha256": "9f3877d60cec5c64ca04fcd4f7ae8149832913fc6eddf370fcc0b95e9dd1a18f",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_DestinationPreview_A.png",
+      "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2",
+      "bytes": 4100855
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_DestinationPreview_A.png.meta",
+      "sha256": "0de6516064823411871ce90fca0a29d0eb0522de8a83c01dbabe720ddfa02e45",
+      "bytes": 3704
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png",
+      "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2",
+      "bytes": 4100855
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png.meta",
+      "sha256": "996b277505b9fad2c035bb26a68f782b864734fcfe5d11fc501e38e3ad44f968",
+      "bytes": 4094
+    },
+    {
+      "path": "Assets/_Game/Art/Maps/World.meta",
+      "sha256": "5cbafd7255c3e2a0348fd58d6413138d895a5cc014d940acecc7edcf17253776",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Markers.meta",
+      "sha256": "2a7b3a51d1443c7c633c1e5fe731843215f6e3f4f0f85424afafcde1f37e07b5",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit.meta",
+      "sha256": "03d2179c8d01e0bea68f006d30b399253bc4a73b75ac63fbff9d6f68627be7e7",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_available.png",
+      "sha256": "fbf9b899d66942db4c9aa77395689576bd23bed84088c5a77f76f275139e173d",
+      "bytes": 2656
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_available.png.meta",
+      "sha256": "b5d209134339990be86852197f4c915448f58c8f09394aa22b725f0349c4c8a9",
+      "bytes": 3718
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_current.png",
+      "sha256": "c158ac8b6173efcd6f48d813997012a0c96560aade9add6fd0fe8095f844e098",
+      "bytes": 2678
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_current.png.meta",
+      "sha256": "4c1636dad4d929179820e851fcc119d68b4d932abe61926f26b6c3f90e644e00",
+      "bytes": 3712
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_enemy.png",
+      "sha256": "75e2ac2ef640210cbd41e22b7e68da13a55f8696ed3f1e3d5b1c000db38759b2",
+      "bytes": 5548
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_enemy.png.meta",
+      "sha256": "efaeac1dd320edf0bd635c60740f3632f41f519bb517af777778dc92277c52fa",
+      "bytes": 3703
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_item.png",
+      "sha256": "e817bfe5736df505c5cb99d725d75f608b32144f010c54bfa7270e70354d377b",
+      "bytes": 3058
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_item.png.meta",
+      "sha256": "7e591567a5f943451d90139b56bd6f8ae80813fe4a98211364e19b848d4d5501",
+      "bytes": 3700
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_locked.png",
+      "sha256": "43324db67f19e50760f7b7c0dc1873dd6055dbc332b902730ac7c4bc30a55253",
+      "bytes": 2523
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_locked.png.meta",
+      "sha256": "24e02715ca8001f33cca1f042901903be737859987def1ab115b0dcb2b40a213",
+      "bytes": 3706
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_npc.png",
+      "sha256": "43187d191eee5a0cc522507724cd9ad0ab5d96adca939c17ad39d64be6dfc57e",
+      "bytes": 5125
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_npc.png.meta",
+      "sha256": "28a8d4c26869d8df8baa5e4584158635b9a05bf2b0639bdeb3505a8bcf77a375",
+      "bytes": 3700
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_portal.png",
+      "sha256": "694ae85241e294f6fea2e1ae4ec92c8cde4543336ee01e1c7692922badc69b8c",
+      "bytes": 8864
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_portal.png.meta",
+      "sha256": "d8dc672bda2c8d846f159b5443f8fb026cdd4b593ef7aaf45586a2ef51787637",
+      "bytes": 3709
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_puzzle.png",
+      "sha256": "87804335c1d770daea1717af15b3301fc1880154ce1fd97270eed5b386b9e49b",
+      "bytes": 4587
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_puzzle.png.meta",
+      "sha256": "2e83b1300cd6e91f0c9367f6268acdb7d3cecbfe36ddb96ceef23375428cbdc3",
+      "bytes": 3706
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_quest.png",
+      "sha256": "c896014ea01279e7adf886764693ff5b4fc416f220d535075463cf7f8e839832",
+      "bytes": 2826
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_quest.png.meta",
+      "sha256": "a1567a6b39328c46cc1bef54c81163dfc807e0a0e9482a358df301a7c56e159c",
+      "bytes": 3706
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_secret.png",
+      "sha256": "36c8905b0d1f210f4d77b4227530e551574ec1b425dab3fe44d8d77182d29e3a",
+      "bytes": 5189
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_secret.png.meta",
+      "sha256": "49f3350e6171ce11bd63076ae702fa7a181395c9c10ce6d7d74bb7299086b47d",
+      "bytes": 3706
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_visited.png",
+      "sha256": "f8989c43a9f5ab024b25484771edc1f5627b446d7ab217153bca0e0afb559b95",
+      "bytes": 2667
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/LegacyDesignKit/node_visited.png.meta",
+      "sha256": "5586add6d01519312b835f1d10a27eb48021ad65ef18f053585a1c86d3c02d53",
+      "bytes": 3709
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_BossAlert.png",
+      "sha256": "a6bcb5dfd5e58e06b0168a9306aea9a54bad0a44007083d334c92f0de5693c94",
+      "bytes": 948458
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_BossAlert.png.meta",
+      "sha256": "adc70330d971cd0a4ab18cf7a37e6a007b421105085cbc117d7f2d823847dae9",
+      "bytes": 5279
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Camera.png",
+      "sha256": "0649fd65b4954eac3b8058807b8e8bc087594749cccaa10d986c4359d9f5a513",
+      "bytes": 1092593
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Camera.png.meta",
+      "sha256": "79f885484442eb4d40ca984a83d4c611e3dd6e4beaa93953b63dbe90c0e01909",
+      "bytes": 4655
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Completed.png",
+      "sha256": "1785db3814d1a756dc018e0afbc58b9d13bf28906fddfd3eb470bfd2f22914ed",
+      "bytes": 1041430
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Completed.png.meta",
+      "sha256": "ac1039d5e7dac1cf63171cb52af8d550e6126759a45542f5b9d8b00d0f0722ad",
+      "bytes": 4066
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Current.png",
+      "sha256": "131982419a380ab48ed2619a8c5917310f0ceeabc7e0c2aa446c22c5590e261e",
+      "bytes": 810351
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Current.png.meta",
+      "sha256": "f4997627a9a5ba70302cf351fcd3e4ff91f6c9ed78f7da0c9e7d6f98547058f3",
+      "bytes": 14341
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Ground.png",
+      "sha256": "4f141d7abb3bf338e3f1c141fced01075501b8e17f1d5516902abf6d417e368c",
+      "bytes": 1182403
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Ground.png.meta",
+      "sha256": "881f400b0ff41e977c59009019cecea09422e145e5fdfb86731f65cf0adc5d54",
+      "bytes": 7061
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_NpcNeedItem.png",
+      "sha256": "410d80e8f97fbbb33b36735dff08709e5eef5181fdfbe28c7c9b1a49ad8b0a47",
+      "bytes": 1105479
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_NpcNeedItem.png.meta",
+      "sha256": "965727c1e2f539f1bdc757560ba902364ad43c64e532e3d7e91f31c7af0c8092",
+      "bytes": 7149
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_NpcTalk.png",
+      "sha256": "bf01a6e32b9a9a56cf0b7762d801589999e22a96a5a4e6555445b33d93e398c2",
+      "bytes": 944813
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_NpcTalk.png.meta",
+      "sha256": "997fcfd5835c67fcd697ff258bfdf314c64317e7999296f2913bffd415eec41f",
+      "bytes": 7674
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Puzzle.png",
+      "sha256": "03eb988775976885cbed252a9a2f0461e3f722dacbd6610e6f2b994cc47b7728",
+      "bytes": 1019363
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Puzzle.png.meta",
+      "sha256": "d2fe625af83a74e428089b8e3bd268549b1ac2ac3d88e896966b67b668ff306f",
+      "bytes": 5252
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Quest.png",
+      "sha256": "3b860755962338342a6d08a7b74546acabed150fe7dd0c24e2e3c73410647dc5",
+      "bytes": 1196156
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Quest.png.meta",
+      "sha256": "4fe1f0c982328b0492abf92cf0cc7b18b9721c933bf524d8cfb59b0f9699e95d",
+      "bytes": 4049
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Reward.png",
+      "sha256": "ca36129774dfb1d6834cc5f0b2864d28ca833a21fed7c71e0d3a5f034cedb1a8",
+      "bytes": 1071459
+    },
+    {
+      "path": "Assets/_Game/Art/Markers/Marker_Reward.png.meta",
+      "sha256": "41c11a349a53d8d92b2e29c24cb6e86d051f9ae01f4f639c517e4afef258f1b0",
+      "bytes": 6452
+    },
+    {
+      "path": "Assets/_Game/Art/UI.meta",
+      "sha256": "ecac1b8bcce1ebc2c0ea1097750e83f17fc6799b1695b68a146090388d5b4851",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/UI/AppIcon.meta",
+      "sha256": "3b5e8b16a90b97a10bb406f829846b3295514715118597cc842c37dd8fd5cec7",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/UI/AppIcon/LBC_Android_AdaptiveBackground.png",
+      "sha256": "33f2b6109f627e69658dfdcc7c9fc81f059aab75db39f6142c0a5700ca75ba71",
+      "bytes": 5629
+    },
+    {
+      "path": "Assets/_Game/Art/UI/AppIcon/LBC_Android_AdaptiveBackground.png.meta",
+      "sha256": "1748ec02cd5af1b0ff9b9ec87662ccffc53b2b1f3b650c2c1c5b2ec53f8c4920",
+      "bytes": 4087
+    },
+    {
+      "path": "Assets/_Game/Art/UI/AppIcon/LBC_Android_AdaptiveForeground.png",
+      "sha256": "c61eb21ec13a2a24021f84fc2fd732943ed8f6da11cebcc9ae34dea82f627a43",
+      "bytes": 204186
+    },
+    {
+      "path": "Assets/_Game/Art/UI/AppIcon/LBC_Android_AdaptiveForeground.png.meta",
+      "sha256": "ffaa93e90698a95ac39c27611fb51c06c786733126b270a76edcc9b2b595140a",
+      "bytes": 4091
+    },
+    {
+      "path": "Assets/_Game/Art/UI/AppIcon/LBC_Android_LegacyRound.png",
+      "sha256": "ad7afd863c8616d31c89f51cbc816b6091cebd46a7d55fc205fe54f77802011f",
+      "bytes": 453399
+    },
+    {
+      "path": "Assets/_Game/Art/UI/AppIcon/LBC_Android_LegacyRound.png.meta",
+      "sha256": "7085f5c906d35dbce0021e7a2a7039e8c683b3bafe00f1cdc1f6fae4b24f26c7",
+      "bytes": 4069
+    },
+    {
+      "path": "Assets/_Game/Art/UI/AppIcon/LBC_AppIcon_Original.png",
+      "sha256": "bc6935f97d4c886634ee256c1959d56333806f8eaaf857d75b835b036ee91c35",
+      "bytes": 1664191
+    },
+    {
+      "path": "Assets/_Game/Art/UI/AppIcon/LBC_AppIcon_Original.png.meta",
+      "sha256": "a0d40f7834abea2dbac31b4a40f45f7737de1606d5f3c0d3e2055c3430923899",
+      "bytes": 4057
+    },
+    {
+      "path": "Assets/_Game/Art/UI/Buttons.meta",
+      "sha256": "0de2a6a5c123c234e23db37620ec29414c76c5d41104b4fd4cd9dfe677de4d40",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/UI/H3.meta",
+      "sha256": "bb647fd254133d96e1e085e4c01f7f72db04db0528577b16489efe27181c4dc8",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/UI/H3/H3_Cream_Frame.asset",
+      "sha256": "243374a67ab675ea67de4f2f119fef0b9c612e3cba6e0a31904f0993ae285245",
+      "bytes": 5067
+    },
+    {
+      "path": "Assets/_Game/Art/UI/H3/H3_Cream_Frame.asset.meta",
+      "sha256": "66d401ded2269310f8ab90403b3da45b14c8ec5c49ad8179601e524f96343d2a",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Art/UI/H3/H3_Gold_Button.asset",
+      "sha256": "06a59fecf5e5da27bad20287791199be4414fd58dda401e8d83b673abc5a4e95",
+      "bytes": 5073
+    },
+    {
+      "path": "Assets/_Game/Art/UI/H3/H3_Gold_Button.asset.meta",
+      "sha256": "44bb8ae44b26f6694d8f6728ed4f7ee1b88357cbcdffecb623c26ab046b34bcf",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Art/UI/H3/H3_Teal_Frame.asset",
+      "sha256": "d5bd477b51c334dac1b3c4d5e6cebde312980cd3287f559e97c6e85f8ad4a27b",
+      "bytes": 5068
+    },
+    {
+      "path": "Assets/_Game/Art/UI/H3/H3_Teal_Frame.asset.meta",
+      "sha256": "c1eb44297e5aa04408217e48a886c82d71076a9f052f1a69ac707c461c645a5a",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Art/UI/Icons.meta",
+      "sha256": "48ca7204fdd06b70d8f07717729260de1651fdfdbddb972e0c83993ec0fede24",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/UI/Icons/UI_World_Globe.png",
+      "sha256": "f7800c93bc7c27562016515ecb29a5904cc1ff338133fe79c273f97d50c07608",
+      "bytes": 1214115
+    },
+    {
+      "path": "Assets/_Game/Art/UI/Icons/UI_World_Globe.png.meta",
+      "sha256": "4950a6b65d4e9c6f4cc022eafdfc5f9b58ffccbbd50c7655f32d092e972bf02f",
+      "bytes": 4327
+    },
+    {
+      "path": "Assets/_Game/Art/UI/Panels.meta",
+      "sha256": "88be26f0da37d02acd23b4636eb50c552e0bd27d813884f05b9f182dc21f88f7",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/UI/Panels/LBC_UI_SkinAtlas.png",
+      "sha256": "65100dcea7fa62d7cdd08cd1287f3aedea928e43a815bb2f356d8d4032a43dcc",
+      "bytes": 1950810
+    },
+    {
+      "path": "Assets/_Game/Art/UI/Panels/LBC_UI_SkinAtlas.png.meta",
+      "sha256": "cb15fbb7f1ddd086387f2f3339cdd8c7fcc022c416bddbaac04fe2ab60d9791a",
+      "bytes": 6928
+    },
+    {
+      "path": "Assets/_Game/Art/_References.meta",
+      "sha256": "e220cd0acd3fe182595e669da2c7b28f212e83025076f6aff942a66c82d7adab",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/_References/LegacyLumi.meta",
+      "sha256": "14f5d7891f668b408207225afb0b1d2f04edf2903b6fb0f37b890ef609f23098",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_128.png",
+      "sha256": "a150c83125508853f9a7643f45c9e5820e05c96321e9e054f101f4b81470b3e2",
+      "bytes": 15761
+    },
+    {
+      "path": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_128.png.meta",
+      "sha256": "2f135d3ef9727082d7ad1aaecd343db70b2b210093fcad8bc1bf18fe699dccde",
+      "bytes": 3732
+    },
+    {
+      "path": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_256.png",
+      "sha256": "95061774ab06032908a131864462f7ed8a3a9d6b98eaa723a787450263b763bc",
+      "bytes": 51591
+    },
+    {
+      "path": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_256.png.meta",
+      "sha256": "9facc3b86bcf2a51dea34bb9ec5d1845ff401379b6065b756989502d914e31cb",
+      "bytes": 3732
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets.meta",
+      "sha256": "8ca66a30484e2c02080302eff33502d6ea37986fbcefb20906e79e4228cac800",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+      "sha256": "e41f2539663cd1c92975b9ba411fedbe7a23c0a143cd9da3241dfcc6c99e56ba",
+      "bytes": 450039
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png.meta",
+      "sha256": "89adce9beae3da3d54c078bf92ef34746b4b44b10f1665bef74f05cd41b41cbe",
+      "bytes": 3724
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Checkin_Postcards_VNKR_v1.png",
+      "sha256": "e51dce4e67c10c63dcee2e3bc3557fba58b6ac6588f3572fd4d8f3c2e59dbf51",
+      "bytes": 333363
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Checkin_Postcards_VNKR_v1.png.meta",
+      "sha256": "5ca7230ca345db14dbacae96ea57be072ae14abc942d21054574993a6427fef3",
+      "bytes": 3715
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts.meta",
+      "sha256": "75144d6e1fdda78908fae6ed562e4e062b15e3d6ce99572bed9b0ec408b5a3af",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png",
+      "sha256": "4a300ed9551394a40758140a7bf60508725f496eac2adf62ca48353f6ccf1a00",
+      "bytes": 1833722
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png.meta",
+      "sha256": "260b24d20ba41594fb58a2d400a39f20be1b64627da54f65ef4ca5badcbfab3a",
+      "bytes": 7074
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+      "sha256": "2b0cf2eaa0bfd0ca4b64ca06251adb42c53e4290b9281a1005babcd475843c26",
+      "bytes": 1627766
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png.meta",
+      "sha256": "35ed60ff925f6ebe58181376e962e249959cc8c4bf8ee96e1c8642dbc85a28dd",
+      "bytes": 7373
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png",
+      "sha256": "8d185c04b98bf723bafc91fe3b24710439c757d6d142a2b8027bca5e0028072d",
+      "bytes": 1205125
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png.meta",
+      "sha256": "4a7caeaee6d0537cfb802233736d39c0b91f32a7e86abde9e2b078282918d370",
+      "bytes": 7071
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png",
+      "sha256": "81c0820415a44a92256dfc758e119b36133c3e0a4ea59b831ad9ac0711d2e010",
+      "bytes": 2063794
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png.meta",
+      "sha256": "14b91901641fcd89e72dbb1ab7082c34ac5a9ec4b926d556a5f0f595032aab85",
+      "bytes": 6838
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+      "sha256": "3adb75d3069fd4f2ba48f43361fffc4f3a353e774c1db285d67d3eb361619934",
+      "bytes": 1561322
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png.meta",
+      "sha256": "e51d0ae3899757d3c5a8639047721d538c2ad02b8e09a9a864e712aa63fa73fa",
+      "bytes": 10493
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+      "sha256": "d7a458c02fdd86a4e2816569088c13a796b67214b229485776086ab8f7ffa04e",
+      "bytes": 1436998
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png.meta",
+      "sha256": "8bb2a5e3b3e9e458b9b959bf4f6e331ce8587d49dbd700efe390228af6d810f5",
+      "bytes": 6886
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts.meta",
+      "sha256": "98af50b7a3caeb1ccda64385a80f5559153c2b27cebeb23b087a6be20210a550",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_fog_boss-draft.png",
+      "sha256": "58ee58277bd6dbed804b4f40896792a95024afc72958b1231a73a40374e47f88",
+      "bytes": 2192505
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_fog_boss-draft.png.meta",
+      "sha256": "e2442da90a9ef334839028062e8c97c58837507e07cb2497679bd3862ac93c77",
+      "bytes": 3705
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_glass_thief-draft.png",
+      "sha256": "e6ff250e7fbc999150ceb275133ee5aaffff55c84458725b9476c618cfcf3851",
+      "bytes": 1443243
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_glass_thief-draft.png.meta",
+      "sha256": "a8c4b9c9b6c631326bda9e9cf4363951d7e5afc4f48dce73e34d9308ccfaa236",
+      "bytes": 6307
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_mist_wolf-draft.png",
+      "sha256": "89a77322cb06fd3b1b23cf8170d27805ccb6923a686f808c822f27fc722d945c",
+      "bytes": 2193728
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_mist_wolf-draft.png.meta",
+      "sha256": "63fc5c4034e86744d971b63c4e7b9850bb329f971d973e5a4a413955c0eb00ce",
+      "bytes": 4356
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_gardener-draft.png",
+      "sha256": "d2288715799d7c0fea7d5cd089f0e9d3027c7f3a7908d54bf049e75709be78ac",
+      "bytes": 1861718
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_gardener-draft.png.meta",
+      "sha256": "b4392a3b09a1cb688ab81a18cf69c43949f8eba644394279323680e4cbc3fab4",
+      "bytes": 5606
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_hungry_dog-draft.png",
+      "sha256": "6d5b4ac1f8401eabc503ac3663e07981d05b2255d6a308d97cddeebd104744f0",
+      "bytes": 2039262
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_hungry_dog-draft.png.meta",
+      "sha256": "dce760f54c0ec140c189584a60ace3ada4ad535afd03f13a4feccdc461ac1788",
+      "bytes": 3705
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_lan-draft.png",
+      "sha256": "4a3d17cf807d2beabfc46307c63abf5804ef2e807df4e4a83f62be1ed6ada61d",
+      "bytes": 1817740
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_lan-draft.png.meta",
+      "sha256": "4f465f89329571c96e95c5a41424715c2ce595d187d5053cd8d63a089e749e2f",
+      "bytes": 4930
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_thuy-draft.png",
+      "sha256": "80fd3412332ed28ceb6745e33fc393ca0cf07f28a25a57b0824faacc53cf9897",
+      "bytes": 2062709
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_thuy-draft.png.meta",
+      "sha256": "960be1726a54afea37d3ad270e68cca8da5594bc2df130866d359c32d83ca868",
+      "bytes": 5559
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "sha256": "7aa3ef410c2af2a29bf36840b46313f107857a5cbe2d60b41f4845cbbbf9b204",
+      "bytes": 2379057
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png.meta",
+      "sha256": "8d64369887fa6073e6b1885c528cd0b8231ab575c21e6b909f6c93f56875cb09",
+      "bytes": 27782
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016.meta",
+      "sha256": "d9cf8fc2155b1d6577d92caa06e28dd5bdbd627c2a749abf14ce9fdaf92ff546",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_01_VisualTarget_Reference.png",
+      "sha256": "ba764324ecf39b7c05c58f807e352db1c65d100423c65d6a582e41d0a2ef18a0",
+      "bytes": 2344063
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_01_VisualTarget_Reference.png.meta",
+      "sha256": "42a90be103a51288dfd339f840190706d3d21d54ff31a41d76c571f16a27f687",
+      "bytes": 3725
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "sha256": "a93dd7c9de3afdb6e48c2e4ebaf1695eb1956e589477f3f60829c1faaca38329",
+      "bytes": 2725059
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png.meta",
+      "sha256": "1283498fbb45b0b01edac01eb39dcc7fd5f929ce0601e906800772fe279bec51",
+      "bytes": 5134
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_03_UI_TextBaked_Reference.png",
+      "sha256": "0402a6a4db4dcd1bb246f5aff7067ad7f63c8675c35879e0659e928848c36e81",
+      "bytes": 1888516
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_03_UI_TextBaked_Reference.png.meta",
+      "sha256": "b52e4bfbd8fbdd2857fad80e16658c9966deaae8f10818a26b913106da743862",
+      "bytes": 4400
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_04_Lantern_LightFX_Concept.png",
+      "sha256": "85197d042b073b684da3dc010dda798909f927f542939ef84bae0fee35ac1ed0",
+      "bytes": 2065883
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_04_Lantern_LightFX_Concept.png.meta",
+      "sha256": "1aa6a4d8279e1e6416db9845c6a5d7852af2a40bb009f55d85426dfee2c8f4d5",
+      "bytes": 3729
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "sha256": "6863f0d25cdcc741b9995d990aee871fefc8e7b2bf6b8e0a3fc191445f408724",
+      "bytes": 2055781
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png.meta",
+      "sha256": "b2b795e64772388ed9c359c3aa03dbe0ec2fa229528f4ed3b5c79544a9add4e7",
+      "bytes": 7029
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_06_Markers_Interactables_Concept.png",
+      "sha256": "fc765ef932e89338ec65f433d823c1b55fb6e40ada64de6006113f73617fb7a8",
+      "bytes": 1665993
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_06_Markers_Interactables_Concept.png.meta",
+      "sha256": "e49aab3b81200e4876c04721944fb3408dca31fd906f08f254f88d7014bbcad0",
+      "bytes": 12717
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "sha256": "7cbef3187db3a532c2ddeb7906e5aaf0a2515c78f02fec086ba9fd7f89d971f3",
+      "bytes": 1969921
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta",
+      "sha256": "25edd102c65964ef934da4aafa65fd84b9f7f3d902b3784de7c4769a78015668",
+      "bytes": 24728
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/README_H3_Assets.txt",
+      "sha256": "290ebf59c6171caea8780e70a2c8fda974429f28e67d61337c69d4ca8dd02988",
+      "bytes": 2885
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/README_H3_Assets.txt.meta",
+      "sha256": "d25c9d6492ee28a3f4caaf29cc3f1835da00af914b8b58b5d26c3cc7eed8f26a",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/HoiAn_H3_Environment_v1.png",
+      "sha256": "b82d9bcbd728198365b6046f20aafe983a86513f1af6a4e4b6c2a645c33f917c",
+      "bytes": 1359579
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/HoiAn_H3_Environment_v1.png.meta",
+      "sha256": "37871fc955c893d1af33052d0ef1ca96f359b14d8795f21b9cc4c6d920d517ef",
+      "bytes": 3709
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemSheet_VNKR_FoodCulture_v1.png",
+      "sha256": "2598a2c23f4454d0600e6df7df7c68ead45b666c39d75be9e782353ababa6373",
+      "bytes": 2180847
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemSheet_VNKR_FoodCulture_v1.png.meta",
+      "sha256": "538efd48c630f9ecc06c53ae86ab5d835ab6b6f48cccb0cc96f31de322ae2222",
+      "bytes": 13153
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemsOriginals.meta",
+      "sha256": "ef460aaf21fd76cd225a787ad43777b5eb8cccc84e4d5533d3ae86dbad24e543",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Chili.jpg",
+      "sha256": "d3704b8a2c51f209ab0faa6d80c3d102b18b51daff8605756700ba7deec5b932",
+      "bytes": 45889
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Chili.jpg.meta",
+      "sha256": "d4064947d3072790dfb55e5484cb19d76b0d64d783a30efeafb2e7bb8484cfd3",
+      "bytes": 3722
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Shallot.jpg",
+      "sha256": "a04831e27615a92512c9a8a982de76c0dd9bd7371d3b6326b0346db757c241ef",
+      "bytes": 82331
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Shallot.jpg.meta",
+      "sha256": "27690a43c9ea63c7932ceb0a7de20dddeb9db408feea74ef82d5278b83ef6773",
+      "bytes": 3731
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
+      "sha256": "6e07f538417d56d94e6c2c97cd5c8b50f61aec868e4fb75d73c6152e440c03b8",
+      "bytes": 3679554
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png.meta",
+      "sha256": "d72efbfcc694f0ee5c0a11ce7abaf5150be7707c0f28d4c3481bf347b2b02708",
+      "bytes": 3705
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
+      "sha256": "65d7dd9931f85fe10941ffae77fa5e9688120cdb310b3a9174e4e562deb04e77",
+      "bytes": 3235950
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png.meta",
+      "sha256": "2b17d29efadc7549c8337722706c23c2f1b450d6377bf70da3d9cf3ffcbf0511",
+      "bytes": 3702
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Lumi.meta",
+      "sha256": "5286dc408672911b2267057d95073a5a818fc7404b0e20363a8bd5ca3f10bccc",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Lumi/Lumi_Character_Cutout_Concept.png",
+      "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b",
+      "bytes": 1108620
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/Lumi/Lumi_Character_Cutout_Concept.png.meta",
+      "sha256": "9ec424e6539f1f43f78e424ab05a33d443affaed0651f5f3338cf43c72fbbf10",
+      "bytes": 3763
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/UI_Adventure_Kit_v1.png",
+      "sha256": "787e43d1cff2f2caddacd09f2e0934a19a2de038cb4614366587fa167714bd5a",
+      "bytes": 392838
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/UI_Adventure_Kit_v1.png.meta",
+      "sha256": "91e3c94dcf3d66833f004541f4a03a0645aa303d03ff655300ed39a83dd706c4",
+      "bytes": 3697
+    },
+    {
+      "path": "Assets/_Game/Audio.meta",
+      "sha256": "edfbc2f342085445519a17cfd5ad1d3a9c22d891e1b93bb00fb63be8852b2563",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Audio/Music.meta",
+      "sha256": "97707f8bdec611b4839366642aadd56a802ee33ef003a69a7577a28a89faa90e",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Audio/Music/LBC_Battle_Korea.mp3",
+      "sha256": "039f56304106533e31117fe55c9fdef72b94165d2aa2bccc391977f9db978526",
+      "bytes": 3511882
+    },
+    {
+      "path": "Assets/_Game/Audio/Music/LBC_Battle_Korea.mp3.meta",
+      "sha256": "92758942b846fdd15b2388c508d7051b5dfb20e8c422b732551eca92b79379a2",
+      "bytes": 487
+    },
+    {
+      "path": "Assets/_Game/Audio/Music/LBC_Battle_Vietnam.mp3",
+      "sha256": "4c287d0123d1af4f07c876fd1793645a1a630b548b268fc27a139fea2bc5f385",
+      "bytes": 1945107
+    },
+    {
+      "path": "Assets/_Game/Audio/Music/LBC_Battle_Vietnam.mp3.meta",
+      "sha256": "514f2d007e250c0f2bb5de42a1fd55c4f3ca31503681d8c46c9f9daf6e51fe4e",
+      "bytes": 487
+    },
+    {
+      "path": "Assets/_Game/Audio/Music/LBC_Map_Korea.mp3",
+      "sha256": "c9f4d72735f652d0f5c831f1ccb9f87adc5d9c8029561edeb926c6531e949e64",
+      "bytes": 3933223
+    },
+    {
+      "path": "Assets/_Game/Audio/Music/LBC_Map_Korea.mp3.meta",
+      "sha256": "84378cd1533a330a2c37154bca6435f40cfd55873400dcd5f6bd5f9c6e46aa23",
+      "bytes": 487
+    },
+    {
+      "path": "Assets/_Game/Audio/Music/LBC_Map_Vietnam.mp3",
+      "sha256": "07d89386f8ae0590ae85bf6bda40b6141327e7ce63c99a8dac2c573596c0cecb",
+      "bytes": 3675081
+    },
+    {
+      "path": "Assets/_Game/Audio/Music/LBC_Map_Vietnam.mp3.meta",
+      "sha256": "bb3008c5b3f7f8b89f00db36b8c425c234bc854513e8e4eeff66e1b8aa0d33b3",
+      "bytes": 487
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX.meta",
+      "sha256": "55ef314df01b92f9376beecf1ab41684be79fd4c8ce71f266e51732642f257e4",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/Item_Pickup.wav",
+      "sha256": "93adb4df1966a1cb23fd255fd2ed0a6d3124779e79d769a65f880a3672ebb2c0",
+      "bytes": 33560
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/Item_Pickup.wav.meta",
+      "sha256": "20d35f07dd561d152a11a49efee2d1459f3a296be0156c019d095949b91989b7",
+      "bytes": 485
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/Puzzle_Success.wav",
+      "sha256": "34cb033509c4978c449b20ac587af446b22e93f7f994214eb763479a19f563cf",
+      "bytes": 72368
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/Puzzle_Success.wav.meta",
+      "sha256": "4606fe012f951dfa0eea327f0125ba26b94670f262d65fdffaf2704f5a5bb9b4",
+      "bytes": 485
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/Relic_Place.wav",
+      "sha256": "933d350af4aece9d1aef0160e28970b66bef19602b3a052789336fce4d63a15d",
+      "bytes": 22094
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/Relic_Place.wav.meta",
+      "sha256": "4e91c581a4af0bc4c16c31660a9d8c7d93f75637bb8a80afed6eba5f6e5c0df5",
+      "bytes": 485
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/UI_Back.wav",
+      "sha256": "1155c5543d26874a2bae6b64b10ee331b3b0a3f8948654f9467e09db5624aa8f",
+      "bytes": 15038
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/UI_Back.wav.meta",
+      "sha256": "845c969be0eaee52aa47e3d0f3c38b9c76254c395baf2a659ddebee1d48ff2ee",
+      "bytes": 485
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/UI_Click.wav",
+      "sha256": "6811785c176e6fa3472fdd3fb9f81116d733ba67214ca3e774357ca43be20da7",
+      "bytes": 8424
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/UI_Click.wav.meta",
+      "sha256": "278a03345ce17be5b1b16e0e555bb714ecf0b91153c6a275a5dfd95d259f0807",
+      "bytes": 485
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/UI_Confirm.wav",
+      "sha256": "a7961475ce9d8c432d01b894080e1d4f3ad67eed3a84dbe70a11f033f883235c",
+      "bytes": 27386
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/UI_Confirm.wav.meta",
+      "sha256": "aa77d2d338b1769506b6e304e5b8b513348522986512c7e9881a8485d6ee2d79",
+      "bytes": 485
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/UI_Invalid.wav",
+      "sha256": "7d749698602bf3ceebc79ce771c25a1d76f6dd1287aa34461e4835dc08ea70c7",
+      "bytes": 16802
+    },
+    {
+      "path": "Assets/_Game/Audio/SFX/UI_Invalid.wav.meta",
+      "sha256": "9038c5943b5807dc932ed618ccec96e2cf55fcdfe99cf10c030a17dd4994b8d3",
+      "bytes": 485
+    },
+    {
+      "path": "Assets/_Game/Prefabs.meta",
+      "sha256": "5c45b21d038e8c68ca02338febf1938ae0348130406d4f68c71568e17c26b2db",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Prefabs/DesignKit.meta",
+      "sha256": "23a8d7c1254e53f28e5d04b83e060b53fe8bbebe828bfc0eaa224e19d19f5758",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Prefabs/DesignKit/LanternPartMarker.prefab",
+      "sha256": "bf7888fb1019bf575dd69636a3d6c8c07c346783b71f91264e4f25ef97623bb3",
+      "bytes": 2596
+    },
+    {
+      "path": "Assets/_Game/Prefabs/DesignKit/LanternPartMarker.prefab.meta",
+      "sha256": "8acd438b7db0c510aba38eb1e232d6a33678a03b94cdef0573f8e8d933f11e1a",
+      "bytes": 154
+    },
+    {
+      "path": "Assets/_Game/Prefabs/DesignKit/LumiExplorationSprite.prefab",
+      "sha256": "0b46424059b44711d6e1deb61000420030e5445d4ae86f880d86fb208a3a2dba",
+      "bytes": 2622
+    },
+    {
+      "path": "Assets/_Game/Prefabs/DesignKit/LumiExplorationSprite.prefab.meta",
+      "sha256": "a5f5227458ec69cb6e27ef2ecf6c3eb5c2c794cb50dbb091dce93043d797f903",
+      "bytes": 154
+    },
+    {
+      "path": "Assets/_Game/Prefabs/DesignKit/LumiMapToken.prefab",
+      "sha256": "927958ba6640fc700caa6dc8e9f003df79494d31dd389528a0622afb31bbce1d",
+      "bytes": 2595
+    },
+    {
+      "path": "Assets/_Game/Prefabs/DesignKit/LumiMapToken.prefab.meta",
+      "sha256": "1fce8f189784132b721939f07be9c44659a66f19f236853f399d04402b43e788",
+      "bytes": 154
+    },
+    {
+      "path": "Assets/_Game/Prefabs/DesignKit/NpcMarker.prefab",
+      "sha256": "014f57d5dbb010e103363fd47fb8a6c0768ef762987bcaccc8622b2150292c6c",
+      "bytes": 2590
+    },
+    {
+      "path": "Assets/_Game/Prefabs/DesignKit/NpcMarker.prefab.meta",
+      "sha256": "e416c1f3c270ae6a0860ac7020e72279873961fa6e781fae3094d8683fd4e1f6",
+      "bytes": 154
+    },
+    {
+      "path": "Assets/_Game/Resources.meta",
+      "sha256": "133efecd224810b862a55f097135c27dd90fb9648cac47998914ba6d3f71d31f",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+      "sha256": "c81142cfdafd896d37bc6483eb3a08b14051f0de066556307556d862ad3657ee",
+      "bytes": 83956
+    },
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset.meta",
+      "sha256": "2bb9e5f4d8feeaefb0679713f23c3b24dabaf70e010e2a2f59a1540646730081",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Resources/Content.meta",
+      "sha256": "152b76c983c729ec014c30e6f9bdeede9a55cadbe55fc58bd7a3879c432d42c2",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/AdventurePresentation.json",
+      "sha256": "8de10c1e6495f02bf6d4496989fb39f5f50b2b456ad7aded6a7f123c9095979e",
+      "bytes": 33843
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/AdventurePresentation.json.meta",
+      "sha256": "345ddae819f6cba282112d05c270b22bbd88339f6382c3f99d76bbb8c7e7c468",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CityNavigation.json",
+      "sha256": "890ccc4961dbc062a10e34f8982ae5a17e495052084984b5c8c8665ae0b63b2a",
+      "bytes": 778320
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CityNavigation.json.meta",
+      "sha256": "11b95d3dee5848136b2aece528a0b3d26217e8b267abcebf4b11c5b393ca99bc",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CulturalRelics.json",
+      "sha256": "d4e0297bf44094a1e742f5a6a206811360250753f74e480f4e65d0d9ff941a29",
+      "bytes": 321303
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CulturalRelics.json.meta",
+      "sha256": "f5995ada052088e177b06b768c052816a68ee4d406786539b3080936419fccc2",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/FinalConnectionPresentation.json",
+      "sha256": "08408e07dfec496b2e20555ee8e543fc9ed7f3a40afe5b62e41fbd9b10e47894",
+      "bytes": 1707
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/FinalConnectionPresentation.json.meta",
+      "sha256": "5a37576807564041cf3c0424ae609ba39e89ec583fa813f3be4e486f22ab05dc",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "sha256": "fdb00fbeb890b6886ba188f2c363914869b82c7d7389b20218bb158d4979f26d",
+      "bytes": 545887
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json.meta",
+      "sha256": "47992f9a551cd504a685788bfd6b8d58b416bc632507b0777675cb7741e53129",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/HoiAnLighting.json",
+      "sha256": "05846fb64fa5211641e628edb141896661a2260b6a2e3ddaeb58b6c72a08bec9",
+      "bytes": 7421
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/HoiAnLighting.json.meta",
+      "sha256": "252b56baca18c235185b54637e1ea0c111a27ba43686fdd37ea9d118caca345b",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/LeisureActivities.json",
+      "sha256": "bd130e52d5215d203ca281cb1c6cbb76204538caaa0da3ca01421c64ba34e35e",
+      "bytes": 6750
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/LeisureActivities.json.meta",
+      "sha256": "662ff926171897bdbe44a4023fe802ca6a361c2dd578f694ccbb132fed556857",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities.meta",
+      "sha256": "6034790f113f289fc9e743fb531675c799319b7920aeb8a3ea7429279ea32481",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/da_lat.json",
+      "sha256": "8710af0ec85ecd14912dfb0339324f0b0ba56b553d9f700c813e726782b69fa0",
+      "bytes": 27087
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/da_lat.json.meta",
+      "sha256": "d7bb03a44361f6bfd4c33d193229ac5734bc35350b79154e9a48f510af51ed30",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/gyeongju.json",
+      "sha256": "6ff96430d2f5fb4c180065e0c90063273bcc2cb1af4bcb62fde92ef6da7fcf9c",
+      "bytes": 26661
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/gyeongju.json.meta",
+      "sha256": "d4a024ff2caa335ba9ddf90f3cc25b87414b0fb872d69eebc8ba17c765f0ae9d",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/hoi_an.json",
+      "sha256": "2ca360dab3ac9492438101f80388dcf7056d86422ea9ef6287c6cc5648075ee2",
+      "bytes": 28033
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/hoi_an.json.meta",
+      "sha256": "37693c82f13de3b596f6a6218e2da18e35a6fbdd789ffca6e32f95dea22c4169",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/hue.json",
+      "sha256": "1e5d41f78dae9dd929c7705ec20d4ebfb460cfc2052ae94347ac6f4e19258548",
+      "bytes": 27017
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/hue.json.meta",
+      "sha256": "f991dab8382498084604f63c8151f3c5ed29a0cf6a7b1cad7176c771406aaf1b",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/jeonju.json",
+      "sha256": "ea2fed8c63d2e3c41f5d6d16dae4af110a4e44814f33fd3420ac5c56809f7403",
+      "bytes": 27687
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/jeonju.json.meta",
+      "sha256": "749194db16e9407145d2014c8085c5ddfee4e1eec875a0c8a592355e373730de",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/seoul.json",
+      "sha256": "1f0ee739aefe48d6f64fb43350d7e562cf30e1c47813b775489b83e1a3f9d286",
+      "bytes": 27841
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/SourceCities/seoul.json.meta",
+      "sha256": "19f81418721991703613e87bfb1f6814c61c41963752998ceda622bdf51a706c",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/StoryInteractions.json",
+      "sha256": "a49ec176de05b3f3baf96038634374d0d817bc660df1b90e8cf65f3200c4db30",
+      "bytes": 12398
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/StoryInteractions.json.meta",
+      "sha256": "37664ba337f3f3f7f38f0c2d11ed42cde4dbb38e1abde02c0a319ccdce224890",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/DesignKitArt.asset",
+      "sha256": "3b1bc0c94732e76854f80a69255c5d4db032a52324518e6e6adb3d4d927c9ae1",
+      "bytes": 1902
+    },
+    {
+      "path": "Assets/_Game/Resources/DesignKitArt.asset.meta",
+      "sha256": "56ed5aeffbd6e1a4746855704661c1ee3abe5fb558d5987dffb91685f36449cb",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Resources/HoiAnData.json",
+      "sha256": "e2961e1b1807325a071e4a52c26ca5708fc9b56fd2b39790f81c21b0fab49011",
+      "bytes": 26880
+    },
+    {
+      "path": "Assets/_Game/Resources/HoiAnData.json.meta",
+      "sha256": "c4b0b1e1572b740ca51fc4432afa578f54f1ef294928506949ba26be3076b0a5",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps.meta",
+      "sha256": "1189af185b34b1bf7d6b70159c0628aac4a902bd646a2fde56ce031cc822455b",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/DaLat_KiteRack.png",
+      "sha256": "b55b0f1778545873fc2b84c49df924353c26b652ce5c0b742c6698bfdb44f63e",
+      "bytes": 895160
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/DaLat_KiteRack.png.meta",
+      "sha256": "c8242ed99215050554eb1978c4476d6c8e25370867eb46b706d8d77ed94c2452",
+      "bytes": 4079
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/DaLat_StrawberryPatch.png",
+      "sha256": "8be6f30c7d322f276ec6dccf5c01cc3e5af01a4e34339a11865613e592e35213",
+      "bytes": 845393
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/DaLat_StrawberryPatch.png.meta",
+      "sha256": "6a732cd90654665577a3a4bd7c604aa6b8fb2b777d780de3f8117e8238483259",
+      "bytes": 4096
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Gyeongju_BellExhibit.png",
+      "sha256": "54d54255bb13a0507e051a95b8040ba355a02c7d6a9111005506f600da6d6e02",
+      "bytes": 912599
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Gyeongju_BellExhibit.png.meta",
+      "sha256": "6a74bff656199af82a7727efb15dec0f52edbcbf6625af4ccc720461bf2a1a3a",
+      "bytes": 4089
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Gyeongju_WishTags.png",
+      "sha256": "3d74828e0130bdd1ea558f413c2e7d8f12fb08b810f121de3eff10ecad3e552b",
+      "bytes": 599142
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Gyeongju_WishTags.png.meta",
+      "sha256": "d25fe8c938959bae5a35c20a27afafc77557fc16e6cbf88561f6569e682167bf",
+      "bytes": 4084
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/HoiAn_LanternRelease_Stand.png",
+      "sha256": "d11a73b0a7365cbc362446a06aeca2ced00384224a554fe2f4a3d330d7cd83f9",
+      "bytes": 611962
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/HoiAn_LanternRelease_Stand.png.meta",
+      "sha256": "c41bff5038bf36e6667795891d44226c2ded54a27cbad7895efc7486407a658e",
+      "bytes": 4114
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/HoiAn_Swing.png",
+      "sha256": "e45039cd7be59fb3f1c20353224ad17ca876814212d50bd9b2eb4b13e663adbc",
+      "bytes": 698463
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/HoiAn_Swing.png.meta",
+      "sha256": "07db0fa877d69edf5a2a81c8aae41f0e54dbb960cde2bd712ba2fe74d4b28bed",
+      "bytes": 4069
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Hue_PedalSwanBoat.png",
+      "sha256": "475191ec46a2eeea6ddd24cf99f6abdf14b8705bcec18ecfc97d86cdf9c8fcac",
+      "bytes": 651383
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Hue_PedalSwanBoat.png.meta",
+      "sha256": "18fe5917bc779169be48e22d76844ea751e616fc818d552ee644b1d1db4cf2ea",
+      "bytes": 4087
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Hue_ThroneReplica.png",
+      "sha256": "78e5520852ece6609f6444712077d7fc859bd692836980b9ec6986f3dd838987",
+      "bytes": 844178
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Hue_ThroneReplica.png.meta",
+      "sha256": "667e229618b5c919abc0f035ea111dc8ea39e60419451bcfe7ea5f710cbf15ce",
+      "bytes": 4084
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Jeonju_TeaTable.png",
+      "sha256": "0dbd4c63a23e1d5727368983c6c09234f52591c14d91a294142d3c48e1f701a3",
+      "bytes": 667568
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Jeonju_TeaTable.png.meta",
+      "sha256": "a94e8800aae04da0b85ed7bb2a51f3a6a5089d42a8724438ed227bc4b2c2e5bd",
+      "bytes": 4078
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Jeonju_WateringCan_Garden.png",
+      "sha256": "788102a2cdce2bd7fcc5602da124cef1b1f7f94133161d4c7a2be332bf710170",
+      "bytes": 780421
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Jeonju_WateringCan_Garden.png.meta",
+      "sha256": "ad3a81124e34318b80c6fb63a01cf99bf50e2fc033628aba141c6eb02812de5e",
+      "bytes": 4110
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Seoul_KpopStage.png",
+      "sha256": "8fc6a764ffb4d814c38430e216a92937be0e5ea533395688c11fcd92fc599794",
+      "bytes": 699483
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Seoul_KpopStage.png.meta",
+      "sha256": "cb3844d470cb3a4595e15b168c63237fa5a7eebf200556957c4f2fe95dd0ea51",
+      "bytes": 4078
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Seoul_TteokbokkiStall.png",
+      "sha256": "39e43731afa9d05dc79cf279ab5adceb8278fd945d1d92e9c33d467b971adbdc",
+      "bytes": 774093
+    },
+    {
+      "path": "Assets/_Game/Resources/LeisureProps/Seoul_TteokbokkiStall.png.meta",
+      "sha256": "1195ee1162d4311189ef3abd36efb9fd2ec95c5151f6d04855fa2e5ebb1555ea",
+      "bytes": 4093
+    },
+    {
+      "path": "Assets/_Game/Resources/SoftAudioClips.asset",
+      "sha256": "968e87cba980e5a7d0b0f551b6324278d4425579f8dec4e45d458c6c88362d9a",
+      "bytes": 961
+    },
+    {
+      "path": "Assets/_Game/Resources/SoftAudioClips.asset.meta",
+      "sha256": "044b1d489fe2f9d6011920fdf3afdb35afcea6155ba87d69976df1d1fc495ff5",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Resources/SoftMusicClips.asset",
+      "sha256": "17aa3d615794f9399504fb24ef2fde80313b08fa0880fd999c88f6aaae4eb81c",
+      "bytes": 842
+    },
+    {
+      "path": "Assets/_Game/Resources/SoftMusicClips.asset.meta",
+      "sha256": "06e9f7df031aa88f7dd3a57064989a297e26f6da558b8845e5b4e2f98270b111",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Scenes.meta",
+      "sha256": "c7ffe838f3dc66c7d446c3aa3e8c76b8d5f7740113f9e8914fa1a3c3c0ce4a45",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scenes/CityMap.unity",
+      "sha256": "55250d56f6ffd361faf7b6c7453bc8adddafb4db9c7df27ab24eb1b6da34d0ca",
+      "bytes": 7050
+    },
+    {
+      "path": "Assets/_Game/Scenes/CityMap.unity.meta",
+      "sha256": "f48fc4b16822527755a0245774891d7f8d64e83af12bfa58dcb954ee3751f786",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/_Game/Scenes/HoiAnDemo.unity",
+      "sha256": "447289dcf5765496e04cc8fea316687e3428f592b5f2eef69083e6373106e37e",
+      "bytes": 374384
+    },
+    {
+      "path": "Assets/_Game/Scenes/HoiAnDemo.unity.meta",
+      "sha256": "6b7af74068e3c95e0ef0192615066d06d5c8e7157380ec98a4ab10b015554d98",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/_Game/Scenes/Prototype.unity",
+      "sha256": "42e4558ec0ef05d17fbe7a35cc00a9891782f25d5009be470d3266dbf3f34b24",
+      "bytes": 10005
+    },
+    {
+      "path": "Assets/_Game/Scenes/Prototype.unity.meta",
+      "sha256": "61317e8d59b97301fadef43a346e5d951e901c14139a700a384f6d74fc9e5807",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/_Game/Scenes/WorldMap.unity",
+      "sha256": "c463c5bf3c07fdd48f0dc30ee9979f76ed62f7e0ca9397c7f8250879984021e2",
+      "bytes": 7052
+    },
+    {
+      "path": "Assets/_Game/Scenes/WorldMap.unity.meta",
+      "sha256": "7e009d29bbf793275a9acd76f9a9758acf00ab75a46b632952fee0fe6d51a267",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/_Game/Scripts.meta",
+      "sha256": "1d5f80f92b3d84bc9a162e792900fa11da38ec5b493a634df7841c9dfd83a399",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content.meta",
+      "sha256": "58d240995292114b0da2753fe92931b4f8d9320bd6895c53f2f39eacd7903c80",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/BattleManager.cs",
+      "sha256": "15ed346834a6757a3b6c46d1cff8419aefbef3a860a13032bf54cdbdc89cfe82",
+      "bytes": 8742
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/BattleManager.cs.meta",
+      "sha256": "eba51b045f1a34fd4b97bc7e39342a65f12002a8fffe7dfd19c9fb7af0dd6eca",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/ContentDefinitions.cs",
+      "sha256": "dd149fb96bb72ad6413999676c7ee63e041308fb1b91e20d9f7cb78ee7f5fe68",
+      "bytes": 9731
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/ContentDefinitions.cs.meta",
+      "sha256": "67bdfe77b7802a0b1f7992fa0637b48c45838211d964d181c08f6e9c80176c38",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/EncounterManager.cs",
+      "sha256": "56e44174cbf1cac9f1e945c041196d86584be419de7841ec694109cdbe3b90a8",
+      "bytes": 2916
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/EncounterManager.cs.meta",
+      "sha256": "e9ec22d04493c988315820d306d9311e78382aec7a4fab90e98a8e78c650ec9a",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.FinalConnection.cs",
+      "sha256": "097098c2d623b84cd774ff7e6cc4397b5eb43f90e417c23f3afacce7baa19565",
+      "bytes": 7162
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.FinalConnection.cs.meta",
+      "sha256": "b1bdfb4db2eda5f24df33a7d1beeea8a1b6b91275ffd4e486419ec0944313fcc",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "sha256": "caf1f4ff0b3327a77916eeac0db4619f17f3129641ab79bd95cfd8695bbc4a99",
+      "bytes": 32807
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs.meta",
+      "sha256": "1a497d437623012e3fa2f17fd387197b459f4ea231d65254015330037513913c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/PuzzleManager.cs",
+      "sha256": "78099df6f275bab90c3c39aeacef34b124f866c579dc3566c144e7d19df8b6bb",
+      "bytes": 7868
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/PuzzleManager.cs.meta",
+      "sha256": "34ffb196eb9cd7155e5d465ed9a4c5f85265daf16edb29b9ca5e9a36d39e8ae9",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicActivity.Trials.cs",
+      "sha256": "a83aa5962969ac72b0570d4a7543ba7e98dd32deacd14340d4751fb174641721",
+      "bytes": 5447
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicActivity.Trials.cs.meta",
+      "sha256": "149cee6167aa7b98ced1397aaef75ab35a22d7737e318cc73110d5e573c6a428",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicCollection.cs",
+      "sha256": "825b7a7f3fc317406b9731c51080670b6568a2dfd3d31dc92e05ff357eae1b33",
+      "bytes": 10809
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicCollection.cs.meta",
+      "sha256": "e76a4926ca80675fe17a8b8731fd92f87a8fdae061f72fd7f9cc70b1b30a4c72",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/StoryActivity.cs",
+      "sha256": "cb4a0ab370bb7e99500268fba85e5a459378d5761420b8e1698d2dd31ae3da5c",
+      "bytes": 3331
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/StoryActivity.cs.meta",
+      "sha256": "e06a6f67cdf6d8c0d0174ce4e5967c973f6a4aaa5e633abe0bf3bbfe23ff8c17",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core.meta",
+      "sha256": "a5f84eb48c41bdda2d958af1e3a7cd0d203a8e78ff823038b57e42d2b73f565f",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/CityNavigation.cs",
+      "sha256": "76f2054e11f7d1e3282121264f4e943d7c88177deff8c187dd3e94dade857bfb",
+      "bytes": 7697
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/CityNavigation.cs.meta",
+      "sha256": "fcad3baa2b5c0e1f814f324e60df697db49ee7e46756ef152b62a2515c25114f",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameBootstrap.cs",
+      "sha256": "874dfda02ca266e5e3d5ba5d4b429614130fd23cd5c9a12beaebaa70bd9eaed9",
+      "bytes": 4993
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameBootstrap.cs.meta",
+      "sha256": "c3ed498fdac6cd9e7ea2acb150254d7b9a681e526dee2d1a56402446909044b4",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameData.cs",
+      "sha256": "2b3d6e5b0b0e49028231f6671d5c79577ed860086b719ee52c93f3bde63af08a",
+      "bytes": 6027
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameData.cs.meta",
+      "sha256": "e1fe44b2630423dec7491fbf3fc8cb6e367fcc9a62cf56bece1ac60471c34167",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/Inventory.cs",
+      "sha256": "6e8f96322a33f026a48a0869a63dc547dfe3f3aca6add6c4794b6af69f5ab505",
+      "bytes": 1657
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/Inventory.cs.meta",
+      "sha256": "72ba0332f7d239ab4d1f5e97706ccaf67ae196b72741fbed7d0131db208e1662",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/QuestManager.Guidance.cs",
+      "sha256": "deed7f58ff7ae1957927488a5be024bcaeaf98f1a212eb9023ca15a9f9d760e0",
+      "bytes": 8466
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/QuestManager.Guidance.cs.meta",
+      "sha256": "b1045e322832cfb0ba1327240f9ae88fd8f4c836e600690e3e7d82cc27474608",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/QuestManager.cs",
+      "sha256": "50e132ac902efba45f9546eb355d3fba892c38395e66ddedbf35e0b113e26269",
+      "bytes": 8021
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/QuestManager.cs.meta",
+      "sha256": "1a9ef3fba65f7167a85f7e1ec77d1148c5229bb6e37bec26df2f874a66d87fb2",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/SaveSystem.cs",
+      "sha256": "ac3b6774596348f7936930a50ae3155abb1ebbac865f4f16d0f05b14f14813dd",
+      "bytes": 6171
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/SaveSystem.cs.meta",
+      "sha256": "e1fe8288da8cc7e3b16900cf8a3f1b397d98865a33dfdfff5817b5b0fe0b32d2",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/SceneTransition.cs",
+      "sha256": "f9aef22707c303af14f2d6aafd6d834b30b0c6d1ab67811c4a8a8339852586df",
+      "bytes": 1133
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/SceneTransition.cs.meta",
+      "sha256": "ac0ff31cb0a9b16f1a6655c37353dfe0c13e1b995476d61e7d8d102448da1b7a",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/WorldState.cs",
+      "sha256": "b6a5dc8efa118a5f4fce578e08455705bbfccefd4dcf063853eb658589249bae",
+      "bytes": 1060
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/WorldState.cs.meta",
+      "sha256": "71be6be47f03c2729f26e5be4b96558833c53c0f370dd0601668619ae3c6064e",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor.meta",
+      "sha256": "886f80602112be109e430bc98a71ba18b7fad30f56cd7d0bff1a0fc7547bcc11",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/AdventureUISetup.cs",
+      "sha256": "00435b364e5ef1aebf987d1a7620718003fdab1586b5527404837e776a64d281",
+      "bytes": 25133
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/AdventureUISetup.cs.meta",
+      "sha256": "84617f5214a1ace36fea52d5cb77121ff54027b8ef593be4cd0f414c23f58de1",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/AndroidApkBuild.cs",
+      "sha256": "7ec176ae71da9ee9e252c3c369c9c2bfd980928081987eaff8545fffd33607f9",
+      "bytes": 3976
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/AndroidApkBuild.cs.meta",
+      "sha256": "440b64e072626db889bc867c4f19ead866deb6046897b87aaec1c26fe2b34c90",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/AndroidAppIconSetup.cs",
+      "sha256": "0fa13f1bfcc2b94f8a0af202f6234d02c2c0d79617f94ca72e5e25aa911f86cf",
+      "bytes": 8891
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/AndroidAppIconSetup.cs.meta",
+      "sha256": "231cc0b5c1fb09096703a8d19ffe6f46f26eba63ff27706d2bb9680c4d9a900d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/ArtLibrarySetup.cs",
+      "sha256": "b92d8057a5190bb08c0ca984be9cb226ef5edb8236f7650a6fa9f5df6e7bc04e",
+      "bytes": 10782
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/ArtLibrarySetup.cs.meta",
+      "sha256": "829acae3ba27b1e43884b9e0f7c3a6667a4b2c946d5409acc528261cc0775f37",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/CheckInArtSetup.cs",
+      "sha256": "f096ea967043630ee634e05af54c1dcc421a8144387e92c20d1da6f687993ce4",
+      "bytes": 4464
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/CheckInArtSetup.cs.meta",
+      "sha256": "5b151537685da7b1e1182fccdba2cde1d79d232db49590bc5eceaa15792814f4",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/DesignKitSetup.cs",
+      "sha256": "e38e55e2aba5b83e9a3e55bb50d9ba06851b46150906ac56a2298602e56bca55",
+      "bytes": 12253
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/DesignKitSetup.cs.meta",
+      "sha256": "360c5dcf53e2b96a8129ad31c703af82c29eb61d713e7692e43fa29d70817334",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/FourTrackMusicSetup.cs",
+      "sha256": "326c923ba415d9edc2538b303c7a91a2274c54dc6e5042daebd3b59adbf31437",
+      "bytes": 2528
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/FourTrackMusicSetup.cs.meta",
+      "sha256": "e11c45478e64050ca83534340fcddb34adbc9592ad77a60512b7f47cb309c708",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/FullStorySetup.cs",
+      "sha256": "8deb4701f34ebc833affee03bb7dd370a06964c1c9478f5256499a4c74d909e2",
+      "bytes": 6567
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/FullStorySetup.cs.meta",
+      "sha256": "1f7313a0e3aa62fc1fdcf73e68362558ad66cf372652b56080dcb0720b6a3518",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/H3ArtSetup.cs",
+      "sha256": "a30510c21b8d56e1364f0e4691988ddd03695c9b8e40fa630e25b658c7aab354",
+      "bytes": 11016
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/H3ArtSetup.cs.meta",
+      "sha256": "08894b6b0d73930094ffb5c56e2ad531adc5885e37043eeee59e8bce69426a1a",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/HoiAnDemoSetup.cs",
+      "sha256": "5aa10e6e209aa6395c92bf5f866f77e53d20cd4e37756c9e02a79e138c6f8024",
+      "bytes": 10920
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/HoiAnDemoSetup.cs.meta",
+      "sha256": "d099fc06fd032f416939b945ec3d079cd081fcfbd7b781efba6de5d5d80e3705",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/HoiAnMapLayoutWindow.cs",
+      "sha256": "4b8551a7cff53b35d5bbb801dc2774150f2b587f311591249044f7e4e8ae7647",
+      "bytes": 5125
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/HoiAnMapLayoutWindow.cs.meta",
+      "sha256": "c0ac96d87ce510a7ff0bc3b74c5bc04b9f092d7e5540df9a3c226559e95d8e98",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/HoiAnMapSetup.cs",
+      "sha256": "68f429c5124efe2edf24bb34ecc01fb76aed5d5d3ae907e58742a9142f114c14",
+      "bytes": 2072
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/HoiAnMapSetup.cs.meta",
+      "sha256": "bfcb5b57c253b819b1ac74f17fb80f38b90ef84f408e95f746a482c0c431fcfe",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/LeisureFullSetup.cs",
+      "sha256": "d6ae6be82c4526c327897cc6c4aa3ef46cfa84c3b09c62120045e1144b620cf1",
+      "bytes": 1665
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/LeisureFullSetup.cs.meta",
+      "sha256": "d76f5686e5c154f439557abeb2edeecdbd4934abdeeb73431ed444ae45efb025",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/LeisurePilotSetup.cs",
+      "sha256": "9935dec61f41a276710b93e060b1d9cc3e8ce8147b5c2ee9b9ee7df40afa23c2",
+      "bytes": 1380
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/LeisurePilotSetup.cs.meta",
+      "sha256": "6661554a8e143f464427e6923cbaf37a307ed53851133a966c15e3046060e88b",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/LumiRoleSetup.cs",
+      "sha256": "a14079c1c268e1f0fd8b65abfac570d1d5b5b7e8e42ffdfc232c32721efcf2be",
+      "bytes": 9265
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/LumiRoleSetup.cs.meta",
+      "sha256": "b5eed2c13fd65455b29906da6b192ffaf1b715b0b1522c99ecf0b340cf4adead",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/MapClarityQA.cs",
+      "sha256": "052bc6088adccb497398d7025d57738617c3fdb606d1c59f2bcc9c4f94dc6117",
+      "bytes": 4766
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/MapClarityQA.cs.meta",
+      "sha256": "66b01e0303e5b5ea8445232b4515439e17b67f65021125655bd275e40eb04324",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/MapNpcMarkerSetup.cs",
+      "sha256": "731010f0d450e59ac7671670ff8d3d2f2ad7eb69bc2becd3ff2034186d3a8b73",
+      "bytes": 398
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/MapNpcMarkerSetup.cs.meta",
+      "sha256": "f15456f98137f354ed94c4a3f2cedfbed6b3e909891072868404f33df6fc5618",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/OwnerRouteAndroidBuild.cs",
+      "sha256": "b4f73a32f55e6fbb922eecb3a032ddcc4eec9d1ebca8b9d11bcbb4e17f73ac16",
+      "bytes": 2753
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/OwnerRouteAndroidBuild.cs.meta",
+      "sha256": "f76c69d75ff8f991b835e1b836f10974e0160546b8ebf7e09127033c4fbd0f3f",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/Phase5Setup.cs",
+      "sha256": "fd0e7dfb8de2e529408e542b30a1db5c0adec28f5cc0db83ac6fa938bec639ce",
+      "bytes": 1013
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/Phase5Setup.cs.meta",
+      "sha256": "18b3101eb2638c7378e10d674e8b94f9d314abba884b4bd44e960e3399a71d68",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/Phase6Setup.cs",
+      "sha256": "567bb8045dd6c8fa252fc3445cc18537d28b2ac7d221bce30d77aa7ac056cef6",
+      "bytes": 3254
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/Phase6Setup.cs.meta",
+      "sha256": "7552da2870da99dc71067cc845fee6378f8ebfbac3d7e66ca08d93d57beb1910",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/Phase7Audit.cs",
+      "sha256": "e91e7aea0ae2bef7d6592c32c4afb14a745962f0314dd5b89ccef8850763e40a",
+      "bytes": 5783
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/Phase7Audit.cs.meta",
+      "sha256": "e0c6c8c3f3b226da01491fa046995654965d2a4d4e643ea59b9c463a8e8f1046",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/Phase7BotSetup.cs",
+      "sha256": "0a644be8fd75bfa315e466e2c228e99c25cf6df70ab0fdc1162be12a6c7ba1fb",
+      "bytes": 3172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/Phase7BotSetup.cs.meta",
+      "sha256": "f8987bf803ec5718a154d58877294adc9f77305382bf9476d87880427744e28a",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/PlayerExperienceQA.cs",
+      "sha256": "4a07046209252943286d4491c737d782db3dc54ca8ab4ab39e45ac4172771958",
+      "bytes": 2949
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/PlayerExperienceQA.cs.meta",
+      "sha256": "62c6131567f5bf7709c196481d833ab3d48dbe340e2bead85e8686621416f6f3",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/PortraitRepairSetup.cs",
+      "sha256": "6a479cbcb9fba8d061eedcd24c034ae8a801b01c29ae79de84fc90a47000ff5b",
+      "bytes": 8487
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/PortraitRepairSetup.cs.meta",
+      "sha256": "1c3855fceb8b28153e12a7daf78ad68acdec9c8a1bdf86425bacf19bfab1dae8",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/PrototypeSetup.cs",
+      "sha256": "4cb5407f443317a03d1ffb246fadadd30aa0dfac4a4b54fc8d879a5124308861",
+      "bytes": 3035
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/PrototypeSetup.cs.meta",
+      "sha256": "25833c1f24b51d47ebc63f74cfe84ed93a6e05e50bdfdad0f356eab383a60f84",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/RelicPilotSetup.cs",
+      "sha256": "c384e8f36699c7bb36e294ff825a2bbdb84773e4a6508be7bdb73fdc7f281927",
+      "bytes": 9563
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/RelicPilotSetup.cs.meta",
+      "sha256": "b56852ee447f3a65849e4e0bad4c0d403945525a9d2466a40369c0856230fe27",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/RenderQualitySetup.cs",
+      "sha256": "315ad9d1985fc429bff0d6c8548b8124b1dcbb06f4f41c00d6fd0a4f2c2de702",
+      "bytes": 3413
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/RenderQualitySetup.cs.meta",
+      "sha256": "643ae73d36bccf8dcb1da1c62bf85c55b64912840ca0b5f7ebf0efae0a894b44",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/SliceValidation.cs",
+      "sha256": "30fca1f29d23f928285217224bac32b9f177398fef7d1eb8ac0ba60dc1ed09b2",
+      "bytes": 1160
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/SliceValidation.cs.meta",
+      "sha256": "5bc86d1654d98578ef507e0c9905c8de130cab34cd6a967f8bb934321bea591e",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/SoftSfxSetup.cs",
+      "sha256": "074ed421a63bdb2ccde609d26a735b3ca8f4edb5fcb7a47afba2da524efe1c40",
+      "bytes": 2256
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/SoftSfxSetup.cs.meta",
+      "sha256": "2a80e5e90ba54669feb463a66219ee429cfaf26c9ae833ddaf30a8dbd7c5ebe6",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/StoryLeisureSetup.cs",
+      "sha256": "1d7efad3c8ca5e0a6dff1f02a6a12f6b10372eceddca09ddf1bdb8e1d9c04b85",
+      "bytes": 2315
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/StoryLeisureSetup.cs.meta",
+      "sha256": "05f06a100ac6969d2234598fc17572c7108766d9d866b2375d76eca5adba8bae",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/VerticalSliceSetup.cs",
+      "sha256": "51d696d3cd753df8e9d074e5585d42511280fec359f3e9e0a3dc075a69cc8d56",
+      "bytes": 2195
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/VerticalSliceSetup.cs.meta",
+      "sha256": "cf53fccce383b916ce312a43d491d816cb77309e6dff5c2cd3e9ba04d49d404c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn.meta",
+      "sha256": "368b0385ad90ca7f64182989910a1b15829c1883a15c093d6a383a8c7b258ab9",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/DepthSort2D.cs",
+      "sha256": "a9e5e283cae812ddeae4a44347f3a62062fa2526d0d314a3e4f472daa78bfb19",
+      "bytes": 675
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/DepthSort2D.cs.meta",
+      "sha256": "02831c55f561ed60b38fa7ebf89bdf865332e7ec35ec05527d8fe6ca6a419b80",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/FollowCamera2D.cs",
+      "sha256": "55eda4a89ec033730f1f4bec59b1f336ba25bbe65d47897d070d3f9d45a3815a",
+      "bytes": 930
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/FollowCamera2D.cs.meta",
+      "sha256": "1e8dd92b879f48e71009151ebd2e8236c25f6edea4aeac8f96cf2e6766e57b77",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnGameplay.cs",
+      "sha256": "3ac319c5b36365bb7fe699e04b88738acc043800ff5e8f310909b83b7de42e6c",
+      "bytes": 8049
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnGameplay.cs.meta",
+      "sha256": "ed6cb8dd285a500b5f7286ee5b7830414bb2caeee09964a4226f207bd538fe29",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnItem.cs",
+      "sha256": "30c34885d6c0be09455b540fa92cb8168932b7f9d9d645140379c5a8ec9c5855",
+      "bytes": 493
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnItem.cs.meta",
+      "sha256": "93bc96d4eb2d04257062ab8d4584abe35dad2319b600365666281d39b8b0f05b",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnNpc.cs",
+      "sha256": "b7c9bfbcf5fa889b4dfc785bd923cd44ac569c46327e5889a174d74545d59617",
+      "bytes": 646
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnNpc.cs.meta",
+      "sha256": "59ec04f95afca449f1e131215c5b883e0b14cd31e9aed55e99ca5bf95bd26dd4",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnPlayerController.cs",
+      "sha256": "354cc147e6aa0961b285979a8763f841516cb9f27568a15cb45a36101f4775a5",
+      "bytes": 4432
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnPlayerController.cs.meta",
+      "sha256": "eedbd586a1f49c8e9812c4eef1f90ccfbb7a5850c5a01faca083aba19b1541f1",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/InteractionSystem.cs",
+      "sha256": "3cff4154ade69bface255e311638315cfb88886f1504b56f360d2cfe7f3c4df0",
+      "bytes": 5622
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/InteractionSystem.cs.meta",
+      "sha256": "1e96910cd6b8a070194154dc0e7153a5650f1d64e1480bae2b99c27a022d5d47",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/LumiStepMotion.cs",
+      "sha256": "93e3d147e218ea642f93920b9b3dfc5cd0afb1e3a08e6db06132fd7085f45e41",
+      "bytes": 1995
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/LumiStepMotion.cs.meta",
+      "sha256": "e266065522b8492a1a95fbaad2cb160a0ed912be0645d6c08fd0090edc246d9c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps.meta",
+      "sha256": "32d5c1ff3f1913e8e1ade9a8cc39442ce6e522635a3a198972ae75997f7f5aca",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.CulturalRestoration.cs",
+      "sha256": "e8e24f054123f79694f8fd2fbb551e18e9fb1d63f383ffab3c2dfbe4c9811c19",
+      "bytes": 6108
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.CulturalRestoration.cs.meta",
+      "sha256": "e17fc3018e1506bc9bc124ca9f24c551c6f8f5c907ed4ab597e9c0c0957c3b62",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.Guidance.cs",
+      "sha256": "47044983d0ae6b3b549c2efce2d9bc93a62aec8c9685e37e2c50b8319e7724aa",
+      "bytes": 1599
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.Guidance.cs.meta",
+      "sha256": "6abf59d7610071c919b614c2267e72ff30f724020cf3541ec3c431caa68397fe",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.Leisure.cs",
+      "sha256": "b417100d1a304eaf50f6e2a28c08a81f20049a4d0a6c093317c64cb3b0bf456c",
+      "bytes": 1635
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.Leisure.cs.meta",
+      "sha256": "e41c4c4e804c41720475a3f85ef878b0ad3c443fbf580304ace5ac0f894d505d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.NpcApproach.cs",
+      "sha256": "5b997b09f67ae8c5109ab0002251f817789772685e2afd2f08fe6601bd404791",
+      "bytes": 8969
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.NpcApproach.cs.meta",
+      "sha256": "d90b31b57cd30c56a045923474b9310892bb36846e0fe2c7dfaf160d11d76209",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.QuestReaction.cs",
+      "sha256": "32c88cce27f23f70142faeb21ce038bd8606d1df753f7ea92bd490f556e48669",
+      "bytes": 4423
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.QuestReaction.cs.meta",
+      "sha256": "e12159b48fd968f66cc14a69afd2e1743bc811d21161a8368f32535dc2920cba",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+      "sha256": "e6c011df75ff33478dafc609d05abc3c7e2f49214fb08dae4da3ae4b446da17a",
+      "bytes": 10272
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs.meta",
+      "sha256": "0ac5298753c855f618aa759765a9960cf561da9ee5b28918752cdf5b36971eaa",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.SignatureMoments.cs",
+      "sha256": "7ca81abf2c44eba3bf900facca22751b115dd3038c4ad8ddcee40609c41d4cb3",
+      "bytes": 2789
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.SignatureMoments.cs.meta",
+      "sha256": "b5e3871fae9298578b1d135844524563e7ac64b7ed481342477fbbc18892f789",
+      "bytes": 60
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+      "sha256": "65eda2a576201d37dc3a2718f8751b136885c126b7ec69785e6c777cda920987",
+      "bytes": 35808
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs.meta",
+      "sha256": "48b64e9cafea2222c148929e844b210ba048d547a48d9ec58102efc4fe4da260",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMapPaths.cs",
+      "sha256": "0934a2acc533f6aa4f7183bd3020df84920d2dfa8eb705735d9a4c164a2132d8",
+      "bytes": 8030
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMapPaths.cs.meta",
+      "sha256": "2a90bffebfcf5851196fc10fc94748d3e45a2a793730ecd194be3643e1ddc4c9",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs",
+      "sha256": "885da6298590cb9ad0e0696f84d20ae2902048f3532776041cef3c0636653807",
+      "bytes": 3607
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs.meta",
+      "sha256": "749309592fd6e1aeb579ba0e16f33b3e5aa013ecadd4b26ac345b527b76895e8",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MainMenu.cs",
+      "sha256": "1a411a29eb187b0fb011b36c6302b74ae5cbe69e15180c92072b7b91e263507c",
+      "bytes": 3483
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MainMenu.cs.meta",
+      "sha256": "656e9c17cdf6734aed2f014a2c20d0aa2255679a8c82904b28db428b6fd41d65",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapDiscoveryManager.cs",
+      "sha256": "a93a1b44ebc3b97ab1e77f9e709dcb02168de98c6199e6179c2797531fbf7b0a",
+      "bytes": 4034
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapDiscoveryManager.cs.meta",
+      "sha256": "bd8762862bba07bbbb378f08822ac8f814a3cb85b24cb86ff639ac4f4c267482",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapNodeHitTarget.cs",
+      "sha256": "cd8d3704ac5fe870c576c0ddb15da4ccd121278ac0db8f6e3b684334430e1bf6",
+      "bytes": 728
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapNodeHitTarget.cs.meta",
+      "sha256": "3e2a7c648707857e3e71c80a1b1563e664c4808ff3a548e3358ad2650db7ba7c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapPanZoom.cs",
+      "sha256": "35e0281f7dc34b869f7622285809980eaca553574c8426d534863820aaaaf11e",
+      "bytes": 8818
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapPanZoom.cs.meta",
+      "sha256": "068dc734877cb34e3613d2f48d5debd4c337fc95998345cfb7e119a21f03bd63",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/NodeMarkerResolver.cs",
+      "sha256": "393c2497330955993bd7da89ceaa6a9c86a539df7eec6ae62582728d2f76556f",
+      "bytes": 8535
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/NodeMarkerResolver.cs.meta",
+      "sha256": "82beeb7a054687f708896f8357adf87d53639fc14df76abcfc8c40763ac67dc0",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/NodeMarkerView.cs",
+      "sha256": "46d070322cc4d42af03995ce1b0bac04bacb14a7865300acf6c6e7fcfbb559fd",
+      "bytes": 11527
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/NodeMarkerView.cs.meta",
+      "sha256": "189e561edb03ee40289b156bff62b86ea45845553469e70ef3774233d80c6432",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/WorldMap.cs",
+      "sha256": "e16c9468be6dcab50baa532ebba4d1a4137c70c498da4602c2a74736f7dbf567",
+      "bytes": 7144
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/WorldMap.cs.meta",
+      "sha256": "a86681331c33bf7957acee3524047c9a6725653b5ffe73d61a4df8cb2f0d77df",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Prototype.meta",
+      "sha256": "2bede9bc7bedb2138c630e2c5479f61fd6fec944362d443f56bccf67ba95d289",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Prototype/ExplorationItem.cs",
+      "sha256": "d03b733181952436c9fbe1705b840118fa1bbb04819237a8009eb391b526abfa",
+      "bytes": 380
+    },
+    {
+      "path": "Assets/_Game/Scripts/Prototype/ExplorationItem.cs.meta",
+      "sha256": "0d4818c6ebd63a18b5a281fe92b27e6f3fbc22bb347b3574fd8c031d2f9247bc",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Prototype/ExplorationSurface.cs",
+      "sha256": "138ba25690f5514487bd8de855a46c81806a7da48cb94ccba25e5f464cef5299",
+      "bytes": 769
+    },
+    {
+      "path": "Assets/_Game/Scripts/Prototype/ExplorationSurface.cs.meta",
+      "sha256": "70cca5bc8a05dbf4bf97899972cef4051cf355e855a1dae4aaf23d8c90214277",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Prototype/PrototypeGame.cs",
+      "sha256": "1e5e515d2a58e2b25591f1c6c6057303ad25e5c0f3faa80db23df6aaf6ca1ea8",
+      "bytes": 351
+    },
+    {
+      "path": "Assets/_Game/Scripts/Prototype/PrototypeGame.cs.meta",
+      "sha256": "14025ca48f5d9d4ef855efcba74580e06a072e895ffc0ed739f5bdd1e1e4dcb3",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI.meta",
+      "sha256": "e544502273a47a5bb74e5dee5cb93733d01c7b697a23946761555d92e03c0510",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureIconGraphic.cs",
+      "sha256": "0a4dcabef4ce83291c2566585fbf849765ffeaba5d94f9014eab31b4e2fba351",
+      "bytes": 6648
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureIconGraphic.cs.meta",
+      "sha256": "0698689fa3004eda10b0ac32e88012adc8a515e97994a7d1350712a99eeb6636",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+      "sha256": "d9c92c226753907aab9db5e7f08e5eeffe0b028200cb4d12398b41541da66a71",
+      "bytes": 4587
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureUIArt.cs.meta",
+      "sha256": "ed9c06e4e1a7e34ebcc74ca22efb2282d13c614ceef14d7cde1156bb2a16d889",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/DesignKitArt.cs",
+      "sha256": "bda66a7a89872e3142897444cb4f07059334ab711feefdc4e8e5be24d6c5c322",
+      "bytes": 2221
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/DesignKitArt.cs.meta",
+      "sha256": "9ce1ec3b0fdf4664ba799932f51954798793abada9b67580693dbcc7a0e269bb",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/FramePacing.cs",
+      "sha256": "e323be52f1e0422d6a266bd426d3d39538d0665996268bf65051fb4a5da9a9a2",
+      "bytes": 621
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/FramePacing.cs.meta",
+      "sha256": "cc9d13b11986719cf7d54e64938b239cfdfcc7146d9250a3b9dc2df4b6e8ea07",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.CheckIns.cs",
+      "sha256": "ab93463a1ffb88b123d9eef2c48b84653d96cbe61e27f6a9c245f1ae806d5794",
+      "bytes": 10359
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.CheckIns.cs.meta",
+      "sha256": "9939586e4853db825ff9ab222e4a94e7d4c87c19681905e58cae2247f165953d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.ContextHelp.cs",
+      "sha256": "8524527d0d77689ed7d3e4172b9565808a8abd66b8844ffba8e5f9dfdbeff0ca",
+      "bytes": 5966
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.ContextHelp.cs.meta",
+      "sha256": "b0c97dcc1ccc087a870db3927b9a80706056354e87b690c76b3382e700e1540f",
+      "bytes": 60
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.CulturalTrials.cs",
+      "sha256": "760868e59d867f2c81decbf964de334a2726e2e6eddd682c7a1fa2dc71f62f04",
+      "bytes": 7843
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.CulturalTrials.cs.meta",
+      "sha256": "5eb31845e96a8cbd6b920c28257d849bf3606806048d3c868076e38746bd6e90",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.FinalConnection.cs",
+      "sha256": "b73ebcc5dd36f376c3814743ad4124cdb683eb16e9c2ac4a117932374b27f861",
+      "bytes": 7279
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.FinalConnection.cs.meta",
+      "sha256": "bb5f3c52735b2071726f257fc6ce8269833570e0b121e999b930daa56f3dbe55",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.GameFeel.cs",
+      "sha256": "6801d9c5e3f02dab4e3e59d696e64e3370b28f63b9f5f939a243d6e823707d5b",
+      "bytes": 3042
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.GameFeel.cs.meta",
+      "sha256": "9392f27f5e2b3efd078763016a6471aa9a247a175f4c41119ad961836ef65298",
+      "bytes": 60
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Guidance.cs",
+      "sha256": "0ed50226a562a213131173d3b5074cb5e3577ab0c00ab32d7ce263395b474e26",
+      "bytes": 942
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Guidance.cs.meta",
+      "sha256": "ee94294813ae61351bb743795c594596f3ff611daf3709f1d37c00c0c4698818",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs",
+      "sha256": "71787a1899e10638a5b7cfe18fa795bc36370a7ee973e15c858ac2598c0df0ef",
+      "bytes": 25096
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs.meta",
+      "sha256": "5c70a657e7ad44b564486f45e35a9864d3ea3ba90b99d173e3b561a9f9ab35df",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.LeisureInput.cs",
+      "sha256": "86337a5345c41e8945bc0fdb0155718331096e0dba4db1366fd4443c977e2cd9",
+      "bytes": 8833
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.LeisureInput.cs.meta",
+      "sha256": "5bfd3dc34d750b53aa83d75ad0bcd08c52792a5e97df903c10d19a0ce1cde95d",
+      "bytes": 60
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.LeisurePilots.cs",
+      "sha256": "94156a44cdc08e7107b1fdc49fb37cb4d173e21ba637a351a75d3a2325dab302",
+      "bytes": 14194
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.LeisurePilots.cs.meta",
+      "sha256": "ab134b399ea2354979c572d587c87aea6b04a787c37af05f3e6d7bd54bcb673c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.PlayerGuide.cs",
+      "sha256": "826c748c708ac4a531ac95873de8ace403022ae4a8dd878e4c734bd52bb98c53",
+      "bytes": 3750
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.PlayerGuide.cs.meta",
+      "sha256": "88046833df49e49bc5fb22c853780b2596e7b28bdf0d794bf36d6130e536b68c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+      "sha256": "d6ad4fc5514d04df1d38126e01e9841e828652c82dbeb34b2bcdbe0ae79c377c",
+      "bytes": 19222
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs.meta",
+      "sha256": "72dc15720ffba410f8748434e689f2fdcf180c3bfda3b80da685ea2b49864b25",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.StoryActivities.cs",
+      "sha256": "e1241d9f4e776b50034c85253740eacfdd061b69e0ea8703c263feb1e3e8090e",
+      "bytes": 12709
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.StoryActivities.cs.meta",
+      "sha256": "981359bf9ce852b8730d9990cabfa997bdcf25cfaec2fd148b5f64b4c5357e5e",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "sha256": "05a1378159f33b64adeb98d9d2840a6ac08024631550c6212b399a6dd24bc36c",
+      "bytes": 38615
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs.meta",
+      "sha256": "c81049dff8e2760ccf7f83563b0325f95b78da6e0a11d68ab89eaa8508f6e206",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/InventoryPanel.cs",
+      "sha256": "c4e9b5bb92a613466003d7a0fb460ac670bc88c5d32de702708e4724937f078f",
+      "bytes": 11018
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/InventoryPanel.cs.meta",
+      "sha256": "bad7113c1995490074d61efeeb0b871dd7b89df43eac8c686452739cab8a4d1b",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MaiDialogueController.cs",
+      "sha256": "7e4554951245e8254caaf223a4f1623e516e7afadcaaaee246016c030a0b39ca",
+      "bytes": 2923
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MaiDialogueController.cs.meta",
+      "sha256": "4b1ab3859adbfc709841cae40d937ba1b36e1257a8e58bebb4b05a9be67ccb71",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MapBackdropGraphic.cs",
+      "sha256": "f9fadce3c85b43c04f073877a1fd4bc27c585cee36b700a6eb6a88ab1e3b24c8",
+      "bytes": 3594
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MapBackdropGraphic.cs.meta",
+      "sha256": "a8b187e629001d4541ac7c3814d1880e50f55ebd2242c75717b8893883ed2ab3",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MobileUI.cs",
+      "sha256": "cf5502a99e16671b4cec0f700936979114f7a96b10c59d54e0998d69f64bfa34",
+      "bytes": 6369
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/MobileUI.cs.meta",
+      "sha256": "dec4a438d1b9edee3157d2629e2a86dd90542a12d77df780559d2cf7a191ff51",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PlayerCopy.cs",
+      "sha256": "682aa87d44f2ed22850707c388ad3ff96e395fe435c7843f1f88947c92184bd0",
+      "bytes": 16051
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PlayerCopy.cs.meta",
+      "sha256": "eff4f5d716fa3f4a0debb8b9de68ae2587a578b6a66e40bb89d590b47d74cdd9",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PortraitPresence.cs",
+      "sha256": "c1b8a85b1c89c1f59a7a5679906c2dca61f9bbe0b972891f197d1b35796c80db",
+      "bytes": 3541
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PortraitPresence.cs.meta",
+      "sha256": "e180a2fe8e86836e18979a322251c4c881f585df6951bbc01300b048850a49c0",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PresentationShapes.cs",
+      "sha256": "c49d7d3d6d4381187c0a6cef4ca6254261211eedb7e8826dd97cd50343e88e22",
+      "bytes": 1602
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/PresentationShapes.cs.meta",
+      "sha256": "d809ac1586847c4d96db3cae9d075b0eefc9a99ab328cc9714fa77bc3ce79681",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicDragHandle.cs",
+      "sha256": "8686ba04667cdfcb8f9c821d734870e97971e7f098cb7e4c3faf6140656bbf82",
+      "bytes": 2107
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicDragHandle.cs.meta",
+      "sha256": "799048cdc1518f19c5cdb277fa1eb1b283dc995ffda34eba98440a7d012a7423",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicGuide.cs",
+      "sha256": "c3131da17199faa4259fbaa418585d45ed582bb29985236618fe2b40de9e4f8f",
+      "bytes": 2577
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicGuide.cs.meta",
+      "sha256": "042202e90ab9609e6bd2617e9a30828104312784d392901520e1efdfefdbf1f7",
+      "bytes": 60
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicSurveySurface.cs",
+      "sha256": "55730bfc8c4e686356f5db20612bf11524fa2b909ad3d68833ec8af9963bdb09",
+      "bytes": 1108
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicSurveySurface.cs.meta",
+      "sha256": "e4b936fee787dad470d3c7f0819003d80b942dfb54a32e3571cf5ec65c51c669",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RoundedPanelGraphic.cs",
+      "sha256": "978e722201998aa95d8e0000bb9f835fddc8b8107a2a2f6018890c5baa0fd93a",
+      "bytes": 1215
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RoundedPanelGraphic.cs.meta",
+      "sha256": "836449b27fba0373c42aa61f39f0624e826e22c8ae779370bd686d4c06bc375a",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudio.Music.cs",
+      "sha256": "124075494f338c553b5c743a86256cf53968f85eb2bdd80c42b89d7d77f27f10",
+      "bytes": 3979
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudio.Music.cs.meta",
+      "sha256": "3ceeb1b030b97426860f0129851ee98e2aa35e3c909ec24b0836d0584e9d045a",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudio.Settings.cs",
+      "sha256": "65e2a27b9a2e355db6d57b49d2c70cd924433f935d7a5903995efa58a1c153de",
+      "bytes": 2867
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudio.Settings.cs.meta",
+      "sha256": "f731314ad594742a49451a9704a80547e16bebdf624f1f658727753026a4bb62",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudio.cs",
+      "sha256": "f59db0e5934d041fcb17113072d179b1c8161fa9b7174d075f39b6e8e1405333",
+      "bytes": 7604
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudio.cs.meta",
+      "sha256": "ea51cefb160c6c2ab5f9fd8e5423c98e192118a8804737ae62264667faa2d052",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudioClips.cs",
+      "sha256": "bab69749812d0e4d484a2720cf407263c4738d9c14ead6b893f3dea25d4dd2bd",
+      "bytes": 371
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudioClips.cs.meta",
+      "sha256": "7a1d2a692dab1cfb16b807de1b81fc5b12162495062e515741760548959f70ec",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftButtonGraphic.cs",
+      "sha256": "2646d0c81a6b50dadeeba6eb68aeca22a00876a97929a9c0767fcc21878ed0a3",
+      "bytes": 4590
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftButtonGraphic.cs.meta",
+      "sha256": "0804f9fa6366211e71afcbac759eff297088208c1df9a3e774e827decb7a0a63",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftMusicClips.cs",
+      "sha256": "b16c631d82654567ac0b5dacc22b4444fbfd88167b29fe5cf6709bf5827a31f0",
+      "bytes": 265
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftMusicClips.cs.meta",
+      "sha256": "07768e812461968a296c84f21a2b55f43717d701dcaabfb7bb2f505ba94cc19d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/TouchInputPolicy.cs",
+      "sha256": "d35160a87a3b3d446862a4e95ec52c82b3bb54c8f8aae4cbe04cd7b6371336dc",
+      "bytes": 4189
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/TouchInputPolicy.cs.meta",
+      "sha256": "f27ab57f5a5a4e2538f7d0e39edff0baa263c1fb3e244463d82200c4c342708f",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIButtonFeedback.cs",
+      "sha256": "5f954096eef5067117fcddc84db3e6551861a1b4b57605a214ec40197cb6a225",
+      "bytes": 2618
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIButtonFeedback.cs.meta",
+      "sha256": "9465614871047979aa99fe724305f09f3ed609563892329c6f50d51e816608f9",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIController.cs",
+      "sha256": "c5e39003b9899711f40b486393c7f9dfe0fb98a696c0aee449fab1b18757d979",
+      "bytes": 6126
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIController.cs.meta",
+      "sha256": "0c944ff4d973b0948d4699d132e7169c866f14feae14441f9e70e4b765d12cdd",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation.meta",
+      "sha256": "a1e8f7c81e6c2e46d90c71ff3674d8427fc50254e5a3dae425e8863ff69a1d9b",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.AndroidTouch.cs",
+      "sha256": "a02628b707e95d296dcec6d06c6abff40c68a04fa13bbdfb71319faf519b8f34",
+      "bytes": 13799
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.AndroidTouch.cs.meta",
+      "sha256": "4eacc51bf4bc27793bbe881671b154b8f4111f3cafdd5f018016cdffba269dd9",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.ApprovedRoutes.cs",
+      "sha256": "e382646b829c81ba7e9b5a540d72254aead532e6f8d03114c36b2bedc23702fe",
+      "bytes": 10489
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.ApprovedRoutes.cs.meta",
+      "sha256": "8b7b0fc37ec2641b49e26806d283e1f6a59336fc6aaa0aab95ab846594861c59",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CasualRuntime.cs",
+      "sha256": "4e16a79ca2e256334949b2334aa796d95518b263b0469ab26f3ca4db83cddf88",
+      "bytes": 10103
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CasualRuntime.cs.meta",
+      "sha256": "f13040169f283857922045a94cd2061126d632528637a98c6c875845e039c4cc",
+      "bytes": 60
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Chapters.cs",
+      "sha256": "595ddaec45b489407b88ffa498ff7a6ad5456e3c789b9f94364d5429f1f6dab2",
+      "bytes": 28733
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Chapters.cs.meta",
+      "sha256": "752cd4480bbd9cc29b6d304e81d60aacc53b4b07c379533aa266719fed96bb18",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CheckIns.cs",
+      "sha256": "fdc596a8baaea4112a093f7e57ad7975d1ead1509200a57e55bac33b7435ea73",
+      "bytes": 13414
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CheckIns.cs.meta",
+      "sha256": "8be280e3b343440ce38c8cd50788b5ab9ddc737bcbc7e65d7054b27919dd6496",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Contest.cs",
+      "sha256": "4698c6c948d57d97956a96d53d2c2fb4e2bc7195c9d673288d5ba9ac2e2d79d4",
+      "bytes": 4212
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Contest.cs.meta",
+      "sha256": "1857abd796c21629cd54a5b784623499299b5834b071b6fc5b2a4dae97b23063",
+      "bytes": 60
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CrossCity.cs",
+      "sha256": "5c788adfea9ca43a533e4d7e932e856a8e6ea76f3bac39880c6acd6c1b4bd22f",
+      "bytes": 22101
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CrossCity.cs.meta",
+      "sha256": "78e726ad1963ce826156ee6ddc21e5ee5667739a39bdfe2a378cd7adb62b5305",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.DaLat.cs",
+      "sha256": "ccccaea60fcb6ba2348bc8e51b890eb1bcf8a157e1924873228549ea4c226e83",
+      "bytes": 18449
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.DaLat.cs.meta",
+      "sha256": "a7aea81b38b3b9ea9b6391f41c4b241351b8e84622c62ae6975e7b6aa3268b37",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FinalPolish.cs",
+      "sha256": "bc5aa2ad7520037ae9cdd2cd19b3c4d8f0741f12b7e810dd9fbecc35c027382b",
+      "bytes": 5219
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FinalPolish.cs.meta",
+      "sha256": "45e1b39355c7fa39b61c9faaed9c9d3d0e4879705f7087975fe00e06c229a1b7",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FullStory.cs",
+      "sha256": "8fd89784cca44b98738734143bc441173d59fd694115bda2c5e734e7767a4f31",
+      "bytes": 21481
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FullStory.cs.meta",
+      "sha256": "4ae232d885e5845b240554af540a084f25663e27fad9bf542dc6957826b377ef",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.GameFeel.cs",
+      "sha256": "f77353e31d14b3b1e51628a2f266060a4d8c9a1fb723ac9109ba8aa664d86e3d",
+      "bytes": 12861
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.GameFeel.cs.meta",
+      "sha256": "3b63a045f073c4ac3c52c0e5d9c694f5936c1b7737260effe38fdfc54ddf75e3",
+      "bytes": 60
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.GelButtons.cs",
+      "sha256": "a9a00e5765517a96f8a920a46d4edb99dbf93d83ed90e258b356304c0917afd0",
+      "bytes": 5835
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.GelButtons.cs.meta",
+      "sha256": "9f5df89176940187cfbc9b69b8182e32cc8e85f2709e5d2b3e284be421d426ad",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.H3.cs",
+      "sha256": "f8737a21616b90fb6c8b6f08d4a1a314f7bcaacdc94cffa25764f1c4104f59dd",
+      "bytes": 14136
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.H3.cs.meta",
+      "sha256": "0e1cbe48f3bb70b1bf0064c33f914c362fd579271304047668ac00ff34921e58",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.H3Tap.cs",
+      "sha256": "3cf0fb23d74dd1d59c72c79e8810492f5fecfb4c1196b7a288724a1a966d8671",
+      "bytes": 6863
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.H3Tap.cs.meta",
+      "sha256": "90abaad83a2b7356b589856ce13bc41c5f0bbf886e17de194cfb1363618d5f34",
+      "bytes": 60
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.LeisureFull.cs",
+      "sha256": "32303a0bd333421c2e87666534db2439fe4be2df3bc0e16359459115d38301a9",
+      "bytes": 10360
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.LeisureFull.cs.meta",
+      "sha256": "072b97d12b709bea070c6c951b432067d5e62ad7d7547b5e9f1336a4ecfbc887",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.LeisurePilot.cs",
+      "sha256": "63e9931190b2fa20c8c8559f98a941bd73caf3dac289502d26b97dc74171389f",
+      "bytes": 15838
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.LeisurePilot.cs.meta",
+      "sha256": "3d36f5bfb3e0d6af7778383e24f49662933b7117846c824f112be00f0c69afb2",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.LeisureVisuals.cs",
+      "sha256": "47632dda5d6084886b8bd75fc729356e30b29bc28f6efccf915fa03c1f1b8ece",
+      "bytes": 5049
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.LeisureVisuals.cs.meta",
+      "sha256": "e1a14819f685482db7bc01b708b475b1bf2ded114af4acb72c639974810bf4bb",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Lighting.cs",
+      "sha256": "94b604077c3ca6cb3b2ee77b6ec9e6e45c5716706cf6a63abe7ac0e57b6991e7",
+      "bytes": 13265
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Lighting.cs.meta",
+      "sha256": "bdb99b77b86816fefbee52f5873a812012c2ed48b722b83990ad31d2469c3c82",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.MapClarity.cs",
+      "sha256": "5b69c407cad25f1a56afc74b33645d7594decfbdb80dd8ae28652c9c4937ac6d",
+      "bytes": 5777
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.MapClarity.cs.meta",
+      "sha256": "9b747c73f80d5a74b940af6677f21301a558b5b28051179d0d08b3e93de2172d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.MapNpcMarkers.cs",
+      "sha256": "bf84e1e6ba1c5f0537c2e2e8b4febf3aa1a14b650c2dadd5262ea4acabfa120c",
+      "bytes": 11471
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.MapNpcMarkers.cs.meta",
+      "sha256": "2dc5f0799cf78098d69c9859eb0d4a1a1b6562d55a5d1bece364512f0096426d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Music.cs",
+      "sha256": "2eb2fe8556fae7d2bb23a63d073d7276ab68ffc045c7d4f7980bc4f2ad8d40f3",
+      "bytes": 10177
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Music.cs.meta",
+      "sha256": "40fd7c4fd256992a3fe3ad67bd3fba1b5c12e8fb5d6943b7a48e20d3060d815b",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.NpcStanding.cs",
+      "sha256": "92c33259c515b8520b4230286f7a3b7a5696fc21cd6b66d40d75b2f5c14f9770",
+      "bytes": 13491
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.NpcStanding.cs.meta",
+      "sha256": "6009eeb479602ba7e2a0d52124f3952bcdad9fffcc6e3f3309d04bc500f2795b",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.OwnerConfusion.cs",
+      "sha256": "e52a4152036a260a549342454fef06126f63a1baf7424be1de515d0a7a9ede56",
+      "bytes": 17519
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.OwnerConfusion.cs.meta",
+      "sha256": "d2665b35057d2515e06aba9d84c85466a7fe052d6e182289bb0a807117bd4ff1",
+      "bytes": 60
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.OwnerRoutesB.cs",
+      "sha256": "1d826654e056f462f71a5bae14af586c7a6c836e2795263717fc9673e8046f9b",
+      "bytes": 12246
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.OwnerRoutesB.cs.meta",
+      "sha256": "f6259660ecfe284657636104bff3a395e78c29610b9ba414f123173e7d646429",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase4.cs",
+      "sha256": "d3fc503234c7e481c2f661661bfa788ec7e92e92dfd3b8f02671ed1d1621f3b2",
+      "bytes": 20948
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase4.cs.meta",
+      "sha256": "ea7ee96c77c5ad82711a1b006e05564905dae2db76b1f02df60e6121cf48b183",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase4Integration.cs",
+      "sha256": "9b6a9fd544075ed2a975c86f9a92c65d5ac0a6d8d753475925e6648f969a2e38",
+      "bytes": 14875
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase4Integration.cs.meta",
+      "sha256": "e2c54aef9e0a559ed3436ba7421cf1e65de51a09432fa532e6876f42ce0f505f",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase5.cs",
+      "sha256": "e9a1c93b1dc4de6f93ac2cc9710436df9ccfca750a0cc634eefcdabc9fcd9597",
+      "bytes": 17507
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase5.cs.meta",
+      "sha256": "2d1dbe527cc076c2f4d9557f9b9ead779d01ae8ea3d207c28c2b3664f5e876b6",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase6.cs",
+      "sha256": "202e397f73352684b46faa150a840f74ed9154a2c1ddded8af052a1a476e4953",
+      "bytes": 16997
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase6.cs.meta",
+      "sha256": "66af08fd3a9b5c3738bb0eb2c70af802b2408d1abe41cdf27fb24544c97705f4",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase7.cs",
+      "sha256": "2f5f71e29aaa337d515ced83d5df961b63449c12d6d5f886be4634ba9856716b",
+      "bytes": 7744
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase7.cs.meta",
+      "sha256": "0593726ecf53693b5e2b15911a509df514c4dbbe79a9bbc5ef7313203d945288",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.PlayerExperience.cs",
+      "sha256": "01fae6c388864cae153661a3e683ca82e3e9650ef0c4772396b2e551794e14e7",
+      "bytes": 7180
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.PlayerExperience.cs.meta",
+      "sha256": "3e24faa8b7486519762e66c0f5cfed629595c108c979528b163189ffa7d02057",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Portraits.cs",
+      "sha256": "eaeb3174f4eb67f0fec98c3e26b7bd23968db845482eed1fc008f6e545bae5f0",
+      "bytes": 13568
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Portraits.cs.meta",
+      "sha256": "08a0d0c659ef635b0b3d73641bc77e0e37f34c3095e496fec8866e94c5523787",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Relics.cs",
+      "sha256": "c963782dcacffb3d6fda99f2a1342ef477832e808d826efe2c8c15dd182eba31",
+      "bytes": 21877
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Relics.cs.meta",
+      "sha256": "774681e2b0450f950fcba89c71dcf7fb8a074ab66d3cb65293d017b6e99f53fd",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.RenderQuality.cs",
+      "sha256": "8ad1431aaf178b27effc90b6f129f369ba928cb4c4384429f8959e57e7e35702",
+      "bytes": 4188
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.RenderQuality.cs.meta",
+      "sha256": "748d496e3e61221e9495a05512ee295997763c9e22de23e9fdfcf83efb18a62c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.SoftSfx.cs",
+      "sha256": "9059c599bd267a00a809d72ad9d6824e3bb3315e21852d51e41eed8957091e17",
+      "bytes": 9022
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.SoftSfx.cs.meta",
+      "sha256": "c78893011e2687f7a805e5def7bf8c310e1d36dcad678bdd5f630d95d30fa109",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.StoryLeisure.cs",
+      "sha256": "ea9526fee5716cc5b13b8b882a1c4e00abe91c07f2fdc8eeaa228d49d99aa184",
+      "bytes": 23654
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.StoryLeisure.cs.meta",
+      "sha256": "20ac8134e7c37489a41e8f8622d43a6e6f7ba1d98758feaedaf2e06406e79e4a",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Terrain.cs",
+      "sha256": "a1caa151f8d747a65cb48c745eed8dd3ed9d1110879bb6a5e9dbf4e6e4ab5dcf",
+      "bytes": 12292
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Terrain.cs.meta",
+      "sha256": "b485e5f3bc5762c7441f007d56ae3ec7b6c439900d3dff5b762ab2eae3078552",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.UIPolish.cs",
+      "sha256": "ca1b93af21e71388693088f19fc05b15232357cded77bde85b4bb558469ed7b3",
+      "bytes": 13816
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.UIPolish.cs.meta",
+      "sha256": "0171e1eec07afe55c5505b74b066b345c4d33a6877f9866f4cb68b0ea5778b08",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "sha256": "5d55c8ab277f7f34491235e2ff04c452e0d37124fb6d6f77cd863c6be585f74a",
+      "bytes": 119757
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs.meta",
+      "sha256": "2d94df59312fed0d32126e2d5a3afbb9b9cd32f3460b3a26c4ad8571ba8b14d2",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/SliceSmokeRunner.cs",
+      "sha256": "df49a044e124dc5372455cc82aeda6380caa2a8839d6ae88726391d96cd0643f",
+      "bytes": 31175
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/SliceSmokeRunner.cs.meta",
+      "sha256": "446be19093131ea7b5c25a9130324b41291a2d3fd78e4a57b9624d84145fbffd",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Recovery.meta",
+      "sha256": "8b8534dd708845b831a15dff002b6bcf0b1615440076aa2ab67145c1a2a5d499",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Recovery/0.unity",
+      "sha256": "42e4558ec0ef05d17fbe7a35cc00a9891782f25d5009be470d3266dbf3f34b24",
+      "bytes": 10005
+    },
+    {
+      "path": "Assets/_Recovery/0.unity.meta",
+      "sha256": "fb1299af2e6ed94c32c1bd1f4f936a7d5962d34089e0cb53c475b5ab5d08f82f",
+      "bytes": 155
+    },
+    {
+      "path": "Packages/manifest.json",
+      "sha256": "4c75e4a53722457feb43b894eb17112ba265d454dbbf330b4de48a30412a49f3",
+      "bytes": 2486
+    },
+    {
+      "path": "Packages/packages-lock.json",
+      "sha256": "ec72142cacba6a503988cd812fd2a59cdba2194e50d3fad99cb2c77ef0e5bbd3",
+      "bytes": 17389
+    },
+    {
+      "path": "ProjectSettings/AudioManager.asset",
+      "sha256": "aeedeb3243f07b61dbbe854aa08b5ef6f0b5274dd9852ad9f6129dde3e105a31",
+      "bytes": 413
+    },
+    {
+      "path": "ProjectSettings/ClusterInputManager.asset",
+      "sha256": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623",
+      "bytes": 114
+    },
+    {
+      "path": "ProjectSettings/DynamicsManager.asset",
+      "sha256": "b7c9a9dc08b98990109d4346f68745e15e238de400f96c583e53e1c83c743a78",
+      "bytes": 1254
+    },
+    {
+      "path": "ProjectSettings/EditorBuildSettings.asset",
+      "sha256": "832c5b7c54522197fba26968fefc7fe8d44702b3f2fe6c2957be9c53da991c83",
+      "bytes": 877
+    },
+    {
+      "path": "ProjectSettings/EditorSettings.asset",
+      "sha256": "f8f13b4ead8154753e42ba1c82cd701d14d4c7eb70e6a9cc615a353b7b041a51",
+      "bytes": 1673
+    },
+    {
+      "path": "ProjectSettings/GraphicsSettings.asset",
+      "sha256": "9ee4c5644b163546faf4396e2861257e1ec0063a3dd8ed30af69895d1213ce18",
+      "bytes": 2951
+    },
+    {
+      "path": "ProjectSettings/InputManager.asset",
+      "sha256": "7a1bb836a1008d26d0860d143e9d9df7ca41731d30a72901b518063819c62df2",
+      "bytes": 9731
+    },
+    {
+      "path": "ProjectSettings/MemorySettings.asset",
+      "sha256": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd",
+      "bytes": 1192
+    },
+    {
+      "path": "ProjectSettings/MultiplayerManager.asset",
+      "sha256": "aba89fd1a1ddad182727ad82727e536d27372e90328a8196da2a4560398983dd",
+      "bytes": 157
+    },
+    {
+      "path": "ProjectSettings/NavMeshAreas.asset",
+      "sha256": "80106cfa7e6181a1928b142c075f3e510d527441e3d79bc83590e4ac91e7cd66",
+      "bytes": 1308
+    },
+    {
+      "path": "ProjectSettings/NetworkManager.asset",
+      "sha256": "46395def99a6b5ae38ebb19b3e18f75215a9d4172c219361521a5a51e051f386",
+      "bytes": 151
+    },
+    {
+      "path": "ProjectSettings/PackageManagerSettings.asset",
+      "sha256": "be815f7e993301ffa59a59c06160e969a6b5ec52833dfed83929759660f69dd1",
+      "bytes": 1232
+    },
+    {
+      "path": "ProjectSettings/Packages/com.unity.ai.assistant/Settings.json",
+      "sha256": "54ba37aabe4a7d2663325e93f66f063c6dcfdcad92316cbaddbad55fcbcb5698",
+      "bytes": 342
+    },
+    {
+      "path": "ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json",
+      "sha256": "a9e4ce24607304dbdf55acf453705514a0402b2369db030471ca53d0a64a73ea",
+      "bytes": 566
+    },
+    {
+      "path": "ProjectSettings/Physics2DSettings.asset",
+      "sha256": "50e61d70bc38c632cb0e6efe364a9c5bcfd9a8dbcf4e7b5ecfb06a2030c4518f",
+      "bytes": 2028
+    },
+    {
+      "path": "ProjectSettings/PhysicsCoreProjectSettings2D.asset",
+      "sha256": "bedc5339a832c60dc3f11b84abc4f4384dbfa20b0cd9ad6c444b907e751fc35e",
+      "bytes": 151
+    },
+    {
+      "path": "ProjectSettings/PresetManager.asset",
+      "sha256": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+      "bytes": 146
+    },
+    {
+      "path": "ProjectSettings/ProjectAuditorSettings.asset",
+      "sha256": "9e68444b9bda981e2927a98df9edf69ea88362f0c6b7f3c81b39b9d515d2a416",
+      "bytes": 1036
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "b6d011c56c25ebcffa42d4d80cb89e4fbaa7dca8ca94b10667240288329e84c2",
+      "bytes": 22648
+    },
+    {
+      "path": "ProjectSettings/ProjectVersion.txt",
+      "sha256": "b3402f9d37aab37e8ad7676fff8d2f3b1333d857d2fade3fae888482e59d42ad",
+      "bytes": 83
+    },
+    {
+      "path": "ProjectSettings/QualitySettings.asset",
+      "sha256": "c1ed060f85623d3595b1e9eea133d957cd92191639a6edc51c638e3edcba240c",
+      "bytes": 10058
+    },
+    {
+      "path": "ProjectSettings/SceneTemplateSettings.json",
+      "sha256": "bb9098b3bfcde78d93e264b96f7b77b5430e64e8c57a7aad7f5a5d9c3945e16a",
+      "bytes": 3535
+    },
+    {
+      "path": "ProjectSettings/ShaderGraphSettings.asset",
+      "sha256": "5c432c9c73fdf73fee91c8823ea02ab98e3b7a8edf341b5ae6901d699cce52a7",
+      "bytes": 556
+    },
+    {
+      "path": "ProjectSettings/TagManager.asset",
+      "sha256": "8e18b1c820e9c09e16bbd1f1b7842e9fb3b0158a0921b0964e0b8fa12c6e2c01",
+      "bytes": 378
+    },
+    {
+      "path": "ProjectSettings/TimeManager.asset",
+      "sha256": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd",
+      "bytes": 202
+    },
+    {
+      "path": "ProjectSettings/URPProjectSettings.asset",
+      "sha256": "c317fe22b9488785c0611f0642429922e5d324430d929bffb41648130f30c218",
+      "bytes": 461
+    },
+    {
+      "path": "ProjectSettings/UnityConnectSettings.asset",
+      "sha256": "7f2112b8c6ea0885dcc72b312c9726ffcd909f2e89d1eead61889274a4e5d1c0",
+      "bytes": 1191
+    },
+    {
+      "path": "ProjectSettings/VFXManager.asset",
+      "sha256": "f066c6483919961332415ee64204f74fe52f38c02e82892eb02b7a5b2e381f0e",
+      "bytes": 308
+    },
+    {
+      "path": "ProjectSettings/VersionControlSettings.asset",
+      "sha256": "e199cdfa6a8f2bf33cfd47e549198f13e3eb2a5099e908fdb4e0f14d939ccc6b",
+      "bytes": 172
+    },
+    {
+      "path": "ProjectSettings/XRSettings.asset",
+      "sha256": "edd2beb4a2e388312b4b7da241aa51070434005d82c59363f1237dd2e567585f",
+      "bytes": 158
+    }
+  ]
+}

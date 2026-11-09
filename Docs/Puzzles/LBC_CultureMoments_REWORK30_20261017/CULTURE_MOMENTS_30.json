@@ -1,0 +1,1481 @@
+{
+  "schemaVersion": "2.0",
+  "packageName": "LBC_CultureMoments_REWORK30_20261017",
+  "language": "vi-VN",
+  "purpose": "30 câu suy luận có chứng cứ, 15 Culture Moments tùy chọn trên 6 thành phố; KHÔNG phải 30 puzzle cốt truyện",
+  "contentCounts": {
+    "moments": 15,
+    "variantsPerMoment": 2,
+    "questions": 30
+  },
+  "integrationRules": {
+    "corePuzzlesUntouched": 22,
+    "noNewNodes": true,
+    "noNewNpc": true,
+    "noNewQuest": true,
+    "noNewItemsOrCurrency": true,
+    "noMainQuestGate": true,
+    "doNotAlterExistingSaveSchema": true,
+    "evidenceMustBeAccessibleBeforeQuestion": true,
+    "ifEvidenceMissing": "SKIP and report NEEDS_CONTENT_CUE; do not silently show trivia",
+    "random": "Only among eligible variants in same moment; stable per interaction/session; deterministic demo; log IDs",
+    "wrongAnswer": "short hint / retry / skip; no penalty",
+    "rightAnswer": "world-visible context-aware feedback where safe; fallback truthful 1-line dialogue",
+    "pilot": [
+      "CM_HA_01",
+      "CM_JJ_03",
+      "CM_GJ_02"
+    ],
+    "noMassRolloutWithoutQA": true
+  },
+  "moments": [
+    {
+      "momentId": "CM_HA_01",
+      "cityId": "hoi_an",
+      "suggestedNodeId": "H2",
+      "title": "Đèn sáng cho cả phố",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau hoàn thành HQ01 / hoi_an.lamp_restored; không đặt moment trong luồng nhận Mắt Đèn",
+      "existingStoryAnchor": "Cô Mai H2 nhận ba linh kiện; trạm H7 sáng sau phục hồi.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Cô Mai đổi một câu thoại ngắn; một vùng đèn phụ/symbol trên map sáng nếu đã có art phù hợp, không đổi flag hồi phục.",
+      "pilot": true,
+      "variants": [
+        {
+          "variantId": "CM_HA_01_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Cửa ngõ gần bến cần được nhìn thấy từ ngoài; mái hiên che đèn mưa nhưng thanh treo sát tường khiến bóng che lối.",
+          "evidencePresentation": "Đối thoại Cô Mai chỉ hai vị trí treo trên mô hình: sát tường và đầu mái hiên, với vùng bóng đổ.",
+          "question": "Đèn đã được sửa nhưng lối từ bến còn khuất. Điều chỉnh nào dùng lại chiếc đèn mà chiếu được lối đi?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Giữ vị trí cũ, tăng thêm một lớp giấy khuếch tán."
+            },
+            {
+              "id": "B",
+              "text": "Đưa đèn ra đầu mái hiên và xoay mặt sáng về phía bến."
+            },
+            {
+              "id": "C",
+              "text": "Đổi đèn sang mái phía trong nhưng giữ độ cao hiện tại."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Mái hiên vẫn che mưa, còn đèn không bị tường chắn góc nhìn từ bến.",
+          "hint": "Hãy xét vật gì che ánh sáng từ phía bến, không chỉ xét độ sáng.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "tutorial",
+          "locality": "city-specific",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "hoi_an:H2",
+            "HQ01",
+            "lamp_restored"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        },
+        {
+          "variantId": "CM_HA_01_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Mô hình Cô Mai có 2 đèn: chiếc A nhìn rõ từ bến nhưng rọi vào cửa nhà; chiếc B rọi đường nhưng bị cành cây khuất; còn một móc treo giữa hai vị trí.",
+          "evidencePresentation": "Cho thấy sơ đồ mô phỏng 3 móc/2 vệt sáng bằng UI ký hiệu trước khi hỏi.",
+          "question": "Muốn vừa dẫn đường vừa tránh rọi thẳng vào nhà dân, nên điều chỉnh gì?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Chuyển đèn A sang móc giữa và hướng chùm sáng dọc lối đi."
+            },
+            {
+              "id": "B",
+              "text": "Giữ đèn B rồi chỉ hạ thấp một chút dưới tán cây."
+            },
+            {
+              "id": "C",
+              "text": "Đổi chỗ hai đèn mà không thay hướng rọi."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Móc giữa cho góc nhìn không bị cành cây che và có thể xoay chùm sáng ra lối đi.",
+          "hint": "Hai yêu cầu độc lập: không bị che và không rọi vào cửa nhà.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "tutorial",
+          "locality": "city-specific",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "hoi_an:H2",
+            "HQ01",
+            "lamp_restored"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        }
+      ],
+      "reviewStatus": "REVISED",
+      "locality": "city-specific",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "hoi_an:H2",
+        "HQ01",
+        "lamp_restored"
+      ],
+      "reviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+    },
+    {
+      "momentId": "CM_HA_02",
+      "cityId": "hoi_an",
+      "suggestedNodeId": "H4",
+      "title": "Dấu vết của người thợ",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau khi H4 puzzle_market giải xong; tuyệt đối không sửa mã Hoa–Trăng–Đèn",
+      "existingStoryAnchor": "H4 sạp chợ chứa chuỗi Hoa–Trăng–Đèn; H13 dùng mẫu Hoa.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Một vệt sáng đánh dấu mẫu đã hiểu hoặc thoại của thương nhân; KHÔNG cấp hanji_core ở moment này.",
+      "pilot": false,
+      "variants": [
+        {
+          "variantId": "CM_HA_02_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Ở bàn thợ có mảnh giấy cũ: nét HOA nhòe một góc nhưng còn trùng với bản mẫu ở H4; hai mảnh mới đều có nét đủ nhưng lệch theo hướng khác.",
+          "evidencePresentation": "Hiển thị 3 mô tả mảnh A/B/C qua giao diện quan sát, không thay puzzle H4/H13.",
+          "question": "Nếu phải vá góc thiếu mà vẫn giữ nét gốc làm chuẩn, thợ nên chọn mảnh nào?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Mảnh sao lại toàn bộ hình mới, bỏ phần gốc bị nhòe."
+            },
+            {
+              "id": "B",
+              "text": "Mảnh giữ đúng hướng nét HOA của bản gốc và chỉ vá phần mất."
+            },
+            {
+              "id": "C",
+              "text": "Mảnh đẹp nhất ở ngoài sạp, nhưng nét HOA bị soi gương."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Bảo tồn đặc điểm nhận dạng là hướng nét gốc; vá cục bộ không thay cả mẫu.",
+          "hint": "Đối chiếu hướng nét, đừng chỉ so độ mới của giấy.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "hoi_an:H4",
+            "puzzle_market",
+            "Hoa"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        },
+        {
+          "variantId": "CM_HA_02_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Người thợ đưa ba mẫu: mẫu X có HOA đúng chiều nhưng mất một cánh; Y đủ cánh nhưng bị lật; Z là bản in khác tỉ lệ.",
+          "evidencePresentation": "Cho người chơi xem ký hiệu đối xứng/mất cánh trước trong hội thoại quan sát ở H4.",
+          "question": "Mẫu nào tốt nhất làm chứng cứ xác nhận nét HOA gốc trước khi phục dựng?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "X, vì phần còn lại giữ đúng chiều và tỉ lệ của nét gốc."
+            },
+            {
+              "id": "B",
+              "text": "Y, vì đủ cánh luôn đáng tin hơn mảnh thiếu."
+            },
+            {
+              "id": "C",
+              "text": "Z, vì bản in mới rõ nét hơn vết khắc cũ."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Mảnh thiếu nhưng nguyên gốc vẫn đáng tin để suy ra hướng và tỉ lệ; các bản khác có sai lệch.",
+          "hint": "Tìm nguồn giữ đúng định hướng chứ không chỉ đủ nét.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "hoi_an:H4",
+            "puzzle_market",
+            "Hoa"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        }
+      ],
+      "reviewStatus": "KEEP",
+      "locality": "city-specific",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "hoi_an:H4",
+        "puzzle_market",
+        "Hoa"
+      ],
+      "reviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+    },
+    {
+      "momentId": "CM_HA_03",
+      "cityId": "hoi_an",
+      "suggestedNodeId": "H18",
+      "title": "Lá thư nối Hội An và Jeonju",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau khi người chơi có thông tin thư hồi âm J21 và đã đến H18; tránh spoil tuyến Hội An trước Jeonju",
+      "existingStoryAnchor": "Ji-eun tại H18, thư J21 có thể mang về để mở ngõ H9.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Ji-eun thêm một câu cảm ơn có ý nghĩa; không tiêu thư, không thay điều kiện H9.",
+      "pilot": false,
+      "variants": [
+        {
+          "variantId": "CM_HA_03_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Thư Jeonju ghi hình đèn Hội An và dòng ký hiệu người gửi; Ji-eun giữ lời nhắn đầu chuyến đi, có cùng một dấu nhưng khác lời chào.",
+          "evidencePresentation": "Cho xem 2 mẩu thư/biểu tượng đã thu được ở J21 và H18 trước câu hỏi.",
+          "question": "Hai lá thư khác ngôn ngữ và thời điểm. Dấu hiệu nào giúp xác nhận chúng thuộc cùng một cuộc trao đổi?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Cùng kích thước phong bì, dù dấu niêm khác nhau."
+            },
+            {
+              "id": "B",
+              "text": "Cùng dấu ký hiệu và người nhận, dù nội dung lời chào khác."
+            },
+            {
+              "id": "C",
+              "text": "Cùng màu mực, dù nơi gửi không khớp."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Dấu nhận diện và người nhận liên kết hai thư chắc chắn hơn đặc điểm hình thức.",
+          "hint": "Phân biệt dấu nhận diện với các chi tiết bề ngoài.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "cross-city",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "hoi_an:H10",
+            "postcard",
+            "jeonju_exchange"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        },
+        {
+          "variantId": "CM_HA_03_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Hội An có lời nhờ gửi tin về lễ đèn; thư phản hồi Jeonju nói đã nhận, kèm một câu hỏi mới dành cho Ji-eun.",
+          "evidencePresentation": "H18 giới thiệu mục đích ban đầu; sau J21 hiển thị phần thư phản hồi, rồi mới mở lựa chọn.",
+          "question": "Muốn tiếp nối cuộc trò chuyện đúng mạch, Lumi nên chuyển phần nào trước?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Gửi riêng câu hỏi mới và bỏ qua câu xác nhận đã nhận thư."
+            },
+            {
+              "id": "B",
+              "text": "Kể chuyến đi của mình rồi để Ji-eun tự đoán ai hồi đáp."
+            },
+            {
+              "id": "C",
+              "text": "Trao thư hồi âm và nói rõ nó đáp lại lời nhờ ở Hội An."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Lá thư hồi âm là bằng chứng nối hai phía; kể mạch gửi–nhận trước khi mở câu chuyện mới.",
+          "hint": "Hỏi xem thông tin nào nối được hai đầu câu chuyện.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "cross-city",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "hoi_an:H10",
+            "postcard",
+            "jeonju_exchange"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        }
+      ],
+      "reviewStatus": "REVISED",
+      "locality": "cross-city",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "hoi_an:H10",
+        "postcard",
+        "jeonju_exchange"
+      ],
+      "reviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+    },
+    {
+      "momentId": "CM_HU_01",
+      "cityId": "hue",
+      "suggestedNodeId": "U8",
+      "title": "Bóng cờ trên sân điện",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau khi U8 puzzle_court đã giải; không lộ thứ tự cờ trước khi giải",
+      "existingStoryAnchor": "U8 ba cờ theo manh mối U17; vật chứng ghi nhịp ngắn–dài–ngắn.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Đổi câu thoại người gác hoặc highlight khung ghi chép đã giải; không động vào flag U8.",
+      "pilot": false,
+      "variants": [
+        {
+          "variantId": "CM_HU_01_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Hai bản ghi U17 và U8 cùng mô tả nhịp 3 lần, nhưng một là chớp đèn, một là cờ màu; đoạn giữa dài hơn hai đoạn đầu/cuối.",
+          "evidencePresentation": "Cho nhìn hai đoạn log ký hiệu S/D/S và ba lá cờ sau khi giải U8.",
+          "question": "Nếu bản ghi thứ hai chỉ còn cờ đoạn giữa, phải dò nó với phần nào của bản ghi đầu?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Đoạn ngắn đầu, vì xuất hiện trước."
+            },
+            {
+              "id": "B",
+              "text": "Đoạn dài ở giữa, vì cùng vị trí và độ dài."
+            },
+            {
+              "id": "C",
+              "text": "Đoạn ngắn cuối, vì gần kết thúc."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Độ dài và vị trí cùng xác nhận nó là nhịp giữa, không chỉ thứ tự màu.",
+          "hint": "So cả vị trí lẫn độ dài, không đoán theo màu.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "tutorial",
+          "locality": "city-specific",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "hue:U3",
+            "npc_tam",
+            "river_crossing"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        },
+        {
+          "variantId": "CM_HU_01_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Sơ đồ sau giải cho thấy cờ giữa từng treo nhầm ở vị trí đầu; nhật ký người gác ghi thời điểm sửa trước buổi lễ.",
+          "evidencePresentation": "Hiện sơ đồ hiện tại và nhật ký sửa đặt cờ sau khi puzzle U8 hoàn tất.",
+          "question": "Tài liệu nào nên dùng để giải thích vì sao ảnh cũ khác sân hiện tại?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Ảnh cũ và ghi chú thời điểm hoán đổi cờ."
+            },
+            {
+              "id": "B",
+              "text": "Chỉ ảnh mới vì vật thể hiện tại luôn đúng lịch sử."
+            },
+            {
+              "id": "C",
+              "text": "Chỉ màu cờ vì vị trí không liên quan."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Đối chiếu nguồn theo thời điểm giải thích được sự khác nhau mà không buộc một bên phải sai.",
+          "hint": "Chú ý thời gian ảnh được chụp và lúc cờ được chuyển.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "tutorial",
+          "locality": "city-specific",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "hue:U3",
+            "npc_tam",
+            "river_crossing"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        }
+      ],
+      "reviewStatus": "REVISED",
+      "locality": "city-specific",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "hue:U3",
+        "npc_tam",
+        "river_crossing"
+      ],
+      "reviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+    },
+    {
+      "momentId": "CM_HU_02",
+      "cityId": "hue",
+      "suggestedNodeId": "U17",
+      "title": "Thư khố và dấu xác thực",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau U17 puzzle_archive giải; không hiển thị nhịp chính trước puzzle",
+      "existingStoryAnchor": "U15 kiện thư; U17 nhịp ngắn–dài–ngắn; U11 ấn tín dùng liên thành phố.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Tạo feedback giấy/nhịp ngắn không cấp ancient_seal, không ghi lại puzzle state.",
+      "pilot": false,
+      "variants": [
+        {
+          "variantId": "CM_HU_02_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Cùng một kiện thư có bản A ghi 3 nhịp, bản B có cùng nội dung nhưng chỉ ghi hai nhịp cuối; bìa B được ghi là bản chép thiếu dòng đầu.",
+          "evidencePresentation": "Sau U17 cho xem bản chép A/B và dấu ghi chép thiếu dòng.",
+          "question": "Khi mang manh mối sang Gyeongju, bằng chứng nào nên giữ để tránh mất nhịp đầu?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Bản B vì nó gọn hơn."
+            },
+            {
+              "id": "B",
+              "text": "Ghép hai nhịp cuối của B rồi tự đoán nhịp còn lại."
+            },
+            {
+              "id": "C",
+              "text": "Bản A đủ ba nhịp, đối chiếu B như bản kiểm tra."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Bản đủ thông tin là nguồn chính; bản chép thiếu chỉ dùng đối chiếu, không thể thay nguồn.",
+          "hint": "Bản nào có đủ ba nhịp và bản nào chỉ là bản chép thiếu?",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "hue:U8",
+            "seal_evidence"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        },
+        {
+          "variantId": "CM_HU_02_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Người giữ thư khố chỉ ra ấn tín dùng xác thực nguồn, còn bản ghi nhịp mới là thông tin cần đọc.",
+          "evidencePresentation": "Cho thấy hai ô hồ sơ: \"xác thực\" và \"chuỗi tín hiệu\"; đối thoại phân biệt vai trò.",
+          "question": "Muốn kiểm tra một thông điệp có nguồn đáng tin và giải được nội dung, cần kết hợp gì?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Dùng ấn tín đọc thay toàn bộ nhịp vì cùng có hoa văn."
+            },
+            {
+              "id": "B",
+              "text": "Đối chiếu ấn tín để xác thực nguồn, rồi đọc nhịp từ bản ghi."
+            },
+            {
+              "id": "C",
+              "text": "Đọc nhịp trước, không cần quan tâm bản ghi bị sửa hay không."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Ấn tín và nhịp giải quyết hai câu hỏi khác nhau: ai xác nhận và thông điệp nói gì.",
+          "hint": "Một vật cho biết nguồn, một vật cho biết nội dung.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "hue:U8",
+            "seal_evidence"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        }
+      ],
+      "reviewStatus": "KEEP",
+      "locality": "city-specific",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "hue:U8",
+        "seal_evidence"
+      ],
+      "reviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+    },
+    {
+      "momentId": "CM_DL_01",
+      "cityId": "da_lat",
+      "suggestedNodeId": "D2",
+      "title": "Tìm lối qua màn sương",
+      "requiresVerification": true,
+      "safeGateToVerify": "Sau khi trả kính cho Lan và có thể tiếp cận D8; câu không được thay lời giải của D8",
+      "existingStoryAnchor": "Lan mất kính D2; D8 dùng manh mối Thông–Đèn–Hồ.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Lan chỉ lại đúng ký hiệu cầu/đường trên bản đồ nếu overlay an toàn; không mở D8 thay puzzle.",
+      "pilot": true,
+      "variants": [
+        {
+          "variantId": "CM_DL_01_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Lan có bản đồ với 3 mốc Thông/Đèn/Hồ. Sương che mốc Đèn; trên giấy, Đèn nằm giữa hai vị trí cố định, đường đi có một ngã rẽ giả.",
+          "evidencePresentation": "Cho người chơi nhìn sơ đồ ba điểm kề nhau và một ngã rẽ giả, không bật lời giải D8.",
+          "question": "Lúc không thấy mốc giữa, cách nào giúp đối chiếu đường đi mà không tự đoán vị trí?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Đọc quan hệ giữa Thông và Hồ trên sơ đồ để khoanh vùng mốc bị che."
+            },
+            {
+              "id": "B",
+              "text": "Đi theo đường có ánh sáng mạnh nhất dù không có trên bản đồ."
+            },
+            {
+              "id": "C",
+              "text": "Đi thẳng theo bóng cây gần nhất rồi quay lại nếu sai."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Hai mốc còn nhận biết giới hạn vị trí Đèn và loại nhánh giả.",
+          "hint": "Sơ đồ có hai mốc còn thấy được; hãy dùng cả hai.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "tutorial",
+          "locality": "city-specific",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "da_lat:D2",
+            "npc_lan",
+            "mist_route"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        },
+        {
+          "variantId": "CM_DL_01_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Sơ đồ Lan cho biết cầu đá nối hai bờ hồ; đường ven cây cũng tiến gần hồ nhưng kết thúc ở bờ chưa có cầu.",
+          "evidencePresentation": "Cho người chơi xem sơ đồ đường nối đã tìm được và ký hiệu cầu, không dùng ảnh không có trên map.",
+          "question": "Nếu cần sang bờ đối diện mà không đi xuyên mặt nước, bằng chứng nào xác nhận tuyến đúng?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Chọn đường ngắn nhất trên tranh dù kết thúc sát mép nước."
+            },
+            {
+              "id": "B",
+              "text": "Theo đường có cây thông vì cây dễ thấy trong sương."
+            },
+            {
+              "id": "C",
+              "text": "Theo đường được ký hiệu nối tới cầu đá rồi mới sang bờ."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Tuyến đúng phải có cầu thật trong sơ đồ địa hình, không chỉ có hướng gần đích.",
+          "hint": "Chỗ nào thực sự nối hai bờ?",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "tutorial",
+          "locality": "city-specific",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "da_lat:D2",
+            "npc_lan",
+            "mist_route"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        }
+      ],
+      "reviewStatus": "REVISED",
+      "locality": "city-specific",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "da_lat:D2",
+        "npc_lan",
+        "mist_route"
+      ],
+      "reviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+    },
+    {
+      "momentId": "CM_DL_02",
+      "cityId": "da_lat",
+      "suggestedNodeId": "D10",
+      "title": "Dấu chân bên cầu đá",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau DQ02/dalat.dog_fed; không dùng moment để nhận lại reward cho chó",
+      "existingStoryAnchor": "Chó D10 được cho ăn 3 phần, trở thành trợ giúp chỉ D15/D17.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Chó phản ứng vui và marker lối phụ nháy nhẹ nếu có; không thay flag dog_fed.",
+      "pilot": false,
+      "variants": [
+        {
+          "variantId": "CM_DL_02_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Khi no, chó dẫn Lumi đến vệt dấu chân cũ: một vệt chạy tới lùm cây rồi quay ngược, vệt còn lại kéo dài về phía cầu đá.",
+          "evidencePresentation": "Cho thấy hai vệt trên sơ đồ/đối thoại quan sát sau khi đã cho chó ăn.",
+          "question": "Nếu đang tìm lối thông qua cầu chứ không tìm chỗ trú, nên kiểm tra vệt nào trước?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Vệt quay đầu ở lùm cây vì nó có nhiều dấu chân hơn."
+            },
+            {
+              "id": "B",
+              "text": "Vệt tiếp tục tới cầu, vì có dấu hiệu dẫn tới lối thông."
+            },
+            {
+              "id": "C",
+              "text": "Cả hai đều chứng minh có cầu ở cuối đường."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Dấu vết tiếp tục theo hướng cầu phù hợp mục tiêu tìm lối đi; lùm cây là đường cụt.",
+          "hint": "Đừng nhầm nơi dấu chân dày nhất với tuyến còn đi tiếp.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "tutorial",
+          "locality": "city-specific",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "da_lat:D10",
+            "hungry_dog",
+            "food_interaction"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        },
+        {
+          "variantId": "CM_DL_02_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Chó dừng trước ba dấu mốc: vết cào ở gốc cây, dấu chân mới hướng ra hồ và vệt đất khô dẫn tới mặt cầu. Mục tiêu là đi đường ít trơn.",
+          "evidencePresentation": "Trình bày dấu hiệu môi trường trên bản đồ/mô tả trước lượt hỏi.",
+          "question": "Trong ba dấu hiệu, dấu nào đáng ưu tiên kiểm tra để tìm mặt đường khô?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Vệt đất khô dẫn tới mặt cầu, nhưng vẫn kiểm tra mép cầu trước khi qua."
+            },
+            {
+              "id": "B",
+              "text": "Dấu chân mới bên hồ, vì có người vừa đi thì chắc chắn an toàn."
+            },
+            {
+              "id": "C",
+              "text": "Vết cào ở gốc cây, vì chó đã đứng ở đó lâu."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Vệt đất khô là dấu trực tiếp về nền đường; việc người khác đi qua hay chó đánh dấu không đảm bảo độ trơn.",
+          "hint": "Bằng chứng nào nói trực tiếp đến nền đường?",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "tutorial",
+          "locality": "city-specific",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "da_lat:D10",
+            "hungry_dog",
+            "food_interaction"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        }
+      ],
+      "reviewStatus": "REVISED",
+      "locality": "city-specific",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "da_lat:D10",
+        "hungry_dog",
+        "food_interaction"
+      ],
+      "reviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+    },
+    {
+      "momentId": "CM_JJ_01",
+      "cityId": "jeonju",
+      "suggestedNodeId": "J2",
+      "title": "Ba mảnh hoa văn",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau JQ01/jeonju.three_patterns_joined; không ghi hộ progress J12",
+      "existingStoryAnchor": "J2 Hana ghép ba pattern J7,J6,J11 và J12 hoàn chỉnh.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Hana chỉ đúng chi tiết hoa văn và khen người chơi quan sát; không cấp thêm pattern.",
+      "pilot": false,
+      "variants": [
+        {
+          "variantId": "CM_JJ_01_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Hana đánh dấu ba mảnh nguồn: mảnh 1 có nét HOA bị cắt tại mép phải, mảnh 2 nối tiếp bằng đúng nét còn thiếu, mảnh 3 chỉ có hoa văn đã hoàn chỉnh ở viền ngoài.",
+          "evidencePresentation": "Cho người chơi xem minh họa đường nối 3 mảnh từ pattern đã thu trước khi hỏi.",
+          "question": "Muốn phục dựng dấu nét HOA bị đứt, nên ghép cặp nào trước?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Mảnh 1 với mảnh 3 vì viền mảnh 3 đã hoàn chỉnh."
+            },
+            {
+              "id": "B",
+              "text": "Mảnh 2 với mảnh 3 vì cả hai sắc nét hơn."
+            },
+            {
+              "id": "C",
+              "text": "Mảnh 1 với mảnh 2 vì hai nét nối liền đúng mép gãy."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Điểm nối của nét đứt quyết định cặp ghép, không phải mảnh đẹp hoặc hoàn chỉnh nhất.",
+          "hint": "Tìm hai mép có nét bị ngắt rồi tiếp nối.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "jeonju:J2",
+            "npc_hana",
+            "pattern_clue"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        },
+        {
+          "variantId": "CM_JJ_01_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Khuôn sau phục dựng có họa tiết lặp đối xứng trái–phải; một bản sao của người học nghề chỉ bị lật hướng nét ở nửa phải.",
+          "evidencePresentation": "Cho xem khuôn đã ghép tại J12 và bản sao lỗi bằng mũi tên định hướng.",
+          "question": "Nếu cần chỉnh ít nhất một thao tác để trở lại đối xứng, nên làm gì?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Thay toàn bộ nửa trái bằng nửa phải đã bị lật."
+            },
+            {
+              "id": "B",
+              "text": "Lật lại nửa phải theo đường trục giữa, giữ nguyên nửa trái gốc."
+            },
+            {
+              "id": "C",
+              "text": "Xoay cả khuôn một vòng vì hướng nét không quan trọng."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Sai lệch nằm ở nửa phải; sửa đúng một nửa giữ khuôn gốc nguyên vẹn.",
+          "hint": "Đối chiếu phía nào khác khuôn gốc.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "REVISED",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "jeonju:J2",
+            "npc_hana",
+            "pattern_clue"
+          ],
+          "contentReviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+        }
+      ],
+      "reviewStatus": "REVISED",
+      "locality": "city-specific",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "jeonju:J2",
+        "npc_hana",
+        "pattern_clue"
+      ],
+      "reviewNote": "?? tinh ch?nh ?? gi?m ??p ?n hi?n nhi?n v? t?ng suy lu?n theo manh m?i."
+    },
+    {
+      "momentId": "CM_JJ_02",
+      "cityId": "jeonju",
+      "suggestedNodeId": "J7",
+      "title": "Hanji và nét gấp",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau giải puzzle_hanji J7; không đưa số lần xoay/gấp vào câu hỏi trước khi giải",
+      "existingStoryAnchor": "J7 có hai lần xoay, một lần gấp và mảnh pattern1.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Hana hoặc thư viện phản hồi bằng biểu tượng gấp nhẹ, không cấp thêm pattern1.",
+      "pilot": false,
+      "variants": [
+        {
+          "variantId": "CM_JJ_02_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Sau khi hoàn thành mẫu đầu tiên, người học nghề cho xem hai bản gấp: A khớp vạch sáng nhưng hoa bị lệch tâm, B gấp đúng tâm nhưng vạch sáng không trùng.",
+          "evidencePresentation": "Cho xem hai lỗi trên hình mẫu và tờ chuẩn đã hoàn thành.",
+          "question": "Để có cả tâm và vạch khớp, nên ưu tiên kiểm tra gì?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Đổi giấy dày hơn, giữ nếp gấp y nguyên."
+            },
+            {
+              "id": "B",
+              "text": "Kiểm tra lại hướng căn vạch trước khi ép nếp gấp cuối."
+            },
+            {
+              "id": "C",
+              "text": "Kẻ thêm vạch mới đúng vị trí nếp đang lệch."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Căn hướng vạch trước khi gấp giúp tránh giữ nếp sai; đổi giấy hay vẽ thêm làm lệch mẫu gốc.",
+          "hint": "Sai lệch bắt đầu trước hay sau khi tạo nếp?",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "jeonju:J7",
+            "hanji_fragment",
+            "fold_clue"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        },
+        {
+          "variantId": "CM_JJ_02_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Hai mẩu hoa văn đặt trên mẫu Hanji: mẩu X giữ vạch nối của mẫu gốc nhưng giấy hơi nhăn; Y phẳng hơn nhưng vạch nối bị lệch một ô.",
+          "evidencePresentation": "Cho nhìn vạch nối gốc và hai ứng viên cạnh nhau.",
+          "question": "Nếu dùng làm khuôn truyền tín hiệu cho J12, nên chọn mẩu nào làm chuẩn?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "X, vì vạch nối đúng; có thể làm phẳng giấy sau."
+            },
+            {
+              "id": "B",
+              "text": "Y, vì bề mặt phẳng sẽ tự sửa phần nét lệch."
+            },
+            {
+              "id": "C",
+              "text": "Cả hai đều như nhau vì tín hiệu không dùng nét nối."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Nét nối mới quyết định thông tin của khuôn, độ phẳng là lỗi có thể khắc phục sau.",
+          "hint": "Vật nào mang thông tin cần giữ chính xác?",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "jeonju:J7",
+            "hanji_fragment",
+            "fold_clue"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        }
+      ],
+      "reviewStatus": "KEEP",
+      "locality": "city-specific",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "jeonju:J7",
+        "hanji_fragment",
+        "fold_clue"
+      ],
+      "reviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+    },
+    {
+      "momentId": "CM_JJ_03",
+      "cityId": "jeonju",
+      "suggestedNodeId": "J15",
+      "title": "Gói quà qua hai miền",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau HQ05 và J15 trao quà từ Hội An; không tiêu/chuyển chili hoặc thay recipe_card",
+      "existingStoryAnchor": "J15 So-yeon nhận ớt Hội An, trả jeonju_recipe_card.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Một postcard/thoại giao lưu nếu postcard hiện hữu phù hợp; không cấp thêm jeonju_recipe_card.",
+      "pilot": true,
+      "variants": [
+        {
+          "variantId": "CM_JJ_03_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "So-yeon muốn viết nhãn gói quà giới thiệu ớt Hội An cho người Jeonju; một nhãn ghi rõ nơi gửi, nguyên liệu và lời chào, hai nhãn còn lại thiếu thông tin.",
+          "evidencePresentation": "Hiển thị ba nhãn với nội dung đủ khác biệt trước khi lựa chọn.",
+          "question": "Nhãn nào kể được câu chuyện của món quà mà người nhận không nhầm xuất xứ?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "\"Quà cay đặc biệt — ngon nhất mọi nơi\"."
+            },
+            {
+              "id": "B",
+              "text": "\"Ớt từ Hội An — gửi tới bạn Jeonju cùng lời chào từ Việt Nam\"."
+            },
+            {
+              "id": "C",
+              "text": "\"Gia vị Jeonju — được Lumi mua trên đường\"."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Một nhãn rõ nguồn gốc và người nhận; không gán nhầm xuất xứ khi giao lưu hai nước.",
+          "hint": "Người nhận cần biết quà đến từ đâu và dành cho ai.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "cross-city",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "jeonju:J15",
+            "DQ05",
+            "HQ05"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        },
+        {
+          "variantId": "CM_JJ_03_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Trong sổ chợ có hai dòng: người gửi Hội An tặng ớt, người nhận Jeonju hồi đáp bằng công thức mới. Một người viết nháp định ghi cả hai món là đặc sản cùng một nơi.",
+          "evidencePresentation": "Cho xem sổ nhận và thư hồi đáp trước câu hỏi, sau khi HQ05 đã hoàn thành.",
+          "question": "Nếu viết thiệp giao lưu chính xác, nên trình bày quan hệ hai món quà thế nào?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Ớt Hội An gửi sang Jeonju; Jeonju chia sẻ công thức để đáp lễ."
+            },
+            {
+              "id": "B",
+              "text": "Ớt và công thức đều do Hội An tạo nên, Jeonju chỉ giữ hộ."
+            },
+            {
+              "id": "C",
+              "text": "Công thức là món quà đầu tiên; ớt là hàng mua từ Seoul."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Hai bên đóng góp khác nhau; ý nghĩa nằm ở việc trao đổi chứ không đồng nhất văn hóa.",
+          "hint": "Tách phần người gửi đóng góp với phần người nhận hồi đáp.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "cross-city",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "jeonju:J15",
+            "DQ05",
+            "HQ05"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        }
+      ],
+      "reviewStatus": "KEEP",
+      "locality": "cross-city",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "jeonju:J15",
+        "DQ05",
+        "HQ05"
+      ],
+      "reviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+    },
+    {
+      "momentId": "CM_GJ_01",
+      "cityId": "gyeongju",
+      "suggestedNodeId": "G3",
+      "title": "Đọc dấu sao Silla",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau G4 solved và có stargazer_lens; không lộ mã G4 trước",
+      "existingStoryAnchor": "Min G3 giới thiệu ba biểu tượng sao G5/G6/G10; G4 ghép thành ống kính.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Min đưa một nhận xét khảo cổ ngắn; highlight ống kính đã có, không cấp vật chứng.",
+      "pilot": false,
+      "variants": [
+        {
+          "variantId": "CM_GJ_01_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Min đặt ba bản sao ký hiệu cạnh nhau: A nét sao ở vị trí trên, B nét sao ở vị trí giữa, C nét sao ở vị trí dưới; phần bị mờ trên bản gốc trùng với B.",
+          "evidencePresentation": "Cho người chơi quan sát các bản sao và mảnh bị mờ bằng panel quan sát sau khi giải G4.",
+          "question": "Muốn phục hồi chi tiết bị mờ mà không tự chế thêm ký hiệu, nên dựa vào bản nào?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "A vì ký hiệu ở cao nhất như sao thật."
+            },
+            {
+              "id": "B",
+              "text": "B vì vị trí nét trùng vùng còn thấy được trên bản gốc."
+            },
+            {
+              "id": "C",
+              "text": "C vì khác hai bản còn lại nên dễ phân biệt."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Vị trí nét còn lại của bản gốc là bằng chứng trực tiếp, không phải sở thích về hình sao.",
+          "hint": "Đối chiếu vị trí nét còn nguyên trên bản gốc.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "NEEDS_RUNTIME_CONTEXT",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "gyeongju:G3",
+            "min",
+            "artifact_records"
+          ],
+          "contentReviewNote": "? t??ng ph? h?p nh?ng ch?a th? x?c nh?n ng??i ch?i c? ?? cue tr?c quan trong runtime."
+        },
+        {
+          "variantId": "CM_GJ_01_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Mảnh ghi chép G5 dùng ký hiệu sao có một nét khuyết ở trái; bản tại G10 có cùng vết khuyết, còn bản tại G6 có hai vết khác.",
+          "evidencePresentation": "Cho xem chi tiết khuyết của cả ba mảnh đã thu, không làm thay puzzle G4.",
+          "question": "Để xác nhận có hai bản xuất phát cùng một khuôn, nên bắt đầu đối chiếu cặp nào?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "G5 với G10 vì có cùng vết khuyết đặc trưng."
+            },
+            {
+              "id": "B",
+              "text": "G5 với G6 vì được tìm gần nhau trong hành trình."
+            },
+            {
+              "id": "C",
+              "text": "G6 với G10 vì tổng số nét khuyết nhiều hơn."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Vết khuyết hiếm và giống nhau đáng tin hơn thứ tự thu nhặt hoặc số lượng vết.",
+          "hint": "Dấu lỗi trùng nhau có thể tiết lộ cùng nguồn.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "NEEDS_RUNTIME_CONTEXT",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "gyeongju:G3",
+            "min",
+            "artifact_records"
+          ],
+          "contentReviewNote": "? t??ng ph? h?p nh?ng ch?a th? x?c nh?n ng??i ch?i c? ?? cue tr?c quan trong runtime."
+        }
+      ],
+      "reviewStatus": "NEEDS_RUNTIME_CONTEXT",
+      "locality": "city-specific",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "gyeongju:G3",
+        "min",
+        "artifact_records"
+      ],
+      "reviewNote": "? t??ng ph? h?p nh?ng ch?a th? x?c nh?n ng??i ch?i c? ?? cue tr?c quan trong runtime."
+    },
+    {
+      "momentId": "CM_GJ_02",
+      "cityId": "gyeongju",
+      "suggestedNodeId": "G7",
+      "title": "Dấu vết trên tượng",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau nhánh G7 đã được giải quyết; đọc trạng thái thực tế sửa/đánh, không buộc một nhánh duy nhất",
+      "existingStoryAnchor": "G7 tượng có nhánh sửa sau G12 hoặc chiến đấu; G12 gắn ấn tín Huế.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Thoại Min/Lumi phản ánh nhánh thật, tuyệt đối không set flag kết bạn cho nhánh chiến đấu.",
+      "pilot": true,
+      "variants": [
+        {
+          "variantId": "CM_GJ_02_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Sau xử lý G7, trên bệ có hai dấu: vết nứt cũ phủ bụi và vệt nhiễu mới nằm chồng lên mặt đá; Min đánh dấu cả hai trên bản phác.",
+          "evidencePresentation": "Cho nhìn 2 lớp vết đánh dấu rõ và phản hồi phù hợp nhánh, không thay kết quả G7.",
+          "question": "Muốn xác định dấu nào xuất hiện trước sự cố ánh sáng, chứng cứ nào đáng tin nhất?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Vết có màu đậm nhất vì đậm là cũ."
+            },
+            {
+              "id": "B",
+              "text": "Vết nằm cao hơn vì ở trên tượng thường xuất hiện trước."
+            },
+            {
+              "id": "C",
+              "text": "Vết nứt dưới lớp nhiễu mới vì hai lớp có quan hệ chồng phủ."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Quan hệ lớp phủ cho biết thứ tự tương đối; màu hay vị trí cao thấp không đủ chứng cứ.",
+          "hint": "Hãy xem dấu nào nằm dưới dấu nào.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "advanced",
+          "locality": "city-specific",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "gyeongju:G7",
+            "repair_or_fight_branch",
+            "statue_state"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        },
+        {
+          "variantId": "CM_GJ_02_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Lời giải G12 xác nhận nhịp ấn Huế từng giữ trạng thái bảo vệ; hồ sơ tượng G7 ghi đổi hành vi chỉ sau khi lõi lỗi xuất hiện.",
+          "evidencePresentation": "Cho xem lời ghi G12 và nhật ký sau khi G7 resolved; nội dung tương ứng cả nhánh chiến đấu.",
+          "question": "Từ hai mẩu bằng chứng, kết luận nào được hỗ trợ tốt nhất?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Tượng luôn là kẻ thù nên không cần xét thời điểm bị nhiễu."
+            },
+            {
+              "id": "B",
+              "text": "Hành vi bất thường có liên quan thời điểm lõi lỗi, chưa đủ bằng chứng tượng vốn xấu."
+            },
+            {
+              "id": "C",
+              "text": "Ấn tín Huế đã trực tiếp điều khiển mọi bức tượng từ đầu."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Thời điểm thay đổi gợi quan hệ với nhiễu; chưa chứng minh bản tính của tượng hay lỗi của ấn tín.",
+          "hint": "Phân biệt điều dữ liệu chứng minh với điều mình suy đoán thêm.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "advanced",
+          "locality": "city-specific",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "gyeongju:G7",
+            "repair_or_fight_branch",
+            "statue_state"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        }
+      ],
+      "reviewStatus": "KEEP",
+      "locality": "city-specific",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "gyeongju:G7",
+        "repair_or_fight_branch",
+        "statue_state"
+      ],
+      "reviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+    },
+    {
+      "momentId": "CM_SL_01",
+      "cityId": "seoul",
+      "suggestedNodeId": "S2",
+      "title": "Hai lớp hồ sơ",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau khi đọc hồ sơ tại S4 và trở lại tương tác S2, hoặc nhiệm vụ đã mở thông tin tương đương; không spoil SQ02",
+      "existingStoryAnchor": "Quản thủ S2, hồ sơ S4, SQ02 về lệnh phòng vệ cũ bị sửa.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Quản thủ phản hồi và màn hình hồ sơ nhấp nhẹ nếu asset đã tồn tại; không reveal SQ02 sớm.",
+      "pilot": false,
+      "variants": [
+        {
+          "variantId": "CM_SL_01_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Hai bản hồ sơ S4: bản lưu gốc ghi \"bảo vệ đèn\" và mốc thời gian trước biến cố; bản sao mới ghi \"ngắt tất cả tín hiệu lạ\" với dấu sửa sau biến cố.",
+          "evidencePresentation": "Cho người chơi ĐỌC bản ghi S4 có mốc trước câu hỏi; nếu hiện không có, ghi NEEDS_CONTENT_CUE.",
+          "question": "Muốn biết lệnh nào đã tồn tại trước biến cố, nên đối chiếu bộ dữ liệu nào?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Bản có câu dài hơn và chữ in mới hơn."
+            },
+            {
+              "id": "B",
+              "text": "Chỉ bản mà hệ thống đang thi hành hiện tại."
+            },
+            {
+              "id": "C",
+              "text": "Nội dung từng phiên bản kèm dấu sửa và mốc thời gian."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Lịch sử phiên bản phân biệt lệnh gốc với lệnh bị thay sau đó.",
+          "hint": "Cùng một hồ sơ có thể bị sửa; cần biết khi nào.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "seoul:S2",
+            "SQ02",
+            "document_evidence"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        },
+        {
+          "variantId": "CM_SL_01_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Một bản được ký xác nhận trước biến cố, bản kia sao chép sau biến cố nhưng thiếu dấu xác nhận, dù hai bản đều có tiêu đề giống nhau.",
+          "evidencePresentation": "Cho xem dấu xác nhận của tài liệu nguồn trong S4 và bản sao thiếu dấu.",
+          "question": "Nếu phải xác minh bản nào gần nguồn gốc đáng tin hơn, làm gì trước?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Đối chiếu dấu xác nhận và chuỗi thời gian của cả hai bản."
+            },
+            {
+              "id": "B",
+              "text": "Chọn bản mới nhất vì bản sau luôn cập nhật đúng."
+            },
+            {
+              "id": "C",
+              "text": "Chọn bản có tiêu đề in rõ nhất vì dễ đọc."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Dấu xác nhận và mốc thời gian giúp phân biệt bản gốc với sao chép chưa được kiểm chứng.",
+          "hint": "Bản sao có thể mới hơn nhưng không nhất thiết đáng tin hơn.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "city-specific",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "seoul:S2",
+            "SQ02",
+            "document_evidence"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        }
+      ],
+      "reviewStatus": "KEEP",
+      "locality": "city-specific",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "seoul:S2",
+        "SQ02",
+        "document_evidence"
+      ],
+      "reviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+    },
+    {
+      "momentId": "CM_SL_02",
+      "cityId": "seoul",
+      "suggestedNodeId": "S7",
+      "title": "Ji-won dò tín hiệu",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau khi người chơi đã thấy thông tin từ ít nhất 2 nguồn relay; không cho phép câu hỏi tự hoàn tất relay",
+      "existingStoryAnchor": "Ji-won S7 hướng dẫn 3 rơle A Đà Lạt nước, B Huế ấn, C Jeonju Hanji.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Ji-won thay một câu thoại giải thích tuyến; KHÔNG đổi relay_a/b/c.",
+      "pilot": false,
+      "variants": [
+        {
+          "variantId": "CM_SL_02_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Ji-won cho bảng kiểm: tín hiệu có ký hiệu nước nhưng ghi nguồn \"Jeonju\"; bản gốc tuyến ghi nguồn nước từ Đà Lạt, còn Jeonju gửi mạch Hanji.",
+          "evidencePresentation": "Cho người chơi xem bảng tuyến A/B/C chính thức trong S7 trước moment.",
+          "question": "Muốn xác định bản tin ghi sai tên nguồn, phải so cặp thông tin nào?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Màu màn hình và độ dài bản tin."
+            },
+            {
+              "id": "B",
+              "text": "Ký hiệu trong tín hiệu với bảng tuyến A/B/C đã đối chiếu."
+            },
+            {
+              "id": "C",
+              "text": "Tên người đọc bản tin với kích thước máy phát."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Tín hiệu nước khớp tuyến Đà Lạt; nhãn Jeonju mâu thuẫn với nội dung.",
+          "hint": "Nguồn nào được ghi cho từng loại tín hiệu?",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "cross-city",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "seoul:S7",
+            "relay_readiness",
+            "cross_city_artifacts"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        },
+        {
+          "variantId": "CM_SL_02_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Hai bản ghi cùng tín hiệu Hanji: bản X đến từ tuyến C đúng dấu gấp; Y gắn nhãn tuyến A nhưng vẫn mang dấu Hanji.",
+          "evidencePresentation": "Cho xem nhãn tuyến trong log S7 và dấu Hanji đã biết từ J12/S18.",
+          "question": "Khi cần kiểm tra tuyến bị gắn nhãn sai, nên ưu tiên xem bản nào?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "X vì đã đúng tuyến nên ít bất thường."
+            },
+            {
+              "id": "B",
+              "text": "Cả hai giống nhau vì hình Hanji xuất hiện ở cả hai."
+            },
+            {
+              "id": "C",
+              "text": "Y vì dấu Hanji của tuyến C lại xuất hiện dưới nhãn tuyến A."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Đối chiếu nhãn tuyến với dấu nội dung phát hiện bản Y bất thường.",
+          "hint": "Điều gì không khớp giữa nhãn nguồn và dấu nội dung?",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "normal",
+          "locality": "cross-city",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "seoul:S7",
+            "relay_readiness",
+            "cross_city_artifacts"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        }
+      ],
+      "reviewStatus": "KEEP",
+      "locality": "cross-city",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "seoul:S7",
+        "relay_readiness",
+        "cross_city_artifacts"
+      ],
+      "reviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+    },
+    {
+      "momentId": "CM_SL_03",
+      "cityId": "seoul",
+      "suggestedNodeId": "S18",
+      "title": "Một mạch, nhiều ký ức",
+      "requiresVerification": true,
+      "safeGateToVerify": "Chỉ sau S18 puzzle_relay_jeonju solved và người chơi có ba thông tin nguồn; không thay kết quả rơle C",
+      "existingStoryAnchor": "S16 relay Đà Lạt, S17 Huế, S18 Jeonju; tín hiệu cross-cities đến Seoul.",
+      "optional": true,
+      "mainQuestUnaffected": true,
+      "payoffProposal": "Một hoạt ảnh ký hiệu 3 tuyến sáng lần lượt nếu asset hỗ trợ; tuyệt đối không thay công tắc/quest.",
+      "pilot": false,
+      "variants": [
+        {
+          "variantId": "CM_SL_03_V1",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Bảng điều khiển Seoul ghi rõ: A dùng tín hiệu nước, B xác thực ấn tín, C đọc mạch Hanji. Một phiếu bảo trì đã tráo nhãn B và C, dù dây nối không đổi.",
+          "evidencePresentation": "Sau khi đủ điều kiện S18, cho xem bảng A/B/C và nhãn bị tráo trong phần phụ.",
+          "question": "Muốn sửa phiếu bảo trì mà không động tới hệ thống đã đồng bộ, cách nào đúng?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Ghi lại B=ấn tín Huế, C=mạch Hanji Jeonju như bảng nguồn."
+            },
+            {
+              "id": "B",
+              "text": "Đổi thật hai rơle B và C để khớp phiếu bị tráo."
+            },
+            {
+              "id": "C",
+              "text": "Giữ phiếu cũ vì cả hai đều phát ánh sáng."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Chỉ nhãn trên giấy sai; thay dây rơle thật sẽ phá đồng bộ đang đúng.",
+          "hint": "Tìm thứ sai: bản ghi hay kết nối vật lý.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "advanced",
+          "locality": "cross-city",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "seoul:S18",
+            "relay_state",
+            "cross_city_sources"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        },
+        {
+          "variantId": "CM_SL_03_V2",
+          "format": "evidence_reasoning",
+          "evidenceRequired": "Ở bảng ký ức cuối tuyến: Hội An khôi phục đèn, Đà Lạt gửi nguồn nước, Huế xác thực ấn, Jeonju gửi mạch, Gyeongju đưa ống kính quan sát.",
+          "evidencePresentation": "Cho hiện 5 biểu tượng đã được giới thiệu trong quest trước đó, nếu người chơi chưa đến đủ thì ẩn variant.",
+          "question": "Một nhãn ghi \"ống kính Silla đến từ Jeonju\". Nên sửa nó dựa vào dấu vết nào?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Đổi tên ống kính thành mạch Hanji nhưng giữ nguồn Jeonju."
+            },
+            {
+              "id": "B",
+              "text": "Đổi nguồn thành Gyeongju, nơi Lumi đã ghép ba biểu tượng sao."
+            },
+            {
+              "id": "C",
+              "text": "Giữ nguyên vì Jeonju cũng có hoa văn và ánh sáng."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Ống kính gắn với ba biểu tượng sao tại Gyeongju; Hanji là mạch của Jeonju.",
+          "hint": "Nhớ nơi nào Lumi thực sự ghép các biểu tượng sao.",
+          "feedbackIfWrong": "Dẫn người chơi xem lại manh mối, cho thử lại hoặc bỏ qua; không phạt.",
+          "needsEvidenceInRuntime": true,
+          "difficulty": "advanced",
+          "locality": "cross-city",
+          "reviewStatus": "KEEP",
+          "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+          "evidenceIds": [
+            "seoul:S18",
+            "relay_state",
+            "cross_city_sources"
+          ],
+          "contentReviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+        }
+      ],
+      "reviewStatus": "KEEP",
+      "locality": "cross-city",
+      "feedbackStatus": "PROPOSED_NOT_RUNTIME_INTEGRATED",
+      "evidenceIds": [
+        "seoul:S18",
+        "relay_state",
+        "cross_city_sources"
+      ],
+      "reviewNote": "N?i dung ??t ti?u ch? bi?n t?p; v?n c?n x?c minh cue v? feedback trong runtime."
+    }
+  ],
+  "reviewSummary": {
+    "status": "CONTENT_POLISHED_DATA_VALIDATED_NOT_RUNTIME_INTEGRATED",
+    "counts": {
+      "KEEP": 16,
+      "REVISED": 12,
+      "NEEDS_RUNTIME_CONTEXT": 2,
+      "REJECT_CANDIDATE": 0
+    },
+    "runtimeIntegration": "NOT_PERFORMED",
+    "runtimeBuild": "NOT_PERFORMED"
+  }
+}

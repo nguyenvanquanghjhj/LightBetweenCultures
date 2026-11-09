@@ -1,0 +1,1736 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-17",
+  "scope": "Documentation/approval metadata only; not a second runtime art or gameplay manager",
+  "policy": {
+    "oneIdentityManyVariants": true,
+    "identityLocks": [
+      "face structure",
+      "relative age",
+      "distinctive traits",
+      "character identity"
+    ],
+    "permittedChanges": [
+      "costume",
+      "expression",
+      "gesture",
+      "pose",
+      "view direction",
+      "accessories",
+      "reasonable hairstyle changes"
+    ],
+    "noSharedFaceAcrossIndependentNpc": true,
+    "identityApprovalIndependentOfCropQuality": true,
+    "sourceConceptNotRuntimeSprite": true,
+    "legacyRuntimeStatus": "Current runtime NPC status is CANONICAL_USER_CONFIRMED_20261017. Historical annotations are preserved in each registered variant; identity approval is authoritative here.",
+    "approvalSource": "Docs/Requests/20261017/npc-canonical-identity-lock.txt",
+    "buildGuard": "PortraitRepairSetup.CanonicalIdentityBuildGuard reads this exact registry; rejects unapproved references or changed source PNG bytes. Never infers identity from file name/city."
+  },
+  "identities": [
+    {
+      "npcId": "npc_ba_tu",
+      "canonicalIdentity": {
+        "identityId": "npc_ba_tu",
+        "name": "Bà Tư",
+        "coreTraits": "Phụ nữ lớn tuổi, mặt tròn, mắt cười cong, tóc bạc lộ ở trán/mai. Khăn đỏ và giỏ rau là trang phục/đạo cụ mặc định; được thay khi vẫn nhận ra Bà Tư.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H10",
+          "actor": "Bà Tư"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_ba_tu.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "spriteName": "H3_07_Characters_NPC_Concept_23",
+          "guid": "ab62ba1e558f7274984500bb1cac18f6",
+          "localId": "8637574531497076435",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "7cbef3187db3a532c2ddeb7906e5aaf0a2515c78f02fec086ba9fd7f89d971f3",
+          "legacyRuntimeStatusAnnotation": "EXISTING_USER_SOURCE_ROLE_MATCH; NOT_CANONICAL_IDENTITY_APPROVAL_PENDING; native_slice_no_bitmap_copy",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [
+        {
+          "referenceId": "npc_ba_tu.missing_sheet_pose",
+          "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+          "region": "Top row second character",
+          "status": "APPROVED_VARIANT",
+          "runtimeBound": false,
+          "spriteReady": false,
+          "reason": "Phụ nữ lớn tuổi, tóc bạc, mặt tròn/mắt cười, khăn đỏ và giỏ; nhất quán với Bà Tư."
+        }
+      ],
+      "runtimeEvents": [
+        {
+          "id": "npc_ba_tu",
+          "cityId": "hoi_an",
+          "nodeId": "H10",
+          "type": "npc",
+          "actor": "Bà Tư",
+          "questId": "HQ02"
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_ba_tu.default"
+    },
+    {
+      "npcId": "npc_boat",
+      "canonicalIdentity": {
+        "identityId": "npc_boat",
+        "name": "Bến phà thông tin",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "MISSING",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S14",
+          "actor": "Bến phà thông tin"
+        }
+      ],
+      "variants": [],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_boat",
+          "cityId": "seoul",
+          "nodeId": "S14",
+          "type": "npc",
+          "actor": "Bến phà thông tin",
+          "questId": ""
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ]
+    },
+    {
+      "npcId": "npc_boatman",
+      "canonicalIdentity": {
+        "identityId": "npc_boatman",
+        "name": "Bác Lái Đò",
+        "coreTraits": "Nam đứng tuổi, mặt tròn, tóc mai xám, ria cong và chòm râu cằm xám. Giữ nhận diện bác lái đò; không đồng nhất với npc_tam chỉ vì cùng nghề.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H17",
+          "actor": "Bác Lái Đò"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_boatman.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+          "spriteName": "NPC_HoiAn_Boatman",
+          "guid": "3835aa72bd8c88b41af32d4aabd40b98",
+          "localId": "21300000",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "50a302d2ee697b42585dcf56ed7fd9a90c93800ceea12650d80e59c17a64f187",
+          "legacyRuntimeStatusAnnotation": "",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_boatman",
+          "cityId": "hoi_an",
+          "nodeId": "H17",
+          "type": "npc",
+          "actor": "Bác Lái Đò",
+          "questId": "HQ04"
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_boatman.default"
+    },
+    {
+      "npcId": "npc_curator",
+      "canonicalIdentity": {
+        "identityId": "npc_curator",
+        "name": "Quản thủ bảo tàng",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "MISSING",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S2",
+          "actor": "Quản thủ bảo tàng"
+        }
+      ],
+      "variants": [],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_curator",
+          "cityId": "seoul",
+          "nodeId": "S2",
+          "type": "npc",
+          "actor": "Quản thủ bảo tàng",
+          "questId": "SQ02"
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ]
+    },
+    {
+      "npcId": "npc_elder",
+      "canonicalIdentity": {
+        "identityId": "npc_elder",
+        "name": "Người giữ chuyện",
+        "coreTraits": "Người phụ nữ lớn tuổi, tóc bạc búi, mắt nâu lớn, nét mặt dịu; hanbok tím và đèn giấy là tạo hình chính.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "jeonju",
+          "nodeId": "J16",
+          "actor": "Người giữ chuyện"
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J16",
+          "actor": "Người giữ chuyện"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_elder.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+          "spriteName": "npc_elder",
+          "guid": "9e2ba05a32d628045ae4dce1b7b1cb19",
+          "localId": "245854044",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "cb4bd5bb94b28656a70540d06792fc3411cc0672fcf9b29f2b1626af80a1797b",
+          "legacyRuntimeStatusAnnotation": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_elder",
+          "cityId": "jeonju",
+          "nodeId": "J16",
+          "type": "dialogue",
+          "actor": "Người giữ chuyện",
+          "questId": ""
+        },
+        {
+          "id": "chapter_jq04_offer",
+          "cityId": "jeonju",
+          "nodeId": "J16",
+          "type": "quest",
+          "actor": "Người giữ chuyện",
+          "questId": "JQ04"
+        }
+      ],
+      "storyRoles": [
+        "dialogue",
+        "quest"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_elder.default"
+    },
+    {
+      "npcId": "npc_engineer",
+      "canonicalIdentity": {
+        "identityId": "npc_engineer",
+        "name": "Kỹ sư Trạm Số",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "MISSING",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S11",
+          "actor": "Kỹ sư Trạm Số"
+        },
+        {
+          "cityId": "seoul",
+          "nodeId": "S11",
+          "actor": "Kỹ sư Trạm Số"
+        }
+      ],
+      "variants": [],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_engineer",
+          "cityId": "seoul",
+          "nodeId": "S11",
+          "type": "npc",
+          "actor": "Kỹ sư Trạm Số",
+          "questId": ""
+        },
+        {
+          "id": "sq02_finish",
+          "cityId": "seoul",
+          "nodeId": "S11",
+          "type": "quest",
+          "actor": "Kỹ sư Trạm Số",
+          "questId": "SQ02"
+        }
+      ],
+      "storyRoles": [
+        "npc",
+        "quest"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ]
+    },
+    {
+      "npcId": "npc_gardener",
+      "canonicalIdentity": {
+        "identityId": "npc_gardener",
+        "name": "Người Làm Vườn",
+        "coreTraits": "Người đàn ông trung niên, tóc muối tiêu bồng, lông mày đậm, ria mép đen bạc, mũi tròn; tạp dề xanh.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D13",
+          "actor": "Người Làm Vườn"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_gardener.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+          "spriteName": "npc_gardener",
+          "guid": "cac9b7f04788a1743af1858d523019df",
+          "localId": "1390191892",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "40f33f91189d0829ac66973b83eaf9c431ab5eb64836a98de5f68864acb6f404",
+          "legacyRuntimeStatusAnnotation": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_gardener",
+          "cityId": "da_lat",
+          "nodeId": "D13",
+          "type": "npc",
+          "actor": "Người Làm Vườn",
+          "questId": "DQ04"
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_gardener.default"
+    },
+    {
+      "npcId": "npc_guest",
+      "canonicalIdentity": {
+        "identityId": "npc_guest",
+        "name": "Ji-eun",
+        "coreTraits": "Ji-eun: nữ trẻ trưởng thành, mắt lớn, tóc nâu đen/tết; pose hiện tại có kính xanh tròn, mũ hoa, áo tím, máy ảnh. Đổi phụ kiện/trang phục phải giữ gương mặt, tuổi và nhận diện Ji-eun.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H18",
+          "actor": "Khách lạ Hàn Quốc"
+        },
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H18",
+          "actor": "Khách lạ Hàn Quốc"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_guest.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_guest",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-404209332",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "87e127de96b7eb9aa259bb643f667b0167796ec9dce246ee0369a9ad4e84dc94",
+          "legacyRuntimeStatusAnnotation": "",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_guest",
+          "cityId": "hoi_an",
+          "nodeId": "H18",
+          "type": "npc",
+          "actor": "Khách lạ Hàn Quốc",
+          "questId": "HQ03"
+        },
+        {
+          "id": "chapter_jq04_return",
+          "cityId": "hoi_an",
+          "nodeId": "H18",
+          "type": "quest",
+          "actor": "Khách lạ Hàn Quốc",
+          "questId": "JQ04"
+        }
+      ],
+      "storyRoles": [
+        "npc",
+        "quest"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_guest.default"
+    },
+    {
+      "npcId": "npc_hana",
+      "canonicalIdentity": {
+        "identityId": "npc_hana",
+        "name": "Nghệ nhân Hana",
+        "coreTraits": "Cô gái trẻ, tóc đen tết, băng tóc hồng, mắt cười cong và khuôn mặt tròn; hanbok hồng, tấm vải hoa.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "jeonju",
+          "nodeId": "J2",
+          "actor": "Nghệ nhân Hana"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_hana.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_hana",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-730319472",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "87e127de96b7eb9aa259bb643f667b0167796ec9dce246ee0369a9ad4e84dc94",
+          "legacyRuntimeStatusAnnotation": "EXISTING_ROSTER_ROLE_MATCH; NOT_CANONICAL; named_identity_assignment_pending_approval",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_hana",
+          "cityId": "jeonju",
+          "nodeId": "J2",
+          "type": "npc",
+          "actor": "Nghệ nhân Hana",
+          "questId": "JQ01"
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_hana.default"
+    },
+    {
+      "npcId": "npc_hungry_dog",
+      "canonicalIdentity": {
+        "identityId": "npc_hungry_dog",
+        "name": "Chó Canh Đường",
+        "coreTraits": "Chó lông vàng, tai cụp, mắt nâu tròn lớn, mõm/ngực trắng kem. Không dùng như enemy hoặc NPC người.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D10",
+          "actor": "Chó Canh Đường"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_hungry_dog.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+          "spriteName": "npc_hungry_dog",
+          "guid": "3df301f30edc9d243899518bb89fb538",
+          "localId": "37410012",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "f7996bdea43934e25f70625e60b8125f347f0fbae7bfaf68779384cf595ab78b",
+          "legacyRuntimeStatusAnnotation": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_hungry_dog",
+          "cityId": "da_lat",
+          "nodeId": "D10",
+          "type": "npc",
+          "actor": "Chó Canh Đường",
+          "questId": "DQ02"
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_hungry_dog.default"
+    },
+    {
+      "npcId": "npc_huong",
+      "canonicalIdentity": {
+        "identityId": "npc_huong",
+        "name": "Chị Hương",
+        "coreTraits": "Nữ trẻ trưởng thành, mặt tròn, mắt nâu lớn có một mắt nháy trong pose hiện tại, tóc nâu mái lệch/tết. Mũ hoa, áo xanh và giỏ hoa là visual mặc định đã chốt.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17.",
+        "castingProvenance": "Original roster role differs; current face permanently assigned by the user. Original city label is not a reason to recast."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hue",
+          "nodeId": "U1",
+          "actor": "Chị Hương"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_huong.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_huong",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-1343187348",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "87e127de96b7eb9aa259bb643f667b0167796ec9dce246ee0369a9ad4e84dc94",
+          "legacyRuntimeStatusAnnotation": "TEMPORARY_UNASSIGNED_ROSTER_CAST; NOT_CANONICAL; replace registry reference when approved",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_merchant",
+          "cityId": "hue",
+          "nodeId": "U1",
+          "type": "npc",
+          "actor": "Chị Hương",
+          "questId": ""
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_huong.default"
+    },
+    {
+      "npcId": "npc_innkeeper",
+      "canonicalIdentity": {
+        "identityId": "npc_innkeeper",
+        "name": "npc_innkeeper",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "MISSING",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D18",
+          "actor": "Lumi"
+        }
+      ],
+      "variants": [],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_innkeeper",
+          "cityId": "da_lat",
+          "nodeId": "D18",
+          "type": "start",
+          "actor": "Lumi",
+          "questId": ""
+        }
+      ],
+      "storyRoles": [
+        "start"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ]
+    },
+    {
+      "npcId": "npc_inscription",
+      "canonicalIdentity": {
+        "identityId": "npc_inscription",
+        "name": "Kho bản khắc",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "MISSING",
+      "placements": [
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G14",
+          "actor": "Kho bản khắc"
+        }
+      ],
+      "variants": [],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_inscription",
+          "cityId": "gyeongju",
+          "nodeId": "G14",
+          "type": "npc",
+          "actor": "Kho bản khắc",
+          "questId": ""
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ]
+    },
+    {
+      "npcId": "npc_keeper",
+      "canonicalIdentity": {
+        "identityId": "npc_keeper",
+        "name": "Sân chính di tích",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "MISSING",
+      "placements": [
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G9",
+          "actor": "Sân chính di tích"
+        }
+      ],
+      "variants": [],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_keeper",
+          "cityId": "gyeongju",
+          "nodeId": "G9",
+          "type": "npc",
+          "actor": "Sân chính di tích",
+          "questId": ""
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ]
+    },
+    {
+      "npcId": "npc_lan",
+      "canonicalIdentity": {
+        "identityId": "npc_lan",
+        "name": "Người dẫn đường Lan",
+        "coreTraits": "Phụ nữ trẻ trưởng thành, tóc bob nâu đậm, mắt nâu và mặt hơi góc cạnh; áo đi rừng xanh, khăn trắng, ba lô.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D2",
+          "actor": "Người dẫn đường Lan"
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D2",
+          "actor": "Người dẫn đường Lan"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_lan.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+          "spriteName": "npc_lan",
+          "guid": "fb6c63798ffdb6841a4fd318adf72a74",
+          "localId": "1886636321",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "9d86a77b26635549a1044b1629be0e286416033e19286f8f2154e5e2132fad99",
+          "legacyRuntimeStatusAnnotation": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_lan",
+          "cityId": "da_lat",
+          "nodeId": "D2",
+          "type": "npc",
+          "actor": "Người dẫn đường Lan",
+          "questId": "DQ01"
+        },
+        {
+          "id": "dalat_return_glasses",
+          "cityId": "da_lat",
+          "nodeId": "D2",
+          "type": "item",
+          "actor": "Người dẫn đường Lan",
+          "questId": null
+        }
+      ],
+      "storyRoles": [
+        "item",
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_lan.default"
+    },
+    {
+      "npcId": "npc_mai",
+      "canonicalIdentity": {
+        "identityId": "npc_mai",
+        "name": "Cô Mai",
+        "coreTraits": "Nữ trẻ trưởng thành theo thiết kế chibi đã chốt; mặt tròn, mắt nâu lớn, tóc nâu đen dài. Không thay bằng phụ nữ tóc bạc lớn tuổi. Áo đỏ, nón lá và đèn lồng là trang phục/đạo cụ mặc định, không phải điều kiện khóa danh tính.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H2",
+          "actor": "Cô Mai"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_mai.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+          "spriteName": "Mai_DialoguePortrait",
+          "guid": "a6cc838dd76ae7f40902d846693f4a5e",
+          "localId": "-1732270161",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "ca26766b34317562a60153ffb6222b82e3e35c14569d25ecae20c6977fbb975e",
+          "legacyRuntimeStatusAnnotation": "existing_approved_static_cutout",
+          "allowedInRuntime": true
+        },
+        {
+          "variantId": "npc_mai.h3_lantern_open_hand",
+          "status": "APPROVED_VARIANT",
+          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "spriteName": "H3_07_Characters_NPC_Concept_19",
+          "guid": "ab62ba1e558f7274984500bb1cac18f6",
+          "localId": "-7400866961864976714",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "H3",
+            "DialoguePanel"
+          ],
+          "conditions": "Biến thể nhận diện hợp lệ; chỉ được chọn cho runtime sau khi crop/viền được kiểm tra riêng. Không tự thay binding hiện tại.",
+          "runtimeBound": false,
+          "qualityStatus": "NEEDS_CROP_REVIEW",
+          "visualReview": "Tóc dài nâu đen, mặt tròn, mắt nâu lớn, tuổi tương đối nhất quán với Mai đã chốt; đổi tư thế mở tay/đèn và phụ kiện hoa. Native crop rộng có thể dính pixels lân cận; duyệt danh tính không đồng nghĩa crop PASS.",
+          "sourceSHA256": "7cbef3187db3a532c2ddeb7906e5aaf0a2515c78f02fec086ba9fd7f89d971f3",
+          "allowedInRuntime": false
+        }
+      ],
+      "visualReferences": [
+        {
+          "referenceId": "npc_mai.yellow_outfit_young",
+          "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
+          "region": "Characters_MissingSprites panel, top row, second character",
+          "status": "APPROVED_VARIANT",
+          "runtimeBound": false,
+          "spriteReady": false,
+          "reason": "Nhân vật tóc tối dưới nón lá, mặt tròn/mắt lớn và tuổi trẻ tương đối phù hợp; áo vàng là biến thể trang phục, không phải IDENTITY_CONFLICT. Chưa có sprite riêng; không gán localID của cả composite cho NPC."
+        }
+      ],
+      "runtimeEvents": [
+        {
+          "id": "npc_mai",
+          "cityId": "hoi_an",
+          "nodeId": "H2",
+          "type": "npc",
+          "actor": "Cô Mai",
+          "questId": "HQ01"
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_mai.default"
+    },
+    {
+      "npcId": "npc_market_merchant",
+      "canonicalIdentity": {
+        "identityId": "npc_market_merchant",
+        "name": "Thương nhân đường xa",
+        "coreTraits": "Nam trung niên, mặt tròn, tóc nâu đen búi, ria cong đậm và chòm râu nhỏ. Thương nhân Hội An/Đà Lạt là cùng npcId; ba lô vải, khăn và trang phục có thể thay.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D4",
+          "actor": "Thương nhân đường xa"
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D4",
+          "actor": "Thương nhân đường xa"
+        },
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H4",
+          "actor": "map actor"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_market_merchant.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+          "spriteName": "NPC_HoiAn_MarketMerchant",
+          "guid": "0a91b2dbca846994bbade4807ff62596",
+          "localId": "21300000",
+          "cities": [
+            "da_lat",
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "fc7bb16df6781ecbe20521d3e00be1b7193be2392f35ee92def647aa9f17fed2",
+          "legacyRuntimeStatusAnnotation": "derived_static_cutout_map_verified",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_market",
+          "cityId": "da_lat",
+          "nodeId": "D4",
+          "type": "npc",
+          "actor": "Thương nhân đường xa",
+          "questId": ""
+        },
+        {
+          "id": "dalat_strawberry_offer",
+          "cityId": "da_lat",
+          "nodeId": "D4",
+          "type": "quest",
+          "actor": "Thương nhân đường xa",
+          "questId": "DQ05"
+        }
+      ],
+      "storyRoles": [
+        "npc",
+        "quest"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_market_merchant.default"
+    },
+    {
+      "npcId": "npc_min",
+      "canonicalIdentity": {
+        "identityId": "npc_min",
+        "name": "Hướng dẫn viên Min",
+        "coreTraits": "Cậu bé hướng dẫn khảo cổ, tóc nâu đen ngắn, mắt nâu lớn, mũ vành bản đồ và ba lô; giữ đúng tuổi thiếu niên.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G3",
+          "actor": "Hướng dẫn viên Min"
+        },
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G3",
+          "actor": "Hướng dẫn viên Min"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_min.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_min",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "830274255",
+          "cities": [
+            "gyeongju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "87e127de96b7eb9aa259bb643f667b0167796ec9dce246ee0369a9ad4e84dc94",
+          "legacyRuntimeStatusAnnotation": "TEMPORARY_ROLE_MATCH_FROM_UNASSIGNED_ARCHAEOLOGICAL_GUIDE; NOT_CANONICAL_IDENTITY_APPROVAL_PENDING",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_min",
+          "cityId": "gyeongju",
+          "nodeId": "G3",
+          "type": "npc",
+          "actor": "Hướng dẫn viên Min",
+          "questId": "GQ01"
+        },
+        {
+          "id": "min_fox_food",
+          "cityId": "gyeongju",
+          "nodeId": "G3",
+          "type": "item",
+          "actor": "Hướng dẫn viên Min",
+          "questId": null
+        }
+      ],
+      "storyRoles": [
+        "item",
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_min.default"
+    },
+    {
+      "npcId": "npc_nguyet",
+      "canonicalIdentity": {
+        "identityId": "npc_nguyet",
+        "name": "Bà Nguyệt",
+        "coreTraits": "Phụ nữ lớn tuổi, tóc bạc búi cao, má tròn và mắt nâu; áo tím, giỏ thảo dược. Khác Bà Tư và người giữ chuyện.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hue",
+          "nodeId": "U2",
+          "actor": "Bà Nguyệt"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_nguyet.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+          "spriteName": "npc_nguyet",
+          "guid": "48a2e6c60f7ec0349befacea7c60e927",
+          "localId": "-1004916199",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "6930e06a55f6989b3547f2f11a2f7e3aed867f84eb9bbd53f943faa866d44530",
+          "legacyRuntimeStatusAnnotation": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_nguyet",
+          "cityId": "hue",
+          "nodeId": "U2",
+          "type": "npc",
+          "actor": "Bà Nguyệt",
+          "questId": "UQ02"
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_nguyet.default"
+    },
+    {
+      "npcId": "npc_park",
+      "canonicalIdentity": {
+        "identityId": "npc_park",
+        "name": "Thương nhân Park",
+        "coreTraits": "Người đàn ông trung niên, búi tóc đen, ria đen và râu cằm nhọn; khăn đầu sáng, áo gile và bưu kiện.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "jeonju",
+          "nodeId": "J5",
+          "actor": "Thương nhân Park"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_park.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+          "spriteName": "npc_park",
+          "guid": "36a0c8ea46b133e40bf8731d313402d7",
+          "localId": "-606975524",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "bf3defe0a6a193938bfd5c1e19176b572624760b89903cbc2b65222f142af7af",
+          "legacyRuntimeStatusAnnotation": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_parcel",
+          "cityId": "jeonju",
+          "nodeId": "J5",
+          "type": "npc",
+          "actor": "Thương nhân Park",
+          "questId": "JQ02"
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_park.default"
+    },
+    {
+      "npcId": "npc_phuc",
+      "canonicalIdentity": {
+        "identityId": "npc_phuc",
+        "name": "Ông Phúc",
+        "coreTraits": "Nam lớn tuổi, lông mày trắng dày, ria và râu trắng, mặt tròn, mắt cười. Khăn trắng, áo thợ và dụng cụ có thể thay theo hoàn cảnh.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H14",
+          "actor": "Ông Phúc"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_phuc.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "spriteName": "Phuc_DialoguePortrait",
+          "guid": "ab62ba1e558f7274984500bb1cac18f6",
+          "localId": "1019635214",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "7cbef3187db3a532c2ddeb7906e5aaf0a2515c78f02fec086ba9fd7f89d971f3",
+          "legacyRuntimeStatusAnnotation": "EXISTING_USER_SOURCE_ROLE_MATCH; NOT_CANONICAL_IDENTITY_APPROVAL_PENDING; native_slice_no_bitmap_copy",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [
+        {
+          "referenceId": "npc_phuc.missing_sheet_pose",
+          "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+          "region": "Top row third character (Nghệ nhân)",
+          "status": "APPROVED_VARIANT",
+          "runtimeBound": false,
+          "spriteReady": false,
+          "reason": "Nam lớn tuổi với lông mày/râu trắng, khăn trắng, mặt tròn; nhất quán với ông Phúc. Không đổi tên nghệ nhân khác trong gameplay."
+        }
+      ],
+      "runtimeEvents": [
+        {
+          "id": "npc_phuc",
+          "cityId": "hoi_an",
+          "nodeId": "H14",
+          "type": "dialogue",
+          "actor": "Ông Phúc",
+          "questId": ""
+        }
+      ],
+      "storyRoles": [
+        "dialogue"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_phuc.default"
+    },
+    {
+      "npcId": "npc_scholar",
+      "canonicalIdentity": {
+        "identityId": "npc_scholar",
+        "name": "Nho Sinh Lê An",
+        "coreTraits": "Nho sinh trẻ, mặt nhẵn tròn, mắt nâu lớn, tóc đen; khăn xếp xanh đậm, bút và sách.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hue",
+          "nodeId": "U7",
+          "actor": "Nho Sinh Lê An"
+        },
+        {
+          "cityId": "hue",
+          "nodeId": "U7",
+          "actor": "Nho Sinh Lê An"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_scholar.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_scholar",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-156234960",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "87e127de96b7eb9aa259bb643f667b0167796ec9dce246ee0369a9ad4e84dc94",
+          "legacyRuntimeStatusAnnotation": "EXISTING_ROSTER_ROLE_MATCH; NOT_CANONICAL; named_identity_assignment_pending_approval",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_scholar",
+          "cityId": "hue",
+          "nodeId": "U7",
+          "type": "npc",
+          "actor": "Nho Sinh Lê An",
+          "questId": "UQ01"
+        },
+        {
+          "id": "chapter_uq04_return",
+          "cityId": "hue",
+          "nodeId": "U7",
+          "type": "quest",
+          "actor": "Nho Sinh Lê An",
+          "questId": "UQ04"
+        }
+      ],
+      "storyRoles": [
+        "npc",
+        "quest"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_scholar.default"
+    },
+    {
+      "npcId": "npc_soyeon",
+      "canonicalIdentity": {
+        "identityId": "npc_soyeon",
+        "name": "So-yeon",
+        "coreTraits": "Nữ trẻ trưởng thành, mặt tròn, mắt lớn sau kính gọng đen, mái nâu và tóc buộc cao. Trang phục văn phòng xanh/trắng và tablet có thể thay. Không dùng khuôn mặt này cho Ji-won.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17.",
+        "castingProvenance": "Original roster role differs; current face permanently assigned by the user. Original city label is not a reason to recast."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "jeonju",
+          "nodeId": "J15",
+          "actor": "So-yeon"
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J15",
+          "actor": "So-yeon"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_soyeon.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_soyeon",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "464872565",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "87e127de96b7eb9aa259bb643f667b0167796ec9dce246ee0369a9ad4e84dc94",
+          "legacyRuntimeStatusAnnotation": "TEMPORARY_UNASSIGNED_ROSTER_CAST; NOT_CANONICAL; replace registry reference when approved",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_snack_seller",
+          "cityId": "jeonju",
+          "nodeId": "J15",
+          "type": "npc",
+          "actor": "So-yeon",
+          "questId": ""
+        },
+        {
+          "id": "dalat_strawberry_return",
+          "cityId": "jeonju",
+          "nodeId": "J15",
+          "type": "quest",
+          "actor": "So-yeon",
+          "questId": "DQ05"
+        }
+      ],
+      "storyRoles": [
+        "npc",
+        "quest"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_soyeon.default"
+    },
+    {
+      "npcId": "npc_tam",
+      "canonicalIdentity": {
+        "identityId": "npc_tam",
+        "name": "Bác Lái Đò Tâm",
+        "coreTraits": "Người đàn ông trung niên, tóc đen pha bạc, râu cằm ngắn, nếp má nhẹ; áo xanh đậm, nón sau lưng và mái chèo.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hue",
+          "nodeId": "U3",
+          "actor": "Bác Lái Đò Tâm"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_tam.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+          "spriteName": "npc_tam",
+          "guid": "7eb9ff722f5f81748945b06d9e1d05bd",
+          "localId": "-1705763202",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "15587f85e7fd1b72e26031bb9b28098c54ebed90f9e8d0ebc2e4af36d5ffee46",
+          "legacyRuntimeStatusAnnotation": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_ferryman",
+          "cityId": "hue",
+          "nodeId": "U3",
+          "type": "npc",
+          "actor": "Bác Lái Đò Tâm",
+          "questId": "UQ03"
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_tam.default"
+    },
+    {
+      "npcId": "npc_tech",
+      "canonicalIdentity": {
+        "identityId": "npc_tech",
+        "name": "Ji-won",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "MISSING",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S7",
+          "actor": "Kỹ thuật viên Ji-won"
+        }
+      ],
+      "variants": [],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_tech",
+          "cityId": "seoul",
+          "nodeId": "S7",
+          "type": "npc",
+          "actor": "Kỹ thuật viên Ji-won",
+          "questId": "SQ01"
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ]
+    },
+    {
+      "npcId": "npc_thuy",
+      "canonicalIdentity": {
+        "identityId": "npc_thuy",
+        "name": "Cô Thủy chủ tiệm hoa",
+        "coreTraits": "Phụ nữ trẻ, mặt thuôn, mắt nâu, tóc nâu dài tết lệch và cài hoa trắng; váy/tạp dề và giỏ hoa.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D3",
+          "actor": "Cô Thủy chủ tiệm hoa"
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D3",
+          "actor": "Cô Thủy chủ tiệm hoa"
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D3",
+          "actor": "Cô Thủy chủ tiệm hoa"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_thuy.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+          "spriteName": "npc_thuy",
+          "guid": "33ce1e750bcd0124d9feb5cfcbf3fa66",
+          "localId": "-857154714",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "148d12ec8ff2b07d7fbbf42c25afefadcc9e9d69da3853593c093154b1cbf6cd",
+          "legacyRuntimeStatusAnnotation": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_thuy",
+          "cityId": "da_lat",
+          "nodeId": "D3",
+          "type": "npc",
+          "actor": "Cô Thủy chủ tiệm hoa",
+          "questId": ""
+        },
+        {
+          "id": "dalat_thuy_food",
+          "cityId": "da_lat",
+          "nodeId": "D3",
+          "type": "item",
+          "actor": "Cô Thủy chủ tiệm hoa",
+          "questId": null
+        },
+        {
+          "id": "dalat_dog_food_recovery",
+          "cityId": "da_lat",
+          "nodeId": "D3",
+          "type": "recovery",
+          "actor": "Cô Thủy chủ tiệm hoa",
+          "questId": "DQ02"
+        }
+      ],
+      "storyRoles": [
+        "item",
+        "npc",
+        "recovery"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_thuy.default"
+    },
+    {
+      "npcId": "npc_yoon",
+      "canonicalIdentity": {
+        "identityId": "npc_yoon",
+        "name": "Nhà thầy Yoon",
+        "coreTraits": "Người đàn ông lớn tuổi, tóc bạc gợn sóng, râu trắng ngắn đầy, trán rộng; áo xanh lá và sách hanji.",
+        "approval": "User permanent approval of all existing distinct in-game NPC appearances, 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "jeonju",
+          "nodeId": "J4",
+          "actor": "Nhà thầy Yoon"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_yoon.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+          "spriteName": "npc_yoon",
+          "guid": "9e80ff4e3ffd49044b5dabf92b3d6b27",
+          "localId": "-321799653",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Original source and atlas visually compared in identity-lock task. Same face/age retained; not re-generated.",
+          "sourceSHA256": "144d39585715517f831861c8951bb90198086f7978675e4381686ae323ef4936",
+          "legacyRuntimeStatusAnnotation": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+          "allowedInRuntime": true
+        }
+      ],
+      "visualReferences": [],
+      "runtimeEvents": [
+        {
+          "id": "npc_yoon",
+          "cityId": "jeonju",
+          "nodeId": "J4",
+          "type": "npc",
+          "actor": "Nhà thầy Yoon",
+          "questId": ""
+        }
+      ],
+      "storyRoles": [
+        "npc"
+      ],
+      "runtimeCodeReferences": [
+        "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+        "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+        "Assets/_Game/Resources/AdventureUIArt.asset"
+      ],
+      "primaryVariantId": "npc_yoon.default"
+    }
+  ],
+  "identityConflicts": [
+    {
+      "npcId": "npc_mai",
+      "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+      "region": "Top left woman labelled Cô Mai",
+      "status": "IDENTITY_CONFLICT",
+      "reason": "Tóc xám búi và khuôn mặt thể hiện phụ nữ lớn tuổi rõ rệt, khác Cô Mai trẻ tóc dài đã chốt; không có time-skip trong cốt truyện. Không do áo vàng."
+    },
+    {
+      "npcId": "npc_mai",
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
+      "region": "Characters_MissingSprites panel, top left",
+      "status": "IDENTITY_CONFLICT",
+      "reason": "Lặp lại Cô Mai tóc bạc/búi và lớn tuổi hơn rõ rệt. Không dùng thay Mai canonical."
+    }
+  ],
+  "visualSourcesReviewed": [
+    "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+    "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+    "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+    "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
+    "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
+    "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/NPC_Roster_Concept.png"
+  ]
+}

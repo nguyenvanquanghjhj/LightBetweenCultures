@@ -1,0 +1,17 @@
+START campaign-vietnam PID=4232
+DONE campaign-vietnam FAIL checks=1088 seconds=308
+START campaign-korea PID=27948
+DONE campaign-korea PASS checks=1199 seconds=371
+START campaign-korea-restart PID=19152
+DONE campaign-korea-restart PASS checks=10 seconds=10
+START dialogue-complete-fixtures PID=17084
+DONE dialogue-complete-fixtures PASS checks=127 seconds=44
+START final-ux-latest-source PID=13196
+DONE final-ux-latest-source PASS checks=373 seconds=73
+START leisure-twelve-latest-source PID=21008
+DONE leisure-twelve-latest-source PASS checks=211 seconds=125
+START all-npc-approaches PID=20204
+DONE all-npc-approaches PASS checks=253 seconds=62
+START three-npc PID=4376
+DONE three-npc FAIL checks=12 seconds=18
+QUEUE_FINISHED ownerSaveUnchanged=True

@@ -1,0 +1,42 @@
+{
+  "base": "D:\\GAMEKKK\\Backups\\LBC_SourceVerified-20261020",
+  "baseManifestSHA256": "53305d534a5d5c5860003f6526d730cd412a0294a1f8c7b52831b74a54ace7a6",
+  "inputs": [
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapPanZoom.cs",
+      "sha256": "97d27853ef72a55e3e7fb41b5d7707c56e56c4614d24405dbd4eba0f979865e4"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+      "sha256": "8f66d1ba5bdeb53934d85e78a6578bd82253f6ee8e62e4234e330324434333cd"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/NodeMarkerView.cs",
+      "sha256": "e24795824f6c5ec0a9414df1304b7d23afebbcfa7d3220dd7a184955460da819"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/MapNodeHitTarget.cs",
+      "sha256": "b599078714bcbf99ae650b7588d0c52b57f70b91170557388fcb99396466ba11"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIController.cs",
+      "sha256": "86f329922b9574573c710072a7bbb03527dc770413595b867d83699781046401"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicDragHandle.cs",
+      "sha256": "25a2ec0fa5bfe06dbf4c5450cd23030c3c3eec0ca06fc29932821825631d9230"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.LeisureInput.cs",
+      "sha256": "7f06ff59162bc29eb336773cd97a5768fac9f88a7429a77f854ccc3b35ffc2d9"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameBootstrap.cs",
+      "sha256": "a95c332f0fd5c730561546062e545704934782f217f1fa714d52f3d00eaef7cc"
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftAudio.Settings.cs",
+      "sha256": "8a8d520adaaac45d2994b396cc8a5e1e84495896763cee39f48a5524d20105f1"
+    }
+  ]
+}

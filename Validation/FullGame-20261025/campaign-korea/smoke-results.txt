@@ -1,0 +1,627 @@
+UTC run: 2026-10-25T06:17:16.9006486Z | Unity 6000.6.5f1 | 1280x960
+PASS: PC New Game starts with a blank isolated save, no seed or fixture
+PASS: PC milestone capture: PC-NewGame
+PASS: Six cities/133 nodes/29 quests/22 story puzzles unchanged
+PASS: Single collection retains6 canonical relic IDs and24 fragment IDs
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Actual saved quest/relic state selects lighting A
+PASS: Map-space mask draws immediately above canonical painting, beneath actors/routes/markers
+PASS: Lighting cannot intercept mouse/touch/UI
+PASS: Lighting mask follows complete map bounds, not screen
+PASS: Soft circular district restores about20 percent of the painting including its gradient
+PASS: A dims both near/far background before actual tutorial hand-in
+PASS: Lighting does not expose hidden event H3
+PASS: Lighting does not expose hidden event H4
+PASS: Lighting does not expose hidden event H5
+PASS: Lighting does not expose hidden event H6
+PASS: Lighting does not expose hidden event H7
+PASS: Lighting does not expose hidden event H8
+PASS: Lighting does not expose hidden event H9
+PASS: Lighting does not expose hidden event H10
+PASS: Lighting does not expose hidden event H12
+PASS: Lighting does not expose hidden event H13
+PASS: Lighting does not expose hidden event H14
+PASS: Lighting does not expose hidden event H15
+PASS: Lighting does not expose hidden event H16
+PASS: Lighting does not expose hidden event H17
+PASS: Lighting does not expose hidden event H18
+PASS: Lighting does not expose hidden event H19
+PASS: Lighting does not expose hidden event H20
+PASS: Lighting does not expose hidden event H21
+PASS: Persist checkpoint state-A
+PASS: Dim background never unlocks hidden H19 movement
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H0 is discovered
+PASS: Lumi reaches H0 through the real map input
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_bamboo_frame
+PASS: Confirm without placement cannot claim: fragment_hoi_an_bamboo_frame
+PASS: Wrong drop rejected: fragment_hoi_an_bamboo_frame
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_bamboo_frame
+PASS: Wrong orientation rejected: fragment_hoi_an_bamboo_frame
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_bamboo_frame
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_bamboo_frame
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_bamboo_frame
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H3 is discovered
+PASS: Lumi reaches H3 through the real map input
+PASS: PC H3 picks up the physical lamp eye exactly once
+PASS: PC H3 return restores map input, scene readiness and movement
+PASS: PC milestone capture: PC-H3-Return
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H3 is discovered
+PASS: Lumi reaches H3 through the real map input
+PASS: PC H3 reentry has no duplicate eye or pickup control
+PASS: PC H3 second return preserves exactly one eye and responsive map
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Picked-up Eye has not completed Mai tutorial
+PASS: Actual saved quest/relic state selects lighting A
+PASS: Map-space mask draws immediately above canonical painting, beneath actors/routes/markers
+PASS: Lighting cannot intercept mouse/touch/UI
+PASS: Lighting mask follows complete map bounds, not screen
+PASS: Soft circular district restores about20 percent of the painting including its gradient
+PASS: A dims both near/far background before actual tutorial hand-in
+PASS: Lighting does not expose hidden event H5
+PASS: Lighting does not expose hidden event H6
+PASS: Lighting does not expose hidden event H7
+PASS: Lighting does not expose hidden event H8
+PASS: Lighting does not expose hidden event H9
+PASS: Lighting does not expose hidden event H14
+PASS: Lighting does not expose hidden event H15
+PASS: Lighting does not expose hidden event H16
+PASS: Lighting does not expose hidden event H17
+PASS: Lighting does not expose hidden event H18
+PASS: Lighting does not expose hidden event H19
+PASS: Lighting does not expose hidden event H20
+PASS: Persist checkpoint state-A-picked
+PASS: Dialogue choice tutorial_return has a real receipt/next/interact control
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual saved quest/relic state selects lighting B
+PASS: Map-space mask draws immediately above canonical painting, beneath actors/routes/markers
+PASS: Lighting cannot intercept mouse/touch/UI
+PASS: Lighting mask follows complete map bounds, not screen
+PASS: Soft circular district restores about20 percent of the painting including its gradient
+PASS: B restores H2 district while distant background stays dim
+PASS: StateB circle is centered on the existing lamp, not the arrival anchor
+PASS: StateB soft circular edge has consistent map-pixel radius; see circle-samples.txt
+PASS: Lighting does not expose hidden event H5
+PASS: Lighting does not expose hidden event H6
+PASS: Lighting does not expose hidden event H7
+PASS: Lighting does not expose hidden event H8
+PASS: Lighting does not expose hidden event H9
+PASS: Lighting does not expose hidden event H14
+PASS: Lighting does not expose hidden event H15
+PASS: Lighting does not expose hidden event H16
+PASS: Lighting does not expose hidden event H17
+PASS: Lighting does not expose hidden event H18
+PASS: Lighting does not expose hidden event H19
+PASS: Lighting does not expose hidden event H20
+PASS: Persist checkpoint state-B
+PASS: Visual district recovery grants neither HQ01 nor world unlock
+PASS: Dialogue choice relic:fragment_hoi_an_eye_reflection has a real receipt/next/interact control
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_eye_reflection
+PASS: Confirm without placement cannot claim: fragment_hoi_an_eye_reflection
+PASS: Wrong drop rejected: fragment_hoi_an_eye_reflection
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_eye_reflection
+PASS: Wrong orientation rejected: fragment_hoi_an_eye_reflection
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_eye_reflection
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_eye_reflection
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_eye_reflection
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H4 is discovered
+PASS: Lumi reaches H4 through the real map input
+PASS: Intentional story action commits old proof without puzzle UI: puzzle_market
+PASS: Original coin reward exact: puzzle_market
+PASS: Original flags retained: puzzle_market
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_market
+PASS: Dialogue choice relic:fragment_hoi_an_old_flower_paper has a real receipt/next/interact control
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_old_flower_paper
+PASS: Confirm without placement cannot claim: fragment_hoi_an_old_flower_paper
+PASS: Wrong drop rejected: fragment_hoi_an_old_flower_paper
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_old_flower_paper
+PASS: Wrong orientation rejected: fragment_hoi_an_old_flower_paper
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_old_flower_paper
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_old_flower_paper
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_old_flower_paper
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_roof_hook
+PASS: Confirm without placement cannot claim: fragment_hoi_an_roof_hook
+PASS: Wrong drop rejected: fragment_hoi_an_roof_hook
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_roof_hook
+PASS: Wrong orientation rejected: fragment_hoi_an_roof_hook
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_roof_hook
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_roof_hook
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_roof_hook
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Assembly rejects empty slots
+PASS: Four actual drops persist assembled state
+PASS: Wrong beam route cannot restore city
+PASS: Correct beam before H7 still cannot complete ritual or full-city light
+PASS: Four fragments and assembly before H7 cannot produce full light
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H13 is discovered
+PASS: Lumi reaches H13 through the real map input
+PASS: Real activity opens without granting proof: puzzle_paper
+PASS: Closing an event or battle returns map input to the player
+PASS: Cancel before success preserves items/proofs: puzzle_paper
+PASS: Empty confirmation cannot pay or consume: puzzle_paper
+PASS: Wrong drop rejected: puzzle_paper
+PASS: Touch drag / tap-select places actual piece: puzzle_paper 0
+PASS: Prepared tactile state alone never auto-commits: puzzle_paper
+PASS: Explicit interaction success records original PuzzleID: puzzle_paper
+PASS: Original coin reward exact: puzzle_paper
+PASS: Original item and one-time ledger exact: puzzle_paper hanji_core
+PASS: Original flags retained: puzzle_paper
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_paper
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H19 is discovered
+PASS: Lumi reaches H19 through the real map input
+PASS: Intentional story action commits old proof without puzzle UI: puzzle_pottery
+PASS: Original coin reward exact: puzzle_pottery
+PASS: Original flags retained: puzzle_pottery
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_pottery
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H5 is discovered
+PASS: Lumi reaches H5 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H7 is discovered
+PASS: Lumi reaches H7 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Unchanged H7 quest awards exactly 150 and opens Hue/Jeonju
+PASS: Closing an event or battle returns map input to the player
+PASS: PC purchase uses earned currency
+PASS: PC redundant ferry permission is not sold
+PASS: Shop control exists: ShopBuy_meat
+PASS: PC real shop transaction debits exact price and grants one meat
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H12 is discovered
+PASS: Lumi reaches H12 through the real map input
+PASS: PC bought food is consumed as the designed crab bait, outside combat
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H17 is discovered
+PASS: Lumi reaches H17 through the real map input
+PASS: Dialogue choice complete has a real receipt/next/interact control
+PASS: Dialogue choice complete has a real receipt/next/interact control
+PASS: Dialogue choice complete has a real receipt/next/interact control
+PASS: Dialogue choice complete has a real receipt/next/interact control
+PASS: Dialogue choice complete has a real receipt/next/interact control
+PASS: Dialogue choice complete has a real receipt/next/interact control
+PASS: Dialogue choice complete has a real receipt/next/interact control
+PASS: PC original boatman quest completes through dialogue for exactly five earned coins
+PASS: Closing an event or battle returns map input to the player
+PASS: PC shop cannot charge the completed ferry fare a second time
+PASS: Persist checkpoint PC-bait-and-original-ferry
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual saved quest/relic state selects lighting B
+PASS: Map-space mask draws immediately above canonical painting, beneath actors/routes/markers
+PASS: Lighting cannot intercept mouse/touch/UI
+PASS: Lighting mask follows complete map bounds, not screen
+PASS: Soft circular district restores about20 percent of the painting including its gradient
+PASS: B restores H2 district while distant background stays dim
+PASS: StateB circle is centered on the existing lamp, not the arrival anchor
+PASS: StateB soft circular edge has consistent map-pixel radius; see circle-samples.txt
+PASS: Lighting does not expose hidden event H9
+PASS: Persist checkpoint state-B-H7
+PASS: Dialogue choice relic_restore has a real receipt/next/interact control
+PASS: Wrong beam does not restore relic or switch lighting
+PASS: Actual successful trial starts full-city spread
+PASS: Actual saved quest/relic state selects lighting C
+PASS: Map-space mask draws immediately above canonical painting, beneath actors/routes/markers
+PASS: Lighting cannot intercept mouse/touch/UI
+PASS: Lighting mask follows complete map bounds, not screen
+PASS: Soft circular district restores about20 percent of the painting including its gradient
+PASS: C disables dim layer and restores canonical full background
+PASS: Lighting does not expose hidden event H9
+PASS: Persist checkpoint state-C
+PASS: Ritual changes presentation once, without currency or reward replay
+PASS: QA never opens or completes H6 postcard/check-in
+PASS: Mouse wheel zoom still works with event/discovery system
+PASS: Two-finger pinch still zooms the map
+PASS: Dragging still pans actual map content
+PASS: Pinch and pan cannot trigger hidden node events or movement
+PASS: Map clamps extreme pan and maximum zoom
+PASS: Map A keeps its original illustration aspect ratio
+PASS: Zoom/pan cannot move district relative to H2
+PASS: Mouse/touch zoom, pan, inventory and quest journal preserve exact save
+PASS: Portrait zoom/pan preserves district anchor and bounds
+PASS: All ten existing landmark halos remain installed
+PASS: Persist checkpoint lighting-final
+PASS: City relic enabled in shared registry: jeonju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H6 is discovered
+PASS: Lumi reaches H6 through the real map input
+PASS: Opening photo view or empty confirmation does not record evidence
+PASS: H6 two-pointer alignment records postcard metadata
+PASS: Photo preserves old H6 reward exactly once; old marked save gets no duplicate
+PASS: Photo replay does not farm coins
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J2 is discovered
+PASS: Lumi reaches J2 through the real map input
+PASS: Restoration is blocked before four earned fragments
+PASS: Dialogue choice relic:fragment_jeonju_hanok_pattern has a real receipt/next/interact control
+PASS: Dialogue choice relic:fragment_jeonju_hanok_pattern has a real receipt/next/interact control
+PASS: Dialogue choice relic:fragment_jeonju_hanok_pattern has a real receipt/next/interact control
+PASS: Dialogue choice relic:fragment_jeonju_hanok_pattern has a real receipt/next/interact control
+PASS: Dialogue choice relic:fragment_jeonju_hanok_pattern has a real receipt/next/interact control
+PASS: Dialogue choice relic:fragment_jeonju_hanok_pattern has a real receipt/next/interact control
+PASS: Dialogue choice relic:fragment_jeonju_hanok_pattern has a real receipt/next/interact control
+PASS: Source opens a real gesture without auto-grant: fragment_jeonju_hanok_pattern
+PASS: Confirm without placement cannot claim: fragment_jeonju_hanok_pattern
+PASS: Wrong drop rejected: fragment_jeonju_hanok_pattern
+PASS: Actual mouse/touch drop reaches target: fragment_jeonju_hanok_pattern
+PASS: Wrong orientation rejected: fragment_jeonju_hanok_pattern
+PASS: Gesture commits distinct proof and ownership: fragment_jeonju_hanok_pattern
+PASS: Claim ledger idempotent after repeated confirmation: fragment_jeonju_hanok_pattern
+PASS: Collection never replaces story items or source rewards: fragment_jeonju_hanok_pattern
+PASS: Dialogue choice relic:fragment_jeonju_greeting_stamp has a real receipt/next/interact control
+PASS: Source opens a real gesture without auto-grant: fragment_jeonju_greeting_stamp
+PASS: Confirm without placement cannot claim: fragment_jeonju_greeting_stamp
+PASS: Wrong drop rejected: fragment_jeonju_greeting_stamp
+PASS: Actual mouse/touch drop reaches target: fragment_jeonju_greeting_stamp
+PASS: Wrong orientation rejected: fragment_jeonju_greeting_stamp
+PASS: Gesture commits distinct proof and ownership: fragment_jeonju_greeting_stamp
+PASS: Claim ledger idempotent after repeated confirmation: fragment_jeonju_greeting_stamp
+PASS: Collection never replaces story items or source rewards: fragment_jeonju_greeting_stamp
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J3 is discovered
+PASS: Lumi reaches J3 through the real map input
+PASS: Intentional story action commits old proof without puzzle UI: puzzle_dye
+PASS: Original coin reward exact: puzzle_dye
+PASS: Original item and one-time ledger exact: puzzle_dye healing_tea
+PASS: Original flags retained: puzzle_dye
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_dye
+PASS: Dialogue choice relic:fragment_jeonju_dyed_thread has a real receipt/next/interact control
+PASS: Source opens a real gesture without auto-grant: fragment_jeonju_dyed_thread
+PASS: Confirm without placement cannot claim: fragment_jeonju_dyed_thread
+PASS: Wrong drop rejected: fragment_jeonju_dyed_thread
+PASS: Actual mouse/touch drop reaches target: fragment_jeonju_dyed_thread
+PASS: Wrong orientation rejected: fragment_jeonju_dyed_thread
+PASS: Gesture commits distinct proof and ownership: fragment_jeonju_dyed_thread
+PASS: Claim ledger idempotent after repeated confirmation: fragment_jeonju_dyed_thread
+PASS: Collection never replaces story items or source rewards: fragment_jeonju_dyed_thread
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J7 is discovered
+PASS: Lumi reaches J7 through the real map input
+PASS: Real activity opens without granting proof: puzzle_hanji
+PASS: Closing an event or battle returns map input to the player
+PASS: Cancel before success preserves items/proofs: puzzle_hanji
+PASS: Empty confirmation cannot pay or consume: puzzle_hanji
+PASS: Wrong drop rejected: puzzle_hanji
+PASS: Touch drag / tap-select places actual piece: puzzle_hanji 0
+PASS: Prepared tactile state alone never auto-commits: puzzle_hanji
+PASS: Explicit interaction success records original PuzzleID: puzzle_hanji
+PASS: Original coin reward exact: puzzle_hanji
+PASS: Original item and one-time ledger exact: puzzle_hanji hanji_pattern_1
+PASS: Original flags retained: puzzle_hanji
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_hanji
+PASS: Dialogue choice relic:fragment_jeonju_old_hanji_core has a real receipt/next/interact control
+PASS: Source opens a real gesture without auto-grant: fragment_jeonju_old_hanji_core
+PASS: Confirm without placement cannot claim: fragment_jeonju_old_hanji_core
+PASS: Wrong drop rejected: fragment_jeonju_old_hanji_core
+PASS: Actual mouse/touch drop reaches target: fragment_jeonju_old_hanji_core
+PASS: Wrong orientation rejected: fragment_jeonju_old_hanji_core
+PASS: Gesture commits distinct proof and ownership: fragment_jeonju_old_hanji_core
+PASS: Claim ledger idempotent after repeated confirmation: fragment_jeonju_old_hanji_core
+PASS: Collection never replaces story items or source rewards: fragment_jeonju_old_hanji_core
+PASS: Four gestures give four unique collection claims, not story rewards
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J2 is discovered
+PASS: Lumi reaches J2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Dialogue choice relic_restore:relic_jeonju_hanji_stamp has a real receipt/next/interact control
+PASS: Empty slots do not assemble relic_jeonju_hanji_stamp
+PASS: Assembly is distinct from restored state
+PASS: Persist checkpoint phase4-jeonju-assembled
+PASS: Closing an event or battle returns map input to the player
+PASS: Persist checkpoint phase4-jeonju-before-trial
+PASS: Dialogue choice relic_restore:relic_jeonju_hanji_stamp has a real receipt/next/interact control
+PASS: Actual city restoration uses its distinct tactile rule: hanji
+PASS: Wrong trial submission cannot restore relic_jeonju_hanji_stamp
+PASS: Hint/retry preserve earned assembly and four fragments without solving
+PASS: Real mouse/touch controls satisfy hanji trial
+PASS: Correct arrangement alone cannot auto-confirm restoration
+PASS: Explicit trial confirmation commits restored state once: relic_jeonju_hanji_stamp
+PASS: Closing an event or battle returns map input to the player
+PASS: World restoration preserves main quests, inventory, coins and reward ledger
+PASS: Actual map restoration layer is present and cannot block touch
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J2 is discovered
+PASS: Lumi reaches J2 through the real map input
+PASS: NPC/runtime side dialogue recognizes actual restoration
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing collection opens all four fragment details without travel or grants
+PASS: No schema upgrade, boss/ending/world progress change from relic restoration
+PASS: Persist checkpoint phase4-jeonju-final
+PASS: Enabled relic UI/data cannot bypass locked Seoul city entry
+PASS: Persist checkpoint P4-E2E-KOREA_FIRST-jeonju
+PASS: PC milestone capture: PC-jeonju-restored
+PASS: City relic enabled in shared registry: gyeongju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Hanji relic restoration alone did not open Gyeongju
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J4 is discovered
+PASS: Lumi reaches J4 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J5 is discovered
+PASS: Lumi reaches J5 through the real map input
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J6 is discovered
+PASS: Lumi reaches J6 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J5 is discovered
+PASS: Lumi reaches J5 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J11 is discovered
+PASS: Lumi reaches J11 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J12 is discovered
+PASS: Lumi reaches J12 through the real map input
+PASS: Real activity opens without granting proof: puzzle_embroidery
+PASS: Closing an event or battle returns map input to the player
+PASS: Cancel before success preserves items/proofs: puzzle_embroidery
+PASS: Empty confirmation cannot pay or consume: puzzle_embroidery
+PASS: Wrong drop rejected: puzzle_embroidery
+PASS: Touch drag / tap-select places actual piece: puzzle_embroidery 0
+PASS: Touch drag / tap-select places actual piece: puzzle_embroidery 1
+PASS: Touch drag / tap-select places actual piece: puzzle_embroidery 2
+PASS: Touch drag / tap-select places actual piece: puzzle_embroidery 3
+PASS: Prepared tactile state alone never auto-commits: puzzle_embroidery
+PASS: Explicit interaction success records original PuzzleID: puzzle_embroidery
+PASS: Original coin reward exact: puzzle_embroidery
+PASS: Original item and one-time ledger exact: puzzle_embroidery hanji_circuit
+PASS: Original flags retained: puzzle_embroidery
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_embroidery
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J12 is discovered
+PASS: Lumi reaches J12 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J17 is discovered
+PASS: Lumi reaches J17 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J17 is discovered
+PASS: Lumi reaches J17 through the real map input
+PASS: Intentional story action commits old proof without puzzle UI: puzzle_lantern
+PASS: Original coin reward exact: puzzle_lantern
+PASS: Original flags retained: puzzle_lantern
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_lantern
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J14 is discovered
+PASS: Lumi reaches J14 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J19 is discovered
+PASS: Lumi reaches J19 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual J19 station action opens Gyeongju by unchanged World Map rule
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G3 is discovered
+PASS: Lumi reaches G3 through the real map input
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Dialogue choice talk has a real receipt/next/interact control
+PASS: Source opens a real gesture without auto-grant: fragment_gyeongju_min_record
+PASS: Confirm without placement cannot claim: fragment_gyeongju_min_record
+PASS: Wrong drop rejected: fragment_gyeongju_min_record
+PASS: Actual mouse/touch drop reaches target: fragment_gyeongju_min_record
+PASS: Wrong orientation rejected: fragment_gyeongju_min_record
+PASS: Gesture commits distinct proof and ownership: fragment_gyeongju_min_record
+PASS: Claim ledger idempotent after repeated confirmation: fragment_gyeongju_min_record
+PASS: Collection never replaces story items or source rewards: fragment_gyeongju_min_record
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G5 is discovered
+PASS: Lumi reaches G5 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G6 is discovered
+PASS: Lumi reaches G6 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G9 is discovered
+PASS: Lumi reaches G9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G15 is discovered
+PASS: Lumi reaches G15 through the real map input
+PASS: Intentional story action commits old proof without puzzle UI: puzzle_temple
+PASS: Original coin reward exact: puzzle_temple
+PASS: Original flags retained: puzzle_temple
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_temple
+PASS: Dialogue choice relic:fragment_gyeongju_heritage_ring has a real receipt/next/interact control
+PASS: Source opens a real gesture without auto-grant: fragment_gyeongju_heritage_ring
+PASS: Confirm without placement cannot claim: fragment_gyeongju_heritage_ring
+PASS: Wrong drop rejected: fragment_gyeongju_heritage_ring
+PASS: Actual mouse/touch drop reaches target: fragment_gyeongju_heritage_ring
+PASS: Wrong orientation rejected: fragment_gyeongju_heritage_ring
+PASS: Gesture commits distinct proof and ownership: fragment_gyeongju_heritage_ring
+PASS: Claim ledger idempotent after repeated confirmation: fragment_gyeongju_heritage_ring
+PASS: Collection never replaces story items or source rewards: fragment_gyeongju_heritage_ring
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G10 is discovered
+PASS: Lumi reaches G10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G4 is discovered
+PASS: Lumi reaches G4 through the real map input
+PASS: Real activity opens without granting proof: puzzle_observatory
+PASS: Closing an event or battle returns map input to the player
+PASS: Cancel before success preserves items/proofs: puzzle_observatory
+PASS: Empty confirmation cannot pay or consume: puzzle_observatory
+PASS: Wrong drop rejected: puzzle_observatory
+PASS: Touch drag / tap-select places actual piece: puzzle_observatory 0
+PASS: Touch drag / tap-select places actual piece: puzzle_observatory 1
+PASS: Touch drag / tap-select places actual piece: puzzle_observatory 2
+PASS: Prepared tactile state alone never auto-commits: puzzle_observatory
+PASS: Explicit interaction success records original PuzzleID: puzzle_observatory
+PASS: Original coin reward exact: puzzle_observatory
+PASS: Original item and one-time ledger exact: puzzle_observatory stargazer_lens
+PASS: Original flags retained: puzzle_observatory
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_observatory
+PASS: Dialogue choice relic:fragment_gyeongju_star_stone has a real receipt/next/interact control
+PASS: Source opens a real gesture without auto-grant: fragment_gyeongju_star_stone
+PASS: Confirm without placement cannot claim: fragment_gyeongju_star_stone
+PASS: Wrong drop rejected: fragment_gyeongju_star_stone
+PASS: Actual mouse/touch drop reaches target: fragment_gyeongju_star_stone
+PASS: Wrong orientation rejected: fragment_gyeongju_star_stone
+PASS: Gesture commits distinct proof and ownership: fragment_gyeongju_star_stone
+PASS: Claim ledger idempotent after repeated confirmation: fragment_gyeongju_star_stone
+PASS: Collection never replaces story items or source rewards: fragment_gyeongju_star_stone
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G4 is discovered
+PASS: Lumi reaches G4 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Persist checkpoint phase4-gyeongju-before-guard
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G7 is discovered
+PASS: Lumi reaches G7 through the real map input
+PASS: Combat shows the correct roster sprite for enemy_stone_guard
+PASS: Real turn combat wins and persists enemy_stone_guard
+PASS: Closing an event or battle returns map input to the player
+PASS: Defeated enemy_stone_guard cannot restart for duplicate drops
+PASS: Actual battle/repair resolves statue before reflection evidence
+PASS: Dialogue choice relic:fragment_gyeongju_statue_reflection has a real receipt/next/interact control
+PASS: Source opens a real gesture without auto-grant: fragment_gyeongju_statue_reflection
+PASS: Confirm without placement cannot claim: fragment_gyeongju_statue_reflection
+PASS: Wrong drop rejected: fragment_gyeongju_statue_reflection
+PASS: Actual mouse/touch drop reaches target: fragment_gyeongju_statue_reflection
+PASS: Wrong orientation rejected: fragment_gyeongju_statue_reflection
+PASS: Gesture commits distinct proof and ownership: fragment_gyeongju_statue_reflection
+PASS: Claim ledger idempotent after repeated confirmation: fragment_gyeongju_statue_reflection
+PASS: Collection never replaces story items or source rewards: fragment_gyeongju_statue_reflection
+PASS: Statue reflection cannot auto-activate Silla beacon
+PASS: Four gestures give four unique collection claims, not story rewards
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G9 is discovered
+PASS: Lumi reaches G9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Dialogue choice relic_restore:relic_gyeongju_star_lens has a real receipt/next/interact control
+PASS: Empty slots do not assemble relic_gyeongju_star_lens
+PASS: Assembly is distinct from restored state
+PASS: Persist checkpoint phase4-gyeongju-assembled
+PASS: Closing an event or battle returns map input to the player
+PASS: Persist checkpoint phase4-gyeongju-before-trial
+PASS: Dialogue choice relic_restore:relic_gyeongju_star_lens has a real receipt/next/interact control
+PASS: Actual city restoration uses its distinct tactile rule: lens
+PASS: Wrong trial submission cannot restore relic_gyeongju_star_lens
+PASS: Hint/retry preserve earned assembly and four fragments without solving
+PASS: Decoy reading is rejected; retry remains possible
+PASS: Real mouse/touch controls satisfy lens trial
+PASS: Correct arrangement alone cannot auto-confirm restoration
+PASS: Explicit trial confirmation commits restored state once: relic_gyeongju_star_lens
+PASS: Closing an event or battle returns map input to the player
+PASS: World restoration preserves main quests, inventory, coins and reward ledger
+PASS: Actual map restoration layer is present and cannot block touch
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G9 is discovered
+PASS: Lumi reaches G9 through the real map input
+PASS: NPC/runtime side dialogue recognizes actual restoration
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing collection opens all four fragment details without travel or grants
+PASS: No schema upgrade, boss/ending/world progress change from relic restoration
+PASS: Persist checkpoint phase4-gyeongju-final
+PASS: Two-route earned statue choice agrees with actual branch: KOREA_FIRST
+PASS: Enabled relic UI/data cannot bypass locked Seoul city entry
+PASS: Persist checkpoint P4-E2E-KOREA_FIRST-gyeongju
+PASS: PC milestone capture: PC-gyeongju-restored
+PASS: City relic enabled in shared registry: hue
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U3 is discovered
+PASS: Lumi reaches U3 through the real map input
+PASS: U3 jade unavailable before actual crossing permit
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U16 is discovered
+PASS: Lumi reaches U16 through the real map input
+PASS: Real activity opens without granting proof: puzzle_market_code
+PASS: Closing an event or battle returns map input to the player
+PASS: Cancel before success preserves items/proofs: puzzle_market_code
+PASS: Empty confirmation cannot pay or consume: puzzle_market_code
+PASS: Wrong drop rejected: puzzle_market_code
+PASS: Touch drag / tap-select places actual piece: puzzle_market_code 0
+PASS: Touch drag / tap-select places actual piece: puzzle_market_code 1
+PASS: Prepared tactile state alone never auto-commits: puzzle_market_code
+PASS: Explicit interaction success records original PuzzleID: puzzle_market_code
+PASS: Original coin reward exact: puzzle_market_code
+PASS: Original item and one-time ledger exact: puzzle_market_code river_pass
+PASS: Original flags retained: puzzle_market_code
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_market_code
+PASS: Dialogue choice relic:fragment_hue_ritual_cord has a real receipt/next/interact control
+PASS: Source opens a real gesture without auto-grant: fragment_hue_ritual_cord
+PASS: Confirm without placement cannot claim: fragment_hue_ritual_cord
+PASS: Wrong drop rejected: fragment_hue_ritual_cord
+PASS: Actual mouse/touch drop reaches target: fragment_hue_ritual_cord
+PASS: Wrong orientation rejected: fragment_hue_ritual_cord
+PASS: Gesture commits distinct proof and ownership: fragment_hue_ritual_cord
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hue_ritual_cord
+PASS: Collection never replaces story items or source rewards: fragment_hue_ritual_cord
+PASS: Closing an event or battle returns map input to the player
+PASS: PC purchase uses earned currency
+PASS: PC redundant ferry permission is not sold
+PASS: Shop control exists: ShopBuy_tea
+PASS: PC real shop transaction debits exact price and grants one tea
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U15 is discovered
+PASS: Lumi reaches U15 through the real map input
+PASS: PC real bot fight is active
+System.Exception: FAIL: PC full HP cannot consume tea
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<PcBattleWithTea>d__176.MoveNext () [0x000c1] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.PcGameplay.cs:80 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

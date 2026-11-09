@@ -1,0 +1,1123 @@
+{
+  "createdUTC": "2026-10-18T04:36:43.121237+00:00",
+  "productionFiles": [
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "sha256": "368d47e73a67db3cc8bab751fb3f4d7d0c3f8e7698f1b2d7884a42d0a0a22b12",
+      "bytes": 532180,
+      "beforeSHA256": "041a166cf0b1f4e6e2eb7e1e700227ba156a556857aaa7ac9460ce3d8060eab9",
+      "role": "production"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/ContentDefinitions.cs",
+      "sha256": "dd149fb96bb72ad6413999676c7ee63e041308fb1b91e20d9f7cb78ee7f5fe68",
+      "bytes": 9731,
+      "beforeSHA256": "4ba55851889214e9de1b11e99bb6adeb8b7806b8851dbccde54b4263e3321edb",
+      "role": "production"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameData.cs",
+      "sha256": "824460c9756d79a6c65969555994389ca3f8140b851d92198bf75b4098da49e3",
+      "bytes": 6673,
+      "beforeSHA256": "1ddbda78ba0949e93821053f4e26fdf0fc6c9ef21aad7f285f62397d1da60b03",
+      "role": "production"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMapPaths.cs",
+      "sha256": "385f0c15f1821d1f22fab365ce5c96a87612bf3a3ec5cdf1f4e2e9692ace276d",
+      "bytes": 7062,
+      "beforeSHA256": "55b6a08be0e6eae0f2aec51201e2bb07f8980045cdbb5f5cbee1a2f8e7ce8f7f",
+      "role": "production"
+    }
+  ],
+  "validationSourceFiles": [
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Terrain.cs",
+      "sha256": "03bee96734c4d57044d25839407f1df2d9699cc6f65b1ef572da1c10219d9542",
+      "bytes": 12373,
+      "beforeSHA256": "6a85f300fdae52ecba64e23a6a22a211ae0c3d1aeabb0d2dd8c0105a1e3dcff7",
+      "role": "validation-source"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.UIPolish.cs",
+      "sha256": "ca1b93af21e71388693088f19fc05b15232357cded77bde85b4bb558469ed7b3",
+      "bytes": 13816,
+      "beforeSHA256": "6fbc8d3164eed67570e2c7e218d76a12ae603f93ca1d23bd1ef7f33ab27ec11e",
+      "role": "validation-source"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "sha256": "fa351e12d132393837c0e5824bbe6508a9b8185095805931b3823b9cdfca24ea",
+      "bytes": 110023,
+      "beforeSHA256": "4356f734d6778c3545ab32910a6ee22d9849a71e325cdadf41fec73203fc458c",
+      "role": "validation-source"
+    }
+  ],
+  "otherFiles": [
+    {
+      "path": "Docs/Art/ART_ASSET_CATALOG.md",
+      "sha256": "60153f3ef193f3270208987df4de7eb4d52d5b8edde24a1b6ffacdb139a3f29b",
+      "bytes": 51610,
+      "beforeSHA256": null,
+      "role": "inventory-only"
+    },
+    {
+      "path": "Docs/Art/ART_SOURCE_INDEX.md",
+      "sha256": "a5df601f6c613f3742246d884dd8df6807f52152a0aea91a4a63446899473f24",
+      "bytes": 1190,
+      "beforeSHA256": null,
+      "role": "inventory-only"
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.csv",
+      "sha256": "41d322d71fc98b6ce67c22672470229d5fe782197b955aa8d814c7bfbb304d77",
+      "bytes": 69867,
+      "beforeSHA256": null,
+      "role": "inventory-only"
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.json",
+      "sha256": "ff8f3ede9fc46277d65a50da41c51b5e4075db02f62aff3bf8c1f904cdf7c2d6",
+      "bytes": 360740,
+      "beforeSHA256": "049fb58c818a2df0de08779a9f6d6770dea0b5bb2954d743e04d6ca16bcbbe6b",
+      "role": "inventory-only"
+    },
+    {
+      "path": "Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md",
+      "sha256": "b1ca2301fb3c9352160468478ad5c8f098617363be16a4d350c1a08d846a606b",
+      "bytes": 4808,
+      "beforeSHA256": "e277c49700b7672702278424ea686ad72df7ca6effd478e56d763496288ec56d",
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/AUTHORING_README.md",
+      "sha256": "977b99c8288654b6aa57ff1c8b1e91c18a22463894d59c9940c797a5a1ac6fc8",
+      "bytes": 553,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/RuntimeReview.html",
+      "sha256": "975c9cae0d7bed24a4a84e830ea2d67cef2f836333d30822e50dba8a76c9098f",
+      "bytes": 14091,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/baseline.json",
+      "sha256": "e97b01c2889ef6e2f9b4a913c5106601eda95c93dd8edf002b69cd256fa6531a",
+      "bytes": 2327,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/canonical-maps.json",
+      "sha256": "e3af9cd3603ebefa9fa80867dce6c1a663eaaccd2c1380287dd34ee5bc420939",
+      "bytes": 2101,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/edge-waypoint-diff.json",
+      "sha256": "79f70873fbab8d420172d79e48167dc4f22fa6961a07b7df4b0d2223bb7a2831",
+      "bytes": 426139,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/edge-waypoints.md",
+      "sha256": "46c7f9a50776b63225368ef9ca9325ed835e5be5efb6969633f2c59cba06fc3b",
+      "bytes": 50485,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/held-water-crossings.json",
+      "sha256": "aa27a582bf0b46623f1fcf4fc0ad526723ab37c50f3083bbc95a7886499c2c97",
+      "bytes": 4426,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/proposed-gameplay.json",
+      "sha256": "e0ad5fb6b3c63c7c9fb3af56c3e7e537ff5548f04a7aba8afe0750c2c311c46a",
+      "bytes": 528294,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/runtime-cases.json",
+      "sha256": "36fc9e43b6ba7c426d4c3c6b8d5bcadf4bc84d447384d45091904ede99928281",
+      "bytes": 3740,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/shared-corridor-cases.json",
+      "sha256": "38de5b2958b18504be3faf7b4246ce6cabc0e8ca94ca6c78772d61d9e1de26f0",
+      "bytes": 460,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/terrain-edits.json",
+      "sha256": "c3fc4ceeb1530d08d8c05e8a4e57490aa0246f33d2b49d4390443a0e53c044c8",
+      "bytes": 25398,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/terrain-findings.json",
+      "sha256": "18288bc888b3896d2e5513ee6e5e982ea31ac80f7ac44acd5ac077e4599ef3b1",
+      "bytes": 8623,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/topology-proposals.json",
+      "sha256": "604081c4396f8cdbc1ee3188619ac89c2963be7d01bfbdbe2d1826acfda9c14c",
+      "bytes": 4081,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/Maps/RouteRedesign35-20261018/verification.json",
+      "sha256": "5cb3be81a7e37980023b3785660789cb599b520214ff34436666a2e8722caef0",
+      "bytes": 26010,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Docs/QA/MAP_ROUTE_TERRAIN_REDESIGN.md",
+      "sha256": "06950d859cb2af0f69630cd064369d4b73bf7e247b54b6aaae0aba81edfc7e8f",
+      "bytes": 16971,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Logs/route35-baseline-build.log",
+      "sha256": "ab6c969da7e806c4379f583e02d2d9115d547c1bd5bc4e66d003a2cd5df1de03",
+      "bytes": 1173056,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Logs/route35-final-build01.log",
+      "sha256": "51eb616069fed5bec6a41a47591b26e49e7fa5466e362c1251608e70179b1274",
+      "bytes": 1174011,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Logs/route35-final-build02.log",
+      "sha256": "00ee5b4c0ac9734e27c11c3eff0fc242acf3f5c5cf47a62f0fd9ebaa7c514f32",
+      "bytes": 1065071,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Tools/apply_route35_geometry.py",
+      "sha256": "3d93c57bc77280209a1c4c95580591df3fb508c252a4c7de6e4ce5f1b180e5d5",
+      "bytes": 3001,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Tools/finalize_route35_review.py",
+      "sha256": "153a0f1629d19ba2078b699bef95f221afc4a4c9b0612274d73cd25f588a9f4b",
+      "bytes": 14470,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Tools/map_route_terrain_audit.py",
+      "sha256": "7313031c977c986d256311fd7d36c842ff1ce71f99f92a9033b91916dd546ae9",
+      "bytes": 5417,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-da_lat-overview.png",
+      "sha256": "76142228e80f0af5edc2a72da8fe55456fd62e4971c5d3a9f45aebbdd20dfe74",
+      "bytes": 2352796,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-da_lat-portrait.png",
+      "sha256": "b3f61e781079f076e76b4c6e7b60d87f3527eee5772928f5670af5d171b05415",
+      "bytes": 1091361,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-gyeongju-overview.png",
+      "sha256": "ff6e1adee18ad738d472fa3ad381dd25a58a11efc964b60a3f4b2f1fee82ec35",
+      "bytes": 2447152,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-gyeongju-portrait.png",
+      "sha256": "24032838c31195a02f10c4e72d2db15355d0076c15583142832e2ea58dde6f9d",
+      "bytes": 1135383,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-hoi_an-overview.png",
+      "sha256": "bdb83b96e0179803e26da081bf060e18c2ec8fb552ca57d83aeabc378350c380",
+      "bytes": 2326461,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-hoi_an-portrait.png",
+      "sha256": "419f4a5bc1148b833af28a0af45a2c1b388cdbba334a82245eeebfdd1881b59e",
+      "bytes": 1081277,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-hue-overview.png",
+      "sha256": "e28fffb8f2b9f4d61aa8dfc6467ef76ac705c5ced780e4adc4aa1bb3f282cdd3",
+      "bytes": 2347085,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-hue-portrait.png",
+      "sha256": "fba6508b4ddf3c349f95fce820e702bfb536002e00b57bbce97d039a1712f8ac",
+      "bytes": 1099277,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-jeonju-overview.png",
+      "sha256": "b3fe2da09dfd8992e9455662ff31c0d26d205df73fdd0fb31195d966b66c72ac",
+      "bytes": 2410985,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-jeonju-portrait.png",
+      "sha256": "37a6cbeb34a38f5d02d7700412ab7201c9da3d0e14df4870ac34b033a4dbacac",
+      "bytes": 1122237,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-seoul-overview.png",
+      "sha256": "516391a2ef87fd9c9124e9cd4921bbc51983be2da74a2edc336b94a62f4b4bc4",
+      "bytes": 2458424,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/After-seoul-portrait.png",
+      "sha256": "00c805d988899142f0b82f579dc3691bfec49816b5741ea6249e72d4b0793146",
+      "bytes": 1136032,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/ChuaCau-entry.png",
+      "sha256": "0a6b0a3b48368aa9e83a47f834d415891e9c1f7fb214a67c2424011ca25fe4fe",
+      "bytes": 2201317,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/ChuaCau-exit.png",
+      "sha256": "fcb4d41f1c63e143a33a38b1826e8f4bbe14e9531ee21b3080f7a8909a12d417",
+      "bytes": 2172425,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/ChuaCau-under-roof.png",
+      "sha256": "132b01430bd28b0f274fc7fcc04079e3d5ae144b85844948e3ffcd6e1b727722",
+      "bytes": 2153569,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/X-WorldMap-select-da_lat.png",
+      "sha256": "a10c27ed8e8a88171e230f6d4bd6bb9e8a1a0947d999f21793470017700441ea",
+      "bytes": 1642640,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/X-WorldMap-select-gyeongju.png",
+      "sha256": "b8494c90362e033d2dbd8c6e0453720f974d0b3aed6b5e7e1169fcd29dfd3383",
+      "bytes": 1665296,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/X-WorldMap-select-hoi_an.png",
+      "sha256": "455d4e209bfd8e16bbb3c396b5a4feb0604d3077c668ad2e5a6c4e81526cca27",
+      "bytes": 819096,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/X-WorldMap-select-hue.png",
+      "sha256": "2a2031258f5c942c755bd480cd52426418a09287682e4777d9d333a2782b275c",
+      "bytes": 1641199,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/X-WorldMap-select-jeonju.png",
+      "sha256": "c03eb10378615ad34451f2ecd816e84ca042efbb7fe6ad8386312f3fc1c651c6",
+      "bytes": 1643337,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/X-WorldMap-select-seoul.png",
+      "sha256": "95b060371111592b3ed1e8e30e349342760df8238eecbdc03b1808620f9e6f2a",
+      "bytes": 1662126,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/capture-manifest.txt",
+      "sha256": "66e38ebf69d6bf071d7501bdf9b595618185966db06f804473f00e278769dee4",
+      "bytes": 2988,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/da_lat-route35-traces.json",
+      "sha256": "64e896b9bca16f7e81b7dc0f5375258d0f39ce62ca63a8a89dcaf2eb64726768",
+      "bytes": 77215,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/gameplay-save.json",
+      "sha256": "83a82674c50d8e2b3ab48981913af24dc9cd33d788b8ab5c0e2cc3d4f146555f",
+      "bytes": 18203,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/gameplay-save.json.bak",
+      "sha256": "35a7906f197b22e0e1e384e164e2532cfefbfb6101b72b42b6d2e3834eca8071",
+      "bytes": 11118,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/gyeongju-route35-traces.json",
+      "sha256": "a9fcb48b42d20df51eab7966bbeb25991ed95bad0065a6e62a3761a7b8e26bf1",
+      "bytes": 34695,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/hoi_an-route35-traces.json",
+      "sha256": "46ac5df8599a57b6f27edadfec6b9481f04ef121dc3bbe2cf39bb10b70146039",
+      "bytes": 158123,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/hue-route35-traces.json",
+      "sha256": "f2400f8d4b285d9d53569f6e12445272c41b6dfeaf5ba910890c65c929327738",
+      "bytes": 61611,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/jeonju-route35-traces.json",
+      "sha256": "d287c7907fb0c4e91276669e5562b8d12d5948fe8e4f1e364808952a76e63101",
+      "bytes": 40953,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/player.log",
+      "sha256": "95c8f0e307c491eda7de9ec1b64cb6f7f6c67bc4e0294dbb0875f1f2a401826b",
+      "bytes": 1118730,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/seoul-route35-traces.json",
+      "sha256": "2e26167d2e3008df15330becb7b7ee30fb6c1c4ebb542d8f3c829746d7a1327b",
+      "bytes": 22494,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After01/smoke-results.txt",
+      "sha256": "fa6110e9c7ac36b8870e064ef946c2d5ffeb2dd3187e798aa8dbd128b592d60c",
+      "bytes": 41148,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-da_lat-overview.png",
+      "sha256": "76142228e80f0af5edc2a72da8fe55456fd62e4971c5d3a9f45aebbdd20dfe74",
+      "bytes": 2352796,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-da_lat-portrait.png",
+      "sha256": "b3f61e781079f076e76b4c6e7b60d87f3527eee5772928f5670af5d171b05415",
+      "bytes": 1091361,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-gyeongju-overview.png",
+      "sha256": "47e1004230035273f6df0baac8a3ddef098cf3d4e4f2f9c49f31703a3a5eb8b6",
+      "bytes": 2446964,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-gyeongju-portrait.png",
+      "sha256": "2951075f62abd6e6b37f9f7c2c9e7699618ed19efc4e46a55c19db3c7324a82a",
+      "bytes": 1135307,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-hoi_an-overview.png",
+      "sha256": "bdb83b96e0179803e26da081bf060e18c2ec8fb552ca57d83aeabc378350c380",
+      "bytes": 2326461,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-hoi_an-portrait.png",
+      "sha256": "419f4a5bc1148b833af28a0af45a2c1b388cdbba334a82245eeebfdd1881b59e",
+      "bytes": 1081277,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-hue-overview.png",
+      "sha256": "e28fffb8f2b9f4d61aa8dfc6467ef76ac705c5ced780e4adc4aa1bb3f282cdd3",
+      "bytes": 2347085,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-hue-portrait.png",
+      "sha256": "fba6508b4ddf3c349f95fce820e702bfb536002e00b57bbce97d039a1712f8ac",
+      "bytes": 1099277,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-jeonju-overview.png",
+      "sha256": "b3fe2da09dfd8992e9455662ff31c0d26d205df73fdd0fb31195d966b66c72ac",
+      "bytes": 2410985,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-jeonju-portrait.png",
+      "sha256": "37a6cbeb34a38f5d02d7700412ab7201c9da3d0e14df4870ac34b033a4dbacac",
+      "bytes": 1122237,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-seoul-overview.png",
+      "sha256": "1941e3ab0c551dabf183e6754b0b39cdfdb4bb4708078ad8fc9fd90da2fdd895",
+      "bytes": 2458350,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/After-seoul-portrait.png",
+      "sha256": "4f8558ac1834e9da0b59f20ebe06f8525bdcfe0c209bf48e164d0a04e5745905",
+      "bytes": 1136141,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/X-WorldMap-select-da_lat.png",
+      "sha256": "a10c27ed8e8a88171e230f6d4bd6bb9e8a1a0947d999f21793470017700441ea",
+      "bytes": 1642640,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/X-WorldMap-select-gyeongju.png",
+      "sha256": "0ad6d64cfb2d745f46a05a7f3b8ff5104399416ec677a80e8c2d3b690ec42163",
+      "bytes": 1665974,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/X-WorldMap-select-hoi_an.png",
+      "sha256": "455d4e209bfd8e16bbb3c396b5a4feb0604d3077c668ad2e5a6c4e81526cca27",
+      "bytes": 819096,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/X-WorldMap-select-hue.png",
+      "sha256": "b2dd242bed5ba67c1313179ede25d90872751703c3b5528e2cb186dc6d65d1b9",
+      "bytes": 1642020,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/X-WorldMap-select-jeonju.png",
+      "sha256": "c03eb10378615ad34451f2ecd816e84ca042efbb7fe6ad8386312f3fc1c651c6",
+      "bytes": 1643337,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/X-WorldMap-select-seoul.png",
+      "sha256": "2cc129f897abc57656535495a2ccb80d2c9cc343b68542a544429cb13713c6b4",
+      "bytes": 1662974,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/capture-manifest.txt",
+      "sha256": "d709e7d4f8b951d2af5a13ce7045b7581582a485fca97bb7e198b370dc5f5d30",
+      "bytes": 2579,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/da_lat-route35-traces.json",
+      "sha256": "bcc7b9d3758768c7e77867de432b6266b97f8b7122e529aedcde5b7bcebb9a87",
+      "bytes": 41809,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/gameplay-save.json",
+      "sha256": "83a82674c50d8e2b3ab48981913af24dc9cd33d788b8ab5c0e2cc3d4f146555f",
+      "bytes": 18203,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/gameplay-save.json.bak",
+      "sha256": "35a7906f197b22e0e1e384e164e2532cfefbfb6101b72b42b6d2e3834eca8071",
+      "bytes": 11118,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/hue-route35-traces.json",
+      "sha256": "e6c952bfb5b591e9fa42f6a347faf76bb0bc9d43ab144ca158ed16add1e35af7",
+      "bytes": 4970,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/player.log",
+      "sha256": "669580f89e9e81a80791bedb029bf36202d8c47e775280c26d969b410471d765",
+      "bytes": 349248,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/After02/smoke-results.txt",
+      "sha256": "22ce24fd6f1f182970adaf32a34c4482a8c5129d0f52a6959fa418ffdb599ecf",
+      "bytes": 11703,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/da_lat-comparison.png",
+      "sha256": "e94f72fbfa28c134b147239798fb6921ff38e3d692187b611c63df836a18f621",
+      "bytes": 4192779,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/da_lat-review-regions.png",
+      "sha256": "7f8d3b508500975b6490814a622728815c486d39392a21d393c6f1f2504a8a7b",
+      "bytes": 4168565,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/graph-after.json",
+      "sha256": "c0efcb7c1c68489baee25bab1537dc2a01ec229739600e0edb1a5521b39127c8",
+      "bytes": 24381,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/graph-before.json",
+      "sha256": "df27494ac75d6fde5846b2932f7ab7cea9b5fcac4dbeb99229a2906ab2a061bc",
+      "bytes": 23259,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/gyeongju-comparison.png",
+      "sha256": "d3d14590e8a6cd6bff70031d3823d24a961d91f59e1e66a56ec7dfbb2287711c",
+      "bytes": 4233609,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/gyeongju-review-regions.png",
+      "sha256": "8394133bf8004de0eb2f484fe490c54aacc0b41ad3e9c18e02fd2ba25b161c5e",
+      "bytes": 4206355,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/hoi_an-comparison.png",
+      "sha256": "8efd07a839fe6c31843554d5aa518537536f4c05da25f2101be5a1ad507fe87c",
+      "bytes": 3958606,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/hoi_an-review-regions.png",
+      "sha256": "24b1f7d1362487943577da950e9ab484be63f0af1bdac59096d8edacee418548",
+      "bytes": 3942891,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/hue-comparison.png",
+      "sha256": "4997fa617348169af88799717d63f38cc9ed56d3f66badb28f2d3d9617579b7b",
+      "bytes": 4189463,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/hue-review-regions.png",
+      "sha256": "4c4605dae96488c991a66a7e20b87de250aeda44c4154dfc4ad9aaf7b6d6bc2a",
+      "bytes": 4161127,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/jeonju-comparison.png",
+      "sha256": "50030f9f7b07f35eb46e135ae218e3a4691b3e36f92ea51b610d0936f1dc6d03",
+      "bytes": 4365014,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/jeonju-review-regions.png",
+      "sha256": "256700f696a90eb3c572134687930f0674997332f7cf4f4248f5cbe7e53d1640",
+      "bytes": 4338338,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/seoul-comparison.png",
+      "sha256": "4728e06c2b65339574dc59a836bcd1ddff0eef3ba7b4220c8f01377501bfe224",
+      "bytes": 4249826,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Analysis/seoul-review-regions.png",
+      "sha256": "6939e799a4a6c3834a890549edd1fd73e301c3f73c5767225dbd251bbe288cf3",
+      "bytes": 4217930,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/Before-da_lat-overview.png",
+      "sha256": "39f8300668e59a929742f754bd818d08c2a54398cd46db737a36cf0352d09ceb",
+      "bytes": 2356645,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/Before-gyeongju-overview.png",
+      "sha256": "96b27cd21678260d36d72196815224dd2428a1698868eaf5041fa4e1cbe7d088",
+      "bytes": 2449905,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/Before-hoi_an-overview.png",
+      "sha256": "18523ee1ecdd758b7e84bb967045d622503e3afd2658b84dcd65249be4eadb92",
+      "bytes": 2328888,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/Before-hue-overview.png",
+      "sha256": "cbbd1a7f399c27ab8b37661c524d951a33d54048cf8456867f5149ceb7ca242d",
+      "bytes": 2351752,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/Before-jeonju-overview.png",
+      "sha256": "566154bd0a48641519350b94d84663ab1c6b20f631cf26e9a93627567d17d285",
+      "bytes": 2416750,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/Before-seoul-overview.png",
+      "sha256": "7e4625622adfa7b2cc3829407bc5e249cd90f08684f6866ece8bf70183a2e9a3",
+      "bytes": 2461269,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/X-WorldMap-select-da_lat.png",
+      "sha256": "1116b016d8f27dd8c7c173ceecd76159a9956e40f572f837f917190b0d6cb878",
+      "bytes": 1643291,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/X-WorldMap-select-gyeongju.png",
+      "sha256": "0ad6d64cfb2d745f46a05a7f3b8ff5104399416ec677a80e8c2d3b690ec42163",
+      "bytes": 1665974,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/X-WorldMap-select-hoi_an.png",
+      "sha256": "dc721bdda90886547e8a039f5251d2c786867b95fda7c0bb2239edeaea11648a",
+      "bytes": 819181,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/X-WorldMap-select-hue.png",
+      "sha256": "b2dd242bed5ba67c1313179ede25d90872751703c3b5528e2cb186dc6d65d1b9",
+      "bytes": 1642020,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/X-WorldMap-select-jeonju.png",
+      "sha256": "31276e31d035c66ff2ac33a86cf2507a8b91caa6c9f9428ad03991bf6e66ab6d",
+      "bytes": 1644247,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/X-WorldMap-select-seoul.png",
+      "sha256": "2cc129f897abc57656535495a2ccb80d2c9cc343b68542a544429cb13713c6b4",
+      "bytes": 1662974,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/capture-manifest.txt",
+      "sha256": "a20d6c2e21ae1d8589baea045cb915680325ef2a71bc4b5f117023a053194d05",
+      "bytes": 1735,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/gameplay-save.json",
+      "sha256": "83a82674c50d8e2b3ab48981913af24dc9cd33d788b8ab5c0e2cc3d4f146555f",
+      "bytes": 18203,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/gameplay-save.json.bak",
+      "sha256": "35a7906f197b22e0e1e384e164e2532cfefbfb6101b72b42b6d2e3834eca8071",
+      "bytes": 11118,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/player.log",
+      "sha256": "affc3720d87e02499962e0d59adfa01fe19b6d74afc2ad8370b7cd7318639a7a",
+      "bytes": 163373,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Before01/smoke-results.txt",
+      "sha256": "52b5bf5b71fee6a55fdf1c94bae3c72b1ef2b342dd0ea8da85b586f679ee1dec",
+      "bytes": 3710,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/05-H3-exploration.png",
+      "sha256": "3e3d97989ace99c5f7e9ee54f6e7b2a7dcc9775a50d9eebf882f49f3d5109d6d",
+      "bytes": 858053,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/06-H3-part-picked-up.png",
+      "sha256": "652fdf142eed925f6e846130cd35fba51a7e0d018f4f0ec2a79b6353cee71d09",
+      "bytes": 866501,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Relic-H10-hook-collected.png",
+      "sha256": "e6ab63fa01997d6564ed1098544d8413cb6d2f417af7ce79d1a18c9f545943ac",
+      "bytes": 608705,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Relic-H6-postcard-aligned.png",
+      "sha256": "0143411e6de5fd4b3453012ba2163cdbcc7e1058aaf49640be4f166e8cf8f27f",
+      "bytes": 810168,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Relic-after-full-city-same-view.png",
+      "sha256": "7b2c87bed3ab239fcc7131d8df946025816cdea102a03d8084170e36f3d21f59",
+      "bytes": 900734,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Relic-beam-valid-restoration.png",
+      "sha256": "2ca2c94479f7aeef69160cf7461231e7243831d3e8a9da510302d8f7ad8a130f",
+      "bytes": 499476,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Relic-before-full-city-H7-done.png",
+      "sha256": "7e4308cf435f64eca34a77c5d1fbf4d8dcb4cc2f4156610dd3f3b47594273209",
+      "bytes": 904847,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Relic-collection-six-icons.png",
+      "sha256": "2b8106e862a2e6547f4b8a90a2d453284bc930b997f55f595307b3703372130d",
+      "bytes": 656959,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Relic-four-pieces-assembly.png",
+      "sha256": "292b0d5fce20e6bbdab80a1d8433283c4eea91505c0a36e1ed5535f8ff019c7d",
+      "bytes": 516435,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Relic-photo-album-revisit.png",
+      "sha256": "f70dc1919b576b131b274e7bb7846e328863f2d7dbec702b23afeb9cc75f0951",
+      "bytes": 759113,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Story-BaTu-old-quest-preserved.png",
+      "sha256": "3d6c739dbcef399f874cc87eaa10a44376a5be2cb06e59859a982a90fa6fd8d5",
+      "bytes": 917724,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Story-H2-checkin-local.png",
+      "sha256": "4bce692ea20612f7d7e87b7ec97fe149a2c7a5f9f4ddedec0bc6c163c6427c00",
+      "bytes": 877843,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Story-H7-ready-before-ritual.png",
+      "sha256": "6d8776800ed56a4f04a785d7df9b9a207ae5c51c6b1697b3dde7220ccdab05f5",
+      "bytes": 801005,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Story-Mai-full-city-restored.png",
+      "sha256": "602911622d7532c66f24cdc49dcc6e8df6ac6571a9942f31629828e41e84414d",
+      "bytes": 797044,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Story-local-after-guidance.png",
+      "sha256": "95824c67c23099467d911e9707a3a267cd9ddaea354960ac2437bf936d6d69f6",
+      "bytes": 885521,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/Story-local-before-baseline.png",
+      "sha256": "2f734c6a1eb9e22e1e117fef72353c8978dc2c2c2d2c167f64c63c0d9f2b9120",
+      "bytes": 882449,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/capture-manifest.txt",
+      "sha256": "6524db6daa5e7b21ba88d36782d54af44f072072179ff8685c0132aa38043add",
+      "bytes": 2349,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/gameplay-save.json",
+      "sha256": "20220be8abf3a4b7d7b456916af987252850806b0d78a9819715903cea3a7be7",
+      "bytes": 3438,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/gameplay-save.json.bak",
+      "sha256": "20220be8abf3a4b7d7b456916af987252850806b0d78a9819715903cea3a7be7",
+      "bytes": 3438,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/player.log",
+      "sha256": "2f65af73715729359458391e8e9e57be022e9a3d1161feb1aa9c447d9106619e",
+      "bytes": 472582,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/relic-pilot-final.json",
+      "sha256": "20220be8abf3a4b7d7b456916af987252850806b0d78a9819715903cea3a7be7",
+      "bytes": 3438,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/smoke-results.txt",
+      "sha256": "69ec796c56db923e4a2e8224bf5858881858d897bdb1f829cc1f0ca010765446",
+      "bytes": 13244,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/story-H7-ready.json",
+      "sha256": "0acb14638aa4a2a137bb9b137104009ff2853aeff3b329a094b8ad9f65457d12",
+      "bytes": 3132,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Fresh01/story-local.json",
+      "sha256": "35601df3443b0148e2fc9a6343ffbd1204e172d75ab54853ecf8531e39447af3",
+      "bytes": 1810,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Restart01/Story-restart-restored.png",
+      "sha256": "f53fce27cfe2472a72f7b7c827fad4e1713a849e620b3a41aba8671f47384c29",
+      "bytes": 882702,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Restart01/gameplay-save.json",
+      "sha256": "36db6d3039bc1b14a6b681b6f4b2df29955acd7944128569417cb493b18b0bbf",
+      "bytes": 3438,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Restart01/gameplay-save.json.bak",
+      "sha256": "36db6d3039bc1b14a6b681b6f4b2df29955acd7944128569417cb493b18b0bbf",
+      "bytes": 3438,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Restart01/player.log",
+      "sha256": "a246fcd489063687876a2f28f900ecf70e4643c16c0ea55e2d04117e32d46d62",
+      "bytes": 97385,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Restart01/restart-captures.txt",
+      "sha256": "fcd4447f8799f59806cbb3c9400227cce745bc7b1dd33f83ee564c4412d16541",
+      "bytes": 143,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/Restart01/restart-results.txt",
+      "sha256": "39501be9e577bb1c10334dee0cbe332ca79d3ca63ca5bf89534f45847b7892f5",
+      "bytes": 945,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/WorldRestart01/Story-restart-journal.png",
+      "sha256": "37ed70fe6a42e7d9e5e357c3ca9176c9d0224014f07b48445bd02d2ff9ed2fdd",
+      "bytes": 371214,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/WorldRestart01/Story-restart-seoul-stage4.png",
+      "sha256": "a400e0f0eac5ca40e0826a685dd3dffc746d830d6960a2f850720ca26d6bdbd3",
+      "bytes": 1101141,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/WorldRestart01/X-WorldMap-select-seoul.png",
+      "sha256": "6d32fd5c0645b1c92e8bb662092a6177a033630940f1f0646aea402a81acf375",
+      "bytes": 830680,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/WorldRestart01/capture-manifest.txt",
+      "sha256": "ad5a88d41e9132183450679f0bb2a1e613300dd2947422e50b1e6d3c77a476f6",
+      "bytes": 433,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/WorldRestart01/gameplay-save.json",
+      "sha256": "83a82674c50d8e2b3ab48981913af24dc9cd33d788b8ab5c0e2cc3d4f146555f",
+      "bytes": 18203,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/WorldRestart01/gameplay-save.json.bak",
+      "sha256": "83a82674c50d8e2b3ab48981913af24dc9cd33d788b8ab5c0e2cc3d4f146555f",
+      "bytes": 18203,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/WorldRestart01/player.log",
+      "sha256": "5f99cd7b086790f2ea13ddd8cc62ac48464e929a55a9a707d5173feb4aafd018",
+      "bytes": 207088,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    },
+    {
+      "path": "Validation/RouteRedesign35-20261018/WorldRestart01/smoke-results.txt",
+      "sha256": "7242d5a4bdf26012d669eb8036f1410de95bd0de610fd8c4370f9b84d62d23e1",
+      "bytes": 5223,
+      "beforeSHA256": null,
+      "role": "documentation-tool-or-evidence"
+    }
+  ],
+  "note": "Bounded checkpoint payload, includes supporting evidence not only edited files. Six user-confirmed check-ins preserved in GameplayContent; import folder not integrated. Changed-files and checkpoint-paths indexes are recorded by final checkpoint manifest."
+}

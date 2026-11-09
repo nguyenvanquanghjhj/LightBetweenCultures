@@ -1,0 +1,134 @@
+﻿cityId,id,name,status,reason,handler
+da_lat,D0,Bến hồ Xuân Hương,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+da_lat,D1,Quảng trường dốc,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+da_lat,D2,Người dẫn đường Lan,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+da_lat,D3,Tiệm hoa Thủy,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+da_lat,D4,Chợ trên đồi,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+da_lat,D5,Lối rừng thông,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+da_lat,D6,Sói sương mù,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+da_lat,D7,Trạm quan sát sương,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+da_lat,D8,Ngõ sương vòng,PARTIAL,Puzzle ba lựa chọn; chưa có cảnh ba cổng rẽ.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+da_lat,D9,Đài nhìn thông,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+da_lat,D10,Chó canh đói,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+da_lat,D11,Lối vườn hoa,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+da_lat,D12,Cối xay cạnh hồ,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+da_lat,D13,Vườn kính hoa,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+da_lat,D14,Đài dẫn sáng núi,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+da_lat,D15,Bóng sương cầu đá,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+da_lat,D16,Thác hồi âm,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+da_lat,D17,Lối bí mật bờ đông,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+da_lat,D18,Nhà nghỉ trên dốc,PARTIAL,Có nghỉ hồi HP; portrait/nội dung riêng chủ trọ còn thiếu.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+da_lat,D19,Vườn hoa đêm,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+da_lat,D20,Cầu dẫn hồ,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+da_lat,D21,Cửa đồng bộ Seoul,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+gyeongju,G0,Cổng vào làng di tích,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+gyeongju,G1,Cầu lối bắc,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+gyeongju,G2,Đình ao sen,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+gyeongju,G3,Nhà khảo cổ Min,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+gyeongju,G4,Đài Cheomseongdae cách điệu,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+gyeongju,G5,Gò mộ phía tây,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+gyeongju,G6,Đường giữa các gò,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+gyeongju,G7,Tượng đá gác lối,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+gyeongju,G8,Lối chùa đá,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+gyeongju,G9,Sân chính di tích,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+gyeongju,G10,Đình trên đồi,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+gyeongju,G11,Vườn đá trung tâm,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+gyeongju,G12,Bệ phong ấn nứt,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+gyeongju,G13,Lính canh đêm,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+gyeongju,G14,Kho bản khắc,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+gyeongju,G15,Thềm điện đá,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+gyeongju,G16,Đền dưới hồ,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+gyeongju,G17,Đài lồng đèn bờ tây,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+gyeongju,G18,Lõi canh tinh tú,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+gyeongju,G19,Trạm cộng hưởng Silla,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+gyeongju,G20,Cổng đi Seoul,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+gyeongju,G21,Lối cỏ dược liệu,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hoi_an,H0,Bến thuyền khởi hành,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hoi_an,H1,Ngã ba phố đèn,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hoi_an,H2,Tiệm đèn Cô Mai,PARTIAL,Tiệm chưa có ba mức sáng riêng; main quest nhiều bước vẫn chạy.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hoi_an,H3,Hẻm mái ngói,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hoi_an,H4,Chợ ven sông,PARTIAL,Dùng puzzle chuỗi hiện có thay thao tác đổi ba ô.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+hoi_an,H5,Bến gỗ máy canh,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+hoi_an,H6,Cầu cổ ánh đèn,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hoi_an,H7,Trạm đèn hội quán,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hoi_an,H8,Cổng giao lưu Jeonju,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hoi_an,H9,Ngõ đèn thất lạc,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hoi_an,H10,Quầy hàng Bà Tư,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hoi_an,H11,Rương gỗ bến nước,PARTIAL,"Giữ thưởng6xu của checkpoint mới, không đổi về dây đồng trong v1.",NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hoi_an,H12,Cua trộm dưới bờ,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+hoi_an,H13,Xưởng ghép giấy,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+hoi_an,H14,Nghệ nhân ông Phúc,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hoi_an,H15,Lối đèn lập lòe,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+hoi_an,H16,Cầu tàu trung tâm,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hoi_an,H17,Bến đò phía đông,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hoi_an,H18,Tiệm trà khách lạ,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hoi_an,H19,Ngõ gốm hoa,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+hoi_an,H20,Cổng đi Huế,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hoi_an,H21,Rương áp mái,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hue,U0,Bến sông phía phố,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hue,U1,Chợ xưa bờ nam,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hue,U2,Nhà thuốc Bà Nguyệt,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hue,U3,Bến đò bờ nam,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hue,U4,Đầu cầu vào thành,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hue,U5,Bot Thân vệ Cổng,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+hue,U6,Cửa Ngọ Môn cách điệu,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hue,U7,Nho sinh Lê An,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hue,U8,Sân điện chính,PARTIAL,Puzzle chuỗi có logic thật; chưa có cảnh ba lá cờ.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+hue,U9,Vườn phía tây,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hue,U10,Vườn thuốc bờ bắc,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hue,U11,Gốc cây dấu ấn,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hue,U12,Bến sông tây,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+hue,U13,Bến thuyền hẻm,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hue,U14,Cầu ngõ phía đông,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hue,U15,Máy thu thư,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+hue,U16,Sạp mật mã chợ,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+hue,U17,Thư khố Hoàng thành,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+hue,U18,Sân thử thách Hoàng môn,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+hue,U19,Đài đèn thành nội,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+hue,U20,Cổng dẫn Đà Lạt,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+hue,U21,Lối đi ẩn bên tường,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+jeonju,J0,Cổng làng phía nam,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+jeonju,J1,Ngã ba hanok,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+jeonju,J2,Nghệ nhân Hana,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+jeonju,J3,Xưởng nhuộm vải,PARTIAL,Puzzle màu có logic thật; chưa có cảnh nhuộm vải.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+jeonju,J4,Nhà thầy Yoon,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+jeonju,J5,Tiệm hàng chuyển,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+jeonju,J6,Bot Cắp Kiện,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+jeonju,J7,Thư viện giấy hanji,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+jeonju,J8,Cầu đá tây,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+jeonju,J9,Bờ suối nước chảy,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+jeonju,J10,Rương ven hồ,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+jeonju,J11,Đài ngắm mái ngói,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+jeonju,J12,Sân thêu họa tiết,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+jeonju,J13,Cổng sân cổ,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+jeonju,J14,Bot Hoa Văn,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+jeonju,J15,Chợ hanok,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+jeonju,J16,Người giữ chuyện,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+jeonju,J17,Đèn song thành,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+jeonju,J18,Hạc giấy bóng tối,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+jeonju,J19,Trạm ánh sáng hanji,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+jeonju,J20,Cổng đi Gyeongju,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+jeonju,J21,Lối thư hồi âm,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+seoul,S0,Bến công viên sông Hàn,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+seoul,S1,Quảng trường trung tâm,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+seoul,S2,Cổng thành xưa,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+seoul,S3,Sân cung điện,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+seoul,S4,Hồ sơ lịch sử,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+seoul,S5,Drone trinh sát,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+seoul,S6,Bờ đông sông Hàn,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+seoul,S7,Quảng trường màn hình,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+seoul,S8,Đường cao ốc,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+seoul,S9,Đường lên N Seoul Tower,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+seoul,S10,Chân tháp N Seoul,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+seoul,S11,Trạm kiểm soát kỹ thuật,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+seoul,S12,Đảo công viên xanh,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+seoul,S13,Cầu ánh sáng phía tây,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+seoul,S14,Bến phà thông tin,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + CityMap.Move/Interact
+seoul,S15,Bot bảo vệ cầu,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+seoul,S16,Trạm phát điện bờ đông,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+seoul,S17,Rơle cung điện,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+seoul,S18,Rơle ánh đèn hanji,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + PuzzleManager.Start/Submit
+seoul,S19,Đường hầm dữ liệu,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+seoul,S20,Buồng Lõi Nhiễu,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + BattleManager.Act/EncounterManager.Resolve
+seoul,S21,Lễ hội hai nền văn hóa,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete
+seoul,S22,Kính quan sát đồi,IMPLEMENTED,Actual earned interaction/navigation proof.,NodeEventManager.BuildOptions/Execute + QuestManager.Accept/Complete

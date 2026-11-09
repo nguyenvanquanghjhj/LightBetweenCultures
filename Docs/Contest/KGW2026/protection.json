@@ -1,0 +1,325 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "Base manifest unchanged",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Resources/AdventureUIArt.asset",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Resources/AdventureUIArt.asset.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Resources/Content/AdventurePresentation.json",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Resources/Content/AdventurePresentation.json.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Resources/Content/GameplayContent.json",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Resources/Content/GameplayContent.json.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Core/QuestManager.Guidance.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Core/QuestManager.Guidance.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Editor/AdventureUISetup.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Editor/AdventureUISetup.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Editor/OwnerRouteAndroidBuild.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Editor/OwnerRouteAndroidBuild.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Editor/Phase5Setup.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Editor/Phase5Setup.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/HoiAn/HoiAnGameplay.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/HoiAn/HoiAnGameplay.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/HoiAn/InteractionSystem.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/HoiAn/InteractionSystem.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/CityMap.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/CityMap.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/CityMap.CulturalRestoration.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/CityMap.CulturalRestoration.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/CityMap.Guidance.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/CityMap.Guidance.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/CityMap.SignatureMoments.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/CityMap.SignatureMoments.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/NodeMarkerResolver.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/NodeMarkerResolver.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/NodeMarkerView.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Maps/NodeMarkerView.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.ContextHelp.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.ContextHelp.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.Guidance.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.Guidance.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.LeisurePilots.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.LeisurePilots.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.StoryActivities.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/GameplayPanels.StoryActivities.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/InventoryPanel.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/InventoryPanel.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/PlayerCopy.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/PlayerCopy.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/RelicGuide.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/UI/RelicGuide.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CasualRuntime.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Validation/GameplaySmokeRunner.CasualRuntime.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Validation/GameplaySmokeRunner.H3Tap.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Validation/GameplaySmokeRunner.H3Tap.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Validation/GameplaySmokeRunner.OwnerConfusion.cs",
+      "pass": true
+    },
+    {
+      "name": "Frozen Assets/_Game/Scripts/Validation/GameplaySmokeRunner.OwnerConfusion.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scripts/HoiAn/HoiAnPlayerController.cs",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scripts/HoiAn/HoiAnItem.cs",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scripts/Core/QuestManager.cs",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scripts/Core/SaveSystem.cs",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scripts/Core/GameData.cs",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scripts/Core/CityNavigation.cs",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Resources/Content/CityNavigation.json",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Resources/HoiAnData.json",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scripts/Maps/CityMapPaths.cs",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scripts/Maps/CityRouteGeometry.cs",
+      "pass": true
+    },
+    {
+      "name": "Canonical ProjectSettings/ProjectSettings.asset",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scenes/CityMap.unity",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scenes/HoiAnDemo.unity",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scenes/Prototype.unity",
+      "pass": true
+    },
+    {
+      "name": "Canonical Assets/_Game/Scenes/WorldMap.unity",
+      "pass": true
+    },
+    {
+      "name": "Hanji change removes only the overlapping decorative label",
+      "pass": true
+    },
+    {
+      "name": "QA runner only adds one opt-in dispatch",
+      "pass": true
+    },
+    {
+      "name": "PPTX contains 13 slides",
+      "pass": true
+    },
+    {
+      "name": "Slide shapes remain on canvas",
+      "pass": true
+    },
+    {
+      "name": "PowerPoint native PDF and all 13 previews exist",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+UTC run: 2026-10-24T17:23:52.8657548Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Optional NPC keeps original one-time interaction: G16
+PASS: Every actual talk/item-wait marker has a visible actor: gyeongju:G16
+PASS: Actor respects real discovery/resolution: G16
+PASS: Real assigned sprite/aspect/outline preserved: G16
+PASS: Shared72percent scale and52-unit touch area: G16
+PASS: Visible map NPC uses its own existing sprite: G16
+PASS: Fresh runtime capture written: ThreeNpc-Map-G16
+PASS: Lumi reaches NPC without a new route: G16
+PASS: Correct native NPC portrait: G16
+PASS: Correct Korean name: G16
+PASS: Initial/return dialogue: G16
+PASS: Dialogue panel fits screen: G16
+System.Exception: FAIL: Text does not overlap button: G16/DialogueCloseX
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<ThreeNpcJourney>d__288.MoveNext () [0x00870] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.ThreeNpc.cs:58 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

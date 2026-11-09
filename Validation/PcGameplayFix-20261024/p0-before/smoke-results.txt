@@ -1,0 +1,11 @@
+UTC run: 2026-10-24T06:50:14.0135549Z | Unity 6000.6.5f1 | 540x960
+PASS: P0 starts a fresh isolated save
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+System.Exception: FAIL: Closing an event or battle returns map input to the player
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<CloseEvent>d__298.MoveNext () [0x0022a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:222 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__287.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

@@ -1,0 +1,1412 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-24",
+  "scope": "Documentation/approval metadata only; not a second runtime art or gameplay manager",
+  "policy": {
+    "oneIdentityManyVariants": true,
+    "identityLocks": [
+      "face structure",
+      "relative age",
+      "distinctive traits",
+      "character identity"
+    ],
+    "permittedChanges": [
+      "costume",
+      "expression",
+      "gesture",
+      "pose",
+      "view direction",
+      "accessories",
+      "reasonable hairstyle changes"
+    ],
+    "noSharedFaceAcrossIndependentNpc": true,
+    "identityApprovalIndependentOfCropQuality": true,
+    "sourceConceptNotRuntimeSprite": true,
+    "legacyRuntimeStatus": "Only three owner-authorized appearance replacements on 2026-10-21; all other bindings/identity decisions preserved."
+  },
+  "identities": [
+    {
+      "npcId": "npc_ba_tu",
+      "canonicalIdentity": {
+        "identityId": "npc_ba_tu",
+        "name": "Bà Tư",
+        "coreTraits": "Phụ nữ lớn tuổi, mặt tròn, mắt cười cong, tóc bạc lộ ở trán/mai. Khăn đỏ và giỏ rau là trang phục/đạo cụ mặc định; được thay khi vẫn nhận ra Bà Tư.",
+        "approval": "User identity-rule correction 2026-10-17: current appearance confirmed"
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H10",
+          "actor": "Bà Tư"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_ba_tu.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "spriteName": "H3_07_Characters_NPC_Concept_23",
+          "guid": "ab62ba1e558f7274984500bb1cac18f6",
+          "localId": "8637574531497076435",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17."
+        }
+      ],
+      "visualReferences": [
+        {
+          "referenceId": "npc_ba_tu.missing_sheet_pose",
+          "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+          "region": "Top row second character",
+          "status": "APPROVED_VARIANT",
+          "runtimeBound": false,
+          "spriteReady": false,
+          "reason": "Phụ nữ lớn tuổi, tóc bạc, mặt tròn/mắt cười, khăn đỏ và giỏ; nhất quán với Bà Tư."
+        }
+      ]
+    },
+    {
+      "npcId": "npc_boat",
+      "canonicalIdentity": {
+        "identityId": "npc_boat",
+        "name": "Bến phà thông tin",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "MISSING_VISUAL",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S14",
+          "actor": "Bến phà thông tin"
+        }
+      ],
+      "variants": [],
+      "visualReferences": [],
+      "portraitAssessment": {
+        "reviewed": "2026-10-17",
+        "assetStatus": "NOT_REQUIRED_LOCATION_INFORMATION",
+        "decision": "Runtime actor/tên người nói là Bến phà thông tin, văn bản thông tin địa điểm; không thể hiện một người lái phà. Giữ nguyên event/function, không thêm danh tính hay portrait.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NPC_REUSE_FINAL_DECISION.md",
+        "authorization": "User attachment f7150595, S14 may remain location information."
+      },
+      "entityKind": "location_information"
+    },
+    {
+      "npcId": "npc_boatman",
+      "canonicalIdentity": {
+        "identityId": "npc_boatman",
+        "name": "Bác Lái Đò",
+        "coreTraits": "Nam đứng tuổi, mặt tròn, tóc mai xám, ria cong và chòm râu cằm xám. Giữ nhận diện bác lái đò; không đồng nhất với npc_tam chỉ vì cùng nghề.",
+        "approval": "Existing approved identity preserved"
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H17",
+          "actor": "Bác Lái Đò"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_boatman.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+          "spriteName": "NPC_HoiAn_Boatman",
+          "guid": "3835aa72bd8c88b41af32d4aabd40b98",
+          "localId": "21300000",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_curator",
+      "canonicalIdentity": {
+        "identityId": "npc_curator",
+        "name": "Quản thủ bảo tàng",
+        "coreTraits": "Giữ nguyên nhận diện, khuôn mặt, trang phục và binding Phase4 đã được chủ dự án chấp nhận nguyên trạng. Không mở rộng phê duyệt sang hình hoặc variant khác.",
+        "approval": "OWNER_APPROVED_AS_IS_20261018: owner Phase5 prompt approves exact existing Phase4 identity, sprite and portrait binding; no new variant approval."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S2",
+          "actor": "Quản thủ bảo tàng"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_curator.review_20261018",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png",
+          "spriteName": "NPC_Seoul_Curator",
+          "guid": "6b7b12ad613bda14d969e359a2f08d59",
+          "localId": "21300000",
+          "cities": [
+            "seoul"
+          ],
+          "scenes": [
+            "CityMap dialogue"
+          ],
+          "conditions": "Exact existing Phase4 runtime binding approved as-is by owner; no face, costume, crop or sprite change.",
+          "runtimeBound": true,
+          "qualityStatus": "WINDOWS_RUNTIME_BINDING_PASS; OWNER_APPROVED_AS_IS_20261018",
+          "visualReview": "Source and actual NPC01 dialogue captures reviewed 2026-10-18: head/hands/feet retained, no white background or button occlusion. Curator/Inscription face similarity and age/brief remain pending user visual approval.",
+          "ownerApproval": "OWNER_APPROVED_AS_IS_20261018"
+        }
+      ],
+      "visualReferences": [],
+      "portraitAssessment": {
+        "reviewed": "2026-10-18",
+        "assetStatus": "CANONICAL",
+        "decision": "Owner Phase5 approval accepts the exact existing Phase4 sprite/portrait/identity as-is, including recorded Curator/Inscription resemblance. Technical QA remains separate.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NPC_FOUR_NEW_ART_INTEGRATION_20261017.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate.",
+        "runtimeVerified": "NPC01 targeted Player; binding/framing PASS; no canonical identity approval"
+      },
+      "ownerApproval": "OWNER_APPROVED_AS_IS_20261018"
+    },
+    {
+      "npcId": "npc_elder",
+      "canonicalIdentity": {
+        "identityId": "npc_elder",
+        "name": "Người giữ chuyện",
+        "coreTraits": "Bà tóc bạc, hanbok trắng/hồng, hai tay đặt phía trước; giữ danh tính Người giữ chuyện ở Jeonju J16.",
+        "approval": "Owner explicitly requested this design replacement 2026-10-21; verified against old sprite, native reference and placement, not filename order."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "jeonju",
+          "nodeId": "J16",
+          "actor": "Người giữ chuyện"
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J16",
+          "actor": "Người giữ chuyện"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_elder.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+          "spriteName": "npc_elder",
+          "guid": "9e2ba05a32d628045ae4dce1b7b1cb19",
+          "localId": "245854044",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Historical art preserved for recovery; replaced by the owner-authorized 2026-10-21 default, not bound in normal runtime.",
+          "runtimeBound": false,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        },
+        {
+          "variantId": "npc_elder.owner20261021",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_elder.png",
+          "spriteName": "npc_elder_Owner20261021",
+          "guid": "3056bc602bbb42945ba0edc767f09275",
+          "localId": "5509288358854237611",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Replaces only this NPC sprite/portrait; canonical position, identity and gameplay unchanged.",
+          "runtimeBound": true,
+          "qualityStatus": "WINDOWS_RUNTIME_VERIFIED; OWNER_PREVIEW_PENDING",
+          "visualReview": "Real Windows Player map/dialogue checks and before/after images. No background square or black fringe observed. Source artwork alpha preserved; mipmaps/trilinear reduce minification aliasing. Feet/hem/hat/basket visible as provided; elder feet remain hidden under the hanbok."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_engineer",
+      "canonicalIdentity": {
+        "identityId": "npc_engineer",
+        "name": "Kỹ sư Trạm Số",
+        "coreTraits": "Giữ nguyên nhận diện, khuôn mặt, trang phục và binding Phase4 đã được chủ dự án chấp nhận nguyên trạng. Không mở rộng phê duyệt sang hình hoặc variant khác.",
+        "approval": "OWNER_APPROVED_AS_IS_20261018: owner Phase5 prompt approves exact existing Phase4 identity, sprite and portrait binding; no new variant approval."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S11",
+          "actor": "Kỹ sư Trạm Số"
+        },
+        {
+          "cityId": "seoul",
+          "nodeId": "S11",
+          "actor": "Kỹ sư Trạm Số"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_engineer.review_20261018",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png",
+          "spriteName": "NPC_Seoul_Engineer",
+          "guid": "4f74a41c66ef3364ca044bc04afa2bcb",
+          "localId": "21300000",
+          "cities": [
+            "seoul"
+          ],
+          "scenes": [
+            "CityMap dialogue"
+          ],
+          "conditions": "Exact existing Phase4 runtime binding approved as-is by owner; no face, costume, crop or sprite change.",
+          "runtimeBound": true,
+          "qualityStatus": "WINDOWS_RUNTIME_BINDING_PASS; OWNER_APPROVED_AS_IS_20261018",
+          "visualReview": "Source and actual NPC01 dialogue captures reviewed 2026-10-18: head/hands/feet retained, no white background or button occlusion. Curator/Inscription face similarity and age/brief remain pending user visual approval.",
+          "ownerApproval": "OWNER_APPROVED_AS_IS_20261018"
+        }
+      ],
+      "visualReferences": [],
+      "portraitAssessment": {
+        "reviewed": "2026-10-18",
+        "assetStatus": "CANONICAL",
+        "decision": "Owner Phase5 approval accepts the exact existing Phase4 sprite/portrait/identity as-is, including recorded Curator/Inscription resemblance. Technical QA remains separate.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NPC_FOUR_NEW_ART_INTEGRATION_20261017.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate.",
+        "runtimeVerified": "NPC01 targeted Player; binding/framing PASS; no canonical identity approval"
+      },
+      "ownerApproval": "OWNER_APPROVED_AS_IS_20261018"
+    },
+    {
+      "npcId": "npc_gardener",
+      "canonicalIdentity": {
+        "identityId": "npc_gardener",
+        "name": "Người Làm Vườn",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "UNCONFIRMED_VISUAL",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D13",
+          "actor": "Người Làm Vườn"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_gardener.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+          "spriteName": "npc_gardener",
+          "guid": "cac9b7f04788a1743af1858d523019df",
+          "localId": "1390191892",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_guest",
+      "canonicalIdentity": {
+        "identityId": "npc_guest",
+        "name": "Ji-eun",
+        "coreTraits": "Ji-eun: nữ trẻ trưởng thành, mắt lớn, tóc nâu đen/tết; pose hiện tại có kính xanh tròn, mũ hoa, áo tím, máy ảnh. Đổi phụ kiện/trang phục phải giữ gương mặt, tuổi và nhận diện Ji-eun.",
+        "approval": "Existing approved identity preserved"
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H18",
+          "actor": "Khách lạ Hàn Quốc"
+        },
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H18",
+          "actor": "Khách lạ Hàn Quốc"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_guest.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_guest",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-404209332",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_hana",
+      "canonicalIdentity": {
+        "identityId": "npc_hana",
+        "name": "Nghệ nhân Hana",
+        "coreTraits": "Cô gái tóc đen hai bím, mắt cười nhắm, hanbok trắng/hồng, hai tay phía trước; giữ Nghệ nhân Hana ở Jeonju J2.",
+        "approval": "Owner explicitly requested this design replacement 2026-10-21; verified against old sprite, native reference and placement, not filename order."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "jeonju",
+          "nodeId": "J2",
+          "actor": "Nghệ nhân Hana"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_hana.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_hana",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-730319472",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Historical art preserved for recovery; replaced by the owner-authorized 2026-10-21 default, not bound in normal runtime.",
+          "runtimeBound": false,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        },
+        {
+          "variantId": "npc_hana.owner20261021",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_hana.png",
+          "spriteName": "npc_hana_Owner20261021",
+          "guid": "2683b36a1f2e0f24aa056fc4a46ab1d8",
+          "localId": "-3786701452203122310",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Replaces only this NPC sprite/portrait; canonical position, identity and gameplay unchanged.",
+          "runtimeBound": true,
+          "qualityStatus": "WINDOWS_RUNTIME_VERIFIED; OWNER_PREVIEW_PENDING",
+          "visualReview": "Real Windows Player map/dialogue checks and before/after images. No background square or black fringe observed. Source artwork alpha preserved; mipmaps/trilinear reduce minification aliasing. Original Hana source crops the skirt bottom; rounded cutout hem needs owner review."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_hungry_dog",
+      "canonicalIdentity": {
+        "identityId": "npc_hungry_dog",
+        "name": "Chó Canh Đường",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "UNCONFIRMED_VISUAL",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D10",
+          "actor": "Chó Canh Đường"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_hungry_dog.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+          "spriteName": "npc_hungry_dog",
+          "guid": "3df301f30edc9d243899518bb89fb538",
+          "localId": "37410012",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_huong",
+      "canonicalIdentity": {
+        "identityId": "npc_huong",
+        "name": "Chị Hương",
+        "coreTraits": "Nữ trẻ trưởng thành, mặt tròn, mắt nâu lớn có một mắt nháy trong pose hiện tại, tóc nâu mái lệch/tết. Mũ hoa, áo xanh và giỏ hoa là visual mặc định đã chốt.",
+        "approval": "User identity-rule correction 2026-10-17: current appearance confirmed"
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hue",
+          "nodeId": "U1",
+          "actor": "Chị Hương"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_huong.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_huong",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-1343187348",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_innkeeper",
+      "canonicalIdentity": {
+        "identityId": "npc_innkeeper",
+        "name": "npc_innkeeper",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "MISSING_VISUAL",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D18",
+          "actor": "Lumi"
+        }
+      ],
+      "variants": [],
+      "visualReferences": [],
+      "portraitAssessment": {
+        "reviewed": "2026-10-17",
+        "assetStatus": "NOT_REQUIRED_CURRENT_GAMEPLAY",
+        "decision": "D18 hiện là event type=start, actor=Lumi, nghỉ/nghỉ dẫn đường; không có chủ trọ xuất hiện/phát biểu. Không tạo người mới hoặc gắn hình đầu bếp chỉ để lấp khóa npc_innkeeper.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NpcInventory-20261017/PortraitReuseAssessment.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate."
+      }
+    },
+    {
+      "npcId": "npc_inscription",
+      "canonicalIdentity": {
+        "identityId": "npc_inscription",
+        "name": "Kho bản khắc",
+        "coreTraits": "Giữ nguyên nhận diện, khuôn mặt, trang phục và binding Phase4 đã được chủ dự án chấp nhận nguyên trạng. Không mở rộng phê duyệt sang hình hoặc variant khác.",
+        "approval": "OWNER_APPROVED_AS_IS_20261018: owner Phase5 prompt approves exact existing Phase4 identity, sprite and portrait binding; no new variant approval."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G14",
+          "actor": "Kho bản khắc"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_inscription.review_20261018",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png",
+          "spriteName": "NPC_Gyeongju_Inscription",
+          "guid": "399ff7e49a026ed42b9cb627929f5b35",
+          "localId": "21300000",
+          "cities": [
+            "gyeongju"
+          ],
+          "scenes": [
+            "CityMap dialogue"
+          ],
+          "conditions": "Exact existing Phase4 runtime binding approved as-is by owner; no face, costume, crop or sprite change.",
+          "runtimeBound": true,
+          "qualityStatus": "WINDOWS_RUNTIME_BINDING_PASS; OWNER_APPROVED_AS_IS_20261018",
+          "visualReview": "Source and actual NPC01 dialogue captures reviewed 2026-10-18: head/hands/feet retained, no white background or button occlusion. Curator/Inscription face similarity and age/brief remain pending user visual approval.",
+          "ownerApproval": "OWNER_APPROVED_AS_IS_20261018"
+        }
+      ],
+      "visualReferences": [],
+      "portraitAssessment": {
+        "reviewed": "2026-10-18",
+        "assetStatus": "CANONICAL",
+        "decision": "Owner Phase5 approval accepts the exact existing Phase4 sprite/portrait/identity as-is, including recorded Curator/Inscription resemblance. Technical QA remains separate.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NPC_FOUR_NEW_ART_INTEGRATION_20261017.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate.",
+        "runtimeVerified": "NPC01 targeted Player; binding/framing PASS; no canonical identity approval"
+      },
+      "ownerApproval": "OWNER_APPROVED_AS_IS_20261018"
+    },
+    {
+      "npcId": "npc_keeper",
+      "canonicalIdentity": {
+        "identityId": "npc_keeper",
+        "name": "Sân chính di tích",
+        "coreTraits": "Giữ nguyên nhận diện, khuôn mặt, trang phục và binding Phase4 đã được chủ dự án chấp nhận nguyên trạng. Không mở rộng phê duyệt sang hình hoặc variant khác.",
+        "approval": "OWNER_APPROVED_AS_IS_20261018: owner Phase5 prompt approves exact existing Phase4 identity, sprite and portrait binding; no new variant approval."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G9",
+          "actor": "Sân chính di tích"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_keeper.review_20261018",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png",
+          "spriteName": "NPC_Gyeongju_Keeper",
+          "guid": "880215f55ae56f2418894f7baed7f6cb",
+          "localId": "21300000",
+          "cities": [
+            "gyeongju"
+          ],
+          "scenes": [
+            "CityMap dialogue"
+          ],
+          "conditions": "Exact existing Phase4 runtime binding approved as-is by owner; no face, costume, crop or sprite change.",
+          "runtimeBound": true,
+          "qualityStatus": "WINDOWS_RUNTIME_BINDING_PASS; OWNER_APPROVED_AS_IS_20261018",
+          "visualReview": "Source and actual NPC01 dialogue captures reviewed 2026-10-18: head/hands/feet retained, no white background or button occlusion. Curator/Inscription face similarity and age/brief remain pending user visual approval.",
+          "ownerApproval": "OWNER_APPROVED_AS_IS_20261018"
+        }
+      ],
+      "visualReferences": [],
+      "portraitAssessment": {
+        "reviewed": "2026-10-18",
+        "assetStatus": "CANONICAL",
+        "decision": "Owner Phase5 approval accepts the exact existing Phase4 sprite/portrait/identity as-is, including recorded Curator/Inscription resemblance. Technical QA remains separate.",
+        "newCanonicalBinding": false,
+        "evidence": "Docs/Art/NPC_FOUR_NEW_ART_INTEGRATION_20261017.md",
+        "authorization": "User permits canonical assignment only for unassigned, suitable, clean runtime-ready existing art; do not force a candidate.",
+        "runtimeVerified": "NPC01 targeted Player; binding/framing PASS; no canonical identity approval"
+      },
+      "ownerApproval": "OWNER_APPROVED_AS_IS_20261018"
+    },
+    {
+      "npcId": "npc_lan",
+      "canonicalIdentity": {
+        "identityId": "npc_lan",
+        "name": "Người dẫn đường Lan",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "UNCONFIRMED_VISUAL",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D2",
+          "actor": "Người dẫn đường Lan"
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D2",
+          "actor": "Người dẫn đường Lan"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_lan.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+          "spriteName": "npc_lan",
+          "guid": "fb6c63798ffdb6841a4fd318adf72a74",
+          "localId": "1886636321",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_mai",
+      "canonicalIdentity": {
+        "identityId": "npc_mai",
+        "name": "Cô Mai",
+        "coreTraits": "Nữ trẻ trưởng thành theo thiết kế chibi đã chốt; mặt tròn, mắt nâu lớn, tóc nâu đen dài. Không thay bằng phụ nữ tóc bạc lớn tuổi. Áo đỏ, nón lá và đèn lồng là trang phục/đạo cụ mặc định, không phải điều kiện khóa danh tính.",
+        "approval": "Existing approved identity preserved"
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H2",
+          "actor": "Cô Mai"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_mai.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+          "spriteName": "Mai_DialoguePortrait",
+          "guid": "a6cc838dd76ae7f40902d846693f4a5e",
+          "localId": "-1732270161",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17."
+        },
+        {
+          "variantId": "npc_mai.h3_lantern_open_hand",
+          "status": "APPROVED_VARIANT",
+          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "spriteName": "H3_07_Characters_NPC_Concept_19",
+          "guid": "ab62ba1e558f7274984500bb1cac18f6",
+          "localId": "-7400866961864976714",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "H3",
+            "DialoguePanel"
+          ],
+          "conditions": "Biến thể nhận diện hợp lệ; chỉ được chọn cho runtime sau khi crop/viền được kiểm tra riêng. Không tự thay binding hiện tại.",
+          "runtimeBound": false,
+          "qualityStatus": "NEEDS_CROP_REVIEW",
+          "visualReview": "Tóc dài nâu đen, mặt tròn, mắt nâu lớn, tuổi tương đối nhất quán với Mai đã chốt; đổi tư thế mở tay/đèn và phụ kiện hoa. Native crop rộng có thể dính pixels lân cận; duyệt danh tính không đồng nghĩa crop PASS."
+        }
+      ],
+      "visualReferences": [
+        {
+          "referenceId": "npc_mai.yellow_outfit_young",
+          "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
+          "region": "Characters_MissingSprites panel, top row, second character",
+          "status": "APPROVED_VARIANT",
+          "runtimeBound": false,
+          "spriteReady": false,
+          "reason": "Nhân vật tóc tối dưới nón lá, mặt tròn/mắt lớn và tuổi trẻ tương đối phù hợp; áo vàng là biến thể trang phục, không phải IDENTITY_CONFLICT. Chưa có sprite riêng; không gán localID của cả composite cho NPC."
+        }
+      ]
+    },
+    {
+      "npcId": "npc_market_merchant",
+      "canonicalIdentity": {
+        "identityId": "npc_market_merchant",
+        "name": "Thương nhân đường xa",
+        "coreTraits": "Nam trung niên, mặt tròn, tóc nâu đen búi, ria cong đậm và chòm râu nhỏ. Thương nhân Hội An/Đà Lạt là cùng npcId; ba lô vải, khăn và trang phục có thể thay.",
+        "approval": "Existing approved identity preserved"
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D4",
+          "actor": "Thương nhân đường xa"
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D4",
+          "actor": "Thương nhân đường xa"
+        },
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H4",
+          "actor": "map actor"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_market_merchant.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+          "spriteName": "NPC_HoiAn_MarketMerchant",
+          "guid": "0a91b2dbca846994bbade4807ff62596",
+          "localId": "21300000",
+          "cities": [
+            "da_lat",
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_min",
+      "canonicalIdentity": {
+        "identityId": "npc_min",
+        "name": "Hướng dẫn viên Min",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "UNCONFIRMED_VISUAL",
+      "placements": [
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G3",
+          "actor": "Hướng dẫn viên Min"
+        },
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G3",
+          "actor": "Hướng dẫn viên Min"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_min.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_min",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "830274255",
+          "cities": [
+            "gyeongju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_nguyet",
+      "canonicalIdentity": {
+        "identityId": "npc_nguyet",
+        "name": "Bà Nguyệt",
+        "coreTraits": "Bà tóc bạc, nón lá, áo dài tím thêu hoa vàng, quần trắng, giỏ hoa vàng; giữ danh tính Bà Nguyệt ở Huế U2.",
+        "approval": "Owner explicitly requested this design replacement 2026-10-21; verified against old sprite, native reference and placement, not filename order."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hue",
+          "nodeId": "U2",
+          "actor": "Bà Nguyệt"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_nguyet.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+          "spriteName": "npc_nguyet",
+          "guid": "48a2e6c60f7ec0349befacea7c60e927",
+          "localId": "-1004916199",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Historical art preserved for recovery; replaced by the owner-authorized 2026-10-21 default, not bound in normal runtime.",
+          "runtimeBound": false,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        },
+        {
+          "variantId": "npc_nguyet.owner20261021",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_nguyet.png",
+          "spriteName": "npc_nguyet_Owner20261021",
+          "guid": "90853a883999d1a4090495dd15aa99d0",
+          "localId": "4180976369657288829",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Replaces only this NPC sprite/portrait; canonical position, identity and gameplay unchanged.",
+          "runtimeBound": true,
+          "qualityStatus": "WINDOWS_RUNTIME_VERIFIED; OWNER_PREVIEW_PENDING",
+          "visualReview": "Real Windows Player map/dialogue checks and before/after images. No background square or black fringe observed. Source artwork alpha preserved; mipmaps/trilinear reduce minification aliasing. Feet/hem/hat/basket visible as provided; elder feet remain hidden under the hanbok."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_park",
+      "canonicalIdentity": {
+        "identityId": "npc_park",
+        "name": "Thương nhân Park",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "UNCONFIRMED_VISUAL",
+      "placements": [
+        {
+          "cityId": "jeonju",
+          "nodeId": "J5",
+          "actor": "Thương nhân Park"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_park.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+          "spriteName": "npc_park",
+          "guid": "36a0c8ea46b133e40bf8731d313402d7",
+          "localId": "-606975524",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_phuc",
+      "canonicalIdentity": {
+        "identityId": "npc_phuc",
+        "name": "Ông Phúc",
+        "coreTraits": "Nam lớn tuổi, lông mày trắng dày, ria và râu trắng, mặt tròn, mắt cười. Khăn trắng, áo thợ và dụng cụ có thể thay theo hoàn cảnh.",
+        "approval": "User identity-rule correction 2026-10-17: current appearance confirmed"
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "hoi_an",
+          "nodeId": "H14",
+          "actor": "Ông Phúc"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_phuc.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "spriteName": "Phuc_DialoguePortrait",
+          "guid": "ab62ba1e558f7274984500bb1cac18f6",
+          "localId": "1019635214",
+          "cities": [
+            "hoi_an"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17."
+        }
+      ],
+      "visualReferences": [
+        {
+          "referenceId": "npc_phuc.missing_sheet_pose",
+          "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+          "region": "Top row third character (Nghệ nhân)",
+          "status": "APPROVED_VARIANT",
+          "runtimeBound": false,
+          "spriteReady": false,
+          "reason": "Nam lớn tuổi với lông mày/râu trắng, khăn trắng, mặt tròn; nhất quán với ông Phúc. Không đổi tên nghệ nhân khác trong gameplay."
+        }
+      ]
+    },
+    {
+      "npcId": "npc_scholar",
+      "canonicalIdentity": {
+        "identityId": "npc_scholar",
+        "name": "Nho Sinh Lê An",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "UNCONFIRMED_VISUAL",
+      "placements": [
+        {
+          "cityId": "hue",
+          "nodeId": "U7",
+          "actor": "Nho Sinh Lê An"
+        },
+        {
+          "cityId": "hue",
+          "nodeId": "U7",
+          "actor": "Nho Sinh Lê An"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_scholar.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_scholar",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "-156234960",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_soyeon",
+      "canonicalIdentity": {
+        "identityId": "npc_soyeon",
+        "name": "So-yeon",
+        "coreTraits": "Nữ trẻ trưởng thành, mặt tròn, mắt lớn sau kính gọng đen, mái nâu và tóc buộc cao. Trang phục văn phòng xanh/trắng và tablet có thể thay. Không dùng khuôn mặt này cho Ji-won.",
+        "approval": "User identity-rule correction 2026-10-17: current appearance confirmed"
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "jeonju",
+          "nodeId": "J15",
+          "actor": "So-yeon"
+        },
+        {
+          "cityId": "jeonju",
+          "nodeId": "J15",
+          "actor": "So-yeon"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_soyeon.default",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_soyeon",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "464872565",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_PASS_PRESERVED",
+          "visualReview": "Đã mở ảnh gốc/atlas và đối chiếu nhận diện trong lượt 2026-10-17."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_tam",
+      "canonicalIdentity": {
+        "identityId": "npc_tam",
+        "name": "Bác Lái Đò Tâm",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "UNCONFIRMED_VISUAL",
+      "placements": [
+        {
+          "cityId": "hue",
+          "nodeId": "U3",
+          "actor": "Bác Lái Đò Tâm"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_tam.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+          "spriteName": "npc_tam",
+          "guid": "7eb9ff722f5f81748945b06d9e1d05bd",
+          "localId": "-1705763202",
+          "cities": [
+            "hue"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_tech",
+      "canonicalIdentity": {
+        "identityId": "npc_tech",
+        "name": "Ji-won",
+        "coreTraits": "Nữ trẻ trưởng thành, mặt bầu/má đầy, mắt cười cong và nụ cười mở; tóc nâu đen dài buông, cụm hoa hồng-vàng bên trái. Diện mạo hiện tại khác Hana búi/tết tóc và nụ cười nhỏ, Ji-eun đeo kính/mắt mở và So-yeon kính gọng đen/tóc buộc cao. Hanbok hồng là trang phục lễ hội, không phải giới hạn nghề nghiệp.",
+        "approval": "User attachment f7150595 permits locking a previously unassigned suitable clean source after binding/display verification; native S7 portrait visually reviewed and targeted QA PASS 2026-10-17."
+      },
+      "status": "CANONICAL",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S7",
+          "actor": "Kỹ thuật viên Ji-won"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_tech.festival_hanbok",
+          "status": "CANONICAL",
+          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "spriteName": "JiWon_DialoguePortrait",
+          "guid": "ab62ba1e558f7274984500bb1cac18f6",
+          "localId": "1851553138",
+          "cities": [
+            "seoul"
+          ],
+          "scenes": [
+            "DialoguePanel"
+          ],
+          "conditions": "Ji-won S7, trang phục lễ hội giao lưu được người dùng chấp nhận. Không dùng mặt này cho NPC khác. Không thêm map actor hoặc thay story.",
+          "runtimeBound": true,
+          "qualityStatus": "RUNTIME_VERIFIED_ALPHA_NATIVE_MESH",
+          "visualReview": "Mở nguồn H3_07/atlas ở độ phân giải gốc và so Hana/Ji-eun/So-yeon; đối chiếu ảnh runtime S7, giữ tay/cờ/váy, không dính người bên cạnh. Đây là nhận xét trực quan, không phải chứng minh danh tính bằng pixel hash."
+        }
+      ],
+      "visualReferences": [],
+      "portraitAssessment": {
+        "reviewed": "2026-10-17",
+        "assetStatus": "CANONICAL_RUNTIME_VERIFIED",
+        "decision": "Hanbok được chấp nhận; dùng nhân vật RGBA chưa gán từ vùng trái H3_07 _22, slice riêng JiWon_DialoguePortrait. Đã kiểm hiển thị S7 và giữ progress.",
+        "newCanonicalBinding": true,
+        "evidence": "Docs/Art/NPC_REUSE_FINAL_DECISION.md",
+        "authorization": "User attachment f7150595-fc49-4f4b-8ccf-7c18da6030eb, sections 4–5."
+      }
+    },
+    {
+      "npcId": "npc_thuy",
+      "canonicalIdentity": {
+        "identityId": "npc_thuy",
+        "name": "Cô Thủy chủ tiệm hoa",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "UNCONFIRMED_VISUAL",
+      "placements": [
+        {
+          "cityId": "da_lat",
+          "nodeId": "D3",
+          "actor": "Cô Thủy chủ tiệm hoa"
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D3",
+          "actor": "Cô Thủy chủ tiệm hoa"
+        },
+        {
+          "cityId": "da_lat",
+          "nodeId": "D3",
+          "actor": "Cô Thủy chủ tiệm hoa"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_thuy.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+          "spriteName": "npc_thuy",
+          "guid": "33ce1e750bcd0124d9feb5cfcbf3fa66",
+          "localId": "-857154714",
+          "cities": [
+            "da_lat"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_yoon",
+      "canonicalIdentity": {
+        "identityId": "npc_yoon",
+        "name": "Nhà thầy Yoon",
+        "coreTraits": "Chưa khóa chi tiết khuôn mặt trong lượt này; giữ hình/binding hiện có, không suy ra xung đột từ trang phục hoặc ID file.",
+        "approval": "Không có xác nhận bổ sung cụ thể trong lượt này; giữ trạng thái hiện có."
+      },
+      "status": "UNCONFIRMED_VISUAL",
+      "placements": [
+        {
+          "cityId": "jeonju",
+          "nodeId": "J4",
+          "actor": "Nhà thầy Yoon"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_yoon.default",
+          "status": "UNCONFIRMED_VISUAL",
+          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+          "spriteName": "npc_yoon",
+          "guid": "9e80ff4e3ffd49044b5dabf92b3d6b27",
+          "localId": "-321799653",
+          "cities": [
+            "jeonju"
+          ],
+          "scenes": [
+            "CityMap",
+            "DialoguePanel"
+          ],
+          "conditions": "Dùng theo binding/event hiện tại; discovery, quest và lựa chọn không thay đổi.",
+          "runtimeBound": true,
+          "qualityStatus": "EXISTING_ASSET_PRESERVED",
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_kang_taeho",
+      "canonicalIdentity": {
+        "identityId": "npc_kang_taeho",
+        "name": "Kang Tae-ho",
+        "coreTraits": "Nam tr?, trang ph?c canh gi? xanh, m? xanh v? gi?o; g??ng m?t ri?ng ch?a g?n NPC.",
+        "approval": "Owner authorized unused-art selection and casting on 2026-10-24; runtime crop verification blocked by Unity license."
+      },
+      "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
+      "placements": [
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G16",
+          "actor": "Kang Tae-ho"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_kang_taeho.default",
+          "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
+          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "spriteName": "npc_kang_taeho",
+          "guid": "c6176fa957f7eb549b9b40703e5038ea",
+          "localId": "5254145682798913077",
+          "cities": [
+            "gyeongju"
+          ],
+          "scenes": [
+            "DialoguePanel"
+          ],
+          "conditions": "Portrait-only integration; map geometry, anchors and actors unchanged.",
+          "runtimeBound": true,
+          "qualityStatus": "NATIVE_OUTLINE_RUNTIME_UNVERIFIED",
+          "visualReview": "Original source image inspected; unused person distinct from canonical cast. No generated bitmap."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_choi_eunsu",
+      "canonicalIdentity": {
+        "identityId": "npc_choi_eunsu",
+        "name": "Choi Eun-su",
+        "coreTraits": "Nam tr?, t?c n?u, ?o xanh, n?n v? hai gi? c?y; kh?c th??ng nh?n trung ni?n c? r?u canonical.",
+        "approval": "Owner authorized unused-art selection and casting on 2026-10-24; runtime crop verification blocked by Unity license."
+      },
+      "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
+      "placements": [
+        {
+          "cityId": "gyeongju",
+          "nodeId": "G21",
+          "actor": "Choi Eun-su"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_choi_eunsu.default",
+          "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
+          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "spriteName": "npc_choi_eunsu",
+          "guid": "ab62ba1e558f7274984500bb1cac18f6",
+          "localId": "-5085934906556862197",
+          "cities": [
+            "gyeongju"
+          ],
+          "scenes": [
+            "DialoguePanel"
+          ],
+          "conditions": "Portrait-only integration; map geometry, anchors and actors unchanged.",
+          "runtimeBound": true,
+          "qualityStatus": "NATIVE_OUTLINE_RUNTIME_UNVERIFIED",
+          "visualReview": "Original source image inspected; unused person distinct from canonical cast. No generated bitmap."
+        }
+      ],
+      "visualReferences": []
+    },
+    {
+      "npcId": "npc_han_doyun",
+      "canonicalIdentity": {
+        "identityId": "npc_han_doyun",
+        "name": "Han Do-yun",
+        "coreTraits": "Nam tr?, m? ??u b?p tr?ng v? ch?o; nh?n v?t ??a ph??ng th?n thi?n ? qu?y c?ng vi?n.",
+        "approval": "Owner authorized unused-art selection and casting on 2026-10-24; runtime crop verification blocked by Unity license."
+      },
+      "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
+      "placements": [
+        {
+          "cityId": "seoul",
+          "nodeId": "S12",
+          "actor": "Han Do-yun"
+        }
+      ],
+      "variants": [
+        {
+          "variantId": "npc_han_doyun.default",
+          "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
+          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "spriteName": "npc_han_doyun",
+          "guid": "ab62ba1e558f7274984500bb1cac18f6",
+          "localId": "2768669405438306836",
+          "cities": [
+            "seoul"
+          ],
+          "scenes": [
+            "DialoguePanel"
+          ],
+          "conditions": "Portrait-only integration; map geometry, anchors and actors unchanged.",
+          "runtimeBound": true,
+          "qualityStatus": "NATIVE_OUTLINE_RUNTIME_UNVERIFIED",
+          "visualReview": "Original source image inspected; unused person distinct from canonical cast. No generated bitmap."
+        }
+      ],
+      "visualReferences": []
+    }
+  ],
+  "identityConflicts": [
+    {
+      "npcId": "npc_mai",
+      "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+      "region": "Top left woman labelled Cô Mai",
+      "status": "IDENTITY_CONFLICT",
+      "reason": "Tóc xám búi và khuôn mặt thể hiện phụ nữ lớn tuổi rõ rệt, khác Cô Mai trẻ tóc dài đã chốt; không có time-skip trong cốt truyện. Không do áo vàng."
+    },
+    {
+      "npcId": "npc_mai",
+      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
+      "region": "Characters_MissingSprites panel, top left",
+      "status": "IDENTITY_CONFLICT",
+      "reason": "Lặp lại Cô Mai tóc bạc/búi và lớn tuổi hơn rõ rệt. Không dùng thay Mai canonical."
+    }
+  ],
+  "visualSourcesReviewed": [
+    "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+    "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+    "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+    "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
+    "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
+    "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/NPC_Roster_Concept.png",
+    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_elder.png",
+    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_hana.png",
+    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_nguyet.png"
+  ]
+}

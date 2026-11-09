@@ -1,0 +1,79 @@
+{
+  "base": "D:/GAMEKKK/Backups/CheckpointCasualAdventureUI-20261020",
+  "sourceBefore": [
+    "Assets/_Game/Scripts/HoiAn/InteractionSystem.cs",
+    "Assets/_Game/Scripts/HoiAn/HoiAnGameplay.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Scripts/Editor/Phase5Setup.cs"
+  ],
+  "protected": [
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnPlayerController.cs",
+      "sha256": "354cc147e6aa0961b285979a8763f841516cb9f27568a15cb45a36101f4775a5"
+    },
+    {
+      "path": "Assets/_Game/Scripts/HoiAn/HoiAnItem.cs",
+      "sha256": "30c34885d6c0be09455b540fa92cb8168932b7f9d9d645140379c5a8ec9c5855"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/QuestManager.cs",
+      "sha256": "50e132ac902efba45f9546eb355d3fba892c38395e66ddedbf35e0b113e26269"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/SaveSystem.cs",
+      "sha256": "ac3b6774596348f7936930a50ae3155abb1ebbac865f4f16d0f05b14f14813dd"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameData.cs",
+      "sha256": "2b3d6e5b0b0e49028231f6671d5c79577ed860086b719ee52c93f3bde63af08a"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/CityNavigation.cs",
+      "sha256": "76f2054e11f7d1e3282121264f4e943d7c88177deff8c187dd3e94dade857bfb"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CityNavigation.json",
+      "sha256": "890ccc4961dbc062a10e34f8982ae5a17e495052084984b5c8c8665ae0b63b2a"
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "sha256": "d6d22da8c1065b100267fbfc069fa5dbae20d52c59c310cbf9cdac62b56de383"
+    },
+    {
+      "path": "Assets/_Game/Resources/HoiAnData.json",
+      "sha256": "e2961e1b1807325a071e4a52c26ca5708fc9b56fd2b39790f81c21b0fab49011"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+      "sha256": "f30f4f856759ee7b0eea88c01b9e03dff4c3659a06d403aea0f0523ae7f79155"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMapPaths.cs",
+      "sha256": "0934a2acc533f6aa4f7183bd3020df84920d2dfa8eb705735d9a4c164a2132d8"
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs",
+      "sha256": "4c55d1f975b967463fb3a50347b6f4adf12be9d20c2d56bb151cc6e86a5d1491"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "b6d011c56c25ebcffa42d4d80cb89e4fbaa7dca8ca94b10667240288329e84c2"
+    },
+    {
+      "path": "Assets/_Game/Scenes/CityMap.unity",
+      "sha256": "55250d56f6ffd361faf7b6c7453bc8adddafb4db9c7df27ab24eb1b6da34d0ca"
+    },
+    {
+      "path": "Assets/_Game/Scenes/HoiAnDemo.unity",
+      "sha256": "447289dcf5765496e04cc8fea316687e3428f592b5f2eef69083e6373106e37e"
+    },
+    {
+      "path": "Assets/_Game/Scenes/Prototype.unity",
+      "sha256": "42e4558ec0ef05d17fbe7a35cc00a9891782f25d5009be470d3266dbf3f34b24"
+    },
+    {
+      "path": "Assets/_Game/Scenes/WorldMap.unity",
+      "sha256": "c463c5bf3c07fdd48f0dc30ee9979f76ed62f7e0ca9397c7f8250879984021e2"
+    }
+  ]
+}

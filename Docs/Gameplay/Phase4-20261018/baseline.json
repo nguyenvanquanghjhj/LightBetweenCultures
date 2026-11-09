@@ -1,0 +1,79 @@
+{
+  "type": "INCREMENTAL_REQUIRES_BASE",
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointHoiAnLighting-20261018",
+  "baseManifestSHA256": "7fcbfb540f27597eeafa224af66d01da072cc370117b294ab722f1f78af47723",
+  "createdUTC": "2026-10-18T06:22:23.261331+00:00",
+  "entries": [
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicCollection.cs",
+      "sha256": "d829ce6b9092d0ffa225911782567448c80a3f4c912d95022ce5b7a982460b21",
+      "bytes": 9833
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "sha256": "2069a7790de8fe376aacda27f19621539aed33d460877d09a7c1a666bece8981",
+      "bytes": 29161
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+      "sha256": "78845fb423cd6fd1c99816246009ba1167683254c6f53c0bbae5a8ae8040fc75",
+      "bytes": 14037
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "sha256": "8efb8d92acea66c835b30001618e79f954d034af760f88a5ada0b6bf85768a4c",
+      "bytes": 36419
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/InventoryPanel.cs",
+      "sha256": "68034504a8a535ca105ce80dcbe4a9ccf56946bcd7c91b27936867b307c58d5a",
+      "bytes": 10170
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+      "sha256": "ed5988b33d9ec9fb2273a4e421c32e8620902ef0f04c5edbde452037af14408e",
+      "bytes": 10124
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "sha256": "7a48fd869099d65cc247f02eaab9bbb5a72369c34d419a48f067eef7a5541903",
+      "bytes": 110939
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CulturalRelics.json",
+      "sha256": "da90df17fb0c9611480e98d6247d664f857d2b4e0ae9e82e2827e9af74b26958",
+      "bytes": 32735
+    },
+    {
+      "path": "Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md",
+      "sha256": "0354b116312d490e46b18d07b888380fce8b67edf046c1422cef416711be8b76",
+      "bytes": 6216
+    },
+    {
+      "path": "Docs/Gameplay/ARTIFACT_FRAGMENT_ACCESS_MATRIX.md",
+      "sha256": "664f7e333b309136986c49068cb020ce935424ff74b13e1b7a342f955c9e6b67",
+      "bytes": 46636
+    },
+    {
+      "path": "Docs/Gameplay/ARTIFACT_FRAGMENT_SOURCE_MATRIX.md",
+      "sha256": "9e842b19b43709aca627de78637cfe0a1eaeb414c636f70036098ee0a89b3575",
+      "bytes": 3911
+    },
+    {
+      "path": "Docs/Gameplay/SIX_ARTIFACT_PROGRESSION_DESIGN.md",
+      "sha256": "f581b074848658d17fcc78f9331b3b31766516752af436cb95e3134559e908f4",
+      "bytes": 11001
+    },
+    {
+      "path": "Docs/Story/FULL_STORY_PLAYTEST.md",
+      "sha256": "2f7a4493361a56ad0cf278995c144bcb446c1db5315baef069116f40721a6024",
+      "bytes": 62638
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "35085c672985cf3f4723e67f729741d82e2cd361b283266016e4eb9d6544ed70",
+      "bytes": 20837
+    }
+  ],
+  "deletedPaths": []
+}

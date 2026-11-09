@@ -1,0 +1,4 @@
+PASS: Settings overlay owns both touches; map cannot pinch underneath
+PASS: Remaining finger stays consumed after a pinch, even beyond the old 150ms timeout
+PASS: Repeated pinch stays within map bounds
+PASS: Pure camera/settings gestures preserve complete gameplay save

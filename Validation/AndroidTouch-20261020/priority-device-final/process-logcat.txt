@@ -1,0 +1,49 @@
+--------- beginning of main
+10-20 16:11:11.947 19276 19276 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+10-20 16:11:12.235 19276 19384 E Unity   : java.lang.ClassNotFoundException: Didn't find class "com.google.android.play.core.assetpacks.AssetPackManager" on path: DexPathList[[zip file "/data/app/~~tP0jIKY4KJOR8xkdY0sB4A==/com.DefaultCompany.LightBetweenCultures-iAg42xIm2WTIHRuRpnTJtg==/base.apk"],nativeLibraryDirectories=[/data/app/~~tP0jIKY4KJOR8xkdY0sB4A==/com.DefaultCompany.LightBetweenCultures-iAg42xIm2WTIHRuRpnTJtg==/lib/arm64, /data/app/~~tP0jIKY4KJOR8xkdY0sB4A==/com.DefaultCompany.LightBetweenCultures-iAg42xIm2WTIHRuRpnTJtg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+10-20 16:11:12.884 19276 19384 E mali_gralloc: Requested R8 format is not supported with this allocator. R8 format is only supported with the AIDL allocator
+10-20 16:11:12.884 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format R8 and usage TEXTURE + RENDER + HWC
+10-20 16:11:12.884 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format RGBA_10101010 and usage TEXTURE + RENDER + HWC
+10-20 16:11:12.884 19276 19384 E mali_gralloc: Requested R8 format is not supported with this allocator. R8 format is only supported with the AIDL allocator
+10-20 16:11:12.884 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format R8 and usage TEXTURE + RENDER + HWC
+10-20 16:11:12.884 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format RGBA_10101010 and usage TEXTURE + RENDER + HWC
+10-20 16:11:12.916 19276 19384 E SwappyDisplayManager: dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376629412752624, -5476376633707879408]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+10-20 16:11:13.720 19276 19384 E mali_gralloc: Requested R8 format is not supported with this allocator. R8 format is only supported with the AIDL allocator
+10-20 16:11:13.720 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format R8 and usage TEXTURE + RENDER + HWC
+10-20 16:11:13.720 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format RGBA_10101010 and usage TEXTURE + RENDER + HWC
+10-20 16:11:13.720 19276 19384 E mali_gralloc: Requested R8 format is not supported with this allocator. R8 format is only supported with the AIDL allocator
+10-20 16:11:13.720 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format R8 and usage TEXTURE + RENDER + HWC
+10-20 16:11:13.720 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format RGBA_10101010 and usage TEXTURE + RENDER + HWC
+10-20 16:11:13.740 19276 19384 E SwappyDisplayManager: dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376629412958256, -5476376633707872240]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+10-20 16:11:26.343 19276 19736 I SwappyDisplayManager: Terminating looper thread
+10-20 16:11:26.343 19276 19384 D mali_gralloc: unregister: id=2b80007b26a, handle=0xb4000078ab94e530, base=0x0, importpid=19276, clone_count=0
+10-20 16:11:26.344 19276 19384 D mali_gralloc: unregister: id=2b80007b26d, handle=0xb4000078ab94f610, base=0x0, importpid=19276, clone_count=0
+10-20 16:11:26.344 19276 19384 E mali_gralloc: Requested R8 format is not supported with this allocator. R8 format is only supported with the AIDL allocator
+10-20 16:11:26.344 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format R8 and usage TEXTURE + RENDER + HWC
+10-20 16:11:26.346 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format RGBA_10101010 and usage TEXTURE + RENDER + HWC
+10-20 16:11:26.347 19276 19384 E mali_gralloc: Requested R8 format is not supported with this allocator. R8 format is only supported with the AIDL allocator
+10-20 16:11:26.347 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format R8 and usage TEXTURE + RENDER + HWC
+10-20 16:11:26.347 19276 19384 E mali_gralloc: ERROR: Unrecognized and/or unsupported format RGBA_10101010 and usage TEXTURE + RENDER + HWC
+10-20 16:11:26.360 19276 19384 D mali_gralloc: register: id=2b80007b278, handle=0xb4000078ab94f610, importpid=19276
+10-20 16:11:26.360 19276 19384 D mali_gralloc: register: id=2b80007b278, handle=0xb4000078ab94e530, importpid=19276
+10-20 16:11:26.360 19276 19384 D mali_gralloc: unregister: id=2b80007b278, handle=0xb4000078ab94e530, base=0x0, importpid=19276, clone_count=1
+10-20 16:11:26.391 19276 19384 D mali_gralloc: register: id=2b80007b279, handle=0xb4000078ab94e530, importpid=19276
+10-20 16:11:26.391 19276 19384 D mali_gralloc: register: id=2b80007b279, handle=0xb4000078ab94e2f0, importpid=19276
+10-20 16:11:26.391 19276 19384 D mali_gralloc: unregister: id=2b80007b279, handle=0xb4000078ab94e2f0, base=0x0, importpid=19276, clone_count=1
+10-20 16:11:26.418 19276 19384 D mali_gralloc: register: id=2b80007b27a, handle=0xb4000078ab94e2f0, importpid=19276
+10-20 16:11:26.418 19276 19384 D mali_gralloc: register: id=2b80007b27a, handle=0xb4000078ab935030, importpid=19276
+10-20 16:11:26.418 19276 19384 D mali_gralloc: unregister: id=2b80007b27a, handle=0xb4000078ab935030, base=0x0, importpid=19276, clone_count=1
+10-20 16:11:26.426 19276 19384 D mali_gralloc: register: id=2b80007b27b, handle=0xb4000078ab935030, importpid=19276
+10-20 16:11:26.426 19276 19384 D mali_gralloc: register: id=2b80007b27b, handle=0xb4000078ab94a870, importpid=19276
+10-20 16:11:26.427 19276 19384 D mali_gralloc: unregister: id=2b80007b27b, handle=0xb4000078ab94a870, base=0x0, importpid=19276, clone_count=1
+10-20 16:11:26.449 19276 19384 E SwappyDisplayManager: dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376629412785328, -5476376633708294480]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+10-20 16:11:26.453 19276 20632 I SwappyDisplayManager: Starting looper thread
+10-20 16:11:26.504 19276 19282 I BetweenCultures: Background concurrent mark compact GC freed 17MB AllocSpace bytes, 2(40KB) LOS objects, 89% free, 2945KB/26MB, paused 355us,20.304ms total 67.982ms
+10-20 16:11:26.547 19276 19276 D GameActivity: ************** mainWorkCallback *********
+10-20 16:11:26.547 19276 19276 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-20 16:11:26.549 19276 19276 I ImeTracker: com.DefaultCompany.LightBetweenCultures:9fb6c341: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-20 16:11:26.549 19276 19276 D InsetsController: hide(ime(), fromIme=false)
+10-20 16:11:26.549 19276 19276 I ImeTracker: com.DefaultCompany.LightBetweenCultures:9fb6c341: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-20 16:11:26.572 19276 19289 D mali_gralloc: unregister: id=2b80007b26c, handle=0xb4000078ab930cb0, base=0x0, importpid=19276, clone_count=0
+10-20 16:11:26.585 19276 19289 D mali_gralloc: unregister: id=2b80007b26b, handle=0xb4000078ab938750, base=0x0, importpid=19276, clone_count=0
+10-20 16:11:26.516 19276 19276 W com.DefaultCompany.LightBetweenCultures: type=1400 audit(0.0:2147740): avc:  denied  { link } for  comm=556E697479204D61696E2054687265 name="hoi-an-v1.json" dev="fuse" ino=0 scontext=u:r:untrusted_app:s0:c40,c257,c512,c768 tcontext=u:object_r:fuse:s0 tclass=file permissive=0 app=com.DefaultCompany.LightBetweenCultures

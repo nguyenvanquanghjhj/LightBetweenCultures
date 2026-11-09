@@ -1,0 +1,190 @@
+{
+  "items": [
+    {
+      "id": "lamp_eye",
+      "name": "Mắt Đèn Hội An",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "hanji_core",
+      "name": "Lõi Giấy Sáng",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "link_key",
+      "name": "Chìa Kết Nối",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "copper_wire",
+      "name": "Dây Đồng",
+      "type": "material",
+      "stack_limit": 99
+    },
+    {
+      "id": "lantern_stamp",
+      "name": "Dấu Ấn Đèn Lồng",
+      "type": "flag_token",
+      "stack_limit": 1
+    },
+    {
+      "id": "river_pass",
+      "name": "Thẻ Qua Sông",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "royal_herb",
+      "name": "Thảo Dược Bờ Bắc",
+      "type": "quest",
+      "stack_limit": 1
+    },
+    {
+      "id": "lost_letter",
+      "name": "Kiện Thư Niêm Phong",
+      "type": "quest",
+      "stack_limit": 1
+    },
+    {
+      "id": "ancient_seal",
+      "name": "Ấn Tín Cổ",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "astral_script",
+      "name": "Chữ Sao Cổ",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "lan_glasses",
+      "name": "Kính Của Lan",
+      "type": "quest",
+      "stack_limit": 1
+    },
+    {
+      "id": "meat_portion",
+      "name": "Phần Thức Ăn",
+      "type": "stack",
+      "stack_limit": 99
+    },
+    {
+      "id": "fog_battery",
+      "name": "Pin Sương Mù",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "blue_water_signal",
+      "name": "Tín Hiệu Nước Xanh",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "night_flower",
+      "name": "Hoa Đêm",
+      "type": "quest",
+      "stack_limit": 1
+    },
+    {
+      "id": "hanji_pattern_1",
+      "name": "Hoa Văn Hanji 1",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "hanji_pattern_2",
+      "name": "Hoa Văn Hanji 2",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "hanji_pattern_3",
+      "name": "Hoa Văn Hanji 3",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "missing_parcel",
+      "name": "Kiện Hàng Thương Nhân",
+      "type": "quest",
+      "stack_limit": 1
+    },
+    {
+      "id": "hanji_circuit",
+      "name": "Mạch Đèn Hanji",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "reply_letter",
+      "name": "Thư Hồi Âm",
+      "type": "quest",
+      "stack_limit": 1
+    },
+    {
+      "id": "star_symbol_1",
+      "name": "Dấu Sao Lăng Mộ",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "star_symbol_2",
+      "name": "Dấu Sao Đường Gò",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "star_symbol_3",
+      "name": "Dấu Sao Đồi Cao",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "silla_prism",
+      "name": "Lăng Kính Silla",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "stargazer_lens",
+      "name": "Ống Kính Thiên Văn",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "relay_a",
+      "name": "Mã Trạm A",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "relay_b",
+      "name": "Mã Trạm B",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "relay_c",
+      "name": "Mã Trạm C",
+      "type": "key",
+      "stack_limit": 1
+    },
+    {
+      "id": "healing_tea",
+      "name": "Trà Hồi Phục",
+      "type": "consumable",
+      "stack_limit": 99
+    },
+    {
+      "id": "coin",
+      "name": "Xu",
+      "type": "currency",
+      "stack_limit": 99
+    }
+  ]
+}

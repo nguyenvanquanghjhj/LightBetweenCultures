@@ -1,0 +1,36 @@
+2026-10-20T14:36:46.5573645Z | 720x1080 | X-WorldMap-select-hoi_an.png | SHA256 8195F842AEE6AE3DCEC8AEEAAC246D53EE3D3356F17BCF7DCFE0D6C6CD5CEC00
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R1-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R1-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R1-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R1-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R1-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R1-reverse-arrival.png
+2026-10-20T14:36:56.9153728Z | 720x1080 | X-WorldMap-select-da_lat.png | SHA256 494C585E9DB5C8AA37F009A8B293A596A37BFA03382525174356EC4DFB058B8A
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R2-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R2-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R2-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R2-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R2-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R2-reverse-arrival.png
+2026-10-20T14:37:08.6067470Z | 720x1080 | X-WorldMap-select-gyeongju.png | SHA256 31D136AB7531D8B34416B626E0005AB457AFE22C6946F744861E24B580ECAF3A
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R4-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R4-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R4-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R4-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R4-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R4-reverse-arrival.png
+2026-10-20T14:37:17.5226856Z | 720x1080 | X-WorldMap-select-gyeongju.png | SHA256 0831C28421C996B62E422CE972221E03FF24EAC9089DB3CE3D81624DC7F70ACB
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R3-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R3-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R3-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R3-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R3-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R3-reverse-arrival.png
+2026-10-20T14:37:26.2449852Z | 720x1080 | X-WorldMap-select-seoul.png | SHA256 784FCD20CF39D74456775B986DAB395C111C2A2AD5FC63E0853F955E4E772AB8
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R5-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R5-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R5-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R5-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R5-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\routes\R5-reverse-arrival.png
+2026-10-20T14:37:38.5752415Z | 720x1080 | X-WorldMap-select-hoi_an.png | SHA256 7B57144F1C98FB18E52D3C6ABF048F09F834768323355AD77BB5AFAFC18A14E4

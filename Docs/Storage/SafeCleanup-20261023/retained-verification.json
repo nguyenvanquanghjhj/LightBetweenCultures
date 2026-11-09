@@ -1,0 +1,15 @@
+{
+  "originalFilesChecked": 4192,
+  "unchangedFiles": 4185,
+  "generatedEditorLogsRewrittenOnOpen": [
+    "Logs/AssetImportWorkerHW0-prev.log",
+    "Logs/AssetImportWorkerHW0.log",
+    "Logs/shadercompiler-AssetImportWorkerHW0-0.log",
+    "Logs/shadercompiler-UnityShaderCompiler.exe-0.log",
+    "Logs/traces.jsonl",
+    "Logs/UDS-Service.log",
+    "Logs/upm.log"
+  ],
+  "unexpectedMismatches": [],
+  "buildsAndQAAndToolsAndOriginalKitsUnchanged": true
+}

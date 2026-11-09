@@ -1,0 +1,130 @@
+[
+  {
+    "path": "Assets/_Game/Scripts/Core/GameData.cs",
+    "sha256": "824460c9756d79a6c65969555994389ca3f8140b851d92198bf75b4098da49e3"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+    "sha256": "2fa206445ad06941eb91d6f7cb1f96640d704a65c10c8615fbc56e0d8d8a5814"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityMapPaths.cs",
+    "sha256": "385f0c15f1821d1f22fab365ce5c96a87612bf3a3ec5cdf1f4e2e9692ace276d"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs",
+    "sha256": "ee9f0de95eeb8a6b804759c3fea3210f250280d19c3679134fa1eff0315a8fda"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "sha256": "24fe9283b52c1b9dd1d6a40854e7d4ccb9babedfe2c5eb06eb043889f4a88db6"
+  },
+  {
+    "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+    "sha256": "d6d22da8c1065b100267fbfc069fa5dbae20d52c59c310cbf9cdac62b56de383"
+  },
+  {
+    "path": "Assets/_Game/Resources/HoiAnData.json",
+    "sha256": "e2961e1b1807325a071e4a52c26ca5708fc9b56fd2b39790f81c21b0fab49011"
+  },
+  {
+    "path": "ProjectSettings/EditorSettings.asset",
+    "sha256": "f8f13b4ead8154753e42ba1c82cd701d14d4c7eb70e6a9cc615a353b7b041a51"
+  },
+  {
+    "path": "ProjectSettings/ProjectSettings.asset",
+    "sha256": "b6d011c56c25ebcffa42d4d80cb89e4fbaa7dca8ca94b10667240288329e84c2"
+  },
+  {
+    "path": "ProjectSettings/QualitySettings.asset",
+    "sha256": "c1ed060f85623d3595b1e9eea133d957cd92191639a6edc51c638e3edcba240c"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Core/GameData.cs.meta",
+    "sha256": "e1fe44b2630423dec7491fbf3fc8cb6e367fcc9a62cf56bece1ac60471c34167"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityMap.cs.meta",
+    "sha256": "48b64e9cafea2222c148929e844b210ba048d547a48d9ec58102efc4fe4da260"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityMapPaths.cs.meta",
+    "sha256": "2a90bffebfcf5851196fc10fc94748d3e45a2a793730ecd194be3643e1ddc4c9"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs.meta",
+    "sha256": "749309592fd6e1aeb579ba0e16f33b3e5aa013ecadd4b26ac345b527b76895e8"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs.meta",
+    "sha256": "2d94df59312fed0d32126e2d5a3afbb9b9cd32f3460b3a26c4ad8571ba8b14d2"
+  },
+  {
+    "path": "Assets/_Game/Resources/Content/GameplayContent.json.meta",
+    "sha256": "47992f9a551cd504a685788bfd6b8d58b416bc632507b0777675cb7741e53129"
+  },
+  {
+    "path": "Assets/_Game/Resources/HoiAnData.json.meta",
+    "sha256": "c4b0b1e1572b740ca51fc4432afa578f54f1ef294928506949ba26be3076b0a5"
+  },
+  {
+    "path": "Tools/SixCityRouteEditor/data/source.json",
+    "sha256": "0cfd6fd7021aa4b737bcf33ee8102357d13c5615c6936841f252cd862ae35dc8"
+  },
+  {
+    "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+    "sha256": "0dfaea82f12477892b0c6d465dc4ea0c96f4402e97d8d70e70932e59a0a5373a"
+  },
+  {
+    "path": "Assets/_Game/Resources/DesignKitArt.asset",
+    "sha256": "3b1bc0c94732e76854f80a69255c5d4db032a52324518e6e6adb3d4d927c9ae1"
+  },
+  {
+    "path": "Assets/_Game/Resources/Content/StoryInteractions.json",
+    "sha256": "a49ec176de05b3f3baf96038634374d0d817bc660df1b90e8cf65f3200c4db30"
+  },
+  {
+    "path": "Assets/_Game/Resources/Content/LeisureActivities.json",
+    "sha256": "bd130e52d5215d203ca281cb1c6cbb76204538caaa0da3ca01421c64ba34e35e"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+    "sha256": "495b55afc9321c49c0df8bcdb76d33a73adc9f0f1e716264c0383d298443f631"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+    "sha256": "e4691c3eab2907c67583fe94ec74162720e2d0e24acb327014e46c423d9fb83b"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Maps/CityMap.CulturalRestoration.cs",
+    "sha256": "c6aba6d650109f16427a48ce30689d6887eda8c5ab7f6df7a4d6d09e0fb203a8"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Core/SaveSystem.cs",
+    "sha256": "ac3b6774596348f7936930a50ae3155abb1ebbac865f4f16d0f05b14f14813dd"
+  },
+  {
+    "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png",
+    "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c"
+  },
+  {
+    "path": "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png",
+    "sha256": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c"
+  },
+  {
+    "path": "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png",
+    "sha256": "0b2872b62a8b06dc1c08095cdea20fb540385032a64782e59e20acf11c7a444c"
+  },
+  {
+    "path": "Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png",
+    "sha256": "f1260ef1b4f718b989d55d907f50c99c341081263f3470bfda2d6fab1d2926c8"
+  },
+  {
+    "path": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png",
+    "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c"
+  },
+  {
+    "path": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png",
+    "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2"
+  }
+]

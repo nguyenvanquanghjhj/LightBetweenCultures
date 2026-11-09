@@ -1,0 +1,478 @@
+--- before/Assets/_Game/Resources/Content/GameplayContent.json
++++ Assets/_Game/Resources/Content/GameplayContent.json
+@@ -12368,11 +12368,11 @@
+       "id": "loot_lake",
+       "cityId": "gyeongju",
+       "nodeId": "G16",
+-      "type": "chest",
++      "type": "npc",
+       "title": "Đền dưới hồ",
+-      "actor": "Đền dưới hồ",
+-      "text": "Hòm cứu hộ ở hiên đền có hai phần trà và năm xu. Nhận một lần để tiếp tục hành trình.",
+-      "npcId": "",
++      "actor": "Kang Tae-ho ? Ng??i tr?ng ??n",
++      "text": "Ta l? Tae-ho, tr?ng coi ng?i ??n b?n h?. Gi? tr?n m?t n??c m?t l?m, Lumi ng?i ngh? ? hi?n m?t l?t nh?. Ta c? hai ph?n tr? v? n?m xu g?i ch?u l?m l? ph?.",
++      "npcId": "npc_kang_taeho",
+       "questId": "",
+       "itemId": "",
+       "itemCount": 0,
+@@ -12394,7 +12394,7 @@
+       "autoCollect": false,
+       "sourceStatus": "FULL_STORY_PLAYTEST; canonical_event_id; PLAYTEST_NEW_dialogue",
+       "backgroundId": "",
+-      "completedText": "Lumi đã ghi lại câu chuyện tại đây. Có thể quay lại hoặc tiếp tục trên những tuyến đã mở."
++      "completedText": "Lumi l?i gh? ??y ?? M?t h? h?m nay y?n l?m. Hi?n ??n v?n c? ch? ngh?; ch?c ch?u ?i ???ng b?nh an."
+     },
+     {
+       "id": "puzzle_lantern_west",
+@@ -12528,11 +12528,11 @@
+       "id": "secret_herb",
+       "cityId": "gyeongju",
+       "nodeId": "G21",
+-      "type": "secret",
++      "type": "npc",
+       "title": "Lối cỏ dược liệu",
+-      "actor": "Lối cỏ dược liệu",
+-      "text": "Túi cứu hộ dưới gốc cây có hai phần trà, không tự xuất hiện lại sau restart.",
+-      "npcId": "",
++      "actor": "Choi Eun-su ? Ng??i h?i thu?c",
++      "text": "T?i l? Eun-su, ?ang gom c?y thu?c d?c l?i n?y. C? c?n ??m s??ng, c? b??c ch?m th?i, Lumi. T?i g?i b?n hai ph?n tr?; nh? ngh? ch?n gi?a nh?ng ch?ng ???ng nh?.",
++      "npcId": "npc_choi_eunsu",
+       "questId": "",
+       "itemId": "",
+       "itemCount": 0,
+@@ -12554,7 +12554,7 @@
+       "autoCollect": false,
+       "sourceStatus": "FULL_STORY_PLAYTEST; canonical_event_id; PLAYTEST_NEW_dialogue",
+       "backgroundId": "",
+-      "completedText": "Lumi đã ghi lại câu chuyện tại đây. Có thể quay lại hoặc tiếp tục trên những tuyến đã mở."
++      "completedText": "Ch?o Lumi, c?y thu?c ?? l?n th?m l? r?i. B?n c? ng?i ngh? c?nh l?i c?, ??ng v?i qu? m? b? l? m?i h??ng bu?i s?m nh?."
+     },
+     {
+       "id": "intro",
+@@ -14859,11 +14859,11 @@
+       "id": "loot_park",
+       "cityId": "seoul",
+       "nodeId": "S12",
+-      "type": "chest",
++      "type": "npc",
+       "title": "Đảo công viên xanh",
+-      "actor": "Đảo công viên xanh",
+-      "text": "Tủ tiếp sức công viên có ba phần trà và mười hai xu; mỗi tủ chỉ nhận một lần.",
+-      "npcId": "",
++      "actor": "Han Do-yun ? Ng??i b?n c?ng vi?n",
++      "text": "M?nh l? Do-yun, n?u ?n ? qu?y nh? b?n c?ng vi?n. Gi?a nh?p Seoul, ra ??y nghe gi? s?ng l? th?y nh? ng??i. Lumi ngh? ch?t nh?; m?nh g?i ba ph?n tr? v? m??i hai xu cho ch?ng ti?p theo.",
++      "npcId": "npc_han_doyun",
+       "questId": "",
+       "itemId": "",
+       "itemCount": 0,
+@@ -14885,7 +14885,7 @@
+       "autoCollect": false,
+       "sourceStatus": "FULL_STORY_PLAYTEST; canonical_event_id; PLAYTEST_NEW_dialogue",
+       "backgroundId": "",
+-      "completedText": "Lumi đã ghi lại câu chuyện tại đây. Có thể quay lại hoặc tiếp tục trên những tuyến đã mở."
++      "completedText": "Lumi, vui ???c g?p l?i b?n! Seoul v?n r?n r?ng, c?n gh? b?n b? s?ng v?n ch?. Khi m?i ch?n, c? gh? ??y ng?m c?y v? nghe gi? nh?."
+     },
+     {
+       "id": "bridge_west",
+--- before/Assets/_Game/Resources/AdventureUIArt.asset
++++ Assets/_Game/Resources/AdventureUIArt.asset
+@@ -645,6 +645,33 @@
+     portrait: {fileID: 21300000, guid: 399ff7e49a026ed42b9cb627929f5b35, type: 3}
+     categoryIcon: 0
+     portraitUseSpriteMesh: 0
++  - id: npc_kang_taeho
++    description: Kang Tae-ho
++    aliasOf: 
++    source: Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png
++    status: OWNER_AUTHORIZED_UNUSED_ART_CAST_20261024; native outline; runtime pending license
++    sprite: {fileID: 5254145682798913077, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
++    portrait: {fileID: 5254145682798913077, guid: c6176fa957f7eb549b9b40703e5038ea, type: 3}
++    categoryIcon: 0
++    portraitUseSpriteMesh: 1
++  - id: npc_choi_eunsu
++    description: Choi Eun-su
++    aliasOf: 
++    source: Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png
++    status: OWNER_AUTHORIZED_UNUSED_ART_CAST_20261024; native outline; runtime pending license
++    sprite: {fileID: -5085934906556862197, guid: ab62ba1e558f7274984500bb1cac18f6, type: 3}
++    portrait: {fileID: -5085934906556862197, guid: ab62ba1e558f7274984500bb1cac18f6, type: 3}
++    categoryIcon: 0
++    portraitUseSpriteMesh: 1
++  - id: npc_han_doyun
++    description: Han Do-yun
++    aliasOf: 
++    source: Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png
++    status: OWNER_AUTHORIZED_UNUSED_ART_CAST_20261024; native outline; runtime pending license
++    sprite: {fileID: 2768669405438306836, guid: ab62ba1e558f7274984500bb1cac18f6, type: 3}
++    portrait: {fileID: 2768669405438306836, guid: ab62ba1e558f7274984500bb1cac18f6, type: 3}
++    categoryIcon: 0
++    portraitUseSpriteMesh: 1
+   enemies:
+   - id: enemy_crab
+     description: 
+--- before/Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta
++++ Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta
+@@ -71,6 +71,9 @@
+   - first:
+       213: 1358851688937123407
+     second: NPC_TransparentAtlas_22
++  - first:
++      213: 5254145682798913077
++    second: npc_kang_taeho
+   externalObjects: {}
+   serializedVersion: 13
+   mipmaps:
+@@ -454,6 +457,32 @@
+       indices: 
+       edges: []
+       weights: []
++    - serializedVersion: 2
++      name: npc_kang_taeho
++      rect:
++        serializedVersion: 2
++        x: 318
++        y: 526
++        width: 296
++        height: 420
++      alignment: 0
++      pivot: {x: 0.5, y: 0.5}
++      border: {x: 0, y: 0, z: 0, w: 0}
++      customData: 
++      outline:
++      - - {x: -146, y: 210}
++        - {x: 148, y: 210}
++        - {x: 148, y: -210}
++        - {x: -148, y: -210}
++      physicsShape: []
++      tessellationDetail: 0
++      bones: []
++      spriteID: 6bc3858dfca74234009ac545e339486e
++      internalID: 5254145682798913077
++      vertices: []
++      indices: 
++      edges: []
++      weights: []
+     outline: []
+     customData: 
+     physicsShape: []
+@@ -468,6 +497,7 @@
+     spriteCustomMetadata:
+       entries: []
+     nameFileIdTable:
++      npc_kang_taeho: 5254145682798913077
+       npc_guest: -404209332
+       npc_hana: -730319472
+       npc_huong: -1343187348
+--- before/Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta
++++ Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta
+@@ -89,6 +89,12 @@
+   - first:
+       213: 8941126398687135933
+     second: H3_07_Characters_NPC_Concept_28
++  - first:
++      213: -5085934906556862197
++    second: npc_choi_eunsu
++  - first:
++      213: 2768669405438306836
++    second: npc_han_doyun
+   externalObjects: {}
+   serializedVersion: 13
+   mipmaps:
+@@ -916,6 +922,83 @@
+       indices: 
+       edges: []
+       weights: []
++    - serializedVersion: 2
++      name: npc_choi_eunsu
++      rect:
++        serializedVersion: 2
++        x: 807
++        y: 521
++        width: 349
++        height: 395
++      alignment: 0
++      pivot: {x: 0.5, y: 0.5}
++      border: {x: 0, y: 0, z: 0, w: 0}
++      customData: 
++      outline:
++      - - {x: -126.5, y: 112.5}
++        - {x: -117.5, y: 142.5}
++        - {x: 40.5, y: 193.5}
++        - {x: 132.5, y: 165.5}
++        - {x: 134.5, y: 119.5}
++        - {x: 99.5, y: 83.5}
++        - {x: 103.5, y: 53.5}
++        - {x: 152.5, y: 44.5}
++        - {x: 173.5, y: -29.5}
++        - {x: 162.5, y: -93.5}
++        - {x: 123.5, y: -142.5}
++        - {x: 70.5, y: -158.5}
++        - {x: 53.5, y: -192.5}
++        - {x: -45.5, y: -192.5}
++        - {x: -59.5, y: -169.5}
++        - {x: -126.5, y: -169.5}
++        - {x: -163.5, y: -112.5}
++        - {x: -172.5, y: -52.5}
++        - {x: -156.5, y: 8.5}
++        - {x: -129.5, y: 40.5}
++      physicsShape: []
++      tessellationDetail: 0
++      bones: []
++      spriteID: d31ceabaccef57e86dbdf73a61efab0c
++      internalID: -5085934906556862197
++      vertices: []
++      indices: 
++      edges: []
++      weights: []
++    - serializedVersion: 2
++      name: npc_han_doyun
++      rect:
++        serializedVersion: 2
++        x: 1126
++        y: 526
++        width: 322
++        height: 410
++      alignment: 0
++      pivot: {x: 0.5, y: 0.5}
++      border: {x: 0, y: 0, z: 0, w: 0}
++      customData: 
++      outline:
++      - - {x: -143, y: 205}
++        - {x: 53, y: 205}
++        - {x: 53, y: 143}
++        - {x: 161, y: 143}
++        - {x: 161, y: -75}
++        - {x: 73, y: -75}
++        - {x: 95, y: -145}
++        - {x: 67, y: -205}
++        - {x: -87, y: -205}
++        - {x: -107, y: -141}
++        - {x: -147, y: -105}
++        - {x: -161, y: 5}
++        - {x: -143, y: 72}
++      physicsShape: []
++      tessellationDetail: 0
++      bones: []
++      spriteID: eb96c50361c81aeb041729e657dceca2
++      internalID: 2768669405438306836
++      vertices: []
++      indices: 
++      edges: []
++      weights: []
+     outline: []
+     customData: 
+     physicsShape: []
+@@ -930,6 +1013,8 @@
+     spriteCustomMetadata:
+       entries: []
+     nameFileIdTable:
++      npc_han_doyun: 2768669405438306836
++      npc_choi_eunsu: -5085934906556862197
+       H3_07_Characters_NPC_Concept_0: 479841202289729273
+       H3_07_Characters_NPC_Concept_1: -5143043727086802620
+       H3_07_Characters_NPC_Concept_10: 144276011234019059
+--- before/Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs
++++ Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs
+@@ -173,6 +173,7 @@
+ 
+         private IEnumerator Snapshot(string name)
+         {
++            if(Environment.GetCommandLineArgs().Contains("--three-npc-qa")&&!name.StartsWith("ThreeNpc-"))yield break;
+             if(PcFull)
+             {if(!name.StartsWith("PC-")&&!new[]{"P5-ending-dialogue","P5-credits","P5-post-credits"}.Contains(name))yield break;yield return PcCapture(name);yield break;}
+             if(Environment.GetCommandLineArgs().Contains("--node-panel-qa")&&!name.StartsWith("NodePanel-"))yield break;
+@@ -866,6 +867,7 @@
+                 Screen.SetResolution(routeLarge?720:540,routeLarge?1280:960,FullScreenMode.Windowed); yield return new WaitForSecondsRealtime(.5f);
+             }
+             game=GameBootstrap.Ensure(); game.Reload();
++            if(Environment.GetCommandLineArgs().Contains("--three-npc-qa")){yield return ThreeNpcJourney();yield break;}
+             if(Environment.GetCommandLineArgs().Contains("--credits-preview")){yield return CreditsPreview();yield break;}
+             if(Environment.GetCommandLineArgs().Contains("--pc-gameplay-restart")){yield return PcRestartJourney();yield break;}
+             if(PcFull){yield return PcFullJourney();yield break;}
+--- before/Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FullStory.cs
++++ Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FullStory.cs
+@@ -81,7 +81,7 @@
+                 Check(game.Quests.IsCompleted("GQ03")&&game.World.Has("gyeongju.beacon_lit")&&game.Discovery.Stage("gyeongju")==4,"Explicit G19 activation completes Silla and keeps the prism/lens");
+                 yield return Snapshot("Story-G19-beacon");KeepSave("full-gyeongju-beacon");
+                 yield return ChapterPuzzle("G2");yield return ChapterGo("G17");yield return ChapterChoice("accept:gq04_offer_finish");yield return ChapterPuzzle("G17");yield return ChapterGo("G17");yield return ChapterChoice("complete:gq04_offer_finish");
+-                foreach(var n in new[]{"G16","G21"}){yield return ChapterGo(n);yield return ChapterChoice("collect");}
++                foreach(var n in new[]{"G16","G21"}){yield return ChapterGo(n);yield return ChapterChoice("talk");}
+                 yield return ChapterBattle("G13");
+             }
+             if(game.World.Has("hue.star_script_known")&&!game.Quests.IsCompleted("GQ02"))
+@@ -101,7 +101,7 @@
+             yield return CompleteStoryStrawberries();yield return GyeongjuJourney();
+             Check(new[]{"hue.beacon_lit","da_lat.beacon_lit","jeonju.beacon_lit","gyeongju.beacon_lit"}.All(game.World.Has)&&game.IsCityUnlocked("seoul"),"All four earned branch beacons unlock Seoul");
+             yield return CrossEnter("seoul");Time.timeScale=4;CheckChapterDiscovery();yield return Snapshot("Story-Seoul-opening");
+-            yield return ChapterGo("S12");yield return ChapterChoice("collect");yield return ChapterGo("S15");yield return ChapterChoice("alternate");
++            yield return ChapterGo("S12");yield return ChapterChoice("talk");yield return ChapterGo("S15");yield return ChapterChoice("alternate");
+             Check(game.Inventory.Has("ancient_seal"),"Bridge verification does not consume Hue's unique seal");
+             yield return ChapterGo("S2");yield return ChapterChoice("accept");KeepSave("full-seoul-gate1");
+             yield return ChapterGo("S4");yield return ChapterChoice("collect");yield return ChapterPuzzle("S3");
+--- before/Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase4.cs
++++ Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase4.cs
+@@ -148,7 +148,7 @@
+             }
+             else if(Phase4City=="seoul")
+             {
+-                yield return ChapterGo("S12");yield return ChapterChoice("collect");yield return ChapterGo("S15");yield return ChapterChoice("alternate");
++                yield return ChapterGo("S12");yield return ChapterChoice("talk");yield return ChapterGo("S15");yield return ChapterChoice("alternate");
+                 yield return ChapterGo("S2");yield return ChapterChoice("accept");yield return ChapterGo("S4");yield return ChapterChoice("collect");
+                 yield return ChapterGo("S2");yield return ClaimRelic(r.fragmentIds[0],true);yield return ChapterPuzzle("S3");
+                 yield return ChapterGo("S7");yield return ChapterChoice("accept");
+--- before/Docs/Art/NPC_CANONICAL_REGISTRY.json
++++ Docs/Art/NPC_CANONICAL_REGISTRY.json
+@@ -1,6 +1,6 @@
+ {
+   "schemaVersion": 1,
+-  "updated": "2026-10-21",
++  "updated": "2026-10-24",
+   "scope": "Documentation/approval metadata only; not a second runtime art or gameplay manager",
+   "policy": {
+     "oneIdentityManyVariants": true,
+@@ -1263,6 +1263,120 @@
+         }
+       ],
+       "visualReferences": []
++    },
++    {
++      "npcId": "npc_kang_taeho",
++      "canonicalIdentity": {
++        "identityId": "npc_kang_taeho",
++        "name": "Kang Tae-ho",
++        "coreTraits": "Nam tr?, trang ph?c canh gi? xanh, m? xanh v? gi?o; g??ng m?t ri?ng ch?a g?n NPC.",
++        "approval": "Owner authorized unused-art selection and casting on 2026-10-24; runtime crop verification blocked by Unity license."
++      },
++      "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
++      "placements": [
++        {
++          "cityId": "gyeongju",
++          "nodeId": "G16",
++          "actor": "Kang Tae-ho"
++        }
++      ],
++      "variants": [
++        {
++          "variantId": "npc_kang_taeho.default",
++          "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
++          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
++          "spriteName": "npc_kang_taeho",
++          "guid": "c6176fa957f7eb549b9b40703e5038ea",
++          "localId": "5254145682798913077",
++          "cities": [
++            "gyeongju"
++          ],
++          "scenes": [
++            "DialoguePanel"
++          ],
++          "conditions": "Portrait-only integration; map geometry, anchors and actors unchanged.",
++          "runtimeBound": true,
++          "qualityStatus": "NATIVE_OUTLINE_RUNTIME_UNVERIFIED",
++          "visualReview": "Original source image inspected; unused person distinct from canonical cast. No generated bitmap."
++        }
++      ],
++      "visualReferences": []
++    },
++    {
++      "npcId": "npc_choi_eunsu",
++      "canonicalIdentity": {
++        "identityId": "npc_choi_eunsu",
++        "name": "Choi Eun-su",
++        "coreTraits": "Nam tr?, t?c n?u, ?o xanh, n?n v? hai gi? c?y; kh?c th??ng nh?n trung ni?n c? r?u canonical.",
++        "approval": "Owner authorized unused-art selection and casting on 2026-10-24; runtime crop verification blocked by Unity license."
++      },
++      "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
++      "placements": [
++        {
++          "cityId": "gyeongju",
++          "nodeId": "G21",
++          "actor": "Choi Eun-su"
++        }
++      ],
++      "variants": [
++        {
++          "variantId": "npc_choi_eunsu.default",
++          "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
++          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
++          "spriteName": "npc_choi_eunsu",
++          "guid": "ab62ba1e558f7274984500bb1cac18f6",
++          "localId": "-5085934906556862197",
++          "cities": [
++            "gyeongju"
++          ],
++          "scenes": [
++            "DialoguePanel"
++          ],
++          "conditions": "Portrait-only integration; map geometry, anchors and actors unchanged.",
++          "runtimeBound": true,
++          "qualityStatus": "NATIVE_OUTLINE_RUNTIME_UNVERIFIED",
++          "visualReview": "Original source image inspected; unused person distinct from canonical cast. No generated bitmap."
++        }
++      ],
++      "visualReferences": []
++    },
++    {
++      "npcId": "npc_han_doyun",
++      "canonicalIdentity": {
++        "identityId": "npc_han_doyun",
++        "name": "Han Do-yun",
++        "coreTraits": "Nam tr?, m? ??u b?p tr?ng v? ch?o; nh?n v?t ??a ph??ng th?n thi?n ? qu?y c?ng vi?n.",
++        "approval": "Owner authorized unused-art selection and casting on 2026-10-24; runtime crop verification blocked by Unity license."
++      },
++      "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
++      "placements": [
++        {
++          "cityId": "seoul",
++          "nodeId": "S12",
++          "actor": "Han Do-yun"
++        }
++      ],
++      "variants": [
++        {
++          "variantId": "npc_han_doyun.default",
++          "status": "OWNER_AUTHORIZED_CAST_RUNTIME_PENDING",
++          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
++          "spriteName": "npc_han_doyun",
++          "guid": "ab62ba1e558f7274984500bb1cac18f6",
++          "localId": "2768669405438306836",
++          "cities": [
++            "seoul"
++          ],
++          "scenes": [
++            "DialoguePanel"
++          ],
++          "conditions": "Portrait-only integration; map geometry, anchors and actors unchanged.",
++          "runtimeBound": true,
++          "qualityStatus": "NATIVE_OUTLINE_RUNTIME_UNVERIFIED",
++          "visualReview": "Original source image inspected; unused person distinct from canonical cast. No generated bitmap."
++        }
++      ],
++      "visualReferences": []
+     }
+   ],
+   "identityConflicts": [
+--- before/Docs/Art/NPC_CANONICAL_REGISTRY.md
++++ Docs/Art/NPC_CANONICAL_REGISTRY.md
+@@ -275,3 +275,21 @@
+ Mai áo đỏ trong H3: APPROVED_VARIANT; Mai áo vàng trẻ trong Composite_Illustrated: APPROVED_VARIANT concept-only. Không có luật áo vàng = xung đột. Bà Tư/ông Phúc trong MissingSprites giữ tuổi/tóc/râu và nét mặt: APPROVED_VARIANT concept-only, chưa có cutout riêng. Không lấy ID của toàn bảng làm sprite nhân vật.
+ 
+ Các audit/ảnh/test 16–17/10 trước xác nhận là bằng chứng lịch sử, không phải trạng thái duyệt hiện tại. Không chạy lại gameplay hoặc sửa các bằng chứng PASS cũ chỉ để thay nhãn.
++
++## npc_kang_taeho ? Kang Tae-ho
++
++Nam tr?, trang ph?c canh gi? xanh, m? xanh v? gi?o; g??ng m?t ri?ng ch?a g?n NPC.
++
++Owner duy?t ch?n artwork ch?a d?ng ng?y 24/10/2026. Node `G16`; portrait native `c6176fa957f7eb549b9b40703e5038ea/5254145682798913077` t? `Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png`. Ch? hi?n trong h?i tho?i, kh?ng thay geometry/map actor. Runtime/crop: **CH?A X?C MINH ? Unity license exit 198**; kh?ng t? g?n PASS hay duy?t crop.
++
++## npc_choi_eunsu ? Choi Eun-su
++
++Nam tr?, t?c n?u, ?o xanh, n?n v? hai gi? c?y; kh?c th??ng nh?n trung ni?n c? r?u canonical.
++
++Owner duy?t ch?n artwork ch?a d?ng ng?y 24/10/2026. Node `G21`; portrait native `ab62ba1e558f7274984500bb1cac18f6/-5085934906556862197` t? `Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png`. Ch? hi?n trong h?i tho?i, kh?ng thay geometry/map actor. Runtime/crop: **CH?A X?C MINH ? Unity license exit 198**; kh?ng t? g?n PASS hay duy?t crop.
++
++## npc_han_doyun ? Han Do-yun
++
++Nam tr?, m? ??u b?p tr?ng v? ch?o; nh?n v?t ??a ph??ng th?n thi?n ? qu?y c?ng vi?n.
++
++Owner duy?t ch?n artwork ch?a d?ng ng?y 24/10/2026. Node `S12`; portrait native `ab62ba1e558f7274984500bb1cac18f6/2768669405438306836` t? `Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png`. Ch? hi?n trong h?i tho?i, kh?ng thay geometry/map actor. Runtime/crop: **CH?A X?C MINH ? Unity license exit 198**; kh?ng t? g?n PASS hay duy?t crop.

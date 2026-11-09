@@ -1,0 +1,14 @@
+{
+    "output": "Builds/Android/LightBetweenCultures-Playtest-20261021.apk",
+    "identifier": "com.DefaultCompany.LightBetweenCultures",
+    "result": "Succeeded",
+    "error": "",
+    "startedUTC": "2026-10-21T11:06:27.4854259Z",
+    "finishedUTC": "2026-10-21T11:09:02.0874353Z",
+    "version": "1.0-playtest20261021",
+    "bytes": 1511742143,
+    "customKeystore": false,
+    "errors": 0,
+    "warnings": 1063,
+    "versionCode": 4
+}

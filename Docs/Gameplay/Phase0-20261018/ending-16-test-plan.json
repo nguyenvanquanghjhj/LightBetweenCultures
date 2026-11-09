@@ -1,0 +1,146 @@
+[
+  {
+    "id": "E01",
+    "setup": "0/6, boss chưa đánh",
+    "expected": "Không ending/credits",
+    "phase0StaticAssessment": "S21 hidden bởi final_cleared; source phù hợp phần boss gate",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E02",
+    "setup": "0/6, boss resolved",
+    "expected": "Chơi tiếp, no ending",
+    "phase0StaticAssessment": "Thiếu six guard: S21 hiện cho xem7trang. FAIL_CONTRACT_BY_SOURCE, không live test mới",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E03",
+    "setup": "3/6, boss resolved",
+    "expected": "Backtrack, no ending",
+    "phase0StaticAssessment": "Chưa có3/6 state/core; guard relic không có. NOT_IMPLEMENTED",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E04",
+    "setup": "5/6 + boss → relic6",
+    "expected": "Ready, không đánh lại, chưa credits",
+    "phase0StaticAssessment": "Chưa có restored/ready transition; NOT_IMPLEMENTED",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E05",
+    "setup": "6/6, boss chưa đánh",
+    "expected": "Không ending, boss vẫn vào/đánh như cũ",
+    "phase0StaticAssessment": "WorldMap/boss không đọc relic; six-restored query chưa có",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E06",
+    "setup": "6/6 + boss + ceremony confirmed",
+    "expected": "Một ending/globalcomplete once",
+    "phase0StaticAssessment": "S21 legacy pages có, ceremony/AND guard mới chưa có",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E07",
+    "setup": "Restart postboss, thiếu relic",
+    "expected": "Boss không reset, no ending sớm",
+    "phase0StaticAssessment": "Boss resolved persist hiện có; policy relic/ceremony chưa implement",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E08",
+    "setup": "Restart sau6restored, chưa ceremony",
+    "expected": "Readiness giữ, no auto credits",
+    "phase0StaticAssessment": "Chưa có six-restored/ceremony persistence",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E09",
+    "setup": "Restart sau ending",
+    "expected": "Không auto/reward lặp; explicit replay",
+    "phase0StaticAssessment": "Legacy ending choices persist/replay cũ có; migration chuẩn mới chưa implement",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E10",
+    "setup": "VN_FIRST",
+    "expected": "Boss+6+ceremony đạt ending duy nhất",
+    "phase0StaticAssessment": "Route main historical PASS, source/candidate design checked; six/relic E2E NOT_IMPLEMENTED",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E11",
+    "setup": "KOREA_FIRST",
+    "expected": "Boss+6+ceremony đạt ending duy nhất",
+    "phase0StaticAssessment": "Route main historical PASS; G7 battle phải được công nhận; new E2E chưa có",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E12",
+    "setup": "Old save boss đã giải quyết",
+    "expected": "Không lùi save, còn đường nhận đủmảnh",
+    "phase0StaticAssessment": "48 primary anchor checks từ2earned saves reachable; retro-grant/migration chưa có",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E13",
+    "setup": "Bỏ qua relic, mởmap/đánhboss",
+    "expected": "Map/boss okay, chưa globalending",
+    "phase0StaticAssessment": "Main historical0relic hoàn tất được nhưng legacy credits đã phát khi bấmS21: FAIL_CONTRACT_BY_SOURCE ở ending guard",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E14",
+    "setup": "Nguồn partner city locked→unlocked",
+    "expected": "Trước không nhận; sau tiếp cận hợp lệ",
+    "phase0StaticAssessment": "World unlock/preview gates source có; fragment grant chưa tồn tại nên chưa test",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E15",
+    "setup": "Postboss quayNPC/checkin nhậnmảnh",
+    "expected": "Nhận được, không resetboss/reward",
+    "phase0StaticAssessment": "Candidate anchors source/BFS reachable; actual grants chưa implement",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  },
+  {
+    "id": "E16",
+    "setup": "Boss+6, chưa ceremony; reload",
+    "expected": "Không auto ending; userconfirm duy nhất",
+    "phase0StaticAssessment": "Hiện không auto credits tại boss, nhưng chưa six guard/new ceremony state",
+    "runtimeTest": "NOT_TESTED",
+    "testSource": "Source audit / specified historical earned saves only; no new fixtures or player run",
+    "futureOwner": "Phase5 implementation + Phase7 regression"
+  }
+]

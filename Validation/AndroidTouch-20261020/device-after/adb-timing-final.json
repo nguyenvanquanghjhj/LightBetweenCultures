@@ -1,0 +1,17 @@
+[
+  {
+    "step": "meminfo-final.txt",
+    "seconds": 0.294,
+    "exit": 0
+  },
+  {
+    "step": "cpuinfo-final.txt",
+    "seconds": 0.093,
+    "exit": 0
+  },
+  {
+    "step": "logcat-final.txt",
+    "seconds": 0.139,
+    "exit": 0
+  }
+]

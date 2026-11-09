@@ -1,0 +1,231 @@
+{
+  "runs": [
+    {
+      "run": "dalat-restart-A",
+      "result": "PASS",
+      "checks": 21,
+      "resultPath": "Validation/Phase4-20261018/dalat-restart-A/restart-results.txt"
+    },
+    {
+      "run": "dalat-restart-C",
+      "result": "PASS",
+      "checks": 21,
+      "resultPath": "Validation/Phase4-20261018/dalat-restart-C/restart-results.txt"
+    },
+    {
+      "run": "dalat01",
+      "result": "PASS",
+      "checks": 131,
+      "resultPath": "Validation/Phase4-20261018/dalat01/smoke-results.txt"
+    },
+    {
+      "run": "e2e-korea01",
+      "result": "FAIL",
+      "checks": 580,
+      "resultPath": "Validation/Phase4-20261018/e2e-korea01/smoke-results.txt"
+    },
+    {
+      "run": "e2e-korea02",
+      "result": "FAIL",
+      "checks": 349,
+      "resultPath": "Validation/Phase4-20261018/e2e-korea02/smoke-results.txt"
+    },
+    {
+      "run": "e2e-korea03",
+      "result": "PASS",
+      "checks": 992,
+      "resultPath": "Validation/Phase4-20261018/e2e-korea03/smoke-results.txt"
+    },
+    {
+      "run": "e2e-vn01",
+      "result": "PASS",
+      "checks": 998,
+      "resultPath": "Validation/Phase4-20261018/e2e-vn01/smoke-results.txt"
+    },
+    {
+      "run": "gyeongju-repair01",
+      "result": "PASS",
+      "checks": 66,
+      "resultPath": "Validation/Phase4-20261018/gyeongju-repair01/smoke-results.txt"
+    },
+    {
+      "run": "gyeongju-restart-A",
+      "result": "PASS",
+      "checks": 21,
+      "resultPath": "Validation/Phase4-20261018/gyeongju-restart-A/restart-results.txt"
+    },
+    {
+      "run": "gyeongju-restart-C",
+      "result": "PASS",
+      "checks": 21,
+      "resultPath": "Validation/Phase4-20261018/gyeongju-restart-C/restart-results.txt"
+    },
+    {
+      "run": "gyeongju01",
+      "result": "PASS",
+      "checks": 176,
+      "resultPath": "Validation/Phase4-20261018/gyeongju01/smoke-results.txt"
+    },
+    {
+      "run": "hue-culture02",
+      "result": "PASS",
+      "checks": 39,
+      "resultPath": "Validation/Phase4-20261018/hue-culture02/smoke-results.txt"
+    },
+    {
+      "run": "hue-restart-A",
+      "result": "PASS",
+      "checks": 21,
+      "resultPath": "Validation/Phase4-20261018/hue-restart-A/restart-results.txt"
+    },
+    {
+      "run": "hue-restart-C",
+      "result": "PASS",
+      "checks": 21,
+      "resultPath": "Validation/Phase4-20261018/hue-restart-C/restart-results.txt"
+    },
+    {
+      "run": "hue01",
+      "result": "PASS",
+      "checks": 117,
+      "resultPath": "Validation/Phase4-20261018/hue01/smoke-results.txt"
+    },
+    {
+      "run": "jeonju-restart-A",
+      "result": "PASS",
+      "checks": 21,
+      "resultPath": "Validation/Phase4-20261018/jeonju-restart-A/restart-results.txt"
+    },
+    {
+      "run": "jeonju-restart-C",
+      "result": "PASS",
+      "checks": 21,
+      "resultPath": "Validation/Phase4-20261018/jeonju-restart-C/restart-results.txt"
+    },
+    {
+      "run": "jeonju01",
+      "result": "FAIL",
+      "checks": 9,
+      "resultPath": "Validation/Phase4-20261018/jeonju01/smoke-results.txt"
+    },
+    {
+      "run": "jeonju02",
+      "result": "PASS",
+      "checks": 109,
+      "resultPath": "Validation/Phase4-20261018/jeonju02/smoke-results.txt"
+    },
+    {
+      "run": "jeonju03",
+      "result": "PASS",
+      "checks": 37,
+      "resultPath": "Validation/Phase4-20261018/jeonju03/smoke-results.txt"
+    },
+    {
+      "run": "key-battle01",
+      "result": "PASS",
+      "checks": 75,
+      "resultPath": "Validation/Phase4-20261018/key-battle01/smoke-results.txt"
+    },
+    {
+      "run": "key-hack01",
+      "result": "PASS",
+      "checks": 70,
+      "resultPath": "Validation/Phase4-20261018/key-hack01/smoke-results.txt"
+    },
+    {
+      "run": "key-restart-battle-after-H5",
+      "result": "PASS",
+      "checks": 12,
+      "resultPath": "Validation/Phase4-20261018/key-restart-battle-after-H5/restart-results.txt"
+    },
+    {
+      "run": "key-restart-battle-after-H7",
+      "result": "PASS",
+      "checks": 25,
+      "resultPath": "Validation/Phase4-20261018/key-restart-battle-after-H7/restart-results.txt"
+    },
+    {
+      "run": "key-restart-battle-before-H5",
+      "result": "PASS",
+      "checks": 12,
+      "resultPath": "Validation/Phase4-20261018/key-restart-battle-before-H5/restart-results.txt"
+    },
+    {
+      "run": "key-restart-hack-after-H5",
+      "result": "PASS",
+      "checks": 12,
+      "resultPath": "Validation/Phase4-20261018/key-restart-hack-after-H5/restart-results.txt"
+    },
+    {
+      "run": "key-restart-hack-after-H7",
+      "result": "PASS",
+      "checks": 25,
+      "resultPath": "Validation/Phase4-20261018/key-restart-hack-after-H7/restart-results.txt"
+    },
+    {
+      "run": "key-restart-hack-before-H5",
+      "result": "PASS",
+      "checks": 12,
+      "resultPath": "Validation/Phase4-20261018/key-restart-hack-before-H5/restart-results.txt"
+    },
+    {
+      "run": "key-retained-fixture",
+      "result": "PASS",
+      "checks": 25,
+      "resultPath": "Validation/Phase4-20261018/key-retained-fixture/restart-results.txt"
+    },
+    {
+      "run": "presentation01",
+      "result": "PASS",
+      "checks": 211,
+      "resultPath": "Validation/Phase4-20261018/presentation01/smoke-results.txt"
+    },
+    {
+      "run": "retro-korea01",
+      "result": "PASS",
+      "checks": 425,
+      "resultPath": "Validation/Phase4-20261018/retro-korea01/smoke-results.txt"
+    },
+    {
+      "run": "retro-vn01",
+      "result": "PASS",
+      "checks": 425,
+      "resultPath": "Validation/Phase4-20261018/retro-vn01/smoke-results.txt"
+    },
+    {
+      "run": "seoul-restart-A",
+      "result": "PASS",
+      "checks": 21,
+      "resultPath": "Validation/Phase4-20261018/seoul-restart-A/restart-results.txt"
+    },
+    {
+      "run": "seoul-restart-C",
+      "result": "PASS",
+      "checks": 21,
+      "resultPath": "Validation/Phase4-20261018/seoul-restart-C/restart-results.txt"
+    },
+    {
+      "run": "seoul-restart-final-C",
+      "result": "PASS",
+      "checks": 21,
+      "resultPath": "Validation/Phase4-20261018/seoul-restart-final-C/restart-results.txt"
+    },
+    {
+      "run": "seoul01",
+      "result": "PASS",
+      "checks": 228,
+      "resultPath": "Validation/Phase4-20261018/seoul01/smoke-results.txt"
+    },
+    {
+      "run": "seoul02",
+      "result": "PASS",
+      "checks": 40,
+      "resultPath": "Validation/Phase4-20261018/seoul02/smoke-results.txt"
+    }
+  ],
+  "preservationChecks": 56,
+  "finalFragments": 24,
+  "finalRestored": 6,
+  "freshEndingSeen": false,
+  "android": "NOT_TESTED"
+}

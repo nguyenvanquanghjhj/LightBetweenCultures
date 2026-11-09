@@ -1,0 +1,5 @@
+START seoul-assembly-isolated PID=24552
+DONE seoul-assembly-isolated PASS checks=44 seconds=24
+START vietnam-earned-continuation PID=8664
+DONE vietnam-earned-continuation FAIL checks=11 seconds=58
+QUEUE_FINISHED ownerSaveUnchanged=True

@@ -1,0 +1,3327 @@
+[
+  {
+    "city": "hoi_an",
+    "nodeId": "H0",
+    "name": "Bến thuyền",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      269.63,
+      510.76
+    ],
+    "inputArrival": [
+      214.36,
+      495.68
+    ],
+    "canonicalMap": {
+      "x": 317.68,
+      "y": 799.263
+    },
+    "arrivalMap": {
+      "x": 252.07182299999997,
+      "y": 775.3222840000001
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H1",
+    "name": "Phố đèn",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.83,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      237.63,
+      326.93
+    ],
+    "inputArrival": [
+      203.89,
+      285.18
+    ],
+    "canonicalMap": {
+      "x": 279.696,
+      "y": 507.366
+    },
+    "arrivalMap": {
+      "x": 239.640884,
+      "y": 441.06814
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H2",
+    "name": "Tiệm cô Mai",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      324.89,
+      263.72
+    ],
+    "inputArrival": [
+      333.61,
+      297.36
+    ],
+    "canonicalMap": {
+      "x": 383.287,
+      "y": 406.998
+    },
+    "arrivalMap": {
+      "x": 393.64640899999995,
+      "y": 460.405157
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H3",
+    "name": "Hẻm mái ngói",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 31.78,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      434.83,
+      215.01
+    ],
+    "inputArrival": [
+      438.9,
+      248.07
+    ],
+    "canonicalMap": {
+      "x": 513.812,
+      "y": 329.65
+    },
+    "arrivalMap": {
+      "x": 518.6464090000001,
+      "y": 382.13628
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H4",
+    "name": "Chợ ven sông",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.24,
+    "distanceToArrivalPx": 7.21,
+    "inputMarker": [
+      127.11,
+      390.14
+    ],
+    "inputArrival": [
+      185.86,
+      414.5
+    ],
+    "canonicalMap": {
+      "x": 148.481,
+      "y": 607.735
+    },
+    "arrivalMap": {
+      "x": 218.23204399999997,
+      "y": 646.4088399999999
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H5",
+    "name": "Bến gỗ",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 4.12,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      693.11,
+      422.62
+    ],
+    "inputArrival": [
+      691.36,
+      384.34
+    ],
+    "canonicalMap": {
+      "x": 820.442,
+      "y": 659.3
+    },
+    "arrivalMap": {
+      "x": 818.370166,
+      "y": 598.526703
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H6",
+    "name": "Cầu cổ",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      595.38,
+      332.73
+    ],
+    "inputArrival": [
+      516.27,
+      348.97
+    ],
+    "canonicalMap": {
+      "x": 704.4200000000001,
+      "y": 516.575
+    },
+    "arrivalMap": {
+      "x": 610.497238,
+      "y": 542.357274
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H7",
+    "name": "Trạm ánh sáng",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 6.71,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      376.66,
+      104.25
+    ],
+    "inputArrival": [
+      374.33,
+      130.93
+    ],
+    "canonicalMap": {
+      "x": 444.75100000000003,
+      "y": 153.775
+    },
+    "arrivalMap": {
+      "x": 441.98895,
+      "y": 196.13259699999998
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H8",
+    "name": "Cổng Jeonju",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 15.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      146.3,
+      67.72
+    ],
+    "inputArrival": [
+      146.88,
+      83.95
+    ],
+    "canonicalMap": {
+      "x": 171.27100000000002,
+      "y": 95.76399999999995
+    },
+    "arrivalMap": {
+      "x": 171.96132599999999,
+      "y": 121.54696099999995
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H9",
+    "name": "Ngõ bí mật",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.16,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      146.3,
+      155.28
+    ],
+    "inputArrival": [
+      119.54,
+      163.4
+    ],
+    "canonicalMap": {
+      "x": 171.27100000000002,
+      "y": 234.807
+    },
+    "arrivalMap": {
+      "x": 139.502762,
+      "y": 247.69797400000004
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H10",
+    "name": "Quầy hàng Bà Tư",
+    "status": "NEEDS_ARRIVAL_CONNECTOR_REVIEW",
+    "distanceToMarkerPx": 2.0,
+    "distanceToArrivalPx": 19.1,
+    "inputMarker": [
+      89.3,
+      340.27
+    ],
+    "inputArrival": [
+      86.97,
+      361.15
+    ],
+    "canonicalMap": {
+      "x": 103.59100000000001,
+      "y": 528.5450000000001
+    },
+    "arrivalMap": {
+      "x": 100.82872900000001,
+      "y": 561.694291
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H11",
+    "name": "Rương gỗ bến nước",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      227.16,
+      445.81
+    ],
+    "inputArrival": [
+      245.78,
+      442.33
+    ],
+    "canonicalMap": {
+      "x": 267.265,
+      "y": 696.133
+    },
+    "arrivalMap": {
+      "x": 289.364641,
+      "y": 690.6077349999999
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H12",
+    "name": "Cua trộm dưới bờ",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 11.31,
+    "distanceToArrivalPx": 2.0,
+    "inputMarker": [
+      426.69,
+      435.37
+    ],
+    "inputArrival": [
+      430.76,
+      453.35
+    ],
+    "canonicalMap": {
+      "x": 504.14400000000006,
+      "y": 679.558
+    },
+    "arrivalMap": {
+      "x": 508.977901,
+      "y": 708.103131
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H13",
+    "name": "Xưởng ghép giấy",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      367.35,
+      308.96
+    ],
+    "inputArrival": [
+      367.35,
+      309.54
+    ],
+    "canonicalMap": {
+      "x": 433.702,
+      "y": 478.821
+    },
+    "arrivalMap": {
+      "x": 433.701657,
+      "y": 479.742173
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H14",
+    "name": "Nghệ nhân ông Phúc",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 7.62,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      551.75,
+      210.37
+    ],
+    "inputArrival": [
+      565.13,
+      212.69
+    ],
+    "canonicalMap": {
+      "x": 652.624,
+      "y": 322.284
+    },
+    "arrivalMap": {
+      "x": 668.508287,
+      "y": 325.966851
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H15",
+    "name": "Lối đèn lập lòe",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 7.07,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      796.07,
+      269.52
+    ],
+    "inputArrival": [
+      781.53,
+      300.26
+    ],
+    "canonicalMap": {
+      "x": 942.68,
+      "y": 416.20599999999996
+    },
+    "arrivalMap": {
+      "x": 925.414365,
+      "y": 465.009208
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H16",
+    "name": "Cầu tàu trung tâm",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      575.02,
+      480.03
+    ],
+    "inputArrival": [
+      570.95,
+      467.85
+    ],
+    "canonicalMap": {
+      "x": 680.249,
+      "y": 750.46
+    },
+    "arrivalMap": {
+      "x": 675.414365,
+      "y": 731.123389
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H17",
+    "name": "Bến đò phía đông",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.41,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      769.89,
+      366.95
+    ],
+    "inputArrival": [
+      761.17,
+      422.04
+    ],
+    "canonicalMap": {
+      "x": 911.602,
+      "y": 570.902
+    },
+    "arrivalMap": {
+      "x": 901.243094,
+      "y": 658.379374
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H18",
+    "name": "Tiệm trà khách lạ",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 5.0,
+    "inputMarker": [
+      480.78,
+      245.17
+    ],
+    "inputArrival": [
+      480.79,
+      249.23
+    ],
+    "canonicalMap": {
+      "x": 568.37,
+      "y": 377.532
+    },
+    "arrivalMap": {
+      "x": 568.370166,
+      "y": 383.977901
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H19",
+    "name": "Ngõ gốm hoa",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.61,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      605.27,
+      144.26
+    ],
+    "inputArrival": [
+      633.19,
+      169.78
+    ],
+    "canonicalMap": {
+      "x": 716.16,
+      "y": 217.31100000000004
+    },
+    "arrivalMap": {
+      "x": 749.309392,
+      "y": 257.826888
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H20",
+    "name": "Cổng đi Huế",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 21.19,
+    "distanceToArrivalPx": 3.0,
+    "inputMarker": [
+      461.59,
+      115.85
+    ],
+    "inputArrival": [
+      455.77,
+      142.52
+    ],
+    "canonicalMap": {
+      "x": 545.5799999999999,
+      "y": 172.192
+    },
+    "arrivalMap": {
+      "x": 538.674033,
+      "y": 214.54880300000002
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hoi_an",
+    "nodeId": "H21",
+    "name": "Rương áp mái",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 7.28,
+    "inputMarker": [
+      257.41,
+      143.68
+    ],
+    "inputArrival": [
+      249.27,
+      146.58
+    ],
+    "canonicalMap": {
+      "x": 303.17699999999996,
+      "y": 216.38999999999996
+    },
+    "arrivalMap": {
+      "x": 293.508287,
+      "y": 220.99447500000002
+    },
+    "thresholdInputPixels": 12.03
+  },
+  {
+    "city": "hue",
+    "nodeId": "U0",
+    "name": "Bến sông phía phố",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.0,
+    "distanceToArrivalPx": 3.0,
+    "inputMarker": [
+      501.72,
+      603.28
+    ],
+    "inputArrival": [
+      501.72,
+      603.28
+    ],
+    "canonicalMap": {
+      "x": 348.066298,
+      "y": 561.694291
+    },
+    "arrivalMap": {
+      "x": 348.066298,
+      "y": 561.694291
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U1",
+    "name": "Chợ xưa bờ nam",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.0,
+    "distanceToArrivalPx": 2.0,
+    "inputMarker": [
+      387.2,
+      696.24
+    ],
+    "inputArrival": [
+      387.2,
+      696.24
+    ],
+    "canonicalMap": {
+      "x": 267.265193,
+      "y": 649.1712709999999
+    },
+    "arrivalMap": {
+      "x": 267.265193,
+      "y": 649.1712709999999
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U2",
+    "name": "Nhà thuốc Bà Nguyệt",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 13.42,
+    "distanceToArrivalPx": 13.42,
+    "inputMarker": [
+      659.32,
+      775.51
+    ],
+    "inputArrival": [
+      659.32,
+      775.51
+    ],
+    "canonicalMap": {
+      "x": 459.254144,
+      "y": 723.756906
+    },
+    "arrivalMap": {
+      "x": 459.254144,
+      "y": 723.756906
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U3",
+    "name": "Bến đò bờ nam",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      541.86,
+      537.71
+    ],
+    "inputArrival": [
+      541.86,
+      537.71
+    ],
+    "canonicalMap": {
+      "x": 376.381215,
+      "y": 500.0
+    },
+    "arrivalMap": {
+      "x": 376.381215,
+      "y": 500.0
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U4",
+    "name": "Đầu cầu vào thành",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      869.78,
+      452.57
+    ],
+    "inputArrival": [
+      869.78,
+      452.57
+    ],
+    "canonicalMap": {
+      "x": 607.734807,
+      "y": 419.88950300000005
+    },
+    "arrivalMap": {
+      "x": 607.734807,
+      "y": 419.88950300000005
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U5",
+    "name": "Bot Thân vệ Cổng",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.41,
+    "distanceToArrivalPx": 1.41,
+    "inputMarker": [
+      861.95,
+      399.73
+    ],
+    "inputArrival": [
+      861.95,
+      399.73
+    ],
+    "canonicalMap": {
+      "x": 602.2099450000001,
+      "y": 370.16574599999996
+    },
+    "arrivalMap": {
+      "x": 602.2099450000001,
+      "y": 370.16574599999996
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U6",
+    "name": "Cửa Ngọ Môn cách điệu",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      873.7,
+      299.91
+    ],
+    "inputArrival": [
+      873.7,
+      299.91
+    ],
+    "canonicalMap": {
+      "x": 610.497238,
+      "y": 276.24309400000004
+    },
+    "arrivalMap": {
+      "x": 610.497238,
+      "y": 276.24309400000004
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U7",
+    "name": "Nho sinh Lê An",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      1094.92,
+      248.05
+    ],
+    "inputArrival": [
+      1094.92,
+      248.05
+    ],
+    "canonicalMap": {
+      "x": 766.574586,
+      "y": 227.44014700000002
+    },
+    "arrivalMap": {
+      "x": 766.574586,
+      "y": 227.44014700000002
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U8",
+    "name": "Sân điện chính",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      1033.25,
+      204.99
+    ],
+    "inputArrival": [
+      1033.25,
+      204.99
+    ],
+    "canonicalMap": {
+      "x": 723.066298,
+      "y": 186.924494
+    },
+    "arrivalMap": {
+      "x": 723.066298,
+      "y": 186.924494
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U9",
+    "name": "Vườn phía tây",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 9.06,
+    "distanceToArrivalPx": 9.06,
+    "inputMarker": [
+      693.58,
+      207.93
+    ],
+    "inputArrival": [
+      693.58,
+      207.93
+    ],
+    "canonicalMap": {
+      "x": 483.425414,
+      "y": 189.68692399999998
+    },
+    "arrivalMap": {
+      "x": 483.425414,
+      "y": 189.68692399999998
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U10",
+    "name": "Vườn thuốc bờ bắc",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 10.05,
+    "distanceToArrivalPx": 10.05,
+    "inputMarker": [
+      557.52,
+      266.64
+    ],
+    "inputArrival": [
+      557.52,
+      266.64
+    ],
+    "canonicalMap": {
+      "x": 387.43093899999997,
+      "y": 244.93554299999997
+    },
+    "arrivalMap": {
+      "x": 387.43093899999997,
+      "y": 244.93554299999997
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U11",
+    "name": "Gốc cây dấu ấn",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      720.99,
+      315.57
+    ],
+    "inputArrival": [
+      720.99,
+      315.57
+    ],
+    "canonicalMap": {
+      "x": 502.76243099999994,
+      "y": 290.976059
+    },
+    "arrivalMap": {
+      "x": 502.76243099999994,
+      "y": 290.976059
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U12",
+    "name": "Bến sông tây",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 30.53,
+    "distanceToArrivalPx": 8.25,
+    "inputMarker": [
+      415.58,
+      315.57
+    ],
+    "inputArrival": [
+      419.5,
+      348.84
+    ],
+    "canonicalMap": {
+      "x": 287.292818,
+      "y": 290.976059
+    },
+    "arrivalMap": {
+      "x": 290.055249,
+      "y": 322.28361000000007
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U13",
+    "name": "Bến thuyền hẻm",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 12.17,
+    "distanceToArrivalPx": 12.17,
+    "inputMarker": [
+      1033.25,
+      897.83
+    ],
+    "inputArrival": [
+      1033.25,
+      897.83
+    ],
+    "canonicalMap": {
+      "x": 723.066298,
+      "y": 838.858195
+    },
+    "arrivalMap": {
+      "x": 723.066298,
+      "y": 838.858195
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U14",
+    "name": "Cầu ngõ phía đông",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 6.0,
+    "distanceToArrivalPx": 6.0,
+    "inputMarker": [
+      1192.81,
+      769.64
+    ],
+    "inputArrival": [
+      1192.81,
+      769.64
+    ],
+    "canonicalMap": {
+      "x": 835.635359,
+      "y": 718.2320440000001
+    },
+    "arrivalMap": {
+      "x": 835.635359,
+      "y": 718.2320440000001
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U15",
+    "name": "Máy thu thư",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 4.24,
+    "distanceToArrivalPx": 4.24,
+    "inputMarker": [
+      468.44,
+      598.38
+    ],
+    "inputArrival": [
+      468.44,
+      598.38
+    ],
+    "canonicalMap": {
+      "x": 324.58563499999997,
+      "y": 557.090239
+    },
+    "arrivalMap": {
+      "x": 324.58563499999997,
+      "y": 557.090239
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U16",
+    "name": "Sạp mật mã chợ",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.0,
+    "distanceToArrivalPx": 2.0,
+    "inputMarker": [
+      347.06,
+      692.33
+    ],
+    "inputArrival": [
+      347.06,
+      692.33
+    ],
+    "canonicalMap": {
+      "x": 238.950276,
+      "y": 645.488029
+    },
+    "arrivalMap": {
+      "x": 238.950276,
+      "y": 645.488029
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U17",
+    "name": "Thư khố Hoàng thành",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      1183.02,
+      163.89
+    ],
+    "inputArrival": [
+      1183.02,
+      163.89
+    ],
+    "canonicalMap": {
+      "x": 828.729282,
+      "y": 148.25045999999998
+    },
+    "arrivalMap": {
+      "x": 828.729282,
+      "y": 148.25045999999998
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U18",
+    "name": "Sân thử thách Hoàng môn",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 5.1,
+    "distanceToArrivalPx": 5.1,
+    "inputMarker": [
+      961.8,
+      281.32
+    ],
+    "inputArrival": [
+      961.8,
+      281.32
+    ],
+    "canonicalMap": {
+      "x": 672.651934,
+      "y": 258.74769799999996
+    },
+    "arrivalMap": {
+      "x": 672.651934,
+      "y": 258.74769799999996
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U19",
+    "name": "Đài đèn thành nội",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      1130.16,
+      215.75
+    ],
+    "inputArrival": [
+      1130.16,
+      215.75
+    ],
+    "canonicalMap": {
+      "x": 791.436464,
+      "y": 197.05340699999996
+    },
+    "arrivalMap": {
+      "x": 791.436464,
+      "y": 197.05340699999996
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U20",
+    "name": "Cổng dẫn Đà Lạt",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      1293.63,
+      321.44
+    ],
+    "inputArrival": [
+      1293.63,
+      321.44
+    ],
+    "canonicalMap": {
+      "x": 906.767956,
+      "y": 296.500921
+    },
+    "arrivalMap": {
+      "x": 906.767956,
+      "y": 296.500921
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "hue",
+    "nodeId": "U21",
+    "name": "Lối đi ẩn bên tường",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 6.4,
+    "distanceToArrivalPx": 6.4,
+    "inputMarker": [
+      1191.83,
+      360.59
+    ],
+    "inputArrival": [
+      1191.83,
+      360.59
+    ],
+    "canonicalMap": {
+      "x": 834.944751,
+      "y": 333.333333
+    },
+    "arrivalMap": {
+      "x": 834.944751,
+      "y": 333.333333
+    },
+    "thresholdInputPixels": 20.25
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D0",
+    "name": "Bến hồ Xuân Hương",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 9.49,
+    "distanceToArrivalPx": 9.49,
+    "inputMarker": [
+      440.03,
+      396.65
+    ],
+    "inputArrival": [
+      440.03,
+      396.65
+    ],
+    "canonicalMap": {
+      "x": 538.674033,
+      "y": 642.725599
+    },
+    "arrivalMap": {
+      "x": 538.674033,
+      "y": 642.725599
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D1",
+    "name": "Quảng trường dốc",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      516.38,
+      156.2
+    ],
+    "inputArrival": [
+      516.38,
+      156.2
+    ],
+    "canonicalMap": {
+      "x": 632.596685,
+      "y": 248.618785
+    },
+    "arrivalMap": {
+      "x": 632.596685,
+      "y": 248.618785
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D2",
+    "name": "Người dẫn đường Lan",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.0,
+    "distanceToArrivalPx": 3.0,
+    "inputMarker": [
+      418.7,
+      282.6
+    ],
+    "inputArrival": [
+      418.7,
+      282.6
+    ],
+    "canonicalMap": {
+      "x": 512.4309390000001,
+      "y": 455.80110500000006
+    },
+    "arrivalMap": {
+      "x": 512.4309390000001,
+      "y": 455.80110500000006
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D3",
+    "name": "Tiệm hoa Thủy",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.16,
+    "distanceToArrivalPx": 3.16,
+    "inputMarker": [
+      361.43,
+      285.97
+    ],
+    "inputArrival": [
+      361.43,
+      285.97
+    ],
+    "canonicalMap": {
+      "x": 441.98895,
+      "y": 461.32596699999993
+    },
+    "arrivalMap": {
+      "x": 441.98895,
+      "y": 461.32596699999993
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D4",
+    "name": "Chợ trên đồi",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      555.12,
+      153.39
+    ],
+    "inputArrival": [
+      555.12,
+      153.39
+    ],
+    "canonicalMap": {
+      "x": 680.248619,
+      "y": 244.01473299999998
+    },
+    "arrivalMap": {
+      "x": 680.248619,
+      "y": 244.01473299999998
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D5",
+    "name": "Lối rừng thông",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      227.82,
+      376.42
+    ],
+    "inputArrival": [
+      227.82,
+      376.42
+    ],
+    "canonicalMap": {
+      "x": 277.62430900000004,
+      "y": 609.576427
+    },
+    "arrivalMap": {
+      "x": 277.62430900000004,
+      "y": 609.576427
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D6",
+    "name": "Sói sương mù",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 5.83,
+    "distanceToArrivalPx": 5.83,
+    "inputMarker": [
+      170.56,
+      272.49
+    ],
+    "inputArrival": [
+      170.56,
+      272.49
+    ],
+    "canonicalMap": {
+      "x": 207.18232,
+      "y": 439.226519
+    },
+    "arrivalMap": {
+      "x": 207.18232,
+      "y": 439.226519
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D7",
+    "name": "Trạm quan sát sương",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 21.54,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      297.99,
+      196.65
+    ],
+    "inputArrival": [
+      315.96,
+      216.31
+    ],
+    "canonicalMap": {
+      "x": 363.95027600000003,
+      "y": 314.91712699999994
+    },
+    "arrivalMap": {
+      "x": 386.04972399999997,
+      "y": 347.145488
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D8",
+    "name": "Ngõ sương vòng",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      195.82,
+      229.79
+    ],
+    "inputArrival": [
+      221.64,
+      234.85
+    ],
+    "canonicalMap": {
+      "x": 238.259669,
+      "y": 369.244936
+    },
+    "arrivalMap": {
+      "x": 270.027624,
+      "y": 377.532228
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D9",
+    "name": "Đài nhìn thông",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      132.38,
+      142.15
+    ],
+    "inputArrival": [
+      132.38,
+      142.15
+    ],
+    "canonicalMap": {
+      "x": 160.22099400000002,
+      "y": 225.59852700000005
+    },
+    "arrivalMap": {
+      "x": 160.22099400000002,
+      "y": 225.59852700000005
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D10",
+    "name": "Chó canh đói",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      351.33,
+      457.32
+    ],
+    "inputArrival": [
+      351.33,
+      457.32
+    ],
+    "canonicalMap": {
+      "x": 429.558011,
+      "y": 742.1731120000001
+    },
+    "arrivalMap": {
+      "x": 429.558011,
+      "y": 742.1731120000001
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D11",
+    "name": "Lối vườn hoa",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 6.4,
+    "distanceToArrivalPx": 6.4,
+    "inputMarker": [
+      108.8,
+      455.08
+    ],
+    "inputArrival": [
+      108.8,
+      455.08
+    ],
+    "canonicalMap": {
+      "x": 131.21547,
+      "y": 738.4898710000001
+    },
+    "arrivalMap": {
+      "x": 131.21547,
+      "y": 738.4898710000001
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D12",
+    "name": "Cối xay cạnh hồ",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      94.77,
+      428.67
+    ],
+    "inputArrival": [
+      94.77,
+      428.67
+    ],
+    "canonicalMap": {
+      "x": 113.950276,
+      "y": 695.211786
+    },
+    "arrivalMap": {
+      "x": 113.950276,
+      "y": 695.211786
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D13",
+    "name": "Vườn kính hoa",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      665.71,
+      288.22
+    ],
+    "inputArrival": [
+      665.71,
+      288.22
+    ],
+    "canonicalMap": {
+      "x": 816.298343,
+      "y": 465.009208
+    },
+    "arrivalMap": {
+      "x": 816.298343,
+      "y": 465.009208
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D14",
+    "name": "Đài dẫn sáng núi",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      156.52,
+      87.09
+    ],
+    "inputArrival": [
+      156.52,
+      87.09
+    ],
+    "canonicalMap": {
+      "x": 189.917127,
+      "y": 135.35911599999994
+    },
+    "arrivalMap": {
+      "x": 189.917127,
+      "y": 135.35911599999994
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D15",
+    "name": "Bóng sương cầu đá",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      543.33,
+      453.95
+    ],
+    "inputArrival": [
+      543.33,
+      453.95
+    ],
+    "canonicalMap": {
+      "x": 665.745856,
+      "y": 736.64825
+    },
+    "arrivalMap": {
+      "x": 665.745856,
+      "y": 736.64825
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D16",
+    "name": "Thác hồi âm",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      597.22,
+      523.05
+    ],
+    "inputArrival": [
+      597.22,
+      523.05
+    ],
+    "canonicalMap": {
+      "x": 732.0441989999999,
+      "y": 849.9079190000001
+    },
+    "arrivalMap": {
+      "x": 732.0441989999999,
+      "y": 849.9079190000001
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D17",
+    "name": "Lối bí mật bờ đông",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.24,
+    "distanceToArrivalPx": 2.24,
+    "inputMarker": [
+      768.45,
+      511.26
+    ],
+    "inputArrival": [
+      768.45,
+      511.26
+    ],
+    "canonicalMap": {
+      "x": 942.679558,
+      "y": 830.570902
+    },
+    "arrivalMap": {
+      "x": 942.679558,
+      "y": 830.570902
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D18",
+    "name": "Nhà nghỉ trên dốc",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      282.84,
+      347.21
+    ],
+    "inputArrival": [
+      282.84,
+      347.21
+    ],
+    "canonicalMap": {
+      "x": 345.30386699999997,
+      "y": 561.694291
+    },
+    "arrivalMap": {
+      "x": 345.30386699999997,
+      "y": 561.694291
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D19",
+    "name": "Vườn hoa đêm",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      164.94,
+      102.26
+    ],
+    "inputArrival": [
+      164.94,
+      102.26
+    ],
+    "canonicalMap": {
+      "x": 200.276243,
+      "y": 160.22099400000002
+    },
+    "arrivalMap": {
+      "x": 200.276243,
+      "y": 160.22099400000002
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D20",
+    "name": "Cầu dẫn hồ",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      516.94,
+      270.8
+    ],
+    "inputArrival": [
+      516.94,
+      270.8
+    ],
+    "canonicalMap": {
+      "x": 633.287293,
+      "y": 436.464088
+    },
+    "arrivalMap": {
+      "x": 633.287293,
+      "y": 436.464088
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "da_lat",
+    "nodeId": "D21",
+    "name": "Cửa đồng bộ Seoul",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.41,
+    "distanceToArrivalPx": 1.41,
+    "inputMarker": [
+      678.06,
+      433.73
+    ],
+    "inputArrival": [
+      678.06,
+      433.73
+    ],
+    "canonicalMap": {
+      "x": 831.491713,
+      "y": 703.4990789999999
+    },
+    "arrivalMap": {
+      "x": 831.491713,
+      "y": 703.4990789999999
+    },
+    "thresholdInputPixels": 11.61
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J0",
+    "name": "Cổng làng phía nam",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      411.47,
+      562.92
+    ],
+    "inputArrival": [
+      411.47,
+      562.92
+    ],
+    "canonicalMap": {
+      "x": 497.0,
+      "y": 907.0
+    },
+    "arrivalMap": {
+      "x": 497.0,
+      "y": 907.0
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J1",
+    "name": "Ngã ba hanok",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.0,
+    "distanceToArrivalPx": 2.0,
+    "inputMarker": [
+      381.44,
+      271.76
+    ],
+    "inputArrival": [
+      381.44,
+      271.76
+    ],
+    "canonicalMap": {
+      "x": 459.944751,
+      "y": 429.09760600000004
+    },
+    "arrivalMap": {
+      "x": 459.944751,
+      "y": 429.09760600000004
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J2",
+    "name": "Nghệ nhân Hana",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.83,
+    "distanceToArrivalPx": 2.83,
+    "inputMarker": [
+      546.53,
+      330.1
+    ],
+    "inputArrival": [
+      546.53,
+      330.1
+    ],
+    "canonicalMap": {
+      "x": 663.674033,
+      "y": 524.861878
+    },
+    "arrivalMap": {
+      "x": 663.674033,
+      "y": 524.861878
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J3",
+    "name": "Xưởng nhuộm vải",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 4.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      254.96,
+      232.49
+    ],
+    "inputArrival": [
+      271.75,
+      258.29
+    ],
+    "canonicalMap": {
+      "x": 303.86740299999997,
+      "y": 364.640884
+    },
+    "arrivalMap": {
+      "x": 324.58563499999997,
+      "y": 406.99815800000005
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J4",
+    "name": "Nhà thầy Yoon",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.24,
+    "distanceToArrivalPx": 2.24,
+    "inputMarker": [
+      359.06,
+      173.02
+    ],
+    "inputArrival": [
+      359.06,
+      173.02
+    ],
+    "canonicalMap": {
+      "x": 432.320442,
+      "y": 267.03499100000005
+    },
+    "arrivalMap": {
+      "x": 432.320442,
+      "y": 267.03499100000005
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J5",
+    "name": "Tiệm hàng chuyển",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      554.93,
+      393.49
+    ],
+    "inputArrival": [
+      554.93,
+      393.49
+    ],
+    "canonicalMap": {
+      "x": 674.033149,
+      "y": 628.9134439999999
+    },
+    "arrivalMap": {
+      "x": 674.033149,
+      "y": 628.9134439999999
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J6",
+    "name": "Bot Cắp Kiện",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      666.29,
+      399.66
+    ],
+    "inputArrival": [
+      666.29,
+      399.66
+    ],
+    "canonicalMap": {
+      "x": 811.4640880000001,
+      "y": 639.042357
+    },
+    "arrivalMap": {
+      "x": 811.4640880000001,
+      "y": 639.042357
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J7",
+    "name": "Thư viện giấy hanji",
+    "status": "NEEDS_ARRIVAL_CONNECTOR_REVIEW",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 14.04,
+    "inputMarker": [
+      279.03,
+      150.02
+    ],
+    "inputArrival": [
+      280.71,
+      165.17
+    ],
+    "canonicalMap": {
+      "x": 333.563536,
+      "y": 229.281768
+    },
+    "arrivalMap": {
+      "x": 335.635359,
+      "y": 254.14364599999993
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J8",
+    "name": "Cầu đá tây",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 5.66,
+    "distanceToArrivalPx": 5.66,
+    "inputMarker": [
+      204.04,
+      279.05
+    ],
+    "inputArrival": [
+      204.04,
+      279.05
+    ],
+    "canonicalMap": {
+      "x": 241.022099,
+      "y": 441.06814
+    },
+    "arrivalMap": {
+      "x": 241.022099,
+      "y": 441.06814
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J9",
+    "name": "Bờ suối nước chảy",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      106.1,
+      355.34
+    ],
+    "inputArrival": [
+      106.1,
+      355.34
+    ],
+    "canonicalMap": {
+      "x": 120.165746,
+      "y": 566.2983429999999
+    },
+    "arrivalMap": {
+      "x": 120.165746,
+      "y": 566.2983429999999
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J10",
+    "name": "Rương ven hồ",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      135.76,
+      514.67
+    ],
+    "inputArrival": [
+      135.76,
+      514.67
+    ],
+    "canonicalMap": {
+      "x": 156.76795600000003,
+      "y": 827.8084709999999
+    },
+    "arrivalMap": {
+      "x": 156.76795600000003,
+      "y": 827.8084709999999
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J11",
+    "name": "Đài ngắm mái ngói",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      631.6,
+      106.26
+    ],
+    "inputArrival": [
+      631.6,
+      106.26
+    ],
+    "canonicalMap": {
+      "x": 768.6464090000001,
+      "y": 157.45856400000002
+    },
+    "arrivalMap": {
+      "x": 768.6464090000001,
+      "y": 157.45856400000002
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J12",
+    "name": "Sân thêu họa tiết",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.24,
+    "distanceToArrivalPx": 2.24,
+    "inputMarker": [
+      611.45,
+      220.7
+    ],
+    "inputArrival": [
+      611.45,
+      220.7
+    ],
+    "canonicalMap": {
+      "x": 743.78453,
+      "y": 345.303867
+    },
+    "arrivalMap": {
+      "x": 743.78453,
+      "y": 345.303867
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J13",
+    "name": "Cổng sân cổ",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 5.0,
+    "distanceToArrivalPx": 5.0,
+    "inputMarker": [
+      459.23,
+      118.6
+    ],
+    "inputArrival": [
+      459.23,
+      118.6
+    ],
+    "canonicalMap": {
+      "x": 555.939227,
+      "y": 177.71638999999993
+    },
+    "arrivalMap": {
+      "x": 555.939227,
+      "y": 177.71638999999993
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J14",
+    "name": "Bot Hoa Văn",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      703.79,
+      257.73
+    ],
+    "inputArrival": [
+      703.79,
+      257.73
+    ],
+    "canonicalMap": {
+      "x": 857.734807,
+      "y": 406.077348
+    },
+    "arrivalMap": {
+      "x": 857.734807,
+      "y": 406.077348
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J15",
+    "name": "Chợ hanok",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 6.71,
+    "distanceToArrivalPx": 6.71,
+    "inputMarker": [
+      553.81,
+      446.23
+    ],
+    "inputArrival": [
+      553.81,
+      446.23
+    ],
+    "canonicalMap": {
+      "x": 672.651934,
+      "y": 715.469613
+    },
+    "arrivalMap": {
+      "x": 672.651934,
+      "y": 715.469613
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J16",
+    "name": "Người giữ chuyện",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      351.78,
+      342.44
+    ],
+    "inputArrival": [
+      351.78,
+      342.44
+    ],
+    "canonicalMap": {
+      "x": 423.34254100000004,
+      "y": 545.1197050000001
+    },
+    "arrivalMap": {
+      "x": 423.34254100000004,
+      "y": 545.1197050000001
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J17",
+    "name": "Đèn song thành",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.61,
+    "distanceToArrivalPx": 3.61,
+    "inputMarker": [
+      446.36,
+      262.78
+    ],
+    "inputArrival": [
+      446.36,
+      262.78
+    ],
+    "canonicalMap": {
+      "x": 540.055249,
+      "y": 414.364641
+    },
+    "arrivalMap": {
+      "x": 540.055249,
+      "y": 414.364641
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J18",
+    "name": "Hạc giấy bóng tối",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.0,
+    "distanceToArrivalPx": 3.0,
+    "inputMarker": [
+      659.58,
+      558.43
+    ],
+    "inputArrival": [
+      659.58,
+      558.43
+    ],
+    "canonicalMap": {
+      "x": 803.1767960000001,
+      "y": 899.6316760000001
+    },
+    "arrivalMap": {
+      "x": 803.1767960000001,
+      "y": 899.6316760000001
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J19",
+    "name": "Trạm ánh sáng hanji",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.41,
+    "distanceToArrivalPx": 1.41,
+    "inputMarker": [
+      501.2,
+      125.9
+    ],
+    "inputArrival": [
+      501.2,
+      125.9
+    ],
+    "canonicalMap": {
+      "x": 607.734807,
+      "y": 189.68692399999998
+    },
+    "arrivalMap": {
+      "x": 607.734807,
+      "y": 189.68692399999998
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J20",
+    "name": "Cổng đi Gyeongju",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.0,
+    "distanceToArrivalPx": 3.0,
+    "inputMarker": [
+      736.25,
+      132.07
+    ],
+    "inputArrival": [
+      736.25,
+      132.07
+    ],
+    "canonicalMap": {
+      "x": 897.7900549999999,
+      "y": 199.815838
+    },
+    "arrivalMap": {
+      "x": 897.7900549999999,
+      "y": 199.815838
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "jeonju",
+    "nodeId": "J21",
+    "name": "Lối thư hồi âm",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      131.29,
+      150.02
+    ],
+    "inputArrival": [
+      131.29,
+      150.02
+    ],
+    "canonicalMap": {
+      "x": 151.24309399999999,
+      "y": 229.281768
+    },
+    "arrivalMap": {
+      "x": 151.24309399999999,
+      "y": 229.281768
+    },
+    "thresholdInputPixels": 11.58
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G0",
+    "name": "Cổng vào làng di tích",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.61,
+    "distanceToArrivalPx": 3.0,
+    "inputMarker": [
+      231.85,
+      520.34
+    ],
+    "inputArrival": [
+      327.08,
+      537.91
+    ],
+    "canonicalMap": {
+      "x": 284.0,
+      "y": 832.0
+    },
+    "arrivalMap": {
+      "x": 400.552486,
+      "y": 860.957643
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G1",
+    "name": "Cầu lối bắc",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 10.63,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      367.48,
+      437.24
+    ],
+    "inputArrival": [
+      380.12,
+      442.95
+    ],
+    "canonicalMap": {
+      "x": 450.0,
+      "y": 695.0000000000001
+    },
+    "arrivalMap": {
+      "x": 465.469613,
+      "y": 704.41989
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G2",
+    "name": "Đình ao sen",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.16,
+    "distanceToArrivalPx": 2.24,
+    "inputMarker": [
+      173.84,
+      314.1
+    ],
+    "inputArrival": [
+      170.21,
+      318.96
+    ],
+    "canonicalMap": {
+      "x": 213.0,
+      "y": 492.0
+    },
+    "arrivalMap": {
+      "x": 208.563536,
+      "y": 500.0
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G3",
+    "name": "Nhà khảo cổ Min",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      331.53,
+      171.55
+    ],
+    "inputArrival": [
+      291.53,
+      174.29
+    ],
+    "canonicalMap": {
+      "x": 406.0,
+      "y": 257.0
+    },
+    "arrivalMap": {
+      "x": 357.044199,
+      "y": 261.51012900000006
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G4",
+    "name": "Đài Cheomseongdae cách điệu",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      365.03,
+      131.52
+    ],
+    "inputArrival": [
+      384.07,
+      165.91
+    ],
+    "canonicalMap": {
+      "x": 447.0,
+      "y": 190.99999999999994
+    },
+    "arrivalMap": {
+      "x": 470.30386699999997,
+      "y": 247.69797400000004
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G5",
+    "name": "Gò mộ phía tây",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 3.61,
+    "inputMarker": [
+      118.28,
+      136.37
+    ],
+    "inputArrival": [
+      113.79,
+      162.0
+    ],
+    "canonicalMap": {
+      "x": 145.0,
+      "y": 198.99999999999994
+    },
+    "arrivalMap": {
+      "x": 139.502762,
+      "y": 241.25230200000004
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G6",
+    "name": "Đường giữa các gò",
+    "status": "NEEDS_ARRIVAL_CONNECTOR_REVIEW",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 15.0,
+    "inputMarker": [
+      228.58,
+      155.18
+    ],
+    "inputArrival": [
+      227.2,
+      172.61
+    ],
+    "canonicalMap": {
+      "x": 280.0,
+      "y": 229.99999999999997
+    },
+    "arrivalMap": {
+      "x": 278.314917,
+      "y": 258.74769799999996
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G7",
+    "name": "Tượng đá gác lối",
+    "status": "NEEDS_ARRIVAL_CONNECTOR_REVIEW",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 19.92,
+    "inputMarker": [
+      472.88,
+      254.66
+    ],
+    "inputArrival": [
+      452.91,
+      270.92
+    ],
+    "canonicalMap": {
+      "x": 579.0,
+      "y": 394.0
+    },
+    "arrivalMap": {
+      "x": 554.558011,
+      "y": 420.81031300000006
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G8",
+    "name": "Lối chùa đá",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.41,
+    "distanceToArrivalPx": 5.0,
+    "inputMarker": [
+      591.35,
+      271.03
+    ],
+    "inputArrival": [
+      621.62,
+      288.79
+    ],
+    "canonicalMap": {
+      "x": 724.0,
+      "y": 421.00000000000006
+    },
+    "arrivalMap": {
+      "x": 761.0497240000001,
+      "y": 450.276243
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G9",
+    "name": "Sân chính di tích",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 4.24,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      541.51,
+      203.1
+    ],
+    "inputArrival": [
+      511.59,
+      246.9
+    ],
+    "canonicalMap": {
+      "x": 663.0,
+      "y": 309.00000000000006
+    },
+    "arrivalMap": {
+      "x": 626.381215,
+      "y": 381.21547
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G10",
+    "name": "Đình trên đồi",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 1.41,
+    "inputMarker": [
+      650.99,
+      98.16
+    ],
+    "inputArrival": [
+      646.45,
+      129.05
+    ],
+    "canonicalMap": {
+      "x": 797.0,
+      "y": 136.0
+    },
+    "arrivalMap": {
+      "x": 791.436464,
+      "y": 186.924494
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G11",
+    "name": "Vườn đá trung tâm",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      395.26,
+      323.2
+    ],
+    "inputArrival": [
+      443.31,
+      331.24
+    ],
+    "canonicalMap": {
+      "x": 484.0,
+      "y": 507.0
+    },
+    "arrivalMap": {
+      "x": 542.81768,
+      "y": 520.257827
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G12",
+    "name": "Bệ phong ấn nứt",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.41,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      497.39,
+      386.29
+    ],
+    "inputArrival": [
+      505.38,
+      401.06
+    ],
+    "canonicalMap": {
+      "x": 609.0,
+      "y": 611.0
+    },
+    "arrivalMap": {
+      "x": 618.78453,
+      "y": 635.3591160000001
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G13",
+    "name": "Lính canh đêm",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 6.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      620.76,
+      409.34
+    ],
+    "inputArrival": [
+      629.52,
+      403.86
+    ],
+    "canonicalMap": {
+      "x": 760.0,
+      "y": 649.0
+    },
+    "arrivalMap": {
+      "x": 770.7182320000001,
+      "y": 639.963168
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G14",
+    "name": "Kho bản khắc",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 7.28,
+    "inputMarker": [
+      722.07,
+      229.18
+    ],
+    "inputArrival": [
+      724.31,
+      237.41
+    ],
+    "canonicalMap": {
+      "x": 884.0,
+      "y": 352.0
+    },
+    "arrivalMap": {
+      "x": 886.7403310000001,
+      "y": 365.56169400000005
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G15",
+    "name": "Thềm điện đá",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 23.26,
+    "distanceToArrivalPx": 2.24,
+    "inputMarker": [
+      576.64,
+      180.05
+    ],
+    "inputArrival": [
+      623.31,
+      172.61
+    ],
+    "canonicalMap": {
+      "x": 706.0,
+      "y": 271.0
+    },
+    "arrivalMap": {
+      "x": 763.121547,
+      "y": 258.74769799999996
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G16",
+    "name": "Đền dưới hồ",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 28.79,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      425.49,
+      482.73
+    ],
+    "inputArrival": [
+      414.54,
+      509.42
+    ],
+    "canonicalMap": {
+      "x": 521.0,
+      "y": 770.0
+    },
+    "arrivalMap": {
+      "x": 507.596685,
+      "y": 813.996317
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G17",
+    "name": "Đài lồng đèn bờ tây",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 18.38,
+    "distanceToArrivalPx": 4.0,
+    "inputMarker": [
+      97.04,
+      244.95
+    ],
+    "inputArrival": [
+      123.95,
+      238.52
+    ],
+    "canonicalMap": {
+      "x": 119.0,
+      "y": 378.0
+    },
+    "arrivalMap": {
+      "x": 151.933702,
+      "y": 367.403315
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G18",
+    "name": "Lõi canh tinh tú",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      662.43,
+      157.0
+    ],
+    "inputArrival": [
+      649.83,
+      160.33
+    ],
+    "canonicalMap": {
+      "x": 811.0,
+      "y": 232.99999999999997
+    },
+    "arrivalMap": {
+      "x": 795.58011,
+      "y": 238.48987099999997
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G19",
+    "name": "Trạm cộng hưởng Silla",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      455.72,
+      154.57
+    ],
+    "inputArrival": [
+      452.91,
+      188.25
+    ],
+    "canonicalMap": {
+      "x": 558.0,
+      "y": 228.99999999999997
+    },
+    "arrivalMap": {
+      "x": 554.558011,
+      "y": 284.530387
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G20",
+    "name": "Cổng đi Seoul",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      726.16,
+      387.5
+    ],
+    "inputArrival": [
+      716.41,
+      380.95
+    ],
+    "canonicalMap": {
+      "x": 889.0,
+      "y": 613.0
+    },
+    "arrivalMap": {
+      "x": 877.071823,
+      "y": 602.2099450000001
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "gyeongju",
+    "nodeId": "G21",
+    "name": "Lối cỏ dược liệu",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 3.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      84.78,
+      478.49
+    ],
+    "inputArrival": [
+      107.02,
+      477.58
+    ],
+    "canonicalMap": {
+      "x": 104.0,
+      "y": 763.0
+    },
+    "arrivalMap": {
+      "x": 131.21547,
+      "y": 761.510129
+    },
+    "thresholdInputPixels": 11.67
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S0",
+    "name": "Bến công viên sông Hàn",
+    "status": "NEEDS_ARRIVAL_CONNECTOR_REVIEW",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 16.12,
+    "inputMarker": [
+      402.64,
+      427.42
+    ],
+    "inputArrival": [
+      415.29,
+      443.58
+    ],
+    "canonicalMap": {
+      "x": 490.0,
+      "y": 690.0
+    },
+    "arrivalMap": {
+      "x": 505.52486200000004,
+      "y": 716.390424
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S1",
+    "name": "Quảng trường trung tâm",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      506.97,
+      325.12
+    ],
+    "inputArrival": [
+      496.35,
+      343.18
+    ],
+    "canonicalMap": {
+      "x": 618.0,
+      "y": 523.0
+    },
+    "arrivalMap": {
+      "x": 604.9723759999999,
+      "y": 552.4861880000001
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S2",
+    "name": "Cổng thành xưa",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 12.17,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      242.89,
+      183.63
+    ],
+    "inputArrival": [
+      244.74,
+      201.61
+    ],
+    "canonicalMap": {
+      "x": 294.0,
+      "y": 292.00000000000006
+    },
+    "arrivalMap": {
+      "x": 296.270718,
+      "y": 321.362799
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S3",
+    "name": "Sân cung điện",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 6.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      226.59,
+      129.72
+    ],
+    "inputArrival": [
+      225.6,
+      136.19
+    ],
+    "canonicalMap": {
+      "x": 274.0,
+      "y": 203.99999999999997
+    },
+    "arrivalMap": {
+      "x": 272.790055,
+      "y": 214.54880300000002
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S4",
+    "name": "Hồ sơ lịch sử",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 1.41,
+    "inputMarker": [
+      174.42,
+      237.53
+    ],
+    "inputArrival": [
+      173.25,
+      241.66
+    ],
+    "canonicalMap": {
+      "x": 210.0,
+      "y": 380.0
+    },
+    "arrivalMap": {
+      "x": 208.563536,
+      "y": 386.740331
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S5",
+    "name": "Drone trinh sát",
+    "status": "NEEDS_ARRIVAL_CONNECTOR_REVIEW",
+    "distanceToMarkerPx": 4.24,
+    "distanceToArrivalPx": 32.45,
+    "inputMarker": [
+      481.7,
+      260.81
+    ],
+    "inputArrival": [
+      439.5,
+      252.94
+    ],
+    "canonicalMap": {
+      "x": 587.0,
+      "y": 418.00000000000006
+    },
+    "arrivalMap": {
+      "x": 535.220994,
+      "y": 405.15653799999995
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S6",
+    "name": "Bờ đông sông Hàn",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      679.76,
+      412.71
+    ],
+    "inputArrival": [
+      644.95,
+      429.48
+    ],
+    "canonicalMap": {
+      "x": 830.0,
+      "y": 665.9999999999999
+    },
+    "arrivalMap": {
+      "x": 787.2928179999999,
+      "y": 693.370166
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S7",
+    "name": "Quảng trường màn hình",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      620.26,
+      290.82
+    ],
+    "inputArrival": [
+      603.86,
+      305.39
+    ],
+    "canonicalMap": {
+      "x": 757.0,
+      "y": 466.99999999999994
+    },
+    "arrivalMap": {
+      "x": 736.878453,
+      "y": 490.791897
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S8",
+    "name": "Đường cao ốc",
+    "status": "NEEDS_ARRIVAL_CONNECTOR_REVIEW",
+    "distanceToMarkerPx": 2.83,
+    "distanceToArrivalPx": 20.62,
+    "inputMarker": [
+      502.08,
+      229.57
+    ],
+    "inputArrival": [
+      448.5,
+      236.02
+    ],
+    "canonicalMap": {
+      "x": 612.0,
+      "y": 367.0
+    },
+    "arrivalMap": {
+      "x": 546.270718,
+      "y": 377.532228
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S9",
+    "name": "Đường lên N Seoul Tower",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.0,
+    "distanceToArrivalPx": 11.18,
+    "inputMarker": [
+      622.71,
+      160.35
+    ],
+    "inputArrival": [
+      625.25,
+      173.41
+    ],
+    "canonicalMap": {
+      "x": 760.0,
+      "y": 254.0
+    },
+    "arrivalMap": {
+      "x": 763.121547,
+      "y": 275.322284
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S10",
+    "name": "Chân tháp N Seoul",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      581.14,
+      75.82
+    ],
+    "inputArrival": [
+      589.23,
+      98.96
+    ],
+    "canonicalMap": {
+      "x": 709.0,
+      "y": 115.99999999999999
+    },
+    "arrivalMap": {
+      "x": 718.9226520000001,
+      "y": 153.775322
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S11",
+    "name": "Trạm kiểm soát kỹ thuật",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 1.0,
+    "inputMarker": [
+      688.73,
+      173.21
+    ],
+    "inputArrival": [
+      704.62,
+      180.74
+    ],
+    "canonicalMap": {
+      "x": 841.0,
+      "y": 275.0
+    },
+    "arrivalMap": {
+      "x": 860.497238,
+      "y": 287.29281799999995
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S12",
+    "name": "Đảo công viên xanh",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 5.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      382.26,
+      397.4
+    ],
+    "inputArrival": [
+      369.14,
+      434.56
+    ],
+    "canonicalMap": {
+      "x": 465.0,
+      "y": 641.0
+    },
+    "arrivalMap": {
+      "x": 448.89502799999997,
+      "y": 701.657459
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S13",
+    "name": "Cầu ánh sáng phía tây",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 5.0,
+    "distanceToArrivalPx": 2.0,
+    "inputMarker": [
+      283.64,
+      335.54
+    ],
+    "inputArrival": [
+      355.63,
+      310.47
+    ],
+    "canonicalMap": {
+      "x": 344.0,
+      "y": 540.0
+    },
+    "arrivalMap": {
+      "x": 432.320442,
+      "y": 499.07919
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S14",
+    "name": "Bến phà thông tin",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.24,
+    "distanceToArrivalPx": 1.41,
+    "inputMarker": [
+      312.17,
+      495.41
+    ],
+    "inputArrival": [
+      218.85,
+      472.91
+    ],
+    "canonicalMap": {
+      "x": 379.0,
+      "y": 800.9999999999999
+    },
+    "arrivalMap": {
+      "x": 264.502762,
+      "y": 764.27256
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S15",
+    "name": "Bot bảo vệ cầu",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      338.25,
+      300.62
+    ],
+    "inputArrival": [
+      335.36,
+      305.96
+    ],
+    "canonicalMap": {
+      "x": 411.0,
+      "y": 483.0
+    },
+    "arrivalMap": {
+      "x": 407.458564,
+      "y": 491.712707
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S16",
+    "name": "Trạm phát điện bờ đông",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 6.08,
+    "inputMarker": [
+      713.99,
+      480.09
+    ],
+    "inputArrival": [
+      712.5,
+      490.4
+    ],
+    "canonicalMap": {
+      "x": 872.0,
+      "y": 776.0
+    },
+    "arrivalMap": {
+      "x": 870.165746,
+      "y": 792.81768
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S17",
+    "name": "Rơle cung điện",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 2.0,
+    "distanceToArrivalPx": 4.24,
+    "inputMarker": [
+      386.34,
+      214.87
+    ],
+    "inputArrival": [
+      383.21,
+      215.71
+    ],
+    "canonicalMap": {
+      "x": 470.0,
+      "y": 343.0
+    },
+    "arrivalMap": {
+      "x": 466.160221,
+      "y": 344.38305700000006
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S18",
+    "name": "Rơle ánh đèn hanji",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 13.15,
+    "distanceToArrivalPx": 0.0,
+    "inputMarker": [
+      541.2,
+      317.16
+    ],
+    "inputArrival": [
+      548.13,
+      330.21
+    ],
+    "canonicalMap": {
+      "x": 660.0,
+      "y": 510.0
+    },
+    "arrivalMap": {
+      "x": 668.508287,
+      "y": 531.307551
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S19",
+    "name": "Đường hầm dữ liệu",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 1.0,
+    "distanceToArrivalPx": 3.61,
+    "inputMarker": [
+      734.37,
+      431.09
+    ],
+    "inputArrival": [
+      724.88,
+      454.3
+    ],
+    "canonicalMap": {
+      "x": 897.0,
+      "y": 696.0
+    },
+    "arrivalMap": {
+      "x": 885.359116,
+      "y": 733.88582
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S20",
+    "name": "Buồng Lõi Nhiễu",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 5.1,
+    "distanceToArrivalPx": 3.0,
+    "inputMarker": [
+      723.77,
+      331.86
+    ],
+    "inputArrival": [
+      682.1,
+      365.74
+    ],
+    "canonicalMap": {
+      "x": 884.0,
+      "y": 534.0
+    },
+    "arrivalMap": {
+      "x": 832.872928,
+      "y": 589.3186000000001
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S21",
+    "name": "Lễ hội hai nền văn hóa",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 0.0,
+    "distanceToArrivalPx": 2.24,
+    "inputMarker": [
+      262.45,
+      271.22
+    ],
+    "inputArrival": [
+      265.0,
+      268.17
+    ],
+    "canonicalMap": {
+      "x": 318.0,
+      "y": 435.00000000000006
+    },
+    "arrivalMap": {
+      "x": 321.13259700000003,
+      "y": 430.018416
+    },
+    "thresholdInputPixels": 11.64
+  },
+  {
+    "city": "seoul",
+    "nodeId": "S22",
+    "name": "Kính quan sát đồi",
+    "status": "NEAR_EXISTING_ARRIVAL",
+    "distanceToMarkerPx": 8.94,
+    "distanceToArrivalPx": 2.0,
+    "inputMarker": [
+      526.53,
+      132.17
+    ],
+    "inputArrival": [
+      539.69,
+      138.44
+    ],
+    "canonicalMap": {
+      "x": 642.0,
+      "y": 207.99999999999997
+    },
+    "arrivalMap": {
+      "x": 658.149171,
+      "y": 218.23204399999995
+    },
+    "thresholdInputPixels": 11.64
+  }
+]

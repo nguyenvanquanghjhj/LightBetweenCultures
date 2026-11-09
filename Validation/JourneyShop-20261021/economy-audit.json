@@ -1,0 +1,780 @@
+{
+  "contentSHA256": "fdb00fbeb890b6886ba188f2c363914869b82c7d7389b20218bb158d4979f26d",
+  "itemClassification": [
+    {
+      "ItemID": "lamp_eye",
+      "Name": "Mắt Đèn Hội An",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "HQ01"
+    },
+    {
+      "ItemID": "hanji_core",
+      "Name": "Lõi Giấy Sáng",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "HQ01"
+    },
+    {
+      "ItemID": "link_key",
+      "Name": "Chìa Kết Nối",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "HQ01"
+    },
+    {
+      "ItemID": "copper_wire",
+      "Name": "Dây Đồng",
+      "Group": "A_VIA_BAIT",
+      "Price": "",
+      "StackLimit": 99,
+      "Reason": "HQ02 also requires crab_resolved; selling a wire alone would be a misleading purchase. Buy the one-coin bait, then use the existing peaceful crab interaction to earn wire and canonical proof.",
+      "RequiredBy": "HQ02"
+    },
+    {
+      "ItemID": "lantern_stamp",
+      "Name": "Dấu Ấn Đèn Lồng",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "river_pass",
+      "Name": "Thẻ Qua Sông",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "UQ03"
+    },
+    {
+      "ItemID": "royal_herb",
+      "Name": "Thảo Dược Bờ Bắc",
+      "Group": "A",
+      "Price": 2,
+      "StackLimit": 1,
+      "Reason": "Ordinary supply; original delivery/interaction still required",
+      "RequiredBy": "UQ02"
+    },
+    {
+      "ItemID": "lost_letter",
+      "Name": "Kiện Thư Niêm Phong",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "UQ01"
+    },
+    {
+      "ItemID": "ancient_seal",
+      "Name": "Ấn Tín Cổ",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "UQ04,GQ02,SQ01"
+    },
+    {
+      "ItemID": "astral_script",
+      "Name": "Chữ Sao Cổ",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "lan_glasses",
+      "Name": "Kính Của Lan",
+      "Group": "A",
+      "Price": 3,
+      "StackLimit": 1,
+      "Reason": "Ordinary supply; original delivery/interaction still required",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "meat_portion",
+      "Name": "Phần Thức Ăn",
+      "Group": "A",
+      "Price": 1,
+      "StackLimit": 99,
+      "Reason": "Ordinary supply; original delivery/interaction still required",
+      "RequiredBy": "DQ02"
+    },
+    {
+      "ItemID": "fog_battery",
+      "Name": "Pin Sương Mù",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "blue_water_signal",
+      "Name": "Tín Hiệu Nước Xanh",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "DQ03,SQ01"
+    },
+    {
+      "ItemID": "night_flower",
+      "Name": "Hoa Đêm",
+      "Group": "A",
+      "Price": 2,
+      "StackLimit": 1,
+      "Reason": "Ordinary supply; original delivery/interaction still required",
+      "RequiredBy": "DQ04"
+    },
+    {
+      "ItemID": "hanji_pattern_1",
+      "Name": "Hoa Văn Hanji 1",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "JQ01"
+    },
+    {
+      "ItemID": "hanji_pattern_2",
+      "Name": "Hoa Văn Hanji 2",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "JQ01"
+    },
+    {
+      "ItemID": "hanji_pattern_3",
+      "Name": "Hoa Văn Hanji 3",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "JQ01"
+    },
+    {
+      "ItemID": "missing_parcel",
+      "Name": "Kiện Hàng Thương Nhân",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "JQ02"
+    },
+    {
+      "ItemID": "hanji_circuit",
+      "Name": "Mạch Đèn Hanji",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "JQ03,SQ01"
+    },
+    {
+      "ItemID": "reply_letter",
+      "Name": "Thư Hồi Âm",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "HQ03,JQ04"
+    },
+    {
+      "ItemID": "star_symbol_1",
+      "Name": "Dấu Sao Lăng Mộ",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "star_symbol_2",
+      "Name": "Dấu Sao Đường Gò",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "star_symbol_3",
+      "Name": "Dấu Sao Đồi Cao",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "silla_prism",
+      "Name": "Lăng Kính Silla",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "GQ03"
+    },
+    {
+      "ItemID": "stargazer_lens",
+      "Name": "Ống Kính Thiên Văn",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": "SQ02"
+    },
+    {
+      "ItemID": "relay_a",
+      "Name": "Mã Trạm A",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "relay_b",
+      "Name": "Mã Trạm B",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "relay_c",
+      "Name": "Mã Trạm C",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "healing_tea",
+      "Name": "Trà Hồi Phục",
+      "Group": "A",
+      "Price": 2,
+      "StackLimit": 99,
+      "Reason": "Ordinary supply; original delivery/interaction still required",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "coin",
+      "Name": "Xu",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 99,
+      "Reason": "Currency itself",
+      "RequiredBy": "HQ04"
+    },
+    {
+      "ItemID": "hoi_an_fresh_chili",
+      "Name": "Ớt Hội An",
+      "Group": "A",
+      "Price": 1,
+      "StackLimit": 20,
+      "Reason": "Ordinary supply; original delivery/interaction still required",
+      "RequiredBy": "HQ05,HA_FOOD_PREP"
+    },
+    {
+      "ItemID": "hoi_an_purple_shallot",
+      "Name": "Hành tím Hội An",
+      "Group": "A",
+      "Price": 1,
+      "StackLimit": 20,
+      "Reason": "Ordinary supply; original delivery/interaction still required",
+      "RequiredBy": "HQ06,HA_FOOD_PREP"
+    },
+    {
+      "ItemID": "jeonju_recipe_card",
+      "Name": "Thẻ món ăn Jeonju",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "hue_market_note",
+      "Name": "Giấy nhắn chợ Huế",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "festival_friendship_postcard",
+      "Name": "Bưu thiếp chợ giao lưu",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "hoi_an_bridge_postcard",
+      "Name": "Bưu thiếp cầu cổ Hội An",
+      "Group": "C",
+      "Price": "",
+      "StackLimit": 1,
+      "Reason": "Authored story proof/key, signed correspondence, cultural reward or memento; not an ordinary supply",
+      "RequiredBy": ""
+    },
+    {
+      "ItemID": "da_lat_strawberry",
+      "Name": "Dâu tây Đà Lạt",
+      "Group": "A",
+      "Price": 2,
+      "StackLimit": 1,
+      "Reason": "Ordinary supply; original delivery/interaction still required",
+      "RequiredBy": "DQ05"
+    }
+  ],
+  "permission": {
+    "id": "ferry_hq04",
+    "group": "B",
+    "price": 5,
+    "canonicalQuest": "HQ04",
+    "canonicalFlag": "hoi_an.ferry_available",
+    "reason": "Optional fare; identical to the existing five-coin manual payment; no story chapter skipped"
+  },
+  "coinSources": [
+    {
+      "kind": "quests",
+      "id": "HQ01",
+      "coins": 150,
+      "oneShot": null,
+      "rewardOnce": true,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "quests",
+      "id": "GQ04",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": true,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "quests",
+      "id": "HA_FOOD_PREP",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "quests",
+      "id": "DQ05",
+      "coins": 10,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "events",
+      "id": "secret_lookout",
+      "coins": 5,
+      "oneShot": true,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "events",
+      "id": "loot_lake",
+      "coins": 5,
+      "oneShot": true,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "events",
+      "id": "chest_secret",
+      "coins": 12,
+      "oneShot": true,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "events",
+      "id": "loot_crate",
+      "coins": 6,
+      "oneShot": true,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "events",
+      "id": "loot_attic",
+      "coins": 10,
+      "oneShot": true,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "events",
+      "id": "loot_pond",
+      "coins": 8,
+      "oneShot": true,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "events",
+      "id": "loot_park",
+      "coins": 12,
+      "oneShot": true,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_ghost",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_river_wisp",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_archive_guard",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_mist_wolf",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_paper_crane",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_pattern_bot",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_stone_guard",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_night_guard",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_drone",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_signal_bot",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_bridge",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "enemies",
+      "id": "enemy_shadow_courier",
+      "coins": 8,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": false,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "hoi_an.h2",
+      "coins": 2,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "hoi_an.h3",
+      "coins": 2,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "hoi_an.h4",
+      "coins": 2,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "hoi_an.h6",
+      "coins": 2,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "hoi_an.h7",
+      "coins": 2,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "hoi_an.h17",
+      "coins": 2,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "hue_u4_checkin",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "hue_u6_checkin",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "jeonju_j8_checkin",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "jeonju_j11_checkin",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "dalat_checkin_0",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "dalat_checkin_14",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "gyeongju_g4_checkin",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "gyeongju_g14_checkin",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "gyeongju_g17_checkin",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "seoul_s2_checkin",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "seoul_s10_checkin",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    },
+    {
+      "kind": "checkIns",
+      "id": "seoul_s18_checkin",
+      "coins": 3,
+      "oneShot": null,
+      "rewardOnce": null,
+      "replayable": null,
+      "ledger_or_guard": "Inspect existing completed/resolved/solved/check-in guard; no source modified"
+    }
+  ],
+  "sourceSummary": {
+    "checkIns": {
+      "count": 18,
+      "min": 2,
+      "max": 3,
+      "median": 3.0,
+      "sum": 48
+    },
+    "enemies": {
+      "count": 12,
+      "min": 8,
+      "max": 8,
+      "median": 8.0,
+      "sum": 96
+    },
+    "events": {
+      "count": 7,
+      "min": 5,
+      "max": 12,
+      "median": 8,
+      "sum": 58
+    },
+    "quests": {
+      "count": 4,
+      "min": 8,
+      "max": 150,
+      "median": 9.0,
+      "sum": 176
+    }
+  },
+  "balance": {
+    "earlyH11Chest": 6,
+    "ordinaryPrices": [
+      1,
+      2,
+      3
+    ],
+    "foodPrepSupplyAndReserves": {
+      "price": 5,
+      "canonicalReward": 8,
+      "rewardOnce": true
+    },
+    "rewardChanges": [],
+    "timeToCollect": "Not independently timed; no fabricated minutes or grind estimates",
+    "farming": "No repeatable coin source added; finite canonical rewards retained"
+  },
+  "countingCaution": "Do not sum source groups into a guaranteed budget: encounter enemy/event definitions can describe the same reward; access and optional choices also differ.",
+  "excluded": [
+    "all six relics",
+    "all 24 relic fragments",
+    "final boss/ending/ceremony flags",
+    "mandatory story and world-city unlocks",
+    "all 22 puzzle proofs"
+  ]
+}

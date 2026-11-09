@@ -1,0 +1,2026 @@
+{
+  "result": "PASS",
+  "protectedFiles": 119,
+  "changedEdges": [
+    "da_lat:D0__D12",
+    "da_lat:D0__D20",
+    "da_lat:D0__D5",
+    "da_lat:D5__D18",
+    "da_lat:D18__D3",
+    "da_lat:D3__D2",
+    "da_lat:D2__D1",
+    "da_lat:D1__D4",
+    "da_lat:D1__D20",
+    "da_lat:D5__D6",
+    "da_lat:D6__D7",
+    "da_lat:D7__D8",
+    "da_lat:D8__D9",
+    "da_lat:D8__D19",
+    "da_lat:D5__D11",
+    "da_lat:D11__D10",
+    "da_lat:D12__D10",
+    "da_lat:D10__D15",
+    "da_lat:D15__D16",
+    "da_lat:D16__D17",
+    "da_lat:D20__D13",
+    "da_lat:D13__D14",
+    "da_lat:D13__D21",
+    "da_lat:D4__D14",
+    "da_lat:D20__D15",
+    "da_lat:D21__D17",
+    "gyeongju:G0__G21",
+    "gyeongju:G0__G1",
+    "gyeongju:G0__G16",
+    "gyeongju:G1__G11",
+    "gyeongju:G1__G2",
+    "gyeongju:G2__G17",
+    "gyeongju:G17__G5",
+    "gyeongju:G5__G6",
+    "gyeongju:G6__G3",
+    "gyeongju:G3__G4",
+    "gyeongju:G3__G11",
+    "gyeongju:G19__G9",
+    "gyeongju:G9__G15",
+    "gyeongju:G15__G10",
+    "gyeongju:G10__G18",
+    "gyeongju:G18__G14",
+    "gyeongju:G14__G8",
+    "gyeongju:G8__G7",
+    "gyeongju:G7__G11",
+    "gyeongju:G12__G13",
+    "gyeongju:G13__G20",
+    "gyeongju:G8__G13",
+    "gyeongju:G16__G12",
+    "gyeongju:G4__G9",
+    "gyeongju:G18__G19",
+    "hoi_an:H0__H11",
+    "hoi_an:H0__H1",
+    "hoi_an:H1__H2",
+    "hoi_an:H1__H4",
+    "hoi_an:H2__H9",
+    "hoi_an:H2__H13",
+    "hoi_an:H13__H3",
+    "hoi_an:H13__H14",
+    "hoi_an:H14__H19",
+    "hoi_an:H14__H18",
+    "hoi_an:H6__H7",
+    "hoi_an:H15__H17",
+    "hoi_an:H7__H8",
+    "hoi_an:H7__H20",
+    "hoi_an:H4__H10",
+    "hoi_an:H11__H12",
+    "hoi_an:H12__H16",
+    "hoi_an:H3__H21",
+    "hue:U0__U1",
+    "hue:U1__U2",
+    "hue:U1__U15",
+    "hue:U1__U16",
+    "hue:U15__U3",
+    "hue:U2__U14",
+    "hue:U14__U13",
+    "hue:U14__U3",
+    "hue:U4__U5",
+    "hue:U5__U6",
+    "hue:U6__U7",
+    "hue:U6__U11",
+    "hue:U6__U18",
+    "hue:U11__U10",
+    "hue:U10__U9",
+    "hue:U9__U12",
+    "hue:U9__U8",
+    "hue:U8__U7",
+    "hue:U8__U17",
+    "hue:U17__U19",
+    "hue:U18__U8",
+    "hue:U7__U20",
+    "hue:U20__U21",
+    "hue:U12__U11",
+    "hue:U4__U14",
+    "hue:U4__U12",
+    "hue:U11__U7",
+    "jeonju:J0__J10",
+    "jeonju:J0__J15",
+    "jeonju:J0__J16",
+    "jeonju:J16__J1",
+    "jeonju:J1__J2",
+    "jeonju:J1__J3",
+    "jeonju:J1__J17",
+    "jeonju:J2__J5",
+    "jeonju:J5__J6",
+    "jeonju:J5__J15",
+    "jeonju:J6__J18",
+    "jeonju:J18__J0",
+    "jeonju:J3__J8",
+    "jeonju:J8__J9",
+    "jeonju:J9__J10",
+    "jeonju:J8__J21",
+    "jeonju:J3__J4",
+    "jeonju:J4__J7",
+    "jeonju:J4__J13",
+    "jeonju:J7__J21",
+    "jeonju:J13__J19",
+    "jeonju:J13__J12",
+    "jeonju:J12__J14",
+    "jeonju:J14__J11",
+    "jeonju:J11__J20",
+    "jeonju:J13__J11",
+    "jeonju:J17__J12",
+    "jeonju:J17__J19",
+    "jeonju:J2__J12",
+    "jeonju:J16__J3",
+    "seoul:S0__S12",
+    "seoul:S0__S14",
+    "seoul:S12__S13",
+    "seoul:S13__S15",
+    "seoul:S15__S4",
+    "seoul:S4__S2",
+    "seoul:S2__S3",
+    "seoul:S2__S21",
+    "seoul:S3__S17",
+    "seoul:S17__S5",
+    "seoul:S5__S8",
+    "seoul:S8__S9",
+    "seoul:S9__S10",
+    "seoul:S10__S22",
+    "seoul:S9__S11",
+    "seoul:S11__S7",
+    "seoul:S7__S18",
+    "seoul:S18__S1",
+    "seoul:S1__S6",
+    "seoul:S6__S16",
+    "seoul:S16__S19",
+    "seoul:S19__S20",
+    "seoul:S13__S1"
+  ],
+  "maps": [
+    {
+      "cityId": "hoi_an",
+      "path": "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png",
+      "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c"
+    },
+    {
+      "cityId": "hue",
+      "path": "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png",
+      "sha256": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c"
+    },
+    {
+      "cityId": "da_lat",
+      "path": "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png",
+      "sha256": "0b2872b62a8b06dc1c08095cdea20fb540385032a64782e59e20acf11c7a444c"
+    },
+    {
+      "cityId": "jeonju",
+      "path": "Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png",
+      "sha256": "f1260ef1b4f718b989d55d907f50c99c341081263f3470bfda2d6fab1d2926c8"
+    },
+    {
+      "cityId": "gyeongju",
+      "path": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png",
+      "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c"
+    },
+    {
+      "cityId": "seoul",
+      "path": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png",
+      "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2"
+    }
+  ],
+  "checks": [
+    {
+      "result": "PASS",
+      "check": "ProjectSettings unchanged outside generated platform-icon slots"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/01_hoi_an_H2_tiem_den_co_mai.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/01_hoi_an_H2_tiem_den_co_mai.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/02_hoi_an_H3_hem_mai_ngoi.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/02_hoi_an_H3_hem_mai_ngoi.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/03_hoi_an_H4_cho_ven_song.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/03_hoi_an_H4_cho_ven_song.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/04_hoi_an_H6_cau_co_anh_den.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/04_hoi_an_H6_cau_co_anh_den.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/05_hoi_an_H7_tram_anh_sang_hoi_an.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/05_hoi_an_H7_tram_anh_sang_hoi_an.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/06_hoi_an_H17_ben_do_pho_co.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/06_hoi_an_H17_ben_do_pho_co.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/07_hue_U4_dau_cau_vao_thanh.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/07_hue_U4_dau_cau_vao_thanh.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/08_hue_U6_cua_ngo_mon_cach_dieu.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/08_hue_U6_cua_ngo_mon_cach_dieu.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/09_da_lat_D0_ben_ho_xuan_huong.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/09_da_lat_D0_ben_ho_xuan_huong.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/10_da_lat_D14_dai_dan_sang_nui.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/10_da_lat_D14_dai_dan_sang_nui.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/11_jeonju_J8_cau_da_tay.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/11_jeonju_J8_cau_da_tay.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/12_jeonju_J11_dai_ngam_mai_ngoi.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/12_jeonju_J11_dai_ngam_mai_ngoi.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/14_gyeongju_G14_kho_ban_khac_di_tich.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/14_gyeongju_G14_kho_ban_khac_di_tich.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/15_gyeongju_G17_dai_long_den_bo_tay.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/15_gyeongju_G17_dai_long_den_bo_tay.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/16_seoul_S2_cong_thanh_xua_ben_song_han.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/16_seoul_S2_cong_thanh_xua_ben_song_han.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/17_seoul_S10_chan_thap_n_seoul.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/17_seoul_S10_chan_thap_n_seoul.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/18_seoul_S18_role_anh_den_hanji.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/18_seoul_S18_role_anh_den_hanji.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Battle_Korea.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Battle_Vietnam.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Map_Korea.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Map_Vietnam.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/AdventureUIArt.asset"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/Content/HoiAnLighting.json"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Content/BattleManager.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Content/EncounterManager.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Content/PuzzleManager.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Content/RelicCollection.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/GameBootstrap.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/GameData.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/Inventory.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/QuestManager.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/SaveSystem.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Maps/CityMap.QuestReaction.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Maps/CityMapPaths.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Maps/CityRouteGeometry.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/GameplayPanels.CheckIns.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets\\_Game\\Audio\\Music\\LBC_Battle_Korea.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets\\_Game\\Audio\\Music\\LBC_Battle_Vietnam.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets\\_Game\\Audio\\Music\\LBC_Map_Korea.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets\\_Game\\Audio\\Music\\LBC_Map_Vietnam.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Item_Pickup.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Item_Pickup.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Puzzle_Success.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Puzzle_Success.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Relic_Place.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Relic_Place.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Back.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Back.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Click.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Click.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Confirm.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Confirm.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Invalid.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Invalid.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/SoftAudioClips.asset"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftAudio.Settings.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Battle_Korea.mp3.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Battle_Vietnam.mp3.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Map_Korea.mp3.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Map_Vietnam.mp3.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftAudio.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftAudio.Music.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/SoftMusicClips.asset"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Maps/CityMap.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/SoftMusicClips.asset.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Editor/FourTrackMusicSetup.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Editor/FourTrackMusicSetup.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftAudio.Music.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftMusicClips.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftMusicClips.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Music.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Music.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/WorldState.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/Content/FinalConnectionPresentation.json"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/Content/FinalConnectionPresentation.json.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Content/NodeEventManager.FinalConnection.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Content/NodeEventManager.FinalConnection.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Content/NodeEventManager.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Editor/Phase5Setup.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Editor/Phase5Setup.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/GameplayPanels.FinalConnection.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/GameplayPanels.FinalConnection.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/GameplayPanels.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase5.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase5.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Phase5 latest base manifest exact"
+    },
+    {
+      "result": "PASS",
+      "check": "All non-city content exact, including quests/NPC/events/boss/relic hooks/check-ins"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical nodes/arrival/gates/discovery/lighting/map configuration exact: da_lat"
+    },
+    {
+      "result": "PASS",
+      "check": "Edge count unchanged: da_lat"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D0__D12"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D0__D12"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D0__D20"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D0__D20"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D0__D5"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D0__D5"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D5__D18"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D5__D18"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D18__D3"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D18__D3"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D3__D2"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D3__D2"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D2__D1"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D2__D1"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D1__D4"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D1__D4"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D1__D20"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D1__D20"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D5__D6"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D5__D6"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D6__D7"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D6__D7"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D7__D8"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D7__D8"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D8__D9"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D8__D9"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D8__D19"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D8__D19"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D5__D11"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D5__D11"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D11__D10"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D11__D10"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D12__D10"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D12__D10"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D10__D15"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D10__D15"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D15__D16"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D15__D16"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D16__D17"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D16__D17"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D20__D13"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D20__D13"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D13__D14"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D13__D14"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D13__D21"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D13__D21"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D4__D14"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D4__D14"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D20__D15"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D20__D15"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: da_lat/D21__D17"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: da_lat/D21__D17"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical nodes/arrival/gates/discovery/lighting/map configuration exact: gyeongju"
+    },
+    {
+      "result": "PASS",
+      "check": "Edge count unchanged: gyeongju"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G0__G21"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G0__G21"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G0__G1"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G0__G1"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G0__G16"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G0__G16"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G1__G11"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G1__G11"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G1__G2"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G1__G2"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G2__G17"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G2__G17"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G17__G5"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G17__G5"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G5__G6"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G5__G6"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G6__G3"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G6__G3"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G3__G4"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G3__G4"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G3__G11"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G3__G11"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G19__G9"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G19__G9"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G9__G15"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G9__G15"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G15__G10"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G15__G10"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G10__G18"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G10__G18"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G18__G14"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G18__G14"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G14__G8"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G14__G8"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G8__G7"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G8__G7"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G7__G11"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G7__G11"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G12__G13"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G12__G13"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G13__G20"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G13__G20"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G8__G13"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G8__G13"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G16__G12"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G16__G12"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G4__G9"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G4__G9"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: gyeongju/G18__G19"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: gyeongju/G18__G19"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical nodes/arrival/gates/discovery/lighting/map configuration exact: hoi_an"
+    },
+    {
+      "result": "PASS",
+      "check": "Edge count unchanged: hoi_an"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H0__H11"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H0__H11"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H0__H1"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H0__H1"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H1__H2"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H1__H2"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H1__H4"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H1__H4"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H2__H9"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H2__H9"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H2__H13"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H2__H13"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H13__H3"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H13__H3"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H13__H14"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H13__H14"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H14__H19"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H14__H19"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H14__H18"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H14__H18"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H18__H5"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H18__H5"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H5__H6"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H5__H6"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H6__H7"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H6__H7"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H6__H15"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H6__H15"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H15__H17"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H15__H17"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H7__H8"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H7__H8"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H7__H20"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H7__H20"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H4__H10"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H4__H10"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H11__H12"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H11__H12"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H12__H16"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H12__H16"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H3__H21"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H3__H21"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hoi_an/H17__H5"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hoi_an/H17__H5"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical nodes/arrival/gates/discovery/lighting/map configuration exact: hue"
+    },
+    {
+      "result": "PASS",
+      "check": "Edge count unchanged: hue"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U0__U1"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U0__U1"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U1__U2"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U1__U2"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U1__U15"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U1__U15"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U1__U16"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U1__U16"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U15__U3"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U15__U3"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U2__U14"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U2__U14"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U14__U13"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U14__U13"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U14__U3"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U14__U3"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U3__U4"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U3__U4"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U4__U5"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U4__U5"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U5__U6"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U5__U6"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U6__U7"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U6__U7"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U6__U11"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U6__U11"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U6__U18"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U6__U18"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U11__U10"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U11__U10"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U10__U9"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U10__U9"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U9__U12"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U9__U12"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U9__U8"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U9__U8"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U8__U7"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U8__U7"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U8__U17"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U8__U17"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U17__U19"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U17__U19"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U18__U8"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U18__U8"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U7__U20"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U7__U20"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U20__U21"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U20__U21"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U12__U11"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U12__U11"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U4__U14"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U4__U14"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U4__U12"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U4__U12"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: hue/U11__U7"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: hue/U11__U7"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical nodes/arrival/gates/discovery/lighting/map configuration exact: jeonju"
+    },
+    {
+      "result": "PASS",
+      "check": "Edge count unchanged: jeonju"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J0__J10"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J0__J10"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J0__J15"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J0__J15"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J0__J16"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J0__J16"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J16__J1"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J16__J1"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J1__J2"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J1__J2"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J1__J3"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J1__J3"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J1__J17"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J1__J17"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J2__J5"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J2__J5"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J5__J6"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J5__J6"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J5__J15"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J5__J15"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J6__J18"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J6__J18"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J18__J0"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J18__J0"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J3__J8"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J3__J8"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J8__J9"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J8__J9"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J9__J10"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J9__J10"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J8__J21"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J8__J21"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J3__J4"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J3__J4"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J4__J7"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J4__J7"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J4__J13"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J4__J13"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J7__J21"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J7__J21"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J13__J19"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J13__J19"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J13__J12"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J13__J12"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J12__J14"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J12__J14"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J14__J11"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J14__J11"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J11__J20"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J11__J20"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J13__J11"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J13__J11"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J17__J12"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J17__J12"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J17__J19"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J17__J19"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J2__J12"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J2__J12"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: jeonju/J16__J3"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: jeonju/J16__J3"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical nodes/arrival/gates/discovery/lighting/map configuration exact: seoul"
+    },
+    {
+      "result": "PASS",
+      "check": "Edge count unchanged: seoul"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S0__S12"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S0__S12"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S0__S14"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S0__S14"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S12__S13"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S12__S13"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S13__S15"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S13__S15"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S15__S4"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S15__S4"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S4__S2"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S4__S2"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S2__S3"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S2__S3"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S2__S21"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S2__S21"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S3__S17"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S3__S17"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S17__S5"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S17__S5"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S5__S8"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S5__S8"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S8__S9"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S8__S9"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S9__S10"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S9__S10"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S10__S22"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S10__S22"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S9__S11"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S9__S11"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S11__S7"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S11__S7"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S7__S18"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S7__S18"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S18__S1"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S18__S1"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S1__S6"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S1__S6"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S6__S16"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S6__S16"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S16__S19"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S16__S19"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S19__S20"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S19__S20"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S13__S1"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S13__S1"
+    },
+    {
+      "result": "PASS",
+      "check": "Graph/conditions/travel/type/id exact: seoul/S6__S14"
+    },
+    {
+      "result": "PASS",
+      "check": "Finite in-bounds waypoints: seoul/S6__S14"
+    },
+    {
+      "result": "PASS",
+      "check": "6 maps / 133 nodes / 155 edges exact"
+    },
+    {
+      "result": "PASS",
+      "check": "29 quests / 22 puzzles / 18 check-ins exact"
+    },
+    {
+      "result": "PASS",
+      "check": "149 existing edge geometries actually changed"
+    },
+    {
+      "result": "PASS",
+      "check": "Frozen EdgeID export anchors match current GameData.Load inputs: hoi_an"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical map PNG byte exact: hoi_an"
+    },
+    {
+      "result": "PASS",
+      "check": "Frozen EdgeID export anchors match current GameData.Load inputs: hue"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical map PNG byte exact: hue"
+    },
+    {
+      "result": "PASS",
+      "check": "Frozen EdgeID export anchors match current GameData.Load inputs: da_lat"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical map PNG byte exact: da_lat"
+    },
+    {
+      "result": "PASS",
+      "check": "Frozen EdgeID export anchors match current GameData.Load inputs: jeonju"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical map PNG byte exact: jeonju"
+    },
+    {
+      "result": "PASS",
+      "check": "Frozen EdgeID export anchors match current GameData.Load inputs: gyeongju"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical map PNG byte exact: gyeongju"
+    },
+    {
+      "result": "PASS",
+      "check": "Frozen EdgeID export anchors match current GameData.Load inputs: seoul"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical map PNG byte exact: seoul"
+    }
+  ],
+  "scope": "Static preservation/finite geometry; NOT a terrain-perfect or runtime assertion"
+}

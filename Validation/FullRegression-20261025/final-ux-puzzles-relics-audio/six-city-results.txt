@@ -1,0 +1,7 @@
+da_lat | arrival=Gặp Người dẫn đường Lan tại Người dẫn đường Lan. | cultural activities=2 | PASS
+gyeongju | arrival=Gặp Hướng dẫn viên Min tại Nhà khảo cổ Min. | cultural activities=2 | PASS
+hoi_an | arrival=Gặp Cô Mai nhận việc tại Tiệm cô Mai. | cultural activities=2 | PASS
+hue | arrival=Gặp Bà Nguyệt tại Nhà thuốc Bà Nguyệt. | cultural activities=2 | PASS
+jeonju | arrival=Gặp Nghệ nhân Hana tại Nghệ nhân Hana. | cultural activities=2 | PASS
+seoul | arrival=Gặp Quản thủ bảo tàng tại Cổng thành xưa. | cultural activities=2 | PASS
+NPC menus audited=27; repeated information options suppressed=18

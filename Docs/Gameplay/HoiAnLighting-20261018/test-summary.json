@@ -1,0 +1,38 @@
+[
+  {
+    "run": "run01",
+    "checks": 226,
+    "result": "ALL CHECKS PASSED",
+    "screenshots": 20
+  },
+  {
+    "run": "restart-A",
+    "checks": 80,
+    "result": "ALL CHECKS PASSED",
+    "screenshots": 3
+  },
+  {
+    "run": "restart-A-picked",
+    "checks": 68,
+    "result": "ALL CHECKS PASSED",
+    "screenshots": 3
+  },
+  {
+    "run": "restart-B",
+    "checks": 68,
+    "result": "ALL CHECKS PASSED",
+    "screenshots": 3
+  },
+  {
+    "run": "restart-B-H7",
+    "checks": 46,
+    "result": "ALL CHECKS PASSED",
+    "screenshots": 3
+  },
+  {
+    "run": "restart-C",
+    "checks": 56,
+    "result": "ALL CHECKS PASSED",
+    "screenshots": 5
+  }
+]

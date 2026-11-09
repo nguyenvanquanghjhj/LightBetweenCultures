@@ -1,0 +1,40 @@
+{
+  "modified": [
+    "Assets/_Game/Resources/Content/GameplayContent.json",
+    "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Docs/Art/NPC_CANONICAL_REGISTRY.json",
+    "Docs/Art/NPC_CANONICAL_REGISTRY.md",
+    "Docs/Art/SIX_RELICS_ART_MANIFEST.md",
+    "Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md",
+    "Docs/Gameplay/SEOUL_FINAL_CONNECTION_DESIGN.md",
+    "Docs/QA/FINAL_ENDING_AND_POST_BOSS_AUDIT.md",
+    "Docs/Story/FULL_STORY_PLAYTEST.md",
+    "Docs/Story/ONE_ENDING_SIX_RELICS_CANONICAL.md"
+  ],
+  "added": [
+    "Assets/_Game/Resources/Content/FinalConnectionPresentation.json",
+    "Assets/_Game/Resources/Content/FinalConnectionPresentation.json.meta",
+    "Assets/_Game/Scripts/Content/NodeEventManager.FinalConnection.cs",
+    "Assets/_Game/Scripts/Content/NodeEventManager.FinalConnection.cs.meta",
+    "Assets/_Game/Scripts/Editor/Phase5Setup.cs",
+    "Assets/_Game/Scripts/Editor/Phase5Setup.cs.meta",
+    "Assets/_Game/Scripts/UI/GameplayPanels.FinalConnection.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.FinalConnection.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase5.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase5.cs.meta",
+    "Docs/Gameplay/PHASE5_IMPLEMENTATION_REPORT.md",
+    "Docs/Prompts/LightBetweenCultures_Phase5_20261018.md",
+    "Docs/QA/PHASE5_ENDING_E2E.md",
+    "Docs/QA/PHASE5_RUNTIME_REVIEW.html",
+    "Tools/phase5_checkpoint.py",
+    "Tools/phase5_report.py",
+    "Tools/phase5_suite.ps1",
+    "Tools/phase5_validation.ps1",
+    "Tools/phase5_verify.py"
+  ],
+  "deleted": [],
+  "note": "Task docs, evidence and before/protected records are additionally listed in the exact checkpoint manifest. Receipt is external to avoid self-referential manifest hash."
+}

@@ -1,0 +1,54 @@
+{
+  "nodes": 133,
+  "nodeStatuses": {
+    "IMPLEMENTED": 70,
+    "PARTIAL": 13,
+    "DATA_ONLY": 45,
+    "NOT_VERIFIED": 5
+  },
+  "quests": 29,
+  "questStatuses": {
+    "IMPLEMENTED": 20,
+    "PARTIAL": 1,
+    "DATA_ONLY": 8
+  },
+  "npcCount": 27,
+  "missingNpcBindings": [
+    "npc_boat",
+    "npc_curator",
+    "npc_engineer",
+    "npc_innkeeper",
+    "npc_inscription",
+    "npc_keeper",
+    "npc_min",
+    "npc_tech"
+  ],
+  "temporaryNpc": [
+    "npc_ba_tu",
+    "npc_elder",
+    "npc_gardener",
+    "npc_hana",
+    "npc_hungry_dog",
+    "npc_huong",
+    "npc_lan",
+    "npc_nguyet",
+    "npc_park",
+    "npc_phuc",
+    "npc_scholar",
+    "npc_soyeon",
+    "npc_tam",
+    "npc_thuy",
+    "npc_yoon"
+  ],
+  "unusedOrUnverifiedPortraits": [
+    "npc_boat",
+    "npc_curator",
+    "npc_engineer",
+    "npc_innkeeper",
+    "npc_inscription",
+    "npc_keeper",
+    "npc_min",
+    "npc_tech"
+  ],
+  "fullStoryRequiredPathExists": false
+}

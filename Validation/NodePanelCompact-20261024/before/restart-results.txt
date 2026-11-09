@@ -1,0 +1,106 @@
+UTC run: 2026-10-23T18:31:42.2707714Z | Unity 6000.6.5f1 | 720x1280
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Native pilot framebuffer 540x960
+PASS: Actual rendered resolution: (540, 960)
+PASS: Panel fits safe area: H7 (540, 960)
+PASS: Title and description remain visible: H7
+PASS: Action/close keeps finger-height target: H7/DialogueCloseX
+PASS: Action/close keeps finger-height target: H7/EventOption_checkin
+PASS: Opening panel is read-only: H7
+PASS: Fresh runtime capture written: NodePanel-before-H7-540x960
+PASS: X closes and restores map without changing progress: H7
+PASS: Panel fits safe area: H20 (540, 960)
+PASS: Title and description remain visible: H20
+PASS: Action/close keeps finger-height target: H20/DialogueCloseX
+PASS: Action/close keeps finger-height target: H20/EventOption_portal
+PASS: Opening panel is read-only: H20
+PASS: Fresh runtime capture written: NodePanel-before-H20-540x960
+PASS: X closes and restores map without changing progress: H20
+PASS: Panel fits safe area: H8 (540, 960)
+PASS: Title and description remain visible: H8
+PASS: Action/close keeps finger-height target: H8/DialogueCloseX
+PASS: Action/close keeps finger-height target: H8/EventOption_portal
+PASS: Opening panel is read-only: H8
+PASS: Fresh runtime capture written: NodePanel-before-H8-540x960
+PASS: X closes and restores map without changing progress: H8
+PASS: Panel fits safe area: H3 (540, 960)
+PASS: Title and description remain visible: H3
+PASS: Action/close keeps finger-height target: H3/DialogueCloseX
+PASS: Action/close keeps finger-height target: H3/EventOption_checkin
+PASS: Action/close keeps finger-height target: H3/EventOption_scene
+PASS: Opening panel is read-only: H3
+PASS: Fresh runtime capture written: NodePanel-before-H3-540x960
+PASS: X closes and restores map without changing progress: H3
+PASS: Real NPC/enemy portrait is retained: H2
+PASS: Panel fits safe area: H2 (540, 960)
+PASS: Title and description remain visible: H2
+PASS: Action/close keeps finger-height target: H2/DialogueCloseX
+PASS: Action/close keeps finger-height target: H2/EventOption_relic_restore
+PASS: Action/close keeps finger-height target: H2/EventOption_checkin
+PASS: Opening panel is read-only: H2
+PASS: Fresh runtime capture written: NodePanel-before-H2-540x960
+PASS: X closes and restores map without changing progress: H2
+PASS: Real NPC/enemy portrait is retained: H5
+PASS: Panel fits safe area: H5 (540, 960)
+PASS: Title and description remain visible: H5
+PASS: Action/close keeps finger-height target: H5/DialogueCloseX
+PASS: Opening panel is read-only: H5
+PASS: X closes and restores map without changing progress: H5
+PASS: Native pilot framebuffer 720x1280
+PASS: Actual rendered resolution: (720, 1280)
+PASS: Panel fits safe area: H7 (720, 1280)
+PASS: Title and description remain visible: H7
+PASS: Action/close keeps finger-height target: H7/DialogueCloseX
+PASS: Action/close keeps finger-height target: H7/EventOption_checkin
+PASS: Opening panel is read-only: H7
+PASS: Fresh runtime capture written: NodePanel-before-H7-720x1280
+PASS: X closes and restores map without changing progress: H7
+PASS: Panel fits safe area: H20 (720, 1280)
+PASS: Title and description remain visible: H20
+PASS: Action/close keeps finger-height target: H20/DialogueCloseX
+PASS: Action/close keeps finger-height target: H20/EventOption_portal
+PASS: Opening panel is read-only: H20
+PASS: Fresh runtime capture written: NodePanel-before-H20-720x1280
+PASS: X closes and restores map without changing progress: H20
+PASS: Panel fits safe area: H8 (720, 1280)
+PASS: Title and description remain visible: H8
+PASS: Action/close keeps finger-height target: H8/DialogueCloseX
+PASS: Action/close keeps finger-height target: H8/EventOption_portal
+PASS: Opening panel is read-only: H8
+PASS: Fresh runtime capture written: NodePanel-before-H8-720x1280
+PASS: X closes and restores map without changing progress: H8
+PASS: Panel fits safe area: H3 (720, 1280)
+PASS: Title and description remain visible: H3
+PASS: Action/close keeps finger-height target: H3/DialogueCloseX
+PASS: Action/close keeps finger-height target: H3/EventOption_checkin
+PASS: Action/close keeps finger-height target: H3/EventOption_scene
+PASS: Opening panel is read-only: H3
+PASS: Fresh runtime capture written: NodePanel-before-H3-720x1280
+PASS: X closes and restores map without changing progress: H3
+PASS: Real NPC/enemy portrait is retained: H2
+PASS: Panel fits safe area: H2 (720, 1280)
+PASS: Title and description remain visible: H2
+PASS: Action/close keeps finger-height target: H2/DialogueCloseX
+PASS: Action/close keeps finger-height target: H2/EventOption_relic_restore
+PASS: Action/close keeps finger-height target: H2/EventOption_checkin
+PASS: Opening panel is read-only: H2
+PASS: Fresh runtime capture written: NodePanel-before-H2-720x1280
+PASS: X closes and restores map without changing progress: H2
+PASS: Real NPC/enemy portrait is retained: H5
+PASS: Panel fits safe area: H5 (720, 1280)
+PASS: Title and description remain visible: H5
+PASS: Action/close keeps finger-height target: H5/DialogueCloseX
+PASS: Opening panel is read-only: H5
+PASS: X closes and restores map without changing progress: H5
+PASS: Portal callback opens travel preview without changing city/save destination
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Exploration callback still opens existing alley with correct node
+ALL CHECKS PASSED

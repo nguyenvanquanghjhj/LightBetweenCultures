@@ -1,0 +1,21 @@
+{
+  "codeAndData": [
+    "Assets/_Game/Scripts/Content/RelicCollection.cs",
+    "Assets/_Game/Scripts/Content/RelicActivity.Trials.cs",
+    "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.CulturalTrials.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.CheckIns.cs",
+    "Assets/_Game/Scripts/UI/RelicSurveySurface.cs",
+    "Assets/_Game/Scripts/UI/InventoryPanel.cs",
+    "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+    "Assets/_Game/Scripts/Maps/CityMap.CulturalRestoration.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase4.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Phase4Integration.cs",
+    "Assets/_Game/Resources/Content/CulturalRelics.json"
+  ],
+  "artModified": [],
+  "note": "Matching new .meta files and current Docs/Tools included in final incremental manifest; no source PNG/meta binding modified."
+}

@@ -1,0 +1,691 @@
+{
+  "type": "DELIVERY_AND_INCREMENTAL_PAYLOAD_LIST",
+  "note": "Includes unchanged original10 PNGs needed because WRV2 base predates them, stable ancestor .meta and selected current-run evidence. New/changed functional source constrained by verification.json. This list excludes its own hash; checkpoint manifest includes it.",
+  "files": [
+    {
+      "path": "Assets/_Game.meta",
+      "sha256": "424c15d7eb47d8bb72b908e2161b32ddfe1979ffca31b2fb809a01287bbca399",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art.meta",
+      "sha256": "8e580ed915699432966bccfc5d6bfe0eb6175e7f3bb4e53cf6e3328986c831d9",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters.meta",
+      "sha256": "e6819c1b8165d21de391ab4986077b8b2fe992a3d28301765aaaf525690d5d00",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC.meta",
+      "sha256": "5eab82abce35110c6f2cbab4a3f59c70315f7f6cd231e04387aa8b73f1364af6",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju.meta",
+      "sha256": "c09785cdba24ef80272182862c0cc0c3b9ef4a37c13f892c8ee25920324a6682",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png",
+      "sha256": "b3586d8870df3e9c3bb573f909243c42b78968a44901da9b056547f45cb0919c",
+      "bytes": 1630500
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png.meta",
+      "sha256": "12258273334371b8c3d71c9a803194d11bd70448625df5fe727a7602bda42f5c",
+      "bytes": 5411
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png",
+      "sha256": "c3e2f275a9dca7ba9ba42f00780a8a463b36ba0a7a80831983fac276ca9f9d18",
+      "bytes": 1393728
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png.meta",
+      "sha256": "26e90d2edd55e8ecdfd0c1cbca58b93afb492d31b6a987fc9d04e09982c40ff6",
+      "bytes": 5376
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul.meta",
+      "sha256": "dcbd645c17650d8824a7a03570b962082c940a87ce8ccc5612f9097065469c3b",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png",
+      "sha256": "cf66f4361ef2e32bc48a431989a9256e4f88f0e4b43a2959dcc4c65f2f666949",
+      "bytes": 1213061
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png.meta",
+      "sha256": "0af5e8418fb05751a9e910cbb8eac5de6c546a142f3372fc5771d5e620c50b52",
+      "bytes": 4723
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png",
+      "sha256": "a9864960705f187f71c2aa758c0170ba0a8bf887070af205e63424326ec849d7",
+      "bytes": 1195503
+    },
+    {
+      "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png.meta",
+      "sha256": "da5d5f28de8b298c4d82e04de5b39845269a9e3ea035119f105f92cd9756d4f2",
+      "bytes": 6637
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets.meta",
+      "sha256": "8ca66a30484e2c02080302eff33502d6ea37986fbcefb20906e79e4228cac800",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts.meta",
+      "sha256": "75144d6e1fdda78908fae6ed562e4e062b15e3d6ce99572bed9b0ec408b5a3af",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png",
+      "sha256": "4a300ed9551394a40758140a7bf60508725f496eac2adf62ca48353f6ccf1a00",
+      "bytes": 1833722
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png.meta",
+      "sha256": "260b24d20ba41594fb58a2d400a39f20be1b64627da54f65ef4ca5badcbfab3a",
+      "bytes": 7074
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+      "sha256": "2b0cf2eaa0bfd0ca4b64ca06251adb42c53e4290b9281a1005babcd475843c26",
+      "bytes": 1627766
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png.meta",
+      "sha256": "35ed60ff925f6ebe58181376e962e249959cc8c4bf8ee96e1c8642dbc85a28dd",
+      "bytes": 7373
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png",
+      "sha256": "8d185c04b98bf723bafc91fe3b24710439c757d6d142a2b8027bca5e0028072d",
+      "bytes": 1205125
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png.meta",
+      "sha256": "4a7caeaee6d0537cfb802233736d39c0b91f32a7e86abde9e2b078282918d370",
+      "bytes": 7071
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png",
+      "sha256": "81c0820415a44a92256dfc758e119b36133c3e0a4ea59b831ad9ac0711d2e010",
+      "bytes": 2063794
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png.meta",
+      "sha256": "14b91901641fcd89e72dbb1ab7082c34ac5a9ec4b926d556a5f0f595032aab85",
+      "bytes": 6838
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+      "sha256": "3adb75d3069fd4f2ba48f43361fffc4f3a353e774c1db285d67d3eb361619934",
+      "bytes": 1561322
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png.meta",
+      "sha256": "3f2d5c88e2ed23bbaa0029e87fe9869829e435086092ee2d2c6802891d9e878e",
+      "bytes": 7302
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+      "sha256": "d7a458c02fdd86a4e2816569088c13a796b67214b229485776086ab8f7ffa04e",
+      "bytes": 1436998
+    },
+    {
+      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png.meta",
+      "sha256": "33ebb6a1d11d66cfbe1c5d4465a418ac0e5a387b8584c3f5c1f85020afde7e37",
+      "bytes": 5444
+    },
+    {
+      "path": "Assets/_Game/Resources.meta",
+      "sha256": "133efecd224810b862a55f097135c27dd90fb9648cac47998914ba6d3f71d31f",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+      "sha256": "8b8b67a0b80f555a92bb4b7b1a033d41ed58f61d7dfddbc38fd104fc9c1254a2",
+      "bytes": 60960
+    },
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset.meta",
+      "sha256": "2bb9e5f4d8feeaefb0679713f23c3b24dabaf70e010e2a2f59a1540646730081",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/_Game/Resources/Content.meta",
+      "sha256": "152b76c983c729ec014c30e6f9bdeede9a55cadbe55fc58bd7a3879c432d42c2",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/AdventurePresentation.json",
+      "sha256": "5551b807c390e3662a8fb1c6f98544da9ca6ee2ea3149705fb956014b09f78b0",
+      "bytes": 29938
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/AdventurePresentation.json.meta",
+      "sha256": "345ddae819f6cba282112d05c270b22bbd88339f6382c3f99d76bbb8c7e7c468",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CulturalRelics.json",
+      "sha256": "2d06ed91e0b63ad1e792e5cd8247ea10a9157fb29a1e89fe0b7557e56b9f3a12",
+      "bytes": 13243
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/CulturalRelics.json.meta",
+      "sha256": "f5995ada052088e177b06b768c052816a68ee4d406786539b3080936419fccc2",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "sha256": "57a9ffa941a88211f17c1f314234502801b38c1799b90e9a8e0fb56a8c52cee0",
+      "bytes": 516415
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json.meta",
+      "sha256": "47992f9a551cd504a685788bfd6b8d58b416bc632507b0777675cb7741e53129",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/_Game/Scripts.meta",
+      "sha256": "1d5f80f92b3d84bc9a162e792900fa11da38ec5b493a634df7841c9dfd83a399",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content.meta",
+      "sha256": "58d240995292114b0da2753fe92931b4f8d9320bd6895c53f2f39eacd7903c80",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "sha256": "406fc342da75f771bfd8a70d52bce6aaaf69b74e87f3c79c5b347ceceba8f0c8",
+      "bytes": 29254
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs.meta",
+      "sha256": "1a497d437623012e3fa2f17fd387197b459f4ea231d65254015330037513913c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicCollection.cs",
+      "sha256": "40fd0fb306b426824eea5305919dc2b6afae3e26c7bd39373d3b8b5d7a088d83",
+      "bytes": 8930
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicCollection.cs.meta",
+      "sha256": "e76a4926ca80675fe17a8b8731fd92f87a8fdae061f72fd7f9cc70b1b30a4c72",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core.meta",
+      "sha256": "a5f84eb48c41bdda2d958af1e3a7cd0d203a8e78ff823038b57e42d2b73f565f",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameBootstrap.cs",
+      "sha256": "a95c332f0fd5c730561546062e545704934782f217f1fa714d52f3d00eaef7cc",
+      "bytes": 4959
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/GameBootstrap.cs.meta",
+      "sha256": "c3ed498fdac6cd9e7ea2acb150254d7b9a681e526dee2d1a56402446909044b4",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor.meta",
+      "sha256": "886f80602112be109e430bc98a71ba18b7fad30f56cd7d0bff1a0fc7547bcc11",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/ArtLibrarySetup.cs",
+      "sha256": "0183edaaf04b8574a3d584870d440b03072114f3ff32f4b6e4071978cd24c2ed",
+      "bytes": 10647
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/ArtLibrarySetup.cs.meta",
+      "sha256": "829acae3ba27b1e43884b9e0f7c3a6667a4b2c946d5409acc528261cc0775f37",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/RelicPilotSetup.cs",
+      "sha256": "c384e8f36699c7bb36e294ff825a2bbdb84773e4a6508be7bdb73fdc7f281927",
+      "bytes": 9563
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/RelicPilotSetup.cs.meta",
+      "sha256": "b56852ee447f3a65849e4e0bad4c0d403945525a9d2466a40369c0856230fe27",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps.meta",
+      "sha256": "32d5c1ff3f1913e8e1ade9a8cc39442ce6e522635a3a198972ae75997f7f5aca",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+      "sha256": "87382f3b3a58bbba8c1a7c3ec5185d3d1eb641b33c1f3836f6fd16e08d2b7958",
+      "bytes": 2844
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs.meta",
+      "sha256": "0ac5298753c855f618aa759765a9960cf561da9ee5b28918752cdf5b36971eaa",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs",
+      "sha256": "903d260a5949fd9c0673387d07c41b54a77597a9cff43e438305fa11165294af",
+      "bytes": 30472
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/CityMap.cs.meta",
+      "sha256": "48b64e9cafea2222c148929e844b210ba048d547a48d9ec58102efc4fe4da260",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI.meta",
+      "sha256": "e544502273a47a5bb74e5dee5cb93733d01c7b697a23946761555d92e03c0510",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+      "sha256": "66970dd3c047e30c2de43ea6fc1deebd06470d8ef5dc32022c088767ec08af93",
+      "bytes": 3589
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureUIArt.cs.meta",
+      "sha256": "ed9c06e4e1a7e34ebcc74ca22efb2282d13c614ceef14d7cde1156bb2a16d889",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+      "sha256": "3329c9306079996acbca708ecc2802ddedd2aa59c0fc1f1cd2df2cb03a763754",
+      "bytes": 14490
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs.meta",
+      "sha256": "72dc15720ffba410f8748434e689f2fdcf180c3bfda3b80da685ea2b49864b25",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "sha256": "4a344c272d775eb89b7116494546eeb55d50fd989b5a7346871a355645a19423",
+      "bytes": 36196
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs.meta",
+      "sha256": "c81049dff8e2760ccf7f83563b0325f95b78da6e0a11d68ab89eaa8508f6e206",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicDragHandle.cs",
+      "sha256": "68e99d045e61d23322c43c519ad1410762ae4cb89d4b232de178c60bf06933e5",
+      "bytes": 1341
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/RelicDragHandle.cs.meta",
+      "sha256": "799048cdc1518f19c5cdb277fa1eb1b283dc995ffda34eba98440a7d012a7423",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation.meta",
+      "sha256": "a1e8f7c81e6c2e46d90c71ff3674d8427fc50254e5a3dae425e8863ff69a1d9b",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Relics.cs",
+      "sha256": "3e2738277a20cf3768c8b263374d942f9cde45a1e30275a9302a18f18e40bd40",
+      "bytes": 16459
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Relics.cs.meta",
+      "sha256": "774681e2b0450f950fcba89c71dcf7fb8a074ab66d3cb65293d017b6e99f53fd",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "sha256": "e8902cf19476131a2c50e120b3f0f375dbf6f811d0d7bf37930829d8cc36bdad",
+      "bytes": 109871
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs.meta",
+      "sha256": "2d94df59312fed0d32126e2d5a3afbb9b9cd32f3460b3a26c4ad8571ba8b14d2",
+      "bytes": 59
+    },
+    {
+      "path": "Docs/Art/ART_ASSET_CATALOG.md",
+      "sha256": "7b83c8203b27f06c87756842213eab6688b209d264fe0cfdbfb44299bb44c969",
+      "bytes": 51610
+    },
+    {
+      "path": "Docs/Art/ART_SOURCE_INDEX.md",
+      "sha256": "a5df601f6c613f3742246d884dd8df6807f52152a0aea91a4a63446899473f24",
+      "bytes": 1190
+    },
+    {
+      "path": "Docs/Art/IdentityPolicy-20261017/VisualReview.html",
+      "sha256": "ef0866c075be2c737fb73a2aab65614e788875efdc388502f94efcd6d6004cb8",
+      "bytes": 7486
+    },
+    {
+      "path": "Docs/Art/NPC_CANONICAL_REGISTRY.json",
+      "sha256": "fdfe6311975b80ffc75d53cc9798e3390d21f9a60909a26c3959cf8a200636b1",
+      "bytes": 51428
+    },
+    {
+      "path": "Docs/Art/NPC_CANONICAL_REGISTRY.md",
+      "sha256": "9e4ff502959f962dad1905bb205501465d173abb8ab8560720779bb4ce9bee19",
+      "bytes": 26615
+    },
+    {
+      "path": "Docs/Art/NPC_FOUR_NEW_ART_INTEGRATION_20261017.md",
+      "sha256": "804559456be2268a2307332d071196e88334b946e81dcd4a3f210c93b3ce1b3d",
+      "bytes": 3143
+    },
+    {
+      "path": "Docs/Art/SIX_RELICS_ART_MANIFEST.md",
+      "sha256": "f269cf5ad3650abeccdba5e9e82947bf1270c5360d761f4570b1b1e5c6ef7041",
+      "bytes": 9155
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.csv",
+      "sha256": "0da912578c9d459306036d9d10c490187e88232ba4abe8a3fccf2a0bec1f3856",
+      "bytes": 64677
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.json",
+      "sha256": "6378023cb4c1f2af1bc967135190684f54e7b1afcf1495adf903a023a34ed020",
+      "bytes": 348476
+    },
+    {
+      "path": "Docs/Art/native-art-bindings.json",
+      "sha256": "8c4494e3a1790856f0ff2155ab08e50c1ba07e5e9ca295ab1e6331cd299d9b16",
+      "bytes": 180476
+    },
+    {
+      "path": "Docs/Gameplay/ARTIFACT_FRAGMENT_ACCESS_MATRIX.md",
+      "sha256": "664f7e333b309136986c49068cb020ce935424ff74b13e1b7a342f955c9e6b67",
+      "bytes": 46636
+    },
+    {
+      "path": "Docs/Gameplay/ARTIFACT_FRAGMENT_SOURCE_MATRIX.md",
+      "sha256": "9e842b19b43709aca627de78637cfe0a1eaeb414c636f70036098ee0a89b3575",
+      "bytes": 3911
+    },
+    {
+      "path": "Docs/Gameplay/ARTIFACT_UNLOCK_DECISIONS.md",
+      "sha256": "2298591d5b0d58e3175c2d7d733106ff5acf125e569b18cf38b5857975b7fba8",
+      "bytes": 2409
+    },
+    {
+      "path": "Docs/Gameplay/CULTURAL_ARTIFACTS_HOIAN_PILOT_REPORT.md",
+      "sha256": "019296c95b9a27263cd194f4000e5cdf6ff2377e56e8ee988b9718dc9ee0379a",
+      "bytes": 8809
+    },
+    {
+      "path": "Docs/Gameplay/CULTURAL_ARTIFACTS_INTEGRATION_REPORT.md",
+      "sha256": "8e9abea011d3c5e75f8aeafed116c4a01f8c21e434442c6dc213c1f8a561ba17",
+      "bytes": 4667
+    },
+    {
+      "path": "Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md",
+      "sha256": "7bd5958e335d674437d3899cef79c5b5b6a7edc600a5c8ea3f930272d0b41676",
+      "bytes": 3327
+    },
+    {
+      "path": "Docs/Gameplay/RelicPilot-20261018/RuntimeReview.html",
+      "sha256": "27db3732aba0357c9827acdfe3396d670319756ef8f526b5f2c05da9337bd15e",
+      "bytes": 3732
+    },
+    {
+      "path": "Docs/Gameplay/RelicPilot-20261018/approved-fragments.json",
+      "sha256": "f43b62c9b56015bfa4dd1b767a902909d7c25ff83eba9ba0c7da0af53a92d1cc",
+      "bytes": 66497
+    },
+    {
+      "path": "Docs/Gameplay/RelicPilot-20261018/checkpoint-paths.json",
+      "sha256": "a0b46027ff30b6088e6e5d92b7d8f1413bc5c3276db7dbcbe075c7ef1a754846",
+      "bytes": 8486
+    },
+    {
+      "path": "Docs/Gameplay/RelicPilot-20261018/config-source.json",
+      "sha256": "50587ce0919c3d608c67508e4cf877b17a1f4d55c0a1c649f2fb43526f01963d",
+      "bytes": 197
+    },
+    {
+      "path": "Docs/Gameplay/RelicPilot-20261018/native-art.json",
+      "sha256": "5bec6c788b47f8bfd78a7534269a0b3786d451a5b0dc561431f92869ee54ce31",
+      "bytes": 18749
+    },
+    {
+      "path": "Docs/Gameplay/RelicPilot-20261018/qa-partial.json",
+      "sha256": "c9c24dbf847b6c7f7e53d7774a7f57e6400c2c207ea2e009a1020c479732925e",
+      "bytes": 544
+    },
+    {
+      "path": "Docs/Gameplay/RelicPilot-20261018/qa-results.json",
+      "sha256": "0b71b19e71188bf6aafa986a821328d468c2b43c3295074f7da955f186009903",
+      "bytes": 620
+    },
+    {
+      "path": "Docs/Gameplay/RelicPilot-20261018/verification.json",
+      "sha256": "a2de2e9627ca4e0c8eafd0e26d9b34802f2566c2e36d604113653c2be6979596",
+      "bytes": 7973
+    },
+    {
+      "path": "Docs/Gameplay/SIX_RELICS_IMPLEMENTATION_REPORT.md",
+      "sha256": "536ab6f551eaacdee33e70b31173567c48614403624383651ce16bdcb459e2e1",
+      "bytes": 1763
+    },
+    {
+      "path": "Docs/QA/WORLD_REACTIONS_AND_LUMI_POLISH.md",
+      "sha256": "71c024bed2b98d76586e448690c7ba064f2d6332b9384f119f6c71b222445dbe",
+      "bytes": 19445
+    },
+    {
+      "path": "Docs/Story/FULL_STORY_PLAYTEST.md",
+      "sha256": "4d85d80cde15b8d3ab1477c7dbb61243b6a93d9be57221ba14e0d3edf10b7ce6",
+      "bytes": 57054
+    },
+    {
+      "path": "Docs/Story/HOI_AN_LIGHT_RESTORATION_CONTINUITY.md",
+      "sha256": "10599081b02020ebcd9ab8613f05236436a7d4b6007eea7eb083412f042f757f",
+      "bytes": 8361
+    },
+    {
+      "path": "Logs/relic-pilot-build04.log",
+      "sha256": "512a4c7ee91e332ce4c5ba8013dee0c16f6bcf34183f127d8df0df1d553f0a40",
+      "bytes": 1173331
+    },
+    {
+      "path": "Logs/relic-pilot-import02.log",
+      "sha256": "e97dec74a3e980475f988f06e8c1f78f6713749f84e5183ec8b0e44b992af52e",
+      "bytes": 129089
+    },
+    {
+      "path": "Tools/art_asset_catalog.py",
+      "sha256": "e73dd88346be050850837694d5bcaaa93ee15fecb90bf1e3632e559c3200d135",
+      "bytes": 29349
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/05-H3-exploration.png",
+      "sha256": "31bdcd1ca14189952ed29bde5d1aa8271623cf1516d222379d3c9b80a69d337d",
+      "bytes": 858031
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/06-H3-part-picked-up.png",
+      "sha256": "8bfad1ef910cf089f2b564bceab55d6b4f04109fbf7ea1ad8dbcf0229ee2eb5f",
+      "bytes": 866577
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-H10-hook-collected.png",
+      "sha256": "4cce0377cb9231db4891470d4ad21de2a85734c7b49dc887266ef8f21ec55980",
+      "bytes": 605705
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-H6-postcard-aligned.png",
+      "sha256": "cf24b720cfeed88e7794cbd5f48678445e0423f92e2c89d17c9cd895daa74fb8",
+      "bytes": 810223
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-after-full-city-same-view.png",
+      "sha256": "0c74d0d39d8ffa8aad4a83147f25088e55e5a13ac07ccad93f4324f5128d0159",
+      "bytes": 901002
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-beam-valid-restoration.png",
+      "sha256": "def0f004c02b235a5b0eb53c8937fdfa6809bc9682799b2cfa5f2f0409f7c200",
+      "bytes": 496388
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-before-full-city-H7-done.png",
+      "sha256": "7f76330d3b60d3b771f1fd1966f4688ee696d38d779d770bbceadcdacd8eacba",
+      "bytes": 905482
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-collection-six-icons.png",
+      "sha256": "3c1980fafc2538c43ec8088bde0b96fe3c180a004a8384cbae5897ff78a563ff",
+      "bytes": 657102
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-four-pieces-assembly.png",
+      "sha256": "6f80e859de128570c528bf8bacad764953edf4f97f36816cc92df6f264b2a47b",
+      "bytes": 516381
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/Relic-photo-album-revisit.png",
+      "sha256": "408bb74e0504a0aa9a5dcb4d5f1301b27e1a652eaaa9a5ded288d836bf9868ea",
+      "bytes": 758062
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/capture-manifest.txt",
+      "sha256": "01a50531762e281c9f32b5dc587ca291cb4e4dbe7ccdd76ab95d9061478bdd46",
+      "bytes": 1462
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/gameplay-save.json",
+      "sha256": "20220be8abf3a4b7d7b456916af987252850806b0d78a9819715903cea3a7be7",
+      "bytes": 3438
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/player.log",
+      "sha256": "96ea5c0173d540fdf758646cb7e0396dfcaf2ec94d9c30b1b502a5184690cf2b",
+      "bytes": 351261
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Fresh04/smoke-results.txt",
+      "sha256": "d6e2643c63f9f46cc4762bffb5e1a96f233e365c7d61322c5ea26baa8fea7f27",
+      "bytes": 8935
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/NPC-G14-npc_inscription.png",
+      "sha256": "233a4fd3a58170014680518a3700bc0e6fb64c8c130cdce213433de4cf1eeb6d",
+      "bytes": 1016702
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/NPC-G9-npc_keeper.png",
+      "sha256": "241b055dba02726104c8ebe1db7e2207802f7c7c4d4de66f8b4a34effbb6f003",
+      "bytes": 1017014
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/NPC-S11-npc_engineer.png",
+      "sha256": "f607c2571afbea93e4a2fc6b7d3d5bbf8067cc250e29a486b8ac4b1b05862432",
+      "bytes": 1000972
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/NPC-S2-npc_curator.png",
+      "sha256": "6392f46c60896227ded2126e968a584a396a7e1e2e8f0214cc03fef80ebaaf8a",
+      "bytes": 1004685
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/X-WorldMap-select-gyeongju.png",
+      "sha256": "1e7e86f0cd3d77c8f52e29bac35527fb935db4f33243bf7cc307f3f442f1db43",
+      "bytes": 830097
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/X-WorldMap-select-seoul.png",
+      "sha256": "af6bb6b2e156b504c5a8f72dc842faeb1454f7a19adcab519c99f38b93ffad86",
+      "bytes": 830633
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/capture-manifest.txt",
+      "sha256": "af9c1311db6f3bcdc65629459583eac1d133762c0ae29317c8b0fe9b628710fe",
+      "bytes": 853
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/gameplay-save.json",
+      "sha256": "afaf9db2b784560e3d8889625ecdf0270255bcd2587d2b382c881e081279a717",
+      "bytes": 18185
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/player.log",
+      "sha256": "f68d14f7a00710389f52d8fd8c978cc086e6e4b8f12e722600376fa1c81b8076",
+      "bytes": 182677
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/NPC01/smoke-results.txt",
+      "sha256": "971b2e984122cd38f8a08c853a0963f691163b8b2769d5c61eec4a7513bd8c35",
+      "bytes": 3706
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Restart01/Relic-restart-landscape.png",
+      "sha256": "77c3979e8683ee5614f403422b3c3048c05879f4980a1636381685e4c5c6c51c",
+      "bytes": 1733565
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Restart01/gameplay-save.json",
+      "sha256": "6f9d21f014575cf7760939e60be82fdcb9210d6aa8c2ec22cddf5436f40d9768",
+      "bytes": 3438
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Restart01/player.log",
+      "sha256": "11b7c327a2beffd137e57f2ff8df0b8d10e9a5f1468c16e3adde0afcddce62e7",
+      "bytes": 97783
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Restart01/restart-captures.txt",
+      "sha256": "533989485b1b3afa1af88ecf839afd76cfb0587f480e544d0da60e7a1058de3f",
+      "bytes": 145
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Restart01/restart-results.txt",
+      "sha256": "66cf8195823999c55c55f5cc9ddbb8f8060cb72a8e3a5e6a4e700e1f1ca3d3c3",
+      "bytes": 700
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Retro01/Relic-H10-hook-collected.png",
+      "sha256": "c3630cfc08afa5519d8ab91add90ce7130e73f6c0636326724b0ac1e7ab9c829",
+      "bytes": 606262
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Retro01/Relic-H6-postcard-aligned.png",
+      "sha256": "9f18b6179d947b16b346594e589dbbfecf7f2c2a8cd03540fb9bb526e0b45ad4",
+      "bytes": 824978
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Retro01/capture-manifest.txt",
+      "sha256": "2cba1c47f94bd8cacbc60b92752ee6e213603539c7d64014fe3bf1d23383c6f2",
+      "bytes": 291
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Retro01/gameplay-save.json",
+      "sha256": "838ce663f002c486cf5dd0d7f94ee47be68c8597f0831e58497142396c74d0cf",
+      "bytes": 18879
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Retro01/player.log",
+      "sha256": "e285705be79a19b5e0f769d92c346e28e8923c1117d3c215fcce07de2e9a04cf",
+      "bytes": 179771
+    },
+    {
+      "path": "Validation/RelicPilot-20261018/Retro01/smoke-results.txt",
+      "sha256": "158928ef3a50fecffba5d1e21494af6baea0e9fcf438e911075db84fccbc4b83",
+      "bytes": 4222
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+UTC run: 2026-10-24T07:06:07.6780448Z | Unity 6000.6.5f1 | 540x960
+PASS: PC original New Game run remains in the provenance evidence
+PASS: Six cities/133 nodes/29 quests/22 story puzzles unchanged
+PASS: Single collection retains6 canonical relic IDs and24 fragment IDs
+PASS: PC resumes the legitimately earned opening checkpoint, not a fixture
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: PC H7 earned quest reward opens the normal Hue/Jeonju routes
+PASS: PC resumes the already committed real food purchase without a second charge
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H12 is discovered
+PASS: Lumi reaches H12 through the real map input
+PASS: PC bought food is consumed as the designed crab bait, outside combat
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H17 is discovered
+PASS: Lumi reaches H17 through the real map input
+System.Exception: FAIL: Additional NPC options have an accessible page control
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<FoodChoice>d__333.MoveNext () [0x00036] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:436 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__307.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

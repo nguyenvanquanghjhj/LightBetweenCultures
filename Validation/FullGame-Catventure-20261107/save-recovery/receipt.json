@@ -1,0 +1,14 @@
+{
+  "name": "save-recovery",
+  "status": "PASS",
+  "exit": 0,
+  "seconds": 12.92,
+  "assertions": 118,
+  "arguments": [
+    "--release-candidate-qa"
+  ],
+  "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+  "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-Catventure-20261107\\save-recovery\\smoke-results.txt",
+  "assemblySHA256": "6349b90ffa565f933e7e670d44d65d5f146251901ded1fa8506f5e4d44a12dc0",
+  "failureTail": null
+}

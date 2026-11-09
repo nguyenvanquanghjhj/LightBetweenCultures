@@ -1,0 +1,155 @@
+[
+  {
+    "cityId": "hoi_an",
+    "nodeId": "H2",
+    "origins": [
+      "AdventurePresentation rule/default",
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "hoi_an.h2",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "hoi_an",
+    "nodeId": "H3",
+    "origins": [
+      "AdventurePresentation rule/default",
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "hoi_an.h3",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "hoi_an",
+    "nodeId": "H4",
+    "origins": [
+      "AdventurePresentation rule/default",
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "hoi_an.h4",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "hoi_an",
+    "nodeId": "H6",
+    "origins": [
+      "AdventurePresentation rule/default",
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "hoi_an.h6",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "hoi_an",
+    "nodeId": "H7",
+    "origins": [
+      "AdventurePresentation rule/default",
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "hoi_an.h7",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "hoi_an",
+    "nodeId": "H17",
+    "origins": [
+      "AdventurePresentation rule/default",
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "hoi_an.h17",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "hoi_an",
+    "nodeId": "H18",
+    "origins": [
+      "AdventurePresentation rule/default"
+    ],
+    "checkInId": null,
+    "status": "MARKER_ONLY",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "hue",
+    "nodeId": "U4",
+    "origins": [
+      "AdventurePresentation rule/default",
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "hue_u4_checkin",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "hue",
+    "nodeId": "U6",
+    "origins": [
+      "AdventurePresentation rule/default",
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "hue_u6_checkin",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "jeonju",
+    "nodeId": "J8",
+    "origins": [
+      "AdventurePresentation rule/default",
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "jeonju_j8_checkin",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "jeonju",
+    "nodeId": "J11",
+    "origins": [
+      "AdventurePresentation rule/default",
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "jeonju_j11_checkin",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "da_lat",
+    "nodeId": "D0",
+    "origins": [
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "dalat_checkin_0",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  },
+  {
+    "cityId": "da_lat",
+    "nodeId": "D14",
+    "origins": [
+      "checkIn definition/button (not necessarily floating Camera marker)"
+    ],
+    "checkInId": "dalat_checkin_14",
+    "status": "CHECKIN_EXISTING_RUNTIME",
+    "photoGesture": "NOT_IMPLEMENTED",
+    "actualScreenshotCapture": false
+  }
+]

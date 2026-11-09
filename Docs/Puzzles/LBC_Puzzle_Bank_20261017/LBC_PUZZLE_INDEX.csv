@@ -1,0 +1,151 @@
+﻿id,category,difficulty,question,correctAnswer,hint,explanation
+LBCQ_LOGIC_001,logic,1,"Ba chiếc rương ghi A, B, C. Chỉ rương B có chìa khóa. Bạn nên chọn rương nào?",B,Đề đã cho biết vị trí chìa khóa.,Đề xác định chìa khóa ở rương B.
+LBCQ_LOGIC_002,logic,1,Mọi đèn xanh đều sáng. Chiếc đèn này màu xanh. Kết luận nào chắc chắn đúng?,Đèn này sáng,Áp dụng trực tiếp mệnh đề đã cho.,"Từ “mọi đèn xanh đều sáng” và đèn này xanh, suy ra nó sáng."
+LBCQ_LOGIC_003,logic,2,"Lumi đứng trước hai cửa. Cửa A dẫn tới B, cửa B dẫn tới C. Muốn tới C từ A theo đường đã nêu, cần qua đâu?",Cửa B,Đi theo thứ tự hai cạnh được cho.,Đường được mô tả là A → B → C.
+LBCQ_LOGIC_004,logic,2,"An nói: “Bình cầm đèn”. Bình nói: “Chi cầm đèn”. Chi nói: “Tôi không cầm đèn”. Biết đúng một người nói thật và chỉ một người cầm đèn, ai cầm đèn?",Không xác định,Thử tất cả ba người; hai trường hợp có thể cho cùng số câu đúng.,"Nếu An cầm đèn: An sai, Bình sai, Chi đúng → một câu đúng. Nếu Chi cầm đèn: An sai, Bình đúng, Chi sai → một câu đúng. Có hai khả năng nên không xác định duy nhất."
+LBCQ_LOGIC_005,logic,2,"Có 3 đòn bẩy, mỗi đòn mở đúng một cánh cửa khác nhau. Bạn đã biết đòn số 2 mở cửa giữa. Đòn nào chắc chắn mở cửa giữa?",Đòn 2,Đừng suy diễn ngoài dữ kiện.,Thông tin cho biết trực tiếp đòn số 2 mở cửa giữa.
+LBCQ_LOGIC_006,logic,1,Lumi đi về phía đông rồi quay 180°. Lumi đang nhìn về hướng nào?,Tây,Quay 180° nghĩa là hướng ngược lại.,Hướng ngược với đông là tây.
+LBCQ_LOGIC_007,logic,2,"Một chiếc hộp có ba viên bi đỏ và không có bi màu khác. Lấy ngẫu nhiên một viên, màu chắc chắn là gì?",Đỏ,Tất cả bi đều cùng màu.,Chỉ có bi đỏ nên chọn viên nào cũng đỏ.
+LBCQ_LOGIC_008,logic,3,"Ba phong bì A, B, C, chỉ một phong bì có chìa khóa. Ba dòng ghi: (1) “Không ở A”; (2) “Ở A”; (3) “Không ở B”. Biết đúng một dòng là thật. Chìa khóa ở đâu?",B,"Thử đặt chìa ở A, B, C và đếm số dòng đúng.","Nếu ở A: (2),(3) đúng (2 dòng); ở B: chỉ (1) đúng (1 dòng); ở C: (1),(3) đúng (2 dòng). Chìa nằm ở B."
+LBCQ_LOGIC_009,logic,2,Tấm biển ghi: “Nếu có mưa thì đèn ở bến bật.” Đèn bến đang tắt. Có thể kết luận điều gì?,Chắc chắn không mưa,Dùng phản chứng của mệnh đề nếu A thì B.,"Nếu mưa bắt buộc đèn bật; đèn tắt nên không mưa, với giả thiết biển luôn đúng."
+LBCQ_LOGIC_010,logic,3,Một ngọn đèn chỉ sáng nếu có pin. Hôm nay đèn sáng. Kết luận nào chắc chắn đúng?,Có pin,“Chỉ nếu” biểu thị điều kiện cần.,Đèn sáng đòi hỏi phải có pin.
+LBCQ_PATTERNS_001,patterns,1,"Dãy số: 2, 4, 6, 8, ... Số tiếp theo là?",10,Mỗi bước cộng cùng một số.,"Mỗi số tăng 2, nên tiếp theo là 10."
+LBCQ_PATTERNS_002,patterns,1,"Dãy: 1, 2, 4, 8, ... tiếp theo là?",16,Mỗi số gấp đôi số trước.,8 × 2 = 16.
+LBCQ_PATTERNS_003,patterns,2,"Dãy: 1, 4, 9, 16, ... tiếp theo là?",25,Đó là bình phương các số tự nhiên.,"1², 2², 3², 4², rồi 5² = 25."
+LBCQ_PATTERNS_004,patterns,2,"Dãy: 3, 6, 12, 24, ... số tiếp theo là?",48,Nhân 2.,24 × 2 = 48.
+LBCQ_PATTERNS_005,patterns,2,"Dãy: 2, 3, 5, 8, 12, ... tiếp theo là?",17,"Hiệu tăng dần 1, 2, 3, 4.","Hiệu kế tiếp là 5, nên 12 + 5 = 17."
+LBCQ_PATTERNS_006,patterns,3,"Dãy: 1, 1, 2, 3, 5, 8, ... tiếp theo là?",13,Số sau bằng tổng hai số trước.,5 + 8 = 13 (Fibonacci).
+LBCQ_PATTERNS_007,patterns,2,Chuỗi màu lặp: Đỏ – Xanh – Vàng – Đỏ – Xanh – ... Màu kế tiếp?,Vàng,Chu kỳ dài ba màu.,"Sau đỏ, xanh là vàng."
+LBCQ_PATTERNS_008,patterns,3,"Dãy: 1, 3, 6, 10, 15, ... tiếp theo là?",21,"Cộng 2, 3, 4, 5, ...","Cộng tiếp 6, thành 21."
+LBCQ_PATTERNS_009,patterns,3,"Dãy 2, 6, 12, 20, 30, ... Số tiếp theo là?",42,"Hiệu lần lượt 4, 6, 8, 10.","Hiệu tiếp theo là 12, nên 30+12=42."
+LBCQ_PATTERNS_010,patterns,1,Hoa – Trăng – Đèn – Hoa – Trăng – ... Biểu tượng tiếp theo là?,Đèn,Chu kỳ ba biểu tượng.,"Sau Hoa, Trăng là Đèn."
+LBCQ_MATH_001,math,1,"Lumi có 7 chiếc đèn lồng, tặng 3 chiếc. Còn bao nhiêu?",4,Lấy 7 trừ 3.,7 − 3 = 4.
+LBCQ_MATH_002,math,1,Một vé đò giá 5 xu. Hai vé giống nhau hết bao nhiêu xu?,10,Nhân số vé với giá mỗi vé.,2 × 5 = 10 xu.
+LBCQ_MATH_003,math,2,"Một đoạn đường dài 120 m, Lumi đi được 3/4. Còn bao nhiêu mét?",30,Phần còn lại là 1/4.,120 × 1/4 = 30 m.
+LBCQ_MATH_004,math,1,"Ba túi, mỗi túi có 4 quả dâu. Tổng cộng bao nhiêu quả?",12,Nhân 3 với 4.,3 × 4 = 12.
+LBCQ_MATH_005,math,2,Có 18 viên đá xếp thành 3 hàng đều nhau. Mỗi hàng bao nhiêu viên?,6,Lấy tổng chia số hàng.,18 ÷ 3 = 6.
+LBCQ_MATH_006,math,2,Chiếc đồng hồ chỉ 14:30. Sau 90 phút là mấy giờ?,16:00,90 phút bằng một tiếng rưỡi.,14:30 + 1:30 = 16:00.
+LBCQ_MATH_007,math,3,Một cánh cổng cần 24 điểm năng lượng. Đã có 5/8 tổng số điểm. Còn thiếu bao nhiêu?,9,Tính 3/8 của 24.,"Đã có 15 điểm, còn thiếu 9."
+LBCQ_MATH_008,math,2,Một hình vuông cạnh 6 m có chu vi bằng bao nhiêu?,24 m,Chu vi hình vuông bằng 4 lần cạnh.,4 × 6 = 24 m.
+LBCQ_MATH_009,math,3,"Thuyền đi 12 km trong 3 giờ, sau đó quay về 12 km trong 2 giờ. Tốc độ trung bình của cả chuyến là?","4,8 km/h","Tính tổng quãng đường chia tổng thời gian, không lấy trung bình cộng hai tốc độ.","Tổng 24 km trong 5 giờ, tốc độ trung bình 24/5=4,8 km/h."
+LBCQ_MATH_010,math,2,"Bạn có 50 xu, mua món 17 xu và món 23 xu. Còn lại bao nhiêu?",10,Cộng tiền mua trước.,50 − (17+23) = 10 xu.
+LBCQ_NATURE_001,nature,1,Cây xanh thường hấp thụ khí nào trong quá trình quang hợp?,Cacbon đioxit,Đó là khí có công thức CO₂.,"Trong quang hợp, cây hấp thụ CO₂ và thường giải phóng O₂."
+LBCQ_NATURE_002,nature,1,Bộ phận nào của cây thường hút nước từ đất?,Rễ,Bộ phận nằm dưới đất.,Rễ hấp thụ nước và chất khoáng từ đất.
+LBCQ_NATURE_003,nature,2,Loài nào sau đây là động vật có vú?,Dơi,Nó biết bay nhưng nuôi con bằng sữa.,Dơi là động vật có vú.
+LBCQ_NATURE_004,nature,1,"Khi trời mưa, hiện tượng nào thường xảy ra?",Đất bị ướt,Chọn hệ quả trực tiếp có thể quan sát.,Mưa làm ướt mặt đất khi không có mái che.
+LBCQ_NATURE_005,nature,2,Côn trùng nào trải qua các giai đoạn sâu non rồi nhộng rồi thành con trưởng thành?,Bướm,Hãy nghĩ tới chiếc kén/nhộng.,"Bướm có biến thái hoàn toàn gồm trứng, sâu non, nhộng, trưởng thành."
+LBCQ_NATURE_006,nature,2,Bộ phận nào giúp cá thường lấy oxy hòa tan trong nước?,Mang,Cá thở bằng bộ phận hai bên đầu.,Mang trao đổi khí với nước.
+LBCQ_NATURE_007,nature,2,"Ban ngày, bóng của một cây thay đổi chủ yếu vì điều gì?",Mặt Trời đổi vị trí biểu kiến,Hướng chiếu ánh sáng thay đổi.,"Do Trái Đất tự quay, vị trí biểu kiến của Mặt Trời đổi, kéo theo bóng đổi."
+LBCQ_NATURE_008,nature,1,Mùa nào thường gắn với hoa anh đào nở ở Hàn Quốc?,Mùa xuân,Đó là thời kỳ sau mùa đông.,Hoa anh đào thường nở vào mùa xuân.
+LBCQ_NATURE_009,nature,3,Lá thông dạng kim và lớp sáp ở bề mặt có thể giúp cây thích nghi bằng cách nào?,Giảm thất thoát nước,Hình dạng lá có liên quan đến diện tích tiếp xúc và thoát hơi nước.,Lá nhỏ dạng kim và lớp sáp thường giúp hạn chế mất nước.
+LBCQ_NATURE_010,nature,2,"Trong vòng tuần hoàn nước, hơi nước nguội đi thường tạo thành gì?",Mây do ngưng tụ,Hơi nước chuyển thành giọt rất nhỏ.,"Hơi nước ngưng tụ thành giọt nước nhỏ, góp phần tạo mây."
+LBCQ_SCIENCE_001,science,1,"Ánh sáng truyền nhanh hơn âm thanh trong không khí. Khi có sấm chớp, ta thường thấy gì trước?",Thấy tia chớp,Bạn thường thấy lóe sáng rồi mới nghe tiếng.,Ánh sáng đến mắt nhanh hơn âm thanh đến tai.
+LBCQ_SCIENCE_002,science,2,"Khi không có lực cản đáng kể, vật nào rơi nhanh hơn trong chân không: hòn đá hay chiếc lông?",Cùng gia tốc rơi,Không khí mới làm chiếc lông rơi chậm.,"Trong chân không, chúng có cùng gia tốc trọng trường ở cùng vị trí."
+LBCQ_SCIENCE_003,science,1,Nước tinh khiết ở áp suất khí quyển tiêu chuẩn thường sôi ở khoảng bao nhiêu °C?,100,Con số quen thuộc trong nhiệt kế.,"Ở 1 atm, nước tinh khiết sôi khoảng 100°C."
+LBCQ_SCIENCE_004,science,2,"Trong mạch điện đơn giản, công tắc mở thường khiến dòng điện qua nhánh đó ra sao?",Bị ngắt,Mạch bị hở.,"Công tắc mở làm hở mạch, ngắt dòng qua nhánh."
+LBCQ_SCIENCE_005,science,2,Tại sao chiếc thìa kim loại đặt trong nước nóng cũng nóng lên?,Dẫn nhiệt,Nhiệt truyền qua vật liệu.,"Kim loại dẫn nhiệt, đưa năng lượng từ đầu nóng tới chỗ khác."
+LBCQ_SCIENCE_006,science,1,Đơn vị nào đo cường độ dòng điện?,Ampe,Ký hiệu thường là A.,Ampe (A) là đơn vị cường độ dòng điện.
+LBCQ_SCIENCE_007,science,2,"Nếu cùng quãng đường mà đi mất ít thời gian hơn, tốc độ trung bình sẽ thế nào?",Lớn hơn,Tốc độ = quãng đường / thời gian.,"Với cùng quãng đường, thời gian giảm thì tốc độ tăng."
+LBCQ_SCIENCE_008,science,2,Vật nào thường bị nam châm hút mạnh?,Sắt,Đây là vật liệu sắt từ quen thuộc.,Sắt bị nam châm hút mạnh trong điều kiện thông thường.
+LBCQ_SCIENCE_009,science,3,"Trong bóng tối hoàn toàn, một vật không tự phát sáng có thể được nhìn thấy bằng mắt thường không?","Không, nếu không có ánh sáng tới mắt",Mắt cần nhận ánh sáng.,Không có ánh sáng phản xạ/phát ra tới mắt thì ta không thấy vật.
+LBCQ_SCIENCE_010,science,2,Điều gì khiến cầu vồng thường xuất hiện khi có nắng và giọt nước?,"Khúc xạ, phản xạ và tán sắc ánh sáng",Ánh sáng trắng tách thành nhiều màu.,"Giọt nước khúc xạ, phản xạ trong và tán sắc ánh sáng."
+LBCQ_VIETNAM_001,vietnam,1,Hội An nổi tiếng với loại đồ trang trí phát sáng nào trên phố cổ?,Đèn lồng,Những chiếc đèn đủ màu treo dọc phố.,Đèn lồng là biểu tượng quen thuộc của Hội An.
+LBCQ_VIETNAM_002,vietnam,1,Sông nào gắn liền với thành phố Huế?,Sông Hương,Tên sông gợi hương thơm.,Sông Hương chảy qua Huế.
+LBCQ_VIETNAM_003,vietnam,1,Thành phố nào nổi tiếng với khí hậu mát và rừng thông trên cao nguyên Lâm Viên?,Đà Lạt,Nơi có hồ Xuân Hương.,Đà Lạt nổi tiếng với rừng thông và khí hậu cao nguyên.
+LBCQ_VIETNAM_004,vietnam,2,Chùa Cầu là công trình biểu tượng của nơi nào?,Hội An,Gắn với phố cổ ven sông Hoài.,Chùa Cầu là di tích biểu tượng của Hội An.
+LBCQ_VIETNAM_005,vietnam,2,Ngọ Môn là cổng chính phía nam của công trình nào?,Hoàng thành Huế,Địa danh nằm trong quần thể di tích cố đô.,Ngọ Môn là cổng chính phía nam của Hoàng thành Huế.
+LBCQ_VIETNAM_006,vietnam,1,Món ăn nào gắn nhiều với vùng đất Huế?,Bún bò Huế,Tên món đã có tên thành phố.,Bún bò Huế là món ăn đặc trưng của Huế.
+LBCQ_VIETNAM_007,vietnam,2,Nghề làm loại đèn nào là nét thủ công được nhiều du khách trải nghiệm ở Hội An?,Đèn lồng,Gắn với phố cổ ban đêm.,Hội An có nghề làm đèn lồng thủ công.
+LBCQ_VIETNAM_008,vietnam,2,Lễ hội thả hoa đăng thường gắn với hoạt động nào?,Thả đèn nhỏ trên mặt nước,Vật nhỏ phát sáng được đặt trôi theo nước.,Hoa đăng là đèn nhỏ được thả trên mặt nước trong các dịp lễ.
+LBCQ_VIETNAM_009,vietnam,2,Loại hình nghệ thuật cung đình nào gắn với triều Nguyễn ở Huế?,Nhã nhạc cung đình,Đó là loại nhạc cung đình.,Nhã nhạc cung đình Huế là di sản âm nhạc truyền thống.
+LBCQ_VIETNAM_010,vietnam,1,Một chiếc nón lá thường được dùng để làm gì?,Che nắng và mưa nhẹ,Đây là vật dụng đội trên đầu.,"Nón lá là đồ đội đầu truyền thống, thường dùng che nắng mưa."
+LBCQ_KOREA_001,korea,1,Hanok là tên gọi của loại kiến trúc nào ở Hàn Quốc?,Nhà truyền thống,Gắn với mái ngói và nhà gỗ.,Hanok là nhà truyền thống Hàn Quốc.
+LBCQ_KOREA_002,korea,1,Hanji của Hàn Quốc là gì?,Giấy truyền thống,"Có thể gấp, cắt và làm đồ thủ công.",Hanji là giấy truyền thống Hàn Quốc.
+LBCQ_KOREA_003,korea,1,Món ăn lên men nổi tiếng của Hàn Quốc là?,Kimchi,Thường được chế biến từ rau cải muối.,Kimchi là món rau lên men nổi tiếng ở Hàn Quốc.
+LBCQ_KOREA_004,korea,2,Gyeongju gắn liền với vương quốc lịch sử nào?,Silla,Tên vương quốc trong chương di sản của game.,Gyeongju là trung tâm lịch sử của Silla.
+LBCQ_KOREA_005,korea,2,Cheomseongdae tại Gyeongju thường được biết đến như công trình gì?,Đài quan sát thiên văn cổ,Gắn với quan sát bầu trời.,Cheomseongdae được biết đến như đài quan sát thiên văn cổ.
+LBCQ_KOREA_006,korea,2,Sông lớn chảy qua Seoul mang tên gì?,Sông Hàn (Hangang),Tên tiếng Hàn là Hangang.,Sông Hàn (Hangang) chảy qua Seoul.
+LBCQ_KOREA_007,korea,2,Jeonju Hanok Village nổi tiếng nhất với điều gì?,Khu nhà truyền thống Hanok,Tên địa danh nói lên kiến trúc chủ đạo.,Khu làng Hanok Jeonju có nhiều nhà truyền thống.
+LBCQ_KOREA_008,korea,2,Chữ viết thông dụng của tiếng Hàn ngày nay là?,Hangul,Hệ chữ do vua Sejong gắn với việc phổ cập.,Hangul là hệ chữ viết của tiếng Hàn.
+LBCQ_KOREA_009,korea,3,"Trong nhà Hanok truyền thống, hệ thống ondol gắn với công dụng gì?",Sưởi ấm sàn nhà,Bạn thường ngồi và ngủ gần mặt sàn được làm ấm.,Ondol là hệ thống sưởi sàn truyền thống của Hàn Quốc.
+LBCQ_KOREA_010,korea,2,"Trong bộ trò chơi dân gian Hàn Quốc, Yutnori dùng dụng cụ nào để quyết định bước đi?",Que gỗ tung,Không phải xúc xắc hình lập phương.,Yutnori dùng các thanh/que gỗ tung để quyết định bước đi.
+LBCQ_WORLD_001,world,1,Đại dương nào lớn nhất Trái Đất theo diện tích?,Thái Bình Dương,Đó là đại dương nằm giữa châu Á và châu Mỹ.,Thái Bình Dương lớn nhất theo diện tích.
+LBCQ_WORLD_002,world,1,Thủ đô của Nhật Bản là gì?,Tokyo,Một trong các đô thị lớn nhất thế giới.,Tokyo là thủ đô Nhật Bản.
+LBCQ_WORLD_003,world,2,Kim tự tháp Giza nổi tiếng nằm ở quốc gia nào?,Ai Cập,Gắn với sông Nile.,Quần thể kim tự tháp Giza ở Ai Cập.
+LBCQ_WORLD_004,world,1,Châu lục nào có Việt Nam và Hàn Quốc?,Châu Á,Cả hai đều thuộc Đông Á hoặc Đông Nam Á.,Việt Nam và Hàn Quốc đều thuộc châu Á.
+LBCQ_WORLD_005,world,2,Thành phố Paris nằm bên dòng sông nào?,Sông Seine,Tên sông thường đi cùng hình ảnh Paris.,Sông Seine chảy qua Paris.
+LBCQ_WORLD_006,world,2,Núi Phú Sĩ là biểu tượng thiên nhiên của nước nào?,Nhật Bản,Núi lửa nổi tiếng gần Tokyo.,Núi Phú Sĩ ở Nhật Bản.
+LBCQ_WORLD_007,world,2,Châu lục nào có sa mạc Sahara?,Châu Phi,Sahara ở phía bắc châu lục này.,Sahara nằm chủ yếu ở Bắc Phi.
+LBCQ_WORLD_008,world,2,Công trình Đấu trường Colosseum nằm ở đâu?,Rome,Thành phố thủ đô của Ý.,"Colosseum ở Rome, Ý."
+LBCQ_WORLD_009,world,2,Rạn san hô Great Barrier Reef nằm gần bờ biển nước nào?,Úc,Quốc gia ở châu Đại Dương.,"Great Barrier Reef nằm ngoài khơi Queensland, Úc."
+LBCQ_WORLD_010,world,3,"Một nơi ở vĩ độ 20° Bắc, một nơi ở 20° Nam trên cùng một kinh tuyến. Chúng cách nhau bao nhiêu độ vĩ tuyến?",40°,Hai điểm nằm ở hai phía của xích đạo.,Khoảng chênh vĩ độ là 20° + 20° = 40°.
+LBCQ_LANGUAGE_001,language,1,Từ nào trái nghĩa với “sáng” trong cụm “trời sáng”?,Tối,Đối lập với ban ngày sáng rõ.,Tối là từ trái nghĩa phù hợp.
+LBCQ_LANGUAGE_002,language,2,Từ “liên kết” gần nghĩa nhất với từ nào?,Kết nối,Hai bên được nối lại.,Liên kết có nghĩa tạo mối quan hệ hoặc kết nối.
+LBCQ_LANGUAGE_003,language,1,"Trong các từ sau, từ nào chỉ một màu sắc?",Xanh,Chỉ màu của lá hoặc biển.,Xanh là từ chỉ màu sắc.
+LBCQ_LANGUAGE_004,language,2,"Trong từ “thư viện”, chữ “thư” thường mang nghĩa gì?",Sách,Nơi lưu giữ nhiều sách.,“Thư” trong “thư viện” mang nghĩa sách.
+LBCQ_LANGUAGE_005,language,2,Từ “di sản” thường chỉ điều gì?,Giá trị được truyền lại,Những gì thế hệ trước để lại.,Di sản là những giá trị/vật thể/tri thức được truyền lại.
+LBCQ_LANGUAGE_006,language,2,Từ nào đúng chính tả tiếng Việt?,Khám phá,Hai tiếng đều có dấu đúng vị trí.,“Khám phá” là cách viết đúng.
+LBCQ_LANGUAGE_007,language,2,"Trong câu “Lumi tìm thấy chiếc chìa khóa”, động từ chính là gì?",Tìm thấy,Hành động của Lumi.,“Tìm thấy” là cụm động từ chính.
+LBCQ_LANGUAGE_008,language,1,Từ nào thường dùng để cảm ơn bằng tiếng Hàn?,Gamsahamnida,Âm gần “kam-sa-ham-ni-da”.,Gamsahamnida (감사합니다) là cách cảm ơn lịch sự bằng tiếng Hàn.
+LBCQ_LANGUAGE_009,language,2,Chữ Việt “hữu nghị” gần nghĩa với gì?,Tình bạn tốt đẹp,Dùng nói về quan hệ giữa các dân tộc.,"Hữu nghị là quan hệ thân thiện, tốt đẹp."
+LBCQ_LANGUAGE_010,language,3,"Trong cụm “cổ kính”, từ này thường miêu tả điều gì?",Có vẻ xưa và trang nghiêm,Nhớ đến những ngôi nhà cổ.,"Cổ kính gợi nét cổ xưa, trang nghiêm."
+LBCQ_TECHNOLOGY_001,technology,1,Thiết bị nào dùng để nhập chữ vào máy tính?,Bàn phím,Gồm các phím chữ và số.,Bàn phím cho phép nhập ký tự.
+LBCQ_TECHNOLOGY_002,technology,1,Biểu tượng chiếc kính lúp trong ứng dụng thường có chức năng gì?,Tìm kiếm,Dùng khi muốn tìm một mục.,Kính lúp là biểu tượng phổ biến của tìm kiếm.
+LBCQ_TECHNOLOGY_003,technology,2,Mã QR thường được đọc bằng cách nào trên điện thoại?,Dùng camera quét,Mở camera hoặc chức năng quét.,Camera giải mã mẫu ô vuông của QR.
+LBCQ_TECHNOLOGY_004,technology,2,Thông tin nào KHÔNG nên chia sẻ công khai trên mạng?,Mật khẩu tài khoản,Thông tin giúp người khác đăng nhập thay bạn.,Mật khẩu phải được bảo vệ.
+LBCQ_TECHNOLOGY_005,technology,2,Phần mềm lưu tiến độ chơi thường ghi gì?,Trạng thái nhiệm vụ và vật phẩm,Cần khôi phục nơi đã chơi dở.,"Save game lưu tiến độ, vật phẩm, cờ nhiệm vụ và trạng thái liên quan."
+LBCQ_TECHNOLOGY_006,technology,2,GPS trên thiết bị thường dùng để hỗ trợ việc gì?,Xác định vị trí,Ứng dụng bản đồ sử dụng nó.,GPS cung cấp thông tin vị trí dựa trên tín hiệu vệ tinh.
+LBCQ_TECHNOLOGY_007,technology,2,Mạng Wi-Fi thường dùng để làm gì?,Kết nối thiết bị không dây vào mạng,Cho máy kết nối mạng không cần cáp Ethernet.,Wi-Fi là công nghệ kết nối mạng vô tuyến cự ly gần.
+LBCQ_TECHNOLOGY_008,technology,3,"Bản save cũ chưa có trường “difficulty”, phiên bản game mới lại đọc trường này. Cách nâng cấp tương thích tốt nhất là?",Nếu thiếu thì dùng giá trị mặc định hợp lệ,Tương thích ngược nghĩa là dữ liệu cũ vẫn đọc được.,Trường tùy chọn có giá trị mặc định và migration an toàn cho phép mở save cũ.
+LBCQ_TECHNOLOGY_009,technology,2,Một bản đồ có các điểm và các đường nối giữa chúng là ví dụ gần nhất của cấu trúc nào?,Đồ thị,Các đỉnh và cạnh.,"Graph/đồ thị gồm đỉnh và cạnh, phù hợp mô hình node-path."
+LBCQ_TECHNOLOGY_010,technology,3,"Khi 2 người cùng sửa một file, công cụ nào hữu ích để so sánh và gộp thay đổi?",Hệ thống quản lý phiên bản,Hãy nghĩ tới Git.,"Hệ thống quản lý phiên bản giúp theo dõi, so sánh và hợp nhất thay đổi."
+LBCQ_EVERYDAY_001,everyday,1,Lumi thấy biển “Cầu đang sửa chữa”. Hành động an toàn nhất là gì?,Tìm lối hợp lệ khác,Đừng đi vào khu vực đang thi công.,Nên tìm lối an toàn được phép sử dụng.
+LBCQ_EVERYDAY_002,everyday,1,"Khi gặp NPC nhờ giúp tìm đồ thất lạc, bước đầu hợp lý nhất là gì?",Hỏi vị trí nhìn thấy lần cuối,Tìm manh mối trước khi tìm kiếm.,Vị trí cuối cùng giúp khoanh vùng tìm kiếm.
+LBCQ_EVERYDAY_003,everyday,2,Một ngọn đèn nhấp nháy vì pin yếu. Cách xử lý hợp lý nhất?,Kiểm tra nguồn pin,Tìm nguyên nhân ở nguồn năng lượng.,Kiểm tra và thay pin phù hợp trước khi sử dụng.
+LBCQ_EVERYDAY_004,everyday,2,Bạn thấy con đường ngắn cắt ngang mái nhà. Cách đi hợp lý hơn?,Đi theo ngõ và cầu thực tế,Đường đi nên hợp địa hình.,Lối đi hợp lệ phải đi trên đường hoặc cầu thay vì xuyên vật cản.
+LBCQ_EVERYDAY_005,everyday,2,Một thương nhân đưa món hàng nhưng bạn chưa kiểm tra đơn đặt. Nên làm gì?,Kiểm tra món và số lượng,Đối chiếu với yêu cầu ban đầu.,Kiểm tra trước giúp tránh giao nhầm.
+LBCQ_EVERYDAY_006,everyday,2,Lumi cần qua bờ đối diện nhưng không có cầu. Có bến đò hoạt động hợp lệ. Cách nào đúng?,Dùng đò theo quy định,Trò chơi đã cho phương tiện vượt sông.,Dùng đò là tuyến di chuyển phù hợp địa hình.
+LBCQ_EVERYDAY_007,everyday,2,"Một bí mật trong game chỉ xuất hiện sau khi có chìa khóa. Muốn mở khóa, nên làm gì?",Tìm chìa khóa qua nhiệm vụ,Đi theo điều kiện mở được hướng dẫn.,Cần hoàn thành điều kiện nhận chìa khóa.
+LBCQ_EVERYDAY_008,everyday,3,"Một người nói “Tôi có manh mối, nhưng chưa chắc đúng”. Cách xử lý tốt nhất?",Kiểm chứng bằng bằng chứng khác,Manh mối chưa chắc chắn cần đối chiếu.,Nên kiểm tra chéo thông tin trước khi quyết định.
+LBCQ_EVERYDAY_009,everyday,3,"Một nhiệm vụ cần đúng 3 quả dâu; kho có 2 quả. Bạn có thể đổi 2 quả táo lấy 1 quả dâu ở chợ, hiện có 4 quả táo. Sau khi đổi và giao, kho còn gì?","2 táo, 0 dâu","Đổi mất 2 táo để đủ 3 dâu, rồi giao hết dâu.","4 táo - 2 = 2 táo; 2 dâu + 1 = 3 dâu, giao xong còn 0 dâu."
+LBCQ_EVERYDAY_010,everyday,2,"Khi chạy qua cầu hẹp, vì sao nên giảm tốc?",Dễ quan sát và tránh va chạm,Cầu hẹp có ít không gian di chuyển.,Giảm tốc giúp quan sát và kiểm soát bước đi.
+LBCQ_RIDDLES_001,riddles,1,"Cái gì có mặt nhưng không có mắt, có kim nhưng không biết khâu?",Đồng hồ,Dùng để xem giờ.,Đồng hồ có mặt số và kim chỉ giờ.
+LBCQ_RIDDLES_002,riddles,1,Cái gì càng lau càng ướt?,Khăn lau,Vật hấp thụ nước khi lau.,Khăn dùng lau nước sẽ ngày càng ướt.
+LBCQ_RIDDLES_003,riddles,2,Cái gì có nhiều răng nhưng không ăn được?,Lược,Dùng để chải tóc.,Răng lược là các thanh nhỏ để chải tóc.
+LBCQ_RIDDLES_004,riddles,1,Cái gì có cổ nhưng không có đầu?,Chai,Thường đựng nước.,Chai có cổ chai mà không có đầu.
+LBCQ_RIDDLES_005,riddles,2,Cái gì có chân nhưng không biết đi?,Cái bàn,Dùng làm nơi đặt đồ.,Bàn có chân bàn nhưng không di chuyển như động vật.
+LBCQ_RIDDLES_006,riddles,2,Cái gì có thể lấp đầy căn phòng nhưng không chiếm chỗ như đồ vật?,Ánh sáng,"Khi bật đèn, cả phòng thay đổi.","Ánh sáng lan khắp phòng, không chiếm thể tích như vật rắn."
+LBCQ_RIDDLES_007,riddles,2,"Càng lấy bớt đất, cái gì càng lớn?",Cái hố,Ta đào nó xuống đất.,Đào đất ra khỏi hố làm hố lớn hơn.
+LBCQ_RIDDLES_008,riddles,3,Cái gì bạn có thể giữ sau khi đã trao cho người khác?,Lời hứa,Giữ bằng hành động chứ không phải bằng tay.,"Đã hứa với người khác, bạn vẫn có thể giữ lời hứa."
+LBCQ_RIDDLES_009,riddles,2,Cái gì có thể chạy nhưng không có chân?,Dòng nước,Sông suối có thứ này.,“Nước chảy/chạy” là cách nói về chuyển động của nước.
+LBCQ_RIDDLES_010,riddles,3,Cái gì luôn ở phía trước bạn nhưng bạn chưa thể nhìn thấy trực tiếp?,Tương lai,Chưa xảy ra.,Tương lai là những gì chưa xảy ra và chưa thể nhìn trực tiếp.
+LBCQ_CIPHER_001,cipher,2,"Một khóa dùng quy tắc A=1, B=2, C=3. Mã C-A-B tương ứng dãy nào?",3-1-2,Đổi từng chữ thành vị trí của nó trong bảng chữ A-B-C.,"C=3, A=1, B=2 nên mã là 3-1-2."
+LBCQ_CIPHER_002,cipher,2,"Một cửa ghi: “Muốn mở, đọc ngược 4321”. Bạn phải nhập gì?",1234,Đảo thứ tự bốn chữ số.,Đọc ngược 4321 thành 1234.
+LBCQ_CIPHER_003,cipher,3,"Trên ổ khóa ghi “Mỗi chữ cái lùi một vị trí: B→A, C→B”. Mã D-B-C thành gì?",C-A-B,D lùi thành C.,"D→C, B→A, C→B; kết quả C-A-B."
+LBCQ_CIPHER_004,cipher,2,"Ba đèn đỏ, xanh, vàng bật theo thứ tự 2-3-1. Nếu 1=Đỏ, 2=Xanh, 3=Vàng, thứ tự là gì?",Xanh-Vàng-Đỏ,"Ánh xạ số sang màu trước, rồi đọc thứ tự.","2=Xanh, 3=Vàng, 1=Đỏ."
+LBCQ_CIPHER_005,cipher,3,Một mật mã có quy tắc chữ số cuối bằng tổng hai chữ số đầu. Mã nào hợp lệ?,2-5-7,Thử cộng từng cặp đầu.,2+5=7; ba mã còn lại không thỏa.
+LBCQ_CIPHER_006,cipher,2,"Một người viết “1 bước Bắc, 1 Đông, 1 Nam”. Từ điểm xuất phát, bạn đang ở đâu?",Một bước về Đông,Bắc và Nam triệt tiêu.,"Đi Bắc rồi Nam bằng nhau, còn 1 bước Đông."
+LBCQ_CIPHER_007,cipher,3,"Một mã có 4 chữ số a-b-c-d. Biết a=2, b=a+1, c=b×2, d=c−a. Mã đúng là?",2-3-6-4,Tính lần lượt từ a tới d.,"a=2, b=3, c=6, d=6−2=4."
+LBCQ_CIPHER_008,cipher,3,"Mật thư ghi: “Mỗi bước tăng 3”. Dãy khóa 4, 7, 10, ... chữ số tiếp theo là?",13,Cộng tiếp 3.,10+3=13.
+LBCQ_CIPHER_009,cipher,2,"Các biểu tượng theo mã: Trăng=0, Sao=1, Đèn=2. Dãy Sao-Đèn-Trăng là?",120,Thay từng hình bằng chữ số.,"Sao=1, Đèn=2, Trăng=0 nên là 120."
+LBCQ_CIPHER_010,cipher,3,"Tủ A chứa khóa B, tủ B chứa khóa C. Bạn chỉ có chìa mở A. Thứ tự hợp lý để mở được tủ C?",A→B→C,Mỗi tủ cho khóa mở tủ tiếp theo.,"Mở A nhận khóa B, mở B nhận khóa C, rồi mở C."
+LBCQ_SPATIAL_001,spatial,2,"Đang quay mặt về Bắc, Lumi rẽ phải. Lumi nhìn về hướng nào?",Đông,Xoay 90° theo chiều kim đồng hồ.,Từ Bắc rẽ phải là Đông.
+LBCQ_SPATIAL_002,spatial,2,"Lumi đi 2 bước Bắc, 2 bước Nam rồi 1 bước Tây. So với chỗ xuất phát Lumi ở đâu?",Tây 1 bước,Hai lượt đi Bắc và Nam triệt tiêu.,Còn lại 1 bước về Tây.
+LBCQ_SPATIAL_003,spatial,3,"Một lưới có hàng trên A-B-C, hàng dưới D-E-F. Đi từ A sang F theo các cạnh ngang/dọc, tuyến nào hợp lệ?",A-B-C-F,Không được đi chéo hoặc nhảy qua ô.,A→B→C→F gồm ba cạnh nối ngang/dọc.
+LBCQ_SPATIAL_004,spatial,2,"Trên bản đồ, cầu là lối duy nhất qua sông. Điểm đến ở bờ kia. Tuyến nào hợp lý?",Đến cầu rồi sang sông,Phải dùng lối qua sông được xây dựng.,Đi qua cầu là cách di chuyển hợp lệ.
+LBCQ_SPATIAL_005,spatial,2,"Một ngã tư có bốn hướng Bắc, Nam, Đông, Tây. Nếu Lumi từ Nam đi thẳng qua ngã tư, Lumi đi về hướng nào?",Bắc,Từ phía Nam đi vào giữa ngã tư rồi đi thẳng.,Đi thẳng từ phía Nam tới phía Bắc.
+LBCQ_SPATIAL_006,spatial,3,"Một lưới 3×3 có ô giữa là (2,2), hàng tăng từ trên xuống, cột tăng từ trái sang. Từ (2,2) đi lên, sang phải, rồi xuống. Tọa độ cuối là?","(2,3)",Di chuyển lần lượt theo hàng và cột.,"(2,2) → (1,2) → (1,3) → (2,3)."
+LBCQ_SPATIAL_007,spatial,2,Hướng Tây là bên trái bản đồ khi Bắc ở phía trên. Lumi đi về Tây nghĩa là đi?,Sang trái,La bàn bản đồ Bắc lên trên.,"Với Bắc ở phía trên, Tây nằm bên trái."
+LBCQ_SPATIAL_008,spatial,3,"Trên đường hình vuông, Lumi đi lần lượt Đông 3 m, Bắc 3 m, Tây 3 m, Nam 3 m. Kết quả?",Trở lại điểm đầu,Hai cặp hướng đối nhau.,Mọi độ dời triệt tiêu; Lumi trở lại điểm đầu.
+LBCQ_SPATIAL_009,spatial,2,Một ngọn tháp nằm phía Đông bến đò. Từ tháp nhìn về bến đò phải nhìn hướng nào?,Tây,Đổi góc nhìn thì hướng đảo lại.,"Nếu tháp ở Đông của bến, bến ở Tây của tháp."
+LBCQ_SPATIAL_010,spatial,3,Một bản đồ có hai tuyến A→B→D (4+2 bước) và A→C→D (3+4 bước). Tuyến nào ngắn hơn?,Qua B,Cộng số bước trên mỗi tuyến.,Qua B là 6 bước; qua C là 7 bước.
+LBCQ_MYSTERY_001,mystery,2,"Một NPC bảo: “Chìa khóa ở nơi không ướt khi trời mưa”. Trong ba nơi: bến trống, mái hiên, giữa hồ, nên tìm ở đâu?",Mái hiên,Hãy tìm nơi có mái che.,Mái hiên có khả năng che mưa cho đồ bên dưới.
+LBCQ_MYSTERY_002,mystery,2,"Bốn ngọn đèn xếp hàng: đỏ, ?, xanh, ?. Biết dãy lặp Đỏ-Vàng-Xanh, hai vị trí trống là gì?",Vàng-Đỏ,Chu kỳ gồm ba màu.,Dãy là Đỏ–Vàng–Xanh–Đỏ.
+LBCQ_MYSTERY_003,mystery,3,"Ba rương Đỏ, Xanh, Vàng, mỗi rương chứa đúng một viên khác màu và cả ba nhãn đều sai. Mở rương ghi Đỏ thấy viên Xanh. Rương ghi Xanh chứa viên màu gì?",Vàng,"Rương ghi Vàng không thể chứa Vàng, trong khi viên Xanh đã nằm ở rương ghi Đỏ.",Rương ghi Vàng phải chứa Đỏ. Vì thế rương ghi Xanh chứa Vàng.
+LBCQ_MYSTERY_004,mystery,2,"Một cuốn nhật ký ghi: “Hãy đến cầu trước khi trời tối”. Để không bỏ lỡ, bạn nên làm gì?",Đến cầu trước khi tối,Điều kiện thời gian ghi ngay trong câu.,Nhiệm vụ yêu cầu đến trước khi trời tối.
+LBCQ_MYSTERY_005,mystery,3,"Hai người canh cổng: A luôn nói thật, B luôn nói dối. A nói “Cửa Đông đang khóa”. Cửa nào chắc chắn đang khóa?",Cửa Đông,Chỉ dựa vào lời A.,A luôn nói thật nên cửa Đông đang khóa.
+LBCQ_MYSTERY_006,mystery,2,"Bức tranh có 5 ngôi sao. Một ngôi sao bị che, còn 4 sao nhìn thấy. Có tổng cộng bao nhiêu sao?",5,Một ngôi sao bị che vẫn tồn tại.,4 nhìn thấy + 1 bị che = 5.
+LBCQ_MYSTERY_007,mystery,3,"Ba công tắc ở ngoài điều khiển một bóng đèn dây tóc trong phòng kín, chỉ một công tắc đúng; chỉ được vào phòng một lần. Cách nào phân biệt cả ba?","Bật A vài phút rồi tắt, bật B, vào kiểm tra sáng và nhiệt",Bóng dây tóc còn ấm một lúc sau khi tắt.,Nếu sáng thì B; nếu tắt nhưng ấm thì A; nếu tắt và nguội thì C.
+LBCQ_MYSTERY_008,mystery,2,"Trên bản đồ, ký hiệu tam giác là núi, hình vuông là nhà, vòng tròn là giếng. Muốn tìm nước uống, nên tới đâu?",Vòng tròn,Hãy giải mã ký hiệu của giếng.,Vòng tròn ứng với giếng nước.
+LBCQ_MYSTERY_009,mystery,3,"Lumi nhặt ba mảnh giấy: “HẸN”, “Ở”, “CẦU”. Cách ghép nào thành lời hẹn tự nhiên nhất?",HẸN Ở CẦU,"Ghép động từ, giới từ, địa điểm.",“Hẹn ở cầu” là cụm có nghĩa tự nhiên trong ngữ cảnh.
+LBCQ_MYSTERY_010,mystery,2,Một tấm biển ghi “Lối này đóng khi nước dâng”. Nước đang dâng. Hành động hợp lý là?,Tìm tuyến khác,Điều kiện đóng đang được thỏa.,"Nước dâng thì lối đóng, phải chọn lối khác."

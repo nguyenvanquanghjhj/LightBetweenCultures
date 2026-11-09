@@ -1,0 +1,20 @@
+{
+  "modified": [
+    "Assets/_Game/Resources/Content/GameplayContent.json",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md"
+  ],
+  "added": [
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.ApprovedRoutes.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.ApprovedRoutes.cs.meta",
+    "Tools/apply_approved_route_references.py",
+    "Tools/export_applied_route_references.py",
+    "Tools/verify_applied_route_references.py",
+    "Tools/validate_applied_route_references.ps1",
+    "Tools/applied_route_reference_suite.ps1",
+    "Tools/finalize_applied_route_references.py",
+    "Docs/Maps/APPLIED_SIX_ROUTE_REFERENCES_20261019.md"
+  ],
+  "deleted": [],
+  "productionScope": "Only existing edge.waypoints; QA code is conditional DEVELOPMENT_BUILD/UNITY_EDITOR. Exact supporting docs/evidence listed in checkpoint manifest."
+}

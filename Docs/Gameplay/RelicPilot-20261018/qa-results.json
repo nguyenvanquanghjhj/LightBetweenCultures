@@ -1,0 +1,22 @@
+{
+  "Fresh04": {
+    "assertions": 140,
+    "result": "ALL CHECKS PASSED",
+    "path": "Validation/RelicPilot-20261018/Fresh04/smoke-results.txt"
+  },
+  "Restart01": {
+    "assertions": 10,
+    "result": "ALL CHECKS PASSED",
+    "path": "Validation/RelicPilot-20261018/Restart01/restart-results.txt"
+  },
+  "Retro01": {
+    "assertions": 59,
+    "result": "ALL CHECKS PASSED",
+    "path": "Validation/RelicPilot-20261018/Retro01/smoke-results.txt"
+  },
+  "NPC01": {
+    "assertions": 57,
+    "result": "ALL CHECKS PASSED",
+    "path": "Validation/RelicPilot-20261018/NPC01/smoke-results.txt"
+  }
+}

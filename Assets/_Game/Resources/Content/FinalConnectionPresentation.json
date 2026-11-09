@@ -1,0 +1,41 @@
+{
+  "steps": [
+    {
+      "relicId": "relic_hoi_an_lantern",
+      "title": "Hội An · Đánh Thức",
+      "text": "Từ ngọn đèn trước tiệm Cô Mai, mình học cách lắng nghe một lời nhờ giúp đỡ.",
+      "color": "#E9B35E"
+    },
+    {
+      "relicId": "relic_hue_dragon_seal",
+      "title": "Huế · Xác Thực",
+      "text": "Những nét triện giữ lời hẹn của người đi trước, để ký ức được trao đi bằng sự tin cậy.",
+      "color": "#78C8AD"
+    },
+    {
+      "relicId": "relic_dalat_mist_compass",
+      "title": "Đà Lạt · Định Hướng",
+      "text": "Giữa làn sương, một dấu nhỏ cũng có thể giúp ai đó tìm lại đường về.",
+      "color": "#8DC8E5"
+    },
+    {
+      "relicId": "relic_jeonju_hanji_stamp",
+      "title": "Jeonju · Lưu Giữ",
+      "text": "Những lớp giấy và hoa văn gìn giữ sự chăm chút của đôi bàn tay.",
+      "color": "#EAC78E"
+    },
+    {
+      "relicId": "relic_gyeongju_star_lens",
+      "title": "Gyeongju · Đọc Ký Ức",
+      "text": "Ánh sao soi lên điều tưởng đã ngủ quên. Quá khứ vẫn có điều để kể với chúng ta.",
+      "color": "#AEB7ED"
+    },
+    {
+      "relicId": "relic_seoul_trirelay_prism",
+      "title": "Seoul · Kết Nối",
+      "text": "Sáu màu sáng cùng tìm thấy nhau. Không màu nào phải mất đi để nhịp cầu được thắp lên.",
+      "color": "#F0DC9E"
+    }
+  ],
+  "convergence": "Lumi: Ánh sáng trở lại nhờ những người đã cùng gìn giữ nó. Giờ đây, những câu chuyện có thể tìm đến nhau."
+}

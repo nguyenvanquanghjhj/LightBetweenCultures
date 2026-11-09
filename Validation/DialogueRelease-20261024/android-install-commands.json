@@ -1,0 +1,86 @@
+[
+  {
+    "command": [
+      "get-state"
+    ],
+    "seconds": 0.062,
+    "exitCode": 0,
+    "output": "device\r\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "exec-out",
+      "cat",
+      "/sdcard/Android/data/com.DefaultCompany.LightBetweenCultures/files/hoi-an-v1.json"
+    ],
+    "seconds": 0.125,
+    "exitCode": 0,
+    "output": "cat: /sdcard/Android/data/com.DefaultCompany.LightBetweenCultures/files/hoi-an-v1.json: No such file or directory\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "install",
+      "--user",
+      "0",
+      "-r",
+      "D:\\GAMEKKK\\LightBetweenCultures\\Builds\\Android\\LightBetweenCultures-RC2-20261024.apk"
+    ],
+    "seconds": 14.25,
+    "exitCode": 0,
+    "output": "Performing Streamed Install\r\nSuccess\r\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "shell",
+      "dumpsys",
+      "package",
+      "com.DefaultCompany.LightBetweenCultures"
+    ],
+    "seconds": 0.25,
+    "exitCode": 0,
+    "output": "Activity Resolver Table:\r\n  Non-Data Actions:\r\n      android.intent.action.MAIN:\r\n        b0d464d com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity filter ca09502\r\n          Action: \"android.intent.action.MAIN\"\r\n          Category: \"android.intent.category.LAUNCHER\"\r\n\r\nDomain verification status:\r\n\r\nPermissions:\r\n  Permission [com.DefaultCompany.LightBetweenCultures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (a117d7b):\r\n    sourcePackage=com.DefaultCompany.LightBetweenCultures\r\n    uid=10296 gids=[] type=0 prot=signature\r\n    perm=PermissionInfo{5d01798 com.DefaultCompany.LightBetweenCultures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}\r\n    flags=0x0\r\n\r\nRegistered ContentProviders:\r\n  com.DefaultCompany.LightBetweenCultures/androidx.startup.InitializationProvider:\r\n    Provider{29733d6 com.DefaultCompany.LightBetweenCultures/androidx.startup.InitializationProvider}\r\n\r\nContentProvider Authorities:\r\n  [com.DefaultCompany.LightBetweenCultures.androidx-startup]:\r\n    Provider{29733d6 com.DefaultCompany.LightBetweenCultures/androidx.startup.InitializationProvider}\r\n      applicationInfo=ApplicationInfo{9b07657 com.DefaultCompany.LightBetweenCultures}\r\n\r\nKey Set Manager:\r\n  [com.DefaultCompany.LightBetweenCultures]\r\n      Signing KeySets: 246\r\n\r\nPackages:\r\n  Package [com.DefaultCompany.LightBetweenCultures] (e35c8dc):\r\n    appId=10296\r\n    pkg=Package{a5c6ccb com.DefaultCompany.LightBetweenCultures}\r\n    codePath=/data/app/~~J_N7mReW8BJNfLjyvZ6rbg==/com.DefaultCompany.LightBetweenCultures-NOJQWbPU7PXUJ0vdaygFWQ==\r\n    resourcePath=/data/app/~~J_N7mReW8BJNfLjyvZ6rbg==/com.DefaultCompany.LightBetweenCultures-NOJQWbPU7PXUJ0vdaygFWQ==\r\n    legacyNativeLibraryDir=/data/app/~~J_N7mReW8BJNfLjyvZ6rbg==/com.DefaultCompany.LightBetweenCultures-NOJQWbPU7PXUJ0vdaygFWQ==/lib\r\n    extractNativeLibs=true\r\n    primaryCpuAbi=arm64-v8a\r\n    secondaryCpuAbi=null\r\n    cpuAbiOverride=null\r\n    versionCode=7 minSdk=26 targetSdk=36\r\n    minExtensionVersions=[]\r\n    versionName=1.0-rc2-20261024\r\n    hiddenApiEnforcementPolicy=2\r\n    usesNonSdkApi=false\r\n    splits=[base]\r\n    apkSigningVersion=2\r\n    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]\r\n    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]\r\n    forceQueryable=false\r\n    pageSizeCompat=0\r\n    scannedAsStoppedSystemApp=false\r\n    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]\r\n    timeStamp=2026-10-24 13:08:25\r\n    lastUpdateTime=2026-10-24 13:08:29\r\n    installerPackageName=null\r\n    installerPackageUid=-1\r\n    initiatingPackageName=com.android.shell\r\n    originatingPackageName=null\r\n    packageSource=1\r\n    appMetadataFilePath=null\r\n    appMetadataSource=0\r\n    signatures=PackageSignatures{3990257 version:2, signatures:[bdae36bf], past signatures:[]}\r\n    installPermissionsFixed=false\r\n    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]\r\n    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]\r\n    apexModuleName=null\r\n    declared permissions:\r\n      com.DefaultCompany.LightBetweenCultures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature\r\n    requested permissions:\r\n      android.permission.INTERNET\r\n      com.DefaultCompany.LightBetweenCultures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\r\n      android.permission.VIBRATE\r\n    install permissions:\r\n      android.permission.INTERNET: granted=true\r\n      com.DefaultCompany.LightBetweenCultures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true\r\n      android.permission.VIBRATE: granted=true\r\n    User 0: ceDataInode=1205570 deDataInode=1165138 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false\r\n      installReason=0\r\n      dataDir=/data/user/0/com.DefaultCompany.LightBetweenCultures\r\n      firstInstallTime=2026-10-24 13:08:29\r\n      uninstallReason=0\r\n      overlay paths:\r\n        /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk\r\n        /product/overlay/DefaultBrowserConfig/DefaultBrowserConfigOverlay.apk\r\n        /data/resource-cache/com.android.systemui-neutral-UAuh.frro\r\n        /data/resource-cache/com.android.systemui-accent-miaY.frro\r\n        /data/resource-cache/com.android.systemui-dynamic-CEQd.frro\r\n      legacy overlay paths:\r\n        /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk\r\n        /product/overlay/DefaultBrowserConfig/DefaultBrowserConfigOverlay.apk\r\n      gids=[3003]\r\n      runtime permissions:\r\n    User 10: ceDataInode=0 deDataInode=0 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false\r\n      installReason=0\r\n      dataDir=/data/user/10/com.DefaultCompany.LightBetweenCultures\r\n      firstInstallTime=2026-10-20 14:41:10\r\n      uninstallReason=0\r\n      gids=[3003]\r\n      runtime permissions:\r\n\r\nQueries:\r\n  system apps queryable: false\r\n  queries via forceQueryable:\r\n  queries via package name:\r\n  queries via component:\r\n    com.heytap.market:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.taboola.scoop:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.realme.as.music:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.fitbit.FitbitMobile:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.google.android.as:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.google.android.as.oss:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.android.settings.intelligence:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.ss.android.ugc.trill:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.android.launcher3:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.oppo.quicksearchbox:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.instagram.android:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.zing.zalo:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.vnid:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.mservice.momotransfer:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.facebook.orca:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.everytime.v2:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.grabtaxi.passenger:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.eup.mytest:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.facebook.katana:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.mbmobile:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.mazii.dictionary:\r\n      com.DefaultCompany.LightBetweenCultures\r\n    com.dts.freefireth:\r\n      com.DefaultCompany.LightBetweenCultures\r\n  queryable via interaction:\r\n    User 0:\r\n    User 10:\r\n  queryable via uses-library:\r\n\r\nDexopt state:\r\n  [com.DefaultCompany.LightBetweenCultures]\r\n    path: /data/app/~~J_N7mReW8BJNfLjyvZ6rbg==/com.DefaultCompany.LightBetweenCultures-NOJQWbPU7PXUJ0vdaygFWQ==/base.apk\r\n      arm64: [status=verify] [reason=install] [primary-abi]\r\n        [location is /data/app/~~J_N7mReW8BJNfLjyvZ6rbg==/com.DefaultCompany.LightBetweenCultures-NOJQWbPU7PXUJ0vdaygFWQ==/oat/arm64/base.odex]\r\n\r\nCompiler stats:\r\n  [com.DefaultCompany.LightBetweenCultures]\r\n     base.apk - 760\r\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "shell",
+      "input",
+      "keyevent",
+      "224"
+    ],
+    "seconds": 0.234,
+    "exitCode": 0,
+    "output": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "shell",
+      "am",
+      "start",
+      "--user",
+      "0",
+      "-W",
+      "-n",
+      "com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity"
+    ],
+    "seconds": 2.313,
+    "exitCode": 0,
+    "output": "Starting: Intent { cmp=com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity\r\nTotalTime: 2101\r\nWaitTime: 2132\r\nComplete\r\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "exec-out",
+      "screencap",
+      "-p"
+    ],
+    "seconds": 2.312,
+    "exitCode": 0,
+    "output": "<image>",
+    "stderr": ""
+  }
+]

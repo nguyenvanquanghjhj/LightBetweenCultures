@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: 2cedb033602689a4d820165ed4b034c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4046249875018331544
+    second: ItemSheet_VNKR_FoodCulture_v1_0
+  - first:
+      213: -4005231287869700962
+    second: ItemSheet_VNKR_FoodCulture_v1_1
+  - first:
+      213: -4643058601546761391
+    second: ItemSheet_VNKR_FoodCulture_v1_2
+  - first:
+      213: -2922485859359055298
+    second: ItemSheet_VNKR_FoodCulture_v1_3
+  - first:
+      213: 3937530323361799249
+    second: ItemSheet_VNKR_FoodCulture_v1_4
+  - first:
+      213: 7947562316326090467
+    second: ItemSheet_VNKR_FoodCulture_v1_5
+  - first:
+      213: -583281386048674704
+    second: ItemSheet_VNKR_FoodCulture_v1_6
+  - first:
+      213: 6340583498412966883
+    second: ItemSheet_VNKR_FoodCulture_v1_7
+  - first:
+      213: -7840115093612182230
+    second: ItemSheet_VNKR_FoodCulture_v1_8
+  - first:
+      213: -6487280965372053903
+    second: ItemSheet_VNKR_FoodCulture_v1_9
+  - first:
+      213: -2595872113629184316
+    second: ItemSheet_VNKR_FoodCulture_v1_10
+  - first:
+      213: -5260918680164223963
+    second: ItemSheet_VNKR_FoodCulture_v1_11
+  - first:
+      213: -7217885747825714868
+    second: ItemSheet_VNKR_FoodCulture_v1_12
+  - first:
+      213: -4263412766076486907
+    second: ItemSheet_VNKR_FoodCulture_v1_13
+  - first:
+      213: 3264300741362215322
+    second: ItemSheet_VNKR_FoodCulture_v1_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 708
+        width: 363
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a40173d25d8d7c0800000000000000
+      internalID: -4046249875018331544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_1
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1018
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e940f334d5f8a68c0800000000000000
+      internalID: -4005231287869700962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_2
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1026
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bbb774dca809fb0800000000000000
+      internalID: -4643058601546761391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_3
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 682
+        width: 346
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e322dcb489e3177d0800000000000000
+      internalID: -2922485859359055298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_4
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 698
+        width: 364
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c1f4897fae4a630800000000000000
+      internalID: 3937530323361799249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 378
+        width: 343
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6b5e691d96b4e60800000000000000
+      internalID: 7947562316326090467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_6
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1004
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074a8747ba4c7e7f0800000000000000
+      internalID: -583281386048674704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_7
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1007
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3cb9319174ef750800000000000000
+      internalID: 6340583498412966883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 388
+        width: 347
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25411f6cd0523390800000000000000
+      internalID: -7840115093612182230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_9
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 382
+        width: 337
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17678d4455c88f5a0800000000000000
+      internalID: -6487280965372053903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_10
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 368
+        width: 343
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce3ac0f01c99fbd0800000000000000
+      internalID: -2595872113629184316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 743
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524389c75567df6b0800000000000000
+      internalID: -5260918680164223963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_12
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 58
+        width: 688
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c495e73872be4db90800000000000000
+      internalID: -7217885747825714868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_13
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 21
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b35238da055d4c0800000000000000
+      internalID: -4263412766076486907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemSheet_VNKR_FoodCulture_v1_14
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 31
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9960f0ba302d4d20800000000000000
+      internalID: 3264300741362215322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ItemSheet_VNKR_FoodCulture_v1_0: -4046249875018331544
+      ItemSheet_VNKR_FoodCulture_v1_1: -4005231287869700962
+      ItemSheet_VNKR_FoodCulture_v1_10: -2595872113629184316
+      ItemSheet_VNKR_FoodCulture_v1_11: -5260918680164223963
+      ItemSheet_VNKR_FoodCulture_v1_12: -7217885747825714868
+      ItemSheet_VNKR_FoodCulture_v1_13: -4263412766076486907
+      ItemSheet_VNKR_FoodCulture_v1_14: 3264300741362215322
+      ItemSheet_VNKR_FoodCulture_v1_2: -4643058601546761391
+      ItemSheet_VNKR_FoodCulture_v1_3: -2922485859359055298
+      ItemSheet_VNKR_FoodCulture_v1_4: 3937530323361799249
+      ItemSheet_VNKR_FoodCulture_v1_5: 7947562316326090467
+      ItemSheet_VNKR_FoodCulture_v1_6: -583281386048674704
+      ItemSheet_VNKR_FoodCulture_v1_7: 6340583498412966883
+      ItemSheet_VNKR_FoodCulture_v1_8: -7840115093612182230
+      ItemSheet_VNKR_FoodCulture_v1_9: -6487280965372053903
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

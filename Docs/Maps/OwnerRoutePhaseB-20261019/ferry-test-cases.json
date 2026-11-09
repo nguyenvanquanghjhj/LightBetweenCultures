@@ -1,0 +1,111 @@
+{
+  "cases": [
+    {
+      "route": "R1",
+      "city": "hoi_an",
+      "from": "H0",
+      "to": "H16",
+      "distance": 455.55,
+      "edges": [
+        "H-N066",
+        "H-N073",
+        "H-N071"
+      ]
+    },
+    {
+      "route": "R2",
+      "city": "da_lat",
+      "from": "D13",
+      "to": "D21",
+      "distance": 245.25,
+      "edges": [
+        "D-N062",
+        "D-N049",
+        "D-N048",
+        "D-N052",
+        "D-N056",
+        "D-N072",
+        "D-N057",
+        "D-N054",
+        "D-N055",
+        "D-N059"
+      ]
+    },
+    {
+      "route": "R4",
+      "city": "gyeongju",
+      "from": "G1",
+      "to": "G2",
+      "distance": 478.06,
+      "edges": [
+        "G-N069",
+        "G-N033",
+        "G-N017",
+        "G-N014",
+        "G-N015",
+        "G-N082",
+        "G-N020",
+        "G-N019",
+        "G-N070"
+      ]
+    },
+    {
+      "route": "R3",
+      "city": "gyeongju",
+      "from": "G2",
+      "to": "G17",
+      "distance": 143.65,
+      "edges": [
+        "G-N070",
+        "G-N021",
+        "G-N022",
+        "G-N081",
+        "G-N010",
+        "G-N009"
+      ]
+    },
+    {
+      "route": "R5",
+      "city": "seoul",
+      "from": "S12",
+      "to": "S14",
+      "distance": 236.03,
+      "edges": [
+        "S-N036",
+        "S-N032",
+        "S-N033",
+        "S-N085",
+        "S-N028",
+        "S-N009",
+        "S-N007",
+        "S-N008"
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "id": "X1",
+      "city": "hoi_an",
+      "from": "H0",
+      "to": "H8",
+      "target": "H21",
+      "vertex": "J96"
+    },
+    {
+      "id": "X3",
+      "city": "jeonju",
+      "from": "J16",
+      "to": "J5",
+      "target": "J15",
+      "vertex": "J430"
+    },
+    {
+      "id": "X4",
+      "city": "gyeongju",
+      "from": "G0",
+      "to": "G1",
+      "target": "G16",
+      "vertex": "J146"
+    }
+  ]
+}

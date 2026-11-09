@@ -1,0 +1,6 @@
+{
+    "path":  "D:\\GAMEKKK\\LightBetweenCultures\\Builds\\Android\\LightBetweenCultures-OwnerPriority-20261020.apk",
+    "sha256":  "DDC56197DFAD2F1119C555B62F080621A141A72DEDA4BD97ACD2DEC31BFCAFF1",
+    "bytes":  289605820,
+    "reason":  "Unaccepted candidate: Android partial-state dialogue still exposed obsolete primary quest talk. Replace generated candidate after final focused PC PASS."
+}

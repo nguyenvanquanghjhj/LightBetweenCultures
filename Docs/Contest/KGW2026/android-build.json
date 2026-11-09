@@ -1,0 +1,12 @@
+{
+    "output": "Builds/Android/LightBetweenCultures-Contest-20261020.apk",
+    "identifier": "com.DefaultCompany.LightBetweenCultures",
+    "result": "Succeeded",
+    "error": "",
+    "startedUTC": "2026-10-20T00:50:03.9411846Z",
+    "finishedUTC": "2026-10-20T00:52:00.1472777Z",
+    "bytes": 1528377980,
+    "customKeystore": false,
+    "errors": 0,
+    "warnings": 1047
+}

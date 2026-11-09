@@ -1,0 +1,27 @@
+Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021.meta
+Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_elder.png
+Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_elder.png.meta
+Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_hana.png
+Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_hana.png.meta
+Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_nguyet.png
+Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_nguyet.png.meta
+Assets/_Game/Prefabs/DesignKit/LumiExplorationSprite.prefab
+Assets/_Game/Prefabs/DesignKit/LumiMapToken.prefab
+Assets/_Game/Resources/AdventureUIArt.asset
+Assets/_Game/Resources/DesignKitArt.asset
+Assets/_Game/Scenes/HoiAnDemo.unity
+Assets/_Game/Scripts/Editor/AppearanceRevisionSetup.cs
+Assets/_Game/Scripts/Editor/AppearanceRevisionSetup.cs.meta
+Assets/_Game/Scripts/Editor/LumiRoleSetup.cs
+Assets/_Game/Scripts/UI/DesignKitArt.cs
+Assets/_Game/Scripts/UI/GameplayPanels.Leisure.cs
+Assets/_Game/Scripts/UI/GameplayPanels.LeisurePilots.cs
+Assets/_Game/Scripts/Validation/AppearanceReviewData.cs
+Assets/_Game/Scripts/Validation/AppearanceReviewData.cs.meta
+Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Appearance.cs
+Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Appearance.cs.meta
+Assets/_Game/Scripts/Validation/GameplaySmokeRunner.LeisurePilot.cs
+Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs
+Assets/_Game/Scripts/Validation/SliceSmokeRunner.cs
+
+Documentation/tools: Docs/Art/LUMI_CANONICAL_20261021.md; Docs/Art/NPC_CANONICAL_REGISTRY.json/md; Docs/Art/native-art-bindings.json; Docs/Art/ART_ASSET_CATALOG.md; Docs/Art/ART_SOURCE_INDEX.md; Docs/Art/art-asset-manifest.csv/json; Docs/Art/IdentityPolicy-20261017/VisualReview.html; Docs/Art/DESIGN_KIT_INTEGRATION_VI.md; Tools/art_asset_catalog.py; Tools/appearance_revision_audit.py; Tools/appearance_delivery.py; Tools/checkpoint_appearance_revision.py

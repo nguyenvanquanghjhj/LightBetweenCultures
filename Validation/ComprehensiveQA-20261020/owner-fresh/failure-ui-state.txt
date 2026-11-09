@@ -1,0 +1,3 @@
+Timed out: button EventClose
+Modal=False moving=False stage=1
+Buttons: ObjectiveHint:True:True,MarkerMotion:True:True,H3:True:True,H4:True:True,H17:False:False,H12:True:True,H13:True:True,H6:False:False,H15:False:False,Back:True:True,H16:False:False,H9:False:False,H2:True:True,H18:False:False,H8:False:False,ZoomOut:True:True,Inventory:True:True,FocusLumi:True:True,H0:True:True,MapOverview:True:True,H21:True:True,H1:True:True,ZoomIn:True:True,H20:False:False,H10:True:True,QuestJournal:True:True,H5:False:False,Interact:True:True,H11:True:True,H7:False:False,H14:False:False,H19:False:False,AudioSettings:True:True

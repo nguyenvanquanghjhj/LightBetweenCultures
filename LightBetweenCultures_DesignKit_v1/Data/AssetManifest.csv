@@ -1,0 +1,29 @@
+﻿group,asset_id,description,format,source_px,priority,scene,status
+Character,lumi_concept,"Gà chính tả chính gốc: nâu cam, mồng đỏ, áo navy, đai xanh, đèn vàng",PNG,1024x1024,P0,reference,REFERENCE_ONLY
+Character,lumi_walk_down,4 frame bước chân nhìn xuống,PNG spritesheet,4x(128x128),P0,exploration,NEEDS_CREATION
+Character,lumi_walk_up,4 frame bước chân nhìn lên,PNG spritesheet,4x(128x128),P0,exploration,NEEDS_CREATION
+Character,lumi_walk_left,4 frame bước chân nhìn trái,PNG spritesheet,4x(128x128),P0,exploration,NEEDS_CREATION
+Character,lumi_walk_right,4 frame bước chân nhìn phải,PNG spritesheet,4x(128x128),P0,exploration,NEEDS_CREATION
+Character,lumi_city_icon,Chibi con gà nhìn 3/4 cho di chuyển dọc node,PNG transparent,192x192,P0,citymap,NEEDS_CREATION
+NPC,co_mai_portrait,Bà bán đèn Hội An: họa tiết địa phương tinh tế,PNG transparent,512x512,P0,dialogue,NEEDS_CREATION
+NPC,co_mai_sprite,NPC toàn thân nhìn top-down 3/4,PNG transparent,128x160,P1,exploration,NEEDS_CREATION
+Environment,hoi_an_city_backdrop,"Bản đồ phố cổ góc nhìn trên xuống không icon, không chữ, không node",PNG,1536x2048,P0,citymap,NEEDS_CREATION
+Environment,floor_paving,"Đá lát, lặp không lộ viền",PNG seamless,64x64,P0,exploration,NEEDS_CREATION
+Environment,ground_soil,"Đất/cát nền, lặp không lộ viền",PNG seamless,64x64,P0,exploration,NEEDS_CREATION
+Environment,water_tiling,"Nước sông màu xanh lam ngọc, 3-4 biến thể",PNG tileset,4x(64x64),P1,exploration,NEEDS_CREATION
+Environment,roof_yellow_house,"Nhà cổ tường vàng, mái ngói, chân nhà xác định rõ",PNG transparent,512x512,P0,exploration,NEEDS_CREATION
+Environment,bridge_wood,Cầu gỗ và lan can riêng,PNG transparent,512x512,P1,exploration,NEEDS_CREATION
+Environment,tree_round,"Cây tán tròn, chân thân rõ làm gốc sorting",PNG transparent,256x384,P1,exploration,NEEDS_CREATION
+Environment,lantern_set,"Đèn lồng đỏ/vàng, loại treo",PNG transparent,4x(128x128),P0,exploration,NEEDS_CREATION
+Environment,crate,Thùng gỗ có điểm chặn,PNG transparent,128x128,P0,exploration,NEEDS_CREATION
+Environment,river_boat,Thuyền gỗ phụ cảnh,PNG transparent,256x384,P2,citymap,NEEDS_CREATION
+Environment,market_stall,Quầy hàng Hội An,PNG transparent,512x512,P2,citymap,NEEDS_CREATION
+UI,node_normal,Node đến được màu xanh ngọc,PNG transparent,128x128,P0,citymap,NEEDS_CREATION
+UI,node_locked,"Node bị khóa màu xám, khóa overlay riêng",PNG transparent,128x128,P0,citymap,NEEDS_CREATION
+UI,node_quest,Dấu ! nhiệm vụ nổi bật,PNG transparent,128x128,P0,citymap,NEEDS_CREATION
+UI,dialogue_panel,"Khung lời thoại sáng nền kem, viền nâu",9-slice PNG,1024x320,P0,dialogue,NEEDS_CREATION
+UI,inventory_icon_lens,Icon mắt đèn (linh kiện),PNG transparent,128x128,P0,exploration,NEEDS_CREATION
+UI,inventory_icon_core,Icon lõi đèn,PNG transparent,128x128,P1,inventory,NEEDS_CREATION
+UI,portrait_frame,Khung chân dung và tên NPC,9-slice PNG,512x256,P1,dialogue,NEEDS_CREATION
+Enemy,mo_01_placeholder,"Bot hộp tròn tối, lõi cam (concept không dùng combat ngay)",PNG transparent,256x256,P1,future,NEEDS_CREATION
+Effects,light_restore,Particle nhẹ đèn bùng sáng,PNG spritesheet,8x(128x128),P1,exploration,NEEDS_CREATION

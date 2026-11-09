@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "Builds\\Windows-LeisureVisuals-20261020\\LightBetweenCultures.exe",
+      "bytes": 667136,
+      "sha256": "ea5e643cc09def0d56d303c1afe9472b04b81566a5178e6ac3731ff354187ef4",
+      "mtimeUTC": "2026-10-20T06:00:07.886057+00:00"
+    },
+    {
+      "path": "Builds\\Windows-LeisureVisuals-20261020\\LightBetweenCultures_Data\\Managed\\Assembly-CSharp.dll",
+      "bytes": 1093632,
+      "sha256": "7ba0c1ac62c24318ae689304c015db7a045048465a9b6b2bc39b6df487654949",
+      "mtimeUTC": "2026-10-20T06:00:11.141113+00:00"
+    },
+    {
+      "path": "Builds\\Android\\LightBetweenCultures-GameFeel-20261020.apk",
+      "bytes": 289596824,
+      "sha256": "795cb2062e06bd2295e79c06c82bcbce503a97da278515be82b34b6c0bcae121",
+      "mtimeUTC": "2026-10-20T05:21:07.861668+00:00"
+    }
+  ],
+  "windows": "BUILD_SUCCEEDED_AND_540_RUNTIME_TARGETED_PASS",
+  "apk": "LAST_GOOD_GAMEFEEL_BUILD: predates the three leisure visual changes; no rebuild authorized",
+  "androidDevice": "NOT_TESTED"
+}

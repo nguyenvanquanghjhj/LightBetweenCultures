@@ -1,0 +1,9 @@
+{
+  "output": "Submission/KGW2026/LightBetweenCultures_Windows_20261020.zip",
+  "bytes": 348110010,
+  "sha256": "f39299696d4cce266b6223ed014ab63baa1340485df173d7448ef9f2a0f0f576",
+  "files": 231,
+  "zipIntegrity": "PASS",
+  "runtime": "Existing development Windows Player, no QA arguments by default",
+  "excluded": "Only debug symbols .pdb and Unity folders explicitly marked DontShip/DoNotShip; originals untouched"
+}

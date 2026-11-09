@@ -1,0 +1,272 @@
+{
+  "createdUTC": "2026-10-18T14:28:31.760085+00:00",
+  "type": "READ_ONLY_ROUTE_MARKUP_EXPORT_NOT_RUNTIME_SCREENSHOTS",
+  "checkpoint": {
+    "checkpoint": "D:\\GAMEKKK\\Backups\\CheckpointMapNpcMarkers-20261018",
+    "requiresBase": "D:\\GAMEKKK\\Backups\\CheckpointHoiAnStateB20-20261018",
+    "manifestSHA256": "76ab47a1d98ce689e12e3f5c63091dc5049b59c5e3e39a13c64e5f20a06998c3",
+    "files": 180,
+    "payloadBytes": 95842554,
+    "allCopiedHashesVerified": true
+  },
+  "referenceSave": "Validation/MapNpcMarkers-20261018/fresh02/npc-fresh-final.json",
+  "sourceHashesBeforeAndAfterIdentical": {
+    "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png": "0b2872b62a8b06dc1c08095cdea20fb540385032a64782e59e20acf11c7a444c",
+    "Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png.meta": "8cc656026e45559bee47c6ac2e2b4466755886a19db08f0c2af353ed5a48cdb9",
+    "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c",
+    "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png.meta": "0264a6cbabe71f999a0ff5f4caf553ac7dae75ce893cedf169c55c5affa3f099",
+    "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c",
+    "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png.meta": "b4c734dbdda45ad902c0010204fe8d1f7c5cb09542a37be060e4f38dc7d2ba15",
+    "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c",
+    "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png.meta": "1ae16506ea568e0f5794d433efc1d1f40fb2b1d5b09d325e8ec7100c4e035cee",
+    "Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png": "f1260ef1b4f718b989d55d907f50c99c341081263f3470bfda2d6fab1d2926c8",
+    "Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png.meta": "0c030dae06d23c5a24c6a9ad078641000a186f14c47fc95ed28e680754df0197",
+    "Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2",
+    "Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png.meta": "49da0b42afc0b34c298cc0a37c7598b74bc1b804042a614f71ea46c62d8a9e7c",
+    "Assets/_Game/Audio/Music/LBC_Battle_Korea.mp3": "039f56304106533e31117fe55c9fdef72b94165d2aa2bccc391977f9db978526",
+    "Assets/_Game/Audio/Music/LBC_Battle_Korea.mp3.meta": "dc036076d7d6f41cfefd771f72384d26c90541a3f2aec1affd9780501c0bec31",
+    "Assets/_Game/Audio/Music/LBC_Battle_Vietnam.mp3": "4c287d0123d1af4f07c876fd1793645a1a630b548b268fc27a139fea2bc5f385",
+    "Assets/_Game/Audio/Music/LBC_Battle_Vietnam.mp3.meta": "90c847d9110756b9c0faa4b0ead9eab4847ba8034e9e2f50c30c5da2f4bc2d12",
+    "Assets/_Game/Audio/Music/LBC_Map_Korea.mp3": "c9f4d72735f652d0f5c831f1ccb9f87adc5d9c8029561edeb926c6531e949e64",
+    "Assets/_Game/Audio/Music/LBC_Map_Korea.mp3.meta": "97be94d220fa0c63f5d5e8f8a031a388ad11daeb30f31708d5c594ec46068446",
+    "Assets/_Game/Audio/Music/LBC_Map_Vietnam.mp3": "07d89386f8ae0590ae85bf6bda40b6141327e7ce63c99a8dac2c573596c0cecb",
+    "Assets/_Game/Audio/Music/LBC_Map_Vietnam.mp3.meta": "8d0acff5b17c79846456085f6d0a6e76ffde0f0f4f475d34bf4ad1fef6d36434",
+    "Assets/_Game/Resources/AdventureUIArt.asset": "22b69fb00c0331b2a28acfa94b6b0c009daf0296073155c4ff3eabe804abd53f",
+    "Assets/_Game/Resources/Content/AdventurePresentation.json": "e278f3dcbcd2d463c7333d0952c48576eaf4024bafdd5db5e62ff53e2c99e769",
+    "Assets/_Game/Resources/Content/CulturalRelics.json": "d4e0297bf44094a1e742f5a6a206811360250753f74e480f4e65d0d9ff941a29",
+    "Assets/_Game/Resources/Content/GameplayContent.json": "368d47e73a67db3cc8bab751fb3f4d7d0c3f8e7698f1b2d7884a42d0a0a22b12",
+    "Assets/_Game/Resources/Content/HoiAnLighting.json": "05846fb64fa5211641e628edb141896661a2260b6a2e3ddaeb58b6c72a08bec9",
+    "Assets/_Game/Resources/DesignKitArt.asset": "3b1bc0c94732e76854f80a69255c5d4db032a52324518e6e6adb3d4d927c9ae1",
+    "Assets/_Game/Resources/HoiAnData.json": "e2961e1b1807325a071e4a52c26ca5708fc9b56fd2b39790f81c21b0fab49011",
+    "Assets/_Game/Scripts/Core/GameData.cs": "824460c9756d79a6c65969555994389ca3f8140b851d92198bf75b4098da49e3",
+    "Assets/_Game/Scripts/Core/SaveSystem.cs": "5ddd7ad4d0d8ef15de6c405051d87f259c4faf922f528f0cf5a5055a23fcdaf5",
+    "Assets/_Game/Scripts/Maps/CityMap.cs": "b96d99169961ee18c679afa2637cedd3593d7e1974d7a9b559e30f95f22bd812",
+    "Assets/_Game/Scripts/Maps/CityMapPaths.cs": "385f0c15f1821d1f22fab365ce5c96a87612bf3a3ec5cdf1f4e2e9692ace276d",
+    "Assets/_Game/Scripts/Maps/CityRouteGeometry.cs": "ee9f0de95eeb8a6b804759c3fea3210f250280d19c3679134fa1eff0315a8fda",
+    "Assets/_Game/Scripts/Maps/MapDiscoveryManager.cs": "a93a1b44ebc3b97ab1e77f9e709dcb02168de98c6199e6179c2797531fbf7b0a",
+    "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/DaLat/Map_Overview_A.png": "0b2872b62a8b06dc1c08095cdea20fb540385032a64782e59e20acf11c7a444c",
+    "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Gyeongju/Map_Overview_A.png": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c",
+    "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/HoiAn/Map_Overview_A.png": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c",
+    "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Hue/Map_Overview_A.png": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c",
+    "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Jeonju/Map_Overview_A.png": "f1260ef1b4f718b989d55d907f50c99c341081263f3470bfda2d6fab1d2926c8",
+    "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Seoul/Map_Overview_A.png": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2",
+    "ProjectSettings/ProjectSettings.asset": "35085c672985cf3f4723e67f729741d82e2cd361b283266016e4eb9d6544ed70",
+    "Validation/MapNpcMarkers-20261018/fresh02/npc-fresh-final.json": "b1877c2533b0f9befa3c4546109f97ed199716a2925a8ff4aba18dff90e9e320"
+  },
+  "inputsUnchanged": true,
+  "geometryImplementation": "GameData.Load + CityRouteGeometry.Points; no simplification",
+  "cities": [
+    {
+      "cityId": "hoi_an",
+      "nodes": 22,
+      "edges": 22,
+      "intermediateWaypoints": 384,
+      "canonicalPixelsMatch": true,
+      "allNodeAndEdgeLabelsExported": true,
+      "allPolylineVerticesPreserved": true,
+      "referenceStage": 4,
+      "visibleRoutesInReference": 20
+    },
+    {
+      "cityId": "hue",
+      "nodes": 22,
+      "edges": 28,
+      "intermediateWaypoints": 192,
+      "canonicalPixelsMatch": true,
+      "allNodeAndEdgeLabelsExported": true,
+      "allPolylineVerticesPreserved": true,
+      "referenceStage": 0,
+      "visibleRoutesInReference": 7
+    },
+    {
+      "cityId": "da_lat",
+      "nodes": 22,
+      "edges": 26,
+      "intermediateWaypoints": 358,
+      "canonicalPixelsMatch": true,
+      "allNodeAndEdgeLabelsExported": true,
+      "allPolylineVerticesPreserved": true,
+      "referenceStage": 0,
+      "visibleRoutesInReference": 6
+    },
+    {
+      "cityId": "jeonju",
+      "nodes": 22,
+      "edges": 30,
+      "intermediateWaypoints": 213,
+      "canonicalPixelsMatch": true,
+      "allNodeAndEdgeLabelsExported": true,
+      "allPolylineVerticesPreserved": true,
+      "referenceStage": 0,
+      "visibleRoutesInReference": 3
+    },
+    {
+      "cityId": "gyeongju",
+      "nodes": 22,
+      "edges": 25,
+      "intermediateWaypoints": 149,
+      "canonicalPixelsMatch": true,
+      "allNodeAndEdgeLabelsExported": true,
+      "allPolylineVerticesPreserved": true,
+      "referenceStage": 0,
+      "visibleRoutesInReference": 5
+    },
+    {
+      "cityId": "seoul",
+      "nodes": 23,
+      "edges": 24,
+      "intermediateWaypoints": 126,
+      "canonicalPixelsMatch": true,
+      "allNodeAndEdgeLabelsExported": true,
+      "allPolylineVerticesPreserved": true,
+      "referenceStage": 0,
+      "visibleRoutesInReference": 5
+    }
+  ],
+  "files": [
+    {
+      "path": "DaLat_Routes_3840.png",
+      "bytes": 18327410,
+      "sha256": "b8133d1406947d65c62c3a9e09300e56a4f10c4d0767f1fbde9cafef22dcc377"
+    },
+    {
+      "path": "DaLat_Waypoints_3840.png",
+      "bytes": 18125566,
+      "sha256": "0cd11474bb792478f1dc39e873847bf4ab1eca65a1be7f6a54b2b61404811538"
+    },
+    {
+      "path": "edge-id-registry.json",
+      "bytes": 4750,
+      "sha256": "1e871e26325bec19a00091deb5bd207a470cc59cfa8425561369b5e46c85555a"
+    },
+    {
+      "path": "edge_mapping.csv",
+      "bytes": 67159,
+      "sha256": "87ea53bb2b4f4f98af23f1969e5c886e10ae2c030ec50909ab926ed1ccaa9dc7"
+    },
+    {
+      "path": "edge_mapping.json",
+      "bytes": 734149,
+      "sha256": "62ba6d8e4a110bbec24518f01a8519f0f2ae28b9906a11e303d4c7e0e59340b4"
+    },
+    {
+      "path": "Gyeongju_Routes_3840.png",
+      "bytes": 18602977,
+      "sha256": "66dceef3bc4ede65fca76f71c7a1914c2d55fbf1075916b8d23dbd64318928bd"
+    },
+    {
+      "path": "Gyeongju_Waypoints_3840.png",
+      "bytes": 18535589,
+      "sha256": "108ada1bae5056f2fb43137b6a9c939dc44e538b81aca7b27ffd4a1a04361796"
+    },
+    {
+      "path": "HoiAn_Routes_3840.png",
+      "bytes": 16872757,
+      "sha256": "5975f6ff59a86d7e40d166c9cfd670e1b91680800860fe98a8fc3fe1e3b6622e"
+    },
+    {
+      "path": "HoiAn_Waypoints_3840.png",
+      "bytes": 16683642,
+      "sha256": "b83544e8b4738cdf064fc3fdf4c8ec79ffaa455d5f957515e91c25eab7074730"
+    },
+    {
+      "path": "Hue_Routes_3840.png",
+      "bytes": 18309253,
+      "sha256": "4cc755c7c3e9e08b827d5333b4dcb2224f204e48988a154d569361092fd203cb"
+    },
+    {
+      "path": "Hue_Waypoints_3840.png",
+      "bytes": 18226782,
+      "sha256": "9b10f699f9d2714ec23390846db6cc58cc2923eb7cd2f909f3b9b7c898b0f90e"
+    },
+    {
+      "path": "Jeonju_Routes_3840.png",
+      "bytes": 19430583,
+      "sha256": "539cc9bff2a848f21593cc45d53ead5a473da922d584361ad191f876bf534113"
+    },
+    {
+      "path": "Jeonju_Waypoints_3840.png",
+      "bytes": 19349225,
+      "sha256": "4dd659e70fe57eb24db68054a644ac688656c006f8265e43690a6a94a76e2846"
+    },
+    {
+      "path": "label-layout.json",
+      "bytes": 497644,
+      "sha256": "aee099184f28c9225c1127df04b410093c7a314cb2dbfea0a64ecd7d14eee057"
+    },
+    {
+      "path": "Native/DaLat_MapA_native.png",
+      "bytes": 4064740,
+      "sha256": "0b2872b62a8b06dc1c08095cdea20fb540385032a64782e59e20acf11c7a444c"
+    },
+    {
+      "path": "Native/Gyeongju_MapA_native.png",
+      "bytes": 4079782,
+      "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c"
+    },
+    {
+      "path": "Native/HoiAn_MapA_native.png",
+      "bytes": 3694429,
+      "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c"
+    },
+    {
+      "path": "Native/Hue_MapA_native.png",
+      "bytes": 4021351,
+      "sha256": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c"
+    },
+    {
+      "path": "Native/Jeonju_MapA_native.png",
+      "bytes": 4330806,
+      "sha256": "f1260ef1b4f718b989d55d907f50c99c341081263f3470bfda2d6fab1d2926c8"
+    },
+    {
+      "path": "Native/Seoul_MapA_native.png",
+      "bytes": 4100855,
+      "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5184,
+      "sha256": "55243c11dc0a4780c5b31698eab3904f10edf3466ca53e0cafa87bbebc6214a1"
+    },
+    {
+      "path": "RouteReview.html",
+      "bytes": 324097,
+      "sha256": "2d5f8d6b4e0bb836171c1f5b5962de66eae38c00511732fdde1b4029413f4609"
+    },
+    {
+      "path": "Seoul_Routes_3840.png",
+      "bytes": 18672726,
+      "sha256": "c632ceae0b221d31ac020125b1947b2362490fdc01054cbcfebef800f6cb65f6"
+    },
+    {
+      "path": "Seoul_Waypoints_3840.png",
+      "bytes": 18615192,
+      "sha256": "e53b93596438a8b02326d31b5b49135af8cc6fa167f26d7fe4f78c43040776a4"
+    },
+    {
+      "path": "waypoint_mapping.csv",
+      "bytes": 153961,
+      "sha256": "64a6927859c78a9923e36de1994c8b55ab3ef0501b9826fc8b09f4832b766d63"
+    },
+    {
+      "path": "ReviewContactSheet_NOT_FOR_MARKUP.jpg",
+      "bytes": 3594475,
+      "sha256": "0ff417d5e925f022c6e703f7afb93fabab559f22b1a8f89ce63214cf1bf83764"
+    }
+  ],
+  "independentValidation": {
+    "all18PNGDecoded": true,
+    "all155CSVEdgesMatchJSON": true,
+    "all1422InternalBendsMatchLiveSourceExactly": true,
+    "all1732FullPolylineVerticesRetained": true,
+    "sixOverviewsVisuallyInspected": true,
+    "denseHoiAnWaypointViewInspected": true,
+    "productionAndAudioAndReferenceSaveHashesRechecked": true,
+    "noRuntimeBuildRequired": true
+  },
+  "exportTool": {
+    "path": "Tools/export_route_markup.py",
+    "sha256": "ab31d88dfe2f09aadcfb7ca963e8b0f420f7f21d328cb0b374b47ad46c9b6214"
+  }
+}

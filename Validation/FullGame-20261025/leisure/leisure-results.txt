@@ -1,0 +1,40 @@
+UTC run: 2026-10-25T06:19:41.0072415Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only real enabled activity nodes receive a leisure badge: H0
+PASS: Only real enabled activity nodes receive a leisure badge: H1
+PASS: Only real enabled activity nodes receive a leisure badge: H2
+PASS: Only real enabled activity nodes receive a leisure badge: H3
+PASS: Only real enabled activity nodes receive a leisure badge: H4
+PASS: Only real enabled activity nodes receive a leisure badge: H5
+PASS: Only real enabled activity nodes receive a leisure badge: H6
+PASS: Only real enabled activity nodes receive a leisure badge: H7
+PASS: Only real enabled activity nodes receive a leisure badge: H8
+PASS: Only real enabled activity nodes receive a leisure badge: H9
+PASS: Existing star art reused without a touch blocker: H9
+PASS: Leisure badge obeys real discovery: H9
+PASS: Leisure badge stays readable through zoom: H9
+PASS: Only real enabled activity nodes receive a leisure badge: H10
+PASS: Only real enabled activity nodes receive a leisure badge: H11
+PASS: Only real enabled activity nodes receive a leisure badge: H12
+PASS: Only real enabled activity nodes receive a leisure badge: H13
+PASS: Only real enabled activity nodes receive a leisure badge: H14
+PASS: Only real enabled activity nodes receive a leisure badge: H15
+PASS: Only real enabled activity nodes receive a leisure badge: H16
+PASS: Existing star art reused without a touch blocker: H16
+PASS: Leisure badge obeys real discovery: H16
+PASS: Leisure badge stays readable through zoom: H16
+PASS: Only real enabled activity nodes receive a leisure badge: H17
+PASS: Only real enabled activity nodes receive a leisure badge: H18
+PASS: Only real enabled activity nodes receive a leisure badge: H19
+PASS: Only real enabled activity nodes receive a leisure badge: H20
+PASS: Only real enabled activity nodes receive a leisure badge: H21
+PASS: Closing an event or battle returns map input to the player
+System.Exception: FAIL: Travel target H9 is discovered
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<Travel>d__322.MoveNext () [0x000ad] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:234 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__310.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

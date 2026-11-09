@@ -1,0 +1,28 @@
+UTC run: 2026-10-21T00:33:55.5859457Z | Unity 6000.6.5f1 | 540x960
+PASS: Leisure coexistence starts from earned old22-proof save, no injected flags
+PASS: Old save without optional history retains exact puzzle/items, zero blanket grants
+PASS: Corrupt main recovers valid backup
+PASS: Recovered write preserves valid backup and quarantines corrupt primary
+PASS: Interrupted-write recovery preserves only valid temporary save
+PASS: All corrupt blocks writes without overwriting recoverable evidence
+PASS: v1 optional initialization preserves old inventory/proofs
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H9 is discovered
+PASS: Lumi reaches H9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Approved activity bound to existing node: H9
+PASS: Static map prop has real sprite and no input/collider: H9
+PASS: Fresh runtime capture written: SL-H9-static-prop
+PASS: Separate activity window blocks map and does not win on open: H9
+PASS: Closing an event or battle returns map input to the player
+PASS: Early close preserves exact story/reward state, no optional clear: H9
+PASS: Fresh runtime capture written: SL-H9-Lumi-prototype
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LightBetweenCultures.GameplaySmokeRunner+<>c.<SLLeisure>b__237_0 () [0x00000] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.StoryLeisure.cs:128 
+  at LightBetweenCultures.GameplaySmokeRunner+<Until>d__277.MoveNext () [0x001d7] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:98 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__276.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

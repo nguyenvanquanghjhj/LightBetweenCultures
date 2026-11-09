@@ -1,0 +1,11 @@
+{
+  "changed": [
+    "Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png",
+    "Assets/_Game/Scripts/Core/SaveSystem.cs",
+    "Assets/_Game/Scripts/Editor/Phase5Setup.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.ReleaseCandidate.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.ReleaseCandidate.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs"
+  ],
+  "deleted": []
+}

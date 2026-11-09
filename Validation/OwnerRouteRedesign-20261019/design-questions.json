@@ -1,0 +1,521 @@
+[
+  {
+    "id": "R1",
+    "kind": "FERRY_TRANSITION",
+    "cityId": "hoi_an",
+    "strokeId": "H-FS001",
+    "startInputPixel": [
+      219,
+      496
+    ],
+    "endInputPixel": [
+      268,
+      511
+    ],
+    "nearStart": [
+      {
+        "node": "H0",
+        "anchor": "arrival",
+        "distancePixels": 4.65
+      },
+      {
+        "node": "H11",
+        "anchor": "position",
+        "distancePixels": 50.85
+      },
+      {
+        "node": "H0",
+        "anchor": "position",
+        "distancePixels": 52.73
+      },
+      {
+        "node": "H11",
+        "anchor": "arrival",
+        "distancePixels": 59.97
+      }
+    ],
+    "nearEnd": [
+      {
+        "node": "H0",
+        "anchor": "position",
+        "distancePixels": 1.64
+      },
+      {
+        "node": "H0",
+        "anchor": "arrival",
+        "distancePixels": 55.78
+      },
+      {
+        "node": "H11",
+        "anchor": "arrival",
+        "distancePixels": 72.17
+      },
+      {
+        "node": "H11",
+        "anchor": "position",
+        "distancePixels": 76.92
+      }
+    ],
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\R1-hoi_an-ferry.png",
+    "cropBoxInputPixels": [
+      144,
+      431,
+      343,
+      576
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "question": "Xác nhận A/B là điểm lên/xuống thuyền ở giữa tuyến; cần biết tuyến nối những node nào. Không tự gán cả cạnh thành thuyền hoặc đổi arrival."
+  },
+  {
+    "id": "A-H10",
+    "kind": "ARRIVAL_CONNECTOR",
+    "cityId": "hoi_an",
+    "nodeId": "H10",
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\A-hoi_an-H10.png",
+    "cropBoxInputPixels": [
+      41,
+      295,
+      134,
+      406
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "distancePixels": 19.1,
+    "question": "Nét đi qua gần marker, nhưng điểm đứng đã khóa nằm lệch. Có cho phép một đoạn nối tiếp cận ngắn, giữ nguyên điểm đứng, hay cần tuyến khác?"
+  },
+  {
+    "id": "R2",
+    "kind": "FERRY_TRANSITION",
+    "cityId": "da_lat",
+    "strokeId": "D-FS001",
+    "startInputPixel": [
+      628,
+      362
+    ],
+    "endInputPixel": [
+      647,
+      399
+    ],
+    "nearStart": [
+      {
+        "node": "D13",
+        "anchor": "arrival",
+        "distancePixels": 82.86
+      },
+      {
+        "node": "D13",
+        "anchor": "position",
+        "distancePixels": 82.86
+      },
+      {
+        "node": "D21",
+        "anchor": "arrival",
+        "distancePixels": 87.47
+      },
+      {
+        "node": "D21",
+        "anchor": "position",
+        "distancePixels": 87.47
+      }
+    ],
+    "nearEnd": [
+      {
+        "node": "D21",
+        "anchor": "arrival",
+        "distancePixels": 46.59
+      },
+      {
+        "node": "D21",
+        "anchor": "position",
+        "distancePixels": 46.59
+      },
+      {
+        "node": "D13",
+        "anchor": "arrival",
+        "distancePixels": 112.35
+      },
+      {
+        "node": "D13",
+        "anchor": "position",
+        "distancePixels": 112.35
+      }
+    ],
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\R2-da_lat-ferry.png",
+    "cropBoxInputPixels": [
+      552,
+      297,
+      722,
+      464
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "question": "Xác nhận A/B là điểm lên/xuống thuyền ở giữa tuyến; cần biết tuyến nối những node nào. Không tự gán cả cạnh thành thuyền hoặc đổi arrival."
+  },
+  {
+    "id": "A-J7",
+    "kind": "ARRIVAL_CONNECTOR",
+    "cityId": "jeonju",
+    "nodeId": "J7",
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\A-jeonju-J7.png",
+    "cropBoxInputPixels": [
+      234,
+      105,
+      325,
+      210
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "distancePixels": 14.04,
+    "question": "Nét đi qua gần marker, nhưng điểm đứng đã khóa nằm lệch. Có cho phép một đoạn nối tiếp cận ngắn, giữ nguyên điểm đứng, hay cần tuyến khác?"
+  },
+  {
+    "id": "R3",
+    "kind": "FERRY_TRANSITION",
+    "cityId": "gyeongju",
+    "strokeId": "G-FS001",
+    "startInputPixel": [
+      130,
+      240
+    ],
+    "endInputPixel": [
+      178,
+      308
+    ],
+    "nearStart": [
+      {
+        "node": "G17",
+        "anchor": "arrival",
+        "distancePixels": 6.23
+      },
+      {
+        "node": "G17",
+        "anchor": "position",
+        "distancePixels": 33.33
+      },
+      {
+        "node": "G5",
+        "anchor": "arrival",
+        "distancePixels": 79.66
+      },
+      {
+        "node": "G2",
+        "anchor": "position",
+        "distancePixels": 86.1
+      }
+    ],
+    "nearEnd": [
+      {
+        "node": "G2",
+        "anchor": "position",
+        "distancePixels": 7.39
+      },
+      {
+        "node": "G2",
+        "anchor": "arrival",
+        "distancePixels": 13.44
+      },
+      {
+        "node": "G17",
+        "anchor": "arrival",
+        "distancePixels": 88.03
+      },
+      {
+        "node": "G17",
+        "anchor": "position",
+        "distancePixels": 102.62
+      }
+    ],
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\R3-gyeongju-ferry.png",
+    "cropBoxInputPixels": [
+      55,
+      175,
+      253,
+      373
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "question": "Xác nhận A/B là điểm lên/xuống thuyền ở giữa tuyến; cần biết tuyến nối những node nào. Không tự gán cả cạnh thành thuyền hoặc đổi arrival."
+  },
+  {
+    "id": "R4",
+    "kind": "FERRY_TRANSITION",
+    "cityId": "gyeongju",
+    "strokeId": "G-FS002",
+    "startInputPixel": [
+      133,
+      402
+    ],
+    "endInputPixel": [
+      145,
+      338
+    ],
+    "nearStart": [
+      {
+        "node": "G21",
+        "anchor": "arrival",
+        "distancePixels": 79.93
+      },
+      {
+        "node": "G21",
+        "anchor": "position",
+        "distancePixels": 90.42
+      },
+      {
+        "node": "G2",
+        "anchor": "arrival",
+        "distancePixels": 91.0
+      },
+      {
+        "node": "G2",
+        "anchor": "position",
+        "distancePixels": 96.92
+      }
+    ],
+    "nearEnd": [
+      {
+        "node": "G2",
+        "anchor": "arrival",
+        "distancePixels": 31.6
+      },
+      {
+        "node": "G2",
+        "anchor": "position",
+        "distancePixels": 37.45
+      },
+      {
+        "node": "G17",
+        "anchor": "arrival",
+        "distancePixels": 101.68
+      },
+      {
+        "node": "G17",
+        "anchor": "position",
+        "distancePixels": 104.68
+      }
+    ],
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\R4-gyeongju-ferry.png",
+    "cropBoxInputPixels": [
+      58,
+      273,
+      220,
+      467
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "question": "Xác nhận A/B là điểm lên/xuống thuyền ở giữa tuyến; cần biết tuyến nối những node nào. Không tự gán cả cạnh thành thuyền hoặc đổi arrival."
+  },
+  {
+    "id": "A-G6",
+    "kind": "ARRIVAL_CONNECTOR",
+    "cityId": "gyeongju",
+    "nodeId": "G6",
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\A-gyeongju-G6.png",
+    "cropBoxInputPixels": [
+      182,
+      110,
+      273,
+      217
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "distancePixels": 15.0,
+    "question": "Nét đi qua gần marker, nhưng điểm đứng đã khóa nằm lệch. Có cho phép một đoạn nối tiếp cận ngắn, giữ nguyên điểm đứng, hay cần tuyến khác?"
+  },
+  {
+    "id": "A-G7",
+    "kind": "ARRIVAL_CONNECTOR",
+    "cityId": "gyeongju",
+    "nodeId": "G7",
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\A-gyeongju-G7.png",
+    "cropBoxInputPixels": [
+      407,
+      209,
+      517,
+      315
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "distancePixels": 19.92,
+    "question": "Nét đi qua gần marker, nhưng điểm đứng đã khóa nằm lệch. Có cho phép một đoạn nối tiếp cận ngắn, giữ nguyên điểm đứng, hay cần tuyến khác?"
+  },
+  {
+    "id": "R5",
+    "kind": "FERRY_TRANSITION",
+    "cityId": "seoul",
+    "strokeId": "S-FS001",
+    "startInputPixel": [
+      296,
+      477
+    ],
+    "endInputPixel": [
+      333,
+      453
+    ],
+    "nearStart": [
+      {
+        "node": "S14",
+        "anchor": "position",
+        "distancePixels": 24.5
+      },
+      {
+        "node": "S14",
+        "anchor": "arrival",
+        "distancePixels": 77.26
+      },
+      {
+        "node": "S12",
+        "anchor": "arrival",
+        "distancePixels": 84.56
+      },
+      {
+        "node": "S12",
+        "anchor": "position",
+        "distancePixels": 117.38
+      }
+    ],
+    "nearEnd": [
+      {
+        "node": "S12",
+        "anchor": "arrival",
+        "distancePixels": 40.57
+      },
+      {
+        "node": "S14",
+        "anchor": "position",
+        "distancePixels": 47.25
+      },
+      {
+        "node": "S0",
+        "anchor": "position",
+        "distancePixels": 74.19
+      },
+      {
+        "node": "S12",
+        "anchor": "position",
+        "distancePixels": 74.28
+      }
+    ],
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\R5-seoul-ferry.png",
+    "cropBoxInputPixels": [
+      221,
+      388,
+      412,
+      542
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "question": "Xác nhận A/B là điểm lên/xuống thuyền ở giữa tuyến; cần biết tuyến nối những node nào. Không tự gán cả cạnh thành thuyền hoặc đổi arrival."
+  },
+  {
+    "id": "A-S0",
+    "kind": "ARRIVAL_CONNECTOR",
+    "cityId": "seoul",
+    "nodeId": "S0",
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\A-seoul-S0.png",
+    "cropBoxInputPixels": [
+      357,
+      382,
+      460,
+      488
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "distancePixels": 16.12,
+    "question": "Nét đi qua gần marker, nhưng điểm đứng đã khóa nằm lệch. Có cho phép một đoạn nối tiếp cận ngắn, giữ nguyên điểm đứng, hay cần tuyến khác?"
+  },
+  {
+    "id": "A-S5",
+    "kind": "ARRIVAL_CONNECTOR",
+    "cityId": "seoul",
+    "nodeId": "S5",
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\A-seoul-S5.png",
+    "cropBoxInputPixels": [
+      394,
+      207,
+      526,
+      305
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "distancePixels": 32.45,
+    "question": "Nét đi qua gần marker, nhưng điểm đứng đã khóa nằm lệch. Có cho phép một đoạn nối tiếp cận ngắn, giữ nguyên điểm đứng, hay cần tuyến khác?"
+  },
+  {
+    "id": "A-S8",
+    "kind": "ARRIVAL_CONNECTOR",
+    "cityId": "seoul",
+    "nodeId": "S8",
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\A-seoul-S8.png",
+    "cropBoxInputPixels": [
+      403,
+      184,
+      547,
+      281
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "distancePixels": 20.62,
+    "question": "Nét đi qua gần marker, nhưng điểm đứng đã khóa nằm lệch. Có cho phép một đoạn nối tiếp cận ngắn, giữ nguyên điểm đứng, hay cần tuyến khác?"
+  },
+  {
+    "id": "X1",
+    "kind": "CONNECTIVITY_REVIEW",
+    "cityId": "hoi_an",
+    "inputPixel": [
+      189,
+      254
+    ],
+    "title": "Nhánh tây, giữa H1 / H10 / H21 / H9",
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\X1-hoi_an-junction.png",
+    "cropBoxInputPixels": [
+      104,
+      179,
+      274,
+      329
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "question": "Nét chạm/cắt nhau ở đây có cho phép rẽ chuyển tuyến, hay chỉ đi theo từng nét mà không nối? Không tự xem giao điểm là giao lộ."
+  },
+  {
+    "id": "X3",
+    "kind": "CONNECTIVITY_REVIEW",
+    "cityId": "jeonju",
+    "inputPixel": [
+      530,
+      420
+    ],
+    "title": "Nét gặp nhau phía tây J15 / J5, trên đường từ J16",
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\X3-jeonju-junction.png",
+    "cropBoxInputPixels": [
+      445,
+      345,
+      615,
+      495
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "question": "Nét chạm/cắt nhau ở đây có cho phép rẽ chuyển tuyến, hay chỉ đi theo từng nét mà không nối? Không tự xem giao điểm là giao lộ."
+  },
+  {
+    "id": "X4",
+    "kind": "CONNECTIVITY_REVIEW",
+    "cityId": "gyeongju",
+    "inputPixel": [
+      341,
+      518
+    ],
+    "title": "Nét gặp nhau phía đông G0, gần lối đến G16",
+    "image": "Validation\\OwnerRouteRedesign-20261019\\review-crops\\X4-gyeongju-junction.png",
+    "cropBoxInputPixels": [
+      256,
+      443,
+      426,
+      593
+    ],
+    "scale": 2,
+    "interpolation": "nearest - inspection only, not runtime art",
+    "question": "Nét chạm/cắt nhau ở đây có cho phép rẽ chuyển tuyến, hay chỉ đi theo từng nét mà không nối? Không tự xem giao điểm là giao lộ."
+  }
+]

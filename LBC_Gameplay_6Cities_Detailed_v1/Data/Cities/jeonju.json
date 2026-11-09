@@ -1,0 +1,1033 @@
+{
+  "schema_version": 1,
+  "design_only": true,
+  "city_id": "jeonju",
+  "city_name": "Jeonju",
+  "map_background_relative_to_NEW_ART_PACK": "Maps/Jeonju/Map_Overview_A.png",
+  "spawn_node_id": "J0",
+  "city_completion_flag": "jeonju.beacon_lit",
+  "visual_identity": "Làng hanok – hanji – mái ngói – sân cổ",
+  "coordinate_system": {
+    "origin": "top_left",
+    "x_range": [
+      0,
+      1000
+    ],
+    "y_range": [
+      0,
+      1000
+    ],
+    "note": "x,y are approximate 2D design anchors; manual adjust for actual walkable road; normalized UI position = (x/1000,y/1000), Unity world y often inverted."
+  },
+  "city_story": {
+    "opening": "Làng hanok đang chuẩn bị buổi trưng bày đèn hanji, nhưng khuôn hoa văn bị chia thành ba mảnh và người đưa kiện hàng biến mất.",
+    "main": "Giúp Hana J2: lấy mảnh 1 từ gấp giấy J7, mảnh 2 trong bưu kiện giữ bởi bot J6, mảnh 3 ở đài J11. Dùng thứ tự mẫu đèn được mở ở Hội An để giải đèn J17, thắp trạm J19.",
+    "twist": "Lá thư gửi ngược về Hội An ở J21 cho biết một chiếc đèn “bị đánh cắp” đang được dùng che chở cho linh hồn lạc; người chơi mở sidequest cứu đèn tại H9.",
+    "end": "Mở Gyeongju, gửi mạch đèn hanji đến Seoul."
+  },
+  "nodes": [
+    {
+      "id": "J0",
+      "name": "Cổng làng phía nam",
+      "x": 497,
+      "y": 907,
+      "kind": "start",
+      "event_id": "intro",
+      "description": "Lumi tới Jeonju qua cổng giao lưu",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "J1",
+      "name": "Ngã ba hanok",
+      "x": 463,
+      "y": 398,
+      "kind": "junction",
+      "event_id": "center",
+      "description": "Quảng trường cây phong và tiểu cảnh",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "J2",
+      "name": "Nghệ nhân Hana",
+      "x": 666,
+      "y": 473,
+      "kind": "npc",
+      "event_id": "npc_hana",
+      "description": "Cần ba mảnh hoa văn để sửa đèn hanji",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "J3",
+      "name": "Xưởng nhuộm vải",
+      "x": 312,
+      "y": 333,
+      "kind": "puzzle",
+      "event_id": "puzzle_dye",
+      "description": "Khôi phục sắc hoa văn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "J4",
+      "name": "Nhà thầy Yoon",
+      "x": 435,
+      "y": 245,
+      "kind": "npc",
+      "event_id": "npc_yoon",
+      "description": "Đọc hướng dẫn chuỗi họa tiết",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "J5",
+      "name": "Tiệm hàng chuyển",
+      "x": 684,
+      "y": 566,
+      "kind": "npc",
+      "event_id": "npc_parcel",
+      "description": "Thương nhân mất bưu kiện",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "J6",
+      "name": "Bot Cắp Kiện",
+      "x": 822,
+      "y": 631,
+      "kind": "enemy",
+      "event_id": "enemy_parcel_bot",
+      "description": "Giữ bưu kiện và mảnh hoa văn 2",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "J7",
+      "name": "Thư viện giấy hanji",
+      "x": 331,
+      "y": 202,
+      "kind": "puzzle",
+      "event_id": "puzzle_hanji",
+      "description": "Gấp giấy theo mẫu nhận mảnh 1",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "J8",
+      "name": "Cầu đá tây",
+      "x": 257,
+      "y": 455,
+      "kind": "junction",
+      "event_id": "west_bridge",
+      "description": "Lối qua suối hẹp",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "J9",
+      "name": "Bờ suối nước chảy",
+      "x": 127,
+      "y": 518,
+      "kind": "enemy",
+      "event_id": "enemy_paper_crane",
+      "description": "Hạc giấy nhiễu canh đường",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "J10",
+      "name": "Rương ven hồ",
+      "x": 105,
+      "y": 793,
+      "kind": "item",
+      "event_id": "loot_pond",
+      "description": "Rương có sáp và tiền",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "J11",
+      "name": "Đài ngắm mái ngói",
+      "x": 736,
+      "y": 130,
+      "kind": "item",
+      "event_id": "loot_rooftop",
+      "description": "Mảnh hoa văn 3 ở nơi ngắm cảnh",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "J12",
+      "name": "Sân thêu họa tiết",
+      "x": 735,
+      "y": 303,
+      "kind": "puzzle",
+      "event_id": "puzzle_embroidery",
+      "description": "Ghép 3 mảnh và ký hiệu Hội An",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "J13",
+      "name": "Cổng sân cổ",
+      "x": 554,
+      "y": 181,
+      "kind": "junction",
+      "event_id": "old_gate",
+      "description": "Điểm hội tụ đường phía bắc",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "J14",
+      "name": "Bot Hoa Văn",
+      "x": 846,
+      "y": 350,
+      "kind": "enemy",
+      "event_id": "enemy_pattern_bot",
+      "description": "Bot khóa câu đố thêu bằng từ trường",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "J15",
+      "name": "Chợ hanok",
+      "x": 659,
+      "y": 678,
+      "kind": "npc",
+      "event_id": "npc_snack_seller",
+      "description": "Bán vật phẩm hồi phục",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "J16",
+      "name": "Người giữ chuyện",
+      "x": 415,
+      "y": 551,
+      "kind": "npc",
+      "event_id": "npc_elder",
+      "description": "Kể về cổng từ Hội An",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "J17",
+      "name": "Đèn song thành",
+      "x": 533,
+      "y": 351,
+      "kind": "puzzle",
+      "event_id": "puzzle_lantern",
+      "description": "Đèn khớp khi Hội An đã được thắp",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "J18",
+      "name": "Hạc giấy bóng tối",
+      "x": 814,
+      "y": 845,
+      "kind": "boss",
+      "event_id": "enemy_crane_boss",
+      "description": "Boss bảo vệ máy cắt hoa văn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "boss_arena"
+    },
+    {
+      "id": "J19",
+      "name": "Trạm ánh sáng hanji",
+      "x": 567,
+      "y": 115,
+      "kind": "beacon",
+      "event_id": "restore_jeonju",
+      "description": "Đài sáng khi đủ mảnh và giải đèn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "J20",
+      "name": "Cổng đi Gyeongju",
+      "x": 883,
+      "y": 155,
+      "kind": "portal",
+      "event_id": "portal_gyeongju",
+      "description": "Mở đường di tích Silla",
+      "visible_when": {
+        "all_flags": [
+          "jeonju.beacon_lit"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "J21",
+      "name": "Lối thư hồi âm",
+      "x": 152,
+      "y": 263,
+      "kind": "secret",
+      "event_id": "secret_hoi_an_reply",
+      "description": "Thông điệp quay về Hội An",
+      "visible_when": {
+        "all_flags": [
+          "jeonju.hidden_letter_found"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    }
+  ],
+  "edges": [
+    {
+      "id": "J0__J10",
+      "from": "J0",
+      "to": "J10",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J0__J15",
+      "from": "J0",
+      "to": "J15",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J0__J16",
+      "from": "J0",
+      "to": "J16",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J16__J1",
+      "from": "J16",
+      "to": "J1",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J1__J2",
+      "from": "J1",
+      "to": "J2",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J1__J3",
+      "from": "J1",
+      "to": "J3",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J1__J17",
+      "from": "J1",
+      "to": "J17",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J2__J5",
+      "from": "J2",
+      "to": "J5",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J5__J6",
+      "from": "J5",
+      "to": "J6",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J5__J15",
+      "from": "J5",
+      "to": "J15",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J6__J18",
+      "from": "J6",
+      "to": "J18",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J18__J0",
+      "from": "J18",
+      "to": "J0",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J3__J8",
+      "from": "J3",
+      "to": "J8",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J8__J9",
+      "from": "J8",
+      "to": "J9",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          233,
+          460
+        ],
+        [
+          194,
+          488
+        ]
+      ],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J9__J10",
+      "from": "J9",
+      "to": "J10",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J8__J21",
+      "from": "J8",
+      "to": "J21",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J3__J4",
+      "from": "J3",
+      "to": "J4",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J4__J7",
+      "from": "J4",
+      "to": "J7",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J4__J13",
+      "from": "J4",
+      "to": "J13",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J7__J21",
+      "from": "J7",
+      "to": "J21",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J13__J19",
+      "from": "J13",
+      "to": "J19",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J13__J12",
+      "from": "J13",
+      "to": "J12",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J12__J14",
+      "from": "J12",
+      "to": "J14",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "jeonju.pattern_bot_disabled"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J14__J11",
+      "from": "J14",
+      "to": "J11",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J11__J20",
+      "from": "J11",
+      "to": "J20",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "jeonju.beacon_lit"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J13__J11",
+      "from": "J13",
+      "to": "J11",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J17__J12",
+      "from": "J17",
+      "to": "J12",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J17__J19",
+      "from": "J17",
+      "to": "J19",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "jeonju.lantern_puzzle_solved"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J2__J12",
+      "from": "J2",
+      "to": "J12",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "J16__J3",
+      "from": "J16",
+      "to": "J3",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    }
+  ],
+  "events": [
+    {
+      "id": "intro",
+      "node": "J0",
+      "actor": "Cổng làng phía nam",
+      "event_type": "Start",
+      "dialogue_open": "",
+      "interaction": "Lumi tới Jeonju qua cổng giao lưu",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "center",
+      "node": "J1",
+      "actor": "Ngã ba hanok",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Quảng trường cây phong và tiểu cảnh",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_hana",
+      "node": "J2",
+      "actor": "Nghệ nhân Hana",
+      "event_type": "NPC",
+      "dialogue_open": "“Một tấm khuôn bị chia ba trước lễ hội. Giúp tôi tìm lại nhé.”",
+      "interaction": "Nhận JQ01, mở J12 sau đủ 3 mảnh.",
+      "planned_reward": "quest:JQ01",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_dye",
+      "node": "J3",
+      "actor": "Xưởng nhuộm vải",
+      "event_type": "Puzzle",
+      "dialogue_open": "",
+      "interaction": "Khôi phục sắc hoa văn",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_yoon",
+      "node": "J4",
+      "actor": "Nhà thầy Yoon",
+      "event_type": "Npc",
+      "dialogue_open": "",
+      "interaction": "Đọc hướng dẫn chuỗi họa tiết",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_parcel",
+      "node": "J5",
+      "actor": "Thương nhân Park",
+      "event_type": "NPC",
+      "dialogue_open": "“Kiện hàng bên suối biến mất rồi!”",
+      "interaction": "Nhận JQ02; thắng/đàm phán bot J6 để lấy kiện.",
+      "planned_reward": "quest:JQ02",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "jeonju.parcel_returned",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_parcel_bot",
+      "node": "J6",
+      "actor": "Bot Cắp Kiện",
+      "event_type": "Enemy",
+      "dialogue_open": "“Kiện hàng đã vào danh mục kiểm kê lỗi.”",
+      "interaction": "Thắng 1v1 hoặc giải mật mã kho, thả parcel và hanji_pattern_2.",
+      "planned_reward": "item:missing_parcel|item:hanji_pattern_2",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "missing_parcel",
+          "amount_or_value": 1
+        },
+        {
+          "type": "item",
+          "id": "hanji_pattern_2",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_hanji",
+      "node": "J7",
+      "actor": "Thư viện Hanji",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Gấp tờ giấy theo vạch sáng thành bông hoa.”",
+      "interaction": "2 lần xoay/1 lần gấp, nhận hanji_pattern_1.",
+      "planned_reward": "item:hanji_pattern_1",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "hanji_pattern_1",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "west_bridge",
+      "node": "J8",
+      "actor": "Cầu đá tây",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Lối qua suối hẹp",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_paper_crane",
+      "node": "J9",
+      "actor": "Bờ suối nước chảy",
+      "event_type": "Enemy",
+      "dialogue_open": "",
+      "interaction": "Hạc giấy nhiễu canh đường",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_pond",
+      "node": "J10",
+      "actor": "Rương ven hồ",
+      "event_type": "Item",
+      "dialogue_open": "",
+      "interaction": "Rương có sáp và tiền",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_rooftop",
+      "node": "J11",
+      "actor": "Đài Mái Ngói",
+      "event_type": "Item",
+      "dialogue_open": "“Trong hộp kính là mảnh hoa văn thứ ba.”",
+      "interaction": "Chỉ nhặt sau khi trả kiện cho Park, nhận hanji_pattern_3.",
+      "planned_reward": "item:hanji_pattern_3",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "hanji_pattern_3",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [
+        "jeonju.parcel_returned"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_embroidery",
+      "node": "J12",
+      "actor": "Sân Thêu",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Ghép 3 hoa văn, đặt tâm đèn vào vị trí đèn Hội An.”",
+      "interaction": "Cần 3 mảnh, chọn đúng thứ tự theo hint J4/J17.",
+      "planned_reward": "flag:jeonju.three_patterns_joined|item:hanji_circuit",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "hanji_circuit",
+          "amount_or_value": 1
+        },
+        {
+          "type": "flag",
+          "id": "jeonju.three_patterns_joined",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "inventory.hanji_pattern_1>=1",
+        "inventory.hanji_pattern_2>=1",
+        "inventory.hanji_pattern_3>=1"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "old_gate",
+      "node": "J13",
+      "actor": "Cổng sân cổ",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Điểm hội tụ đường phía bắc",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_pattern_bot",
+      "node": "J14",
+      "actor": "Bot Gác Họa Tiết",
+      "event_type": "Enemy",
+      "dialogue_open": "“Sân thêu bị khóa từ mã khác.”",
+      "interaction": "Có thể dùng hoa văn đã ghép vô hiệu hóa hoặc combat.",
+      "planned_reward": "flag:jeonju.pattern_bot_disabled",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "jeonju.pattern_bot_disabled",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_snack_seller",
+      "node": "J15",
+      "actor": "Chợ hanok",
+      "event_type": "Npc",
+      "dialogue_open": "",
+      "interaction": "Bán vật phẩm hồi phục",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_elder",
+      "node": "J16",
+      "actor": "Người giữ chuyện",
+      "event_type": "Npc",
+      "dialogue_open": "",
+      "interaction": "Kể về cổng từ Hội An",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "jeonju.hidden_letter_found",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_lantern",
+      "node": "J17",
+      "actor": "Đèn Song Thành",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Một nửa họa tiết chỉ thấy khi Hội An sáng.”",
+      "interaction": "Dựa vào hoi_an.lamp_restored; xoay 3 vòng đèn, mở trạm J19.",
+      "planned_reward": "flag:jeonju.lantern_puzzle_solved",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "jeonju.lantern_puzzle_solved",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "hoi_an.lamp_restored"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_crane_boss",
+      "node": "J18",
+      "actor": "Hạc Giấy Tối",
+      "event_type": "Boss",
+      "dialogue_open": "“Đừng để ta tan trước khi gửi thư!”",
+      "interaction": "Boss tùy chọn có thư hồi âm quan trọng, hoặc giải bùa bảo vệ.",
+      "planned_reward": "flag:jeonju.paper_crane_cleared",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "restore_jeonju",
+      "node": "J19",
+      "actor": "Trạm Hanji",
+      "event_type": "Beacon",
+      "dialogue_open": "“Sợi giấy nối hai bờ biển qua ánh đèn.”",
+      "interaction": "Cần 3 hoa văn + đèn J17; mở Gyeongju.",
+      "planned_reward": "flag:jeonju.beacon_lit",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "jeonju.beacon_lit",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "jeonju.three_patterns_joined",
+        "jeonju.lantern_puzzle_solved"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "portal_gyeongju",
+      "node": "J20",
+      "actor": "Cổng đi Gyeongju",
+      "event_type": "Portal",
+      "dialogue_open": "",
+      "interaction": "Mở đường di tích Silla",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "secret_hoi_an_reply",
+      "node": "J21",
+      "actor": "Thư Để Lại",
+      "event_type": "Secret",
+      "dialogue_open": "“Người lạ nhờ gửi tin về Hội An.”",
+      "interaction": "Lấy reply_letter cho H18, bật ngõ H9.",
+      "planned_reward": "item:reply_letter",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "reply_letter",
+          "amount_or_value": 1
+        },
+        {
+          "type": "flag",
+          "id": "jeonju.hidden_letter_found",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    }
+  ]
+}

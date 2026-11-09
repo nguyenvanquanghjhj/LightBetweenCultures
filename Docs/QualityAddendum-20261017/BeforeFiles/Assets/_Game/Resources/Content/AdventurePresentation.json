@@ -1,0 +1,1333 @@
+{
+  "nodeMarkers": [
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H2",
+      "rules": [
+        {
+          "questId": "HQ01",
+          "questState": "completed",
+          "marker": "Camera"
+        },
+        {
+          "optionId": "tutorial_return",
+          "optionState": "enabled",
+          "marker": "NpcTalk",
+          "effect": "Bounce"
+        },
+        {
+          "requiredFlags": [
+            "lantern-lit"
+          ],
+          "marker": "Normal"
+        },
+        {
+          "optionId": "accept",
+          "optionState": "enabled",
+          "marker": "NpcTalk",
+          "effect": "Pulse"
+        },
+        {
+          "questId": "HQ01",
+          "questState": "active",
+          "marker": "NpcNeedItem",
+          "effect": "Glow"
+        }
+      ]
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H3",
+      "marker": "Normal",
+      "rules": [
+        {
+          "requiredFlags": [
+            "hoi_an.lamp_eye_found"
+          ],
+          "marker": "Camera"
+        },
+        {
+          "questId": "HQ01",
+          "questState": "active",
+          "forbiddenFlags": [
+            "hoi_an.lamp_eye_found"
+          ],
+          "marker": "Reward",
+          "effect": "Glow"
+        }
+      ]
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H4",
+      "rules": [
+        {
+          "eventState": "resolved",
+          "marker": "Camera"
+        }
+      ]
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H5",
+      "rules": [
+        {
+          "eventState": "resolved",
+          "marker": "Completed"
+        }
+      ]
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H6",
+      "rules": [
+        {
+          "requiredFlags": [
+            "hoi_an.lamp_restored"
+          ],
+          "marker": "Camera"
+        }
+      ]
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H7",
+      "rules": [
+        {
+          "eventState": "resolved",
+          "marker": "Camera"
+        },
+        {
+          "optionId": "restore",
+          "optionState": "enabled",
+          "marker": "Quest",
+          "effect": "Glow"
+        }
+      ]
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H10",
+      "rules": [
+        {
+          "optionId": "complete:ba_tu_foodprep",
+          "optionState": "enabled",
+          "marker": "NpcTalk",
+          "effect": "Bounce"
+        },
+        {
+          "optionId": "accept:ba_tu_foodprep",
+          "marker": "NpcTalk",
+          "effect": "Pulse"
+        },
+        {
+          "optionId": "accept:food_hq06",
+          "marker": "NpcTalk",
+          "effect": "Pulse"
+        },
+        {
+          "optionId": "collect:ba_tu_spice_gift",
+          "marker": "Reward",
+          "effect": "Glow"
+        },
+        {
+          "questId": "HQ02",
+          "questState": "completed",
+          "marker": "Completed"
+        },
+        {
+          "optionId": "complete",
+          "optionState": "enabled",
+          "marker": "NpcTalk",
+          "effect": "Bounce"
+        },
+        {
+          "questId": "HQ02",
+          "questState": "notReady",
+          "marker": "NpcNeedItem",
+          "effect": "Glow"
+        },
+        {
+          "optionId": "accept",
+          "optionState": "enabled",
+          "marker": "NpcTalk",
+          "effect": "Blink"
+        }
+      ]
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H12",
+      "rules": [
+        {
+          "eventState": "resolved",
+          "marker": "Completed"
+        },
+        {
+          "questId": "HQ02",
+          "questState": "active",
+          "marker": "Reward",
+          "effect": "Glow"
+        }
+      ]
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H17",
+      "rules": [
+        {
+          "questId": "HQ04",
+          "questState": "completed",
+          "marker": "Camera"
+        }
+      ]
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H18",
+      "rules": [
+        {
+          "questId": "HQ03",
+          "questState": "completed",
+          "marker": "Camera"
+        },
+        {
+          "questId": "HQ03",
+          "questState": "active",
+          "marker": "Normal"
+        }
+      ]
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H11",
+      "rules": [
+        {
+          "optionId": "collect:food_spice_bundle",
+          "marker": "Reward",
+          "effect": "Glow"
+        }
+      ]
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U1",
+      "marker": "NpcTalk",
+      "effect": "Pulse",
+      "size": 24,
+      "rules": [
+        {
+          "questId": "HQ06",
+          "questState": "completed",
+          "marker": "Completed",
+          "effect": "None"
+        },
+        {
+          "questId": "HQ06",
+          "questState": "ready",
+          "marker": "NpcTalk",
+          "effect": "Bounce"
+        },
+        {
+          "questId": "HQ06",
+          "questState": "notReady",
+          "marker": "NpcNeedItem",
+          "effect": "Glow"
+        }
+      ]
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J15",
+      "marker": "NpcTalk",
+      "effect": "Pulse",
+      "size": 24,
+      "rules": [
+        {
+          "questId": "HQ05",
+          "questState": "completed",
+          "marker": "Completed",
+          "effect": "None"
+        },
+        {
+          "questId": "HQ05",
+          "questState": "ready",
+          "marker": "NpcTalk",
+          "effect": "Bounce"
+        },
+        {
+          "questId": "HQ05",
+          "questState": "notReady",
+          "marker": "NpcNeedItem",
+          "effect": "Glow"
+        }
+      ]
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U4",
+      "marker": "Camera",
+      "effect": "None",
+      "size": 24,
+      "rules": []
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U6",
+      "marker": "Camera",
+      "effect": "None",
+      "size": 24,
+      "rules": []
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J8",
+      "marker": "Camera",
+      "effect": "None",
+      "size": 24,
+      "rules": []
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J11",
+      "marker": "Camera",
+      "effect": "None",
+      "size": 24,
+      "rules": [
+        {
+          "optionId": "collect",
+          "optionState": "enabled",
+          "marker": "Reward",
+          "effect": "Glow"
+        }
+      ]
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D0",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D1",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D2",
+      "rules": [
+        {
+          "optionId": "collect:dalat_return_glasses",
+          "optionState": "enabled",
+          "marker": "NpcTalk",
+          "effect": "Bounce"
+        },
+        {
+          "questId": "DQ01",
+          "questState": "completed",
+          "marker": "Completed"
+        },
+        {
+          "optionId": "complete",
+          "optionState": "enabled",
+          "marker": "NpcTalk",
+          "effect": "Bounce"
+        },
+        {
+          "questId": "DQ01",
+          "questState": "active",
+          "marker": "NpcNeedItem",
+          "effect": "Glow"
+        }
+      ]
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D3",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D4",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D5",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D6",
+      "rules": [
+        {
+          "eventState": "resolved",
+          "marker": "Completed",
+          "effect": "None"
+        }
+      ]
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D7",
+      "rules": [
+        {
+          "eventState": "resolved",
+          "marker": "Completed",
+          "effect": "None"
+        }
+      ]
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D8",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D9",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D10",
+      "rules": [
+        {
+          "questId": "DQ02",
+          "questState": "completed",
+          "marker": "Completed"
+        },
+        {
+          "optionId": "complete",
+          "optionState": "enabled",
+          "marker": "NpcTalk",
+          "effect": "Bounce"
+        },
+        {
+          "questId": "DQ02",
+          "questState": "active",
+          "marker": "NpcNeedItem",
+          "effect": "Glow"
+        }
+      ]
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D11",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D12",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D13",
+      "rules": [
+        {
+          "questId": "DQ04",
+          "questState": "completed",
+          "marker": "Completed"
+        },
+        {
+          "optionId": "complete",
+          "optionState": "enabled",
+          "marker": "NpcTalk",
+          "effect": "Bounce"
+        },
+        {
+          "questId": "DQ04",
+          "questState": "active",
+          "marker": "NpcNeedItem",
+          "effect": "Glow"
+        }
+      ]
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D14",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D15",
+      "rules": [
+        {
+          "eventState": "resolved",
+          "marker": "Completed",
+          "effect": "None"
+        }
+      ]
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D16",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D17",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D18",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D19",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D20",
+      "rules": []
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D21",
+      "rules": []
+    }
+  ],
+  "mapActors": [
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H2",
+      "artId": "npc_mai",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": -22,
+        "y": 10
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H4",
+      "artId": "npc_market_merchant",
+      "size": {
+        "x": 48,
+        "y": 58
+      },
+      "offset": {
+        "x": 28,
+        "y": 6
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H5",
+      "artId": "enemy_mo01",
+      "size": {
+        "x": 58,
+        "y": 66
+      },
+      "offset": {
+        "x": 20,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H12",
+      "artId": "enemy_crab",
+      "size": {
+        "x": 48,
+        "y": 40
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H15",
+      "artId": "enemy_ghost",
+      "size": {
+        "x": 43,
+        "y": 52
+      },
+      "offset": {
+        "x": -20,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H17",
+      "artId": "npc_boatman",
+      "size": {
+        "x": 50,
+        "y": 60
+      },
+      "offset": {
+        "x": 20,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "hoi_an",
+      "nodeId": "H18",
+      "artId": "npc_guest",
+      "size": {
+        "x": 40,
+        "y": 52
+      },
+      "offset": {
+        "x": 12,
+        "y": 4
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U1",
+      "artId": "npc_huong",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J15",
+      "artId": "npc_soyeon",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U2",
+      "artId": "npc_nguyet",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U3",
+      "artId": "npc_tam",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U7",
+      "artId": "npc_scholar",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J2",
+      "artId": "npc_hana",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J4",
+      "artId": "npc_yoon",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J5",
+      "artId": "npc_park",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J16",
+      "artId": "npc_elder",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U5",
+      "artId": "enemy_gate_guard",
+      "size": {
+        "x": 55,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U12",
+      "artId": "enemy_river_wisp",
+      "size": {
+        "x": 55,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U15",
+      "artId": "enemy_courier",
+      "size": {
+        "x": 55,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U18",
+      "artId": "enemy_archive_guard",
+      "size": {
+        "x": 55,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J6",
+      "artId": "enemy_parcel_bot",
+      "size": {
+        "x": 55,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J9",
+      "artId": "enemy_paper_crane",
+      "size": {
+        "x": 55,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J14",
+      "artId": "enemy_pattern_bot",
+      "size": {
+        "x": 55,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J18",
+      "artId": "enemy_crane_boss",
+      "size": {
+        "x": 55,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D2",
+      "artId": "npc_lan",
+      "size": {
+        "x": 52,
+        "y": 60
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D3",
+      "artId": "npc_thuy",
+      "size": {
+        "x": 52,
+        "y": 60
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D4",
+      "artId": "npc_market_merchant",
+      "size": {
+        "x": 52,
+        "y": 60
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D6",
+      "artId": "enemy_mist_wolf",
+      "size": {
+        "x": 58,
+        "y": 48
+      },
+      "offset": {
+        "x": -28,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D7",
+      "artId": "enemy_glass_thief",
+      "size": {
+        "x": 52,
+        "y": 60
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D10",
+      "artId": "npc_hungry_dog",
+      "size": {
+        "x": 58,
+        "y": 48
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D13",
+      "artId": "npc_gardener",
+      "size": {
+        "x": 52,
+        "y": 60
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "da_lat",
+      "nodeId": "D15",
+      "artId": "enemy_fog_boss",
+      "size": {
+        "x": 58,
+        "y": 48
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G3",
+      "artId": "npc_min",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G6",
+      "artId": "enemy_fox",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G7",
+      "artId": "enemy_stone_guard",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": false
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G13",
+      "artId": "enemy_night_guard",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "gyeongju",
+      "nodeId": "G18",
+      "artId": "enemy_star_core",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "seoul",
+      "nodeId": "S5",
+      "artId": "enemy_drone",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "seoul",
+      "nodeId": "S8",
+      "artId": "enemy_signal_bot",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "seoul",
+      "nodeId": "S15",
+      "artId": "enemy_bridge",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "seoul",
+      "nodeId": "S19",
+      "artId": "enemy_shadow_courier",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    },
+    {
+      "cityId": "seoul",
+      "nodeId": "S20",
+      "artId": "enemy_final_core",
+      "size": {
+        "x": 52,
+        "y": 62
+      },
+      "offset": {
+        "x": 22,
+        "y": 8
+      },
+      "hideWhenResolved": true
+    }
+  ],
+  "cities": [
+    {
+      "id": "hoi_an",
+      "description": "Phố mái ngói, đèn lồng và những mảnh kết nối thất lạc."
+    },
+    {
+      "id": "hue",
+      "description": "Theo dòng sông Hương, tìm dấu ấn của kinh thành."
+    },
+    {
+      "id": "da_lat",
+      "description": "Hồ xanh, rừng thông và những lối mòn trong sương."
+    },
+    {
+      "id": "jeonju",
+      "description": "Làng hanok và ánh đèn hanji từ bàn tay nghệ nhân."
+    },
+    {
+      "id": "gyeongju",
+      "description": "Di tích Silla cất giữ các ký hiệu của bầu trời."
+    },
+    {
+      "id": "seoul",
+      "description": "Di sản và thành phố hiện đại cùng ngân nhịp ánh sáng."
+    }
+  ],
+  "items": [
+    {
+      "id": "lamp_eye",
+      "icon": "lantern",
+      "description": "Mắt Đèn tìm thấy trong hẻm mái ngói. Linh kiện cần để khôi phục Trạm Ánh Sáng Hội An."
+    },
+    {
+      "id": "lantern-part",
+      "icon": "lantern",
+      "aliasOf": "lamp_eye",
+      "description": "Linh kiện mở đầu tìm trong hẻm. Mang về tiệm cô Mai để sửa chiếc đèn đầu tiên."
+    },
+    {
+      "id": "hanji_core",
+      "icon": "Hanji_Core",
+      "description": "Lõi giấy sáng nhận sau thử thách xưởng giấy. Giữ lại để lắp vào Trạm Ánh Sáng."
+    },
+    {
+      "id": "link_key",
+      "icon": "key",
+      "description": "Chìa khóa kết nối của Bot Mờ-01. Có thể lấy bằng chiến đấu hoặc vô hiệu hóa bot bằng mật mã."
+    },
+    {
+      "id": "copper_wire",
+      "icon": "Copper_Wire",
+      "description": "Cuộn dây đồng bị cua lấy mất. Bà Tư đang chờ bạn mang trả ở khu chợ."
+    },
+    {
+      "id": "healing_tea",
+      "icon": "Healing_Tea",
+      "description": "Trà ấm giúp Lumi hồi HP. Dùng bằng hành động hồi phục trong trận chiến; mỗi lần dùng tiêu hao một chén."
+    },
+    {
+      "id": "coin",
+      "icon": "coin",
+      "description": "Xu nhận từ khám phá và giúp đỡ cư dân. Số xu thuộc về toàn bộ hành trình."
+    },
+    {
+      "id": "lan_glasses",
+      "icon": "glasses",
+      "description": "Cặp kính thất lạc của Lan tại Đà Lạt. Vật phẩm giao trả nhiệm vụ."
+    },
+    {
+      "id": "meat_portion",
+      "icon": "meat",
+      "description": "Phần thức ăn dùng làm mồi. Có thể giúp giải quyết một số cuộc chạm trán với động vật mà không giao chiến."
+    },
+    {
+      "id": "night_flower",
+      "icon": "flowers",
+      "description": "Bông hoa đêm được cư dân nhờ tìm. Giữ lại cho nhiệm vụ tại Đà Lạt."
+    },
+    {
+      "id": "silla_prism",
+      "icon": "crystal",
+      "description": "Lăng kính gắn với bí mật các di tích Silla tại Gyeongju."
+    },
+    {
+      "id": "stargazer_lens",
+      "icon": "glasses",
+      "categoryIcon": true,
+      "description": "Ống kính thiên văn. Một thành phần cần cho hành trình quan sát bầu trời tại Gyeongju."
+    },
+    {
+      "id": "lantern_stamp",
+      "icon": "lantern",
+      "categoryIcon": true,
+      "description": "Dấu ấn ánh sáng Hội An. Kỷ vật của một kết nối đã được khôi phục."
+    },
+    {
+      "id": "river_pass",
+      "icon": "scroll",
+      "categoryIcon": true,
+      "description": "Thẻ cho phép sử dụng tuyến qua sông trong hành trình tại Huế."
+    },
+    {
+      "id": "royal_herb",
+      "icon": "flowers",
+      "categoryIcon": true,
+      "description": "Thảo dược ở bờ bắc sông Hương. Vật phẩm cần giao cho người nhờ tìm."
+    },
+    {
+      "id": "lost_letter",
+      "icon": "mailbox",
+      "categoryIcon": true,
+      "description": "Kiện thư niêm phong trong chuỗi nhiệm vụ Huế. Cần mang tới đúng người nhận."
+    },
+    {
+      "id": "ancient_seal",
+      "icon": "key",
+      "categoryIcon": true,
+      "description": "Ấn tín cổ gắn với điều kiện mở đường tại Huế."
+    },
+    {
+      "id": "astral_script",
+      "icon": "scroll",
+      "categoryIcon": true,
+      "description": "Các dòng chữ sao cổ. Manh mối để đọc những kết nối văn hóa."
+    },
+    {
+      "id": "fog_battery",
+      "icon": "crystal",
+      "categoryIcon": true,
+      "description": "Nguồn năng lượng gắn với tuyến khám phá sương mù tại Đà Lạt."
+    },
+    {
+      "id": "blue_water_signal",
+      "icon": "portal",
+      "categoryIcon": true,
+      "description": "Tín hiệu nước xanh, lưu dấu tiến độ kết nối từ Đà Lạt."
+    },
+    {
+      "id": "hanji_pattern_1",
+      "icon": "scroll",
+      "categoryIcon": true,
+      "description": "Mảnh hoa văn hanji thứ nhất trong chuỗi chế tác Jeonju."
+    },
+    {
+      "id": "hanji_pattern_2",
+      "icon": "scroll",
+      "categoryIcon": true,
+      "description": "Mảnh hoa văn hanji thứ hai trong chuỗi chế tác Jeonju."
+    },
+    {
+      "id": "hanji_pattern_3",
+      "icon": "scroll",
+      "categoryIcon": true,
+      "description": "Mảnh hoa văn hanji thứ ba trong chuỗi chế tác Jeonju."
+    },
+    {
+      "id": "missing_parcel",
+      "icon": "chest",
+      "categoryIcon": true,
+      "description": "Kiện hàng thất lạc của thương nhân. Mang về đúng nơi để hoàn thành nhiệm vụ."
+    },
+    {
+      "id": "hanji_circuit",
+      "icon": "lantern",
+      "categoryIcon": true,
+      "description": "Mạch đèn hanji liên kết nghề thủ công Jeonju với ánh sáng Hội An."
+    },
+    {
+      "id": "reply_letter",
+      "icon": "mailbox",
+      "categoryIcon": true,
+      "description": "Lá thư hồi âm được gửi theo hành trình kết nối giữa các thành phố."
+    },
+    {
+      "id": "star_symbol_1",
+      "icon": "crystal",
+      "categoryIcon": true,
+      "description": "Dấu sao tìm ở khu lăng mộ Gyeongju. Một phần của bộ ký hiệu cổ."
+    },
+    {
+      "id": "star_symbol_2",
+      "icon": "crystal",
+      "categoryIcon": true,
+      "description": "Dấu sao tìm trên đường gò tại Gyeongju. Một phần của bộ ký hiệu cổ."
+    },
+    {
+      "id": "star_symbol_3",
+      "icon": "crystal",
+      "categoryIcon": true,
+      "description": "Dấu sao tìm trên đồi cao Gyeongju. Một phần của bộ ký hiệu cổ."
+    },
+    {
+      "id": "relay_a",
+      "icon": "scroll",
+      "categoryIcon": true,
+      "description": "Mã xác nhận trạm năng lượng A tại Seoul."
+    },
+    {
+      "id": "relay_b",
+      "icon": "scroll",
+      "categoryIcon": true,
+      "description": "Mã xác nhận trạm năng lượng B tại Seoul."
+    },
+    {
+      "id": "relay_c",
+      "icon": "scroll",
+      "categoryIcon": true,
+      "description": "Mã xác nhận trạm năng lượng C tại Seoul."
+    },
+    {
+      "id": "hoi_an_fresh_chili",
+      "icon": "food_chili",
+      "description": "Ớt tươi từ quầy Bà Tư. Mang sang J15 Jeonju cho một gian hàng giao lưu ẩm thực. Đây là món trao đổi tùy chọn.",
+      "categoryIcon": false
+    },
+    {
+      "id": "hoi_an_purple_shallot",
+      "icon": "food_shallot",
+      "description": "Một củ hành tím từ sạp Hội An, dùng cho gian hàng giao lưu tại U1 Huế.",
+      "categoryIcon": false
+    },
+    {
+      "id": "festival_friendship_postcard",
+      "icon": "postcard_food",
+      "description": "Phần thưởng từ Bà Tư sau khi mang quà từ Hội An đến cả Huế và Jeonju.",
+      "categoryIcon": true
+    },
+    {
+      "id": "hoi_an_bridge_postcard",
+      "icon": "postcard_food",
+      "description": "Bưu thiếp check-in, không khóa tiến trình chính.",
+      "categoryIcon": true
+    },
+    {
+      "id": "jeonju_recipe_card",
+      "icon": "scroll",
+      "description": "Thẻ minh họa món cơm giao lưu ở Jeonju; là kỷ niệm việc chia sẻ ớt Hội An.",
+      "categoryIcon": true
+    },
+    {
+      "id": "hue_market_note",
+      "icon": "scroll",
+      "description": "Lời cảm ơn từ gian hàng Huế sau khi nhận hành tím.",
+      "categoryIcon": true
+    }
+  ],
+  "mapActorScale": 0.72,
+  "mapActorTouchSize": 52,
+  "mapActorStyles": []
+}

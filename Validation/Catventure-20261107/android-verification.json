@@ -1,0 +1,13 @@
+{
+  "package": "com.DefaultCompany.LightBetweenCultures",
+  "versionCode": 20,
+  "versionName": "1.1-catventure-20261107",
+  "bytes": 293840696,
+  "sha256": "bdb241552266cb8913490a8ce2d5a9bdebbcd5161b96ce47577c5d2f48c097b0",
+  "signatureVerified": true,
+  "samePackageAndSignerAsRC1": true,
+  "alignment16K": true,
+  "zipCRC": true,
+  "latestHanbokAndMiniMapTypesPresent": true,
+  "device": "NOT_TESTED_NO_DEVICE_CONNECTED"
+}

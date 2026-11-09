@@ -1,0 +1,40 @@
+{
+  "active": [
+    "Assets",
+    "Packages",
+    "ProjectSettings",
+    "UserSettings",
+    "Builds/Windows-AndroidTouch-20261020",
+    "Builds/Android/LightBetweenCultures-FinalUX-20261023.apk",
+    "Tools",
+    "Docs/QA/CURRENT_QA_STATUS.md"
+  ],
+  "archiveKeepInPlace": [
+    "Validation",
+    "Docs/QA (historical)",
+    "Logs",
+    "ReviewPacks",
+    "Submission",
+    "Builds/LightBetweenCultures-Playtest-20261021-Windows.zip",
+    "Builds/Android/LightBetweenCultures-Playtest-20261021.apk",
+    "LBC_* source kits",
+    "LightBetweenCultures_DesignKit_v1",
+    "References",
+    "_CheckIn_Import_20261018"
+  ],
+  "verifiedGeneratedRemoved": [
+    "Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build",
+    "Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build",
+    "Library/Bee/artifacts/objcopy_5lmi",
+    "Library/PlayerDataCache/Win642",
+    "Tools/__pycache__"
+  ],
+  "uncertainKeep": [
+    ".utmp",
+    "build",
+    "IDE project files and settings",
+    "Historical authoring/setup scripts; unused status not proven",
+    "Legacy docs/tools paths; dependencies prevent safe move"
+  ],
+  "allBackupsRetained": true
+}

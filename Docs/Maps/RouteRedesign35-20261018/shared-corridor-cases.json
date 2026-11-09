@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "cityId": "da_lat",
+      "fromId": "D6",
+      "toId": "D7",
+      "changed": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromId": "D20",
+      "toId": "D13",
+      "changed": true
+    },
+    {
+      "cityId": "hue",
+      "fromId": "U6",
+      "toId": "U18",
+      "changed": true
+    },
+    {
+      "cityId": "da_lat",
+      "fromId": "D20",
+      "toId": "D15",
+      "changed": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "presentation": "LightBetweenCultures_KGW2026_DRAFT.pptx",
+  "slides": 13,
+  "assets": [
+    "Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png",
+    "Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png",
+    "Validation/ContestReadiness-20261020/signature-jeonju-final/Casual-signature-jeonju.png",
+    "Validation/ContestReadiness-20261020/signature-jeonju-final/P4-jeonju-trial-correct-before-confirm.png",
+    "Validation/ContestReadiness-20261020/signature-jeonju-final/P4-jeonju-trial-wrong.png",
+    "Validation/OwnerConfusion-20261020/fresh02/H3-tap-ready-to-pick.png",
+    "Validation/OwnerConfusion-20261020/fresh02/Owner-four-fragments-next-step.png",
+    "Validation/OwnerConfusion-20261020/fresh02/Owner-fragment-markers-start.png",
+    "Validation/OwnerConfusion-20261020/fresh02/Owner-mai-ground-arrival.png",
+    "Validation/OwnerConfusion-20261020/main01/Casual-signature-hoi_an.png"
+  ],
+  "sourceArtModified": false,
+  "runtimeEvidence": "Windows Player; not Android-device evidence",
+  "entrantProfileComplete": false
+}

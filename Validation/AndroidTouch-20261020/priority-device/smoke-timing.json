@@ -1,0 +1,107 @@
+{
+  "status": "BATCH_COMPLETED_REQUIRES_TWO_FRAME_REVIEW",
+  "error": "",
+  "seconds": 14.195,
+  "operations": [
+    {
+      "step": "focus",
+      "seconds": 0.139,
+      "exit": 0
+    },
+    {
+      "step": "tap",
+      "seconds": 0.124,
+      "exit": 0
+    },
+    {
+      "step": "tap",
+      "seconds": 0.112,
+      "exit": 0
+    },
+    {
+      "step": "tap",
+      "seconds": 0.111,
+      "exit": 0
+    },
+    {
+      "step": "tap",
+      "seconds": 0.128,
+      "exit": 0
+    },
+    {
+      "step": "tap",
+      "seconds": 0.108,
+      "exit": 0
+    },
+    {
+      "step": "tap",
+      "seconds": 0.104,
+      "exit": 0
+    },
+    {
+      "step": "tap",
+      "seconds": 0.109,
+      "exit": 0
+    },
+    {
+      "step": "tap",
+      "seconds": 0.111,
+      "exit": 0
+    },
+    {
+      "step": "map-pan",
+      "seconds": 0.459,
+      "exit": 0
+    },
+    {
+      "step": "map-pan",
+      "seconds": 0.465,
+      "exit": 0
+    },
+    {
+      "step": "map-pan",
+      "seconds": 0.467,
+      "exit": 0
+    },
+    {
+      "step": "map-pan",
+      "seconds": 0.468,
+      "exit": 0
+    },
+    {
+      "step": "map-pinch",
+      "seconds": 2.771,
+      "exit": 0
+    },
+    {
+      "step": "touch-cancel",
+      "seconds": 1.407,
+      "exit": 0
+    },
+    {
+      "step": "tap",
+      "seconds": 0.133,
+      "exit": 0
+    },
+    {
+      "step": "screencap",
+      "seconds": 1.616,
+      "exit": 0
+    },
+    {
+      "step": "tap",
+      "seconds": 0.109,
+      "exit": 0
+    },
+    {
+      "step": "screencap",
+      "seconds": 1.521,
+      "exit": 0
+    },
+    {
+      "step": "logcat",
+      "seconds": 0.121,
+      "exit": 0
+    }
+  ]
+}

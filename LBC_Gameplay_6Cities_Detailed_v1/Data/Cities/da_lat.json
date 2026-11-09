@@ -1,0 +1,1012 @@
+{
+  "schema_version": 1,
+  "design_only": true,
+  "city_id": "da_lat",
+  "city_name": "Đà Lạt",
+  "map_background_relative_to_NEW_ART_PACK": "Maps/DaLat/Map_Overview_A.png",
+  "spawn_node_id": "D0",
+  "city_completion_flag": "da_lat.beacon_lit",
+  "visual_identity": "Hồ – đồi thông – mây sương – nhà mái dốc",
+  "coordinate_system": {
+    "origin": "top_left",
+    "x_range": [
+      0,
+      1000
+    ],
+    "y_range": [
+      0,
+      1000
+    ],
+    "note": "x,y are approximate 2D design anchors; manual adjust for actual walkable road; normalized UI position = (x/1000,y/1000), Unity world y often inverted."
+  },
+  "city_story": {
+    "opening": "Sương mù che con đường quanh hồ. Lan mất kính nên không thể dẫn ai đến đài quan sát; một chú chó đói chắn lối an toàn.",
+    "main": "Lấy kính từ Bot Đánh Cắp ở D7, trả Lan D2 để mở đường qua sương D8. Kiếm ba phần thức ăn ở D9, D11, D12 (có tuyến thay thế D3), cho chó D10, qua D15 tới thác D16 và thắp đài D14.",
+    "twist": "Bóng sương đáng sợ thật ra là tín hiệu cảnh báo cũ đang tự nhân bản; sau khi giúp chó và Lan, một lối đi không đánh nhau mở ra, và sương tan trên bản đồ.",
+    "end": "Kích hoạt nguồn năng lượng sương cho một trạm ở Seoul."
+  },
+  "nodes": [
+    {
+      "id": "D0",
+      "name": "Bến hồ Xuân Hương",
+      "x": 515,
+      "y": 598,
+      "kind": "start",
+      "event_id": "intro",
+      "description": "Điểm Lumi tới khu hồ",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "D1",
+      "name": "Quảng trường dốc",
+      "x": 632,
+      "y": 245,
+      "kind": "junction",
+      "event_id": "square",
+      "description": "Quảng trường nhà cửa ven hồ",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "D2",
+      "name": "Người dẫn đường Lan",
+      "x": 532,
+      "y": 389,
+      "kind": "npc",
+      "event_id": "npc_lan",
+      "description": "Nhờ tìm kính thất lạc",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "D3",
+      "name": "Tiệm hoa Thủy",
+      "x": 445,
+      "y": 456,
+      "kind": "npc",
+      "event_id": "npc_thuy",
+      "description": "Đổi hoa lấy phần thức ăn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "D4",
+      "name": "Chợ trên đồi",
+      "x": 675,
+      "y": 220,
+      "kind": "npc",
+      "event_id": "npc_market",
+      "description": "Người bán có manh mối thú hoang",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "D5",
+      "name": "Lối rừng thông",
+      "x": 279,
+      "y": 570,
+      "kind": "junction",
+      "event_id": "pine_path",
+      "description": "Đường mòn lên rừng",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "D6",
+      "name": "Sói sương mù",
+      "x": 203,
+      "y": 420,
+      "kind": "enemy",
+      "event_id": "enemy_mist_wolf",
+      "description": "Quái cần né hoặc đánh theo lượt",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "D7",
+      "name": "Trạm quan sát sương",
+      "x": 374,
+      "y": 312,
+      "kind": "enemy",
+      "event_id": "enemy_glass_thief",
+      "description": "Bot bóng tối giữ kính",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "D8",
+      "name": "Ngõ sương vòng",
+      "x": 204,
+      "y": 287,
+      "kind": "puzzle",
+      "event_id": "puzzle_mist",
+      "description": "Chọn đèn dẫn đường qua mây",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "D9",
+      "name": "Đài nhìn thông",
+      "x": 155,
+      "y": 236,
+      "kind": "item",
+      "event_id": "loot_mountain",
+      "description": "Rương thịt phần 1 và bột đèn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "D10",
+      "name": "Chó canh đói",
+      "x": 390,
+      "y": 732,
+      "kind": "npc",
+      "event_id": "npc_hungry_dog",
+      "description": "Muốn 3 phần thịt, không buộc đánh",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "D11",
+      "name": "Lối vườn hoa",
+      "x": 140,
+      "y": 725,
+      "kind": "item",
+      "event_id": "loot_meat_garden",
+      "description": "Rương có phần thịt 2",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "D12",
+      "name": "Cối xay cạnh hồ",
+      "x": 366,
+      "y": 635,
+      "kind": "puzzle",
+      "event_id": "puzzle_windmill",
+      "description": "Chỉnh hướng cánh quạt để lấy phần 3",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "D13",
+      "name": "Vườn kính hoa",
+      "x": 799,
+      "y": 427,
+      "kind": "npc",
+      "event_id": "npc_gardener",
+      "description": "Có nhiệm vụ phụ bông hoa đêm",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "D14",
+      "name": "Đài dẫn sáng núi",
+      "x": 849,
+      "y": 114,
+      "kind": "beacon",
+      "event_id": "restore_dalat",
+      "description": "Đèn cao nguyên và cổng tín hiệu",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "D15",
+      "name": "Bóng sương cầu đá",
+      "x": 671,
+      "y": 713,
+      "kind": "boss",
+      "event_id": "enemy_fog_boss",
+      "description": "Boss giữ đường tới mạch nước",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "boss_arena"
+    },
+    {
+      "id": "D16",
+      "name": "Thác hồi âm",
+      "x": 707,
+      "y": 795,
+      "kind": "item",
+      "event_id": "loot_waterfall",
+      "description": "Mảnh tín hiệu nước bên đá",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "D17",
+      "name": "Lối bí mật bờ đông",
+      "x": 941,
+      "y": 783,
+      "kind": "secret",
+      "event_id": "secret_lookout",
+      "description": "Đường bí mật sau khi cho chó ăn",
+      "visible_when": {
+        "all_flags": [
+          "da_lat.dog_fed"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "D18",
+      "name": "Nhà nghỉ trên dốc",
+      "x": 309,
+      "y": 471,
+      "kind": "npc",
+      "event_id": "npc_innkeeper",
+      "description": "Hồi phục và dẫn đường",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "D19",
+      "name": "Vườn hoa đêm",
+      "x": 147,
+      "y": 160,
+      "kind": "secret",
+      "event_id": "secret_night_bloom",
+      "description": "Chỉ hiện sau khi xua sương",
+      "visible_when": {
+        "all_flags": [
+          "da_lat.fog_cleared"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "D20",
+      "name": "Cầu dẫn hồ",
+      "x": 720,
+      "y": 412,
+      "kind": "junction",
+      "event_id": "lake_bridge",
+      "description": "Cầu nối bờ đông",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "D21",
+      "name": "Cửa đồng bộ Seoul",
+      "x": 873,
+      "y": 644,
+      "kind": "portal",
+      "event_id": "portal_seoul",
+      "description": "Chỉ gửi tín hiệu, không vào Seoul ngay",
+      "visible_when": {
+        "all_flags": [
+          "da_lat.beacon_lit"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    }
+  ],
+  "edges": [
+    {
+      "id": "D0__D12",
+      "from": "D0",
+      "to": "D12",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D0__D20",
+      "from": "D0",
+      "to": "D20",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          610,
+          570
+        ],
+        [
+          665,
+          502
+        ],
+        [
+          720,
+          435
+        ]
+      ],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D0__D5",
+      "from": "D0",
+      "to": "D5",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D5__D18",
+      "from": "D5",
+      "to": "D18",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D18__D3",
+      "from": "D18",
+      "to": "D3",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D3__D2",
+      "from": "D3",
+      "to": "D2",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D2__D1",
+      "from": "D2",
+      "to": "D1",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D1__D4",
+      "from": "D1",
+      "to": "D4",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D1__D20",
+      "from": "D1",
+      "to": "D20",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D5__D6",
+      "from": "D5",
+      "to": "D6",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D6__D7",
+      "from": "D6",
+      "to": "D7",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D7__D8",
+      "from": "D7",
+      "to": "D8",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "da_lat.glasses_returned"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D8__D9",
+      "from": "D8",
+      "to": "D9",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D8__D19",
+      "from": "D8",
+      "to": "D19",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D5__D11",
+      "from": "D5",
+      "to": "D11",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D11__D10",
+      "from": "D11",
+      "to": "D10",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "da_lat.west_path_open"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D12__D10",
+      "from": "D12",
+      "to": "D10",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D10__D15",
+      "from": "D10",
+      "to": "D15",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          444,
+          705
+        ],
+        [
+          550,
+          705
+        ]
+      ],
+      "all_flags": [
+        "da_lat.dog_fed"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D15__D16",
+      "from": "D15",
+      "to": "D16",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "da_lat.mist_boss_cleared"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D16__D17",
+      "from": "D16",
+      "to": "D17",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D20__D13",
+      "from": "D20",
+      "to": "D13",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D13__D14",
+      "from": "D13",
+      "to": "D14",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "da_lat.fog_cleared"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D13__D21",
+      "from": "D13",
+      "to": "D21",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D4__D14",
+      "from": "D4",
+      "to": "D14",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D20__D15",
+      "from": "D20",
+      "to": "D15",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "da_lat.dog_fed"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "D21__D17",
+      "from": "D21",
+      "to": "D17",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    }
+  ],
+  "events": [
+    {
+      "id": "intro",
+      "node": "D0",
+      "actor": "Bến hồ Xuân Hương",
+      "event_type": "Start",
+      "dialogue_open": "",
+      "interaction": "Điểm Lumi tới khu hồ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "square",
+      "node": "D1",
+      "actor": "Quảng trường dốc",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Quảng trường nhà cửa ven hồ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_lan",
+      "node": "D2",
+      "actor": "Người dẫn đường Lan",
+      "event_type": "NPC",
+      "dialogue_open": "“Không có kính, chị chẳng đọc được cột chỉ dẫn. Tìm giúp chị nhé.”",
+      "interaction": "Nhận DQ01; sau trả kính thì nút D8 bớt sương, mở hướng dẫn.",
+      "planned_reward": "quest:DQ01",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "da_lat.glasses_returned",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_thuy",
+      "node": "D3",
+      "actor": "Cô Thủy chủ tiệm hoa",
+      "event_type": "NPC",
+      "dialogue_open": "“Bác chó thích thức ăn; chị có phần dự phòng đổi một bông hoa.”",
+      "interaction": "Một phần thịt dự phòng thay thế cho nguồn tại D12 nếu puzzle khó.",
+      "planned_reward": "alternate_item:meat_portion",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_market",
+      "node": "D4",
+      "actor": "Chợ trên đồi",
+      "event_type": "Npc",
+      "dialogue_open": "",
+      "interaction": "Người bán có manh mối thú hoang",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "pine_path",
+      "node": "D5",
+      "actor": "Lối rừng thông",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Đường mòn lên rừng",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_mist_wolf",
+      "node": "D6",
+      "actor": "Sói Sương",
+      "event_type": "Enemy",
+      "dialogue_open": "“Một sinh vật được sương tạo thành.”",
+      "interaction": "Combat tự chọn hoặc dùng đèn soi để né; tránh grind.",
+      "planned_reward": "flag:da_lat.wolf_cleared",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_glass_thief",
+      "node": "D7",
+      "actor": "Bot Giấu Kính",
+      "event_type": "Enemy",
+      "dialogue_open": "“Nó cầm cặp kính và chạy giữa rừng.”",
+      "interaction": "Combat 1v1 hoặc bẫy ánh sáng tương tác 2 lần; nhận lan_glasses.",
+      "planned_reward": "item:lan_glasses",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "lan_glasses",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_mist",
+      "node": "D8",
+      "actor": "Trụ Đèn Trong Sương",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Chọn cột đèn đúng theo bản phác thảo của Lan.”",
+      "interaction": "Puzzle đường rẽ 3 cổng, mở D9.",
+      "planned_reward": "flag:da_lat.fog_path_solved",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "da_lat.fog_path_solved",
+          "amount_or_value": true
+        },
+        {
+          "type": "flag",
+          "id": "da_lat.fog_cleared",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_mountain",
+      "node": "D9",
+      "actor": "Rương Trên Đồi",
+      "event_type": "Item",
+      "dialogue_open": "“Trong rương có một gói đồ ăn và pin cũ.”",
+      "interaction": "meat_portion +1, fog_battery.",
+      "planned_reward": "item:meat_portion|item:fog_battery",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "meat_portion",
+          "amount_or_value": 1
+        },
+        {
+          "type": "item",
+          "id": "fog_battery",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_hungry_dog",
+      "node": "D10",
+      "actor": "Chó Canh Đường",
+      "event_type": "NPC",
+      "dialogue_open": "“Gừ... bụng đói, đừng lại gần.”",
+      "interaction": "Đưa 3 meat_portion, chó né đường và trở thành NPC trợ giúp.",
+      "planned_reward": "flag:da_lat.dog_fed",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "da_lat.dog_fed",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_meat_garden",
+      "node": "D11",
+      "actor": "Rương Vườn Hoa",
+      "event_type": "Item",
+      "dialogue_open": "“Rương ở bên luống hoa tím.”",
+      "interaction": "meat_portion +1.",
+      "planned_reward": "item:meat_portion",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "meat_portion",
+          "amount_or_value": 1
+        },
+        {
+          "type": "flag",
+          "id": "da_lat.west_path_open",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_windmill",
+      "node": "D12",
+      "actor": "Cối Xay",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Xoay cánh theo hướng gió trên ba ngọn thông.”",
+      "interaction": "Cơ chế xoay 3 hướng, meat_portion +1.",
+      "planned_reward": "item:meat_portion",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "meat_portion",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_gardener",
+      "node": "D13",
+      "actor": "Người Làm Vườn",
+      "event_type": "NPC",
+      "dialogue_open": "“Có hoa chỉ xuất hiện sau sương...”",
+      "interaction": "Sidequest DQ04, phát hiện D19.",
+      "planned_reward": "quest:DQ04",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "restore_dalat",
+      "node": "D14",
+      "actor": "Trạm Đèn Trên Đồi",
+      "event_type": "Beacon",
+      "dialogue_open": "“Ánh sáng đẩy lùi sương mù.”",
+      "interaction": "Cần fog_cleared + blue_water_signal, bật trạm.",
+      "planned_reward": "flag:da_lat.beacon_lit",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "da_lat.beacon_lit",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "da_lat.fog_cleared",
+        "inventory.blue_water_signal>=1"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_fog_boss",
+      "node": "D15",
+      "actor": "Bóng Sương Cầu Đá",
+      "event_type": "Boss",
+      "dialogue_open": "“Ta chỉ giữ đường tránh người rơi xuống thác.”",
+      "interaction": "Có thể giảm độ khó nếu giúp Lan và chó; chiến thắng nhận lối D16.",
+      "planned_reward": "flag:da_lat.mist_boss_cleared",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "da_lat.mist_boss_cleared",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_waterfall",
+      "node": "D16",
+      "actor": "Thác Hồi Âm",
+      "event_type": "Item",
+      "dialogue_open": "“Mặt nước phản ánh một mã xanh.”",
+      "interaction": "Nhặt blue_water_signal cho Seoul S16.",
+      "planned_reward": "item:blue_water_signal",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "blue_water_signal",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "secret_lookout",
+      "node": "D17",
+      "actor": "Lối bí mật bờ đông",
+      "event_type": "Secret",
+      "dialogue_open": "",
+      "interaction": "Đường bí mật sau khi cho chó ăn",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_innkeeper",
+      "node": "D18",
+      "actor": "Nhà nghỉ trên dốc",
+      "event_type": "Npc",
+      "dialogue_open": "",
+      "interaction": "Hồi phục và dẫn đường",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "secret_night_bloom",
+      "node": "D19",
+      "actor": "Vườn hoa đêm",
+      "event_type": "Secret",
+      "dialogue_open": "",
+      "interaction": "Chỉ hiện sau khi xua sương",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "night_flower",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "lake_bridge",
+      "node": "D20",
+      "actor": "Cầu dẫn hồ",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Cầu nối bờ đông",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "portal_seoul",
+      "node": "D21",
+      "actor": "Cửa đồng bộ Seoul",
+      "event_type": "Portal",
+      "dialogue_open": "",
+      "interaction": "Chỉ gửi tín hiệu, không vào Seoul ngay",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    }
+  ]
+}

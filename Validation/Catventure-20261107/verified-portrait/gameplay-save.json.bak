@@ -1,0 +1,502 @@
+{
+    "version": 2,
+    "cityId": "seoul",
+    "node": 13,
+    "previousNode": 12,
+    "visited": [
+        0,
+        12,
+        13
+    ],
+    "accepted": [],
+    "completed": [],
+    "items": [],
+    "collected": [],
+    "flags": [],
+    "resolvedEvents": [],
+    "defeatedEnemies": [],
+    "solvedPuzzles": [],
+    "choices": [],
+    "rewardGrantIds": [
+        "catrescue.reward.cat_hoi_an",
+        "catrescue.reward.cat_hue",
+        "catrescue.reward.cat_da_lat",
+        "catrescue.reward.cat_jeonju",
+        "catrescue.reward.cat_gyeongju",
+        "catrescue.reward.cat_seoul"
+    ],
+    "leisureCompleted": [],
+    "catRescues": [
+        {
+            "cityId": "hoi_an",
+            "started": true,
+            "rescued": true,
+            "completed": [
+                "hoi_an_lantern",
+                "hoi_an_bridge",
+                "hoi_an_food",
+                "hoi_an_river"
+            ],
+            "supplies": [
+                "hoi_an_basket",
+                "hoi_an_lantern",
+                "hoi_an_rope"
+            ],
+            "challenges": [
+                {
+                    "challengeId": "hoi_an_lantern",
+                    "marks": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "hoi_an_bridge",
+                    "marks": [
+                        1
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "hoi_an_food",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "hoi_an_river",
+                    "marks": [
+                        2
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                }
+            ]
+        },
+        {
+            "cityId": "hue",
+            "started": true,
+            "rescued": true,
+            "completed": [
+                "hue_heritage",
+                "hue_food",
+                "hue_music",
+                "hue_river"
+            ],
+            "supplies": [
+                "hue_boat",
+                "hue_vest",
+                "hue_blanket"
+            ],
+            "challenges": [
+                {
+                    "challengeId": "hue_heritage",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "hue_food",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "hue_music",
+                    "marks": [
+                        0
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "hue_river",
+                    "marks": [],
+                    "path": [
+                        0,
+                        1,
+                        2,
+                        7,
+                        12,
+                        11,
+                        10,
+                        15,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24
+                    ],
+                    "paletteChosen": false,
+                    "palette": 0
+                }
+            ]
+        },
+        {
+            "cityId": "da_lat",
+            "started": true,
+            "rescued": true,
+            "completed": [
+                "da_lat_flowers",
+                "da_lat_food",
+                "da_lat_station",
+                "da_lat_fog"
+            ],
+            "supplies": [
+                "da_lat_lamp",
+                "da_lat_bell",
+                "da_lat_food"
+            ],
+            "challenges": [
+                {
+                    "challengeId": "da_lat_flowers",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "da_lat_food",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "da_lat_station",
+                    "marks": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "da_lat_fog",
+                    "marks": [],
+                    "path": [
+                        0,
+                        5,
+                        6,
+                        7,
+                        12,
+                        13,
+                        14,
+                        19,
+                        24
+                    ],
+                    "paletteChosen": false,
+                    "palette": 0
+                }
+            ]
+        },
+        {
+            "cityId": "jeonju",
+            "started": true,
+            "rescued": true,
+            "completed": [
+                "jeonju_hanok",
+                "jeonju_bibimbap",
+                "jeonju_hanbok",
+                "jeonju_find"
+            ],
+            "supplies": [
+                "jeonju_basket",
+                "jeonju_ribbon",
+                "jeonju_food"
+            ],
+            "challenges": [
+                {
+                    "challengeId": "jeonju_hanok",
+                    "marks": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "jeonju_bibimbap",
+                    "marks": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "jeonju_hanbok",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": [],
+                    "paletteChosen": true,
+                    "palette": 2
+                },
+                {
+                    "challengeId": "jeonju_find",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                }
+            ]
+        },
+        {
+            "cityId": "gyeongju",
+            "started": true,
+            "rescued": true,
+            "completed": [
+                "gyeongju_stars",
+                "gyeongju_silla",
+                "gyeongju_buddhist",
+                "gyeongju_map"
+            ],
+            "supplies": [
+                "gyeongju_map",
+                "gyeongju_lamp",
+                "gyeongju_basket"
+            ],
+            "challenges": [
+                {
+                    "challengeId": "gyeongju_stars",
+                    "marks": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "gyeongju_silla",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "gyeongju_buddhist",
+                    "marks": [
+                        0
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "gyeongju_map",
+                    "marks": [],
+                    "path": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        9,
+                        14,
+                        13,
+                        12,
+                        11,
+                        10,
+                        15,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24
+                    ],
+                    "paletteChosen": false,
+                    "palette": 0
+                }
+            ]
+        },
+        {
+            "cityId": "seoul",
+            "started": true,
+            "rescued": true,
+            "completed": [
+                "seoul_storm",
+                "seoul_hangul",
+                "seoul_greeting",
+                "seoul_shelter"
+            ],
+            "supplies": [
+                "seoul_carrier",
+                "seoul_umbrella",
+                "seoul_food"
+            ],
+            "challenges": [
+                {
+                    "challengeId": "seoul_storm",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "seoul_hangul",
+                    "marks": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "seoul_greeting",
+                    "marks": [
+                        1
+                    ],
+                    "path": [],
+                    "paletteChosen": false,
+                    "palette": 0
+                },
+                {
+                    "challengeId": "seoul_shelter",
+                    "marks": [],
+                    "path": [
+                        0,
+                        1,
+                        2,
+                        7,
+                        12,
+                        13,
+                        14,
+                        19,
+                        24
+                    ],
+                    "paletteChosen": false,
+                    "palette": 0
+                }
+            ]
+        }
+    ],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 18,
+            "stage": 0,
+            "visited": [
+                0,
+                5,
+                3,
+                18
+            ]
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 11,
+            "stage": 0,
+            "visited": [
+                0,
+                1,
+                2,
+                11
+            ]
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 11,
+            "stage": 0,
+            "visited": [
+                0,
+                1,
+                11
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 14,
+            "stage": 0,
+            "visited": [
+                0,
+                1,
+                2,
+                14
+            ]
+        },
+        {
+            "cityId": "jeonju",
+            "node": 16,
+            "stage": 0,
+            "visited": [
+                0,
+                1,
+                16
+            ]
+        },
+        {
+            "cityId": "seoul",
+            "node": 13,
+            "stage": 0,
+            "visited": [
+                0,
+                12,
+                13
+            ]
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 3,
+    "coins": 48
+}

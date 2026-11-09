@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "newCanonicalNpc": "npc_tech",
+  "newNativeSprite": "JiWon_DialoguePortrait",
+  "oldSpriteBlocksPreserved": 30,
+  "oldNpcResourceUnchangedExceptNewEntry": true,
+  "oldNativeBindingsPreserved": 356,
+  "oldCanonical8AndPending12Preserved": true,
+  "sourcePngGameplayDataSceneSaveCodeAndSettingsUnchanged": true,
+  "runtimeAssertionsPass": 30,
+  "runtimeCaptures": 3,
+  "build": "PASS",
+  "newPngAssets": 0,
+  "assemblySHA256": "0197263370a8f470f0a7f9351172cb0b0285a23dc4bb431bf245c59905bfc362",
+  "testScope": "S7 exact portrait/speaker/talk; S14 location without portrait; exact gameplay-state checks and disk reload from earned postgame save; no fresh E2E claim"
+}

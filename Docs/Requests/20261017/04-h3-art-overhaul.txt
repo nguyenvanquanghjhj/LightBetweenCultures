@@ -1,0 +1,136 @@
+# LBC — ĐẠI TU ĐỒ HỌA H3 VÀ RÀ SOÁT CÁC CẢNH PLACEHOLDER
+
+Project: `D:\GAMEKKK\LightBetweenCultures`
+
+Tôi đã thêm bộ ảnh mới vào:
+
+`Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/`
+
+Hãy đọc `README_H3_Assets.txt`, kiểm tra đủ 7 ảnh và đối chiếu với toàn bộ asset hiện có.
+
+Tôi muốn thay giao diện H3 hiện tại đang dùng hình chữ nhật, nền vàng trơn, cây hình thoi và nút đơn giản bằng một môi trường 2D minh họa đẹp, thống nhất với City Map Hội An.
+
+## A. KIỂM TRA TRƯỚC KHI SỬA
+
+Kiểm tra trực tiếp:
+- `Assets/_Game/Scenes/HoiAnDemo.unity`
+- `Assets/_Game/Scripts/HoiAn/`
+- `HoiAnGameplay.cs`
+- `HoiAnPlayerController.cs`
+- `HoiAnItem.cs`
+- `InteractionSystem.cs`
+- `HoiAnDemoSetup.cs`
+- Art Registry và sprite hiện có.
+- Các source sheet H3 cũ và mới.
+- Checkpoint/source mới nhất.
+
+Tên file chỉ là gợi ý từ phiên bản đã kiểm toán. Nếu project hiện đã tổ chức khác, tìm đúng chức năng thay vì tạo bản sao.
+
+Giữ phần gameplay đã chạy đúng. Không viết lại hệ thống điều khiển, pathfinding, collision, nhiệm vụ hoặc save nếu không thật sự cần.
+
+## B. THIẾT KẾ LẠI CẢNH H3
+
+Tham khảo `H3_01_VisualTarget_Reference.png` về màu sắc, phong cách và cảm giác Hội An.
+
+Dựng cảnh bằng các sprite môi trường riêng được tách từ `H3_02` và những asset phù hợp đã tồn tại:
+
+- Nền đường lát đá cổ, có họa tiết và ánh sáng ấm.
+- Nhà cổ mái ngói đỏ, tường vàng.
+- Cửa gỗ, cửa sổ, mái hiên.
+- Cây xanh, hoa giấy, chậu cây.
+- Đèn lồng Hội An.
+- Các vật trang trí nhỏ đúng tỷ lệ.
+
+Cảnh phải có các lớp: background, ground/walkable area, obstacle, decorations, foreground/occlusion, item/interactables và nhân vật.
+
+Không dùng cả ảnh concept đã gộp Lumi và chữ làm background.
+
+Không tái tạo môi trường bằng primitive hình chữ nhật, tam giác hoặc hình thoi khi đã có sprite đẹp phù hợp.
+
+## C. GAMEPLAY PHẢI GIỮ NGUYÊN
+
+H3 vẫn là nơi Lumi tìm Mắt Đèn cho Cô Mai.
+
+- Lumi dùng đúng sprite exploration canonical.
+- Nhân vật di chuyển được bằng WASD, phím mũi tên và cảm ứng.
+- Đường đi được xác định theo mặt nền.
+- Tường, nhà và chậu cây lớn có collision phù hợp.
+- Không đi xuyên nhà hay vật cản.
+- Mắt Đèn là một vật thể riêng có thể nhặt, có hiệu ứng nổi bật vừa phải.
+- Đến gần, nhấn E hoặc nút tương tác để nhặt.
+- Nhặt đúng một lần và cập nhật nhiệm vụ, inventory, save.
+- Rời H3 và trở về City Map đúng node.
+- Vào lại H3 không làm vật phẩm xuất hiện lại nếu đã nhặt.
+
+Không để hiệu ứng đồ họa làm thay đổi quy tắc nhặt hoặc thưởng đồ.
+
+## D. TÍCH HỢP CÁC SHEET UI VÀ HIỆU ỨNG
+
+Sử dụng `H3_05_UI_BlankPanels_Sheet.png` để cân nhắc tạo khung UI runtime.
+
+Có thể tách các khung trống, nút, viền hoa và hiệu ứng ánh sáng nếu đạt chất lượng.
+
+Dùng 9-slice cho panel có thể thay đổi kích thước.
+
+Toàn bộ nội dung chữ phải được Unity render động; KHÔNG sử dụng ảnh có chữ baked làm nút hoặc thông báo runtime.
+
+Bố cục giao diện H3 cần:
+- Thanh tên H3 nhỏ, đẹp và dễ đọc.
+- Hướng dẫn điều khiển gọn, có thể ẩn sau khi người chơi đã hiểu.
+- Nút tương tác/nhặt rõ ràng.
+- Nút quay lại City Map.
+- Thông báo nhặt thành công đẹp, không chiếm toàn màn hình.
+- Phản hồi nhấn nút và transition ngắn.
+
+Không tạo Canvas/EventSystem hoặc UI manager thứ hai nếu hệ thống hiện tại đã đáp ứng được.
+
+Các sheet VFX/Markers mới chỉ được dùng khi có lợi ích rõ ràng; không thay marker boss/NPC đã được người dùng duyệt.
+
+## E. TÁCH ẢNH VÀ BẢO TOÀN ART
+
+Giữ nguyên tất cả source sheet trong `_SourceSheets`.
+
+Tách những hình cần dùng thành sprite riêng và đặt tại những thư mục runtime thích hợp, ưu tiên:
+
+- `Assets/_Game/Art/Environment/HoiAn/H3/`
+- `Assets/_Game/Art/UI/H3/`
+- Một thư mục FX hiện có nếu phù hợp.
+
+Kiểm tra alpha thật, viền sạch, không còn chữ, không dính sprite kế bên, không mất bóng chân.
+
+Không tự đổi hình Cô Mai, Lumi hoặc enemy canonical.
+
+Bộ `H3_07_Characters_NPC_Concept.png` chỉ là tham khảo, không có quyền tự thay thế nhân vật đã duyệt.
+
+Giữ GUID và `.meta` khi chỉnh hoặc di chuyển asset cũ. Không tạo texture trùng nếu đã có bản tương đương.
+
+## F. RÀ SOÁT NHỮNG CẢNH XẤU KHÁC
+
+Ảnh H3 tôi gửi chỉ là một ví dụ. Hãy kiểm tra các scene và UI liên quan tới:
+- Free exploration.
+- Puzzle.
+- Combat và kết quả trận.
+- Popup vật phẩm.
+- Các cảnh nhiệm vụ hoặc môi trường dùng primitive placeholder.
+
+Lập danh sách chính xác những cảnh còn dùng hình học sơ sài, thiếu background, thiếu sprite nhân vật hoặc thiếu animation.
+
+Không tự ý đại tu các hệ thống đã đẹp và được duyệt như City Map, boss trên bản đồ và marker dấu !.
+
+Trong lượt này ưu tiên hoàn thành H3 thực sự, sau đó bàn giao danh sách phần khác cần nâng cấp; không tuyên bố toàn bộ game đã được polish nếu chưa làm.
+
+## G. NGHIỆM THU
+
+Bắt buộc:
+1. Chụp ảnh H3 trước và sau ở cùng độ phân giải.
+2. Chạy thực tế từ City Map → H3 → nhặt Mắt Đèn → trở về.
+3. Kiểm tra va chạm và đường đi.
+4. Kiểm tra Windows và cảm ứng giả lập.
+5. Kiểm tra save/restart, không nhặt trùng.
+6. Kiểm tra PNG RGBA và asset references.
+7. Báo các scene placeholder còn lại.
+8. Tạo checkpoint riêng và báo những phần chưa hoàn thành.
+
+MỤC TIÊU: H3 phải có chất lượng đồ họa phù hợp bức tranh Hội An đã được duyệt, là một cảnh gameplay 2D tương tác thực sự, không phải screenshot tĩnh có vài nút bấm.
+
+Chỉ thay hình ảnh và lớp trình bày khi gameplay đã đúng. Không phá các hệ thống đang hoạt động.

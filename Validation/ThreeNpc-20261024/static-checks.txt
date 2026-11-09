@@ -1,0 +1,194 @@
+PASS: Top-level content schema unchanged
+PASS: schemaVersion unchanged (including city nodes, graph, quests, puzzles, ending)
+PASS: source unchanged (including city nodes, graph, quests, puzzles, ending)
+PASS: cities unchanged (including city nodes, graph, quests, puzzles, ending)
+PASS: items unchanged (including city nodes, graph, quests, puzzles, ending)
+PASS: enemies unchanged (including city nodes, graph, quests, puzzles, ending)
+PASS: quests unchanged (including city nodes, graph, quests, puzzles, ending)
+PASS: puzzles unchanged (including city nodes, graph, quests, puzzles, ending)
+PASS: resonances unchanged (including city nodes, graph, quests, puzzles, ending)
+PASS: checkIns unchanged (including city nodes, graph, quests, puzzles, ending)
+PASS: Event count unchanged; no additive tasks/quizzes
+PASS: Unrelated event unchanged: da_lat:intro
+PASS: Unrelated event unchanged: da_lat:square
+PASS: Unrelated event unchanged: da_lat:npc_lan
+PASS: Unrelated event unchanged: da_lat:npc_thuy
+PASS: Unrelated event unchanged: da_lat:npc_market
+PASS: Unrelated event unchanged: da_lat:pine_path
+PASS: Unrelated event unchanged: da_lat:enemy_mist_wolf
+PASS: Unrelated event unchanged: da_lat:enemy_glass_thief
+PASS: Unrelated event unchanged: da_lat:puzzle_mist
+PASS: Unrelated event unchanged: da_lat:loot_mountain
+PASS: Unrelated event unchanged: da_lat:npc_hungry_dog
+PASS: Unrelated event unchanged: da_lat:loot_meat_garden
+PASS: Unrelated event unchanged: da_lat:puzzle_windmill
+PASS: Unrelated event unchanged: da_lat:npc_gardener
+PASS: Unrelated event unchanged: da_lat:restore_dalat
+PASS: Unrelated event unchanged: da_lat:enemy_fog_boss
+PASS: Unrelated event unchanged: da_lat:loot_waterfall
+PASS: Unrelated event unchanged: da_lat:secret_lookout
+PASS: Unrelated event unchanged: da_lat:npc_innkeeper
+PASS: Unrelated event unchanged: da_lat:secret_night_bloom
+PASS: Unrelated event unchanged: da_lat:lake_bridge
+PASS: Unrelated event unchanged: da_lat:portal_seoul
+PASS: Unrelated event unchanged: gyeongju:intro
+PASS: Unrelated event unchanged: gyeongju:north_bridge
+PASS: Unrelated event unchanged: gyeongju:puzzle_pond
+PASS: Unrelated event unchanged: gyeongju:npc_min
+PASS: Unrelated event unchanged: gyeongju:puzzle_observatory
+PASS: Unrelated event unchanged: gyeongju:loot_tomb_west
+PASS: Unrelated event unchanged: gyeongju:enemy_fox
+PASS: Unrelated event unchanged: gyeongju:enemy_stone_guard
+PASS: Unrelated event unchanged: gyeongju:stone_path
+PASS: Unrelated event unchanged: gyeongju:npc_keeper
+PASS: Unrelated event unchanged: gyeongju:loot_hill
+PASS: Unrelated event unchanged: gyeongju:stone_garden
+PASS: Unrelated event unchanged: gyeongju:puzzle_cracked_seal
+PASS: Unrelated event unchanged: gyeongju:enemy_night_guard
+PASS: Unrelated event unchanged: gyeongju:npc_inscription
+PASS: Unrelated event unchanged: gyeongju:puzzle_temple
+PASS: Only NPC presentation/action fields changed: G16
+PASS: Original IDs/rewards/requirements/oneShot preserved: G16
+PASS: Unrelated event unchanged: gyeongju:puzzle_lantern_west
+PASS: Unrelated event unchanged: gyeongju:enemy_star_core
+PASS: Unrelated event unchanged: gyeongju:restore_gyeongju
+PASS: Unrelated event unchanged: gyeongju:portal_seoul
+PASS: Only NPC presentation/action fields changed: G21
+PASS: Original IDs/rewards/requirements/oneShot preserved: G21
+PASS: Unrelated event unchanged: hoi_an:intro
+PASS: Unrelated event unchanged: hoi_an:street_intro
+PASS: Unrelated event unchanged: hoi_an:npc_mai
+PASS: Unrelated event unchanged: hoi_an:scene_roof_alley
+PASS: Unrelated event unchanged: hoi_an:puzzle_market
+PASS: Unrelated event unchanged: hoi_an:enemy_mo01
+PASS: Unrelated event unchanged: hoi_an:bridge_story
+PASS: Unrelated event unchanged: hoi_an:restore_lantern
+PASS: Unrelated event unchanged: hoi_an:portal_jeonju
+PASS: Unrelated event unchanged: hoi_an:chest_secret
+PASS: Unrelated event unchanged: hoi_an:npc_ba_tu
+PASS: Unrelated event unchanged: hoi_an:loot_crate
+PASS: Unrelated event unchanged: hoi_an:enemy_crab
+PASS: Unrelated event unchanged: hoi_an:puzzle_paper
+PASS: Unrelated event unchanged: hoi_an:npc_phuc
+PASS: Unrelated event unchanged: hoi_an:enemy_ghost
+PASS: Unrelated event unchanged: hoi_an:dock_central
+PASS: Unrelated event unchanged: hoi_an:npc_boatman
+PASS: Unrelated event unchanged: hoi_an:npc_guest
+PASS: Unrelated event unchanged: hoi_an:puzzle_pottery
+PASS: Unrelated event unchanged: hoi_an:portal_hue
+PASS: Unrelated event unchanged: hoi_an:loot_attic
+PASS: Unrelated event unchanged: hue:intro
+PASS: Unrelated event unchanged: hue:npc_merchant
+PASS: Unrelated event unchanged: hue:npc_nguyet
+PASS: Unrelated event unchanged: hue:npc_ferryman
+PASS: Unrelated event unchanged: hue:bridge_entry
+PASS: Unrelated event unchanged: hue:enemy_gate_guard
+PASS: Unrelated event unchanged: hue:gate_story
+PASS: Unrelated event unchanged: hue:npc_scholar
+PASS: Unrelated event unchanged: hue:puzzle_court
+PASS: Unrelated event unchanged: hue:garden_west
+PASS: Unrelated event unchanged: hue:herb_patch
+PASS: Unrelated event unchanged: hue:seal_cache
+PASS: Unrelated event unchanged: hue:enemy_river_wisp
+PASS: Unrelated event unchanged: hue:secret_pier
+PASS: Unrelated event unchanged: hue:east_bridge
+PASS: Unrelated event unchanged: hue:enemy_courier
+PASS: Unrelated event unchanged: hue:puzzle_market_code
+PASS: Unrelated event unchanged: hue:puzzle_archive
+PASS: Unrelated event unchanged: hue:enemy_archive_guard
+PASS: Unrelated event unchanged: hue:restore_hue
+PASS: Unrelated event unchanged: hue:portal_dalat
+PASS: Unrelated event unchanged: hue:secret_wall
+PASS: Unrelated event unchanged: jeonju:intro
+PASS: Unrelated event unchanged: jeonju:center
+PASS: Unrelated event unchanged: jeonju:npc_hana
+PASS: Unrelated event unchanged: jeonju:puzzle_dye
+PASS: Unrelated event unchanged: jeonju:npc_yoon
+PASS: Unrelated event unchanged: jeonju:npc_parcel
+PASS: Unrelated event unchanged: jeonju:enemy_parcel_bot
+PASS: Unrelated event unchanged: jeonju:puzzle_hanji
+PASS: Unrelated event unchanged: jeonju:west_bridge
+PASS: Unrelated event unchanged: jeonju:enemy_paper_crane
+PASS: Unrelated event unchanged: jeonju:loot_pond
+PASS: Unrelated event unchanged: jeonju:loot_rooftop
+PASS: Unrelated event unchanged: jeonju:puzzle_embroidery
+PASS: Unrelated event unchanged: jeonju:old_gate
+PASS: Unrelated event unchanged: jeonju:enemy_pattern_bot
+PASS: Unrelated event unchanged: jeonju:npc_snack_seller
+PASS: Unrelated event unchanged: jeonju:npc_elder
+PASS: Unrelated event unchanged: jeonju:puzzle_lantern
+PASS: Unrelated event unchanged: jeonju:enemy_crane_boss
+PASS: Unrelated event unchanged: jeonju:restore_jeonju
+PASS: Unrelated event unchanged: jeonju:portal_gyeongju
+PASS: Unrelated event unchanged: jeonju:secret_hoi_an_reply
+PASS: Unrelated event unchanged: seoul:intro
+PASS: Unrelated event unchanged: seoul:central_plaza
+PASS: Unrelated event unchanged: seoul:npc_curator
+PASS: Unrelated event unchanged: seoul:puzzle_palace
+PASS: Unrelated event unchanged: seoul:loot_archive
+PASS: Unrelated event unchanged: seoul:enemy_drone
+PASS: Unrelated event unchanged: seoul:east_riverside
+PASS: Unrelated event unchanged: seoul:npc_tech
+PASS: Unrelated event unchanged: seoul:enemy_signal_bot
+PASS: Unrelated event unchanged: seoul:tower_trail
+PASS: Unrelated event unchanged: seoul:puzzle_tower
+PASS: Unrelated event unchanged: seoul:npc_engineer
+PASS: Only NPC presentation/action fields changed: S12
+PASS: Original IDs/rewards/requirements/oneShot preserved: S12
+PASS: Unrelated event unchanged: seoul:bridge_west
+PASS: Unrelated event unchanged: seoul:npc_boat
+PASS: Unrelated event unchanged: seoul:enemy_bridge
+PASS: Unrelated event unchanged: seoul:puzzle_station
+PASS: Unrelated event unchanged: seoul:puzzle_relay_hue
+PASS: Unrelated event unchanged: seoul:puzzle_relay_jeonju
+PASS: Unrelated event unchanged: seoul:enemy_shadow_courier
+PASS: Unrelated event unchanged: seoul:enemy_final_core
+PASS: Unrelated event unchanged: seoul:final_festival
+PASS: Unrelated event unchanged: seoul:secret_tower
+PASS: Unrelated event unchanged: hoi_an:ba_tu_foodprep
+PASS: Unrelated event unchanged: hoi_an:ba_tu_spice_gift
+PASS: Unrelated event unchanged: hoi_an:food_spice_bundle
+PASS: Unrelated event unchanged: hoi_an:food_hq05
+PASS: Unrelated event unchanged: hoi_an:food_hq06
+PASS: Unrelated event unchanged: hoi_an:food_hq07
+PASS: Unrelated event unchanged: hoi_an:recover_hq05
+PASS: Unrelated event unchanged: hoi_an:recover_hq06
+PASS: Unrelated event unchanged: jeonju:foodexchange_jeonju_j15
+PASS: Unrelated event unchanged: hue:foodexchange_hue_u1
+PASS: Unrelated event unchanged: hue:chapter_uq04_offer
+PASS: Unrelated event unchanged: hue:chapter_uq04_return
+PASS: Unrelated event unchanged: jeonju:chapter_jq04_offer
+PASS: Unrelated event unchanged: hoi_an:chapter_jq04_return
+PASS: Unrelated event unchanged: jeonju:chapter_jq01_finish
+PASS: Unrelated event unchanged: jeonju:chapter_jq03_offer
+PASS: Unrelated event unchanged: da_lat:dalat_return_glasses
+PASS: Unrelated event unchanged: da_lat:dalat_dq01_finish
+PASS: Unrelated event unchanged: da_lat:dalat_thuy_food
+PASS: Unrelated event unchanged: da_lat:dalat_dog_food_recovery
+PASS: Unrelated event unchanged: da_lat:dalat_dq03_offer
+PASS: Unrelated event unchanged: da_lat:dalat_strawberry_offer
+PASS: Unrelated event unchanged: jeonju:dalat_strawberry_return
+PASS: Unrelated event unchanged: gyeongju:gq01_finish
+PASS: Unrelated event unchanged: gyeongju:min_fox_food
+PASS: Unrelated event unchanged: gyeongju:gq02_offer_finish
+PASS: Unrelated event unchanged: gyeongju:gq04_offer_finish
+PASS: Unrelated event unchanged: gyeongju:gq03_offer
+PASS: Unrelated event unchanged: seoul:sq02_finish
+PASS: Unrelated event unchanged: seoul:sq03_offer
+PASS: Unrelated event unchanged: seoul:sq04_offer_finish
+PASS: 133 canonical city nodes retained
+PASS: Protected source byte-identical: Assets/_Game/Scripts/Content/NodeEventManager.cs
+PASS: Protected source byte-identical: Assets/_Game/Scripts/Content/ContentDefinitions.cs
+PASS: Protected source byte-identical: Assets/_Game/Scripts/UI/GameplayPanels.cs
+PASS: Protected source byte-identical: Assets/_Game/Scripts/UI/PlayerCopy.cs
+PASS: Protected source byte-identical: Assets/_Game/Resources/Content/CityNavigation.json
+PASS: Protected source byte-identical: Assets/_Game/Resources/DesignKitArt.asset
+PASS: All existing sprite rectangles, outlines and local IDs byte-identical: Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta
+PASS: Only requested native slices added: Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png.meta
+PASS: All existing sprite rectangles, outlines and local IDs byte-identical: Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta
+PASS: Only requested native slices added: Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta
+PASS: All existing canonical identities/approvals retained
+PASS: NPC names unique
+PASS: Existing earned QA save unchanged; only private copy prepared
+PASS: Original save/Grant implementation retained: Assets/_Game/Scripts/Core/SaveSystem.cs
+PASS: Original save/Grant implementation retained: Assets/_Game/Scripts/Content/NodeEventManager.cs

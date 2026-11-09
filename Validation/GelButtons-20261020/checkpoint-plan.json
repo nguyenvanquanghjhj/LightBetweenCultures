@@ -1,0 +1,32 @@
+{
+  "destination": "D:/GAMEKKK/Backups/CheckpointGelButtons-20261020",
+  "base": "D:\\GAMEKKK\\Backups\\CheckpointNpcApproachButtons-20261020",
+  "baseManifest": "INCREMENTAL_MANIFEST.json",
+  "baseManifestSHA256": "5c9009f720f8cd601ca1652eec52960f4e06f7dc7b7a440a795762f641f0ecb1",
+  "files": [
+    "Assets/_Game/Scripts/UI/MobileUI.cs",
+    "Assets/_Game/Scripts/UI/SoftButtonGraphic.cs",
+    "Assets/_Game/Scripts/UI/SoftButtonGraphic.cs.meta",
+    "Assets/_Game/Scripts/UI/UIButtonFeedback.cs",
+    "Assets/_Game/Scripts/UI/UIController.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.GelButtons.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.GelButtons.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "Docs/QA/CURRENT_QA_STATUS.md",
+    "Docs/QA/SOFT_GLOSSY_BUTTONS.md",
+    "Validation/GelButtons-20261020/after/restart-captures.txt",
+    "Validation/GelButtons-20261020/after/restart-results.txt",
+    "Validation/GelButtons-20261020/base-chain-verified.json",
+    "Validation/GelButtons-20261020/before/restart-captures.txt",
+    "Validation/GelButtons-20261020/before/restart-results.txt",
+    "Validation/GelButtons-20261020/callbacks/capture-manifest.txt",
+    "Validation/GelButtons-20261020/callbacks/smoke-results.txt",
+    "Validation/GelButtons-20261020/comparisons.json",
+    "Validation/GelButtons-20261020/final-results.json",
+    "Validation/GelButtons-20261020/gallery.html",
+    "Validation/GelButtons-20261020/source-diff.json",
+    "Validation/GelButtons-20261020/timing.json"
+  ],
+  "payloadBytes": 175032,
+  "deletedPaths": []
+}

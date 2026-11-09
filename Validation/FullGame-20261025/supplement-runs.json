@@ -1,0 +1,55 @@
+[
+  {
+    "name": "leisure12",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 116.2,
+    "assertions": 231,
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\leisure12\\smoke-results.txt",
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "arguments": [
+      "--casual-runtime",
+      "--casual-suppress-captures"
+    ],
+    "failureTail": null
+  },
+  {
+    "name": "map-return",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 21.6,
+    "assertions": 29,
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\map-return\\smoke-results.txt",
+    "seed": "None",
+    "arguments": [
+      "--map-return-qa"
+    ],
+    "failureTail": null
+  },
+  {
+    "name": "shop-toolbar",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 9.41,
+    "assertions": 15,
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\shop-toolbar\\smoke-results.txt",
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "arguments": [
+      "--shop-toolbar-qa"
+    ],
+    "failureTail": null
+  },
+  {
+    "name": "audio-input",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 10.86,
+    "assertions": 15,
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\audio-input\\smoke-results.txt",
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+    "arguments": [
+      "--soft-sfx-input"
+    ],
+    "failureTail": null
+  }
+]

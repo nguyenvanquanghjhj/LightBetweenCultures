@@ -1,0 +1,14 @@
+{
+  "metadata": "PASS",
+  "signature": "PASS",
+  "alignment": "PASS",
+  "version": "1.0-rc2-20261024",
+  "versionCode": 7,
+  "apk": "D:\\GAMEKKK\\LightBetweenCultures\\Builds\\Android\\LightBetweenCultures-RC2-20261024.apk",
+  "bytes": 286414150,
+  "sha256": "d884e171d7e3debb365bd2b598466cc8de786db9825a14ac46017e711ab13554",
+  "crc": "PASS",
+  "sameSourceAfterBothBuilds": true,
+  "sourceFiles": 892,
+  "sourceFingerprint": "921b42dccff49eae694aa6f766b5fb30311a7b14c1850d232be21a05f302a056"
+}

@@ -1,0 +1,12 @@
+Logs/quality-addendum-editor-guard.log
+HoiAnDemo already exists and is preserved. Edit its presentation in place; legacy scene regeneration is disabled.
+H3 LEGACY BUILDER GUARD PASS: actual setup call preserved authored scene bytes and active scene.
+
+Logs/quality-addendum-postcard-build-02.log
+Windows build: Succeeded
+
+Logs/quality-addendum-postcard-qa-02.log
+GAMEPLAY PASS: Inventory selects the requested item by name, even when category icons are shared: festival_friendship_postcard
+GAMEPLAY PASS: Disk reload preserves HQ07 and exactly one earned postcard
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+PlayerConnection::Cleanup[d3d12] Unreleased non-evictable resource 000002BA8C1E65C0 (size 65536 B, lastUsedFence 9) 'Buffer-16-4096'

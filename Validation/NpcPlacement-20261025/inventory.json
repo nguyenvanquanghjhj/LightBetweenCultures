@@ -1,0 +1,640 @@
+[
+  {
+    "city": "hoi_an",
+    "node": "H2",
+    "npc": "npc_mai",
+    "offset": [
+      -22.0,
+      10.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      537.2263376805596,
+      485.1028811604362
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "hoi_an",
+    "node": "H4",
+    "npc": "npc_market_merchant",
+    "offset": [
+      28.0,
+      6.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      357.7119338683786,
+      693.0617286350617
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "hoi_an",
+    "node": "H17",
+    "npc": "npc_boatman",
+    "offset": [
+      20.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      1334.7942387951275,
+      703.082304690749
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "hoi_an",
+    "node": "H18",
+    "npc": "npc_guest",
+    "offset": [
+      12.0,
+      4.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      840.8765435778765,
+      411.0411527493745
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "hoi_an",
+    "node": "H10",
+    "npc": "npc_ba_tu",
+    "offset": [
+      0.0,
+      0.0
+    ],
+    "anchor": [
+      0.05248619,
+      0.4208103
+    ],
+    "hasMapPosition": true,
+    "pixel": [
+      76.00000312,
+      629.0000141999999
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "hoi_an",
+    "node": "H14",
+    "npc": "npc_phuc",
+    "offset": [
+      0.0,
+      0.0
+    ],
+    "anchor": [
+      0.6767956,
+      0.68139964
+    ],
+    "hasMapPosition": true,
+    "pixel": [
+      980.0000288000001,
+      345.99999096000005
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "hue",
+    "node": "U1",
+    "npc": "npc_huong",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      419.7736620154404,
+      693.082304832749
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "hue",
+    "node": "U2",
+    "npc": "npc_nguyet",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      697.7736630634403,
+      774.082304442749
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "hue",
+    "node": "U3",
+    "npc": "npc_tam",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      577.7736618714404,
+      531.082304526749
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "hue",
+    "node": "U7",
+    "npc": "npc_scholar",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      1142.7736630794402,
+      235.082304168749
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "da_lat",
+    "node": "D2",
+    "npc": "npc_lan",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      774.7736622234404,
+      483.082304556749
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "da_lat",
+    "node": "D3",
+    "npc": "npc_thuy",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      672.7736621514404,
+      489.0823046887489
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "da_lat",
+    "node": "D4",
+    "npc": "npc_market_merchant",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      1017.7736628634403,
+      253.08230456474897
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "da_lat",
+    "node": "D10",
+    "npc": "npc_hungry_dog",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      654.7736624794404,
+      794.082304158749
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "da_lat",
+    "node": "D13",
+    "npc": "npc_gardener",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      1214.7736632154404,
+      493.08230441474893
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "jeonju",
+    "node": "J15",
+    "npc": "npc_soyeon",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      1006.7736629834403,
+      765.082304244749
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "jeonju",
+    "node": "J2",
+    "npc": "npc_hana",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      993.7736623354405,
+      558.0823040347491
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "jeonju",
+    "node": "J4",
+    "npc": "npc_yoon",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      658.7736625674404,
+      278.082304752749
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "jeonju",
+    "node": "J5",
+    "npc": "npc_park",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      1008.7736623034403,
+      671.0823047107489
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "jeonju",
+    "node": "J16",
+    "npc": "npc_elder",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      645.7736619194403,
+      580.082304156749
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "gyeongju",
+    "node": "G3",
+    "npc": "npc_min",
+    "offset": [
+      22.0,
+      8.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      549.7736627034403,
+      272.082304620749
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "gyeongju",
+    "node": "G9",
+    "npc": "npc_keeper",
+    "offset": [
+      0.0,
+      0.0
+    ],
+    "anchor": [
+      0.6422652,
+      0.6040516
+    ],
+    "hasMapPosition": true,
+    "pixel": [
+      930.0000096,
+      429.99996239999996
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "gyeongju",
+    "node": "G14",
+    "npc": "npc_inscription",
+    "offset": [
+      0.0,
+      0.0
+    ],
+    "anchor": [
+      0.9116022,
+      0.5119705
+    ],
+    "hasMapPosition": true,
+    "pixel": [
+      1319.9999856,
+      530.000037
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "gyeongju",
+    "node": "G16",
+    "npc": "npc_kang_taeho",
+    "offset": [
+      22.0,
+      5.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      767.7736624314404,
+      876.551440591218
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "gyeongju",
+    "node": "G21",
+    "npc": "npc_choi_eunsu",
+    "offset": [
+      24.0,
+      5.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      225.75308697975308,
+      819.5514404232181
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "seoul",
+    "node": "S2",
+    "npc": "npc_curator",
+    "offset": [
+      0.0,
+      0.0
+    ],
+    "anchor": [
+      0.2603591,
+      0.6712707
+    ],
+    "hasMapPosition": true,
+    "pixel": [
+      376.9999768,
+      357.0000198
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "seoul",
+    "node": "S7",
+    "npc": "npc_tech",
+    "offset": [
+      0.0,
+      0.0
+    ],
+    "anchor": [
+      0.72651935,
+      0.49539596
+    ],
+    "hasMapPosition": true,
+    "pixel": [
+      1052.0000188,
+      547.99998744
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "seoul",
+    "node": "S11",
+    "npc": "npc_engineer",
+    "offset": [
+      0.0,
+      0.0
+    ],
+    "anchor": [
+      0.88950276,
+      0.73848987
+    ],
+    "hasMapPosition": true,
+    "pixel": [
+      1287.99999648,
+      284.00000118
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "city": "seoul",
+    "node": "S12",
+    "npc": "npc_han_doyun",
+    "offset": [
+      -24.0,
+      5.0
+    ],
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "hasMapPosition": false,
+    "pixel": [
+      614.2469141242468,
+      754.551440803218
+    ],
+    "image": [
+      1448,
+      1086
+    ]
+  }
+]

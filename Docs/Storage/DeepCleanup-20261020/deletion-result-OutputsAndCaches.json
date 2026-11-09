@@ -1,0 +1,21 @@
+﻿{
+    "deletedLogicalBytes":  25480753667,
+    "freeAfterApply":  {
+                           "D:\\":  232504971264,
+                           "C:\\":  72795955200
+                       },
+    "finishedUTC":  "2026-10-20T06:36:09.1704497Z",
+    "skipped":  [
+                    {
+                        "path":  "D:\\GAMEKKK\\LightBetweenCultures\\Library\\Bee",
+                        "reason":  "Could not find a part of the path \u0027UnityPlayerGameActivity$GameActivitySurfaceView.dex\u0027."
+                    }
+                ],
+    "startedUTC":  "2026-10-20T06:35:49.8033258Z",
+    "freeBeforeApply":  {
+                            "D:\\":  205670166528,
+                            "C:\\":  72749584384
+                        },
+    "scope":  "OutputsAndCaches",
+    "deletedEntries":  13803
+}

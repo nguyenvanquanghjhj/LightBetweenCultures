@@ -1,0 +1,3 @@
+Timed out: map ready
+Modal=no map moving= stage=4
+Buttons: AudioSettings:True:True,Reset:True:True,MainGuide:True:True,Start:True:True

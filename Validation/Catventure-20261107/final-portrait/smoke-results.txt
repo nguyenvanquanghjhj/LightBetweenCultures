@@ -1,0 +1,156 @@
+UTC run: 2026-11-07T15:30:14.6322882Z | Unity 6000.6.5f1 | 540x960
+PASS: Legacy v1 load preserves inventory/coins and initializes rescue state
+PASS: Reading rescue introduction grants no progress
+PASS: Fresh runtime capture written: CAT-HoiAn-introduction
+PASS: Real touch accepts Hoi An rescue
+PASS: Fresh runtime capture written: CAT-HoiAn-map
+PASS: Cannot skip challenge or rescue early: hoi_an
+PASS: Remote interaction rejected: hoi_an
+PASS: Repeated accept is inert: hoi_an
+PASS: Travel and touch collect supply: hoi_an_basket
+PASS: Duplicate supply rejected: hoi_an_basket
+PASS: Travel and touch collect supply: hoi_an_lantern
+PASS: Duplicate supply rejected: hoi_an_lantern
+PASS: Travel and touch collect supply: hoi_an_rope
+PASS: Duplicate supply rejected: hoi_an_rope
+PASS: Empty trial cannot submit: hoi_an_lantern
+PASS: Fresh runtime capture written: CAT-mode-jigsaw
+PASS: Wrong drop cannot finish: hoi_an_lantern
+PASS: Mouse/touch matching accepted: hoi_an_lantern piece 0
+PASS: Close/reopen restores partial placement
+PASS: Mouse/touch matching accepted: hoi_an_lantern piece 1
+PASS: Mouse/touch matching accepted: hoi_an_lantern piece 2
+PASS: Mouse/touch matching accepted: hoi_an_lantern piece 3
+PASS: Interaction proof ready: hoi_an_lantern
+PASS: Explicit completion persists: hoi_an_lantern
+PASS: Empty trial cannot submit: hoi_an_bridge
+PASS: Fresh runtime capture written: CAT-mode-choice
+PASS: Wrong answer explains and allows retry: hoi_an_bridge
+PASS: Interaction proof ready: hoi_an_bridge
+PASS: Explicit completion persists: hoi_an_bridge
+PASS: Empty trial cannot submit: hoi_an_food
+PASS: Fresh runtime capture written: CAT-mode-match
+PASS: Wrong drop cannot finish: hoi_an_food
+PASS: Mouse/touch matching accepted: hoi_an_food piece 0
+PASS: Close/reopen restores partial placement
+PASS: Mouse/touch matching accepted: hoi_an_food piece 1
+PASS: Mouse/touch matching accepted: hoi_an_food piece 2
+PASS: Interaction proof ready: hoi_an_food
+PASS: Explicit completion persists: hoi_an_food
+PASS: Empty trial cannot submit: hoi_an_river
+PASS: Fresh runtime capture written: CAT-mode-scenario
+PASS: Wrong answer explains and allows retry: hoi_an_river
+PASS: Interaction proof ready: hoi_an_river
+PASS: Explicit completion persists: hoi_an_river
+PASS: Actual rescue gesture awards exactly once: hoi_an
+PASS: Repeated rescue rejected: hoi_an
+PASS: Hoi An rescue lights the additive lantern layer without legacy gate proofs
+PASS: Fresh runtime capture written: CAT-rescued-hoi_an
+PASS: Rescued cat, badge and postcard available: hoi_an
+PASS: Fresh runtime capture written: CAT-map-restored-hoi_an
+PASS: Disk reload keeps completed rescue: hoi_an
+PASS: Cat route unlocks next city: hue
+PASS: Enter next rescue city through bootstrap guard: hue
+ERROR: NullReferenceException: Object reference not set to an instance of an object
+LightBetweenCultures.CityMap.Refresh () (at D:/GAMEKKK/LightBetweenCultures/Assets/_Game/Scripts/Maps/CityMap.cs:508)
+LightBetweenCultures.CityMap.LateUpdate () (at D:/GAMEKKK/LightBetweenCultures/Assets/_Game/Scripts/Maps/CityMap.cs:291)
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&) (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:50)
+
+PASS: Cannot skip challenge or rescue early: hue
+PASS: Remote interaction rejected: hue
+PASS: Repeated accept is inert: hue
+PASS: Travel and touch collect supply: hue_boat
+PASS: Duplicate supply rejected: hue_boat
+PASS: Travel and touch collect supply: hue_vest
+PASS: Duplicate supply rejected: hue_vest
+PASS: Travel and touch collect supply: hue_blanket
+PASS: Duplicate supply rejected: hue_blanket
+PASS: Empty trial cannot submit: hue_heritage
+PASS: Wrong drop cannot finish: hue_heritage
+PASS: Mouse/touch matching accepted: hue_heritage piece 0
+PASS: Mouse/touch matching accepted: hue_heritage piece 1
+PASS: Mouse/touch matching accepted: hue_heritage piece 2
+PASS: Interaction proof ready: hue_heritage
+PASS: Explicit completion persists: hue_heritage
+PASS: Empty trial cannot submit: hue_food
+PASS: Wrong drop cannot finish: hue_food
+PASS: Mouse/touch matching accepted: hue_food piece 0
+PASS: Mouse/touch matching accepted: hue_food piece 1
+PASS: Mouse/touch matching accepted: hue_food piece 2
+PASS: Interaction proof ready: hue_food
+PASS: Explicit completion persists: hue_food
+PASS: Empty trial cannot submit: hue_music
+PASS: Wrong answer explains and allows retry: hue_music
+PASS: Interaction proof ready: hue_music
+PASS: Explicit completion persists: hue_music
+PASS: Empty trial cannot submit: hue_river
+PASS: Fresh runtime capture written: CAT-mode-maze
+PASS: Maze cannot teleport to exit: hue_river
+PASS: Interaction proof ready: hue_river
+PASS: Explicit completion persists: hue_river
+PASS: Actual rescue gesture awards exactly once: hue
+PASS: Repeated rescue rejected: hue
+PASS: Fresh runtime capture written: CAT-rescued-hue
+PASS: Rescued cat, badge and postcard available: hue
+PASS: Disk reload keeps completed rescue: hue
+PASS: Cat route unlocks next city: da_lat
+PASS: Enter next rescue city through bootstrap guard: da_lat
+PASS: Cannot skip challenge or rescue early: da_lat
+PASS: Remote interaction rejected: da_lat
+PASS: Repeated accept is inert: da_lat
+PASS: Travel and touch collect supply: da_lat_lamp
+PASS: Duplicate supply rejected: da_lat_lamp
+PASS: Travel and touch collect supply: da_lat_bell
+PASS: Duplicate supply rejected: da_lat_bell
+PASS: Travel and touch collect supply: da_lat_food
+PASS: Duplicate supply rejected: da_lat_food
+PASS: Empty trial cannot submit: da_lat_flowers
+PASS: Fresh runtime capture written: CAT-mode-hidden
+PASS: Hidden-object distractor cannot complete: da_lat_flowers
+PASS: Interaction proof ready: da_lat_flowers
+PASS: Explicit completion persists: da_lat_flowers
+PASS: Empty trial cannot submit: da_lat_food
+PASS: Wrong drop cannot finish: da_lat_food
+PASS: Mouse/touch matching accepted: da_lat_food piece 0
+PASS: Mouse/touch matching accepted: da_lat_food piece 1
+PASS: Mouse/touch matching accepted: da_lat_food piece 2
+PASS: Interaction proof ready: da_lat_food
+PASS: Explicit completion persists: da_lat_food
+PASS: Empty trial cannot submit: da_lat_station
+PASS: Wrong drop cannot finish: da_lat_station
+PASS: Mouse/touch matching accepted: da_lat_station piece 0
+PASS: Mouse/touch matching accepted: da_lat_station piece 1
+PASS: Mouse/touch matching accepted: da_lat_station piece 2
+PASS: Mouse/touch matching accepted: da_lat_station piece 3
+PASS: Interaction proof ready: da_lat_station
+PASS: Explicit completion persists: da_lat_station
+PASS: Empty trial cannot submit: da_lat_fog
+PASS: Maze cannot teleport to exit: da_lat_fog
+PASS: Interaction proof ready: da_lat_fog
+PASS: Explicit completion persists: da_lat_fog
+PASS: Actual rescue gesture awards exactly once: da_lat
+PASS: Repeated rescue rejected: da_lat
+PASS: Fresh runtime capture written: CAT-rescued-da_lat
+PASS: Rescued cat, badge and postcard available: da_lat
+PASS: Disk reload keeps completed rescue: da_lat
+PASS: Cat route unlocks next city: jeonju
+PASS: Enter next rescue city through bootstrap guard: jeonju
+PASS: Cannot skip challenge or rescue early: jeonju
+PASS: Remote interaction rejected: jeonju
+PASS: Repeated accept is inert: jeonju
+PASS: Travel and touch collect supply: jeonju_basket
+PASS: Duplicate supply rejected: jeonju_basket
+PASS: Travel and touch collect supply: jeonju_ribbon
+PASS: Duplicate supply rejected: jeonju_ribbon
+PASS: Travel and touch collect supply: jeonju_food
+PASS: Duplicate supply rejected: jeonju_food
+PASS: Empty trial cannot submit: jeonju_hanok
+PASS: Wrong drop cannot finish: jeonju_hanok
+PASS: Mouse/touch matching accepted: jeonju_hanok piece 0
+PASS: Mouse/touch matching accepted: jeonju_hanok piece 1
+PASS: Mouse/touch matching accepted: jeonju_hanok piece 2
+System.Exception: FAIL: Mouse/touch matching accepted: jeonju_hanok piece 3
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<CatRescueJourney>d__23.MoveNext () [0x00d1b] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.CatRescue.cs:135 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__317.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

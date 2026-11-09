@@ -1,0 +1,37 @@
+[
+  {
+    "path": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\NpcPlacement-20261025\\hoi_an-ground-review.png",
+    "sha256": "71faeb590480d5186e537e6a1cc65417717d3d00dc23e39218d4db308e70e04d",
+    "reason": "Obsolete offline diagnostic; runtime evidence retained; no report/manifest dependency"
+  },
+  {
+    "path": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\NpcPlacement-20261025\\hue-ground-review.png",
+    "sha256": "4c7203f67bf93dc040ae62916c87a1e513d994bc76df36f299063adb8dca4529",
+    "reason": "Obsolete offline diagnostic; runtime evidence retained; no report/manifest dependency"
+  },
+  {
+    "path": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\NpcPlacement-20261025\\da_lat-ground-review.png",
+    "sha256": "786ab641c8ec849827aa96344e34a1d6eb1fd4aef49d7cb9f6cdb9b0967570ae",
+    "reason": "Obsolete offline diagnostic; runtime evidence retained; no report/manifest dependency"
+  },
+  {
+    "path": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\NpcPlacement-20261025\\jeonju-ground-review.png",
+    "sha256": "76c0473280b4c5ad8589a054b2a2aa39d9d137b8b907ee515539afa441233c02",
+    "reason": "Obsolete offline diagnostic; runtime evidence retained; no report/manifest dependency"
+  },
+  {
+    "path": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\NpcPlacement-20261025\\gyeongju-ground-review.png",
+    "sha256": "b9bbc8a7f894cef22ddeea3273531dce2d4b4b857049cb7133b2f3da2d83ea50",
+    "reason": "Obsolete offline diagnostic; runtime evidence retained; no report/manifest dependency"
+  },
+  {
+    "path": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\NpcPlacement-20261025\\seoul-ground-review.png",
+    "sha256": "4d5a0f3b7d3faf9ffb43095f4859bd38eeb6c6595173b87cbcfe706ebabcc48c",
+    "reason": "Obsolete offline diagnostic; runtime evidence retained; no report/manifest dependency"
+  },
+  {
+    "path": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\NpcPlacement-20261025\\bell-mask-inspect.png",
+    "sha256": "8ee3a39a3bb2c6fb66ad1e472e15d86231710431fbc5bc217a6f165203d1341e",
+    "reason": "Obsolete offline diagnostic; runtime evidence retained; no report/manifest dependency"
+  }
+]

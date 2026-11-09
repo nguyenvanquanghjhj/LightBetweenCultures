@@ -1,0 +1,6 @@
+UTC run: 2026-11-07T15:09:22.5458614Z | Unity 6000.6.5f1 | 540x960
+UnityEngine.PlayerPrefsException: Could not store preference value
+  at UnityEngine.PlayerPrefs.SetInt (System.String key, System.Int32 value) [0x00014] in C:\build\output\unity\unity\Runtime\Export\PlayerPrefs\PlayerPrefs.bindings.cs:27 
+  at LightBetweenCultures.GameplaySmokeRunner+<CatRescueJourney>d__23.MoveNext () [0x000aa] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.CatRescue.cs:59 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__317.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

@@ -1,0 +1,44 @@
+[
+  {
+    "screen": "Main menu",
+    "before": "before/Gel-Main.png",
+    "after": "after/Gel-Main.png",
+    "width": 540,
+    "height": 960
+  },
+  {
+    "screen": "Help / guide",
+    "before": "before/Gel-Help.png",
+    "after": "after/Gel-Help.png",
+    "width": 540,
+    "height": 960
+  },
+  {
+    "screen": "Pressed",
+    "before": "before/Gel-Pressed.png",
+    "after": "after/Gel-Pressed.png",
+    "width": 540,
+    "height": 960
+  },
+  {
+    "screen": "Disabled (QA-only state fixture)",
+    "before": "before/Gel-Disabled.png",
+    "after": "after/Gel-Disabled.png",
+    "width": 540,
+    "height": 960
+  },
+  {
+    "screen": "City Map - same camera and zoom",
+    "before": "before/Gel-Map.png",
+    "after": "after/Gel-Map.png",
+    "width": 540,
+    "height": 960
+  },
+  {
+    "screen": "Actual dialogue - same partial-save journey",
+    "before": "../NpcStandingButtons-20261020/buttons-accepted/Standing-actions-all.png",
+    "after": "callbacks/Standing-actions-all.png",
+    "width": 720,
+    "height": 1080
+  }
+]

@@ -1,0 +1,8 @@
+Approved Phase B graph is authoritative
+Redundant ferry permission is absent from sellable catalog
+All eight other shop prices retained
+Original HQ04 location, five-coin payment and flag retained
+Active R1 ferry does not require the purchased permission
+R1 ferry opens at stage 2 without HQ04 or five coins
+H0 to H16 legally routes through R1 with zero coins and no HQ04
+Historical paid state and both receipts remain serializable unchanged

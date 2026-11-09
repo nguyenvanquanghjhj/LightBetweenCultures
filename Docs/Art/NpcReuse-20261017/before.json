@@ -1,0 +1,87 @@
+[
+  {
+    "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta",
+    "sha256": "82874ecda53eddde2ab8857a07b21fdb2168852dd274f3438fee0d795cc5ddea",
+    "copy": true
+  },
+  {
+    "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+    "sha256": "d5a1a906282240bd0cf09c1af7b49b181ba9a3ca7e48532ab840c951fe84a55f",
+    "copy": true
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/PortraitRepairSetup.cs",
+    "sha256": "446e166fa54c68a8da01b5c32781b105965d0cb8b77ce66d660871e85281a5da",
+    "copy": true
+  },
+  {
+    "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "sha256": "4e82ef6389066e367e2d21e397a139e249568d02c3ae6ee8c32a38f221a5285d",
+    "copy": true
+  },
+  {
+    "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Portraits.cs",
+    "sha256": "a81879de83cd516a06e8604aae8e1819835b95df12eee2952e2fc0aadefeae08",
+    "copy": true
+  },
+  {
+    "path": "Docs/Art/NPC_CANONICAL_REGISTRY.json",
+    "sha256": "fceba15e5ddb3c9d11c1507d581f64a6c381cff94e1a0df1c04a50d5b86109fb",
+    "copy": true
+  },
+  {
+    "path": "Docs/Art/NPC_CANONICAL_REGISTRY.md",
+    "sha256": "30038dbd90ccada023d50dba37afd8598b27f8d11078f30b3cbd624cafdef582",
+    "copy": true
+  },
+  {
+    "path": "Docs/Art/native-art-bindings.json",
+    "sha256": "c14933494ee4d5eae491e73c0608f203abe63268f82ac13994e8c530def333d7",
+    "copy": true
+  },
+  {
+    "path": "Docs/Art/art-asset-manifest.json",
+    "sha256": "b9721d95134db95b66ac0dc5a38d459d42bd22eea5f2b7dca6152ae81cd8f62e",
+    "copy": true
+  },
+  {
+    "path": "Docs/Art/art-asset-manifest.csv",
+    "sha256": "f0439eedcd4f7405d0586020485e0fcac98808757a5a36e4971dcebcb49573b6",
+    "copy": true
+  },
+  {
+    "path": "Docs/Art/ART_ASSET_CATALOG.md",
+    "sha256": "a5d433d3268f9418f64132f4e9d6f33596963ef7d3c669351d758d6dee02e15f",
+    "copy": true
+  },
+  {
+    "path": "ProjectSettings/ProjectSettings.asset",
+    "sha256": "35085c672985cf3f4723e67f729741d82e2cd361b283266016e4eb9d6544ed70",
+    "copy": true
+  },
+  {
+    "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+    "sha256": "435a9255afedc5884f5031f770230c46f4f071ac3246f62ab766691960c3b4b9",
+    "copy": false
+  },
+  {
+    "path": "Assets/_Game/Resources/Content/AdventurePresentation.json",
+    "sha256": "b1e256e02085b4b5259537335242d35f05f847762e4e3db982f6c88ed4a21cce",
+    "copy": false
+  },
+  {
+    "path": "Assets/_Game/Scenes/HoiAnDemo.unity",
+    "sha256": "447289dcf5765496e04cc8fea316687e3428f592b5f2eef69083e6373106e37e",
+    "copy": false
+  },
+  {
+    "path": "Assets/_Game/Scripts/Core/SaveSystem.cs",
+    "sha256": "5ddd7ad4d0d8ef15de6c405051d87f259c4faf922f528f0cf5a5055a23fcdaf5",
+    "copy": false
+  },
+  {
+    "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+    "sha256": "7cbef3187db3a532c2ddeb7906e5aaf0a2515c78f02fec086ba9fd7f89d971f3",
+    "copy": false
+  }
+]

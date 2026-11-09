@@ -1,0 +1,20 @@
+[
+  {
+    "path": "D:\\GAMEKKK\\Backups\\CheckpointNpcApproachButtons-20261020",
+    "manifest": "INCREMENTAL_MANIFEST.json",
+    "sha256": "5c9009f720f8cd601ca1652eec52960f4e06f7dc7b7a440a795762f641f0ecb1",
+    "verifiedFiles": 21
+  },
+  {
+    "path": "D:\\GAMEKKK\\Backups\\CheckpointTouchNpcDialogue-20261020",
+    "manifest": "INCREMENTAL_MANIFEST.json",
+    "sha256": "b2f63c5eb392cfc4ac9d1793546611557d4520aa4ef132e0291c6f68d3064456",
+    "verifiedFiles": 36
+  },
+  {
+    "path": "D:\\GAMEKKK\\Backups\\LBC_SourceVerified-20261020",
+    "manifest": "SOURCE_MANIFEST.json",
+    "sha256": "53305d534a5d5c5860003f6526d730cd412a0294a1f8c7b52831b74a54ace7a6",
+    "verifiedFiles": 2679
+  }
+]

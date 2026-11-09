@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "separateWindowsProcess": true,
+  "exactQuestRelicPuzzleFlagsRetained": true,
+  "coinDelta": -1,
+  "itemDelta": {
+    "meat_portion": 1
+  },
+  "reason": "Second process executes exactly one documented additional shop purchase; all other inventory and progress unchanged"
+}

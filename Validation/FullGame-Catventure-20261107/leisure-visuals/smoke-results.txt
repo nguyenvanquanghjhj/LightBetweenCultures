@@ -1,0 +1,315 @@
+UTC run: 2026-11-07T17:02:55.4942946Z | Unity 6000.6.5f1 | 720x1280
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only real enabled activity nodes receive a leisure badge: H0
+PASS: Only real enabled activity nodes receive a leisure badge: H1
+PASS: Only real enabled activity nodes receive a leisure badge: H2
+PASS: Only real enabled activity nodes receive a leisure badge: H3
+PASS: Only real enabled activity nodes receive a leisure badge: H4
+PASS: Only real enabled activity nodes receive a leisure badge: H5
+PASS: Only real enabled activity nodes receive a leisure badge: H6
+PASS: Only real enabled activity nodes receive a leisure badge: H7
+PASS: Only real enabled activity nodes receive a leisure badge: H8
+PASS: Only real enabled activity nodes receive a leisure badge: H9
+PASS: Existing star art reused without a touch blocker: H9
+PASS: Leisure badge obeys real discovery: H9
+PASS: Leisure badge stays readable through zoom: H9
+PASS: Only real enabled activity nodes receive a leisure badge: H10
+PASS: Only real enabled activity nodes receive a leisure badge: H11
+PASS: Only real enabled activity nodes receive a leisure badge: H12
+PASS: Only real enabled activity nodes receive a leisure badge: H13
+PASS: Only real enabled activity nodes receive a leisure badge: H14
+PASS: Only real enabled activity nodes receive a leisure badge: H15
+PASS: Only real enabled activity nodes receive a leisure badge: H16
+PASS: Existing star art reused without a touch blocker: H16
+PASS: Leisure badge obeys real discovery: H16
+PASS: Leisure badge stays readable through zoom: H16
+PASS: Only real enabled activity nodes receive a leisure badge: H17
+PASS: Only real enabled activity nodes receive a leisure badge: H18
+PASS: Only real enabled activity nodes receive a leisure badge: H19
+PASS: Only real enabled activity nodes receive a leisure badge: H20
+PASS: Only real enabled activity nodes receive a leisure badge: H21
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H9 is discovered
+PASS: Lumi reaches H9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: LV-markers-hoi_an
+PASS: Touch opens existing node activity with leisure badge present: H9
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only real enabled activity nodes receive a leisure badge: U0
+PASS: Existing star art reused without a touch blocker: U0
+PASS: Leisure badge obeys real discovery: U0
+PASS: Leisure badge stays readable through zoom: U0
+PASS: Only real enabled activity nodes receive a leisure badge: U1
+PASS: Only real enabled activity nodes receive a leisure badge: U2
+PASS: Only real enabled activity nodes receive a leisure badge: U3
+PASS: Only real enabled activity nodes receive a leisure badge: U4
+PASS: Only real enabled activity nodes receive a leisure badge: U5
+PASS: Only real enabled activity nodes receive a leisure badge: U6
+PASS: Only real enabled activity nodes receive a leisure badge: U7
+PASS: Only real enabled activity nodes receive a leisure badge: U8
+PASS: Existing star art reused without a touch blocker: U8
+PASS: Leisure badge obeys real discovery: U8
+PASS: Leisure badge stays readable through zoom: U8
+PASS: Only real enabled activity nodes receive a leisure badge: U9
+PASS: Only real enabled activity nodes receive a leisure badge: U10
+PASS: Only real enabled activity nodes receive a leisure badge: U11
+PASS: Only real enabled activity nodes receive a leisure badge: U12
+PASS: Only real enabled activity nodes receive a leisure badge: U13
+PASS: Only real enabled activity nodes receive a leisure badge: U14
+PASS: Only real enabled activity nodes receive a leisure badge: U15
+PASS: Only real enabled activity nodes receive a leisure badge: U16
+PASS: Only real enabled activity nodes receive a leisure badge: U17
+PASS: Only real enabled activity nodes receive a leisure badge: U18
+PASS: Only real enabled activity nodes receive a leisure badge: U19
+PASS: Only real enabled activity nodes receive a leisure badge: U20
+PASS: Only real enabled activity nodes receive a leisure badge: U21
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U0 is discovered
+PASS: Lumi reaches U0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: LV-markers-hue
+PASS: Touch opens existing node activity with leisure badge present: U0
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only real enabled activity nodes receive a leisure badge: D0
+PASS: Only real enabled activity nodes receive a leisure badge: D1
+PASS: Only real enabled activity nodes receive a leisure badge: D2
+PASS: Only real enabled activity nodes receive a leisure badge: D3
+PASS: Only real enabled activity nodes receive a leisure badge: D4
+PASS: Only real enabled activity nodes receive a leisure badge: D5
+PASS: Only real enabled activity nodes receive a leisure badge: D6
+PASS: Only real enabled activity nodes receive a leisure badge: D7
+PASS: Only real enabled activity nodes receive a leisure badge: D8
+PASS: Only real enabled activity nodes receive a leisure badge: D9
+PASS: Existing star art reused without a touch blocker: D9
+PASS: Leisure badge obeys real discovery: D9
+PASS: Leisure badge stays readable through zoom: D9
+PASS: Only real enabled activity nodes receive a leisure badge: D10
+PASS: Only real enabled activity nodes receive a leisure badge: D11
+PASS: Only real enabled activity nodes receive a leisure badge: D12
+PASS: Only real enabled activity nodes receive a leisure badge: D13
+PASS: Existing star art reused without a touch blocker: D13
+PASS: Leisure badge obeys real discovery: D13
+PASS: Leisure badge stays readable through zoom: D13
+PASS: Only real enabled activity nodes receive a leisure badge: D14
+PASS: Only real enabled activity nodes receive a leisure badge: D15
+PASS: Only real enabled activity nodes receive a leisure badge: D16
+PASS: Only real enabled activity nodes receive a leisure badge: D17
+PASS: Only real enabled activity nodes receive a leisure badge: D18
+PASS: Only real enabled activity nodes receive a leisure badge: D19
+PASS: Only real enabled activity nodes receive a leisure badge: D20
+PASS: Only real enabled activity nodes receive a leisure badge: D21
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D13 is discovered
+PASS: Lumi reaches D13 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: LV-markers-da_lat
+PASS: Touch opens existing node activity with leisure badge present: D13
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only real enabled activity nodes receive a leisure badge: J0
+PASS: Only real enabled activity nodes receive a leisure badge: J1
+PASS: Only real enabled activity nodes receive a leisure badge: J2
+PASS: Only real enabled activity nodes receive a leisure badge: J3
+PASS: Only real enabled activity nodes receive a leisure badge: J4
+PASS: Only real enabled activity nodes receive a leisure badge: J5
+PASS: Only real enabled activity nodes receive a leisure badge: J6
+PASS: Only real enabled activity nodes receive a leisure badge: J7
+PASS: Only real enabled activity nodes receive a leisure badge: J8
+PASS: Only real enabled activity nodes receive a leisure badge: J9
+PASS: Only real enabled activity nodes receive a leisure badge: J10
+PASS: Only real enabled activity nodes receive a leisure badge: J11
+PASS: Only real enabled activity nodes receive a leisure badge: J12
+PASS: Only real enabled activity nodes receive a leisure badge: J13
+PASS: Existing star art reused without a touch blocker: J13
+PASS: Leisure badge obeys real discovery: J13
+PASS: Leisure badge stays readable through zoom: J13
+PASS: Only real enabled activity nodes receive a leisure badge: J14
+PASS: Only real enabled activity nodes receive a leisure badge: J15
+PASS: Existing star art reused without a touch blocker: J15
+PASS: Leisure badge obeys real discovery: J15
+PASS: Leisure badge stays readable through zoom: J15
+PASS: Only real enabled activity nodes receive a leisure badge: J16
+PASS: Only real enabled activity nodes receive a leisure badge: J17
+PASS: Only real enabled activity nodes receive a leisure badge: J18
+PASS: Only real enabled activity nodes receive a leisure badge: J19
+PASS: Only real enabled activity nodes receive a leisure badge: J20
+PASS: Only real enabled activity nodes receive a leisure badge: J21
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J13 is discovered
+PASS: Lumi reaches J13 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: LV-markers-jeonju
+PASS: Touch opens existing node activity with leisure badge present: J13
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only real enabled activity nodes receive a leisure badge: G0
+PASS: Only real enabled activity nodes receive a leisure badge: G1
+PASS: Only real enabled activity nodes receive a leisure badge: G2
+PASS: Only real enabled activity nodes receive a leisure badge: G3
+PASS: Only real enabled activity nodes receive a leisure badge: G4
+PASS: Only real enabled activity nodes receive a leisure badge: G5
+PASS: Only real enabled activity nodes receive a leisure badge: G6
+PASS: Only real enabled activity nodes receive a leisure badge: G7
+PASS: Only real enabled activity nodes receive a leisure badge: G8
+PASS: Only real enabled activity nodes receive a leisure badge: G9
+PASS: Only real enabled activity nodes receive a leisure badge: G10
+PASS: Existing star art reused without a touch blocker: G10
+PASS: Leisure badge obeys real discovery: G10
+PASS: Leisure badge stays readable through zoom: G10
+PASS: Only real enabled activity nodes receive a leisure badge: G11
+PASS: Existing star art reused without a touch blocker: G11
+PASS: Leisure badge obeys real discovery: G11
+PASS: Leisure badge stays readable through zoom: G11
+PASS: Only real enabled activity nodes receive a leisure badge: G12
+PASS: Only real enabled activity nodes receive a leisure badge: G13
+PASS: Only real enabled activity nodes receive a leisure badge: G14
+PASS: Only real enabled activity nodes receive a leisure badge: G15
+PASS: Only real enabled activity nodes receive a leisure badge: G16
+PASS: Only real enabled activity nodes receive a leisure badge: G17
+PASS: Only real enabled activity nodes receive a leisure badge: G18
+PASS: Only real enabled activity nodes receive a leisure badge: G19
+PASS: Only real enabled activity nodes receive a leisure badge: G20
+PASS: Only real enabled activity nodes receive a leisure badge: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G10 is discovered
+PASS: Lumi reaches G10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: LV-markers-gyeongju
+PASS: Touch opens existing node activity with leisure badge present: G10
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Only real enabled activity nodes receive a leisure badge: S0
+PASS: Only real enabled activity nodes receive a leisure badge: S1
+PASS: Existing star art reused without a touch blocker: S1
+PASS: Leisure badge obeys real discovery: S1
+PASS: Leisure badge stays readable through zoom: S1
+PASS: Only real enabled activity nodes receive a leisure badge: S2
+PASS: Only real enabled activity nodes receive a leisure badge: S3
+PASS: Only real enabled activity nodes receive a leisure badge: S4
+PASS: Only real enabled activity nodes receive a leisure badge: S5
+PASS: Only real enabled activity nodes receive a leisure badge: S6
+PASS: Only real enabled activity nodes receive a leisure badge: S7
+PASS: Existing star art reused without a touch blocker: S7
+PASS: Leisure badge obeys real discovery: S7
+PASS: Leisure badge stays readable through zoom: S7
+PASS: Only real enabled activity nodes receive a leisure badge: S8
+PASS: Only real enabled activity nodes receive a leisure badge: S9
+PASS: Only real enabled activity nodes receive a leisure badge: S10
+PASS: Only real enabled activity nodes receive a leisure badge: S11
+PASS: Only real enabled activity nodes receive a leisure badge: S12
+PASS: Only real enabled activity nodes receive a leisure badge: S13
+PASS: Only real enabled activity nodes receive a leisure badge: S14
+PASS: Only real enabled activity nodes receive a leisure badge: S15
+PASS: Only real enabled activity nodes receive a leisure badge: S16
+PASS: Only real enabled activity nodes receive a leisure badge: S17
+PASS: Only real enabled activity nodes receive a leisure badge: S18
+PASS: Only real enabled activity nodes receive a leisure badge: S19
+PASS: Only real enabled activity nodes receive a leisure badge: S20
+PASS: Only real enabled activity nodes receive a leisure badge: S21
+PASS: Only real enabled activity nodes receive a leisure badge: S22
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S1 is discovered
+PASS: Lumi reaches S1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: LV-markers-seoul
+PASS: Touch opens existing node activity with leisure badge present: S1
+PASS: Closing an event or battle returns map input to the player
+PASS: Native pilot framebuffer 540x960
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D9 is discovered
+PASS: Lumi reaches D9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing touch drag still steers the unclipped kite
+PASS: Fresh runtime capture written: LV-D9-540-after
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-animation close removes activity without progression/reward/save mutation: D9
+PASS: Completion preserves full save: D9
+PASS: Replay still starts: D9
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G10 is discovered
+PASS: Lumi reaches G10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing mouse pull moves the complete mallet while support stays fixed
+PASS: Fresh runtime capture written: LV-G10-540-after
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-animation close removes activity without progression/reward/save mutation: G10
+PASS: Completion preserves full save: G10
+PASS: Replay still starts: G10
+PASS: Closing an event or battle returns map input to the player
+PASS: Native pilot framebuffer 720x1280
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D9 is discovered
+PASS: Lumi reaches D9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing touch drag still steers the unclipped kite
+PASS: Fresh runtime capture written: LV-D9-720-after
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-animation close removes activity without progression/reward/save mutation: D9
+PASS: Completion preserves full save: D9
+PASS: Replay still starts: D9
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G10 is discovered
+PASS: Lumi reaches G10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing mouse pull moves the complete mallet while support stays fixed
+PASS: Fresh runtime capture written: LV-G10-720-after
+PASS: Closing an event or battle returns map input to the player
+PASS: Mid-animation close removes activity without progression/reward/save mutation: G10
+PASS: Completion preserves full save: G10
+PASS: Replay still starts: G10
+PASS: Closing an event or battle returns map input to the player
+PASS: Persist checkpoint LV-earned-final
+ALL CHECKS PASSED

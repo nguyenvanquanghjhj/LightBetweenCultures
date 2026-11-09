@@ -1,0 +1,54 @@
+{
+  "baseChain": [
+    {
+      "path": "D:\\GAMEKKK\\Backups\\LBC_SourceVerified-20261020",
+      "manifest": "SOURCE_MANIFEST.json",
+      "sha256": "53305d534a5d5c5860003f6526d730cd412a0294a1f8c7b52831b74a54ace7a6"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointTouchNpcDialogue-20261020",
+      "manifest": "INCREMENTAL_MANIFEST.json",
+      "sha256": "b2f63c5eb392cfc4ac9d1793546611557d4520aa4ef132e0291c6f68d3064456"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointNpcApproachButtons-20261020",
+      "manifest": "INCREMENTAL_MANIFEST.json",
+      "sha256": "5c9009f720f8cd601ca1652eec52960f4e06f7dc7b7a440a795762f641f0ecb1"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointGelButtons-20261020",
+      "manifest": "INCREMENTAL_MANIFEST.json",
+      "sha256": "6b6597a57aa41e790517d7509a8a8e0f00d7f9d0498fb35180db2091e856e837"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointJourneyShop-20261021",
+      "manifest": "INCREMENTAL_MANIFEST.json",
+      "sha256": "bdf5fa12a77865bbbadbc74563cf543522395b6f73406842f0ebf0aa32e0a1c9"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointAppearance-20261021",
+      "manifest": "INCREMENTAL_MANIFEST.json",
+      "sha256": "dd61ec18ec7c5c428898231d1fcbc4d87bc4d629def5107026afbc4056395966"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointShopToolbar-20261021",
+      "manifest": "INCREMENTAL_MANIFEST.json",
+      "sha256": "016c78d3535fc38e4099064a1ae8fe766ff4457ca72a68d1a57f18ba6b43da71"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointHueSnap-20261021",
+      "manifest": "INCREMENTAL_MANIFEST.json",
+      "sha256": "46bb7a599bc23c3de33b194dc5921f7ca3926345668b69a0954b7e21bc18bbcc"
+    },
+    {
+      "path": "D:\\GAMEKKK\\Backups\\CheckpointFinalUX-20261023",
+      "manifest": "INCREMENTAL_MANIFEST.json",
+      "sha256": "4c77d67c97f1a6456298e2fa03e452c0b195aec2a2f49f455e0ab6b5a0216c95"
+    }
+  ],
+  "verifiedEntries": 2915,
+  "currentRuntimeFilesMatchLatestChain": true,
+  "checkpointDeletion": "NONE",
+  "regenerableCacheRecovery": "Unity rebuilds Gradle outputs, Windows PlayerDataCache and objcopy symbols from retained source/native inputs. Full Library/asset import DB and Android PlayerDataCache are retained.",
+  "READMEOriginal": "README.before.md"
+}

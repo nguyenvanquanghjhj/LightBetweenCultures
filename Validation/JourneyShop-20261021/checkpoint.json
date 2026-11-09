@@ -1,0 +1,29 @@
+{
+  "checkpoint": "D:\\GAMEKKK\\Backups\\CheckpointJourneyShop-20261021",
+  "files": 31,
+  "bytes": 335900,
+  "sourceChanges": [
+    "Assets/_Game/Scripts/Core/GameBootstrap.cs",
+    "Assets/_Game/Scripts/Core/JourneyShop.cs",
+    "Assets/_Game/Scripts/Core/JourneyShop.cs.meta",
+    "Assets/_Game/Scripts/Core/QuestManager.cs",
+    "Assets/_Game/Scripts/Editor/OwnerRouteAndroidBuild.cs",
+    "Assets/_Game/Scripts/Maps/CityMap.JourneyShop.cs",
+    "Assets/_Game/Scripts/Maps/CityMap.JourneyShop.cs.meta",
+    "Assets/_Game/Scripts/Maps/CityMap.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.JourneyShop.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.JourneyShop.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.JourneyShop.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.JourneyShop.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Lighting.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.OwnerRoutesB.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Relics.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs"
+  ],
+  "deletedPaths": [],
+  "protectedInputsUnchanged": true,
+  "protectedFilesCompared": 855,
+  "baseChainVerified": true,
+  "standalone": false,
+  "manifestSHA256": "bdf5fa12a77865bbbadbc74563cf543522395b6f73406842f0ebf0aa32e0a1c9"
+}

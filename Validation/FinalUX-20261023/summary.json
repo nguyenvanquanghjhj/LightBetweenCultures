@@ -1,0 +1,49 @@
+{
+  "windowsFocused": "PASS",
+  "focusedChecks": 367,
+  "callbackChecks720": 52,
+  "mouseAndTouch": "SIMULATED_TOUCH_PASS",
+  "allSixCities": "RUNTIME_FIXTURE_PASS_NOT_FULL_CAMPAIGN",
+  "npcMenusAudited": 24,
+  "existingRepeatedInformationOptionsPruned": 17,
+  "storyDragActivities": 9,
+  "relicAssemblies": 6,
+  "captures": [
+    "final01/UX-guidance-hue.png",
+    "final01/UX-guidance-seoul.png",
+    "final01/UX-Hue-archive-snapped.png"
+  ],
+  "protectedOriginalFilesUnchanged": 876,
+  "androidDevice": "NOT_TESTED_NO_DEVICE_CONNECTED",
+  "blind5_15_30": "NOT_TESTED_CHECKLIST_PROVIDED",
+  "ratings": "NO_AUTOMATIC_SCORE_INCREASE",
+  "failuresRetained": {
+    "runtime01": "QA selected CityMapBackground for Hoi An; production uses HoiAnMapBackground",
+    "runtime02": "QA measured a prism drag coordinate before canvas layout completed; corrected by ForceUpdateCanvases in QA only"
+  },
+  "sourceChanges": [
+    "Assets/_Game/Scripts/Core/QuestManager.Guidance.cs",
+    "Assets/_Game/Scripts/Maps/WorldMap.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.ContextHelp.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.CulturalTrials.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.Guidance.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+    "Assets/_Game/Scripts/UI/GameplayPanels.StoryActivities.cs",
+    "Assets/_Game/Scripts/UI/RelicDragHandle.cs",
+    "Assets/_Game/Scripts/UI/SoftAudio.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FinalUX.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FinalUX.cs.meta",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs"
+  ],
+  "existingHueStampRegressionChecks": 28,
+  "totalFocusedChecks": 447,
+  "androidBuild": {
+    "result": "PASS",
+    "errors": 0,
+    "apk": "Builds\\Android\\LightBetweenCultures-FinalUX-20261023.apk",
+    "bytes": 286412770,
+    "sha256": "844b1807460af672bdf79c8361e24ad7145020a5d21d2f3033aa7d92b85f07fe",
+    "signature": "APK_V2_VERIFIED",
+    "device": "NOT_TESTED"
+  }
+}

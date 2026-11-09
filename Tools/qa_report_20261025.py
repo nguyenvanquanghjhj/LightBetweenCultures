@@ -1,0 +1,101 @@
+"""Summarize retained receipts without changing any historical test result."""
+from pathlib import Path
+import collections, datetime, hashlib, json, re
+R=Path(__file__).resolve().parents[1];V=R/'Validation/FullGame-20261025';D=R/'Docs/QA/FULL_GAME_20261025.md'
+rows=[]
+for f in ['runs','supplement-runs','followup-runs','last-runs','ending-runs']:
+    rows+=json.loads((V/(f+'.json')).read_text(encoding='utf-8'))
+identity=json.loads((V/'identity.json').read_text());integrity=json.loads((V/'last-integrity.json').read_text())
+audit=json.loads((V/'content-audit.json').read_text());metrics=json.loads((V/'map-return/map-return-metrics.json').read_text())
+counts=collections.Counter(x['status'] for x in rows)
+def link(p):return '../../'+Path(p).relative_to(R).as_posix()
+table='\n'.join('| '+x['name']+' | '+x['status']+' | '+str(x['assertions'])+' | '+str(x['seconds'])+' | [Log]('+link(x['result'])+') |' for x in rows)
+text=f'''# Kiểm thử toàn game — 25/10/2026
+
+**Kết luận: PARTIAL / chưa đủ điều kiện chốt toàn game ngon hoặc FULL PASS.** Các tính năng mới đã qua kiểm thử độc lập trên Windows, gồm ba NPC, panel, hội thoại, credits, mua và dùng trà/thịt. Hành trình kiếm đủ sáu di vật, boss hai pha và ending đã được xác minh qua các lượt tiếp nối bằng save QA thực sự kiếm được. Chưa có một lượt campaign mới chạy liền mạch đến hết mà không bị runner dừng.
+
+Đã chạy **{len(rows)} lượt Player: {counts['PASS']} PASS, {counts['FAIL']} FAIL**, cùng **35 nhóm kiểm tra dữ liệu PASS**. Có {sum(x['assertions'] for x in rows):,} dòng assertion đạt trong cả các lượt bị dừng; đây là helper checks có lặp, không phải số tình huống độc lập và không phải tỷ lệ chất lượng game. Bảy kết quả FAIL gốc vẫn được giữ; các lượt chạy lại không sửa hoặc ghi đè chúng.
+
+## Bản game và cách chạy
+
+- Unity 6000.6.5f1; Windows 11, Player đồ họa thật, đầu vào mouse/touch giả lập qua Unity InputSystem.
+- Dùng lại `Builds/Windows-ThreeNpcQA-20261025/LightBetweenCultures.exe`, không build hoặc sao chép thêm Player.
+- Assembly-CSharp SHA256: `{identity['assemblySHA256']}`. [Hash và CRC artifact](../../Validation/FullGame-20261025/artifacts.json).
+- Mỗi nhóm dùng save riêng dưới `Validation/FullGame-20261025`. Campaign từ đầu dùng save trắng; nhóm focused dùng bản sao earned save, có fixture/reset được ghi rõ trong runner và receipt. Đi bộ có tăng tốc; thời gian runner không phải thời gian chơi của người thật.
+- Không sửa Assets, Packages, ProjectSettings, route, artwork hoặc gameplay. Hash **{integrity['sourceFiles']} file nguồn/cấu hình giữ nguyên** sau toàn bộ lượt test. [Đối chiếu cuối](../../Validation/FullGame-20261025/last-integrity.json).
+- Save thật của owner giữ nguyên SHA256 `{integrity['ownerSaveAfter']}`. Không cài lại game, không reset dữ liệu điện thoại.
+
+## Tính năng mới và hồi quy
+
+| Nhóm | Kết quả thực tế | Giới hạn |
+|---|---|---|
+| NPC G16 — Kang Tae-ho | Map/portrait/tên/thoại đúng; 2 trà + 5 xu đúng | Windows |
+| NPC G21 — Choi Eun-su | Map/portrait/tên/thoại đúng; 2 trà đúng, không thêm xu | Windows |
+| NPC S12 — Han Do-yun | Map/portrait/tên/thoại đúng; 3 trà + 12 xu đúng | Windows |
+| Ba NPC: đóng trước nhận, callback lặp, collect cũ, save đã nhận | PASS: không cấp lại; quay lại có lời chào hoàn thành, receipt không phát lại | Save cũ và claimed fixtures được phân biệt trong runner |
+| Ba NPC: process restart | PASS 102 checks sau lượt runtime 157 checks; items/coins/ledger khớp | Không thay cho native Android save |
+| Panel node mới | PASS 151 checks ở kích thước render 540×960 và 720×1280; khung, chữ, vùng chạm, X, NPC/enemy portrait, portal và H3 callback | Không có human usability test |
+| Hội thoại, cuộn, accept/delivery/cancel/X | PASS ở lượt `dialogue-complete-fixtures`; đọc/X không nhận/giao đồ, HQ06 chỉ giao khi confirm, reserve và ledger giữ đúng | Action-list overflow drag vẫn NOT_TESTED vì fixture vừa màn hình |
+| Credits | PASS 26 checks: nội dung đã duyệt, tiêu đề/nút không cắt, chữ giữ cỡ, 540×1080 và 1280×720 | Windows |
+| UX/guidance/puzzle/di vật | PASS 373 checks: mục tiêu, world gates, gợi ý liên thành phố, snap/lock, sai thử lại, không tự cấp thưởng, Seoul prism, volume/mute | Focused fixtures; không giải đủ 22 puzzle trong một campaign sạch |
+| Hai dấu Huế | PASS 28 checks: sai slot trả về, snap/khóa, xác nhận và thưởng một lần | Windows |
+| Shop / trà / thức ăn | Mua trà/thịt bằng xu kiếm được, trừ đúng giá; VN kiểm tra uống trà theo lượt/HP; thịt làm mồi; không bán lại phí đò HQ04; request trùng bị chặn trong save-recovery | Không chạy lại toàn bộ suite shop cũ vì còn kỳ vọng catalog 9 món/quyền đò đã bị bỏ; rollback khi write fail chưa chạy mới |
+| Shop toolbar | PASS 15 checks; mouse/touch mở đóng đúng, không đổi save | Windows |
+| 12 leisure trên 6 map | PASS 231 checks: trợ giúp, hoạt ảnh/progress, hoàn tất, replay, đóng giữa chừng, không đổi tiến độ/thưởng | Không chấm chất lượng mỹ thuật từng frame hoặc độ vui |
+| Badge/kite/mallet leisure | PASS 313 checks sau khi dùng save đã mở ngõ H9 | Lượt dùng save chưa mở H9 vẫn lưu FAIL |
+| Save/recovery | PASS 118 checks: corruption/backup/tmp/v1, ghi đè nhiều lần, 6 city, exact roundtrip và giao dịch chống trùng | Windows filesystem |
+| Quay lại từ H3 | PASS 29 checks; hai lần quay lại khoảng {metrics['firstReturnSeconds']:.2f}s / {metrics['reentryReturnSeconds']:.2f}s, còn đúng 1 Mắt Đèn, map input hoạt động | Lỗi giật/kẹt cũ **NOT_REPRODUCED**, không đổi thành FIXED; không suy ra FPS Android |
+| Âm thanh | UX volume/mute/cue PASS; audio-input 15 checks, pan/pinch không phát cue thừa | Không nghe/chấm âm thanh độc lập hoặc đo loop Android |
+
+Đã mở xem trực tiếp sáu ảnh map/thoại của ba NPC, panel H7 và ảnh chẩn đoán thất bại. Chữ Việt ba NPC đọc được, portrait đúng artwork, nút hành động hiện. [Ảnh G16](../../Validation/FullGame-20261025/three-npc/ThreeNpc-Dialogue-G16.png), [G21](../../Validation/FullGame-20261025/three-npc/ThreeNpc-Dialogue-G21.png), [S12](../../Validation/FullGame-20261025/three-npc/ThreeNpc-Dialogue-S12.png).
+
+## Các điểm dừng và phân loại
+
+1. **Ghép Jeonju trong campaign VN — chưa xác định lỗi game hay thao tác runner.** Sau 628 checks đạt, runner kéo bốn mảnh rồi báo `Assembly is distinct from restored state`. Ảnh cho thấy chưa đủ bốn mảnh khớp; game từ chối hoàn tất. Chạy lại đúng save earned đó ở lượt `jeonju-isolated` PASS 43 checks, ghép/trial/phục dựng và persist được. Chưa có bằng chứng mất mảnh, mất save hoặc softlock cố định. [Ảnh thất bại](../../Validation/FullGame-20261025/campaign-vietnam/failure-runtime.png).
+
+2. **Trà trong campaign Hàn trước — tiền điều kiện runner sai.** `PcBattleWithTea` giả định đầy máu, nhưng save tại U15 có 46 HP, energy 0 sau hành trình trước đó; vì vậy nút trà có thể dùng là hợp lệ. Assertion `PC full HP cannot consume tea` không chứng minh game sai. Lượt VN trước đó đã kiểm tra mua/uống trà thành công. Chưa sửa runner hoặc gameplay trong lượt QA này.
+
+3. **Thư Huế trong campaign lõi Hàn trước — thao tác kéo chưa ổn định, còn mở.** Lượt mới bỏ đường kiểm tra trà nói trên, đi qua Jeonju/Gyeongju rồi dừng tại `Touch drag / tap-select places actual piece: puzzle_archive 0`, sau 640 checks đạt. `puzzle_archive` đã được giải thành công trong lượt VN và qua focused snap test. Cần tái hiện với theo dõi pointer/rect/raycast hoặc thao tác tay để phân biệt runner với lỗi input thật. Chưa coi lỗi đã hết. [Bằng chứng](../../Validation/FullGame-20261025/campaign-korea-core/failure-runtime.png).
+
+4. **World Map timeout sau boss — còn mở.** Lượt `campaign-vietnam-earned-continuation` dùng save thực sự nhận đủ mảnh trước đó, phục dựng đủ 6/6, hoàn tất boss hai pha và quay lại Hội An; sau đó timeout chờ `WorldMap`. UI vẫn còn Back/Interact nhưng chưa chuyển scene. Chưa xác định mất click do runner hay callback game. Không nhận lượt này là PASS. [Trạng thái UI](../../Validation/FullGame-20261025/campaign-vietnam-earned-continuation/failure-ui-state.txt).
+
+5. **Hai lần thiếu fixture hội thoại — lỗi gọi QA, đã chạy lại đạt.** Lượt đầu thiếu `--buttons-partial-save`, lượt thứ hai thiếu `--buttons-world-save`. Lượt cuối truyền cả hai đạt. Không quy hai lỗi `Sequence contains no matching element` này cho game.
+
+6. **Leisure H9 chưa mở trong fixture đầu — đã chạy lại đạt.** Save campaign cũ chưa làm HQ02 nên H9 bị ẩn đúng điều kiện. Lượt `leisure12` kiếm mở ngõ bằng quest thật; dùng save đó cho lượt `leisure-correct-fixture` đạt. Không tiêm flag mở H9.
+
+Các lỗi cấu hình phía trên được ghi để giải thích kết quả, không biến lượt FAIL cũ thành PASS. Trong quá trình audit tĩnh, bản kiểm tra đầu cũng nhầm quest giao liên thành phố và dấu hỏi cuối câu; đã sửa quy tắc kiểm tra, giữ [kết quả đầu](../../Validation/FullGame-20261025/content-audit-first-attempt.json), sau đó 35 nhóm đạt. Không sửa dữ liệu game để vượt test.
+
+## Campaign và ending
+
+Không có lượt New Game mới liền mạch FULL PASS. Hai hướng VN_FIRST/KOREA_FIRST đều được chạy mới; các điểm dừng ở trên chặn chứng nhận này.
+
+Chuỗi earned thực tế được giữ: `campaign-vietnam` → `jeonju-isolated` → `campaign-vietnam-earned-continuation` → `ending-earned-tail` → `ending-earned-restart`. Không thêm cờ mở thành phố, mảnh, boss hoặc ending vào chuỗi này. Có restart và chạy lại đoạn thất bại; vì vậy đây là bằng chứng tiến độ đi tới ending qua nhiều lượt, không phải campaign liên tục.
+
+Lượt ending từ save thực sự đủ sáu di vật/boss kiểm tra nghi thức và credits; lượt process mới kiểm tra completion/ledger không phát lại. Trạng thái cụ thể nằm trong bảng raw bên dưới. `credits-preview` riêng là fixture earned trước task và chỉ chứng minh presentation.
+
+## Phạm vi dữ liệu và những phần chưa chốt
+
+Audit dữ liệu: 6 city, 133 node, 164 event, 38 item, 29 quest, 23 enemy, 22 puzzle, 18 check-in, 6 relic/24 fragment và 12 leisure. Kiểm tra ID, tham chiếu event/item/quest/enemy/puzzle, node/edge/navigation, vị trí hữu hạn, quest giao liên thành phố và ba NPC mới. [35 nhóm kiểm tra](../../Validation/FullGame-20261025/content-audit.json). Đúng tham chiếu không chứng minh mọi footprint/đường đi thông thoáng, cũng không có nghĩa đã thực hiện cả 133 node, 29 quest hoặc 18 check-in.
+
+Android **BLOCKED_NO_ADB_DEVICE**: đã chạy `adb devices -l` trong môi trường admin; danh sách trống. Không có đo touch, FPS/RAM/nhiệt, suspend/resume, native save hoặc install/update bản NPC trên realme C71. APK/Windows ZIP RC2 ngày 24/10 là artifact trước lượt tích hợp map ba NPC 25/10; CRC/hash được kiểm tra, không dùng chúng làm bằng chứng chứa hoặc chạy tốt tính năng mới. Không tạo APK mới trong task kiểm thử.
+
+G14 tiếp tục là hạn chế lore tùy chọn đã ghi từ trước, chưa có lượt approach mới; không ghi FIXED. Tool full art inventory trước đó vướng hash migration Huế theo [báo cáo ba NPC](THREE_NPC_ACCEPTANCE_20261025.md); không chạy lại tool có ghi registry trong lượt QA giữ source. Không nghiệm thu độ vui, cân bằng với người chơi độc lập, hành trình người mới 5/15/30 phút, mọi tỷ lệ màn hình hoặc soak nhiều giờ.
+
+Ưu tiên còn lại: tái hiện input drag Jeonju/thư Huế và Back→WorldMap trong hành trình dài, sửa tiền điều kiện runner trà, đạt lại hai campaign sạch, rồi kiểm thử APK chứa tính năng mới trên máy thật. Chưa có căn cứ để sửa gameplay chỉ nhằm làm runner xanh.
+
+## Toàn bộ lượt chạy
+
+| Lượt | Trạng thái raw | Checks đạt trước khi dừng | Giây tự động | Bằng chứng |
+|---|---|---:|---:|---|
+{table}
+
+## Tái lập và lưu trữ
+
+Runner gọi Player bằng `--gameplay-smoke --gameplay-output=<thư mục QA riêng>`; từng receipt JSON ghi đầy đủ mode và seed. Không dùng thư mục output đã tồn tại để gọi lại script tổng. Các script `Tools/qa_*_20261025.py` ghi rõ đường dẫn và thứ tự; nếu chạy lại cần output tên mới. File source/save gốc không bị thay thế.
+
+Giữ log, saves/provenance, capture manifest, ảnh lỗi và ảnh acceptance. Không tạo checkpoint full hoặc bản build trùng; không xóa backup/save/ảnh cũ. Không dọn bỏ ảnh có tham chiếu từ capture manifest. [Raw receipts và fixtures](../../Validation/FullGame-20261025/runs.json).
+'''
+D.write_text(text,encoding='utf-8')
+summary={'dateLocal':'2026-10-25','timezone':'Asia/Bangkok','status':'PARTIAL_NOT_FULL_GAME_PASS','runs':len(rows),'rawPass':counts['PASS'],'rawFail':counts['FAIL'],'helperPassLines':sum(x['assertions'] for x in rows),'staticGroups':len(audit['checks']),'staticFailed':sum(x['status']!='PASS' for x in audit['checks']),'sourceUnchanged':integrity['sourceUnchanged'],'ownerSaveUnchanged':integrity['ownerSaveUnchanged'],'android':'BLOCKED_NO_ADB_DEVICE','report':str(D),'openIssues':['Jeonju mixed-input assembly in long campaign; isolated earned retry passes','archive drag in long Korea route','WorldMap transition timeout after boss','tea runner assumes full HP on Korea-first route']}
+(V/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
+print(json.dumps(summary,ensure_ascii=True))

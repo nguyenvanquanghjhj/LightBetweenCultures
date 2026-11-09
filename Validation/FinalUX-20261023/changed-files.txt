@@ -1,0 +1,12 @@
+Assets/_Game/Scripts/Core/QuestManager.Guidance.cs
+Assets/_Game/Scripts/Maps/WorldMap.cs
+Assets/_Game/Scripts/UI/GameplayPanels.ContextHelp.cs
+Assets/_Game/Scripts/UI/GameplayPanels.CulturalTrials.cs
+Assets/_Game/Scripts/UI/GameplayPanels.Guidance.cs
+Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs
+Assets/_Game/Scripts/UI/GameplayPanels.StoryActivities.cs
+Assets/_Game/Scripts/UI/RelicDragHandle.cs
+Assets/_Game/Scripts/UI/SoftAudio.cs
+Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FinalUX.cs
+Assets/_Game/Scripts/Validation/GameplaySmokeRunner.FinalUX.cs.meta
+Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs

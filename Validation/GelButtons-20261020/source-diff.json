@@ -1,0 +1,55 @@
+{
+  "baseline": "CheckpointNpcApproachButtons-20261020 plus its base chain",
+  "checked": 859,
+  "changed": [
+    {
+      "path": "Assets/_Game/Scripts/UI/MobileUI.cs",
+      "before": "1bf800e4230c6e5a190b262d9c00fd223b78a36c25f2f2092fa32ab1d68ab190",
+      "after": "cf5502a99e16671b4cec0f700936979114f7a96b10c59d54e0998d69f64bfa34",
+      "bytes": 6369
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIButtonFeedback.cs",
+      "before": "f43bd7d809bca8d174daa2926c3ca1c73f1b11fcc0b8878d0f2e8f51a1455989",
+      "after": "5f954096eef5067117fcddc84db3e6551861a1b4b57605a214ec40197cb6a225",
+      "bytes": 2618
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/UIController.cs",
+      "before": "fd9a138f0037f5835f909bbba91fe95e34648b9b814c1a4ea714a555310d663f",
+      "after": "c5e39003b9899711f40b486393c7f9dfe0fb98a696c0aee449fab1b18757d979",
+      "bytes": 6126
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "before": "c4f987ce5a1969a600c2565650344380c2cd0b726172dfef6de548c7cbb66cf3",
+      "after": "5d55c8ab277f7f34491235e2ff04c452e0d37124fb6d6f77cd863c6be585f74a",
+      "bytes": 119757
+    }
+  ],
+  "new": [
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftButtonGraphic.cs",
+      "sha256": "2646d0c81a6b50dadeeba6eb68aeca22a00876a97929a9c0767fcc21878ed0a3",
+      "bytes": 4590
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/SoftButtonGraphic.cs.meta",
+      "sha256": "0804f9fa6366211e71afcbac759eff297088208c1df9a3e774e827decb7a0a63",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.GelButtons.cs",
+      "sha256": "a9a00e5765517a96f8a920a46d4edb99dbf93d83ed90e258b356304c0917afd0",
+      "bytes": 5835
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.GelButtons.cs.meta",
+      "sha256": "9f5df89176940187cfbc9b69b8182e32cc8e85f2709e5d2b3e284be421d426ad",
+      "bytes": 59
+    }
+  ],
+  "missing": [],
+  "nonUiGameplayCodeChanged": false,
+  "assetsPackagesSettingsPreserved": true
+}

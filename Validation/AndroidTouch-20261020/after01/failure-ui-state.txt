@@ -1,0 +1,3 @@
+Timed out: button Journal
+Modal=False moving=False stage=4
+Buttons: S19:True:True,FocusLumi:True:True,S22:True:True,S17:True:True,S18:True:True,S3:True:True,MapOverview:True:True,ZoomOut:True:True,S2:True:True,QuestJournal:True:True,S1:True:True,S14:True:True,Inventory:True:True,ObjectiveHint:True:True,Back:True:True,S16:True:True,S11:True:True,S12:True:True,S4:True:True,S5:True:True,Interact:True:True,S20:True:True,ZoomIn:True:True,AudioSettings:True:True,S21:True:True,S8:True:True,S13:True:True,S15:True:True,MarkerMotion:True:True,S7:True:True,S10:True:True,S6:True:True,S9:True:True,S0:True:True

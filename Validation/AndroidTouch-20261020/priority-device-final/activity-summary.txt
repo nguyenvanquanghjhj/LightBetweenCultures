@@ -1,0 +1,34 @@
+  * Task{6b47e14 #5063 type=standard A=10296:com.DefaultCompany.LightBetweenCultures minWidth=400 minHeight=300 U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+    topResumedActivity=ActivityRecord{167187546 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity t5063 d0}
+    * Hist  #0: ActivityRecord{167187546 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity t5063 d0}
+      packageName=com.DefaultCompany.LightBetweenCultures processName=com.DefaultCompany.LightBetweenCultures
+      app=ProcessRecord{9a927dc 19276:com.DefaultCompany.LightBetweenCultures/u0a296}
+      Intent { flg=0x10000000 xflg=0x5 cmp=com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity }
+      rootOfTask=true task=Task{6b47e14 #5063 type=standard A=10296:com.DefaultCompany.LightBetweenCultures minWidth=400 minHeight=300}
+      taskAffinity=10296:com.DefaultCompany.LightBetweenCultures
+      mActivityComponent=com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity
+      baseDir=/data/app/~~tP0jIKY4KJOR8xkdY0sB4A==/com.DefaultCompany.LightBetweenCultures-iAg42xIm2WTIHRuRpnTJtg==/base.apk
+      dataDir=/data/user/0/com.DefaultCompany.LightBetweenCultures
+      windows=[Window{39077a6 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity}, [type=1, isChildWindow=false]-[Surface(name=*Title#308350)/@0x6cf7adf]]
+    Resumed: ActivityRecord{167187546 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity t5063 d0}
+  ResumedActivity: ActivityRecord{167187546 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity t5063 d0}
+  topDisplayFocusedRootTask=Task{6b47e14 #5063 type=standard A=10296:com.DefaultCompany.LightBetweenCultures minWidth=400 minHeight=300}
+  deepestLastOrientationSource=ActivityRecord{167187546 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity t5063 d0}
+  mCurrentFocus=Window{39077a6 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity}, [type=1, isChildWindow=false]-[Surface(name=*Title#308350)/@0x6cf7adf]
+  mFocusedApp=ActivityRecord{167187546 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity t5063 d0}
+      mPreferredTopFocusableRootTask=Task{6b47e14 #5063 type=standard A=10296:com.DefaultCompany.LightBetweenCultures minWidth=400 minHeight=300}
+      mLastFocusedRootTask=Task{6b47e14 #5063 type=standard A=10296:com.DefaultCompany.LightBetweenCultures minWidth=400 minHeight=300}
+      * Task{6b47e14 #5063 type=standard A=10296:com.DefaultCompany.LightBetweenCultures minWidth=400 minHeight=300 U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+        * ActivityRecord{167187546 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity t5063 d0}
+    mFocusedWindow=Window{39077a6 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity}, [type=1, isChildWindow=false]-[Surface(name=*Title#308350)/@0x6cf7adf]
+    mTopFullscreenOpaqueWindowState=Window{39077a6 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity}, [type=1, isChildWindow=false]-[Surface(name=*Title#308350)/@0x6cf7adf]
+    mSystemBarColorApps={ActivityRecord{167187546 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity t5063 d0}}
+    mNavBarColorWindowCandidate=Window{39077a6 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity}, [type=1, isChildWindow=false]-[Surface(name=*Title#308350)/@0x6cf7adf]
+    mNavBarBackgroundWindowCandidate=Window{39077a6 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity}, [type=1, isChildWindow=false]-[Surface(name=*Title#308350)/@0x6cf7adf]
+      Window{39077a6 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity}, [type=1, isChildWindow=false]-[Surface(name=*Title#308350)/@0x6cf7adf]
+      Window{39077a6 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity}, [type=1, isChildWindow=false]-[Surface(name=*Title#308350)/@0x6cf7adf]:
+        mControlTarget=Window{39077a6 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity}, [type=1, isChildWindow=false]-[Surface(name=*Title#308350)/@0x6cf7adf]
+        mControlTarget=Window{39077a6 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity}, [type=1, isChildWindow=false]-[Surface(name=*Title#308350)/@0x6cf7adf]
+        mControlTarget=Window{39077a6 u0 com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity}, [type=1, isChildWindow=false]-[Surface(name=*Title#308350)/@0x6cf7adf]
+        (fullscreen) Task{6b47e14 #5063 type=standard A=10296:com.DefaultCompany.LightBetweenCultures minWidth=400 minHeight=300}
+  VisibleActivityProcess:[ ProcessRecord{9a927dc 19276:com.DefaultCompany.LightBetweenCultures/u0a296}]

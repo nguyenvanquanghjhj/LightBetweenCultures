@@ -1,0 +1,222 @@
+[
+  {
+    "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      33,
+      0,
+      1254,
+      1242
+    ],
+    "sha256": "4a300ed9551394a40758140a7bf60508725f496eac2adf62ca48353f6ccf1a00",
+    "metaExists": false,
+    "runtimeStatus": "NOT_RUNTIME_READY",
+    "approval": "PENDING_USER_VISUAL_APPROVAL"
+  },
+  {
+    "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      33,
+      14,
+      1238,
+      1239
+    ],
+    "sha256": "2b0cf2eaa0bfd0ca4b64ca06251adb42c53e4290b9281a1005babcd475843c26",
+    "metaExists": false,
+    "runtimeStatus": "NOT_RUNTIME_READY",
+    "approval": "PENDING_USER_VISUAL_APPROVAL"
+  },
+  {
+    "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      33,
+      0,
+      1253,
+      1254
+    ],
+    "sha256": "8d185c04b98bf723bafc91fe3b24710439c757d6d142a2b8027bca5e0028072d",
+    "metaExists": false,
+    "runtimeStatus": "NOT_RUNTIME_READY",
+    "approval": "PENDING_USER_VISUAL_APPROVAL"
+  },
+  {
+    "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      0,
+      0,
+      1242,
+      1254
+    ],
+    "sha256": "81c0820415a44a92256dfc758e119b36133c3e0a4ea59b831ad9ac0711d2e010",
+    "metaExists": false,
+    "runtimeStatus": "NOT_RUNTIME_READY",
+    "approval": "PENDING_USER_VISUAL_APPROVAL"
+  },
+  {
+    "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      0,
+      0,
+      1250,
+      1254
+    ],
+    "sha256": "3adb75d3069fd4f2ba48f43361fffc4f3a353e774c1db285d67d3eb361619934",
+    "metaExists": false,
+    "runtimeStatus": "NOT_RUNTIME_READY",
+    "approval": "PENDING_USER_VISUAL_APPROVAL"
+  },
+  {
+    "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      0,
+      0,
+      1240,
+      1254
+    ],
+    "sha256": "d7a458c02fdd86a4e2816569088c13a796b67214b229485776086ab8f7ffa04e",
+    "metaExists": false,
+    "runtimeStatus": "NOT_RUNTIME_READY",
+    "approval": "PENDING_USER_VISUAL_APPROVAL"
+  },
+  {
+    "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png",
+    "dimensions": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      33,
+      20,
+      1072,
+      1426
+    ],
+    "sha256": "a9864960705f187f71c2aa758c0170ba0a8bf887070af205e63424326ec849d7",
+    "metaExists": false,
+    "runtimeStatus": "NOT_RUNTIME_READY",
+    "approval": "PENDING_USER_VISUAL_APPROVAL"
+  },
+  {
+    "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png",
+    "dimensions": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      58,
+      20,
+      1072,
+      1424
+    ],
+    "sha256": "cf66f4361ef2e32bc48a431989a9256e4f88f0e4b43a2959dcc4c65f2f666949",
+    "metaExists": false,
+    "runtimeStatus": "NOT_RUNTIME_READY",
+    "approval": "PENDING_USER_VISUAL_APPROVAL"
+  },
+  {
+    "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png",
+    "dimensions": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      46,
+      41,
+      1080,
+      1408
+    ],
+    "sha256": "c3e2f275a9dca7ba9ba42f00780a8a463b36ba0a7a80831983fac276ca9f9d18",
+    "metaExists": false,
+    "runtimeStatus": "NOT_RUNTIME_READY",
+    "approval": "PENDING_USER_VISUAL_APPROVAL"
+  },
+  {
+    "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png",
+    "dimensions": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      0,
+      39,
+      1068,
+      1448
+    ],
+    "sha256": "b3586d8870df3e9c3bb573f909243c42b78968a44901da9b056547f45cb0919c",
+    "metaExists": false,
+    "runtimeStatus": "NOT_RUNTIME_READY",
+    "approval": "PENDING_USER_VISUAL_APPROVAL"
+  }
+]

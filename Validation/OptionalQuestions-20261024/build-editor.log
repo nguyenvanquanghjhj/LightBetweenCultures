@@ -1,0 +1,35 @@
+[CoreBusinessMetrics] System persistent data directory not found: 
+[CoreBusinessMetrics] Unable to configure cache. Connection string was invalid or not specified.
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 2876)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 15600)
+VBCSCompiler prewarm took 43.09 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.5f1 (3ff58d469c8a) revision 4191629'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 15556 MB
+[Licensing::IpcConnector] Channel LicenseClient-admin doesn't exist
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-24T14:18:38Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 27316)
+Assertion failed on expression: 'SUCCEEDED(hr)'
+Assertion failed on expression: 'SUCCEEDED(hr)'
+Assertion failed on expression: 'ERROR_SUCCESS == status'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-admin" at "2026-10-24T14:18:39.0287201Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 27316, path: "C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              c64fad8bde544e84a7aba5c3ce0bda6f
+  Correlation Id:          f54b507638737d3a5d1bab7dead2f704
+  External correlation Id: 6047326129175374705
+  Machine Id:              ZCWaJ1Z+I/ZiQpYM3ktmHuU32Bk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-admin" (connect: 0.86s, validation: 0.07s, handshake: 0.25s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-admin-notifications" at "2026-10-24T14:18:39.3520742Z"
+[Licensing::Module] Connected to LicensingClient (PId: 27316, launch time: 0.01, total connection time: 1.18s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully updated license, isAsync: False, time: 0.05
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Module] Error: 'com.unity.editor.ui' was not found.
+[Licensing::Module] Licensing Background thread has ended after 1.27s

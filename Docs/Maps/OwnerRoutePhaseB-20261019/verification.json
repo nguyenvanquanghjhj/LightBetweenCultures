@@ -1,0 +1,651 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "hoi_an Unity parses the production vertex/edge IDs",
+      "pass": true
+    },
+    {
+      "name": "hoi_an same compiled geometry in real Windows Player",
+      "pass": true,
+      "maxNormalizedError": 2.968444823281402e-08
+    },
+    {
+      "name": "hoi_an canonical feet are terminals, not navigation junctions",
+      "pass": true
+    },
+    {
+      "name": "hue Unity parses the production vertex/edge IDs",
+      "pass": true
+    },
+    {
+      "name": "hue same compiled geometry in real Windows Player",
+      "pass": true,
+      "maxNormalizedError": 2.9785919175573383e-08
+    },
+    {
+      "name": "hue canonical feet are terminals, not navigation junctions",
+      "pass": true
+    },
+    {
+      "name": "da_lat Unity parses the production vertex/edge IDs",
+      "pass": true
+    },
+    {
+      "name": "da_lat same compiled geometry in real Windows Player",
+      "pass": true,
+      "maxNormalizedError": 2.9734802287073592e-08
+    },
+    {
+      "name": "da_lat canonical feet are terminals, not navigation junctions",
+      "pass": true
+    },
+    {
+      "name": "jeonju Unity parses the production vertex/edge IDs",
+      "pass": true
+    },
+    {
+      "name": "jeonju same compiled geometry in real Windows Player",
+      "pass": true,
+      "maxNormalizedError": 2.9767608600295148e-08
+    },
+    {
+      "name": "jeonju canonical feet are terminals, not navigation junctions",
+      "pass": true
+    },
+    {
+      "name": "gyeongju Unity parses the production vertex/edge IDs",
+      "pass": true
+    },
+    {
+      "name": "gyeongju same compiled geometry in real Windows Player",
+      "pass": true,
+      "maxNormalizedError": 2.9787445066098428e-08
+    },
+    {
+      "name": "gyeongju canonical feet are terminals, not navigation junctions",
+      "pass": true
+    },
+    {
+      "name": "seoul Unity parses the production vertex/edge IDs",
+      "pass": true
+    },
+    {
+      "name": "seoul same compiled geometry in real Windows Player",
+      "pass": true,
+      "maxNormalizedError": 2.9756164532379614e-08
+    },
+    {
+      "name": "seoul canonical feet are terminals, not navigation junctions",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Resources/Content/GameplayContent.json",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Resources/HoiAnData.json",
+      "pass": true
+    },
+    {
+      "name": "Preserved ProjectSettings/EditorSettings.asset",
+      "pass": true
+    },
+    {
+      "name": "Preserved ProjectSettings/ProjectSettings.asset",
+      "pass": true
+    },
+    {
+      "name": "Preserved ProjectSettings/QualitySettings.asset",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Scripts/Core/GameData.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Scripts/Maps/CityMap.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Scripts/Maps/CityMapPaths.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Scripts/Maps/CityRouteGeometry.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs.meta",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Resources/Content/GameplayContent.json.meta",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Resources/HoiAnData.json.meta",
+      "pass": true
+    },
+    {
+      "name": "Preserved Tools/SixCityRouteEditor/data/source.json",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Resources/AdventureUIArt.asset",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Resources/DesignKitArt.asset",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Resources/Content/StoryInteractions.json",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Resources/Content/LeisureActivities.json",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Scripts/Maps/CityMap.CulturalRestoration.cs",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Scripts/Core/SaveSystem.cs",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png",
+      "pass": true
+    },
+    {
+      "name": "Preserved Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/DaLat/enemy_fog_boss.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/DaLat/enemy_mist_wolf.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/HoiAn_Enemies_Atlas.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Markers/Marker_BossAlert.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Markers/Marker_Camera.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Markers/Marker_Completed.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Markers/Marker_Current.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Markers/Marker_Ground.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Markers/Marker_NpcNeedItem.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Markers/Marker_NpcTalk.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Markers/Marker_Puzzle.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Markers/Marker_Quest.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Art/Markers/Marker_Reward.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/DaLat_KiteRack.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/DaLat_StrawberryPatch.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/Gyeongju_BellExhibit.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/Gyeongju_WishTags.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/HoiAn_LanternRelease_Stand.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/HoiAn_Swing.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/Hue_PedalSwanBoat.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/Hue_ThroneReplica.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/Jeonju_TeaTable.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/Jeonju_WateringCan_Garden.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/Seoul_KpopStage.png",
+      "pass": true
+    },
+    {
+      "name": "Preserve approved clarity Assets/_Game/Resources/LeisureProps/Seoul_TteokbokkiStall.png",
+      "pass": true
+    },
+    {
+      "name": "Final targeted run junctions720",
+      "pass": true
+    },
+    {
+      "name": "Final targeted run story-vietnam-seoul02",
+      "pass": true
+    },
+    {
+      "name": "Final targeted run story-korea-seoul02",
+      "pass": true
+    },
+    {
+      "name": "Final targeted run mid-boat-restart",
+      "pass": true
+    },
+    {
+      "name": "Final targeted run ending-restart",
+      "pass": true
+    },
+    {
+      "name": "Real walk and ferry trace R1-forward-trace.json",
+      "pass": true
+    },
+    {
+      "name": "Real walk and ferry trace R1-reverse-trace.json",
+      "pass": true
+    },
+    {
+      "name": "Real walk and ferry trace R2-forward-trace.json",
+      "pass": true
+    },
+    {
+      "name": "Real walk and ferry trace R2-reverse-trace.json",
+      "pass": true
+    },
+    {
+      "name": "Real walk and ferry trace R3-forward-trace.json",
+      "pass": true
+    },
+    {
+      "name": "Real walk and ferry trace R3-reverse-trace.json",
+      "pass": true
+    },
+    {
+      "name": "Real walk and ferry trace R4-forward-trace.json",
+      "pass": true
+    },
+    {
+      "name": "Real walk and ferry trace R4-reverse-trace.json",
+      "pass": true
+    },
+    {
+      "name": "Real walk and ferry trace R5-forward-trace.json",
+      "pass": true
+    },
+    {
+      "name": "Real walk and ferry trace R5-reverse-trace.json",
+      "pass": true
+    },
+    {
+      "name": "Old protected APK unchanged",
+      "pass": true
+    }
+  ],
+  "cities": [
+    {
+      "cityId": "hoi_an",
+      "canonicalNodes": 22,
+      "navigationVertices": 71,
+      "walkingEdges": 72,
+      "ferryEdges": 1,
+      "transferPoints": 2,
+      "junctionsDegree3Plus": 33
+    },
+    {
+      "cityId": "hue",
+      "canonicalNodes": 22,
+      "navigationVertices": 65,
+      "walkingEdges": 65,
+      "ferryEdges": 0,
+      "transferPoints": 0,
+      "junctionsDegree3Plus": 27
+    },
+    {
+      "cityId": "da_lat",
+      "canonicalNodes": 22,
+      "navigationVertices": 69,
+      "walkingEdges": 71,
+      "ferryEdges": 1,
+      "transferPoints": 2,
+      "junctionsDegree3Plus": 31
+    },
+    {
+      "cityId": "jeonju",
+      "canonicalNodes": 22,
+      "navigationVertices": 63,
+      "walkingEdges": 64,
+      "ferryEdges": 0,
+      "transferPoints": 0,
+      "junctionsDegree3Plus": 30
+    },
+    {
+      "cityId": "gyeongju",
+      "canonicalNodes": 22,
+      "navigationVertices": 79,
+      "walkingEdges": 80,
+      "ferryEdges": 2,
+      "transferPoints": 4,
+      "junctionsDegree3Plus": 36
+    },
+    {
+      "cityId": "seoul",
+      "canonicalNodes": 23,
+      "navigationVertices": 84,
+      "walkingEdges": 85,
+      "ferryEdges": 1,
+      "transferPoints": 2,
+      "junctionsDegree3Plus": 37
+    }
+  ],
+  "qa": {
+    "runtime02": {
+      "status": "FAILED_RETAINED",
+      "passedAssertions": 100
+    },
+    "windows720": {
+      "status": "FAILED_RETAINED",
+      "passedAssertions": 238
+    },
+    "junctions720": {
+      "status": "PASS",
+      "passedAssertions": 144
+    },
+    "story-vietnam": {
+      "status": "FAILED_RETAINED",
+      "passedAssertions": 932
+    },
+    "story-korea": {
+      "status": "FAILED_RETAINED",
+      "passedAssertions": 919
+    },
+    "story-vietnam-seoul": {
+      "status": "FAILED_RETAINED",
+      "passedAssertions": 54
+    },
+    "story-korea-seoul": {
+      "status": "FAILED_RETAINED",
+      "passedAssertions": 54
+    },
+    "story-vietnam-seoul02": {
+      "status": "PASS",
+      "passedAssertions": 332
+    },
+    "story-korea-seoul02": {
+      "status": "PASS",
+      "passedAssertions": 333
+    },
+    "mid-boat-restart": {
+      "status": "PASS",
+      "passedAssertions": 9
+    },
+    "ending-restart": {
+      "status": "PASS",
+      "passedAssertions": 10
+    }
+  },
+  "actualBoatTraces": [
+    {
+      "file": "Validation\\OwnerRoutePhaseB-20261019\\windows720\\R1-forward-trace.json",
+      "route": "R1",
+      "from": "H0",
+      "to": "H16",
+      "frames": 272,
+      "cost": 461.5841064453125
+    },
+    {
+      "file": "Validation\\OwnerRoutePhaseB-20261019\\windows720\\R1-reverse-trace.json",
+      "route": "R1",
+      "from": "H16",
+      "to": "H0",
+      "frames": 273,
+      "cost": 461.5841064453125
+    },
+    {
+      "file": "Validation\\OwnerRoutePhaseB-20261019\\windows720\\R2-forward-trace.json",
+      "route": "R2",
+      "from": "D13",
+      "to": "D21",
+      "frames": 163,
+      "cost": 245.25389099121094
+    },
+    {
+      "file": "Validation\\OwnerRoutePhaseB-20261019\\windows720\\R2-reverse-trace.json",
+      "route": "R2",
+      "from": "D21",
+      "to": "D13",
+      "frames": 165,
+      "cost": 245.25390625
+    },
+    {
+      "file": "Validation\\OwnerRoutePhaseB-20261019\\windows720\\R3-forward-trace.json",
+      "route": "R3",
+      "from": "G2",
+      "to": "G17",
+      "frames": 107,
+      "cost": 143.6522979736328
+    },
+    {
+      "file": "Validation\\OwnerRoutePhaseB-20261019\\windows720\\R3-reverse-trace.json",
+      "route": "R3",
+      "from": "G17",
+      "to": "G2",
+      "frames": 107,
+      "cost": 143.6522979736328
+    },
+    {
+      "file": "Validation\\OwnerRoutePhaseB-20261019\\windows720\\R4-forward-trace.json",
+      "route": "R4",
+      "from": "G1",
+      "to": "G2",
+      "frames": 281,
+      "cost": 478.06134033203125
+    },
+    {
+      "file": "Validation\\OwnerRoutePhaseB-20261019\\windows720\\R4-reverse-trace.json",
+      "route": "R4",
+      "from": "G2",
+      "to": "G1",
+      "frames": 282,
+      "cost": 478.06134033203125
+    },
+    {
+      "file": "Validation\\OwnerRoutePhaseB-20261019\\windows720\\R5-forward-trace.json",
+      "route": "R5",
+      "from": "S12",
+      "to": "S14",
+      "frames": 156,
+      "cost": 236.0334014892578
+    },
+    {
+      "file": "Validation\\OwnerRoutePhaseB-20261019\\windows720\\R5-reverse-trace.json",
+      "route": "R5",
+      "from": "S14",
+      "to": "S12",
+      "frames": 156,
+      "cost": 236.0334014892578
+    }
+  ],
+  "canonicalNodes": 133,
+  "walkingEdges": 437,
+  "ferryEdges": 5,
+  "transferPoints": 10
+}

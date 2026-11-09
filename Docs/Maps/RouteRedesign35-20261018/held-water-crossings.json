@@ -1,0 +1,254 @@
+[
+  {
+    "cityId": "seoul",
+    "edgeId": "S0__S14",
+    "pixels": [
+      [
+        700,
+        776
+      ],
+      [
+        675,
+        775
+      ],
+      [
+        650,
+        768
+      ],
+      [
+        635,
+        757
+      ],
+      [
+        621,
+        741
+      ],
+      [
+        600,
+        729
+      ],
+      [
+        580,
+        718
+      ],
+      [
+        550,
+        702
+      ],
+      [
+        530,
+        692
+      ],
+      [
+        508,
+        678
+      ],
+      [
+        480,
+        665
+      ],
+      [
+        450,
+        654
+      ],
+      [
+        418,
+        645
+      ],
+      [
+        386,
+        639
+      ],
+      [
+        354,
+        634
+      ],
+      [
+        324,
+        627
+      ],
+      [
+        299,
+        621
+      ],
+      [
+        278,
+        616
+      ],
+      [
+        255,
+        642
+      ],
+      [
+        261,
+        670
+      ],
+      [
+        280,
+        699
+      ],
+      [
+        300,
+        729
+      ],
+      [
+        322,
+        758
+      ],
+      [
+        347,
+        784
+      ],
+      [
+        368,
+        805
+      ]
+    ],
+    "reason": "Island west promenade to existing green pedestrian bridge, then west-bank park path. Eliminate southwest water diagonal.",
+    "status": "NEEDS_USER_REVIEW_NOT_APPLIED",
+    "reasonForHold": "The source shows a pedestrian bridge but its west end meets the highway pier. No sufficiently clear pedestrian connection from pier(268,635) to bank(260,680). Proposed lower segment touches water; do not invent stairs/boat or hide the gap. Need approved passage/arrival decision."
+  },
+  {
+    "cityId": "seoul",
+    "edgeId": "S12__S13",
+    "pixels": [
+      [
+        625,
+        747
+      ],
+      [
+        610,
+        735
+      ],
+      [
+        590,
+        727
+      ],
+      [
+        570,
+        715
+      ],
+      [
+        550,
+        702
+      ],
+      [
+        530,
+        692
+      ],
+      [
+        508,
+        678
+      ],
+      [
+        480,
+        665
+      ],
+      [
+        450,
+        654
+      ],
+      [
+        418,
+        645
+      ],
+      [
+        386,
+        639
+      ],
+      [
+        354,
+        634
+      ],
+      [
+        324,
+        627
+      ],
+      [
+        299,
+        621
+      ],
+      [
+        278,
+        616
+      ],
+      [
+        250,
+        635
+      ],
+      [
+        260,
+        626
+      ],
+      [
+        300,
+        615
+      ],
+      [
+        340,
+        600
+      ],
+      [
+        380,
+        587
+      ],
+      [
+        420,
+        574
+      ],
+      [
+        460,
+        563
+      ],
+      [
+        500,
+        554
+      ],
+      [
+        540,
+        546
+      ],
+      [
+        580,
+        539
+      ],
+      [
+        610,
+        539
+      ]
+    ],
+    "reason": "Same island pedestrian bridge, then arch-road bridge pedestrian edge. No walking on open river.",
+    "status": "NEEDS_USER_REVIEW_NOT_APPLIED",
+    "reasonForHold": "The source shows a pedestrian bridge but its west end meets the highway pier. No sufficiently clear pedestrian connection from pier(268,635) to bank(260,680). Proposed lower segment touches water; do not invent stairs/boat or hide the gap. Need approved passage/arrival decision."
+  },
+  {
+    "id": "U-R04",
+    "cityId": "hue",
+    "edgeIds": [
+      "U3__U4"
+    ],
+    "pixelBox": [
+      520,
+      425,
+      890,
+      610
+    ],
+    "status": "KNOWN_FERRY_GEOMETRY_FAILURE_NEEDS_USER_DECISION",
+    "reason": "Existing ferry polyline reaches/uses stone bridge ground while edge-wide travel=ferry stays active. Needs confirmed south/north landing and mixed walk/boat segments or approved ferry-only ground anchors. Never mark this terrain PASS merely because boat visual appears."
+  },
+  {
+    "id": "G-R01",
+    "cityId": "gyeongju",
+    "edgeIds": [
+      "G2__G17"
+    ],
+    "pixelBox": [
+      205,
+      390,
+      315,
+      548
+    ],
+    "status": "KNOWN_WATER_CROSSING_NEEDS_USER_DECISION",
+    "reason": "Old path cuts open pond between island and northern bridge. No clearly connected short bridge in painted scene; need approved long island-bridge route or topology alternative."
+  }
+]

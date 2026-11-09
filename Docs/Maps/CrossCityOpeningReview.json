@@ -1,0 +1,258 @@
+{
+  "scope": "Two opening corridors, not complete chapters; all 133 nodes retained",
+  "changes": [
+    {
+      "city": "hue",
+      "node": "U0",
+      "old": {
+        "x": 0.138,
+        "y": 0.38
+      },
+      "new": {
+        "x": 0.348066298,
+        "y": 0.438305709
+      },
+      "pixel": [
+        504,
+        610
+      ],
+      "reason": "Raw design anchors are approximate; align entry/merchant feet with paved frontage. IDs/order unchanged."
+    },
+    {
+      "city": "hue",
+      "node": "U1",
+      "old": {
+        "x": 0.267,
+        "y": 0.39
+      },
+      "new": {
+        "x": 0.267265193,
+        "y": 0.350828729
+      },
+      "pixel": [
+        387,
+        705
+      ],
+      "reason": "Raw design anchors are approximate; align entry/merchant feet with paved frontage. IDs/order unchanged."
+    },
+    {
+      "city": "hue",
+      "edge": "U0__U1",
+      "old": [],
+      "new": [
+        {
+          "x": 0.341160221,
+          "y": 0.419889503
+        },
+        {
+          "x": 0.330110497,
+          "y": 0.402394107
+        },
+        {
+          "x": 0.316298343,
+          "y": 0.385819521
+        },
+        {
+          "x": 0.300414365,
+          "y": 0.372007366
+        },
+        {
+          "x": 0.283149171,
+          "y": 0.359116022
+        }
+      ],
+      "pixels": [
+        [
+          494,
+          630
+        ],
+        [
+          478,
+          649
+        ],
+        [
+          458,
+          667
+        ],
+        [
+          435,
+          682
+        ],
+        [
+          410,
+          696
+        ]
+      ],
+      "reason": "Author only the opening corridor: Hue market stairs; Jeonju street and the existing east stone bridge. Other routes are NOT VERIFIED."
+    },
+    {
+      "city": "jeonju",
+      "node": "J15",
+      "old": {
+        "x": 0.659,
+        "y": 0.322
+      },
+      "new": {
+        "x": 0.672651934,
+        "y": 0.284530387
+      },
+      "pixel": [
+        974,
+        777
+      ],
+      "reason": "Raw design anchors are approximate; align entry/merchant feet with paved frontage. IDs/order unchanged."
+    },
+    {
+      "city": "jeonju",
+      "edge": "J0__J15",
+      "old": [],
+      "new": [
+        {
+          "x": 0.517955801,
+          "y": 0.112338858
+        },
+        {
+          "x": 0.538674033,
+          "y": 0.134438306
+        },
+        {
+          "x": 0.557320442,
+          "y": 0.154696133
+        },
+        {
+          "x": 0.57941989,
+          "y": 0.171270718
+        },
+        {
+          "x": 0.604281768,
+          "y": 0.186003683
+        },
+        {
+          "x": 0.630524862,
+          "y": 0.199815838
+        },
+        {
+          "x": 0.658839779,
+          "y": 0.219152855
+        },
+        {
+          "x": 0.686464088,
+          "y": 0.238489871
+        },
+        {
+          "x": 0.712016575,
+          "y": 0.253222836
+        },
+        {
+          "x": 0.735497238,
+          "y": 0.260589319
+        },
+        {
+          "x": 0.752762431,
+          "y": 0.274401473
+        },
+        {
+          "x": 0.76519337,
+          "y": 0.291896869
+        },
+        {
+          "x": 0.774861878,
+          "y": 0.309392265
+        },
+        {
+          "x": 0.767265193,
+          "y": 0.325966851
+        },
+        {
+          "x": 0.747237569,
+          "y": 0.339779006
+        },
+        {
+          "x": 0.723756906,
+          "y": 0.342541436
+        },
+        {
+          "x": 0.698895028,
+          "y": 0.321362799
+        }
+      ],
+      "pixels": [
+        [
+          750,
+          964
+        ],
+        [
+          780,
+          940
+        ],
+        [
+          807,
+          918
+        ],
+        [
+          839,
+          900
+        ],
+        [
+          875,
+          884
+        ],
+        [
+          913,
+          869
+        ],
+        [
+          954,
+          848
+        ],
+        [
+          994,
+          827
+        ],
+        [
+          1031,
+          811
+        ],
+        [
+          1065,
+          803
+        ],
+        [
+          1090,
+          788
+        ],
+        [
+          1108,
+          769
+        ],
+        [
+          1122,
+          750
+        ],
+        [
+          1111,
+          732
+        ],
+        [
+          1082,
+          717
+        ],
+        [
+          1048,
+          714
+        ],
+        [
+          1012,
+          737
+        ]
+      ],
+      "reason": "Author only the opening corridor: Hue market stairs; Jeonju street and the existing east stone bridge. Other routes are NOT VERIFIED."
+    }
+  ],
+  "conflicts": [
+    "J15 moves from reveal stage 2 to 0: newer food hook requires only HQ01 restoration + accepted HQ05, not two Jeonju main gates.",
+    "City runtimeNodeIds explicitly limits this release to U0/U1 and J0/J15. Local quest/gate definitions and remaining nodes stay in data; not marked complete.",
+    "Chị Hương and So-yeon use two distinct unassigned NPC roster faces TEMPORARILY, per user authorization. Mai/Ji-eun unchanged.",
+    "Source hook unique grant keys are represented by the existing quest:<id>:<itemId> ledger; rewards and counts are unchanged."
+  ]
+}

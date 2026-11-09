@@ -1,0 +1,21 @@
+2026-10-21T00:24:17.6617615Z | 720x1080 | X-WorldMap-select-hoi_an.png | SHA256 8195F842AEE6AE3DCEC8AEEAAC246D53EE3D3356F17BCF7DCFE0D6C6CD5CEC00
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\X1-approaching.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\X1-branch-arrival.png
+2026-10-21T00:24:28.4511934Z | 720x1080 | X-WorldMap-select-jeonju.png | SHA256 CF0897BF31040E40CEF0D7D90F51C0A580A0302BD6DD086FCE291879E800A41C
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\X3-approaching.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\X3-branch-arrival.png
+2026-10-21T00:24:33.5279374Z | 720x1080 | X-WorldMap-select-gyeongju.png | SHA256 45BD3DB9C0F933AE8F991DC980E131FAE6DD4FDA6F85822D8AA85244FA56D918
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\X4-approaching.png
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\X4-branch-arrival.png
+2026-10-21T00:24:37.7718876Z | 720x1080 | X-WorldMap-select-da_lat.png | SHA256 86AF6AD5ED5186847B35CA63D3E1DCC8955C3626A3596D303F628CE9223E0D65
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\City-da_lat.png
+2026-10-21T00:24:38.8763076Z | 720x1080 | X-WorldMap-select-gyeongju.png | SHA256 38F6A6A97A2AFB42B17B56CC0BB0EC177723E32FD99BC30579AE274F8A14DE67
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\City-gyeongju.png
+2026-10-21T00:24:39.9909712Z | 720x1080 | X-WorldMap-select-hoi_an.png | SHA256 5AC4E1EF88F6BD6FDF158EF5DEECD7547DA600A3889554C75996CB289BDB4CA4
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\City-hoi_an.png
+2026-10-21T00:24:41.6377161Z | 720x1080 | X-WorldMap-select-hue.png | SHA256 AA554058BAF31947F804B3DF7217709B8A2EC093AE9146C8D11B83166173B2B5
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\City-hue.png
+2026-10-21T00:24:42.7497698Z | 720x1080 | X-WorldMap-select-jeonju.png | SHA256 CDB1CB9638FCED04655160FBD2250F3E8103F9FE012C824ED15D9195A77DFBEC
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\City-jeonju.png
+2026-10-21T00:24:43.8079790Z | 720x1080 | X-WorldMap-select-seoul.png | SHA256 6994C9D92269FAE4A136548479D7A8375721E33E25AE59B85BBEBEF91311FED8
+D:\GAMEKKK\LightBetweenCultures\Validation\ComprehensiveQA-20261020\junctions-recheck\City-seoul.png

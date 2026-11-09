@@ -1,0 +1,75 @@
+{
+    "version": 2,
+    "cityId": "hoi_an",
+    "node": 2,
+    "previousNode": 0,
+    "visited": [
+        0,
+        2
+    ],
+    "accepted": [
+        "mai-lantern",
+        "HQ01"
+    ],
+    "completed": [],
+    "items": [
+        "healing_tea",
+        "healing_tea"
+    ],
+    "collected": [],
+    "flags": [
+        "quest:HQ01"
+    ],
+    "resolvedEvents": [],
+    "defeatedEnemies": [],
+    "solvedPuzzles": [],
+    "choices": [],
+    "rewardGrantIds": [
+        "quest-accept:HQ01:healing_tea"
+    ],
+    "leisureCompleted": [],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 2,
+            "stage": 1,
+            "visited": [
+                0,
+                2
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "jeonju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 3,
+    "coins": 0
+}

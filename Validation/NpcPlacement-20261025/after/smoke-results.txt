@@ -1,0 +1,148 @@
+UTC run: 2026-10-25T09:50:01.7410616Z | Unity 6000.6.5f1 | 720x1280
+PASS: Native pilot framebuffer 720x1280
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-H2
+PASS: Reading/closing NPC preserves save: H2
+PASS: NPC mouse/approach/close/resume H2 True/True/True 
+PASS: Fresh runtime capture written: Placement-H4
+PASS: Reading/closing NPC preserves save: H4
+PASS: NPC mouse/approach/close/resume H4 True/True/True 
+PASS: Fresh runtime capture written: Placement-H17
+PASS: Reading/closing NPC preserves save: H17
+PASS: NPC mouse/approach/close/resume H17 True/True/True 
+PASS: Fresh runtime capture written: Placement-H18
+PASS: Reading/closing NPC preserves save: H18
+PASS: NPC mouse/approach/close/resume H18 True/True/True 
+PASS: Fresh runtime capture written: Placement-H10
+PASS: Reading/closing NPC preserves save: H10
+PASS: NPC mouse/approach/close/resume H10 True/True/True 
+PASS: Fresh runtime capture written: Placement-H14
+PASS: Reading/closing NPC preserves save: H14
+PASS: NPC mouse/approach/close/resume H14 True/True/True 
+PASS: Phase B unchanged: hoi_an
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hue
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-U1
+PASS: Reading/closing NPC preserves save: U1
+PASS: NPC mouse/approach/close/resume U1 True/True/True 
+PASS: Fresh runtime capture written: Placement-U2
+PASS: Reading/closing NPC preserves save: U2
+PASS: NPC mouse/approach/close/resume U2 True/True/True 
+PASS: Fresh runtime capture written: Placement-U3
+PASS: Reading/closing NPC preserves save: U3
+PASS: NPC mouse/approach/close/resume U3 True/True/True 
+PASS: Fresh runtime capture written: Placement-U7
+PASS: Reading/closing NPC preserves save: U7
+PASS: NPC mouse/approach/close/resume U7 True/True/True 
+PASS: Phase B unchanged: hue
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: Fresh runtime capture written: X-WorldMap-select-da_lat
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-D2
+PASS: Reading/closing NPC preserves save: D2
+PASS: NPC mouse/approach/close/resume D2 True/True/True 
+PASS: Fresh runtime capture written: Placement-D3
+PASS: Reading/closing NPC preserves save: D3
+PASS: NPC mouse/approach/close/resume D3 True/True/True 
+PASS: Fresh runtime capture written: Placement-D4
+PASS: Reading/closing NPC preserves save: D4
+PASS: NPC mouse/approach/close/resume D4 True/True/True 
+PASS: Fresh runtime capture written: Placement-D10
+PASS: Reading/closing NPC preserves save: D10
+PASS: NPC mouse/approach/close/resume D10 True/True/True 
+PASS: Fresh runtime capture written: Placement-D13
+PASS: Reading/closing NPC preserves save: D13
+PASS: NPC mouse/approach/close/resume D13 True/True/True 
+PASS: Phase B unchanged: da_lat
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-jeonju
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-J15
+PASS: Reading/closing NPC preserves save: J15
+REVIEW: NPC mouse/approach/close/resume J15 True/True/False 
+PASS: Fresh runtime capture written: Placement-J2
+PASS: Reading/closing NPC preserves save: J2
+PASS: NPC mouse/approach/close/resume J2 True/True/True 
+PASS: Fresh runtime capture written: Placement-J4
+PASS: Reading/closing NPC preserves save: J4
+PASS: NPC mouse/approach/close/resume J4 True/True/True 
+PASS: Fresh runtime capture written: Placement-J5
+PASS: Reading/closing NPC preserves save: J5
+PASS: NPC mouse/approach/close/resume J5 True/True/True 
+PASS: Fresh runtime capture written: Placement-J16
+PASS: Reading/closing NPC preserves save: J16
+PASS: NPC mouse/approach/close/resume J16 True/True/True 
+PASS: Phase B unchanged: jeonju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-gyeongju
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-G3
+PASS: Reading/closing NPC preserves save: G3
+PASS: NPC mouse/approach/close/resume G3 True/True/True 
+PASS: Fresh runtime capture written: Placement-G9
+PASS: Reading/closing NPC preserves save: G9
+PASS: NPC mouse/approach/close/resume G9 True/True/True 
+PASS: Fresh runtime capture written: Placement-G14
+PASS: Reading/closing NPC preserves save: G14
+REVIEW: NPC mouse/approach/close/resume G14 False/True/True G14: không có điểm đứng gần NPC trên lối đi đang mở.
+PASS: Fresh runtime capture written: Placement-G16
+PASS: Reading/closing NPC preserves save: G16
+REVIEW: NPC mouse/approach/close/resume G16 False/True/True G16: không có điểm đứng gần NPC trên lối đi đang mở.
+PASS: Fresh runtime capture written: Placement-G21
+PASS: Reading/closing NPC preserves save: G21
+PASS: NPC mouse/approach/close/resume G21 True/True/True 
+PASS: Phase B unchanged: gyeongju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: Fresh runtime capture written: X-WorldMap-select-seoul
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Placement-S2
+PASS: Reading/closing NPC preserves save: S2
+PASS: NPC mouse/approach/close/resume S2 True/True/True 
+PASS: Fresh runtime capture written: Placement-S7
+PASS: Reading/closing NPC preserves save: S7
+PASS: NPC mouse/approach/close/resume S7 True/True/True 
+PASS: Fresh runtime capture written: Placement-S11
+PASS: Reading/closing NPC preserves save: S11
+PASS: NPC mouse/approach/close/resume S11 True/True/True 
+PASS: Fresh runtime capture written: Placement-S12
+PASS: Reading/closing NPC preserves save: S12
+PASS: NPC mouse/approach/close/resume S12 True/True/True 
+PASS: Phase B unchanged: seoul
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-gyeongju
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Bell starts with mouse drag
+PASS: Fresh runtime capture written: Placement-bell-swing
+PASS: Closing an event or battle returns map input to the player
+PASS: Bell closes and returns controls without changing save
+ALL CHECKS PASSED

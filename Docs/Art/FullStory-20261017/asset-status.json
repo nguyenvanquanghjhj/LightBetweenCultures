@@ -1,0 +1,348 @@
+{
+  "npcBindings": [
+    {
+      "role": "npc",
+      "id": "npc_ba_tu",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "8637574531497076435",
+      "spriteName": "H3_07_Characters_NPC_Concept_23",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "status": "EXISTING_USER_SOURCE_ROLE_MATCH; NOT_CANONICAL_IDENTITY_APPROVAL_PENDING; native_slice_no_bitmap_copy",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_boatman",
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+      "guid": "3835aa72bd8c88b41af32d4aabd40b98",
+      "localId": "21300000",
+      "spriteName": "NPC_HoiAn_Boatman",
+      "source": "",
+      "status": "",
+      "canonical": true
+    },
+    {
+      "role": "npc",
+      "id": "npc_elder",
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+      "guid": "9e2ba05a32d628045ae4dce1b7b1cb19",
+      "localId": "245854044",
+      "spriteName": "npc_elder",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-33d3b4b8-0005-46d6-af23-f7edb2cf564d.png",
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_gardener",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+      "guid": "cac9b7f04788a1743af1858d523019df",
+      "localId": "1390191892",
+      "spriteName": "npc_gardener",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-592f122b-a363-41ad-9bd3-ebc0dfa9379e.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_guest",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "-404209332",
+      "spriteName": "npc_guest",
+      "source": "",
+      "status": "",
+      "canonical": true
+    },
+    {
+      "role": "npc",
+      "id": "npc_hana",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "-730319472",
+      "spriteName": "npc_hana",
+      "source": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "status": "EXISTING_ROSTER_ROLE_MATCH; NOT_CANONICAL; named_identity_assignment_pending_approval",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_hungry_dog",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+      "guid": "3df301f30edc9d243899518bb89fb538",
+      "localId": "37410012",
+      "spriteName": "npc_hungry_dog",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-f9d9225b-fa66-4403-ab6c-d3cfed897378.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_huong",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "-1343187348",
+      "spriteName": "npc_huong",
+      "source": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "status": "TEMPORARY_UNASSIGNED_ROSTER_CAST; NOT_CANONICAL; replace registry reference when approved",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_lan",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+      "guid": "fb6c63798ffdb6841a4fd318adf72a74",
+      "localId": "1886636321",
+      "spriteName": "npc_lan",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-e6e8509b-ddb7-4234-bd4d-3830786383bc.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_mai",
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+      "guid": "a6cc838dd76ae7f40902d846693f4a5e",
+      "localId": "-1732270161",
+      "spriteName": "Mai_DialoguePortrait",
+      "source": "Characters/NPC_Roster_Concept.png",
+      "status": "existing_approved_static_cutout",
+      "canonical": true
+    },
+    {
+      "role": "npc",
+      "id": "npc_market_merchant",
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+      "guid": "0a91b2dbca846994bbade4807ff62596",
+      "localId": "21300000",
+      "spriteName": "NPC_HoiAn_MarketMerchant",
+      "source": "Characters/NPC_Roster_Concept.png",
+      "status": "derived_static_cutout_map_verified",
+      "canonical": true
+    },
+    {
+      "role": "npc",
+      "id": "npc_min",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "830274255",
+      "spriteName": "npc_min",
+      "source": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "status": "TEMPORARY_ROLE_MATCH_FROM_UNASSIGNED_ARCHAEOLOGICAL_GUIDE; NOT_CANONICAL_IDENTITY_APPROVAL_PENDING",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_nguyet",
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+      "guid": "48a2e6c60f7ec0349befacea7c60e927",
+      "localId": "-1004916199",
+      "spriteName": "npc_nguyet",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-7e190989-bfd9-4c83-942e-22f38ecab7f1.png",
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_park",
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+      "guid": "36a0c8ea46b133e40bf8731d313402d7",
+      "localId": "-606975524",
+      "spriteName": "npc_park",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-e66f287a-2b5e-4f66-987a-71069b8fd083.png",
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_phuc",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "1019635214",
+      "spriteName": "Phuc_DialoguePortrait",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "status": "EXISTING_USER_SOURCE_ROLE_MATCH; NOT_CANONICAL_IDENTITY_APPROVAL_PENDING; native_slice_no_bitmap_copy",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_scholar",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "-156234960",
+      "spriteName": "npc_scholar",
+      "source": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "status": "EXISTING_ROSTER_ROLE_MATCH; NOT_CANONICAL; named_identity_assignment_pending_approval",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_soyeon",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "464872565",
+      "spriteName": "npc_soyeon",
+      "source": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "status": "TEMPORARY_UNASSIGNED_ROSTER_CAST; NOT_CANONICAL; replace registry reference when approved",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_tam",
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+      "guid": "7eb9ff722f5f81748945b06d9e1d05bd",
+      "localId": "-1705763202",
+      "spriteName": "npc_tam",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-f12979ec-7b12-4269-903d-cd88c0edd1de.png",
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_thuy",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+      "guid": "33ce1e750bcd0124d9feb5cfcbf3fa66",
+      "localId": "-857154714",
+      "spriteName": "npc_thuy",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-c2a55252-5f3c-4e4c-8fda-bc436bd89b83.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "canonical": false
+    },
+    {
+      "role": "npc",
+      "id": "npc_yoon",
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+      "guid": "9e80ff4e3ffd49044b5dabf92b3d6b27",
+      "localId": "-321799653",
+      "spriteName": "npc_yoon",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-62274880-f810-4340-9317-60a9e24076d1.png",
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "canonical": false
+    }
+  ],
+  "missingNpc": [
+    "npc_boat",
+    "npc_curator",
+    "npc_engineer",
+    "npc_innkeeper",
+    "npc_inscription",
+    "npc_keeper",
+    "npc_tech"
+  ],
+  "newEnemyBindings": [
+    {
+      "role": "enemy",
+      "id": "enemy_stone_guard",
+      "path": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "guid": "f68243708771f8746a5f7a7cc75cc0f3",
+      "localId": "-251548368",
+      "spriteName": "stone_guard",
+      "source": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "status": "TEMPORARY_USER_CONCEPT_NATIVE_MESH; NOT_CANONICAL; needs visual art acceptance",
+      "canonical": false
+    },
+    {
+      "role": "enemy",
+      "id": "enemy_star_core",
+      "path": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "guid": "f68243708771f8746a5f7a7cc75cc0f3",
+      "localId": "-1994963365",
+      "spriteName": "energy_core",
+      "source": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "status": "TEMPORARY_USER_CONCEPT_NATIVE_MESH; NOT_CANONICAL; needs visual art acceptance",
+      "canonical": false
+    },
+    {
+      "role": "enemy",
+      "id": "enemy_final_core",
+      "path": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "guid": "f68243708771f8746a5f7a7cc75cc0f3",
+      "localId": "-1994963365",
+      "spriteName": "energy_core",
+      "source": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "status": "TEMPORARY_USER_CONCEPT_NATIVE_MESH; NOT_CANONICAL; needs visual art acceptance",
+      "canonical": false
+    },
+    {
+      "role": "enemy",
+      "id": "enemy_shadow_courier",
+      "path": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "guid": "f68243708771f8746a5f7a7cc75cc0f3",
+      "localId": "983690858",
+      "spriteName": "shadow_courier",
+      "source": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "status": "TEMPORARY_USER_CONCEPT_NATIVE_MESH; NOT_CANONICAL; needs visual art acceptance",
+      "canonical": false
+    },
+    {
+      "role": "enemy",
+      "id": "enemy_fox",
+      "path": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "guid": "f68243708771f8746a5f7a7cc75cc0f3",
+      "localId": "1941295669",
+      "spriteName": "shadow_cat",
+      "source": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "status": "TEMPORARY_USER_CONCEPT_NATIVE_MESH; NOT_CANONICAL; cat concept pending actual fox sprite",
+      "canonical": false
+    },
+    {
+      "role": "enemy",
+      "id": "enemy_night_guard",
+      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png",
+      "guid": "ab1b66b2c62e1ef479ccdb953644d767",
+      "localId": "1729547971",
+      "spriteName": "enemy_gate_guard",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-8c48f445-6944-4a62-acb2-b423a740a3fe.png",
+      "status": "TEMPORARY_SHARED_BOT_ART; NOT_CANONICAL_FOR_NEW_ROLE; alias enemy_gate_guard",
+      "canonical": false
+    },
+    {
+      "role": "enemy",
+      "id": "enemy_bridge",
+      "path": "Assets/_Game/Art/Characters/Enemies/HoiAn_Enemies_Atlas.png",
+      "guid": "0aa7f368b0015354e9303a88022a2b51",
+      "localId": "430370353",
+      "spriteName": "enemy_mo01",
+      "source": "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png",
+      "status": "TEMPORARY_SHARED_BOT_ART; NOT_CANONICAL_FOR_NEW_ROLE; alias enemy_mo01",
+      "canonical": false
+    },
+    {
+      "role": "enemy",
+      "id": "enemy_drone",
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png",
+      "guid": "b38571563586e3541b1be7cac75c2a0f",
+      "localId": "-1478108775",
+      "spriteName": "enemy_glass_thief",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-bfb6c9a0-3863-49c1-9ba8-73625801619d.png",
+      "status": "TEMPORARY_SHARED_BOT_ART; NOT_CANONICAL_FOR_NEW_ROLE; alias enemy_glass_thief",
+      "canonical": false
+    },
+    {
+      "role": "enemy",
+      "id": "enemy_signal_bot",
+      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png",
+      "guid": "2162ef03eff775741acd49e8d094d377",
+      "localId": "1031187422",
+      "spriteName": "enemy_pattern_bot",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-3cfdd4c3-6642-45ac-a7b9-f56bf07a5899.png",
+      "status": "TEMPORARY_SHARED_BOT_ART; NOT_CANONICAL_FOR_NEW_ROLE; alias enemy_pattern_bot",
+      "canonical": false
+    }
+  ],
+  "maps": [
+    {
+      "city": "Gyeongju",
+      "path": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png",
+      "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c",
+      "originalUnchanged": true
+    },
+    {
+      "city": "Seoul",
+      "path": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png",
+      "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2",
+      "originalUnchanged": true
+    }
+  ]
+}

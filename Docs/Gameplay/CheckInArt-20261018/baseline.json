@@ -1,0 +1,129 @@
+{
+  "type": "INCREMENTAL_REQUIRES_BASE",
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointMapRoute35-20261018",
+  "baseManifestSHA256": "51379e71d7a9aea7c7ad8822fc737f9b9db0b171ef27f47d51f620e9159fd351",
+  "createdUTC": "2026-10-18T04:40:58.313179+00:00",
+  "entries": [
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+      "sha256": "0035517eb5a89a139e2355e846518fa966f7d5a23116e184a7885cecee82f980",
+      "bytes": 36239
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/GameplayPanels.Relics.cs",
+      "sha256": "9b15e08b099a72fe586645481389a5d4b0d946bc79b5115a918aa0dd0be39069",
+      "bytes": 14629
+    },
+    {
+      "path": "Assets/_Game/Scripts/UI/AdventureUIArt.cs",
+      "sha256": "66970dd3c047e30c2de43ea6fc1deebd06470d8ef5dc32022c088767ec08af93",
+      "bytes": 3589
+    },
+    {
+      "path": "Assets/_Game/Resources/AdventureUIArt.asset",
+      "sha256": "8b8b67a0b80f555a92bb4b7b1a033d41ed58f61d7dfddbc38fd104fc9c1254a2",
+      "bytes": 60960
+    },
+    {
+      "path": "Assets/_Game/Scripts/Maps/NodeMarkerResolver.cs",
+      "sha256": "11fe4a7f5c7487cb4f6086e685d18b258eefa782a527f38d8f2993e547872ef6",
+      "bytes": 8198
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+      "sha256": "fa351e12d132393837c0e5824bbe6508a9b8185095805931b3823b9cdfca24ea",
+      "bytes": 110023
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Relics.cs",
+      "sha256": "8da5d924d9b1ab462c9d8fdba1d5fb60712559a2769e2a7c59d6dc25bed881b3",
+      "bytes": 21807
+    },
+    {
+      "path": "Assets/_Game/Scripts/Editor/ArtLibrarySetup.cs",
+      "sha256": "0183edaaf04b8574a3d584870d440b03072114f3ff32f4b6e4071978cd24c2ed",
+      "bytes": 10647
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+      "sha256": "368d47e73a67db3cc8bab751fb3f4d7d0c3f8e7698f1b2d7884a42d0a0a22b12",
+      "bytes": 532180
+    },
+    {
+      "path": "Assets/_Game/Resources/Content/AdventurePresentation.json",
+      "sha256": "c8658886545ed06b1da6fa6df5ad164c3ca309ca726b7370c83a01185b48ae98",
+      "bytes": 30491
+    },
+    {
+      "path": "Assets/_Game/Scripts/Core/SaveSystem.cs",
+      "sha256": "5ddd7ad4d0d8ef15de6c405051d87f259c4faf922f528f0cf5a5055a23fcdaf5",
+      "bytes": 4277
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/RelicCollection.cs",
+      "sha256": "d829ce6b9092d0ffa225911782567448c80a3f4c912d95022ce5b7a982460b21",
+      "bytes": 9833
+    },
+    {
+      "path": "Assets/_Game/Scripts/Content/NodeEventManager.cs",
+      "sha256": "2069a7790de8fe376aacda27f19621539aed33d460877d09a7c1a666bece8981",
+      "bytes": 29161
+    },
+    {
+      "path": "Docs/Gameplay/MASTER_EXECUTION_CHECKPOINT.md",
+      "sha256": "b1ca2301fb3c9352160468478ad5c8f098617363be16a4d350c1a08d846a606b",
+      "bytes": 4808
+    },
+    {
+      "path": "Docs/Gameplay/CHECKIN_LANDMARK_AUDIT.md",
+      "sha256": "7722f15360193122a76193a78687d3f0e005d1ce839819c863edd29ae7d6cf13",
+      "bytes": 8625
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "35085c672985cf3f4723e67f729741d82e2cd361b283266016e4eb9d6544ed70",
+      "bytes": 20837
+    },
+    {
+      "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Chapters.cs",
+      "sha256": "22a0dc2666e618aaa2ff3850b82499641eda353c0c86669e0512147dfc5609ca",
+      "bytes": 28624
+    },
+    {
+      "path": "Docs/Art/native-art-bindings.json",
+      "sha256": "8c4494e3a1790856f0ff2155ab08e50c1ba07e5e9ca295ab1e6331cd299d9b16",
+      "bytes": 180476
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.json",
+      "sha256": "ff8f3ede9fc46277d65a50da41c51b5e4075db02f62aff3bf8c1f904cdf7c2d6",
+      "bytes": 360740
+    },
+    {
+      "path": "Docs/Art/art-asset-manifest.csv",
+      "sha256": "41d322d71fc98b6ce67c22672470229d5fe782197b955aa8d814c7bfbb304d77",
+      "bytes": 69867
+    },
+    {
+      "path": "Docs/Art/ART_ASSET_CATALOG.md",
+      "sha256": "60153f3ef193f3270208987df4de7eb4d52d5b8edde24a1b6ffacdb139a3f29b",
+      "bytes": 51610
+    },
+    {
+      "path": "Docs/Art/ART_SOURCE_INDEX.md",
+      "sha256": "a5df601f6c613f3742246d884dd8df6807f52152a0aea91a4a63446899473f24",
+      "bytes": 1190
+    },
+    {
+      "path": "Docs/Art/NPC_CANONICAL_REGISTRY.md",
+      "sha256": "9e4ff502959f962dad1905bb205501465d173abb8ab8560720779bb4ce9bee19",
+      "bytes": 26615
+    },
+    {
+      "path": "Docs/Art/NPC_CANONICAL_REGISTRY.json",
+      "sha256": "fdfe6311975b80ffc75d53cc9798e3390d21f9a60909a26c3959cf8a200636b1",
+      "bytes": 51428
+    }
+  ],
+  "deletedPaths": []
+}

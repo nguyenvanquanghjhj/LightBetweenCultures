@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity
+TotalTime: 872
+WaitTime: 882
+Complete

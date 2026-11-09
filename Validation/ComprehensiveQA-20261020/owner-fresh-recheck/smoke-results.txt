@@ -1,0 +1,294 @@
+UTC run: 2026-10-21T00:24:47.3245977Z | Unity 6000.6.5f1 | 540x960
+PASS: H3 pickup UX starts fresh, without injected quest or items
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H3 is discovered
+PASS: Lumi reaches H3 through the real map input
+PASS: H3 opens the existing physical exploration scene and unique item
+PASS: Exploration keeps its collider and dedicated standing Lumi sprite
+PASS: Fresh runtime capture written: 05-H3-exploration
+PASS: Original house collider rejects an obstructed destination
+PASS: WASD movement still stops at the house collider
+PASS: Physical pathfinding still finds a route around the house
+PASS: Player physically traverses the path around the obstacle
+PASS: H3 touchscreen ground movement works after new services
+PASS: Manual ground path can still reach the area where Mắt Đèn is visible
+PASS: Pickup button is hidden while outside generous interaction range
+PASS: Actual item is on screen before the pointer test
+PASS: Mắt Đèn has a forgiving screen-space touch target
+PASS: No valid arrival path leaves Lumi stationary; no wall traversal
+PASS: Blocked approach explains how to go around instead of silently failing
+PASS: Blocked item tap cannot grant or alter quest state
+PASS: Fresh runtime capture written: H3-tap-no-path
+PASS: Tapping the actual item starts the existing collider-aware movement
+PASS: Fresh runtime capture written: H3-tap-approaching
+PASS: Auto approach arrives at a valid interaction position near the item
+PASS: Lumi stands nearby instead of requiring the item's exact centre
+PASS: Arriving only offers pickup; no automatic item/reward grant
+PASS: Arrival reveals the explicit pickup action
+PASS: Pickup button has a mobile-friendly actual screen hit area
+PASS: Fresh runtime capture written: H3-tap-ready-to-pick
+PASS: Repeated Interact after pickup does not duplicate item or reward
+PASS: H3 pickup through E or the existing touch Collect button awards the tutorial part once
+PASS: Second physical quest pickup is rejected
+PASS: Fresh runtime capture written: 06-H3-part-picked-up
+PASS: Returning from exploration restores H3 exactly
+PASS: Tap approach and pickup do not complete tutorial/main quest or world unlock
+PASS: Persist checkpoint H3-tap-earned
+PASS: After pickup the objective names the item and recipient
+PASS: Fresh runtime capture written: Owner-eye-return-objective
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Fragment marker reflects real outstanding ownership: H0
+PASS: Interaction marker uses the existing ground arrival: H0
+PASS: Fragment marker reflects real outstanding ownership: H1
+PASS: Interaction marker uses the existing ground arrival: H1
+PASS: Fragment marker reflects real outstanding ownership: H2
+PASS: Interaction marker uses the existing ground arrival: H2
+PASS: Fragment marker reflects real outstanding ownership: H3
+PASS: Interaction marker uses the existing ground arrival: H3
+PASS: Fragment marker reflects real outstanding ownership: H4
+PASS: Interaction marker uses the existing ground arrival: H4
+PASS: Hidden/preview location does not disclose fragment: H5
+PASS: Hidden/preview location does not disclose fragment: H6
+PASS: Hidden/preview location does not disclose fragment: H7
+PASS: Hidden/preview location does not disclose fragment: H8
+PASS: Hidden/preview location does not disclose fragment: H9
+PASS: Fragment marker reflects real outstanding ownership: H10
+PASS: Interaction marker uses the existing ground arrival: H10
+PASS: Fragment marker reflects real outstanding ownership: H11
+PASS: Interaction marker uses the existing ground arrival: H11
+PASS: Fragment marker reflects real outstanding ownership: H12
+PASS: Interaction marker uses the existing ground arrival: H12
+PASS: Fragment marker reflects real outstanding ownership: H13
+PASS: Interaction marker uses the existing ground arrival: H13
+PASS: Hidden/preview location does not disclose fragment: H14
+PASS: Hidden/preview location does not disclose fragment: H15
+PASS: Hidden/preview location does not disclose fragment: H16
+PASS: Interaction marker uses the existing ground arrival: H16
+PASS: Hidden/preview location does not disclose fragment: H17
+PASS: Hidden/preview location does not disclose fragment: H18
+PASS: Interaction marker uses the existing ground arrival: H18
+PASS: Hidden/preview location does not disclose fragment: H19
+PASS: Hidden/preview location does not disclose fragment: H20
+PASS: Fragment marker reflects real outstanding ownership: H21
+PASS: Interaction marker uses the existing ground arrival: H21
+PASS: Marker/guidance reads do not mutate saves or rewards
+PASS: Fresh runtime capture written: Owner-fragment-markers-start
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_eye_reflection
+PASS: Confirm without placement cannot claim: fragment_hoi_an_eye_reflection
+PASS: Wrong drop rejected: fragment_hoi_an_eye_reflection
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_eye_reflection
+PASS: Wrong orientation rejected: fragment_hoi_an_eye_reflection
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_eye_reflection
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_eye_reflection
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_eye_reflection
+PASS: Fragment marker reflects real outstanding ownership: H0
+PASS: Interaction marker uses the existing ground arrival: H0
+PASS: Fragment marker reflects real outstanding ownership: H1
+PASS: Interaction marker uses the existing ground arrival: H1
+PASS: Fragment marker reflects real outstanding ownership: H2
+PASS: Interaction marker uses the existing ground arrival: H2
+PASS: Fragment marker reflects real outstanding ownership: H3
+PASS: Interaction marker uses the existing ground arrival: H3
+PASS: Fragment marker reflects real outstanding ownership: H4
+PASS: Interaction marker uses the existing ground arrival: H4
+PASS: Hidden/preview location does not disclose fragment: H5
+PASS: Hidden/preview location does not disclose fragment: H6
+PASS: Hidden/preview location does not disclose fragment: H7
+PASS: Hidden/preview location does not disclose fragment: H8
+PASS: Hidden/preview location does not disclose fragment: H9
+PASS: Fragment marker reflects real outstanding ownership: H10
+PASS: Interaction marker uses the existing ground arrival: H10
+PASS: Fragment marker reflects real outstanding ownership: H11
+PASS: Interaction marker uses the existing ground arrival: H11
+PASS: Fragment marker reflects real outstanding ownership: H12
+PASS: Interaction marker uses the existing ground arrival: H12
+PASS: Fragment marker reflects real outstanding ownership: H13
+PASS: Interaction marker uses the existing ground arrival: H13
+PASS: Hidden/preview location does not disclose fragment: H14
+PASS: Hidden/preview location does not disclose fragment: H15
+PASS: Hidden/preview location does not disclose fragment: H16
+PASS: Interaction marker uses the existing ground arrival: H16
+PASS: Hidden/preview location does not disclose fragment: H17
+PASS: Hidden/preview location does not disclose fragment: H18
+PASS: Interaction marker uses the existing ground arrival: H18
+PASS: Hidden/preview location does not disclose fragment: H19
+PASS: Hidden/preview location does not disclose fragment: H20
+PASS: Fragment marker reflects real outstanding ownership: H21
+PASS: Interaction marker uses the existing ground arrival: H21
+PASS: Marker/guidance reads do not mutate saves or rewards
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H0 is discovered
+PASS: Lumi reaches H0 through the real map input
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_bamboo_frame
+PASS: Confirm without placement cannot claim: fragment_hoi_an_bamboo_frame
+PASS: Wrong drop rejected: fragment_hoi_an_bamboo_frame
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_bamboo_frame
+PASS: Wrong orientation rejected: fragment_hoi_an_bamboo_frame
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_bamboo_frame
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_bamboo_frame
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_bamboo_frame
+PASS: Fragment marker reflects real outstanding ownership: H0
+PASS: Interaction marker uses the existing ground arrival: H0
+PASS: Fragment marker reflects real outstanding ownership: H1
+PASS: Interaction marker uses the existing ground arrival: H1
+PASS: Fragment marker reflects real outstanding ownership: H2
+PASS: Interaction marker uses the existing ground arrival: H2
+PASS: Fragment marker reflects real outstanding ownership: H3
+PASS: Interaction marker uses the existing ground arrival: H3
+PASS: Fragment marker reflects real outstanding ownership: H4
+PASS: Interaction marker uses the existing ground arrival: H4
+PASS: Hidden/preview location does not disclose fragment: H5
+PASS: Hidden/preview location does not disclose fragment: H6
+PASS: Hidden/preview location does not disclose fragment: H7
+PASS: Hidden/preview location does not disclose fragment: H8
+PASS: Hidden/preview location does not disclose fragment: H9
+PASS: Fragment marker reflects real outstanding ownership: H10
+PASS: Interaction marker uses the existing ground arrival: H10
+PASS: Fragment marker reflects real outstanding ownership: H11
+PASS: Interaction marker uses the existing ground arrival: H11
+PASS: Fragment marker reflects real outstanding ownership: H12
+PASS: Interaction marker uses the existing ground arrival: H12
+PASS: Fragment marker reflects real outstanding ownership: H13
+PASS: Interaction marker uses the existing ground arrival: H13
+PASS: Hidden/preview location does not disclose fragment: H14
+PASS: Hidden/preview location does not disclose fragment: H15
+PASS: Hidden/preview location does not disclose fragment: H16
+PASS: Interaction marker uses the existing ground arrival: H16
+PASS: Hidden/preview location does not disclose fragment: H17
+PASS: Hidden/preview location does not disclose fragment: H18
+PASS: Interaction marker uses the existing ground arrival: H18
+PASS: Hidden/preview location does not disclose fragment: H19
+PASS: Hidden/preview location does not disclose fragment: H20
+PASS: Fragment marker reflects real outstanding ownership: H21
+PASS: Interaction marker uses the existing ground arrival: H21
+PASS: Marker/guidance reads do not mutate saves or rewards
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H4 is discovered
+PASS: Lumi reaches H4 through the real map input
+PASS: Negative guard checks restore exact earned state: puzzle_market
+PASS: Intentional story action commits old proof without puzzle UI: puzzle_market
+PASS: Original coin reward exact: puzzle_market
+PASS: Original flags retained: puzzle_market
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_market
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_old_flower_paper
+PASS: Confirm without placement cannot claim: fragment_hoi_an_old_flower_paper
+PASS: Wrong drop rejected: fragment_hoi_an_old_flower_paper
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_old_flower_paper
+PASS: Wrong orientation rejected: fragment_hoi_an_old_flower_paper
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_old_flower_paper
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_old_flower_paper
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_old_flower_paper
+PASS: Fragment marker reflects real outstanding ownership: H0
+PASS: Interaction marker uses the existing ground arrival: H0
+PASS: Fragment marker reflects real outstanding ownership: H1
+PASS: Interaction marker uses the existing ground arrival: H1
+PASS: Fragment marker reflects real outstanding ownership: H2
+PASS: Interaction marker uses the existing ground arrival: H2
+PASS: Fragment marker reflects real outstanding ownership: H3
+PASS: Interaction marker uses the existing ground arrival: H3
+PASS: Fragment marker reflects real outstanding ownership: H4
+PASS: Interaction marker uses the existing ground arrival: H4
+PASS: Hidden/preview location does not disclose fragment: H5
+PASS: Hidden/preview location does not disclose fragment: H6
+PASS: Hidden/preview location does not disclose fragment: H7
+PASS: Hidden/preview location does not disclose fragment: H8
+PASS: Hidden/preview location does not disclose fragment: H9
+PASS: Fragment marker reflects real outstanding ownership: H10
+PASS: Interaction marker uses the existing ground arrival: H10
+PASS: Fragment marker reflects real outstanding ownership: H11
+PASS: Interaction marker uses the existing ground arrival: H11
+PASS: Fragment marker reflects real outstanding ownership: H12
+PASS: Interaction marker uses the existing ground arrival: H12
+PASS: Fragment marker reflects real outstanding ownership: H13
+PASS: Interaction marker uses the existing ground arrival: H13
+PASS: Hidden/preview location does not disclose fragment: H14
+PASS: Hidden/preview location does not disclose fragment: H15
+PASS: Hidden/preview location does not disclose fragment: H16
+PASS: Interaction marker uses the existing ground arrival: H16
+PASS: Hidden/preview location does not disclose fragment: H17
+PASS: Hidden/preview location does not disclose fragment: H18
+PASS: Interaction marker uses the existing ground arrival: H18
+PASS: Hidden/preview location does not disclose fragment: H19
+PASS: Hidden/preview location does not disclose fragment: H20
+PASS: Fragment marker reflects real outstanding ownership: H21
+PASS: Interaction marker uses the existing ground arrival: H21
+PASS: Marker/guidance reads do not mutate saves or rewards
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Source opens a real gesture without auto-grant: fragment_hoi_an_roof_hook
+PASS: Confirm without placement cannot claim: fragment_hoi_an_roof_hook
+PASS: Wrong drop rejected: fragment_hoi_an_roof_hook
+PASS: Actual mouse/touch drop reaches target: fragment_hoi_an_roof_hook
+PASS: Wrong orientation rejected: fragment_hoi_an_roof_hook
+PASS: Gesture commits distinct proof and ownership: fragment_hoi_an_roof_hook
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hoi_an_roof_hook
+PASS: Collection never replaces story items or source rewards: fragment_hoi_an_roof_hook
+PASS: Fresh runtime capture written: Relic-H10-hook-collected
+PASS: Fragment marker reflects real outstanding ownership: H0
+PASS: Interaction marker uses the existing ground arrival: H0
+PASS: Fragment marker reflects real outstanding ownership: H1
+PASS: Interaction marker uses the existing ground arrival: H1
+PASS: Fragment marker reflects real outstanding ownership: H2
+PASS: Interaction marker uses the existing ground arrival: H2
+PASS: Fragment marker reflects real outstanding ownership: H3
+PASS: Interaction marker uses the existing ground arrival: H3
+PASS: Fragment marker reflects real outstanding ownership: H4
+PASS: Interaction marker uses the existing ground arrival: H4
+PASS: Hidden/preview location does not disclose fragment: H5
+PASS: Hidden/preview location does not disclose fragment: H6
+PASS: Hidden/preview location does not disclose fragment: H7
+PASS: Hidden/preview location does not disclose fragment: H8
+PASS: Hidden/preview location does not disclose fragment: H9
+PASS: Fragment marker reflects real outstanding ownership: H10
+PASS: Interaction marker uses the existing ground arrival: H10
+PASS: Fragment marker reflects real outstanding ownership: H11
+PASS: Interaction marker uses the existing ground arrival: H11
+PASS: Fragment marker reflects real outstanding ownership: H12
+PASS: Interaction marker uses the existing ground arrival: H12
+PASS: Fragment marker reflects real outstanding ownership: H13
+PASS: Interaction marker uses the existing ground arrival: H13
+PASS: Hidden/preview location does not disclose fragment: H14
+PASS: Hidden/preview location does not disclose fragment: H15
+PASS: Hidden/preview location does not disclose fragment: H16
+PASS: Interaction marker uses the existing ground arrival: H16
+PASS: Hidden/preview location does not disclose fragment: H17
+PASS: Hidden/preview location does not disclose fragment: H18
+PASS: Interaction marker uses the existing ground arrival: H18
+PASS: Hidden/preview location does not disclose fragment: H19
+PASS: Hidden/preview location does not disclose fragment: H20
+PASS: Fragment marker reflects real outstanding ownership: H21
+PASS: Interaction marker uses the existing ground arrival: H21
+PASS: Marker/guidance reads do not mutate saves or rewards
+PASS: Four real source interactions leave assembly/trial explicitly pending
+PASS: Four fragments override unrelated optional errands and point to Mai
+PASS: Persist checkpoint Owner-four-fragments-earned
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Owner-four-fragments-collection
+PASS: Relic details name the assembly location and expose a real CTA
+PASS: Fresh runtime capture written: Owner-four-fragments-next-step
+PASS: CTA focuses the existing destination without teleporting or altering quest state
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Owner-mai-ground-arrival
+PASS: Closing an event or battle returns map input to the player
+PASS: Collection CTA reuses real assembly; missing H7 still blocks restoration
+PASS: Blocked trial explains the actual H7 prerequisite
+PASS: Fresh runtime capture written: Owner-assembly-H7-required
+PASS: Persist checkpoint Owner-assembled-before-H7
+ALL CHECKS PASSED

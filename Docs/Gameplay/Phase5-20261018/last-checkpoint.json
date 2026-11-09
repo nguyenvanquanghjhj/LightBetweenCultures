@@ -1,0 +1,14 @@
+{
+  "checkpoint": "D:\\GAMEKKK\\Backups\\CheckpointPhase5Final-20261019",
+  "manifestSHA256": "cbd6a83da7f22b2c7c2e0091341330025daa83b2f6188b30b34048596b736d67",
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointSixRouteReferenceReview-20261018",
+  "baseManifestSHA256": "f32ba40dddbe9930ce1828c8c520a795e67528620d1690667a0fa95e2d4a233d",
+  "standalone": false,
+  "files": 302,
+  "bytes": 32899441,
+  "result": "WINDOWS_TARGETED_PASS",
+  "visualAcceptance": "PENDING",
+  "androidBuild": "NOT_TESTED",
+  "androidDevice": "NOT_TESTED",
+  "stop": "Phase5 only; owner ending acceptance before any other work."
+}

@@ -1,0 +1,203 @@
+UTC run: 2026-11-07T17:06:01.4382591Z | Unity 6000.6.5f1 | 540x960
+PASS: Shared catalog imports the actual six-city, 133-node LBC gameplay dataset
+PASS: Shared catalog retains original 24 quests/31 items plus previously released extras and the optional Dalat strawberry gift
+PASS: No invalid runtime route references in da_lat
+PASS: Every node resolves a typed event definition in da_lat
+PASS: Four data-driven key gates are configured for da_lat
+PASS: Common discovery predicate hides later regions of da_lat without a separate controller
+PASS: Shared API supports anonymous preview without granting entry in da_lat (synthetic data fixture)
+PASS: No explicit preview opt-in keeps distant/secret nodes fully hidden in da_lat
+PASS: Unmet route flags remain enforced by the common pathfinder in da_lat
+PASS: Required route flags can open the same data-defined edge in da_lat
+PASS: Unmet route flags remain enforced by the common pathfinder in da_lat
+PASS: Required route flags can open the same data-defined edge in da_lat
+PASS: Unmet route flags remain enforced by the common pathfinder in da_lat
+PASS: Required route flags can open the same data-defined edge in da_lat
+PASS: Unmet route flags remain enforced by the common pathfinder in da_lat
+PASS: Required route flags can open the same data-defined edge in da_lat
+PASS: Unmet route flags remain enforced by the common pathfinder in da_lat
+PASS: Required route flags can open the same data-defined edge in da_lat
+PASS: Unmet route flags remain enforced by the common pathfinder in da_lat
+PASS: Required route flags can open the same data-defined edge in da_lat
+PASS: No invalid runtime route references in gyeongju
+PASS: Every node resolves a typed event definition in gyeongju
+PASS: Four data-driven key gates are configured for gyeongju
+PASS: Common discovery predicate hides later regions of gyeongju without a separate controller
+PASS: Shared API supports anonymous preview without granting entry in gyeongju (synthetic data fixture)
+PASS: No explicit preview opt-in keeps distant/secret nodes fully hidden in gyeongju
+PASS: Unmet route flags remain enforced by the common pathfinder in gyeongju
+PASS: Required route flags can open the same data-defined edge in gyeongju
+PASS: Unmet route flags remain enforced by the common pathfinder in gyeongju
+PASS: Required route flags can open the same data-defined edge in gyeongju
+PASS: Unmet route flags remain enforced by the common pathfinder in gyeongju
+PASS: Required route flags can open the same data-defined edge in gyeongju
+PASS: No invalid runtime route references in hoi_an
+PASS: Every node resolves a typed event definition in hoi_an
+PASS: Four data-driven key gates are configured for hoi_an
+PASS: Common discovery predicate hides later regions of hoi_an without a separate controller
+PASS: Shared API supports anonymous preview without granting entry in hoi_an (synthetic data fixture)
+PASS: No explicit preview opt-in keeps distant/secret nodes fully hidden in hoi_an
+PASS: Unmet route flags remain enforced by the common pathfinder in hoi_an
+PASS: Required route flags can open the same data-defined edge in hoi_an
+PASS: No invalid runtime route references in hue
+PASS: Every node resolves a typed event definition in hue
+PASS: Four data-driven key gates are configured for hue
+PASS: Common discovery predicate hides later regions of hue without a separate controller
+PASS: Shared API supports anonymous preview without granting entry in hue (synthetic data fixture)
+PASS: No explicit preview opt-in keeps distant/secret nodes fully hidden in hue
+PASS: Unmet route flags remain enforced by the common pathfinder in hue
+PASS: Required route flags can open the same data-defined edge in hue
+PASS: Unmet route flags remain enforced by the common pathfinder in hue
+PASS: Required route flags can open the same data-defined edge in hue
+PASS: Unmet route flags remain enforced by the common pathfinder in hue
+PASS: Required route flags can open the same data-defined edge in hue
+PASS: Unmet route flags remain enforced by the common pathfinder in hue
+PASS: Required route flags can open the same data-defined edge in hue
+PASS: Unmet route flags remain enforced by the common pathfinder in hue
+PASS: Required route flags can open the same data-defined edge in hue
+PASS: Unmet route flags remain enforced by the common pathfinder in hue
+PASS: Required route flags can open the same data-defined edge in hue
+PASS: Unmet route flags remain enforced by the common pathfinder in hue
+PASS: Required route flags can open the same data-defined edge in hue
+PASS: Unmet route flags remain enforced by the common pathfinder in hue
+PASS: Required route flags can open the same data-defined edge in hue
+PASS: No invalid runtime route references in jeonju
+PASS: Every node resolves a typed event definition in jeonju
+PASS: Four data-driven key gates are configured for jeonju
+PASS: Common discovery predicate hides later regions of jeonju without a separate controller
+PASS: Shared API supports anonymous preview without granting entry in jeonju (synthetic data fixture)
+PASS: No explicit preview opt-in keeps distant/secret nodes fully hidden in jeonju
+PASS: Unmet route flags remain enforced by the common pathfinder in jeonju
+PASS: Required route flags can open the same data-defined edge in jeonju
+PASS: Unmet route flags remain enforced by the common pathfinder in jeonju
+PASS: Required route flags can open the same data-defined edge in jeonju
+PASS: Unmet route flags remain enforced by the common pathfinder in jeonju
+PASS: Required route flags can open the same data-defined edge in jeonju
+PASS: No invalid runtime route references in seoul
+PASS: Every node resolves a typed event definition in seoul
+PASS: Four data-driven key gates are configured for seoul
+PASS: Common discovery predicate hides later regions of seoul without a separate controller
+PASS: Shared API supports anonymous preview without granting entry in seoul (synthetic data fixture)
+PASS: No explicit preview opt-in keeps distant/secret nodes fully hidden in seoul
+PASS: Unmet route flags remain enforced by the common pathfinder in seoul
+PASS: Required route flags can open the same data-defined edge in seoul
+PASS: Unmet route flags remain enforced by the common pathfinder in seoul
+PASS: Required route flags can open the same data-defined edge in seoul
+PASS: Unmet route flags remain enforced by the common pathfinder in seoul
+PASS: Required route flags can open the same data-defined edge in seoul
+PASS: A legacy v1 tutorial save migrates to the chapter quest without losing location or acceptance
+PASS: Legacy pickup migrates into the main quest once and reveals the accepted region
+PASS: Migrated v1 save persists as schema v2
+PASS: Repeated migration/reload cannot duplicate the unique eye or starter tea
+PASS: An out-of-order final-gate flag alone cannot reveal the entire map
+PASS: The first gate advances only its contiguous region even when a later flag is present
+PASS: Fresh isolated save starts H0 with no accepted tutorial quest
+PASS: Tutorial pickup cannot be granted before accepting its quest
+PASS: All Lumi roles share the owner-approved white sprite
+PASS: Selecting a destination shows its details before entering the city
+PASS: Fresh arrival: discovery stage 0
+PASS: Fresh arrival: exact visible nodes [0,1,2,11]
+PASS: Fresh arrival: exact generic preview frontier [3,4]
+PASS: Fresh arrival: hidden H3 has no active input target
+PASS: Fresh arrival: hidden H3 is excluded from pathfinding
+PASS: Fresh arrival: hidden H4 has no active input target
+PASS: Fresh arrival: hidden H4 is excluded from pathfinding
+PASS: Fresh arrival: hidden H5 has no active input target
+PASS: Fresh arrival: hidden H5 is excluded from pathfinding
+PASS: Fresh arrival: hidden H6 has no active input target
+PASS: Fresh arrival: hidden H6 is excluded from pathfinding
+PASS: Fresh arrival: hidden H7 has no active input target
+PASS: Fresh arrival: hidden H7 is excluded from pathfinding
+PASS: Fresh arrival: hidden H8 has no active input target
+PASS: Fresh arrival: hidden H8 is excluded from pathfinding
+PASS: Fresh arrival: hidden H9 has no active input target
+PASS: Fresh arrival: hidden H9 is excluded from pathfinding
+PASS: Fresh arrival: hidden H10 has no active input target
+PASS: Fresh arrival: hidden H10 is excluded from pathfinding
+PASS: Fresh arrival: hidden H12 has no active input target
+PASS: Fresh arrival: hidden H12 is excluded from pathfinding
+PASS: Fresh arrival: hidden H13 has no active input target
+PASS: Fresh arrival: hidden H13 is excluded from pathfinding
+PASS: Fresh arrival: hidden H14 has no active input target
+PASS: Fresh arrival: hidden H14 is excluded from pathfinding
+PASS: Fresh arrival: hidden H15 has no active input target
+PASS: Fresh arrival: hidden H15 is excluded from pathfinding
+PASS: Fresh arrival: hidden H16 has no active input target
+PASS: Fresh arrival: hidden H16 is excluded from pathfinding
+PASS: Fresh arrival: hidden H17 has no active input target
+PASS: Fresh arrival: hidden H17 is excluded from pathfinding
+PASS: Fresh arrival: hidden H18 has no active input target
+PASS: Fresh arrival: hidden H18 is excluded from pathfinding
+PASS: Fresh arrival: hidden H19 has no active input target
+PASS: Fresh arrival: hidden H19 is excluded from pathfinding
+PASS: Fresh arrival: hidden H20 has no active input target
+PASS: Fresh arrival: hidden H20 is excluded from pathfinding
+PASS: Fresh arrival: hidden H21 has no active input target
+PASS: Fresh arrival: hidden H21 is excluded from pathfinding
+PASS: Fresh arrival: H2 uses the configured character sprite npc_mai
+PASS: Fresh arrival: H2 actor obeys discovery and encounter resolution
+PASS: Fresh arrival: H2 actor shares the existing node input target
+PASS: Fresh arrival: H2 uses the shared scale without changing aspect ratio
+PASS: Fresh arrival: H2 keeps its original ground/foot anchor
+PASS: Fresh arrival: H2 retains a 52-unit touch region without leaking into hidden stages
+PASS: Fresh arrival: H2 shadow follows the scaled visual at the same feet
+PASS: Fresh arrival: H2 shadow cannot leak into an undiscovered region
+PASS: Fresh arrival: H4 uses the configured character sprite npc_market_merchant
+PASS: Fresh arrival: H4 actor obeys discovery and encounter resolution
+PASS: Fresh arrival: H4 actor shares the existing node input target
+PASS: Fresh arrival: H4 uses the shared scale without changing aspect ratio
+PASS: Fresh arrival: H4 keeps its original ground/foot anchor
+PASS: Fresh arrival: H4 retains a 52-unit touch region without leaking into hidden stages
+PASS: Fresh arrival: H4 shadow follows the scaled visual at the same feet
+PASS: Fresh arrival: H4 shadow cannot leak into an undiscovered region
+PASS: Fresh arrival: H5 uses the configured character sprite enemy_mo01
+PASS: Fresh arrival: H5 actor obeys discovery and encounter resolution
+PASS: Fresh arrival: H5 actor shares the existing node input target
+PASS: Fresh arrival: H5 uses the shared scale without changing aspect ratio
+PASS: Fresh arrival: H5 keeps its original ground/foot anchor
+PASS: Fresh arrival: H5 retains a 52-unit touch region without leaking into hidden stages
+PASS: Fresh arrival: H5 shadow follows the scaled visual at the same feet
+PASS: Fresh arrival: H5 shadow cannot leak into an undiscovered region
+PASS: Fresh arrival: H12 uses the configured character sprite enemy_crab
+PASS: Fresh arrival: H12 actor obeys discovery and encounter resolution
+PASS: Fresh arrival: H12 actor shares the existing node input target
+PASS: Fresh arrival: H12 uses the shared scale without changing aspect ratio
+PASS: Fresh arrival: H12 keeps its original ground/foot anchor
+PASS: Fresh arrival: H12 retains a 52-unit touch region without leaking into hidden stages
+PASS: Fresh arrival: H12 shadow follows the scaled visual at the same feet
+PASS: Fresh arrival: H12 shadow cannot leak into an undiscovered region
+PASS: Fresh arrival: H15 uses the configured character sprite enemy_ghost
+PASS: Fresh arrival: H15 actor obeys discovery and encounter resolution
+PASS: Fresh arrival: H15 actor shares the existing node input target
+PASS: Fresh arrival: H15 uses the shared scale without changing aspect ratio
+PASS: Fresh arrival: H15 keeps its original ground/foot anchor
+PASS: Fresh arrival: H15 retains a 52-unit touch region without leaking into hidden stages
+PASS: Fresh arrival: H15 shadow follows the scaled visual at the same feet
+PASS: Fresh arrival: H15 shadow cannot leak into an undiscovered region
+PASS: Fresh arrival: H17 uses the configured character sprite npc_boatman
+PASS: Fresh arrival: H17 actor obeys discovery and encounter resolution
+PASS: Fresh arrival: H17 actor shares the existing node input target
+PASS: Fresh arrival: H17 uses the shared scale without changing aspect ratio
+PASS: Fresh arrival: H17 keeps its original ground/foot anchor
+PASS: Fresh arrival: H17 retains a 52-unit touch region without leaking into hidden stages
+PASS: Fresh arrival: H17 shadow follows the scaled visual at the same feet
+PASS: Fresh arrival: H17 shadow cannot leak into an undiscovered region
+PASS: Fresh arrival: H18 uses the configured character sprite npc_guest
+PASS: Fresh arrival: H18 actor obeys discovery and encounter resolution
+PASS: Fresh arrival: H18 actor shares the existing node input target
+PASS: Fresh arrival: H18 uses the shared scale without changing aspect ratio
+PASS: Fresh arrival: H18 keeps its original ground/foot anchor
+PASS: Fresh arrival: H18 retains a 52-unit touch region without leaking into hidden stages
+PASS: Fresh arrival: H18 shadow follows the scaled visual at the same feet
+PASS: Fresh arrival: H18 shadow cannot leak into an undiscovered region
+PASS: Fresh arrival: H10 uses the configured character sprite npc_ba_tu
+PASS: Fresh arrival: H10 actor obeys discovery and encounter resolution
+PASS: Fresh arrival: H10 actor shares the existing node input target
+PASS: Fresh arrival: H10 uses the shared scale without changing aspect ratio
+System.Exception: FAIL: Fresh arrival: H10 keeps its original ground/foot anchor
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner.CheckMapActors (System.String label) [0x0025f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:342 
+  at LightBetweenCultures.GameplaySmokeRunner.CheckStage (System.Int32 stage, System.Int32[] expected, System.String label) [0x0031a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:265 
+  at LightBetweenCultures.GameplaySmokeRunner+<Run>d__361.MoveNext () [0x0187b] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:976 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__320.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

@@ -1,0 +1,7 @@
+hoi_an: 4 challenges, 3 supplies, fresh navigation and maze solvability PASS
+hue: 4 challenges, 3 supplies, fresh navigation and maze solvability PASS
+da_lat: 4 challenges, 3 supplies, fresh navigation and maze solvability PASS
+jeonju: 4 challenges, 3 supplies, fresh navigation and maze solvability PASS
+gyeongju: 4 challenges, 3 supplies, fresh navigation and maze solvability PASS
+seoul: 4 challenges, 3 supplies, fresh navigation and maze solvability PASS
+24 unique trials; 9 interaction modes; all six fresh-city graphs reachable: PASS

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "ending-earned-tail",
+    "status": "PASS",
+    "exit": 0,
+    "assertions": 27,
+    "seconds": 15.77,
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\campaign-vietnam-earned-continuation\\gameplay-save.json",
+    "arguments": [
+      "--phase5-tail"
+    ],
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\ending-earned-tail\\smoke-results.txt",
+    "failureTail": null
+  },
+  {
+    "name": "ending-earned-restart",
+    "status": "PASS",
+    "exit": 0,
+    "assertions": 10,
+    "seconds": 8.56,
+    "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\ending-earned-tail\\P5-ending-completed.json",
+    "arguments": [
+      "--phase5-restart=completed"
+    ],
+    "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-20261025\\ending-earned-restart\\smoke-results.txt",
+    "failureTail": null
+  }
+]

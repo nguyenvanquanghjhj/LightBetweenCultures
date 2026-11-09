@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "node": 7,
+    "visited": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+    ],
+    "accepted": [
+        "mai-lantern"
+    ],
+    "completed": [
+        "mai-lantern"
+    ],
+    "items": [],
+    "collected": [
+        "lantern-part"
+    ],
+    "flags": [
+        "lantern-lit"
+    ]
+}

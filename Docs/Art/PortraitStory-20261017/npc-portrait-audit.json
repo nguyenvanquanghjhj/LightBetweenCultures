@@ -1,0 +1,2196 @@
+[
+  {
+    "npcId": "npc_ba_tu",
+    "names": [
+      "Bà Tư"
+    ],
+    "placements": [
+      [
+        "hoi_an",
+        "H10",
+        "Bà Tư"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_ba_tu",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "8637574531497076435",
+      "spriteName": "H3_07_Characters_NPC_Concept_23",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "status": "EXISTING_USER_SOURCE_ROLE_MATCH; NOT_CANONICAL_IDENTITY_APPROVAL_PENDING; native_slice_no_bitmap_copy",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Con cua kéo cuộn dây đồng của bà xuống mép nước H12. Cháu lấy lại giúp bà nhé. Đây là một phần thức ăn; thử dụ nó ra trước khi phải đánh."
+      },
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Cua Trộm ở H12 giữ cuộn dây. Có thể giao chiến hoặc dùng phần thức ăn bà đã đưa.\nDây Đồng: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju."
+      },
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Một phần gia vị cho đêm hội\n\nGiao 2 ớt và 1 hành ở H10; tổng cần có ít nhất 3 ớt và 2 hành để giữ lại một phần cho chuyến đi sau.\nỚt Hội An: 2 / 2\nHành tím Hội An: 1 / 1\nGiữ lại cho chuyến giao lưu: Ớt Hội An × 1\nGiữ lại cho chuyến giao lưu: Hành tím Hội An × 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.\n\nMột phần gia vị cho đêm hội\nBà đã nhận đúng một phần gia vị. Đây là trà hồi phục cho chuyến đi!\n\nHành tím gửi cố đô\nGiữ một củ hành tím Hội An cho gian hàng U1 Huế.\nHành tím Hội An: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.\n\nMột phần gia vị cho đêm hội\nBà đã nhận đúng một phần gia vị. Đây là trà hồi phục cho chuyến đi!\n\nHành tím gửi cố đô\nGiữ một củ hành tím Hội An cho gian hàng U1 Huế.\nHành tím Hội An: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.\n\nMột phần gia vị cho đêm hội\nBà đã nhận đúng một phần gia vị. Đây là trà hồi phục cho chuyến đi!\n\nHành tím gửi cố đô\nChị Hương đã nhận hành và gửi lời cảm ơn."
+      },
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.\n\nMột phần gia vị cho đêm hội\nBà đã nhận đúng một phần gia vị. Đây là trà hồi phục cho chuyến đi!\n\nHành tím gửi cố đô\nChị Hương đã nhận hành và gửi lời cảm ơn."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.\n\nMột phần gia vị cho đêm hội\nBà đã nhận đúng một phần gia vị. Đây là trà hồi phục cho chuyến đi!\n\nHành tím gửi cố đô\nChị Hương đã nhận hành và gửi lời cảm ơn.\n\nHai bờ, một mâm cơm\nHàng của bà đã đến cả Huế và Jeonju rồi! Tờ giấy nhắn và thẻ món ăn còn đẹp hơn tiền lời."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.\n\nMột phần gia vị cho đêm hội\nBà đã nhận đúng một phần gia vị. Đây là trà hồi phục cho chuyến đi!\n\nHành tím gửi cố đô\nChị Hương đã nhận hành và gửi lời cảm ơn.\n\nHai bờ, một mâm cơm\nHàng của bà đã đến cả Huế và Jeonju rồi! Tờ giấy nhắn và thẻ món ăn còn đẹp hơn tiền lời."
+      },
+      {
+        "run": "UI04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.\n\nMột phần gia vị cho đêm hội\nBà đã nhận đúng một phần gia vị. Đây là trà hồi phục cho chuyến đi!\n\nHành tím gửi cố đô\nChị Hương đã nhận hành và gửi lời cảm ơn.\n\nHai bờ, một mâm cơm\nHàng của bà đã đến cả Huế và Jeonju rồi! Tờ giấy nhắn và thẻ món ăn còn đẹp hơn tiền lời."
+      },
+      {
+        "run": "Reverse04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.\n\nMột phần gia vị cho đêm hội\nBà đã nhận đúng một phần gia vị. Đây là trà hồi phục cho chuyến đi!\n\nHành tím gửi cố đô\nGiữ một củ hành tím Hội An cho gian hàng U1 Huế.\nHành tím Hội An: 1 / 1"
+      },
+      {
+        "run": "Reverse04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.\n\nMột phần gia vị cho đêm hội\nBà đã nhận đúng một phần gia vị. Đây là trà hồi phục cho chuyến đi!\n\nHành tím gửi cố đô\nGiữ một củ hành tím Hội An cho gian hàng U1 Huế.\nHành tím Hội An: 1 / 1"
+      },
+      {
+        "run": "Reverse04",
+        "city": "hoi_an",
+        "node": "H10",
+        "npcId": "npc_ba_tu",
+        "sprite": "H3_07_Characters_NPC_Concept_23",
+        "speaker": "Bà Tư",
+        "text": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.\n\nMột phần gia vị cho đêm hội\nBà đã nhận đúng một phần gia vị. Đây là trà hồi phục cho chuyến đi!\n\nHành tím gửi cố đô\nChị Hương đã nhận hành và gửi lời cảm ơn."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        330.0,
+        481.0,
+        252.0,
+        414.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "explicit reviewed sheet mask",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_boat",
+    "names": [
+      "Bến phà thông tin"
+    ],
+    "placements": [
+      [
+        "seoul",
+        "S14",
+        "Bến phà thông tin"
+      ]
+    ],
+    "binding": null,
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "MISSING_RUNTIME_BINDING",
+    "runtimeStatus": "NOT_VERIFIED",
+    "runtimeObservations": [],
+    "quality": {},
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_boatman",
+    "names": [
+      "Bác Lái Đò"
+    ],
+    "placements": [
+      [
+        "hoi_an",
+        "H17",
+        "Bác Lái Đò"
+      ],
+      [
+        "hoi_an",
+        "H17",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_boatman",
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+      "guid": "3835aa72bd8c88b41af32d4aabd40b98",
+      "localId": "21300000",
+      "spriteName": "NPC_HoiAn_Boatman",
+      "source": "",
+      "status": "",
+      "canonical": true
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "EXISTING_APPROVED_IDENTITY",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H17",
+        "npcId": "npc_boatman",
+        "sprite": "NPC_HoiAn_Boatman",
+        "speaker": "Bác Lái Đò",
+        "text": "Bác cần năm xu để sửa mái chèo và mở chuyến đò qua nhánh đông. Khi sẵn sàng, mang tiền lại đây nhé."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "hoi_an",
+        "node": "H17",
+        "npcId": "npc_boatman",
+        "sprite": "NPC_HoiAn_Boatman",
+        "speaker": "Bác Lái Đò",
+        "text": "Bác cần năm xu để sửa mái chèo và mở chuyến đò qua nhánh đông. Khi sẵn sàng, mang tiền lại đây nhé."
+      },
+      {
+        "run": "UI04",
+        "city": "hoi_an",
+        "node": "H17",
+        "npcId": "npc_boatman",
+        "sprite": "NPC_HoiAn_Boatman",
+        "speaker": "Bác Lái Đò",
+        "text": "Bác cần năm xu để sửa mái chèo và mở chuyến đò qua nhánh đông. Khi sẵn sàng, mang tiền lại đây nhé."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_curator",
+    "names": [
+      "Quản thủ bảo tàng"
+    ],
+    "placements": [
+      [
+        "seoul",
+        "S2",
+        "Quản thủ bảo tàng"
+      ]
+    ],
+    "binding": null,
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "MISSING_RUNTIME_BINDING",
+    "runtimeStatus": "NOT_VERIFIED",
+    "runtimeObservations": [],
+    "quality": {},
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_elder",
+    "names": [
+      "Người giữ chuyện"
+    ],
+    "placements": [
+      [
+        "jeonju",
+        "J16",
+        "Người giữ chuyện"
+      ],
+      [
+        "jeonju",
+        "J16",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_elder",
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+      "guid": "9e2ba05a32d628045ae4dce1b7b1cb19",
+      "localId": "245854044",
+      "spriteName": "npc_elder",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-33d3b4b8-0005-46d6-af23-f7edb2cf564d.png",
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J16",
+        "npcId": "npc_elder",
+        "sprite": "npc_elder",
+        "speaker": "Người giữ chuyện",
+        "text": "Người giữ chuyện chỉ lối tới J21 và kể rằng một chiếc đèn ở Hội An đang che chở cho người lạc. Chọn Nói chuyện để ghi lại lối đi; nhận JQ04 khi muốn gửi thư."
+      },
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J16",
+        "npcId": "npc_elder",
+        "sprite": "npc_elder",
+        "speaker": "Người giữ chuyện",
+        "text": "Lối J21 đã được ghi lại. Hạc giấy ở J18 là thử thách tùy chọn; không cần thắng nó để gửi thư.\n\nThư gửi phố cũ\nTìm thư J21 sau khi nghe chuyện ở J16; trở về Ji-eun H18 và xác nhận giao.\nThư Hồi Âm: 1 / 1"
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "jeonju",
+        "node": "J16",
+        "npcId": "npc_elder",
+        "sprite": "npc_elder",
+        "speaker": "Người giữ chuyện",
+        "text": "Lối J21 đã được ghi lại. Hạc giấy ở J18 là thử thách tùy chọn; không cần thắng nó để gửi thư.\n\nThư gửi phố cũ\nJi-eun đã đọc thư. Ngõ đèn H9 có thể được cứu; thư vẫn được giữ làm manh mối."
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J16",
+        "npcId": "npc_elder",
+        "sprite": "npc_elder",
+        "speaker": "Người giữ chuyện",
+        "text": "Người giữ chuyện chỉ lối tới J21 và kể rằng một chiếc đèn ở Hội An đang che chở cho người lạc. Chọn Nói chuyện để ghi lại lối đi; nhận JQ04 khi muốn gửi thư."
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J16",
+        "npcId": "npc_elder",
+        "sprite": "npc_elder",
+        "speaker": "Người giữ chuyện",
+        "text": "Lối J21 đã được ghi lại. Hạc giấy ở J18 là thử thách tùy chọn; không cần thắng nó để gửi thư.\n\nThư gửi phố cũ\nTìm thư J21 sau khi nghe chuyện ở J16; trở về Ji-eun H18 và xác nhận giao.\nThư Hồi Âm: 1 / 1"
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1214,
+        1295
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        33.0,
+        14.0,
+        1163.0,
+        1268.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_engineer",
+    "names": [
+      "Kỹ sư Trạm Số"
+    ],
+    "placements": [
+      [
+        "seoul",
+        "S11",
+        "Kỹ sư Trạm Số"
+      ]
+    ],
+    "binding": null,
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "MISSING_RUNTIME_BINDING",
+    "runtimeStatus": "NOT_VERIFIED",
+    "runtimeObservations": [],
+    "quality": {},
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_gardener",
+    "names": [
+      "Người Làm Vườn"
+    ],
+    "placements": [
+      [
+        "da_lat",
+        "D13",
+        "Người Làm Vườn"
+      ],
+      [
+        "da_lat",
+        "D13",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_gardener",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+      "guid": "cac9b7f04788a1743af1858d523019df",
+      "localId": "1390191892",
+      "spriteName": "npc_gardener",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-592f122b-a363-41ad-9bd3-ebc0dfa9379e.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D13",
+        "npcId": "npc_gardener",
+        "sprite": "npc_gardener",
+        "speaker": "Người Làm Vườn",
+        "text": "Có hoa chỉ nở khi trụ D8 xua sương. Mang một bông ở D19 về đây, tôi sẽ pha trà hỗ trợ chuyến đi."
+      },
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D13",
+        "npcId": "npc_gardener",
+        "sprite": "npc_gardener",
+        "speaker": "Người Làm Vườn",
+        "text": "Lấy hoa đêm tại D19 sau khi giải D8; có thể cho Thủy xem trước khi giao.\nHoa Đêm: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D13",
+        "npcId": "npc_gardener",
+        "sprite": "npc_gardener",
+        "speaker": "Người Làm Vườn",
+        "text": "Bông hoa đã về vườn kính. Cảm ơn Lumi đã giữ đường rừng an toàn."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "da_lat",
+        "node": "D13",
+        "npcId": "npc_gardener",
+        "sprite": "npc_gardener",
+        "speaker": "Người Làm Vườn",
+        "text": "Bông hoa đã về vườn kính. Cảm ơn Lumi đã giữ đường rừng an toàn."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "spriteRect": [
+        189.0,
+        3.0,
+        681.0,
+        1524.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_guest",
+    "names": [
+      "Ji-eun",
+      "Khách lạ Hàn Quốc"
+    ],
+    "placements": [
+      [
+        "hoi_an",
+        "H18",
+        "Khách lạ Hàn Quốc"
+      ],
+      [
+        "hoi_an",
+        "H18",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_guest",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "-404209332",
+      "spriteName": "npc_guest",
+      "source": "",
+      "status": "",
+      "canonical": true
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "EXISTING_APPROVED_IDENTITY",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H18",
+        "npcId": "npc_guest",
+        "sprite": "npc_guest",
+        "speaker": "Khách lạ Hàn Quốc",
+        "text": "Một chiếc đèn lạc đang chờ tin từ Jeonju. Khi có thư hồi âm J21, hãy mang về ngõ H9."
+      },
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H18",
+        "npcId": "npc_guest",
+        "sprite": "npc_guest",
+        "speaker": "Khách lạ Hàn Quốc",
+        "text": "Một chiếc đèn lạc đang chờ tin từ Jeonju. Khi có thư hồi âm J21, hãy mang về ngõ H9."
+      },
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H18",
+        "npcId": "npc_guest",
+        "sprite": "npc_guest",
+        "speaker": "Khách lạ Hàn Quốc",
+        "text": "Tôi từng thấy hoa văn ấy ở làng Jeonju. Một chiếc đèn bị gọi là thất lạc có lẽ đang che chở cho ai đó. Nếu tìm thấy thư hồi âm bên kia cổng, hãy đưa về ngõ H9.\n\nTìm thư J21 sau khi nghe chuyện ở J16; trở về Ji-eun H18 và xác nhận giao.\nThư Hồi Âm: 1 / 1"
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "hoi_an",
+        "node": "H18",
+        "npcId": "npc_guest",
+        "sprite": "npc_guest",
+        "speaker": "Khách lạ Hàn Quốc",
+        "text": "Cảm ơn Lumi!\n\nỚt qua biển – Lời mời từ Jeonju\nSo-yeon cảm ơn và gửi thẻ món ăn về Hội An.\n\nThư gửi phố cũ\nJi-eun đã đọc thư. Ngõ đèn H9 có thể được cứu; thư vẫn được giữ làm manh mối."
+      },
+      {
+        "run": "Reverse04",
+        "city": "hoi_an",
+        "node": "H18",
+        "npcId": "npc_guest",
+        "sprite": "npc_guest",
+        "speaker": "Khách lạ Hàn Quốc",
+        "text": "Tôi từng thấy hoa văn ấy ở làng Jeonju. Một chiếc đèn bị gọi là thất lạc có lẽ đang che chở cho ai đó. Nếu tìm thấy thư hồi âm bên kia cổng, hãy đưa về ngõ H9.\n\nTìm thư J21 sau khi nghe chuyện ở J16; trở về Ji-eun H18 và xác nhận giao.\nThư Hồi Âm: 1 / 1"
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        1164.0,
+        81.0,
+        280.0,
+        419.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_hana",
+    "names": [
+      "Nghệ nhân Hana"
+    ],
+    "placements": [
+      [
+        "jeonju",
+        "J2",
+        "Nghệ nhân Hana"
+      ],
+      [
+        "jeonju",
+        "J2",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_hana",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "-730319472",
+      "spriteName": "npc_hana",
+      "source": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "status": "EXISTING_ROSTER_ROLE_MATCH; NOT_CANONICAL; named_identity_assignment_pending_approval",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J2",
+        "npcId": "npc_hana",
+        "sprite": "npc_hana",
+        "speaker": "Nghệ nhân Hana",
+        "text": "Một tấm khuôn đã chia ba. Hãy gấp giấy ở J7, lấy mảnh trong kiện J6 và hộp kính J11, rồi ghép ở J12."
+      },
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J2",
+        "npcId": "npc_hana",
+        "sprite": "npc_hana",
+        "speaker": "Nghệ nhân Hana",
+        "text": "Ba mảnh hanji đã thành một mạch đèn. Mang kết quả tới đèn song thành J17."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "jeonju",
+        "node": "J2",
+        "npcId": "npc_hana",
+        "sprite": "npc_hana",
+        "speaker": "Nghệ nhân Hana",
+        "text": "Ba mảnh hanji đã thành một mạch đèn. Mang kết quả tới đèn song thành J17."
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J2",
+        "npcId": "npc_hana",
+        "sprite": "npc_hana",
+        "speaker": "Nghệ nhân Hana",
+        "text": "Một tấm khuôn đã chia ba. Hãy gấp giấy ở J7, lấy mảnh trong kiện J6 và hộp kính J11, rồi ghép ở J12."
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J2",
+        "npcId": "npc_hana",
+        "sprite": "npc_hana",
+        "speaker": "Nghệ nhân Hana",
+        "text": "Ba mảnh hanji đã thành một mạch đèn. Mang kết quả tới đèn song thành J17."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        1134.0,
+        531.0,
+        300.0,
+        370.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_hungry_dog",
+    "names": [
+      "Chó Canh Đường"
+    ],
+    "placements": [
+      [
+        "da_lat",
+        "D10",
+        "Chó Canh Đường"
+      ],
+      [
+        "da_lat",
+        "D10",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_hungry_dog",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+      "guid": "3df301f30edc9d243899518bb89fb538",
+      "localId": "37410012",
+      "spriteName": "npc_hungry_dog",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-f9d9225b-fa66-4403-ab6c-d3cfed897378.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D10",
+        "npcId": "npc_hungry_dog",
+        "sprite": "npc_hungry_dog",
+        "speaker": "Chó Canh Đường",
+        "text": "Chú chó giữ đường xuống cầu đá vì bụng đói. Ba phần thức ăn sẽ giúp nó yên tâm tránh lối."
+      },
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D10",
+        "npcId": "npc_hungry_dog",
+        "sprite": "npc_hungry_dog",
+        "speaker": "Chó Canh Đường",
+        "text": "Tìm thức ăn ở D9, D11 và D12; có một phần dự phòng tại Thủy D3.\nPhần Thức Ăn: 3 / 3"
+      },
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D10",
+        "npcId": "npc_hungry_dog",
+        "sprite": "npc_hungry_dog",
+        "speaker": "Chó Canh Đường",
+        "text": "Chú chó đã no, vẫy đuôi chỉ đường xuống thác. Lumi có thể quay lại bất cứ lúc nào."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "da_lat",
+        "node": "D10",
+        "npcId": "npc_hungry_dog",
+        "sprite": "npc_hungry_dog",
+        "speaker": "Chó Canh Đường",
+        "text": "Chú chó đã no, vẫy đuôi chỉ đường xuống thác. Lumi có thể quay lại bất cứ lúc nào."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1231,
+        1277
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        91.0,
+        10.0,
+        1086.0,
+        1240.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_huong",
+    "names": [
+      "Chị Hương"
+    ],
+    "placements": [
+      [
+        "hue",
+        "U1",
+        "Chị Hương"
+      ],
+      [
+        "hue",
+        "U1",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_huong",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "-1343187348",
+      "spriteName": "npc_huong",
+      "source": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "status": "TEMPORARY_UNASSIGNED_ROSTER_CAST; NOT_CANONICAL; replace registry reference when approved",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "hue",
+        "node": "U1",
+        "npcId": "npc_huong",
+        "sprite": "npc_huong",
+        "speaker": "Chị Hương",
+        "text": "Chợ xưa đang chuẩn bị mâm cơm đón khách. Bà Tư ở Hội An nhắn có gói hành tím.\n\nGiữ một củ hành tím Hội An cho gian hàng U1 Huế.\nHành tím Hội An: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "hue",
+        "node": "U1",
+        "npcId": "npc_huong",
+        "sprite": "npc_huong",
+        "speaker": "Chị Hương",
+        "text": "Chợ xưa đang chuẩn bị mâm cơm đón khách. Bà Tư ở Hội An nhắn có gói hành tím.\n\nGiữ một củ hành tím Hội An cho gian hàng U1 Huế.\nHành tím Hội An: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "hue",
+        "node": "U1",
+        "npcId": "npc_huong",
+        "sprite": "npc_huong",
+        "speaker": "Chị Hương",
+        "text": "Cảm ơn cháu. Nhờ cháu gửi lại Bà Tư tờ giấy nhắn này nhé."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "hue",
+        "node": "U1",
+        "npcId": "npc_huong",
+        "sprite": "npc_huong",
+        "speaker": "Chị Hương",
+        "text": "Cảm ơn cháu. Nhờ cháu gửi lại Bà Tư tờ giấy nhắn này nhé."
+      },
+      {
+        "run": "Reverse04",
+        "city": "hue",
+        "node": "U1",
+        "npcId": "npc_huong",
+        "sprite": "npc_huong",
+        "speaker": "Chị Hương",
+        "text": "Chợ xưa đang chuẩn bị mâm cơm đón khách. Bà Tư ở Hội An nhắn có gói hành tím.\n\nGiữ một củ hành tím Hội An cho gian hàng U1 Huế.\nHành tím Hội An: 1 / 1"
+      },
+      {
+        "run": "Reverse04",
+        "city": "hue",
+        "node": "U1",
+        "npcId": "npc_huong",
+        "sprite": "npc_huong",
+        "speaker": "Chị Hương",
+        "text": "Chợ xưa đang chuẩn bị mâm cơm đón khách. Bà Tư ở Hội An nhắn có gói hành tím.\n\nGiữ một củ hành tím Hội An cho gian hàng U1 Huế.\nHành tím Hội An: 1 / 1"
+      },
+      {
+        "run": "Reverse04",
+        "city": "hue",
+        "node": "U1",
+        "npcId": "npc_huong",
+        "sprite": "npc_huong",
+        "speaker": "Chị Hương",
+        "text": "Cảm ơn cháu. Nhờ cháu gửi lại Bà Tư tờ giấy nhắn này nhé."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        878.0,
+        517.0,
+        298.0,
+        412.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_innkeeper",
+    "names": [
+      "Lumi"
+    ],
+    "placements": [
+      [
+        "da_lat",
+        "D18",
+        "Lumi"
+      ]
+    ],
+    "binding": null,
+    "availableCandidateOrConstraint": "D18 đang do Lumi tự thoại; chưa có hình riêng được xác nhận cho chủ nhà nghỉ. Không tự đổi đầu bếp/nhân vật có vai trò khác thành chủ trọ.",
+    "identityStatus": "MISSING_RUNTIME_BINDING",
+    "runtimeStatus": "NOT_VERIFIED",
+    "runtimeObservations": [],
+    "quality": {},
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_inscription",
+    "names": [
+      "Kho bản khắc"
+    ],
+    "placements": [
+      [
+        "gyeongju",
+        "G14",
+        "Kho bản khắc"
+      ]
+    ],
+    "binding": null,
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "MISSING_RUNTIME_BINDING",
+    "runtimeStatus": "NOT_VERIFIED",
+    "runtimeObservations": [],
+    "quality": {},
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_keeper",
+    "names": [
+      "Sân chính di tích"
+    ],
+    "placements": [
+      [
+        "gyeongju",
+        "G9",
+        "Sân chính di tích"
+      ]
+    ],
+    "binding": null,
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "MISSING_RUNTIME_BINDING",
+    "runtimeStatus": "NOT_VERIFIED",
+    "runtimeObservations": [],
+    "quality": {},
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_lan",
+    "names": [
+      "Người dẫn đường Lan"
+    ],
+    "placements": [
+      [
+        "da_lat",
+        "D2",
+        "Người dẫn đường Lan"
+      ],
+      [
+        "da_lat",
+        "D2",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_lan",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+      "guid": "fb6c63798ffdb6841a4fd318adf72a74",
+      "localId": "1886636321",
+      "spriteName": "npc_lan",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-e6e8509b-ddb7-4234-bd4d-3830786383bc.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D2",
+        "npcId": "npc_lan",
+        "sprite": "npc_lan",
+        "speaker": "Người dẫn đường Lan",
+        "text": "Chị làm rơi kính gần trạm quan sát. Bot Giấu Kính đang giữ chúng. Em có thể giao chiến hoặc bật bẫy phản quang hai lần. Mang kính về đây rồi chị sẽ chỉ đường D8."
+      },
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D2",
+        "npcId": "npc_lan",
+        "sprite": "npc_lan",
+        "speaker": "Người dẫn đường Lan",
+        "text": "Lấy kính D7, giao lại Lan D2. Theo phác thảo Thông → Đèn → Hồ để giải D8.\n• Giao kính lại cho Lan ở D2\n• Theo bản phác và giải ba cổng tại D8"
+      },
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D2",
+        "npcId": "npc_lan",
+        "sprite": "npc_lan",
+        "speaker": "Người dẫn đường Lan",
+        "text": "Lan đã nhìn rõ biển chỉ đường, lối sương được mở."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "da_lat",
+        "node": "D2",
+        "npcId": "npc_lan",
+        "sprite": "npc_lan",
+        "speaker": "Người dẫn đường Lan",
+        "text": "Lan đã nhìn rõ biển chỉ đường, lối sương được mở."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1145,
+        1374
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        223.0,
+        7.0,
+        716.0,
+        1360.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_mai",
+    "names": [
+      "Cô Mai"
+    ],
+    "placements": [
+      [
+        "hoi_an",
+        "H2",
+        "Cô Mai"
+      ],
+      [
+        "hoi_an",
+        "H2",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_mai",
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+      "guid": "a6cc838dd76ae7f40902d846693f4a5e",
+      "localId": "-1732270161",
+      "spriteName": "Mai_DialoguePortrait",
+      "source": "Characters/NPC_Roster_Concept.png",
+      "status": "existing_approved_static_cutout",
+      "canonical": true
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "EXISTING_APPROVED_IDENTITY",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H2",
+        "npcId": "npc_mai",
+        "sprite": "Mai_DialoguePortrait",
+        "speaker": "Cô Mai",
+        "text": "Mắt Đèn ở H3; chợ H4 giữ manh mối cho xưởng H13. Ông Phúc biết cách đọc mã gốm ở H19 nếu cháu muốn tránh giao chiến với bot.\nMắt Đèn Hội An: 1 / 1\nLõi Giấy Sáng: 0 / 1\nChìa Kết Nối: 0 / 1\nĐã có Mắt Đèn. Trở về H2 gặp cô Mai."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "hoi_an",
+        "node": "H2",
+        "npcId": "npc_mai",
+        "sprite": "Mai_DialoguePortrait",
+        "speaker": "Cô Mai",
+        "text": "Ánh sáng đã trở về! Huế và Jeonju cùng đáp lại tín hiệu của Hội An. Cháu có thể đi tiếp hoặc ở lại giúp bà con."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1211,
+        1299
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        0.0,
+        0.0,
+        1211.0,
+        1299.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_market_merchant",
+    "names": [
+      "Thương nhân đường xa"
+    ],
+    "placements": [
+      [
+        "da_lat",
+        "D4",
+        "Thương nhân đường xa"
+      ],
+      [
+        "da_lat",
+        "D4",
+        "map actor"
+      ],
+      [
+        "hoi_an",
+        "H4",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_market_merchant",
+      "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+      "guid": "0a91b2dbca846994bbade4807ff62596",
+      "localId": "21300000",
+      "spriteName": "NPC_HoiAn_MarketMerchant",
+      "source": "Characters/NPC_Roster_Concept.png",
+      "status": "derived_static_cutout_map_verified",
+      "canonical": true
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "EXISTING_APPROVED_IDENTITY",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D4",
+        "npcId": "npc_market_merchant",
+        "sprite": "NPC_HoiAn_MarketMerchant",
+        "speaker": "Thương nhân đường xa",
+        "text": "Lại gặp Lumi trên cao nguyên! Ba phần thức ăn nằm ở D9, D11 và D12. Thú canh đường chỉ đói, đừng đánh nó. Cối xay theo hướng gió: Đông → Bắc → Tây."
+      },
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D4",
+        "npcId": "npc_market_merchant",
+        "sprite": "NPC_HoiAn_MarketMerchant",
+        "speaker": "Thương nhân đường xa",
+        "text": "Lại gặp Lumi trên cao nguyên! Ba phần thức ăn nằm ở D9, D11 và D12. Thú canh đường chỉ đói, đừng đánh nó. Cối xay theo hướng gió: Đông → Bắc → Tây."
+      },
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D4",
+        "npcId": "npc_market_merchant",
+        "sprite": "NPC_HoiAn_MarketMerchant",
+        "speaker": "Thương nhân đường xa",
+        "text": "Lại gặp Lumi trên cao nguyên! Ba phần thức ăn nằm ở D9, D11 và D12. Thú canh đường chỉ đói, đừng đánh nó. Cối xay theo hướng gió: Đông → Bắc → Tây."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "da_lat",
+        "node": "D4",
+        "npcId": "npc_market_merchant",
+        "sprite": "NPC_HoiAn_MarketMerchant",
+        "speaker": "Thương nhân đường xa",
+        "text": "Lại gặp Lumi trên cao nguyên! Ba phần thức ăn nằm ở D9, D11 và D12. Thú canh đường chỉ đói, đừng đánh nó. Cối xay theo hướng gió: Đông → Bắc → Tây.\n\nDâu cao nguyên gửi Jeonju\nSo-yeon nhận quà dâu cao nguyên và gửi lời cảm ơn về Đà Lạt."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1261,
+        1247
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        0,
+        0,
+        1261,
+        1247
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_min",
+    "names": [
+      "Hướng dẫn viên Min"
+    ],
+    "placements": [
+      [
+        "gyeongju",
+        "G3",
+        "Hướng dẫn viên Min"
+      ]
+    ],
+    "binding": null,
+    "availableCandidateOrConstraint": "NPC_Roster_Concept có hướng dẫn viên khảo cổ nhí chưa gán; cần slice và duyệt danh tính Min, không cần vẽ lại roster.",
+    "identityStatus": "MISSING_RUNTIME_BINDING",
+    "runtimeStatus": "NOT_VERIFIED",
+    "runtimeObservations": [],
+    "quality": {},
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_nguyet",
+    "names": [
+      "Bà Nguyệt"
+    ],
+    "placements": [
+      [
+        "hue",
+        "U2",
+        "Bà Nguyệt"
+      ],
+      [
+        "hue",
+        "U2",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_nguyet",
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+      "guid": "48a2e6c60f7ec0349befacea7c60e927",
+      "localId": "-1004916199",
+      "spriteName": "npc_nguyet",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-7e190989-bfd9-4c83-942e-22f38ecab7f1.png",
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "hue",
+        "node": "U2",
+        "npcId": "npc_nguyet",
+        "sprite": "npc_nguyet",
+        "speaker": "Bà Nguyệt",
+        "text": "Thuốc cho người chèo đò sắp hết. Tìm lá ở U10 giúp bà nhé."
+      },
+      {
+        "run": "Journey04",
+        "city": "hue",
+        "node": "U2",
+        "npcId": "npc_nguyet",
+        "sprite": "npc_nguyet",
+        "speaker": "Bà Nguyệt",
+        "text": "Qua đò ở U3, men bờ bắc tới U10. Mang lá về U2; đừng dùng lá như vật phẩm hồi máu.\nThảo Dược Bờ Bắc: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "hue",
+        "node": "U2",
+        "npcId": "npc_nguyet",
+        "sprite": "npc_nguyet",
+        "speaker": "Bà Nguyệt",
+        "text": "Bà đã sắc thuốc cho bến đò. Cháu cầm ba phần trà hồi phục; vườn phía tây cũng đã mở."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "hue",
+        "node": "U2",
+        "npcId": "npc_nguyet",
+        "sprite": "npc_nguyet",
+        "speaker": "Bà Nguyệt",
+        "text": "Bà đã sắc thuốc cho bến đò. Cháu cầm ba phần trà hồi phục; vườn phía tây cũng đã mở."
+      },
+      {
+        "run": "Reverse04",
+        "city": "hue",
+        "node": "U2",
+        "npcId": "npc_nguyet",
+        "sprite": "npc_nguyet",
+        "speaker": "Bà Nguyệt",
+        "text": "Thuốc cho người chèo đò sắp hết. Tìm lá ở U10 giúp bà nhé."
+      },
+      {
+        "run": "Reverse04",
+        "city": "hue",
+        "node": "U2",
+        "npcId": "npc_nguyet",
+        "sprite": "npc_nguyet",
+        "speaker": "Bà Nguyệt",
+        "text": "Qua đò ở U3, men bờ bắc tới U10. Mang lá về U2; đừng dùng lá như vật phẩm hồi máu.\nThảo Dược Bờ Bắc: 1 / 1"
+      },
+      {
+        "run": "Reverse04",
+        "city": "hue",
+        "node": "U2",
+        "npcId": "npc_nguyet",
+        "sprite": "npc_nguyet",
+        "speaker": "Bà Nguyệt",
+        "text": "Bà đã sắc thuốc cho bến đò. Cháu cầm ba phần trà hồi phục; vườn phía tây cũng đã mở."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1312,
+        1199
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        0.0,
+        0.0,
+        1298.0,
+        1190.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_park",
+    "names": [
+      "Thương nhân Park"
+    ],
+    "placements": [
+      [
+        "jeonju",
+        "J5",
+        "Thương nhân Park"
+      ],
+      [
+        "jeonju",
+        "J5",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_park",
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+      "guid": "36a0c8ea46b133e40bf8731d313402d7",
+      "localId": "-606975524",
+      "spriteName": "npc_park",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-e66f287a-2b5e-4f66-987a-71069b8fd083.png",
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J5",
+        "npcId": "npc_park",
+        "sprite": "npc_park",
+        "speaker": "Thương nhân Park",
+        "text": "Kiện hàng bên suối biến mất. Bot J6 giữ cả kiện lẫn mảnh hoa văn; sổ ghi mã Hoa – Đèn – Hoa. Hỏi tiến độ để ghi nhận mã."
+      },
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J5",
+        "npcId": "npc_park",
+        "sprite": "npc_park",
+        "speaker": "Thương nhân Park",
+        "text": "Mã trong sổ: Hoa – Đèn – Hoa. Hỏi tiến độ tại J5 để ghi mã; lấy kiện J6 bằng mã hoặc chiến đấu, mang về J5 xác nhận trả.\nKiện Hàng Thương Nhân: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J5",
+        "npcId": "npc_park",
+        "sprite": "npc_park",
+        "speaker": "Thương nhân Park",
+        "text": "Kiện đã về đúng chủ. Bác mở hộp kính trên đài J11 để Lumi lấy mảnh hoa văn thứ ba."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "jeonju",
+        "node": "J5",
+        "npcId": "npc_park",
+        "sprite": "npc_park",
+        "speaker": "Thương nhân Park",
+        "text": "Kiện đã về đúng chủ. Bác mở hộp kính trên đài J11 để Lumi lấy mảnh hoa văn thứ ba."
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J5",
+        "npcId": "npc_park",
+        "sprite": "npc_park",
+        "speaker": "Thương nhân Park",
+        "text": "Kiện hàng bên suối biến mất. Bot J6 giữ cả kiện lẫn mảnh hoa văn; sổ ghi mã Hoa – Đèn – Hoa. Hỏi tiến độ để ghi nhận mã."
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J5",
+        "npcId": "npc_park",
+        "sprite": "npc_park",
+        "speaker": "Thương nhân Park",
+        "text": "Mã trong sổ: Hoa – Đèn – Hoa. Hỏi tiến độ tại J5 để ghi mã; lấy kiện J6 bằng mã hoặc chiến đấu, mang về J5 xác nhận trả.\nKiện Hàng Thương Nhân: 1 / 1"
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J5",
+        "npcId": "npc_park",
+        "sprite": "npc_park",
+        "speaker": "Thương nhân Park",
+        "text": "Kiện đã về đúng chủ. Bác mở hộp kính trên đài J11 để Lumi lấy mảnh hoa văn thứ ba."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1312,
+        1199
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        0.0,
+        0.0,
+        1294.0,
+        1191.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_phuc",
+    "names": [
+      "Ông Phúc"
+    ],
+    "placements": [
+      [
+        "hoi_an",
+        "H14",
+        "Ông Phúc"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_phuc",
+      "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "localId": "1019635214",
+      "spriteName": "Phuc_DialoguePortrait",
+      "source": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "status": "EXISTING_USER_SOURCE_ROLE_MATCH; NOT_CANONICAL_IDENTITY_APPROVAL_PENDING; native_slice_no_bitmap_copy",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "hoi_an",
+        "node": "H14",
+        "npcId": "npc_phuc",
+        "sprite": "Phuc_DialoguePortrait",
+        "speaker": "Ông Phúc",
+        "text": "Có người đã thay mã trạm bằng hình gốm. Cháu nhìn ngõ H19: hoa nở trước, trăng lên sau, cuối cùng mới thắp đèn. Đây là chút trà giúp cháu hồi sức."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "hoi_an",
+        "node": "H14",
+        "npcId": "npc_phuc",
+        "sprite": "Phuc_DialoguePortrait",
+        "speaker": "Ông Phúc",
+        "text": "Có người đã thay mã trạm bằng hình gốm. Cháu nhìn ngõ H19: hoa nở trước, trăng lên sau, cuối cùng mới thắp đèn. Đây là chút trà giúp cháu hồi sức."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        584.0,
+        521.0,
+        263.0,
+        411.0
+      ],
+      "pivot": [
+        0.5,
+        0.0
+      ],
+      "meshPolicy": "explicit reviewed sheet mask",
+      "cropReview": "Phuc outline excludes adjacent basket; raised hand/hat/feet must be reviewed in fresh runtime"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_scholar",
+    "names": [
+      "Nho Sinh Lê An"
+    ],
+    "placements": [
+      [
+        "hue",
+        "U7",
+        "Nho Sinh Lê An"
+      ],
+      [
+        "hue",
+        "U7",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_scholar",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "-156234960",
+      "spriteName": "npc_scholar",
+      "source": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "status": "EXISTING_ROSTER_ROLE_MATCH; NOT_CANONICAL; named_identity_assignment_pending_approval",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "hue",
+        "node": "U7",
+        "npcId": "npc_scholar",
+        "sprite": "npc_scholar",
+        "speaker": "Nho Sinh Lê An",
+        "text": "“Bức thư cũ không thể đọc thiếu ký hiệu ở thư khố. Xin nhờ bạn.”\n\nGiữ Ấn Tín Cổ và nói chuyện Lê An tại U7.\nẤn Tín Cổ: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "hue",
+        "node": "U7",
+        "npcId": "npc_scholar",
+        "sprite": "npc_scholar",
+        "speaker": "Nho Sinh Lê An",
+        "text": "Hai bờ đã đồng bộ. Tuyến Đà Lạt đủ điều kiện mở; ấn Huế còn được dùng ở Gyeongju và Seoul.\n\nTấm ấn gửi đi xa\nLê An ghi nhận ký hiệu. Ấn được giữ lại để đối chiếu bệ đá Gyeongju và rơle Seoul."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "hue",
+        "node": "U7",
+        "npcId": "npc_scholar",
+        "sprite": "npc_scholar",
+        "speaker": "Nho Sinh Lê An",
+        "text": "Hai bờ đã đồng bộ. Tuyến Đà Lạt đủ điều kiện mở; ấn Huế còn được dùng ở Gyeongju và Seoul.\n\nTấm ấn gửi đi xa\nLê An ghi nhận ký hiệu. Ấn được giữ lại để đối chiếu bệ đá Gyeongju và rơle Seoul."
+      },
+      {
+        "run": "Reverse04",
+        "city": "hue",
+        "node": "U7",
+        "npcId": "npc_scholar",
+        "sprite": "npc_scholar",
+        "speaker": "Nho Sinh Lê An",
+        "text": "“Bức thư cũ không thể đọc thiếu ký hiệu ở thư khố. Xin nhờ bạn.”\n\nGiữ Ấn Tín Cổ và nói chuyện Lê An tại U7.\nẤn Tín Cổ: 1 / 1"
+      },
+      {
+        "run": "Reverse04",
+        "city": "hue",
+        "node": "U7",
+        "npcId": "npc_scholar",
+        "sprite": "npc_scholar",
+        "speaker": "Nho Sinh Lê An",
+        "text": "Hai bờ đã đồng bộ. Tuyến Đà Lạt đủ điều kiện mở; ấn Huế còn được dùng ở Gyeongju và Seoul.\n\nTấm ấn gửi đi xa\nLê An ghi nhận ký hiệu. Ấn được giữ lại để đối chiếu bệ đá Gyeongju và rơle Seoul."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        620.0,
+        528.0,
+        219.0,
+        398.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_soyeon",
+    "names": [
+      "So-yeon"
+    ],
+    "placements": [
+      [
+        "jeonju",
+        "J15",
+        "So-yeon"
+      ],
+      [
+        "jeonju",
+        "J15",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_soyeon",
+      "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "localId": "464872565",
+      "spriteName": "npc_soyeon",
+      "source": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "status": "TEMPORARY_UNASSIGNED_ROSTER_CAST; NOT_CANONICAL; replace registry reference when approved",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J15",
+        "npcId": "npc_soyeon",
+        "sprite": "npc_soyeon",
+        "speaker": "So-yeon",
+        "text": "Khách từ Hội An à? Ji-eun bảo bạn có mang theo chút ớt tươi để thử món giao lưu.\n\nGiữ một trái ớt Hội An cho gian hàng giao lưu tại J15.\nỚt Hội An: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J15",
+        "npcId": "npc_soyeon",
+        "sprite": "npc_soyeon",
+        "speaker": "So-yeon",
+        "text": "Khách từ Hội An à? Ji-eun bảo bạn có mang theo chút ớt tươi để thử món giao lưu.\n\nGiữ một trái ớt Hội An cho gian hàng giao lưu tại J15.\nỚt Hội An: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J15",
+        "npcId": "npc_soyeon",
+        "sprite": "npc_soyeon",
+        "speaker": "So-yeon",
+        "text": "Khách từ Hội An à? Ji-eun bảo bạn có mang theo chút ớt tươi để thử món giao lưu.\n\nGiữ một trái ớt Hội An cho gian hàng giao lưu tại J15.\nỚt Hội An: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J15",
+        "npcId": "npc_soyeon",
+        "sprite": "npc_soyeon",
+        "speaker": "So-yeon",
+        "text": "Cảm ơn! Đây là thẻ món ăn của gian hàng chúng tôi, bạn mang về Hội An làm kỷ niệm nhé."
+      },
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J15",
+        "npcId": "npc_soyeon",
+        "sprite": "npc_soyeon",
+        "speaker": "So-yeon",
+        "text": "Dâu từ cao nguyên Việt Nam mang một hương vị khác với món quà ớt lần trước. Lumi có muốn gửi quà không?\n\nGiữ dâu trong túi; giao trực tiếp tại quầy J15 ở Jeonju.\nDâu tây Đà Lạt: 1 / 1"
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "jeonju",
+        "node": "J15",
+        "npcId": "npc_soyeon",
+        "sprite": "npc_soyeon",
+        "speaker": "So-yeon",
+        "text": "Cảm ơn! Đây là thẻ món ăn của gian hàng chúng tôi, bạn mang về Hội An làm kỷ niệm nhé.\n\nDâu cao nguyên gửi Jeonju\nSo-yeon nhận quà dâu cao nguyên và gửi lời cảm ơn về Đà Lạt."
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J15",
+        "npcId": "npc_soyeon",
+        "sprite": "npc_soyeon",
+        "speaker": "So-yeon",
+        "text": "Khách từ Hội An à? Ji-eun bảo bạn có mang theo chút ớt tươi để thử món giao lưu.\n\nGiữ một trái ớt Hội An cho gian hàng giao lưu tại J15.\nỚt Hội An: 1 / 1"
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J15",
+        "npcId": "npc_soyeon",
+        "sprite": "npc_soyeon",
+        "speaker": "So-yeon",
+        "text": "Khách từ Hội An à? Ji-eun bảo bạn có mang theo chút ớt tươi để thử món giao lưu.\n\nGiữ một trái ớt Hội An cho gian hàng giao lưu tại J15.\nỚt Hội An: 1 / 1"
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J15",
+        "npcId": "npc_soyeon",
+        "sprite": "npc_soyeon",
+        "speaker": "So-yeon",
+        "text": "Khách từ Hội An à? Ji-eun bảo bạn có mang theo chút ớt tươi để thử món giao lưu.\n\nGiữ một trái ớt Hội An cho gian hàng giao lưu tại J15.\nỚt Hội An: 1 / 1"
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J15",
+        "npcId": "npc_soyeon",
+        "sprite": "npc_soyeon",
+        "speaker": "So-yeon",
+        "text": "Cảm ơn! Đây là thẻ món ăn của gian hàng chúng tôi, bạn mang về Hội An làm kỷ niệm nhé."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        309.0,
+        89.0,
+        248.0,
+        404.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_tam",
+    "names": [
+      "Bác Lái Đò Tâm"
+    ],
+    "placements": [
+      [
+        "hue",
+        "U3",
+        "Bác Lái Đò Tâm"
+      ],
+      [
+        "hue",
+        "U3",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_tam",
+      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+      "guid": "7eb9ff722f5f81748945b06d9e1d05bd",
+      "localId": "-1705763202",
+      "spriteName": "npc_tam",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-f12979ec-7b12-4269-903d-cd88c0edd1de.png",
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "hue",
+        "node": "U3",
+        "npcId": "npc_tam",
+        "sprite": "npc_tam",
+        "speaker": "Bác Lái Đò Tâm",
+        "text": "Giải hai ký hiệu trên vải ở U16 rồi mang thẻ về bến U3. Bác chỉ đưa cháu qua khi đã kiểm tra thẻ."
+      },
+      {
+        "run": "Journey04",
+        "city": "hue",
+        "node": "U3",
+        "npcId": "npc_tam",
+        "sprite": "npc_tam",
+        "speaker": "Bác Lái Đò Tâm",
+        "text": "Tìm thẻ qua sông tại U16; quay lại nói chuyện và xác nhận tại U3.\nThẻ Qua Sông: 1 / 1"
+      },
+      {
+        "run": "Journey04",
+        "city": "hue",
+        "node": "U3",
+        "npcId": "npc_tam",
+        "sprite": "npc_tam",
+        "speaker": "Bác Lái Đò Tâm",
+        "text": "Thẻ hợp lệ. Bác Tâm mở chuyến đò qua U4; cháu vẫn được quay lại bờ nam."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "hue",
+        "node": "U3",
+        "npcId": "npc_tam",
+        "sprite": "npc_tam",
+        "speaker": "Bác Lái Đò Tâm",
+        "text": "Thẻ hợp lệ. Bác Tâm mở chuyến đò qua U4; cháu vẫn được quay lại bờ nam."
+      },
+      {
+        "run": "Reverse04",
+        "city": "hue",
+        "node": "U3",
+        "npcId": "npc_tam",
+        "sprite": "npc_tam",
+        "speaker": "Bác Lái Đò Tâm",
+        "text": "Giải hai ký hiệu trên vải ở U16 rồi mang thẻ về bến U3. Bác chỉ đưa cháu qua khi đã kiểm tra thẻ."
+      },
+      {
+        "run": "Reverse04",
+        "city": "hue",
+        "node": "U3",
+        "npcId": "npc_tam",
+        "sprite": "npc_tam",
+        "speaker": "Bác Lái Đò Tâm",
+        "text": "Tìm thẻ qua sông tại U16; quay lại nói chuyện và xác nhận tại U3.\nThẻ Qua Sông: 1 / 1"
+      },
+      {
+        "run": "Reverse04",
+        "city": "hue",
+        "node": "U3",
+        "npcId": "npc_tam",
+        "sprite": "npc_tam",
+        "speaker": "Bác Lái Đò Tâm",
+        "text": "Thẻ hợp lệ. Bác Tâm mở chuyến đò qua U4; cháu vẫn được quay lại bờ nam."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1103,
+        1426
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        0.0,
+        0.0,
+        1065.0,
+        1393.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_tech",
+    "names": [
+      "Kỹ thuật viên Ji-won"
+    ],
+    "placements": [
+      [
+        "seoul",
+        "S7",
+        "Kỹ thuật viên Ji-won"
+      ]
+    ],
+    "binding": null,
+    "availableCandidateOrConstraint": "Concept cô gái công nghệ đang dùng tạm cho So-yeon; không được tái gán làm Ji-won.",
+    "identityStatus": "MISSING_RUNTIME_BINDING",
+    "runtimeStatus": "NOT_VERIFIED",
+    "runtimeObservations": [],
+    "quality": {},
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_thuy",
+    "names": [
+      "Cô Thủy chủ tiệm hoa"
+    ],
+    "placements": [
+      [
+        "da_lat",
+        "D3",
+        "Cô Thủy chủ tiệm hoa"
+      ],
+      [
+        "da_lat",
+        "D3",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_thuy",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+      "guid": "33ce1e750bcd0124d9feb5cfcbf3fa66",
+      "localId": "-857154714",
+      "spriteName": "npc_thuy",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-c2a55252-5f3c-4e4c-8fda-bc436bd89b83.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D3",
+        "npcId": "npc_thuy",
+        "sprite": "npc_thuy",
+        "speaker": "Cô Thủy chủ tiệm hoa",
+        "text": "Chị Thủy có một phần thức ăn dự phòng cho chú chó. Nếu tìm được hoa đêm, cho chị xem nhé; em vẫn giữ hoa để giao người làm vườn. Mỗi chuyến chỉ có một phần dự phòng."
+      },
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D3",
+        "npcId": "npc_thuy",
+        "sprite": "npc_thuy",
+        "speaker": "Cô Thủy chủ tiệm hoa",
+        "text": "Chị Thủy có một phần thức ăn dự phòng cho chú chó. Nếu tìm được hoa đêm, cho chị xem nhé; em vẫn giữ hoa để giao người làm vườn. Mỗi chuyến chỉ có một phần dự phòng."
+      },
+      {
+        "run": "Journey04",
+        "city": "da_lat",
+        "node": "D3",
+        "npcId": "npc_thuy",
+        "sprite": "npc_thuy",
+        "speaker": "Cô Thủy chủ tiệm hoa",
+        "text": "Chị Thủy có một phần thức ăn dự phòng cho chú chó. Nếu tìm được hoa đêm, cho chị xem nhé; em vẫn giữ hoa để giao người làm vườn. Mỗi chuyến chỉ có một phần dự phòng."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "da_lat",
+        "node": "D3",
+        "npcId": "npc_thuy",
+        "sprite": "npc_thuy",
+        "speaker": "Cô Thủy chủ tiệm hoa",
+        "text": "Chị Thủy có một phần thức ăn dự phòng cho chú chó. Nếu tìm được hoa đêm, cho chị xem nhé; em vẫn giữ hoa để giao người làm vườn. Mỗi chuyến chỉ có một phần dự phòng."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "spriteRect": [
+        107.0,
+        16.0,
+        880.0,
+        1500.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  },
+  {
+    "npcId": "npc_yoon",
+    "names": [
+      "Nhà thầy Yoon"
+    ],
+    "placements": [
+      [
+        "jeonju",
+        "J4",
+        "Nhà thầy Yoon"
+      ],
+      [
+        "jeonju",
+        "J4",
+        "map actor"
+      ]
+    ],
+    "binding": {
+      "role": "npc",
+      "id": "npc_yoon",
+      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+      "guid": "9e80ff4e3ffd49044b5dabf92b3d6b27",
+      "localId": "-321799653",
+      "spriteName": "npc_yoon",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-62274880-f810-4340-9317-60a9e24076d1.png",
+      "status": "AI_DERIVATIVE_PROPOSAL; NOT_CANONICAL; static_cutout_not_animation",
+      "canonical": false
+    },
+    "availableCandidateOrConstraint": "",
+    "identityStatus": "TEMPORARY_OR_IDENTITY_APPROVAL_PENDING",
+    "runtimeStatus": "VERIFIED_VISIBLE",
+    "runtimeObservations": [
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J4",
+        "npcId": "npc_yoon",
+        "sprite": "npc_yoon",
+        "speaker": "Nhà thầy Yoon",
+        "text": "Yoon chỉ ba nét của khuôn: Hoa → Trăng → Đèn. Họa tiết đèn Hội An nằm ở tâm, không nằm trên mép. Đọc lại manh mối nếu ghép chưa đúng."
+      },
+      {
+        "run": "Journey04",
+        "city": "jeonju",
+        "node": "J4",
+        "npcId": "npc_yoon",
+        "sprite": "npc_yoon",
+        "speaker": "Nhà thầy Yoon",
+        "text": "Hoa → Trăng → Đèn. Nét Hội An đặt ở tâm; giữ ba mảnh để đối chiếu."
+      },
+      {
+        "run": "Diagnostics04",
+        "city": "jeonju",
+        "node": "J4",
+        "npcId": "npc_yoon",
+        "sprite": "npc_yoon",
+        "speaker": "Nhà thầy Yoon",
+        "text": "Hoa → Trăng → Đèn. Nét Hội An đặt ở tâm; giữ ba mảnh để đối chiếu."
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J4",
+        "npcId": "npc_yoon",
+        "sprite": "npc_yoon",
+        "speaker": "Nhà thầy Yoon",
+        "text": "Yoon chỉ ba nét của khuôn: Hoa → Trăng → Đèn. Họa tiết đèn Hội An nằm ở tâm, không nằm trên mép. Đọc lại manh mối nếu ghép chưa đúng."
+      },
+      {
+        "run": "Reverse04",
+        "city": "jeonju",
+        "node": "J4",
+        "npcId": "npc_yoon",
+        "sprite": "npc_yoon",
+        "speaker": "Nhà thầy Yoon",
+        "text": "Hoa → Trăng → Đèn. Nét Hội An đặt ở tâm; giữ ba mảnh để đối chiếu."
+      }
+    ],
+    "quality": {
+      "mode": "RGBA",
+      "texturePixels": [
+        1294,
+        1216
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "spriteRect": [
+        0.0,
+        0.0,
+        1276.0,
+        1210.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "meshPolicy": "RGBA quad in dialogue; actor mesh unchanged",
+      "cropReview": "See runtime portraits; metrics alone do not certify edge/crop quality"
+    },
+    "sharedWith": []
+  }
+]

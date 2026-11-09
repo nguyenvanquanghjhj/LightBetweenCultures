@@ -1,0 +1,299 @@
+UTC run: 2026-10-21T06:33:34.2783157Z | Unity 6000.6.5f1 | 540x960
+PASS: Development-only before/after sprite fixture exists
+PASS: All canonical NPC placements, offsets, standing targets and map scale metadata are unchanged
+PASS: Exactly requested NPC binding policy: npc_guest
+PASS: Exactly requested NPC binding policy: npc_boatman
+PASS: Exactly requested NPC binding policy: npc_mai
+PASS: Exactly requested NPC binding policy: npc_market_merchant
+PASS: Exactly requested NPC binding policy: npc_huong
+PASS: Exactly requested NPC binding policy: npc_soyeon
+PASS: Exactly requested NPC binding policy: npc_scholar
+PASS: Exactly requested NPC binding policy: npc_hana
+PASS: Exactly requested NPC binding policy: npc_nguyet
+PASS: Exactly requested NPC binding policy: npc_tam
+PASS: Exactly requested NPC binding policy: npc_yoon
+PASS: Exactly requested NPC binding policy: npc_park
+PASS: Exactly requested NPC binding policy: npc_elder
+PASS: Exactly requested NPC binding policy: npc_lan
+PASS: Exactly requested NPC binding policy: npc_thuy
+PASS: Exactly requested NPC binding policy: npc_gardener
+PASS: Exactly requested NPC binding policy: npc_hungry_dog
+PASS: Exactly requested NPC binding policy: npc_ba_tu
+PASS: Exactly requested NPC binding policy: npc_phuc
+PASS: Exactly requested NPC binding policy: npc_min
+PASS: Exactly requested NPC binding policy: npc_tech
+PASS: Exactly requested NPC binding policy: npc_engineer
+PASS: Exactly requested NPC binding policy: npc_curator
+PASS: Exactly requested NPC binding policy: npc_keeper
+PASS: Exactly requested NPC binding policy: npc_inscription
+PASS: All five Lumi registry roles resolve to the exact owner-approved white cutout
+PASS: Main menu uses selected actual Lumi portrait
+PASS: Fresh runtime capture written: ART-Lumi-menu-after
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: White Lumi map traveler in da_lat
+PASS: Fresh runtime capture written: ART-Lumi-map-da_lat
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: White Lumi map traveler in gyeongju
+PASS: Fresh runtime capture written: ART-Lumi-map-gyeongju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: White Lumi map traveler in hoi_an
+PASS: Fresh runtime capture written: ART-Lumi-map-hoi_an
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: White Lumi map traveler in hue
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U2 is discovered
+PASS: Lumi reaches U2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Map sprite and pointer target match identity: npc_nguyet
+PASS: Original touch region retained: npc_nguyet
+PASS: Fresh runtime capture written: ART-npc_nguyet-map-after
+PASS: Real NPC dialogue uses same new design: npc_nguyet
+PASS: Fresh runtime capture written: ART-npc_nguyet-dialogue-after
+PASS: Dialogue X preserves all quest/item/reward/save state: npc_nguyet
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: White Lumi map traveler in jeonju
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J2 is discovered
+PASS: Lumi reaches J2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Map sprite and pointer target match identity: npc_hana
+PASS: Original touch region retained: npc_hana
+PASS: Fresh runtime capture written: ART-npc_hana-map-after
+PASS: Real NPC dialogue uses same new design: npc_hana
+PASS: Fresh runtime capture written: ART-npc_hana-dialogue-after
+PASS: Dialogue X preserves all quest/item/reward/save state: npc_hana
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J16 is discovered
+PASS: Lumi reaches J16 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Map sprite and pointer target match identity: npc_elder
+PASS: Original touch region retained: npc_elder
+PASS: Fresh runtime capture written: ART-npc_elder-map-after
+PASS: Real NPC dialogue uses same new design: npc_elder
+PASS: Fresh runtime capture written: ART-npc_elder-dialogue-after
+PASS: Dialogue X preserves all quest/item/reward/save state: npc_elder
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: White Lumi map traveler in seoul
+PASS: Fresh runtime capture written: ART-Lumi-map-seoul
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: How-to / journal guide uses approved white portrait
+PASS: Fresh runtime capture written: ART-Lumi-guide-after
+PASS: Combat view uses white Lumi, not the old action pose
+PASS: Fresh runtime capture written: ART-Lumi-combat-after
+PASS: Presentation-only guide/combat preview grants no item, progress or reward
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H9 is discovered
+PASS: Lumi reaches H9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_hoian_swing
+PASS: Every Lumi mesh uses approved white texture: leisure_hoian_swing
+PASS: Existing leisure animation starts: leisure_hoian_swing
+PASS: Fresh runtime capture written: ART-Lumi-leisure-swing
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_hoian_swing
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H16 is discovered
+PASS: Lumi reaches H16 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_hoian_lanternrelease_stand
+PASS: Every Lumi mesh uses approved white texture: leisure_hoian_lanternrelease_stand
+PASS: Existing leisure animation starts: leisure_hoian_lanternrelease_stand
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_hoian_lanternrelease_stand
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U0 is discovered
+PASS: Lumi reaches U0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_hue_pedalswanboat
+PASS: Every Lumi mesh uses approved white texture: leisure_hue_pedalswanboat
+PASS: Existing leisure animation starts: leisure_hue_pedalswanboat
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_hue_pedalswanboat
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U8 is discovered
+PASS: Lumi reaches U8 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_hue_thronereplica
+PASS: Every Lumi mesh uses approved white texture: leisure_hue_thronereplica
+PASS: Existing leisure animation starts: leisure_hue_thronereplica
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_hue_thronereplica
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D13 is discovered
+PASS: Lumi reaches D13 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_dalat_strawberrypatch
+PASS: Every Lumi mesh uses approved white texture: leisure_dalat_strawberrypatch
+PASS: Existing leisure animation starts: leisure_dalat_strawberrypatch
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_dalat_strawberrypatch
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D9 is discovered
+PASS: Lumi reaches D9 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_dalat_kiterack
+PASS: Every Lumi mesh uses approved white texture: leisure_dalat_kiterack
+PASS: Existing leisure animation starts: leisure_dalat_kiterack
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_dalat_kiterack
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J13 is discovered
+PASS: Lumi reaches J13 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_jeonju_wateringcan_garden
+PASS: Every Lumi mesh uses approved white texture: leisure_jeonju_wateringcan_garden
+PASS: Existing leisure animation starts: leisure_jeonju_wateringcan_garden
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_jeonju_wateringcan_garden
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J15 is discovered
+PASS: Lumi reaches J15 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_jeonju_teatable
+PASS: Every Lumi mesh uses approved white texture: leisure_jeonju_teatable
+PASS: Existing leisure animation starts: leisure_jeonju_teatable
+PASS: Fresh runtime capture written: ART-Lumi-leisure-tea
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_jeonju_teatable
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G10 is discovered
+PASS: Lumi reaches G10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_gyeongju_bellexhibit
+PASS: Every Lumi mesh uses approved white texture: leisure_gyeongju_bellexhibit
+PASS: Existing leisure animation starts: leisure_gyeongju_bellexhibit
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_gyeongju_bellexhibit
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G11 is discovered
+PASS: Lumi reaches G11 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_gyeongju_wishtags
+PASS: Every Lumi mesh uses approved white texture: leisure_gyeongju_wishtags
+PASS: Existing leisure animation starts: leisure_gyeongju_wishtags
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_gyeongju_wishtags
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S1 is discovered
+PASS: Lumi reaches S1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_seoul_tteokbokkistall
+PASS: Every Lumi mesh uses approved white texture: leisure_seoul_tteokbokkistall
+PASS: Existing leisure animation starts: leisure_seoul_tteokbokkistall
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_seoul_tteokbokkistall
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target S7 is discovered
+PASS: Lumi reaches S7 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing leisure opens: leisure_seoul_kpopstage
+PASS: Every Lumi mesh uses approved white texture: leisure_seoul_kpopstage
+PASS: Existing leisure animation starts: leisure_seoul_kpopstage
+PASS: Fresh runtime capture written: ART-Lumi-leisure-dance
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing leisure visual retains exact save: leisure_seoul_kpopstage
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: H3 white Lumi uses original player collider
+PASS: H3 display height preserved, no stretched sprite
+PASS: Fresh runtime capture written: ART-Lumi-H3-after
+PASS: Persist checkpoint ART-earned-after
+ALL CHECKS PASSED

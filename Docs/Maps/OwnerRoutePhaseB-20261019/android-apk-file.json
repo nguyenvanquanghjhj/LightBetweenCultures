@@ -1,0 +1,18 @@
+{
+  "path": "D:\\GAMEKKK\\LightBetweenCultures\\Builds\\Android\\LightBetweenCultures-OwnerRoutesB-20261019.apk",
+  "actualAPKBytes": 289557820,
+  "sha256": "4995b6fe503e14dae990c96099ff574c03784dccd4f27cc39a8f556614d0f34d",
+  "device": "NOT_TESTED",
+  "buildResult": {
+    "output": "Builds/Android/LightBetweenCultures-OwnerRoutesB-20261019.apk",
+    "identifier": "com.DefaultCompany.LightBetweenCultures",
+    "result": "Succeeded",
+    "error": "",
+    "startedUTC": "2026-10-19T16:42:40.8521896Z",
+    "finishedUTC": "2026-10-19T16:49:44.2675110Z",
+    "bytes": 1527779403,
+    "customKeystore": false,
+    "errors": 0,
+    "warnings": 1005
+  }
+}

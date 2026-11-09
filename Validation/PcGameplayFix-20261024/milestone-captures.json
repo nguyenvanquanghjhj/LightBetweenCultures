@@ -1,0 +1,57 @@
+[
+  {
+    "file": "P5-credits.png",
+    "sha256": "e8f5775212584bb6103805b291c0752d9a8b02c6aed1e61d57774df90d7fb37a",
+    "bytes": 565359
+  },
+  {
+    "file": "P5-ending-dialogue.png",
+    "sha256": "ef6855314fcfe089d74c2328f946ece4215742822ecce618efe1c4b39f876fe2",
+    "bytes": 561100
+  },
+  {
+    "file": "P5-post-credits.png",
+    "sha256": "730842bc029cbf9d7e39f46c8d6bb2d06c398e6cb7c4448da698a3d7477977c7",
+    "bytes": 791576
+  },
+  {
+    "file": "PC-da_lat-restored.png",
+    "sha256": "6abe88ec0d259d2a4a3a4be50f8a677b92145ebb725b4cc2b11666cbfa23d4ba",
+    "bytes": 2059667
+  },
+  {
+    "file": "PC-gyeongju-restored.png",
+    "sha256": "b3c482d1eab59ccc262d687609f2b368d972a627a7c51003cc7976c54acedce4",
+    "bytes": 2074303
+  },
+  {
+    "file": "PC-hoi_an-restored.png",
+    "sha256": "3cea084cd292e4cba9c043d7a1a348002591825c6feed195ccc7304094d699e5",
+    "bytes": 1017639
+  },
+  {
+    "file": "PC-hue-restored.png",
+    "sha256": "86d4a3c650a6543ccc13c3cbad646d700f2b9eda2246055bf2280c501349c903",
+    "bytes": 2054956
+  },
+  {
+    "file": "PC-jeonju-restored.png",
+    "sha256": "a27366891d8eff28db4b0b96066e103bc23eeb1c04b505751f30a12b79943e99",
+    "bytes": 2104577
+  },
+  {
+    "file": "PC-PurchasedTea-InCombat.png",
+    "sha256": "c9fe37f51f657375adbd3b22a875ad4442054978e4845fde453ddffb4fa082bb",
+    "bytes": 294153
+  },
+  {
+    "file": "PC-SaveReload.png",
+    "sha256": "505115a7f5674901cd75685a3d2f09c698e915a591d4474f0c8303f7b6e37f4d",
+    "bytes": 1048648
+  },
+  {
+    "file": "PC-seoul-restored.png",
+    "sha256": "c54790697d9a45e7b6fe1238cebf0c73778b16f13448ce24f0618ce78712a046",
+    "bytes": 2089932
+  }
+]

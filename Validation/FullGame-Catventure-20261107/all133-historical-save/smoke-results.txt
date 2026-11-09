@@ -1,0 +1,23 @@
+UTC run: 2026-11-07T17:05:53.2370460Z | Unity 6000.6.5f1 | 540x960
+PASS: Coverage resumes an actual earned ending, not a synthetic all-unlocked fixture
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: Fresh runtime capture written: X-WorldMap-select-hoi_an
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H0 is discovered
+PASS: Lumi reaches H0 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H1 is discovered
+PASS: Lumi reaches H1 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: Dialogue choice talk has a real receipt/next/interact control
+System.Exception: Timed out: button Interact
+Modal=True moving=False stage=4
+Buttons: H2:True:False,H21:True:False,FocusLumi:True:False,ZoomIn:True:False,H17:True:False,H14:True:False,H13:True:False,H4:True:False,JourneyShop:True:False,QuestJournal:True:True,ObjectiveHint:True:False,EventOption_checkin:True:True,DialogueCloseX:True:True,ZoomOut:True:False,MapOverview:True:False,H9:True:False,H16:True:False,EventOption_relic:fragment_hoi_an_eye_reflection:True:True,H7:True:False,H3:True:False,H20:True:False,CatRescueHUD:True:False,H12:True:False,Interact:True:False,H0:True:False,H11:True:False,MarkerMotion:True:False,H10:True:False,CatMiniMap:True:True,AudioSettings:True:False,Inventory:True:True,H6:True:False,Back:True:False,H18:True:False,H1:True:False,H8:True:False,H19:True:False,H5:True:False,H15:True:False
+  at LightBetweenCultures.GameplaySmokeRunner+<Until>d__321.MoveNext () [0x001b4] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:107 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__320.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

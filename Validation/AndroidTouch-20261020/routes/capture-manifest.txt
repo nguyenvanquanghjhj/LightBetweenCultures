@@ -1,0 +1,56 @@
+2026-10-20T07:44:03.7832580Z | 540x960 | X-WorldMap-select-hoi_an.png | SHA256 BC903E04716ED3241CAB1B668D5AE1E4839CE630230E8B23B0706CC0B62E56F1
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R1-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R1-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R1-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R1-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R1-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R1-reverse-arrival.png
+2026-10-20T07:44:15.9854709Z | 540x960 | X-WorldMap-select-da_lat.png | SHA256 1E37A3CAB29401B4A3E86A2349348ADE89236852C1818E56DE6D2CB30BECDE73
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R2-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R2-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R2-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R2-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R2-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R2-reverse-arrival.png
+2026-10-20T07:44:23.1209670Z | 540x960 | X-WorldMap-select-gyeongju.png | SHA256 5A827AAC85D977D3C51688B3DBE01D2D30E4A503BA5C3BC1191576CD41752961
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R4-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R4-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R4-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R4-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R4-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R4-reverse-arrival.png
+2026-10-20T07:44:31.9735540Z | 540x960 | X-WorldMap-select-gyeongju.png | SHA256 913AE6AFDAD86845B03B5911B7C1751D60F87A0F3427CD1AD0F791D6B39AB00F
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R3-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R3-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R3-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R3-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R3-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R3-reverse-arrival.png
+2026-10-20T07:44:40.0972791Z | 540x960 | X-WorldMap-select-seoul.png | SHA256 CBBDB50AC39BF6139E5F8C7CB70FE0F23F3125552F28F6D71EBBE7FC68E457F2
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R5-walk-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R5-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R5-disembarked.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R5-reverse-start.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R5-reverse-boat.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\R5-reverse-arrival.png
+2026-10-20T07:44:46.7396617Z | 540x960 | X-WorldMap-select-hoi_an.png | SHA256 8DE39DD7A7C292DD8C11D5FC22B15A3FBCB930146FED245200A3DD9D819DC121
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\X1-approaching.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\X1-branch-arrival.png
+2026-10-20T07:44:54.9251559Z | 540x960 | X-WorldMap-select-jeonju.png | SHA256 1AD34B32A9D0EEBF15934416C41FACDDF3C3232EC9D464294AB8D57D768B5598
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\X3-approaching.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\X3-branch-arrival.png
+2026-10-20T07:45:00.1072745Z | 540x960 | X-WorldMap-select-gyeongju.png | SHA256 FF5939809166951E1F7E3CD0A5D4D7D519491F67B39ED95E574CDD2D49A52651
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\X4-approaching.png
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\X4-branch-arrival.png
+2026-10-20T07:45:05.3714293Z | 540x960 | X-WorldMap-select-da_lat.png | SHA256 D383D9D7F17689243782B3070F6740DEDCD2721B921D4C61442234153C45C6A5
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\City-da_lat.png
+2026-10-20T07:45:06.8184125Z | 540x960 | X-WorldMap-select-gyeongju.png | SHA256 4FE5CA08F14741C549FD9F5676613335FE5D1921EFFC845BB26DE4D3CBDF1E35
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\City-gyeongju.png
+2026-10-20T07:45:08.2094532Z | 540x960 | X-WorldMap-select-hoi_an.png | SHA256 A6580D91564D595D5280FE4CB959463F813277EEB672FD5F30F17A888D1D68C0
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\City-hoi_an.png
+2026-10-20T07:45:09.9688253Z | 540x960 | X-WorldMap-select-hue.png | SHA256 3EFD8D51BFA237B91341ED5BD961DB43F23CEF08D70EFB3F505897AE1AB0ED2E
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\City-hue.png
+2026-10-20T07:45:11.4018608Z | 540x960 | X-WorldMap-select-jeonju.png | SHA256 A829BCDA4FBD822BEA24F02A71FF2825663947777005A4CAD0D85436B924E772
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\City-jeonju.png
+2026-10-20T07:45:12.8482457Z | 540x960 | X-WorldMap-select-seoul.png | SHA256 135431FE784B56B730B86B67813D308437F561F7C3FFA775730024D1AA7856A9
+D:\GAMEKKK\LightBetweenCultures\Validation\AndroidTouch-20261020\routes\City-seoul.png

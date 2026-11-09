@@ -1,0 +1,14 @@
+{
+  "name": "shop-toolbar",
+  "status": "PASS",
+  "exit": 0,
+  "seconds": 8.42,
+  "assertions": 15,
+  "arguments": [
+    "--shop-toolbar-qa"
+  ],
+  "seed": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\PcGameplayFix-20261024\\campaign\\pc-final-state.json",
+  "result": "D:\\GAMEKKK\\LightBetweenCultures\\Validation\\FullGame-Catventure-20261107\\shop-toolbar\\smoke-results.txt",
+  "assemblySHA256": "6349b90ffa565f933e7e670d44d65d5f146251901ded1fa8506f5e4d44a12dc0",
+  "failureTail": null
+}

@@ -1,0 +1,20 @@
+{
+  "beforeBytes": 34800586822,
+  "afterBytes": 33441903955,
+  "netDirectoryReduction": 1358682867,
+  "deletedFiles": 1857,
+  "deletedPayloadBytes": 1370135897,
+  "diskFreeIncreaseImmediatelyAfterDelete": 1365823488,
+  "diskFreeAfterUnity": 229866582016,
+  "protectedProjectFilesVerified": 2145,
+  "backupsVerified": 39,
+  "backupFilesVerified": 29873,
+  "backupManifestEntriesVerified": 24685,
+  "backupMismatches": 0,
+  "evidenceReferencesVerified": 4826,
+  "evidenceMissing": 0,
+  "unityOpenExitCode": 0,
+  "fullRegressionRerun": false,
+  "cacheDeleted": false,
+  "backupDeleted": false
+}

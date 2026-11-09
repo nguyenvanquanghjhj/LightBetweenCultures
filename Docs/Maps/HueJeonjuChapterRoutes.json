@@ -1,0 +1,2472 @@
+{
+  "changes": [
+    {
+      "cityId": "hue",
+      "nodeId": "U2",
+      "old": {
+        "x": 0.432,
+        "y": 0.347
+      },
+      "new": {
+        "x": 0.459254144,
+        "y": 0.276243094
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U3",
+      "old": {
+        "x": 0.535,
+        "y": 0.498
+      },
+      "new": {
+        "x": 0.376381215,
+        "y": 0.5
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U4",
+      "old": {
+        "x": 0.666,
+        "y": 0.57
+      },
+      "new": {
+        "x": 0.607734807,
+        "y": 0.580110497
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U5",
+      "old": {
+        "x": 0.605,
+        "y": 0.618
+      },
+      "new": {
+        "x": 0.602209945,
+        "y": 0.629834254
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U6",
+      "old": {
+        "x": 0.603,
+        "y": 0.667
+      },
+      "new": {
+        "x": 0.610497238,
+        "y": 0.723756906
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U7",
+      "old": {
+        "x": 0.773,
+        "y": 0.769
+      },
+      "new": {
+        "x": 0.766574586,
+        "y": 0.772559853
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U8",
+      "old": {
+        "x": 0.708,
+        "y": 0.847
+      },
+      "new": {
+        "x": 0.723066298,
+        "y": 0.813075506
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U9",
+      "old": {
+        "x": 0.49,
+        "y": 0.828
+      },
+      "new": {
+        "x": 0.483425414,
+        "y": 0.810313076
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U10",
+      "old": {
+        "x": 0.376,
+        "y": 0.724
+      },
+      "new": {
+        "x": 0.387430939,
+        "y": 0.755064457
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U11",
+      "old": {
+        "x": 0.516,
+        "y": 0.692
+      },
+      "new": {
+        "x": 0.502762431,
+        "y": 0.709023941
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U12",
+      "old": {
+        "x": 0.266,
+        "y": 0.664
+      },
+      "new": {
+        "x": 0.287292818,
+        "y": 0.709023941
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U13",
+      "old": {
+        "x": 0.756,
+        "y": 0.152
+      },
+      "new": {
+        "x": 0.723066298,
+        "y": 0.161141805
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U14",
+      "old": {
+        "x": 0.768,
+        "y": 0.265
+      },
+      "new": {
+        "x": 0.835635359,
+        "y": 0.281767956
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U15",
+      "old": {
+        "x": 0.325,
+        "y": 0.443
+      },
+      "new": {
+        "x": 0.324585635,
+        "y": 0.442909761
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U16",
+      "old": {
+        "x": 0.242,
+        "y": 0.314
+      },
+      "new": {
+        "x": 0.238950276,
+        "y": 0.354511971
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U17",
+      "old": {
+        "x": 0.819,
+        "y": 0.884
+      },
+      "new": {
+        "x": 0.828729282,
+        "y": 0.85174954
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U18",
+      "old": {
+        "x": 0.658,
+        "y": 0.742
+      },
+      "new": {
+        "x": 0.672651934,
+        "y": 0.741252302
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U19",
+      "old": {
+        "x": 0.721,
+        "y": 0.905
+      },
+      "new": {
+        "x": 0.791436464,
+        "y": 0.802946593
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U20",
+      "old": {
+        "x": 0.9,
+        "y": 0.727
+      },
+      "new": {
+        "x": 0.906767956,
+        "y": 0.703499079
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "nodeId": "U21",
+      "old": {
+        "x": 0.858,
+        "y": 0.62
+      },
+      "new": {
+        "x": 0.834944751,
+        "y": 0.666666667
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J1",
+      "old": {
+        "x": 0.463,
+        "y": 0.602
+      },
+      "new": {
+        "x": 0.459944751,
+        "y": 0.570902394
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J2",
+      "old": {
+        "x": 0.666,
+        "y": 0.527
+      },
+      "new": {
+        "x": 0.663674033,
+        "y": 0.475138122
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J3",
+      "old": {
+        "x": 0.312,
+        "y": 0.667
+      },
+      "new": {
+        "x": 0.303867403,
+        "y": 0.635359116
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J4",
+      "old": {
+        "x": 0.435,
+        "y": 0.755
+      },
+      "new": {
+        "x": 0.432320442,
+        "y": 0.732965009
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J5",
+      "old": {
+        "x": 0.684,
+        "y": 0.434
+      },
+      "new": {
+        "x": 0.674033149,
+        "y": 0.371086556
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J6",
+      "old": {
+        "x": 0.822,
+        "y": 0.369
+      },
+      "new": {
+        "x": 0.811464088,
+        "y": 0.360957643
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J7",
+      "old": {
+        "x": 0.331,
+        "y": 0.798
+      },
+      "new": {
+        "x": 0.333563536,
+        "y": 0.770718232
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J8",
+      "old": {
+        "x": 0.257,
+        "y": 0.545
+      },
+      "new": {
+        "x": 0.241022099,
+        "y": 0.55893186
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J9",
+      "old": {
+        "x": 0.127,
+        "y": 0.482
+      },
+      "new": {
+        "x": 0.120165746,
+        "y": 0.433701657
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J10",
+      "old": {
+        "x": 0.105,
+        "y": 0.207
+      },
+      "new": {
+        "x": 0.156767956,
+        "y": 0.172191529
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J11",
+      "old": {
+        "x": 0.736,
+        "y": 0.87
+      },
+      "new": {
+        "x": 0.768646409,
+        "y": 0.842541436
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J12",
+      "old": {
+        "x": 0.735,
+        "y": 0.697
+      },
+      "new": {
+        "x": 0.74378453,
+        "y": 0.654696133
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J13",
+      "old": {
+        "x": 0.554,
+        "y": 0.819
+      },
+      "new": {
+        "x": 0.555939227,
+        "y": 0.82228361
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J14",
+      "old": {
+        "x": 0.846,
+        "y": 0.65
+      },
+      "new": {
+        "x": 0.857734807,
+        "y": 0.593922652
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J16",
+      "old": {
+        "x": 0.415,
+        "y": 0.449
+      },
+      "new": {
+        "x": 0.423342541,
+        "y": 0.454880295
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J17",
+      "old": {
+        "x": 0.533,
+        "y": 0.649
+      },
+      "new": {
+        "x": 0.540055249,
+        "y": 0.585635359
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J18",
+      "old": {
+        "x": 0.814,
+        "y": 0.155
+      },
+      "new": {
+        "x": 0.803176796,
+        "y": 0.100368324
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J19",
+      "old": {
+        "x": 0.567,
+        "y": 0.885
+      },
+      "new": {
+        "x": 0.607734807,
+        "y": 0.810313076
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J20",
+      "old": {
+        "x": 0.883,
+        "y": 0.845
+      },
+      "new": {
+        "x": 0.897790055,
+        "y": 0.800184162
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "jeonju",
+      "nodeId": "J21",
+      "old": {
+        "x": 0.152,
+        "y": 0.737
+      },
+      "new": {
+        "x": 0.151243094,
+        "y": 0.770718232
+      },
+      "reason": "Unverified approximate design anchor aligned to visible pavement/landing; reviewed opening anchors unchanged."
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U1__U2",
+      "old": [],
+      "new": [
+        {
+          "x": 0.283149171,
+          "y": 0.359116022
+        },
+        {
+          "x": 0.310773481,
+          "y": 0.342541436
+        },
+        {
+          "x": 0.337016575,
+          "y": 0.321362799
+        },
+        {
+          "x": 0.373618785,
+          "y": 0.303867403
+        },
+        {
+          "x": 0.41160221,
+          "y": 0.287292818
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U1__U15",
+      "old": [],
+      "new": [
+        {
+          "x": 0.283149171,
+          "y": 0.359116022
+        },
+        {
+          "x": 0.300414365,
+          "y": 0.372007366
+        },
+        {
+          "x": 0.316298343,
+          "y": 0.385819521
+        },
+        {
+          "x": 0.330110497,
+          "y": 0.402394107
+        },
+        {
+          "x": 0.341160221,
+          "y": 0.419889503
+        },
+        {
+          "x": 0.335635359,
+          "y": 0.434622468
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U1__U16",
+      "old": [],
+      "new": [
+        {
+          "x": 0.254834254,
+          "y": 0.348987109
+        },
+        {
+          "x": 0.245856354,
+          "y": 0.348066298
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U15__U3",
+      "old": [],
+      "new": [
+        {
+          "x": 0.341160221,
+          "y": 0.419889503
+        },
+        {
+          "x": 0.363950276,
+          "y": 0.425414365
+        },
+        {
+          "x": 0.378453039,
+          "y": 0.445672192
+        },
+        {
+          "x": 0.385359116,
+          "y": 0.46961326
+        },
+        {
+          "x": 0.379834254,
+          "y": 0.488950276
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U2__U14",
+      "old": [],
+      "new": [
+        {
+          "x": 0.486878453,
+          "y": 0.255985267
+        },
+        {
+          "x": 0.518646409,
+          "y": 0.23388582
+        },
+        {
+          "x": 0.553176796,
+          "y": 0.231123389
+        },
+        {
+          "x": 0.574585635,
+          "y": 0.251381215
+        },
+        {
+          "x": 0.589779006,
+          "y": 0.282688766
+        },
+        {
+          "x": 0.605662983,
+          "y": 0.307550645
+        },
+        {
+          "x": 0.636740331,
+          "y": 0.314917127
+        },
+        {
+          "x": 0.67058011,
+          "y": 0.302946593
+        },
+        {
+          "x": 0.699585635,
+          "y": 0.277163904
+        },
+        {
+          "x": 0.734116022,
+          "y": 0.258747698
+        },
+        {
+          "x": 0.770027624,
+          "y": 0.277163904
+        },
+        {
+          "x": 0.796961326,
+          "y": 0.291896869
+        },
+        {
+          "x": 0.818370166,
+          "y": 0.289134438
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U14__U13",
+      "old": [
+        {
+          "x": 0.783,
+          "y": 0.227
+        },
+        {
+          "x": 0.78,
+          "y": 0.195
+        }
+      ],
+      "new": [
+        {
+          "x": 0.825276243,
+          "y": 0.273480663
+        },
+        {
+          "x": 0.804558011,
+          "y": 0.251381215
+        },
+        {
+          "x": 0.781077348,
+          "y": 0.232044199
+        },
+        {
+          "x": 0.755524862,
+          "y": 0.220994475
+        },
+        {
+          "x": 0.736878453,
+          "y": 0.197053407
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U14__U3",
+      "old": [],
+      "new": [
+        {
+          "x": 0.818370166,
+          "y": 0.289134438
+        },
+        {
+          "x": 0.796961326,
+          "y": 0.291896869
+        },
+        {
+          "x": 0.770027624,
+          "y": 0.277163904
+        },
+        {
+          "x": 0.734116022,
+          "y": 0.258747698
+        },
+        {
+          "x": 0.699585635,
+          "y": 0.277163904
+        },
+        {
+          "x": 0.67058011,
+          "y": 0.302946593
+        },
+        {
+          "x": 0.636740331,
+          "y": 0.314917127
+        },
+        {
+          "x": 0.605662983,
+          "y": 0.307550645
+        },
+        {
+          "x": 0.589779006,
+          "y": 0.282688766
+        },
+        {
+          "x": 0.574585635,
+          "y": 0.251381215
+        },
+        {
+          "x": 0.553176796,
+          "y": 0.231123389
+        },
+        {
+          "x": 0.518646409,
+          "y": 0.23388582
+        },
+        {
+          "x": 0.486878453,
+          "y": 0.255985267
+        },
+        {
+          "x": 0.459254144,
+          "y": 0.276243094
+        },
+        {
+          "x": 0.41160221,
+          "y": 0.287292818
+        },
+        {
+          "x": 0.373618785,
+          "y": 0.303867403
+        },
+        {
+          "x": 0.337016575,
+          "y": 0.321362799
+        },
+        {
+          "x": 0.310773481,
+          "y": 0.342541436
+        },
+        {
+          "x": 0.300414365,
+          "y": 0.372007366
+        },
+        {
+          "x": 0.316298343,
+          "y": 0.385819521
+        },
+        {
+          "x": 0.330110497,
+          "y": 0.402394107
+        },
+        {
+          "x": 0.341160221,
+          "y": 0.419889503
+        },
+        {
+          "x": 0.363950276,
+          "y": 0.425414365
+        },
+        {
+          "x": 0.378453039,
+          "y": 0.445672192
+        },
+        {
+          "x": 0.385359116,
+          "y": 0.46961326
+        },
+        {
+          "x": 0.379834254,
+          "y": 0.488950276
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U3__U4",
+      "old": [
+        {
+          "x": 0.557,
+          "y": 0.51
+        },
+        {
+          "x": 0.599,
+          "y": 0.535
+        },
+        {
+          "x": 0.625,
+          "y": 0.559
+        }
+      ],
+      "new": [
+        {
+          "x": 0.388812155,
+          "y": 0.516574586
+        },
+        {
+          "x": 0.41160221,
+          "y": 0.52946593
+        },
+        {
+          "x": 0.437845304,
+          "y": 0.534069982
+        },
+        {
+          "x": 0.465469613,
+          "y": 0.533149171
+        },
+        {
+          "x": 0.494475138,
+          "y": 0.525782689
+        },
+        {
+          "x": 0.52140884,
+          "y": 0.52854512
+        },
+        {
+          "x": 0.547651934,
+          "y": 0.543278085
+        },
+        {
+          "x": 0.573895028,
+          "y": 0.55801105
+        },
+        {
+          "x": 0.591850829,
+          "y": 0.571823204
+        }
+      ],
+      "travel": "ferry"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U4__U5",
+      "old": [
+        {
+          "x": 0.647,
+          "y": 0.582
+        }
+      ],
+      "new": [
+        {
+          "x": 0.612569061,
+          "y": 0.590239411
+        },
+        {
+          "x": 0.612569061,
+          "y": 0.606813996
+        },
+        {
+          "x": 0.606353591,
+          "y": 0.620626151
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U5__U6",
+      "old": [],
+      "new": [
+        {
+          "x": 0.597375691,
+          "y": 0.645488029
+        },
+        {
+          "x": 0.590469613,
+          "y": 0.660220994
+        },
+        {
+          "x": 0.593922652,
+          "y": 0.679558011
+        },
+        {
+          "x": 0.604281768,
+          "y": 0.703499079
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U6__U7",
+      "old": [],
+      "new": [
+        {
+          "x": 0.630524862,
+          "y": 0.725598527
+        },
+        {
+          "x": 0.651243094,
+          "y": 0.732044199
+        },
+        {
+          "x": 0.672651934,
+          "y": 0.741252302
+        },
+        {
+          "x": 0.700276243,
+          "y": 0.752302026
+        },
+        {
+          "x": 0.732734807,
+          "y": 0.762430939
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U6__U11",
+      "old": [],
+      "new": [
+        {
+          "x": 0.593922652,
+          "y": 0.719152855
+        },
+        {
+          "x": 0.573895028,
+          "y": 0.711786372
+        },
+        {
+          "x": 0.552486188,
+          "y": 0.697974217
+        },
+        {
+          "x": 0.531077348,
+          "y": 0.695211786
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U6__U18",
+      "old": [],
+      "new": [
+        {
+          "x": 0.630524862,
+          "y": 0.725598527
+        },
+        {
+          "x": 0.651243094,
+          "y": 0.732044199
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U11__U10",
+      "old": [],
+      "new": [
+        {
+          "x": 0.483425414,
+          "y": 0.711786372
+        },
+        {
+          "x": 0.459944751,
+          "y": 0.723756906
+        },
+        {
+          "x": 0.433701657,
+          "y": 0.741252302
+        },
+        {
+          "x": 0.409530387,
+          "y": 0.751381215
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U10__U9",
+      "old": [],
+      "new": [
+        {
+          "x": 0.406077348,
+          "y": 0.767034991
+        },
+        {
+          "x": 0.422651934,
+          "y": 0.780847145
+        },
+        {
+          "x": 0.447513812,
+          "y": 0.796500921
+        },
+        {
+          "x": 0.466160221,
+          "y": 0.806629834
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U9__U12",
+      "old": [],
+      "new": [
+        {
+          "x": 0.466160221,
+          "y": 0.806629834
+        },
+        {
+          "x": 0.447513812,
+          "y": 0.796500921
+        },
+        {
+          "x": 0.422651934,
+          "y": 0.780847145
+        },
+        {
+          "x": 0.406077348,
+          "y": 0.767034991
+        },
+        {
+          "x": 0.387430939,
+          "y": 0.755064457
+        },
+        {
+          "x": 0.368093923,
+          "y": 0.745856354
+        },
+        {
+          "x": 0.339088398,
+          "y": 0.729281768
+        },
+        {
+          "x": 0.311464088,
+          "y": 0.716390424
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U9__U8",
+      "old": [],
+      "new": [
+        {
+          "x": 0.511740331,
+          "y": 0.802946593
+        },
+        {
+          "x": 0.539364641,
+          "y": 0.789134438
+        },
+        {
+          "x": 0.568370166,
+          "y": 0.771639042
+        },
+        {
+          "x": 0.601519337,
+          "y": 0.751381215
+        },
+        {
+          "x": 0.630524862,
+          "y": 0.742173112
+        },
+        {
+          "x": 0.660220994,
+          "y": 0.756906077
+        },
+        {
+          "x": 0.688535912,
+          "y": 0.781767956
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U8__U7",
+      "old": [],
+      "new": [
+        {
+          "x": 0.736187845,
+          "y": 0.799263352
+        },
+        {
+          "x": 0.748618785,
+          "y": 0.785451197
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U8__U17",
+      "old": [],
+      "new": [
+        {
+          "x": 0.738950276,
+          "y": 0.829650092
+        },
+        {
+          "x": 0.75621547,
+          "y": 0.848987109
+        },
+        {
+          "x": 0.781767956,
+          "y": 0.860957643
+        },
+        {
+          "x": 0.806629834,
+          "y": 0.860036832
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U17__U19",
+      "old": [],
+      "new": [
+        {
+          "x": 0.821132597,
+          "y": 0.837937385
+        },
+        {
+          "x": 0.808701657,
+          "y": 0.820441989
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U18__U8",
+      "old": [],
+      "new": [
+        {
+          "x": 0.687154696,
+          "y": 0.757826888
+        },
+        {
+          "x": 0.70441989,
+          "y": 0.781767956
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U7__U20",
+      "old": [],
+      "new": [
+        {
+          "x": 0.787292818,
+          "y": 0.757826888
+        },
+        {
+          "x": 0.805939227,
+          "y": 0.742173112
+        },
+        {
+          "x": 0.82941989,
+          "y": 0.725598527
+        },
+        {
+          "x": 0.857734807,
+          "y": 0.70626151
+        },
+        {
+          "x": 0.883977901,
+          "y": 0.697974217
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U20__U21",
+      "old": [],
+      "new": [
+        {
+          "x": 0.883977901,
+          "y": 0.697974217
+        },
+        {
+          "x": 0.861187845,
+          "y": 0.687845304
+        },
+        {
+          "x": 0.845994475,
+          "y": 0.67771639
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U12__U11",
+      "old": [],
+      "new": [
+        {
+          "x": 0.311464088,
+          "y": 0.716390424
+        },
+        {
+          "x": 0.339088398,
+          "y": 0.729281768
+        },
+        {
+          "x": 0.368093923,
+          "y": 0.745856354
+        },
+        {
+          "x": 0.387430939,
+          "y": 0.755064457
+        },
+        {
+          "x": 0.409530387,
+          "y": 0.751381215
+        },
+        {
+          "x": 0.433701657,
+          "y": 0.741252302
+        },
+        {
+          "x": 0.459944751,
+          "y": 0.723756906
+        },
+        {
+          "x": 0.483425414,
+          "y": 0.711786372
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U4__U14",
+      "old": [],
+      "new": [
+        {
+          "x": 0.595303867,
+          "y": 0.566298343
+        },
+        {
+          "x": 0.581491713,
+          "y": 0.551565378
+        },
+        {
+          "x": 0.564226519,
+          "y": 0.531307551
+        },
+        {
+          "x": 0.549033149,
+          "y": 0.513812155
+        },
+        {
+          "x": 0.535220994,
+          "y": 0.498158379
+        },
+        {
+          "x": 0.508977901,
+          "y": 0.47053407
+        },
+        {
+          "x": 0.504143646,
+          "y": 0.44014733
+        },
+        {
+          "x": 0.518646409,
+          "y": 0.408839779
+        },
+        {
+          "x": 0.544889503,
+          "y": 0.383977901
+        },
+        {
+          "x": 0.57320442,
+          "y": 0.361878453
+        },
+        {
+          "x": 0.589779006,
+          "y": 0.338858195
+        },
+        {
+          "x": 0.605662983,
+          "y": 0.307550645
+        },
+        {
+          "x": 0.636740331,
+          "y": 0.314917127
+        },
+        {
+          "x": 0.67058011,
+          "y": 0.302946593
+        },
+        {
+          "x": 0.699585635,
+          "y": 0.277163904
+        },
+        {
+          "x": 0.734116022,
+          "y": 0.258747698
+        },
+        {
+          "x": 0.770027624,
+          "y": 0.277163904
+        },
+        {
+          "x": 0.796961326,
+          "y": 0.291896869
+        },
+        {
+          "x": 0.818370166,
+          "y": 0.289134438
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U4__U12",
+      "old": null,
+      "new": [
+        {
+          "x": 0.587707182,
+          "y": 0.582872928
+        },
+        {
+          "x": 0.562154696,
+          "y": 0.593922652
+        },
+        {
+          "x": 0.529005525,
+          "y": 0.609576427
+        },
+        {
+          "x": 0.492403315,
+          "y": 0.625230203
+        },
+        {
+          "x": 0.45441989,
+          "y": 0.642725599
+        },
+        {
+          "x": 0.415055249,
+          "y": 0.662062615
+        },
+        {
+          "x": 0.373618785,
+          "y": 0.679558011
+        },
+        {
+          "x": 0.331491713,
+          "y": 0.697974217
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "hue",
+      "edgeId": "U11__U7",
+      "old": null,
+      "new": [
+        {
+          "x": 0.531077348,
+          "y": 0.695211786
+        },
+        {
+          "x": 0.552486188,
+          "y": 0.697974217
+        },
+        {
+          "x": 0.573895028,
+          "y": 0.711786372
+        },
+        {
+          "x": 0.593922652,
+          "y": 0.719152855
+        },
+        {
+          "x": 0.610497238,
+          "y": 0.723756906
+        },
+        {
+          "x": 0.630524862,
+          "y": 0.725598527
+        },
+        {
+          "x": 0.651243094,
+          "y": 0.732044199
+        },
+        {
+          "x": 0.672651934,
+          "y": 0.741252302
+        },
+        {
+          "x": 0.700276243,
+          "y": 0.752302026
+        },
+        {
+          "x": 0.732734807,
+          "y": 0.762430939
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J0__J10",
+      "old": [],
+      "new": [
+        {
+          "x": 0.480662983,
+          "y": 0.111418048
+        },
+        {
+          "x": 0.455801105,
+          "y": 0.131675875
+        },
+        {
+          "x": 0.428867403,
+          "y": 0.156537753
+        },
+        {
+          "x": 0.401243094,
+          "y": 0.17771639
+        },
+        {
+          "x": 0.373618785,
+          "y": 0.200736648
+        },
+        {
+          "x": 0.347375691,
+          "y": 0.217311234
+        },
+        {
+          "x": 0.319060773,
+          "y": 0.237569061
+        },
+        {
+          "x": 0.287292818,
+          "y": 0.259668508
+        },
+        {
+          "x": 0.258977901,
+          "y": 0.270718232
+        },
+        {
+          "x": 0.232734807,
+          "y": 0.269797422
+        },
+        {
+          "x": 0.208563536,
+          "y": 0.251381215
+        },
+        {
+          "x": 0.186464088,
+          "y": 0.221915285
+        },
+        {
+          "x": 0.169889503,
+          "y": 0.191528545
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J0__J16",
+      "old": [],
+      "new": [
+        {
+          "x": 0.480662983,
+          "y": 0.111418048
+        },
+        {
+          "x": 0.455801105,
+          "y": 0.131675875
+        },
+        {
+          "x": 0.428867403,
+          "y": 0.156537753
+        },
+        {
+          "x": 0.401243094,
+          "y": 0.17771639
+        },
+        {
+          "x": 0.373618785,
+          "y": 0.200736648
+        },
+        {
+          "x": 0.347375691,
+          "y": 0.217311234
+        },
+        {
+          "x": 0.319060773,
+          "y": 0.237569061
+        },
+        {
+          "x": 0.300414365,
+          "y": 0.258747698
+        },
+        {
+          "x": 0.304558011,
+          "y": 0.284530387
+        },
+        {
+          "x": 0.322513812,
+          "y": 0.311233886
+        },
+        {
+          "x": 0.34461326,
+          "y": 0.335174954
+        },
+        {
+          "x": 0.366712707,
+          "y": 0.358195212
+        },
+        {
+          "x": 0.389502762,
+          "y": 0.385819521
+        },
+        {
+          "x": 0.40538674,
+          "y": 0.418968692
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J16__J1",
+      "old": [],
+      "new": [
+        {
+          "x": 0.414364641,
+          "y": 0.479742173
+        },
+        {
+          "x": 0.419889503,
+          "y": 0.508287293
+        },
+        {
+          "x": 0.435773481,
+          "y": 0.532228361
+        },
+        {
+          "x": 0.450966851,
+          "y": 0.552486188
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J1__J2",
+      "old": [],
+      "new": [
+        {
+          "x": 0.483425414,
+          "y": 0.557090239
+        },
+        {
+          "x": 0.508977901,
+          "y": 0.547882136
+        },
+        {
+          "x": 0.537292818,
+          "y": 0.534069982
+        },
+        {
+          "x": 0.56698895,
+          "y": 0.518416206
+        },
+        {
+          "x": 0.597375691,
+          "y": 0.501841621
+        },
+        {
+          "x": 0.630524862,
+          "y": 0.484346225
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J1__J3",
+      "old": [],
+      "new": [
+        {
+          "x": 0.441298343,
+          "y": 0.556169429
+        },
+        {
+          "x": 0.41781768,
+          "y": 0.55985267
+        },
+        {
+          "x": 0.389502762,
+          "y": 0.572744015
+        },
+        {
+          "x": 0.363259669,
+          "y": 0.591160221
+        },
+        {
+          "x": 0.339088398,
+          "y": 0.611418048
+        },
+        {
+          "x": 0.321132597,
+          "y": 0.627071823
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J1__J17",
+      "old": [],
+      "new": [
+        {
+          "x": 0.483425414,
+          "y": 0.557090239
+        },
+        {
+          "x": 0.508977901,
+          "y": 0.547882136
+        },
+        {
+          "x": 0.524861878,
+          "y": 0.55985267
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J2__J5",
+      "old": [],
+      "new": [
+        {
+          "x": 0.677486188,
+          "y": 0.453038674
+        },
+        {
+          "x": 0.689917127,
+          "y": 0.430939227
+        },
+        {
+          "x": 0.691298343,
+          "y": 0.409760589
+        },
+        {
+          "x": 0.68301105,
+          "y": 0.388581952
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J5__J6",
+      "old": [],
+      "new": [
+        {
+          "x": 0.696132597,
+          "y": 0.357274401
+        },
+        {
+          "x": 0.71961326,
+          "y": 0.344383057
+        },
+        {
+          "x": 0.74378453,
+          "y": 0.341620626
+        },
+        {
+          "x": 0.767955801,
+          "y": 0.350828729
+        },
+        {
+          "x": 0.788674033,
+          "y": 0.357274401
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J5__J15",
+      "old": [],
+      "new": [
+        {
+          "x": 0.68301105,
+          "y": 0.350828729
+        },
+        {
+          "x": 0.698895028,
+          "y": 0.321362799
+        },
+        {
+          "x": 0.685082873,
+          "y": 0.300184162
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J6__J18",
+      "old": [],
+      "new": [
+        {
+          "x": 0.826657459,
+          "y": 0.342541436
+        },
+        {
+          "x": 0.828038674,
+          "y": 0.316758748
+        },
+        {
+          "x": 0.817679558,
+          "y": 0.29558011
+        },
+        {
+          "x": 0.799033149,
+          "y": 0.271639042
+        },
+        {
+          "x": 0.783839779,
+          "y": 0.244935543
+        },
+        {
+          "x": 0.776933702,
+          "y": 0.213627993
+        },
+        {
+          "x": 0.779005525,
+          "y": 0.182320442
+        },
+        {
+          "x": 0.790745856,
+          "y": 0.145488029
+        },
+        {
+          "x": 0.799033149,
+          "y": 0.119705341
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J18__J0",
+      "old": [],
+      "new": [
+        {
+          "x": 0.783839779,
+          "y": 0.099447514
+        },
+        {
+          "x": 0.761740331,
+          "y": 0.115101289
+        },
+        {
+          "x": 0.740331492,
+          "y": 0.134438306
+        },
+        {
+          "x": 0.712707182,
+          "y": 0.142725599
+        },
+        {
+          "x": 0.686464088,
+          "y": 0.131675875
+        },
+        {
+          "x": 0.664364641,
+          "y": 0.115101289
+        },
+        {
+          "x": 0.636740331,
+          "y": 0.093922652
+        },
+        {
+          "x": 0.60359116,
+          "y": 0.080110497
+        },
+        {
+          "x": 0.568370166,
+          "y": 0.062615101
+        },
+        {
+          "x": 0.532458564,
+          "y": 0.069981584
+        },
+        {
+          "x": 0.511049724,
+          "y": 0.082872928
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J3__J8",
+      "old": [],
+      "new": [
+        {
+          "x": 0.287292818,
+          "y": 0.61878453
+        },
+        {
+          "x": 0.27140884,
+          "y": 0.595764273
+        },
+        {
+          "x": 0.25621547,
+          "y": 0.576427256
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J8__J9",
+      "old": [
+        {
+          "x": 0.233,
+          "y": 0.54
+        },
+        {
+          "x": 0.194,
+          "y": 0.512
+        }
+      ],
+      "new": [
+        {
+          "x": 0.222375691,
+          "y": 0.564456722
+        },
+        {
+          "x": 0.203729282,
+          "y": 0.55893186
+        },
+        {
+          "x": 0.186464088,
+          "y": 0.546040516
+        },
+        {
+          "x": 0.16781768,
+          "y": 0.525782689
+        },
+        {
+          "x": 0.147099448,
+          "y": 0.495395948
+        },
+        {
+          "x": 0.130524862,
+          "y": 0.465009208
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J9__J10",
+      "old": [],
+      "new": [
+        {
+          "x": 0.119475138,
+          "y": 0.408839779
+        },
+        {
+          "x": 0.134668508,
+          "y": 0.383977901
+        },
+        {
+          "x": 0.158149171,
+          "y": 0.360036832
+        },
+        {
+          "x": 0.181629834,
+          "y": 0.340699816
+        },
+        {
+          "x": 0.203729282,
+          "y": 0.319521179
+        },
+        {
+          "x": 0.220303867,
+          "y": 0.297421731
+        },
+        {
+          "x": 0.215469613,
+          "y": 0.261510129
+        },
+        {
+          "x": 0.194060773,
+          "y": 0.224677716
+        },
+        {
+          "x": 0.171270718,
+          "y": 0.191528545
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J8__J21",
+      "old": [],
+      "new": [
+        {
+          "x": 0.222375691,
+          "y": 0.564456722
+        },
+        {
+          "x": 0.203729282,
+          "y": 0.574585635
+        },
+        {
+          "x": 0.184392265,
+          "y": 0.592081031
+        },
+        {
+          "x": 0.17058011,
+          "y": 0.61786372
+        },
+        {
+          "x": 0.166436464,
+          "y": 0.649171271
+        },
+        {
+          "x": 0.163674033,
+          "y": 0.680478821
+        },
+        {
+          "x": 0.16160221,
+          "y": 0.713627993
+        },
+        {
+          "x": 0.156077348,
+          "y": 0.745856354
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J3__J4",
+      "old": [],
+      "new": [
+        {
+          "x": 0.323895028,
+          "y": 0.652854512
+        },
+        {
+          "x": 0.343922652,
+          "y": 0.673112339
+        },
+        {
+          "x": 0.366712707,
+          "y": 0.691528545
+        },
+        {
+          "x": 0.392265193,
+          "y": 0.70718232
+        },
+        {
+          "x": 0.414364641,
+          "y": 0.722836096
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J4__J7",
+      "old": [],
+      "new": [
+        {
+          "x": 0.41160221,
+          "y": 0.742173112
+        },
+        {
+          "x": 0.39019337,
+          "y": 0.751381215
+        },
+        {
+          "x": 0.366712707,
+          "y": 0.757826888
+        },
+        {
+          "x": 0.347375691,
+          "y": 0.76611418
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J4__J13",
+      "old": [],
+      "new": [
+        {
+          "x": 0.450966851,
+          "y": 0.751381215
+        },
+        {
+          "x": 0.46961326,
+          "y": 0.773480663
+        },
+        {
+          "x": 0.493093923,
+          "y": 0.79281768
+        },
+        {
+          "x": 0.516574586,
+          "y": 0.807550645
+        },
+        {
+          "x": 0.538674033,
+          "y": 0.816758748
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J7__J21",
+      "old": [],
+      "new": [
+        {
+          "x": 0.313535912,
+          "y": 0.773480663
+        },
+        {
+          "x": 0.290745856,
+          "y": 0.779926335
+        },
+        {
+          "x": 0.269337017,
+          "y": 0.791896869
+        },
+        {
+          "x": 0.245856354,
+          "y": 0.797421731
+        },
+        {
+          "x": 0.220994475,
+          "y": 0.791896869
+        },
+        {
+          "x": 0.195441989,
+          "y": 0.780847145
+        },
+        {
+          "x": 0.171270718,
+          "y": 0.771639042
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J13__J19",
+      "old": [],
+      "new": [
+        {
+          "x": 0.573895028,
+          "y": 0.817679558
+        },
+        {
+          "x": 0.590469613,
+          "y": 0.814917127
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J13__J12",
+      "old": [],
+      "new": [
+        {
+          "x": 0.578729282,
+          "y": 0.804788214
+        },
+        {
+          "x": 0.601519337,
+          "y": 0.783609576
+        },
+        {
+          "x": 0.620165746,
+          "y": 0.757826888
+        },
+        {
+          "x": 0.633977901,
+          "y": 0.728360958
+        },
+        {
+          "x": 0.648480663,
+          "y": 0.703499079
+        },
+        {
+          "x": 0.67058011,
+          "y": 0.683241252
+        },
+        {
+          "x": 0.696132597,
+          "y": 0.667587477
+        },
+        {
+          "x": 0.720994475,
+          "y": 0.658379374
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J12__J14",
+      "old": [],
+      "new": [
+        {
+          "x": 0.765883978,
+          "y": 0.643646409
+        },
+        {
+          "x": 0.788674033,
+          "y": 0.628913444
+        },
+        {
+          "x": 0.812154696,
+          "y": 0.612338858
+        },
+        {
+          "x": 0.834944751,
+          "y": 0.600368324
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J14__J11",
+      "old": [],
+      "new": [
+        {
+          "x": 0.863259669,
+          "y": 0.620626151
+        },
+        {
+          "x": 0.866022099,
+          "y": 0.652854512
+        },
+        {
+          "x": 0.860497238,
+          "y": 0.683241252
+        },
+        {
+          "x": 0.848756906,
+          "y": 0.709944751
+        },
+        {
+          "x": 0.831491713,
+          "y": 0.73572744
+        },
+        {
+          "x": 0.812154696,
+          "y": 0.760589319
+        },
+        {
+          "x": 0.793508287,
+          "y": 0.784530387
+        },
+        {
+          "x": 0.778314917,
+          "y": 0.811233886
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J11__J20",
+      "old": [],
+      "new": [
+        {
+          "x": 0.79281768,
+          "y": 0.832412523
+        },
+        {
+          "x": 0.817679558,
+          "y": 0.82320442
+        },
+        {
+          "x": 0.845303867,
+          "y": 0.817679558
+        },
+        {
+          "x": 0.872237569,
+          "y": 0.806629834
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J13__J11",
+      "old": [],
+      "new": [
+        {
+          "x": 0.578729282,
+          "y": 0.804788214
+        },
+        {
+          "x": 0.601519337,
+          "y": 0.783609576
+        },
+        {
+          "x": 0.626381215,
+          "y": 0.783609576
+        },
+        {
+          "x": 0.652624309,
+          "y": 0.796500921
+        },
+        {
+          "x": 0.680939227,
+          "y": 0.812154696
+        },
+        {
+          "x": 0.709254144,
+          "y": 0.82320442
+        },
+        {
+          "x": 0.736878453,
+          "y": 0.835174954
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J17__J12",
+      "old": [],
+      "new": [
+        {
+          "x": 0.554558011,
+          "y": 0.607734807
+        },
+        {
+          "x": 0.568370166,
+          "y": 0.635359116
+        },
+        {
+          "x": 0.584254144,
+          "y": 0.663904236
+        },
+        {
+          "x": 0.601519337,
+          "y": 0.684162063
+        },
+        {
+          "x": 0.622928177,
+          "y": 0.691528545
+        },
+        {
+          "x": 0.648480663,
+          "y": 0.686003683
+        },
+        {
+          "x": 0.67058011,
+          "y": 0.683241252
+        },
+        {
+          "x": 0.696132597,
+          "y": 0.667587477
+        },
+        {
+          "x": 0.720994475,
+          "y": 0.658379374
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J17__J19",
+      "old": [],
+      "new": [
+        {
+          "x": 0.554558011,
+          "y": 0.607734807
+        },
+        {
+          "x": 0.568370166,
+          "y": 0.635359116
+        },
+        {
+          "x": 0.584254144,
+          "y": 0.663904236
+        },
+        {
+          "x": 0.601519337,
+          "y": 0.684162063
+        },
+        {
+          "x": 0.611878453,
+          "y": 0.709944751
+        },
+        {
+          "x": 0.609116022,
+          "y": 0.740331492
+        },
+        {
+          "x": 0.597375691,
+          "y": 0.769797422
+        },
+        {
+          "x": 0.593922652,
+          "y": 0.790976059
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J2__J12",
+      "old": [],
+      "new": [
+        {
+          "x": 0.651933702,
+          "y": 0.49907919
+        },
+        {
+          "x": 0.651243094,
+          "y": 0.527624309
+        },
+        {
+          "x": 0.651933702,
+          "y": 0.555248619
+        },
+        {
+          "x": 0.656767956,
+          "y": 0.584714549
+        },
+        {
+          "x": 0.667127072,
+          "y": 0.614180479
+        },
+        {
+          "x": 0.684392265,
+          "y": 0.634438306
+        },
+        {
+          "x": 0.710635359,
+          "y": 0.64825046
+        }
+      ],
+      "travel": "walk"
+    },
+    {
+      "cityId": "jeonju",
+      "edgeId": "J16__J3",
+      "old": [],
+      "new": [
+        {
+          "x": 0.414364641,
+          "y": 0.479742173
+        },
+        {
+          "x": 0.419889503,
+          "y": 0.508287293
+        },
+        {
+          "x": 0.41781768,
+          "y": 0.55985267
+        },
+        {
+          "x": 0.389502762,
+          "y": 0.572744015
+        },
+        {
+          "x": 0.363259669,
+          "y": 0.591160221
+        },
+        {
+          "x": 0.339088398,
+          "y": 0.611418048
+        },
+        {
+          "x": 0.321132597,
+          "y": 0.627071823
+        }
+      ],
+      "travel": "walk"
+    }
+  ],
+  "terrainCertification": "NEEDS_REVIEW: runtime route following PASS; visual walkability not accepted. See HUE_JEONJU_TERRAIN_LIMITS.md.",
+  "proposals": [
+    "Two Hue garden corridors U4-U12/U11-U7 give access to scholar/seal before the inner bot gate; stage3 remains inaccessible without guard_disabled.",
+    "J13 is available before assembling J12, so J11 third piece does not depend on its own assembly gate.",
+    "J16 is in the starting zone; J15 is stage2 for new saves, after the three-pattern gate; existing food deliveries remain completed.",
+    "Exact puzzle symbols, connecting dialogue, optional check-ins and unspecified chest contents are proposals, not verbatim design."
+  ],
+  "visualReviewReport": "Docs/Maps/HUE_JEONJU_TERRAIN_LIMITS.md"
+}

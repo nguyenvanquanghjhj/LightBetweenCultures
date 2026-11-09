@@ -1,0 +1,33 @@
+UTC run: 2026-10-20T14:17:10.9652778Z | Unity 6000.6.5f1 | 540x960
+PASS: Fresh runtime capture written: Gel-Main
+PASS: Fresh runtime capture written: Gel-Help
+PASS: Fresh runtime capture written: Gel-Pressed
+PASS: Cancelling a visual press never advances the guide
+PASS: Fresh runtime capture written: Gel-Disabled
+PASS: Disabled visual fixture cannot execute its real callback
+PASS: Enabled guide Next still performs the original action exactly once
+PASS: Guide visual/state tests leave gameplay save untouched
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Gel-Map
+PASS: Fresh runtime capture written: Gel-Dialogue
+PASS: Visual styling preserves the simplified menu with no 1/2 pagination
+PASS: Styled dialogue X cannot consume, accept or grant anything
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H4 is discovered
+PASS: Lumi reaches H4 through the real map input
+System.Exception: FAIL: Original puzzle action opens an actual playable activity panel
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<GelButtonsJourney>d__74.MoveNext () [0x00936] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.GelButtons.cs:61 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__276.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

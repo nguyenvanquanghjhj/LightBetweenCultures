@@ -1,0 +1,16 @@
+UTC run: 2026-10-20T08:51:51.7942701Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Owner's real partial save has no generic old primary-quest talk button at Ba Tu
+PASS: Actual additive delivery explains both missing reserve-aware quantities
+PASS: Actual partial-save dialogue removes obsolete talk and retains the guarded delivery
+PASS: Visible disabled delivery gives the exact missing-item reason
+PASS: Tapping blocked delivery consumes no ingredients and grants no reward
+PASS: Fresh runtime capture written: Priority-partial-BaTu-dialogue
+ALL CHECKS PASSED

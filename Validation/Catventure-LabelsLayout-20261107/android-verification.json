@@ -1,0 +1,14 @@
+{
+  "package": "com.DefaultCompany.LightBetweenCultures",
+  "versionCode": 21,
+  "versionName": "1.1.1-catventure-20261107",
+  "bytes": 293839168,
+  "sha256": "01c087eed8995ecf391ef2c17fbba2f65bcfc38a87137872b196ab49bc8b538f",
+  "signatureVerified": true,
+  "signingReference": "D:\\GAMEKKK\\LightBetweenCultures\\Builds\\Android\\Catventure-20261107.apk",
+  "samePackageAndSignerAsReference": true,
+  "alignment16K": true,
+  "zipCRC": true,
+  "latestHanbokAndMiniMapTypesPresent": true,
+  "device": "NOT_TESTED_NO_DEVICE_CONNECTED"
+}

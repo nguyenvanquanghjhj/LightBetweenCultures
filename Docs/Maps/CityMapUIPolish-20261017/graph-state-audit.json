@@ -1,0 +1,2744 @@
+{
+  "status": "PASS_STATIC_CONNECTIVITY_NOT_RUNTIME_OR_TERRAIN_PROOF",
+  "cases": [
+    {
+      "stage": 0,
+      "flags": [],
+      "reachable": [
+        "H0",
+        "H1",
+        "H11",
+        "H2"
+      ],
+      "replacements": []
+    },
+    {
+      "stage": 0,
+      "flags": [
+        "hoi_an.ferry_available"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H11",
+        "H2"
+      ],
+      "replacements": []
+    },
+    {
+      "stage": 0,
+      "flags": [
+        "hoi_an.lamp_restored"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H11",
+        "H2"
+      ],
+      "replacements": []
+    },
+    {
+      "stage": 0,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.lamp_restored"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H11",
+        "H2"
+      ],
+      "replacements": []
+    },
+    {
+      "stage": 0,
+      "flags": [
+        "hoi_an.secret_lane_found"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H11",
+        "H2"
+      ],
+      "replacements": []
+    },
+    {
+      "stage": 0,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.secret_lane_found"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H11",
+        "H2"
+      ],
+      "replacements": []
+    },
+    {
+      "stage": 0,
+      "flags": [
+        "hoi_an.lamp_restored",
+        "hoi_an.secret_lane_found"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H11",
+        "H2"
+      ],
+      "replacements": []
+    },
+    {
+      "stage": 0,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.lamp_restored",
+        "hoi_an.secret_lane_found"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H11",
+        "H2"
+      ],
+      "replacements": []
+    },
+    {
+      "stage": 1,
+      "flags": [
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H2",
+        "H21",
+        "H3",
+        "H4"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "flags": [
+        "hoi_an.ferry_available",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H2",
+        "H21",
+        "H3",
+        "H4"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "flags": [
+        "hoi_an.lamp_restored",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H2",
+        "H21",
+        "H3",
+        "H4"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.lamp_restored",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H2",
+        "H21",
+        "H3",
+        "H4"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "flags": [
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "flags": [
+        "hoi_an.lamp_restored",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.lamp_restored",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H16",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H16",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H16",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H16",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H16",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H16",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H16",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H16",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.mo01_disabled",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.mo01_disabled",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.mo01_disabled",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.mo01_disabled",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H20",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H20",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H20",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H20",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H20",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H20",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "flags": [
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H20",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "flags": [
+        "hoi_an.ferry_available",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.lamp_restored",
+        "hoi_an.mo01_disabled",
+        "hoi_an.secret_lane_found",
+        "quest:HQ01"
+      ],
+      "reachable": [
+        "H0",
+        "H1",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H2",
+        "H20",
+        "H21",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8",
+        "H9"
+      ],
+      "replacements": [
+        {
+          "removed": "H1__H3",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13",
+            "H3"
+          ]
+        },
+        {
+          "removed": "H3__H5",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H9__H5",
+          "replacement": [
+            "H9",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5"
+          ]
+        },
+        {
+          "removed": "H4__H6",
+          "replacement": [
+            "H4",
+            "H1",
+            "H2",
+            "H13",
+            "H14",
+            "H18",
+            "H5",
+            "H6"
+          ]
+        },
+        {
+          "removed": "H4__H12",
+          "replacement": [
+            "H4",
+            "H1",
+            "H0",
+            "H11",
+            "H12"
+          ]
+        },
+        {
+          "removed": "H1__H13",
+          "replacement": [
+            "H1",
+            "H2",
+            "H13"
+          ]
+        },
+        {
+          "removed": "H3__H18",
+          "replacement": [
+            "H3",
+            "H13",
+            "H14",
+            "H18"
+          ]
+        }
+      ]
+    }
+  ],
+  "degree": {
+    "H0": 2,
+    "H1": 3,
+    "H2": 3,
+    "H3": 2,
+    "H4": 2,
+    "H5": 3,
+    "H6": 3,
+    "H7": 3,
+    "H8": 1,
+    "H9": 1,
+    "H10": 1,
+    "H11": 2,
+    "H12": 2,
+    "H13": 3,
+    "H14": 3,
+    "H15": 2,
+    "H16": 1,
+    "H17": 2,
+    "H18": 2,
+    "H19": 1,
+    "H20": 1,
+    "H21": 1
+  }
+}

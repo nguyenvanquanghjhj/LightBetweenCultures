@@ -1,0 +1,1 @@
+Only Unity-generated empty Android icon slots; baseline settings restored after both builds. No rendering/quality setting changed.

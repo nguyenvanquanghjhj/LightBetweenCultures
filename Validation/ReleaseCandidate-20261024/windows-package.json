@@ -1,0 +1,12 @@
+{
+  "version": "1.0-rc1-20261024",
+  "development": false,
+  "output": "Builds\\Windows-AndroidTouch-20261020\\LightBetweenCultures.exe",
+  "archive": "Builds\\LightBetweenCultures-RC1-20261024-Windows.zip",
+  "bytes": 309218665,
+  "sha256": "65ec43c704a4f670a539ae011707d285956354f4c6d7bc2773f2680c72c21831",
+  "files": 228,
+  "crc": "PASS",
+  "qaCodeStripped": true,
+  "managedAssemblySHA256": "be668db4a2ea6c1cbd5c33a8dec16e4af39c7e90d0c218967b4ca9a4c1914c05"
+}

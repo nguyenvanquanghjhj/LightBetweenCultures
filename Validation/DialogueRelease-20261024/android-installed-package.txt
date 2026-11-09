@@ -1,0 +1,164 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        b0d464d com.DefaultCompany.LightBetweenCultures/com.unity3d.player.UnityPlayerGameActivity filter ca09502
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.DefaultCompany.LightBetweenCultures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (a117d7b):
+    sourcePackage=com.DefaultCompany.LightBetweenCultures
+    uid=10296 gids=[] type=0 prot=signature
+    perm=PermissionInfo{5d01798 com.DefaultCompany.LightBetweenCultures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  com.DefaultCompany.LightBetweenCultures/androidx.startup.InitializationProvider:
+    Provider{29733d6 com.DefaultCompany.LightBetweenCultures/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.DefaultCompany.LightBetweenCultures.androidx-startup]:
+    Provider{29733d6 com.DefaultCompany.LightBetweenCultures/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{9b07657 com.DefaultCompany.LightBetweenCultures}
+
+Key Set Manager:
+  [com.DefaultCompany.LightBetweenCultures]
+      Signing KeySets: 246
+
+Packages:
+  Package [com.DefaultCompany.LightBetweenCultures] (e35c8dc):
+    appId=10296
+    pkg=Package{a5c6ccb com.DefaultCompany.LightBetweenCultures}
+    codePath=/data/app/~~J_N7mReW8BJNfLjyvZ6rbg==/com.DefaultCompany.LightBetweenCultures-NOJQWbPU7PXUJ0vdaygFWQ==
+    resourcePath=/data/app/~~J_N7mReW8BJNfLjyvZ6rbg==/com.DefaultCompany.LightBetweenCultures-NOJQWbPU7PXUJ0vdaygFWQ==
+    legacyNativeLibraryDir=/data/app/~~J_N7mReW8BJNfLjyvZ6rbg==/com.DefaultCompany.LightBetweenCultures-NOJQWbPU7PXUJ0vdaygFWQ==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=7 minSdk=26 targetSdk=36
+    minExtensionVersions=[]
+    versionName=1.0-rc2-20261024
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    pageSizeCompat=0
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-10-24 13:08:25
+    lastUpdateTime=2026-10-24 13:08:29
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{3990257 version:2, signatures:[bdae36bf], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.DefaultCompany.LightBetweenCultures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.INTERNET
+      com.DefaultCompany.LightBetweenCultures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.VIBRATE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      com.DefaultCompany.LightBetweenCultures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.VIBRATE: granted=true
+    User 0: ceDataInode=1205570 deDataInode=1165138 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.DefaultCompany.LightBetweenCultures
+      firstInstallTime=2026-10-24 13:08:29
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+        /product/overlay/DefaultBrowserConfig/DefaultBrowserConfigOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-UAuh.frro
+        /data/resource-cache/com.android.systemui-accent-miaY.frro
+        /data/resource-cache/com.android.systemui-dynamic-CEQd.frro
+      legacy overlay paths:
+        /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+        /product/overlay/DefaultBrowserConfig/DefaultBrowserConfigOverlay.apk
+      gids=[3003]
+      runtime permissions:
+    User 10: ceDataInode=0 deDataInode=0 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/10/com.DefaultCompany.LightBetweenCultures
+      firstInstallTime=2026-10-20 14:41:10
+      uninstallReason=0
+      gids=[3003]
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.heytap.market:
+      com.DefaultCompany.LightBetweenCultures
+    com.taboola.scoop:
+      com.DefaultCompany.LightBetweenCultures
+    com.realme.as.music:
+      com.DefaultCompany.LightBetweenCultures
+    com.fitbit.FitbitMobile:
+      com.DefaultCompany.LightBetweenCultures
+    com.google.android.as:
+      com.DefaultCompany.LightBetweenCultures
+    com.google.android.as.oss:
+      com.DefaultCompany.LightBetweenCultures
+    com.android.settings.intelligence:
+      com.DefaultCompany.LightBetweenCultures
+    com.ss.android.ugc.trill:
+      com.DefaultCompany.LightBetweenCultures
+    com.android.launcher3:
+      com.DefaultCompany.LightBetweenCultures
+    com.oppo.quicksearchbox:
+      com.DefaultCompany.LightBetweenCultures
+    com.instagram.android:
+      com.DefaultCompany.LightBetweenCultures
+    com.zing.zalo:
+      com.DefaultCompany.LightBetweenCultures
+    com.vnid:
+      com.DefaultCompany.LightBetweenCultures
+    com.mservice.momotransfer:
+      com.DefaultCompany.LightBetweenCultures
+    com.facebook.orca:
+      com.DefaultCompany.LightBetweenCultures
+    com.everytime.v2:
+      com.DefaultCompany.LightBetweenCultures
+    com.grabtaxi.passenger:
+      com.DefaultCompany.LightBetweenCultures
+    com.eup.mytest:
+      com.DefaultCompany.LightBetweenCultures
+    com.facebook.katana:
+      com.DefaultCompany.LightBetweenCultures
+    com.mbmobile:
+      com.DefaultCompany.LightBetweenCultures
+    com.mazii.dictionary:
+      com.DefaultCompany.LightBetweenCultures
+    com.dts.freefireth:
+      com.DefaultCompany.LightBetweenCultures
+  queryable via interaction:
+    User 0:
+    User 10:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.DefaultCompany.LightBetweenCultures]
+    path: /data/app/~~J_N7mReW8BJNfLjyvZ6rbg==/com.DefaultCompany.LightBetweenCultures-NOJQWbPU7PXUJ0vdaygFWQ==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~J_N7mReW8BJNfLjyvZ6rbg==/com.DefaultCompany.LightBetweenCultures-NOJQWbPU7PXUJ0vdaygFWQ==/oat/arm64/base.odex]
+
+Compiler stats:
+  [com.DefaultCompany.LightBetweenCultures]
+     base.apk - 760

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317411ca592c44441965a160ec5ee129, type: 3}
+  m_Name: DesignKitArt
+  m_EditorClassIdentifier: Assembly-CSharp::LightBetweenCultures.DesignKitArt
+  lumiPortrait: {fileID: -1754387159, guid: 9a7d3aad847598b419b6b01ab212a053, type: 3}
+  lumiExploration: {fileID: -1754387159, guid: 9a7d3aad847598b419b6b01ab212a053, type: 3}
+  lumiMapTraveler: {fileID: -1754387159, guid: 9a7d3aad847598b419b6b01ab212a053, type: 3}
+  maiPortrait: {fileID: -1732270161, guid: a6cc838dd76ae7f40902d846693f4a5e, type: 3}
+  lumiCity: {fileID: -1754387159, guid: 9a7d3aad847598b419b6b01ab212a053, type: 3}
+  lumiCitySmall: {fileID: -1754387159, guid: 9a7d3aad847598b419b6b01ab212a053, type: 3}
+  hoiAnMap: {fileID: 21300000, guid: 9f457fcf0b8450940a9493323d9febcc, type: 3}
+  available: {fileID: 21300000, guid: 4a9f6b4446c499848bb9d3d1e60ec600, type: 3}
+  current: {fileID: 21300000, guid: 0e46fa3a4a730ff4da2af78097a0e7b8, type: 3}
+  visited: {fileID: 21300000, guid: 66d590fef2a744d4baca23050d763ecc, type: 3}
+  locked: {fileID: 21300000, guid: fae34817a0d319145baf618ff62d512a, type: 3}
+  npc: {fileID: 21300000, guid: e5c90b4c7bb2cc849a556a6729d24107, type: 3}
+  quest: {fileID: 21300000, guid: ba53cdd81d3eca04eb7229ec95501c1c, type: 3}
+  item: {fileID: 21300000, guid: 8d87ce1f1365b4545931249b25505c95, type: 3}
+  enemy: {fileID: 21300000, guid: ddbeae466d78e5941af1f2d58373540d, type: 3}
+  puzzle: {fileID: 21300000, guid: 41b4328d91767bc459398185aaf68569, type: 3}
+  portal: {fileID: 21300000, guid: c0307cd2431a2754b940fbec57653e10, type: 3}
+  secret: {fileID: 21300000, guid: e8513865616e8b644a97488406359aac, type: 3}

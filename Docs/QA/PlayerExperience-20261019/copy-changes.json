@@ -1,0 +1,110 @@
+[
+  {
+    "record": "events:npc_mai",
+    "field": "text",
+    "before": "Mắt Đèn là manh mối của những chiếc đèn cổ đang tắt. Cháu tìm nó trong hẻm H3 rồi trở lại tiệm nhé. Sau đó mình còn cần Lõi Giấy Sáng H13 và Chìa Kết Nối H5 để đồng bộ trạm H7; từng bước thôi, cả phố cổ chưa thể sáng lại ngay.",
+    "after": "Mắt Đèn là manh mối của những chiếc đèn cổ đang tắt. Cháu tìm nó trong hẻm Hẻm mái ngói rồi trở lại tiệm nhé. Sau đó mình còn cần Lõi Giấy Sáng Xưởng ghép giấy và Chìa Kết Nối Bến gỗ để đồng bộ trạm Trạm ánh sáng; từng bước thôi, cả phố cổ chưa thể sáng lại ngay."
+  },
+  {
+    "record": "events:npc_ba_tu",
+    "field": "text",
+    "before": "Con cua kéo cuộn dây đồng của bà xuống mép nước H12. Cháu lấy lại giúp bà nhé. Đây là một phần thức ăn; thử dụ nó ra trước khi phải đánh.",
+    "after": "Con cua kéo cuộn dây đồng của bà xuống mép nước Cua trộm dưới bờ. Cháu lấy lại giúp bà nhé. Đây là một phần thức ăn; thử dụ nó ra trước khi phải đánh."
+  },
+  {
+    "record": "events:npc_phuc",
+    "field": "text",
+    "before": "Có người đã thay mã trạm bằng hình gốm. Cháu nhìn ngõ H19: hoa nở trước, trăng lên sau, cuối cùng mới thắp đèn. Đây là chút trà giúp cháu hồi sức.",
+    "after": "Có người đã thay mã trạm bằng hình gốm. Cháu nhìn ngõ Ngõ gốm hoa: hoa nở trước, trăng lên sau, cuối cùng mới thắp đèn. Đây là chút trà giúp cháu hồi sức."
+  },
+  {
+    "record": "events:npc_guest",
+    "field": "text",
+    "before": "Tôi từng thấy hoa văn ấy ở làng Jeonju. Một chiếc đèn bị gọi là thất lạc có lẽ đang che chở cho ai đó. Nếu tìm thấy thư hồi âm bên kia cổng, hãy đưa về ngõ H9.",
+    "after": "Tôi từng thấy hoa văn ấy ở làng Jeonju. Một chiếc đèn bị gọi là thất lạc có lẽ đang che chở cho ai đó. Nếu tìm thấy thư hồi âm bên kia cổng, hãy đưa về ngõ Ngõ bí mật."
+  },
+  {
+    "record": "events:chapter_jq04_return",
+    "field": "text",
+    "before": "Tôi từng thấy hoa văn ấy ở làng Jeonju. Một chiếc đèn bị gọi là thất lạc có lẽ đang che chở cho ai đó. Nếu tìm thấy thư hồi âm bên kia cổng, hãy đưa về ngõ H9.",
+    "after": "Tôi từng thấy hoa văn ấy ở làng Jeonju. Một chiếc đèn bị gọi là thất lạc có lẽ đang che chở cho ai đó. Nếu tìm thấy thư hồi âm bên kia cổng, hãy đưa về ngõ Ngõ bí mật."
+  },
+  {
+    "record": "quests:HQ01",
+    "field": "offer",
+    "before": "Mắt Đèn là manh mối của những chiếc đèn cổ đang tắt. Cháu tìm nó trong hẻm H3 rồi trở lại tiệm nhé. Sau đó mình còn cần Lõi Giấy Sáng H13 và Chìa Kết Nối H5 để đồng bộ trạm H7; từng bước thôi, cả phố cổ chưa thể sáng lại ngay.",
+    "after": "Mắt Đèn là manh mối của những chiếc đèn cổ đang tắt. Cháu tìm nó trong hẻm Hẻm mái ngói rồi trở lại tiệm nhé. Sau đó mình còn cần Lõi Giấy Sáng Xưởng ghép giấy và Chìa Kết Nối Bến gỗ để đồng bộ trạm Trạm ánh sáng; từng bước thôi, cả phố cổ chưa thể sáng lại ngay."
+  },
+  {
+    "record": "quests:HQ01",
+    "field": "reminder",
+    "before": "Mắt Đèn ở H3; chợ H4 giữ manh mối cho xưởng H13. Ông Phúc biết cách đọc mã gốm ở H19 nếu cháu muốn tránh giao chiến với bot.",
+    "after": "Mắt Đèn ở Hẻm mái ngói; chợ Chợ ven sông giữ manh mối cho xưởng Xưởng ghép giấy. Ông Phúc biết cách đọc mã gốm ở Ngõ gốm hoa nếu cháu muốn tránh giao chiến với bot."
+  },
+  {
+    "record": "quests:HQ02",
+    "field": "offer",
+    "before": "Con cua kéo cuộn dây đồng của bà xuống mép nước H12. Cháu lấy lại giúp bà nhé. Đây là một phần thức ăn; thử dụ nó ra trước khi phải đánh.",
+    "after": "Con cua kéo cuộn dây đồng của bà xuống mép nước Cua trộm dưới bờ. Cháu lấy lại giúp bà nhé. Đây là một phần thức ăn; thử dụ nó ra trước khi phải đánh."
+  },
+  {
+    "record": "quests:HQ02",
+    "field": "reminder",
+    "before": "Cua Trộm ở H12 giữ cuộn dây. Có thể giao chiến hoặc dùng phần thức ăn bà đã đưa.",
+    "after": "Cua Trộm ở Cua trộm dưới bờ giữ cuộn dây. Có thể giao chiến hoặc dùng phần thức ăn bà đã đưa."
+  },
+  {
+    "record": "quests:HQ02",
+    "field": "thanks",
+    "before": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc H9; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju.",
+    "after": "Đúng cuộn dây của bà rồi! Đây là dấu chỉ ngõ đèn thất lạc Ngõ bí mật; cháu nhớ ghé xem nhé. Bà gửi cháu hai trái ớt và hai củ hành tím. Hãy giữ một phần cho những người bạn ở Huế và Jeonju."
+  },
+  {
+    "record": "quests:HQ03",
+    "field": "offer",
+    "before": "Một chiếc đèn lạc đang chờ tin từ Jeonju. Khi có thư hồi âm J21, hãy mang về ngõ H9.",
+    "after": "Một chiếc đèn lạc đang chờ tin từ Jeonju. Khi có thư hồi âm J21, hãy mang về ngõ Ngõ bí mật."
+  },
+  {
+    "record": "quests:HQ03",
+    "field": "reminder",
+    "before": "Nghe chuyện J16, lấy thư J21 Jeonju; mang tới Ji-eun H18 rồi ghé ngõ H9.",
+    "after": "Nghe chuyện J16, lấy thư J21 Jeonju; mang tới Ji-eun Tiệm trà khách lạ rồi ghé ngõ Ngõ bí mật."
+  },
+  {
+    "record": "quests:HQ04",
+    "field": "reminder",
+    "before": "Mang năm xu đến H17; đường đò là lối tắt tùy chọn.",
+    "after": "Mang năm xu đến Bến đò phía đông; đường đò là lối tắt tùy chọn."
+  },
+  {
+    "record": "quests:HQ04",
+    "field": "thanks",
+    "before": "Mái chèo đã sửa xong. Bác sẽ đưa cháu qua bến H5 bất cứ khi nào cần.",
+    "after": "Mái chèo đã sửa xong. Bác sẽ đưa cháu qua bến Bến gỗ bất cứ khi nào cần."
+  },
+  {
+    "record": "quests:HQ07",
+    "field": "reminder",
+    "before": "Quay lại H10 sau khi hoàn thành cả hai chuyến giao lưu.",
+    "after": "Quay lại Quầy hàng Bà Tư sau khi hoàn thành cả hai chuyến giao lưu."
+  },
+  {
+    "record": "quests:HA_FOOD_PREP",
+    "field": "offer",
+    "before": "Bà Tư: Quầy đêm hội cần 2 trái ớt và 1 củ hành. Cháu lấy thêm túi gia vị ở hòm bến H11 nhé; nhớ chừa mỗi món một cái cho chuyến giao lưu.",
+    "after": "Bà Tư: Quầy đêm hội cần 2 trái ớt và 1 củ hành. Cháu lấy thêm túi gia vị ở hòm bến Rương gỗ bến nước nhé; nhớ chừa mỗi món một cái cho chuyến giao lưu."
+  },
+  {
+    "record": "quests:HA_FOOD_PREP",
+    "field": "reminder",
+    "before": "Giao 2 ớt và 1 hành ở H10; tổng cần có ít nhất 3 ớt và 2 hành để giữ lại một phần cho chuyến đi sau.",
+    "after": "Giao 2 ớt và 1 hành ở Quầy hàng Bà Tư; tổng cần có ít nhất 3 ớt và 2 hành để giữ lại một phần cho chuyến đi sau."
+  },
+  {
+    "record": "quests:HQ01",
+    "field": "reminder",
+    "before": "Mắt Đèn ở Hẻm mái ngói; chợ Chợ ven sông giữ manh mối cho xưởng Xưởng ghép giấy. Ông Phúc biết cách đọc mã gốm ở Ngõ gốm hoa nếu cháu muốn tránh giao chiến với bot.",
+    "after": "Hãy tìm Mắt Đèn trong Hẻm mái ngói và mang về cho cô. Sau đó, ghé Chợ ven sông tìm manh mối cho Xưởng ghép giấy. Ông Phúc có thể giúp cháu tìm cách qua bot mà không giao chiến."
+  }
+]

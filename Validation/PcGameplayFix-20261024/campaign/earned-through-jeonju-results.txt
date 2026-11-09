@@ -1,0 +1,323 @@
+UTC run: 2026-10-24T07:10:40.5271006Z | Unity 6000.6.5f1 | 1280x960
+PASS: PC original New Game run remains in the provenance evidence
+PASS: Six cities/133 nodes/29 quests/22 story puzzles unchanged
+PASS: Single collection retains6 canonical relic IDs and24 fragment IDs
+PASS: PC resumes the legitimately earned opening checkpoint, not a fixture
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: PC H7 earned quest reward opens the normal Hue/Jeonju routes
+PASS: Already completed bait interaction comes from this campaign's earned continuation
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H17 is discovered
+PASS: Lumi reaches H17 through the real map input
+PASS: PC original boatman quest completes through dialogue for exactly five earned coins
+PASS: Closing an event or battle returns map input to the player
+PASS: PC shop cannot charge the completed ferry fare a second time
+PASS: Persist checkpoint PC-bait-and-original-ferry
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: PC actual mirror controls restore the earned Hoi An lantern
+PASS: PC milestone capture: PC-hoi_an-restored
+PASS: City relic enabled in shared registry: hue
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U3 is discovered
+PASS: Lumi reaches U3 through the real map input
+PASS: U3 jade unavailable before actual crossing permit
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U16 is discovered
+PASS: Lumi reaches U16 through the real map input
+PASS: Real activity opens without granting proof: puzzle_market_code
+PASS: Closing an event or battle returns map input to the player
+PASS: Cancel before success preserves items/proofs: puzzle_market_code
+PASS: Empty confirmation cannot pay or consume: puzzle_market_code
+PASS: Wrong drop rejected: puzzle_market_code
+PASS: Touch drag / tap-select places actual piece: puzzle_market_code 0
+PASS: Touch drag / tap-select places actual piece: puzzle_market_code 1
+PASS: Prepared tactile state alone never auto-commits: puzzle_market_code
+PASS: Explicit interaction success records original PuzzleID: puzzle_market_code
+PASS: Original coin reward exact: puzzle_market_code
+PASS: Original item and one-time ledger exact: puzzle_market_code river_pass
+PASS: Original flags retained: puzzle_market_code
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_market_code
+PASS: Source opens a real gesture without auto-grant: fragment_hue_ritual_cord
+PASS: Confirm without placement cannot claim: fragment_hue_ritual_cord
+PASS: Wrong drop rejected: fragment_hue_ritual_cord
+PASS: Actual mouse/touch drop reaches target: fragment_hue_ritual_cord
+PASS: Wrong orientation rejected: fragment_hue_ritual_cord
+PASS: Gesture commits distinct proof and ownership: fragment_hue_ritual_cord
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hue_ritual_cord
+PASS: Collection never replaces story items or source rewards: fragment_hue_ritual_cord
+PASS: Closing an event or battle returns map input to the player
+PASS: PC purchase uses earned currency
+PASS: PC redundant ferry permission is not sold
+PASS: Shop control exists: ShopBuy_tea
+PASS: PC real shop transaction debits exact price and grants one tea
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U15 is discovered
+PASS: Lumi reaches U15 through the real map input
+PASS: PC real bot fight is active
+PASS: PC full HP cannot consume tea
+PASS: PC injured Lumi can use purchased healing tea
+PASS: PC drinking consumes exactly one purchased tea
+PASS: PC tea heals exact capped amount before the normal enemy reply
+PASS: PC tea restores no energy and costs one normal combat turn
+PASS: PC combat feedback displays actual HP restored
+PASS: PC milestone capture: PC-PurchasedTea-InCombat
+PASS: PC fight finishes through actual turn controls after consuming purchased tea
+PASS: Closing an event or battle returns map input to the player
+PASS: Persist checkpoint PC-after-purchased-tea-bot
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U3 is discovered
+PASS: Lumi reaches U3 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Source opens a real gesture without auto-grant: fragment_hue_river_jade
+PASS: Confirm without placement cannot claim: fragment_hue_river_jade
+PASS: Wrong drop rejected: fragment_hue_river_jade
+PASS: Actual mouse/touch drop reaches target: fragment_hue_river_jade
+PASS: Wrong orientation rejected: fragment_hue_river_jade
+PASS: Gesture commits distinct proof and ownership: fragment_hue_river_jade
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hue_river_jade
+PASS: Collection never replaces story items or source rewards: fragment_hue_river_jade
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U7 is discovered
+PASS: Lumi reaches U7 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U17 is discovered
+PASS: Lumi reaches U17 through the real map input
+PASS: Real activity opens without granting proof: puzzle_archive
+PASS: Closing an event or battle returns map input to the player
+PASS: Cancel before success preserves items/proofs: puzzle_archive
+PASS: Empty confirmation cannot pay or consume: puzzle_archive
+PASS: Wrong drop rejected: puzzle_archive
+PASS: Touch drag / tap-select places actual piece: puzzle_archive 0
+PASS: Touch drag / tap-select places actual piece: puzzle_archive 1
+PASS: Touch drag / tap-select places actual piece: puzzle_archive 2
+PASS: Prepared tactile state alone never auto-commits: puzzle_archive
+PASS: Explicit interaction success records original PuzzleID: puzzle_archive
+PASS: Original coin reward exact: puzzle_archive
+PASS: Original flags retained: puzzle_archive
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_archive
+PASS: Source opens a real gesture without auto-grant: fragment_hue_rhythm_inscription
+PASS: Confirm without placement cannot claim: fragment_hue_rhythm_inscription
+PASS: Wrong drop rejected: fragment_hue_rhythm_inscription
+PASS: Actual mouse/touch drop reaches target: fragment_hue_rhythm_inscription
+PASS: Wrong orientation rejected: fragment_hue_rhythm_inscription
+PASS: Gesture commits distinct proof and ownership: fragment_hue_rhythm_inscription
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hue_rhythm_inscription
+PASS: Collection never replaces story items or source rewards: fragment_hue_rhythm_inscription
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U8 is discovered
+PASS: Lumi reaches U8 through the real map input
+PASS: Intentional story action commits old proof without puzzle UI: puzzle_court
+PASS: Original coin reward exact: puzzle_court
+PASS: Original flags retained: puzzle_court
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_court
+PASS: Source opens a real gesture without auto-grant: fragment_hue_dragon_face
+PASS: Confirm without placement cannot claim: fragment_hue_dragon_face
+PASS: Wrong drop rejected: fragment_hue_dragon_face
+PASS: Actual mouse/touch drop reaches target: fragment_hue_dragon_face
+PASS: Wrong orientation rejected: fragment_hue_dragon_face
+PASS: Gesture commits distinct proof and ownership: fragment_hue_dragon_face
+PASS: Claim ledger idempotent after repeated confirmation: fragment_hue_dragon_face
+PASS: Collection never replaces story items or source rewards: fragment_hue_dragon_face
+PASS: Hue relic sources do not auto-activate U19 or open Dalat
+PASS: Four gestures give four unique collection claims, not story rewards
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U7 is discovered
+PASS: Lumi reaches U7 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Empty slots do not assemble relic_hue_dragon_seal
+PASS: Assembly is distinct from restored state
+PASS: Persist checkpoint phase4-hue-assembled
+PASS: Closing an event or battle returns map input to the player
+PASS: Persist checkpoint phase4-hue-before-trial
+PASS: Actual city restoration uses its distinct tactile rule: seal
+PASS: Wrong trial submission cannot restore relic_hue_dragon_seal
+PASS: Hint/retry preserve earned assembly and four fragments without solving
+PASS: Real mouse/touch controls satisfy seal trial
+PASS: Correct arrangement alone cannot auto-confirm restoration
+PASS: Explicit trial confirmation commits restored state once: relic_hue_dragon_seal
+PASS: Closing an event or battle returns map input to the player
+PASS: World restoration preserves main quests, inventory, coins and reward ledger
+PASS: Actual map restoration layer is present and cannot block touch
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U7 is discovered
+PASS: Lumi reaches U7 through the real map input
+PASS: NPC/runtime side dialogue recognizes actual restoration
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing collection opens all four fragment details without travel or grants
+PASS: No schema upgrade, boss/ending/world progress change from relic restoration
+PASS: Persist checkpoint phase4-hue-final
+PASS: Enabled relic UI/data cannot bypass locked Seoul city entry
+PASS: Persist checkpoint P4-E2E-VN_FIRST-hue
+PASS: PC milestone capture: PC-hue-restored
+PASS: City relic enabled in shared registry: da_lat
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Hue relic restoration alone did not open Dalat
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U11 is discovered
+PASS: Lumi reaches U11 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U7 is discovered
+PASS: Lumi reaches U7 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U5 is discovered
+PASS: Lumi reaches U5 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target U19 is discovered
+PASS: Lumi reaches U19 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Actual U19 station action opens Dalat by unchanged World Map rule
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D0 is discovered
+PASS: Lumi reaches D0 through the real map input
+PASS: Actual D0 check-in records its own landmark and one-time reward
+PASS: Closing an event or battle returns map input to the player
+PASS: Check-in cannot pay twice: D0
+PASS: Source opens a real gesture without auto-grant: fragment_da_lat_lake_glass
+PASS: Confirm without placement cannot claim: fragment_da_lat_lake_glass
+PASS: Wrong drop rejected: fragment_da_lat_lake_glass
+PASS: Actual mouse/touch drop reaches target: fragment_da_lat_lake_glass
+PASS: Wrong orientation rejected: fragment_da_lat_lake_glass
+PASS: Gesture commits distinct proof and ownership: fragment_da_lat_lake_glass
+PASS: Claim ledger idempotent after repeated confirmation: fragment_da_lat_lake_glass
+PASS: Collection never replaces story items or source rewards: fragment_da_lat_lake_glass
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D2 is discovered
+PASS: Lumi reaches D2 through the real map input
+PASS: Pine evidence waits for actual glasses return
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D7 is discovered
+PASS: Lumi reaches D7 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D2 is discovered
+PASS: Lumi reaches D2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Source opens a real gesture without auto-grant: fragment_da_lat_pine_direction
+PASS: Confirm without placement cannot claim: fragment_da_lat_pine_direction
+PASS: Wrong drop rejected: fragment_da_lat_pine_direction
+PASS: Actual mouse/touch drop reaches target: fragment_da_lat_pine_direction
+PASS: Wrong orientation rejected: fragment_da_lat_pine_direction
+PASS: Gesture commits distinct proof and ownership: fragment_da_lat_pine_direction
+PASS: Claim ledger idempotent after repeated confirmation: fragment_da_lat_pine_direction
+PASS: Collection never replaces story items or source rewards: fragment_da_lat_pine_direction
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D8 is discovered
+PASS: Lumi reaches D8 through the real map input
+PASS: Real activity opens without granting proof: puzzle_mist
+PASS: Closing an event or battle returns map input to the player
+PASS: Cancel before success preserves items/proofs: puzzle_mist
+PASS: Empty confirmation cannot pay or consume: puzzle_mist
+PASS: Prepared tactile state alone never auto-commits: puzzle_mist
+PASS: Explicit interaction success records original PuzzleID: puzzle_mist
+PASS: Original coin reward exact: puzzle_mist
+PASS: Original flags retained: puzzle_mist
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_mist
+PASS: Source opens a real gesture without auto-grant: fragment_da_lat_mist_bell
+PASS: Confirm without placement cannot claim: fragment_da_lat_mist_bell
+PASS: Wrong drop rejected: fragment_da_lat_mist_bell
+PASS: Actual mouse/touch drop reaches target: fragment_da_lat_mist_bell
+PASS: Wrong orientation rejected: fragment_da_lat_mist_bell
+PASS: Gesture commits distinct proof and ownership: fragment_da_lat_mist_bell
+PASS: Claim ledger idempotent after repeated confirmation: fragment_da_lat_mist_bell
+PASS: Collection never replaces story items or source rewards: fragment_da_lat_mist_bell
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D8 is discovered
+PASS: Lumi reaches D8 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D12 is discovered
+PASS: Lumi reaches D12 through the real map input
+PASS: Intentional story action commits old proof without puzzle UI: puzzle_windmill
+PASS: Original coin reward exact: puzzle_windmill
+PASS: Original item and one-time ledger exact: puzzle_windmill meat_portion
+PASS: Original flags retained: puzzle_windmill
+PASS: Closing an event or battle returns map input to the player
+PASS: Solved ID cannot replay reward: puzzle_windmill
+PASS: Source opens a real gesture without auto-grant: fragment_da_lat_blue_signal_seed
+PASS: Confirm without placement cannot claim: fragment_da_lat_blue_signal_seed
+PASS: Wrong drop rejected: fragment_da_lat_blue_signal_seed
+PASS: Actual mouse/touch drop reaches target: fragment_da_lat_blue_signal_seed
+PASS: Wrong orientation rejected: fragment_da_lat_blue_signal_seed
+PASS: Gesture commits distinct proof and ownership: fragment_da_lat_blue_signal_seed
+PASS: Claim ledger idempotent after repeated confirmation: fragment_da_lat_blue_signal_seed
+PASS: Collection never replaces story items or source rewards: fragment_da_lat_blue_signal_seed
+PASS: Windmill fragment belongs to Dalat and does not require/open Seoul
+PASS: Four gestures give four unique collection claims, not story rewards
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D2 is discovered
+PASS: Lumi reaches D2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Empty slots do not assemble relic_dalat_mist_compass
+PASS: Assembly is distinct from restored state
+PASS: Persist checkpoint phase4-da_lat-assembled
+PASS: Closing an event or battle returns map input to the player
+PASS: Persist checkpoint phase4-da_lat-before-trial
+PASS: Actual city restoration uses its distinct tactile rule: mist
+PASS: Wrong trial submission cannot restore relic_dalat_mist_compass
+PASS: Hint/retry preserve earned assembly and four fragments without solving
+PASS: Real mouse/touch controls satisfy mist trial
+PASS: Correct arrangement alone cannot auto-confirm restoration
+PASS: Explicit trial confirmation commits restored state once: relic_dalat_mist_compass
+PASS: Closing an event or battle returns map input to the player
+PASS: World restoration preserves main quests, inventory, coins and reward ledger
+PASS: Actual map restoration layer is present and cannot block touch
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target D2 is discovered
+PASS: Lumi reaches D2 through the real map input
+PASS: NPC/runtime side dialogue recognizes actual restoration
+PASS: Closing an event or battle returns map input to the player
+PASS: Existing collection opens all four fragment details without travel or grants
+PASS: No schema upgrade, boss/ending/world progress change from relic restoration
+PASS: Persist checkpoint phase4-da_lat-final
+PASS: Enabled relic UI/data cannot bypass locked Seoul city entry
+PASS: Persist checkpoint P4-E2E-VN_FIRST-da_lat
+PASS: PC milestone capture: PC-da_lat-restored
+PASS: City relic enabled in shared registry: jeonju
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H6 is discovered
+PASS: Lumi reaches H6 through the real map input
+PASS: Opening photo view or empty confirmation does not record evidence
+PASS: H6 two-pointer alignment records postcard metadata
+PASS: Photo preserves old H6 reward exactly once; old marked save gets no duplicate
+PASS: Photo replay does not farm coins
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J2 is discovered
+PASS: Lumi reaches J2 through the real map input
+PASS: Restoration is blocked before four earned fragments
+System.Exception: Timed out: button EventOption_relic:fragment_jeonju_hanok_pattern
+Modal=False moving=False stage=4
+Buttons: J12:True:True,J11:True:True,J7:True:True,J16:True:True,ZoomIn:True:True,ZoomOut:True:True,J1:True:True,Back:True:True,ObjectiveHint:True:True,QuestJournal:True:True,J14:False:False,J5:True:True,MapOverview:True:True,AudioSettings:True:True,J20:False:False,J3:True:True,MarkerMotion:True:True,Inventory:True:True,J2:True:True,J17:False:False,J13:True:True,FocusLumi:True:True,J15:False:False,J9:True:True,Interact:True:True,J21:False:False,J8:True:True,J4:True:True,J18:False:False,J0:True:True,J19:False:False,J10:True:True,JourneyShop:True:True,J6:True:True
+  at LightBetweenCultures.GameplaySmokeRunner+<Until>d__308.MoveNext () [0x001b4] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:107 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__307.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

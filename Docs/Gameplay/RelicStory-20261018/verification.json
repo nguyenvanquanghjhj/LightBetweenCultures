@@ -1,0 +1,51 @@
+{
+  "createdUTC": "2026-10-18T00:28:59.625966+00:00",
+  "build": "Logs/relic-story-build02.log",
+  "buildStatus": "Succeeded",
+  "runs": [
+    {
+      "run": "Fresh01",
+      "passCount": 200,
+      "status": "PASS",
+      "results": "Validation/RelicStory-20261018/Fresh01/smoke-results.txt",
+      "captures": 16
+    },
+    {
+      "run": "LocalRestart01",
+      "passCount": 23,
+      "status": "PASS",
+      "results": "Validation/RelicStory-20261018/LocalRestart01/restart-results.txt",
+      "captures": 1
+    },
+    {
+      "run": "H7Restart01",
+      "passCount": 12,
+      "status": "PASS",
+      "results": "Validation/RelicStory-20261018/H7Restart01/restart-results.txt",
+      "captures": 1
+    },
+    {
+      "run": "PilotSaveRestart01",
+      "passCount": 13,
+      "status": "PASS",
+      "results": "Validation/RelicStory-20261018/PilotSaveRestart01/restart-results.txt",
+      "captures": 1
+    }
+  ],
+  "passTotal": 248,
+  "protectedFilesUnchanged": 50,
+  "gameplayContentAllowedChanges": [
+    "/events/51/completedText",
+    "/quests/0/thanks"
+  ],
+  "restartOriginalInputsUnmodified": true,
+  "newRuntimeScreenshots": 19,
+  "baselineImageMethod": "Same actual Player/state/camera/resolution. Temporarily disables only new story lines in QA memory. Not a screenshot from the previous binary; source quest/choices are unchanged at this local-light state. No mockup/image editing.",
+  "notRuntimeVerified": [
+    "All51 story rule branches individually",
+    "Pre-restoration postcard re-view after later restoration (data branch only; illuminated postcard was runtime verified)",
+    "Standalone v1 process/disk fault injection",
+    "Physical Android/FPS/VRAM",
+    "Five other relic chapters/new ending"
+  ]
+}

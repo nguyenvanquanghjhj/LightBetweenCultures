@@ -1,0 +1,27 @@
+{
+  "status": "PRELIMINARY_STOP_NEEDS_USER_REVIEW",
+  "runtimeChanges": 0,
+  "changedEdges": [],
+  "unchangedEdges": 155,
+  "nodes": 133,
+  "edges": 155,
+  "sourceGeometryMatchesExistingExport": true,
+  "protectedFiles": 112,
+  "protectedBytesExact": true,
+  "canonicalMapsExact": true,
+  "referenceRuntimeImports": 0,
+  "windowsBuild": "NOT_RUN_NO_PRODUCTION_INPUT_CHANGE",
+  "movementQA": "NOT_RUN_NO_WAYPOINT_PATCH",
+  "zipPath": "C:\\Users\\admin\\Downloads\\LBC_Six_City_Route_References_ONLY_20261018.zip",
+  "zipSHA256": "57f1e994daa08c8c046e7a8992e4d79353c8546e3b4a821c9144b3f5e625fea0",
+  "base": {
+    "checkpoint": "D:\\GAMEKKK\\Backups\\CheckpointFourTrackMusic-20261018",
+    "requiresBase": "D:\\GAMEKKK\\Backups\\CheckpointSoftSfx-20261018",
+    "manifestSHA256": "4d369d7159a282fb039363cc7db93b1516d52a00b50d1086ce6bb6a26180850a",
+    "files": 75,
+    "payloadBytes": 13843413,
+    "allCopiedHashesVerified": true
+  },
+  "focusedIssues": 8,
+  "flaggedEdges": 13
+}

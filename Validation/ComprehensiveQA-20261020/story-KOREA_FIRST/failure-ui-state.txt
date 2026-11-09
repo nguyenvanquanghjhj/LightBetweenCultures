@@ -1,0 +1,3 @@
+Timed out: button EventOption_relic:fragment_jeonju_hanok_pattern
+Modal=False moving=False stage=4
+Buttons: J14:False:False,J19:False:False,J21:False:False,J16:True:True,J0:True:True,MarkerMotion:True:True,Back:True:True,J17:False:False,J4:True:True,J12:True:True,J6:True:True,J15:False:False,J11:True:True,J13:True:True,ZoomOut:True:True,J9:True:True,J10:True:True,MapOverview:True:True,QuestJournal:True:True,AudioSettings:True:True,J3:True:True,J18:False:False,ZoomIn:True:True,J1:True:True,FocusLumi:True:True,J5:True:True,ObjectiveHint:True:True,J8:True:True,J20:False:False,Inventory:True:True,J2:True:True,J7:True:True,Interact:True:True

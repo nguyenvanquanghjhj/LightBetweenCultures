@@ -1,0 +1,18 @@
+{
+  "baseline": "RC1-20261024",
+  "changed": [
+    "Assets/_Game/Scripts/UI/GameplayPanels.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs"
+  ],
+  "added": [
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.NodePanels.cs",
+    "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.NodePanels.cs.meta"
+  ],
+  "removed": [],
+  "unchanged": 888,
+  "execute_and_remaining_methods_unchanged": true,
+  "before_pass": 104,
+  "after_pass": 151,
+  "result": "WINDOWS_AND_SIMULATED_TOUCH_PASS",
+  "android": "NOT_TESTED_NO_BUILD"
+}

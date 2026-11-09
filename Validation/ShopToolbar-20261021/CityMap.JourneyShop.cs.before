@@ -1,0 +1,18 @@
+using UnityEngine;
+namespace LightBetweenCultures
+{
+    public sealed partial class CityMap
+    {
+        void CreateJourneyShop()
+        {
+            var button=MobileUI.IconButton(ui,ui.Root,"JourneyShop","Cửa hàng",Vector2.zero,Vector2.zero,()=>
+            {
+                if(dialogue||Moving)return;
+                Deselect();dialogue=true;Refresh();panels.ShowJourneyShop();
+            },AdventureSymbol.NeedItem,AdventureUIArt.Load().coin);
+            var rect=(RectTransform)button.transform;
+            rect.offsetMin=new Vector2(138,91);rect.offsetMax=new Vector2(276,143);
+            mapControls.Add(button);
+        }
+    }
+}

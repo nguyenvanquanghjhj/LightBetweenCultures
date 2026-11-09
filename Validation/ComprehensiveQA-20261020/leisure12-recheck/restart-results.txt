@@ -1,0 +1,18 @@
+UTC run: 2026-10-21T00:32:21.6171912Z | Unity 6000.6.5f1 | 540x960
+PASS: Leisure coexistence starts from earned old22-proof save, no injected flags
+PASS: Old save without optional history retains exact puzzle/items, zero blanket grants
+PASS: Corrupt main recovers valid backup
+PASS: Recovered write preserves valid backup and quarantines corrupt primary
+PASS: Interrupted-write recovery preserves only valid temporary save
+PASS: All corrupt blocks writes without overwriting recoverable evidence
+PASS: v1 optional initialization preserves old inventory/proofs
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+System.Exception: FAIL: Travel target H9 is discovered
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<Travel>d__288.MoveNext () [0x000ad] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:224 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__276.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

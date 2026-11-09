@@ -1,0 +1,39 @@
+# Unity generated data
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.utmp/
+
+# IDE and local machine state
+.vs/
+.idea/
+*.user
+*.userprefs
+*.suo
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+*.exe
+*.zip
+*.7z
+*.dmg
+
+# Signing keys and local secrets
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+
+# Unity crash dumps
+sysinfo.txt
+*.dmp

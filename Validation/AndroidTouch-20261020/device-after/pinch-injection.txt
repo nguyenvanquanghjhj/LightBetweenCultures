@@ -1,0 +1,1 @@
+INJECTED pinch through Android InputManager; no game API calls

@@ -1,0 +1,14 @@
+{
+  "checkpoint": "D:\\GAMEKKK\\Backups\\CheckpointFinalPolishRecovery-20261019",
+  "manifestSHA256": "aaa765d21d091d0d900f47cd167c84161d63e5db9ef019098a588ba4796d6a1a",
+  "standalone": false,
+  "baseCheckpoint": "D:\\GAMEKKK\\Backups\\CheckpointSwingStanding-20261019",
+  "baseManifestSHA256": "78f47790e074fca1ecf54df217b28b6ae66298577bc738b34bf8cb1691b6f4ab",
+  "files": 75,
+  "bytes": 27874980,
+  "copiedFilesVerified": true,
+  "baseContentVerified": true,
+  "baseChainManifestVerified": true,
+  "deletedPaths": [],
+  "stop": "STOP_WAITING_FOR_OWNER_REVIEW"
+}

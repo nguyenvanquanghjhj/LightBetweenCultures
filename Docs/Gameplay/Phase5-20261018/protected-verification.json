@@ -1,0 +1,1463 @@
+{
+  "scope": "Phase5 current inputs only; no whole-project hash scan",
+  "protectedFiles": 106,
+  "checks": [
+    {
+      "result": "PASS",
+      "check": "ProjectSettings outside generated platform-icon block unchanged"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/01_hoi_an_H2_tiem_den_co_mai.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/01_hoi_an_H2_tiem_den_co_mai.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/02_hoi_an_H3_hem_mai_ngoi.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/02_hoi_an_H3_hem_mai_ngoi.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/03_hoi_an_H4_cho_ven_song.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/03_hoi_an_H4_cho_ven_song.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/04_hoi_an_H6_cau_co_anh_den.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/04_hoi_an_H6_cau_co_anh_den.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/05_hoi_an_H7_tram_anh_sang_hoi_an.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/05_hoi_an_H7_tram_anh_sang_hoi_an.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/06_hoi_an_H17_ben_do_pho_co.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/06_hoi_an_H17_ben_do_pho_co.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/07_hue_U4_dau_cau_vao_thanh.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/07_hue_U4_dau_cau_vao_thanh.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/08_hue_U6_cua_ngo_mon_cach_dieu.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/08_hue_U6_cua_ngo_mon_cach_dieu.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/09_da_lat_D0_ben_ho_xuan_huong.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/09_da_lat_D0_ben_ho_xuan_huong.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/10_da_lat_D14_dai_dan_sang_nui.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/10_da_lat_D14_dai_dan_sang_nui.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/11_jeonju_J8_cau_da_tay.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/11_jeonju_J8_cau_da_tay.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/12_jeonju_J11_dai_ngam_mai_ngoi.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/12_jeonju_J11_dai_ngam_mai_ngoi.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/14_gyeongju_G14_kho_ban_khac_di_tich.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/14_gyeongju_G14_kho_ban_khac_di_tich.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/15_gyeongju_G17_dai_long_den_bo_tay.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/15_gyeongju_G17_dai_long_den_bo_tay.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/16_seoul_S2_cong_thanh_xua_ben_song_han.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/16_seoul_S2_cong_thanh_xua_ben_song_han.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/17_seoul_S10_chan_thap_n_seoul.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/17_seoul_S10_chan_thap_n_seoul.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/18_seoul_S18_role_anh_den_hanji.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/18_seoul_S18_role_anh_den_hanji.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Battle_Korea.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Battle_Vietnam.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Map_Korea.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Map_Vietnam.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/AdventureUIArt.asset"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/Content/HoiAnLighting.json"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Content/BattleManager.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Content/EncounterManager.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Content/PuzzleManager.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Content/RelicCollection.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/GameBootstrap.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/GameData.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/Inventory.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/QuestManager.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/SaveSystem.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Maps/CityMap.QuestReaction.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Maps/CityMap.RelicLight.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Maps/CityMapPaths.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Maps/CityRouteGeometry.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/GameplayPanels.CheckIns.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets\\_Game\\Audio\\Music\\LBC_Battle_Korea.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets\\_Game\\Audio\\Music\\LBC_Battle_Vietnam.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets\\_Game\\Audio\\Music\\LBC_Map_Korea.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets\\_Game\\Audio\\Music\\LBC_Map_Vietnam.mp3"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Item_Pickup.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Item_Pickup.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Puzzle_Success.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Puzzle_Success.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Relic_Place.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/Relic_Place.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Back.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Back.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Click.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Click.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Confirm.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Confirm.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Invalid.wav"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/SFX/UI_Invalid.wav.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/SoftAudioClips.asset"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftAudio.Settings.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Battle_Korea.mp3.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Battle_Vietnam.mp3.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Map_Korea.mp3.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Audio/Music/LBC_Map_Vietnam.mp3.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftAudio.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftAudio.Music.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/SoftMusicClips.asset"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Maps/CityMap.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/HoiAn/Map_HoiAn_Overview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Hue/Map_Hue_DestinationPreview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/DaLat/Map_DaLat_DestinationPreview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Jeonju/Map_Jeonju_DestinationPreview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Resources/SoftMusicClips.asset.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Editor/FourTrackMusicSetup.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Editor/FourTrackMusicSetup.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftAudio.Music.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftMusicClips.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/UI/SoftMusicClips.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Music.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Music.cs.meta"
+    },
+    {
+      "result": "PASS",
+      "check": "Protected exact: Assets/_Game/Scripts/Core/WorldState.cs"
+    },
+    {
+      "result": "PASS",
+      "check": "Canonical six relics / 24 sources / trials byte exact"
+    },
+    {
+      "result": "PASS",
+      "check": "Latest base manifest SHA256 exact"
+    },
+    {
+      "result": "PASS",
+      "check": "Content unchanged: schemaVersion"
+    },
+    {
+      "result": "PASS",
+      "check": "Content unchanged: source"
+    },
+    {
+      "result": "PASS",
+      "check": "Content unchanged: cities"
+    },
+    {
+      "result": "PASS",
+      "check": "Content unchanged: items"
+    },
+    {
+      "result": "PASS",
+      "check": "Content unchanged: enemies"
+    },
+    {
+      "result": "PASS",
+      "check": "Content unchanged: puzzles"
+    },
+    {
+      "result": "PASS",
+      "check": "Content unchanged: resonances"
+    },
+    {
+      "result": "PASS",
+      "check": "Content unchanged: checkIns"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:intro"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:square"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:npc_lan"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:npc_thuy"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:npc_market"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:pine_path"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:enemy_mist_wolf"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:enemy_glass_thief"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:puzzle_mist"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:loot_mountain"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:npc_hungry_dog"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:loot_meat_garden"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:puzzle_windmill"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:npc_gardener"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:restore_dalat"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:enemy_fog_boss"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:loot_waterfall"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:secret_lookout"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:npc_innkeeper"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:secret_night_bloom"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:lake_bridge"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:portal_seoul"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:intro"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:north_bridge"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:puzzle_pond"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:npc_min"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:puzzle_observatory"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:loot_tomb_west"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:enemy_fox"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:enemy_stone_guard"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:stone_path"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:npc_keeper"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:loot_hill"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:stone_garden"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:puzzle_cracked_seal"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:enemy_night_guard"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:npc_inscription"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:puzzle_temple"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:loot_lake"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:puzzle_lantern_west"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:enemy_star_core"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:restore_gyeongju"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:portal_seoul"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:secret_herb"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:intro"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:street_intro"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:npc_mai"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:scene_roof_alley"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:puzzle_market"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:enemy_mo01"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:bridge_story"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:restore_lantern"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:portal_jeonju"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:chest_secret"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:npc_ba_tu"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:loot_crate"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:enemy_crab"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:puzzle_paper"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:npc_phuc"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:enemy_ghost"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:dock_central"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:npc_boatman"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:npc_guest"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:puzzle_pottery"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:portal_hue"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:loot_attic"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:intro"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:npc_merchant"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:npc_nguyet"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:npc_ferryman"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:bridge_entry"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:enemy_gate_guard"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:gate_story"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:npc_scholar"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:puzzle_court"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:garden_west"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:herb_patch"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:seal_cache"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:enemy_river_wisp"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:secret_pier"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:east_bridge"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:enemy_courier"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:puzzle_market_code"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:puzzle_archive"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:enemy_archive_guard"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:restore_hue"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:portal_dalat"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:secret_wall"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:intro"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:center"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:npc_hana"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:puzzle_dye"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:npc_yoon"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:npc_parcel"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:enemy_parcel_bot"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:puzzle_hanji"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:west_bridge"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:enemy_paper_crane"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:loot_pond"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:loot_rooftop"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:puzzle_embroidery"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:old_gate"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:enemy_pattern_bot"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:npc_snack_seller"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:npc_elder"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:puzzle_lantern"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:enemy_crane_boss"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:restore_jeonju"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:portal_gyeongju"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:secret_hoi_an_reply"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:intro"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:central_plaza"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:npc_curator"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:puzzle_palace"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:loot_archive"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:enemy_drone"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:east_riverside"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:npc_tech"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:enemy_signal_bot"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:tower_trail"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:puzzle_tower"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:npc_engineer"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:loot_park"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:bridge_west"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:npc_boat"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:enemy_bridge"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:puzzle_station"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:puzzle_relay_hue"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:puzzle_relay_jeonju"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:enemy_shadow_courier"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:enemy_final_core"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:final_festival"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:secret_tower"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:ba_tu_foodprep"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:ba_tu_spice_gift"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:food_spice_bundle"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:food_hq05"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:food_hq06"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:food_hq07"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:recover_hq05"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:recover_hq06"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:foodexchange_jeonju_j15"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:foodexchange_hue_u1"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:chapter_uq04_offer"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hue:chapter_uq04_return"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:chapter_jq04_offer"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: hoi_an:chapter_jq04_return"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:chapter_jq01_finish"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:chapter_jq03_offer"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:dalat_return_glasses"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:dalat_dq01_finish"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:dalat_thuy_food"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:dalat_dog_food_recovery"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:dalat_dq03_offer"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: da_lat:dalat_strawberry_offer"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: jeonju:dalat_strawberry_return"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:gq01_finish"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:min_fox_food"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:gq02_offer_finish"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:gq04_offer_finish"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: gyeongju:gq03_offer"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:sq02_finish"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:sq03_offer"
+    },
+    {
+      "result": "PASS",
+      "check": "Event semantics preserved: seoul:sq04_offer_finish"
+    },
+    {
+      "result": "PASS",
+      "check": "No event added or removed"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: HQ01"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: HQ02"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: HQ03"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: HQ04"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: UQ01"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: UQ02"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: UQ03"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: UQ04"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: DQ01"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: DQ02"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: DQ03"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: DQ04"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: JQ01"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: JQ02"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: JQ03"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: JQ04"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: GQ01"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: GQ02"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: GQ03"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: GQ04"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: SQ01"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: SQ02"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: SQ03"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: SQ04"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: HQ05"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: HQ06"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: HQ07"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: HA_FOOD_PREP"
+    },
+    {
+      "result": "PASS",
+      "check": "Quest graph/reward preserved: DQ05"
+    },
+    {
+      "result": "PASS",
+      "check": "29 canonical quests unchanged"
+    },
+    {
+      "result": "PASS",
+      "check": "6 cities / 133 nodes / 155 edges"
+    },
+    {
+      "result": "PASS",
+      "check": "22 puzzles / 18 check-ins"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_ba_tu"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_boat"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_boatman"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_curator/variantId"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_curator/path"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_curator/spriteName"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_curator/guid"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_curator/localId"
+    },
+    {
+      "result": "PASS",
+      "check": "Owner approval metadata: npc_curator"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_elder"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_engineer/variantId"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_engineer/path"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_engineer/spriteName"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_engineer/guid"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_engineer/localId"
+    },
+    {
+      "result": "PASS",
+      "check": "Owner approval metadata: npc_engineer"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_gardener"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_guest"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_hana"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_hungry_dog"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_huong"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_innkeeper"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_inscription/variantId"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_inscription/path"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_inscription/spriteName"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_inscription/guid"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_inscription/localId"
+    },
+    {
+      "result": "PASS",
+      "check": "Owner approval metadata: npc_inscription"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_keeper/variantId"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_keeper/path"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_keeper/spriteName"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_keeper/guid"
+    },
+    {
+      "result": "PASS",
+      "check": "Approved binding exact: npc_keeper/localId"
+    },
+    {
+      "result": "PASS",
+      "check": "Owner approval metadata: npc_keeper"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_lan"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_mai"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_market_merchant"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_min"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_nguyet"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_park"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_phuc"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_scholar"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_soyeon"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_tam"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_tech"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_thuy"
+    },
+    {
+      "result": "PASS",
+      "check": "Other NPC identity preserved: npc_yoon"
+    },
+    {
+      "result": "PASS",
+      "check": "H6 method exact: void ShowRelicPhoto("
+    },
+    {
+      "result": "PASS",
+      "check": "H6 method exact: void SetPostcardUV("
+    },
+    {
+      "result": "PASS",
+      "check": "H6 method exact: void ShowStoredPostcard("
+    }
+  ],
+  "result": "PASS"
+}

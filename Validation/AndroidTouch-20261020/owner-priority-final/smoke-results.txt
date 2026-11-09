@@ -1,0 +1,383 @@
+UTC run: 2026-10-20T08:52:00.6828234Z | Unity 6000.6.5f1 | 540x960
+PASS: City changes go through the actual World Map
+PASS: Selecting da_lat only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the da_lat opening
+PASS: World Map enters the configured da_lat data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Every assigned NPC has its real map actor: D2
+PASS: Actual NPC foot stays within conversation distance at zoom 1: D2
+PASS: Every assigned NPC has its real map actor: D3
+PASS: Actual NPC foot stays within conversation distance at zoom 1: D3
+PASS: Every assigned NPC has its real map actor: D4
+PASS: Actual NPC foot stays within conversation distance at zoom 1: D4
+PASS: Every assigned NPC has its real map actor: D10
+PASS: Actual NPC foot stays within conversation distance at zoom 1: D10
+PASS: Every assigned NPC has its real map actor: D13
+PASS: Actual NPC foot stays within conversation distance at zoom 1: D13
+PASS: Every assigned NPC has its real map actor: D2
+PASS: Actual NPC foot stays within conversation distance at zoom 2: D2
+PASS: Every assigned NPC has its real map actor: D3
+PASS: Actual NPC foot stays within conversation distance at zoom 2: D3
+PASS: Every assigned NPC has its real map actor: D4
+PASS: Actual NPC foot stays within conversation distance at zoom 2: D4
+PASS: Every assigned NPC has its real map actor: D10
+PASS: Actual NPC foot stays within conversation distance at zoom 2: D10
+PASS: Every assigned NPC has its real map actor: D13
+PASS: Actual NPC foot stays within conversation distance at zoom 2: D13
+PASS: Every assigned NPC has its real map actor: D2
+PASS: Actual NPC foot stays within conversation distance at zoom 4: D2
+PASS: Every assigned NPC has its real map actor: D3
+PASS: Actual NPC foot stays within conversation distance at zoom 4: D3
+PASS: Every assigned NPC has its real map actor: D4
+PASS: Actual NPC foot stays within conversation distance at zoom 4: D4
+PASS: Every assigned NPC has its real map actor: D10
+PASS: Actual NPC foot stays within conversation distance at zoom 4: D10
+PASS: Every assigned NPC has its real map actor: D13
+PASS: Actual NPC foot stays within conversation distance at zoom 4: D13
+PASS: Dialogue filtering is read-only: D0
+PASS: Dialogue filtering is read-only: D1
+PASS: Dialogue filtering is read-only: D2
+PASS: Removed choice really has no callback state effect: D2/talk
+PASS: Dialogue filtering is read-only: D3
+PASS: Dialogue filtering is read-only: D4
+PASS: Dialogue filtering is read-only: D5
+PASS: Dialogue filtering is read-only: D6
+PASS: Dialogue filtering is read-only: D7
+PASS: Dialogue filtering is read-only: D8
+PASS: Dialogue filtering is read-only: D9
+PASS: Dialogue filtering is read-only: D10
+PASS: Removed choice really has no callback state effect: D10/talk
+PASS: Dialogue filtering is read-only: D11
+PASS: Dialogue filtering is read-only: D12
+PASS: Dialogue filtering is read-only: D13
+PASS: Removed choice really has no callback state effect: D13/talk
+PASS: Dialogue filtering is read-only: D14
+PASS: Dialogue filtering is read-only: D15
+PASS: Dialogue filtering is read-only: D16
+PASS: Dialogue filtering is read-only: D17
+PASS: Dialogue filtering is read-only: D18
+PASS: Dialogue filtering is read-only: D19
+PASS: Dialogue filtering is read-only: D20
+PASS: Dialogue filtering is read-only: D21
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Every assigned NPC has its real map actor: G3
+PASS: Actual NPC foot stays within conversation distance at zoom 1: G3
+PASS: Every assigned NPC has its real map actor: G9
+PASS: Actual NPC foot stays within conversation distance at zoom 1: G9
+PASS: Every assigned NPC has its real map actor: G14
+PASS: Actual NPC foot stays within conversation distance at zoom 1: G14
+PASS: Every assigned NPC has its real map actor: G3
+PASS: Actual NPC foot stays within conversation distance at zoom 2: G3
+PASS: Every assigned NPC has its real map actor: G9
+PASS: Actual NPC foot stays within conversation distance at zoom 2: G9
+PASS: Every assigned NPC has its real map actor: G14
+PASS: Actual NPC foot stays within conversation distance at zoom 2: G14
+PASS: Every assigned NPC has its real map actor: G3
+PASS: Actual NPC foot stays within conversation distance at zoom 4: G3
+PASS: Every assigned NPC has its real map actor: G9
+PASS: Actual NPC foot stays within conversation distance at zoom 4: G9
+PASS: Every assigned NPC has its real map actor: G14
+PASS: Actual NPC foot stays within conversation distance at zoom 4: G14
+PASS: Dialogue filtering is read-only: G0
+PASS: Dialogue filtering is read-only: G1
+PASS: Dialogue filtering is read-only: G2
+PASS: Dialogue filtering is read-only: G3
+PASS: Removed choice really has no callback state effect: G3/talk
+PASS: Real pending talk proof remains actionable: G3
+PASS: Real talk callback grants its original proof: G3
+PASS: Dialogue filtering is read-only: G4
+PASS: Dialogue filtering is read-only: G5
+PASS: Dialogue filtering is read-only: G6
+PASS: Dialogue filtering is read-only: G7
+PASS: Removed choice really has no callback state effect: G7/talk
+PASS: Dialogue filtering is read-only: G8
+PASS: Dialogue filtering is read-only: G9
+PASS: Removed choice really has no callback state effect: G9/talk
+PASS: Real pending talk proof remains actionable: G9
+PASS: Real talk callback grants its original proof: G9
+PASS: Dialogue filtering is read-only: G10
+PASS: Dialogue filtering is read-only: G11
+PASS: Dialogue filtering is read-only: G12
+PASS: Dialogue filtering is read-only: G13
+PASS: Dialogue filtering is read-only: G14
+PASS: Real pending talk proof remains actionable: G14
+PASS: Real talk callback grants its original proof: G14
+PASS: Dialogue filtering is read-only: G15
+PASS: Dialogue filtering is read-only: G16
+PASS: Dialogue filtering is read-only: G17
+PASS: Dialogue filtering is read-only: G18
+PASS: Dialogue filtering is read-only: G19
+PASS: Dialogue filtering is read-only: G20
+PASS: Dialogue filtering is read-only: G21
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Every assigned NPC has its real map actor: H2
+PASS: Actual NPC foot stays within conversation distance at zoom 1: H2
+PASS: Every assigned NPC has its real map actor: H4
+PASS: Actual NPC foot stays within conversation distance at zoom 1: H4
+PASS: Every assigned NPC has its real map actor: H17
+PASS: Actual NPC foot stays within conversation distance at zoom 1: H17
+PASS: Every assigned NPC has its real map actor: H18
+PASS: Actual NPC foot stays within conversation distance at zoom 1: H18
+PASS: Every assigned NPC has its real map actor: H10
+PASS: Actual NPC foot stays within conversation distance at zoom 1: H10
+PASS: Every assigned NPC has its real map actor: H14
+PASS: Actual NPC foot stays within conversation distance at zoom 1: H14
+PASS: Every assigned NPC has its real map actor: H2
+PASS: Actual NPC foot stays within conversation distance at zoom 2: H2
+PASS: Every assigned NPC has its real map actor: H4
+PASS: Actual NPC foot stays within conversation distance at zoom 2: H4
+PASS: Every assigned NPC has its real map actor: H17
+PASS: Actual NPC foot stays within conversation distance at zoom 2: H17
+PASS: Every assigned NPC has its real map actor: H18
+PASS: Actual NPC foot stays within conversation distance at zoom 2: H18
+PASS: Every assigned NPC has its real map actor: H10
+PASS: Actual NPC foot stays within conversation distance at zoom 2: H10
+PASS: Every assigned NPC has its real map actor: H14
+PASS: Actual NPC foot stays within conversation distance at zoom 2: H14
+PASS: Every assigned NPC has its real map actor: H2
+PASS: Actual NPC foot stays within conversation distance at zoom 4: H2
+PASS: Every assigned NPC has its real map actor: H4
+PASS: Actual NPC foot stays within conversation distance at zoom 4: H4
+PASS: Every assigned NPC has its real map actor: H17
+PASS: Actual NPC foot stays within conversation distance at zoom 4: H17
+PASS: Every assigned NPC has its real map actor: H18
+PASS: Actual NPC foot stays within conversation distance at zoom 4: H18
+PASS: Every assigned NPC has its real map actor: H10
+PASS: Actual NPC foot stays within conversation distance at zoom 4: H10
+PASS: Every assigned NPC has its real map actor: H14
+PASS: Actual NPC foot stays within conversation distance at zoom 4: H14
+PASS: Dialogue filtering is read-only: H0
+PASS: Dialogue filtering is read-only: H1
+PASS: Dialogue filtering is read-only: H2
+PASS: Removed choice really has no callback state effect: H2/talk
+PASS: Dialogue filtering is read-only: H3
+PASS: Dialogue filtering is read-only: H4
+PASS: Dialogue filtering is read-only: H5
+PASS: Dialogue filtering is read-only: H6
+PASS: Dialogue filtering is read-only: H7
+PASS: Dialogue filtering is read-only: H8
+PASS: Dialogue filtering is read-only: H9
+PASS: Dialogue filtering is read-only: H10
+PASS: Removed choice really has no callback state effect: H10/talk
+PASS: Dialogue filtering is read-only: H11
+PASS: Dialogue filtering is read-only: H12
+PASS: Dialogue filtering is read-only: H13
+PASS: Dialogue filtering is read-only: H14
+PASS: Dialogue filtering is read-only: H15
+PASS: Dialogue filtering is read-only: H16
+PASS: Dialogue filtering is read-only: H17
+PASS: Removed choice really has no callback state effect: H17/talk
+PASS: Dialogue filtering is read-only: H18
+PASS: Removed choice really has no callback state effect: H18/talk
+PASS: Dialogue filtering is read-only: H19
+PASS: Dialogue filtering is read-only: H20
+PASS: Dialogue filtering is read-only: H21
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hue only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hue opening
+PASS: World Map enters the configured hue data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Every assigned NPC has its real map actor: U1
+PASS: Actual NPC foot stays within conversation distance at zoom 1: U1
+PASS: Every assigned NPC has its real map actor: U2
+PASS: Actual NPC foot stays within conversation distance at zoom 1: U2
+PASS: Every assigned NPC has its real map actor: U3
+PASS: Actual NPC foot stays within conversation distance at zoom 1: U3
+PASS: Every assigned NPC has its real map actor: U7
+PASS: Actual NPC foot stays within conversation distance at zoom 1: U7
+PASS: Every assigned NPC has its real map actor: U1
+PASS: Actual NPC foot stays within conversation distance at zoom 2: U1
+PASS: Every assigned NPC has its real map actor: U2
+PASS: Actual NPC foot stays within conversation distance at zoom 2: U2
+PASS: Every assigned NPC has its real map actor: U3
+PASS: Actual NPC foot stays within conversation distance at zoom 2: U3
+PASS: Every assigned NPC has its real map actor: U7
+PASS: Actual NPC foot stays within conversation distance at zoom 2: U7
+PASS: Every assigned NPC has its real map actor: U1
+PASS: Actual NPC foot stays within conversation distance at zoom 4: U1
+PASS: Every assigned NPC has its real map actor: U2
+PASS: Actual NPC foot stays within conversation distance at zoom 4: U2
+PASS: Every assigned NPC has its real map actor: U3
+PASS: Actual NPC foot stays within conversation distance at zoom 4: U3
+PASS: Every assigned NPC has its real map actor: U7
+PASS: Actual NPC foot stays within conversation distance at zoom 4: U7
+PASS: Dialogue filtering is read-only: U0
+PASS: Dialogue filtering is read-only: U1
+PASS: Dialogue filtering is read-only: U2
+PASS: Removed choice really has no callback state effect: U2/talk
+PASS: Dialogue filtering is read-only: U3
+PASS: Removed choice really has no callback state effect: U3/talk
+PASS: Dialogue filtering is read-only: U4
+PASS: Dialogue filtering is read-only: U5
+PASS: Dialogue filtering is read-only: U6
+PASS: Dialogue filtering is read-only: U7
+PASS: Removed choice really has no callback state effect: U7/talk
+PASS: Dialogue filtering is read-only: U8
+PASS: Dialogue filtering is read-only: U9
+PASS: Dialogue filtering is read-only: U10
+PASS: Dialogue filtering is read-only: U11
+PASS: Dialogue filtering is read-only: U12
+PASS: Dialogue filtering is read-only: U14
+PASS: Dialogue filtering is read-only: U15
+PASS: Dialogue filtering is read-only: U16
+PASS: Dialogue filtering is read-only: U17
+PASS: Dialogue filtering is read-only: U18
+PASS: Dialogue filtering is read-only: U19
+PASS: Dialogue filtering is read-only: U20
+PASS: Dialogue filtering is read-only: U21
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Every assigned NPC has its real map actor: J15
+PASS: Actual NPC foot stays within conversation distance at zoom 1: J15
+PASS: Every assigned NPC has its real map actor: J2
+PASS: Actual NPC foot stays within conversation distance at zoom 1: J2
+PASS: Every assigned NPC has its real map actor: J4
+PASS: Actual NPC foot stays within conversation distance at zoom 1: J4
+PASS: Every assigned NPC has its real map actor: J5
+PASS: Actual NPC foot stays within conversation distance at zoom 1: J5
+PASS: Every assigned NPC has its real map actor: J16
+PASS: Actual NPC foot stays within conversation distance at zoom 1: J16
+PASS: Every assigned NPC has its real map actor: J15
+PASS: Actual NPC foot stays within conversation distance at zoom 2: J15
+PASS: Every assigned NPC has its real map actor: J2
+PASS: Actual NPC foot stays within conversation distance at zoom 2: J2
+PASS: Every assigned NPC has its real map actor: J4
+PASS: Actual NPC foot stays within conversation distance at zoom 2: J4
+PASS: Every assigned NPC has its real map actor: J5
+PASS: Actual NPC foot stays within conversation distance at zoom 2: J5
+PASS: Every assigned NPC has its real map actor: J16
+PASS: Actual NPC foot stays within conversation distance at zoom 2: J16
+PASS: Every assigned NPC has its real map actor: J15
+PASS: Actual NPC foot stays within conversation distance at zoom 4: J15
+PASS: Every assigned NPC has its real map actor: J2
+PASS: Actual NPC foot stays within conversation distance at zoom 4: J2
+PASS: Every assigned NPC has its real map actor: J4
+PASS: Actual NPC foot stays within conversation distance at zoom 4: J4
+PASS: Every assigned NPC has its real map actor: J5
+PASS: Actual NPC foot stays within conversation distance at zoom 4: J5
+PASS: Every assigned NPC has its real map actor: J16
+PASS: Actual NPC foot stays within conversation distance at zoom 4: J16
+PASS: Dialogue filtering is read-only: J0
+PASS: Dialogue filtering is read-only: J1
+PASS: Dialogue filtering is read-only: J2
+PASS: Removed choice really has no callback state effect: J2/talk
+PASS: Dialogue filtering is read-only: J3
+PASS: Dialogue filtering is read-only: J4
+PASS: Removed choice really has no callback state effect: J4/talk
+PASS: Dialogue filtering is read-only: J5
+PASS: Removed choice really has no callback state effect: J5/talk
+PASS: Real pending talk proof remains actionable: J5
+PASS: Real talk callback grants its original proof: J5
+PASS: Dialogue filtering is read-only: J6
+PASS: Dialogue filtering is read-only: J7
+PASS: Dialogue filtering is read-only: J8
+PASS: Dialogue filtering is read-only: J9
+PASS: Dialogue filtering is read-only: J10
+PASS: Dialogue filtering is read-only: J11
+PASS: Dialogue filtering is read-only: J12
+PASS: Dialogue filtering is read-only: J13
+PASS: Dialogue filtering is read-only: J14
+PASS: Dialogue filtering is read-only: J15
+PASS: Dialogue filtering is read-only: J16
+PASS: Dialogue filtering is read-only: J17
+PASS: Dialogue filtering is read-only: J18
+PASS: Dialogue filtering is read-only: J19
+PASS: Dialogue filtering is read-only: J20
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Every assigned NPC has its real map actor: S2
+PASS: Actual NPC foot stays within conversation distance at zoom 1: S2
+PASS: Every assigned NPC has its real map actor: S7
+PASS: Actual NPC foot stays within conversation distance at zoom 1: S7
+PASS: Every assigned NPC has its real map actor: S11
+PASS: Actual NPC foot stays within conversation distance at zoom 1: S11
+PASS: Every assigned NPC has its real map actor: S2
+PASS: Actual NPC foot stays within conversation distance at zoom 2: S2
+PASS: Every assigned NPC has its real map actor: S7
+PASS: Actual NPC foot stays within conversation distance at zoom 2: S7
+PASS: Every assigned NPC has its real map actor: S11
+PASS: Actual NPC foot stays within conversation distance at zoom 2: S11
+PASS: Every assigned NPC has its real map actor: S2
+PASS: Actual NPC foot stays within conversation distance at zoom 4: S2
+PASS: Every assigned NPC has its real map actor: S7
+PASS: Actual NPC foot stays within conversation distance at zoom 4: S7
+PASS: Every assigned NPC has its real map actor: S11
+PASS: Actual NPC foot stays within conversation distance at zoom 4: S11
+PASS: Dialogue filtering is read-only: S0
+PASS: Dialogue filtering is read-only: S1
+PASS: Dialogue filtering is read-only: S2
+PASS: Removed choice really has no callback state effect: S2/talk
+PASS: Dialogue filtering is read-only: S3
+PASS: Dialogue filtering is read-only: S4
+PASS: Dialogue filtering is read-only: S5
+PASS: Dialogue filtering is read-only: S6
+PASS: Dialogue filtering is read-only: S7
+PASS: Removed choice really has no callback state effect: S7/talk
+PASS: Dialogue filtering is read-only: S8
+PASS: Dialogue filtering is read-only: S9
+PASS: Dialogue filtering is read-only: S10
+PASS: Dialogue filtering is read-only: S11
+PASS: Real pending talk proof remains actionable: S11
+PASS: Real talk callback grants its original proof: S11
+PASS: Dialogue filtering is read-only: S12
+PASS: Dialogue filtering is read-only: S13
+PASS: Dialogue filtering is read-only: S14
+PASS: Real pending talk proof remains actionable: S14
+PASS: Real talk callback grants its original proof: S14
+PASS: Dialogue filtering is read-only: S15
+PASS: Dialogue filtering is read-only: S16
+PASS: Dialogue filtering is read-only: S17
+PASS: Dialogue filtering is read-only: S18
+PASS: Dialogue filtering is read-only: S19
+PASS: Dialogue filtering is read-only: S20
+PASS: Removed choice really has no callback state effect: S20/talk
+PASS: Dialogue filtering is read-only: S21
+PASS: Dialogue filtering is read-only: S22
+PASS: Whole assigned NPC set and both redundant/meaningful callbacks were exercised
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Priority-H10-near-npc
+PASS: Actual node interaction still opens a closable conversation: H10
+PASS: Fresh runtime capture written: Priority-H10-dialogue
+PASS: Closing conversation restores map input: H10
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting gyeongju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the gyeongju opening
+PASS: World Map enters the configured gyeongju data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target G14 is discovered
+PASS: Lumi reaches G14 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: Priority-G14-near-npc
+PASS: Actual node interaction still opens a closable conversation: G14
+PASS: Fresh runtime capture written: Priority-G14-dialogue
+PASS: Closing conversation restores map input: G14
+PASS: Persist checkpoint Priority-earned
+ALL CHECKS PASSED

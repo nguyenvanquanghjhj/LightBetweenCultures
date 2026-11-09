@@ -1,0 +1,21 @@
+{
+  "scope": "Exact relevant files only; no full-project hash/backup scan",
+  "filesChecked": 12,
+  "unchanged": true,
+  "sha256": {
+    "Assets/_Game/Resources/Content/GameplayContent.json": "435a9255afedc5884f5031f770230c46f4f071ac3246f62ab766691960c3b4b9",
+    "Assets/_Game/Resources/Content/AdventurePresentation.json": "b1e256e02085b4b5259537335242d35f05f847762e4e3db982f6c88ed4a21cce",
+    "Assets/_Game/Resources/HoiAnData.json": "aa52eb4268677af3391542a172bc268b39c04ecf5078cacbc3f5959a589a0da6",
+    "Assets/_Game/Resources/AdventureUIArt.asset": "d5a1a906282240bd0cf09c1af7b49b181ba9a3ca7e48532ab840c951fe84a55f",
+    "Assets/_Game/Scenes/HoiAnDemo.unity": "447289dcf5765496e04cc8fea316687e3428f592b5f2eef69083e6373106e37e",
+    "Assets/_Game/Scripts/Content/ContentDefinitions.cs": "4ba55851889214e9de1b11e99bb6adeb8b7806b8851dbccde54b4263e3321edb",
+    "Assets/_Game/Scripts/Content/PuzzleManager.cs": "7f167ac46968c9ccbcb8ac94c7adcc0719504b76bcde16adac3e4588cba01697",
+    "Assets/_Game/Scripts/Content/NodeEventManager.cs": "f5948bdefd3fd58c1747b728e538fd506186d9a6cc0be7478fbffa882c2c830f",
+    "Assets/_Game/Scripts/Core/SaveSystem.cs": "5ddd7ad4d0d8ef15de6c405051d87f259c4faf922f528f0cf5a5055a23fcdaf5",
+    "Assets/_Game/Scripts/Core/WorldState.cs": "b6a5dc8efa118a5f4fce578e08455705bbfccefd4dcf063853eb658589249bae",
+    "Assets/_Game/Scripts/UI/GameplayPanels.cs": "47ebaef46521c457d20f550c32057eb4f6a830476a46a748f3c71111bca769b9",
+    "Docs/Puzzles/LBC_Puzzle_Bank_20261017/LBC_GENERAL_PUZZLE_BANK_V1.json": "d032550def1115e73084accda2390f76227eff5b89c48fe39bc0ca14d6016681"
+  },
+  "productionChanges": [],
+  "saveFilesAccessed": false
+}

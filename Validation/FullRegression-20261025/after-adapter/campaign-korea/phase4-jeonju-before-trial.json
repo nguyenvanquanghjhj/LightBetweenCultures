@@ -1,0 +1,171 @@
+{
+    "version": 2,
+    "cityId": "jeonju",
+    "node": 2,
+    "previousNode": 7,
+    "visited": [
+        0,
+        2,
+        3,
+        7
+    ],
+    "accepted": [
+        "mai-lantern",
+        "HQ01",
+        "HQ04",
+        "JQ01"
+    ],
+    "completed": [
+        "mai-lantern",
+        "HQ01",
+        "HQ04"
+    ],
+    "items": [
+        "healing_tea",
+        "healing_tea",
+        "copper_wire",
+        "hoi_an_bridge_postcard",
+        "healing_tea",
+        "hanji_pattern_1"
+    ],
+    "collected": [
+        "lantern-part"
+    ],
+    "flags": [
+        "relic.proof.fragment_hoi_an_bamboo_frame",
+        "relic.fragment.fragment_hoi_an_bamboo_frame",
+        "quest:HQ01",
+        "hoi_an.lamp_eye_found",
+        "lantern-lit",
+        "relic.proof.fragment_hoi_an_eye_reflection",
+        "relic.fragment.fragment_hoi_an_eye_reflection",
+        "hoi_an.market_puzzle_solved",
+        "relic.proof.fragment_hoi_an_old_flower_paper",
+        "relic.fragment.fragment_hoi_an_old_flower_paper",
+        "relic.proof.fragment_hoi_an_roof_hook",
+        "relic.fragment.fragment_hoi_an_roof_hook",
+        "relic.assembled.relic_hoi_an_lantern",
+        "hoi_an.hanji_core_obtained",
+        "hoi_an.mo01_hack_code",
+        "hoi_an.mo01_disabled",
+        "hoi_an.lamp_restored",
+        "city.hue.unlocked",
+        "city.jeonju.unlocked",
+        "hoi_an.crab_resolved",
+        "quest:HQ04",
+        "hoi_an.ferry_available",
+        "relic.trial.relic_hoi_an_lantern",
+        "relic.restored.relic_hoi_an_lantern",
+        "checkin.hoi_an.h6",
+        "photo.v1.hoi_an.h6",
+        "photo.v1.hoi_an.h6.illuminated",
+        "quest:JQ01",
+        "relic.proof.fragment_jeonju_hanok_pattern",
+        "relic.fragment.fragment_jeonju_hanok_pattern",
+        "relic.proof.fragment_jeonju_greeting_stamp",
+        "relic.fragment.fragment_jeonju_greeting_stamp",
+        "jeonju.dye_restored",
+        "relic.proof.fragment_jeonju_dyed_thread",
+        "relic.fragment.fragment_jeonju_dyed_thread",
+        "relic.proof.fragment_jeonju_old_hanji_core",
+        "relic.fragment.fragment_jeonju_old_hanji_core",
+        "relic.assembled.relic_jeonju_hanji_stamp"
+    ],
+    "resolvedEvents": [
+        "hoi_an:enemy_mo01",
+        "hoi_an:enemy_crab",
+        "hoi_an:npc_boatman"
+    ],
+    "defeatedEnemies": [],
+    "solvedPuzzles": [
+        "puzzle_market",
+        "puzzle_paper",
+        "puzzle_pottery",
+        "puzzle_dye",
+        "puzzle_hanji"
+    ],
+    "choices": [
+        "hoi_an:enemy_mo01:hack",
+        "hoi_an:enemy_crab:bait"
+    ],
+    "rewardGrantIds": [
+        "relic:v1:claim:fragment_hoi_an_bamboo_frame",
+        "quest-accept:HQ01:healing_tea",
+        "h3-lamp-eye",
+        "relic:v1:claim:fragment_hoi_an_eye_reflection",
+        "relic:v1:claim:fragment_hoi_an_old_flower_paper",
+        "relic:v1:claim:fragment_hoi_an_roof_hook",
+        "puzzle:puzzle_paper:hanji_core",
+        "encounter:hoi_an:enemy_mo01:link_key",
+        "shop:v1:purchase:61785e5aaa3d4547a922ebb3aada8bf3",
+        "encounter:hoi_an:enemy_crab:copper_wire",
+        "checkin:hoi_an.h6",
+        "checkin:hoi_an.h6:hoi_an_bridge_postcard",
+        "relic:v1:claim:fragment_jeonju_hanok_pattern",
+        "relic:v1:claim:fragment_jeonju_greeting_stamp",
+        "puzzle:puzzle_dye:healing_tea",
+        "relic:v1:claim:fragment_jeonju_dyed_thread",
+        "puzzle:puzzle_hanji:hanji_pattern_1",
+        "relic:v1:claim:fragment_jeonju_old_hanji_core"
+    ],
+    "leisureCompleted": [],
+    "cityProgress": [
+        {
+            "cityId": "da_lat",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "gyeongju",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "hoi_an",
+            "node": 6,
+            "stage": 4,
+            "visited": [
+                0,
+                2,
+                3,
+                4,
+                10,
+                13,
+                19,
+                5,
+                7,
+                12,
+                17,
+                6
+            ]
+        },
+        {
+            "cityId": "hue",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        },
+        {
+            "cityId": "jeonju",
+            "node": 2,
+            "stage": 1,
+            "visited": [
+                0,
+                2,
+                3,
+                7
+            ]
+        },
+        {
+            "cityId": "seoul",
+            "node": 0,
+            "stage": 0,
+            "visited": []
+        }
+    ],
+    "playerHP": 100,
+    "lightEnergy": 3,
+    "coins": 146
+}

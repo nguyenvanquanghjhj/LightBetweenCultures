@@ -1,0 +1,107 @@
+using System;
+using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace LightBetweenCultures
+{
+    // Presentation over the existing CheckInDefinition flags and transaction.
+    // No separate collection state, event handler, save data or manager.
+    public sealed partial class GameplayPanels
+    {
+        RectTransform PhotoSheet(string name,string title,string subtitle,out float width,out float height)
+        {
+            Clear();Canvas.ForceUpdateCanvases();
+            var scale=DisplayScale;width=Mathf.Min(720,ui.Root.rect.width/scale-24);height=Mathf.Min(920,ui.Root.rect.height/scale-32);
+            overlay=ui.Panel(ui.Root,"GameplayOverlay",Vector2.zero,Vector2.one,new Color(.02f,.06f,.10f,.65f));
+            var sheet=MobileUI.Frame(ui,overlay,name,new Vector2(.5f,.5f),new Vector2(.5f,.5f),AdventureUIArt.Load().window,2.8f);
+            sheet.sizeDelta=new Vector2(width,height);sheet.localScale=Vector3.one*scale;
+            var heading=ui.Label(sheet,"PhotoHeading",title,Vector2.zero,Vector2.zero,22,false);heading.color=DesignKitArt.Ink;Place(heading.rectTransform,24,12,width-104,58);
+            var city=ui.Label(sheet,"PhotoCity",subtitle,Vector2.zero,Vector2.zero,15,false);city.color=DesignKitArt.Teal;Place(city.rectTransform,24,74,width-48,26);
+            var exit=MobileUI.IconButton(ui,sheet,"PhotoExit","",Vector2.zero,Vector2.zero,Close,AdventureSymbol.Close);Place((RectTransform)exit.transform,width-76,16,52,52);
+            sheet.gameObject.AddComponent<PortraitPresence>().slide=true;
+            return sheet;
+        }
+        RawImage PostcardImage(Transform parent,string name,CheckInDefinition entry,Vector2 min,Vector2 max)
+        {
+            var viewport=ui.Panel(parent,name+"Viewport",min,max,new Color(.06f,.15f,.17f,1));viewport.GetComponent<Image>().raycastTarget=false;
+            var picture=new GameObject(name,typeof(RectTransform),typeof(RawImage)).GetComponent<RawImage>();picture.rectTransform.SetParent(viewport,false);UIController.SetRect(picture.rectTransform,Vector2.zero,Vector2.one);picture.raycastTarget=false;
+            var image=AdventureUIArt.Load().CheckIn(entry.id);
+            if(image?.sprite!=null)
+            {
+                picture.texture=image.sprite.texture;picture.uvRect=image.viewUV;
+                var aspect=picture.gameObject.AddComponent<AspectRatioFitter>();aspect.aspectMode=AspectRatioFitter.AspectMode.FitInParent;
+                aspect.aspectRatio=picture.texture.width*image.viewUV.width/(picture.texture.height*image.viewUV.height);
+            }
+            return picture;
+        }
+        void ShowCheckIn(int node,bool newlyRecorded,bool offer=false)
+        {
+            var entry=game.Events.CheckInAt(node);if(entry==null)return;
+            if(entry.id=="hoi_an.h6"){ShowLegacyCheckIn(node,newlyRecorded,offer);return;}
+            ShowScenery(entry,offer?node:-1,newlyRecorded,-1);
+        }
+        void ShowScenery(CheckInDefinition entry,int recordNode,bool newlyRecorded,int albumCity)
+        {
+            var recorded=game.World.Has(entry.completionFlag);
+            // An album is read-only. Unrecorded entries cannot be opened through it.
+            if(albumCity>=0&&!recorded){ShowPhotoJournal(albumCity);return;}
+            var sheet=PhotoSheet("CheckInPanel",entry.title,game.Content.City(entry.cityId).name+" · Tranh minh họa",out var width,out var height);
+            var picture=PostcardImage(sheet,"CheckInIllustration",entry,new Vector2(0,0),new Vector2(1,1));
+            Place((RectTransform)picture.transform.parent,24,110,width-48,height-324);
+            var description=AdventureUIArt.Load().CheckIn(entry.id)?.description??entry.description;
+            if(entry.id=="hoi_an.h6")
+            {if(game.Relics.PhotoRecorded)description=game.Relics.Story("photo:stored",description);}
+            else description=game.Relics.Story("checkin:"+entry.nodeId,description,entry.cityId);
+            var body=ui.Label(sheet,"CheckInDescription",description,Vector2.zero,Vector2.zero,17,false);body.color=DesignKitArt.Ink;body.alignment=TextAnchor.UpperLeft;Place(body.rectTransform,24,height-202,width-48,100);
+            if(entry.cityId!="hoi_an")
+            {
+                // Reactive side narration can exceed the original short caption.
+                // Keep the postcard and controls fixed; scroll only this caption.
+                var viewport=ui.Panel(sheet,"CheckInDescriptionViewport",Vector2.zero,Vector2.zero,Color.clear);
+                Place(viewport,24,height-202,width-48,100);viewport.gameObject.AddComponent<RectMask2D>();
+                body.rectTransform.SetParent(viewport,false);UIController.SetRect(body.rectTransform,new Vector2(0,1),Vector2.one);
+                body.rectTransform.pivot=new Vector2(.5f,1);body.rectTransform.sizeDelta=new Vector2(-8,0);
+                body.rectTransform.anchoredPosition=Vector2.zero;body.verticalOverflow=VerticalWrapMode.Overflow;
+                body.gameObject.AddComponent<ContentSizeFitter>().verticalFit=ContentSizeFitter.FitMode.PreferredSize;
+                var scroll=viewport.gameObject.AddComponent<ScrollRect>();scroll.viewport=viewport;scroll.content=body.rectTransform;
+                scroll.horizontal=false;scroll.movementType=ScrollRect.MovementType.Clamped;scroll.scrollSensitivity=24;
+            }
+            var label=ui.Label(sheet,"CheckInReward",recorded?(newlyRecorded?"Đã ghi dấu · +"+entry.rewardCoins+" xu":"Bưu thiếp đã lưu · Xem lại không nhận thưởng"):"Quan sát phong cảnh · Ghi dấu để lưu bưu thiếp",Vector2.zero,Vector2.zero,15,false);label.color=DesignKitArt.Teal;Place(label.rectTransform,24,height-98,width-48,28);
+            if(!recorded&&recordNode>=0&&game.Events.CanCheckIn(recordNode))
+            {
+                var record=MobileUI.Button(ui,sheet,"CheckInRecord","Ghi dấu địa danh",Vector2.zero,Vector2.zero,()=>Execute(recordNode,"checkin",true),true,true);Place((RectTransform)record.transform,24,height-64,(width-56)*.63f,48);MobileUI.Cue(record,AdventureSymbol.Camera);
+            }
+            var exit=MobileUI.Button(ui,sheet,albumCity>=0?"PhotoBackToJournal":"CheckInClose",albumCity>=0?"Về sổ ảnh":recorded?"Trở lại hành trình":"Để sau",Vector2.zero,Vector2.zero,()=>{if(albumCity>=0)ShowPhotoJournal(albumCity);else Close();},illustrated:true);
+            Place((RectTransform)exit.transform,!recorded&&recordNode>=0?32+(width-56)*.63f:24,height-64,!recorded&&recordNode>=0?(width-56)*.37f:width-48,48);MobileUI.Cue(exit,AdventureSymbol.Close);
+        }
+        public void ShowPhotoJournal(int cityPage=-1)
+        {
+            var cities=game.Content.cities;var selected=cityPage<0?Array.FindIndex(cities,c=>c.id==game.Data.cityId):cityPage;selected=Mathf.Clamp(selected,0,cities.Length-1);
+            var city=cities[selected];var entries=game.Content.checkIns.Where(c=>c.cityId==city.id).ToArray();
+            var sheet=PhotoSheet("PhotoJournalPanel","SỔ ẢNH VĂN HÓA",game.Content.checkIns.Count(c=>game.World.Has(c.completionFlag))+" / "+game.Content.checkIns.Length+" bưu thiếp đã ghi dấu",out var width,out var height);
+            for(var i=0;i<cities.Length;i++)
+            {
+                var page=i;var tab=MobileUI.Button(ui,sheet,"PhotoCity_"+cities[i].id,cities[i].name,Vector2.zero,Vector2.zero,()=>ShowPhotoJournal(page),i==selected,true);
+                Place((RectTransform)tab.transform,24+i%3*(width-44)/3,108+i/3*58,(width-60)/3,52);
+            }
+            var viewport=ui.Panel(sheet,"PhotoJournalViewport",Vector2.zero,Vector2.zero,Color.clear);Place(viewport,24,230,width-48,height-314);viewport.gameObject.AddComponent<RectMask2D>();
+            var content=new GameObject("PhotoJournalGrid",typeof(RectTransform),typeof(GridLayoutGroup),typeof(ContentSizeFitter)).GetComponent<RectTransform>();content.SetParent(viewport,false);UIController.SetRect(content,new Vector2(0,1),Vector2.one);content.pivot=new Vector2(.5f,1);
+            var grid=content.GetComponent<GridLayoutGroup>();grid.constraint=GridLayoutGroup.Constraint.FixedColumnCount;grid.constraintCount=2;grid.cellSize=new Vector2((width-64)/2,244);grid.spacing=new Vector2(12,12);grid.padding=new RectOffset(2,2,6,6);content.GetComponent<ContentSizeFitter>().verticalFit=ContentSizeFitter.FitMode.PreferredSize;
+            var scroll=viewport.gameObject.AddComponent<ScrollRect>();scroll.viewport=viewport;scroll.content=content;scroll.horizontal=false;scroll.movementType=ScrollRect.MovementType.Clamped;scroll.scrollSensitivity=28;
+            var map=GameData.Load(city.id);
+            foreach(var entry in entries)
+            {
+                var recorded=game.World.Has(entry.completionFlag);var node=map.nodes.First(n=>n.id==entry.nodeId);var known=MapDiscoveryManager.Visible(map,node,game.Save)&&game.IsCityUnlocked(city.id);
+                var key=entry;var page=selected;
+                var card=MobileUI.Button(ui,content,"PhotoCard_"+entry.id,"",Vector2.zero,Vector2.one,()=>
+                {if(!game.World.Has(key.completionFlag))return;ShowScenery(key,-1,false,page);},illustrated:true);card.interactable=recorded;
+                var title=card.transform.Find("Label").GetComponent<Text>();title.text=recorded||known?entry.title:"Chưa khám phá";title.fontSize=15;title.color=DesignKitArt.Ink;UIController.SetRect(title.rectTransform,new Vector2(.04f,.11f),new Vector2(.96f,.31f));
+                if(recorded)PostcardImage(card.transform,"PhotoThumbnail",entry,new Vector2(.04f,.33f),new Vector2(.96f,.98f));
+                else{MobileUI.Symbol(card.transform,"PhotoLocked",AdventureSymbol.Camera,new Vector2(.32f,.48f),new Vector2(.68f,.80f),new Color(.2f,.4f,.42f,.35f));}
+                var state=ui.Label(card.transform,"PhotoCardState",recorded?"✓ Đã lưu":known?"Chưa ghi dấu":"Chưa khám phá",new Vector2(.04f,.015f),new Vector2(.96f,.11f),13,false);state.color=DesignKitArt.Teal;
+            }
+            var exit=MobileUI.Button(ui,sheet,"PhotoJournalClose","Trở lại hành trình",Vector2.zero,Vector2.zero,Close,true,true);Place((RectTransform)exit.transform,24,height-68,width-48,52);MobileUI.Cue(exit,AdventureSymbol.Close);
+        }
+    }
+}

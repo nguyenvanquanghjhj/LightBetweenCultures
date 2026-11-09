@@ -1,0 +1,13 @@
+{
+  "apk": "Builds\\Android\\LightBetweenCultures-FinalUX-20261023.apk",
+  "bytes": 286412770,
+  "sha256": "844b1807460af672bdf79c8361e24ad7145020a5d21d2f3033aa7d92b85f07fe",
+  "zipEntries": 706,
+  "zipCRC": "PASS",
+  "sourceRestoredAfterAndroidBuild": "PASS",
+  "matchedSourceInputs": 888,
+  "signature": "APK_V2_VERIFIED",
+  "package": "com.DefaultCompany.LightBetweenCultures",
+  "versionName": "1.0-ux20261023",
+  "versionCode": 5
+}

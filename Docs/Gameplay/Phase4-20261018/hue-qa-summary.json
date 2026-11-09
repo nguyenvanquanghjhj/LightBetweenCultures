@@ -1,0 +1,17 @@
+[
+  {
+    "run": "hue01",
+    "checks": 117,
+    "result": "PASS"
+  },
+  {
+    "run": "hue-restart-A",
+    "checks": 21,
+    "result": "PASS"
+  },
+  {
+    "run": "hue-restart-C",
+    "checks": 21,
+    "result": "PASS"
+  }
+]

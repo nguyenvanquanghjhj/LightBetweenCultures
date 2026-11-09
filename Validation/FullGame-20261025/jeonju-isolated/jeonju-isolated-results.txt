@@ -1,0 +1,45 @@
+UTC run: 2026-10-25T06:24:16.6300351Z | Unity 6000.6.5f1 | 1280x960
+PASS: City relic enabled in shared registry: jeonju
+PASS: City changes go through the actual World Map
+PASS: Selecting jeonju only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the jeonju opening
+PASS: Fresh runtime capture written: X-WorldMap-select-jeonju
+PASS: World Map enters the configured jeonju data in the existing CityMap scene
+PASS: Four gestures give four unique collection claims, not story rewards
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J2 is discovered
+PASS: Lumi reaches J2 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Dialogue choice relic_restore:relic_jeonju_hanji_stamp has a real receipt/next/interact control
+PASS: Empty slots do not assemble relic_jeonju_hanji_stamp
+PASS: Fresh runtime capture written: P4-jeonju-assembly
+PASS: Assembly is distinct from restored state
+PASS: Persist checkpoint phase4-jeonju-assembled
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: P4-jeonju-A-before-restored
+PASS: Persist checkpoint phase4-jeonju-before-trial
+PASS: Dialogue choice relic_restore:relic_jeonju_hanji_stamp has a real receipt/next/interact control
+PASS: Actual city restoration uses its distinct tactile rule: hanji
+PASS: Wrong trial submission cannot restore relic_jeonju_hanji_stamp
+PASS: Fresh runtime capture written: P4-jeonju-trial-wrong
+PASS: Hint/retry preserve earned assembly and four fragments without solving
+PASS: Real mouse/touch controls satisfy hanji trial
+PASS: Fresh runtime capture written: P4-jeonju-trial-correct-before-confirm
+PASS: Correct arrangement alone cannot auto-confirm restoration
+PASS: Explicit trial confirmation commits restored state once: relic_jeonju_hanji_stamp
+PASS: Fresh runtime capture written: P4-jeonju-celebration
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: P4-jeonju-C-restored
+PASS: World restoration preserves main quests, inventory, coins and reward ledger
+PASS: Actual map restoration layer is present and cannot block touch
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target J2 is discovered
+PASS: Lumi reaches J2 through the real map input
+PASS: NPC/runtime side dialogue recognizes actual restoration
+PASS: Closing an event or battle returns map input to the player
+PASS: Fresh runtime capture written: P4-jeonju-collection
+PASS: Existing collection opens all four fragment details without travel or grants
+PASS: Fresh runtime capture written: P4-jeonju-four-fragments
+PASS: No schema upgrade, boss/ending/world progress change from relic restoration
+PASS: Persist checkpoint phase4-jeonju-final
+ALL CHECKS PASSED

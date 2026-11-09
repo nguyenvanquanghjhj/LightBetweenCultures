@@ -1,0 +1,23 @@
+[
+  {
+    "npcId": "npc_hana",
+    "oldAsset": "Assets\\_Game\\Art\\Characters\\NPC\\Shared\\NPC_TransparentAtlas.png",
+    "oldLocalID": "-730319472",
+    "oldGUID": "c6176fa957f7eb549b9b40703e5038ea",
+    "status": "PREPARED_NOT_BOUND"
+  },
+  {
+    "npcId": "npc_nguyet",
+    "oldAsset": "Assets\\_Game\\Art\\Characters\\NPC\\Hue\\npc_nguyet.png",
+    "oldLocalID": "-1004916199",
+    "oldGUID": "48a2e6c60f7ec0349befacea7c60e927",
+    "status": "NEW_SOURCE_REQUIRED"
+  },
+  {
+    "npcId": "npc_elder",
+    "oldAsset": "Assets\\_Game\\Art\\Characters\\NPC\\Jeonju\\npc_elder.png",
+    "oldLocalID": "245854044",
+    "oldGUID": "9e2ba05a32d628045ae4dce1b7b1cb19",
+    "status": "PREPARED_NOT_BOUND"
+  }
+]

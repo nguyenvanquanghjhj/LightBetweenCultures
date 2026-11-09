@@ -1,0 +1,12 @@
+UTC run: 2026-11-07T17:01:11.2871192Z | Unity 6000.6.5f1 | 540x960
+PASS: PC separate process reloads the real six-relic ending save
+PASS: PC restart preserves exact currency, HP, energy, consumed inventory, quests and receipts
+PASS: City changes go through the actual World Map
+PASS: Selecting seoul only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the seoul opening
+PASS: Fresh runtime capture written: X-WorldMap-select-seoul
+PASS: World Map enters the configured seoul data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: PC reloaded ending save permits map input
+PASS: Fresh runtime capture written: PC-SaveReload
+ALL CHECKS PASSED

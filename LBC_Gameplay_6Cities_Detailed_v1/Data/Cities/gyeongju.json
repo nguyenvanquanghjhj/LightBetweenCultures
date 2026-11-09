@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "design_only": true,
+  "city_id": "gyeongju",
+  "city_name": "Gyeongju",
+  "map_background_relative_to_NEW_ART_PACK": "Maps/Gyeongju/Map_Overview_A.png",
+  "spawn_node_id": "G0",
+  "city_completion_flag": "gyeongju.beacon_lit",
+  "visual_identity": "Gò mộ Silla – đài thiên văn – đá cổ",
+  "coordinate_system": {
+    "origin": "top_left",
+    "x_range": [
+      0,
+      1000
+    ],
+    "y_range": [
+      0,
+      1000
+    ],
+    "note": "x,y are approximate 2D design anchors; manual adjust for actual walkable road; normalized UI position = (x/1000,y/1000), Unity world y often inverted."
+  },
+  "city_story": {
+    "opening": "Các ký hiệu sao trong di tích Silla bị nhiễu. Một số tượng đá tự chuyển động, còn bản chỉ dẫn bị cắt đôi giữa Gyeongju và Huế.",
+    "main": "Giúp hướng dẫn viên Min G3: lấy ký hiệu ở G5, G6, G10, rồi xếp lên đài G4; đọc Ấn Tín Cổ Huế để mở bệ G12; vượt tượng G7 và boss G18, thắp trạm G19.",
+    "twist": "Tượng đá không phải nguồn ác; nó bảo vệ đài thiên văn khỏi lõi nhiễu. Khi người chơi chọn sửa cơ cấu thay vì đánh, tượng đá trở thành NPC hỗ trợ.",
+    "end": "Nếu cả Huế, Đà Lạt, Jeonju và Gyeongju hoàn thành, Seoul được mở."
+  },
+  "nodes": [
+    {
+      "id": "G0",
+      "name": "Cổng vào làng di tích",
+      "x": 284,
+      "y": 832,
+      "kind": "start",
+      "event_id": "intro",
+      "description": "Lumi bắt đầu giữa mái nhà đá",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "G1",
+      "name": "Cầu lối bắc",
+      "x": 450,
+      "y": 695,
+      "kind": "junction",
+      "event_id": "north_bridge",
+      "description": "Cầu nối từ làng tới di tích",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "G2",
+      "name": "Đình ao sen",
+      "x": 213,
+      "y": 492,
+      "kind": "puzzle",
+      "event_id": "puzzle_pond",
+      "description": "Quan sát phản chiếu để lấy manh mối",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "G3",
+      "name": "Nhà khảo cổ Min",
+      "x": 406,
+      "y": 257,
+      "kind": "npc",
+      "event_id": "npc_min",
+      "description": "Nhờ thu thập ba ký hiệu sao",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "G4",
+      "name": "Đài Cheomseongdae cách điệu",
+      "x": 447,
+      "y": 191,
+      "kind": "puzzle",
+      "event_id": "puzzle_observatory",
+      "description": "Xếp tia theo hướng sao",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "G5",
+      "name": "Gò mộ phía tây",
+      "x": 145,
+      "y": 199,
+      "kind": "item",
+      "event_id": "loot_tomb_west",
+      "description": "Tìm ký hiệu sao đầu tiên",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "G6",
+      "name": "Đường giữa các gò",
+      "x": 280,
+      "y": 230,
+      "kind": "enemy",
+      "event_id": "enemy_fox",
+      "description": "Cáo bóng mờ giữ ký hiệu thứ hai",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "G7",
+      "name": "Tượng đá gác lối",
+      "x": 579,
+      "y": 394,
+      "kind": "enemy",
+      "event_id": "enemy_stone_guard",
+      "description": "Thử thách tượng đá",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "G8",
+      "name": "Lối chùa đá",
+      "x": 724,
+      "y": 421,
+      "kind": "junction",
+      "event_id": "stone_path",
+      "description": "Đường dẫn quần thể chùa",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "G9",
+      "name": "Sân chính di tích",
+      "x": 663,
+      "y": 309,
+      "kind": "npc",
+      "event_id": "npc_keeper",
+      "description": "Người giữ di tích đưa gợi ý",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "G10",
+      "name": "Đình trên đồi",
+      "x": 797,
+      "y": 136,
+      "kind": "item",
+      "event_id": "loot_hill",
+      "description": "Ký hiệu sao cuối trên đồi",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "G11",
+      "name": "Vườn đá trung tâm",
+      "x": 484,
+      "y": 507,
+      "kind": "junction",
+      "event_id": "stone_garden",
+      "description": "Đường rẽ ba hướng",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "G12",
+      "name": "Bệ phong ấn nứt",
+      "x": 609,
+      "y": 611,
+      "kind": "puzzle",
+      "event_id": "puzzle_cracked_seal",
+      "description": "Cần chữ sao mang từ Huế",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "G13",
+      "name": "Lính canh đêm",
+      "x": 760,
+      "y": 649,
+      "kind": "enemy",
+      "event_id": "enemy_night_guard",
+      "description": "Bot canh đài thắp sáng",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "wild_path"
+    },
+    {
+      "id": "G14",
+      "name": "Kho bản khắc",
+      "x": 884,
+      "y": 352,
+      "kind": "npc",
+      "event_id": "npc_inscription",
+      "description": "NPC bổ trợ giải câu đố biểu tượng",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "G15",
+      "name": "Thềm điện đá",
+      "x": 706,
+      "y": 271,
+      "kind": "puzzle",
+      "event_id": "puzzle_temple",
+      "description": "Sắp thứ tự ba bóng đổ",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "G16",
+      "name": "Đền dưới hồ",
+      "x": 521,
+      "y": 770,
+      "kind": "item",
+      "event_id": "loot_lake",
+      "description": "Rương hồi phục, cờ cứu hộ",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "G17",
+      "name": "Đài lồng đèn bờ tây",
+      "x": 119,
+      "y": 378,
+      "kind": "puzzle",
+      "event_id": "puzzle_lantern_west",
+      "description": "Khóa thêm phần thưởng nhờ Jeonju",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    },
+    {
+      "id": "G18",
+      "name": "Lõi canh tinh tú",
+      "x": 811,
+      "y": 233,
+      "kind": "boss",
+      "event_id": "enemy_star_core",
+      "description": "Boss đánh theo pha chớp sáng",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "boss_arena"
+    },
+    {
+      "id": "G19",
+      "name": "Trạm cộng hưởng Silla",
+      "x": 558,
+      "y": 229,
+      "kind": "beacon",
+      "event_id": "restore_gyeongju",
+      "description": "Thắp trạm sau giải thiên văn",
+      "visible_when": {
+        "all_flags": []
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "G20",
+      "name": "Cổng đi Seoul",
+      "x": 889,
+      "y": 613,
+      "kind": "portal",
+      "event_id": "portal_seoul",
+      "description": "Hiện sau hai nhánh Việt–Hàn",
+      "visible_when": {
+        "all_flags": [
+          "gyeongju.beacon_lit",
+          "hue.beacon_lit",
+          "da_lat.beacon_lit",
+          "jeonju.beacon_lit"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "safe_zone"
+    },
+    {
+      "id": "G21",
+      "name": "Lối cỏ dược liệu",
+      "x": 104,
+      "y": 763,
+      "kind": "secret",
+      "event_id": "secret_herb",
+      "description": "Rương phụ dưới gốc cây",
+      "visible_when": {
+        "all_flags": [
+          "gyeongju.secret_herb_found"
+        ]
+      },
+      "coordinates_are_approximate": true,
+      "zone": "point_of_interest"
+    }
+  ],
+  "edges": [
+    {
+      "id": "G0__G21",
+      "from": "G0",
+      "to": "G21",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G0__G1",
+      "from": "G0",
+      "to": "G1",
+      "bidirectional": true,
+      "waypoints": [
+        [
+          358,
+          780
+        ],
+        [
+          418,
+          738
+        ]
+      ],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G0__G16",
+      "from": "G0",
+      "to": "G16",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G1__G11",
+      "from": "G1",
+      "to": "G11",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G1__G2",
+      "from": "G1",
+      "to": "G2",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G2__G17",
+      "from": "G2",
+      "to": "G17",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G17__G5",
+      "from": "G17",
+      "to": "G5",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G5__G6",
+      "from": "G5",
+      "to": "G6",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G6__G3",
+      "from": "G6",
+      "to": "G3",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G3__G4",
+      "from": "G3",
+      "to": "G4",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G3__G11",
+      "from": "G3",
+      "to": "G11",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G4__G19",
+      "from": "G4",
+      "to": "G19",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G19__G9",
+      "from": "G19",
+      "to": "G9",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G9__G15",
+      "from": "G9",
+      "to": "G15",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G15__G10",
+      "from": "G15",
+      "to": "G10",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G10__G18",
+      "from": "G10",
+      "to": "G18",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "gyeongju.three_stars_placed"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G18__G14",
+      "from": "G18",
+      "to": "G14",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "gyeongju.star_core_disabled"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G14__G8",
+      "from": "G14",
+      "to": "G8",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G8__G7",
+      "from": "G8",
+      "to": "G7",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G7__G11",
+      "from": "G7",
+      "to": "G11",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G11__G12",
+      "from": "G11",
+      "to": "G12",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G12__G13",
+      "from": "G12",
+      "to": "G13",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G13__G20",
+      "from": "G13",
+      "to": "G20",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [
+        "gyeongju.beacon_lit",
+        "hue.beacon_lit",
+        "da_lat.beacon_lit",
+        "jeonju.beacon_lit"
+      ],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G8__G13",
+      "from": "G8",
+      "to": "G13",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G16__G12",
+      "from": "G16",
+      "to": "G12",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    },
+    {
+      "id": "G2__G11",
+      "from": "G2",
+      "to": "G11",
+      "bidirectional": true,
+      "waypoints": [],
+      "all_flags": [],
+      "travel": "walk",
+      "status": "design_route_must_be_reviewed"
+    }
+  ],
+  "events": [
+    {
+      "id": "intro",
+      "node": "G0",
+      "actor": "Cổng vào làng di tích",
+      "event_type": "Start",
+      "dialogue_open": "",
+      "interaction": "Lumi bắt đầu giữa mái nhà đá",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "north_bridge",
+      "node": "G1",
+      "actor": "Cầu lối bắc",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Cầu nối từ làng tới di tích",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_pond",
+      "node": "G2",
+      "actor": "Đình ao sen",
+      "event_type": "Puzzle",
+      "dialogue_open": "",
+      "interaction": "Quan sát phản chiếu để lấy manh mối",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_min",
+      "node": "G3",
+      "actor": "Hướng dẫn viên Min",
+      "event_type": "NPC",
+      "dialogue_open": "“Ba hình sao là chìa khóa để hiểu đài quan sát.”",
+      "interaction": "Nhận GQ01, có hình minh họa không yêu cầu kiến thức ngoài.",
+      "planned_reward": "quest:GQ01",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "gyeongju.secret_herb_found",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_observatory",
+      "node": "G4",
+      "actor": "Đài Thiên Văn",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Đặt ba nét sao theo tia phản chiếu.”",
+      "interaction": "Cần 3 symbols; nhận stargazer_lens.",
+      "planned_reward": "flag:gyeongju.three_stars_placed|item:stargazer_lens",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "stargazer_lens",
+          "amount_or_value": 1
+        },
+        {
+          "type": "flag",
+          "id": "gyeongju.three_stars_placed",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "inventory.star_symbol_1>=1",
+        "inventory.star_symbol_2>=1",
+        "inventory.star_symbol_3>=1"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_tomb_west",
+      "node": "G5",
+      "actor": "Hốc Đá Bên Gò",
+      "event_type": "Item",
+      "dialogue_open": "“Một ký hiệu mờ ẩn dưới gốc cây.”",
+      "interaction": "Nhặt star_symbol_1.",
+      "planned_reward": "item:star_symbol_1",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "star_symbol_1",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_fox",
+      "node": "G6",
+      "actor": "Cáo Bóng Mờ",
+      "event_type": "Enemy",
+      "dialogue_open": "“Cáo chạy quanh gò đất cùng tấm bia rơi.”",
+      "interaction": "Hạ hoặc dụ bằng đồ ăn để nhận symbol 2.",
+      "planned_reward": "item:star_symbol_2",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "star_symbol_2",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_stone_guard",
+      "node": "G7",
+      "actor": "Tượng Đá Thức Tỉnh",
+      "event_type": "Enemy",
+      "dialogue_open": "“Ta bảo vệ người khám phá khỏi sai lầm của ánh sáng.”",
+      "interaction": "Đàm phán sau câu đố G12 hoặc chiến đấu; kết quả hỗ trợ boss.",
+      "planned_reward": "flag:gyeongju.stone_guard_friend",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "gyeongju.stone_guard_friend",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "stone_path",
+      "node": "G8",
+      "actor": "Lối chùa đá",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Đường dẫn quần thể chùa",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_keeper",
+      "node": "G9",
+      "actor": "Sân chính di tích",
+      "event_type": "Npc",
+      "dialogue_open": "",
+      "interaction": "Người giữ di tích đưa gợi ý",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_hill",
+      "node": "G10",
+      "actor": "Đình Trên Đồi",
+      "event_type": "Item",
+      "dialogue_open": "“Từ đây quan sát được mẫu đèn thứ ba.”",
+      "interaction": "Nhặt star_symbol_3.",
+      "planned_reward": "item:star_symbol_3",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "star_symbol_3",
+          "amount_or_value": 1
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "stone_garden",
+      "node": "G11",
+      "actor": "Vườn đá trung tâm",
+      "event_type": "Junction",
+      "dialogue_open": "",
+      "interaction": "Đường rẽ ba hướng",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_cracked_seal",
+      "node": "G12",
+      "actor": "Bệ Chữ Sao",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Dấu này giống ấn tín mang từ Huế.”",
+      "interaction": "Cần ancient_seal; nhập nhịp ký hiệu đã đọc U17.",
+      "planned_reward": "flag:gyeongju.seal_repaired",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "gyeongju.seal_repaired",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "inventory.ancient_seal>=1"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_night_guard",
+      "node": "G13",
+      "actor": "Lính canh đêm",
+      "event_type": "Enemy",
+      "dialogue_open": "",
+      "interaction": "Bot canh đài thắp sáng",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "npc_inscription",
+      "node": "G14",
+      "actor": "Kho bản khắc",
+      "event_type": "Npc",
+      "dialogue_open": "",
+      "interaction": "NPC bổ trợ giải câu đố biểu tượng",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_temple",
+      "node": "G15",
+      "actor": "Thềm điện đá",
+      "event_type": "Puzzle",
+      "dialogue_open": "",
+      "interaction": "Sắp thứ tự ba bóng đổ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "loot_lake",
+      "node": "G16",
+      "actor": "Đền dưới hồ",
+      "event_type": "Item",
+      "dialogue_open": "",
+      "interaction": "Rương hồi phục, cờ cứu hộ",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "puzzle_lantern_west",
+      "node": "G17",
+      "actor": "Đài Lồng Đèn",
+      "event_type": "Puzzle",
+      "dialogue_open": "“Các ký hiệu hanji làm sáng phần bờ tây.”",
+      "interaction": "Sidequest cần jeonju.beacon_lit, nhận xu & bản vẽ.",
+      "planned_reward": "flag:gyeongju.west_lantern_done",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "enemy_star_core",
+      "node": "G18",
+      "actor": "Lõi Tinh Tú",
+      "event_type": "Boss",
+      "dialogue_open": "“Dữ liệu sao đang quay đảo...”",
+      "interaction": "Boss có nhịp 3 lượt, khiên mở sau tap sao đúng; nhận silla_prism.",
+      "planned_reward": "item:silla_prism|flag:gyeongju.star_core_disabled",
+      "grants_when_completed": [
+        {
+          "type": "item",
+          "id": "silla_prism",
+          "amount_or_value": 1
+        },
+        {
+          "type": "flag",
+          "id": "gyeongju.star_core_disabled",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "restore_gyeongju",
+      "node": "G19",
+      "actor": "Đài Trạm Silla",
+      "event_type": "Beacon",
+      "dialogue_open": "“Ánh sao nối đường đến Seoul.”",
+      "interaction": "Bật trạm cần three_stars_placed + star_core_disabled.",
+      "planned_reward": "flag:gyeongju.beacon_lit",
+      "grants_when_completed": [
+        {
+          "type": "flag",
+          "id": "gyeongju.beacon_lit",
+          "amount_or_value": true
+        }
+      ],
+      "requirements": [
+        "gyeongju.three_stars_placed",
+        "gyeongju.star_core_disabled"
+      ],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "portal_seoul",
+      "node": "G20",
+      "actor": "Cổng đi Seoul",
+      "event_type": "Portal",
+      "dialogue_open": "",
+      "interaction": "Hiện sau hai nhánh Việt–Hàn",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": false,
+      "runtime_status": "design_not_implemented"
+    },
+    {
+      "id": "secret_herb",
+      "node": "G21",
+      "actor": "Lối cỏ dược liệu",
+      "event_type": "Secret",
+      "dialogue_open": "",
+      "interaction": "Rương phụ dưới gốc cây",
+      "planned_reward": "cosmetic_or_unimplemented",
+      "grants_when_completed": [],
+      "requirements": [],
+      "one_shot": true,
+      "runtime_status": "design_not_implemented"
+    }
+  ]
+}

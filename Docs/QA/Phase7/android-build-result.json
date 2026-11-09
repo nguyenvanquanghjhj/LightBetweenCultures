@@ -1,0 +1,8 @@
+﻿{
+    "stoppedUTC":  "2026-10-19T06:42:26.8825713Z",
+    "device":  "ANDROID_DEVICE_NOT_TESTED",
+    "startedUTC":  "2026-10-19T06:29:29Z",
+    "result":  "BLOCKED_TIME_BUDGET",
+    "reason":  "12-minute bounded Android attempt; lengthy first-target import and Sentis shader compilation, then incremental Player build. Native audit completed. No completed APK claimed; not a gameplay failure.",
+    "log":  "Logs/phase7-android-native-audit02.log"
+}

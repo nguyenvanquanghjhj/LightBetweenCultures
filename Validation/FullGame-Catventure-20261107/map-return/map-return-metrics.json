@@ -1,0 +1,20 @@
+{
+    "status": "NOT_REPRODUCED",
+    "firstReturnSeconds": 0.9028177261352539,
+    "reentryReturnSeconds": 0.931640625,
+    "maxFrameMs": 6.961905002593994,
+    "p95FrameMs": 6.956802845001221,
+    "mapLoads": 3,
+    "eyeCount": 1,
+    "busy": false,
+    "inputEnabled": true,
+    "moving": false,
+    "loaded": [
+        "WorldMap",
+        "CityMap",
+        "HoiAnDemo",
+        "CityMap",
+        "HoiAnDemo",
+        "CityMap"
+    ]
+}

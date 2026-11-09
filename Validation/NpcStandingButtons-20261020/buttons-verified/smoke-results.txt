@@ -1,0 +1,33 @@
+UTC run: 2026-10-20T13:56:59.6667352Z | Unity 6000.6.5f1 | 720x1080
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H2 is discovered
+PASS: Lumi reaches H2 through the real map input
+PASS: X declines the offered quest without acceptance, proof or reward
+PASS: Explicit quest acceptance immediately returns to play without duplicate acknowledgement/Next
+PASS: Accept never hands out the quest item
+PASS: Closing an event or battle returns map input to the player
+PASS: City changes go through the actual World Map
+PASS: Selecting hoi_an only previews its destination until Enter is confirmed
+PASS: Earned world flags enable the hoi_an opening
+PASS: World Map enters the configured hoi_an data in the existing CityMap scene
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H10 is discovered
+PASS: Lumi reaches H10 through the real map input
+PASS: Closing an event or battle returns map input to the player
+PASS: Reading the ready food quest then closing X never spends ingredients or grants rewards
+PASS: Only explicit deliver consumes 2 chilli and 1 shallot, preserving canonical reserves
+PASS: Closing an event or battle returns map input to the player
+PASS: Reopening completed NPC cannot duplicate rewards
+PASS: Closing an event or battle returns map input to the player
+PASS: Closing an event or battle returns map input to the player
+PASS: Travel target H3 is discovered
+PASS: Lumi reaches H3 through the real map input
+System.Exception: FAIL: The old 1/2 page button is gone while more than three real actions remain
+  at LightBetweenCultures.GameplaySmokeRunner.Check (System.Boolean condition, System.String message) [0x0003a] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:68 
+  at LightBetweenCultures.GameplaySmokeRunner+<NpcButtonsJourney>d__134.MoveNext () [0x00717] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.NpcStanding.cs:89 
+  at LightBetweenCultures.GameplaySmokeRunner+<Guard>d__275.MoveNext () [0x0004f] in D:\GAMEKKK\LightBetweenCultures\Assets\_Game\Scripts\Validation\GameplaySmokeRunner.cs:76 
+FAILED

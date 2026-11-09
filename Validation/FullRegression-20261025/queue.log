@@ -1,0 +1,21 @@
+START three-npc PID=6960
+DONE three-npc PASS checks=157 seconds=33
+START three-npc-restart PID=26376
+DONE three-npc-restart PASS checks=102 seconds=16
+START campaign-vietnam PID=22564
+DONE campaign-vietnam FAIL checks=47 seconds=10
+START save-recovery-six-cities PID=6084
+DONE save-recovery-six-cities PASS checks=118 seconds=12
+START final-ux-puzzles-relics-audio PID=3276
+DONE final-ux-puzzles-relics-audio PASS checks=373 seconds=54
+START dialogue-npc-buttons PID=28812
+DONE dialogue-npc-buttons FAIL checks=85 seconds=26
+START node-panel-two-resolutions PID=15320
+DONE node-panel-two-resolutions PASS checks=151 seconds=34
+START leisure-twelve PID=21600
+DONE leisure-twelve PASS checks=211 seconds=113
+START boats-junctions-six-city-graph PID=21448
+DONE boats-junctions-six-city-graph PASS checks=333 seconds=87
+START campaign-korea PID=9020
+DONE campaign-korea FAIL checks=618 seconds=149
+QUEUE_FINISHED ownerSaveUnchanged=True

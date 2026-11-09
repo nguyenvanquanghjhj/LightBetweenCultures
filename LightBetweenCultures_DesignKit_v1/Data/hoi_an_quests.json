@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "design_only": true,
+  "state_flags": [
+    "hoi_an.quest.restore_started",
+    "hoi_an.item.lantern_lens_collected",
+    "hoi_an.item.lantern_core_collected",
+    "hoi_an.enemy.mo01_defeated",
+    "hoi_an.light_restored",
+    "city.jeonju.unlocked",
+    "hoi_an.secret_lane_discovered"
+  ],
+  "quests": [
+    {
+      "id": "HA_MAIN_01",
+      "name": "Khôi phục ánh sáng phố Hội",
+      "giver_node": "H2",
+      "state": "available_after_first_talk",
+      "stages": [
+        {
+          "id": "S1",
+          "text": "Đến H3, tìm mắt đèn thất lạc",
+          "completes_when": "hoi_an.item.lantern_lens_collected"
+        },
+        {
+          "id": "S2",
+          "text": "Đến H4, giải ghép hoa văn nhận lõi đèn",
+          "completes_when": "hoi_an.item.lantern_core_collected"
+        },
+        {
+          "id": "S3",
+          "text": "Đến H5, vượt qua Mờ-01 để nhận chìa khóa",
+          "completes_when": "hoi_an.enemy.mo01_defeated"
+        },
+        {
+          "id": "S4",
+          "text": "Đến H7 kích hoạt trạm ánh sáng",
+          "completes_when": "hoi_an.light_restored"
+        }
+      ],
+      "on_complete_flags": [
+        "hoi_an.light_restored",
+        "city.jeonju.unlocked"
+      ],
+      "note": "FULL GAME progression. Phase 1/demo only S1 and NPC turn-in; do not require battle before battle system exists."
+    },
+    {
+      "id": "HA_SLICE_01",
+      "name": "Tìm mắt đèn cho cô Mai",
+      "giver_node": "H2",
+      "state": "available_after_first_talk",
+      "stages": [
+        {
+          "id": "A",
+          "text": "Nói chuyện cô Mai",
+          "completes_when": "hoi_an.quest.restore_started"
+        },
+        {
+          "id": "B",
+          "text": "Nhặt mắt đèn trong Hẻm mái ngói",
+          "completes_when": "hoi_an.item.lantern_lens_collected"
+        },
+        {
+          "id": "C",
+          "text": "Trở lại cô Mai và giao vật phẩm",
+          "completes_when": "hoi_an.quest.slice_completed"
+        }
+      ],
+      "reward": "hoi_an.small_lantern_lit",
+      "note": "IMPLEMENT FIRST. The longer HA_MAIN_01 should not conflict: Codex must decide upgrade path after vertical slice tests."
+    }
+  ],
+  "npc_dialogue": {
+    "co_mai": {
+      "before": "Lumi ơi, một bộ phận đèn bị thất lạc trong hẻm. Cháu giúp cô tìm được không?",
+      "accepted": "Cháu thử đi về hẻm mái ngói. Có lẽ nó ở gần những chiếc thùng gỗ.",
+      "missing": "Cô vẫn chưa thấy mắt đèn. Nhớ xem cả lối rẽ bên trong hẻm nhé.",
+      "complete": "Đúng rồi! Cảm ơn Lumi. Một chiếc đèn ở tiệm đã sáng trở lại!"
+    }
+  },
+  "item_ids": [
+    "lantern_lens",
+    "lantern_core",
+    "energy_key",
+    "meat_portion",
+    "glasses",
+    "light_memory"
+  ],
+  "cross_city_rule": "WorldState flags persist across scenes; quests in other cities can read them but should not mutate flags without explicit event."
+}
