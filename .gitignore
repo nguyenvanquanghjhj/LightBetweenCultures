@@ -37,3 +37,7 @@
 # Unity crash dumps
 sysinfo.txt
 *.dmp
+
+# Local patch backups and QA output
+Backups/
+Validation/
