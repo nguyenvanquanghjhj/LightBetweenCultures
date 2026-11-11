@@ -121,6 +121,7 @@
     <Compile Include="Assets\_Game\Scripts\Validation\GameplaySmokeRunner.Phase6.cs" />
     <Compile Include="Assets\_Game\Scripts\UI\SoftAudioClips.cs" />
     <Compile Include="Assets\_Game\Scripts\UI\MapBackdropGraphic.cs" />
+    <Compile Include="Assets\_Game\Scripts\UI\GameplayPanels.StableUI.cs" />
     <Compile Include="Assets\_Game\Scripts\Validation\GameplaySmokeRunner.H3Tap.cs" />
     <Compile Include="Assets\_Game\Scripts\Maps\MapPanZoom.cs" />
     <Compile Include="Assets\_Game\Scripts\UI\UIButtonFeedback.cs" />
@@ -147,6 +148,7 @@
     <Compile Include="Assets\_Game\Scripts\Validation\GameplaySmokeRunner.JourneyShop.cs" />
     <Compile Include="Assets\_Game\Scripts\UI\RelicSurveySurface.cs" />
     <Compile Include="Assets\_Game\Scripts\UI\GameplayPanels.PlayerGuide.cs" />
+    <Compile Include="Assets\_Game\Scripts\Maps\CityMap.HotfixRouteHints.cs" />
     <Compile Include="Assets\_Game\Scripts\UI\GameplayPanels.FinalConnection.cs" />
     <Compile Include="Assets\_Game\Scripts\Maps\CityMap.NpcApproach.cs" />
     <Compile Include="Assets\_Game\Scripts\Content\RelicActivity.Trials.cs" />
@@ -177,6 +179,7 @@
     <Compile Include="Assets\_Game\Scripts\Core\SaveSystem.cs" />
     <Compile Include="Assets\_Game\Scripts\UI\SoftAudio.Music.cs" />
     <Compile Include="Assets\_Game\Scripts\Validation\GameplaySmokeRunner.ThreeNpc.cs" />
+    <Compile Include="Assets\_Game\Scripts\UI\GameplayPanels.HotfixRewards.cs" />
     <Compile Include="Assets\_Game\Scripts\UI\CatHanbokGraphic.cs" />
     <Compile Include="Assets\_Game\Scripts\Validation\GameplaySmokeRunner.Appearance.cs" />
     <Compile Include="Assets\_Game\Scripts\Validation\GameplaySmokeRunner.NpcStanding.cs" />

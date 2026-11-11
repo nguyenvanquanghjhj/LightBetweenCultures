@@ -341,7 +341,9 @@ namespace LightBetweenCultures
                 Check(image.transform.parent.name==actor.nodeId&&image.raycastTarget&&image.GetComponentInParent<Button>(true)!=null,label+": "+actor.nodeId+" actor shares the existing node input target");
                 var size=art.ActorSize(game.Data.cityId,actor);
                 Check(image.rectTransform.sizeDelta==size&&Mathf.Abs(size.x/actor.size.x-size.y/actor.size.y)<.0001f,label+": "+actor.nodeId+" uses the shared scale without changing aspect ratio");
-                Check(image.rectTransform.pivot==new Vector2(.5f,0)&&image.rectTransform.anchoredPosition==actor.offset,label+": "+actor.nodeId+" keeps its original ground/foot anchor");
+                var expectedFoot=actor.cityId=="gyeongju"&&actor.nodeId=="G14"?new Vector2(28f,0):actor.hasMapPosition?
+                    Vector2.Scale(actor.mapPosition-CityRouteGeometry.Arrival(game.Data.nodes[index]),((RectTransform)image.transform.parent.parent).rect.size)*Map.View.Zoom+actor.offset:actor.offset;
+                Check(image.rectTransform.pivot==new Vector2(.5f,0)&&Vector2.Distance(image.rectTransform.anchoredPosition,expectedFoot)<.001f,label+": "+actor.nodeId+" keeps its configured ground/foot anchor");
                 var hit=(RectTransform)image.transform.parent.Find("ActorHitArea");
                 Check(hit!=null&&hit.rect.width>=52&&hit.rect.height>=52&&hit.gameObject.activeInHierarchy==visible,label+": "+actor.nodeId+" retains a 52-unit touch region without leaking into hidden stages");
                 var shadow=image.transform.parent.Find("ActorShadow").GetComponent<RectTransform>();
@@ -971,10 +973,27 @@ namespace LightBetweenCultures
             Check(!game.Quests.CollectPart(),"Tutorial pickup cannot be granted before accepting its quest");
             var art=DesignKitArt.Load();
             Check(new[]{art.lumiMapTraveler,art.lumiPortrait,art.lumiExploration}.Distinct().Count()==1,"All Lumi roles share the owner-approved white sprite");
-            yield return Click("Start"); yield return Scene("WorldMap");
-            yield return Click(HoiAnButton,true);
+            yield return Click("Start");
+            if(Environment.GetCommandLineArgs().Contains("--first-adventure-onboarding"))
+            {
+                if(FindButton("FirstAdventureNext")!=null)
+                {
+                    for(var page=1;page<=3;page++)
+                    {
+                        Check(FindButton("FirstAdventureNext")!=null&&GameObject.Find("FirstAdventureIntro")!=null,"Fresh-player intro page "+page+"/3 is shown and actionable");
+                        yield return Click("FirstAdventureNext",true);
+                    }
+                }
+                yield return Scene("CityMap");
+                Check(game.Save.node==0&&!game.Quests.Active,"Completing the first-run intro lands at fresh Hoi An without accepting a quest");
+            }
+            else
+            {
+                yield return Scene("WorldMap");
+                yield return Click(HoiAnButton,true);
             Check(SceneManager.GetActiveScene().name=="WorldMap"&&GameObject.Find("DestinationName").GetComponent<Text>().text=="Hội An","Selecting a destination shows its details before entering the city");
-            yield return Click("EnterCity",true);yield return Scene("CityMap");
+                yield return Click("EnterCity",true);yield return Scene("CityMap");
+            }
             CheckStage(0,new[]{0,1,2,11},"Fresh arrival");
             yield return TestMarkerPresentation();
             Check(game.Discovery.State(2)==MapNodeState.VISIBLE_LOCKED&&game.Discovery.State(0)==MapNodeState.REVEALED&&game.Discovery.State(5)==MapNodeState.HIDDEN,"Fresh map distinguishes hidden, approachable locked gate and revealed locations");
