@@ -541,7 +541,7 @@
       "instruction": "Quay lại người giữ hồ sơ sau S4; portrait mới cần duyệt trước bind.",
       "enabled": true,
       "sourceTurns": 0,
-      "artStatus": "ART_PENDING"
+      "artStatus": "NATIVE_CROP"
     },
     {
       "id": "fragment_seoul_jiwon_sync",
@@ -552,7 +552,7 @@
       "instruction": "Xác nhận đồng bộ sau SQ01; không tự kích relay, Ji-won giữ face canonical.",
       "enabled": true,
       "sourceTurns": 1,
-      "artStatus": "ART_PENDING"
+      "artStatus": "NATIVE_CROP"
     },
     {
       "id": "fragment_seoul_stellar_ring",
@@ -563,7 +563,7 @@
       "instruction": "Ghi dấu vòng sau hiệu chỉnh tháp; không tiêu stargazer_lens hay đổi yêu cầu S10.",
       "enabled": true,
       "sourceTurns": 3,
-      "artStatus": "ART_PENDING",
+      "artStatus": "NATIVE_CROP",
       "proofAny": [
         "puzzle:puzzle_tower",
         "seoul.tower_calibrated"

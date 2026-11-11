@@ -16207,7 +16207,7 @@
       "source": "LBC gameplay items.json; healing strength runtime-balanced",
       "description": "Ống kính thiên văn. Một thành phần cần cho hành trình quan sát bầu trời tại Gyeongju.",
       "category": "key",
-      "iconId": "glasses",
+      "iconId": "stargazer_lens",
       "stackable": false,
       "consumable": false,
       "questItem": true,

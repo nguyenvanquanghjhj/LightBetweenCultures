@@ -170,9 +170,9 @@ MonoBehaviour:
   - id: stargazer_lens
     description: "\u1ED0ng k\xEDnh thi\xEAn v\u0103n. M\u1ED9t th\xE0nh ph\u1EA7n c\u1EA7n cho h\xE0nh tr\xECnh quan s\xE1t b\u1EA7u tr\u1EDDi t\u1EA1i Gyeongju."
     aliasOf: 
-    source: 
-    status: 
-    sprite: {fileID: 1539910725, guid: b0d1662050b200c4e94c139bfde08b33, type: 3}
+    source: Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png
+    status: NATIVE_CROP; Gyeongju starlight lens quest art
+    sprite: {fileID: 1877534874, guid: b1c38408f24cc5b4a84e45fff7d26a0f, type: 3}
     portrait: {fileID: 0}
     categoryIcon: 1
     portraitUseSpriteMesh: 0
@@ -1845,6 +1845,33 @@ MonoBehaviour:
     status: NATIVE_CROP; pending runtime visual review
     sprite: {fileID: 1990054730, guid: 0b39cc9d42dc56640bc206a885645080, type: 3}
     portrait: {fileID: 1990054730, guid: 0b39cc9d42dc56640bc206a885645080, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: fragment_seoul_heritage_data
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_HeritageData.png
+    status: NATIVE_CROP; extracted from Seoul relay source sheet
+    sprite: {fileID: 21300000, guid: 3d334be31874eca40a4cf79ba05a03b3, type: 3}
+    portrait: {fileID: 21300000, guid: 3d334be31874eca40a4cf79ba05a03b3, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: fragment_seoul_jiwon_sync
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_JiwonSync.png
+    status: NATIVE_CROP; extracted from Seoul relay source sheet
+    sprite: {fileID: 21300000, guid: d263e3258cfe5a948b80272b7aac09fd, type: 3}
+    portrait: {fileID: 21300000, guid: d263e3258cfe5a948b80272b7aac09fd, type: 3}
+    categoryIcon: 0
+    portraitUseSpriteMesh: 0
+  - id: fragment_seoul_stellar_ring
+    description: 
+    aliasOf: 
+    source: Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_StellarRing.png
+    status: NATIVE_CROP; extracted from Seoul relay source sheet
+    sprite: {fileID: 21300000, guid: 37a459f297446c847b0742e1a74db5e2, type: 3}
+    portrait: {fileID: 21300000, guid: 37a459f297446c847b0742e1a74db5e2, type: 3}
     categoryIcon: 0
     portraitUseSpriteMesh: 0
   checkIns:
