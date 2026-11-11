@@ -41,28 +41,37 @@ namespace LightBetweenCultures
                 ColorUtility.TryParseHtmlString(script.steps[i].color,out colors[i]);
                 var p=locations[i];var center=Vector2.Scale(new Vector2(.5f,.47f),board.rect.size);var start=Vector2.Scale(p,board.rect.size);
                 var beam=ui.Panel(board,"FinalBeam_"+i,Vector2.zero,Vector2.zero,colors[i]);beam.pivot=new Vector2(0,.5f);beam.anchoredPosition=start;beam.sizeDelta=new Vector2(Vector2.Distance(start,center),3);beam.localRotation=Quaternion.Euler(0,0,Mathf.Atan2(center.y-start.y,center.x-start.x)*Mathf.Rad2Deg);beams[i]=beam.GetComponent<Image>();beams[i].raycastTarget=false;
-                icons[i]=RelicPicture(board,"FinalRelic_"+i,AdventureUIArt.Load().Relic(script.steps[i].relicId),p-new Vector2(.12f,.11f),p+new Vector2(.12f,.11f));icons[i].raycastTarget=false;
+                icons[i]=RelicPicture(board,"FinalRelic_"+i,AdventureUIArt.Load().Relic(script.steps[i].relicId),p-new Vector2(.12f,.11f),p+new Vector2(.12f,.11f));icons[i].raycastTarget=false;icons[i].canvasRenderer.SetAlpha(.12f);
+                beams[i].canvasRenderer.SetAlpha(0);
             }
             var lumi=RelicPicture(board,"FinalLumi",art.lumiPortrait,new Vector2(.35f,.31f),new Vector2(.65f,.64f));lumi.raycastTarget=false;
             var caption=ui.Label(sheet,"FinalCeremonyCaption","",new Vector2(.08f,.20f),new Vector2(.92f,.33f),19);caption.color=DesignKitArt.Ink;
             MobileUI.Button(ui,sheet,"FinalSkip","Bỏ qua chuyển động · Xem lời kết",new Vector2(.08f,.11f),new Vector2(.92f,.185f),()=>ExecuteFinalView(node,"ceremony_skip"),true,true);
-            ui.StartCoroutine(AnimateFinalConnection(node,board,icons,beams,colors,lumi,caption,script));
+            ui.StartCoroutine(AnimateFinalConnection(node,board,icons,beams,caption,script));
         }
-        IEnumerator AnimateFinalConnection(int node,RectTransform board,Image[] icons,Image[] beams,Color[] colors,Image lumi,Text caption,FinalConnectionPresentation script)
+        IEnumerator AnimateFinalConnection(int node,RectTransform board,Image[] icons,Image[] beams,Text caption,FinalConnectionPresentation script)
         {
+            var lastActiveStep=-1;var lastCaptionStep=-1;var convergenceShown=false;
             while(board!=null&&game.Events.CeremonyInProgress)
             {
                 game.Events.TickFinalCeremony();
                 var elapsed=game.Events.CeremonyElapsed;var step=Mathf.Min(5,(int)(elapsed/3));
-                for(var i=0;i<6;i++)
+                if(step>lastActiveStep)
                 {
-                    var light=Mathf.SmoothStep(0,1,Mathf.Clamp01((elapsed-i*3)/1.8f));
-                    icons[i].color=new Color(1,1,1,.12f+.88f*light);
-                    icons[i].rectTransform.localScale=Vector3.one*(.94f+.06f*light+.012f*light*Mathf.Sin(elapsed*2+i));
-                    var c=colors[i];c.a=light*.65f;beams[i].color=c;
+                    for(var i=lastActiveStep+1;i<step;i++){icons[i].canvasRenderer.SetAlpha(1);beams[i].canvasRenderer.SetAlpha(.65f);}
+                    lastActiveStep=step;
                 }
-                caption.text=elapsed>=18?script.convergence:script.steps[step].title+"\n"+script.steps[step].text;
-                lumi.rectTransform.localScale=Vector3.one*(1+.018f*Mathf.Sin(elapsed*2));
+                var light=Mathf.SmoothStep(0,1,Mathf.Clamp01((elapsed-step*3)/1.8f));
+                icons[step].canvasRenderer.SetAlpha(.12f+.88f*light);
+                beams[step].canvasRenderer.SetAlpha(.65f*light);
+                if(elapsed>=18)
+                {
+                    if(!convergenceShown){caption.text=script.convergence;convergenceShown=true;}
+                }
+                else if(step!=lastCaptionStep)
+                {
+                    caption.text=script.steps[step].title+"\n"+script.steps[step].text;lastCaptionStep=step;
+                }
                 if(elapsed>=NodeEventManager.CeremonyDuration){ExecuteFinalView(node,"ceremony_finish");yield break;}
                 yield return null;
             }
