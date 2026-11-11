@@ -279,6 +279,8 @@ namespace LightBetweenCultures
         {
             var marker=NodeMarker(id);
             Check(marker.gameObject.activeInHierarchy&&marker.Type==type&&marker.Effect==effect,id+" marker reflects current gameplay: "+type+" / "+effect);
+            if(type==NodeMarkerType.Completed)
+                Check(marker.Badge.Find("MarkerGlyph").GetComponent<AdventureIconGraphic>().symbol==AdventureSymbol.Check,id+" completed marker draws a checkmark");
         }
         private IEnumerator MarkerPointer(string id,bool useTouch,bool expectDialogue=true)
         {

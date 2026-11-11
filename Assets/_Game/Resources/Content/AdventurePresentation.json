@@ -184,7 +184,7 @@
         {
           "questId": "HQ03",
           "questState": "completed",
-          "marker": "Camera"
+          "marker": "Completed"
         },
         {
           "questId": "HQ03",
@@ -526,6 +526,22 @@
       "nodeId": "S14",
       "marker": "Quest",
       "effect": "None"
+    },
+    {
+      "cityId": "seoul",
+      "nodeId": "S21",
+      "rules": [
+        {
+          "requiredFlags": [
+            "seoul.final_cleared"
+          ],
+          "forbiddenFlags": [
+            "game.ending_seen"
+          ],
+          "marker": "Portal",
+          "effect": "Blink"
+        }
+      ]
     }
   ],
   "mapActors": [

@@ -82,6 +82,16 @@ namespace LightBetweenCultures
             }
             var path=new List<int>();for(var cell=c.exit;cell>=0;cell=prev[cell])path.Add(cell);path.Reverse();return path;
         }
+        bool CatMazeStillMounted(GameObject boardObject,Transform board,Button[] cells,Vector2[] positions)
+        {
+            if(boardObject==null||board==null||!ReferenceEquals(GameObject.Find("CatChallengeBoard"),boardObject)||!ReferenceEquals(boardObject.transform,board))return false;
+            for(var i=0;i<cells.Length;i++)
+            {
+                if(cells[i]==null||!ReferenceEquals(cells[i],FindButton("CatCell"+i))||!ReferenceEquals(cells[i].transform.parent,board))return false;
+                if(Vector2.Distance(((RectTransform)cells[i].transform).anchoredPosition,positions[i])>.01f)return false;
+            }
+            return true;
+        }
         IEnumerator CatRescueJourney()
         {
             PlayerPrefs.SetInt(PlayerCopy.GuideKey,1);musicVirtualFocus=true;
@@ -112,7 +122,7 @@ namespace LightBetweenCultures
             yield return Click("AudioSettingsClose",true);Check(JsonUtility.ToJson(game.Save)==originalState,"Opening/closing settings preserves rescue and legacy state");
             Check(GameObject.Find("MiniMapRoads").GetComponent<CatMiniMapGraphic>()!=null,"Mini-map uses the actual open navigation graph");
             yield return CatHub();
-            var modes=new HashSet<string>();
+            var modes=new HashSet<string>();var mazeCities=new HashSet<string>();
             var all=game.Cats.Catalog.chapters;
             var count=Environment.GetCommandLineArgs().Contains("--cat-rescue-pilot")?1:all.Length;
             for(var cityIndex=0;cityIndex<count;cityIndex++)
@@ -166,7 +176,23 @@ namespace LightBetweenCultures
                         Check(FindButton("CatCell"+challenge.exit).GetComponentInChildren<Text>().text=="Mèo","Maze destination uses a generic cat label: "+c.cityId);
                         var path=CatMazeRoute(challenge);
                         Check(!cats.Walk(challenge.id,challenge.exit),"Maze cannot teleport to exit: "+challenge.id);
-                        foreach(var cell in path.Skip(1))yield return Click("CatCell"+cell,true);
+                        mazeCities.Add(c.cityId);
+                        var mazeBoardObject=GameObject.Find("CatChallengeBoard");var mazeBoard=mazeBoardObject.transform;
+                        var mazeCells=Enumerable.Range(0,challenge.maze.Length*challenge.maze[0].Length).Select(i=>FindButton("CatCell"+i)).ToArray();
+                        var mazePositions=mazeCells.Select(b=>((RectTransform)b.transform).anchoredPosition).ToArray();
+                        Check(mazeCells.Length==25,"Maze uses the expected 5x5 board: "+c.cityId);
+                        Check(mazeCells.All(b=>b.transition==Selectable.Transition.None&&b.GetComponent<UIButtonFeedback>()?.enabled!=true),"Maze tiles do not animate or sink under touch: "+c.cityId);
+                        yield return Snapshot("CAT-maze-"+c.cityId+"-before-move");
+                        yield return Click("CatCell"+path[1],true);
+                        Check(CatMazeStillMounted(mazeBoardObject,mazeBoard,mazeCells,mazePositions)&&FindButton("CatCell"+cats.MazePosition(challenge)).GetComponentInChildren<Text>().text=="Lumi","First step keeps the same quiet 5x5 board and moves only Lumi: "+c.cityId);
+                        yield return Snapshot("CAT-maze-"+c.cityId+"-after-move");
+                        yield return Click("CatMazeReset",true);
+                        Check(CatMazeStillMounted(mazeBoardObject,mazeBoard,mazeCells,mazePositions)&&cats.MazePosition(challenge)==challenge.start&&!cats.Ready(challenge),"Reset clears the route without rebuilding or shifting the maze: "+c.cityId);
+                        foreach(var cell in path.Skip(1))
+                        {
+                            yield return Click("CatCell"+cell,true);
+                            Check(CatMazeStillMounted(mazeBoardObject,mazeBoard,mazeCells,mazePositions),"Maze step preserves all cell objects and positions: "+c.cityId+" cell "+cell);
+                        }
                     }
                     else
                     {
@@ -204,6 +230,8 @@ namespace LightBetweenCultures
                 game.Reload();Check(game.Cats.Rescued(c.cityId),"Disk reload keeps completed rescue: "+c.cityId);
             }
             Check(game.Save.catRescues.Count(p=>p.rescued)==count,"All requested rescue chapters persist");
+            if(!Environment.GetCommandLineArgs().Contains("--cat-rescue-pilot"))
+                Check(mazeCities.SetEquals(new[]{"hue","da_lat","gyeongju","seoul"}),"All four city mazes were exercised without panel reloads");
             Check(game.Save.completed.Count==0&&game.Save.defeatedEnemies.Count==0&&game.Save.solvedPuzzles.Count==0,"Cat campaign never fabricates legacy quest, combat or puzzle completion");
             game.Persist();
         }

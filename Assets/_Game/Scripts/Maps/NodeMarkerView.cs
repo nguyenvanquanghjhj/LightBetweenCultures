@@ -142,10 +142,13 @@ namespace LightBetweenCultures
             group.alpha=Mathf.Lerp(revealStartAlpha,1,Mathf.SmoothStep(0,1,Mathf.Clamp01((Time.unscaledTime-shownAt)/.55f)));
             var strength=!animate||MotionMode==MarkerMotionMode.Off ? 0 : MotionMode==MarkerMotionMode.Reduced ? .35f : 1;
             var sine=Mathf.Sin(Time.unscaledTime*Mathf.PI*2/FloatPeriod+phase);var wave=(sine+1)*.5f;
-            badgeGroup.alpha=Effect==NodeMarkerEffect.Blink ? 1-.06f*strength*wave : 1;
+            // The finale gateway needs a clear callout on the Seoul map. Other
+            // Blink markers keep their quiet hint; only the Portal fades visibly.
+            var blinkDepth=Type==NodeMarkerType.Portal ? .55f : .06f;
+            badgeGroup.alpha=Effect==NodeMarkerEffect.Blink ? 1-blinkDepth*strength*wave : 1;
             Badge.localScale=Vector3.one*(Effect==NodeMarkerEffect.Pulse?1+.025f*strength*wave:1);
             var floats=Type!=NodeMarkerType.Normal&&Type!=NodeMarkerType.Completed;
-            Badge.anchoredPosition=offset+Vector2.up*(floats?FloatAmplitude*strength*sine:0);
+            Badge.anchoredPosition=offset; // Stable touch target and icon; no perpetual bobbing.
             if(LeisureBadge!=null)LeisureBadge.rectTransform.anchoredPosition=offset+(Type==NodeMarkerType.Normal?Vector2.zero:new Vector2(27,-2));
             frame.color=Effect==NodeMarkerEffect.Glow?Color.Lerp(frameColor,DesignKitArt.Gold,wave*.05f*strength):frameColor;
         }

@@ -38,6 +38,9 @@ namespace LightBetweenCultures
         public float NpcFootDistance(int index)
         {
             var actor=actors[index];if(actor==null)return 0;
+            // G14's actor is now rendered at the existing walkable node arrival.
+            // Talk at the SAME reached node; no teleport/off-road walk and no quest change.
+            if(game.Data.cityId=="gyeongju" && game.Data.nodes[index].id=="G14" && game.Save.node==index) return 0f;
             return Vector2.Distance(ui.Root.InverseTransformPoint(VisibleFoot(actor)),ui.Root.InverseTransformPoint(VisibleFoot(Marker.GetComponent<Image>())));
         }
         bool IsNpc(int index)=>actors[index]!=null&&actors[index].gameObject.activeInHierarchy&&presentation.Npc(actorDefinitions[index]?.artId)!=null;

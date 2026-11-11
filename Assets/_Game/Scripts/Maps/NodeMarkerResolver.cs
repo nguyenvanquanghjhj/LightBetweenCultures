@@ -56,6 +56,7 @@ namespace LightBetweenCultures
             var resolved=evt!=null&&game.Events.Resolved(evt);
             var options=game.Events.BuildOptions(index);
             var result=Default(node,evt,resolved,options);
+            var defaultType=result.type;var defaultEffect=result.effect;
             result.discovery=discovery;result.keyGate=node.isKeyGate;
             result.readyToTurnIn=Enabled(options,"complete")||Enabled(options,"tutorial_return")||options.options.Any(o=>o.id.StartsWith("complete:")&&o.enabled);
             var definition=definitions.FirstOrDefault(d=>d.cityId==game.Data.cityId&&d.nodeId==node.id);
@@ -72,10 +73,28 @@ namespace LightBetweenCultures
                 }
             }
             var checkIn=game.Content.CheckIn(game.Data.cityId,node.id);
-            if(result.type==NodeMarkerType.Normal&&checkIn!=null&&game.Events.CanCheckIn(index))result.type=NodeMarkerType.Camera;
-            if(result.type==NodeMarkerType.Camera&&checkIn!=null&&game.World.Has(checkIn.completionFlag))
-            {result.type=NodeMarkerType.Completed;result.effect=NodeMarkerEffect.None;}
-            if(RelicGuide.PendingAt(game,node.id))
+            var checkInRecorded=checkIn!=null&&!string.IsNullOrEmpty(checkIn.completionFlag)&&game.World.Has(checkIn.completionFlag);
+            var canCheckIn=checkIn!=null&&game.Events.CanCheckIn(index);
+            var hoiAn=game.Data.cityId=="hoi_an";
+            if(hoiAn)
+            {
+                // Hoi An camera markers follow the actual record action, not a
+                // resolved event or a quest rule that merely looks complete.
+                if(checkInRecorded){result.type=NodeMarkerType.Completed;result.effect=NodeMarkerEffect.None;}
+                else if(canCheckIn){result.type=NodeMarkerType.Camera;result.effect=NodeMarkerEffect.None;}
+                else if(result.type==NodeMarkerType.Camera)
+                {
+                    // Remove stale JSON cameras when there is no usable check-in.
+                    result.type=defaultType==NodeMarkerType.Camera?NodeMarkerType.Normal:defaultType;
+                    result.effect=defaultEffect;
+                }
+            }
+            else
+            {
+                if(result.type==NodeMarkerType.Normal&&canCheckIn)result.type=NodeMarkerType.Camera;
+                if(checkInRecorded){result.type=NodeMarkerType.Completed;result.effect=NodeMarkerEffect.None;}
+            }
+            if(RelicGuide.PendingAt(game,node.id)&&!(hoiAn&&checkInRecorded))
             {result.type=NodeMarkerType.FragmentAlert;result.effect=NodeMarkerEffect.Pulse;result.visible=true;result.readyToTurnIn=false;}
             return result;
         }
@@ -98,7 +117,7 @@ namespace LightBetweenCultures
                     break;
                 case "puzzle":result.type=NodeMarkerType.Puzzle;result.effect=Enabled(view,"puzzle")?NodeMarkerEffect.Glow:NodeMarkerEffect.None;break;
                 case "item": case "chest": case "secret":result.type=NodeMarkerType.Reward;result.effect=Enabled(view,"collect")?NodeMarkerEffect.Glow:NodeMarkerEffect.None;break;
-                case "beacon":result.type=NodeMarkerType.Quest;result.effect=Enabled(view,"restore")?NodeMarkerEffect.Glow:NodeMarkerEffect.None;break;
+                case "beacon":result.type=Enabled(view,"restore")?NodeMarkerType.Quest:NodeMarkerType.Normal;result.effect=Enabled(view,"restore")?NodeMarkerEffect.Glow:NodeMarkerEffect.None;break;
                 case "portal":result.type=NodeMarkerType.Portal;break;
             }
             return result;

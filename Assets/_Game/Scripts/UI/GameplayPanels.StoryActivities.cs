@@ -113,6 +113,7 @@ namespace LightBetweenCultures
             }
             MobileUI.Button(ui,sheet,"MicroConfirm","Hoàn tất",new Vector2(.51f,.21f),new Vector2(.92f,.285f),()=>
             {
+                var watch=WatchActualRewards(puzzle.Definition?.rewardItems);
                 if(!puzzle.CompleteActivity()){feedback.text="Chưa khớp đủ mẫu hoặc thao tác. Hãy quan sát và thử lại.";SoftAudio.Cue(SoftCue.UI_Invalid);return;}
                 SoftAudio.Cue(SoftCue.Puzzle_Success);
                 changed?.Invoke();var done=ActivitySheet("StoryActivityResult",definition.title,"Đã ghi lại kết quả");
@@ -122,6 +123,7 @@ namespace LightBetweenCultures
                 ui.Label(done,"StoryActivitySuccess",text,new Vector2(.10f,.32f),new Vector2(.90f,.77f),23).color=DesignKitArt.Ink;
                 ui.Picture(done,"StoryLumi",art.lumiPortrait,new Vector2(.12f,.15f),new Vector2(.38f,.36f));
                 MobileUI.Button(ui,done,"StoryNextGoal","Xem việc tiếp theo",new Vector2(.43f,.14f),new Vector2(.92f,.23f),()=>ShowGuidance(),true,true);
+                ShowReceipt(watch.Earned());
             },true,true);
             refresh();
         }

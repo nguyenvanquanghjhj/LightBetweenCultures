@@ -621,10 +621,10 @@ MonoBehaviour:
   - id: npc_curator
     description: 
     aliasOf: 
-    source: Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png
-    status: ART_IMPORTED_PENDING_APPROVAL; NOT_CANONICAL; technical binding authorized 2026-10-18
-    sprite: {fileID: 21300000, guid: 6b7b12ad613bda14d969e359a2f08d59, type: 3}
-    portrait: {fileID: 21300000, guid: 6b7b12ad613bda14d969e359a2f08d59, type: 3}
+    source: Assets/_Game/Art/Characters/LBCFinalHotfix/Seoul_Curator_Transparent.png
+    status: USER_SUPPLIED_HOTFIX_20261110
+    sprite: {fileID: 21300000, guid: f0c9bb7901be44e3a8bb69f9af1976dc, type: 3}
+    portrait: {fileID: 21300000, guid: f0c9bb7901be44e3a8bb69f9af1976dc, type: 3}
     categoryIcon: 0
     portraitUseSpriteMesh: 0
   - id: npc_keeper
@@ -856,10 +856,10 @@ MonoBehaviour:
   - id: enemy_bridge
     description: 
     aliasOf: 
-    source: LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png
-    status: TEMPORARY_SHARED_BOT_ART; NOT_CANONICAL_FOR_NEW_ROLE; alias enemy_mo01
-    sprite: {fileID: 430370353, guid: 0aa7f368b0015354e9303a88022a2b51, type: 3}
-    portrait: {fileID: 0}
+    source: Assets/_Game/Art/Characters/LBCFinalHotfix/Seoul_Bridge_Bot_Banana.png
+    status: USER_SUPPLIED_HOTFIX_20261110; Seoul S15 only
+    sprite: {fileID: 21300000, guid: 3c6b3beec4cc4e8db7d975a3b2fb0c5d, type: 3}
+    portrait: {fileID: 21300000, guid: 3c6b3beec4cc4e8db7d975a3b2fb0c5d, type: 3}
     categoryIcon: 0
     portraitUseSpriteMesh: 0
   - id: enemy_drone

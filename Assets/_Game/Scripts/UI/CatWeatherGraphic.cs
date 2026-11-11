@@ -124,10 +124,14 @@ namespace LightBetweenCultures
                     // Seoul: strong diagonal squall, wind arcs and a brief localized bolt.
                     if (screenSpaceLayer)
                     {
-                        Wash(vh, r, new Color(.08f, .16f, .28f, .17f * fade));
-                        Rain(vh, r, time, 90, .90f, fade);
+                        Wash(vh, r, new Color(.06f, .12f, .23f, .25f * fade));
+                        Rain(vh, r, time, 94, .80f, fade);
                         WindArcs(vh, r, time, fade);
                         Lightning(vh, r, time, fade);
+                    }
+                    else
+                    {
+                        Rain(vh, r, time, 36, .34f, .42f * fade);
                     }
                     break;
                 // Legacy content values: neither is interpreted as a storm.

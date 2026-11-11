@@ -130,7 +130,7 @@ namespace LightBetweenCultures
             Marker.sizeDelta = new Vector2(44,44);
             companion=ui.Picture(Marker,"MiniLanternCompanion",presentation.Item("lamp_eye")?.sprite,Vector2.zero,Vector2.zero).rectTransform;
             companion.anchorMin=companion.anchorMax=new Vector2(0,.55f);companion.sizeDelta=new Vector2(16,20);companion.anchoredPosition=new Vector2(-10,7);
-            companion.GetComponent<Image>().raycastTarget=false;companion.gameObject.SetActive(game.World.Has("hoi_an.lost_lantern_rescued"));
+            companion.GetComponent<Image>().raycastTarget=false;companion.gameObject.SetActive(false); // Hide unwanted floating companion; inventory quest state unaffected.
             ferryVisual=ui.Picture(Marker,"FerryTransport",Resources.Load<Sprite>("LeisureProps/Hue_PedalSwanBoat"),Vector2.zero,Vector2.zero).rectTransform;
             ferryVisual.anchorMin=ferryVisual.anchorMax=new Vector2(.5f,0);
             ferryVisual.sizeDelta=new Vector2(72,44);ferryVisual.anchoredPosition=new Vector2(0,-6);
@@ -143,12 +143,12 @@ namespace LightBetweenCultures
             restored=game.World.Has(city.completionFlag);
             InitializeQuestLight();
             Tooltip = ui.Panel(ui.Root,"NodeTooltip",Vector2.zero,Vector2.zero,new Color(.07f,.19f,.22f,.9f));
-            Tooltip.sizeDelta = new Vector2(240,54);
+            Tooltip.sizeDelta = new Vector2(310,74);
             Tooltip.pivot = new Vector2(.5f,0);
             Tooltip.GetComponent<Image>().raycastTarget = false;
             MobileUI.Round(Tooltip);
             tooltipName = ui.Label(Tooltip,"NodeName","",new Vector2(.05f,.43f),new Vector2(.95f,.94f),17);
-            tooltipState = ui.Label(Tooltip,"NodeState","",new Vector2(.05f,.06f),new Vector2(.95f,.44f),12);
+            tooltipState = ui.Label(Tooltip,"NodeState","",new Vector2(.05f,.04f),new Vector2(.95f,.60f),12,false);
             tooltipState.color = new Color(.76f,.86f,.80f);
             Deselect();
             PositionMarker(CityRouteGeometry.Arrival(game.Data.nodes[game.Save.node]));
@@ -351,7 +351,7 @@ namespace LightBetweenCultures
             if (!unlocked) { SoftAudio.Cue(SoftCue.UI_Invalid); return; }
             if (destination == game.Save.node) { Interact(); return; }
             var path = game.Data.FindPath(game.Save.node,destination,game.Save);
-            if (path == null) { SoftAudio.Cue(SoftCue.UI_Invalid); paths.Highlight(null);tooltipState.text = "Tuyến đường đang khóa"; return; }
+            if (path == null) { SoftAudio.Cue(SoftCue.UI_Invalid); paths.Highlight(null);tooltipState.text=ExplainClosedRoute(destination); return; }
             var gate=game.Events.Definition(game.Data.nodes[game.Save.node].eventId);
             if(gate!=null && gate.mandatory && !game.Events.Resolved(gate) && path.Count>1 &&
                 path[1]!=game.Save.previousNode && game.Data.nodes[path[1]].revealStage>=game.Data.nodes[game.Save.node].revealStage)
@@ -452,10 +452,14 @@ namespace LightBetweenCultures
             var actor=actors[index];
             if(actor==null)return;
             var definition=actorDefinitions[index];
-            if(actor==null||definition==null||!definition.hasMapPosition)return;
-            // Node controls counter-scale zoom. Convert map-space distance back
-            // into that local space so feet stay on the painting at every zoom.
-            var foot=Vector2.Scale(definition.mapPosition-CityRouteGeometry.Arrival(game.Data.nodes[index]),map.rect.size)*View.Zoom+definition.offset;
+            if(actor==null||definition==null)return;
+            // G14's previous actor anchor was across non-walkable terrain. Move
+            // the presentation to the REAL existing G14 walk arrival (UI only),
+            // not Lumi to an unsafe shortcut. Talk then works within range.
+            var g14=game.Data.cityId=="gyeongju"&&game.Data.nodes[index].id=="G14";
+            if(!definition.hasMapPosition&&!g14)return;
+            var foot=g14 ? new Vector2(28f,0f) :
+                Vector2.Scale(definition.mapPosition-CityRouteGeometry.Arrival(game.Data.nodes[index]),map.rect.size)*View.Zoom+definition.offset;
             actor.rectTransform.anchoredPosition=foot;
             nodes[index].transform.Find("ActorShadow").GetComponent<RectTransform>().anchoredPosition=foot;
             nodes[index].transform.Find("ActorHitArea").GetComponent<RectTransform>().anchoredPosition=foot+Vector2.up*presentation.ActorSize(game.Data.cityId,definition).y*.5f;
@@ -495,7 +499,7 @@ namespace LightBetweenCultures
             if(nextObjective!=null)nextObjective.text=npcStandingMessage??("Việc tiếp theo · "+game.Quests.Guidance());
             RefreshQuestLight();
             RefreshRelicLights();
-            if(companion!=null)companion.gameObject.SetActive(game.World.Has("hoi_an.lost_lantern_rescued")&&!LumiOccluded);
+            if(companion!=null)companion.gameObject.SetActive(false); // Decorative follower disabled on every city map.
             View.InputEnabled = !dialogue;
             foreach (var control in mapControls) control.interactable = !dialogue;
             paths.Refresh();

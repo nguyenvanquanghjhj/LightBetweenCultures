@@ -77,7 +77,8 @@ namespace LightBetweenCultures
             var stormWords=ui.Label(stormBanner,"StormWarning","BÃO BẤT NGỜ! Gió mạnh đang ập tới Seoul. Hãy tìm nơi trú an toàn.",new Vector2(.025f,.08f),new Vector2(.975f,.92f),19,false);
             stormWords.color=Color.white;stormWords.alignment=TextAnchor.MiddleCenter;stormWords.raycastTarget=false;
             stormBanner.gameObject.SetActive(false);
-            lastWeatherPreset=AtmospherePreset();
+            lastWeatherPreset="clear";
+            stormCuePending=game.Data.cityId=="seoul" && AtmospherePreset()=="storm";
             if(game.Data.cityId=="hoi_an")
             {
                 var relic=game.Relics.Definition("relic_hoi_an_lantern");
@@ -129,7 +130,7 @@ namespace LightBetweenCultures
                 case "hoi_an": return "flood";    // Slide: flooded old town, rain subsiding
                 case "hue": return "downpour";   // Slide: heavy rain and flooding
                 case "da_lat": return "mist";    // Slide: fog and lost paths
-                case "seoul": return game.Discovery.Stage(cityId)>=1?"storm":"clear"; // Surprise mid-chapter
+                case "seoul": return "storm"; // Storm already exists when player arrives, clears only after city completion
                 case "gyeongju":
                 case "jeonju":
                 default: return "clear";        // Slide: ruins / festival, no storm
@@ -159,7 +160,7 @@ namespace LightBetweenCultures
             catWeather.weather=preset;
             catScreenWeather.weather=preset;
             var showWeather=!dialogue&&!game.Scenes.Busy;
-            catWeather.gameObject.SetActive(showWeather&&(preset=="flood"||preset=="downpour"||catWeather.HasResidualWeather));
+            catWeather.gameObject.SetActive(showWeather&&(preset!="clear"||catWeather.HasResidualWeather));
             catScreenWeather.gameObject.SetActive(showWeather);
             if(stormCuePending&&showWeather)
             {

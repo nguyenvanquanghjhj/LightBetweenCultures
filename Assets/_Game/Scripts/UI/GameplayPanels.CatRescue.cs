@@ -45,15 +45,15 @@ namespace LightBetweenCultures
             if(chapter==null){ShowCatRescue("Chưa có nhiệm vụ cứu mèo ở khu vực này.");return;}
             var progress=cats.Progress(chapter.cityId);
             if(progress?.started!=true){ShowCatRescue("Chọn NHẬN NHIỆM VỤ trước khi đi giải cứu mèo.");return;}
-            var challenge=cats.Next(chapter);
-            if(challenge!=null && cats.At(challenge.nodeId)){ShowCatChallenge(challenge);return;}
-            if(cats.CanRescue){ShowCatRescueFinal();return;}
             var supply=chapter.supplies.FirstOrDefault(s=>!progress.supplies.Contains(s.id) && cats.At(s.nodeId));
             if(supply!=null)
             {
                 ShowCatRescue("Đã tới nơi! Chạm LẤY "+supply.name+" trong phần Túi cứu hộ.");
                 return;
             }
+            var challenge=cats.Next(chapter);
+            if(challenge!=null && cats.At(challenge.nodeId)){ShowCatChallenge(challenge);return;}
+            if(cats.CanRescue){ShowCatRescueFinal();return;}
             ShowCatRescue("Đã tới nơi. Xem BƯỚC TIẾP THEO và chọn hành động tương ứng.");
         }
         RectTransform CatScroll(RectTransform sheet,float w,float h,out RectTransform content)
@@ -355,20 +355,66 @@ namespace LightBetweenCultures
         }
         void CatMaze(RectTransform board,CatRescueChallenge c)
         {
-            var width=c.maze[0].Length;var height=c.maze.Length;var state=game.Cats.State(c);var current=state?.path.Count>0?state.path.Last():c.start;
+            // CATMAZE_STABLE_UI_V3_20261110: keep all 25 buttons alive across moves and reset.
+            // Walk/ResetMaze still own validation, persistence and all game rules.
+            var width=c.maze[0].Length;var height=c.maze.Length;
+            var cells=new Button[width*height];var labels=new Text[width*height];
+            Action refreshAll=null;
+            Action<int,int,CatChallengeProgress> paintCell=(cell,current,state)=>
+            {
+                var wall=c.maze[cell/width][cell%width]=='#';
+                labels[cell].text=cell==current?"Lumi":cell==c.exit?"Mèo":wall?"":state?.path.Contains(cell)==true?"•":"·";
+                if(wall)return;
+                var active=cell==current;
+                var soft=cells[cell].targetGraphic as SoftButtonGraphic;
+                if(soft!=null)soft.Face=DesignKitArt.Hex(active?"2C706C":"F1D49B");
+                labels[cell].color=active?DesignKitArt.Cream:DesignKitArt.Ink;
+            };
+            var initial=game.Cats.MazePosition(c);
             for(var y=0;y<height;y++)for(var x=0;x<width;x++)
             {
                 var cell=y*width+x;var wall=c.maze[y][x]=='#';var px=.055f+x*.89f/width;var py=.96f-y*.77f/height;
-                var b=MobileUI.Button(ui,board,"CatCell"+cell,cell==current?"Lumi":cell==c.exit?"Mèo":wall?"":"·",new Vector2(px,py-.70f/height),new Vector2(px+.81f/width,py),()=>
+                var b=MobileUI.Button(ui,board,"CatCell"+cell,"",new Vector2(px,py-.70f/height),new Vector2(px+.81f/width,py),()=>
                 {
-                    var ok=game.Cats.Walk(c.id,cell);var message=game.Cats.Message;
-                    if(ok){ShowCatChallenge(c);catFeedback.text=message;}else CatFeedback(false);
-                },cell==current,true);
+                    var previous=game.Cats.MazePosition(c);
+                    var ok=game.Cats.Walk(c.id,cell);
+                    if(ok)
+                    {
+                        var current=game.Cats.MazePosition(c);var state=game.Cats.State(c);
+                        paintCell(previous,current,state);paintCell(current,current,state);
+                        if(catSubmit!=null)catSubmit.interactable=game.Cats.Ready(c);
+                    }
+                    CatFeedback(ok); // Preserve the existing feedback and submit readiness.
+                },cell==initial,true);
+                // A maze step should move its token, not animate the selected
+                // button surface beneath it. Keep the board visually quiet.
+                b.transition=Selectable.Transition.None;
+                var pressFeedback=b.GetComponent<UIButtonFeedback>();if(pressFeedback!=null)pressFeedback.enabled=false;
+                cells[cell]=b;labels[cell]=b.GetComponentInChildren<Text>();
                 b.interactable=!wall;
-                if(wall){b.targetGraphic.color=new Color(.16f,.29f,.30f,.8f);continue;}
-                if(state?.path.Contains(cell)==true&&cell!=current)b.GetComponentInChildren<Text>().text="•";
+                if(wall)b.targetGraphic.color=new Color(.16f,.29f,.30f,.8f);
             }
-            MobileUI.Button(ui,board,"CatMazeReset","Về đầu tuyến",new Vector2(.21f,.02f),new Vector2(.79f,.14f),()=>{game.Cats.ResetMaze(c.id);ShowCatChallenge(c);},illustrated:true);
+            MobileUI.Button(ui,board,"CatMazeReset","Về đầu tuyến",new Vector2(.21f,.02f),new Vector2(.79f,.14f),()=>
+            {
+                var oldPath=game.Cats.State(c)?.path.ToArray()??Array.Empty<int>();
+                var oldCurrent=game.Cats.MazePosition(c);
+                var ok=game.Cats.ResetMaze(c.id);
+                if(ok)
+                {
+                    var state=game.Cats.State(c);
+                    foreach(var visited in oldPath.Distinct())paintCell(visited,c.start,state);
+                    paintCell(oldCurrent,c.start,state);paintCell(c.start,c.start,state);
+                    if(catSubmit!=null)catSubmit.interactable=game.Cats.Ready(c);
+                }
+                CatFeedback(ok);
+            },illustrated:true);
+            refreshAll=()=>
+            {
+                var state=game.Cats.State(c);var current=game.Cats.MazePosition(c);
+                for(var cell=0;cell<cells.Length;cell++)paintCell(cell,current,state);
+                if(catSubmit!=null)catSubmit.interactable=game.Cats.Ready(c);
+            };
+            refreshAll();
         }
         void ShowCatFact(CatRescueChapter chapter,CatRescueChallenge challenge)
         {

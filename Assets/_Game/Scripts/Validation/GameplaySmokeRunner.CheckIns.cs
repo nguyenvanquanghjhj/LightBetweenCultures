@@ -73,6 +73,32 @@ namespace LightBetweenCultures
                         yield return Snapshot("NPC-and-checkin-"+entry.nodeId);
                     }
                     var marked=game.World.Has(entry.completionFlag);var coins=game.Save.coins;var ledger=game.Save.rewardGrantIds.ToArray();
+                    var hoiAnMarkerNode=city=="hoi_an"&&new[]{"H2","H3","H4","H6","H7","H17"}.Contains(entry.nodeId);
+                    if(hoiAnMarkerNode)
+                    {
+                        if(marked)CheckMarker(entry.nodeId,NodeMarkerType.Completed);
+                        else if(game.Events.CanCheckIn(game.Save.node))CheckMarker(entry.nodeId,NodeMarkerType.Camera);
+                        if(entry.nodeId=="H4"||entry.nodeId=="H7")
+                        {
+                            var resolvedEvent=game.Events.Resolved(game.Events.Definition(game.Data.nodes[game.Save.node].eventId));
+                            Check(resolvedEvent,"Resolved Hoi An event is separately identified from its saved check-in: "+entry.nodeId);
+                            if(marked)
+                            {
+                                var flagIndex=game.Save.flags.IndexOf(entry.completionFlag);
+                                Check(flagIndex>=0,"Recorded Hoi An check-in is stored as its real completion flag: "+entry.nodeId);
+                                if(flagIndex>=0)
+                                {
+                                    game.Save.flags.RemoveAt(flagIndex);Map.SendMessage("Refresh");yield return null;
+                                    var pendingCanCheckIn=game.Events.CanCheckIn(game.Save.node);
+                                    var pendingMarker=NodeMarker(entry.nodeId).Type;
+                                    game.Save.flags.Insert(flagIndex,entry.completionFlag);Map.SendMessage("Refresh");yield return null;
+                                    Check(pendingCanCheckIn&&pendingMarker==NodeMarkerType.Camera,"Resolved event keeps Camera while a real check-in can still be recorded: "+entry.nodeId);
+                                    CheckMarker(entry.nodeId,NodeMarkerType.Completed);
+                                }
+                            }
+                            else Check(game.Events.CanCheckIn(game.Save.node)&&NodeMarker(entry.nodeId).Type==NodeMarkerType.Camera,"Resolved event keeps Camera only while a real check-in can still be recorded: "+entry.nodeId);
+                        }
+                    }
                     yield return OpenCheckInView(entry);
                     Check(game.World.Has(entry.completionFlag)==marked&&game.Save.coins==coins&&game.Save.rewardGrantIds.SequenceEqual(ledger),"Opening scenery does not record or pay: "+entry.id);
                     if(!marked)
@@ -95,8 +121,19 @@ namespace LightBetweenCultures
                         yield return Snapshot("H6-original-alignment");yield return RelicExit();
                     }
                     else yield return Click("CheckInClose");
+                    if(hoiAnMarkerNode)CheckMarker(entry.nodeId,NodeMarkerType.Completed);
                     Check(game.Events.BuildOptions(game.Save.node).options.Where(o=>o.id!="checkin"&&o.id!="checkin_view").Select(o=>o.id+":"+o.enabled).SequenceEqual(primary),"Primary quest/NPC/puzzle/beacon choices preserved: "+entry.nodeId);
                     Check(CheckInCore()==core,"Check-in cannot mutate story/relic/boss/ending inventory state: "+entry.id);Time.timeScale=4;
+                }
+                if(city=="hoi_an")
+                {
+                    Time.timeScale=1;yield return ChapterGo("H18");
+                    var h18Index=game.Save.node;
+                    Check(game.Quests.IsCompleted("HQ03")&&game.Events.CheckInAt(h18Index)==null,"H18 fixture has completed HQ03 but no check-in definition");
+                    Check(!game.World.Has("checkin.hoi_an.h18")&&!game.Events.CanCheckIn(h18Index),"H18 completion does not synthesize a check-in flag or reward");
+                    if(FindButton("EventClose")!=null)yield return CloseEvent();
+                    CheckMarker("H18",NodeMarkerType.Completed);
+                    yield return Snapshot("HoiAn-H18-complete-no-checkin-camera");
                 }
                 Time.timeScale=1;yield return OpenPhotoJournal();
                 Check(FindObjectsByType<Button>(FindObjectsSortMode.None).Count(b=>b.name.StartsWith("PhotoCard_")&&b.interactable)==game.Content.checkIns.Count(c=>c.cityId==city),"All earned city postcards shown in existing collection: "+city);

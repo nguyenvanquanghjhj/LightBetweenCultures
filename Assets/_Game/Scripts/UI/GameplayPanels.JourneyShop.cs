@@ -63,9 +63,16 @@ namespace LightBetweenCultures
                 ShopAt(row,4,y,width,146);
                 var icon=ui.Picture(row,"ShopIcon_"+e.id,e.Permission?AdventureUIArt.Load().coin:AdventureUIArt.Load().Item(e.itemId)?.sprite??art.item,Vector2.zero,Vector2.zero);
                 ShopAt(icon.rectTransform,12,20,70,70);
+                // Some source items share their illustration. Show a distinct small
+                // type label so they are not visually indistinguishable.
+                if(!e.Permission)
+                {
+                    var tag=ShopText(row,"ShopIconCaption_"+e.id,e.name,10,84,86,18,12);
+                    tag.alignment=TextAnchor.MiddleCenter;
+                }
                 ShopText(row,"ShopName_"+e.id,e.name,94,8,width-106,29,19);
                 ShopText(row,"ShopDescription_"+e.id,e.description,94,40,width-108,50,15);
-                ShopText(row,"ShopPrice_"+e.id,e.price+" xu"+(e.Permission?" · một lần":" · ×1"),18,100,width-186,32,17);
+                ShopText(row,"ShopPrice_"+e.id,e.price+" xu"+(e.Permission?" · một lần":" · ×1 · Trong túi: "+game.Inventory.Count(e.itemId)),18,100,width-186,32,16);
                 var reason=game.Shop.Unavailable(e);var buy=MobileUI.Button(ui,row,"ShopBuy_"+e.id,string.IsNullOrEmpty(reason)?"Mua":reason,Vector2.zero,Vector2.zero,()=>BuyFromShop(e));
                 ShopAt((RectTransform)buy.transform,width-162,94,148,44);buy.interactable=string.IsNullOrEmpty(reason);
                 var text=buy.GetComponentInChildren<Text>();text.resizeTextForBestFit=true;text.resizeTextMinSize=12;text.resizeTextMaxSize=17;
@@ -94,9 +101,11 @@ namespace LightBetweenCultures
         {if(shopConfirm==null)return;shopConfirm.gameObject.SetActive(false);UnityEngine.Object.Destroy(shopConfirm.gameObject);shopConfirm=null;}
         void CommitShopPurchase(JourneyShopEntry entry)
         {
+            var watch=WatchActualRewards(entry.Permission?Array.Empty<ItemAmount>():new[]{new ItemAmount{itemId=entry.itemId,amount=1}});
             var success=game.Shop.TryBuy(entry.id,Guid.NewGuid().ToString("N"),out var notice);
             shopNotice.text=notice;shopNotice.color=success?DesignKitArt.Teal:DesignKitArt.Ink;
-            DrawShopRows(true);
+            RefreshShopRowsInPlace();
+            if(success&&!entry.Permission)ShowReceipt(watch.Earned());
         }
     }
 }

@@ -77,6 +77,8 @@ namespace LightBetweenCultures
         }
         void DrawDialogue(int node,EventView view,EventDefinition definition,string notice,bool lumiSpeaking,int optionPage=0,bool delivery=false)
         {
+            var previousPanel=overlay!=null?overlay.Find("NodeEventPanel")?.GetComponent<RectTransform>():null;
+            var previousHeight=previousPanel!=null&&lastStableDialogueNode==node?previousPanel.sizeDelta.y:0f;
             var oldPortrait=overlay!=null?overlay.Find("EventPortrait")?.GetComponent<Image>():null;
             var oldSprite=oldPortrait!=null?oldPortrait.sprite:null;
             var oldPosition=oldPortrait!=null?oldPortrait.rectTransform.anchoredPosition:Vector2.zero;
@@ -95,6 +97,7 @@ namespace LightBetweenCultures
                 var ordered=view.options.OrderBy(o=>!o.enabled?4:o.id=="tutorial_return"||o.id=="complete"||o.id.StartsWith("complete:")?0:o.id.StartsWith("relic:")||o.id.StartsWith("relic_restore")?1:o.id=="accept"||o.id.StartsWith("accept:")?2:3).ToArray();
                 view.options.Clear();view.options.AddRange(ordered);
             }
+            if(!lumiSpeaking&&!delivery&&TryRefreshDialogueInPlace(node,view,definition,notice))return;
             Clear();Canvas.ForceUpdateCanvases();
             overlay=ui.Panel(ui.Root,"GameplayOverlay",Vector2.zero,Vector2.one,new Color(.025f,.07f,.10f,.26f));
             var scale=DisplayScale;var width=Mathf.Min(700,ui.Root.rect.width/scale-32);
@@ -113,12 +116,15 @@ namespace LightBetweenCultures
             var actionHint=optionsHeight>visibleOptions+.1f?18f:0f;
             var feedbackHeight=string.IsNullOrEmpty(feedbackText)?0:Mathf.Max(26,TextHeight(feedbackText,width-48,15)+6);
             var availableBody=Mathf.Max(56,ui.Root.rect.height/scale-220-visibleOptions-actionHint-feedbackHeight-(portrait!=null?160:0)-(headerHeight-82));
-            var bodyHeight=Mathf.Clamp(TextHeight(text,width-48,20)+8,56,Mathf.Min(156,availableBody));
+            var bodyHeight=Mathf.Clamp(TextHeight(text,width-48,20)+8,56,Mathf.Min(216,availableBody));
             var readingHintHeight=TextHeight(text,width-48,20)+8>bodyHeight+1?18f:0f;
             var height=headerHeight+bodyHeight+readingHintHeight+feedbackHeight+12+visibleOptions+actionHint+(lumiSpeaking?64:16);
+            if(previousHeight>0f)height=Mathf.Max(height,previousHeight);
+            lastStableDialogueNode=node;
             var sheet=MobileUI.Frame(ui,overlay,"NodeEventPanel",Vector2.zero,Vector2.zero,AdventureUIArt.Load().window,2.8f);
             sheet.anchorMin=sheet.anchorMax=new Vector2(.5f,0);sheet.pivot=new Vector2(.5f,0);sheet.sizeDelta=new Vector2(width,height);sheet.anchoredPosition=new Vector2(0,18);sheet.localScale=Vector3.one*scale;
-            var entrance=sheet.gameObject.AddComponent<PortraitPresence>();entrance.slide=true;
+            var entrance=sheet.gameObject.AddComponent<PortraitPresence>();entrance.slide=previousHeight<=0f;
+            if(previousHeight>0f)entrance.Skip();
             if(portrait!=null)
             {
                 var portraitHeight=Mathf.Min(216,(ui.Root.rect.height-18-height*scale)/scale-8);
@@ -129,7 +135,9 @@ namespace LightBetweenCultures
                 active.rectTransform.anchoredPosition=new Vector2((lumiSpeaking?width*.30f:-width*.30f)*scale,18+height*scale-5);
                 active.useSpriteMesh=portraitMesh;
                 active.raycastTarget=false;
-                active.gameObject.AddComponent<PortraitPresence>().TransitionFrom(oldSprite,oldPosition,oldSize,oldMesh);
+                var portraitEntrance=active.gameObject.AddComponent<PortraitPresence>();
+                if(previousHeight>0f)portraitEntrance.Skip();
+                else portraitEntrance.TransitionFrom(oldSprite,oldPosition,oldSize,oldMesh);
             }
             var nameplate=ui.Panel(sheet,"SpeakerPlate",Vector2.zero,Vector2.zero,DesignKitArt.Hex("315F64"));Place(nameplate,24,14,width-104,34);MobileUI.Round(nameplate);nameplate.GetComponent<Image>().raycastTarget=false;
             MobileUI.Symbol(nameplate,"SpeechIcon",AdventureSymbol.Chat,new Vector2(.025f,.10f),new Vector2(.10f,.90f),DesignKitArt.Gold);
@@ -168,6 +176,7 @@ namespace LightBetweenCultures
                 var label=button.GetComponentInChildren<Text>();label.resizeTextForBestFit=false;label.fontSize=17;label.horizontalOverflow=HorizontalWrapMode.Wrap;
                 button.interactable=option.enabled;y+=optionHeights[i]+8;
             }
+            if(!lumiSpeaking&&!delivery)RememberDialoguePanel(node,view);
             var hasNext=lumiSpeaking;
             if(delivery)
             {var exit=MobileUI.Button(ui,sheet,"EventClose","Hủy · Giữ vật phẩm",Vector2.zero,Vector2.zero,Close,illustrated:true);Place((RectTransform)exit.transform,24,height-60,(width-56)*.54f,48);MobileUI.Cue(exit,AdventureSymbol.Close);}
@@ -333,7 +342,9 @@ namespace LightBetweenCultures
             var battle = game.Battles;
             if (battle.Enemy == null)
                 battle.Start(game.Events.Definition(game.Data.nodes[node].eventId));
+            if(TryRefreshBattleInPlace(node))return;
             var sheet = Sheet("BattlePanel", battle.Enemy?.name ?? "Chạm trán");
+            RecordBattlePanel(node);
             ContextHelp(sheet,"battle",BattleHelp(),"PanelTitle",true);
             ui.Picture(sheet, "BattleLumi", art.lumiExploration, new Vector2(.10f,.53f), new Vector2(.38f,.77f));
             ui.Picture(sheet, "BattleEnemy", AdventureUIArt.Load().Enemy(battle.Enemy?.id)?.sprite??art.enemy, new Vector2(.63f,.54f), new Vector2(.88f,.76f)).useSpriteMesh=true;
@@ -381,7 +392,11 @@ namespace LightBetweenCultures
             {
                 var battle=game.Battles;if(!battle.Active||!battle.HasPlayerTurn)return;
                 var hp=battle.PlayerHP;var enemyHP=battle.EnemyHP;var phase=battle.Phase;
+                var eventSource=game.Events.Definition(game.Data.nodes[node].eventId);
+                var watch=WatchActualRewards(eventSource?.rewardItems,battle.Enemy?.rewardItems);
+                var wasActive=battle.Active;
                 battle.Act(action);changed?.Invoke();ShowBattle(node);BattleResponse(action,hp,enemyHP,phase);
+                if(wasActive&&battle.Outcome=="win")ShowReceipt(watch.Earned());
             },action=="light");
             button.GetComponentInChildren<Text>().fontSize=17;return button;
         }
@@ -432,8 +447,8 @@ namespace LightBetweenCultures
                 ui.Panel(paper.transform,"FoldGuide",new Vector2(.49f,.10f),new Vector2(.51f,.90f),new Color(.12f,.57f,.54f,.8f)).GetComponent<Image>().raycastTarget=false;
                 paper.rectTransform.localEulerAngles=new Vector3(0,0,puzzle.Rotations*90);
                 paper.rectTransform.localScale=new Vector3(puzzle.Folds>0?.55f:1,1,1);
-                var rotate=MobileUI.Button(ui,sheet,"HanjiRotate","Xoay 90°",new Vector2(.45f,.35f),new Vector2(.93f,.44f),()=>{puzzle.FoldStep(false);ShowPuzzle(node);});rotate.interactable=puzzle.Active;MobileUI.Cue(rotate,AdventureSymbol.Arrow);
-                MobileUI.Button(ui,sheet,"HanjiFold","Gấp theo vạch sáng",new Vector2(.45f,.24f),new Vector2(.93f,.33f),()=>{puzzle.FoldStep(true);ShowPuzzle(node);}).interactable=puzzle.Active;
+                var rotate=MobileUI.Button(ui,sheet,"HanjiRotate","Xoay 90°",new Vector2(.45f,.35f),new Vector2(.93f,.44f),()=>{puzzle.FoldStep(false);RefreshPuzzleInteraction(sheet);});rotate.interactable=puzzle.Active;MobileUI.Cue(rotate,AdventureSymbol.Arrow);
+                MobileUI.Button(ui,sheet,"HanjiFold","Gấp theo vạch sáng",new Vector2(.45f,.24f),new Vector2(.93f,.33f),()=>{puzzle.FoldStep(true);RefreshPuzzleInteraction(sheet);}).interactable=puzzle.Active;
             }
             if(definition?.mode=="rings")
             {
@@ -443,18 +458,19 @@ namespace LightBetweenCultures
                     var ring=i;var left=.08f+i*.29f;
                     var wheel=ui.Picture(sheet,"RingVisual_"+i,AdventureUIArt.Load().Marker("Ground"),new Vector2(left,.26f),new Vector2(left+.24f,.46f));
                     wheel.rectTransform.localEulerAngles=new Vector3(0,0,puzzle.Rings[i]*120);
-                    var control=MobileUI.Button(ui,sheet,"LanternRing_"+i,options[puzzle.Rings[i]],new Vector2(left,.27f),new Vector2(left+.24f,.36f),()=>{puzzle.RotateRing(ring);ShowPuzzle(node);});control.interactable=puzzle.Active;MobileUI.Cue(control,AdventureSymbol.Arrow);
+                    var control=MobileUI.Button(ui,sheet,"LanternRing_"+i,options[puzzle.Rings[i]],new Vector2(left,.27f),new Vector2(left+.24f,.36f),()=>{puzzle.RotateRing(ring);RefreshPuzzleInteraction(sheet);});control.interactable=puzzle.Active;MobileUI.Cue(control,AdventureSymbol.Arrow);
                 }
             }
             var submit=MobileUI.Button(ui,sheet,"PuzzleSubmit","Xác nhận",new Vector2(.38f,.135f),new Vector2(.93f,.22f),()=>
             {
+                var watch=WatchActualRewards(definition?.rewardItems);
                 var solved=puzzle.Submit(definition?.mode=="fold"?definition.answer:definition?.mode=="rings"?puzzle.RingAnswer:answer.text); feedback.text=puzzle.Log;
                 if(!solved)SoftAudio.Cue(SoftCue.UI_Invalid);
-                if(solved) { changed?.Invoke(); ShowPuzzle(node); }
+                if(solved) { changed?.Invoke(); ShowPuzzle(node);ShowReceipt(watch.Earned()); }
             },true);
             submit.interactable=puzzle.Active;
             MobileUI.Cue(submit,AdventureSymbol.Check);
-            MobileUI.Button(ui,sheet,"PuzzleClear","Xóa",new Vector2(.07f,.135f),new Vector2(.35f,.22f),()=>{if(definition?.mode=="fold"||definition?.mode=="rings"){puzzle.ResetInteraction();ShowPuzzle(node);}else answer.text="";}).interactable=puzzle.Active;
+            MobileUI.Button(ui,sheet,"PuzzleClear","Xóa",new Vector2(.07f,.135f),new Vector2(.35f,.22f),()=>{if(definition?.mode=="fold"||definition?.mode=="rings"){puzzle.ResetInteraction();RefreshPuzzleInteraction(sheet);}else answer.text="";}).interactable=puzzle.Active;
             MobileUI.Button(ui,sheet,"PuzzleClose","Trở về bản đồ",new Vector2(.07f,.035f),new Vector2(.93f,.12f),()=>{puzzle.Cancel();Close();});
         }
 

@@ -12313,7 +12313,7 @@
       "nodeId": "G14",
       "type": "npc",
       "title": "Kho bản khắc",
-      "actor": "Kho bản khắc",
+      "actor": "Người giữ kho bản khắc",
       "text": "Lõi sao đóng khiên theo ba nhịp Sao → Trăng → Sao. Khi biểu tượng đang sáng khớp, chạm để mở khiên rồi mới dùng tia sáng.",
       "npcId": "npc_inscription",
       "questId": "",
