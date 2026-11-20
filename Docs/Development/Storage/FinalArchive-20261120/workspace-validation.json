@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "WS-001",
+      "status": "PASS",
+      "detail": "workspace root must contain exactly the four official groups",
+      "violations": []
+    },
+    {
+      "id": "WS-002",
+      "status": "PASS",
+      "detail": "",
+      "violations": []
+    },
+    {
+      "id": "WS-003",
+      "status": "PASS",
+      "detail": "",
+      "violations": []
+    },
+    {
+      "id": "WS-004",
+      "status": "PASS",
+      "detail": "",
+      "violations": []
+    },
+    {
+      "id": "WS-005",
+      "status": "PASS",
+      "detail": "",
+      "violations": []
+    },
+    {
+      "id": "WS-006",
+      "status": "PASS",
+      "detail": "SHA-256 verified delivery files: 658",
+      "violations": []
+    },
+    {
+      "id": "WS-007",
+      "status": "PASS",
+      "detail": "SHA-256 verified backup files: 3368; existing manifest bytes preserved, not a restore rehearsal",
+      "violations": []
+    },
+    {
+      "id": "WS-008",
+      "status": "PASS",
+      "detail": "literal active file reads and maintained Python asset inputs; dynamic Unity bindings have a separate native gate",
+      "violations": []
+    },
+    {
+      "id": "WS-009",
+      "status": "PASS",
+      "detail": "",
+      "violations": []
+    },
+    {
+      "id": "WS-010",
+      "status": "PASS",
+      "detail": "original recursive inventory includes hidden files; moves recorded individually; only the ignored regenerated Unity stop-build log is allowed",
+      "violations": []
+    }
+  ]
+}

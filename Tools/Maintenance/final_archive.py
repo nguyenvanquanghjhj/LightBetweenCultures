@@ -43,7 +43,7 @@ def walk(root):
             except OSError as error:
                 errors.append(str(error))
     if errors:
-        write('inventory-errors.json', errors)
+        write('walk-errors-'+hashlib.sha256(str(root).encode()).hexdigest()[:8]+'.json', dict(root=str(root),errors=errors))
 
 
 def inventory():

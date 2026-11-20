@@ -52,3 +52,6 @@ debug.log
 
 # The .NET regression project is authored source, not a Unity generated project
 !Tools/QA/CatRescueTests/CatRescueTests.csproj
+
+# Local command diagnostics; the JSON verification reports are retained in Git
+/Docs/Development/Storage/FinalArchive-20261120/git-stage-log.txt

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "lostRuntimeGuids": [],
+  "changedSpriteOrPlatformSettings": [],
+  "newReferenceIssues": {
+    "missingGuids": [],
+    "missingScripts": [],
+    "missingObjectReferences": []
+  },
+  "baselineCounts": {
+    "missingGuids": 7,
+    "missingScripts": 0,
+    "missingObjectReferences": 6
+  },
+  "cloneCounts": {
+    "missingGuids": 7,
+    "missingScripts": 0,
+    "missingObjectReferences": 6
+  },
+  "note": "Comparison of actual native audits; template baseline errors remain. Unity cleared only the generated URP m_RuntimeSettings list when importing the clone; source original was not changed."
+}

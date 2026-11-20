@@ -1,7 +1,17 @@
 """Validate all ten workspace gates from real files and the relocation inventory."""
 import json
 from pathlib import Path
-from workspace_model import PROJECT, WORKSPACE, EVIDENCE, load, sha, resolve, check, write_report, active_path_violations
+from workspace_model import PROJECT, WORKSPACE, EVIDENCE, load, sha, resolve, check, write_report, active_path_violations, git
+
+
+def regenerated_stop_log(old):
+    # Unity/Gradle can recreate this ignored diagnostic after the original folder
+    # was archived. Any other file at a moved path remains a validation failure.
+    if old != PROJECT.name+'/build':return False
+    files=[p for p in (WORKSPACE/old).rglob('*') if p.is_file()]
+    return bool(files) and all(p.relative_to(PROJECT).as_posix()=='build/outputs/logs/unity---stop-build.log'
+                              and p.stat().st_size<=1024*1024
+                              and git('check-ignore','--no-index','-q',p.relative_to(PROJECT).as_posix()).returncode==0 for p in files)
 
 
 def main():
@@ -33,8 +43,8 @@ def main():
     checks.append(check('WS-009',[p.name for p in WORKSPACE.iterdir() if p.name not in expected and ('archive' in p.name.lower() or 'old' in p.name.lower())]))
     top=original.get('topLevel',[])
     checks.append(check('WS-010',([] if original.get('files') and original.get('folders') and top else ['recursive original inventory missing'])+
-                        [r['old'] for r in load(EVIDENCE/'move-result.json') if (WORKSPACE/r['old']).exists()],
-                        'original recursive inventory includes hidden files; moves recorded individually'))
+                        [r['old'] for r in load(EVIDENCE/'move-result.json') if (WORKSPACE/r['old']).exists() and not regenerated_stop_log(r['old'])],
+                        'original recursive inventory includes hidden files; moves recorded individually; only the ignored regenerated Unity stop-build log is allowed'))
     return write_report('workspace-validation.json',checks)
 
 

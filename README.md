@@ -41,6 +41,8 @@ Mở thư mục clone bằng Unity Hub với đúng phiên bản, chờ import/C
 
 Asset/folder Unity đi cùng `.meta`; không tạo lại GUID. Workspace còn có `_LBC_ARCHIVE`, `_LBC_DELIVERABLES`, `_LBC_WORK` ở cạnh project; lấy lại từ Releases private. Cache và output build không commit vào source.
 
+Công cụ kiểm kê art có kiểm tra provenance từ `_LBC_ARCHIVE`; để chạy đầy đủ công cụ đó, khôi phục kho lịch sử private cạnh project. Clone source riêng vẫn đủ để Unity import, compile và build; không tự nhập art lịch sử vào Assets để sửa lỗi thiếu provenance của công cụ.
+
 ## Build Windows và Android
 
 Trong Editor, mở Build Profiles/Build Settings, chọn platform và toàn bộ scene enabled hiện có, chọn output mới. Windows Release tắt Development Build. Giữ nguyên toàn bộ folder cạnh EXE khi đóng gói.
