@@ -1,0 +1,289 @@
+{
+  "groups": {
+    "LightBetweenCultures/.gitignore": {
+      "files": 1,
+      "bytes": 731
+    },
+    "LightBetweenCultures/AGENTS.md": {
+      "files": 1,
+      "bytes": 4430
+    },
+    "LightBetweenCultures/Assembly-CSharp-Editor.csproj": {
+      "files": 1,
+      "bytes": 113165
+    },
+    "LightBetweenCultures/Assembly-CSharp.csproj": {
+      "files": 1,
+      "bytes": 115651
+    },
+    "LightBetweenCultures/LightBetweenCultures.slnx": {
+      "files": 1,
+      "bytes": 125
+    },
+    "LightBetweenCultures/README.md": {
+      "files": 1,
+      "bytes": 4628
+    },
+    "LightBetweenCultures/.git": {
+      "files": 256,
+      "bytes": 1213802145
+    },
+    "LightBetweenCultures/.utmp": {
+      "files": 55,
+      "bytes": 2266395
+    },
+    "LightBetweenCultures/.vscode": {
+      "files": 3,
+      "bytes": 2095
+    },
+    "LightBetweenCultures/Assets": {
+      "files": 847,
+      "bytes": 202843032
+    },
+    "LightBetweenCultures/build": {
+      "files": 1,
+      "bytes": 38
+    },
+    "LightBetweenCultures/Docs": {
+      "files": 695,
+      "bytes": 142239738
+    },
+    "LightBetweenCultures/Library": {
+      "files": 74304,
+      "bytes": 13734917509
+    },
+    "LightBetweenCultures/Logs": {
+      "files": 12,
+      "bytes": 82898
+    },
+    "LightBetweenCultures/Packages": {
+      "files": 2,
+      "bytes": 19875
+    },
+    "LightBetweenCultures/ProjectSettings": {
+      "files": 30,
+      "bytes": 65158
+    },
+    "LightBetweenCultures/Tools": {
+      "files": 82,
+      "bytes": 67566667
+    },
+    "LightBetweenCultures/UserSettings": {
+      "files": 12,
+      "bytes": 62501
+    },
+    "_LBC_ARCHIVE/Backups": {
+      "files": 2799,
+      "bytes": 500695263
+    },
+    "_LBC_ARCHIVE/Checkpoints": {
+      "files": 572,
+      "bytes": 129862941
+    },
+    "_LBC_ARCHIVE/HistoricalArt": {
+      "files": 141,
+      "bytes": 110454891
+    },
+    "_LBC_ARCHIVE/HistoricalPatches": {
+      "files": 30,
+      "bytes": 1709420
+    },
+    "_LBC_ARCHIVE/HistoricalQA": {
+      "files": 4241,
+      "bytes": 1342201236
+    },
+    "_LBC_ARCHIVE/HistoricalSources": {
+      "files": 544,
+      "bytes": 8300277
+    },
+    "_LBC_DELIVERABLES/Android": {
+      "files": 2,
+      "bytes": 587147786
+    },
+    "_LBC_DELIVERABLES/CompetitionSubmission": {
+      "files": 7,
+      "bytes": 13538135
+    },
+    "_LBC_DELIVERABLES/Handoffs": {
+      "files": 44,
+      "bytes": 56271974
+    },
+    "_LBC_DELIVERABLES/Windows": {
+      "files": 605,
+      "bytes": 1786534915
+    },
+    "_LBC_WORK/Debug": {
+      "files": 1,
+      "bytes": 190472
+    },
+    "_LBC_WORK/Logs": {
+      "files": 14,
+      "bytes": 59544342
+    },
+    "_LBC_WORK/QA": {
+      "files": 842,
+      "bytes": 1850439445
+    }
+  },
+  "largest": [
+    {
+      "path": "LightBetweenCultures/.git/objects/pack/pack-f2f64eac9b5289e2ad8e5a591179cad8efcdd0d2.pack",
+      "bytes": 1209206494
+    },
+    {
+      "path": "LightBetweenCultures/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/local_aar_for_lint/release/out.aar",
+      "bytes": 671681467
+    },
+    {
+      "path": "LightBetweenCultures/Library/PlayerDataCache/Win642/Data/resources.assets.resS",
+      "bytes": 541514544
+    },
+    {
+      "path": "_LBC_DELIVERABLES/Windows/Submission-20261111-ArtFix/Windows/LightBetweenCultures_Data/resources.assets.resS",
+      "bytes": 541514544
+    },
+    {
+      "path": "_LBC_WORK/QA/LightBetweenCultures/Build-WorkspaceRestructure-20261113/windows/LightBetweenCultures_Data/resources.assets.resS",
+      "bytes": 541514544
+    },
+    {
+      "path": "_LBC_WORK/QA/LightBetweenCultures/UnusedAssets-20261113/Player/LightBetweenCultures_Data/resources.assets.resS",
+      "bytes": 541514544
+    },
+    {
+      "path": "_LBC_DELIVERABLES/Windows/Submission-20261111/Windows/LightBetweenCultures_Data/resources.assets.resS",
+      "bytes": 540509824
+    },
+    {
+      "path": "LightBetweenCultures/Library/Bee/artifacts/Android/d8kzr/libil2cpp.so",
+      "bytes": 501298696
+    },
+    {
+      "path": "LightBetweenCultures/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so",
+      "bytes": 501298696
+    },
+    {
+      "path": "LightBetweenCultures/Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so",
+      "bytes": 501298696
+    },
+    {
+      "path": "_LBC_DELIVERABLES/Windows/Submission-20261111-ArtFix/Windows.zip",
+      "bytes": 316469860
+    },
+    {
+      "path": "LightBetweenCultures/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/outputs/apk/release/launcher-release.apk",
+      "bytes": 293774890
+    },
+    {
+      "path": "_LBC_WORK/QA/LightBetweenCultures/Build-WorkspaceRestructure-20261113/android/LightBetweenCultures.apk",
+      "bytes": 293774890
+    },
+    {
+      "path": "_LBC_DELIVERABLES/Android/Submission-20261111-ArtFix/Android/LightBetweenCultures.apk",
+      "bytes": 293772740
+    },
+    {
+      "path": "_LBC_DELIVERABLES/Android/Submission-20261111/Android/LightBetweenCultures.apk",
+      "bytes": 293375046
+    },
+    {
+      "path": "LightBetweenCultures/Library/DataStore/UDSData_403.bin",
+      "bytes": 271990380
+    },
+    {
+      "path": "LightBetweenCultures/Library/ArtifactDB",
+      "bytes": 268435456
+    },
+    {
+      "path": "LightBetweenCultures/Library/DataStore/UDSData_391.bin",
+      "bytes": 190605216
+    },
+    {
+      "path": "LightBetweenCultures/Library/Search/98957a664bd18c47a3e41b2a0189ef53.SearchIndexArtifactImporter.262146.b.index",
+      "bytes": 186941440
+    },
+    {
+      "path": "LightBetweenCultures/Library/DataStore/UDSData_389.bin",
+      "bytes": 152193289
+    },
+    {
+      "path": "LightBetweenCultures/Library/SourceAssetDB",
+      "bytes": 134217728
+    },
+    {
+      "path": "LightBetweenCultures/Library/DataStore/UDSData_402.bin",
+      "bytes": 121311941
+    },
+    {
+      "path": "LightBetweenCultures/Library/DataStore/UDSData_406.bin",
+      "bytes": 115619140
+    },
+    {
+      "path": "LightBetweenCultures/Library/DataStore/UDSData_388.bin",
+      "bytes": 102680586
+    },
+    {
+      "path": "LightBetweenCultures/Library/PackageCache/com.unity.ai.assistant@1b11b9bfd84a/RelayApp~/relay_win.exe",
+      "bytes": 100741544
+    },
+    {
+      "path": "LightBetweenCultures/Library/PackageCache/com.unity.ai.assistant@1b11b9bfd84a/RelayApp~/relay_linux",
+      "bytes": 96958592
+    },
+    {
+      "path": "_LBC_DELIVERABLES/Windows/Submission-20261111/Windows/UnityPlayer.dll",
+      "bytes": 91430824
+    },
+    {
+      "path": "_LBC_WORK/QA/LightBetweenCultures/Build-WorkspaceRestructure-20261113/windows/UnityPlayer.dll",
+      "bytes": 91430824
+    },
+    {
+      "path": "_LBC_WORK/QA/LightBetweenCultures/UnusedAssets-20261113/Player/UnityPlayer.dll",
+      "bytes": 91430824
+    },
+    {
+      "path": "LightBetweenCultures/Library/DataStore/UDSData_405.bin",
+      "bytes": 76236300
+    },
+    {
+      "path": "LightBetweenCultures/Library/PackageCache/com.unity.ai.assistant@1b11b9bfd84a/RelayApp~/gateway/codex-acp-darwin-x64",
+      "bytes": 75811248
+    },
+    {
+      "path": "LightBetweenCultures/Library/PackageCache/com.unity.ai.assistant@1b11b9bfd84a/RelayApp~/gateway/codex-acp.exe",
+      "bytes": 75316704
+    },
+    {
+      "path": "LightBetweenCultures/Library/PackageCache/com.unity.ai.assistant@1b11b9bfd84a/RelayApp~/gateway/codex-acp-darwin-arm64",
+      "bytes": 71678880
+    },
+    {
+      "path": "LightBetweenCultures/Library/DataStore/UDSData_231.bin",
+      "bytes": 61238340
+    },
+    {
+      "path": "LightBetweenCultures/Library/Bee/1300b0aE.dag",
+      "bytes": 55731808
+    },
+    {
+      "path": "LightBetweenCultures/Library/Bee/1900b0aE.dag",
+      "bytes": 55711648
+    }
+  ],
+  "disks": {
+    "C:/": {
+      "total": 241087541248,
+      "used": 197727354880,
+      "free": 43360186368
+    },
+    "D:/": {
+      "total": 268434403328,
+      "used": 38405525504,
+      "free": 230028877824
+    },
+    "G:/": {
+      "error": "[WinError 5] Access is denied"
+    }
+  }
+}

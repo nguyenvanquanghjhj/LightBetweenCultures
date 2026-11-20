@@ -1,0 +1,1106 @@
+{
+  "moves": [
+    {
+      "old": "Assets/_Game/Art/Items/Collectibles/Seoul.meta",
+      "new": "Assets/_Game/Art/Relics/Fragments/Seoul.meta",
+      "sha256": "928d636b39c7fd54a0c3e6bbcc6a89e239d8b617842445c4fbfaa9848c88ef70",
+      "bytes": 172
+    },
+    {
+      "old": "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_HeritageData.png",
+      "new": "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_HeritageData.png",
+      "sha256": "4aa4f91059bd990e697e06a3955a7477328cb32ba12f4ce108d12e3914c99742",
+      "bytes": 155235
+    },
+    {
+      "old": "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_HeritageData.png.meta",
+      "new": "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_HeritageData.png.meta",
+      "sha256": "223f94da3e1ce6ed884f6d625152c3ddd4982d4dfe57db85d5a33cca3a43d9f6",
+      "bytes": 4092
+    },
+    {
+      "old": "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_JiwonSync.png",
+      "new": "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_JiwonSync.png",
+      "sha256": "a8154dfe6e9e66d2114f0dbb02710774df4f36e0f4fe8e590cb1ca7e1ee0f033",
+      "bytes": 153210
+    },
+    {
+      "old": "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_JiwonSync.png.meta",
+      "new": "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_JiwonSync.png.meta",
+      "sha256": "951a40e763f4c0c4d09635875f63383e2955a09f98393bb52e3405d56cdee391",
+      "bytes": 4083
+    },
+    {
+      "old": "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_StellarRing.png",
+      "new": "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_StellarRing.png",
+      "sha256": "68972451e9c2f61c51ca752284d65676f85043f8a2752096b567d1942fb97af8",
+      "bytes": 146388
+    },
+    {
+      "old": "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_StellarRing.png.meta",
+      "new": "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_StellarRing.png.meta",
+      "sha256": "0c1aefe3009b22d09c214edd00db75348d9230f4e9e60875bc3e9793c981445a",
+      "bytes": 4092
+    },
+    {
+      "old": "Assets/_Game/Art/Items/Collectibles.meta",
+      "new": "Assets/_Game/Art/Relics/Fragments.meta",
+      "sha256": "6dda4ad2ab2adc42e07088accc891eb13f78ce5c442551ca6026b8159094e96d",
+      "bytes": 172
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_DaLat_MistCompass_Source.png",
+      "sha256": "4a300ed9551394a40758140a7bf60508725f496eac2adf62ca48353f6ccf1a00",
+      "bytes": 1833722
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png.meta",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_DaLat_MistCompass_Source.png.meta",
+      "sha256": "260b24d20ba41594fb58a2d400a39f20be1b64627da54f65ef4ca5badcbfab3a",
+      "bytes": 7074
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+      "sha256": "2b0cf2eaa0bfd0ca4b64ca06251adb42c53e4290b9281a1005babcd475843c26",
+      "bytes": 1627766
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png.meta",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_Gyeongju_StarlightLens_Source.png.meta",
+      "sha256": "35ed60ff925f6ebe58181376e962e249959cc8c4bf8ee96e1c8642dbc85a28dd",
+      "bytes": 7373
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_HoiAn_Lantern_Source.png",
+      "sha256": "8d185c04b98bf723bafc91fe3b24710439c757d6d142a2b8027bca5e0028072d",
+      "bytes": 1205125
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png.meta",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_HoiAn_Lantern_Source.png.meta",
+      "sha256": "4a7caeaee6d0537cfb802233736d39c0b91f32a7e86abde9e2b078282918d370",
+      "bytes": 7071
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_Hue_DragonSeal_Source.png",
+      "sha256": "81c0820415a44a92256dfc758e119b36133c3e0a4ea59b831ad9ac0711d2e010",
+      "bytes": 2063794
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png.meta",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_Hue_DragonSeal_Source.png.meta",
+      "sha256": "14b91901641fcd89e72dbb1ab7082c34ac5a9ec4b926d556a5f0f595032aab85",
+      "bytes": 6838
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+      "sha256": "3adb75d3069fd4f2ba48f43361fffc4f3a353e774c1db285d67d3eb361619934",
+      "bytes": 1561322
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png.meta",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_Jeonju_HanjiSeal_Source.png.meta",
+      "sha256": "e51d0ae3899757d3c5a8639047721d538c2ad02b8e09a9a864e712aa63fa73fa",
+      "bytes": 10493
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+      "sha256": "d7a458c02fdd86a4e2816569088c13a796b67214b229485776086ab8f7ffa04e",
+      "bytes": 1436998
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png.meta",
+      "new": "Assets/_Game/Art/Relics/Artifacts/Artifact_Seoul_ThreeRelayPrism_Source.png.meta",
+      "sha256": "8bb2a5e3b3e9e458b9b959bf4f6e331ce8587d49dbd700efe390228af6d810f5",
+      "bytes": 6886
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/CulturalArtifacts.meta",
+      "new": "Assets/_Game/Art/Relics/Artifacts.meta",
+      "sha256": "75144d6e1fdda78908fae6ed562e4e062b15e3d6ce99572bed9b0ec408b5a3af",
+      "bytes": 172
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/ItemsOriginals/Item_HoiAn_Chili.jpg",
+      "new": "Assets/_Game/Art/Items/Source/Item_HoiAn_Chili.jpg",
+      "sha256": "d3704b8a2c51f209ab0faa6d80c3d102b18b51daff8605756700ba7deec5b932",
+      "bytes": 45889
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/ItemsOriginals/Item_HoiAn_Chili.jpg.meta",
+      "new": "Assets/_Game/Art/Items/Source/Item_HoiAn_Chili.jpg.meta",
+      "sha256": "d4064947d3072790dfb55e5484cb19d76b0d64d783a30efeafb2e7bb8484cfd3",
+      "bytes": 3722
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/ItemsOriginals/Item_HoiAn_Shallot.jpg",
+      "new": "Assets/_Game/Art/Items/Source/Item_HoiAn_Shallot.jpg",
+      "sha256": "a04831e27615a92512c9a8a982de76c0dd9bd7371d3b6326b0346db757c241ef",
+      "bytes": 82331
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/ItemsOriginals/Item_HoiAn_Shallot.jpg.meta",
+      "new": "Assets/_Game/Art/Items/Source/Item_HoiAn_Shallot.jpg.meta",
+      "sha256": "27690a43c9ea63c7932ceb0a7de20dddeb9db408feea74ef82d5278b83ef6773",
+      "bytes": 3731
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/ItemsOriginals.meta",
+      "new": "Assets/_Game/Art/Items/Source.meta",
+      "sha256": "ef460aaf21fd76cd225a787ad43777b5eb8cccc84e4d5533d3ae86dbad24e543",
+      "bytes": 172
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/Lumi/Lumi_Character_Cutout_Concept.png",
+      "new": "Assets/_Game/Art/Characters/Source/Lumi_Character_Cutout_Concept.png",
+      "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b",
+      "bytes": 1108620
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/Lumi/Lumi_Character_Cutout_Concept.png.meta",
+      "new": "Assets/_Game/Art/Characters/Source/Lumi_Character_Cutout_Concept.png.meta",
+      "sha256": "9ec424e6539f1f43f78e424ab05a33d443affaed0651f5f3338cf43c72fbbf10",
+      "bytes": 3763
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/Lumi.meta",
+      "new": "Assets/_Game/Art/Characters/Source.meta",
+      "sha256": "5286dc408672911b2267057d95073a5a818fc7404b0e20363a8bd5ca3f10bccc",
+      "bytes": 172
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/Enemies_Roster_Concept.png",
+      "new": "Assets/_Game/Art/Enemies/Shared/Enemies_Roster_Concept.png",
+      "sha256": "7aa3ef410c2af2a29bf36840b46313f107857a5cbe2d60b41f4845cbbbf9b204",
+      "bytes": 2379057
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/Enemies_Roster_Concept.png.meta",
+      "new": "Assets/_Game/Art/Enemies/Shared/Enemies_Roster_Concept.png.meta",
+      "sha256": "8d64369887fa6073e6b1885c528cd0b8231ab575c21e6b909f6c93f56875cb09",
+      "bytes": 27782
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/ItemSheet_VNKR_FoodCulture_v1.png",
+      "new": "Assets/_Game/Art/Items/Shared/ItemSheet_VNKR_FoodCulture_v1.png",
+      "sha256": "2598a2c23f4454d0600e6df7df7c68ead45b666c39d75be9e782353ababa6373",
+      "bytes": 2180847
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/ItemSheet_VNKR_FoodCulture_v1.png.meta",
+      "new": "Assets/_Game/Art/Items/Shared/ItemSheet_VNKR_FoodCulture_v1.png.meta",
+      "sha256": "538efd48c630f9ecc06c53ae86ab5d835ab6b6f48cccb0cc96f31de322ae2222",
+      "bytes": 13153
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "new": "Assets/_Game/Art/Environment/HoiAn/H3/ArchitectureAtlas.png",
+      "sha256": "a93dd7c9de3afdb6e48c2e4ebaf1695eb1956e589477f3f60829c1faaca38329",
+      "bytes": 2725059
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png.meta",
+      "new": "Assets/_Game/Art/Environment/HoiAn/H3/ArchitectureAtlas.png.meta",
+      "sha256": "1283498fbb45b0b01edac01eb39dcc7fd5f929ce0601e906800772fe279bec51",
+      "bytes": 5134
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "new": "Assets/_Game/Art/UI/H3/BlankPanelsAtlas.png",
+      "sha256": "6863f0d25cdcc741b9995d990aee871fefc8e7b2bf6b8e0a3fc191445f408724",
+      "bytes": 2055781
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png.meta",
+      "new": "Assets/_Game/Art/UI/H3/BlankPanelsAtlas.png.meta",
+      "sha256": "b2b795e64772388ed9c359c3aa03dbe0ec2fa229528f4ed3b5c79544a9add4e7",
+      "bytes": 7029
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "new": "Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png",
+      "sha256": "7cbef3187db3a532c2ddeb7906e5aaf0a2515c78f02fec086ba9fd7f89d971f3",
+      "bytes": 1969921
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png.meta",
+      "new": "Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png.meta",
+      "sha256": "49e57e6c3a309914d97b55f130f49254540d888dcc92e8f4945d47665e71cfea",
+      "bytes": 26946
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/ASSET_MANIFEST.csv",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/ASSET_MANIFEST.csv",
+      "sha256": "6e3325590fccef5d793a5bb17b77a639f77a9ea44f31b3976fc9fc3fa92bf8f5",
+      "bytes": 3977
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/CODEX_IMPLEMENTATION_PROMPT.md",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/CODEX_IMPLEMENTATION_PROMPT.md",
+      "sha256": "05139724801499fe83ce874060e349ff3688ea44957f60aead8288f41082122d",
+      "bytes": 7100
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/GAME_DESIGN_OVERVIEW.md",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/GAME_DESIGN_OVERVIEW.md",
+      "sha256": "d5a1e9e99e78b65703c9e25df4d4332d417a2ba53a0bd37455e6a0808204c196",
+      "bytes": 7230
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/README_VN.md",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/README_VN.md",
+      "sha256": "3a273470b54bb2a988615c9e9ad55b4bf1f1da8e4b7f00cb25cc660b2c51b469",
+      "bytes": 2602
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Characters_Moodboard.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Characters_Moodboard.png",
+      "sha256": "7836e94093cbda80a242b83bc987ec4e82d6872aafb9d854484474e3173cc40d",
+      "bytes": 2804501
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png",
+      "sha256": "7aa3ef410c2af2a29bf36840b46313f107857a5cbe2d60b41f4845cbbbf9b204",
+      "bytes": 2379057
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Lumi_Actions_Concept.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Lumi_Actions_Concept.png",
+      "sha256": "2b0ae0367145e4e7682cac58e94e489c2d7c8eac4531b464a96bbc2b727741fe",
+      "bytes": 1766338
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/NPC_Roster_Concept.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Characters/NPC_Roster_Concept.png",
+      "sha256": "e4139f9ad91d44a8b02281718f5972e949159f2ea7973f5995c18b69e2251251",
+      "bytes": 2533810
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Props/Items_And_Interactables_Concept.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Props/Items_And_Interactables_Concept.png",
+      "sha256": "c2f257c0dc3378c0a18d692a33e8161cd2510581159b598d3e02f6af212d39d4",
+      "bytes": 2167806
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/DaLat/Map_Overview_A.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/DaLat/Map_Overview_A.png",
+      "sha256": "0b2872b62a8b06dc1c08095cdea20fb540385032a64782e59e20acf11c7a444c",
+      "bytes": 4064740
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/DaLat/Map_Overview_B.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/DaLat/Map_Overview_B.png",
+      "sha256": "1198c6a4f08febdd140941408be029c87a14d9c18752a662525bfcdd009607c0",
+      "bytes": 3813896
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Gyeongju/Map_Overview_A.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Gyeongju/Map_Overview_A.png",
+      "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c",
+      "bytes": 4079782
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Gyeongju/Map_Overview_B.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Gyeongju/Map_Overview_B.png",
+      "sha256": "72f13405f7b061ece69098c3c45c19ff45945e8b29c3c37247db53a8c1f305ae",
+      "bytes": 4019364
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/HoiAn/Map_Overview_A.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/HoiAn/Map_Overview_A.png",
+      "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c",
+      "bytes": 3694429
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/HoiAn/Map_Overview_B.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/HoiAn/Map_Overview_B.png",
+      "sha256": "b24746df91dfe2292e9a8250644353afbe3e9cca5d1cde9b343f73e9a899952e",
+      "bytes": 3757094
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Hue/Map_Overview_A.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Hue/Map_Overview_A.png",
+      "sha256": "2474699d527d86801eb77c767739eab5a33682b04dce609bebce7f433d181f1c",
+      "bytes": 4021351
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Hue/Map_Overview_B.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Hue/Map_Overview_B.png",
+      "sha256": "d03c453901d1eaa8047c7a3619597bd1bcbac0c8c55fcc879d835a6fbbb7f6b5",
+      "bytes": 3946487
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Jeonju/Map_Overview_A.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Jeonju/Map_Overview_A.png",
+      "sha256": "f1260ef1b4f718b989d55d907f50c99c341081263f3470bfda2d6fab1d2926c8",
+      "bytes": 4330806
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Jeonju/Map_Overview_B.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Jeonju/Map_Overview_B.png",
+      "sha256": "4f5579895f616e48029867ebb0f7d757b92202897c7d99000aca69c7c59235de",
+      "bytes": 3982969
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Seoul/Map_Overview_A.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Seoul/Map_Overview_A.png",
+      "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2",
+      "bytes": 4100855
+    },
+    {
+      "old": "LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Seoul/Map_Overview_B.png",
+      "new": "References/ImportSources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/Seoul/Map_Overview_B.png",
+      "sha256": "f59a277b3862c36615b55109a0a078ccaa3c745bfa4e3bfcd6dcbd6249367845",
+      "bytes": 3655706
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Concept_Gallery.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Concept_Gallery.png",
+      "sha256": "8e9d1c60ebd18a341f5ed0cc586901de188c5511dda464075288be7dd1fa2402",
+      "bytes": 2027539
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/README_BAT_DAU.md",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/README_BAT_DAU.md",
+      "sha256": "2d72808aedbf62599033d4faefe8df3296aae1b06e10368235504f132ce6152e",
+      "bytes": 4417
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Data/AssetManifest.csv",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Data/AssetManifest.csv",
+      "sha256": "65c0e339b42d9a9e23a54ef2078c9650eeaed4a38d1e1e301553adc4f0252cb1",
+      "bytes": 3408
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Data/hoi_an_exploration_grid.json",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Data/hoi_an_exploration_grid.json",
+      "sha256": "eb02078e48c54335624ab3a1c728d0327d5e66e36e4f30c2d2b6edaa7c2b6b38",
+      "bytes": 1637
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Data/hoi_an_map.json",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Data/hoi_an_map.json",
+      "sha256": "81d07641ef51da0bea4449e03805a60a4799e9d98198cafee0e726e9c70c3e2b",
+      "bytes": 5848
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Data/hoi_an_quests.json",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Data/hoi_an_quests.json",
+      "sha256": "5725618fdf5d68dd0d553db46e5ff9406ed17aedb0bd3a18dfcb4c4d43c4ca30",
+      "bytes": 3057
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Data/world_cities.json",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Data/world_cities.json",
+      "sha256": "487dfee2b3701ec2d082a3ab4de364d4107971a522c808f687204c63bdcbe953",
+      "bytes": 4236
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Docs/01_ART_BIBLE.md",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Docs/01_ART_BIBLE.md",
+      "sha256": "c7dcbcef2d5cdb13add806be9d1ecd088f956cfe3b5dd538c9fa3699198553f9",
+      "bytes": 6677
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Docs/02_LEVEL_DESIGN_HOI_AN.md",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Docs/02_LEVEL_DESIGN_HOI_AN.md",
+      "sha256": "b2a1af401ccbda5a8954333b73d0c439aa970f73ff7613641e1bf0864c9112a7",
+      "bytes": 4846
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Docs/03_SIX_CITIES_PROGRESSION.md",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Docs/03_SIX_CITIES_PROGRESSION.md",
+      "sha256": "01795adb75dccdacc1b62daee012e89a2cc32f2efbe5d38b41de0bdda05cced1",
+      "bytes": 3609
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Docs/04_UNITY_INTEGRATION.md",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Docs/04_UNITY_INTEGRATION.md",
+      "sha256": "374cdbb4ab1890e2e6d3a0515d476dd50c095f5edf80fd9cd8955258c0ba806e",
+      "bytes": 4558
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Docs/05_ART_GENERATION_GUIDE.md",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Docs/05_ART_GENERATION_GUIDE.md",
+      "sha256": "fd1eb237a87e7a970d53ea83b180cdfc7c3338980320dde3fc77e9fdbb53806d",
+      "bytes": 3023
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Docs/06_PROMPT_CODEX.md",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Docs/06_PROMPT_CODEX.md",
+      "sha256": "bd07b213201ee8a4cbff537247ce096a28fb2501b6757d99bd3afc6687800eb3",
+      "bytes": 6329
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Docs/07_TEST_CHECKLIST.md",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Docs/07_TEST_CHECKLIST.md",
+      "sha256": "35f3b76883b625038f4e249c8d45ec2931118277692eaff53fe0cdc42162d137",
+      "bytes": 1717
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Docs/08_ASSET_STATUS.md",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Docs/08_ASSET_STATUS.md",
+      "sha256": "6bb316862505fd7b2d3d3d4618dade278d9c2a2a922e58e8a444460a2f57a08e",
+      "bytes": 1287
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Maps/HoiAn_H3_Grid_LevelBlueprint.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Maps/HoiAn_H3_Grid_LevelBlueprint.png",
+      "sha256": "b039698b82a0e79909d376c9ef087b689c8bc98caed027bb6fcc2dde5ab6c2e9",
+      "bytes": 19462
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Maps/HoiAn_Node_Flow.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Maps/HoiAn_Node_Flow.png",
+      "sha256": "73a999a742d730de7fbb80ff2a8e8b666d92c681860fb7a6d129115bbae38a31",
+      "bytes": 518272
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Maps/HoiAn_Node_Flow.svg",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Maps/HoiAn_Node_Flow.svg",
+      "sha256": "4477dde3db75249c1a1cf669f7ee036897e5419c04af8aa922e25d46c782a7ca",
+      "bytes": 17555
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/03_Complete_Asset_Board.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/03_Complete_Asset_Board.png",
+      "sha256": "89905f81283455fda130da404b8344470878c1a4bd2ddd04629e8ee17b21e7cd",
+      "bytes": 3041544
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/04_Characters_Environment.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/04_Characters_Environment.png",
+      "sha256": "5e493ac23851514139fe542679a4a438830370c5abf78db57655540213f83c5b",
+      "bytes": 3031709
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/05_Cities_Themes.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/05_Cities_Themes.png",
+      "sha256": "bc957ad35b70af6545c461f59901dbfe401940f13f6639cd8c46ac9ced27c4b2",
+      "bytes": 3235323
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/ArtReference_01_Moodboard_AI.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/ArtReference_01_Moodboard_AI.png",
+      "sha256": "e83c3454410b9399edbeaec9d5ab06d63eaaafca0ae3476e3e35422014ce0581",
+      "bytes": 2772022
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/ArtReference_02_DesignSystem_AI.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/ArtReference_02_DesignSystem_AI.png",
+      "sha256": "50af9d6433f8a089731a399703a1fe1a8ccde5621daed03018998d33d0932242",
+      "bytes": 2548459
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/GameplayPerspective_reference_from_user.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/GameplayPerspective_reference_from_user.png",
+      "sha256": "19cfa3e526b52103aa6e300457823f44604cfe3f904a507efce968b8664ccd62",
+      "bytes": 119683
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/Lumi_CANONICAL_user_image.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/Lumi_CANONICAL_user_image.png",
+      "sha256": "3176a004843f29806e3aae42e871bdf21edd2551de589c73ed7d25c5e16847b6",
+      "bytes": 1745838
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Lumi/Lumi_Character_Cutout_Concept.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Lumi/Lumi_Character_Cutout_Concept.png",
+      "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b",
+      "bytes": 1108620
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Lumi/Lumi_CityMarker_128.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Lumi/Lumi_CityMarker_128.png",
+      "sha256": "a150c83125508853f9a7643f45c9e5820e05c96321e9e054f101f4b81470b3e2",
+      "bytes": 15761
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Lumi/Lumi_CityMarker_256.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Lumi/Lumi_CityMarker_256.png",
+      "sha256": "95061774ab06032908a131864462f7ed8a3a9d6b98eaa723a787450263b763bc",
+      "bytes": 51591
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Markers/node_available.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Markers/node_available.png",
+      "sha256": "fbf9b899d66942db4c9aa77395689576bd23bed84088c5a77f76f275139e173d",
+      "bytes": 2656
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Markers/node_current.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Markers/node_current.png",
+      "sha256": "c158ac8b6173efcd6f48d813997012a0c96560aade9add6fd0fe8095f844e098",
+      "bytes": 2678
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Markers/node_enemy.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Markers/node_enemy.png",
+      "sha256": "75e2ac2ef640210cbd41e22b7e68da13a55f8696ed3f1e3d5b1c000db38759b2",
+      "bytes": 5548
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Markers/node_item.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Markers/node_item.png",
+      "sha256": "e817bfe5736df505c5cb99d725d75f608b32144f010c54bfa7270e70354d377b",
+      "bytes": 3058
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Markers/node_locked.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Markers/node_locked.png",
+      "sha256": "43324db67f19e50760f7b7c0dc1873dd6055dbc332b902730ac7c4bc30a55253",
+      "bytes": 2523
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Markers/node_npc.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Markers/node_npc.png",
+      "sha256": "43187d191eee5a0cc522507724cd9ad0ab5d96adca939c17ad39d64be6dfc57e",
+      "bytes": 5125
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Markers/node_portal.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Markers/node_portal.png",
+      "sha256": "694ae85241e294f6fea2e1ae4ec92c8cde4543336ee01e1c7692922badc69b8c",
+      "bytes": 8864
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Markers/node_puzzle.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Markers/node_puzzle.png",
+      "sha256": "87804335c1d770daea1717af15b3301fc1880154ce1fd97270eed5b386b9e49b",
+      "bytes": 4587
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Markers/node_quest.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Markers/node_quest.png",
+      "sha256": "c896014ea01279e7adf886764693ff5b4fc416f220d535075463cf7f8e839832",
+      "bytes": 2826
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Markers/node_secret.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Markers/node_secret.png",
+      "sha256": "36c8905b0d1f210f4d77b4227530e551574ec1b425dab3fe44d8d77182d29e3a",
+      "bytes": 5189
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/Assets/Markers/node_visited.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/Assets/Markers/node_visited.png",
+      "sha256": "f8989c43a9f5ab024b25484771edc1f5627b446d7ab217153bca0e0afb559b95",
+      "bytes": 2667
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/01_World_Map_Overview.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/01_World_Map_Overview.png",
+      "sha256": "f78ad1322e5ae324d83febfd5c2e5b879fa5e716e52b84e26e78abb733d59755",
+      "bytes": 393208
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/02_City_HoiAn_Night.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/02_City_HoiAn_Night.png",
+      "sha256": "a5c9271e780f543785e02d77a54fa204ca36f47bc6850f6fe8b45e89af004da2",
+      "bytes": 136476
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/03_City_Hue_Imperial.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/03_City_Hue_Imperial.png",
+      "sha256": "294758499cd5fc27b67b16c03b2bf71b6aa94e550859d7a3a73b889872f4cf9d",
+      "bytes": 138240
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/04_City_DaLat_Lake.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/04_City_DaLat_Lake.png",
+      "sha256": "2a572ae7cfbd08b3ca9fbe4804547117feae1c944a3b8f46c8fa3ddc64cc2b27",
+      "bytes": 127918
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/05_City_Jeonju_Hanok.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/05_City_Jeonju_Hanok.png",
+      "sha256": "3664df74c3a928bb78350d9f9fef0f62cc279bb97ae3f4296c75d5f4e2cc8eeb",
+      "bytes": 142140
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/06_City_Gyeongju_Heritage.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/06_City_Gyeongju_Heritage.png",
+      "sha256": "9f4a009562daf1489c9ce14d1d5f0324cd0554866c9ac9377b2dd597c81eaf1c",
+      "bytes": 131412
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/07_City_Seoul_River.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/07_City_Seoul_River.png",
+      "sha256": "34ec13b4ecaf7f61d9130a241d623a22b17d997abdf4634593507735ffbde386",
+      "bytes": 117356
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/08_HoiAn_City_Nodes_Reference.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/08_HoiAn_City_Nodes_Reference.png",
+      "sha256": "3816ed4db31b1fc470a0f47f485b81330b5cdc5d0e9145dcd3b770e06068c69e",
+      "bytes": 413538
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/09_HoiAn_Free_Exploration_Reference.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/09_HoiAn_Free_Exploration_Reference.png",
+      "sha256": "a57eb961620ef2e77aab490b1fa540ba4e0a1873de05165c99c5ad1fae3fc596",
+      "bytes": 324923
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/10_HoiAn_Market_And_Bridge.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/10_HoiAn_Market_And_Bridge.png",
+      "sha256": "c6cd2d07e319598018a78b9031e0db8c6b2c2d5badcfd29f354b97c97b78cdd0",
+      "bytes": 307662
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/11_Lumi_Directions_ConceptOnly.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/11_Lumi_Directions_ConceptOnly.png",
+      "sha256": "8b620b9cffe6cdab33b7ef11ab53ca5257c4ef2fbaf39d04e3e181a14450c883",
+      "bytes": 202974
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/12_HoiAn_NPC_Concepts.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/12_HoiAn_NPC_Concepts.png",
+      "sha256": "3a573f0f08d5f3f07b438c17ec41c8725d0f78a224f583fdc2eab94293669d73",
+      "bytes": 148124
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/13_Enemies_Concepts.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/13_Enemies_Concepts.png",
+      "sha256": "4232c66c02f4f775bd9829b6670ee5ccf31aa4989ba08360195e63a382d38f1b",
+      "bytes": 87179
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/14_Tiles_And_Environment_Concepts.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/14_Tiles_And_Environment_Concepts.png",
+      "sha256": "4efe768d12798d1fdc58b144f42e00cfbac42f79f918758c06011f1e66017ceb",
+      "bytes": 180316
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/15_Items_And_Markers_Concepts.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/15_Items_And_Markers_Concepts.png",
+      "sha256": "266ae4b71f7f663de05ab3bb03a4979869a8f43d75ee9a1accfa218a1d5d91d8",
+      "bytes": 98814
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/16_UI_Main_Menu.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/16_UI_Main_Menu.png",
+      "sha256": "72717122790551b86e785dbe1d9f4b0eb2b50de3e1fbbbb4720aa94f014cd4f3",
+      "bytes": 98227
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/17_UI_World_And_City_Map.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/17_UI_World_And_City_Map.png",
+      "sha256": "90d3d875c30c246906123b412504d60890d86559c00f2bb1dac7c4e3bc10ccbd",
+      "bytes": 96400
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/18_UI_Dialogue.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/18_UI_Dialogue.png",
+      "sha256": "38dcb89c34425a264c04b7b8e6c2fdb1630f26c46ce5aa2cfc46489e107459c2",
+      "bytes": 77935
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/19_UI_Quest_And_Inventory.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/19_UI_Quest_And_Inventory.png",
+      "sha256": "0c6368acc728359a5e36b9953d80be295a2515ef43b563079ebfa95a1564875f",
+      "bytes": 136518
+    },
+    {
+      "old": "LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/20_UI_Gameplay_Markers.png",
+      "new": "References/ImportSources/LightBetweenCultures_DesignKit_v1/References/IndividualConcepts/20_UI_Gameplay_Markers.png",
+      "sha256": "df882edceba2c3f1ed97345f70e1dfa8a9d9e0a03f90ea7614f3e11960b09f2c",
+      "bytes": 72956
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/README_START_HERE.md",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/README_START_HERE.md",
+      "sha256": "8a1e17e0c613a0fb9ca2f1e54ef48c2dbe2f165a852213f680485c6eef79e41a",
+      "bytes": 1984
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/edges_all_cities.csv",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/edges_all_cities.csv",
+      "sha256": "7220940de2a8f2f8b1d9f088af0da83e392562d5ef529a5adf2b4facd259ff9d",
+      "bytes": 9816
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/enemies.json",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/enemies.json",
+      "sha256": "f4e3a03665f9de71c228e5d9f6b2ebea9cd3b6f4d23dd708f98123024645108e",
+      "bytes": 9478
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/items.json",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/items.json",
+      "sha256": "aa0278b82be7a20268fd28cc2fb7203a3a04f221f9431707626cd1b243a5bb19",
+      "bytes": 3760
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/nodes_all_cities.csv",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/nodes_all_cities.csv",
+      "sha256": "6c6a3845590906fd7b61b9fd8a8aee8846926f03c5245c57704f608f8a369f74",
+      "bytes": 13742
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/quests.json",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/quests.json",
+      "sha256": "940de68bb738ca276bb0bdf44d301bf70034b3a11d08e9a3e43c3ee90b0c70ef",
+      "bytes": 9779
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/world_progression.json",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/world_progression.json",
+      "sha256": "205dee5f37aeb7b1596ae20084902901e91184d3597120b78b0e8d1f45cdc22a",
+      "bytes": 2511
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Docs/FULL_LEVEL_DESIGN.md",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Docs/FULL_LEVEL_DESIGN.md",
+      "sha256": "d0462690e00511aea6639e1201b3de7b7cfdd57d1992b9b1c15e10c59915c557",
+      "bytes": 41076
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Docs/PROMPT_CODEX_NEXT_STEP.md",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Docs/PROMPT_CODEX_NEXT_STEP.md",
+      "sha256": "1da7ad9388ff5fa1cc000fadbaf751c85df354bb5f34c8d50bd76b5805db85e9",
+      "bytes": 4410
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Docs/QUEST_CHAINS_AND_GATES.md",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Docs/QUEST_CHAINS_AND_GATES.md",
+      "sha256": "0753c94cc207bb344b2954c3931fdd0ccb1d3bf29ea2113ca843317d577921a8",
+      "bytes": 6070
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/da_lat.json",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/da_lat.json",
+      "sha256": "8710af0ec85ecd14912dfb0339324f0b0ba56b553d9f700c813e726782b69fa0",
+      "bytes": 27087
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/gyeongju.json",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/gyeongju.json",
+      "sha256": "6ff96430d2f5fb4c180065e0c90063273bcc2cb1af4bcb62fde92ef6da7fcf9c",
+      "bytes": 26661
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/hoi_an.json",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/hoi_an.json",
+      "sha256": "2ca360dab3ac9492438101f80388dcf7056d86422ea9ef6287c6cc5648075ee2",
+      "bytes": 28033
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/hue.json",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/hue.json",
+      "sha256": "1e5d41f78dae9dd929c7705ec20d4ebfb460cfc2052ae94347ac6f4e19258548",
+      "bytes": 27017
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/jeonju.json",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/jeonju.json",
+      "sha256": "ea2fed8c63d2e3c41f5d6d16dae4af110a4e44814f33fd3420ac5c56809f7403",
+      "bytes": 27687
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/seoul.json",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Data/Cities/seoul.json",
+      "sha256": "1f0ee739aefe48d6f64fb43350d7e562cf30e1c47813b775489b83e1a3f9d286",
+      "bytes": 27841
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/DaLat_coord_grid.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/DaLat_coord_grid.jpg",
+      "sha256": "cf355f71423c6dd3f3ec13a740e9849f2bed1822be92164036c8dc792fe260cf",
+      "bytes": 974476
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/Gyeongju_coord_grid.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/Gyeongju_coord_grid.jpg",
+      "sha256": "e28f4cb0049d286f70a4c635d58c5bf4d7227c4d272287af1994406cdc6eccd6",
+      "bytes": 1006255
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/HoiAn_coord_grid.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/HoiAn_coord_grid.jpg",
+      "sha256": "414a28c89444ac3e55c8d843b3743a8e2153e809c76db3bbf21ef37e13a86771",
+      "bytes": 894645
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/Hue_coord_grid.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/Hue_coord_grid.jpg",
+      "sha256": "db1c736dc6591aa5b5a8d48d5b15206ccbf44a50095cf4d39290f24eb61d0495",
+      "bytes": 963979
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/Jeonju_coord_grid.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/Jeonju_coord_grid.jpg",
+      "sha256": "c705d56cddbbf6cf3dc02bddfbf859de5c18de0b8c20ba3cdcb4b489f39d3ca4",
+      "bytes": 1036650
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/Seoul_coord_grid.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/CoordinateGrids/Seoul_coord_grid.jpg",
+      "sha256": "d9290e0537f503ec0dd2fe04be1c09c1ecf3c6bbfe65bde265837f22c28ed0b0",
+      "bytes": 1019311
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/da_lat_nodes_routes.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/da_lat_nodes_routes.jpg",
+      "sha256": "212e5574ea90c721fec117bceb8173ba592f4f78c626d26749d720e6722b1f8b",
+      "bytes": 859230
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/gyeongju_nodes_routes.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/gyeongju_nodes_routes.jpg",
+      "sha256": "158bce2f8ee0f178098a94d36c556a46a88beb24e605119165e0f2bccfefb1dc",
+      "bytes": 889025
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/hoi_an_nodes_routes.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/hoi_an_nodes_routes.jpg",
+      "sha256": "c13c3f74ba9d467554004b6ec582098847f84db24708ba64b36de6b785ab7c2f",
+      "bytes": 795779
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/hue_nodes_routes.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/hue_nodes_routes.jpg",
+      "sha256": "ea657d1791fd283190fbe8e758afd6d770b2dfb887fa773398b0c7b18841f6fb",
+      "bytes": 854500
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/jeonju_nodes_routes.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/jeonju_nodes_routes.jpg",
+      "sha256": "b9ba9abbe9d72e036fa2f374df331ac9507f1d9b8c7acaa58512dd2a936e941a",
+      "bytes": 921939
+    },
+    {
+      "old": "LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/seoul_nodes_routes.jpg",
+      "new": "References/ImportSources/LBC_Gameplay_6Cities_Detailed_v1/Maps/NodeOverlays/seoul_nodes_routes.jpg",
+      "sha256": "08c9f1b07a0a9d1ee7634f3b9d68ba80a2ba33a792cf40da458bd0f093f1f842",
+      "bytes": 898845
+    },
+    {
+      "old": "LBC_HoiAn_StoryExpansion_v1/README.md",
+      "new": "References/ImportSources/LBC_HoiAn_StoryExpansion_v1/README.md",
+      "sha256": "85e006c3c051cc7ef64f967c0620152d6c5645b40275b15f0d3fbad1c2da3026",
+      "bytes": 2402
+    },
+    {
+      "old": "LBC_HoiAn_StoryExpansion_v1/Data/cross_city_food_hooks.json",
+      "new": "References/ImportSources/LBC_HoiAn_StoryExpansion_v1/Data/cross_city_food_hooks.json",
+      "sha256": "300e6118bc6151013f0d48a15411017618f7ee5c3082d64dee36f061da7c57ff",
+      "bytes": 5428
+    },
+    {
+      "old": "LBC_HoiAn_StoryExpansion_v1/Data/hoi_an_chapter.json",
+      "new": "References/ImportSources/LBC_HoiAn_StoryExpansion_v1/Data/hoi_an_chapter.json",
+      "sha256": "2c93243eba5663e374ea2714c19f107e113b62fdfc79688a5113f771c105431c",
+      "bytes": 65205
+    },
+    {
+      "old": "LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json",
+      "new": "References/ImportSources/LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json",
+      "sha256": "f6568c1baa82eabdbe95d75ff8a1678b5b0641fcbef53677c5442af03600db15",
+      "bytes": 2726
+    },
+    {
+      "old": "LBC_HoiAn_StoryExpansion_v1/Data/marker_rules.json",
+      "new": "References/ImportSources/LBC_HoiAn_StoryExpansion_v1/Data/marker_rules.json",
+      "sha256": "a727794cee7805cbe1e0fbed23c1fa10c8f7f9f6dba61d0f62b0c8f3166a0be0",
+      "bytes": 1505
+    },
+    {
+      "old": "LBC_HoiAn_StoryExpansion_v1/Docs/PROMPT_CODEX_IMPORT_STORY.md",
+      "new": "References/ImportSources/LBC_HoiAn_StoryExpansion_v1/Docs/PROMPT_CODEX_IMPORT_STORY.md",
+      "sha256": "8e2f7f95d15d83884f5b373d384128ee310eecd2f7dd328a28ce5b277185b508",
+      "bytes": 5066
+    },
+    {
+      "old": "LBC_HoiAn_StoryExpansion_v1/Docs/QA_ACCEPTANCE.md",
+      "new": "References/ImportSources/LBC_HoiAn_StoryExpansion_v1/Docs/QA_ACCEPTANCE.md",
+      "sha256": "59b91fa6f418aa59518d914c8559ca231d30d17e57f1e91461740e8bc6138db0",
+      "bytes": 3082
+    },
+    {
+      "old": "LBC_HoiAn_StoryExpansion_v1/Docs/STORY_BIBLE_HOI_AN.md",
+      "new": "References/ImportSources/LBC_HoiAn_StoryExpansion_v1/Docs/STORY_BIBLE_HOI_AN.md",
+      "sha256": "6dd3bf541589fdfe60e419ae78652922a8e61dc544837627b9c1c13546e91820",
+      "bytes": 8576
+    },
+    {
+      "old": "_CheckIn_Import_20261018/manifest.csv",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/manifest.csv",
+      "sha256": "c4786ce5fc1edbbca3bcf75e1473a3065fa3f0f92f8ae0edecf6f1c9ba7b1276",
+      "bytes": 1528
+    },
+    {
+      "old": "_CheckIn_Import_20261018/README_IMPORT.txt",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/README_IMPORT.txt",
+      "sha256": "3a1ce8b84f292033244df033a34297904b99655ea33a71df760341d2f4849d9d",
+      "bytes": 1377
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/01_hoi_an_H2_tiem_den_co_mai.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/01_hoi_an_H2_tiem_den_co_mai.png",
+      "sha256": "b070bc4994b039183eda1b9c006fde633fd5ec8e678b28449f628d8a4dd37aae",
+      "bytes": 586009
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/02_hoi_an_H3_hem_mai_ngoi.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/02_hoi_an_H3_hem_mai_ngoi.png",
+      "sha256": "025cd8a5a1079e3ca59ea6ec31b25cef01b8941b3dea8173bf7ea7a655c4b9d0",
+      "bytes": 587275
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/03_hoi_an_H4_cho_ven_song.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/03_hoi_an_H4_cho_ven_song.png",
+      "sha256": "278ef277d61aea303fa820829fb9b909ef7481b71c68a422205a8348807ed13e",
+      "bytes": 582488
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/04_hoi_an_H6_cau_co_anh_den.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/04_hoi_an_H6_cau_co_anh_den.png",
+      "sha256": "c41e78eca2b5876bc1a567149f5b35cc2bb873541786ddd95b37bf3fcfce5dc9",
+      "bytes": 558364
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/05_hoi_an_H7_tram_anh_sang_hoi_an.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/05_hoi_an_H7_tram_anh_sang_hoi_an.png",
+      "sha256": "e814798df49777c7e1d78ba49ad953ca855eb5ea984d234a6aa8efc6befcb547",
+      "bytes": 552461
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/06_hoi_an_H17_ben_do_pho_co.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/06_hoi_an_H17_ben_do_pho_co.png",
+      "sha256": "0ee13e3da56c09fcee0280f710eb8f94ec17f5deadb8ee87503b80b6e6e631ca",
+      "bytes": 552527
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/07_hue_U4_dau_cau_vao_thanh.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/07_hue_U4_dau_cau_vao_thanh.png",
+      "sha256": "2aaca7fd796222a6d8ae48067a15529582ccfc5c926f6d9bdcfaa6829bb2c357",
+      "bytes": 530890
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/08_hue_U6_cua_ngo_mon_cach_dieu.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/08_hue_U6_cua_ngo_mon_cach_dieu.png",
+      "sha256": "399fbb90df25c8c6cc6a9a919dcadd26c02b14cff7a2cbecbe0dc4857f106b66",
+      "bytes": 538051
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/09_da_lat_D0_ben_ho_xuan_huong.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/09_da_lat_D0_ben_ho_xuan_huong.png",
+      "sha256": "e8adc7c0d3f346a919b034cbaa0545c35472cbdbbf0b66bcd9a9ab499c8730c7",
+      "bytes": 569521
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/10_da_lat_D14_dai_dan_sang_nui.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/10_da_lat_D14_dai_dan_sang_nui.png",
+      "sha256": "2a83e5aabc3e6b3faba7a35ed9b512236d86f6cbf90963bcb60c1786b37ef3f5",
+      "bytes": 548689
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/11_jeonju_J8_cau_da_tay.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/11_jeonju_J8_cau_da_tay.png",
+      "sha256": "5d7a6675bf03fc54042a79d31885fc621d7696b67535842a5d1eb5732796798b",
+      "bytes": 580741
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/12_jeonju_J11_dai_ngam_mai_ngoi.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/12_jeonju_J11_dai_ngam_mai_ngoi.png",
+      "sha256": "da53ba9b7329ad7f20bdf819f71f9c2b0414653c798540c9b78773855a08d67c",
+      "bytes": 542563
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png",
+      "sha256": "a287eee57e4ec1518cf985004bf12ef95231a42bb7905bc1a553b5bb12b0b0bb",
+      "bytes": 612069
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/14_gyeongju_G14_kho_ban_khac_di_tich.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/14_gyeongju_G14_kho_ban_khac_di_tich.png",
+      "sha256": "c541d5304d0d6118427c9c15f6f070e8a524ca4a63f508a57260be853a8b5d40",
+      "bytes": 602459
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/15_gyeongju_G17_dai_long_den_bo_tay.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/15_gyeongju_G17_dai_long_den_bo_tay.png",
+      "sha256": "2ec0d0261926fd4ab39ae6b9ce2874d9f6c840269f14f041ee0d2cf84c2c0b53",
+      "bytes": 548036
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/16_seoul_S2_cong_thanh_xua_ben_song_han.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/16_seoul_S2_cong_thanh_xua_ben_song_han.png",
+      "sha256": "0f2c15f333e93f238c4e1615fa8b31c0bd4474dc61b9839b0b708d91143b5ac4",
+      "bytes": 561074
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/17_seoul_S10_chan_thap_n_seoul.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/17_seoul_S10_chan_thap_n_seoul.png",
+      "sha256": "adb6fb3c6ec8e6203cfa70cd422e42116455f010b6923d23fef33d0efedc1f7e",
+      "bytes": 568379
+    },
+    {
+      "old": "_CheckIn_Import_20261018/images/18_seoul_S18_role_anh_den_hanji.png",
+      "new": "References/ImportSources/_CheckIn_Import_20261018/images/18_seoul_S18_role_anh_den_hanji.png",
+      "sha256": "dd1bb598e8395659b5ee4b6da282012fb72f71ac785708838510cdeeca1dfd31",
+      "bytes": 523742
+    }
+  ],
+  "editedTextFiles": [
+    "Assets/_Game/Resources/AdventureUIArt.asset",
+    "Assets/_Game/Resources/Content/GameplayContent.json",
+    "Assets/_Game/Scripts/Editor/AdventureUISetup.cs",
+    "Assets/_Game/Scripts/Editor/DesignKitSetup.cs",
+    "Assets/_Game/Scripts/Editor/FullStorySetup.cs",
+    "Assets/_Game/Scripts/Editor/HoiAnMapSetup.cs",
+    "Assets/_Game/Scripts/Editor/LumiRoleSetup.cs",
+    "Assets/_Game/Scripts/Editor/PortraitRepairSetup.cs",
+    "Assets/_Game/Scripts/Editor/RelicPilotSetup.cs",
+    "Assets/_Game/Scripts/Editor/SeoulRelicArtRepair.cs",
+    "Assets/_Game/Scripts/Editor/ThreeNpcSetup.cs",
+    "Docs/Art/ART_ASSET_CATALOG.md",
+    "Docs/Art/ChapterSpriteSlices.json",
+    "Docs/Art/CrossCitySpriteSlices.json",
+    "Docs/Art/DaLatArtDerivatives.json",
+    "Docs/Art/HueJeonjuArtDerivatives.json",
+    "Docs/Art/native-art-bindings.json",
+    "Docs/Art/NPC_CANONICAL_REGISTRY.json",
+    "Docs/Art/NPC_CANONICAL_REGISTRY.md",
+    "Docs/Art/NpcReuse-20261017/jiwon-native-reference.json",
+    "Docs/Gameplay/CheckInArt-20261018/native-checkin-art.json",
+    "Docs/Gameplay/CheckInArt-20261018/source-inventory.json",
+    "Docs/Gameplay/RelicPilot-20261018/native-art.json",
+    "Docs/QA/MapClarity-20261019/import-selection.json",
+    "Docs/QA/Phase6-VisualAndroid/crop-outline-plan.json",
+    "Docs/QA/Phase7/bot-alpha-plan.json",
+    "Docs/RenderQuality-20261017/native-after.json",
+    "Docs/Story/FullStory-20261017/native-slices.json",
+    "Tools/adventure_ui_evidence.py",
+    "Tools/art_asset_catalog.py",
+    "Tools/author_full_story.py",
+    "Tools/CatRescueTests/CatRescueTests.csproj",
+    "Tools/cross_city_evidence.py",
+    "Tools/cross_city_opening.py",
+    "Tools/deep_storage_plan.py",
+    "Tools/export_route_markup.py",
+    "Tools/finalize_route35_review.py",
+    "Tools/full_story_evidence.py",
+    "Tools/full_story_geometry_art.py",
+    "Tools/import_gameplay_content.py",
+    "Tools/npc_identity_inventory.py",
+    "Tools/phase6_report.py",
+    "Tools/phase6_verify.py",
+    "Tools/phase7_bot_alpha.py",
+    "Tools/phase7_report.py",
+    "Tools/portrait_story_audit.py",
+    "Tools/portrait_story_evidence.py",
+    "Tools/prepare_checkin_runtime.py",
+    "Tools/quality_addendum.py",
+    "Tools/SixCityRouteEditor/data/export-manifest.json"
+  ]
+}

@@ -30,7 +30,7 @@ Không sửa `NodeEventManager` thêm trong lượt này; kế thừa việc ẩ
 | H14 / G9 / S7 | 23,90 / 46,29 / 35,16 | Đã đủ gần; giữ standing offset. |
 | G14 | 228,31 → 228,31 | **BLOCKED_SAFE_NO_APPROACH**. Arrival ở lối phía trên, NPC ở sân thấp hơn; graph WALK hiện hành không có đoạn đủ gần. Không tự nối xuyên mái/cây hoặc kéo NPC lên. Hội thoại NPC không bật từ xa; đây là hạn chế truy cập tương tác G14 cần xử lý riêng. |
 
-Đối chiếu toàn bộ 26 actor, không chỉ bảy node ưu tiên: [bảng actor/event](../../Validation/NpcStandingButtons-20261020/npc-audit.csv). D18 là điểm Lumi nghỉ; S14 là bảng thông tin phà theo registry, không phải hai người bị thiếu actor.
+Đối chiếu toàn bộ 26 actor, không chỉ bảy node ưu tiên: [bảng actor/event](../../../_LBC_ARCHIVE/HistoricalQA/Validation/NpcStandingButtons-20261020/npc-audit.csv). D18 là điểm Lumi nghỉ; S14 là bảng thông tin phà theo registry, không phải hai người bị thiếu actor.
 
 ## Công dụng nút đã đối chiếu callback
 
@@ -51,18 +51,18 @@ Không sửa `NodeEventManager` thêm trong lượt này; kế thừa việc ẩ
 | Relic / photo / ending | Claim/assemble/trial/record/ceremony có gate và kết quả riêng; X/back/review/skip có công dụng khác. **Giữ**, không đổi reward hoặc ending. |
 | Close X + nút trở về | Lối thoát dễ thấy/accessibility; không xóa chỉ vì cùng đóng panel. |
 
-[Danh sách callback tại source](../../Validation/NpcStandingButtons-20261020/button-callback-inventory.txt). Những nhóm không bị đổi logic chỉ được rà soát source trong lượt này, không nhận runtime PASS cho toàn bộ minigame/combat/leisure/ending.
+[Danh sách callback tại source](../../../_LBC_ARCHIVE/HistoricalQA/Validation/NpcStandingButtons-20261020/button-callback-inventory.txt). Những nhóm không bị đổi logic chỉ được rà soát source trong lượt này, không nhận runtime PASS cho toàn bộ minigame/combat/leisure/ending.
 
 ## QA và giới hạn
 
 - NPC: 25/26 đạt khoảng cách/thời điểm mở thoại; một trường hợp G14 BLOCKED. NPC canonical không bị dịch chuyển; inventory, completed quest và reward ledger không đổi do đi/tiếp cận. Graph/polyline JSON không đổi ở sáu city.
-- Nhận nhiệm vụ, receipt, X, giao trực tiếp HA_FOOD_PREP, xác nhận/hủy HQ06, chống nhận lặp và reload: **PASS** trong [Windows Player](../../Validation/NpcStandingButtons-20261020/buttons-accepted/smoke-results.txt), không dùng compile làm bằng chứng hành vi. Không thay callback sau lượt này; build 06 chỉ sửa việc HUD định kỳ xóa thông báo đứng an toàn.
-- Lượt NPC cuối [kết quả](../../Validation/NpcStandingButtons-20261020/npc-final06/restart-results.txt): 26 actor đã kiểm, G14 BLOCKED đúng chủ ý; thông báo an toàn giữ trên HUD qua refresh. `ALL CHECKS PASSED` trong log chỉ nghĩa là các assertion đạt, **không đổi kết luận tổng NPC PARTIAL**.
+- Nhận nhiệm vụ, receipt, X, giao trực tiếp HA_FOOD_PREP, xác nhận/hủy HQ06, chống nhận lặp và reload: **PASS** trong [Windows Player](../../../_LBC_ARCHIVE/HistoricalQA/Validation/NpcStandingButtons-20261020/buttons-accepted/smoke-results.txt), không dùng compile làm bằng chứng hành vi. Không thay callback sau lượt này; build 06 chỉ sửa việc HUD định kỳ xóa thông báo đứng an toàn.
+- Lượt NPC cuối [kết quả](../../../_LBC_ARCHIVE/HistoricalQA/Validation/NpcStandingButtons-20261020/npc-final06/restart-results.txt): 26 actor đã kiểm, G14 BLOCKED đúng chủ ý; thông báo an toàn giữ trên HUD qua refresh. `ALL CHECKS PASSED` trong log chỉ nghĩa là các assertion đạt, **không đổi kết luận tổng NPC PARTIAL**.
 - Overflow scroll: NOT_TESTED nếu các hành động thật trong fixture vừa viewport; không tạo lựa chọn giả để đạt số lượng test.
 - Windows có chạy input touch mô phỏng; không phải Android device. Cửa sổ yêu cầu 720×1280 bị desktop giới hạn còn 720×1080, ghi kích thước thật theo log. NPC chạy 540×960.
 - Không build/cài APK hay thao tác điện thoại trong lượt này. APK OwnerPriority trước đó **chưa chứa** các sửa approach/menu hiện tại; Android nghiệm thu nhóm sửa mới: **NOT_TESTED**.
 - Các lượt trung gian thất bại được giữ: giả định nhầm food prep có confirm, giả định menu phải có >3 hành động, rồi hot-swap fixture khác city khi map cũ còn render. Sửa adapter/fixture theo callback thật; không tính các lượt đó là PASS. Test cũng bắt được HUD refresh xóa notice sau 0,2 giây; sửa giữ notice đến khi di chuyển/tương tác tiếp, lượt cuối đã xác minh.
 
-Ảnh trước/sau là frame Player trên cùng map canonical, cùng focus/zoom. Đây là bằng chứng Lumi đổi vị trí, không phải mockup: [gallery](../../Validation/NpcStandingButtons-20261020/gallery.html).
+Ảnh trước/sau là frame Player trên cùng map canonical, cùng focus/zoom. Đây là bằng chứng Lumi đổi vị trí, không phải mockup: [gallery](../../../_LBC_ARCHIVE/HistoricalQA/Validation/NpcStandingButtons-20261020/gallery.html).
 
 Checkpoint: `D:\GAMEKKK\Backups\CheckpointNpcApproachButtons-20261020`, cần cả `CheckpointTouchNpcDialogue-20261020` và full base `LBC_SourceVerified-20261020`. Manifest ghi hash và danh sách file, không chứa build/Library/PNG QA. Dừng ở checkpoint này, không mở Phase mới.

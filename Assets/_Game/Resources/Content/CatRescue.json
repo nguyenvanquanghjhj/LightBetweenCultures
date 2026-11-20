@@ -145,7 +145,7 @@
           "name": "Thuyền của đội cứu hộ",
           "nodeId": "U0",
           "description": "Thuyền trong câu chuyện do người lớn của đội cứu hộ điều khiển.",
-          "artId": "resource:LeisureProps/Hue_PedalSwanBoat"
+          "artId": "leisure:Hue_PedalSwanBoat"
         },
         {
           "id": "hue_vest",

@@ -64,7 +64,7 @@ namespace LightBetweenCultures
         public CheckInImage CheckIn(string id)=>Array.Find(checkIns,e=>e.checkInId==id);
         public Sprite Relic(string id)=>Array.Find(relics,e=>e.id==id)?.sprite;
         public Sprite Fragment(string id)=>Array.Find(fragments,e=>e.id==id)?.sprite;
-        public static AdventureUIArt Load() => Resources.Load<AdventureUIArt>("AdventureUIArt");
+        public static AdventureUIArt Load() => Resources.Load<AdventureUIArt>("Catalogs/AdventureUIArt");
         public AdventureImage City(string id) => Array.Find(cities, entry => entry.id == id);
         public AdventureImage Item(string id) => Array.Find(items, entry => entry.id == id);
         public AdventureImage Npc(string id) => Array.Find(npcs, entry => entry.id == id);

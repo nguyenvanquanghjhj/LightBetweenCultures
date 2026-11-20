@@ -1,12 +1,12 @@
 # Unity generated data
-[Ll]ibrary/
-[Tt]emp/
+/[Ll]ibrary/
+/[Tt]emp/
 [Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
-.utmp/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/.utmp/
 
 # IDE and local machine state
 .vs/
@@ -39,5 +39,16 @@ sysinfo.txt
 *.dmp
 
 # Local patch backups and QA output
-Backups/
-Validation/
+/Backups/
+/Validation/
+
+# Generated IDE files and Python bytecode (source scripts stay tracked)
+*.csproj
+*.sln
+*.slnx
+__pycache__/
+*.py[cod]
+debug.log
+
+# The .NET regression project is authored source, not a Unity generated project
+!Tools/QA/CatRescueTests/CatRescueTests.csproj

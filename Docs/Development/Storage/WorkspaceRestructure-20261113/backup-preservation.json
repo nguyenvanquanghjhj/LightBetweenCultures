@@ -1,0 +1,234 @@
+[
+  {
+    "old": "Backups/Catventure-GameplayFix-20261109-144151",
+    "new": "_LBC_ARCHIVE/Backups/Catventure-GameplayFix-20261109-144151",
+    "role": "protected restore point",
+    "files": 8,
+    "bytes": 72492,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/Catventure-Patch-20261109-20261109-135215",
+    "new": "_LBC_ARCHIVE/Backups/Catventure-Patch-20261109-20261109-135215",
+    "role": "protected restore point",
+    "files": 10,
+    "bytes": 120618,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/Catventure-UX-20261109-20261109-150612",
+    "new": "_LBC_ARCHIVE/Backups/Catventure-UX-20261109-20261109-150612",
+    "role": "protected restore point",
+    "files": 9,
+    "bytes": 107018,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointAndroidApkBuild-20261019",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointAndroidApkBuild-20261019",
+    "role": "protected restore point",
+    "files": 27,
+    "bytes": 1551977,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointAppearance-20261021",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointAppearance-20261021",
+    "role": "protected restore point",
+    "files": 77,
+    "bytes": 26666027,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointBeforeFTUE-20261109-152433",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointBeforeFTUE-20261109-152433",
+    "role": "protected restore point",
+    "files": 4,
+    "bytes": 58746,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointCatventure-20261107",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointCatventure-20261107",
+    "role": "protected restore point",
+    "files": 60,
+    "bytes": 16309981,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointCatventureLabelsLayout-20261107",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointCatventureLabelsLayout-20261107",
+    "role": "protected restore point",
+    "files": 14,
+    "bytes": 142919,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointFinalUX-20261023",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointFinalUX-20261023",
+    "role": "protected restore point",
+    "files": 35,
+    "bytes": 1953278,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointGelButtons-20261020",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointGelButtons-20261020",
+    "role": "protected restore point",
+    "files": 24,
+    "bytes": 180740,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointHueSnap-20261021",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointHueSnap-20261021",
+    "role": "protected restore point",
+    "files": 11,
+    "bytes": 590342,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointJourneyShop-20261021",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointJourneyShop-20261021",
+    "role": "protected restore point",
+    "files": 33,
+    "bytes": 343042,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointNodePanelCompact-20261024",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointNodePanelCompact-20261024",
+    "role": "protected restore point",
+    "files": 54,
+    "bytes": 31539155,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointNpcApproachButtons-20261020",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointNpcApproachButtons-20261020",
+    "role": "protected restore point",
+    "files": 23,
+    "bytes": 299903,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointPreCatventure-20261107",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointPreCatventure-20261107",
+    "role": "protected restore point",
+    "files": 132,
+    "bytes": 42356832,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointRC1-20261024",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointRC1-20261024",
+    "role": "protected restore point",
+    "files": 32,
+    "bytes": 6292478,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointShopToolbar-20261021",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointShopToolbar-20261021",
+    "role": "protected restore point",
+    "files": 8,
+    "bytes": 1183989,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/CheckpointTouchNpcDialogue-20261020",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointTouchNpcDialogue-20261020",
+    "role": "protected restore point",
+    "files": 38,
+    "bytes": 393532,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "Backups/LBC_SourceVerified-20261020",
+    "new": "_LBC_ARCHIVE/Backups/LBC_SourceVerified-20261020",
+    "role": "protected restore point",
+    "files": 2681,
+    "bytes": 496057370,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "LBC_FINAL_PREPATCH_BACKUP_20261110",
+    "new": "_LBC_ARCHIVE/Backups/LBC_FINAL_PREPATCH_BACKUP_20261110",
+    "role": "protected submission-era backup",
+    "files": 43,
+    "bytes": 1699692,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "LBC_SEOUL_STORM_BOT_BACKUP_20261110_2209",
+    "new": "_LBC_ARCHIVE/Backups/LBC_SEOUL_STORM_BOT_BACKUP_20261110_2209",
+    "role": "protected submission-era backup",
+    "files": 4,
+    "bytes": 657967,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "catventure_checkpoint.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/CheckpointTools/catventure_checkpoint.py",
+    "role": "historical checkpoint generator; do not run",
+    "files": 1,
+    "bytes": 3480,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "LightBetweenCultures/Backups/AndroidBuildParamsQA-20261110",
+    "new": "_LBC_ARCHIVE/Backups/Project/AndroidBuildParamsQA-20261110",
+    "role": "protected project backup",
+    "files": 2,
+    "bytes": 4714,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "LightBetweenCultures/Backups/CatMazeQA-20261110",
+    "new": "_LBC_ARCHIVE/Backups/Project/CatMazeQA-20261110",
+    "role": "protected project backup",
+    "files": 3,
+    "bytes": 50711,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "LightBetweenCultures/Backups/MarkerSemanticsQA-20261110",
+    "new": "_LBC_ARCHIVE/Backups/Project/MarkerSemanticsQA-20261110",
+    "role": "protected project backup",
+    "files": 6,
+    "bytes": 193613,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "LightBetweenCultures/Backups/SlideWeather-Patch-20261109-220704",
+    "new": "_LBC_ARCHIVE/Backups/Project/SlideWeather-Patch-20261109-220704",
+    "role": "protected project backup",
+    "files": 4,
+    "bytes": 15218,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "LightBetweenCultures/Backups/WeatherStory5Fix-20261109-230030",
+    "new": "_LBC_ARCHIVE/Backups/Project/WeatherStory5Fix-20261109-230030",
+    "role": "protected project backup",
+    "files": 6,
+    "bytes": 39386,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "LightBetweenCultures/_LBC_FINAL_BACKUP_20261110",
+    "new": "_LBC_ARCHIVE/Backups/Project/_LBC_FINAL_BACKUP_20261110",
+    "role": "protected project backup",
+    "files": 9,
+    "bytes": 945346,
+    "status": "HASH_VERIFIED"
+  },
+  {
+    "old": "LightBetweenCultures/_LBC_ONE_PATCH_BACKUP_20261110",
+    "new": "_LBC_ARCHIVE/Backups/Project/_LBC_ONE_PATCH_BACKUP_20261110",
+    "role": "protected project backup",
+    "files": 11,
+    "bytes": 720786,
+    "status": "HASH_VERIFIED"
+  }
+]

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48e5de5952125d4c81d770da09bb66d, type: 3}
+  m_Name: GameArtCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::LightBetweenCultures.GameArtCatalog
+  rescueCats: {fileID: 2800000, guid: 100e314190b55123b8d99e5008d2277b, type: 3}
+  dalatStation: {fileID: 21300000, guid: c555f6a9a06b535d920e8101805210a0, type: 3}
+  leisureProps:
+  - id: DaLat_KiteRack
+    sprite: {fileID: 21300000, guid: 4cd15cff3d47aef4f8df89fd3529a63e, type: 3}
+  - id: DaLat_StrawberryPatch
+    sprite: {fileID: 21300000, guid: e47a6bc9ed7828e4db614e1ae33badf3, type: 3}
+  - id: Gyeongju_BellExhibit
+    sprite: {fileID: 21300000, guid: 466c2babb69b73d448676da5cc8f64b8, type: 3}
+  - id: Gyeongju_WishTags
+    sprite: {fileID: 21300000, guid: 04b5a2ac188677c418a227dc5f022722, type: 3}
+  - id: HoiAn_LanternRelease_Stand
+    sprite: {fileID: 21300000, guid: 3d6b7a59f7ca16f4fb2ca3b4f190cf3d, type: 3}
+  - id: HoiAn_Swing
+    sprite: {fileID: 21300000, guid: 7752c3add673e5645b599c3420953bf4, type: 3}
+  - id: Hue_PedalSwanBoat
+    sprite: {fileID: 21300000, guid: 81748c18bfe984b44b422363c5eda3d2, type: 3}
+  - id: Hue_ThroneReplica
+    sprite: {fileID: 21300000, guid: 29cde79c4875cdf4ab5a087ed2b62000, type: 3}
+  - id: Jeonju_TeaTable
+    sprite: {fileID: 21300000, guid: 0c089c7c2d4592e47a3f87dd8bdce8b3, type: 3}
+  - id: Jeonju_WateringCan_Garden
+    sprite: {fileID: 21300000, guid: ff166da17e1391a4b9e55e70b243a4df, type: 3}
+  - id: Seoul_KpopStage
+    sprite: {fileID: 21300000, guid: 5e3148e0988084d4caa8123d966a44e4, type: 3}
+  - id: Seoul_TteokbokkiStall
+    sprite: {fileID: 21300000, guid: 367e27bdc537fc946b022a0161103302, type: 3}

@@ -81,7 +81,7 @@ namespace LightBetweenCultures
             Check(!audio.Suspended&&audio.CurrentMusic.isPlaying,"Focus-gain callback resumes BGM");
             }
             // Fast-seek is a QA-only acceleration of the real loop boundary, not an authored clip edit.
-            var catalog=Resources.Load<SoftMusicClips>("SoftMusicClips");
+            var catalog=Resources.Load<SoftMusicClips>("Catalogs/SoftMusicClips");
             foreach(var city in new[]{"hoi_an","jeonju"})
             {
                 yield return CrossEnter(city);audio.SendMessage("OnApplicationFocus",true);yield return new WaitForSecondsRealtime(1.5f);

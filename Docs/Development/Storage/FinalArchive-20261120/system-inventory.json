@@ -1,0 +1,111 @@
+{
+  "projectSearchRoots": [
+    "C:/Users/admin",
+    "D:/"
+  ],
+  "skippedDirectoryNames": [
+    "$RECYCLE.BIN",
+    ".codex",
+    ".git",
+    "AppData",
+    "Library",
+    "System Volume Information",
+    "Temp",
+    "Virtual Machines",
+    "bin",
+    "node_modules",
+    "obj"
+  ],
+  "projects": [
+    {
+      "path": "D:\\GAMEKKK\\LightBetweenCultures",
+      "version": "m_EditorVersion: 6000.6.5f1\nm_EditorVersionWithRevision: 6000.6.5f1 (3ff58d469c8a)",
+      "complete": true
+    },
+    {
+      "path": "D:\\GAMEKKK\\_LBC_ARCHIVE\\Backups\\LBC_SourceVerified-20261020\\Project\\Docs\\Art\\NpcIdentityLock-20261017\\BeforeFiles",
+      "version": "m_EditorVersion: 6000.6.5f1\nm_EditorVersionWithRevision: 6000.6.5f1 (3ff58d469c8a)",
+      "complete": true
+    },
+    {
+      "path": "D:\\GAMEKKK\\_LBC_ARCHIVE\\Backups\\LBC_SourceVerified-20261020\\Project\\Docs\\QualityAddendum-20261017\\BeforeFiles",
+      "version": "m_EditorVersion: 6000.6.5f1\nm_EditorVersionWithRevision: 6000.6.5f1 (3ff58d469c8a)",
+      "complete": true
+    },
+    {
+      "path": "D:\\GAMEKKK\\_LBC_ARCHIVE\\Backups\\LBC_SourceVerified-20261020\\Project",
+      "version": "m_EditorVersion: 6000.6.5f1\nm_EditorVersionWithRevision: 6000.6.5f1 (3ff58d469c8a)",
+      "complete": true
+    },
+    {
+      "path": "D:\\GAMEKKK\\_LBC_ARCHIVE\\HistoricalSources\\DocumentSnapshots\\Art\\NpcIdentityLock-20261017\\BeforeFiles",
+      "version": "m_EditorVersion: 6000.6.5f1\nm_EditorVersionWithRevision: 6000.6.5f1 (3ff58d469c8a)",
+      "complete": true
+    },
+    {
+      "path": "D:\\GAMEKKK\\_LBC_ARCHIVE\\HistoricalSources\\DocumentSnapshots\\QualityAddendum-20261017\\BeforeFiles",
+      "version": "m_EditorVersion: 6000.6.5f1\nm_EditorVersionWithRevision: 6000.6.5f1 (3ff58d469c8a)",
+      "complete": true
+    }
+  ],
+  "errors": [
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\Application Data'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\Cookies'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\Documents\\\\My Music'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\Documents\\\\My Pictures'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\Documents\\\\My Videos'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\Local Settings'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\My Documents'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\NetHood'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\PrintHood'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\Recent'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\SendTo'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\Start Menu'",
+    "[WinError 5] Access is denied: 'C:/Users/admin\\\\Templates'"
+  ],
+  "sizes": [
+    {
+      "path": "C:/Program Files/Unity/Hub/Editor/6000.6.5f1",
+      "exists": true,
+      "files": 184231,
+      "bytes": 25468284026
+    },
+    {
+      "path": "C:/Program Files/Unity Hub",
+      "exists": true,
+      "files": 353,
+      "bytes": 623756188
+    },
+    {
+      "path": "C:/Users/admin/AppData/Local/Unity/cache",
+      "exists": true,
+      "files": 138,
+      "bytes": 262005478
+    },
+    {
+      "path": "C:/Users/admin/AppData/Local/Unity/Caches",
+      "exists": true,
+      "files": 2892,
+      "bytes": 261156404
+    },
+    {
+      "path": "C:/Users/admin/AppData/LocalLow/Unity/Caches",
+      "exists": true,
+      "files": 0,
+      "bytes": 0
+    },
+    {
+      "path": "C:/Users/admin/AppData/Local/Temp/Unity",
+      "exists": false,
+      "files": 0,
+      "bytes": 0
+    }
+  ],
+  "installedRelevantSoftware": [
+    "Git",
+    "Microsoft Visual Studio Code (User)",
+    "Unity 6000.6.5f1",
+    "Unity Hub 3.22.6"
+  ],
+  "limitation": "Skipped application/cache/git directories; inaccessible and unmounted drives are not certified free of projects. Shared developer tools and personal data are excluded from cleanup."
+}

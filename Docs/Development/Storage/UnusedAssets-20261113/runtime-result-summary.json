@@ -1,0 +1,13 @@
+{
+  "scope": "Existing opt-in real scene/UI journey in Unity Editor batch mode, not Windows Player",
+  "status": "FAILED",
+  "assertionsPassed": 95,
+  "reason": "Timed out: scene CityMap; menu buttons remained visible; cannot attribute to game or batch-mode input harness without baseline runtime reproduction",
+  "editorExitCode": 1,
+  "resultSha256": "09a26d15adcb87069589baa9c004db6c11cd978e4b84a520ef147c12e97bc408",
+  "playerBuild": "SUCCEEDED",
+  "playerLaunch": "BLOCKED_BY_WINDOWS_APPLICATION_CONTROL",
+  "android": "NOT_TESTED",
+  "fullEnding": "NOT_REACHED",
+  "gitCommitPush": "WITHHELD_BY_USER_ACCEPTANCE_GATE"
+}

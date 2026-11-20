@@ -1,0 +1,214 @@
+[
+  {
+    "old": "Assets/_Game/Resources/CatRescue.meta",
+    "candidates": [],
+    "identical": [],
+    "baselineBlob": "383485e60abfb762e186a93f38c154de03d78c83",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/Content/CatRescue.cs.meta",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/Content/CatRescue.cs.meta"
+    ],
+    "identical": [
+      "Assets/_Game/Scripts/Gameplay/Content/CatRescue.cs.meta"
+    ],
+    "baselineBlob": "192ce0d17b2eab6a28ec857a7e6e57910c994833",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/Content/ContentDefinitions.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/Content/ContentDefinitions.cs"
+    ],
+    "identical": [
+      "Assets/_Game/Scripts/Gameplay/Content/ContentDefinitions.cs"
+    ],
+    "baselineBlob": "208282d6a5c47d40c209308d9abfea3e41c8c6f9",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/Content/NodeEventManager.FinalConnection.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/Content/NodeEventManager.FinalConnection.cs"
+    ],
+    "identical": [
+      "Assets/_Game/Scripts/Gameplay/Content/NodeEventManager.FinalConnection.cs"
+    ],
+    "baselineBlob": "0969efb958cffeedfd931b1e58fc3637e3e9b66b",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/Content/RelicCollection.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/Content/RelicCollection.cs"
+    ],
+    "identical": [
+      "Assets/_Game/Scripts/Gameplay/Content/RelicCollection.cs"
+    ],
+    "baselineBlob": "7621fd14d155f41ee0d64898fa34716f3166bdaa",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/Core/QuestManager.Guidance.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/Quests/QuestManager.Guidance.cs"
+    ],
+    "identical": [
+      "Assets/_Game/Scripts/Gameplay/Quests/QuestManager.Guidance.cs"
+    ],
+    "baselineBlob": "096b3948724615a0861e96d5fca1f0e22d6ae731",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/Core/QuestManager.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/Quests/QuestManager.cs"
+    ],
+    "identical": [
+      "Assets/_Game/Scripts/Gameplay/Quests/QuestManager.cs"
+    ],
+    "baselineBlob": "66380625d16d9f023744893b338c40ce5f986e74",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/HoiAn/DepthSort2D.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/HoiAn/DepthSort2D.cs"
+    ],
+    "identical": [
+      "Assets/_Game/Scripts/Gameplay/HoiAn/DepthSort2D.cs"
+    ],
+    "baselineBlob": "0a7e6d782c6d409170a6a25495b218d192122fa2",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/HoiAn/FollowCamera2D.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/HoiAn/FollowCamera2D.cs"
+    ],
+    "identical": [
+      "Assets/_Game/Scripts/Gameplay/HoiAn/FollowCamera2D.cs"
+    ],
+    "baselineBlob": "c5f47d8f8ff47c284eb8d7a0d897db5cf932a34d",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/HoiAn/HoiAnGameplay.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/HoiAn/HoiAnGameplay.cs"
+    ],
+    "identical": [],
+    "baselineBlob": "ddeeab1a07501fe280a43c1d897d6908cc7095d1",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/HoiAn/HoiAnItem.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/HoiAn/HoiAnItem.cs"
+    ],
+    "identical": [],
+    "baselineBlob": "b9934d533caae914225335bcf9bf14c0ac9e30e4",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/HoiAn/HoiAnNpc.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/HoiAn/HoiAnNpc.cs"
+    ],
+    "identical": [
+      "Assets/_Game/Scripts/Gameplay/HoiAn/HoiAnNpc.cs"
+    ],
+    "baselineBlob": "46778c16bf8d634d9948963d48af73843165dc31",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/HoiAn/HoiAnPlayerController.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/HoiAn/HoiAnPlayerController.cs"
+    ],
+    "identical": [],
+    "baselineBlob": "e3eaca584234596a325e9a3b7c3e662a400029ee",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/HoiAn/InteractionSystem.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/HoiAn/InteractionSystem.cs"
+    ],
+    "identical": [],
+    "baselineBlob": "5bef93a9ccb158ff089b98e2aad939eb0b157680",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/Prototype/ExplorationItem.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/Entry/ExplorationItem.cs"
+    ],
+    "identical": [
+      "Assets/_Game/Scripts/Gameplay/Entry/ExplorationItem.cs"
+    ],
+    "baselineBlob": "5e66002402aecfbb2a6db214bfbb438c116fab5e",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/Prototype/ExplorationSurface.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/Entry/ExplorationSurface.cs"
+    ],
+    "identical": [
+      "Assets/_Game/Scripts/Gameplay/Entry/ExplorationSurface.cs"
+    ],
+    "baselineBlob": "340b63d1ba646074e63226368f76d7f3fd6a471a",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "Assets/_Game/Scripts/Prototype/PrototypeGame.cs",
+    "candidates": [
+      "Assets/_Game/Scripts/Gameplay/Entry/PrototypeGame.cs"
+    ],
+    "identical": [],
+    "baselineBlob": "1f9909420fbad0c78d0706219cd5d13b0f981bdc",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "LBC_AnhMoi_BanGiaoCodex_20261015/ASSET_MANIFEST.csv",
+    "candidates": [],
+    "identical": [],
+    "baselineBlob": "bba67e216afc1e9c69224e3ae6d92caf20d9f63e",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/edges_all_cities.csv",
+    "candidates": [],
+    "identical": [],
+    "baselineBlob": "72f4dc070fe9646f3b8a8e05eb6b8d92b7906de7",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "LBC_Gameplay_6Cities_Detailed_v1/Data/nodes_all_cities.csv",
+    "candidates": [],
+    "identical": [],
+    "baselineBlob": "ef2725a365f5328bf50c3d9275b458f8e6dd474e",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "LightBetweenCultures_DesignKit_v1/Data/AssetManifest.csv",
+    "candidates": [],
+    "identical": [],
+    "baselineBlob": "9ca7b3830b12b77deca348b0e46f4644dac22a39",
+    "baselinePreservedInGit": true
+  },
+  {
+    "old": "_CheckIn_Import_20261018/manifest.csv",
+    "candidates": [
+      "Tools/Import/Sources/_CheckIn_Import_20261018/manifest.csv"
+    ],
+    "identical": [
+      "Tools/Import/Sources/_CheckIn_Import_20261018/manifest.csv"
+    ],
+    "baselineBlob": "df893818b56153541ec73f8108f9054da9c05e60",
+    "baselinePreservedInGit": true
+  }
+]

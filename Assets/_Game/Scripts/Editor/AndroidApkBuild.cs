@@ -12,7 +12,7 @@ namespace LightBetweenCultures.Editor
     public static class AndroidApkBuild
     {
         const string DefaultFolder = "Docs/QA/AndroidApk-20261019";
-        const string DefaultOutput = "Builds/Android/LightBetweenCultures-Test.apk";
+        const string DefaultOutput = "../_LBC_WORK/QA/Builds/Android/LightBetweenCultures-Test.apk";
         [Serializable] sealed class Result
         {
             public string startedUTC, finishedUTC, unity, result, error, output;

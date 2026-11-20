@@ -36,11 +36,11 @@ Chỉ một thư mục build QA: `Builds/Windows-ThreeNpcQA-20261025/LightBetwee
 
 | Node | Ảnh NPC trên City Map | Ảnh hội thoại |
 |---|---|---|
-| G16 | [Map G16](../../Validation/ThreeNpc-20261024/ThreeNpc-Map-G16.png) | [Thoại G16](../../Validation/ThreeNpc-20261024/ThreeNpc-Dialogue-G16.png) |
-| G21 | [Map G21](../../Validation/ThreeNpc-20261024/ThreeNpc-Map-G21.png) | [Thoại G21](../../Validation/ThreeNpc-20261024/ThreeNpc-Dialogue-G21.png) |
-| S12 | [Map S12](../../Validation/ThreeNpc-20261024/ThreeNpc-Map-S12.png) | [Thoại S12](../../Validation/ThreeNpc-20261024/ThreeNpc-Dialogue-S12.png) |
+| G16 | [Map G16](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024/ThreeNpc-Map-G16.png) | [Thoại G16](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024/ThreeNpc-Dialogue-G16.png) |
+| G21 | [Map G21](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024/ThreeNpc-Map-G21.png) | [Thoại G21](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024/ThreeNpc-Dialogue-G21.png) |
+| S12 | [Map S12](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024/ThreeNpc-Map-S12.png) | [Thoại S12](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024/ThreeNpc-Dialogue-S12.png) |
 
-[157 kiểm tra runtime](../../Validation/ThreeNpc-20261024/acceptance-runtime-results.txt) · [102 kiểm tra restart](../../Validation/ThreeNpc-20261024/acceptance-restart-results.txt) · [186 kiểm tra source](../../Validation/ThreeNpc-20261024/acceptance-static-checks.txt) · [Hash save owner](../../Validation/ThreeNpc-20261024/acceptance-owner-save-verified.json) · [Capture manifest](../../Validation/ThreeNpc-20261024/acceptance-runtime-captures.txt).
+[157 kiểm tra runtime](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024/acceptance-runtime-results.txt) · [102 kiểm tra restart](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024/acceptance-restart-results.txt) · [186 kiểm tra source](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024/acceptance-static-checks.txt) · [Hash save owner](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024/acceptance-owner-save-verified.json) · [Capture manifest](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024/acceptance-runtime-captures.txt).
 
 Log license/import/build: `license-admin-editor.log`, `acceptance-build.log`, `acceptance-scripts-build.log`, `acceptance-scripts-final-build.log`. Log Player: `acceptance-player.log`, `acceptance-restart-player.log`. Lượt đầu đã được sao lưu trước khi chạy restart; log/kết quả hai lần lỗi runner nằm ở `acceptance-first-attempt-*` và `acceptance-second-attempt-*`. Giữ nguyên báo cáo BLOCKED cũ như lịch sử.
 

@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED",
+  "verifiedFiles": 0,
+  "restoreOrder": [],
+  "issues": [
+    "Missing base/manifest: D:\\GAMEKKK\\_LBC_ARCHIVE\\Checkpoints\\CheckpointBeforeFTUE-20261109-152433\\INCREMENTAL_MANIFEST.json"
+  ],
+  "meaning": "Read-only existing checkpoint/base hash verification, not a restore rehearsal"
+}

@@ -15,11 +15,11 @@ namespace LightBetweenCultures.Editor
         {public string output,identifier,result,error,startedUTC,finishedUTC,version;public long bytes;public bool customKeystore;public int errors,warnings,versionCode;}
         public static void Build()
         {
-            var r=new Result{output="Builds/Android/LightBetweenCultures-OwnerRoutesB-20261019.apk",identifier=PlayerSettings.GetApplicationIdentifier(NamedBuildTarget.Android),customKeystore=PlayerSettings.Android.useCustomKeystore,startedUTC=DateTime.UtcNow.ToString("O")};
+            var r=new Result{output="../_LBC_WORK/QA/Builds/Android/LightBetweenCultures-OwnerRoutesB-20261019.apk",identifier=PlayerSettings.GetApplicationIdentifier(NamedBuildTarget.Android),customKeystore=PlayerSettings.Android.useCustomKeystore,startedUTC=DateTime.UtcNow.ToString("O")};
             var args=Environment.GetCommandLineArgs();var customOutput=args.FirstOrDefault(a=>a.StartsWith("--qa-android-output="));
             if(customOutput!=null)r.output=customOutput.Substring("--qa-android-output=".Length);
             var customReport=args.FirstOrDefault(a=>a.StartsWith("--qa-android-report="));
-            var reportPath=customReport==null?"Docs/Maps/OwnerRoutePhaseB-20261019/android-build.json":customReport.Substring("--qa-android-report=".Length);
+            var reportPath=customReport==null?"Docs/Development/Maps/OwnerRoutePhaseB-20261019/android-build.json":customReport.Substring("--qa-android-report=".Length);
             var bundle=EditorUserBuildSettings.buildAppBundle;var oldVersion=PlayerSettings.bundleVersion;var oldCode=PlayerSettings.Android.bundleVersionCode;var exit=1;
             try
             {

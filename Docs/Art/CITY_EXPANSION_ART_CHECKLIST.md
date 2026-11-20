@@ -82,7 +82,7 @@ thành phố khi chỉ triển khai phần mở đầu.
 `CheckpointCrossCityFood-20261016`: U0/U1 Huế, J0/J15 Jeonju và giao HQ05/HQ06/HQ07
 đã chạy thật, dùng framework chung và scale 0,72. Các node còn lại của hai thành phố
 vẫn chưa triển khai runtime; ba thành phố còn lại chưa bật gameplay. Hai corridor
-đã author ghi tại [CrossCityOpeningReview](../Maps/CrossCityOpeningReview.json).
+đã author ghi tại [CrossCityOpeningReview](../Development/Maps/CrossCityOpeningReview.json).
 Toàn bộ địa hình năm thành phố chưa được chứng nhận.
 
 [Báo cáo và ảnh runtime của checkpoint](../../CrossCityFoodReport.md) là bằng chứng

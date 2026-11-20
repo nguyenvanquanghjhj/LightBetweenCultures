@@ -8,12 +8,13 @@ namespace LightBetweenCultures.Editor
     {
         public static void ImportAndBuild()
         {
-            var files=Directory.GetFiles("Assets/_Game/Resources/LeisureProps","*.png");
+            var files=Directory.GetFiles("Assets/_Game/Art/Leisure/Props","*.png");
             if(files.Length!=12)throw new InvalidDataException("Expected exactly12 approved props");
             foreach(var path in files)
             {
-                var source="ReviewPacks/10Story12Leisure-20261019/Sprites_12/"+Path.GetFileName(path);
-                if(!File.ReadAllBytes(path).SequenceEqual(File.ReadAllBytes(source)))throw new InvalidDataException("Source pixels changed: "+path);
+                var registered=GameArtCatalog.Load().Leisure(Path.GetFileNameWithoutExtension(path));
+                if(registered==null||AssetDatabase.GetAssetPath(registered)!=path.Replace('\\','/'))
+                    throw new InvalidDataException("Approved prop catalog binding differs: "+path);
                 var t=(TextureImporter)AssetImporter.GetAtPath(path);t.textureType=TextureImporterType.Sprite;t.spriteImportMode=SpriteImportMode.Single;
                 t.alphaIsTransparency=true;t.spritePixelsPerUnit=100;
                 var settings=new TextureImporterSettings();t.ReadTextureSettings(settings);settings.spritePivot=new Vector2(.5f,0);settings.spriteAlignment=(int)SpriteAlignment.Custom;t.SetTextureSettings(settings);

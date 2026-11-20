@@ -318,7 +318,7 @@ namespace LightBetweenCultures
                 {
                     var star=new GameObject("HiddenStar",typeof(RectTransform),typeof(CatStarGraphic)).GetComponent<CatStarGraphic>();star.transform.SetParent(button.transform,false);UIController.SetRect(star.rectTransform,new Vector2(.16f,.16f),new Vector2(.84f,.84f));star.color=DesignKitArt.Gold;star.raycastTarget=false;
                 }
-                else ui.Picture(button.transform,"HiddenDecoration",i%2==0?AdventureUIArt.Load().activityCitrusPot:Resources.Load<Sprite>("LeisureProps/DaLat_KiteRack"),new Vector2(.02f,.02f),new Vector2(.98f,.98f));
+                else ui.Picture(button.transform,"HiddenDecoration",i%2==0?AdventureUIArt.Load().activityCitrusPot:GameArtCatalog.Load().Leisure("DaLat_KiteRack"),new Vector2(.02f,.02f),new Vector2(.98f,.98f));
                 if(found)button.GetComponentInChildren<Text>().text="Đã tìm";
             }
             CatText(board,"HiddenProgress","Tìm "+c.tokens.Length+" dấu vết · Chạm để quan sát",new Vector2(.04f,.01f),new Vector2(.96f,.10f),15);

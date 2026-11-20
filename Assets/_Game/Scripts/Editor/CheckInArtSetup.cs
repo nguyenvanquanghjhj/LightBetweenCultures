@@ -17,12 +17,12 @@ namespace LightBetweenCultures.Editor
         [Serializable] sealed class Registry {public Entry[] entries;}
         public static void Import()
         {
-            var path="Docs/Gameplay/CheckInArt-20261018/source-inventory.json";
+            var path="Docs/Development/Gameplay/CheckInArt-20261018/source-inventory.json";
             var registry=JsonUtility.FromJson<Registry>(File.ReadAllText(path));
             if(registry.entries.Length!=18||registry.entries.Select(e=>e.checkInId).Distinct().Count()!=18)throw new InvalidDataException("Expected18 unique existing check-ins");
             var art=AdventureUIArt.Load();var images=new System.Collections.Generic.List<CheckInImage>();
-            const string previous="Assets/_Game/Art/CheckInLandmarks/20261018_ApprovedSet";
-            const string derived="Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived";
+            const string previous="Assets/_Game/Art/UI/Postcards/20261018_ApprovedSet";
+            const string derived="Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived";
             if(AssetDatabase.IsValidFolder(previous)&&!AssetDatabase.IsValidFolder(derived))
             {var error=AssetDatabase.MoveAsset(previous,derived);if(!string.IsNullOrEmpty(error))throw new InvalidDataException(error);}
             var old=art.checkIns.ToDictionary(e=>e.checkInId,e=>AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(e.sprite)));
@@ -50,7 +50,7 @@ namespace LightBetweenCultures.Editor
             }
             // Only the new check-in array is changed; do not touch any canonical identity binding.
             art.checkIns=images.ToArray();EditorUtility.SetDirty(art);AssetDatabase.SaveAssets();
-            File.WriteAllText("Docs/Gameplay/CheckInArt-20261018/native-checkin-art.json",JsonUtility.ToJson(registry,true));
+            File.WriteAllText("Docs/Development/Gameplay/CheckInArt-20261018/native-checkin-art.json",JsonUtility.ToJson(registry,true));
             Debug.Log("CHECKIN ART IMPORT PASS:18 reviewed derived sprites, source/GUIDs preserved;H6 gallery uses source-approved postcard, alignment unchanged.");
         }
     }

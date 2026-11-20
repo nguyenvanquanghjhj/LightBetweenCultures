@@ -24,7 +24,7 @@ namespace LightBetweenCultures.Editor
             EnsureFolder("Assets/_Game/Scenes");
             EnsureFolder("Assets/_Game/Scripts");
             EnsureFolder("Assets/_Game/Scripts/Editor");
-            EnsureFolder("Assets/_Game/Scripts/Prototype");
+            EnsureFolder("Assets/_Game/Scripts/Gameplay/Entry");
 
             var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
             var cameraObject = new GameObject("Main Camera");

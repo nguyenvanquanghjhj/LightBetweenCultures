@@ -1,4 +1,4 @@
-﻿# Áp dụng Design Kit v1 vào Unity — báo cáo thực thi
+# Áp dụng Design Kit v1 vào Unity — báo cáo thực thi
 
 > Báo cáo lịch sử của lần tích hợp DesignKit đầu tiên, không phải trạng thái runtime
 > hiện tại. Vai trò Lumi, map, combat/puzzle, số node và thành phố chơi được đã thay đổi

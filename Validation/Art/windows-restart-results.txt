@@ -1,3 +1,0 @@
-PASS: All 14 supplied PNGs are imported and referenced
-PASS: Save restored after process restart
-ALL CHECKS PASSED

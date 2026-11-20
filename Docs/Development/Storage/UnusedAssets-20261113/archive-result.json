@@ -1,0 +1,260 @@
+{
+  "status": "ARCHIVED",
+  "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113",
+  "moves": [
+    {
+      "old": "Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\Lumi\\Lumi_DialoguePortrait.png",
+      "bytes": 1108620,
+      "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b"
+    },
+    {
+      "old": "Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\Lumi\\Lumi_DialoguePortrait.png.meta",
+      "bytes": 3715,
+      "sha256": "8baa43e7f6d1339eb83b79568d99473d4c080d95882b40b3e66a5dfb8ca4d43b"
+    },
+    {
+      "old": "Assets/_Game/Art/Characters/Lumi/Lumi_ExplorationIdle.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\Lumi\\Lumi_ExplorationIdle.png",
+      "bytes": 957174,
+      "sha256": "d1b9b14d78ebd0238a1651b631e295f864de4a969f389dd3f26a73b000fe975e"
+    },
+    {
+      "old": "Assets/_Game/Art/Characters/Lumi/Lumi_ExplorationIdle.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\Lumi\\Lumi_ExplorationIdle.png.meta",
+      "bytes": 4883,
+      "sha256": "57a540e016b615178169b3e517c4a797aec31416892330b05891e62f4ccf2d0c"
+    },
+    {
+      "old": "Assets/_Game/Art/Characters/Source/Lumi_Character_Cutout_Concept.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\Source\\Lumi_Character_Cutout_Concept.png",
+      "bytes": 1108620,
+      "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b"
+    },
+    {
+      "old": "Assets/_Game/Art/Characters/Source/Lumi_Character_Cutout_Concept.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\Source\\Lumi_Character_Cutout_Concept.png.meta",
+      "bytes": 3763,
+      "sha256": "9ec424e6539f1f43f78e424ab05a33d443affaed0651f5f3338cf43c72fbbf10"
+    },
+    {
+      "old": "Assets/_Game/Art/Characters/LegacyReferences/Lumi_CityMarker_128.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\LegacyReferences\\Lumi_CityMarker_128.png",
+      "bytes": 15761,
+      "sha256": "a150c83125508853f9a7643f45c9e5820e05c96321e9e054f101f4b81470b3e2"
+    },
+    {
+      "old": "Assets/_Game/Art/Characters/LegacyReferences/Lumi_CityMarker_128.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\LegacyReferences\\Lumi_CityMarker_128.png.meta",
+      "bytes": 3732,
+      "sha256": "2f135d3ef9727082d7ad1aaecd343db70b2b210093fcad8bc1bf18fe699dccde"
+    },
+    {
+      "old": "Assets/_Game/Art/Characters/LegacyReferences/Lumi_CityMarker_256.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\LegacyReferences\\Lumi_CityMarker_256.png",
+      "bytes": 51591,
+      "sha256": "95061774ab06032908a131864462f7ed8a3a9d6b98eaa723a787450263b763bc"
+    },
+    {
+      "old": "Assets/_Game/Art/Characters/LegacyReferences/Lumi_CityMarker_256.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\LegacyReferences\\Lumi_CityMarker_256.png.meta",
+      "bytes": 3732,
+      "sha256": "9facc3b86bcf2a51dea34bb9ec5d1845ff401379b6065b756989502d914e31cb"
+    },
+    {
+      "old": "Assets/_Game/Art/Enemies/Hue/Hue_Gate_Guard_Transparent.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Enemies\\Hue\\Hue_Gate_Guard_Transparent.png",
+      "bytes": 580666,
+      "sha256": "0c8676f9ae8dd855cbf126c74e26a07095fb0ab3cb80b7399613d059f199bc74"
+    },
+    {
+      "old": "Assets/_Game/Art/Enemies/Hue/Hue_Gate_Guard_Transparent.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Enemies\\Hue\\Hue_Gate_Guard_Transparent.png.meta",
+      "bytes": 1065,
+      "sha256": "5c43ba957584ac7a0b0033e6693290d5e664b55549d610cebf56034ff0a18e0a"
+    },
+    {
+      "old": "Assets/_Game/Art/NPC/Hue/npc_nguyet.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\NPC\\Hue\\npc_nguyet.png",
+      "bytes": 1129967,
+      "sha256": "6930e06a55f6989b3547f2f11a2f7e3aed867f84eb9bbd53f943faa866d44530"
+    },
+    {
+      "old": "Assets/_Game/Art/NPC/Hue/npc_nguyet.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\NPC\\Hue\\npc_nguyet.png.meta",
+      "bytes": 4384,
+      "sha256": "daffbf8783f252bf157694cceb768b9d4ac11de25d6ce0ffd5cbf7dd419264b1"
+    },
+    {
+      "old": "Assets/_Game/Art/NPC/Jeonju/npc_elder.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\NPC\\Jeonju\\npc_elder.png",
+      "bytes": 1592252,
+      "sha256": "cb4bd5bb94b28656a70540d06792fc3411cc0672fcf9b29f2b1626af80a1797b"
+    },
+    {
+      "old": "Assets/_Game/Art/NPC/Jeonju/npc_elder.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\NPC\\Jeonju\\npc_elder.png.meta",
+      "bytes": 4109,
+      "sha256": "c9edb3fa7975c0bf38dd4516cedfea91730293de92efdda67a2778238a9c645d"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/Characters_MissingSprites_v1.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\Characters_MissingSprites_v1.png",
+      "bytes": 450039,
+      "sha256": "e41f2539663cd1c92975b9ba411fedbe7a23c0a143cd9da3241dfcc6c99e56ba"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/Characters_MissingSprites_v1.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\Characters_MissingSprites_v1.png.meta",
+      "bytes": 3724,
+      "sha256": "89adce9beae3da3d54c078bf92ef34746b4b44b10f1665bef74f05cd41b41cbe"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/Checkin_Postcards_VNKR_v1.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\Checkin_Postcards_VNKR_v1.png",
+      "bytes": 333363,
+      "sha256": "e51dce4e67c10c63dcee2e3bc3557fba58b6ac6588f3572fd4d8f3c2e59dbf51"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/Checkin_Postcards_VNKR_v1.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\Checkin_Postcards_VNKR_v1.png.meta",
+      "bytes": 3715,
+      "sha256": "5ca7230ca345db14dbacae96ea57be072ae14abc942d21054574993a6427fef3"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/HoiAn_H3_Environment_v1.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\HoiAn_H3_Environment_v1.png",
+      "bytes": 1359579,
+      "sha256": "b82d9bcbd728198365b6046f20aafe983a86513f1af6a4e4b6c2a645c33f917c"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/HoiAn_H3_Environment_v1.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\HoiAn_H3_Environment_v1.png.meta",
+      "bytes": 3709,
+      "sha256": "37871fc955c893d1af33052d0ef1ca96f359b14d8795f21b9cc4c6d920d517ef"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/LBC_Composite_CheckerConcept_v2.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\LBC_Composite_CheckerConcept_v2.png",
+      "bytes": 3679554,
+      "sha256": "6e07f538417d56d94e6c2c97cd5c8b50f61aec868e4fb75d73c6152e440c03b8"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/LBC_Composite_CheckerConcept_v2.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\LBC_Composite_CheckerConcept_v2.png.meta",
+      "bytes": 3705,
+      "sha256": "d72efbfcc694f0ee5c0a11ce7abaf5150be7707c0f28d4c3481bf347b2b02708"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/LBC_Composite_Illustrated_v1.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\LBC_Composite_Illustrated_v1.png",
+      "bytes": 3235950,
+      "sha256": "65d7dd9931f85fe10941ffae77fa5e9688120cdb310b3a9174e4e562deb04e77"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/LBC_Composite_Illustrated_v1.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\LBC_Composite_Illustrated_v1.png.meta",
+      "bytes": 3702,
+      "sha256": "2b17d29efadc7549c8337722706c23c2f1b450d6377bf70da3d9cf3ffcbf0511"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/UI_Adventure_Kit_v1.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\UI_Adventure_Kit_v1.png",
+      "bytes": 392838,
+      "sha256": "787e43d1cff2f2caddacd09f2e0934a19a2de038cb4614366587fa167714bd5a"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/UI_Adventure_Kit_v1.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\UI_Adventure_Kit_v1.png.meta",
+      "bytes": 3697,
+      "sha256": "91e3c94dcf3d66833f004541f4a03a0645aa303d03ff655300ed39a83dd706c4"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_01_VisualTarget_Reference.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\H3_Upgrade_20261016\\H3_01_VisualTarget_Reference.png",
+      "bytes": 2344063,
+      "sha256": "ba764324ecf39b7c05c58f807e352db1c65d100423c65d6a582e41d0a2ef18a0"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_01_VisualTarget_Reference.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\H3_Upgrade_20261016\\H3_01_VisualTarget_Reference.png.meta",
+      "bytes": 3725,
+      "sha256": "42a90be103a51288dfd339f840190706d3d21d54ff31a41d76c571f16a27f687"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_03_UI_TextBaked_Reference.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\H3_Upgrade_20261016\\H3_03_UI_TextBaked_Reference.png",
+      "bytes": 1888516,
+      "sha256": "0402a6a4db4dcd1bb246f5aff7067ad7f63c8675c35879e0659e928848c36e81"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_03_UI_TextBaked_Reference.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\H3_Upgrade_20261016\\H3_03_UI_TextBaked_Reference.png.meta",
+      "bytes": 4400,
+      "sha256": "b52e4bfbd8fbdd2857fad80e16658c9966deaae8f10818a26b913106da743862"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_04_Lantern_LightFX_Concept.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\H3_Upgrade_20261016\\H3_04_Lantern_LightFX_Concept.png",
+      "bytes": 2065883,
+      "sha256": "85197d042b073b684da3dc010dda798909f927f542939ef84bae0fee35ac1ed0"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_04_Lantern_LightFX_Concept.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\H3_Upgrade_20261016\\H3_04_Lantern_LightFX_Concept.png.meta",
+      "bytes": 3729,
+      "sha256": "1aa6a4d8279e1e6416db9845c6a5d7852af2a40bb009f55d85426dfee2c8f4d5"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_06_Markers_Interactables_Concept.png",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\H3_Upgrade_20261016\\H3_06_Markers_Interactables_Concept.png",
+      "bytes": 1665993,
+      "sha256": "fc765ef932e89338ec65f433d823c1b55fb6e40ada64de6006113f73617fb7a8"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_06_Markers_Interactables_Concept.png.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\H3_Upgrade_20261016\\H3_06_Markers_Interactables_Concept.png.meta",
+      "bytes": 12717,
+      "sha256": "e49aab3b81200e4876c04721944fb3408dca31fd906f08f254f88d7014bbcad0"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/README_H3_Assets.txt",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\H3_Upgrade_20261016\\README_H3_Assets.txt",
+      "bytes": 2885,
+      "sha256": "290ebf59c6171caea8780e70a2c8fda974429f28e67d61337c69d4ca8dd02988"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/README_H3_Assets.txt.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\H3_Upgrade_20261016\\README_H3_Assets.txt.meta",
+      "bytes": 158,
+      "sha256": "d25c9d6492ee28a3f4caaf29cc3f1835da00af914b8b58b5d26c3cc7eed8f26a"
+    },
+    {
+      "old": "Assets/_Game/Art/Characters/LegacyReferences.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\LegacyReferences.meta",
+      "bytes": 172,
+      "sha256": "14f5d7891f668b408207225afb0b1d2f04edf2903b6fb0f37b890ef609f23098"
+    },
+    {
+      "old": "Assets/_Game/Art/Characters/Source.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\Characters\\Source.meta",
+      "bytes": 172,
+      "sha256": "5286dc408672911b2267057d95073a5a818fc7404b0e20363a8bd5ca3f10bccc"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences\\H3_Upgrade_20261016.meta",
+      "bytes": 172,
+      "sha256": "d9cf8fc2155b1d6577d92caa06e28dd5bdbd627c2a749abf14ce9fdaf92ff546"
+    },
+    {
+      "old": "Assets/_Game/Art/SourceReferences.meta",
+      "archive": "D:\\GAMEKKK\\LightBetweenCultures-ArtArchive-20261113\\Assets\\_Game\\Art\\SourceReferences.meta",
+      "bytes": 172,
+      "sha256": "8ca66a30484e2c02080302eff33502d6ea37986fbcefb20906e79e4228cac800"
+    }
+  ],
+  "assetCount": 19,
+  "assetBytes": 23963314
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "path": "Assets/_Game/Scripts/Editor/AndroidApkBuild.cs",
+    "beforeSHA256": "73c513fa162a8b320c688d1201ef3fdff8f42281fba48aa138fe943c60eb3295",
+    "afterSHA256": "427c0c3a55166397cedc55c54da380643f16aba343b3a44dbec73acbac8a9782"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/AndroidQaBuild.cs",
+    "beforeSHA256": "bfc27e07245d2bc1f6b9c0d149dbefa93220e292912e68306ed31d909ea85da0",
+    "afterSHA256": "cccdf29959fe971c5b423d1dee883fc28d4c74db1b7ec78c8c70dc0950927f01"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/CatRescueBuild.cs",
+    "beforeSHA256": "983a275ef95d835d0f9635698c81e588ae8c3c081b962260eefda13988ed00c6",
+    "afterSHA256": "348e13e2139dbbf84140f63f28011ae5e8a806c6a513817c06c9663a9489eb7e"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/DesignKitSetup.cs",
+    "beforeSHA256": "6d0b7066d5434f26333eb1a1edb4b25074f39b9dddb60de298d67e0716ff0367",
+    "afterSHA256": "f9d02be8cc3a5c957e66a26bd09c527394987595c9ae4e3733b77121d395dfc0"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/FourTrackMusicSetup.cs",
+    "beforeSHA256": "368be51ec4f28f7384821d4342771c5f39be4ee9cde7dea3ed4d090459756e11",
+    "afterSHA256": "2631b839fde59dd1759fd26f1118a9fff92979c0d0521ed91b32e5a4c3f46eba"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/HoiAnMapLayoutWindow.cs",
+    "beforeSHA256": "cabdb75898e28817bb7c6a05bcc586ffa9b9144dcde43a591c18b27f01dd4607",
+    "afterSHA256": "7880b1f8089351bffe169f6e157f763e9f557be94a0e534b7374e8aae718941c"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/LumiRoleSetup.cs",
+    "beforeSHA256": "513a11eed747b7db47e5af8d0fd6de103a6036b9d9612cc15a98cb80142debdc",
+    "afterSHA256": "27b0591141d419ecec459e6b7a9950ea3ef9814b3f81128cac7e604fddf5a89e"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/OwnerRouteAndroidBuild.cs",
+    "beforeSHA256": "5ccc898819902e51a721ae90d2ef32afd6b1325d1e95f87ff2a6b659d699d846",
+    "afterSHA256": "e332211ddc92c57e212dfe1c57f6e55ebd4b177c76e2c9343031767b75b664fe"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/Phase5Setup.cs",
+    "beforeSHA256": "2e050bc6520a98192d88deb79f1bca2378940b82665c1aa9db29caa879f769e7",
+    "afterSHA256": "da274d33119b9482d5f9a20d574fd4b86718d1485946ff417768017b154a9130"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/Phase7Audit.cs",
+    "beforeSHA256": "96b541d8398acef79e2360add203f5c3fbbfe27768c07772f7c87175f8a349b9",
+    "afterSHA256": "cbcfb092364855a710f1c478cced6a70d148e415e66f7bda07231c57f190d070"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/RelicPilotSetup.cs",
+    "beforeSHA256": "615e44dbeaa4f2f0291349df8401eb3a46b437a91389cebb14fd1cfad4296336",
+    "afterSHA256": "fd5328450e81309a07987d6953fdfedb9bc1d87f65c315dfd1c119e73861015c"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/SliceValidation.cs",
+    "beforeSHA256": "d5f32091727ca00301e31432db705494d63ff867831197e1aa8692b12674f4b6",
+    "afterSHA256": "932c826dacd5ae06533ef3d81d2d0b018b4ea51fa66d4ee8279ba529d838aee5"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Editor/SoftSfxSetup.cs",
+    "beforeSHA256": "e6593af4802b86cd9780ff182b3b78f7da007d1e7c8e8e522e1d3ff954a60dc4",
+    "afterSHA256": "8201c015e84959d9df5834be7caf4e6aa689b0cd8970f1bf023eb605eceb1269"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Validation/GameplaySmokeRunner.cs",
+    "beforeSHA256": "a326b767f31b5f954d2d5517fadeca18e850ea8399e93adb46590f94a9dd673d",
+    "afterSHA256": "4aeecc74e41d4f66282fbfc623d97bd25cb87e6e386cb2722e57450bee4a5368"
+  },
+  {
+    "path": "Assets/_Game/Scripts/Validation/SliceSmokeRunner.cs",
+    "beforeSHA256": "611e0a9548564c24d8f670857940a2851faebbbd016e50ec88c2e41db582679d",
+    "afterSHA256": "9bd1445fdb3a2d27f6cfa1ba260536657ed27deb6335bd60d90a0ee3561d3734"
+  }
+]

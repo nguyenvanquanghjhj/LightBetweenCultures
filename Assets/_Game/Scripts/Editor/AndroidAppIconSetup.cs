@@ -68,8 +68,7 @@ namespace LightBetweenCultures.Editor
         }
         public static void Configure()
         {
-            Directory.CreateDirectory(QA);var sourcePath=Folder+"/LBC_AppIcon_Original.png";
-            AssetDatabase.ImportAsset(sourcePath,ImportAssetOptions.ForceSynchronousImport);ConfigureImport(sourcePath);
+            Directory.CreateDirectory(QA);var sourcePath="Tools/Import/Sources/Artwork/LBC_AppIcon_Original.png";
             var source=new Texture2D(2,2,TextureFormat.RGBA32,false,false);if(!source.LoadImage(File.ReadAllBytes(sourcePath)))throw new InvalidDataException("PNG decode failed");
             if(source.width!=941||source.height!=942)throw new InvalidDataException("Unexpected owner artwork dimensions");
             var regular=Fit(source,RegularFit,true);var foreground=Fit(source,AdaptiveFit,false);var background=Background();

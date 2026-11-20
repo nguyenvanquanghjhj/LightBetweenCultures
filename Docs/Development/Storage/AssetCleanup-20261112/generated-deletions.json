@@ -1,0 +1,20 @@
+﻿[
+    {
+        "path":  "Tools/__pycache__/art_asset_catalog.cpython-312.pyc",
+        "bytes":  44534,
+        "sha256":  "0461030c7ca8d34649f2d1e33678bed6cf37fd705739603f4e89d7abeea3f403",
+        "reason":  "Regenerable Python bytecode; matching .py retained"
+    },
+    {
+        "path":  "Tools/__pycache__/qa_full_20261025.cpython-312.pyc",
+        "bytes":  8267,
+        "sha256":  "8e893b7a64311f9c850874271a50465646c182d6b6e96afb76e15b9dcffedfb6",
+        "reason":  "Regenerable Python bytecode; matching .py retained"
+    },
+    {
+        "path":  "Unity.2D.Welcome.csproj",
+        "bytes":  84995,
+        "sha256":  "40669720086a4365be3d8482d92f73a990c84556d5f618d02061cab1fff5e3dd",
+        "reason":  "Generated IDE project for removed Welcome assembly; solution no longer references it"
+    }
+]

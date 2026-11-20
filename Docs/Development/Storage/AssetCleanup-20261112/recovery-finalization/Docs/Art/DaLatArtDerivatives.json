@@ -1,0 +1,131 @@
+{
+  "tool": "built-in image_gen; no bitmap pixel editing outside image_gen",
+  "entries": [
+    {
+      "id": "npc_lan",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-e6e8509b-ddb7-4234-bd4d-3830786383bc.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "alphaBounds": [
+        223,
+        7,
+        939,
+        1367
+      ],
+      "sha256": "9d86a77b26635549a1044b1629be0e286416033e19286f8f2154e5e2132fad99",
+      "rejectedDraft": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_lan-draft.png"
+    },
+    {
+      "id": "npc_thuy",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-c2a55252-5f3c-4e4c-8fda-bc436bd89b83.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBounds": [
+        107,
+        20,
+        987,
+        1520
+      ],
+      "sha256": "148d12ec8ff2b07d7fbbf42c25afefadcc9e9d69da3853593c093154b1cbf6cd",
+      "rejectedDraft": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_thuy-draft.png"
+    },
+    {
+      "id": "npc_gardener",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-592f122b-a363-41ad-9bd3-ebc0dfa9379e.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaBounds": [
+        189,
+        9,
+        870,
+        1533
+      ],
+      "sha256": "40f33f91189d0829ac66973b83eaf9c431ab5eb64836a98de5f68864acb6f404",
+      "rejectedDraft": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_gardener-draft.png"
+    },
+    {
+      "id": "npc_hungry_dog",
+      "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-f9d9225b-fa66-4403-ab6c-d3cfed897378.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "dimensions": [
+        1231,
+        1277
+      ],
+      "alphaBounds": [
+        91,
+        27,
+        1177,
+        1267
+      ],
+      "sha256": "f7996bdea43934e25f70625e60b8125f347f0fbae7bfaf68779384cf595ab78b",
+      "rejectedDraft": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/npc_hungry_dog-draft.png"
+    },
+    {
+      "id": "enemy_glass_thief",
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-bfb6c9a0-3863-49c1-9ba8-73625801619d.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "dimensions": [
+        1168,
+        1346
+      ],
+      "alphaBounds": [
+        136,
+        19,
+        1110,
+        1301
+      ],
+      "sha256": "75015e347126152cb17b8acba3ac6c0049c6d55a9ff8f5317f6d3c302dbec5dc",
+      "rejectedDraft": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_glass_thief-draft.png"
+    },
+    {
+      "id": "enemy_fog_boss",
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_fog_boss.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-cf9ba6a7-5278-49e3-afaa-16408fd512ca.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "dimensions": [
+        1237,
+        1271
+      ],
+      "alphaBounds": [
+        70,
+        19,
+        1210,
+        1224
+      ],
+      "sha256": "9a073d7dd4a067625425e53325c71ed13a98313f291250f610599e02e22320be",
+      "rejectedDraft": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_fog_boss-draft.png"
+    },
+    {
+      "id": "enemy_mist_wolf",
+      "path": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_mist_wolf.png",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-2cb24a14-e25d-4181-bd12-8e8739b26989.png",
+      "status": "AI_DERIVED_PROPOSAL_NOT_CANONICAL_NOT_FINAL_STATIC_SPRITE",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alphaBounds": [
+        195,
+        17,
+        1377,
+        1016
+      ],
+      "sha256": "f23dc92676e9ed30fa7e83df4c5e0bd95a7ff37ca28035ea78ff53336adb6fb8",
+      "rejectedDraft": "Assets/_Game/Art/_SourceSheets/DaLatRejectedDrafts/enemy_mist_wolf-draft.png"
+    }
+  ]
+}

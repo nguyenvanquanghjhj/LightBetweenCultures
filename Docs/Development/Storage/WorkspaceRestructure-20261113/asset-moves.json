@@ -1,0 +1,362 @@
+[
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Characters/Cats/RescueCats.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Characters/Cats/RescueCats.png",
+    "bytes": 2539539,
+    "sha256": "8c24fa4c681871abd5fbc6f33c2be2f19dbced2db8048995bcd2629d4ab3f9bb"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Characters/Cats/RescueCats.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Characters/Cats/RescueCats.png.meta",
+    "bytes": 3458,
+    "sha256": "e4e44180fbda4f7147a3d3a97f0e40d7e3a3434eab97334ff115923ada5aa771"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/DaLat_KiteRack.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/DaLat_KiteRack.png",
+    "bytes": 895160,
+    "sha256": "b55b0f1778545873fc2b84c49df924353c26b652ce5c0b742c6698bfdb44f63e"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/DaLat_KiteRack.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/DaLat_KiteRack.png.meta",
+    "bytes": 4079,
+    "sha256": "c8242ed99215050554eb1978c4476d6c8e25370867eb46b706d8d77ed94c2452"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/DaLat_StrawberryPatch.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/DaLat_StrawberryPatch.png",
+    "bytes": 845393,
+    "sha256": "8be6f30c7d322f276ec6dccf5c01cc3e5af01a4e34339a11865613e592e35213"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/DaLat_StrawberryPatch.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/DaLat_StrawberryPatch.png.meta",
+    "bytes": 4096,
+    "sha256": "6a732cd90654665577a3a4bd7c604aa6b8fb2b777d780de3f8117e8238483259"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Gyeongju_BellExhibit.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Gyeongju_BellExhibit.png",
+    "bytes": 912599,
+    "sha256": "54d54255bb13a0507e051a95b8040ba355a02c7d6a9111005506f600da6d6e02"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Gyeongju_BellExhibit.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Gyeongju_BellExhibit.png.meta",
+    "bytes": 4089,
+    "sha256": "6a74bff656199af82a7727efb15dec0f52edbcbf6625af4ccc720461bf2a1a3a"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Gyeongju_WishTags.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Gyeongju_WishTags.png",
+    "bytes": 599142,
+    "sha256": "3d74828e0130bdd1ea558f413c2e7d8f12fb08b810f121de3eff10ecad3e552b"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Gyeongju_WishTags.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Gyeongju_WishTags.png.meta",
+    "bytes": 4084,
+    "sha256": "d25fe8c938959bae5a35c20a27afafc77557fc16e6cbf88561f6569e682167bf"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/HoiAn_LanternRelease_Stand.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/HoiAn_LanternRelease_Stand.png",
+    "bytes": 611962,
+    "sha256": "d11a73b0a7365cbc362446a06aeca2ced00384224a554fe2f4a3d330d7cd83f9"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/HoiAn_LanternRelease_Stand.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/HoiAn_LanternRelease_Stand.png.meta",
+    "bytes": 4114,
+    "sha256": "c41bff5038bf36e6667795891d44226c2ded54a27cbad7895efc7486407a658e"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/HoiAn_Swing.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/HoiAn_Swing.png",
+    "bytes": 698463,
+    "sha256": "e45039cd7be59fb3f1c20353224ad17ca876814212d50bd9b2eb4b13e663adbc"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/HoiAn_Swing.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/HoiAn_Swing.png.meta",
+    "bytes": 4069,
+    "sha256": "07db0fa877d69edf5a2a81c8aae41f0e54dbb960cde2bd712ba2fe74d4b28bed"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Hue_PedalSwanBoat.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Hue_PedalSwanBoat.png",
+    "bytes": 651383,
+    "sha256": "475191ec46a2eeea6ddd24cf99f6abdf14b8705bcec18ecfc97d86cdf9c8fcac"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Hue_PedalSwanBoat.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Hue_PedalSwanBoat.png.meta",
+    "bytes": 4087,
+    "sha256": "18fe5917bc779169be48e22d76844ea751e616fc818d552ee644b1d1db4cf2ea"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Hue_ThroneReplica.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Hue_ThroneReplica.png",
+    "bytes": 844178,
+    "sha256": "78e5520852ece6609f6444712077d7fc859bd692836980b9ec6986f3dd838987"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Hue_ThroneReplica.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Hue_ThroneReplica.png.meta",
+    "bytes": 4084,
+    "sha256": "667e229618b5c919abc0f035ea111dc8ea39e60419451bcfe7ea5f710cbf15ce"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Jeonju_TeaTable.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Jeonju_TeaTable.png",
+    "bytes": 667568,
+    "sha256": "0dbd4c63a23e1d5727368983c6c09234f52591c14d91a294142d3c48e1f701a3"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Jeonju_TeaTable.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Jeonju_TeaTable.png.meta",
+    "bytes": 4078,
+    "sha256": "a94e8800aae04da0b85ed7bb2a51f3a6a5089d42a8724438ed227bc4b2c2e5bd"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Jeonju_WateringCan_Garden.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Jeonju_WateringCan_Garden.png",
+    "bytes": 780421,
+    "sha256": "788102a2cdce2bd7fcc5602da124cef1b1f7f94133161d4c7a2be332bf710170"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Jeonju_WateringCan_Garden.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Jeonju_WateringCan_Garden.png.meta",
+    "bytes": 4110,
+    "sha256": "ad3a81124e34318b80c6fb63a01cf99bf50e2fc033628aba141c6eb02812de5e"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Seoul_KpopStage.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Seoul_KpopStage.png",
+    "bytes": 699483,
+    "sha256": "8fc6a764ffb4d814c38430e216a92937be0e5ea533395688c11fcd92fc599794"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Seoul_KpopStage.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Seoul_KpopStage.png.meta",
+    "bytes": 4078,
+    "sha256": "cb3844d470cb3a4595e15b168c63237fa5a7eebf200556957c4f2fe95dd0ea51"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Seoul_TteokbokkiStall.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Seoul_TteokbokkiStall.png",
+    "bytes": 774093,
+    "sha256": "39e43731afa9d05dc79cf279ab5adceb8278fd945d1d92e9c33d467b971adbdc"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure/Seoul_TteokbokkiStall.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Leisure/Props/Seoul_TteokbokkiStall.png.meta",
+    "bytes": 4093,
+    "sha256": "1195ee1162d4311189ef3abd36efb9fd2ec95c5151f6d04855fa2e5ebb1555ea"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Maps/DaLat/DaLatStation.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Maps/DaLat/DaLatStation.png",
+    "bytes": 3062394,
+    "sha256": "7f150cec8217ade3f6f472298297ee5d96cce4254f2b5800b2a7dc321aafb45e"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Maps/DaLat/DaLatStation.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/Maps/DaLat/DaLatStation.png.meta",
+    "bytes": 3458,
+    "sha256": "26e595bae38629a99ce71507b602b2e0a6dedec5e5a1f5abc6433dbb4690eeca"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/AdventureUIArt.asset",
+    "new": "LightBetweenCultures/Assets/_Game/Resources/Catalogs/AdventureUIArt.asset",
+    "bytes": 85317,
+    "sha256": "0eb79c92cb94723f8c177c9e4cc073595fd8ff4a3bec70b4218124e3f696ecfa"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/AdventureUIArt.asset.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Resources/Catalogs/AdventureUIArt.asset.meta",
+    "bytes": 189,
+    "sha256": "2bb9e5f4d8feeaefb0679713f23c3b24dabaf70e010e2a2f59a1540646730081"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/DesignKitArt.asset",
+    "new": "LightBetweenCultures/Assets/_Game/Resources/Catalogs/DesignKitArt.asset",
+    "bytes": 1911,
+    "sha256": "ec1380c8691bb11d42b05d5103677e5c23e066f018bb07a4ea5f052b30d5d393"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/DesignKitArt.asset.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Resources/Catalogs/DesignKitArt.asset.meta",
+    "bytes": 189,
+    "sha256": "56ed5aeffbd6e1a4746855704661c1ee3abe5fb558d5987dffb91685f36449cb"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/SoftAudioClips.asset",
+    "new": "LightBetweenCultures/Assets/_Game/Resources/Catalogs/SoftAudioClips.asset",
+    "bytes": 961,
+    "sha256": "968e87cba980e5a7d0b0f551b6324278d4425579f8dec4e45d458c6c88362d9a"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/SoftAudioClips.asset.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Resources/Catalogs/SoftAudioClips.asset.meta",
+    "bytes": 189,
+    "sha256": "044b1d489fe2f9d6011920fdf3afdb35afcea6155ba87d69976df1d1fc495ff5"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/SoftMusicClips.asset",
+    "new": "LightBetweenCultures/Assets/_Game/Resources/Catalogs/SoftMusicClips.asset",
+    "bytes": 842,
+    "sha256": "17aa3d615794f9399504fb24ef2fde80313b08fa0880fd999c88f6aaae4eb81c"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/SoftMusicClips.asset.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Resources/Catalogs/SoftMusicClips.asset.meta",
+    "bytes": 189,
+    "sha256": "06e9f7df031aa88f7dd3a57064989a297e26f6da558b8845e5b4e2f98270b111"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/HoiAnData.json",
+    "new": "LightBetweenCultures/Assets/_Game/Resources/Content/HoiAnData.json",
+    "bytes": 26880,
+    "sha256": "e2961e1b1807325a071e4a52c26ca5708fc9b56fd2b39790f81c21b0fab49011"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/HoiAnData.json.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Resources/Content/HoiAnData.json.meta",
+    "bytes": 158,
+    "sha256": "c4b0b1e1572b740ca51fc4432afa578f54f1ef294928506949ba26be3076b0a5"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/Items/Source/Item_HoiAn_Chili.jpg",
+    "new": "LightBetweenCultures/Tools/Import/Sources/Artwork/Item_HoiAn_Chili.jpg",
+    "bytes": 45889,
+    "sha256": "d3704b8a2c51f209ab0faa6d80c3d102b18b51daff8605756700ba7deec5b932"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/Items/Source/Item_HoiAn_Chili.jpg.meta",
+    "new": "LightBetweenCultures/Tools/Import/Sources/Artwork/Item_HoiAn_Chili.jpg.meta",
+    "bytes": 3722,
+    "sha256": "d4064947d3072790dfb55e5484cb19d76b0d64d783a30efeafb2e7bb8484cfd3"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/Items/Source/Item_HoiAn_Shallot.jpg",
+    "new": "LightBetweenCultures/Tools/Import/Sources/Artwork/Item_HoiAn_Shallot.jpg",
+    "bytes": 82331,
+    "sha256": "a04831e27615a92512c9a8a982de76c0dd9bd7371d3b6326b0346db757c241ef"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/Items/Source/Item_HoiAn_Shallot.jpg.meta",
+    "new": "LightBetweenCultures/Tools/Import/Sources/Artwork/Item_HoiAn_Shallot.jpg.meta",
+    "bytes": 3731,
+    "sha256": "27690a43c9ea63c7932ceb0a7de20dddeb9db408feea74ef82d5278b83ef6773"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Postcards/Source/Item_Food_Postcard.jpg",
+    "new": "LightBetweenCultures/Tools/Import/Sources/Artwork/Item_Food_Postcard.jpg",
+    "bytes": 77665,
+    "sha256": "29716acbc71049f131a7ebd298b05a4738e11e52d80821f988637682db0dcffb"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Postcards/Source/Item_Food_Postcard.jpg.meta",
+    "new": "LightBetweenCultures/Tools/Import/Sources/Artwork/Item_Food_Postcard.jpg.meta",
+    "bytes": 3726,
+    "sha256": "bf6bd06a5b8425fc735c9da9b68bb7b06d9796425c9215318fb65120475b6b64"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/AppIcon/LBC_AppIcon_Original.png",
+    "new": "LightBetweenCultures/Tools/Import/Sources/Artwork/LBC_AppIcon_Original.png",
+    "bytes": 1664191,
+    "sha256": "bc6935f97d4c886634ee256c1959d56333806f8eaaf857d75b835b036ee91c35"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/AppIcon/LBC_AppIcon_Original.png.meta",
+    "new": "LightBetweenCultures/Tools/Import/Sources/Artwork/LBC_AppIcon_Original.png.meta",
+    "bytes": 4057,
+    "sha256": "a0d40f7834abea2dbac31b4a40f45f7737de1606d5f3c0d3e2055c3430923899"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/NPC/Seoul/NPC_Seoul_Curator.png",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredAuthoring/NPC_Seoul_Curator.png",
+    "bytes": 1213061,
+    "sha256": "cf66f4361ef2e32bc48a431989a9256e4f88f0e4b43a2959dcc4c65f2f666949"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/NPC/Seoul/NPC_Seoul_Curator.png.meta",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredAuthoring/NPC_Seoul_Curator.png.meta",
+    "bytes": 4727,
+    "sha256": "493f6cb97d6b777afd663fa606263dd6edf872904a1cabdc2b87d743b1ae7f2b"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/Environment/HoiAn/H3/H3_Stone_A.asset",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredAuthoring/H3_Stone_A.asset",
+    "bytes": 5057,
+    "sha256": "be5b870f3121639d0e84eda367794b73e27e05fa44727643b49fec68da822c5b"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/Environment/HoiAn/H3/H3_Stone_A.asset.meta",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredAuthoring/H3_Stone_A.asset.meta",
+    "bytes": 189,
+    "sha256": "349efd45383d39abcc23d7d204c97f0d2509e8791a0ff04195bd7f35bb282381"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/Environment/HoiAn/H3/H3_Stone_B.asset",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredAuthoring/H3_Stone_B.asset",
+    "bytes": 5057,
+    "sha256": "ec79763adf0b83e0164aca548897dc87ff6c3f84ace55e851507ea20eb621d44"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/Environment/HoiAn/H3/H3_Stone_B.asset.meta",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredAuthoring/H3_Stone_B.asset.meta",
+    "bytes": 189,
+    "sha256": "f428d7fa1173a3c1a6b479e1d1e37a77b9c6d0d239f854bcafe4e69a3c0d985b"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Postcards/Source.meta",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredFolderMetadata/Assets/_Game/Art/UI/Postcards/Source.meta",
+    "bytes": 172,
+    "sha256": "7da7a3e0cfb77efd4a0286bcd4d76c05876e0b7d4c8d14fd56d1851239f9cdcc"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Characters/Cats.meta",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredFolderMetadata/Assets/_Game/Resources/Art/Characters/Cats.meta",
+    "bytes": 180,
+    "sha256": "1c5ad464d23d901c22824393223b6fb2892f7998b24c03048dee1d2af7cd9bd1"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Maps/DaLat.meta",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredFolderMetadata/Assets/_Game/Resources/Art/Maps/DaLat.meta",
+    "bytes": 172,
+    "sha256": "2e28c0756824558fae0b2e650b13f48d0660b147449ac95b3d0388b9adbaf69c"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/Items/Source.meta",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredFolderMetadata/Assets/_Game/Art/Items/Source.meta",
+    "bytes": 172,
+    "sha256": "ef460aaf21fd76cd225a787ad43777b5eb8cccc84e4d5533d3ae86dbad24e543"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Characters.meta",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredFolderMetadata/Assets/_Game/Resources/Art/Characters.meta",
+    "bytes": 172,
+    "sha256": "ddd39d033802d14981a88e9bdbeb848b9e8d807f4bb417bbabe27a090b0a0030"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Leisure.meta",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredFolderMetadata/Assets/_Game/Resources/Art/Leisure.meta",
+    "bytes": 172,
+    "sha256": "1189af185b34b1bf7d6b70159c0628aac4a902bd646a2fde56ce031cc822455b"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art/Maps.meta",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredFolderMetadata/Assets/_Game/Resources/Art/Maps.meta",
+    "bytes": 172,
+    "sha256": "a00ce1a6b9c424663c6c0de49323f27966e160b0fbaa5b951a18107535497dfd"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Resources/Art.meta",
+    "new": "_LBC_ARCHIVE/HistoricalArt/RetiredFolderMetadata/Assets/_Game/Resources/Art.meta",
+    "bytes": 172,
+    "sha256": "e5e043243ccea260c89d7f20f4a52b9d428d7102758149e4a952954ec41c9630"
+  }
+]

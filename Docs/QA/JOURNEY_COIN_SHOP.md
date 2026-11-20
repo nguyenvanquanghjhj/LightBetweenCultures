@@ -30,7 +30,7 @@ Vật phẩm thông thường mua lại được theo stack limit canonical; v�
 - Không bịa số phút tìm đồ/chơi thử. Chưa có phép đo thời gian người mới độc lập cho từng món; giá dựa trên lượng xu thực và số lượng quest cần.
 - Dây Đồng cần cả proof xử lý cua, nên bán riêng dây sẽ gây hiểu nhầm. Shop bán mồi 1 xu để dùng nhánh dụ cua hiện có, nhận dây và proof đúng nguồn.
 - Không bán đồ cốt truyện bắt buộc như Mắt Đèn/Lõi Giấy/Chìa Kết Nối, bộ hoa văn/sao/relay, thư có danh tính người gửi, kỷ vật và dấu văn hóa. Không bán sáu relic/24 fragment, boss result, ritual/ending flags, puzzle proofs hoặc quyền bỏ một chương bắt buộc.
-- [Kiểm kê đủ 38 item](../../Validation/JourneyShop-20261021/item-classification.csv), [nguồn xu và hash dữ liệu](../../Validation/JourneyShop-20261021/economy-audit.json).
+- [Kiểm kê đủ 38 item](../../../_LBC_ARCHIVE/HistoricalQA/Validation/JourneyShop-20261021/item-classification.csv), [nguồn xu và hash dữ liệu](../../../_LBC_ARCHIVE/HistoricalQA/Validation/JourneyShop-20261021/economy-audit.json).
 
 ## Giao dịch và tương thích
 
@@ -69,7 +69,7 @@ Vật phẩm thông thường mua lại được theo stack limit canonical; v�
 | Android realme C71 | BLOCKED: ADB chưa thấy thiết bị; không cài/xóa save |
 | Touch drag cuộn trên thiết bị thật, notch/nav bar | NOT_TESTED; Windows đã kiểm tra ScrollRect, clipping và chọn nút bằng touch mô phỏng |
 
-[Ảnh runtime 540×960](../../Validation/JourneyShop-20261021/gallery.html) · [Log 142 assertions](../../Validation/JourneyShop-20261021/runtime01/smoke-results.txt).
+[Ảnh runtime 540×960](../../../_LBC_ARCHIVE/HistoricalQA/Validation/JourneyShop-20261021/gallery.html) · [Log 142 assertions](../../../_LBC_ARCHIVE/HistoricalQA/Validation/JourneyShop-20261021/runtime01/smoke-results.txt).
 
 Không test lại toàn campaign/12 leisure. Thời gian 5/15/30 phút và cảm nhận người mới không được suy ra từ suite này. Kiểm kê nguồn xu không thay thế human playtest cân bằng dài hạn.
 

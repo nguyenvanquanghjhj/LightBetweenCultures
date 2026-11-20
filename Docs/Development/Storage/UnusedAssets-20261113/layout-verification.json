@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "meaning": "Structural/native regression only, not Player/device acceptance",
+  "existingAssetMetasUnchanged": 417,
+  "immutableBinaryScenePrefabFiles": 188,
+  "imageFilesPreserved": 165,
+  "textureImportsAndSpriteIDsCompared": 135,
+  "pythonScriptsParsed": 127,
+  "movedMetadataFilesVerified": 201,
+  "protectedRootInventoriesUnchanged": [
+    "Builds",
+    "Backups",
+    "Submission",
+    "ReviewPacks",
+    "_LBC_FINAL_BACKUP_20261110",
+    "_LBC_ONE_PATCH_BACKUP_20261110"
+  ],
+  "saveFixtures": 4,
+  "routeAssertions": 5901,
+  "existingMissingGuids": 7,
+  "existingMissingScripts": 0,
+  "existingMissingObjects": 6,
+  "existingOptionalMissingResources": [
+    "AppearanceReviewData|AppearanceReviewData|MISSING"
+  ],
+  "removedAssetFiles": 17,
+  "removedAssetBytes": 9013149
+}

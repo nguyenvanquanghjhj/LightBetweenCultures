@@ -37,8 +37,8 @@ namespace LightBetweenCultures.Editor
         }
         public static void Apply()
         {
-            Bind("Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png","npc_kang_taeho",new Rect(318,140,296,420),new[]{new Vector2(320,140),new Vector2(614,140),new Vector2(614,560),new Vector2(318,560)});
-            const string sheet="Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png";
+            Bind("Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png","npc_kang_taeho",new Rect(318,140,296,420),new[]{new Vector2(320,140),new Vector2(614,140),new Vector2(614,560),new Vector2(318,560)});
+            const string sheet="Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png";
             Bind(sheet,"npc_choi_eunsu",new Rect(807,170,349,395),new[]{new Vector2(855,255),new Vector2(864,225),new Vector2(1022,174),new Vector2(1114,202),new Vector2(1116,248),new Vector2(1081,284),new Vector2(1085,314),new Vector2(1134,323),new Vector2(1155,397),new Vector2(1144,461),new Vector2(1105,510),new Vector2(1052,526),new Vector2(1035,560),new Vector2(936,560),new Vector2(922,537),new Vector2(855,537),new Vector2(818,480),new Vector2(809,420),new Vector2(825,359),new Vector2(852,327)});
             Bind(sheet,"npc_han_doyun",new Rect(1126,150,322,410),new[]{new Vector2(1144,150),new Vector2(1340,150),new Vector2(1340,212),new Vector2(1448,212),new Vector2(1448,430),new Vector2(1360,430),new Vector2(1382,500),new Vector2(1354,560),new Vector2(1200,560),new Vector2(1180,496),new Vector2(1140,460),new Vector2(1126,350),new Vector2(1144,283)});
             var art=AdventureUIArt.Load();var actors=art.mapActors.ToList();

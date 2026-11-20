@@ -2,7 +2,7 @@
   "entries": [
     {
       "id": "fragment_jeonju_hanok_pattern",
-      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+      "path": "Assets/_Game/Art/Relics/Artifacts/Artifact_Jeonju_HanjiSeal_Source.png",
       "rect": {
         "x": 380,
         "y": 14,
@@ -282,7 +282,7 @@
     },
     {
       "id": "fragment_jeonju_dyed_thread",
-      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+      "path": "Assets/_Game/Art/Relics/Artifacts/Artifact_Jeonju_HanjiSeal_Source.png",
       "rect": {
         "x": 635,
         "y": 0,
@@ -650,7 +650,7 @@
     },
     {
       "id": "fragment_jeonju_old_hanji_core",
-      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+      "path": "Assets/_Game/Art/Relics/Artifacts/Artifact_Jeonju_HanjiSeal_Source.png",
       "rect": {
         "x": 0,
         "y": 4,
@@ -954,7 +954,7 @@
     },
     {
       "id": "fragment_seoul_relay_frame",
-      "path": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+      "path": "Assets/_Game/Art/Relics/Artifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
       "rect": {
         "x": 890,
         "y": 4,

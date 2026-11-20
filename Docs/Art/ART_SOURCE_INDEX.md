@@ -2,12 +2,10 @@
 
 Giữ nguyên các bộ gốc ngoài Assets. Catalog ảnh từng file và SHA256 ở manifest.
 
-- [LBC_AnhMoi_BanGiaoCodex_20261015](../../LBC_AnhMoi_BanGiaoCodex_20261015)
-- [LBC_Gameplay_6Cities_Detailed_v1](../../LBC_Gameplay_6Cities_Detailed_v1)
-- [LBC_HoiAn_StoryExpansion_v1](../../LBC_HoiAn_StoryExpansion_v1)
-- [LightBetweenCultures_DesignKit_v1](../../LightBetweenCultures_DesignKit_v1)
-- [References/MarkerDesign](../../References/MarkerDesign)
-- [Assets/_Game/Art/_SourceSheets](../../Assets/_Game/Art/_SourceSheets)
+- [Tools/Import/Sources/LBC_AnhMoi_BanGiaoCodex_20261015](../../Tools/Import/Sources/LBC_AnhMoi_BanGiaoCodex_20261015)
+- [Tools/Import/Sources/LightBetweenCultures_DesignKit_v1](../../Tools/Import/Sources/LightBetweenCultures_DesignKit_v1)
+- [Tools/Import/Sources/MarkerDesign](../../Tools/Import/Sources/MarkerDesign)
+- [Tools/Import/Sources/Artwork](../../Tools/Import/Sources/Artwork)
 
 ### lumi · map
 
@@ -29,6 +27,6 @@ Giữ nguyên các bộ gốc ngoài Assets. Catalog ảnh từng file và SHA25
 
 ### canonical_npc · mai
 
-![mai](../../Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png)
+![mai](../../Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png)
 
 `a6cc838dd76ae7f40902d846693f4a5e:-1732270161`

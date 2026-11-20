@@ -1,0 +1,140 @@
+[
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_available.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_available.png",
+    "sha256": "fbf9b899d66942db4c9aa77395689576bd23bed84088c5a77f76f275139e173d",
+    "bytes": 2656
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_available.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_available.png.meta",
+    "sha256": "b5d209134339990be86852197f4c915448f58c8f09394aa22b725f0349c4c8a9",
+    "bytes": 3718
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_current.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_current.png",
+    "sha256": "c158ac8b6173efcd6f48d813997012a0c96560aade9add6fd0fe8095f844e098",
+    "bytes": 2678
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_current.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_current.png.meta",
+    "sha256": "4c1636dad4d929179820e851fcc119d68b4d932abe61926f26b6c3f90e644e00",
+    "bytes": 3712
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_enemy.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_enemy.png",
+    "sha256": "75e2ac2ef640210cbd41e22b7e68da13a55f8696ed3f1e3d5b1c000db38759b2",
+    "bytes": 5548
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_enemy.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_enemy.png.meta",
+    "sha256": "efaeac1dd320edf0bd635c60740f3632f41f519bb517af777778dc92277c52fa",
+    "bytes": 3703
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_item.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_item.png",
+    "sha256": "e817bfe5736df505c5cb99d725d75f608b32144f010c54bfa7270e70354d377b",
+    "bytes": 3058
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_item.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_item.png.meta",
+    "sha256": "7e591567a5f943451d90139b56bd6f8ae80813fe4a98211364e19b848d4d5501",
+    "bytes": 3700
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_locked.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_locked.png",
+    "sha256": "43324db67f19e50760f7b7c0dc1873dd6055dbc332b902730ac7c4bc30a55253",
+    "bytes": 2523
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_locked.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_locked.png.meta",
+    "sha256": "24e02715ca8001f33cca1f042901903be737859987def1ab115b0dcb2b40a213",
+    "bytes": 3706
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_npc.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_npc.png",
+    "sha256": "43187d191eee5a0cc522507724cd9ad0ab5d96adca939c17ad39d64be6dfc57e",
+    "bytes": 5125
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_npc.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_npc.png.meta",
+    "sha256": "28a8d4c26869d8df8baa5e4584158635b9a05bf2b0639bdeb3505a8bcf77a375",
+    "bytes": 3700
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_portal.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_portal.png",
+    "sha256": "694ae85241e294f6fea2e1ae4ec92c8cde4543336ee01e1c7692922badc69b8c",
+    "bytes": 8864
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_portal.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_portal.png.meta",
+    "sha256": "d8dc672bda2c8d846f159b5443f8fb026cdd4b593ef7aaf45586a2ef51787637",
+    "bytes": 3709
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_puzzle.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_puzzle.png",
+    "sha256": "87804335c1d770daea1717af15b3301fc1880154ce1fd97270eed5b386b9e49b",
+    "bytes": 4587
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_puzzle.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_puzzle.png.meta",
+    "sha256": "2e83b1300cd6e91f0c9367f6268acdb7d3cecbfe36ddb96ceef23375428cbdc3",
+    "bytes": 3706
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_quest.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_quest.png",
+    "sha256": "c896014ea01279e7adf886764693ff5b4fc416f220d535075463cf7f8e839832",
+    "bytes": 2826
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_quest.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_quest.png.meta",
+    "sha256": "a1567a6b39328c46cc1bef54c81163dfc807e0a0e9482a358df301a7c56e159c",
+    "bytes": 3706
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_secret.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_secret.png",
+    "sha256": "36c8905b0d1f210f4d77b4227530e551574ec1b425dab3fe44d8d77182d29e3a",
+    "bytes": 5189
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_secret.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_secret.png.meta",
+    "sha256": "49f3350e6171ce11bd63076ae702fa7a181395c9c10ce6d7d74bb7299086b47d",
+    "bytes": 3706
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_visited.png",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_visited.png",
+    "sha256": "f8989c43a9f5ab024b25484771edc1f5627b446d7ab217153bca0e0afb559b95",
+    "bytes": 2667
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit/node_visited.png.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation/node_visited.png.meta",
+    "sha256": "5586add6d01519312b835f1d10a27eb48021ad65ef18f053585a1c86d3c02d53",
+    "bytes": 3709
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/LegacyDesignKit.meta",
+    "new": "LightBetweenCultures/Assets/_Game/Art/UI/Markers/Navigation.meta",
+    "sha256": "03d2179c8d01e0bea68f006d30b399253bc4a73b75ac63fbff9d6f68627be7e7",
+    "bytes": 172
+  }
+]

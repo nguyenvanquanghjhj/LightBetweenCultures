@@ -49,7 +49,7 @@ namespace LightBetweenCultures
             SfxVolume=Mathf.Clamp01(PlayerPrefs.GetFloat(PreferencePrefix+"sfx",.65f));
             MusicVolume=Mathf.Clamp01(PlayerPrefs.GetFloat(PreferencePrefix+"music",.35f));
             Muted=PlayerPrefs.GetInt(PreferencePrefix+"mute",0)==1;
-            catalog=Resources.Load<SoftAudioClips>("SoftAudioClips");
+            catalog=Resources.Load<SoftAudioClips>("Catalogs/SoftAudioClips");
             RefreshListener();SceneManager.sceneLoaded+=OnSceneLoaded;
             for(var i=0;i<3;i++)
             {var voice=new GameObject("SfxVoice"+i);voice.transform.SetParent(transform,false);var s=voice.AddComponent<AudioSource>();s.playOnAwake=false;s.loop=false;s.spatialBlend=0;s.priority=180;s.volume=SfxVolume;voices.Add(s);}

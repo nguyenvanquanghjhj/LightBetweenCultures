@@ -12,7 +12,7 @@ namespace LightBetweenCultures.Editor
     {
         public static void Build()
         {
-            const string output="Builds/Android/LightBetweenCultures-AndroidQA-20261024.apk";
+            const string output="../_LBC_WORK/QA/Builds/Android/LightBetweenCultures-AndroidQA-20261024.apk";
             var identifier=PlayerSettings.GetApplicationIdentifier(NamedBuildTarget.Android);
             var version=PlayerSettings.bundleVersion;var code=PlayerSettings.Android.bundleVersionCode;
             var bundle=EditorUserBuildSettings.buildAppBundle;var internet=PlayerSettings.Android.forceInternetPermission;

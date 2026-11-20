@@ -1,0 +1,177 @@
+[
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/Concept_Composite_01.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/LBC_Composite_Illustrated_v1.png",
+    "group": "SourceSheets",
+    "guid": "e2ee55c326f7e2e4a86e7d19b579f740",
+    "sha256": "65d7dd9931f85fe10941ffae77fa5e9688120cdb310b3a9174e4e562deb04e77"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/Concept_Composite_02.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/LBC_Composite_CheckerConcept_v2.png",
+    "group": "SourceSheets",
+    "guid": "4ecfe5a65b714bf49b2f39c4788e47d4",
+    "sha256": "6e07f538417d56d94e6c2c97cd5c8b50f61aec868e4fb75d73c6152e440c03b8"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_Character_Cutout_Concept.png",
+    "newPath": "Assets/_Game/Art/Characters/Source/Lumi_Character_Cutout_Concept.png",
+    "group": "SourceSheets",
+    "guid": "7365c571dda3a8245b7afd2289fd8d2c",
+    "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_CityMarker_128.png",
+    "newPath": "Assets/_Game/Art/Characters/LegacyReferences/Lumi_CityMarker_128.png",
+    "group": "SourceSheets",
+    "guid": "d2181a9171421b34780d442db99658c2",
+    "sha256": "a150c83125508853f9a7643f45c9e5820e05c96321e9e054f101f4b81470b3e2"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_CityMarker_256.png",
+    "newPath": "Assets/_Game/Art/Characters/LegacyReferences/Lumi_CityMarker_256.png",
+    "group": "SourceSheets",
+    "guid": "3d4c838d288e1af438ef1a3e538d8364",
+    "sha256": "95061774ab06032908a131864462f7ed8a3a9d6b98eaa723a787450263b763bc"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/Runtime/Lumi/Lumi_DialoguePortrait.png",
+    "newPath": "Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png",
+    "group": "Characters",
+    "guid": "1749b1933916d2b4185622c2165926be",
+    "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/Runtime/Lumi/Lumi_ExplorationIdle.png",
+    "newPath": "Assets/_Game/Art/Characters/Lumi/Lumi_ExplorationIdle.png",
+    "group": "Characters",
+    "guid": "7644234593d8df64f8cad7f5cf5860b4",
+    "sha256": "d1b9b14d78ebd0238a1651b631e295f864de4a969f389dd3f26a73b000fe975e"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+    "newPath": "Assets/_Game/Art/NPC/Hue/npc_nguyet.png",
+    "guid": "48a2e6c60f7ec0349befacea7c60e927",
+    "group": "Layout20261112",
+    "sha256": "6930e06a55f6989b3547f2f11a2f7e3aed867f84eb9bbd53f943faa866d44530"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+    "newPath": "Assets/_Game/Art/NPC/Jeonju/npc_elder.png",
+    "guid": "9e2ba05a32d628045ae4dce1b7b1cb19",
+    "group": "Layout20261112",
+    "sha256": "cb4bd5bb94b28656a70540d06792fc3411cc0672fcf9b29f2b1626af80a1797b"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_128.png",
+    "newPath": "Assets/_Game/Art/Characters/LegacyReferences/Lumi_CityMarker_128.png",
+    "guid": "d2181a9171421b34780d442db99658c2",
+    "group": "Layout20261112",
+    "sha256": "a150c83125508853f9a7643f45c9e5820e05c96321e9e054f101f4b81470b3e2"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_256.png",
+    "newPath": "Assets/_Game/Art/Characters/LegacyReferences/Lumi_CityMarker_256.png",
+    "guid": "3d4c838d288e1af438ef1a3e538d8364",
+    "group": "Layout20261112",
+    "sha256": "95061774ab06032908a131864462f7ed8a3a9d6b98eaa723a787450263b763bc"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/Characters_MissingSprites_v1.png",
+    "guid": "0173405b4fb1ebf4795d5ca8849bd7e1",
+    "group": "Layout20261112",
+    "sha256": "e41f2539663cd1c92975b9ba411fedbe7a23c0a143cd9da3241dfcc6c99e56ba"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/Checkin_Postcards_VNKR_v1.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/Checkin_Postcards_VNKR_v1.png",
+    "guid": "92a041f461efb8a478c2c8c631ccedc6",
+    "group": "Layout20261112",
+    "sha256": "e51dce4e67c10c63dcee2e3bc3557fba58b6ac6588f3572fd4d8f3c2e59dbf51"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_01_VisualTarget_Reference.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_01_VisualTarget_Reference.png",
+    "guid": "77daced6601fe564db1f64834b3bb119",
+    "group": "Layout20261112",
+    "sha256": "ba764324ecf39b7c05c58f807e352db1c65d100423c65d6a582e41d0a2ef18a0"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_03_UI_TextBaked_Reference.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_03_UI_TextBaked_Reference.png",
+    "guid": "bb4e7506f3f3cb34b96f56c860e945e4",
+    "group": "Layout20261112",
+    "sha256": "0402a6a4db4dcd1bb246f5aff7067ad7f63c8675c35879e0659e928848c36e81"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_04_Lantern_LightFX_Concept.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_04_Lantern_LightFX_Concept.png",
+    "guid": "bedcd6154fa99b94dbb460d4c7e43399",
+    "group": "Layout20261112",
+    "sha256": "85197d042b073b684da3dc010dda798909f927f542939ef84bae0fee35ac1ed0"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_06_Markers_Interactables_Concept.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_06_Markers_Interactables_Concept.png",
+    "guid": "72dd905d099991c4fbc0af75b2b7d0b2",
+    "group": "Layout20261112",
+    "sha256": "fc765ef932e89338ec65f433d823c1b55fb6e40ada64de6006113f73617fb7a8"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/README_H3_Assets.txt",
+    "newPath": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/README_H3_Assets.txt",
+    "guid": "6f79ae00d1dcec746b48dd9a43106820",
+    "group": "Layout20261112",
+    "sha256": "290ebf59c6171caea8780e70a2c8fda974429f28e67d61337c69d4ca8dd02988"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/HoiAn_H3_Environment_v1.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/HoiAn_H3_Environment_v1.png",
+    "guid": "d623337729ec3bd439e8d0647cee42d4",
+    "group": "Layout20261112",
+    "sha256": "b82d9bcbd728198365b6046f20aafe983a86513f1af6a4e4b6c2a645c33f917c"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/LBC_Composite_CheckerConcept_v2.png",
+    "guid": "4ecfe5a65b714bf49b2f39c4788e47d4",
+    "group": "Layout20261112",
+    "sha256": "6e07f538417d56d94e6c2c97cd5c8b50f61aec868e4fb75d73c6152e440c03b8"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/LBC_Composite_Illustrated_v1.png",
+    "guid": "e2ee55c326f7e2e4a86e7d19b579f740",
+    "group": "Layout20261112",
+    "sha256": "65d7dd9931f85fe10941ffae77fa5e9688120cdb310b3a9174e4e562deb04e77"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/Lumi/Lumi_Character_Cutout_Concept.png",
+    "newPath": "Assets/_Game/Art/Characters/Source/Lumi_Character_Cutout_Concept.png",
+    "guid": "7365c571dda3a8245b7afd2289fd8d2c",
+    "group": "Layout20261112",
+    "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/UI_Adventure_Kit_v1.png",
+    "newPath": "Assets/_Game/Art/SourceReferences/UI_Adventure_Kit_v1.png",
+    "guid": "98a6d7945685ed64391728ef1922af5f",
+    "group": "Layout20261112",
+    "sha256": "787e43d1cff2f2caddacd09f2e0934a19a2de038cb4614366587fa167714bd5a"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/Characters/LBCFinalHotfix/Hue_Gate_Guard_Transparent.png",
+    "newPath": "Assets/_Game/Art/Enemies/Hue/Hue_Gate_Guard_Transparent.png",
+    "guid": "9b7173c3d3994f7fb5e5d520ed053d90",
+    "group": "Layout20261112",
+    "sha256": "0c8676f9ae8dd855cbf126c74e26a07095fb0ab3cb80b7399613d059f199bc74"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/SourceReferences/Lumi/Lumi_Character_Cutout_Concept.png",
+    "newPath": "Assets/_Game/Art/Characters/Source/Lumi_Character_Cutout_Concept.png",
+    "guid": "7365c571dda3a8245b7afd2289fd8d2c",
+    "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b",
+    "group": "FunctionalArt20261112"
+  }
+]

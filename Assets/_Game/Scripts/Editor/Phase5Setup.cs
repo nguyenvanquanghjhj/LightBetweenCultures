@@ -10,7 +10,7 @@ namespace LightBetweenCultures.Editor
         {
             // Existing scenes/assets only. No setup generator, art export or audio reimport.
             var requested=System.Environment.GetCommandLineArgs().FirstOrDefault(a=>a.StartsWith("--qa-build-output="));
-            var output=requested==null?"Builds/Windows/LightBetweenCultures.exe":requested.Substring("--qa-build-output=".Length);
+            var output=requested==null?"../_LBC_WORK/QA/Builds/Windows/LightBetweenCultures.exe":requested.Substring("--qa-build-output=".Length);
             var release=System.Environment.GetCommandLineArgs().Contains("--qa-build-release");
             var scriptsOnly=System.Environment.GetCommandLineArgs().Contains("--qa-build-scripts-only");
             var version=System.Environment.GetCommandLineArgs().FirstOrDefault(a=>a.StartsWith("--qa-build-version="));

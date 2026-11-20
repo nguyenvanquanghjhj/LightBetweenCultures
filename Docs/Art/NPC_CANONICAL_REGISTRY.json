@@ -45,7 +45,7 @@
         {
           "variantId": "npc_ba_tu.default",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "path": "Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png",
           "spriteName": "H3_07_Characters_NPC_Concept_23",
           "guid": "ab62ba1e558f7274984500bb1cac18f6",
           "localId": "8637574531497076435",
@@ -65,7 +65,7 @@
       "visualReferences": [
         {
           "referenceId": "npc_ba_tu.missing_sheet_pose",
-          "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+          "path": "Assets/_Game/Art/SourceReferences/Characters_MissingSprites_v1.png",
           "region": "Top row second character",
           "status": "APPROVED_VARIANT",
           "runtimeBound": false,
@@ -122,7 +122,7 @@
         {
           "variantId": "npc_boatman.default",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+          "path": "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_Boatman.png",
           "spriteName": "NPC_HoiAn_Boatman",
           "guid": "3835aa72bd8c88b41af32d4aabd40b98",
           "localId": "21300000",
@@ -161,7 +161,7 @@
         {
           "variantId": "npc_curator.review_20261018",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png",
+          "path": "../_LBC_ARCHIVE/HistoricalArt/RetiredAuthoring/NPC_Seoul_Curator.png",
           "spriteName": "NPC_Seoul_Curator",
           "guid": "6b7b12ad613bda14d969e359a2f08d59",
           "localId": "21300000",
@@ -172,10 +172,12 @@
             "CityMap dialogue"
           ],
           "conditions": "Exact existing Phase4 runtime binding approved as-is by owner; no face, costume, crop or sprite change.",
-          "runtimeBound": true,
+          "runtimeBound": false,
           "qualityStatus": "WINDOWS_RUNTIME_BINDING_PASS; OWNER_APPROVED_AS_IS_20261018",
           "visualReview": "Source and actual NPC01 dialogue captures reviewed 2026-10-18: head/hands/feet retained, no white background or button occlusion. Curator/Inscription face similarity and age/brief remain pending user visual approval.",
-          "ownerApproval": "OWNER_APPROVED_AS_IS_20261018"
+          "ownerApproval": "OWNER_APPROVED_AS_IS_20261018",
+          "archived": true,
+          "archiveSha256": "cf66f4361ef2e32bc48a431989a9256e4f88f0e4b43a2959dcc4c65f2f666949"
         }
       ],
       "visualReferences": [],
@@ -215,7 +217,7 @@
         {
           "variantId": "npc_elder.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+          "path": "../_LBC_ARCHIVE/HistoricalArt/SourceArchive-20261113/Assets/_Game/Art/NPC/Jeonju/npc_elder.png",
           "spriteName": "npc_elder",
           "guid": "9e2ba05a32d628045ae4dce1b7b1cb19",
           "localId": "245854044",
@@ -229,12 +231,14 @@
           "conditions": "Historical art preserved for recovery; replaced by the owner-authorized 2026-10-21 default, not bound in normal runtime.",
           "runtimeBound": false,
           "qualityStatus": "EXISTING_ASSET_PRESERVED",
-          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "archived": true,
+          "archiveSha256": "cb4bd5bb94b28656a70540d06792fc3411cc0672fcf9b29f2b1626af80a1797b"
         },
         {
           "variantId": "npc_elder.owner20261021",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_elder.png",
+          "path": "Assets/_Game/Art/NPC/OwnerRevision_20261021/npc_elder.png",
           "spriteName": "npc_elder_Owner20261021",
           "guid": "3056bc602bbb42945ba0edc767f09275",
           "localId": "5509288358854237611",
@@ -278,7 +282,7 @@
         {
           "variantId": "npc_engineer.review_20261018",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png",
+          "path": "Assets/_Game/Art/NPC/Seoul/NPC_Seoul_Engineer.png",
           "spriteName": "NPC_Seoul_Engineer",
           "guid": "4f74a41c66ef3364ca044bc04afa2bcb",
           "localId": "21300000",
@@ -327,7 +331,7 @@
         {
           "variantId": "npc_gardener.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+          "path": "Assets/_Game/Art/NPC/DaLat/npc_gardener.png",
           "spriteName": "npc_gardener",
           "guid": "cac9b7f04788a1743af1858d523019df",
           "localId": "1390191892",
@@ -371,7 +375,7 @@
         {
           "variantId": "npc_guest.default",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "path": "Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png",
           "spriteName": "npc_guest",
           "guid": "c6176fa957f7eb549b9b40703e5038ea",
           "localId": "-404209332",
@@ -410,7 +414,7 @@
         {
           "variantId": "npc_hana.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "path": "Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png",
           "spriteName": "npc_hana",
           "guid": "c6176fa957f7eb549b9b40703e5038ea",
           "localId": "-730319472",
@@ -429,7 +433,7 @@
         {
           "variantId": "npc_hana.owner20261021",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_hana.png",
+          "path": "Assets/_Game/Art/NPC/OwnerRevision_20261021/npc_hana.png",
           "spriteName": "npc_hana_Owner20261021",
           "guid": "2683b36a1f2e0f24aa056fc4a46ab1d8",
           "localId": "-3786701452203122310",
@@ -468,7 +472,7 @@
         {
           "variantId": "npc_hungry_dog.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+          "path": "Assets/_Game/Art/NPC/DaLat/npc_hungry_dog.png",
           "spriteName": "npc_hungry_dog",
           "guid": "3df301f30edc9d243899518bb89fb538",
           "localId": "37410012",
@@ -507,7 +511,7 @@
         {
           "variantId": "npc_huong.default",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "path": "Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png",
           "spriteName": "npc_huong",
           "guid": "c6176fa957f7eb549b9b40703e5038ea",
           "localId": "-1343187348",
@@ -573,7 +577,7 @@
         {
           "variantId": "npc_inscription.review_20261018",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png",
+          "path": "Assets/_Game/Art/NPC/Gyeongju/NPC_Gyeongju_Inscription.png",
           "spriteName": "NPC_Gyeongju_Inscription",
           "guid": "399ff7e49a026ed42b9cb627929f5b35",
           "localId": "21300000",
@@ -622,7 +626,7 @@
         {
           "variantId": "npc_keeper.review_20261018",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png",
+          "path": "Assets/_Game/Art/NPC/Gyeongju/NPC_Gyeongju_Keeper.png",
           "spriteName": "NPC_Gyeongju_Keeper",
           "guid": "880215f55ae56f2418894f7baed7f6cb",
           "localId": "21300000",
@@ -676,7 +680,7 @@
         {
           "variantId": "npc_lan.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+          "path": "Assets/_Game/Art/NPC/DaLat/npc_lan.png",
           "spriteName": "npc_lan",
           "guid": "fb6c63798ffdb6841a4fd318adf72a74",
           "localId": "1886636321",
@@ -715,7 +719,7 @@
         {
           "variantId": "npc_mai.default",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+          "path": "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
           "spriteName": "Mai_DialoguePortrait",
           "guid": "a6cc838dd76ae7f40902d846693f4a5e",
           "localId": "-1732270161",
@@ -734,7 +738,7 @@
         {
           "variantId": "npc_mai.h3_lantern_open_hand",
           "status": "APPROVED_VARIANT",
-          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "path": "Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png",
           "spriteName": "H3_07_Characters_NPC_Concept_19",
           "guid": "ab62ba1e558f7274984500bb1cac18f6",
           "localId": "-7400866961864976714",
@@ -754,7 +758,7 @@
       "visualReferences": [
         {
           "referenceId": "npc_mai.yellow_outfit_young",
-          "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
+          "path": "Assets/_Game/Art/SourceReferences/LBC_Composite_Illustrated_v1.png",
           "region": "Characters_MissingSprites panel, top row, second character",
           "status": "APPROVED_VARIANT",
           "runtimeBound": false,
@@ -793,7 +797,7 @@
         {
           "variantId": "npc_market_merchant.default",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+          "path": "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
           "spriteName": "NPC_HoiAn_MarketMerchant",
           "guid": "0a91b2dbca846994bbade4807ff62596",
           "localId": "21300000",
@@ -838,7 +842,7 @@
         {
           "variantId": "npc_min.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "path": "Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png",
           "spriteName": "npc_min",
           "guid": "c6176fa957f7eb549b9b40703e5038ea",
           "localId": "830274255",
@@ -877,7 +881,7 @@
         {
           "variantId": "npc_nguyet.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+          "path": "../_LBC_ARCHIVE/HistoricalArt/SourceArchive-20261113/Assets/_Game/Art/NPC/Hue/npc_nguyet.png",
           "spriteName": "npc_nguyet",
           "guid": "48a2e6c60f7ec0349befacea7c60e927",
           "localId": "-1004916199",
@@ -891,12 +895,14 @@
           "conditions": "Historical art preserved for recovery; replaced by the owner-authorized 2026-10-21 default, not bound in normal runtime.",
           "runtimeBound": false,
           "qualityStatus": "EXISTING_ASSET_PRESERVED",
-          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này."
+          "visualReview": "Không phân loại lại nhận diện khi chưa đối chiếu trực quan trong lượt này.",
+          "archived": true,
+          "archiveSha256": "6930e06a55f6989b3547f2f11a2f7e3aed867f84eb9bbd53f943faa866d44530"
         },
         {
           "variantId": "npc_nguyet.owner20261021",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_nguyet.png",
+          "path": "Assets/_Game/Art/NPC/OwnerRevision_20261021/npc_nguyet.png",
           "spriteName": "npc_nguyet_Owner20261021",
           "guid": "90853a883999d1a4090495dd15aa99d0",
           "localId": "4180976369657288829",
@@ -935,7 +941,7 @@
         {
           "variantId": "npc_park.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+          "path": "Assets/_Game/Art/NPC/Jeonju/npc_park.png",
           "spriteName": "npc_park",
           "guid": "36a0c8ea46b133e40bf8731d313402d7",
           "localId": "-606975524",
@@ -974,7 +980,7 @@
         {
           "variantId": "npc_phuc.default",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "path": "Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png",
           "spriteName": "Phuc_DialoguePortrait",
           "guid": "ab62ba1e558f7274984500bb1cac18f6",
           "localId": "1019635214",
@@ -994,7 +1000,7 @@
       "visualReferences": [
         {
           "referenceId": "npc_phuc.missing_sheet_pose",
-          "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+          "path": "Assets/_Game/Art/SourceReferences/Characters_MissingSprites_v1.png",
           "region": "Top row third character (Nghệ nhân)",
           "status": "APPROVED_VARIANT",
           "runtimeBound": false,
@@ -1028,7 +1034,7 @@
         {
           "variantId": "npc_scholar.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "path": "Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png",
           "spriteName": "npc_scholar",
           "guid": "c6176fa957f7eb549b9b40703e5038ea",
           "localId": "-156234960",
@@ -1072,7 +1078,7 @@
         {
           "variantId": "npc_soyeon.default",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "path": "Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png",
           "spriteName": "npc_soyeon",
           "guid": "c6176fa957f7eb549b9b40703e5038ea",
           "localId": "464872565",
@@ -1111,7 +1117,7 @@
         {
           "variantId": "npc_tam.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+          "path": "Assets/_Game/Art/NPC/Hue/npc_tam.png",
           "spriteName": "npc_tam",
           "guid": "7eb9ff722f5f81748945b06d9e1d05bd",
           "localId": "-1705763202",
@@ -1150,7 +1156,7 @@
         {
           "variantId": "npc_tech.festival_hanbok",
           "status": "CANONICAL",
-          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "path": "Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png",
           "spriteName": "JiWon_DialoguePortrait",
           "guid": "ab62ba1e558f7274984500bb1cac18f6",
           "localId": "1851553138",
@@ -1206,7 +1212,7 @@
         {
           "variantId": "npc_thuy.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+          "path": "Assets/_Game/Art/NPC/DaLat/npc_thuy.png",
           "spriteName": "npc_thuy",
           "guid": "33ce1e750bcd0124d9feb5cfcbf3fa66",
           "localId": "-857154714",
@@ -1245,7 +1251,7 @@
         {
           "variantId": "npc_yoon.default",
           "status": "UNCONFIRMED_VISUAL",
-          "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+          "path": "Assets/_Game/Art/NPC/Jeonju/npc_yoon.png",
           "spriteName": "npc_yoon",
           "guid": "9e80ff4e3ffd49044b5dabf92b3d6b27",
           "localId": "-321799653",
@@ -1284,7 +1290,7 @@
         {
           "variantId": "npc_kang_taeho.default",
           "status": "OWNER_AUTHORIZED_CAST_RUNTIME_VERIFIED",
-          "path": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+          "path": "Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png",
           "spriteName": "npc_kang_taeho",
           "guid": "c6176fa957f7eb549b9b40703e5038ea",
           "localId": "5254145682798913077",
@@ -1298,7 +1304,7 @@
           "conditions": "Existing map actor renderer at the same canonical node; original one-time reward keys retained.",
           "runtimeBound": true,
           "qualityStatus": "WINDOWS_MAP_PORTRAIT_SAVE_RUNTIME_PASS",
-          "visualReview": "Same source art, native sprite mesh, no bitmap generation; see Validation/ThreeNpc-20261024 runtime captures."
+          "visualReview": "Same source art, native sprite mesh, no bitmap generation; see ../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024 runtime captures."
         }
       ],
       "visualReferences": []
@@ -1323,7 +1329,7 @@
         {
           "variantId": "npc_choi_eunsu.default",
           "status": "OWNER_AUTHORIZED_CAST_RUNTIME_VERIFIED",
-          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "path": "Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png",
           "spriteName": "npc_choi_eunsu",
           "guid": "ab62ba1e558f7274984500bb1cac18f6",
           "localId": "-5085934906556862197",
@@ -1337,7 +1343,7 @@
           "conditions": "Existing map actor renderer at the same canonical node; original one-time reward keys retained.",
           "runtimeBound": true,
           "qualityStatus": "WINDOWS_MAP_PORTRAIT_SAVE_RUNTIME_PASS",
-          "visualReview": "Same source art, native sprite mesh, no bitmap generation; see Validation/ThreeNpc-20261024 runtime captures."
+          "visualReview": "Same source art, native sprite mesh, no bitmap generation; see ../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024 runtime captures."
         }
       ],
       "visualReferences": []
@@ -1362,7 +1368,7 @@
         {
           "variantId": "npc_han_doyun.default",
           "status": "OWNER_AUTHORIZED_CAST_RUNTIME_VERIFIED",
-          "path": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+          "path": "Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png",
           "spriteName": "npc_han_doyun",
           "guid": "ab62ba1e558f7274984500bb1cac18f6",
           "localId": "2768669405438306836",
@@ -1376,7 +1382,7 @@
           "conditions": "Existing map actor renderer at the same canonical node; original one-time reward keys retained.",
           "runtimeBound": true,
           "qualityStatus": "WINDOWS_MAP_PORTRAIT_SAVE_RUNTIME_PASS",
-          "visualReview": "Same source art, native sprite mesh, no bitmap generation; see Validation/ThreeNpc-20261024 runtime captures."
+          "visualReview": "Same source art, native sprite mesh, no bitmap generation; see ../_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024 runtime captures."
         }
       ],
       "visualReferences": []
@@ -1385,31 +1391,31 @@
   "identityConflicts": [
     {
       "npcId": "npc_mai",
-      "path": "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
+      "path": "Assets/_Game/Art/SourceReferences/Characters_MissingSprites_v1.png",
       "region": "Top left woman labelled Cô Mai",
       "status": "IDENTITY_CONFLICT",
       "reason": "Tóc xám búi và khuôn mặt thể hiện phụ nữ lớn tuổi rõ rệt, khác Cô Mai trẻ tóc dài đã chốt; không có time-skip trong cốt truyện. Không do áo vàng."
     },
     {
       "npcId": "npc_mai",
-      "path": "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
+      "path": "Assets/_Game/Art/SourceReferences/LBC_Composite_CheckerConcept_v2.png",
       "region": "Characters_MissingSprites panel, top left",
       "status": "IDENTITY_CONFLICT",
       "reason": "Lặp lại Cô Mai tóc bạc/búi và lớn tuổi hơn rõ rệt. Không dùng thay Mai canonical."
     }
   ],
   "visualSourcesReviewed": [
-    "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
-    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
-    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
-    "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
-    "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
-    "Assets/_Game/Art/_SourceSheets/Characters_MissingSprites_v1.png",
-    "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
-    "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
-    "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/NPC_Roster_Concept.png",
-    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_elder.png",
-    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_hana.png",
-    "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_nguyet.png"
+    "Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png",
+    "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+    "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+    "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+    "Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png",
+    "Assets/_Game/Art/SourceReferences/Characters_MissingSprites_v1.png",
+    "Assets/_Game/Art/SourceReferences/LBC_Composite_Illustrated_v1.png",
+    "Assets/_Game/Art/SourceReferences/LBC_Composite_CheckerConcept_v2.png",
+    "Tools/Import/Sources/LBC_AnhMoi_BanGiaoCodex_20261015/Characters/NPC_Roster_Concept.png",
+    "Assets/_Game/Art/NPC/OwnerRevision_20261021/npc_elder.png",
+    "Assets/_Game/Art/NPC/OwnerRevision_20261021/npc_hana.png",
+    "Assets/_Game/Art/NPC/OwnerRevision_20261021/npc_nguyet.png"
   ]
 }

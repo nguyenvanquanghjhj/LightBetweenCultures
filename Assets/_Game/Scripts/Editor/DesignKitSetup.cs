@@ -12,7 +12,7 @@ namespace LightBetweenCultures.Editor
     public static class DesignKitSetup
     {
         private const string ArtRoot = "Assets/_Game/Art/DesignKit";
-        private const string ArtAsset = "Assets/_Game/Resources/DesignKitArt.asset";
+        private const string ArtAsset = "Assets/_Game/Resources/Catalogs/DesignKitArt.asset";
         private const string PrefabRoot = "Assets/_Game/Prefabs/DesignKit";
         private const string HoiAnScene = "Assets/_Game/Scenes/HoiAnDemo.unity";
 
@@ -22,7 +22,7 @@ namespace LightBetweenCultures.Editor
             if (!Application.isBatchMode && !EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
             ImportArt();
             var previous = EditorSceneManager.GetSceneManagerSetup();
-            var backup = Path.GetFullPath("../Backups/DesignKitSceneUpdates"); Directory.CreateDirectory(backup);
+            var backup = Path.GetFullPath("../_LBC_ARCHIVE/Backups/DesignKitSceneUpdates"); Directory.CreateDirectory(backup);
             File.Copy(HoiAnScene,Path.Combine(backup,"HoiAnDemo-"+DateTime.Now.ToString("yyyyMMdd-HHmmssfff")+".unity"));
             var scene = EditorSceneManager.OpenScene(HoiAnScene);
             ApplyCurrentHoiAnScene();
@@ -36,9 +36,11 @@ namespace LightBetweenCultures.Editor
 
         private static void ImportArt()
         {
-            var source = Path.GetFullPath(Path.Combine(Application.dataPath,"../LightBetweenCultures_DesignKit_v1/Assets"));
+            var source = Path.GetFullPath(Path.Combine(Application.dataPath,"../Tools/Import/Sources/LightBetweenCultures_DesignKit_v1/Assets"));
             if (!Directory.Exists(source)) throw new DirectoryNotFoundException(source);
-            foreach (var file in Directory.GetFiles(source,"*.png",SearchOption.AllDirectories))
+            // Legacy Lumi inputs remain in the source package, never reimport them into active Assets.
+            var markerFiles = Directory.GetFiles(Path.Combine(source,"Markers"),"*.png",SearchOption.AllDirectories);
+            foreach (var file in markerFiles)
             {
                 var relative = file.Substring(source.Length+1).Replace('\\','/');
                 var target = ArtLibrarySetup.ResolveMovedPath(ArtRoot+"/"+relative);
@@ -46,7 +48,7 @@ namespace LightBetweenCultures.Editor
                 if (!File.Exists(target) || Convert.ToBase64String(File.ReadAllBytes(file)) != Convert.ToBase64String(File.ReadAllBytes(target))) File.Copy(file,target,true);
             }
             AssetDatabase.Refresh();
-            foreach (var file in Directory.GetFiles(source,"*.png",SearchOption.AllDirectories).Select(p=>ArtLibrarySetup.ResolveMovedPath(ArtRoot+"/"+p.Substring(source.Length+1).Replace('\\','/'))))
+            foreach (var file in markerFiles.Select(p=>ArtLibrarySetup.ResolveMovedPath(ArtRoot+"/"+p.Substring(source.Length+1).Replace('\\','/'))))
             {
                 var path = file.Replace('\\','/');
                 var importer = (TextureImporter)AssetImporter.GetAtPath(path);
@@ -69,8 +71,7 @@ namespace LightBetweenCultures.Editor
             }
             var art = AssetDatabase.LoadAssetAtPath<DesignKitArt>(ArtAsset);
             if (art == null) { art=ScriptableObject.CreateInstance<DesignKitArt>(); AssetDatabase.CreateAsset(art,ArtAsset); }
-            art.lumiCity = Sprite("Lumi/Lumi_CityMarker_256.png");
-            art.lumiCitySmall = Sprite("Lumi/Lumi_CityMarker_128.png");
+            LumiRoleSetup.ConfigureArt(art);
             art.available = Marker("available"); art.current = Marker("current"); art.visited = Marker("visited");
             art.locked = Marker("locked"); art.npc = Marker("npc"); art.quest = Marker("quest");
             art.item = Marker("item"); art.enemy = Marker("enemy"); art.puzzle = Marker("puzzle");

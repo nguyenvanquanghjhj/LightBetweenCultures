@@ -5,7 +5,7 @@
 ## L?i c?n m? ?? x? l?
 
 - **Save Android:** b?o c?o thi?t b? c? ghi SELinux denied `link` v?i save. Ch?a ch?ng minh m?t save trong b?n c?. RC d?ng `libc.rename` nguy?n t? c?ng th? m?c thay cho managed Replace/Move tr?n Android; backup ???c copy tr??c commit, kh?ng ghi ?? backup h?p l? khi recovery. Kh?ng ??i SaveData/schema/path. Windows ki?m tra l?p overwrite c? `.bak`, `.bak`/`.tmp`/v1/corrupt recovery v? hai ti?n tr?nh ??c l?p PASS. Android native ?? compile nh?ng c?n c?n thi?t b? th?t ?? nghi?m thu.
-- **Map Hu?:** runtime v?n d?ng n?n g?c d? ?? c? preview. ?? ?p d?ng ??ng ?nh c? s?n theo quy?t ??nh cu?i: Vincom d??i tr?i; ph?a tr?n ph?i b? c? Duy?t Th? ???ng v? th?p c?, gi? s?n/c?y. 20.549 pixel ??i, **0 pixel ngo?i hai mask**, meta/GUID v? geometry gi? nguy?n. [?nh runtime](../../Validation/ReleaseCandidate-20261024/focused/RC-Hue-approved-map.png).
+- **Map Hu?:** runtime v?n d?ng n?n g?c d? ?? c? preview. ?? ?p d?ng ??ng ?nh c? s?n theo quy?t ??nh cu?i: Vincom d??i tr?i; ph?a tr?n ph?i b? c? Duy?t Th? ???ng v? th?p c?, gi? s?n/c?y. 20.549 pixel ??i, **0 pixel ngo?i hai mask**, meta/GUID v? geometry gi? nguy?n. [?nh runtime](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ReleaseCandidate-20261024/focused/RC-Hue-approved-map.png).
 - Builder Windows nh?n version RC theo tham s?, ph?c h?i PlayerSettings sau ??ng g?i; kh?ng ??i gameplay.
 
 ## ?? ki?m tra, kh?ng s?a l?i
@@ -29,7 +29,7 @@ H?n ch?: G14 c?n thi?u t??ng t?c lore t?y ch?n. Crop ?u?i v?y Hana c?n owner x?c
 - Windows ZIP SHA256: `65ec43c704a4f670a539ae011707d285956354f4c6d7bc2773f2680c72c21831`.
 - **Android:** version `1.0-rc1-20261024`, code **6**, package `com.DefaultCompany.LightBetweenCultures`. [APK](../../Builds/Android/LightBetweenCultures-RC1-20261024.apk), 286,411,518 byte. Build 0 error, CRC v? ch? k? APK v2 PASS; c?ng certificate v?i APK FinalUX tr??c n?n kh?ng c?n g? app ?? c?p nh?t. Kh?ng ??i keystore.
 - APK SHA256: `2612472e9ce6658bce11be1ab917ec26bb48ba20f247e4837509c3b9c9363689`.
-- Source fingerprint (890 input): `d9ecf28a112ea1ec72872a9ac4b73dc3cfd7b86e56855576c6b7e65702664c69`. [Manifest](../../Validation/ReleaseCandidate-20261024/release-manifest.json).
+- Source fingerprint (890 input): `d9ecf28a112ea1ec72872a9ac4b73dc3cfd7b86e56855576c6b7e65702664c69`. [Manifest](../../../_LBC_ARCHIVE/HistoricalQA/Validation/ReleaseCandidate-20261024/release-manifest.json).
 
 Windows focused: 115 assertions ? m?i ti?n tr?nh ki?m tra s?u city/save, 142 shop assertions. ??y l? helper/behavior checks, kh?ng ph?i s? t?nh hu?ng ??c l?p ho?c b?ng ch?ng ?? vui. So s?nh tr??c/sau ti?n tr?nh th? hai: quest, di v?t, flags v? t?n kho gi? nguy?n ngo?i ??ng m?t giao d?ch test th?m 1 th?c ?n/?1 xu/1 receipt.
 
@@ -51,4 +51,4 @@ Cleanup ?? d?n 3,93 GiB cache, gi?m r?ng **3,91 GiB**, project sau cleanup **11,
 
 Chu?i full/incremental ?? x?c minh 2.915 entries. RC incremental t?i `D:\GAMEKKK\Backups\CheckpointRC1-20261024`, c?n base `CheckpointFinalUX-20261023` v? to?n b? chu?i tr??c; kh?ng standalone, kh?ng ch?a Library/Builds. Xem `checkpoint-result.json` ?? x?c nh?n tr?ng th?i t?o th?c t?.
 
-Source hold: [RELEASE_FREEZE.md](../../RELEASE_FREEZE.md). Ch?a t? nh?n RC ?? ???c owner nghi?m thu. Sau nghi?m thu ch? m? l?i cho crash, startup/save/softlock/core-function ho?c l?i ch?n b?n d? thi, kh?ng ti?p t?c polish/t?nh n?ng.
+Source hold: [RELEASE_FREEZE.md](../Release/RELEASE_FREEZE.md). Ch?a t? nh?n RC ?? ???c owner nghi?m thu. Sau nghi?m thu ch? m? l?i cho crash, startup/save/softlock/core-function ho?c l?i ch?n b?n d? thi, kh?ng ti?p t?c polish/t?nh n?ng.

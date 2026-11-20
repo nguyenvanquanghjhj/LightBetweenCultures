@@ -15,7 +15,7 @@ namespace LightBetweenCultures.Editor
         {
             var plan=JsonUtility.FromJson<Plan>("{\"entries\":"+File.ReadAllText("Docs/QA/Phase7/bot-alpha-plan.json")+"}");
             if(plan.entries.Length!=4)throw new InvalidDataException("Expected four reviewed source-preserving cutouts");
-            var art=AssetDatabase.LoadAssetAtPath<AdventureUIArt>("Assets/_Game/Resources/AdventureUIArt.asset");
+            var art=AssetDatabase.LoadAssetAtPath<AdventureUIArt>("Assets/_Game/Resources/Catalogs/AdventureUIArt.asset");
             foreach(var e in plan.entries)
             {
                 if(!e.source.EndsWith("/Enemies_Roster_Concept.png"))throw new InvalidDataException("Unexpected source sheet");

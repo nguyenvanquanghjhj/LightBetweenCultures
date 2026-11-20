@@ -1,7 +1,7 @@
 [
   {
     "spriteName": "shadow_cat",
-    "source": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+    "source": "Assets/_Game/Art/Enemies/Shared/Enemies_Roster_Concept.png",
     "sourceSHA256": "7aa3ef410c2af2a29bf36840b46313f107857a5cbe2d60b41f4845cbbbf9b204",
     "sourceRectUnity": {
       "x": 876.0,
@@ -9,8 +9,8 @@
       "width": 291.0,
       "height": 268.0
     },
-    "preview": "Validation/Phase7-20261019/bot-derived-preview/shadow_cat_Clean.png",
-    "destination": "Assets/_Game/Art/Characters/Enemies/CleanDerived/shadow_cat_Clean.png",
+    "preview": "../_LBC_ARCHIVE/HistoricalQA/Validation/Phase7-20261019/bot-derived-preview/shadow_cat_Clean.png",
+    "destination": "Assets/_Game/Art/Enemies/CleanDerived/shadow_cat_Clean.png",
     "pixels": [
       291,
       268
@@ -29,7 +29,7 @@
   },
   {
     "spriteName": "stone_guard",
-    "source": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+    "source": "Assets/_Game/Art/Enemies/Shared/Enemies_Roster_Concept.png",
     "sourceSHA256": "7aa3ef410c2af2a29bf36840b46313f107857a5cbe2d60b41f4845cbbbf9b204",
     "sourceRectUnity": {
       "x": 570.0,
@@ -37,8 +37,8 @@
       "width": 299.0,
       "height": 279.0
     },
-    "preview": "Validation/Phase7-20261019/bot-derived-preview/stone_guard_Clean.png",
-    "destination": "Assets/_Game/Art/Characters/Enemies/CleanDerived/stone_guard_Clean.png",
+    "preview": "../_LBC_ARCHIVE/HistoricalQA/Validation/Phase7-20261019/bot-derived-preview/stone_guard_Clean.png",
+    "destination": "Assets/_Game/Art/Enemies/CleanDerived/stone_guard_Clean.png",
     "pixels": [
       299,
       279
@@ -57,7 +57,7 @@
   },
   {
     "spriteName": "energy_core",
-    "source": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+    "source": "Assets/_Game/Art/Enemies/Shared/Enemies_Roster_Concept.png",
     "sourceSHA256": "7aa3ef410c2af2a29bf36840b46313f107857a5cbe2d60b41f4845cbbbf9b204",
     "sourceRectUnity": {
       "x": 9.0,
@@ -65,8 +65,8 @@
       "width": 284.0,
       "height": 271.0
     },
-    "preview": "Validation/Phase7-20261019/bot-derived-preview/energy_core_Clean.png",
-    "destination": "Assets/_Game/Art/Characters/Enemies/CleanDerived/energy_core_Clean.png",
+    "preview": "../_LBC_ARCHIVE/HistoricalQA/Validation/Phase7-20261019/bot-derived-preview/energy_core_Clean.png",
+    "destination": "Assets/_Game/Art/Enemies/CleanDerived/energy_core_Clean.png",
     "pixels": [
       284,
       271
@@ -91,7 +91,7 @@
   },
   {
     "spriteName": "shadow_courier",
-    "source": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+    "source": "Assets/_Game/Art/Enemies/Shared/Enemies_Roster_Concept.png",
     "sourceSHA256": "7aa3ef410c2af2a29bf36840b46313f107857a5cbe2d60b41f4845cbbbf9b204",
     "sourceRectUnity": {
       "x": 1162.0,
@@ -99,8 +99,8 @@
       "width": 284.0,
       "height": 295.0
     },
-    "preview": "Validation/Phase7-20261019/bot-derived-preview/shadow_courier_Clean.png",
-    "destination": "Assets/_Game/Art/Characters/Enemies/CleanDerived/shadow_courier_Clean.png",
+    "preview": "../_LBC_ARCHIVE/HistoricalQA/Validation/Phase7-20261019/bot-derived-preview/shadow_courier_Clean.png",
+    "destination": "Assets/_Game/Art/Enemies/CleanDerived/shadow_courier_Clean.png",
     "pixels": [
       284,
       295

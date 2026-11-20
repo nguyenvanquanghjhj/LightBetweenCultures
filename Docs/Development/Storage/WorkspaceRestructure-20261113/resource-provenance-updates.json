@@ -1,0 +1,17 @@
+[
+  {
+    "path": "Assets/_Game/Resources/Catalogs/AdventureUIArt.asset",
+    "beforeSHA256": "0eb79c92cb94723f8c177c9e4cc073595fd8ff4a3bec70b4218124e3f696ecfa",
+    "afterSHA256": "229a63a7119b64e413e7fb53f980e0f03c47ee0e06aa3eaf9bbd59aa3eb9b599"
+  },
+  {
+    "path": "Assets/_Game/Resources/Content/GameplayContent.json",
+    "beforeSHA256": "88efee852ff782ef6b2b763e8785996247dbb2297d6c6d66d2b3cde6339011c3",
+    "afterSHA256": "fef9eb9130419cc392fb04d685c1cbd730631f9a452eef714c698460c2689b9f"
+  },
+  {
+    "path": "Assets/_Game/Resources/Content/LeisureActivities.json",
+    "beforeSHA256": "de403c87a031e2616ae3c7a743391aa37ff99c0ea69da3f49f665c571aa73cde",
+    "afterSHA256": "a746a9680822991c355f27f78a6379f842ff95aedf47507bcc08ab26bf5d897b"
+  }
+]

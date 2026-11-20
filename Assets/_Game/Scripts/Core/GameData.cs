@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -50,7 +50,7 @@ namespace LightBetweenCultures
             GameData data;
             if(cityId=="hoi_an")
             {
-                data=JsonUtility.FromJson<GameData>(Resources.Load<TextAsset>("HoiAnData").text);
+                data=JsonUtility.FromJson<GameData>(Resources.Load<TextAsset>("Content/HoiAnData").text);
                 // Keep reviewed legacy positions and save indices stable, then append
                 // new IDs supplied by the catalog. No fixed H0-H21 render limit.
                 var existing=data.nodes.Select(n=>n.id).ToHashSet();
@@ -60,7 +60,7 @@ namespace LightBetweenCultures
             {
                 data=new GameData();
                 data.nodes=definition.nodes.Select(n=>new NodeData{id=n.id,name=n.name,position=n.position,kind=n.kind,eventId=n.eventId,backgroundId=n.backgroundId}).ToArray();
-                data.quest=JsonUtility.FromJson<GameData>(Resources.Load<TextAsset>("HoiAnData").text).quest;
+                data.quest=JsonUtility.FromJson<GameData>(Resources.Load<TextAsset>("Content/HoiAnData").text).quest;
             }
             data.cityId=cityId;data.routeStyle=definition.routeStyle??new RouteStyleDefinition();
             data.runtimeNodeIds=definition.runtimeNodeIds;data.spawnNodeId=definition.spawnNodeId;

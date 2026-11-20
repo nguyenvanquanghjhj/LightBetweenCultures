@@ -51,10 +51,10 @@ namespace LightBetweenCultures.Editor
             File.WriteAllText(Folder+"/native-asset-audit.json",JsonUtility.ToJson(audit,true));
             Debug.Log("PHASE7 NATIVE AUDIT: missingScripts="+missingScripts+" missingGuidRefs="+missing.Count+" textures="+textures.Count);
             if(Environment.GetEnvironmentVariable("LBC_PHASE7_ANDROID")!="1")return;
-            var result=new AndroidResult{startedUTC=DateTime.UtcNow.ToString("O"),output="Builds/Android/Phase7-LightBetweenCultures.apk"};
+            var result=new AndroidResult{startedUTC=DateTime.UtcNow.ToString("O"),output="../_LBC_WORK/QA/Builds/Android/Phase7-LightBetweenCultures.apk"};
             try
             {
-                Directory.CreateDirectory("Builds/Android");
+                Directory.CreateDirectory("../_LBC_WORK/QA/Builds/Android");
                 var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=scenes,locationPathName=result.output,target=BuildTarget.Android,options=BuildOptions.None});
                 result.result=report.summary.result.ToString();result.bytes=report.summary.totalSize;result.errors=report.summary.totalErrors;result.warnings=report.summary.totalWarnings;
             }

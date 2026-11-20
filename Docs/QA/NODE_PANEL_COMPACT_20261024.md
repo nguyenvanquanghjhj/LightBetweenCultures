@@ -20,7 +20,7 @@ Windows development Player: focused **151 assertions PASS**, actual framebuffers
 - Source audit: **888 existing inputs unchanged**, only two existing source files modified plus the new QA partial and its `.meta`. No gameplay/quest/route/data/art/settings files changed. The complete `Execute`-and-following portion of GameplayPanels is byte-equivalent as normalized text.
 - Private earned-save location fixtures are used for panel display; no claim of testing approach paths or a campaign. Mouse and simulated touch only; Android device NOT_TESTED and no APK rebuilt.
 
-[Runtime before/after gallery](../../Validation/NodePanelCompact-20261024/preview.html). H19 has after-only images; H20 baseline was captured in its place before the fixture index was corrected. The remaining matched comparisons are real before/after captures. Logs, capture hashes and observations are in the adjacent `before` / `after` folders; `source-audit.json` records protected inputs.
+[Runtime before/after gallery](../../../_LBC_ARCHIVE/HistoricalQA/Validation/NodePanelCompact-20261024/preview.html). H19 has after-only images; H20 baseline was captured in its place before the fixture index was corrected. The remaining matched comparisons are real before/after captures. Logs, capture hashes and observations are in the adjacent `before` / `after` folders; `source-audit.json` records protected inputs.
 
 ## Files
 

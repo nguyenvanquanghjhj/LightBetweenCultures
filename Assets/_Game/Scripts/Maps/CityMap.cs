@@ -131,7 +131,7 @@ namespace LightBetweenCultures
             companion=ui.Picture(Marker,"MiniLanternCompanion",presentation.Item("lamp_eye")?.sprite,Vector2.zero,Vector2.zero).rectTransform;
             companion.anchorMin=companion.anchorMax=new Vector2(0,.55f);companion.sizeDelta=new Vector2(16,20);companion.anchoredPosition=new Vector2(-10,7);
             companion.GetComponent<Image>().raycastTarget=false;companion.gameObject.SetActive(false); // Hide unwanted floating companion; inventory quest state unaffected.
-            ferryVisual=ui.Picture(Marker,"FerryTransport",Resources.Load<Sprite>("LeisureProps/Hue_PedalSwanBoat"),Vector2.zero,Vector2.zero).rectTransform;
+            ferryVisual=ui.Picture(Marker,"FerryTransport",GameArtCatalog.Load().Leisure("Hue_PedalSwanBoat"),Vector2.zero,Vector2.zero).rectTransform;
             ferryVisual.anchorMin=ferryVisual.anchorMax=new Vector2(.5f,0);
             ferryVisual.sizeDelta=new Vector2(72,44);ferryVisual.anchoredPosition=new Vector2(0,-6);
             ferryVisual.GetComponent<Graphic>().raycastTarget=false;ferryVisual.gameObject.SetActive(false);

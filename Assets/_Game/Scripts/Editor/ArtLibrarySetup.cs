@@ -28,82 +28,6 @@ namespace LightBetweenCultures.Editor
             var current=AssetDatabase.GUIDToAssetPath(entry.guid);
             return string.IsNullOrEmpty(current)?path:current;
         }
-        static string Hash(string path)
-        {using(var sha=SHA256.Create())return BitConverter.ToString(sha.ComputeHash(File.ReadAllBytes(path))).Replace("-","").ToLowerInvariant();}
-        static void Folder(string path)
-        {
-            path=path.Replace('\\','/');if(AssetDatabase.IsValidFolder(path))return;
-            var parent=path.Substring(0,path.LastIndexOf('/'));Folder(parent);
-            AssetDatabase.CreateFolder(parent,path.Substring(path.LastIndexOf('/')+1));
-        }
-        static Dictionary<string,string> References()
-        {
-            var result=new Dictionary<string,string>();
-            foreach(var path in new[]{"Assets/_Game/Resources/DesignKitArt.asset","Assets/_Game/Resources/AdventureUIArt.asset"})
-            {
-                var asset=AssetDatabase.LoadMainAssetAtPath(path);
-                if(asset==null)throw new InvalidDataException("Missing registry "+path);
-                var fields=new SerializedObject(asset).GetIterator();
-                while(fields.Next(true))if(fields.propertyType==SerializedPropertyType.ObjectReference)
-                {
-                    var reference=fields.objectReferenceValue;
-                    if(reference==null){result[path+":"+fields.propertyPath]="null";continue;}
-                    AssetDatabase.TryGetGUIDAndLocalFileIdentifier(reference,out string guid,out long local);
-                    result[path+":"+fields.propertyPath]=guid+":"+local;
-                }
-            }
-            return result;
-        }
-        static Dictionary<string,string> ProtectedFiles()=>new[]{"Scenes","Prefabs","Resources/Content"}
-            .SelectMany(p=>Directory.GetFiles("Assets/_Game/"+p,"*",SearchOption.AllDirectories))
-            .ToDictionary(p=>p,p=>Hash(p));
-        static void Validate(Dictionary<string,string> refs,Dictionary<string,string> files)
-        {
-            var actual=References();
-            if(actual.Count!=refs.Count||refs.Any(p=>!actual.ContainsKey(p.Key)||actual[p.Key]!=p.Value))
-                throw new InvalidDataException("Registry GUID/local sprite reference changed during migration");
-            foreach(var file in files)if(Hash(file.Key)!=file.Value)throw new InvalidDataException("Protected file changed "+file.Key);
-        }
-        [MenuItem("Tools/Light Between Cultures/Organize Art Library")]
-        public static void Apply()
-        {
-            var refs=References();var files=ProtectedFiles();var log=new List<string>();
-            Directory.CreateDirectory("Docs/Art");
-            foreach(var group in new[]{"Characters","Maps","Items","UI","Markers","Environment","SourceSheets"})
-            {
-                foreach(var entry in Moves.entries.Where(e=>e.group==group))
-                {
-                    if(!entry.oldPath.StartsWith("Assets/_Game/Art/")||!entry.newPath.StartsWith("Assets/_Game/Art/"))throw new InvalidDataException("Move outside Art");
-                    var path=AssetDatabase.GUIDToAssetPath(entry.guid);
-                    if(path!=entry.oldPath&&path!=entry.newPath)throw new InvalidDataException("Unexpected current GUID path "+entry.guid+": "+path);
-                    if(Hash(path)!=entry.sha256)throw new InvalidDataException("Source artwork changed "+path);
-                    if(path==entry.oldPath)
-                    {
-                        Folder(Path.GetDirectoryName(entry.newPath));
-                        var error=AssetDatabase.MoveAsset(path,entry.newPath);
-                        if(!string.IsNullOrEmpty(error))throw new InvalidDataException(error);
-                    }
-                    if(AssetDatabase.AssetPathToGUID(entry.newPath)!=entry.guid||Hash(entry.newPath)!=entry.sha256)throw new InvalidDataException("Move verification failed "+entry.newPath);
-                    log.Add("PASS "+group+" | "+entry.oldPath+" -> "+entry.newPath+" | "+entry.guid);
-                }
-                AssetDatabase.SaveAssets();Validate(refs,files);
-                log.Add("PASS group "+group+": all registry GUID/local IDs and protected scene/prefab/content files unchanged");
-                File.WriteAllLines("Docs/Art/migration-results.txt",log);
-            }
-            foreach(var city in new[]{"HoiAn","Hue","DaLat","Jeonju","Gyeongju","Seoul"})Folder("Assets/_Game/Art/Characters/NPC/"+city);
-            foreach(var p in new[]{"Maps/World","Environment/HoiAn","Environment/OtherCities","Items/Collectibles","UI/Buttons"})Folder("Assets/_Game/Art/"+p);
-            // Empty old directory removal only; every image has already been verified.
-            foreach(var path in new[]{"Assets/_Game/Art/Runtime","Assets/_Game/Art/DesignKit","Assets/_Game/Art/Item","Assets/_Game/Art/Generated"})
-                RemoveEmpty(path);
-            AssetDatabase.SaveAssets();Export();Validate(refs,files);
-            Debug.Log("Art library: "+Moves.entries.Length+" GUID-preserving image moves; all protected references verified.");
-        }
-        static void RemoveEmpty(string path)
-        {
-            if(!path.StartsWith("Assets/_Game/Art/")||!Directory.Exists(path))return;
-            foreach(var child in Directory.GetDirectories(path))RemoveEmpty(child.Replace('\\','/'));
-            if(Directory.GetFileSystemEntries(path).Length==0)AssetDatabase.DeleteAsset(path);
-        }
         static Binding Bind(string role,string id,Sprite sprite,string source="",string status="",bool canonical=true)
         {
             if(sprite==null)throw new InvalidDataException("Missing sprite: "+role+" "+id);
@@ -136,6 +60,5 @@ namespace LightBetweenCultures.Editor
                 foreach(var sprite in AssetDatabase.LoadAllAssetsAtPath(path).OfType<Sprite>())rows.Add(Bind("native_sprite",sprite.name,sprite,"","registry binding determines runtime usage",false));
             File.WriteAllText("Docs/Art/native-art-bindings.json",JsonUtility.ToJson(new Bindings{entries=rows.ToArray()},true));
         }
-        public static void BuildWindows(){Apply();SliceValidation.BuildWindows();}
     }
 }

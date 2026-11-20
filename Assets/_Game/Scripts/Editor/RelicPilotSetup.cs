@@ -11,7 +11,7 @@ namespace LightBetweenCultures.Editor
     // Explicit command only. Never a global importer or a scene-generation command.
     public static class RelicPilotSetup
     {
-        const string Root="Assets/_Game/Art/_SourceSheets/CulturalArtifacts/";
+        const string Root="Assets/_Game/Art/Relics/Artifacts/";
         [Serializable] sealed class NativeEntry {public string id,path,spriteName,guid,localId,status;public Rect rect;}
         [Serializable] sealed class NativeReport {public NativeEntry[] entries;public bool existingNpcBindingsPreserved;}
         static readonly List<NativeEntry> records=new List<NativeEntry>();
@@ -31,9 +31,12 @@ namespace LightBetweenCultures.Editor
         {
             records.Clear();var art=AdventureUIArt.Load();var before=art.npcs.ToDictionary(n=>n.id,n=>Ref(n.sprite)+"/"+Ref(n.portrait)+"/"+n.status);
             var npcs=art.npcs.ToList();
-            foreach(var pair in new[]{("npc_engineer","Seoul/NPC_Seoul_Engineer.png"),("npc_curator","Seoul/NPC_Seoul_Curator.png"),("npc_keeper","Gyeongju/NPC_Gyeongju_Keeper.png"),("npc_inscription","Gyeongju/NPC_Gyeongju_Inscription.png")})
+            foreach(var pair in new[]{("npc_engineer","Seoul/NPC_Seoul_Engineer.png"),("npc_curator","Seoul/Seoul_Curator_Transparent.png"),("npc_keeper","Gyeongju/NPC_Gyeongju_Keeper.png"),("npc_inscription","Gyeongju/NPC_Gyeongju_Inscription.png")})
             {
-                var path="Assets/_Game/Art/Characters/NPC/"+pair.Item2;var t=Settings(path,false);t.SaveAndReimport();
+                // Existing owner-approved bindings take precedence over historical import defaults.
+                var current=npcs.FirstOrDefault(n=>n.id==pair.Item1);
+                if(current?.sprite!=null&&current.portrait!=null)continue;
+                var path="Assets/_Game/Art/NPC/"+pair.Item2;var t=Settings(path,false);t.SaveAndReimport();
                 var sprite=AssetDatabase.LoadAssetAtPath<Sprite>(path);if(sprite==null)throw new InvalidDataException(path);
                 var npc=npcs.FirstOrDefault(n=>n.id==pair.Item1);if(npc==null){npc=new AdventureImage{id=pair.Item1};npcs.Add(npc);}
                 npc.sprite=npc.portrait=sprite;npc.source=path;npc.status="ART_IMPORTED_PENDING_APPROVAL; NOT_CANONICAL; technical binding authorized 2026-10-18";
@@ -68,7 +71,7 @@ namespace LightBetweenCultures.Editor
                 foreach(var previous in old)if(rects.Any(s=>s.name==previous.Key)&&rects.First(s=>s.name==previous.Key).spriteID!=previous.Value.spriteID)throw new InvalidDataException("Slice ID changed");
             }
             art.relics=relicImages.ToArray();art.fragments=fragments.ToArray();EditorUtility.SetDirty(art);AssetDatabase.SaveAssets();
-            Directory.CreateDirectory("Docs/Gameplay/RelicPilot-20261018");File.WriteAllText("Docs/Gameplay/RelicPilot-20261018/native-art.json",JsonUtility.ToJson(new NativeReport{entries=records.ToArray(),existingNpcBindingsPreserved=true},true));
+            Directory.CreateDirectory("Docs/Development/Gameplay/RelicPilot-20261018");File.WriteAllText("Docs/Development/Gameplay/RelicPilot-20261018/native-art.json",JsonUtility.ToJson(new NativeReport{entries=records.ToArray(),existingNpcBindingsPreserved=true},true));
             ArtLibrarySetup.Export();Debug.Log("RELIC IMPORT PASS: 4 new NPC pending approval; 6 full relics +21 matched fragments; 3 Seoul slots ART_PENDING; old NPC bindings preserved.");
         }
         static Rect[] Boxes(string c)
@@ -91,7 +94,7 @@ namespace LightBetweenCultures.Editor
         public static void Build()
         {
             ArtLibrarySetup.Export();
-            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=EditorBuildSettings.scenes.Where(s=>s.enabled).Select(s=>s.path).ToArray(),locationPathName="Builds/Windows/LightBetweenCultures.exe",target=BuildTarget.StandaloneWindows64,options=BuildOptions.Development});
+            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=EditorBuildSettings.scenes.Where(s=>s.enabled).Select(s=>s.path).ToArray(),locationPathName="../_LBC_WORK/QA/Builds/Windows/LightBetweenCultures.exe",target=BuildTarget.StandaloneWindows64,options=BuildOptions.Development});
             Debug.Log("RELIC WINDOWS BUILD: "+report.summary.result);if(report.summary.result!=BuildResult.Succeeded)EditorApplication.Exit(1);
         }
     }

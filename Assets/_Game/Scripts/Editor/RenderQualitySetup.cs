@@ -16,7 +16,7 @@ namespace LightBetweenCultures.Editor
             var roots=AssetDatabase.FindAssets("",new[]{"Assets/_Game/Resources","Assets/_Game/Scenes"}).Select(AssetDatabase.GUIDToAssetPath).Where(File.Exists).ToArray();
             var paths=AssetDatabase.GetDependencies(roots,true).Distinct().Where(p=>AssetImporter.GetAtPath(p) is TextureImporter).OrderBy(p=>p).ToArray();
             var changed=new System.Collections.Generic.List<string>();
-            if(improve&&File.Exists("Docs/RenderQuality-20261017/native-after.json"))changed.AddRange(JsonUtility.FromJson<Report>(File.ReadAllText("Docs/RenderQuality-20261017/native-after.json")).changed);
+            if(improve&&File.Exists("Docs/Development/RenderQuality-20261017/native-after.json"))changed.AddRange(JsonUtility.FromJson<Report>(File.ReadAllText("Docs/Development/RenderQuality-20261017/native-after.json")).changed);
             var entries=paths.Select(p=>
             {
                 var t=(TextureImporter)AssetImporter.GetAtPath(p);
@@ -33,7 +33,7 @@ namespace LightBetweenCultures.Editor
                 var tex=AssetDatabase.LoadAssetAtPath<Texture2D>(p);t.GetSourceTextureWidthAndHeight(out var w,out var h);
                 return new Entry{path=p,sourceWidth=w,sourceHeight=h,width=tex.width,height=tex.height,max=t.maxTextureSize,format=tex.format.ToString(),filter=t.filterMode.ToString(),compression=t.textureCompression.ToString(),mipmaps=t.mipmapEnabled,alpha=t.alphaIsTransparency,standalone=JsonUtility.ToJson(t.GetPlatformTextureSettings("Standalone")),android=JsonUtility.ToJson(t.GetPlatformTextureSettings("Android"))};
             }).ToArray();
-            Directory.CreateDirectory("Docs/RenderQuality-20261017");File.WriteAllText("Docs/RenderQuality-20261017/native-"+(improve?"after":"before")+".json",JsonUtility.ToJson(new Report{textures=entries,changed=changed.ToArray()},true));
+            Directory.CreateDirectory("Docs/Development/RenderQuality-20261017");File.WriteAllText("Docs/Development/RenderQuality-20261017/native-"+(improve?"after":"before")+".json",JsonUtility.ToJson(new Report{textures=entries,changed=changed.ToArray()},true));
             AssetDatabase.SaveAssets();
         }
         public static void AuditAndBuild(){Run(false);SliceValidation.BuildWindows();}

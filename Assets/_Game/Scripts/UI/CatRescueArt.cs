@@ -11,7 +11,7 @@ namespace LightBetweenCultures
         {
             var key = "cat:" + index;
             if (sprites.TryGetValue(key, out var cached)) return cached;
-            var texture = Resources.Load<Texture2D>("CatRescue/RescueCats");
+            var texture = GameArtCatalog.Load().rescueCats;
             if (texture == null || index < 0 || index > 5) return null;
             var w = texture.width / 3f; var h = texture.height / 2f;
             return sprites[key] = Sprite.Create(texture, new Rect(index % 3 * w, (1 - index / 3) * h, w, h), new Vector2(.5f,.5f), 100);
@@ -22,11 +22,11 @@ namespace LightBetweenCultures
             if (sprites.TryGetValue(id, out var cached)) return cached;
             var art = AdventureUIArt.Load();
             if (id == "backpack") return art.backpack;
-            if (id == "station") return Resources.Load<Sprite>("CatRescue/DaLatStation");
+            if (id == "station") return GameArtCatalog.Load().dalatStation;
             if (id.StartsWith("city:")) return art.City(id.Substring(5))?.sprite;
             if (id.StartsWith("item:")) return art.Item(id.Substring(5))?.sprite;
             if (id.StartsWith("relic:")) return art.Relic(id.Substring(6));
-            if (id.StartsWith("resource:")) return Resources.Load<Sprite>(id.Substring(9));
+            if (id.StartsWith("leisure:")) return GameArtCatalog.Load().Leisure(id.Substring(8));
             if (id.StartsWith("checkin:"))
             {
                 var entry = art.CheckIn(id.Substring(8));

@@ -21,12 +21,12 @@ namespace LightBetweenCultures.Editor
                 clips[i]=AssetDatabase.LoadAssetAtPath<AudioClip>(path);
                 if(clips[i]==null)throw new InvalidOperationException("Missing SFX "+path);
             }
-            const string catalogPath="Assets/_Game/Resources/SoftAudioClips.asset";
+            const string catalogPath="Assets/_Game/Resources/Catalogs/SoftAudioClips.asset";
             var catalog=AssetDatabase.LoadAssetAtPath<SoftAudioClips>(catalogPath);
             if(catalog==null){catalog=ScriptableObject.CreateInstance<SoftAudioClips>();AssetDatabase.CreateAsset(catalog,catalogPath);}
             catalog.clips=clips;EditorUtility.SetDirty(catalog);AssetDatabase.SaveAssets();
             // Existing scenes only. No art export, no scene generation, no MP3 import edits.
-            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=EditorBuildSettings.scenes.Where(s=>s.enabled).Select(s=>s.path).ToArray(),locationPathName="Builds/Windows/LightBetweenCultures.exe",target=BuildTarget.StandaloneWindows64,options=BuildOptions.Development});
+            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=EditorBuildSettings.scenes.Where(s=>s.enabled).Select(s=>s.path).ToArray(),locationPathName="../_LBC_WORK/QA/Builds/Windows/LightBetweenCultures.exe",target=BuildTarget.StandaloneWindows64,options=BuildOptions.Development});
             Debug.Log("SOFT SFX WINDOWS BUILD: "+report.summary.result);
             if(report.summary.result!=BuildResult.Succeeded)EditorApplication.Exit(1);
         }

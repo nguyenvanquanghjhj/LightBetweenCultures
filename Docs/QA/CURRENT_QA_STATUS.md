@@ -2,7 +2,7 @@
 
 Đã bỏ tên mèo do Codex tự đặt, dùng nhãn theo thành phố và “Mèo” ở đích mê cung. Bỏ nút mèo phụ đè lên điểm đến; hình mèo không nhận input và giữ kích thước khi zoom 1×/2×/4×. **573 kiểm tra Windows Player PASS**: hai lượt đủ sáu thành phố/24 thử thách ở dọc/ngang (285 + 285), cùng nạp save QA bản 1.1 trong process mới (3). Save thật của chủ game không được dùng.
 
-Windows Development/Release và APK code 21 build PASS. APK qua package/version, chữ ký cùng bản code 20, căn chỉnh 16 KB và CRC; **điện thoại thật NOT_TESTED**. [Bản chạy, ảnh Huế và bằng chứng lượt sửa](../Catventure/LABELS_LAYOUT_FIX.md). Các kết quả 633/514 bên dưới là lịch sử bản 1.1.
+Windows Development/Release và APK code 21 build PASS. APK qua package/version, chữ ký cùng bản code 20, căn chỉnh 16 KB và CRC; **điện thoại thật NOT_TESTED**. [Bản chạy, ảnh Huế và bằng chứng lượt sửa](../Development/Catventure/LABELS_LAYOUT_FIX.md). Các kết quả 633/514 bên dưới là lịch sử bản 1.1.
 
 ---
 
@@ -10,7 +10,7 @@ Windows Development/Release và APK code 21 build PASS. APK qua package/version,
 
 Windows Release và APK Android build PASS. Tuyến giải cứu sáu thành phố / 24 thử thách: **633 kiểm tra Windows Player PASS** (hai kích thước, cold restart và hồi quy save/World Map/shop). **512 + 2 domain checks PASS** trong adapter host, tách khỏi kết quả native.
 
-Android thiết bị thật **NOT_TESTED** vì ADB không có thiết bị; toàn bộ campaign truyện cũ **NOT_RERUN**. [Bàn giao và bằng chứng Catventure](../Catventure/REPORT.md). Các mục RC1/RC2 bên dưới là lịch sử, không phải xác nhận bản Catventure.
+Android thiết bị thật **NOT_TESTED** vì ADB không có thiết bị; toàn bộ campaign truyện cũ **NOT_RERUN**. [Bàn giao và bằng chứng Catventure](../Development/Catventure/REPORT.md). Các mục RC1/RC2 bên dưới là lịch sử, không phải xác nhận bản Catventure.
 
 ---
 
@@ -33,7 +33,7 @@ Final UX: 447 focused Windows checks PASS; six-city arrival/world access fixture
 # LBC — Journey Coin Shop · 21/10/2026
 
 - Shop runtime đã tích hợp: 8 vật phẩm giá 1–3 xu, một quyền HQ04 giá 5 xu, mở từ City Map; đủ danh mục ở cả sáu thành phố.
-- Windows focused gameplay/input mô phỏng **PASS**: giao dịch, quest bằng nguyên liệu mua, trả phí đò bằng hai cách, chống bấm trùng, lỗi persist, v1/reload và process restart. [Báo cáo](JOURNEY_COIN_SHOP.md) · [Ảnh thật](../../Validation/JourneyShop-20261021/gallery.html).
+- Windows focused gameplay/input mô phỏng **PASS**: giao dịch, quest bằng nguyên liệu mua, trả phí đò bằng hai cách, chống bấm trùng, lỗi persist, v1/reload và process restart. [Báo cáo](JOURNEY_COIN_SHOP.md) · [Ảnh thật](../../../_LBC_ARCHIVE/HistoricalQA/Validation/JourneyShop-20261021/gallery.html).
 - APK mới: `Builds/Android/LightBetweenCultures-JourneyShop-20261021.apk`, `1.0-shop20261021`/code 3. Build PASS; **Android device BLOCKED** vì ADB không thấy thiết bị. Không thay save điện thoại.
 - Không nhận toàn game FULL PASS. [QA trước Shop còn dang dở](COMPREHENSIVE_QA_CHECKPOINT_20261021.md): G14 chưa có approach an toàn, hai tuyến ending và 12 leisure chưa hoàn tất qua adapter hiện tại; blind human test chưa chạy.
 - Checkpoint source incremental: `D:\GAMEKKK\Backups\CheckpointJourneyShop-20261021`, cần chain base đã ghi trong manifest. Không sao chép Library/Builds/ảnh QA.
@@ -44,7 +44,7 @@ Final UX: 447 focused Windows checks PASS; six-city arrival/world access fixture
 
 - Style nút tròn, mềm, có sheen/shadow và pressed lún đã tích hợp vào runtime. Giữ callback và vùng chạm; không đổi gameplay.
 - Windows build `Builds/Windows-AndroidTouch-20261020/LightBetweenCultures.exe` PASS. Visual/input 540×960 và callback regression 720×1080 PASS. Không build/test Android trong task này.
-- [Báo cáo/file thay đổi](SOFT_GLOSSY_BUTTONS.md) · [Ảnh Player before/after](../../Validation/GelButtons-20261020/gallery.html).
+- [Báo cáo/file thay đổi](SOFT_GLOSSY_BUTTONS.md) · [Ảnh Player before/after](../../../_LBC_ARCHIVE/HistoricalQA/Validation/GelButtons-20261020/gallery.html).
 - Checkpoint `D:\GAMEKKK\Backups\CheckpointGelButtons-20261020` là incremental dựa trên checkpoint NPC phía dưới. Các hạn chế gameplay cũ như G14 vẫn giữ nguyên, không thuộc task visual này.
 
 ---
@@ -54,7 +54,7 @@ Final UX: 447 focused Windows checks PASS; six-city arrival/world access fixture
 - Windows hiện tại dùng lại `Builds/Windows-AndroidTouch-20261020/LightBetweenCultures.exe`; build log `Logs/npc-standing-windows06.log`.
 - **NPC PARTIAL: 25/26**; Lumi đi tới gần H10/S2/S11, NPC giữ chân canonical. G14 **BLOCKED_SAFE_NO_APPROACH**, không mở thoại từ xa hoặc tự nối xuyên địa hình.
 - Callback hội thoại focused Windows **PASS**: X không nhận/giao/thưởng; nhận nhiệm vụ giữ receipt thật và bỏ lời hứa/Next lặp; giao/hủy HQ06, giữ nguyên liệu, chống nhận lặp và reload. `1/2` là phân trang, đã thay bằng danh sách hành động trực tiếp. Overflow drag **NOT_TESTED** trong fixture vừa màn hình.
-- [Báo cáo hiện tại](NPC_APPROACH_AND_BUTTON_FUNCTIONS.md) · [Ảnh Player trước/sau](../../Validation/NpcStandingButtons-20261020/gallery.html).
+- [Báo cáo hiện tại](NPC_APPROACH_AND_BUTTON_FUNCTIONS.md) · [Ảnh Player trước/sau](../../../_LBC_ARCHIVE/HistoricalQA/Validation/NpcStandingButtons-20261020/gallery.html).
 - APK `Builds/Android/LightBetweenCultures-OwnerPriority-20261020.apk` là bản trước các sửa này. **Không build/cài APK lượt này; Android nhóm sửa mới NOT_TESTED.**
 - Phần thay đổi UI tròn/bóng được owner yêu cầu sau đó chưa triển khai trong checkpoint sửa chức năng này. Không nhận COMPLETE cho yêu cầu visual đó.
 - Các kết quả bên dưới là lịch sử; cách clamp vị trí NPC đã được thay thế, không dùng PASS cũ để kết luận lỗi owner phản ánh đã hết.
@@ -66,7 +66,7 @@ Final UX: 447 focused Windows checks PASS; six-city arrival/world access fixture
 - Windows: `Builds/Windows-AndroidTouch-20261020/LightBetweenCultures.exe`.
 - APK current source (BUILD/INSTALL PASS; final dialogue/device save acceptance BLOCKED/NOT_VERIFIED): `Builds/Android/LightBetweenCultures-OwnerPriority-20261020.apk`; final device result is recorded in `AndroidTouch-20261020/priority-device-results.json`.
 - Focused PC: 381 NPC/callback assertions + 14 partial-delivery boundary assertions PASS. Core data/art/settings hashes preserved; no campaign/Phase 7 rerun.
-- [Current short report](ANDROID_TOUCH_AND_NPC_DIALOGUE_FIXES.md) ? [Native evidence gallery](../../Validation/AndroidTouch-20261020/gallery.html).
+- [Current short report](ANDROID_TOUCH_AND_NPC_DIALOGUE_FIXES.md) ? [Native evidence gallery](../../../_LBC_ARCHIVE/HistoricalQA/Validation/AndroidTouch-20261020/gallery.html).
 - Previous checkpoint notes below are historical, including their old artifact paths and Android limitations.
 
 ---
@@ -82,4 +82,4 @@ Final UX: 447 focused Windows checks PASS; six-city arrival/world access fixture
 - **Khôi phục:** `D:\GAMEKKK\Backups\LBC_SourceVerified-20261020`, bản source độc lập, đủ Assets + metadata + Packages + ProjectSettings; xem `RESTORE.md`. 35 nội dung source cũ không còn trong project được giữ trong `HistoricalUnique`, không tự trộn vào Assets.
 - **Tooling:** giữ cấu hình JSON/CSV và input art/route mà script còn tham chiếu, toàn bộ `Tools/SixCityRouteEditor`, dữ liệu vẽ/ink/junction và save QA nhỏ. `CheckpointAndroidApkBuild-20261019` chỉ giữ làm provenance cho preflight của route exporter; chuỗi backup lịch sử của nó đã được thay bằng bản độc lập trên, không dùng nó để restore.
 
-[Kết quả dọn dung lượng](../Storage/DeepCleanup-20261020/SUMMARY.md)
+[Kết quả dọn dung lượng](../Development/Storage/DeepCleanup-20261020/SUMMARY.md)

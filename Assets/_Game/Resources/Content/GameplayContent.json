@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "source": "LBC_Gameplay_6Cities_Detailed_v1 + reviewed HoiAnData anchors",
+  "source": "Tools/Import/Sources/LBC_Gameplay_6Cities_Detailed_v1 + reviewed HoiAnData anchors",
   "cities": [
     {
       "id": "da_lat",
@@ -16329,7 +16329,7 @@
       "relatedQuestIds": [
         "HQ05"
       ],
-      "source": "LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
+      "source": "Tools/Import/Sources/LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
     },
     {
       "id": "hoi_an_purple_shallot",
@@ -16348,7 +16348,7 @@
       "relatedQuestIds": [
         "HQ06"
       ],
-      "source": "LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
+      "source": "Tools/Import/Sources/LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
     },
     {
       "id": "jeonju_recipe_card",
@@ -16367,7 +16367,7 @@
       "relatedQuestIds": [
         "HQ07"
       ],
-      "source": "LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
+      "source": "Tools/Import/Sources/LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
     },
     {
       "id": "hue_market_note",
@@ -16386,7 +16386,7 @@
       "relatedQuestIds": [
         "HQ07"
       ],
-      "source": "LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
+      "source": "Tools/Import/Sources/LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
     },
     {
       "id": "festival_friendship_postcard",
@@ -16405,7 +16405,7 @@
       "relatedQuestIds": [
         "HQ07"
       ],
-      "source": "LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
+      "source": "Tools/Import/Sources/LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
     },
     {
       "id": "hoi_an_bridge_postcard",
@@ -16422,7 +16422,7 @@
       "value": 0,
       "effects": [],
       "relatedQuestIds": [],
-      "source": "LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
+      "source": "Tools/Import/Sources/LBC_HoiAn_StoryExpansion_v1/Data/items_additions.json"
     },
     {
       "id": "da_lat_strawberry",
@@ -17945,7 +17945,7 @@
       "onAcceptFlags": [
         "hoi_an.hq05_accepted"
       ],
-      "sourceStatus": "LBC_HoiAn_StoryExpansion_v1; playable_cross_city_delivery",
+      "sourceStatus": "Tools/Import/Sources/LBC_HoiAn_StoryExpansion_v1; playable_cross_city_delivery",
       "confirmDelivery": true,
       "confirmationText": "Cháu mang ớt từ quầy Bà Tư. Mọi người thử vị cay vừa phải nhé!"
     },
@@ -17986,7 +17986,7 @@
       "onAcceptFlags": [
         "hoi_an.hq06_accepted"
       ],
-      "sourceStatus": "LBC_HoiAn_StoryExpansion_v1; playable_cross_city_delivery",
+      "sourceStatus": "Tools/Import/Sources/LBC_HoiAn_StoryExpansion_v1; playable_cross_city_delivery",
       "confirmDelivery": true,
       "confirmationText": "Cháu mang đến đây rồi ạ!"
     },
@@ -18024,7 +18024,7 @@
       "onAcceptFlags": [
         "hoi_an.hq07_accepted"
       ],
-      "sourceStatus": "LBC_HoiAn_StoryExpansion_v1",
+      "sourceStatus": "Tools/Import/Sources/LBC_HoiAn_StoryExpansion_v1",
       "confirmDelivery": true,
       "confirmationText": "Chuyến đi này quả thật đang nối những cuộc trò chuyện giữa hai nước.",
       "acceptQuests": [

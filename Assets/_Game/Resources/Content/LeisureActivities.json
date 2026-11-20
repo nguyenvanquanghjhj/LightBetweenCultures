@@ -5,7 +5,7 @@
       "cityId": "hoi_an",
       "nodeId": "H9",
       "title": "Chơi xích đu",
-      "spritePath": "LeisureProps/HoiAn_Swing",
+      "spritePath": "HoiAn_Swing",
       "enabled": true,
       "mapSize": {
         "x": 27,
@@ -29,7 +29,7 @@
       "cityId": "hoi_an",
       "nodeId": "H16",
       "title": "Thả hoa đăng",
-      "spritePath": "LeisureProps/HoiAn_LanternRelease_Stand",
+      "spritePath": "HoiAn_LanternRelease_Stand",
       "enabled": true,
       "mapSize": {
         "x": 27,
@@ -53,7 +53,7 @@
       "cityId": "hue",
       "nodeId": "U0",
       "title": "Đạp thuyền vịt",
-      "spritePath": "LeisureProps/Hue_PedalSwanBoat",
+      "spritePath": "Hue_PedalSwanBoat",
       "enabled": true,
       "mapSize": {
         "x": 27,
@@ -77,7 +77,7 @@
       "cityId": "hue",
       "nodeId": "U8",
       "title": "Ngồi ngai vàng",
-      "spritePath": "LeisureProps/Hue_ThroneReplica",
+      "spritePath": "Hue_ThroneReplica",
       "enabled": true,
       "mapSize": {
         "x": 27,
@@ -101,7 +101,7 @@
       "cityId": "da_lat",
       "nodeId": "D13",
       "title": "Hái dâu",
-      "spritePath": "LeisureProps/DaLat_StrawberryPatch",
+      "spritePath": "DaLat_StrawberryPatch",
       "enabled": true,
       "mapSize": {
         "x": 27,
@@ -125,7 +125,7 @@
       "cityId": "da_lat",
       "nodeId": "D9",
       "title": "Thả diều",
-      "spritePath": "LeisureProps/DaLat_KiteRack",
+      "spritePath": "DaLat_KiteRack",
       "enabled": true,
       "mapSize": {
         "x": 27,
@@ -149,7 +149,7 @@
       "cityId": "jeonju",
       "nodeId": "J13",
       "title": "Tưới cây",
-      "spritePath": "LeisureProps/Jeonju_WateringCan_Garden",
+      "spritePath": "Jeonju_WateringCan_Garden",
       "enabled": true,
       "mapSize": {
         "x": 27,
@@ -173,7 +173,7 @@
       "cityId": "jeonju",
       "nodeId": "J15",
       "title": "Thưởng trà",
-      "spritePath": "LeisureProps/Jeonju_TeaTable",
+      "spritePath": "Jeonju_TeaTable",
       "enabled": true,
       "mapSize": {
         "x": 27,
@@ -197,7 +197,7 @@
       "cityId": "gyeongju",
       "nodeId": "G10",
       "title": "Đánh chuông",
-      "spritePath": "LeisureProps/Gyeongju_BellExhibit",
+      "spritePath": "Gyeongju_BellExhibit",
       "enabled": true,
       "mapSize": {
         "x": 27,
@@ -221,7 +221,7 @@
       "cityId": "gyeongju",
       "nodeId": "G11",
       "title": "Treo thẻ ước nguyện",
-      "spritePath": "LeisureProps/Gyeongju_WishTags",
+      "spritePath": "Gyeongju_WishTags",
       "enabled": true,
       "mapSize": {
         "x": 27,
@@ -245,7 +245,7 @@
       "cityId": "seoul",
       "nodeId": "S1",
       "title": "Ăn tteokbokki",
-      "spritePath": "LeisureProps/Seoul_TteokbokkiStall",
+      "spritePath": "Seoul_TteokbokkiStall",
       "enabled": true,
       "mapSize": {
         "x": 27,
@@ -269,7 +269,7 @@
       "cityId": "seoul",
       "nodeId": "S7",
       "title": "Nhảy K-pop",
-      "spritePath": "LeisureProps/Seoul_KpopStage",
+      "spritePath": "Seoul_KpopStage",
       "enabled": true,
       "mapSize": {
         "x": 27,

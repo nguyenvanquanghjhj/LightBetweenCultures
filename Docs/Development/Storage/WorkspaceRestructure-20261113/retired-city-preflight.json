@@ -1,0 +1,6 @@
+{
+  "original": "LightBetweenCultures/Tools/Import/art_asset_catalog.py",
+  "archive": "D:\\GAMEKKK\\_LBC_ARCHIVE\\HistoricalSources\\RetiredPipelines\\Tools\\Import\\art_asset_catalog-with-city-preflight.py",
+  "sha256": "694860d585e900ab6bd8055dd4c6b100ce0e9de18d95c11ae521e74d961f3c58",
+  "reason": "Original unreleased-city/full-resolution/npc source assumptions superseded; native current catalog and route gates replace it"
+}

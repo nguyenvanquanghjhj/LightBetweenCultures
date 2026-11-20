@@ -49,14 +49,14 @@ Ba component sau **chưa bind sprite**, runtime dùng slot trung tính và nhãn
 ## Phase4 — crop/visual review mới
 
 - Ảnh Player phát hiện một số sliver cạnh ở `fragment_jeonju_hanok_pattern`, `fragment_jeonju_dyed_thread`, `fragment_jeonju_old_hanji_core` và `fragment_seoul_relay_frame`: **NEEDS_CROP_REVIEW**. Giữ native binding/source; không tự re-slice hoặc đổi GUID trong Phase4.
-- Full relic/21 matched components vẫn là technical import; không tự đánh VISUAL_APPROVED. Runtime mới và trạng thái chức năng trong [báo cáo Phase4](../Gameplay/PHASE4_FIVE_RELICS_IMPLEMENTATION_REPORT.md).
+- Full relic/21 matched components vẫn là technical import; không tự đánh VISUAL_APPROVED. Runtime mới và trạng thái chức năng trong [báo cáo Phase4](../Development/Gameplay/PHASE4_FIVE_RELICS_IMPLEMENTATION_REPORT.md).
 - Bốn NPC Engineer/Curator/Keeper/Inscription giữ ART_IMPORTED_PENDING_APPROVAL theo nguồn; không thay mặt hoặc nâng canonical từ việc code đã bind.
 
-Phase4 current: five cities now have playable sources/trials/restoration, Windows technical PASS; no additional art imported/re-sliced. Visual/crop approval remains separate. Native records: [native-art.json](../Gameplay/RelicPilot-20261018/native-art.json).
+Phase4 current: five cities now have playable sources/trials/restoration, Windows technical PASS; no additional art imported/re-sliced. Visual/crop approval remains separate. Native records: [native-art.json](../Development/Gameplay/RelicPilot-20261018/native-art.json).
 
 ## QA thực tế
 
-Fresh04: bốn mảnh Hội An được kéo/xoay/ghép trong runtime; sáu full relic icons hiển thị trong Collection. Historical Phase1–3 scope:17 matched foreign components were only preparation then. Phase4 now renders them through real source/assembly/trial UI; gameplay Windows PASS, art VISUAL_PENDING and listed slivers NEEDS_CROP_REVIEW. 3 Seoul icons còn ART_PENDING. Không có VISUAL_APPROVED tự động. Xem [pilot report](../Gameplay/CULTURAL_ARTIFACTS_HOIAN_PILOT_REPORT.md).
+Fresh04: bốn mảnh Hội An được kéo/xoay/ghép trong runtime; sáu full relic icons hiển thị trong Collection. Historical Phase1–3 scope:17 matched foreign components were only preparation then. Phase4 now renders them through real source/assembly/trial UI; gameplay Windows PASS, art VISUAL_PENDING and listed slivers NEEDS_CROP_REVIEW. 3 Seoul icons còn ART_PENDING. Không có VISUAL_APPROVED tự động. Xem [pilot report](../Development/Gameplay/CULTURAL_ARTIFACTS_HOIAN_PILOT_REPORT.md).
 
 ## Owner decision — Phase5, 18/10/2026
 

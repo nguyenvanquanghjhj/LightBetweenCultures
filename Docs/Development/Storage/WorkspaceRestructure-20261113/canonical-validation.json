@@ -1,0 +1,68 @@
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "id": "PR-001",
+      "status": "FAIL",
+      "detail": "",
+      "violations": [
+        ".utmp",
+        "build"
+      ]
+    },
+    {
+      "id": "PR-002",
+      "status": "PASS",
+      "detail": "image files under Assets: 135",
+      "violations": []
+    },
+    {
+      "id": "PR-003",
+      "status": "PASS",
+      "detail": "",
+      "violations": []
+    },
+    {
+      "id": "PR-004",
+      "status": "PASS",
+      "detail": "",
+      "violations": []
+    },
+    {
+      "id": "PR-005",
+      "status": "PASS",
+      "detail": "",
+      "violations": []
+    },
+    {
+      "id": "PR-006",
+      "status": "PASS",
+      "detail": "",
+      "violations": []
+    },
+    {
+      "id": "PR-007",
+      "status": "PASS",
+      "detail": "fresh actual Unity audit and importer/GUID comparison required",
+      "violations": []
+    },
+    {
+      "id": "PR-008",
+      "status": "PASS",
+      "detail": "build entry points, literal inputs and Python syntax; build execution reported separately",
+      "violations": []
+    },
+    {
+      "id": "PR-009",
+      "status": "PASS",
+      "detail": "",
+      "violations": []
+    },
+    {
+      "id": "PR-010",
+      "status": "PASS",
+      "detail": "",
+      "violations": []
+    }
+  ]
+}

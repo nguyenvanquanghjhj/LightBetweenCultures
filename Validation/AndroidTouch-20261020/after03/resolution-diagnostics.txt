@@ -1,2 +1,0 @@
-requested=540x960 actual=540x960
-requested=432x960 actual=432x960

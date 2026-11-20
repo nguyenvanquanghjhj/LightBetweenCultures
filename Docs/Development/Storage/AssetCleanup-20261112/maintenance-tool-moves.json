@@ -1,0 +1,27 @@
+﻿[
+    {
+        "old":  "Tools/audit_asset_cleanup.py",
+        "new":  "Tools/Maintenance/audit_asset_cleanup.py",
+        "sha256":  "deeb7215dda1b5571abf6ada7f1a9b037910704269587102bdab815904df21b9"
+    },
+    {
+        "old":  "Tools/migrate_project_layout.py",
+        "new":  "Tools/Maintenance/migrate_project_layout.py",
+        "sha256":  "55e44742a4415692af797029c82cd134f8e87abfaf4049652ad1636b29d5a5eb"
+    },
+    {
+        "old":  "Tools/finalize_project_layout.py",
+        "new":  "Tools/Maintenance/finalize_project_layout.py",
+        "sha256":  "0bac49c8da7faefd32a636a0791d6edf8d551d48f3e81c5b58b92249a2275615"
+    },
+    {
+        "old":  "Tools/cleanup_generated_gradle.py",
+        "new":  "Tools/Maintenance/cleanup_generated_gradle.py",
+        "sha256":  "4349a6ca1f05a2d04f8ef9179828ef3eb21a821f654965db73973e1b5294854e"
+    },
+    {
+        "old":  "Tools/verify_project_layout.py",
+        "new":  "Tools/Maintenance/verify_project_layout.py",
+        "sha256":  "cc86ebedc235cbdb9180e3fad3b31c2b0bc3ecc93fb89ecd41ea3954f2dade2f"
+    }
+]

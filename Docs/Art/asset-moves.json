@@ -1,113 +1,78 @@
 {
   "entries": [
     {
-      "oldPath": "Assets/_Game/Art/_SourceSheets/Concept_Composite_01.png",
-      "newPath": "Assets/_Game/Art/_SourceSheets/LBC_Composite_Illustrated_v1.png",
-      "group": "SourceSheets",
-      "guid": "e2ee55c326f7e2e4a86e7d19b579f740",
-      "sha256": "65d7dd9931f85fe10941ffae77fa5e9688120cdb310b3a9174e4e562deb04e77"
-    },
-    {
-      "oldPath": "Assets/_Game/Art/_SourceSheets/Concept_Composite_02.png",
-      "newPath": "Assets/_Game/Art/_SourceSheets/LBC_Composite_CheckerConcept_v2.png",
-      "group": "SourceSheets",
-      "guid": "4ecfe5a65b714bf49b2f39c4788e47d4",
-      "sha256": "6e07f538417d56d94e6c2c97cd5c8b50f61aec868e4fb75d73c6152e440c03b8"
-    },
-    {
-      "oldPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_Character_Cutout_Concept.png",
-      "newPath": "Assets/_Game/Art/_SourceSheets/Lumi/Lumi_Character_Cutout_Concept.png",
-      "group": "SourceSheets",
-      "guid": "7365c571dda3a8245b7afd2289fd8d2c",
-      "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b"
-    },
-    {
-      "oldPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_CityMarker_128.png",
-      "newPath": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_128.png",
-      "group": "SourceSheets",
-      "guid": "d2181a9171421b34780d442db99658c2",
-      "sha256": "a150c83125508853f9a7643f45c9e5820e05c96321e9e054f101f4b81470b3e2"
-    },
-    {
-      "oldPath": "Assets/_Game/Art/DesignKit/Lumi/Lumi_CityMarker_256.png",
-      "newPath": "Assets/_Game/Art/_References/LegacyLumi/Lumi_CityMarker_256.png",
-      "group": "SourceSheets",
-      "guid": "3d4c838d288e1af438ef1a3e538d8364",
-      "sha256": "95061774ab06032908a131864462f7ed8a3a9d6b98eaa723a787450263b763bc"
-    },
-    {
       "oldPath": "Assets/_Game/Art/DesignKit/Markers/node_available.png",
-      "newPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_available.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_available.png",
       "group": "Markers",
       "guid": "4a9f6b4446c499848bb9d3d1e60ec600",
       "sha256": "fbf9b899d66942db4c9aa77395689576bd23bed84088c5a77f76f275139e173d"
     },
     {
       "oldPath": "Assets/_Game/Art/DesignKit/Markers/node_current.png",
-      "newPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_current.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_current.png",
       "group": "Markers",
       "guid": "0e46fa3a4a730ff4da2af78097a0e7b8",
       "sha256": "c158ac8b6173efcd6f48d813997012a0c96560aade9add6fd0fe8095f844e098"
     },
     {
       "oldPath": "Assets/_Game/Art/DesignKit/Markers/node_enemy.png",
-      "newPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_enemy.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_enemy.png",
       "group": "Markers",
       "guid": "ddbeae466d78e5941af1f2d58373540d",
       "sha256": "75e2ac2ef640210cbd41e22b7e68da13a55f8696ed3f1e3d5b1c000db38759b2"
     },
     {
       "oldPath": "Assets/_Game/Art/DesignKit/Markers/node_item.png",
-      "newPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_item.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_item.png",
       "group": "Markers",
       "guid": "8d87ce1f1365b4545931249b25505c95",
       "sha256": "e817bfe5736df505c5cb99d725d75f608b32144f010c54bfa7270e70354d377b"
     },
     {
       "oldPath": "Assets/_Game/Art/DesignKit/Markers/node_locked.png",
-      "newPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_locked.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_locked.png",
       "group": "Markers",
       "guid": "fae34817a0d319145baf618ff62d512a",
       "sha256": "43324db67f19e50760f7b7c0dc1873dd6055dbc332b902730ac7c4bc30a55253"
     },
     {
       "oldPath": "Assets/_Game/Art/DesignKit/Markers/node_npc.png",
-      "newPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_npc.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_npc.png",
       "group": "Markers",
       "guid": "e5c90b4c7bb2cc849a556a6729d24107",
       "sha256": "43187d191eee5a0cc522507724cd9ad0ab5d96adca939c17ad39d64be6dfc57e"
     },
     {
       "oldPath": "Assets/_Game/Art/DesignKit/Markers/node_portal.png",
-      "newPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_portal.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_portal.png",
       "group": "Markers",
       "guid": "c0307cd2431a2754b940fbec57653e10",
       "sha256": "694ae85241e294f6fea2e1ae4ec92c8cde4543336ee01e1c7692922badc69b8c"
     },
     {
       "oldPath": "Assets/_Game/Art/DesignKit/Markers/node_puzzle.png",
-      "newPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_puzzle.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_puzzle.png",
       "group": "Markers",
       "guid": "41b4328d91767bc459398185aaf68569",
       "sha256": "87804335c1d770daea1717af15b3301fc1880154ce1fd97270eed5b386b9e49b"
     },
     {
       "oldPath": "Assets/_Game/Art/DesignKit/Markers/node_quest.png",
-      "newPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_quest.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_quest.png",
       "group": "Markers",
       "guid": "ba53cdd81d3eca04eb7229ec95501c1c",
       "sha256": "c896014ea01279e7adf886764693ff5b4fc416f220d535075463cf7f8e839832"
     },
     {
       "oldPath": "Assets/_Game/Art/DesignKit/Markers/node_secret.png",
-      "newPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_secret.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_secret.png",
       "group": "Markers",
       "guid": "e8513865616e8b644a97488406359aac",
       "sha256": "36c8905b0d1f210f4d77b4227530e551574ec1b425dab3fe44d8d77182d29e3a"
     },
     {
       "oldPath": "Assets/_Game/Art/DesignKit/Markers/node_visited.png",
-      "newPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_visited.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_visited.png",
       "group": "Markers",
       "guid": "66d590fef2a744d4baca23050d763ecc",
       "sha256": "f8989c43a9f5ab024b25484771edc1f5627b446d7ab217153bca0e0afb559b95"
@@ -134,29 +99,8 @@
       "sha256": "13dbf720e393f07d6eb4582d51d6fe5dae0d2b3c85664272625ede68e4f7c32d"
     },
     {
-      "oldPath": "Assets/_Game/Art/Item/Item_Food_Postcard.jpg",
-      "newPath": "Assets/_Game/Art/Checkin/Item_Food_Postcard.jpg",
-      "group": "Items",
-      "guid": "881b60dcbeb91924496dc81728ca1d35",
-      "sha256": "29716acbc71049f131a7ebd298b05a4738e11e52d80821f988637682db0dcffb"
-    },
-    {
-      "oldPath": "Assets/_Game/Art/Item/Item_HoiAn_Chili.jpg",
-      "newPath": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Chili.jpg",
-      "group": "Items",
-      "guid": "f3f2cf00566b14d468e4402e3ef88afc",
-      "sha256": "d3704b8a2c51f209ab0faa6d80c3d102b18b51daff8605756700ba7deec5b932"
-    },
-    {
-      "oldPath": "Assets/_Game/Art/Item/Item_HoiAn_Shallot.jpg",
-      "newPath": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Shallot.jpg",
-      "group": "Items",
-      "guid": "841a00003e05ef7419b14bd20833d540",
-      "sha256": "a04831e27615a92512c9a8a982de76c0dd9bd7371d3b6326b0346db757c241ef"
-    },
-    {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Boatman_Portrait.png",
-      "newPath": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+      "newPath": "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_Boatman.png",
       "group": "Characters",
       "guid": "3835aa72bd8c88b41af32d4aabd40b98",
       "sha256": "50a302d2ee697b42585dcf56ed7fd9a90c93800ceea12650d80e59c17a64f187"
@@ -170,9 +114,9 @@
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/City_gyeongju.png",
-      "newPath": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_DestinationPreview_A.png",
+      "newPath": "Assets/_Game/Art/Maps/Gyeongju/Map_Gyeongju_Overview_A.png",
       "group": "Maps",
-      "guid": "f1f6e381ad05edb4da03ce1c821476b0",
+      "guid": "8303af4dae6df924f9d9779aa1272596",
       "sha256": "71f072cacec17beac5ce8779ac0e0030cfb6e9963ceb4a4b7cdf9f8d7247d00c"
     },
     {
@@ -198,9 +142,9 @@
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/City_seoul.png",
-      "newPath": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_DestinationPreview_A.png",
+      "newPath": "Assets/_Game/Art/Maps/Seoul/Map_Seoul_Overview_A.png",
       "group": "Maps",
-      "guid": "3f3e71d2ddb346442bd9f232ce09d9b4",
+      "guid": "c863c93d8325d8f46a10cfa990f0229e",
       "sha256": "f1e9c6ec9c3172117c53a13d5e7b98c740a33af0f0409e57baac7a33260a95f2"
     },
     {
@@ -212,7 +156,7 @@
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Enemies_HoiAn_TransparentAtlas.png",
-      "newPath": "Assets/_Game/Art/Characters/Enemies/HoiAn_Enemies_Atlas.png",
+      "newPath": "Assets/_Game/Art/Enemies/HoiAn_Enemies_Atlas.png",
       "group": "Characters",
       "guid": "0aa7f368b0015354e9303a88022a2b51",
       "sha256": "f5d51f34b23aed622f0e10aad9a34df12ceaddacea26e7fbb7acf4223e9baa58"
@@ -240,84 +184,84 @@
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Markers/BossAlert.png",
-      "newPath": "Assets/_Game/Art/Markers/Marker_BossAlert.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_BossAlert.png",
       "group": "Markers",
       "guid": "93c43af33a033414dbbcc8c6a2674d14",
       "sha256": "a6bcb5dfd5e58e06b0168a9306aea9a54bad0a44007083d334c92f0de5693c94"
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Markers/Camera.png",
-      "newPath": "Assets/_Game/Art/Markers/Marker_Camera.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Camera.png",
       "group": "Markers",
       "guid": "e6ff7bf47d518024b9b5617581a369ef",
       "sha256": "0649fd65b4954eac3b8058807b8e8bc087594749cccaa10d986c4359d9f5a513"
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Markers/Completed.png",
-      "newPath": "Assets/_Game/Art/Markers/Marker_Completed.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Completed.png",
       "group": "Markers",
       "guid": "e58a9cea55b466a419729d26936f1b8c",
       "sha256": "1785db3814d1a756dc018e0afbc58b9d13bf28906fddfd3eb470bfd2f22914ed"
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Markers/Current.png",
-      "newPath": "Assets/_Game/Art/Markers/Marker_Current.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Current.png",
       "group": "Markers",
       "guid": "39d25111b5b7f4e48b132c979ba458d8",
       "sha256": "131982419a380ab48ed2619a8c5917310f0ceeabc7e0c2aa446c22c5590e261e"
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Markers/Ground.png",
-      "newPath": "Assets/_Game/Art/Markers/Marker_Ground.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Ground.png",
       "group": "Markers",
       "guid": "eddf12bed32f6ac47ad4a5ab8ad7f0df",
       "sha256": "4f141d7abb3bf338e3f1c141fced01075501b8e17f1d5516902abf6d417e368c"
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Markers/NpcNeedItem.png",
-      "newPath": "Assets/_Game/Art/Markers/Marker_NpcNeedItem.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_NpcNeedItem.png",
       "group": "Markers",
       "guid": "fc55f8d3f64666c40b089a773f4f4a05",
       "sha256": "410d80e8f97fbbb33b36735dff08709e5eef5181fdfbe28c7c9b1a49ad8b0a47"
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Markers/NpcTalk.png",
-      "newPath": "Assets/_Game/Art/Markers/Marker_NpcTalk.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_NpcTalk.png",
       "group": "Markers",
       "guid": "7d6c6ca2f3bb88444969f4378d8f38b6",
       "sha256": "bf01a6e32b9a9a56cf0b7762d801589999e22a96a5a4e6555445b33d93e398c2"
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Markers/Puzzle.png",
-      "newPath": "Assets/_Game/Art/Markers/Marker_Puzzle.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Puzzle.png",
       "group": "Markers",
       "guid": "a18d72cffa21b024d840d7bef6462af9",
       "sha256": "03eb988775976885cbed252a9a2f0461e3f722dacbd6610e6f2b994cc47b7728"
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Markers/Quest.png",
-      "newPath": "Assets/_Game/Art/Markers/Marker_Quest.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Quest.png",
       "group": "Markers",
       "guid": "a594009578f391d4eb1ae20fa8d423c4",
       "sha256": "3b860755962338342a6d08a7b74546acabed150fe7dd0c24e2e3c73410647dc5"
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Markers/Reward.png",
-      "newPath": "Assets/_Game/Art/Markers/Marker_Reward.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Reward.png",
       "group": "Markers",
       "guid": "cc35585804661c949a22a136240db6d5",
       "sha256": "ca36129774dfb1d6834cc5f0b2864d28ca833a21fed7c71e0d3a5f034cedb1a8"
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/Market_Merchant.png",
-      "newPath": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+      "newPath": "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
       "group": "Characters",
       "guid": "0a91b2dbca846994bbade4807ff62596",
       "sha256": "fc7bb16df6781ecbe20521d3e00be1b7193be2392f35ee92def647aa9f17fed2"
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/AdventureUI/NPC_TransparentAtlas.png",
-      "newPath": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "newPath": "Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png",
       "group": "Characters",
       "guid": "c6176fa957f7eb549b9b40703e5038ea",
       "sha256": "87e127de96b7eb9aa259bb643f667b0167796ec9dce246ee0369a9ad4e84dc94"
@@ -344,20 +288,6 @@
       "sha256": "947aa3b6f0584dae1bd1a06c2cef38e719cb06831741711d47afc4047863be9c"
     },
     {
-      "oldPath": "Assets/_Game/Art/Runtime/Lumi/Lumi_DialoguePortrait.png",
-      "newPath": "Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png",
-      "group": "Characters",
-      "guid": "1749b1933916d2b4185622c2165926be",
-      "sha256": "6754096d56440079d4a5867406230ac3d75d0c29242204494b1537f95330659b"
-    },
-    {
-      "oldPath": "Assets/_Game/Art/Runtime/Lumi/Lumi_ExplorationIdle.png",
-      "newPath": "Assets/_Game/Art/Characters/Lumi/Lumi_ExplorationIdle.png",
-      "group": "Characters",
-      "guid": "7644234593d8df64f8cad7f5cf5860b4",
-      "sha256": "d1b9b14d78ebd0238a1651b631e295f864de4a969f389dd3f26a73b000fe975e"
-    },
-    {
       "oldPath": "Assets/_Game/Art/Runtime/Lumi/Lumi_MapTraveler.png",
       "newPath": "Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png",
       "group": "Characters",
@@ -366,10 +296,710 @@
     },
     {
       "oldPath": "Assets/_Game/Art/Runtime/NPCs/Mai_DialoguePortrait.png",
-      "newPath": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+      "newPath": "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
       "group": "Characters",
       "guid": "a6cc838dd76ae7f40902d846693f4a5e",
       "sha256": "ca26766b34317562a60153ffb6222b82e3e35c14569d25ecae20c6977fbb975e"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/DaLat/npc_gardener.png",
+      "newPath": "Assets/_Game/Art/NPC/DaLat/npc_gardener.png",
+      "guid": "cac9b7f04788a1743af1858d523019df",
+      "group": "Layout20261112",
+      "sha256": "40f33f91189d0829ac66973b83eaf9c431ab5eb64836a98de5f68864acb6f404"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/DaLat/npc_hungry_dog.png",
+      "newPath": "Assets/_Game/Art/NPC/DaLat/npc_hungry_dog.png",
+      "guid": "3df301f30edc9d243899518bb89fb538",
+      "group": "Layout20261112",
+      "sha256": "f7996bdea43934e25f70625e60b8125f347f0fbae7bfaf68779384cf595ab78b"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/DaLat/npc_lan.png",
+      "newPath": "Assets/_Game/Art/NPC/DaLat/npc_lan.png",
+      "guid": "fb6c63798ffdb6841a4fd318adf72a74",
+      "group": "Layout20261112",
+      "sha256": "9d86a77b26635549a1044b1629be0e286416033e19286f8f2154e5e2132fad99"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/DaLat/npc_thuy.png",
+      "newPath": "Assets/_Game/Art/NPC/DaLat/npc_thuy.png",
+      "guid": "33ce1e750bcd0124d9feb5cfcbf3fa66",
+      "group": "Layout20261112",
+      "sha256": "148d12ec8ff2b07d7fbbf42c25afefadcc9e9d69da3853593c093154b1cbf6cd"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Inscription.png",
+      "newPath": "Assets/_Game/Art/NPC/Gyeongju/NPC_Gyeongju_Inscription.png",
+      "guid": "399ff7e49a026ed42b9cb627929f5b35",
+      "group": "Layout20261112",
+      "sha256": "b3586d8870df3e9c3bb573f909243c42b78968a44901da9b056547f45cb0919c"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/Gyeongju/NPC_Gyeongju_Keeper.png",
+      "newPath": "Assets/_Game/Art/NPC/Gyeongju/NPC_Gyeongju_Keeper.png",
+      "guid": "880215f55ae56f2418894f7baed7f6cb",
+      "group": "Layout20261112",
+      "sha256": "c3e2f275a9dca7ba9ba42f00780a8a463b36ba0a7a80831983fac276ca9f9d18"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+      "newPath": "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_Boatman.png",
+      "guid": "3835aa72bd8c88b41af32d4aabd40b98",
+      "group": "Layout20261112",
+      "sha256": "50a302d2ee697b42585dcf56ed7fd9a90c93800ceea12650d80e59c17a64f187"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+      "newPath": "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_CoMai_Portrait.png",
+      "guid": "a6cc838dd76ae7f40902d846693f4a5e",
+      "group": "Layout20261112",
+      "sha256": "ca26766b34317562a60153ffb6222b82e3e35c14569d25ecae20c6977fbb975e"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+      "newPath": "Assets/_Game/Art/NPC/HoiAn/NPC_HoiAn_MarketMerchant.png",
+      "guid": "0a91b2dbca846994bbade4807ff62596",
+      "group": "Layout20261112",
+      "sha256": "fc7bb16df6781ecbe20521d3e00be1b7193be2392f35ee92def647aa9f17fed2"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+      "newPath": "Assets/_Game/Art/NPC/Hue/npc_tam.png",
+      "guid": "7eb9ff722f5f81748945b06d9e1d05bd",
+      "group": "Layout20261112",
+      "sha256": "15587f85e7fd1b72e26031bb9b28098c54ebed90f9e8d0ebc2e4af36d5ffee46"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+      "newPath": "Assets/_Game/Art/NPC/Jeonju/npc_park.png",
+      "guid": "36a0c8ea46b133e40bf8731d313402d7",
+      "group": "Layout20261112",
+      "sha256": "bf3defe0a6a193938bfd5c1e19176b572624760b89903cbc2b65222f142af7af"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+      "newPath": "Assets/_Game/Art/NPC/Jeonju/npc_yoon.png",
+      "guid": "9e80ff4e3ffd49044b5dabf92b3d6b27",
+      "group": "Layout20261112",
+      "sha256": "144d39585715517f831861c8951bb90198086f7978675e4381686ae323ef4936"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_elder.png",
+      "newPath": "Assets/_Game/Art/NPC/OwnerRevision_20261021/npc_elder.png",
+      "guid": "3056bc602bbb42945ba0edc767f09275",
+      "group": "Layout20261112",
+      "sha256": "553d8fc3ae0e21905eee1e5668cfcd30c53600eda26b453b971ec4ffedc3af90"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_hana.png",
+      "newPath": "Assets/_Game/Art/NPC/OwnerRevision_20261021/npc_hana.png",
+      "guid": "2683b36a1f2e0f24aa056fc4a46ab1d8",
+      "group": "Layout20261112",
+      "sha256": "050c1d2ddb6335a2a00ca16e9e4b114811d8e9695ed78fe0959562fcc99d31c2"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/OwnerRevision_20261021/npc_nguyet.png",
+      "newPath": "Assets/_Game/Art/NPC/OwnerRevision_20261021/npc_nguyet.png",
+      "guid": "90853a883999d1a4090495dd15aa99d0",
+      "group": "Layout20261112",
+      "sha256": "0c1bd2041b665de3d88e614292e0d964a542a73b61ed902bfea7c944b4b4e46f"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Curator.png",
+      "newPath": "../_LBC_ARCHIVE/HistoricalArt/RetiredAuthoring/NPC_Seoul_Curator.png",
+      "guid": "6b7b12ad613bda14d969e359a2f08d59",
+      "group": "Layout20261112",
+      "sha256": "cf66f4361ef2e32bc48a431989a9256e4f88f0e4b43a2959dcc4c65f2f666949"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/Seoul/NPC_Seoul_Engineer.png",
+      "newPath": "Assets/_Game/Art/NPC/Seoul/NPC_Seoul_Engineer.png",
+      "guid": "4f74a41c66ef3364ca044bc04afa2bcb",
+      "group": "Layout20261112",
+      "sha256": "a9864960705f187f71c2aa758c0170ba0a8bf887070af205e63424326ec849d7"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+      "newPath": "Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png",
+      "guid": "c6176fa957f7eb549b9b40703e5038ea",
+      "group": "Layout20261112",
+      "sha256": "87e127de96b7eb9aa259bb643f667b0167796ec9dce246ee0369a9ad4e84dc94"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/CleanDerived/energy_core_Clean.png",
+      "newPath": "Assets/_Game/Art/Enemies/CleanDerived/energy_core_Clean.png",
+      "guid": "e608fc7a2b904ee4383edf2411cdb09c",
+      "group": "Layout20261112",
+      "sha256": "5e6db00e286b30ef073207acb8309ed17ab6b0e6728aacdfe530e673378f6dda"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/CleanDerived/shadow_cat_Clean.png",
+      "newPath": "Assets/_Game/Art/Enemies/CleanDerived/shadow_cat_Clean.png",
+      "guid": "d4b77d201c42ac94ab4101dc85438292",
+      "group": "Layout20261112",
+      "sha256": "6cdd7b8401006463f662fa77de370b5e0f535e2b2f5953b4be7bec81186c199d"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/CleanDerived/shadow_courier_Clean.png",
+      "newPath": "Assets/_Game/Art/Enemies/CleanDerived/shadow_courier_Clean.png",
+      "guid": "4fe019f7e16bb0e4a8558bd3c9865422",
+      "group": "Layout20261112",
+      "sha256": "284ea6da71ba17b5f7f1c45a74914e0a6f10027bfa7aac2b2dfcbe8c103900ff"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/CleanDerived/stone_guard_Clean.png",
+      "newPath": "Assets/_Game/Art/Enemies/CleanDerived/stone_guard_Clean.png",
+      "guid": "1bbc6c35ab0344e45ad815f08cd1f948",
+      "group": "Layout20261112",
+      "sha256": "c0a6f831bf406f6588109cccfc83613c42abcc4b51b565c3837f3bbe52a83502"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_fog_boss.png",
+      "newPath": "Assets/_Game/Art/Enemies/DaLat/enemy_fog_boss.png",
+      "guid": "02f4eb7b51161784eaf10c79ca3bac67",
+      "group": "Layout20261112",
+      "sha256": "9a073d7dd4a067625425e53325c71ed13a98313f291250f610599e02e22320be"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_glass_thief.png",
+      "newPath": "Assets/_Game/Art/Enemies/DaLat/enemy_glass_thief.png",
+      "guid": "b38571563586e3541b1be7cac75c2a0f",
+      "group": "Layout20261112",
+      "sha256": "75015e347126152cb17b8acba3ac6c0049c6d55a9ff8f5317f6d3c302dbec5dc"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/DaLat/enemy_mist_wolf.png",
+      "newPath": "Assets/_Game/Art/Enemies/DaLat/enemy_mist_wolf.png",
+      "guid": "34574e7c8d1443043a96fb1bf85be2be",
+      "group": "Layout20261112",
+      "sha256": "f23dc92676e9ed30fa7e83df4c5e0bd95a7ff37ca28035ea78ff53336adb6fb8"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/HoiAn_Enemies_Atlas.png",
+      "newPath": "Assets/_Game/Art/Enemies/HoiAn_Enemies_Atlas.png",
+      "guid": "0aa7f368b0015354e9303a88022a2b51",
+      "group": "Layout20261112",
+      "sha256": "f5d51f34b23aed622f0e10aad9a34df12ceaddacea26e7fbb7acf4223e9baa58"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png",
+      "newPath": "Assets/_Game/Art/Enemies/Hue/enemy_archive_guard.png",
+      "guid": "6e45e2d614a36a14cb99af2ff09bb551",
+      "group": "Layout20261112",
+      "sha256": "895cc5f001beabf857892834b4185f962478d2840e2fc3cf2db3896d1f20eecd"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png",
+      "newPath": "Assets/_Game/Art/Enemies/Hue/enemy_courier.png",
+      "guid": "19833cb28726e514e94c269bc5be0f65",
+      "group": "Layout20261112",
+      "sha256": "9f81f2243fab2eba4128194a6ec08be3dde7a269b8e12120ecd9197d20d7a799"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png",
+      "newPath": "Assets/_Game/Art/Enemies/Hue/enemy_gate_guard.png",
+      "guid": "ab1b66b2c62e1ef479ccdb953644d767",
+      "group": "Layout20261112",
+      "sha256": "c9eaace3159a4fb3770c70104302d530e8b69231fe7851ba8b281efbb4894081"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png",
+      "newPath": "Assets/_Game/Art/Enemies/Hue/enemy_river_wisp.png",
+      "guid": "e6d7429b54bd9344582006412f6b095d",
+      "group": "Layout20261112",
+      "sha256": "426d606ef7df229bfdb949e608213faab4b086dfacab74f8fec7b2483528c2e5"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png",
+      "newPath": "Assets/_Game/Art/Enemies/Jeonju/enemy_crane_boss.png",
+      "guid": "9a0778a8c427a2243857a0d6bf9aaf14",
+      "group": "Layout20261112",
+      "sha256": "b0d46f325fc0d482d898c5cf08b4453e74a9bcae9aaeb6ad8b28194786f600d2"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png",
+      "newPath": "Assets/_Game/Art/Enemies/Jeonju/enemy_paper_crane.png",
+      "guid": "6bada230f9ce7964d80e3e565afd80fc",
+      "group": "Layout20261112",
+      "sha256": "937200d80965bdf03e413df0c653bb515b6dacbb829b8282c915164a396433ea"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png",
+      "newPath": "Assets/_Game/Art/Enemies/Jeonju/enemy_parcel_bot.png",
+      "guid": "24efe2bdb706ca641bdb839342c631ce",
+      "group": "Layout20261112",
+      "sha256": "42a4cfb742868418587c604b0838fbe164409e19fdf2d580cc19511bd9b687c4"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png",
+      "newPath": "Assets/_Game/Art/Enemies/Jeonju/enemy_pattern_bot.png",
+      "guid": "2162ef03eff775741acd49e8d094d377",
+      "group": "Layout20261112",
+      "sha256": "32de2f21401fb53c00c809343f14be8fa6ec242f011268c59392458dac12b18b"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_available.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_available.png",
+      "guid": "4a9f6b4446c499848bb9d3d1e60ec600",
+      "group": "Layout20261112",
+      "sha256": "fbf9b899d66942db4c9aa77395689576bd23bed84088c5a77f76f275139e173d"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_current.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_current.png",
+      "guid": "0e46fa3a4a730ff4da2af78097a0e7b8",
+      "group": "Layout20261112",
+      "sha256": "c158ac8b6173efcd6f48d813997012a0c96560aade9add6fd0fe8095f844e098"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_enemy.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_enemy.png",
+      "guid": "ddbeae466d78e5941af1f2d58373540d",
+      "group": "Layout20261112",
+      "sha256": "75e2ac2ef640210cbd41e22b7e68da13a55f8696ed3f1e3d5b1c000db38759b2"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_item.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_item.png",
+      "guid": "8d87ce1f1365b4545931249b25505c95",
+      "group": "Layout20261112",
+      "sha256": "e817bfe5736df505c5cb99d725d75f608b32144f010c54bfa7270e70354d377b"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_locked.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_locked.png",
+      "guid": "fae34817a0d319145baf618ff62d512a",
+      "group": "Layout20261112",
+      "sha256": "43324db67f19e50760f7b7c0dc1873dd6055dbc332b902730ac7c4bc30a55253"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_npc.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_npc.png",
+      "guid": "e5c90b4c7bb2cc849a556a6729d24107",
+      "group": "Layout20261112",
+      "sha256": "43187d191eee5a0cc522507724cd9ad0ab5d96adca939c17ad39d64be6dfc57e"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_portal.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_portal.png",
+      "guid": "c0307cd2431a2754b940fbec57653e10",
+      "group": "Layout20261112",
+      "sha256": "694ae85241e294f6fea2e1ae4ec92c8cde4543336ee01e1c7692922badc69b8c"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_puzzle.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_puzzle.png",
+      "guid": "41b4328d91767bc459398185aaf68569",
+      "group": "Layout20261112",
+      "sha256": "87804335c1d770daea1717af15b3301fc1880154ce1fd97270eed5b386b9e49b"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_quest.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_quest.png",
+      "guid": "ba53cdd81d3eca04eb7229ec95501c1c",
+      "group": "Layout20261112",
+      "sha256": "c896014ea01279e7adf886764693ff5b4fc416f220d535075463cf7f8e839832"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_secret.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_secret.png",
+      "guid": "e8513865616e8b644a97488406359aac",
+      "group": "Layout20261112",
+      "sha256": "36c8905b0d1f210f4d77b4227530e551574ec1b425dab3fe44d8d77182d29e3a"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/LegacyDesignKit/node_visited.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Navigation/node_visited.png",
+      "guid": "66d590fef2a744d4baca23050d763ecc",
+      "group": "Layout20261112",
+      "sha256": "f8989c43a9f5ab024b25484771edc1f5627b446d7ab217153bca0e0afb559b95"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/Marker_BossAlert.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_BossAlert.png",
+      "guid": "93c43af33a033414dbbcc8c6a2674d14",
+      "group": "Layout20261112",
+      "sha256": "a6bcb5dfd5e58e06b0168a9306aea9a54bad0a44007083d334c92f0de5693c94"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/Marker_Camera.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Camera.png",
+      "guid": "e6ff7bf47d518024b9b5617581a369ef",
+      "group": "Layout20261112",
+      "sha256": "0649fd65b4954eac3b8058807b8e8bc087594749cccaa10d986c4359d9f5a513"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/Marker_Completed.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Completed.png",
+      "guid": "e58a9cea55b466a419729d26936f1b8c",
+      "group": "Layout20261112",
+      "sha256": "1785db3814d1a756dc018e0afbc58b9d13bf28906fddfd3eb470bfd2f22914ed"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/Marker_Current.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Current.png",
+      "guid": "39d25111b5b7f4e48b132c979ba458d8",
+      "group": "Layout20261112",
+      "sha256": "131982419a380ab48ed2619a8c5917310f0ceeabc7e0c2aa446c22c5590e261e"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/Marker_Ground.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Ground.png",
+      "guid": "eddf12bed32f6ac47ad4a5ab8ad7f0df",
+      "group": "Layout20261112",
+      "sha256": "4f141d7abb3bf338e3f1c141fced01075501b8e17f1d5516902abf6d417e368c"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/Marker_NpcNeedItem.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_NpcNeedItem.png",
+      "guid": "fc55f8d3f64666c40b089a773f4f4a05",
+      "group": "Layout20261112",
+      "sha256": "410d80e8f97fbbb33b36735dff08709e5eef5181fdfbe28c7c9b1a49ad8b0a47"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/Marker_NpcTalk.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_NpcTalk.png",
+      "guid": "7d6c6ca2f3bb88444969f4378d8f38b6",
+      "group": "Layout20261112",
+      "sha256": "bf01a6e32b9a9a56cf0b7762d801589999e22a96a5a4e6555445b33d93e398c2"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/Marker_Puzzle.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Puzzle.png",
+      "guid": "a18d72cffa21b024d840d7bef6462af9",
+      "group": "Layout20261112",
+      "sha256": "03eb988775976885cbed252a9a2f0461e3f722dacbd6610e6f2b994cc47b7728"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/Marker_Quest.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Quest.png",
+      "guid": "a594009578f391d4eb1ae20fa8d423c4",
+      "group": "Layout20261112",
+      "sha256": "3b860755962338342a6d08a7b74546acabed150fe7dd0c24e2e3c73410647dc5"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Markers/Marker_Reward.png",
+      "newPath": "Assets/_Game/Art/UI/Markers/Marker_Reward.png",
+      "guid": "cc35585804661c949a22a136240db6d5",
+      "group": "Layout20261112",
+      "sha256": "ca36129774dfb1d6834cc5f0b2864d28ca833a21fed7c71e0d3a5f034cedb1a8"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/01_hoi_an_H2_tiem_den_co_mai.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/01_hoi_an_H2_tiem_den_co_mai.png",
+      "guid": "247b1cc4f2d741c4db59cad9b0edc181",
+      "group": "Layout20261112",
+      "sha256": "41dc2b2c9edd255a72649fef045bada62cd393cbd8ef72ae0e2d2ed6c4102781"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/02_hoi_an_H3_hem_mai_ngoi.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/02_hoi_an_H3_hem_mai_ngoi.png",
+      "guid": "95b7493cc9ff63f4db475f4f2d464733",
+      "group": "Layout20261112",
+      "sha256": "cf73ab44bad98cf8b409c830856d3d3f3c92aca42976ee579d19a5b1921a1ac3"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/03_hoi_an_H4_cho_ven_song.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/03_hoi_an_H4_cho_ven_song.png",
+      "guid": "1911a6933858d6446a1261fdf486cb60",
+      "group": "Layout20261112",
+      "sha256": "73911f85ee1078a5a0284128108d1a909f5ec5e8d007fdd4a31bbe776932713d"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/04_hoi_an_H6_cau_co_anh_den.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/04_hoi_an_H6_cau_co_anh_den.png",
+      "guid": "268a3773f25105c4c979418f8837ec23",
+      "group": "Layout20261112",
+      "sha256": "9eb2de1176632295e5a3a2bad8de6933311bc38a5f620c15bd0c63791f0c5c0b"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/05_hoi_an_H7_tram_anh_sang_hoi_an.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/05_hoi_an_H7_tram_anh_sang_hoi_an.png",
+      "guid": "ae6538a3f6575f14298485c0870eea9c",
+      "group": "Layout20261112",
+      "sha256": "c824c60d037566e665c0997d3ee55b6a552f29cf142d76e3d2a570ee62af9b13"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/06_hoi_an_H17_ben_do_pho_co.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/06_hoi_an_H17_ben_do_pho_co.png",
+      "guid": "9f215b865808620448a73ee116fd41df",
+      "group": "Layout20261112",
+      "sha256": "7c2cc2bda82bb7f690d7b1d4cac40ed66008ee3686caf3c57932e16ce027b882"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/07_hue_U4_dau_cau_vao_thanh.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/07_hue_U4_dau_cau_vao_thanh.png",
+      "guid": "565a4706fcd54b249af63ec5c5deb070",
+      "group": "Layout20261112",
+      "sha256": "daba19345aeb94b09dcc3b45207ae5d240d8eeb949c724444b9cd4e54d9d7750"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/08_hue_U6_cua_ngo_mon_cach_dieu.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/08_hue_U6_cua_ngo_mon_cach_dieu.png",
+      "guid": "dda4f78bbb33012448b98e8fb40afe94",
+      "group": "Layout20261112",
+      "sha256": "9ae8fe825da66e1b44fe2f1ca84ec3ced8b1d942e8e1905b980697cd65ecbf1f"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/09_da_lat_D0_ben_ho_xuan_huong.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/09_da_lat_D0_ben_ho_xuan_huong.png",
+      "guid": "aced49c3bdf688e45ab038ba9e678a3f",
+      "group": "Layout20261112",
+      "sha256": "9aad81c59eba5e1296d0a8e62655b11b5a5a5f408e49a1bd5afa08f250bec0b4"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/10_da_lat_D14_dai_dan_sang_nui.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/10_da_lat_D14_dai_dan_sang_nui.png",
+      "guid": "0eb05e0bc784f9549b4836c5b12da2e9",
+      "group": "Layout20261112",
+      "sha256": "4bd9001d9a2c5676822ad26e036fcd8c9b05d8428101294d6d6a5d9b04afeee4"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/11_jeonju_J8_cau_da_tay.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/11_jeonju_J8_cau_da_tay.png",
+      "guid": "e634ae5d35e5e0a43b35c0966ee2fbe9",
+      "group": "Layout20261112",
+      "sha256": "a6002391b328992fb9668f5a482d6ef660e3500b7b0b12f592fc141f82ae9db1"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/12_jeonju_J11_dai_ngam_mai_ngoi.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/12_jeonju_J11_dai_ngam_mai_ngoi.png",
+      "guid": "4c7b955967a6db1439f4ee2cef1905ab",
+      "group": "Layout20261112",
+      "sha256": "0c861952ad29ac4fd6466a1bbf1db6509a9e2394692b24d6c97b0062fae5e0bf"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/13_gyeongju_G4_dai_cheomseongdae_duoi_troi_sao.png",
+      "guid": "2cf0df9048ae3c04483427ac114f401e",
+      "group": "Layout20261112",
+      "sha256": "109c6e9c6ca235f99f46dce5d0b5e72b56401b4805f0b440ed75c13de285c078"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/14_gyeongju_G14_kho_ban_khac_di_tich.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/14_gyeongju_G14_kho_ban_khac_di_tich.png",
+      "guid": "8007ee7ad206d924db38f7b6dba892c4",
+      "group": "Layout20261112",
+      "sha256": "5cbeb041ea617f960054480309c4f8dfaea64b738ec65287bcfaaea66b8fc38f"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/15_gyeongju_G17_dai_long_den_bo_tay.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/15_gyeongju_G17_dai_long_den_bo_tay.png",
+      "guid": "d57f4953075ec7340b53013023e3836e",
+      "group": "Layout20261112",
+      "sha256": "b1e21333ed4f78c97aa684ad7c8ca25db2a6233b4e7add1786c8411a4d7a3309"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/16_seoul_S2_cong_thanh_xua_ben_song_han.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/16_seoul_S2_cong_thanh_xua_ben_song_han.png",
+      "guid": "5de406e3254225c44942fb630633f2a3",
+      "group": "Layout20261112",
+      "sha256": "657e8e1d83ac9fd3207a266a83123233f3a3522ddbe3b0fc9a8e3c301c77067d"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/17_seoul_S10_chan_thap_n_seoul.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/17_seoul_S10_chan_thap_n_seoul.png",
+      "guid": "3bc3df9f61adb74429d57747026c401f",
+      "group": "Layout20261112",
+      "sha256": "f8d6cf36a830245385b8799b7c1c297f2d5f82c893a0bb2f64ef0af4d4c9a6a7"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/CheckInLandmarks/20261018_RuntimeDerived/18_seoul_S18_role_anh_den_hanji.png",
+      "newPath": "Assets/_Game/Art/UI/Postcards/20261018_RuntimeDerived/18_seoul_S18_role_anh_den_hanji.png",
+      "guid": "506b1e7dde280494cbce489125f17063",
+      "group": "Layout20261112",
+      "sha256": "6c2724a9bf68bf3fea1b81fa8b3b407e6c289aed044ee765b1ce839acc019ed5"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_DaLat_MistCompass_Source.png",
+      "guid": "5673f2c46b03183448ec8d5c8fb67cde",
+      "group": "Layout20261112",
+      "sha256": "4a300ed9551394a40758140a7bf60508725f496eac2adf62ca48353f6ccf1a00"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+      "guid": "b1c38408f24cc5b4a84e45fff7d26a0f",
+      "group": "Layout20261112",
+      "sha256": "2b0cf2eaa0bfd0ca4b64ca06251adb42c53e4290b9281a1005babcd475843c26"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_HoiAn_Lantern_Source.png",
+      "guid": "350907f3172eebd4c9340a84002a3501",
+      "group": "Layout20261112",
+      "sha256": "8d185c04b98bf723bafc91fe3b24710439c757d6d142a2b8027bca5e0028072d"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_Hue_DragonSeal_Source.png",
+      "guid": "623cab00f7d17024aa2f930ac3a1ae3d",
+      "group": "Layout20261112",
+      "sha256": "81c0820415a44a92256dfc758e119b36133c3e0a4ea59b831ad9ac0711d2e010"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+      "guid": "c05ae4c2fe3fa6b49ac9787285d03f21",
+      "group": "Layout20261112",
+      "sha256": "3adb75d3069fd4f2ba48f43361fffc4f3a353e774c1db285d67d3eb361619934"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/_SourceSheets/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+      "guid": "0b39cc9d42dc56640bc206a885645080",
+      "group": "Layout20261112",
+      "sha256": "d7a458c02fdd86a4e2816569088c13a796b67214b229485776086ab8f7ffa04e"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/_SourceSheets/Enemies_Roster_Concept.png",
+      "newPath": "Assets/_Game/Art/Enemies/Shared/Enemies_Roster_Concept.png",
+      "guid": "f68243708771f8746a5f7a7cc75cc0f3",
+      "group": "Layout20261112",
+      "sha256": "7aa3ef410c2af2a29bf36840b46313f107857a5cbe2d60b41f4845cbbbf9b204"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "newPath": "Assets/_Game/Art/Environment/HoiAn/H3/ArchitectureAtlas.png",
+      "guid": "991ec0ec835754040ab8e94e9b86e8e7",
+      "group": "Layout20261112",
+      "sha256": "a93dd7c9de3afdb6e48c2e4ebaf1695eb1956e589477f3f60829c1faaca38329"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "newPath": "Assets/_Game/Art/UI/H3/BlankPanelsAtlas.png",
+      "guid": "0ad78a1911d980f49b6dcd106132c0ae",
+      "group": "Layout20261112",
+      "sha256": "6863f0d25cdcc741b9995d990aee871fefc8e7b2bf6b8e0a3fc191445f408724"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "newPath": "Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "group": "Layout20261112",
+      "sha256": "7cbef3187db3a532c2ddeb7906e5aaf0a2515c78f02fec086ba9fd7f89d971f3"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/_SourceSheets/ItemSheet_VNKR_FoodCulture_v1.png",
+      "newPath": "Assets/_Game/Art/Items/Shared/ItemSheet_VNKR_FoodCulture_v1.png",
+      "guid": "2cedb033602689a4d820165ed4b034c7",
+      "group": "Layout20261112",
+      "sha256": "2598a2c23f4454d0600e6df7df7c68ead45b666c39d75be9e782353ababa6373"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/LBCFinalHotfix/Seoul_Curator_Transparent.png",
+      "newPath": "Assets/_Game/Art/NPC/Seoul/Seoul_Curator_Transparent.png",
+      "guid": "f0c9bb7901be44e3a8bb69f9af1976dc",
+      "group": "Layout20261112",
+      "sha256": "bc793496d855490f9b912ff85607fc8be5ec6a8b12cc76d5d60bd22cff33c940"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Characters/LBCFinalHotfix/Seoul_Bridge_Bot_Banana.png",
+      "newPath": "Assets/_Game/Art/Enemies/Seoul/Seoul_Bridge_Bot_Banana.png",
+      "guid": "3c6b3beec4cc4e8db7d975a3b2fb0c5d",
+      "group": "Layout20261112",
+      "sha256": "e98b26a394de0e541b1468783b00f7e747871ac78ce666a90ab9740b5fbc76d3"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_HeritageData.png",
+      "newPath": "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_HeritageData.png",
+      "guid": "3d334be31874eca40a4cf79ba05a03b3",
+      "sha256": "4aa4f91059bd990e697e06a3955a7477328cb32ba12f4ce108d12e3914c99742",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_JiwonSync.png",
+      "newPath": "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_JiwonSync.png",
+      "guid": "d263e3258cfe5a948b80272b7aac09fd",
+      "sha256": "a8154dfe6e9e66d2114f0dbb02710774df4f36e0f4fe8e590cb1ca7e1ee0f033",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_StellarRing.png",
+      "newPath": "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_StellarRing.png",
+      "guid": "37a459f297446c847b0742e1a74db5e2",
+      "sha256": "68972451e9c2f61c51ca752284d65676f85043f8a2752096b567d1942fb97af8",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_DaLat_MistCompass_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_DaLat_MistCompass_Source.png",
+      "guid": "5673f2c46b03183448ec8d5c8fb67cde",
+      "sha256": "4a300ed9551394a40758140a7bf60508725f496eac2adf62ca48353f6ccf1a00",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_Gyeongju_StarlightLens_Source.png",
+      "guid": "b1c38408f24cc5b4a84e45fff7d26a0f",
+      "sha256": "2b0cf2eaa0bfd0ca4b64ca06251adb42c53e4290b9281a1005babcd475843c26",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_HoiAn_Lantern_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_HoiAn_Lantern_Source.png",
+      "guid": "350907f3172eebd4c9340a84002a3501",
+      "sha256": "8d185c04b98bf723bafc91fe3b24710439c757d6d142a2b8027bca5e0028072d",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Hue_DragonSeal_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_Hue_DragonSeal_Source.png",
+      "guid": "623cab00f7d17024aa2f930ac3a1ae3d",
+      "sha256": "81c0820415a44a92256dfc758e119b36133c3e0a4ea59b831ad9ac0711d2e010",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_Jeonju_HanjiSeal_Source.png",
+      "guid": "c05ae4c2fe3fa6b49ac9787285d03f21",
+      "sha256": "3adb75d3069fd4f2ba48f43361fffc4f3a353e774c1db285d67d3eb361619934",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/SourceReferences/CulturalArtifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+      "newPath": "Assets/_Game/Art/Relics/Artifacts/Artifact_Seoul_ThreeRelayPrism_Source.png",
+      "guid": "0b39cc9d42dc56640bc206a885645080",
+      "sha256": "d7a458c02fdd86a4e2816569088c13a796b67214b229485776086ab8f7ffa04e",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/SourceReferences/Enemies_Roster_Concept.png",
+      "newPath": "Assets/_Game/Art/Enemies/Shared/Enemies_Roster_Concept.png",
+      "guid": "f68243708771f8746a5f7a7cc75cc0f3",
+      "sha256": "7aa3ef410c2af2a29bf36840b46313f107857a5cbe2d60b41f4845cbbbf9b204",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/SourceReferences/ItemSheet_VNKR_FoodCulture_v1.png",
+      "newPath": "Assets/_Game/Art/Items/Shared/ItemSheet_VNKR_FoodCulture_v1.png",
+      "guid": "2cedb033602689a4d820165ed4b034c7",
+      "sha256": "2598a2c23f4454d0600e6df7df7c68ead45b666c39d75be9e782353ababa6373",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_02_Environment_Architecture_Props.png",
+      "newPath": "Assets/_Game/Art/Environment/HoiAn/H3/ArchitectureAtlas.png",
+      "guid": "991ec0ec835754040ab8e94e9b86e8e7",
+      "sha256": "a93dd7c9de3afdb6e48c2e4ebaf1695eb1956e589477f3f60829c1faaca38329",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_05_UI_BlankPanels_Sheet.png",
+      "newPath": "Assets/_Game/Art/UI/H3/BlankPanelsAtlas.png",
+      "guid": "0ad78a1911d980f49b6dcd106132c0ae",
+      "sha256": "6863f0d25cdcc741b9995d990aee871fefc8e7b2bf6b8e0a3fc191445f408724",
+      "group": "FunctionalArt20261112"
+    },
+    {
+      "oldPath": "Assets/_Game/Art/SourceReferences/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png",
+      "newPath": "Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png",
+      "guid": "ab62ba1e558f7274984500bb1cac18f6",
+      "sha256": "7cbef3187db3a532c2ddeb7906e5aaf0a2515c78f02fec086ba9fd7f89d971f3",
+      "group": "FunctionalArt20261112"
     }
   ]
 }

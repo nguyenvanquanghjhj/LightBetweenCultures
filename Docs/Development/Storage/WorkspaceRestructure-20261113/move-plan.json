@@ -1,0 +1,1837 @@
+[
+  {
+    "old": "Backups/Catventure-GameplayFix-20261109-144151",
+    "new": "_LBC_ARCHIVE/Backups/Catventure-GameplayFix-20261109-144151",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/Catventure-Patch-20261109-20261109-135215",
+    "new": "_LBC_ARCHIVE/Backups/Catventure-Patch-20261109-20261109-135215",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/Catventure-UX-20261109-20261109-150612",
+    "new": "_LBC_ARCHIVE/Backups/Catventure-UX-20261109-20261109-150612",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointAndroidApkBuild-20261019",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointAndroidApkBuild-20261019",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointAppearance-20261021",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointAppearance-20261021",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointBeforeFTUE-20261109-152433",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointBeforeFTUE-20261109-152433",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointCatventure-20261107",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointCatventure-20261107",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointCatventureLabelsLayout-20261107",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointCatventureLabelsLayout-20261107",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointFinalUX-20261023",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointFinalUX-20261023",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointGelButtons-20261020",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointGelButtons-20261020",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointHueSnap-20261021",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointHueSnap-20261021",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointJourneyShop-20261021",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointJourneyShop-20261021",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointNodePanelCompact-20261024",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointNodePanelCompact-20261024",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointNpcApproachButtons-20261020",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointNpcApproachButtons-20261020",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointPreCatventure-20261107",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointPreCatventure-20261107",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointRC1-20261024",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointRC1-20261024",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointShopToolbar-20261021",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointShopToolbar-20261021",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/CheckpointTouchNpcDialogue-20261020",
+    "new": "_LBC_ARCHIVE/Checkpoints/CheckpointTouchNpcDialogue-20261020",
+    "role": "protected restore point"
+  },
+  {
+    "old": "Backups/LBC_SourceVerified-20261020",
+    "new": "_LBC_ARCHIVE/Backups/LBC_SourceVerified-20261020",
+    "role": "protected restore point"
+  },
+  {
+    "old": "LBC_FINAL_PREPATCH_BACKUP_20261110",
+    "new": "_LBC_ARCHIVE/Backups/LBC_FINAL_PREPATCH_BACKUP_20261110",
+    "role": "protected submission-era backup"
+  },
+  {
+    "old": "LBC_SEOUL_STORM_BOT_BACKUP_20261110_2209",
+    "new": "_LBC_ARCHIVE/Backups/LBC_SEOUL_STORM_BOT_BACKUP_20261110_2209",
+    "role": "protected submission-era backup"
+  },
+  {
+    "old": "LightBetweenCultures-ArtArchive-20261113",
+    "new": "_LBC_ARCHIVE/HistoricalArt/SourceArchive-20261113",
+    "role": "protected original art and metadata"
+  },
+  {
+    "old": "catventure_checkpoint.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/CheckpointTools/catventure_checkpoint.py",
+    "role": "historical checkpoint generator; do not run"
+  },
+  {
+    "old": "debug.log",
+    "new": "_LBC_WORK/Logs/Workspace-debug.log",
+    "role": "diagnostic log"
+  },
+  {
+    "old": "inspect_relic_crop.png",
+    "new": "_LBC_WORK/Debug/inspect_relic_crop.png",
+    "role": "diagnostic crop; not game art"
+  },
+  {
+    "old": "Deliveries/LBC_10Story_12Leisure_NodeTriggered_20261019",
+    "new": "_LBC_DELIVERABLES/Handoffs/LBC_10Story_12Leisure_NodeTriggered_20261019",
+    "role": "original handoff"
+  },
+  {
+    "old": "LightBetweenCultures/Backups/AndroidBuildParamsQA-20261110",
+    "new": "_LBC_ARCHIVE/Backups/Project/AndroidBuildParamsQA-20261110",
+    "role": "protected project backup"
+  },
+  {
+    "old": "LightBetweenCultures/Backups/CatMazeQA-20261110",
+    "new": "_LBC_ARCHIVE/Backups/Project/CatMazeQA-20261110",
+    "role": "protected project backup"
+  },
+  {
+    "old": "LightBetweenCultures/Backups/MarkerSemanticsQA-20261110",
+    "new": "_LBC_ARCHIVE/Backups/Project/MarkerSemanticsQA-20261110",
+    "role": "protected project backup"
+  },
+  {
+    "old": "LightBetweenCultures/Backups/SlideWeather-Patch-20261109-220704",
+    "new": "_LBC_ARCHIVE/Backups/Project/SlideWeather-Patch-20261109-220704",
+    "role": "protected project backup"
+  },
+  {
+    "old": "LightBetweenCultures/Backups/WeatherStory5Fix-20261109-230030",
+    "new": "_LBC_ARCHIVE/Backups/Project/WeatherStory5Fix-20261109-230030",
+    "role": "protected project backup"
+  },
+  {
+    "old": "LightBetweenCultures/_LBC_FINAL_BACKUP_20261110",
+    "new": "_LBC_ARCHIVE/Backups/Project/_LBC_FINAL_BACKUP_20261110",
+    "role": "protected project backup"
+  },
+  {
+    "old": "LightBetweenCultures/_LBC_ONE_PATCH_BACKUP_20261110",
+    "new": "_LBC_ARCHIVE/Backups/Project/_LBC_ONE_PATCH_BACKUP_20261110",
+    "role": "protected project backup"
+  },
+  {
+    "old": "LightBetweenCultures/LBC_FINAL_ONE_20261110",
+    "new": "_LBC_ARCHIVE/HistoricalPatches/LBC_FINAL_ONE_20261110",
+    "role": "historical patch bundle"
+  },
+  {
+    "old": "LightBetweenCultures/LBC_ONE_PATCH_20261110",
+    "new": "_LBC_ARCHIVE/HistoricalPatches/LBC_ONE_PATCH_20261110",
+    "role": "historical patch bundle"
+  },
+  {
+    "old": "LightBetweenCultures/Builds/README.txt",
+    "new": "_LBC_ARCHIVE/HistoricalSources/ReleaseNotes/README.txt",
+    "role": "historical release pointer"
+  },
+  {
+    "old": "LightBetweenCultures/Builds/Submission-20261111/Android",
+    "new": "_LBC_DELIVERABLES/Android/Submission-20261111/Android",
+    "role": "preserved delivery bytes"
+  },
+  {
+    "old": "LightBetweenCultures/Builds/Submission-20261111/Windows",
+    "new": "_LBC_DELIVERABLES/Windows/Submission-20261111/Windows",
+    "role": "preserved delivery bytes"
+  },
+  {
+    "old": "LightBetweenCultures/Builds/Submission-20261111-ArtFix/Android",
+    "new": "_LBC_DELIVERABLES/Android/Submission-20261111-ArtFix/Android",
+    "role": "preserved delivery bytes"
+  },
+  {
+    "old": "LightBetweenCultures/Builds/Submission-20261111-ArtFix/Windows",
+    "new": "_LBC_DELIVERABLES/Windows/Submission-20261111-ArtFix/Windows",
+    "role": "preserved delivery bytes"
+  },
+  {
+    "old": "LightBetweenCultures/Builds/Submission-20261111-ArtFix/Windows.zip",
+    "new": "_LBC_DELIVERABLES/Windows/Submission-20261111-ArtFix/Windows.zip",
+    "role": "preserved delivery bytes"
+  },
+  {
+    "old": "LightBetweenCultures/Submission/KGW2026",
+    "new": "_LBC_DELIVERABLES/CompetitionSubmission/KGW2026",
+    "role": "competition submission; immutable"
+  },
+  {
+    "old": "LightBetweenCultures/ReviewPacks",
+    "new": "_LBC_DELIVERABLES/Handoffs/ReviewPacks",
+    "role": "review handoffs"
+  },
+  {
+    "old": "LightBetweenCultures/build",
+    "new": "_LBC_WORK/Logs/PreviousBuildOutput",
+    "role": "previous build log"
+  },
+  {
+    "old": "LightBetweenCultures/debug.log",
+    "new": "_LBC_WORK/Logs/Project-debug.log",
+    "role": "diagnostic log"
+  },
+  {
+    "old": "LightBetweenCultures/FINAL_QA_REPORT.md",
+    "new": "LightBetweenCultures/Docs/QA/FINAL_QA_REPORT.md",
+    "role": "current QA report"
+  },
+  {
+    "old": "LightBetweenCultures/README_AUDIO_MAPPING.txt",
+    "new": "LightBetweenCultures/Docs/Development/README_AUDIO_MAPPING.txt",
+    "role": "audio authoring reference"
+  },
+  {
+    "old": "LightBetweenCultures/RELEASE_FREEZE.md",
+    "new": "LightBetweenCultures/Docs/Release/RELEASE_FREEZE.md",
+    "role": "release policy"
+  },
+  {
+    "old": "LightBetweenCultures/References/ImportSources",
+    "new": "LightBetweenCultures/Tools/Import/Sources",
+    "role": "tracked authoring inputs required for reproducible imports"
+  },
+  {
+    "old": "LightBetweenCultures/References/MarkerDesign",
+    "new": "LightBetweenCultures/Tools/Import/Sources/MarkerDesign",
+    "role": "tracked marker authoring inputs"
+  },
+  {
+    "old": "LightBetweenCultures/References/NeedsReview",
+    "new": "_LBC_ARCHIVE/HistoricalArt/NeedsReview",
+    "role": "unreviewed derivatives preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/10Story12Leisure-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/10Story12Leisure-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AdventureUI-20261016",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/AdventureUI-20261016",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AndroidApk-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/AndroidApk-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AndroidAutoPlay-20261024",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/AndroidAutoPlay-20261024",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AndroidTouch-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/AndroidTouch-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AppliedRouteReferences-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/AppliedRouteReferences-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ArchitectureRefactor-20261112-after.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/ArchitectureRefactor-20261112-after.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ArchitectureRefactor-20261112-before.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/ArchitectureRefactor-20261112-before.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ArchitectureRefactor-20261112-final-route-checks.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/ArchitectureRefactor-20261112-final-route-checks.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ArchitectureRefactor-20261112-final-route-results.json",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/ArchitectureRefactor-20261112-final-route-results.json",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ArchitectureRefactor-20261112-fresh-map",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/ArchitectureRefactor-20261112-fresh-map",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ArchitectureRefactor-20261112-fresh-map.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/ArchitectureRefactor-20261112-fresh-map.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ArchitectureRefactor-20261112-licensed-retry.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/ArchitectureRefactor-20261112-licensed-retry.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ArchitectureRefactor-20261112-route-checks.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/ArchitectureRefactor-20261112-route-checks.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ArchitectureRefactor-20261112-route-results.json",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/ArchitectureRefactor-20261112-route-results.json",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Art",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Art",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ArtLibrary-20261016",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/ArtLibrary-20261016",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AssetCleanup-20261112-acceptance.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/AssetCleanup-20261112-acceptance.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AssetCleanup-20261112-after.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/AssetCleanup-20261112-after.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AssetCleanup-20261112-before-retry.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/AssetCleanup-20261112-before-retry.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AssetCleanup-20261112-before.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/AssetCleanup-20261112-before.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AssetCleanup-20261112-domain",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/AssetCleanup-20261112-domain",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AssetCleanup-20261112-final.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/AssetCleanup-20261112-final.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AssetCleanup-20261112-layout-final.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/AssetCleanup-20261112-layout-final.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/AssetCleanup-20261112-post-cache.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/AssetCleanup-20261112-post-cache.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/CasualAdventure-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/CasualAdventure-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/CasualRuntime-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/CasualRuntime-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Catventure-20261107",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Catventure-20261107",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Catventure-Gameplay-20261109",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Catventure-Gameplay-20261109",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Catventure-LabelsLayout-20261107",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Catventure-LabelsLayout-20261107",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Catventure-UX-20261109",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Catventure-UX-20261109",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Catventure-Visible-20261109",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Catventure-Visible-20261109",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/CheckInArt-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/CheckInArt-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/CityMapNatural-20261016",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/CityMapNatural-20261016",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/CityMapUIPolish-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/CityMapUIPolish-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ComprehensiveQA-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/ComprehensiveQA-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ContestReadiness-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/ContestReadiness-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/CreditsCopy-20261024",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/CreditsCopy-20261024",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/CrossCityFood-20261016",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/CrossCityFood-20261016",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/DaLatChapter-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/DaLatChapter-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/DialogueRelease-20261024",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/DialogueRelease-20261024",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/EndingSmooth-20261111",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/EndingSmooth-20261111",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ExplorationMarkers-20261016",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/ExplorationMarkers-20261016",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FinalGameplayAndroid-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FinalGameplayAndroid-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FinalPolish-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FinalPolish-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FinalQA-20261110",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FinalQA-20261110",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FinalQA-20261111",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FinalQA-20261111",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FinalQA-20261111-Rerun",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FinalQA-20261111-Rerun",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FinalUX-20261023",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FinalUX-20261023",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FourTrackMusic-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FourTrackMusic-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FreshPlaythrough-20261111",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FreshPlaythrough-20261111",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FTUE-20261109",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FTUE-20261109",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FullGame-20261025",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FullGame-20261025",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FullGame-Catventure-20261107",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FullGame-Catventure-20261107",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FullRegression-20261025",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FullRegression-20261025",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/FullStory-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/FullStory-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/GameplayAB-20261016",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/GameplayAB-20261016",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/GelButtons-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/GelButtons-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/GenuinelyFun-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/GenuinelyFun-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/H3TapPickup-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/H3TapPickup-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/H3Upgrade-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/H3Upgrade-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/HoiAnLighting-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/HoiAnLighting-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/HoiAnLightingB20-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/HoiAnLightingB20-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/HueJeonjuChapters-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/HueJeonjuChapters-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/HueSnap-20261021",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/HueSnap-20261021",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/HueTwoBuildings-20261021",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/HueTwoBuildings-20261021",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/JourneyShop-20261021",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/JourneyShop-20261021",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/LBC_FINAL_ONE_20261110-compile.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/LBC_FINAL_ONE_20261110-compile.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/LBC_FINAL_ONE_20261110-windows-build.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/LBC_FINAL_ONE_20261110-windows-build.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/LBC_ONE_PATCH_20261110-compile-2.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/LBC_ONE_PATCH_20261110-compile-2.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/LBC_ONE_PATCH_20261110-compile.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/LBC_ONE_PATCH_20261110-compile.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/LBC_ONE_PATCH_20261110-windows-build.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/LBC_ONE_PATCH_20261110-windows-build.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/LeisureActivitiesFullReview-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/LeisureActivitiesFullReview-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/LeisureAnimationPilot-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/LeisureAnimationPilot-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/LeisureVisualFix-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/LeisureVisualFix-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/MapActorsStage1-20261016",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/MapActorsStage1-20261016",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/MapClarity-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/MapClarity-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/MapNpcMarkers-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/MapNpcMarkers-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/MapPhase1",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/MapPhase1",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/MarkerSprites-20261016",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/MarkerSprites-20261016",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/NodeMarkers-20261016",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/NodeMarkers-20261016",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/NodePanelCompact-20261024",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/NodePanelCompact-20261024",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/NpcAppearance-20261021",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/NpcAppearance-20261021",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/NpcPlacement-20261025",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/NpcPlacement-20261025",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/NpcReuse-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/NpcReuse-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/NpcStandingButtons-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/NpcStandingButtons-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/OptionalQuestions-20261024",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/OptionalQuestions-20261024",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/OwnerConfusion-20261020",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/OwnerConfusion-20261020",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/OwnerRoutePhaseB-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/OwnerRoutePhaseB-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/OwnerRouteRedesign-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/OwnerRouteRedesign-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/PcGameplayFix-20261024",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/PcGameplayFix-20261024",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Phase4-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Phase4-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Phase5-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Phase5-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Phase6-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Phase6-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Phase7-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Phase7-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/PlayerExperience-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/PlayerExperience-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/PlaytestRelease-20261021",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/PlaytestRelease-20261021",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/PortraitStory-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/PortraitStory-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/QualityAddendum-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/QualityAddendum-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Release-1.1.3",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Release-1.1.3",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ReleaseCandidate-20261024",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/ReleaseCandidate-20261024",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ReleaseReadiness-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/ReleaseReadiness-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/RelicPilot-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/RelicPilot-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/RelicStory-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/RelicStory-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/RenderQuality-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/RenderQuality-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/RouteMarkupExport-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/RouteMarkupExport-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/RouteRedesign35-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/RouteRedesign35-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/RouteShorteningProposal-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/RouteShorteningProposal-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/SeoulBotStorm-compile-20261110.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/SeoulBotStorm-compile-20261110.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/SeoulBotStorm-windows-build-20261110.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/SeoulBotStorm-windows-build-20261110.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ShopToolbar-20261021",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/ShopToolbar-20261021",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/SixCityRouteEditor-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/SixCityRouteEditor-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/SlideWeather-20261109",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/SlideWeather-20261109",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/SoftSfx-20261018",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/SoftSfx-20261018",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/SpecialtyItems-20261016",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/SpecialtyItems-20261016",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Submission-20261111",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Submission-20261111",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Submission-20261111-ArtFix",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Submission-20261111-ArtFix",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Submission-20261111-ArtFix-android-build.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Submission-20261111-ArtFix-android-build.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Submission-20261111-ArtFix-apply-elevated.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Submission-20261111-ArtFix-apply-elevated.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Submission-20261111-ArtFix-apply.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Submission-20261111-ArtFix-apply.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Submission-20261111-ArtFix-windows-build.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Submission-20261111-ArtFix-windows-build.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/SwingStanding-20261019",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/SwingStanding-20261019",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/TerrainRoutes-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/TerrainRoutes-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/ThreeNpc-20261024",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/ThreeNpc-20261024",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/UI1ArtDirection-20261016",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/UI1ArtDirection-20261016",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/UnusedAssets-20261113",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/UnusedAssets-20261113",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/UnusedAssets-20261113-after.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/UnusedAssets-20261113-after.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/UnusedAssets-20261113-before.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/UnusedAssets-20261113-before.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/UnusedAssets-20261113-domain",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/UnusedAssets-20261113-domain",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/UnusedAssets-20261113-editor-journey.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/UnusedAssets-20261113-editor-journey.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/UnusedAssets-20261113-player-build.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/UnusedAssets-20261113-player-build.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/WeatherStory5Fix-20261109",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/WeatherStory5Fix-20261109",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/Windows-FinalSubmission-20261110.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/Windows-FinalSubmission-20261110.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/windows-playtest-build-20261029-elevated.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/windows-playtest-build-20261029-elevated.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/windows-playtest-build-20261029-final.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/windows-playtest-build-20261029-final.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/windows-playtest-build-20261029-retry.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/windows-playtest-build-20261029-retry.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/windows-playtest-build-20261029.log",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/windows-playtest-build-20261029.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/WorkspaceRestructure-20261113-catalog-prepare.log",
+    "new": "_LBC_WORK/QA/LightBetweenCultures/WorkspaceRestructure-20261113-catalog-prepare.log",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Validation/WorldReactionsV2-20261017",
+    "new": "_LBC_ARCHIVE/HistoricalQA/Validation/WorldReactionsV2-20261017",
+    "role": "QA evidence; preserved"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Art/NpcIdentityLock-20261017/BeforeFiles",
+    "new": "_LBC_ARCHIVE/HistoricalSources/DocumentSnapshots/Art/NpcIdentityLock-20261017/BeforeFiles",
+    "role": "protected historical source snapshot"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Art/NpcIdentityLock-20261017/WithdrawnDraft",
+    "new": "_LBC_ARCHIVE/HistoricalSources/DocumentSnapshots/Art/NpcIdentityLock-20261017/WithdrawnDraft",
+    "role": "protected historical source snapshot"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Art/NpcReuse-20261017/BeforeFiles",
+    "new": "_LBC_ARCHIVE/HistoricalSources/DocumentSnapshots/Art/NpcReuse-20261017/BeforeFiles",
+    "role": "protected historical source snapshot"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Contest/KGW2026/before-source",
+    "new": "_LBC_ARCHIVE/HistoricalSources/DocumentSnapshots/Contest/KGW2026/before-source",
+    "role": "protected historical source snapshot"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/H3Upgrade-20261017/BeforeFiles",
+    "new": "_LBC_ARCHIVE/HistoricalSources/DocumentSnapshots/H3Upgrade-20261017/BeforeFiles",
+    "role": "protected historical source snapshot"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/QualityAddendum-20261017/BeforeFiles",
+    "new": "_LBC_ARCHIVE/HistoricalSources/DocumentSnapshots/QualityAddendum-20261017/BeforeFiles",
+    "role": "protected historical source snapshot"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/RenderQuality-20261017/BeforeFiles",
+    "new": "_LBC_ARCHIVE/HistoricalSources/DocumentSnapshots/RenderQuality-20261017/BeforeFiles",
+    "role": "protected historical source snapshot"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Catventure",
+    "new": "LightBetweenCultures/Docs/Development/Catventure",
+    "role": "development documentation/configuration"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Chapters",
+    "new": "LightBetweenCultures/Docs/Development/Chapters",
+    "role": "development documentation/configuration"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Gameplay",
+    "new": "LightBetweenCultures/Docs/Development/Gameplay",
+    "role": "development documentation/configuration"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/H3Upgrade-20261017",
+    "new": "LightBetweenCultures/Docs/Development/H3Upgrade-20261017",
+    "role": "development documentation/configuration"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Maps",
+    "new": "LightBetweenCultures/Docs/Development/Maps",
+    "role": "development documentation/configuration"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Prompts",
+    "new": "LightBetweenCultures/Docs/Development/Prompts",
+    "role": "development documentation/configuration"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Puzzles",
+    "new": "LightBetweenCultures/Docs/Development/Puzzles",
+    "role": "development documentation/configuration"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/QualityAddendum-20261017",
+    "new": "LightBetweenCultures/Docs/Development/QualityAddendum-20261017",
+    "role": "development documentation/configuration"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/RenderQuality-20261017",
+    "new": "LightBetweenCultures/Docs/Development/RenderQuality-20261017",
+    "role": "development documentation/configuration"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Requests",
+    "new": "LightBetweenCultures/Docs/Development/Requests",
+    "role": "development documentation/configuration"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Story",
+    "new": "LightBetweenCultures/Docs/Development/Story",
+    "role": "development documentation/configuration"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Storage/20261017",
+    "new": "LightBetweenCultures/Docs/Development/Storage/20261017",
+    "role": "preserved audit evidence"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Storage/AssetCleanup-20261112",
+    "new": "LightBetweenCultures/Docs/Development/Storage/AssetCleanup-20261112",
+    "role": "preserved audit evidence"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Storage/DeepCleanup-20261020",
+    "new": "LightBetweenCultures/Docs/Development/Storage/DeepCleanup-20261020",
+    "role": "preserved audit evidence"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Storage/SafeCleanup-20261019",
+    "new": "LightBetweenCultures/Docs/Development/Storage/SafeCleanup-20261019",
+    "role": "preserved audit evidence"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Storage/SafeCleanup-20261023",
+    "new": "LightBetweenCultures/Docs/Development/Storage/SafeCleanup-20261023",
+    "role": "preserved audit evidence"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Storage/UnusedAssets-20261113",
+    "new": "LightBetweenCultures/Docs/Development/Storage/UnusedAssets-20261113",
+    "role": "preserved audit evidence"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/Contest",
+    "new": "LightBetweenCultures/Docs/Release/Contest",
+    "role": "competition/release documentation"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/AdventureUIAssetNotes.md",
+    "new": "LightBetweenCultures/Docs/Development/AdventureUIAssetNotes.md",
+    "role": "development reference"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/CityMapUIPolish-TaskScope-20261017.md",
+    "new": "LightBetweenCultures/Docs/Development/CityMapUIPolish-TaskScope-20261017.md",
+    "role": "development reference"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/MapActorsEnemyArtMapping.md",
+    "new": "LightBetweenCultures/Docs/Development/MapActorsEnemyArtMapping.md",
+    "role": "development reference"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/MapActorsStage1Prompts.json",
+    "new": "LightBetweenCultures/Docs/Development/MapActorsStage1Prompts.json",
+    "role": "development reference"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/NodeMarkers.md",
+    "new": "LightBetweenCultures/Docs/Development/NodeMarkers.md",
+    "role": "development reference"
+  },
+  {
+    "old": "LightBetweenCultures/Docs/UI1ArtPrompts.json",
+    "new": "LightBetweenCultures/Docs/Development/UI1ArtPrompts.json",
+    "role": "development reference"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/adventure_ui_evidence.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/adventure_ui_evidence.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/android_apk_checkpoint.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/android_apk_checkpoint.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/android_apk_closeout.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/android_apk_closeout.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/android_autoplay.py",
+    "new": "LightBetweenCultures/Tools/QA/android_autoplay.py",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/android_icon_handoff.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/android_icon_handoff.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/appearance_delivery.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/appearance_delivery.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/appearance_revision_audit.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/appearance_revision_audit.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/applied_route_reference_suite.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/applied_route_reference_suite.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/apply_approved_route_references.py",
+    "new": "LightBetweenCultures/Tools/Import/apply_approved_route_references.py",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/apply_deep_storage_cleanup.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/apply_deep_storage_cleanup.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/apply_route35_geometry.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/apply_route35_geometry.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/art_asset_catalog.py",
+    "new": "LightBetweenCultures/Tools/Import/art_asset_catalog.py",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/author_catventure.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/author_catventure.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/author_dalat_chapter.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/author_dalat_chapter.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/author_full_story.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/author_full_story.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/author_hue_jeonju_chapters.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/author_hue_jeonju_chapters.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/build_kgw2026_pitch.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/CompetitionTools/build_kgw2026_pitch.py",
+    "role": "historical competition generator tied to frozen baseline; preserved, not current build pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/casual_adventure.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/casual_adventure.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/chapter_evidence.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/chapter_evidence.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/check_catventure_delivery.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/check_catventure_delivery.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/check_gameplay_hotfix.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/check_gameplay_hotfix.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/checkpoint_appearance_revision.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/checkpoint_appearance_revision.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/checkpoint_journey_shop.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/checkpoint_journey_shop.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/checkpoint_leisure_animation_pilot.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/checkpoint_leisure_animation_pilot.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/checkpoint_leisure_full.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/checkpoint_leisure_full.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/checkpoint_player_experience_20261019.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/checkpoint_player_experience_20261019.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/checkpoint_route_player_correction_20261019.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/checkpoint_route_player_correction_20261019.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/citymap_ui_polish.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/citymap_ui_polish.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/compile_catventure.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/compile_catventure.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/cross_city_evidence.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/cross_city_evidence.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/cross_city_opening.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/cross_city_opening.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/dalat_evidence.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/dalat_evidence.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/deep_storage_allowlist.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/deep_storage_allowlist.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/deep_storage_cleanup.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/deep_storage_cleanup.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/deep_storage_finish.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/deep_storage_finish.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/deep_storage_plan.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/deep_storage_plan.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/digitize_owner_routes_20261019.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/digitize_owner_routes_20261019.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/export_applied_route_references.py",
+    "new": "LightBetweenCultures/Tools/Import/export_applied_route_references.py",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/export_route_markup.py",
+    "new": "LightBetweenCultures/Tools/Import/export_route_markup.py",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/final_game_qa.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/final_game_qa.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/final_game_qa_runs.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/final_game_qa_runs.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/final_polish_recovery_closeout.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/final_polish_recovery_closeout.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/final_polish_validation.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/final_polish_validation.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/finalize_applied_route_references.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/finalize_applied_route_references.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/finalize_catventure.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/finalize_catventure.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/finalize_catventure_labels_layout.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/finalize_catventure_labels_layout.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/finalize_checkin_art_review.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/finalize_checkin_art_review.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/finalize_leisure_animation_pilot.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/finalize_leisure_animation_pilot.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/finalize_leisure_full.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/finalize_leisure_full.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/finalize_route35_review.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/finalize_route35_review.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/finalize_route_player_review_20261019.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/finalize_route_player_review_20261019.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/finalize_swing_standing.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/finalize_swing_standing.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/four_track_music_checkpoint.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/four_track_music_checkpoint.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/full_story_evidence.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/full_story_evidence.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/full_story_geometry_art.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/full_story_geometry_art.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/game_feel.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/game_feel.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/game_feel_runs.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/game_feel_runs.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/h3_evidence.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/h3_evidence.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/h3_tap_ux.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/h3_tap_ux.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/hue_two_buildings_preview.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/hue_two_buildings_preview.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/import_gameplay_content.py",
+    "new": "LightBetweenCultures/Tools/Import/import_gameplay_content.py",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/journey_shop_audit.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/journey_shop_audit.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/leisure_animation_pilot_validation.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/leisure_animation_pilot_validation.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/leisure_full_validation.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/leisure_full_validation.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/leisure_visual_fix.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/leisure_visual_fix.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/map_natural_evidence.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/map_natural_evidence.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/map_route_review.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/map_route_review.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/map_route_terrain_audit.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/map_route_terrain_audit.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/npc_identity_inventory.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/npc_identity_inventory.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/owner_confusion_finalize.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/owner_confusion_finalize.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/owner_confusion_fix.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/owner_confusion_fix.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/owner_route_b_checkpoint.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/owner_route_b_checkpoint.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/owner_route_b_delivery.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/owner_route_b_delivery.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/owner_route_phase_b.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/owner_route_phase_b.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/package_kgw2026.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/CompetitionTools/package_kgw2026.py",
+    "role": "historical competition generator tied to frozen baseline; preserved, not current build pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase4_checkpoint.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase4_checkpoint.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase4_report.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase4_report.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase4_validation.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase4_validation.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase4_verify.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase4_verify.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase5_checkpoint.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase5_checkpoint.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase5_report.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase5_report.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase5_suite.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase5_suite.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase5_validation.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase5_validation.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase5_verify.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase5_verify.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase6_checkpoint.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase6_checkpoint.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase6_report.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase6_report.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase6_validation.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase6_validation.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase6_verify.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase6_verify.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase7_bot_alpha.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase7_bot_alpha.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase7_checkpoint.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase7_checkpoint.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase7_closeout.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase7_closeout.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase7_inventory.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase7_inventory.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase7_report.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase7_report.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/phase7_validation.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/phase7_validation.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/player_experience_patch_20261019.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/player_experience_patch_20261019.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/portrait_story_audit.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/portrait_story_audit.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/portrait_story_evidence.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/portrait_story_evidence.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/prepare_catventure_assets.py",
+    "new": "LightBetweenCultures/Tools/Import/prepare_catventure_assets.py",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/prepare_checkin_runtime.py",
+    "new": "LightBetweenCultures/Tools/Import/prepare_checkin_runtime.py",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_content_20261025.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_content_20261025.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_followup_20261025.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_followup_20261025.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_four_track_music.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_four_track_music.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_full_20261025.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_full_20261025.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_hoi_an_lighting.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_hoi_an_lighting.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_hoi_an_state_b20.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_hoi_an_state_b20.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_hoi_an_state_b20.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_hoi_an_state_b20.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_last_20261025.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_last_20261025.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_map_npc_markers.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_map_npc_markers.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_map_npc_markers.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_map_npc_markers.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_report_20261025.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_report_20261025.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_soft_sfx.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_soft_sfx.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/qa_supplement_20261025.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/qa_supplement_20261025.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/quality_addendum.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/quality_addendum.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/render_quality_audit.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/render_quality_audit.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/render_quality_evidence.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/render_quality_evidence.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/report_player_experience_20261019.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/report_player_experience_20261019.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/restore_portrait_project_configuration.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/restore_portrait_project_configuration.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/review_owner_routes_20261019.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/review_owner_routes_20261019.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/route_correction_followup_20261019.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/route_correction_followup_20261019.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/route_ux_correction_20261019.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/route_ux_correction_20261019.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/run_catventure_domain.py",
+    "new": "LightBetweenCultures/Tools/QA/run_catventure_domain.py",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/run_pc_gameplay_20261024.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/run_pc_gameplay_20261024.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/storage_cleanup.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/storage_cleanup.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/story_leisure_report.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/story_leisure_report.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/story_leisure_suite.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/story_leisure_suite.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/story_leisure_validation.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/story_leisure_validation.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/synthesize_soft_sfx.py",
+    "new": "LightBetweenCultures/Tools/Import/synthesize_soft_sfx.py",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/terrain_evidence.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/terrain_evidence.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/terrain_routes.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/terrain_routes.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/validate_applied_route_references.ps1",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/validate_applied_route_references.ps1",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/validate_catventure.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/validate_catventure.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/verify_android_apk.ps1",
+    "new": "LightBetweenCultures/Tools/Build/verify_android_apk.ps1",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/verify_applied_route_references.py",
+    "new": "LightBetweenCultures/Tools/QA/verify_applied_route_references.py",
+    "role": "maintained pipeline"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/verify_catventure_apk.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/verify_catventure_apk.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/verify_leisure_animation_pilot.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/verify_leisure_animation_pilot.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/verify_leisure_full.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/verify_leisure_full.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/verify_player_experience_20261019.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/verify_player_experience_20261019.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/verify_route_correction_20261019.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/OneTimeTools/verify_route_correction_20261019.py",
+    "role": "historical one-time tool; no C# pipeline invocation found"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/CatRescueTests",
+    "new": "LightBetweenCultures/Tools/QA/CatRescueTests",
+    "role": "maintained domain regression"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/SixCityRouteEditor",
+    "new": "LightBetweenCultures/Tools/Import/SixCityRouteEditor",
+    "role": "maintained route authoring tool"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Maintenance/migrate_project_layout.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/MaintenanceRuns/migrate_project_layout.py",
+    "role": "completed historical migration/check"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Maintenance/finalize_project_layout.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/MaintenanceRuns/finalize_project_layout.py",
+    "role": "completed historical migration/check"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Maintenance/cleanup_generated_gradle.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/MaintenanceRuns/cleanup_generated_gradle.py",
+    "role": "completed historical migration/check"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Maintenance/eliminate_unused_art.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/MaintenanceRuns/eliminate_unused_art.py",
+    "role": "completed historical migration/check"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Maintenance/verify_project_layout.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/MaintenanceRuns/verify_project_layout.py",
+    "role": "completed historical migration/check"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Maintenance/verify_unused_assets.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/MaintenanceRuns/verify_unused_assets.py",
+    "role": "completed historical migration/check"
+  }
+]

@@ -15,7 +15,7 @@ namespace LightBetweenCultures.Editor
         [MenuItem("Tools/Light Between Cultures/Import Adventure UI")]
         public static void Apply()
         {
-            var path="Assets/_Game/Resources/AdventureUIArt.asset";
+            var path="Assets/_Game/Resources/Catalogs/AdventureUIArt.asset";
             var art=LoadArt<AdventureUIArt>(path);
             if(art==null){art=ScriptableObject.CreateInstance<AdventureUIArt>();AssetDatabase.CreateAsset(art,path);}
             var atlas=Root+"Items_TransparentAtlas.png";var importer=Configure(atlas,true);
@@ -82,7 +82,7 @@ namespace LightBetweenCultures.Editor
         [MenuItem("Tools/Light Between Cultures/Import UI-1 Skin Only")]
         public static void ApplyTheme()
         {
-            var art=LoadArt<AdventureUIArt>("Assets/_Game/Resources/AdventureUIArt.asset");
+            var art=LoadArt<AdventureUIArt>("Assets/_Game/Resources/Catalogs/AdventureUIArt.asset");
             if(art==null)throw new InvalidDataException("Existing AdventureUIArt catalog is required.");
             var path=Root+"Theme/LBC_UI_SkinAtlas.png";var importer=Configure(path,true);
             var factory=new SpriteDataProviderFactories();factory.Init();
@@ -104,7 +104,7 @@ namespace LightBetweenCultures.Editor
         [MenuItem("Tools/Light Between Cultures/Import Map Actors Only")]
         public static void ApplyMapActors()
         {
-            var art=LoadArt<AdventureUIArt>("Assets/_Game/Resources/AdventureUIArt.asset");
+            var art=LoadArt<AdventureUIArt>("Assets/_Game/Resources/Catalogs/AdventureUIArt.asset");
             if(art==null)throw new InvalidDataException("Existing AdventureUIArt catalog is required.");
             var atlas=Root+"Enemies_HoiAn_TransparentAtlas.png";var importer=Configure(atlas,true);
             importer.maxTextureSize=4096;
@@ -115,7 +115,7 @@ namespace LightBetweenCultures.Editor
             provider.SetSpriteRects(boxes);provider.GetDataProvider<ISpriteNameFileIdDataProvider>().SetNameFileIdPairs(boxes.Select(s=>new SpriteNameFileIdPair(s.name,s.spriteID)));
             provider.Apply();importer.SaveAndReimport();
             var sprites=LoadAllArt(atlas).OfType<Sprite>().ToDictionary(s=>s.name);
-            const string source="LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png";
+            const string source="Tools/Import/Sources/LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png";
             art.enemies=sprites.Select(s=>new AdventureImage{id=s.Key,sprite=s.Value,portrait=s.Value,source=source,status="derived_static_cutout_map_verified; combat_redesign_pending"}).ToArray();
             // The old atlas has adjacent oar pixels inside the merchant's bounding
             // rectangle. Use a separate clean derivative; keep all old atlas metadata.
@@ -145,13 +145,13 @@ namespace LightBetweenCultures.Editor
         [MenuItem("Tools/Light Between Cultures/Import Marker Sprites Only")]
         public static void ApplyMarkerSprites()
         {
-            var art=LoadArt<AdventureUIArt>("Assets/_Game/Resources/AdventureUIArt.asset");
+            var art=LoadArt<AdventureUIArt>("Assets/_Game/Resources/Catalogs/AdventureUIArt.asset");
             var ids=new[]{"Ground","Current","NpcTalk","NpcNeedItem","BossAlert","Camera","Quest","Puzzle","Reward","Completed"};
             art.markers=ids.Select(id=>
             {
                 var path=Root+"Markers/"+id+".png";var importer=Configure(path,false);
                 importer.maxTextureSize=256;importer.mipmapEnabled=true;importer.filterMode=FilterMode.Trilinear;importer.SaveAndReimport();
-                return new AdventureImage{id=id,sprite=LoadArt<Sprite>(path),source="References/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png",status="independent_generated_derivative_transparent"};
+                return new AdventureImage{id=id,sprite=LoadArt<Sprite>(path),source="Tools/Import/Sources/MarkerDesign/Marker_Design_01.png; Marker_Design_02.png",status="independent_generated_derivative_transparent"};
             }).ToArray();
             EditorUtility.SetDirty(art);AssetDatabase.SaveAssets();
         }
@@ -159,8 +159,7 @@ namespace LightBetweenCultures.Editor
         [MenuItem("Tools/Light Between Cultures/Import Specialty Items Only")]
         public static void ApplySpecialtyItems()
         {
-            var art=LoadArt<AdventureUIArt>("Assets/_Game/Resources/AdventureUIArt.asset");
-            foreach(var name in new[]{"Item_HoiAn_Chili","Item_HoiAn_Shallot"})Configure("Assets/_Game/Art/Item/"+name+".jpg",false);
+            var art=LoadArt<AdventureUIArt>("Assets/_Game/Resources/Catalogs/AdventureUIArt.asset");
             var chili="Assets/_Game/Art/Item/Derived/Item_HoiAn_Chili.png";var shallot="Assets/_Game/Art/Item/Derived/Item_HoiAn_Shallot.png";
             Configure(chili,false);Configure(shallot,false);
             var paper=LoadAllArt(Root+"Items_TransparentAtlas.png").OfType<Sprite>().First(s=>s.name=="scroll");
@@ -182,7 +181,7 @@ namespace LightBetweenCultures.Editor
         public static void BuildSpecialtyItemsWindows(){ApplySpecialtyItems();SliceValidation.BuildWindows();}
         public static void ApplyPostcardSafetyAndBuild()
         {
-            var art=LoadArt<AdventureUIArt>("Assets/_Game/Resources/AdventureUIArt.asset");
+            var art=LoadArt<AdventureUIArt>("Assets/_Game/Resources/Catalogs/AdventureUIArt.asset");
             var paper=LoadAllArt(Root+"Items_TransparentAtlas.png").OfType<Sprite>().First(s=>s.name=="scroll");
             foreach(var id in new[]{"festival_friendship_postcard","hoi_an_bridge_postcard"})
             {
@@ -192,8 +191,8 @@ namespace LightBetweenCultures.Editor
             }
             EditorUtility.SetDirty(art);AssetDatabase.SaveAssets();
             AssetDatabase.TryGetGUIDAndLocalFileIdentifier(paper,out string guid,out long localId);
-            Directory.CreateDirectory("Docs/QualityAddendum-20261017");
-            File.WriteAllText("Docs/QualityAddendum-20261017/postcard-binding.json","{\"path\":\""+AssetDatabase.GetAssetPath(paper)+"\",\"guid\":\""+guid+"\",\"localId\":\""+localId+"\",\"spriteName\":\"scroll\",\"status\":\"NEEDS_ART_TEMPORARY_CATEGORY_ICON_CLEAN_PACK_SCROLL\"}");
+            Directory.CreateDirectory("Docs/Development/QualityAddendum-20261017");
+            File.WriteAllText("Docs/Development/QualityAddendum-20261017/postcard-binding.json","{\"path\":\""+AssetDatabase.GetAssetPath(paper)+"\",\"guid\":\""+guid+"\",\"localId\":\""+localId+"\",\"spriteName\":\"scroll\",\"status\":\"NEEDS_ART_TEMPORARY_CATEGORY_ICON_CLEAN_PACK_SCROLL\"}");
             H3ArtSetup.VerifyLegacyBuilderGuard();SliceValidation.BuildWindows();
         }
         [Serializable] sealed class CrossCitySlices {public string atlas;public CrossCitySlice[] slices;}
@@ -273,7 +272,7 @@ namespace LightBetweenCultures.Editor
         public static void ApplyDaLatChapter()
         {
             ApplyChapterArt("Docs/Art/DaLatArtDerivatives.json");
-            const string sheet="Assets/_Game/Art/_SourceSheets/ItemSheet_VNKR_FoodCulture_v1.png";
+            const string sheet="Assets/_Game/Art/Items/Shared/ItemSheet_VNKR_FoodCulture_v1.png";
             // Reuse the already extracted clean strawberry slice. Do not create
             // another SpriteRect for the same food icon.
             var art=AdventureUIArt.Load();var items=art.items.Where(i=>i.id!="da_lat_strawberry").ToList();

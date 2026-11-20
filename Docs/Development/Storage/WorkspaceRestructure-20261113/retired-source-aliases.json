@@ -1,0 +1,58 @@
+[
+  {
+    "oldPath": "Assets/_Game/Art/Item/Item_Food_Postcard.jpg",
+    "newPath": "Tools/Import/Sources/Artwork/Item_Food_Postcard.jpg",
+    "group": "Items",
+    "guid": "881b60dcbeb91924496dc81728ca1d35",
+    "sha256": "29716acbc71049f131a7ebd298b05a4738e11e52d80821f988637682db0dcffb"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/Item/Item_HoiAn_Chili.jpg",
+    "newPath": "Tools/Import/Sources/Artwork/Item_HoiAn_Chili.jpg",
+    "group": "Items",
+    "guid": "f3f2cf00566b14d468e4402e3ef88afc",
+    "sha256": "d3704b8a2c51f209ab0faa6d80c3d102b18b51daff8605756700ba7deec5b932"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/Item/Item_HoiAn_Shallot.jpg",
+    "newPath": "Tools/Import/Sources/Artwork/Item_HoiAn_Shallot.jpg",
+    "group": "Items",
+    "guid": "841a00003e05ef7419b14bd20833d540",
+    "sha256": "a04831e27615a92512c9a8a982de76c0dd9bd7371d3b6326b0346db757c241ef"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/Checkin/Item_Food_Postcard.jpg",
+    "newPath": "Tools/Import/Sources/Artwork/Item_Food_Postcard.jpg",
+    "guid": "881b60dcbeb91924496dc81728ca1d35",
+    "group": "Layout20261112",
+    "sha256": "29716acbc71049f131a7ebd298b05a4738e11e52d80821f988637682db0dcffb"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Chili.jpg",
+    "newPath": "Tools/Import/Sources/Artwork/Item_HoiAn_Chili.jpg",
+    "guid": "f3f2cf00566b14d468e4402e3ef88afc",
+    "group": "Layout20261112",
+    "sha256": "d3704b8a2c51f209ab0faa6d80c3d102b18b51daff8605756700ba7deec5b932"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/_SourceSheets/ItemsOriginals/Item_HoiAn_Shallot.jpg",
+    "newPath": "Tools/Import/Sources/Artwork/Item_HoiAn_Shallot.jpg",
+    "guid": "841a00003e05ef7419b14bd20833d540",
+    "group": "Layout20261112",
+    "sha256": "a04831e27615a92512c9a8a982de76c0dd9bd7371d3b6326b0346db757c241ef"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/SourceReferences/ItemsOriginals/Item_HoiAn_Chili.jpg",
+    "newPath": "Tools/Import/Sources/Artwork/Item_HoiAn_Chili.jpg",
+    "guid": "f3f2cf00566b14d468e4402e3ef88afc",
+    "sha256": "d3704b8a2c51f209ab0faa6d80c3d102b18b51daff8605756700ba7deec5b932",
+    "group": "FunctionalArt20261112"
+  },
+  {
+    "oldPath": "Assets/_Game/Art/SourceReferences/ItemsOriginals/Item_HoiAn_Shallot.jpg",
+    "newPath": "Tools/Import/Sources/Artwork/Item_HoiAn_Shallot.jpg",
+    "guid": "841a00003e05ef7419b14bd20833d540",
+    "sha256": "a04831e27615a92512c9a8a982de76c0dd9bd7371d3b6326b0346db757c241ef",
+    "group": "FunctionalArt20261112"
+  }
+]

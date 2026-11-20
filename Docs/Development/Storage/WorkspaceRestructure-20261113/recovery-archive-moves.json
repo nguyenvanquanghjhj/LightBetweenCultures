@@ -1,0 +1,20 @@
+[
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Scenes/Recovery/0.unity",
+    "new": "_LBC_ARCHIVE/Backups/EditorRecovery/Recovery/0.unity",
+    "sha256": "42e4558ec0ef05d17fbe7a35cc00a9891782f25d5009be470d3266dbf3f34b24",
+    "bytes": 10005
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Scenes/Recovery/0.unity.meta",
+    "new": "_LBC_ARCHIVE/Backups/EditorRecovery/Recovery/0.unity.meta",
+    "sha256": "fb1299af2e6ed94c32c1bd1f4f936a7d5962d34089e0cb53c475b5ab5d08f82f",
+    "bytes": 155
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Scenes/Recovery.meta",
+    "new": "_LBC_ARCHIVE/Backups/EditorRecovery/Recovery.meta",
+    "sha256": "8b8534dd708845b831a15dff002b6bcf0b1615440076aa2ab67145c1a2a5d499",
+    "bytes": 172
+  }
+]

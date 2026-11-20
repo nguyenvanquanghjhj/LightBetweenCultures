@@ -3,7 +3,6 @@ using System.IO;
 using System.Linq;
 using UnityEditor;
 using UnityEditor.SceneManagement;
-using UnityEditor.U2D.Sprites;
 using UnityEngine;
 using UnityEngine.Rendering;
 using LightBetweenCultures.HoiAn;
@@ -13,10 +12,7 @@ namespace LightBetweenCultures.Editor
     /// <summary>Assigns the single white Lumi design approved on 2026-10-21.</summary>
     public static class LumiRoleSetup
     {
-        private const string Cutout = "Assets/_Game/Art/_SourceSheets/Lumi/Lumi_Character_Cutout_Concept.png";
-        private const string PortraitTexture = "Assets/_Game/Art/Characters/Lumi/Lumi_DialoguePortrait.png";
-        private const string PortraitName = "Lumi_DialoguePortrait";
-        private const string ArtAsset = "Assets/_Game/Resources/DesignKitArt.asset";
+        private const string ArtAsset = "Assets/_Game/Resources/Catalogs/DesignKitArt.asset";
         private const string ExplorationPrefab = "Assets/_Game/Prefabs/DesignKit/LumiExplorationSprite.prefab";
         private const string HoiAnScene = "Assets/_Game/Scenes/HoiAnDemo.unity";
 
@@ -28,7 +24,7 @@ namespace LightBetweenCultures.Editor
             if (art == null) throw new InvalidDataException("Apply the provided Design Kit before assigning Lumi roles.");
             ConfigureArt(art);
             var previous = EditorSceneManager.GetSceneManagerSetup();
-            var backup = Path.GetFullPath("../Backups/LumiRoleSceneUpdates");
+            var backup = Path.GetFullPath("../_LBC_ARCHIVE/Backups/LumiRoleSceneUpdates");
             Directory.CreateDirectory(backup);
             File.Copy(HoiAnScene, Path.Combine(backup, "HoiAnDemo-" + DateTime.Now.ToString("yyyyMMdd-HHmmssfff") + ".unity"));
             var scene = EditorSceneManager.OpenScene(HoiAnScene);
@@ -57,44 +53,6 @@ namespace LightBetweenCultures.Editor
             PrefabUtility.SaveAsPrefabAsset(visual,"Assets/_Game/Prefabs/DesignKit/LumiMapToken.prefab");
             UnityEngine.Object.DestroyImmediate(visual);
             AssetDatabase.SaveAssets();
-        }
-
-        private static Sprite ImportSprite(string path,string spriteName,bool feetPivot)
-        {
-            if (!File.Exists(path)) throw new FileNotFoundException("Missing role sprite",path);
-            AssetDatabase.ImportAsset(path,ImportAssetOptions.ForceSynchronousImport);
-            var importer=(TextureImporter)AssetImporter.GetAtPath(path);
-            importer.textureType=TextureImporterType.Sprite;
-            importer.spriteImportMode=SpriteImportMode.Multiple;
-            importer.spritePixelsPerUnit=256;
-            importer.alphaSource=TextureImporterAlphaSource.FromInput;
-            importer.alphaIsTransparency=true;
-            importer.filterMode=FilterMode.Bilinear;
-            importer.wrapMode=TextureWrapMode.Clamp;
-            importer.mipmapEnabled=false;
-            importer.npotScale=TextureImporterNPOTScale.None;
-            importer.textureCompression=TextureImporterCompression.Uncompressed;
-            importer.maxTextureSize=2048;
-            var settings=new TextureImporterSettings(); importer.ReadTextureSettings(settings);
-            settings.spriteMeshType=SpriteMeshType.FullRect; importer.SetTextureSettings(settings);
-            importer.SaveAndReimport();
-            // Trim only transparent padding through sprite metadata. Original PNG pixels stay intact.
-            var texture=new Texture2D(2,2); texture.LoadImage(File.ReadAllBytes(path));
-            var pixels=texture.GetPixels32(); int left=texture.width, bottom=texture.height, right=0, top=0;
-            for(int y=0;y<texture.height;y++) for(int x=0;x<texture.width;x++)
-                if(pixels[y*texture.width+x].a>16) { left=Math.Min(left,x); right=Math.Max(right,x); bottom=Math.Min(bottom,y); top=Math.Max(top,y); }
-            var rect=new Rect(Math.Max(0,left-2),Math.Max(0,bottom-2),Math.Min(texture.width,right+3)-Math.Max(0,left-2),Math.Min(texture.height,top+3)-Math.Max(0,bottom-2));
-            if(!feetPivot) rect=new Rect(0,0,texture.width,texture.height);
-            UnityEngine.Object.DestroyImmediate(texture);
-            var factory=new SpriteDataProviderFactories(); factory.Init();
-            var provider=factory.GetSpriteEditorDataProviderFromObject(importer); provider.InitSpriteEditorDataProvider();
-            var old=provider.GetSpriteRects().FirstOrDefault(r=>r.name==spriteName);
-            var sprite=new SpriteRect { name=spriteName,spriteID=old!=null?old.spriteID:GUID.Generate(),rect=rect,
-                alignment=SpriteAlignment.Custom,pivot=new Vector2(.5f,feetPivot?0:.5f) };
-            provider.SetSpriteRects(new[]{sprite});
-            provider.GetDataProvider<ISpriteNameFileIdDataProvider>().SetNameFileIdPairs(new[]{new SpriteNameFileIdPair(sprite.name,sprite.spriteID)});
-            provider.Apply(); importer.SaveAndReimport();
-            return AssetDatabase.LoadAllAssetsAtPath(path).OfType<Sprite>().Single(s=>s.name==spriteName);
         }
 
         public static void ApplyPlayerVisual(HoiAnPlayerController player)

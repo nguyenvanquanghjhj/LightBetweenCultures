@@ -16,7 +16,7 @@ namespace LightBetweenCultures
         public AudioSource CurrentMusic=>bgm[currentVoice];
         void InitMusic()
         {
-            musicClips=Resources.Load<SoftMusicClips>("SoftMusicClips");
+            musicClips=Resources.Load<SoftMusicClips>("Catalogs/SoftMusicClips");
             for(var i=0;i<2;i++)
             {
                 var child=new GameObject("MusicVoice"+i);child.transform.SetParent(transform,false);

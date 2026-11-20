@@ -1,4 +1,4 @@
-﻿using UnityEditor;
+using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEditor.Build.Reporting;
@@ -21,7 +21,7 @@ namespace LightBetweenCultures.Editor
             VerticalSliceSetup.SetupAll();
             var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions {
                 scenes=EditorBuildSettings.scenes.Where(s=>s.enabled).Select(s=>s.path).ToArray(),
-                locationPathName="Builds/Windows/LightBetweenCultures.exe",
+                locationPathName="../_LBC_WORK/QA/Builds/Windows/LightBetweenCultures.exe",
                 target=BuildTarget.StandaloneWindows64, options=BuildOptions.Development
             });
             Debug.Log("Windows build: "+report.summary.result);

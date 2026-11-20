@@ -23,14 +23,14 @@ namespace LightBetweenCultures.Editor
                 foreach(var platform in new[]{"Standalone","Android"})if(importer.ContainsSampleSettingsOverride(platform))importer.SetOverrideSampleSettings(platform,settings);
                 importer.SaveAndReimport();clips[i]=AssetDatabase.LoadAssetAtPath<AudioClip>(path);
             }
-            const string pathCatalog="Assets/_Game/Resources/SoftMusicClips.asset";
+            const string pathCatalog="Assets/_Game/Resources/Catalogs/SoftMusicClips.asset";
             var catalog=AssetDatabase.LoadAssetAtPath<SoftMusicClips>(pathCatalog);
             if(catalog==null){catalog=ScriptableObject.CreateInstance<SoftMusicClips>();AssetDatabase.CreateAsset(catalog,pathCatalog);}
             catalog.clips=clips;catalog.loopStart=new[]{.1f,.1f,.1f,.1f};
             // Original MP3 tail analysis, audible before the near-silent decay. Never edits source audio.
             catalog.loopEnd=new[]{155f,78.4f,0f,145.8f};catalog.loopEnd[2]=clips[2].length-2.2f;
             EditorUtility.SetDirty(catalog);AssetDatabase.SaveAssets();
-            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=EditorBuildSettings.scenes.Where(s=>s.enabled).Select(s=>s.path).ToArray(),locationPathName="Builds/Windows/LightBetweenCultures.exe",target=BuildTarget.StandaloneWindows64,options=BuildOptions.Development});
+            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=EditorBuildSettings.scenes.Where(s=>s.enabled).Select(s=>s.path).ToArray(),locationPathName="../_LBC_WORK/QA/Builds/Windows/LightBetweenCultures.exe",target=BuildTarget.StandaloneWindows64,options=BuildOptions.Development});
             Debug.Log("FOUR TRACK MUSIC WINDOWS BUILD: "+report.summary.result);
             if(report.summary.result!=BuildResult.Succeeded)EditorApplication.Exit(1);
         }

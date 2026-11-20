@@ -1,0 +1,128 @@
+[
+  {
+    "old": "LightBetweenCultures/Tools/Import/import_gameplay_content.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/Import/import_gameplay_content.py",
+    "sha256": "b763932c36463cc66d67177ea9ff4099959d7cf102689e968b4a6d889d885930",
+    "reason": "Frozen baseline/one-time migration dependency; replacement current catalog/build/export paths are explicit"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Import/apply_approved_route_references.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/Import/apply_approved_route_references.py",
+    "sha256": "3c9cccdcf52a3a84d7a72b032d093c2e117840a0b0bbbeb668bd912565d6397b",
+    "reason": "Frozen baseline/one-time migration dependency; replacement current catalog/build/export paths are explicit"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Import/export_route_markup.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/Import/export_route_markup.py",
+    "sha256": "ac0602b55f6056c2c653d1a758e3bab1e9a086d801d8ce913e8c40991371aef0",
+    "reason": "Frozen baseline/one-time migration dependency; replacement current catalog/build/export paths are explicit"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Import/export_applied_route_references.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/Import/export_applied_route_references.py",
+    "sha256": "75f4cff187392fd9b516e74eb75eb919675b165d6f2e6d8820fd4f05e2b73648",
+    "reason": "Frozen baseline/one-time migration dependency; replacement current catalog/build/export paths are explicit"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/QA/verify_applied_route_references.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/QA/verify_applied_route_references.py",
+    "sha256": "cdca076ca3f1d4b6cce3dd5d72262ca1ce1966efa46d723b72604a975149f950",
+    "reason": "Frozen baseline/one-time migration dependency; replacement current catalog/build/export paths are explicit"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Import/SixCityRouteEditor/export_source.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/Import/SixCityRouteEditor/export_source.py",
+    "sha256": "c2a6042a1f466d6585215a1cce0c4bfbaa46928ab36a37f5065b6a13c67f783f",
+    "reason": "Frozen baseline/one-time migration dependency; replacement current catalog/build/export paths are explicit"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Import/SixCityRouteEditor/checkpoint_tool.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/Import/SixCityRouteEditor/checkpoint_tool.py",
+    "sha256": "736b3d58e912a11bba6cd0a8fd19cad5b95ba2d3b760eec69d7384bd96881eee",
+    "reason": "Frozen baseline/one-time migration dependency; replacement current catalog/build/export paths are explicit"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Import/SixCityRouteEditor/finish_tool.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/Import/SixCityRouteEditor/finish_tool.py",
+    "sha256": "8658888320393d4458f0ad480c0ed90f2c906f0064ca3d5ffce27b4911f14a60",
+    "reason": "Frozen baseline/one-time migration dependency; replacement current catalog/build/export paths are explicit"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Scripts/Editor/H3ArtSetup.cs",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredEditorPipelines/H3ArtSetup.cs",
+    "sha256": "ec4d871a0aff50a6e559da394b9444bcf0f4b66dec6ac3bec526123300bbec6c",
+    "reason": "Original Editor generator preserved; current class keeps only live lookup/export or scene guard"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Scripts/Editor/ArtLibrarySetup.cs",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredEditorPipelines/ArtLibrarySetup.cs",
+    "sha256": "5fdf35835d52a93945eab821baa20477ab1ec992668d26d163fed5d87b768432",
+    "reason": "Original Editor generator preserved; current class keeps only live lookup/export or scene guard"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/QA/android_autoplay.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/QA/android_autoplay.py",
+    "sha256": "9c3b09287ddcf9229561b22d9984e1cf958fbf0ed2c1dad91a21d1269d4a39ed",
+    "reason": "Incomplete device-specific autoplay prototype or frozen 20261019 evidence test; not a current build dependency"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Import/SixCityRouteEditor/test_editor.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/Import/SixCityRouteEditor/test_editor.py",
+    "sha256": "a0265c8ecb5afa7ae9c5b6326a396f9003574a78a4501261da33388e4a64098b",
+    "reason": "Incomplete device-specific autoplay prototype or frozen 20261019 evidence test; not a current build dependency"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Import/SixCityRouteEditor/test_persistence.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/Import/SixCityRouteEditor/test_persistence.py",
+    "sha256": "6193612b15f4803641e3f7d0a9acd723d3045ef29ba2dcb661d11a390d364db9",
+    "reason": "Incomplete device-specific autoplay prototype or frozen 20261019 evidence test; not a current build dependency"
+  },
+  {
+    "old": "LightBetweenCultures/Tools/Import/prepare_checkin_runtime.py",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Tools/Import/prepare_checkin_runtime.py",
+    "sha256": "82479206f798f846d89858e2013f3d2075a88535772593170a13949e6e5799c1",
+    "reason": "Completed 20261018 crop/review migration that rewrites pending statuses; current CheckInArtSetup uses tracked accepted derivatives and config"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Scripts/Editor/AppearanceRevisionSetup.cs",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Assets/_Game/Scripts/Editor/AppearanceRevisionSetup.cs",
+    "sha256": "cd3bb2de373d40f737bf4e470d266a8b155dd8ac74a7fdc1c1d1836dc23fb96d",
+    "bytes": 6830,
+    "reason": "Historical 20261021 before/after fixture producer/consumer; no current serialized consumers, existing final-UX close helper retained"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Scripts/Editor/AppearanceRevisionSetup.cs.meta",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Assets/_Game/Scripts/Editor/AppearanceRevisionSetup.cs.meta",
+    "sha256": "6e37c3eadc9c2093923b8f66a26878be795e94911d06442d06d6f52be9009800",
+    "bytes": 59,
+    "reason": "Historical 20261021 before/after fixture producer/consumer; no current serialized consumers, existing final-UX close helper retained"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Scripts/Validation/AppearanceReviewData.cs",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Assets/_Game/Scripts/Validation/AppearanceReviewData.cs",
+    "sha256": "ef4b5c490d082aa68a7dbbd48af24e0c8190e563474cc592165980462c255d30",
+    "bytes": 454,
+    "reason": "Historical 20261021 before/after fixture producer/consumer; no current serialized consumers, existing final-UX close helper retained"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Scripts/Validation/AppearanceReviewData.cs.meta",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Assets/_Game/Scripts/Validation/AppearanceReviewData.cs.meta",
+    "sha256": "ecb64e135b5e5840ee9d0ccbfa215d611fedc90701c93644c1cddf7cfedabc66",
+    "bytes": 59,
+    "reason": "Historical 20261021 before/after fixture producer/consumer; no current serialized consumers, existing final-UX close helper retained"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Appearance.cs",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Appearance.cs",
+    "sha256": "0354d17bcc041eb84a9b56b40283a05d97cbecbd2f943a4f7e9b5dfbc680da90",
+    "bytes": 8337,
+    "reason": "Historical 20261021 before/after fixture producer/consumer; no current serialized consumers, existing final-UX close helper retained"
+  },
+  {
+    "old": "LightBetweenCultures/Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Appearance.cs.meta",
+    "new": "_LBC_ARCHIVE/HistoricalSources/RetiredPipelines/Assets/_Game/Scripts/Validation/GameplaySmokeRunner.Appearance.cs.meta",
+    "sha256": "d666360694a71f28bfe88ab552f5b8801ec7a14044570bf15dc7155e689bd49b",
+    "bytes": 59,
+    "reason": "Historical 20261021 before/after fixture producer/consumer; no current serialized consumers, existing final-UX close helper retained"
+  }
+]

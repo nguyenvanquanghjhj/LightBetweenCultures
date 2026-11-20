@@ -10,7 +10,7 @@ namespace LightBetweenCultures.Editor
 {
     public static class PortraitRepairSetup
     {
-        const string Sheet="Assets/_Game/Art/_SourceSheets/H3_Upgrade_20261016/H3_07_Characters_NPC_Concept.png";
+        const string Sheet="Assets/_Game/Art/NPC/Shared/HoiAnNpcAtlas.png";
         static string SpriteReference(Sprite sprite)
         {
             if(sprite==null)return "";

@@ -1,5 +1,5 @@
 {
-  "atlas": "Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png",
+  "atlas": "Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png",
   "slices": [
     {
       "id": "npc_huong",

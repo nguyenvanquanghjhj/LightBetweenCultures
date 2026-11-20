@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "Unity asset/reference/importer/save/route regression; not exhaustive gameplay acceptance",
+  "assetsBefore": 411,
+  "assetsAfter": 392,
+  "imagesBefore": 158,
+  "imagesAfter": 140,
+  "archivedAssets": 19,
+  "archivedAssetBytes": 23963314,
+  "archivedFilesIncludingMetadata": 42,
+  "runtimeDependenciesLost": 0,
+  "missingGuids": 7,
+  "missingScripts": 0,
+  "missingObjects": 6,
+  "saveAssertions": 4,
+  "routeAssertions": 5901,
+  "windowsAndroidPlayerAcceptance": "NOT_PROVEN"
+}

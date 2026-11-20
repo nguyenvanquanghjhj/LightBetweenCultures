@@ -36,10 +36,10 @@ namespace LightBetweenCultures.Editor
             foreach(var city in new[]{"Gyeongju","Seoul"})
             {
                 var path="Assets/_Game/Art/Maps/"+city+"/Map_"+city+"_Overview_A.png";Configure(path,false);
-                Add(cities,city.ToLowerInvariant(),AssetDatabase.LoadAssetAtPath<Sprite>(path),"LBC_AnhMoi_BanGiaoCodex_20261015/Maps/"+city+"/Map_Overview_A.png","EXACT_APPROVED_MAP_A_PIXELS; original full resolution");
+                Add(cities,city.ToLowerInvariant(),AssetDatabase.LoadAssetAtPath<Sprite>(path),"Tools/Import/Sources/LBC_AnhMoi_BanGiaoCodex_20261015/Maps/"+city+"/Map_Overview_A.png","EXACT_APPROVED_MAP_A_PIXELS; original full resolution");
             }
             art.cities=cities.ToArray();
-            var config=JsonUtility.FromJson<NativeSlices>(File.ReadAllText("Docs/Story/FullStory-20261017/native-slices.json"));
+            var config=JsonUtility.FromJson<NativeSlices>(File.ReadAllText("Docs/Development/Story/FullStory-20261017/native-slices.json"));
             var factory=new SpriteDataProviderFactories();factory.Init();var importer=Configure(config.sheet,true);
             var provider=factory.GetSpriteEditorDataProviderFromObject(importer);provider.InitSpriteEditorDataProvider();
             var rects=provider.GetSpriteRects().ToList();
@@ -57,7 +57,7 @@ namespace LightBetweenCultures.Editor
             foreach(var pair in new[]{("enemy_night_guard","enemy_gate_guard"),("enemy_bridge","enemy_mo01"),("enemy_drone","enemy_glass_thief"),("enemy_signal_bot","enemy_pattern_bot")})
                 Add(enemies,pair.Item1,art.Enemy(pair.Item2).sprite,art.Enemy(pair.Item2).source,"TEMPORARY_SHARED_BOT_ART; NOT_CANONICAL_FOR_NEW_ROLE; alias "+pair.Item2);
             art.enemies=enemies.ToArray();
-            const string atlas="Assets/_Game/Art/Characters/NPC/Shared/NPC_TransparentAtlas.png";
+            const string atlas="Assets/_Game/Art/NPC/Shared/NPC_TransparentAtlas.png";
             var npcImporter=(TextureImporter)AssetImporter.GetAtPath(atlas);var npcProvider=factory.GetSpriteEditorDataProviderFromObject(npcImporter);npcProvider.InitSpriteEditorDataProvider();
             var npcRects=npcProvider.GetSpriteRects().ToList();var oldRects=npcRects.ToDictionary(x=>x.name,x=>x.spriteID);
             if(!npcRects.Any(x=>x.name=="npc_min"))npcRects.Add(new SpriteRect{name="npc_min",spriteID=GUID.Generate(),rect=new Rect(14,86,280,414),pivot=new Vector2(.5f,0),alignment=SpriteAlignment.Custom});

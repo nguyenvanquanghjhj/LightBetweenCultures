@@ -7,7 +7,7 @@ namespace LightBetweenCultures.Editor
 {
     public sealed class HoiAnMapLayoutWindow : EditorWindow
     {
-        private const string DataPath = "Assets/_Game/Resources/HoiAnData.json";
+        private const string DataPath = "Assets/_Game/Resources/Content/HoiAnData.json";
         private GameData data;
         private Texture2D background;
         private int selected, edgeIndex, dragging = -1;
@@ -73,7 +73,7 @@ namespace LightBetweenCultures.Editor
         {
             foreach(var node in data.nodes) node.position=Clamp(node.position);
             foreach(var edge in data.edges) if(edge.bends!=null) for(var i=0;i<edge.bends.Length;i++) edge.bends[i]=Clamp(edge.bends[i]);
-            var folder=Path.GetFullPath("../Backups/MapLayouts"); Directory.CreateDirectory(folder);
+            var folder=Path.GetFullPath("../_LBC_ARCHIVE/Backups/MapLayouts"); Directory.CreateDirectory(folder);
             File.Copy(DataPath,Path.Combine(folder,"HoiAnData-"+DateTime.Now.ToString("yyyyMMdd-HHmmssfff")+".json"));
             File.WriteAllText(DataPath,JsonUtility.ToJson(data,true),new System.Text.UTF8Encoding(false));
             AssetDatabase.ImportAsset(DataPath,ImportAssetOptions.ForceUpdate); changed=false;

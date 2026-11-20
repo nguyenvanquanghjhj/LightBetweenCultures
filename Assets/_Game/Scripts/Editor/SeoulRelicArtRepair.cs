@@ -9,7 +9,7 @@ namespace LightBetweenCultures.Editor
 {
     public static class SeoulRelicArtRepair
     {
-        const string ArtPath = "Assets/_Game/Resources/AdventureUIArt.asset";
+        const string ArtPath = "Assets/_Game/Resources/Catalogs/AdventureUIArt.asset";
         const string RelicDataPath = "Assets/_Game/Resources/Content/CulturalRelics.json";
         const string GameplayDataPath = "Assets/_Game/Resources/Content/GameplayContent.json";
         [MenuItem("Tools/Light Between Cultures/Repair Seoul Relic Art")]
@@ -19,9 +19,9 @@ namespace LightBetweenCultures.Editor
             var art = AssetDatabase.LoadAssetAtPath<AdventureUIArt>(ArtPath);
             if (art == null) throw new InvalidDataException("AdventureUIArt resource is missing.");
 
-            BindFragment(art, "fragment_seoul_heritage_data", "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_HeritageData.png");
-            BindFragment(art, "fragment_seoul_jiwon_sync", "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_JiwonSync.png");
-            BindFragment(art, "fragment_seoul_stellar_ring", "Assets/_Game/Art/Items/Collectibles/Seoul/Fragment_StellarRing.png");
+            BindFragment(art, "fragment_seoul_heritage_data", "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_HeritageData.png");
+            BindFragment(art, "fragment_seoul_jiwon_sync", "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_JiwonSync.png");
+            BindFragment(art, "fragment_seoul_stellar_ring", "Assets/_Game/Art/Relics/Fragments/Seoul/Fragment_StellarRing.png");
 
             var telescope = Array.Find(art.items, entry => entry.id == "stargazer_lens");
             var starlightLens = art.Relic("relic_gyeongju_star_lens");

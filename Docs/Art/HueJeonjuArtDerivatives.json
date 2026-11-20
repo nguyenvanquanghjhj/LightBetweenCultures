@@ -1,13 +1,13 @@
 {
   "tool": "built-in image_gen",
   "sourcesUnchanged": true,
-  "referenceNPC": "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/NPC_Roster_Concept.png",
-  "referenceEnemy": "LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png",
+  "referenceNPC": "Tools/Import/Sources/LBC_AnhMoi_BanGiaoCodex_20261015/Characters/NPC_Roster_Concept.png",
+  "referenceEnemy": "Tools/Import/Sources/LBC_AnhMoi_BanGiaoCodex_20261015/Characters/Enemies_Roster_Concept.png",
   "prompt": "One standalone full-body transparent 2D chibi sprite matching LBC painted roster style. Preserve full hands/feet/props, clear padding, no scenery/text/ground/watermark; proposed derivative pending user approval. Subject follows each canonical runtime ID and name; Hương/So-yeon/Mai/Ji-eun are never replaced.",
   "entries": [
     {
       "id": "npc_nguyet",
-      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_nguyet.png",
+      "path": "Assets/_Game/Art/NPC/Hue/npc_nguyet.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-7e190989-bfd9-4c83-942e-22f38ecab7f1.png",
       "dimensions": [
         1312,
@@ -24,7 +24,7 @@
     },
     {
       "id": "npc_tam",
-      "path": "Assets/_Game/Art/Characters/NPC/Hue/npc_tam.png",
+      "path": "Assets/_Game/Art/NPC/Hue/npc_tam.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-f12979ec-7b12-4269-903d-cd88c0edd1de.png",
       "dimensions": [
         1103,
@@ -41,7 +41,7 @@
     },
     {
       "id": "npc_yoon",
-      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_yoon.png",
+      "path": "Assets/_Game/Art/NPC/Jeonju/npc_yoon.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-62274880-f810-4340-9317-60a9e24076d1.png",
       "dimensions": [
         1294,
@@ -58,7 +58,7 @@
     },
     {
       "id": "npc_park",
-      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_park.png",
+      "path": "Assets/_Game/Art/NPC/Jeonju/npc_park.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-e66f287a-2b5e-4f66-987a-71069b8fd083.png",
       "dimensions": [
         1312,
@@ -75,7 +75,7 @@
     },
     {
       "id": "npc_elder",
-      "path": "Assets/_Game/Art/Characters/NPC/Jeonju/npc_elder.png",
+      "path": "Assets/_Game/Art/NPC/Jeonju/npc_elder.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-33d3b4b8-0005-46d6-af23-f7edb2cf564d.png",
       "dimensions": [
         1214,
@@ -92,7 +92,7 @@
     },
     {
       "id": "enemy_river_wisp",
-      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_river_wisp.png",
+      "path": "Assets/_Game/Art/Enemies/Hue/enemy_river_wisp.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-bb202b2f-387d-4c51-8002-094809d75d35.png",
       "dimensions": [
         1536,
@@ -109,7 +109,7 @@
     },
     {
       "id": "enemy_courier",
-      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_courier.png",
+      "path": "Assets/_Game/Art/Enemies/Hue/enemy_courier.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-98abb5c2-b275-4452-92c4-7114301ff079.png",
       "dimensions": [
         1423,
@@ -126,7 +126,7 @@
     },
     {
       "id": "enemy_archive_guard",
-      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_archive_guard.png",
+      "path": "Assets/_Game/Art/Enemies/Hue/enemy_archive_guard.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-dad87aa5-9c2b-425b-bdb7-c21a97f0c6da.png",
       "dimensions": [
         1402,
@@ -143,7 +143,7 @@
     },
     {
       "id": "enemy_gate_guard",
-      "path": "Assets/_Game/Art/Characters/Enemies/Hue/enemy_gate_guard.png",
+      "path": "Assets/_Game/Art/Enemies/Hue/enemy_gate_guard.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-8c48f445-6944-4a62-acb2-b423a740a3fe.png",
       "dimensions": [
         1397,
@@ -160,7 +160,7 @@
     },
     {
       "id": "enemy_parcel_bot",
-      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_parcel_bot.png",
+      "path": "Assets/_Game/Art/Enemies/Jeonju/enemy_parcel_bot.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-900a295e-9987-4da1-9552-9ec09f7e647e.png",
       "dimensions": [
         1312,
@@ -177,7 +177,7 @@
     },
     {
       "id": "enemy_paper_crane",
-      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_paper_crane.png",
+      "path": "Assets/_Game/Art/Enemies/Jeonju/enemy_paper_crane.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-949687a9-c17c-47de-9c10-32b43524b783.png",
       "dimensions": [
         1448,
@@ -194,7 +194,7 @@
     },
     {
       "id": "enemy_pattern_bot",
-      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_pattern_bot.png",
+      "path": "Assets/_Game/Art/Enemies/Jeonju/enemy_pattern_bot.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-3cfdd4c3-6642-45ac-a7b9-f56bf07a5899.png",
       "dimensions": [
         1448,
@@ -211,7 +211,7 @@
     },
     {
       "id": "enemy_crane_boss",
-      "path": "Assets/_Game/Art/Characters/Enemies/Jeonju/enemy_crane_boss.png",
+      "path": "Assets/_Game/Art/Enemies/Jeonju/enemy_crane_boss.png",
       "source": "C:\\Users\\admin\\.codex\\generated_images\\01a13f2d-8dae-7a02-99b2-182d4401a411\\exec-e00c2cd9-a997-4b97-8630-d89dfa7a9ad3.png",
       "dimensions": [
         1448,

@@ -25,6 +25,9 @@ namespace LightBetweenCultures
         private string output, savePath;
         private bool fatal;
         private GameBootstrap game;
+#if UNITY_EDITOR
+        private InputSettings previousInputSettings;
+#endif
         private bool Restart => Environment.GetCommandLineArgs().Contains("--cat-rescue-restart")||Environment.GetCommandLineArgs().Contains("--phase4-key-restart")||Environment.GetCommandLineArgs().Contains("--phase4-restart")||Environment.GetCommandLineArgs().Contains("--hoi-an-lighting-restart")||Environment.GetCommandLineArgs().Contains("--checkin-art-restart")||Environment.GetCommandLineArgs().Contains("--relic-story-restart")|| Environment.GetCommandLineArgs().Contains("--relic-restart")|| Environment.GetCommandLineArgs().Contains("--verify-gameplay-save")||Environment.GetCommandLineArgs().Contains("--verify-cross-city-save");
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
@@ -38,7 +41,7 @@ namespace LightBetweenCultures
         {
             DontDestroyOnLoad(gameObject);
             var specified = Environment.GetCommandLineArgs().FirstOrDefault(a => a.StartsWith("--gameplay-output="));
-            output = specified == null ? Path.GetFullPath(Path.Combine(Application.dataPath,"..","Validation","GameplayAB-"+DateTime.UtcNow.ToString("yyyyMMdd-HHmmss"))) : specified.Substring("--gameplay-output=".Length);
+            output = specified == null ? Path.GetFullPath(Path.Combine(Application.dataPath,"..","../_LBC_WORK/QA/LightBetweenCultures","GameplayAB-"+DateTime.UtcNow.ToString("yyyyMMdd-HHmmss"))) : specified.Substring("--gameplay-output=".Length);
             Directory.CreateDirectory(output);
             savePath = Path.Combine(output,Environment.GetCommandLineArgs().Contains("--regression-checkpoint")?"final-save.json":"gameplay-save.json");
             SaveSystem.OverridePath = savePath;
@@ -46,6 +49,13 @@ namespace LightBetweenCultures
             if(!Restart)PlayerPrefs.DeleteKey(NodeMarkerView.MotionPreferenceKey);
             Application.logMessageReceived += OnLog;
             Application.runInBackground = true;
+#if UNITY_EDITOR
+            // Batch Editor has no focused Game View. Route synthetic devices to the game
+            // using a transient settings copy; never modify the project's InputSettings asset.
+            previousInputSettings = InputSystem.settings;
+            InputSystem.settings = Instantiate(previousInputSettings);
+            InputSystem.settings.editorInputBehaviorInPlayMode = InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
+#endif
             InputSystem.settings.backgroundBehavior = InputSettings.BackgroundBehavior.IgnoreFocus;
             foreach (var device in InputSystem.devices.ToArray())
                 if (device is Mouse || device is Keyboard || device is Touchscreen) InputSystem.DisableDevice(device);
@@ -86,6 +96,9 @@ namespace LightBetweenCultures
             Application.logMessageReceived -= OnLog;
             if(Restart){PlayerPrefs.DeleteKey(NodeMarkerView.MotionPreferenceKey);PlayerPrefs.Save();}
 #if UNITY_EDITOR
+            var transientSettings = InputSystem.settings;
+            InputSystem.settings = previousInputSettings;
+            Destroy(transientSettings);
             UnityEditor.EditorApplication.Exit(fatal?1:0);
 #else
             Application.Quit(fatal?1:0);
@@ -110,6 +123,9 @@ namespace LightBetweenCultures
             }
             yield return null;
         }
+
+        // Shared by the current final-UX journey; independent of retired appearance fixtures.
+        void CloseAppearancePanel(GameplayPanels panels)=>typeof(GameplayPanels).GetMethod("Close",System.Reflection.BindingFlags.Instance|System.Reflection.BindingFlags.NonPublic).Invoke(panels,null);
 
         private Button FindButton(string name)
         {
@@ -278,7 +294,12 @@ namespace LightBetweenCultures
         private void CheckMarker(string id,NodeMarkerType type,NodeMarkerEffect effect=NodeMarkerEffect.None)
         {
             var marker=NodeMarker(id);
-            Check(marker.gameObject.activeInHierarchy&&marker.Type==type&&marker.Effect==effect,id+" marker reflects current gameplay: "+type+" / "+effect);
+            // Relic guidance was added after the original marker journey. Its pending
+            // claim takes precedence, except a recorded Hoi An check-in remains checked.
+            var checkIn=game.Content.CheckIn(game.Data.cityId,id);
+            var recorded=game.Data.cityId=="hoi_an"&&checkIn!=null&&!string.IsNullOrEmpty(checkIn.completionFlag)&&game.World.Has(checkIn.completionFlag);
+            if(RelicGuide.PendingAt(game,id)&&!recorded){type=NodeMarkerType.FragmentAlert;effect=NodeMarkerEffect.Pulse;}
+            Check(marker.gameObject.activeInHierarchy&&marker.Type==type&&marker.Effect==effect,id+" marker reflects current gameplay: expected "+type+" / "+effect+", actual "+marker.Type+" / "+marker.Effect);
             if(type==NodeMarkerType.Completed)
                 Check(marker.Badge.Find("MarkerGlyph").GetComponent<AdventureIconGraphic>().symbol==AdventureSymbol.Check,id+" completed marker draws a checkmark");
         }
@@ -299,7 +320,9 @@ namespace LightBetweenCultures
             Check(Map.NodeMarkers.All(m=>m.GetComponentsInChildren<Text>(true).Length==0),"Node markers contain no text labels or font emoji");
             CheckMarker("H2",NodeMarkerType.NpcTalk,NodeMarkerEffect.Pulse);
             CheckMarker("H11",NodeMarkerType.Reward,NodeMarkerEffect.Glow);
-            Check(NodeMarker("H2").BadgeColor.r>.9f&&NodeMarker("H2").BadgeColor.g>.9f,"NPC uses a white badge above its real actor");
+            if(RelicGuide.PendingAt(game,"H2"))
+                Check(NodeMarker("H2").BadgeColor.r>.65f&&NodeMarker("H2").BadgeColor.g<.4f,"Pending relic guidance uses its red badge above Mai");
+            else Check(NodeMarker("H2").BadgeColor.r>.9f&&NodeMarker("H2").BadgeColor.g>.9f,"NPC uses a white badge above its real actor");
             foreach(var index in new[]{3,4})
             {
                 Map.View.Focus(game.Data.nodes[index].position);yield return new WaitForSecondsRealtime(.15f);
@@ -347,7 +370,7 @@ namespace LightBetweenCultures
                 var hit=(RectTransform)image.transform.parent.Find("ActorHitArea");
                 Check(hit!=null&&hit.rect.width>=52&&hit.rect.height>=52&&hit.gameObject.activeInHierarchy==visible,label+": "+actor.nodeId+" retains a 52-unit touch region without leaking into hidden stages");
                 var shadow=image.transform.parent.Find("ActorShadow").GetComponent<RectTransform>();
-                Check(Vector2.Distance(shadow.sizeDelta,new Vector2(size.x*.55f,9*art.ActorScale(game.Data.cityId,actor)))<.001f&&shadow.anchoredPosition==actor.offset,label+": "+actor.nodeId+" shadow follows the scaled visual at the same feet");
+                Check(Vector2.Distance(shadow.sizeDelta,new Vector2(size.x*.55f,9*art.ActorScale(game.Data.cityId,actor)))<.001f&&Vector2.Distance(shadow.anchoredPosition,expectedFoot)<.001f,label+": "+actor.nodeId+" shadow follows the scaled visual at the same feet");
                 Check(image.transform.parent.Find("ActorShadow").gameObject.activeInHierarchy==visible,label+": "+actor.nodeId+" shadow cannot leak into an undiscovered region");
             }
         }
@@ -375,6 +398,11 @@ namespace LightBetweenCultures
         }
         private IEnumerator RecordFloating(string id,string folder)
         {
+            if(Application.isEditor)
+            {
+                results.Add("NOT_TESTED: Player frame capture/marker motion recording for "+id+" (Editor journey only)");
+                yield break;
+            }
             var index=Array.FindIndex(game.Data.nodes,n=>n.id==id);
             Map.View.ZoomBy(1.75f/Map.View.Zoom);Map.View.Focus(game.Data.nodes[index].position);
             yield return new WaitForSecondsRealtime(.3f);
@@ -889,7 +917,7 @@ namespace LightBetweenCultures
             if(Environment.GetCommandLineArgs().Contains("--final-ux-qa")){yield return FinalUXJourney();yield break;}
             if(Environment.GetCommandLineArgs().Contains("--hue-snap-qa")){yield return HueSnapJourney();yield break;}
             if(Environment.GetCommandLineArgs().Contains("--shop-toolbar-qa")){yield return ShopToolbarJourney();yield break;}
-            if(Environment.GetCommandLineArgs().Contains("--appearance-qa")){yield return AppearanceJourney();yield break;}
+            if(Environment.GetCommandLineArgs().Contains("--appearance-qa"))throw new NotSupportedException("The historical 20261021 before/after fixture is archived; use current catalog and UI journeys.");
             if(Environment.GetCommandLineArgs().Contains("--journey-shop-qa")){yield return JourneyShopJourney();yield break;}
             if(Environment.GetCommandLineArgs().Contains("--gel-buttons-qa")){yield return GelButtonsJourney();yield break;}
             if(Environment.GetCommandLineArgs().Contains("--npc-standing-qa")){yield return NpcStandingJourney();yield break;}

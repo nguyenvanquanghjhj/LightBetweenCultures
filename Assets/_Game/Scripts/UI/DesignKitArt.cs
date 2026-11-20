@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 namespace LightBetweenCultures
 {
@@ -21,7 +21,7 @@ namespace LightBetweenCultures
         public Sprite available, current, visited, locked;
         public Sprite npc, quest, item, enemy, puzzle, portal, secret;
 
-        public static DesignKitArt Load() => Resources.Load<DesignKitArt>("DesignKitArt");
+        public static DesignKitArt Load() => Resources.Load<DesignKitArt>("Catalogs/DesignKitArt");
         public static readonly Color Ink = Hex("224C65");
         public static readonly Color Cream = Hex("FFF3D9");
         public static readonly Color Gold = Hex("E7A53F");

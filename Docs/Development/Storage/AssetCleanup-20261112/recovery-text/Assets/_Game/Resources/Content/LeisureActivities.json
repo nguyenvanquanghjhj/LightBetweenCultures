@@ -1,0 +1,292 @@
+{
+  "entries": [
+    {
+      "id": "leisure_hoian_swing",
+      "cityId": "hoi_an",
+      "nodeId": "H9",
+      "title": "Chơi xích đu",
+      "spritePath": "LeisureProps/HoiAn_Swing",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "POSE_ART_PENDING",
+      "mechanic": "swing",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.112,
+        "y": 0.762
+      }
+    },
+    {
+      "id": "leisure_hoian_lanternrelease_stand",
+      "cityId": "hoi_an",
+      "nodeId": "H16",
+      "title": "Thả hoa đăng",
+      "spritePath": "LeisureProps/HoiAn_LanternRelease_Stand",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "LIMITED_CANONICAL_TRANSFORM",
+      "mechanic": "release",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.71,
+        "y": 0.25
+      }
+    },
+    {
+      "id": "leisure_hue_pedalswanboat",
+      "cityId": "hue",
+      "nodeId": "U0",
+      "title": "Đạp thuyền vịt",
+      "spritePath": "LeisureProps/Hue_PedalSwanBoat",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "POSE_ART_PENDING",
+      "mechanic": "boat",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.373,
+        "y": 0.54
+      }
+    },
+    {
+      "id": "leisure_hue_thronereplica",
+      "cityId": "hue",
+      "nodeId": "U8",
+      "title": "Ngồi ngai vàng",
+      "spritePath": "LeisureProps/Hue_ThroneReplica",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "POSE_ART_PENDING",
+      "mechanic": "seat",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.69,
+        "y": 0.79
+      }
+    },
+    {
+      "id": "leisure_dalat_strawberrypatch",
+      "cityId": "da_lat",
+      "nodeId": "D13",
+      "title": "Hái dâu",
+      "spritePath": "LeisureProps/DaLat_StrawberryPatch",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "LIMITED_CANONICAL_TRANSFORM",
+      "mechanic": "pick",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.775,
+        "y": 0.526
+      }
+    },
+    {
+      "id": "leisure_dalat_kiterack",
+      "cityId": "da_lat",
+      "nodeId": "D9",
+      "title": "Thả diều",
+      "spritePath": "LeisureProps/DaLat_KiteRack",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "LIMITED_CANONICAL_TRANSFORM",
+      "mechanic": "fly",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.185,
+        "y": 0.854
+      }
+    },
+    {
+      "id": "leisure_jeonju_wateringcan_garden",
+      "cityId": "jeonju",
+      "nodeId": "J13",
+      "title": "Tưới cây",
+      "spritePath": "LeisureProps/Jeonju_WateringCan_Garden",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "POSE_ART_PENDING",
+      "mechanic": "water",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.532,
+        "y": 0.794
+      }
+    },
+    {
+      "id": "leisure_jeonju_teatable",
+      "cityId": "jeonju",
+      "nodeId": "J15",
+      "title": "Thưởng trà",
+      "spritePath": "LeisureProps/Jeonju_TeaTable",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "POSE_ART_PENDING",
+      "mechanic": "tea",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.715,
+        "y": 0.282
+      }
+    },
+    {
+      "id": "leisure_gyeongju_bellexhibit",
+      "cityId": "gyeongju",
+      "nodeId": "G10",
+      "title": "Đánh chuông",
+      "spritePath": "LeisureProps/Gyeongju_BellExhibit",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "LIMITED_CANONICAL_TRANSFORM",
+      "mechanic": "bell",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.836,
+        "y": 0.791
+      }
+    },
+    {
+      "id": "leisure_gyeongju_wishtags",
+      "cityId": "gyeongju",
+      "nodeId": "G11",
+      "title": "Treo thẻ ước nguyện",
+      "spritePath": "LeisureProps/Gyeongju_WishTags",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "LIMITED_CANONICAL_TRANSFORM",
+      "mechanic": "wish",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.57,
+        "y": 0.455
+      }
+    },
+    {
+      "id": "leisure_seoul_tteokbokkistall",
+      "cityId": "seoul",
+      "nodeId": "S1",
+      "title": "Ăn tteokbokki",
+      "spritePath": "LeisureProps/Seoul_TteokbokkiStall",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "POSE_ART_PENDING",
+      "mechanic": "snack",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.558,
+        "y": 0.465
+      }
+    },
+    {
+      "id": "leisure_seoul_kpopstage",
+      "cityId": "seoul",
+      "nodeId": "S7",
+      "title": "Nhảy K-pop",
+      "spritePath": "LeisureProps/Seoul_KpopStage",
+      "enabled": true,
+      "mapSize": {
+        "x": 27,
+        "y": 30
+      },
+      "offset": {
+        "x": -0.035,
+        "y": -0.012
+      },
+      "duration": 4,
+      "poseStatus": "POSE_ART_PENDING",
+      "mechanic": "dance",
+      "hasMapPosition": true,
+      "mapPosition": {
+        "x": 0.797,
+        "y": 0.516
+      }
+    }
+  ]
+}

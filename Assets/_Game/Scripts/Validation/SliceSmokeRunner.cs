@@ -1,4 +1,4 @@
-﻿#if UNITY_EDITOR || DEVELOPMENT_BUILD
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -36,7 +36,7 @@ namespace LightBetweenCultures
         private void Awake()
         {
             DontDestroyOnLoad(gameObject);
-            output=Path.GetFullPath(Path.Combine(Application.dataPath,"..","Validation","M01-20261016-0600")); Directory.CreateDirectory(output);
+            output=Path.GetFullPath(Path.Combine(Application.dataPath,"..","../_LBC_WORK/QA/LightBetweenCultures","M01-20261016-0600")); Directory.CreateDirectory(output);
             SaveSystem.OverridePath=Path.Combine(output,"smoke-save.json");
             Application.logMessageReceived+=OnLog;
             Application.runInBackground=true;

@@ -17,9 +17,9 @@ NPC01:57 assertions PASS trong earned postgame copy; bốn target captures dư�
 
 | Role / node | Ảnh runtime mới |
 |---|---|
-| Curator S2 | [runtime](../../Validation/RelicPilot-20261018/NPC01/NPC-S2-npc_curator.png) |
-| Engineer S11 | [runtime](../../Validation/RelicPilot-20261018/NPC01/NPC-S11-npc_engineer.png) |
-| Keeper G9 | [runtime](../../Validation/RelicPilot-20261018/NPC01/NPC-G9-npc_keeper.png) |
-| Inscription G14 | [runtime](../../Validation/RelicPilot-20261018/NPC01/NPC-G14-npc_inscription.png) |
+| Curator S2 | [runtime](../../../_LBC_ARCHIVE/HistoricalQA/Validation/RelicPilot-20261018/NPC01/NPC-S2-npc_curator.png) |
+| Engineer S11 | [runtime](../../../_LBC_ARCHIVE/HistoricalQA/Validation/RelicPilot-20261018/NPC01/NPC-S11-npc_engineer.png) |
+| Keeper G9 | [runtime](../../../_LBC_ARCHIVE/HistoricalQA/Validation/RelicPilot-20261018/NPC01/NPC-G9-npc_keeper.png) |
+| Inscription G14 | [runtime](../../../_LBC_ARCHIVE/HistoricalQA/Validation/RelicPilot-20261018/NPC01/NPC-G14-npc_inscription.png) |
 
 Đã mở xem cả bốn ảnh: nhân vật riêng đúng binding/speaker theo data hiện tại, đủ đầu/tay/chân, giữ tỷ lệ, không nền trắng, không che nút. Keeper/Inscription vẫn dùng speaker/location text hiện hành, không tự viết lại nhân vật/cốt truyện. Curator–Inscription có nét gần nhau; **NEEDS_USER_VISUAL_REVIEW**, không tự kết luận identity conflict hoặc approved vì khác GUID. Giữ9 canonical và12 unconfirmed khác byte-equivalent trong registry identity records. Không tạo map actor mới.

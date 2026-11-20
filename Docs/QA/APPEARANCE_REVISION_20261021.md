@@ -1,6 +1,6 @@
 # Artwork checkpoint — 21/10/2026
 
-Windows focused runtime: **297 checks PASS**, 540×960. [Before/after gallery](../../Validation/NpcAppearance-20261021/gallery.html) · [test results](../../Validation/NpcAppearance-20261021/final01/restart-results.txt) · [exact changed source files](../../Validation/NpcAppearance-20261021/modified-files.txt).
+Windows focused runtime: **297 checks PASS**, 540×960. [Before/after gallery](../../../_LBC_ARCHIVE/HistoricalQA/Validation/NpcAppearance-20261021/gallery.html) · [test results](../../../_LBC_ARCHIVE/HistoricalQA/Validation/NpcAppearance-20261021/final01/restart-results.txt) · [exact changed source files](../../../_LBC_ARCHIVE/HistoricalQA/Validation/NpcAppearance-20261021/modified-files.txt).
 
 | Identity | Placement | New map + portrait asset |
 |---|---|---|
@@ -12,7 +12,7 @@ Matched old sprites visually and by native GUID/local ID, then reconciled identi
 
 Lumi: exact owner-approved existing `Assets/_Game/Art/Characters/Lumi/Lumi_MapTraveler.png`, sprite `Lumi_MapTraveler`. All five serialized Lumi roles and both prefabs use it. Six City Maps, World Map transitions, main menu, H3, guide, combat presentation and all 12 leisure views were exercised. Seat/wing/feet/beak presentation landmarks were updated for this pose. The collider, .88-unit H3 display height, node click targets and movement/route source remain unchanged. Signature/fragment/story/ending/ceremony/credits callers were source-audited through the same canonical roles; full ending was not replayed.
 
-Source audit: **859 original files unchanged**, including all original PNGs, six map backgrounds, canonical quest/save/combat data and route geometry. Full `AdventureUIArt` outside the three NPC entries is semantically identical (Unity normalized some equivalent Unicode escapes). [Audit](../../Validation/NpcAppearance-20261021/source-audit.json).
+Source audit: **859 original files unchanged**, including all original PNGs, six map backgrounds, canonical quest/save/combat data and route geometry. Full `AdventureUIArt` outside the three NPC entries is semantically identical (Unity normalized some equivalent Unicode escapes). [Audit](../../../_LBC_ARCHIVE/HistoricalQA/Validation/NpcAppearance-20261021/source-audit.json).
 
 Limits: NPC cutouts were derived with imagegen, not pixel-identical background matting. The supplied Hana source cuts off the skirt bottom; the extraction rounded the hem slightly and needs owner visual approval. Elder feet are hidden by the hanbok. Quest completion end-to-end, Android device testing and the canonical ending were not repeated for this artwork-only revision. No Android APK was built or changed. This is automated focused runtime QA, not a blind human playtest.
 

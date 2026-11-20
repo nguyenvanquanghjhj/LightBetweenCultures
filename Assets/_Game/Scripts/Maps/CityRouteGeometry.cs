@@ -25,14 +25,14 @@ namespace LightBetweenCultures
         public static string Travel(GameData data,int from,int to)
         {
             foreach(var edge in data.edges)
-                if(edge.from==from&&edge.to==to||edge.from==to&&edge.to==from)return edge.travel=="ferry"?"ferry":"walk";
+                if(EndpointsMatchEitherWay(edge,from,to))return edge.travel=="ferry"?"ferry":"walk";
             return "walk";
         }
         public static List<Vector2> Points(GameData data, int from, int to)
         {
             foreach (var edge in data.edges)
             {
-                if (!(edge.from == from && edge.to == to || edge.to == from && edge.from == to)) continue;
+                if (!EndpointsMatchEitherWay(edge,from,to)) continue;
                 var points = new List<Vector2> { Arrival(data.nodes[edge.from]) };
                 if (edge.bends != null) points.AddRange(edge.bends);
                 points.Add(Arrival(data.nodes[edge.to]));
@@ -41,6 +41,8 @@ namespace LightBetweenCultures
             }
             return null;
         }
+        private static bool EndpointsMatchEitherWay(EdgeData edge,int from,int to)
+            =>(edge.from==from&&edge.to==to)||(edge.from==to&&edge.to==from);
         public static float Length(List<Vector2> points, Vector2 size)
         {
             float length = 0;

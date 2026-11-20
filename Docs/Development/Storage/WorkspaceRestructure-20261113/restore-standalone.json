@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "verifiedFiles": 2679,
+  "restoreOrder": [
+    {
+      "manifest": "D:\\GAMEKKK\\_LBC_ARCHIVE\\Backups\\LBC_SourceVerified-20261020\\SOURCE_MANIFEST.json",
+      "sha256": "53305d534a5d5c5860003f6526d730cd412a0294a1f8c7b52831b74a54ace7a6",
+      "deletedPaths": []
+    }
+  ],
+  "issues": [],
+  "meaning": "Read-only existing checkpoint/base hash verification, not a restore rehearsal"
+}

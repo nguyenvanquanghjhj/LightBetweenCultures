@@ -29,8 +29,8 @@ namespace LightBetweenCultures.Editor
             var old=new SaveData{cityId="hoi_an",coins=17};old.completed.Add("HQ04");old.flags.Add("hoi_an.ferry_available");old.rewardGrantIds.Add("shop:v1:unlock:HQ04");old.rewardGrantIds.Add("shop:v1:purchase:00000000-0000-0000-0000-000000000001");
             var restored=JsonUtility.FromJson<SaveData>(JsonUtility.ToJson(old));
             Check(restored.coins==17&&restored.completed.SequenceEqual(old.completed)&&restored.flags.SequenceEqual(old.flags)&&restored.rewardGrantIds.SequenceEqual(old.rewardGrantIds),"Historical paid state and both receipts remain serializable unchanged");
-            Directory.CreateDirectory("Validation/AndroidAutoPlay-20261024");
-            File.WriteAllLines("Validation/AndroidAutoPlay-20261024/ferry-focused-checks.txt",checks);
+            Directory.CreateDirectory("../_LBC_ARCHIVE/HistoricalQA/Validation/AndroidAutoPlay-20261024");
+            File.WriteAllLines("../_LBC_ARCHIVE/HistoricalQA/Validation/AndroidAutoPlay-20261024/ferry-focused-checks.txt",checks);
         }
     }
 }

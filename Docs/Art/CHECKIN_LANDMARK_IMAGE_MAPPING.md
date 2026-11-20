@@ -46,6 +46,6 @@
 | 17_seoul_S10_chan_thap_n_seoul.png | 1/3/6 | 450×756 → 446×750 | 3bc3df9f61adb74429d57747026c401f / 21300000 |
 | 18_seoul_S18_role_anh_den_hanji.png | 0/0/6 | 450×756 → 450×750 | 506b1e7dde280494cbce489125f17063 / 21300000 |
 
-[Mapping JSON đầy đủ, source hashes và ảnh runtime](../Gameplay/CheckInArt-20261018/verified-mapping.json) · [18 cặp native/thumbnail trước–sau](../../Validation/CheckInArt-20261018/DerivedReview/index.html) · [Gallery runtime](../Gameplay/CheckInArt-20261018/RuntimeReview.html).
+[Mapping JSON đầy đủ, source hashes và ảnh runtime](../Development/Gameplay/CheckInArt-20261018/verified-mapping.json) · [18 cặp native/thumbnail trước–sau](../../../_LBC_ARCHIVE/HistoricalQA/Validation/CheckInArt-20261018/DerivedReview/index.html) · [Gallery runtime](../Development/Gameplay/CheckInArt-20261018/RuntimeReview.html).
 
 LIMITED_SOURCE_RESOLUTION: nguồn450px ngang đã upscale/sharpen từ collage theo README của gói; không có chi tiết high-resolution mới. UI fit aspect, ảnh lớn thực tế khoảng360–400px ngang trên màn540px, không kéo lên fullscreen ngang. Không tự ghi FINAL_ART_APPROVED; cần người dùng duyệt crop, sắc nét và bố cục Unity.
