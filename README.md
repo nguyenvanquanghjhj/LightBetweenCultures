@@ -6,7 +6,7 @@ Game phiêu lưu 2D nối văn hóa Việt Nam và Hàn Quốc qua Hội An, Hu�
 
 Source được giữ để tiếp tục phát triển. Đây chưa phải bản nghiệm thu toàn bộ gameplay hoặc Android trên thiết bị. Bản nộp Windows/APK 11/11/2026 được giữ nguyên; chúng không tự cập nhật theo source sau tái cấu trúc 13/11.
 
-- [Repository chính](https://github.com/nguyenvanquanghjhj/LightBetweenCultures), nhánh `main`, tag đóng băng dự kiến `lbc-final-archive-2026`.
+- [Repository chính](https://github.com/nguyenvanquanghjhj/LightBetweenCultures), nhánh `main`, tag đóng băng dự kiến `lbc-final-archive-2026-r1`.
 - [Releases source](https://github.com/nguyenvanquanghjhj/LightBetweenCultures/releases).
 - [Kho archive private](https://github.com/nguyenvanquanghjhj/LightBetweenCultures-archive): checkpoint, backup, build, bản nộp, bản nháp và QA. Cần tài khoản có quyền truy cập.
 - [Hướng dẫn khôi phục](Docs/Release/RESTORE_FINAL_2026.md), [kiến trúc](Docs/Architecture/ARCHIVE_OVERVIEW_2026.md), [hồ sơ kiểm chứng cuối](Docs/Development/Storage/FinalArchive-20261120/).
@@ -22,7 +22,7 @@ Giữ [manifest.json](Packages/manifest.json) và [packages-lock.json](Packages/
 ```powershell
 git clone https://github.com/nguyenvanquanghjhj/LightBetweenCultures.git
 cd LightBetweenCultures
-git checkout lbc-final-archive-2026
+git checkout lbc-final-archive-2026-r1
 ```
 
 Mở thư mục clone bằng Unity Hub với đúng phiên bản, chờ import/C# compile. Mở `Assets/_Game/Scenes/Prototype.unity`, nhấn Play. Giữ thứ tự scene trong Build Settings. Không chạy generator Phase/setup/import để khởi động project đã có dữ liệu. Save thật: `Application.persistentDataPath/hoi-an-v1.json`; giữ bản sao riêng trước khi thử.

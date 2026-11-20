@@ -76,10 +76,12 @@ def historical():
     save(UPLOAD/'HISTORICAL_ARCHIVE_MANIFEST.json', dict(archives=archives, exclusions=exclusions, independentZips=True, restore='Extract all independent ZIPs into one empty workspace; do not concatenate ZIP files.'))
 
 
-def source(tag):
+def source(tag, suffix):
     UPLOAD.mkdir(parents=True, exist_ok=True)
-    target = UPLOAD/'LightBetweenCultures_Source_Final_2026.zip'
-    bundle = UPLOAD/'LightBetweenCultures_GitHistory_2026.bundle'
+    if suffix and (not suffix.startswith('_') or any(c not in '_-abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789' for c in suffix)):
+        raise SystemExit('Archive suffix must be a simple filename suffix')
+    target = UPLOAD/('LightBetweenCultures_Source_Final_2026'+suffix+'.zip')
+    bundle = UPLOAD/('LightBetweenCultures_GitHistory_2026'+suffix+'.bundle')
     if target.exists() or bundle.exists():
         raise SystemExit('Existing final source archive is protected')
     command = ['git','-c','safe.directory='+PROJECT.as_posix(),'-C',str(PROJECT)]
@@ -98,6 +100,8 @@ def source(tag):
     public = dict(tag=tag,commit=commit,archives=[dict(name=target.name,bytes=target.stat().st_size,sha256=sha(target),files=len(entries))])
     private = json.loads((UPLOAD/'HISTORICAL_ARCHIVE_MANIFEST.json').read_text(encoding='utf-8'))
     private['gitHistory'] = dict(name=bundle.name,bytes=bundle.stat().st_size,sha256=sha(bundle))
+    private['sourceCommit']=commit
+    private['sourceTag']=tag
     save(UPLOAD/'SOURCE_ARCHIVE_MANIFEST.json',public)
     save(UPLOAD/'HISTORICAL_ARCHIVE_MANIFEST.json',private)
     all_files = public['archives']+private['archives']+[private['gitHistory']]
@@ -132,10 +136,11 @@ def extract_verify(path, destination):
 if __name__ == '__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode',choices=['historical','source','verify'])
-    parser.add_argument('--tag',default='lbc-final-archive-2026')
+    parser.add_argument('--tag',default='lbc-final-archive-2026-r1')
+    parser.add_argument('--suffix',default='_r1')
     parser.add_argument('--file',type=Path)
     parser.add_argument('--destination',type=Path)
     args=parser.parse_args()
     if args.mode=='historical':historical()
-    elif args.mode=='source':source(args.tag)
+    elif args.mode=='source':source(args.tag,args.suffix)
     else:print(json.dumps(extract_verify(args.file,args.destination),indent=2))

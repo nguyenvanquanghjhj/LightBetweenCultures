@@ -19,7 +19,7 @@
     },
     "Docs": {
       "files": 723,
-      "bytes": 159810929
+      "bytes": 159454243
     },
     "Packages": {
       "files": 2,
@@ -31,11 +31,11 @@
     },
     "README.md": {
       "files": 1,
-      "bytes": 5885
+      "bytes": 5891
     },
     "Tools": {
       "files": 84,
-      "bytes": 67587723
+      "bytes": 67589337
     }
   },
   "largeFiles": [],
@@ -44,7 +44,5 @@
   "orphanMeta": [],
   "duplicateGuids": [],
   "ignoredRequired": [],
-  "deletedPaths": [
-    "Docs/Development/Storage/FinalArchive-20261120/git-stage-log.txt"
-  ]
+  "deletedPaths": []
 }

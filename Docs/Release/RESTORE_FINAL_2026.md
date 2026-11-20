@@ -1,7 +1,7 @@
 # Khôi phục Light Between Cultures — 2026
 
 1. Cài Unity Hub và Unity 6000.6.5f1 (3ff58d469c8a); Windows Build Support, Android Build Support/SDK/NDK/OpenJDK nếu cần. Lần đầu giữ nguyên phiên bản Editor/package.
-2. Clone repository chính, checkout `lbc-final-archive-2026`. Bắt buộc giữ `Assets` và `.meta`, `Packages/manifest.json`, `Packages/packages-lock.json`, `ProjectSettings`. Nếu bản sau dùng LFS, chạy `git lfs pull` và `git lfs fsck`; lần lưu trữ này không cần LFS khi mọi file source dưới 100 MiB.
+2. Clone repository chính, checkout `lbc-final-archive-2026-r1`. Bắt buộc giữ `Assets` và `.meta`, `Packages/manifest.json`, `Packages/packages-lock.json`, `ProjectSettings`. Nếu bản sau dùng LFS, chạy `git lfs pull` và `git lfs fsck`; lần lưu trữ này không cần LFS khi mọi file source dưới 100 MiB.
 3. Lịch sử/build nằm tại <https://github.com/nguyenvanquanghjhj/LightBetweenCultures-archive/releases>, cần tài khoản có quyền. Tải đủ ZIP và manifest. ZIP là archive độc lập theo nhóm, không nối byte. Giải nén tất cả vào một workspace trống, giữ prefix `_LBC_ARCHIVE`, `_LBC_DELIVERABLES`, `_LBC_WORK`; source giải nén vào project riêng.
 4. Kiểm tra ZIP bằng `Get-FileHash -Algorithm SHA256 -LiteralPath '<archive.zip>'` với `SHA256SUMS.txt`/manifest JSON. Kiểm tra file giải nén với manifest nội bộ. Không chạy tự động `RESTORE.bat` hoặc script mutation lịch sử.
 5. Git history bundle: `git bundle verify LightBetweenCultures_GitHistory_2026.bundle`, rồi `git clone <file.bundle> RestoredHistory`. Bundle giữ refs khi đóng gói, không force push lên repository khác.

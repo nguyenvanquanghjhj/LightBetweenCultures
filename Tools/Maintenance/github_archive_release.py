@@ -58,28 +58,39 @@ def request(path, credential, payload=None, method=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('mode', choices=['auth', 'ensure-private', 'upload', 'download', 'publish', 'inspect'])
+    parser.add_argument('mode', choices=['auth', 'ensure-private', 'upload', 'download', 'publish', 'inspect', 'configure'])
     parser.add_argument('--repository', default=REPO)
-    parser.add_argument('--tag', default='lbc-final-archive-2026')
+    parser.add_argument('--tag', default='lbc-final-archive-2026-r1')
     parser.add_argument('--commit', default='main')
     parser.add_argument('--kind', choices=['historical-zips','private-metadata','source'], default='source')
     parser.add_argument('--directory', type=Path)
     parser.add_argument('--output', type=Path)
     parser.add_argument('--notes', type=Path)
     parser.add_argument('--names', nargs='+')
+    parser.add_argument('--release-id', type=int)
+    parser.add_argument('--new-tag')
+    parser.add_argument('--title')
     args = parser.parse_args()
     credential = token()
-    if args.mode in ['upload', 'download', 'publish', 'inspect']:
+    if args.mode in ['upload', 'download', 'publish', 'inspect', 'configure']:
         repo = request('/repos/'+args.repository, credential)
         if args.repository.endswith('-archive') and not repo['private']:
             raise SystemExit('Historical repository must remain private')
         api='/repos/'+args.repository+'/releases'
         try:
-            release=request(api+'/tags/'+args.tag,credential)
+            release=request(api+'/'+str(args.release_id) if args.release_id else api+'/tags/'+args.tag,credential)
         except urllib.error.HTTPError as error:
-            if error.code!=404 or args.mode!='upload':
+            if error.code!=404 or args.release_id:
                 raise
-            release=request(api,credential,dict(tag_name=args.tag,target_commitish=args.commit,name='Light Between Cultures — Final archive 2026',draft=True,prerelease=False,
+            drafts=[r for r in request(api+'?per_page=100',credential) if r['tag_name']==args.tag]
+            if len(drafts)>1:
+                raise SystemExit('Multiple existing drafts use this tag; select --release-id explicitly. No new release created.')
+            if drafts:
+                release=drafts[0]
+            elif args.mode!='upload':
+                raise SystemExit('No matching published release or draft')
+            else:
+                release=request(api,credential,dict(tag_name=args.tag,target_commitish=args.commit,name=args.title or 'Light Between Cultures — Final archive 2026',draft=True,prerelease=False,
                             body='Owner-authorized archival snapshot. Verification and immutable artifact checksums will be attached. Source: https://github.com/'+REPO+'/tree/'+args.tag))
         if args.mode=='upload':
             if args.names:
@@ -87,9 +98,11 @@ def main():
             elif args.kind=='historical-zips':
                 paths=sorted(p for p in args.directory.glob('LightBetweenCultures_*.zip') if 'Source_Final' not in p.name)
             elif args.kind=='private-metadata':
-                paths=[args.directory/n for n in ['LightBetweenCultures_GitHistory_2026.bundle','HISTORICAL_ARCHIVE_MANIFEST.json','SHA256SUMS.txt']]
+                manifest=json.loads((args.directory/'HISTORICAL_ARCHIVE_MANIFEST.json').read_text(encoding='utf-8'))
+                paths=[args.directory/n for n in [manifest['gitHistory']['name'],'HISTORICAL_ARCHIVE_MANIFEST.json','SHA256SUMS.txt']]
             else:
-                paths=[args.directory/n for n in ['LightBetweenCultures_Source_Final_2026.zip','SOURCE_ARCHIVE_MANIFEST.json']]
+                manifest=json.loads((args.directory/'SOURCE_ARCHIVE_MANIFEST.json').read_text(encoding='utf-8'))
+                paths=[args.directory/r['name'] for r in manifest['archives']]+[args.directory/'SOURCE_ARCHIVE_MANIFEST.json']
             existing={a['name']:a for a in request(api+'/'+str(release['id'])+'/assets?per_page=100',credential)}
             for path in paths:
                 size=path.stat().st_size
@@ -137,6 +150,12 @@ def main():
         elif args.mode=='publish':
             body=args.notes.read_text(encoding='utf-8-sig') if args.notes else release['body']
             release=request(api+'/'+str(release['id']),credential,dict(draft=False,body=body),method='PATCH')
+        elif args.mode=='configure':
+            payload={}
+            if args.new_tag:payload['tag_name']=args.new_tag
+            if args.title:payload['name']=args.title
+            if args.notes:payload['body']=args.notes.read_text(encoding='utf-8-sig')
+            release=request(api+'/'+str(release['id']),credential,payload,method='PATCH')
         print(json.dumps(dict(release=release['html_url'],draft=release['draft'],tag=release['tag_name'],assets=[dict(name=a['name'],bytes=a['size'],digest=a.get('digest'),url=a['browser_download_url']) for a in request(api+'/'+str(release['id'])+'/assets?per_page=100',credential)]),indent=2),flush=True)
         return
     user = request('/user', credential)
